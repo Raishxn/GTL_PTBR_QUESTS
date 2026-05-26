@@ -1,0 +1,2384 @@
+{
+	autofocus_id: "0442EAC847F91FED"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "3089CFAC771F1116"
+	group: ""
+	icon: {
+		Count: 1
+		id: "avaritia:infinity_totem"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3089CFAC771F1116"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&a&l▌ Guia do módulo de bens privados"
+				"&7Este pacote de integração adiciona um grande número de módulos de expansão. Este capítulo irá guiá-lo na compreensão e aplicação dessas novas adições."
+				""
+				"&e&l▌ Sugestões de navegação"
+				"&7 É altamente recomendável que ao atingir cada nova etapa tecnológica você retorne aqui para visualizar as novas máquinas e blocos funcionais disponíveis nessa etapa."
+				""
+				"&e&l▌ Nota"
+				"&7As máquinas não estão em uma ordem específica e são classificadas apenas por conveniência."
+			]
+			icon: "gtceu:opv_field_generator"
+			icon_scale: 2.0d
+			id: "0442EAC847F91FED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BC0DB943A226734"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 3.0d
+			tasks: [
+				{
+					id: "49691A1C21E0499B"
+					title: "Módulo de expansão GTL"
+					type: "checkmark"
+				}
+			]
+			x: -24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F61FBBCF28E1327"]
+			description: [
+				"&9&lGTL-Extend &fMáquina a vapor de uso geral"
+				""
+				"&7▌ Função:"
+				"&lA máquina vem com um paralelismo padrão de 16384"
+				"&lO tempo de processamento de todas as receitas é de 10 ticks"
+				"&l ignora o nível de tensão de qualquer receita"
+				"&l pode instalar compartimento de manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Após selecionar o modo após a formação desta máquina, é recomendado remover qualquer bloco e deixá-lo se reformar, caso contrário será avisado que a entrada de energia é insuficiente ou a fórmula não pode ser encontrada."
+				""
+				"&l&6No pacote de integração GTL, a maioria das máquinas que rodam no Steam no estágio Steam apresentam bugs de desligamento inexplicáveis. Recomenda-se abandonar o uso deste tipo de máquina no estágio IV."
+			]
+			id: "590A215AF01C991A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "373B7FB2314C24ED"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1A2824834947A003"
+					item: "gtl_extend:general_purpose_steam_engine"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5CD0A0B4C93C7095"]
+			description: [
+				"&9&lGTL-Extend「Centro Integrado de Processamento de Minério Steam」"
+				"&7 é uma excelente escolha de transição no estágio inicial e pode ser usado de forma estável até o grande estágio OP."
+				""
+				"&7▌ Função:"
+				"&l é extremamente econômico no estágio inicial e a velocidade de processamento é comparável à velocidade total do pequeno OP"
+				""
+				"&7▌ Sugestões:"
+				"&l&6A porta de entrada deve ser colocada próxima à lateral do bloco principal"
+				"&l&6A porta de entrada de vapor deve estar localizada no lado esquerdo do bloco principal onde não há bloco principal."
+				"&l&6A porta de saída deve estar localizada no lado esquerdo da estrutura geral da máquina"
+			]
+			id: "268081943FE199AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FEF7A3541F2C48D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DA969D0FE6A98CC"
+					item: "gtl_extend:steam_integrated_ore_processing_center"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:ev_universal_circuit"
+			id: "120E8178AD307769"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3832523B19D6404D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "377483E42064216B"
+					title: "EV"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:uhv_universal_circuit"
+			id: "639BE904FFDCED52"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43CDC931B6A8F161"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "31918D1FA6637772"
+					title: "UHV"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["145D5881FE33488E"]
+			description: [
+				"&9&lGTL-Extend「Computador Quântico」"
+				""
+				"&7▌ Função:"
+				"A faixa básica de potência de computação de &l é &e1024 ~ 2.147.483.647 CWU/t"
+				"&l A temperatura da bobina (1K ~ 96000K) e a configuração do circuito (Nº 1-8) afetam cada um o poder de computação final de &650%&7"
+				"&lO poder de computação final é determinado pela fórmula: 1024 + (MAX_INT-1024) × [0,5×(temperatura/96000) + 0,5×(circuito/8)]"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 O consumo de energia aumenta exponencialmente com a potência computacional, atingindo o nível de &c10^20 EU/t&6. Certifique-se de planejar bem o seu poder."
+				"&l&6 Cada vez que &e1M CWU/t&6 é gerado, a potência de computação precisa consumir &b1L/t Gelo Extremamente Frio&6 para resfriamento. Se for insuficiente, a máquina será desligada."
+				"&l&6 precisa estar vinculado ao player &6 rede sem fio &6 fornece energia e consome automaticamente o líquido refrigerante do recipiente de fluido na estrutura"
+				"Depois que &l&6 é formado, ele deve ser vinculado a um armazém de destino de computação sem fio &6 &6 (precisa ser usado com um switch) com memória flash antes de poder ser iniciado."
+				"&l&6Bobinas avançadas e configurações de circuito alto não são recomendadas no estágio UHV e a potência pode não ser capaz de suportá-lo."
+			]
+			id: "3B9EDD3E5387ABFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06DF79747C5A80BE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0E8666BEC51547E8"
+					item: "gtl_extend:quantum_computer"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:iv_universal_circuit"
+			id: "2167BC4CA329EFC6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57F8AC9FE454F0E8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0FF48F1E563BBFE3"
+					title: "IV"
+					type: "checkmark"
+				}
+			]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AB57CAF04BAF3E8"]
+			description: [
+				"&9&lGTL-Extend「Grande colapso do vazio」"
+				"&c&lUma única unidade pode atender às suas necessidades de fluidos"
+				""
+				"&7▌ Função:"
+				"&l gera uma grande quantidade correspondente de fluido do nada com base no código do circuito de entrada."
+				"&l Algumas receitas são limitadas quando apenas o núcleo mundial está disponível. Todas as receitas são desbloqueadas após possuir o núcleo da dimensão."
+				""
+				"&7▌ Sugestões:"
+				"&l&6O consumo de energia é extremamente exagerado. Certifique-se de garantir geração de energia suficiente, caso contrário, não conecte à câmara alvo do laser."
+			]
+			id: "4766E2A0AB067C9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34A723EEB6B1B081"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "71BECC7455FD7F1B"
+					item: "gtl_extend:large_void_pump"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:luv_universal_circuit"
+			id: "4364E6CB1ACEC00F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B5ED80D065BBB78"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "0DD29B4AE03D6544"
+					title: "LUV"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:mv_universal_circuit"
+			id: "5CD0A0B4C93C7095"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EB8CAA0F8F5974B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "5EA12881474A4CEC"
+					title: "MV"
+					type: "checkmark"
+				}
+			]
+			x: -16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5CD0A0B4C93C7095"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			icon: "gtl_extend:mv_primitive_magic_energy"
+			id: "51EA3BA3C7BB9D5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "005B5040E219C32D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "761A4DE70E6AB0BD"
+					item: "gtl_extend:mv_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:hv_universal_circuit"
+			id: "4D36D924E80E8490"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F274C00FEEC734E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1CEE312A7D48B857"
+					title: "HV"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D36D924E80E8490"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			id: "4D4D66D6E271A91D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "749AEE2A6E614A73"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "56AB8ACCFCD65A51"
+					item: "gtl_extend:hv_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["120E8178AD307769"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			id: "6D13DB5E501F1253"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AA02B5CEBE7CEAB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7A22CDAC5074463B"
+					item: "gtl_extend:ev_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2167BC4CA329EFC6"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			id: "2F5C4C05FEDE84AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D0F0BDD1BD7A1BE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4EF974EB7DD0BC0B"
+					item: "gtl_extend:iv_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4364E6CB1ACEC00F"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			id: "7EEE61EBB4AACB12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DE161D416EF8942"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "49DC4F570A913571"
+					item: "gtl_extend:luv_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:zpm_universal_circuit"
+			id: "4AB57CAF04BAF3E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A25225C5B95725D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "38183D47DB437C91"
+					title: "ZPM"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AB57CAF04BAF3E8"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			id: "4BE9C93AD30E29B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A4FF567804E5AE8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "00232B2683D4DEFE"
+					item: "gtl_extend:zpm_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:uv_universal_circuit"
+			id: "0CB9366F857D7D68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02C30291AA574E37"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "64C6185D547DC384"
+					title: "UV"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:uev_universal_circuit"
+			id: "145D5881FE33488E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74667CDD396CE47C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6982D166C51AE941"
+					title: "UEV"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:uiv_universal_circuit"
+			id: "18D5CE23D835D993"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7881BD18D44C6E92"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "03BD3E692B4CA0C7"
+					title: "UIV"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:uxv_universal_circuit"
+			id: "7749BA49C82FCAA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "487944DF7AB10FBC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6F5D211EC74CD572"
+					title: "UVX"
+					type: "checkmark"
+				}
+			]
+			title: "UXV"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:opv_universal_circuit"
+			id: "51F159DE8FA571CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48456CEFD9AB5F5A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "1417713DF25B7E38"
+					title: "OPV"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:max_universal_circuit"
+			id: "480AF64C4FF681FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16941BF71DB16E52"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "618AD32D2AA8E52D"
+					title: "MAX"
+					type: "checkmark"
+				}
+			]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0CB9366F857D7D68"]
+			description: [
+				"&9&lGTL-Extend「Forno de passagem de energia superfluida」"
+				""
+				"&7▌ Função:"
+				"&lO tempo de processamento de todas as receitas é fixado em &e1 segundos"
+				"&l Executa todas as receitas sem bobinas"
+				"&l pode executar várias receitas diferentes ao mesmo tempo"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 pode substituir completamente o superforno de fundição"
+			]
+			id: "5522CC27170D36CC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "798E06E56C076982"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6FB296C102175C5B"
+					item: "gtl_extend:superfluid_general_energy_furnace"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69799F6DE604C84B"]
+			description: [
+				"&9&lGTL-Extend「Disjuntor de tempo」"
+				""
+				"&7▌ Função:"
+				"&l Um substituto superior para o Manipulador Quântico que funciona sem eletricidade"
+				"&l reduz o consumo de probabilidade para &e10%&7, aumenta a probabilidade de saída para &a100%&7 e o multiplicador de saída é fixado em &c100 vezes"
+				"&l não pode usar qualquer forma de dispositivo de isolamento e não é compatível com a montagem da amostra"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Devido ao problema de lógica na construção da lâmpada, é necessário jogar a lâmpada no chão e usar o modo criativo para construí-la (recomenda-se entrar em contato com o OP no servidor)"
+				"&l&6Comparada com a Matriz Final de Ondas Quânticas em Ziguezague, esta máquina é mais barata de construir, não requer fornecimento de energia e tem uma produção cem vezes maior."
+			]
+			id: "2E11A3440EDB7305"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44EAE22D5C28834A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "627716A61B6C7CEE"
+					item: "gtl_extend:time_space_breaker"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["69799F6DE604C84B"]
+			description: [
+				"&9&lGTL-Extend「Descompressor de matéria de buraco negro」"
+				""
+				"&7▌ Função:"
+				"&l Edição aprimorada do Star Chart da Olimpíada de Matemática"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 consome muita energia. Recomenda-se fazer o Coração do Universo antes de considerá-lo."
+			]
+			id: "59548DA664CEC585"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A4A444C0DBFFE68"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "65707FB6DAA406B1"
+					item: "gtl_extend:black_hole_matter_decompressor"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["480AF64C4FF681FC"]
+			description: [
+				"&6&lGTLAdditions「Matriz sintética infinita de foco dimensional」"
+				""
+				"&7▌ Função:"
+				"&l pode ser instalado como um módulo para &6Manipulador Molecular &7, desbloqueando o modo de síntese infinita com &c paralelismo ilimitado &7 e o tempo de receita é fixado em &e1t"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Como construir: Coloque-o no meio da moldura oposta ao bloco principal do Manipulador Molecular"
+			]
+			id: "48A4A30B01BF14F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0762615942625BEB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2EFB4D208450F87A"
+					item: "gtladditions:dimension_focus_infinity_crafting_array"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["145D5881FE33488E"]
+			description: [
+				"&9&lGTLAdditions「Taixu Turbidity Array」"
+				""
+				"&7▌ Função:"
+				"&lO desempenho é determinado por uma combinação de nível alfa (recipiente térmico estelar), nível beta (bobina) e altura estrutural"
+				"&l&5UXV &7 Líquido amplificador UU de desbloqueio de tensão; &5MAX &7 Substância UU de desbloqueio de tensão"
+				"&lA eficiência de saída e a taxa de sucesso dependem do nível acima (e da tensão exigida pela substância UU)"
+				"&lTodas as receitas são corrigidas em &e5 segundos"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 consome muita energia e você precisa completar o sistema depois de ter uma estrela artificial."
+			]
+			id: "647F121432A82969"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EADBE77A4085508"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "735DD296F1E827EC"
+					item: "gtladditions:taixu_turbid_array"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7749BA49C82FCAA7"]
+			description: [
+				"&6&lGTLAdditions「Light Eclipse Dreamer」"
+				""
+				"&7▌ Função:"
+				"&l Máquina de gravação a laser versão a laser"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Um substituto completo de nível superior para matrizes de gravação a laser com foco dimensional"
+			]
+			id: "59946A9253531A55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37D36E31982FF1D2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "3C738162DC94E1EA"
+					item: "gtladditions:lucid_etchdreamer"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["639BE904FFDCED52"]
+			description: [
+				"&6&lGTLAdditions「Caixa Secreta」"
+				""
+				"&7▌ Função:"
+				"&lVersão laser da enfardadeira"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 é usado com o mecanismo de bifurcação da esfera celestial"
+			]
+			id: "3C6C3D5F113E7DF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "337BD11953474173"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "170CDEC6FC0B541B"
+					item: "gtladditions:arcane_cache_vault"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["51F159DE8FA571CF"]
+			description: [
+				"&6&lGTLAdditions「Star Gathering Hub/Nebula Reaper」"
+				""
+				"&7▌ Função:"
+				"&l Versão Laser do Módulo Elevador Espacial"
+				"&7▌ Sugestões:"
+				"&l&6O Star Dome Aggregation Hub tem um bug de desligamento e não é recomendado para uso."
+				""
+				"&l&6O Nebula Reaper está equipado com múltiplas portas de entrada e configurado com diferentes fórmulas, podendo coletar múltiplas fórmulas ao mesmo tempo."
+			]
+			id: "576BA39C8025B8AE"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B30DAFCDEA0A7A4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "7EE3D6A12015A9A6"
+					item: "gtladditions:astral_convergence_nexus"
+					type: "item"
+				}
+				{
+					id: "352354200E14C845"
+					item: "gtladditions:nebula_reaper"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4AB57CAF04BAF3E8"]
+			description: [
+				"&9&lGTLAdditions「Sala de simulação de dados biológicos」"
+				""
+				"&7 simula e gera saque através de ovos biológicos e biomassa"
+				""
+				"&7▌ Função:"
+				"&lColoque ovos biológicos e biomassa para produzir diretamente o saque biológico correspondente."
+				"A colônia de abelhas colocada em &l determina o número de processamento paralelo e a taxa de consumo de energia"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 é complementar ao mecanismo do matadouro e não pode substituir o matadouro. O matadouro original ainda precisa ser mantido."
+			]
+			id: "64C59DCC159688FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46D141092A857AAA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6B5515DEE9E0AF68"
+					item: "gtladditions:biological_simulation_laboratory"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["145D5881FE33488E"]
+			description: [
+				"&9&lGTLAdditions「Matriz Sifão Quântica」"
+				""
+				"&7▌ Função:"
+				"&lVersão laser de câmara de gás"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 usa a porta de entrada para configurá-la com diversas receitas de coleta de fluidos diferentes"
+				"&l&6Após a configuração ser concluída, vários fluidos podem ser coletados ao mesmo tempo sem comutação manual."
+			]
+			id: "2443AA617BD74EA5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11C02D1B0173CFB0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6F3E9A59E423BEC6"
+					item: "gtladditions:quantum_syphon_matrix"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "gtlcore:max_field_generator"
+			id: "69799F6DE604C84B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F498C8D5E8B3EBC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "4BDCD191DDFD22BE"
+					title: "supermáquina"
+					type: "checkmark"
+				}
+			]
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69799F6DE604C84B"]
+			description: [
+				"&6&lGTLAdditions「Forja dos Falsos Deuses」 / Stellar Forging Array"
+				""
+				"&7▌ Função:"
+				"&lO host pode fornecer até &e15 vezes a produção da receita &7 e, ao mesmo tempo, desfrutar de &a1/5 redução do consumo da UE &7"
+				"&l possui um modo de \\\"operação hiperdimensional\\\" e precisa ser executado continuamente no mundo real por &e4 horas&7 para concluir o processo"
+				"&l Executável &6 Fundição hiperdimensional &7, &6 Fundição com energia térmica estelar &7, &6 Forjamento de material final &7 Três tipos de fórmulas"
+				"&l pode ser instalado &6 Núcleo de fusão a jato estelar &7, &a Máquina de fabricação de plasma de energia térmica estelar &7, &c Calcinador de energia de chama estelar &7, &4 Variador de fusão estelar &7, &3 Cristalizador de veia de dragão de fase estelar &7 e outros módulos"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Depois que esta máquina for feita, o modelo precisa ser alterado. Não pode ser transferido diretamente. Não importa qual fórmula seja inserida, adicione 14 potes vazios (serão usados ​​os potes vazios usados ​​na fórmula) e a produção aumentará 15 vezes. &a\\\"Unidade Cósmica de Plasma de Nêutrons\\\"&7Por favor, use o modo de fundição ultradimensional. Você pode perguntar detalhes no grupo. Se você achar isso problemático, é recomendável não transferir o modelo. Basta usar seu módulo."
+			]
+			id: "1B50B236E8487107"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C2B548C9E18DBC8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "541547171D525E8A"
+					item: "gtladditions:forge_of_the_antichrist"
+					type: "item"
+				}
+				{
+					id: "0057D196520DCC35"
+					item: "gtladditions:heliofluix_melting_core"
+					type: "item"
+				}
+				{
+					id: "420FBA803B099EE0"
+					item: "gtladditions:heliothermal_plasma_fabricator"
+					type: "item"
+				}
+				{
+					id: "0721B30E4DBE87B9"
+					item: "gtladditions:helioflare_power_forge"
+					type: "item"
+				}
+				{
+					id: "700135228BC329AC"
+					item: "gtladditions:heliofusion_exoticizer"
+					type: "item"
+				}
+				{
+					id: "480A9976B1D68B1B"
+					item: "gtladditions:heliophase_leyline_crystallizer"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["480AF64C4FF681FC"]
+			description: [
+				"&6&lGTLAdditions「Coração do Universo」"
+				""
+				"&7▌ Função:"
+				"&l Edição Super Aprimorada de Estrela Artificial"
+				"&l pode instalar o mecanismo de divergência da esfera celeste"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 deve usar o terminal de saída de rede sem fio &6 &6 para produzir totalmente a energia que gera"
+				"&7&oAlguém disse que quando você pega cem mil estrelas e caminha todos os quilômetros extras,"
+				"&7&oVocê também pode parar na frente do sol por um minuto."
+				"&7&oVai queimar para você e silenciar para você."
+			]
+			id: "59B8A3B788A9042F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "249B537118F1968E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "13403890147ED62E"
+					item: "gtladditions:heart_of_the_universe"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["69799F6DE604C84B"]
+			description: [
+				"&6&lGTLAdditions「Matriz final de ondas quânticas em zigue-zague」"
+				""
+				"&7▌ Função:"
+				"&l fixa a probabilidade de saída para &a100%&7 e reduz o consumo da entrada de probabilidade para &c1/10"
+				"&l pode lidar com uma variedade de tipos de fórmulas diferentes ao mesmo tempo"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Esta máquina pode realmente instalar um compartimento de controle paralelo. Não instale mesmo que não esteja na introdução."
+			]
+			id: "4C4202CDED56A505"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28C4DE262C1D5A4C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2327886924980694"
+					item: "gtladditions:apocalyptic_torsion_quantum_matrix"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["18D5CE23D835D993"]
+			description: [
+				"&6&lGTLAdditions「Estação Espacial Hunter」"
+				""
+				"&7▌ Função:"
+				"&l pode instalar até &e20 unidades &7 módulos de fábrica de hub satélite, todos os módulos compartilham recursos paralelos e de thread"
+				"&l Desbloqueia o mecanismo de paradoxo após incorporar &d64 matrizes em estrela &7, fornecendo &c paralelismo ilimitado e suporte a threading &7 para todos os módulos"
+				"&l Tipos de módulos instaláveis: &6MK-1&7, &aMK-2&7, &eMK-3&7, &4MK-4 &7 hub satélite fábrica"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Você deve fazer 2 séries disso"
+			]
+			id: "61B3C2646B544950"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D065D4FDF92BD4A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "43579AE67F2BB434"
+					item: "gtladditions:light_hunter_space_station"
+					type: "item"
+				}
+				{
+					id: "6A2B6CEB7DFE3BE8"
+					item: "gtladditions:nexus_satellite_factory_mk1"
+					type: "item"
+				}
+				{
+					id: "42D841106EB2C521"
+					item: "gtladditions:nexus_satellite_factory_mk2"
+					type: "item"
+				}
+				{
+					id: "1956DA39929993F7"
+					item: "gtladditions:nexus_satellite_factory_mk3"
+					type: "item"
+				}
+				{
+					id: "6C6C0B734918B80C"
+					item: "gtladditions:nexus_satellite_factory_mk4"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["69799F6DE604C84B"]
+			description: [
+				"&6&lGTLAdditions「Planta de tratamento de minério integrada Tianji Endless」"
+				""
+				"&7▌ Função:"
+				"&l tem &c paralelismo ilimitado &7 e &c threads ilimitados &7 capacidades de processamento"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Se você quiser fazer um portal estelar no estágio posterior, isso é necessário"
+			]
+			id: "357022DA2E0106A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A6B32F03E888315"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6FEF7989E15F2A28"
+					item: "gtladditions:space_infinity_integrated_ore_processor"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["480AF64C4FF681FC"]
+			description: [
+				"&6&lGTLAdditions「Mapa Estelar Arcano」"
+				""
+				"&7▌ Função:"
+				"&lVersão aprimorada do Huawei Eye"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Recomenda-se colocar pelo menos 2.000 na matriz estelar"
+			]
+			id: "6E2C6A2887E84FF6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "189C16DAC07C9396"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "613DE18581B5D062"
+					item: "gtladditions:arcanic_astrograph"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["51F159DE8FA571CF"]
+			description: [
+				"&6&lGTLAdditions「Fuxi Bagua Forge」"
+				""
+				"&7▌ Função:"
+				"&lStar Flame Jump: versão a laser do reator de fusão e fundição de energia térmica estelar"
+				"&l Chaos Alchemy: Forno de fundição de liga com fórmula exclusiva"
+				"&l Desconstrução molecular: máquina de extração com fórmula exclusiva"
+				"&lUltimate Matter Forging: Versão Laser"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Uma máquina indispensável para a pós-produção de Yuda. Embora tenha seu pseudodeus superior, você não pode calcular o pseudodeus sem esta máquina."
+			]
+			id: "757D0C7BFDC858FE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14051E1CD198E7D4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "05572028CF5FD3BA"
+					item: "gtladditions:fuxi_bagua_heaven_forging_furnace"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["51F159DE8FA571CF"]
+			description: [
+				"&6&lGTLAdditions「Dragon Fury Collapse Core」"
+				""
+				"&7▌ Função:"
+				"&l Versão laser do dispositivo de polimerização"
+				""
+				"&7▌ Sugestões:"
+				"&l&6As portas de entrada e saída estão localizadas na parte traseira da máquina"
+				"&l&6 pode usar montagem de amostra"
+			]
+			id: "7179C127B172DDE1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E962D0ADBF327A7"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "626B5E219B7CB832"
+					item: "gtladditions:draconic_collapse_core"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["18D5CE23D835D993"]
+			description: [
+				"&9&lGTLAdditions「Centro de condensação antientrópico」"
+				""
+				"&7▌ Função:"
+				"&l pode lidar com as fórmulas de dois equipamentos diferentes: condensação de plasma e congelamento a vácuo ao mesmo tempo."
+				""
+				"&7▌ Sugestões:"
+				"&l&6Você precisa fornecer &bLin Ice Powder&6 como consumível antes de cada trabalho"
+			]
+			id: "53221FCB42ED453D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62762A30041E934C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "111F19F1AC4263F4"
+					item: "gtladditions:antientropy_condensation_center"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7749BA49C82FCAA7"]
+			description: [
+				"&6&lGTLAdditions「Removedor de detritos por ressonância atômica macro」"
+				""
+				"&7▌ Função:"
+				"&l pode executar todas as receitas diferentes simultaneamente através de múltiplas portas de entrada, e o número de paralelos para cada receita é o mesmo"
+				"&l possui dois modos de trabalho:"
+				"&l● Modo de remoção do núcleo estrela: paralelo básico &a1536, para qualquer temperatura superior a &e1200K&7, paralelo +&a300, exigindo bobinas acima do nível estrela e pode incorporar até &a256 matrizes estelares"
+				"Fórmula multiplicadora: &72 * (6 + 10 * ((Quantidade - 1)/184)^2)"
+				"&l● Modo de cópia de elemento: requer bobina eterna e matrizes estelares &a256, com capacidades paralelas ilimitadas"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Esta máquina teoricamente requer o estágio &dOPV para produzir"
+				"&l&6Você também pode tentar &eApostar na probabilidade de 1%"
+			]
+			id: "1C5743543E5D3572"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B620986DD5F8582"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "120DE17D641A0B48"
+					item: "gtladditions:macro_atomic_resonant_fragment_stripper"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["18D5CE23D835D993"]
+			description: [
+				"&9&lGTLAdditions「Fábrica Química Hiperdimensional」"
+				""
+				"&7▌ Função:"
+				"&lVersão do reator químico a laser"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 é recomendado para ser usado com montagem de superamostra &6 &6"
+			]
+			id: "32BAD345195EE1B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41985481C480C7E5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "449DD3EE4C225EA6"
+					item: "gtladditions:dimensionally_transcendent_chemical_plant"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7749BA49C82FCAA7"]
+			description: [
+				"&6&lGTLAdditions「Máquina de esqueleto de velocidade variável」"
+				""
+				"&7▌ Função:"
+				"&l Versão laser do acelerador de decaimento"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 é usado apenas em receitas de aceleração de decaimento"
+			]
+			id: "5AFB1189E25BDFF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FE98082AD53087F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "100AC719329386B8"
+					item: "gtladditions:skeleton_shift_rift_engine"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["18D5CE23D835D993"]
+			description: [
+				"&6&lGTLAdditions「Gap Split Dome」"
+				""
+				"&7▌ Função:"
+				"&l pode executar receitas de forno de pirólise e máquina de craqueamento ao mesmo tempo"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Eu sei que você faz isso para biomassa"
+			]
+			id: "7996C2C64B1476AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55EEB030694A3EC5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2DE6CBE17E97AF9C"
+					item: "gtladditions:inferno_cleft_smelting_vault"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["0442EAC847F91FED"]
+			icon: "kubejs:ulv_universal_circuit"
+			id: "4F61FBBCF28E1327"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6131B48E77F19148"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "71BD930245856EBB"
+					title: "MV"
+					type: "checkmark"
+				}
+			]
+			title: "ULV"
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51F159DE8FA571CF"]
+			description: [
+				"&6&lGTLAdditions「Terminal de entrada/saída de rede de rádio」"
+				""
+				"&7▌ Função:"
+				"&l Terminal de entrada: permite que a máquina acesse diretamente sua rede de rádio, sempre funcionando na potência máxima e com desempenho muito melhor do que os mais avançados compartimentos de alvo a laser"
+				"&l Terminal de saída: Toda a energia gerada pelo gerador pode ser inserida na rede sem fio de uma só vez, e a eficiência é muito maior do que a do armazém original a laser mais avançado."
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Se você for capaz de produzi-lo, produza-o o mais rápido possível e use-o com o mecanismo de divergência da esfera celeste para atingir a velocidade máxima de operação e paralelismo da máquina."
+				""
+				"&l&6 Recomenda-se usar apenas um terminal de entrada de rede sem fio para máquinas gigantes em estágio avançado. A tensão padrão é o nível MAX e não há necessidade de reforço de armazém duplo."
+			]
+			id: "18F24F77AC58DF18"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65D68F9D7D328A80"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "7A339EC23FE0AD9B"
+					item: "gtladditions:wireless_energy_network_input_terminal"
+					type: "item"
+				}
+				{
+					id: "3DC1C7FA938D0368"
+					item: "gtladditions:wireless_energy_network_output_terminal"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["480AF64C4FF681FC"]
+			description: [
+				"&6&lGTLAdditions「Motor de Divergência Celestial」"
+				""
+				"&7▌ Função:"
+				"&l está instalado em máquinas suportadas e pode aumentar significativamente o número de conexões paralelas"
+				"&l pode ser preenchido com matrizes de estrelas &e64 dentro"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Lembre-se de instalar todas as máquinas que suportam a instalação de motores de divergência de esferas celestes e inserir 64 matrizes estelares"
+			]
+			id: "2CB123F9D348A1E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56D6DA684DD0A6FD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "44AD0E52101488D2"
+					item: "gtladditions:thread_modifier_hatch"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["480AF64C4FF681FC"]
+			description: [
+				"&6&lGTLAdditions「Montagem de Super Amostra」"
+				"&7▌Função:"
+				"&lTodos os modelos internos são independentes e completamente isolados"
+				"&l O circuito de programação é uma combinação virtual e não exige que você tenha um circuito de programação em AE."
+				"&lAs amostras na montagem da amostra serão automaticamente duplicadas para o múltiplo que você precisa ao fazer um pedido."
+				"&l pode vincular várias imagens de montagem de modelo e as imagens não precisam estar conectadas à rede AE"
+				"&lCada slot possui um slot de catalisador separado e cada modelo pode ter um catalisador separado"
+				""
+				"&7▌ Sugestões:"
+				"&l&6O conjunto de superamostra contém funções de entrada e saída, portanto não há necessidade de um barramento de saída."
+				""
+				"&l&6O conjunto de amostra está completamente isolado de qualquer outro compartimento de entrada e não pode identificar catalisadores de outros compartimentos."
+			]
+			id: "6AE7B8319E8A31FF"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A73D23537526CEB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "5371328B8DC6B5F4"
+					item: "gtladditions:me_super_pattern_buffer"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["480AF64C4FF681FC"]
+			description: [
+				"&6&lGTLAdditions「Armazém de controle super paralelo」"
+				"&7▌ Função:"
+				"&l permite atingir o número paralelo máximo de 2,1 bilhões"
+				"&l pode ser compartilhado por múltiplas estruturas de bloco"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Há um BUG sério neste armazém, que fará com que algumas máquinas (como fábricas de montagem gigantes, células unitárias infinitas) parem de funcionar ao distribuir mais de 2,1 bilhões de itens."
+				""
+				"&l&6Embora este BUG exista, seu poder supera em muito suas desvantagens. Você pode tentar instalá-lo. Se houver algum problema, basta substituí-lo pelo compartimento de controle paralelo MAX."
+			]
+			id: "6C7C3FB31904A2AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40D89A6317823FEC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "470482B486AFE948"
+					item: "gtladditions:super_parallel_hatch"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 20.25d
+		}
+		{
+			description: [
+				"&6&l「GTMAdvancedHatch: Armazém Avançado」"
+				"&7Cansado de substituições frequentes de tanques de energia?"
+				""
+				"&a&l▌ Posicionamento do núcleo do módulo:"
+				"&7- &6 Sistema de rede elétrica adaptativo &7: Através de um terminal, sincronização com um clique dos níveis de tensão de todos os armazéns da rede elétrica em toda a base."
+				"&7- &6GT ferramenta de cópia&7: Copie rapidamente armazéns, estruturas e configurações completas de grandes áreas e suporta a geração de modelos com um clique."
+			]
+			icon: {
+				Count: 1
+				id: "gtmadvancedhatch:net_data_stick"
+				tag: { }
+			}
+			id: "09B4D23146EF5CC0"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6976968AF4BA68FE"
+					type: "checkmark"
+				}
+			]
+			title: " GTMAdvancedHatch"
+			x: -16.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["09B4D23146EF5CC0"]
+			description: [
+				"&6&l「Terminal do sistema de rede elétrica adaptativa」"
+				"&9 O bloco de controle central do sistema de rede elétrica adaptativa gerencia os níveis de tensão de todo o armazém de energia da base com um clique."
+				""
+				"&7▌Tutorial:"
+				"&l1. Coloque primeiro o terminal do sistema de rede de distribuição adaptativa"
+				""
+				"&l2. Clique em Controle de permissão no canto inferior esquerdo da GUI. Clique na interface que exibe inglês. O proprietário da interface principal será exibido como seu ID."
+				""
+				"&l3. Clique em Configurações de frequência no canto inferior esquerdo da GUI e ajuste a frequência para 1"
+				""
+				"&l Neste ponto, as configurações dos terminais do sistema de rede de distribuição adaptativa estão concluídas."
+				""
+				"&7▌ Sugestões:"
+				"&l&6Você também pode controlar a configuração sem alterar as permissões, e a rede elétrica pode ser usada por todos."
+			]
+			id: "63CF08FB993E876A"
+			tasks: [
+				{
+					id: "4D339BA584DE754F"
+					item: "gtmadvancedhatch:adaptive_net_energy_terminal"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["09B4D23146EF5CC0"]
+			description: [
+				"&6&l「 Armazém de rede de distribuição de energia adaptativa / Armazém de laser de rede de distribuição de energia adaptativa 」"
+				"&9 pode seguir a configuração do terminal para sincronizar automaticamente o nível de tensão do armazém inteligente, conseguindo a sincronização em uma extremidade e tendo efeito em toda a base."
+				""
+				"&7▌ Função:"
+				"&l pode ser usado após a colocação &6 memória flash de configuração de rede &7 clique com o botão direito para vincular ou vincular automaticamente à rede quando a memória flash secundária for colocada"
+				"Quando &l permanece carregado com o terminal, o nível de configuração de tensão é sincronizado automaticamente a cada segundo por padrão."
+				""
+				"&7▌ Sugestões:"
+				"&l&6Quando a máquina está funcionando, se o nível de potência do armazém for reduzido de forma síncrona, poderá causar a suspensão da operação. Ele precisa ser sincronizado de volta a um nível suficiente para continuar."
+			]
+			id: "093BC841D9A977EF"
+			tasks: [
+				{
+					id: "397CB088C12656C3"
+					item: "gtmadvancedhatch:adaptive_net_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5D5106CA3E95AA23"
+					item: "gtmadvancedhatch:adaptive_net_laser_target_hatch"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["09B4D23146EF5CC0"]
+			description: [
+				"&6&l「Ferramenta de cópia GT」"
+				"&9 é uma ferramenta de cópia de região especialmente desenvolvida para GT e seus acessórios, que pode copiar configurações de armazém e estruturas complexas."
+				""
+				"&7▌ Função:"
+				"&l pode copiar todos os armazéns, estruturas e sua configuração completa na área"
+				"&l Após ativar o modo de vinculação de contêiner, você pode gerar modelos com um clique com base na área copiada."
+				"&l Após a replicação estendida ser ativada na configuração, componentes adicionais como cabos AE e terminais sintéticos podem ser copiados (sem consumo)"
+				"&l pode salvar/ler estruturas diretamente operando a memória no modo criativo"
+				""
+				"&7▌ Sugestões:"
+				"O limite superior de potência na configuração &l&6 é padronizado como &e100M EU&6, ajuste-o de acordo com suas necessidades."
+				"&l&6Por motivos técnicos, atualmente é impossível copiar e criar unidades de energia."
+			]
+			id: "37A4259603FEC54A"
+			tasks: [
+				{
+					id: "5A5F56B81DF3DF77"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste_gt"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["09B4D23146EF5CC0"]
+			description: [
+				"&6&l「Flash de configuração de rede」"
+				"&9 é uma ferramenta de ligação de rede e armazenamento de configuração dedicada a sistemas de rede elétrica adaptativos."
+				""
+				"&7▌Tutorial:"
+				"&l1. Ao segurar o botão esquerdo &5 &f clique em &6 terminal do sistema de rede de distribuição adaptativa &f, que pode armazenar os dados do proprietário &e do terminal &7 e frequências &e"
+				""
+				"&l2. Coloque qualquer nível de compartimento de energia da rede/compartimento de alvo de laser &d &f na configuração adaptativa do terminal do sistema de rede de distribuição adaptativa &6 &f. O número deve ser 64."
+				""
+				"&l3. O ponteiro dos segundos segura a memória flash de configuração da rede que salvou os dados, e o ponteiro principal segura &d o compartimento de energia da rede de distribuição de energia adaptativa/compartimento de alvo do laser &f e o coloca na estrutura multibloco como um compartimento de energia normal. Pode ser aumentado por compartimentos duplos."
+				""
+				"&l4. Depois que o nível de tensão subsequente for aumentado, faça o armazém de energia da rede &d/armazenamento de alvo do laser &f do nível correspondente e coloque-o na interface autoadaptável do terminal do sistema de rede elétrica autoadaptável &6 &f"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Esta é uma ferramenta essencial para configurar e gerenciar redes de rede elétrica adaptativas"
+			]
+			id: "4C83002D5A782486"
+			tasks: [
+				{
+					id: "49403B4FC2489280"
+					item: {
+						Count: 1
+						id: "gtmadvancedhatch:net_data_stick"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 19.0d
+		}
+		{
+			description: [
+				"&6&l「 Extendedae_Plus 」"
+				""
+				"Várias melhorias funcionais do AE2"
+				""
+				"&a&l▌ Posicionamento do núcleo do módulo:"
+				"&7- &6 Carregamento de modelo&7: No terminal de codificação de modelo &e &f, o modelo editado pode ser carregado diretamente na máquina conectada."
+				"&7- &6 Transceptor sem fio &7: Um conector sem fio mais simples e conveniente."
+			]
+			icon: "extendedae_plus:infinity_biginteger_cell"
+			id: "62D7B03217C5D2CF"
+			rewards: [
+				{
+					id: "7A264B2A1A56C01B"
+					item: "extendedae_plus:network_pattern_controller"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0108F52752BBC9F0"
+					type: "checkmark"
+				}
+			]
+			title: "Extendedae_Plus"
+			x: -19.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["62D7B03217C5D2CF"]
+			description: [
+				"&b▶ Localize materiais rapidamente"
+				"&f- Na interface de síntese automatizada, mantenha pressionado &bShift+clique com o botão direito &f e clique no material preso."
+				"&f- O sistema irá automaticamente para o fornecedor do modelo correspondente e destacará o material."
+				""
+				"&b▶ Adicione favoritos com um clique"
+				"&f- Encontrou algum item faltando durante a síntese?"
+				"&f- Pressione e segure &bShift &f antes de cancelar a síntese, e ela será automaticamente adicionada à sua lista de favoritos JEI para fácil pesquisa e adição subsequente."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "12E12C5B56710CA0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44E4239E0821DB07"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "334071F0172AAE88"
+					title: "Alterações de pedido"
+					type: "checkmark"
+				}
+			]
+			title: "Alterações de pedido"
+			x: -19.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["12E12C5B56710CA0"]
+			description: [
+				"O módulo &f- &9ExtendedAE-Plus &f adiciona operações convenientes para terminais sem fio:"
+				""
+				"&6▶ Pesquisa"
+				"&f- Aponte o ponteiro do mouse para qualquer objeto e pressione as teclas &eF &f."
+				"&f- Você pode pesquisar o item diretamente no terminal AE."
+				""
+				"&6▶ Faça um pedido"
+				"&f- Use o &ebotão do meio do mouse &f para clicar em um item marcado."
+				"&f- pode fazer pedidos de síntese diretamente para ele."
+				""
+				"&6▶ Extração"
+				"&f- Mantenha pressionado &eShift + clique com o botão esquerdo &f para clicar nos itens do terminal."
+				"&f- Pode ser extraído diretamente em sua mochila."
+				""
+				"&c- Observe que todas as funções aprimoradas acima precisam ser usadas com o terminal sem fio &6 &c."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "50282A0A0E62852B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16CF8597B932F28E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4F73DB032EBECA63"
+					title: "Mudanças nos favoritos JEI"
+					type: "checkmark"
+				}
+			]
+			x: -19.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["50282A0A0E62852B"]
+			description: [
+				"&f- &9ExtendedAE-Plus &f módulo &b função \\\"upload de modelo\\\" &f."
+				""
+				"&f- No terminal de codificação de modelo &e &f, o modelo editado pode ser carregado diretamente na máquina conectada."
+				"&f- Suporta upload direto de padrões para um fornecedor de padrões &e conectado &f ou montagem de padrões &e &f."
+				""
+				"&6&l» Condição"
+				"&c- Nomenclatura do dispositivo de destino (fornecedor de modelo/montagem de modelo)"
+				"&a- Formato de nomenclatura recomendado: &e[comprimido solidificador de fluido]&a."
+				""
+				"&6&l» Etapas"
+				"&f1. Selecione o modelo para fazer upload no terminal."
+				"&f2. Na área de mapeamento &f abaixo da interface &e, &a adiciona um novo mapeamento &f."
+				"&f3. No mapeamento, insira &e o nome exato do dispositivo de destino &f (por exemplo, &e[Fluid Solidifier]&f, não há necessidade de adicionar a parte de propósito)."
+				""
+				"&c&lAtenção"
+				"&c- Esta versão é uma edição especial, &c não suporta matriz de montagem &c."
+				"&c - A função de upload &c está limitada à sincronização automática com o manipulador molecular &c."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "29A3B6B78C03BB74"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "517A06A3EFF6DE6E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "22736FD3ED943E80"
+					title: "Carregamento de amostra"
+					type: "checkmark"
+				}
+			]
+			x: -19.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["62D7B03217C5D2CF"]
+			description: [
+				"&9ExtendedAE-Plus &f módulo &6 \\\"Transceptor sem fio\\\""
+				""
+				"&6Processo"
+				"&l1. Coloque um transceptor sem fio na rede AE ​​principal"
+				"&l2. Clique com o botão direito no transceptor sem fio e ajuste-o ao terminal principal"
+				"&l3. Use uma chave inglesa para bloquear o status do transceptor sem fio"
+				"&l4. Todos os transceptores sem fio colocados posteriormente serão padronizados para a extremidade escravo."
+			]
+			icon: "extendedae_plus:wireless_transceiver"
+			id: "17C9A15518731730"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73365AD63A19EBE8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2E3DAADEE03641DA"
+					item: "extendedae_plus:wireless_transceiver"
+					type: "item"
+				}
+				{
+					id: "368E5A214A8D9A8F"
+					item: "extendedae_plus:labeled_wireless_transceiver"
+					type: "item"
+				}
+			]
+			title: "transceptor sem fio"
+			x: -19.5d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"0442EAC847F91FED"
+				"59946A9253531A55"
+				"6D13DB5E501F1253"
+				"357022DA2E0106A9"
+				"37A4259603FEC54A"
+				"7749BA49C82FCAA7"
+				"59B8A3B788A9042F"
+				"2E11A3440EDB7305"
+				"4D36D924E80E8490"
+				"639BE904FFDCED52"
+				"5F95C61EA7C749DE"
+				"1AE744A44F4B639D"
+				"32BAD345195EE1B7"
+				"6E2C6A2887E84FF6"
+				"6AE7B8319E8A31FF"
+				"51EA3BA3C7BB9D5B"
+				"1B50B236E8487107"
+				"647F121432A82969"
+				"09B4D23146EF5CC0"
+				"2F5C4C05FEDE84AB"
+				"1C5743543E5D3572"
+				"120E8178AD307769"
+				"757D0C7BFDC858FE"
+				"67C214B74D4A7507"
+				"59548DA664CEC585"
+				"53221FCB42ED453D"
+				"093BC841D9A977EF"
+				"7EEE61EBB4AACB12"
+				"0CB9366F857D7D68"
+				"2167BC4CA329EFC6"
+				"5522CC27170D36CC"
+				"51F159DE8FA571CF"
+				"18F24F77AC58DF18"
+				"4AB57CAF04BAF3E8"
+				"480AF64C4FF681FC"
+				"5CD0A0B4C93C7095"
+				"7179C127B172DDE1"
+				"18D5CE23D835D993"
+				"2443AA617BD74EA5"
+				"4C83002D5A782486"
+				"61B3C2646B544950"
+				"590A215AF01C991A"
+				"3B9EDD3E5387ABFE"
+				"69799F6DE604C84B"
+				"4766E2A0AB067C9C"
+				"4C4202CDED56A505"
+				"268081943FE199AB"
+				"5AFB1189E25BDFF7"
+				"17C9A15518731730"
+				"63CF08FB993E876A"
+				"145D5881FE33488E"
+				"2CB123F9D348A1E1"
+				"64C59DCC159688FC"
+				"29A3B6B78C03BB74"
+				"48A4A30B01BF14F4"
+				"6C7C3FB31904A2AC"
+				"4BE9C93AD30E29B6"
+				"7996C2C64B1476AF"
+				"12E12C5B56710CA0"
+				"50282A0A0E62852B"
+				"4364E6CB1ACEC00F"
+				"62D7B03217C5D2CF"
+				"4F61FBBCF28E1327"
+				"4D4D66D6E271A91D"
+				"0E805FACA464B13F"
+				"576BA39C8025B8AE"
+				"3C6C3D5F113E7DF2"
+				"734256770E3DE46F"
+			]
+			description: [
+				"&5&l【As estrelas voltam ao silêncio】"
+				""
+				"&d&oVocê coletou cem mil estrelas e as transformou na estrada sob seus pés."
+				"&d&oAgora, você está diante do sol - o coração do universo enrolado em um espaço-tempo de onze dimensões."
+				"&d&oAs estrelas estão em silêncio para você, e o sol está queimando para você."
+				"&d&oEste minuto de contemplação é a peregrinação mais piedosa de todas as coisas para a eternidade."
+				""
+				"&l&cCondições de conclusão:"
+				"&8• Complete todas as missões do capítulo \\\"&eConteúdo Extra&8\\\""
+				"&8• Tenha 100.000 matrizes estelares ao mesmo tempo"
+				"&8• Observe o Coração do Universo por 1 minuto"
+				""
+				"&6&lRecompensas:"
+				"&a• Criação Desconhecida"
+				""
+				"&7&o \\\"Cem mil estrelas vêm para sustentar o sol, e a eternidade pode ser vista em um minuto.\\\""
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "gtladditions:heart_of_the_universe"
+			id: "7D083C0E8C476E9A"
+			invisible: true
+			min_width: 240
+			rewards: [
+				{
+					id: "63DAF80282BE574E"
+					item: "gtl_extend:czyhfdj"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					icon: "gtladditions:heart_of_the_universe"
+					id: "0693A77ECE402AE0"
+					observe_type: 0
+					timer: 1200L
+					title: "Observe o \\\"Coração do Universo\\\""
+					to_observe: "gtladditions:heart_of_the_universe"
+					type: "observation"
+				}
+				{
+					consume_items: false
+					count: 100000L
+					id: "392AF20D0B77D4F6"
+					item: {
+						Count: 100000
+						id: "gtladditions:astral_array"
+					}
+					match_nbt: false
+					title: "Cem mil estrelas"
+					type: "item"
+				}
+			]
+			title: "As estrelas ficaram em silêncio"
+			x: -24.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D083C0E8C476E9A"]
+			description: [
+				"&5&l【Sussurros de Criação Desconhecida】"
+				""
+				"&d&oO que você encontrou? ? ?"
+				"Essa coisa &d&o não deveria existir nesta dimensão..."
+				"&d&oBem, agora que você entendeu—"
+				"&d&oEsse “objeto estranho” que nunca consegui entender, muito menos usar, vou dar para você."
+				""
+				"&7Diz-se...esta é uma criação de outra dimensão,"
+				"&7 é a encarnação de um par de velhos inimigos emaranhados chamados \\\"Changzui No. 1\\\" e \\\"Blue Alien\\\"."
+				"&7 Incorpora disputas, confrontos em todo o mundo e um vínculo quase distorcido."
+				""
+				"&a Espero que você possa desvendar seus segredos,"
+				"&a Ou... suportar seu peso."
+			]
+			hide_until_deps_complete: true
+			id: "70BBC28B2F63A48F"
+			invisible: true
+			rewards: [
+				{
+					id: "6C2066E8C7950B54"
+					item: "gtl_extend:czyh"
+					type: "item"
+				}
+				{
+					id: "09B3E50C18ECCB52"
+					item: "gtl_extend:abluealien"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "43E78E66A131459F"
+					item: "gtl_extend:czyhfdj"
+					type: "item"
+				}
+			]
+			title: "O que você encontrou? ? ?"
+			x: -24.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0CB9366F857D7D68"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia do Ovo de Dragão」"
+				"&7 Adicionado &5UV &7 aos modelos de grau &e&lUIV &7"
+				""
+				"&7▌ Função:"
+				"&lA primeira escolha para geração de energia de baixo custo no médio prazo"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: Coloque o absorvedor de energia do ovo de dragão e coloque o ovo de dragão por cima."
+			]
+			id: "1AE744A44F4B639D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C3E25957ADF2821"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "56A9A59D0A5504E4"
+					item: "gtl_extend:uv_primitive_dragon_egg_energy"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["639BE904FFDCED52"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia do Ovo de Dragão」"
+				"&7 Adicionado &5UV &7 aos modelos de grau &e&lUIV &7"
+				""
+				"&7▌ Função:"
+				"&lA primeira escolha para geração de energia de baixo custo no médio prazo"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: Coloque o absorvedor de energia do ovo de dragão e coloque o ovo de dragão por cima."
+			]
+			id: "0E805FACA464B13F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1825512B55ECB6C4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C858045C3452547"
+					item: "gtl_extend:uhv_primitive_dragon_egg_energy"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["145D5881FE33488E"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia do Ovo de Dragão」"
+				"&7 Adicionado &5UV &7 aos modelos de grau &e&lUIV &7"
+				""
+				"&7▌ Função:"
+				"&lA primeira escolha para geração de energia de baixo custo no médio prazo"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: Coloque o absorvedor de energia do ovo de dragão e coloque o ovo de dragão por cima."
+			]
+			id: "5F95C61EA7C749DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DAB4034CC14B46D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2AE348534A79546C"
+					item: "gtl_extend:uev_primitive_dragon_egg_energy"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["18D5CE23D835D993"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia do Ovo de Dragão」"
+				"&7 Adicionado &5UV &7 aos modelos de grau &e&lUIV &7"
+				""
+				"&7▌ Função:"
+				"&lA primeira escolha para geração de energia de baixo custo no médio prazo"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: Coloque o absorvedor de energia do ovo de dragão e coloque o ovo de dragão por cima."
+			]
+			id: "67C214B74D4A7507"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E0F33E21E0EABEA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3B2443DBF9E1C86E"
+					item: "gtl_extend:uiv_primitive_dragon_egg_energy"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			id: "07B10FFFA75C8845"
+			invisible: true
+			rewards: [
+				{
+					command: "/gamerule doTraderSpawning false"
+					elevate_perms: true
+					icon: "gtceu:mob_infestation_hazard_sign_block"
+					id: "75F25568165A7374"
+					title: "Desativar a geração de comerciantes errantes"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:wandering_trader"
+					icon: "minecraft:wandering_trader_spawn_egg"
+					id: "65C14C3BEDC79C00"
+					title: "Vá para o inferno, aproveitadores."
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -24.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&l·&fNa primeira vez que você morrer, uma escolha aparecerá: aceitar seu destino."
+				"&l·&f ou ligue &6God Mode&f (imune a todos os danos)"
+				""
+				"&l·&fO modo God só pode ser selecionado neste momento e entrará em vigor permanentemente a partir de então."
+				"&l·&fA morte não é mais o fim, mas esse poder só desperta uma vez"
+			]
+			id: "734256770E3DE46F"
+			invisible: true
+			rewards: [
+				{
+					command: "/god"
+					elevate_perms: true
+					icon: "kubejs:command_block_broken"
+					id: "6F7329AF2784DDE7"
+					title: "modo deus"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:player_head"
+					id: "55C4D5DA68F1A5D0"
+					stat: "minecraft:deaths"
+					title: "morrer uma vez"
+					type: "stat"
+					value: 1
+				}
+			]
+			title: "Alma Inflexível"
+			x: -22.0d
+			y: 2.5d
+		}
+	]
+	title: "Conteúdo extra"
+}

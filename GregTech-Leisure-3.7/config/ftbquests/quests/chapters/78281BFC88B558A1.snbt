@@ -1,0 +1,735 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "78281BFC88B558A1"
+	group: ""
+	id: "78281BFC88B558A1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["O número máximo de solicitações aumentou para &d15 dígitos&r"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0754E6C7179F70A0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0C01B0FEAADE8281"
+					title: "solicitante de mim"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"O padrão aqui é &d canal ilimitado &r, por motivos de desempenho &e removeu a receita de síntese do controlador ME &r"
+				"{@pagebreak}"
+				"&m Na verdade, a Fish Making Conference lhe dará um controlador &r"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77E4C7717BE75622"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Por que o controlador ME não pode ser sintetizado?"
+			tasks: [
+				{
+					id: "777CFBC4F54FBCE9"
+					title: "canal"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			description: ["A velocidade de transmissão básica é aprimorada para &b64*int level&r"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6066A8C784659D7A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2CF437FD2CAA4A4C"
+					title: "Porta de expansão IO"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&8 mid-ULV &r desbloqueia armazenamento e logística de AE"
+				"&bEarly MV&r Pedido de desbloqueio e cartão de atualização (básico)"
+				"&bFim do MV&r Desbloquear cartão de atualização (avançado)"
+				"&6HV end&r Desbloquear AE sem fio"
+				"&dEV Beginning&rDesbloqueia a criação de componentes de energia e matrizes de montagem"
+			]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D9B9C1F54F36031"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "50E327F3A46D8F21"
+					title: "Sobre o estágio correspondente"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"A capacidade infinita do componente água/paralelepípedos aumentou para &d9.22P/E&r"
+				"{@pagebreak}"
+				"A criação de discos também foi aprimorada"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						#c: "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "794B055F477444D2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2B2777F734BD4F5C"
+					title: "componentes infinitos"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"O tipo de armazenamento é o padrão &d 4 vezes &r, que pode ser ajustado no arquivo de configuração do gltcore"
+				""
+				"Ao mesmo tempo, o intervalo de atualização do inventário do AE pode ser ajustado no arquivo de configuração gtlcore."
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "512F658362CB473F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "550042261D7CDFD8"
+					title: "disco"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			description: ["O número de slots para o provedor de modelo de expansão &b &r pode ser ajustado no arquivo de configuração &6gtlcore &r"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3085CD2B1FBDDF3A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5E27D16F8CFDACB4"
+					title: "Provedor de modelo estendido"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["A capacidade básica de cada rede é aumentada para &bint level&r"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71B839583F3C3FCA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "042A7D3DB05154B7"
+					title: "Interface EU"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Pode ser duplicado diretamente durante a codificação (apenas para processamento de modelos)"
+				""
+				"Ao codificar, o limite superior de entrada é ajustado para &b2^31-1&r, e o valor máximo pode ser &b9.22E/P ao usar a função de duplicação."
+				""
+				"Quando o modelo em branco acabar, &6 chamará automaticamente &r para preencher o modelo em branco na rede ME."
+				""
+				"Ao escrever um modelo com uma estrutura multibloco, você pode &b filtrar automaticamente certos blocos &r (especificamente visualizá-lo e modificá-lo na configuração do gtlcore e determinar se deseja filtrar com base no fato de o ID do bloco conter a string na lista). Após fazer o pedido, &6 cancelará automaticamente &r o pedido específico (ou seja, o pedido onde o produto é &d e está escrito &r)"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05B95A7C60276C8B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "11AFFE5DA6C9DF13"
+					type: "checkmark"
+				}
+			]
+			title: "Codificação padrão relacionada"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"O cálculo sintético é habilitado por padrão &6UlTRA FAST mode &r, que pode ser ajustado no arquivo de configuração gtlcore"
+				""
+				"Ao mesmo tempo, o intervalo de atualização de síntese do AE pode ser ajustado no arquivo de configuração gtlcore."
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B21D6DFBC7E175F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0E2E7DAA9A528870"
+					type: "checkmark"
+				}
+			]
+			title: "Síntese de pedidos relacionada"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"O sistema de energia do GregTech é muito menos simples do que o de outros mods tecnológicos."
+				""
+				"A unidade de energia da GregTech é a UE, o que é diferente da FE usada por outros módulos."
+				""
+				"O mecanismo da UE não é semelhante à eletricidade do mundo real:"
+				"Potência = tensão x corrente"
+				"Energia = Potência x Tempo"
+				"A resistência é modelada como perda de cabo na GregTech"
+				""
+				"GregTech é definido da seguinte forma:"
+				"- UE é a unidade de energia."
+				"- EU/t é o poder."
+				"- A (ampere) é a corrente."
+				"- V (volt) é a tensão, chamada de LV, MV, HV no jogo... porque são valores relacionados ao jogo (tecnicamente: LV = 32V = 32EU/t/A)."
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "7F97BED1B9552E5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B089CD7CD085D10"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7B797503EA800D59"
+					title: "Configurações básicas"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"Na GregTech, a eletricidade é transmitida em “pacotes”. O tamanho de cada pacote é equivalente ao seu nível de tensão."
+				""
+				"Tomando o pacote LV como exemplo, este “pacote” transportará 32 EU, vários blocos são capazes de gerar esses pacotes EU, e o pacote só será gerado quando o destino puder ser alcançado."
+				""
+				"A cada tick (1/20 de segundo ou 0,05 segundos), o “pacote” da UE tenta transferir do produtor de energia para o consumidor."
+				""
+				"Esses “pacotes” possuem dois parâmetros: o nível de tensão (V) determinado pela classificação do produtor, e a corrente (A), que determina quanta energia pode realmente ser transmitida."
+				""
+				"A energia é transferida somente quando o “pacote” completo de amplificadores puder ser recebido. Você pode notar que suas máquinas estão um pouco abaixo da capacidade total da UE - elas só aceitarão a UE se faltarem pelo menos 1A de tensão de entrada."
+				""
+				"Se uma máquina receber uma tensão superior à sua tensão nominal, ela explodirá, mas qualquer excesso de corrente não terá efeitos adversos porque a máquina consome apenas a quantidade necessária."
+				"{@pagebreak}"
+				"Explosões de máquinas normalmente também destruiriam terreno, mas esse recurso está desabilitado neste pacote."
+				""
+				"Em suma, a energia é transmitida na forma de “pacotes”, que são 32EU para BT, 128EU para MT... e assim por diante. Devido à perda do cabo, a energia real recebida pela máquina pode ser inferior à energia enviada."
+				""
+				"A entrada de energia da máquina é limitada pela tensão e pela corrente, portanto, uma máquina de MT conectada a uma linha de BT com uma corrente de entrada de 1A nunca aceitará mais de 32EU/t."
+				""
+				"Você ainda pode operar uma máquina MT na linha BT, mas somente se a potência da receita for baixa o suficiente, ou se você tiver uma bateria de média tensão no slot de carregamento da máquina, a máquina aceitará apenas 1A quando ociosa, então a bateria carregará na taxa máxima de 32EU/t."
+			]
+			icon: "gtceu:lv_transformer_1a"
+			id: "0CC922B821305906"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7788A001BE78ADD2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "34D8E6B118290930"
+					title: "transferência de energia"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"A transmissão da UE é feita através de fios ou cabos conectados diretamente."
+				""
+				"Os fios são uma escolha ruim porque podem causar choques e ter alta perda de fio, então você precisa usar um cabo isolado."
+				""
+				"A perda de linha significa que você precisa mover sua máquina para mais perto do gerador, mas isso só se torna um problema no início do jogo."
+				""
+				"A perda de cabo da GregTech significa que a transmissão de pacotes UE de cada bloco de cabo reduz seu EU armazenado."
+				""
+				"Por exemplo, se a perda de fio de um cabo de estanho for 1, para um cabo de 4 metros conectado a um motor de combustão interna básico, a tensão na extremidade é de apenas 28 EU/t, o que é inferior aos 30 EU/t da potência média da máquina de baixa tensão. Portanto, uma máquina em funcionamento pode desarmar após alguns segundos."
+				""
+				"Mas não há necessidade de se preocupar aqui, se você ler a declaração de missão, descobrirá que existem supercondutores baratos no estágio inicial e sem fio no estágio posterior, evitando assim completamente esse problema."
+			]
+			icon: "gtceu:tin_single_cable"
+			id: "4A7E19EF14D3C072"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75310FE01274D8C9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6C551BD24A83AB3F"
+					title: "Transmissão por cabo"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Na GregTech, cada pequeno gerador produz um nível de tensão de 1A, mas aqui a corrente de saída dos pequenos geradores é bastante aumentada."
+				""
+				"Se uma máquina exigir 32EU/t, um “pacote” de 32EU será enviado a cada tick."
+				""
+				"Uma caixa de bateria BT com 4 células pode produzir 4 amperes de BT (128EU/t)."
+				""
+				"A máquina genérica está configurada para consumir 2 amperes, outras máquinas possuem entradas de amp específicas, que são descritas em suas dicas de ferramentas."
+				""
+				"Tentar transportar mais amperes do que o limite queimará seus cabos."
+				""
+				"Ampere só consome através de um cabo conectado diretamente ao produtor e ao consumidor, e só consome quando o consumidor está funcionando."
+				""
+				"Isso significa que você pode reduzir com segurança a espessura dos cabos em determinados locais."
+			]
+			icon: "gtceu:lv_diode"
+			id: "4F7A3702787F86A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CCD473A1EB6B783"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "007D09C6CE7CB00B"
+					title: "atual"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Overclocking é um mecanismo que ocorre quando você tenta rodar uma receita em uma máquina com potência maior que a receita em si, a receita consumirá mais energia, mas o tempo da receita será reduzido de acordo com o nível do seu overclock."
+				""
+				"Algumas máquinas têm um menu lateral para definir o nível máximo de tensão para o qual pode fazer overclock. Clique aqui para percorrer todas as tensões disponíveis e selecionar um limite."
+				""
+				"Um overclock é permitido para cada quatro vezes a potência fornecida acima da potência da receita. Cada overclock significa: 2x a velocidade da receita, 4x o consumo de energia, 2x o custo total de energia, chamado &b overclocking com perdas &r. A maioria das máquinas usa overclock com perdas."
+				""
+				"No entanto, as fórmulas ULV (mesmo as fórmulas de moedor de 2EU/t) não terão overclock em máquinas de baixa tensão, portanto, elas só usarão energia elétrica de nível LV ao atingir MV (as fórmulas de moedor geralmente usam 32EU/t somente quando HV é obtido)."
+				""
+				"O conceito correspondente é &d overclocking sem perdas &r, 4x velocidade da receita, 4x consumo de energia, 1x custo total de energia."
+			]
+			icon: "minecraft:clock"
+			id: "5535934109A12B5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "248B95222F2DE50A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4DB7B7FC0312D572"
+					title: "Overclock"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Obviamente, as tensões podem ser convertidas entre tensões usando um transformador. O transformador só pode converter entre dois níveis de tensão adjacentes, com modos boost e buck. No modo boost, a tensão e a corrente 4x serão convertidas em uma tensão mais alta e corrente 1x, e vice-versa no modo buck."
+				""
+				"Existem quatro tipos de transformadores: transformadores comuns, avançados, de alta corrente e de alta energia. O transformador comum é 1A<-->4A, o transformador avançado é 2A<-->8A, o transformador de alta corrente é 4A<-->16A e o transformador de alta energia é 16A<-->64A. O lado vermelho do transformador corresponde à baixa tensão e o lado verde corresponde à alta tensão."
+				""
+				"O transformador ativo da máquina multibloco desbloqueado no estágio LuV pode suportar a conversão entre qualquer tensão e qualquer corrente, aumentar/diminuir automaticamente a tensão e pode substituir todos os transformadores comuns em ambientes de alta tensão e alta corrente nos estágios intermediário e posterior."
+				""
+				"Mas o verdadeiro propósito do ativo é dobrar o laser."
+			]
+			icon: "gtceu:active_transformer"
+			id: "010CF028448C17A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A16989AB32BFB97"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "311562AB006A065E"
+					title: "transformador"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"A rede sem fio aqui foi estabelecida a partir do momento em que você entra no arquivo e tem &d capacidade ilimitada &r, &b sem perda de energia &r e pode até &6 transmitir energia através de latitudes &r"
+				""
+				"Ele pode interagir com a rede sem fio através da placa de cobertura de energia sem fio, compartimento de energia/potência sem fio, compartimento de alvo/fonte de laser sem fio, interface de energia sem fio e matriz de geração de energia"
+				""
+				"O monitor de energia sem fio pode monitorar as especificidades das redes sem fio"
+			]
+			icon: "gtmthings:wireless_energy_monitor"
+			id: "1D4874CA93B567A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A8C9AC81599146F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "673111C64F7BABA2"
+					type: "checkmark"
+				}
+			]
+			title: "rede de rádio"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"O EU/t fornecido para a estrutura multibloco é maior do que o EU/t fornecido para a receita?"
+				"O armazém de manutenção foi mantido?"
+				"Existem requisitos especiais que podem ser atendidos?"
+				"Os itens e fluidos são inseridos corretamente no ônibus/lixo/produto?"
+				"O espaço de saída é grande o suficiente?"
+				"A câmara do silenciador está voltada para o bloco de ar?"
+				"Talvez uma estrutura multibloco tenha sido formada, mas você se esqueceu de uma lixeira."
+			]
+			icon: "gtceu:maintenance_hatch"
+			id: "498CB29FA7447C46"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C362D7D07573B39"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "44CA2F43F475CFD9"
+					title: "Motivo para não trabalhar"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Qual é o impacto de um alto-forno elétrico derreter itens a uma determinada temperatura? Cada receita de alto-forno elétrico possui uma temperatura base específica. Por exemplo, o alumínio é fundido a 1700K. Se a temperatura não for suficientemente elevada, a receita não será executada. Se a temperatura for suficientemente alta, o consumo de tempo será reduzido."
+				""
+				"A temperatura depende principalmente do tipo de bobina utilizada, mas além disso há um aumento de 100K na temperatura para cada grau de tensão a partir de HV. Isso significa que em algum momento é possível usar uma bobina de estágio inferior com tensão alta o suficiente para executar certas receitas que pareceriam possíveis apenas com uma bobina de estágio superior."
+			]
+			icon: "kubejs:uruium_coil_block"
+			id: "2205C5F410B9C4DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "502F72B2B473E1F5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "50F636D9BF4F6025"
+					title: "Bobina"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"As estruturas multibloco são verificadas para ver se têm energia suficiente antes de trabalhar."
+				""
+				"A energia consumida por vários blocos é a soma de todos os compartimentos de energia."
+				""
+				"Por exemplo, a eletricidade requer uma entrada de energia de pelo menos 120EU/t para executar a sua receita. Isto pode ser conseguido através de dois compartimentos de energia de baixa tensão. Cada compartimento requer 2 amperes de BT, portanto são necessários um total de 4 amperes de BT para atingir uma potência máxima de 128EU/t. Ou seja, &b armazém duplo aumenta &r."
+				"Isso permite que níveis de baixa tensão processem receitas de alto nível de tensão. Observe que isso só pode ser alcançado em tensões adjacentes, ou seja, &6 só pode aumentar &r uma vez, e &b e dois compartimentos de energia &r devem ser usados."
+			]
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "0BADECF30AC0BAC4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E4F322748AB8F3B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "23E71635D04A5A77"
+					title: "distribuído por"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Esta é a chave para a entrada e saída de estruturas multibloco. Ônibus/caixas/conjuntos mais avançados proporcionarão mais espaço."
+				""
+				"O barramento/bin/conjunto também vem com funções automáticas de entrada e saída &d &r, que podem ser controladas por interruptores."
+			]
+			icon: "gtceu:lv_input_bus"
+			id: "5DB8BE71B3733C36"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3100FD76AEA9BF1D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "35761A42191E549C"
+					title: "ônibus/caixa"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Quando 16 máquinas de baixa tensão funcionam simultaneamente, a potência é igual à de uma máquina de alta tensão, mas a velocidade é quatro vezes maior que a de uma máquina de alta tensão. Isso ocorre porque as máquinas de 16 BT não sofreram perdas causadas por overclocking com perdas. fazendo com que ele faça isso mais rápido em uma velocidade menor."
+				""
+				"O paralelismo de estruturas multibloco é um conceito semelhante. Simplificando, o paralelismo é uma forma alternativa de overclocking sem perdas."
+				"{@pagebreak}"
+				"O paralelismo de sub-tick (1toc) é um mecanismo que é acionado quando algumas estruturas multibloco levam menos de 1 tick de jogo para processar uma única receita."
+				""
+				"Todas as máquinas de bloco único e máquinas paralelas de receita cruzada não acionarão 1toc."
+				""
+				"Exemplo 1: Quando uma máquina multibloco com nível de tensão LuV processa receitas que levam exatamente 1 game tick no nível de tensão IV, a máquina processará 2 receitas por game tick. Se o nível de tensão da máquina for um nível superior (atingindo o nível ZPM), ela processará 4 receitas por tick de jogo; se a máquina tiver um mecanismo de overclock sem perdas (como um grande reator químico), ela processará 4 e 16 receitas em paralelo nos níveis LuV e ZPM, respectivamente."
+				""
+				"Exemplo 2: Para uma receita que leva 3 tiques de jogo e a receita é de overclock sem perdas (o tempo necessário para cada nível de overclock é reduzido para 1/4 do original e o consumo total de energia permanece inalterado), após um nível de overclock, 4 receitas serão processadas ao mesmo tempo, mas o tempo ainda é de 3 tiques de jogo."
+				""
+				"Na verdade, há uma diferença entre “1toc com perdas” e “1toc sem perdas”. O exemplo acima é apenas para referência."
+				"{@pagebreak}"
+				"O paralelismo entre receitas é um mecanismo exclusivo de algumas máquinas multibloco, que permite à máquina executar múltiplas receitas diferentes no mesmo modo de máquina ao mesmo tempo."
+				""
+				"Da mesma forma, o limite inferior do tempo de receita para todas as máquinas com paralelismo entre receitas é de 1 segundo."
+				""
+				"Exemplo: O Separador Sagrado pode fazer barras de prata e barras de ferro ao mesmo tempo, mas não pode centrifugar o ar e fazer barras de ferro ao mesmo tempo."
+				""
+				"\\\"Threads\\\" é um atributo exclusivo de máquinas com paralelismo de receita cruzada (todas possuem 64 threads). O número paralelo total de uma máquina paralela de receita cruzada é o número de threads multiplicado pelo número paralelo da própria máquina. O número de threads representa o número máximo de receitas para as quais o número paralelo total pode ser alocado. Nota: A máquina paralela de receita cruzada alocará todo o paralelismo total para uma receita quando possível."
+			]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "6F503441C24ABD5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E0EC544E98C754A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1CC517916931AB"
+					title: "paralelo"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&7 Lado frontal &r deve ser óbvio, &9 Lado de saída &r é o lado com pontos ou furos, por padrão este é o lado traseiro quando você coloca a máquina."
+				""
+				"As máquinas podem executar &a saída automática &r através de suas superfícies de saída. Para ativar a saída automática, clique no botão correspondente na GUI. A saída automática de fluidos e itens é alternada individualmente. A saída automática pode ser controlada ainda mais através da sobreposição &d &r."
+				""
+				"Use a chave &5 &r para clicar com o botão direito na máquina para alterar o lado de saída e clicar com o botão direito do mouse para alterar a frente."
+				""
+				"Por padrão, itens e fluidos não podem ser inseridos pelo lado de saída, mas isso pode ser alternado usando a chave de fenda &5 &r, clicando diretamente com o botão direito no lado de saída ou clicando com o botão direito do mouse na malha correspondente ao lado de saída."
+				""
+				"Existem algumas máquinas exclusivas que não lidam com receitas, como &3Pump&r, &3Mining Machine&r, &3Fishing Machine&r, &3Item Collector&r, etc., essas máquinas produzirão em sua &7 frente &r (ainda marcada como pontos)."
+			]
+			icon: "minecraft:hopper"
+			id: "2B1992E2158E63A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62C179D18C16AA1C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3A68620AD827B0E5"
+					title: "Logística de máquinas"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Quando o modo da máquina é alternado enquanto a máquina está em funcionamento, a máquina tentará continuar executando a receita antes da troca. Somente remodelando ou atualizando o material de entrada a máquina pode alterar o modo de operação."
+				""
+				"Exemplo 1: Uma grande instalação de destilação fracionada executa a receita de água destilada no modo de coluna de destilação. A receita da coluna de destilação ainda é executada após a mudança para o modo de câmara de destilação."
+				""
+				"Exemplo 2: Uma grande cervejaria opera a fórmula batata + água → biomassa no modo sala de cerveja. Depois de mudar para o modo fermentador, ele não mudará para a fórmula batata → batata venenosa."
+				""
+				"Exemplo 3: Quando o módulo de aquisição do elevador espacial executa a receita de mineração, ele muda para o modo de fluido de mineração e ainda minera."
+				"{@pagebreak}"
+				"No JEI, você descobrirá que a dica de alguns materiais/produtos relacionados à probabilidade tem \\\"bônus de tensão: +n%/por nível\\\", onde o valor específico de \\\"por nível\\\" é o nível máximo de tensão da receita da própria máquina menos o nível mínimo de tensão da própria receita."
+			]
+			icon: "gtceu:large_assembler"
+			id: "662FE1772CF9B5ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33BEAF2D985838CE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4807FB6A36F025EC"
+					title: "outro"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: -8.0d
+		}
+	]
+	title: "Dicas e truques"
+}

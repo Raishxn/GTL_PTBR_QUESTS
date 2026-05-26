@@ -1,0 +1,1309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "319332DBAE997BBE"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:luv_electric_motor"
+	id: "319332DBAE997BBE"
+	order_index: 6
+	quest_links: [
+		{
+			id: "2D863FE0CCAA0BFC"
+			linked_quest: "4BFA114E12BCB163"
+			shape: "gear"
+			size: 2.0d
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["36F5A40D3976E512"]
+			description: ["Vá cavar em Io"]
+			id: "7F92A8EE58AD5BA2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EE57B849B975713"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7247977F19E25C6A"
+					item: "gtceu:naquadah_dust"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872", "15580C25FF239402"]
+			icon_scale: 2.0d
+			id: "13BBF0FF3267BFDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13D0AB27F4F0D223"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14278F7C3EBA47B3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "78E1EA0D0D683394"
+					item: "gtceu:naquadah_coil_block"
+					type: "item"
+				}
+			]
+			title: "bobina de sílica"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			dependency_requirement: "one_completed"
+			description: ["O pó pode ser obtido por moagem ou beneficiamento eletromagnético"]
+			id: "0507FDF7BECE29AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "534BBE8A047205E9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "39855610E9E80307"
+					item: "gtceu:enriched_naquadah_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			description: [
+				"&lNesta fase, você precisa fazer um armazém de energia mais avançado - ou seja, um armazém de laser. Algumas máquinas só podem instalar câmaras de laser."
+				""
+				"&a Recomenda-se usar um sistema adaptativo, e a amperagem instalada do compartimento do alvo laser adaptativo não deve exceder 65536A, caso contrário, sua rede elétrica pode não ser capaz de suportá-lo."
+			]
+			id: "0485D45408234C99"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D6468AA551E74C0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42AB84BAAED909BC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "373808445A507E87"
+					item: "gtceu:naquadah_alloy_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			description: [
+				"&dLuV&r supercondutor"
+				""
+				"&lExistem muitas fontes de índio em pó. Recomendamos apenas a fórmula de pó de chumbo e pó de zinco no Dahua Anti-No. 4 circuito."
+			]
+			id: "2CEEFDACE7B13D5A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30D77432A019E7D6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4EA57D5B0BBC42FB"
+					item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2CEEFDACE7B13D5A", "2BEF03C52636E165"]
+			description: ["O uso de cabos supercondutores avançados pode reduzir o consumo de liga de nióbio-titânio e Caijin"]
+			id: "5B01312E34A3AD60"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BE9529C36C1989B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7A45FAD14DF53B00"
+					item: "gtceu:superconducting_coil"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"79D48E5CA0E21A07"
+				"00B9091E4824D78C"
+				"0F22A8CE63F369CA"
+				"4381BC8012E94E0A"
+				"4BFA114E12BCB163"
+				"14396D30F281CE72"
+			]
+			description: [
+				"&l·&fO corpo do reator de fusão é usado apenas como catalisador"
+				"&l &fTodas as receitas de fusão foram transferidas para o forno de fundição de liga &b"
+				"&l &f Como preço, a receita leva &6 16 vezes mais que a original"
+			]
+			icon_scale: 1.3d
+			id: "118FDF6D9F868002"
+			min_width: 210
+			rewards: [
+				{
+					id: "4219810155501659"
+					item: "avaritia:infinity_ring"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18772D69ECFFA012"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "0B872A871C43A5C7"
+					item: "thetornproductionline:fusion_process_module"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "30F5A61CE755449F"
+					item: "gtceu:luv_fusion_reactor"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			description: ["É obtido primeiro pela solidificação do európio líquido produzido por fusão e pode então ser queimado diretamente em alto-forno elétrico."]
+			id: "52DF531AFB3A07CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77632534435B7F23"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "102F17C54DB17FBD"
+					item: "gtceu:europium_ingot"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52DF531AFB3A07CE"]
+			description: ["&l&9Sei que você está incomodado com o ciclo das linhas de produção. Eu vou ajudá-lo a salvar esta amostra."]
+			icon: "gtceu:raw_crystal_chip"
+			id: "4068B8F601B041D9"
+			rewards: [
+				{
+					id: "1E4F638ECB0EF882"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:i"
+								id: "gtceu:raw_crystal_chip"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "420D40E083CF0707"
+					type: "checkmark"
+				}
+			]
+			title: "Matérias-primas de chips de cristal"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F649184083236E1"
+				"1F0C8D37619111BE"
+				"4604207A60F04214"
+				"4E1A28AFF661CED0"
+			]
+			description: ["Use fluxo de energia direta extremamente alto para realizar cálculos semelhantes aos circuitos eletrônicos."]
+			icon_scale: 2.0d
+			id: "5BB55AABB91EEF9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "740949C51F2522AF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3BB71E30BB01BF1F"
+					item: "gtceu:crystal_processor"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BB55AABB91EEF9D"]
+			icon_scale: 2.0d
+			id: "3DCB5E7F69CE5F7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0330022CD42F0EE2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "042B52D3F408E0DA"
+					item: "gtceu:crystal_processor_assembly"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DCB5E7F69CE5F7F"]
+			icon_scale: 2.0d
+			id: "09856E59E52AEE7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58C7573B898D7C58"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31F6F1EA2FAB9AA0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3864B056087A7894"
+					item: "gtceu:crystal_processor_computer"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09856E59E52AEE7D"]
+			icon_scale: 2.0d
+			id: "233CA36D529EC3FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "759A5D82CB0503F0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "045D15FA229AAF86"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6BB959FA3D648151"
+					item: "gtceu:crystal_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4068B8F601B041D9"]
+			icon_scale: 2.0d
+			id: "7F649184083236E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ECE277D527541AF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0471E640C4427300"
+					item: "gtceu:crystal_cpu"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			hide_dependency_lines: true
+			id: "4381BC8012E94E0A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "768ADAB96A8F6125"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "74011E6BE9AA8BDE"
+					item: "gtceu:uhpic_chip"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B01312E34A3AD60", "4172820CE8E15F90"]
+			id: "79D48E5CA0E21A07"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33E41C67F9A12FB7"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1716B0692F1C0249"
+					item: "gtceu:fusion_casing"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			id: "4172820CE8E15F90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CDCFAD3615F5386"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "452A699C8A8C2AF5"
+					item: "gtceu:neutron_reflector"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7F8C2ECC7CE2BF20"
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+				"25F272243EB904D5"
+			]
+			id: "00B9091E4824D78C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72E24A960D8E0BCB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "20C4C63653ED3480"
+					item: "gtceu:luv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			icon_scale: 2.0d
+			id: "23B23867F311BF51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "547BB487C427E24E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70FEF711E74A2308"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3CDD2D97C975A389"
+					item: "gtceu:trinium_coil_block"
+					type: "item"
+				}
+			]
+			title: "Bobina Caijin"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["233CA36D529EC3FB"]
+			hide_text_until_complete: false
+			icon_scale: 2.0d
+			id: "2A0269009ABF1414"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DFE75F57D8FA9A6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Isto não é uma linha de montagem"
+			tasks: [
+				{
+					id: "17918BFA4E414A13"
+					item: "gtceu:precision_assembler"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["23B23867F311BF51"]
+			description: ["&cZPM&rSupercondutor"]
+			id: "0B89B3108EB4A01F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EFD88A9B8E41173"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "163DAED63B45B598"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7E7B15A8DCDA158C"
+					item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2CEEFDACE7B13D5A"]
+			hide_dependency_lines: true
+			id: "4ECACC2A6159D332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "237A26AD070679A9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "66F78A994427739B"
+					item: "gtceu:luv_field_generator"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["50FFFB0EBEDAE50B", "52DF531AFB3A07CE"]
+			description: [
+				"A estação de pesquisa &l·&f requer o poder de computação fornecido pelo computador &6 &f para pesquisa."
+				"&l·&f Ao pesquisar, você precisa colocar &a itens de pesquisa &f e &a itens de armazenamento de dados &f no &b suporte de item &f"
+				""
+				"&l·&fA estrutura multibloco da estação de pesquisa contém a área &6 aérea &f"
+				"&l &f Na área &64×3×3&f onde está localizado o porta-itens, o ar não pode ser substituído por outros blocos, caso contrário a estrutura não pode ser formada."
+				""
+				"&l·&cA estação de pesquisa não pode executar a receita do scanner&r"
+			]
+			icon: "gtceu:research_station"
+			icon_scale: 1.3d
+			id: "298369255C8130F7"
+			min_required_tasks: 1
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D30E126E563C927"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "223832A139BBC896"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					id: "0CB4B11AEBE2BB78"
+					item: "gtceu:object_holder"
+					type: "item"
+				}
+				{
+					id: "706B02404A310B01"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4ECACC2A6159D332"
+				"0B89B3108EB4A01F"
+				"4E1A28AFF661CED0"
+			]
+			description: [
+				"&l·&f fornece &6 poder de computação &f para operação do dispositivo. Mais poder de computação requer a atualização de componentes ou o uso do switch &b &f para mesclar o poder de computação de vários computadores."
+				""
+				"&l·&f usa cabo óptico &6 &f para transmitir energia de computação entre armazéns de energia de computação com fio, e o cabo óptico &e não pode ser bifurcado &r"
+				""
+				"&l·&fO refrigerante necessário para componentes de resfriamento ativo é fornecido através de &bbin de entrada&f"
+				""
+				"&l·&f Se &6HPCA&f superaquecer, ocorrerão danos aleatórios aos componentes (mudar para o shell correspondente) e parar de funcionar"
+				""
+				"&l·&e Entrada de energia insuficiente &r ou &e Nenhuma demanda de energia de computação &r, HPCA não funcionará"
+				""
+				"&l·&4&l Observe a distinção entre o data warehouse com poder de computação (transmitindo poder de computação) e o data warehouse óptico (transmitindo dados) &r"
+				""
+				"&l·&fO armazém de destino de dados de poder de computação e o armazém de fonte de dados de poder de computação &c não podem ser compartilhados &r"
+			]
+			icon: "gtceu:high_performance_computation_array"
+			icon_scale: 2.0d
+			id: "50FFFB0EBEDAE50B"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "00B45CE41F6F9DE1"
+					item: "gtceu:hpca_active_cooler_component"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FD10777E6443298"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1E7BE63B3A0D93A8"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "47DB4BF1F015DA2B"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "54575D8670C83558"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "23B8685F9D8A0C1C"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+				{
+					id: "06AB74F84583FBAA"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					id: "486BA41B749013B0"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "4EC403272DF81BCC"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04FD2A25CAC86CAB"]
+			id: "1F0C8D37619111BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6468AF35AC29F5DB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "733C183D65E9CA06"
+					item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F92A8EE58AD5BA2", "7DCA0B7C9F3C3ACF"]
+			id: "09F132EE8A88C872"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5131725EF0CFE53B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "62E375AC37B369C7"
+					item: "gtceu:naquadah_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			description: [
+				"Você pode fazer isso se tiver rocha de sílica, o que pode melhorar a eficiência."
+				""
+				"O bloco de silício &c da ExtendedAe não pode ser usado para criar &r, use o bloco de silício &9GregTech&r"
+			]
+			hide_dependency_lines: true
+			id: "1C10383050657004"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09C8120787D2D5F9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "78A1A23B153BDD1E"
+					item: "gtceu:naquadah_boule"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			description: ["Receita de alto-forno elétrico em uma etapa"]
+			id: "2BEF03C52636E165"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3610B71CDA908783"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0B22F2ABE0FBC895"
+					item: "gtceu:trinium_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["23B23867F311BF51"]
+			description: [
+				"Mais tarde você também pode usar o Fusion III para fazer isso"
+				""
+				"A mesma síntese em uma única etapa"
+			]
+			id: "4A058FA1859A00D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A155FDF658908B7"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1500F4DD00FA0E96"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "20E616EF8F63C870"
+					item: "gtceu:naquadria_ingot"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872", "15580C25FF239402"]
+			description: ["Mais tarde, será usado para fazer lingotes de netherita."]
+			id: "66AE53E13E3C3C19"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05E844BCAD1D5DFA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "41F85AC3AB132C38"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"66AE53E13E3C3C19"
+				"0485D45408234C99"
+				"0507FDF7BECE29AF"
+			]
+			description: ["&l&3Todas as receitas de foguetes foram simplificadas"]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_6_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [
+							{
+								Amount: 0L
+								Fluid: "minecraft:empty"
+							}
+						]
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "67784DEB22D18308"
+			rewards: [
+				{
+					id: "6798C71A84FECE4E"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "255C884DA3CB7004"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "478383AB5C6B670A"
+					item: "gtlcore:world_fragments_pluto"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35BC3143CD9776D2"
+					item: "gtlcore:world_fragments_enceladus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "655E8BA3298AC0F2"
+					item: "gtlcore:world_fragments_titan"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "587E9B84D1395586"
+					item: "gtlcore:world_fragments_end"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1382D199FDBDEBF5"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [
+									{
+										Amount: 0L
+										Fluid: "minecraft:empty"
+									}
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4172820CE8E15F90"]
+			description: ["Um pouco mais barato que os blocos mecânicos e pode ser usado para preencher estruturas"]
+			id: "14396D30F281CE72"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FCA550ED562600D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "277BB227A11F67EC"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			description: ["Clang sonoro e poderoso"]
+			id: "6A59FA11D10C648A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "66CDB7FA28B95693"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4C1F30305CB157EA"
+					item: "gtceu:duranium_ingot"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["298369255C8130F7", "5F0A175D6704A8D0"]
+			description: ["16 capacidade de rede"]
+			icon: "gtceu:advanced_data_access_hatch"
+			id: "0723418AF58675E7"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54545395DA7EDF56"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "maior capacidade"
+			tasks: [
+				{
+					id: "619E79A8D61563CA"
+					item: "gtceu:advanced_data_access_hatch"
+					type: "item"
+				}
+				{
+					id: "49197742F547355E"
+					type: "checkmark"
+				}
+			]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			id: "2AA63D77B0E86D2E"
+			rewards: [
+				{
+					id: "74F83E0CD43D15C7"
+					item: "avaritia:infinity_hoe"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ECA2712FC72E23F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Man！"
+			tasks: [
+				{
+					id: "07D2F38F2B6D6996"
+					item: "gtceu:fall_king_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163", "15580C25FF239402"]
+			description: [
+				"&l·&bEsta máquina tem um total de 3 receitas passivas, portanto é necessário fazer 3 unidades."
+				"&l ·Água + Toras"
+				"&l ·Nitrogênio gasoso + toras"
+				"&l ·Steam + Registros"
+			]
+			icon_scale: 1.5d
+			id: "12F9033C4C2B29EB"
+			shape: "rsquare"
+			subtitle: "Tecnologia maravilhosa"
+			tasks: [
+				{
+					id: "3BC83ABCD0AD2F48"
+					item: "gtceu:wood_distillation"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163", "15580C25FF239402"]
+			description: ["Existem reatores químicos paralelos e a eficiência pode ser melhorada com a atualização das bobinas."]
+			icon_scale: 1.5d
+			id: "4CDCF542F45205EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40EAF90F41E80360"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "29BFCB27C5CDC79E"
+					item: "gtceu:chemical_plant"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: [
+				"É equivalente a um armazém de energia (armazém alvo) e um armazém de energia (armazém fonte) mais potentes. Só pode ser utilizado em máquinas ou geradores com &e na descrição que permite a utilização do armazém laser &r. Também pode ser usado em &b reforço de armazém duplo &r (se for permitido instalar dois armazéns de laser)"
+				""
+				"Cabines de laser comuns precisam ser conectadas com cabos de laser comuns (sem perda de energia). O cabo não pode ser virado. Por favor, use um transformador ativo para conseguir girar o laser. Depois que a cabine do laser sem fio for colocada, ela interagirá diretamente com a rede sem fio sem operações adicionais."
+				""
+				"A potência máxima pode atingir 4194304A/tensão do compartimento"
+				""
+				"Nota: Mesmo que haja uma palavra &o na descrição da máquina que permite o uso do armazém de laser &r, na maioria dos casos o armazém de alvo de laser &l&c ainda não pode substituir o armazém de energia &r&r&r na estrutura multibloco (alguns casos especiais, como twister químico profundo, nano-forja, etc. só podem usar o armazém de alvo de laser, não o armazém de energia; e o reator de fusão nuclear de compressão pode usar o alvo de laser armazém para substituir o armazém de energia Consulte a interface JEI multibloco e a descrição do host da máquina)."
+			]
+			icon: "gtmthings:iv_256a_wireless_laser_target_hatch"
+			icon_scale: 1.5d
+			id: "0E3F70831E273595"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "42469597B63926E2"
+					item: "gtmthings:iv_4194304a_wireless_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "1B7475317549B28D"
+					item: "gtmthings:iv_4194304a_wireless_laser_source_hatch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B20AAA1A7F072BA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "poder superior"
+			tasks: [
+				{
+					id: "3B3E93B980B75406"
+					item: "gtceu:iv_256a_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "42CFF2261F20BBF7"
+					item: "gtceu:iv_256a_laser_source_hatch"
+					type: "item"
+				}
+				{
+					id: "7F752DA927B17025"
+					type: "checkmark"
+				}
+			]
+			title: "Armazém de laser"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["233CA36D529EC3FB"]
+			description: ["Maior e mais forte, mesmo que haja uma petroquímica não pode ser jogada fora"]
+			icon_scale: 2.0d
+			id: "01526A08D01458FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "208B7424A1E71ECC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1ADE7259443AA0A3"
+					item: "gtceu:large_cracker"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2CEEFDACE7B13D5A", "7F8C2ECC7CE2BF20"]
+			description: [
+				"Armazenamento de dados de grande capacidade, usando data warehouses ópticos para alimentar diversas linhas de montagem"
+				""
+				"Os bancos de dados também podem ser conectados em série (o banco de dados pode obter dados de outros bancos de dados através do armazém de destino)"
+				""
+				"O compartimento de destino/fonte de dados ópticos &c não pode ser compartilhado com &r"
+				""
+				"Os cabos ópticos são usados ​​para transmitir dados entre armazéns ópticos com fio, e os cabos ópticos &e não podem ser bifurcados &r"
+				""
+				"O armazém óptico sem fio usa memória flash &d &r para ligação"
+				""
+				"Cada compartimento (óptico e de acesso) continua consumindo &e1.920&r EU/t (0,9A &bMV&r)"
+				"Se a base de dados estiver sendo escrita ou lida por outras máquinas, o consumo de energia de cada armazém aumenta para &e30,720&r EU/t (0,9A &5EV&r)"
+				"&4Se a fonte de alimentação for insuficiente, alguns armazéns irão falhar."
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:data_bank"
+			icon_scale: 1.5d
+			id: "5F0A175D6704A8D0"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "30BB79C8EC292E07"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "388BB64700A5AD98"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CA2C364C57FB12A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Essencial"
+			tasks: [
+				{
+					id: "488C1A3FC0D7CCB6"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					id: "04C16CC58A3C2785"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "2133DF3F29F434FF"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "5044E6156B99035B"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "536C6CA30380BE1B"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4364E6CB1ACEC00F", "4BFA114E12BCB163"]
+			description: [
+				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
+				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
+				""
+				"&7▌ Função:"
+				"&l Custo inicial muito baixo, adequado para acumulação em grande escala"
+				"&l gera eletricidade sem qualquer combustível ou manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6 Método de construção: coloque a obsidiana, coloque o cristal final nela, remova a obsidiana e coloque o corpo da máquina na posição original da obsidiana"
+			]
+			id: "0589FAD28BCAC9B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4359CB753C3AD123"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "043B15707A5B816D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0EE198F345291DB5"
+					item: "gtl_extend:luv_primitive_magic_energy"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			description: ["&lEssa coisa não pode acelerar o ativador de nêutrons. É usado apenas por geradores quânticos e de massa líquidos."]
+			id: "23C4F5130AABFDED"
+			optional: true
+			tasks: [
+				{
+					id: "22BDFE5A1D0A706B"
+					item: "thetornproductionline:neutron_activator_module"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Tier6-LuV"]
+	title: "pressão diferencial dramática"
+}

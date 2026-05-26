@@ -1,0 +1,5881 @@
+{
+	autofocus_id: "62C12BDCBCE07F17"
+	default_hide_dependency_lines: true
+	default_quest_shape: "diamond"
+	disable_toast: true
+	filename: "assemblylinedistorter"
+	group: ""
+	icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+	id: "62534E06FFE5113F"
+	images: [{
+		height: 2.0d
+		image: "gtceu:textures/gui/icon/gregtech_logo.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 3.5d
+		y: -3.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"1DFBF69B9884F1E6"
+			]
+			id: "5F1342EB4165CBFF"
+			shape: "diamond"
+			subtitle: "Síntese mais simples"
+			tasks: [{
+				id: "2C37E5811A249A8B"
+				item: "extendedae_plus:infinity_biginteger_cell"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6A2E64BAF19CAF7F"
+			]
+			description: [
+				"&7[Método de síntese]Use a matriz de onda quântica em zigue-zague final"
+				"&7[método de queima vazia] use o circuito nº 32"
+			]
+			disable_toast: true
+			id: "520160C3C35F79FC"
+			rewards: [{
+				auto: "enabled"
+				description: "separado"
+				icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+				id: "796FB0314D9AB51F"
+				title: "&1 O &2 &3 mais &4 o imperador &6 depois de &5"
+				type: "toast"
+			}]
+			shape: "diamond"
+			subtitle: "O falso deus em pleno estado"
+			tasks: [{
+				id: "0736DB38708EC9CC"
+				item: {
+					Count: 1
+					id: "gtladditions:forge_of_the_antichrist"
+					tag: {
+						BlockEntityTag: {
+							runningSecs: 18000L
+						}
+						display: {
+							Lore: [
+								"\"§6§lFornalha de Forja do Falso Deus·Forma Suprema\""
+								"“§e§nApós as intermináveis ​​voltas e reviravoltas da matriz de ondas quânticas, o poder infinito criou a base do falso deus”"
+								"\"§7§mTudo na UE que engoliu 9,2E em um segundo está chegando ao fim\""
+								"\"§5§o carrega todas as coisas e rompe as algemas do mundo\""
+								"\"§c§kQueime tudo no mundo...\""
+							]
+							Name: "{\"text\":\"A Forja do Falso Deus Final\",\"color\":\"#FF4500\",\"bold\":true,\"italic\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			id: "542B6F5B6A5F81AD"
+			shape: "diamond"
+			subtitle: "Série de tempo e espaço para remover bonecas matryoshka"
+			tasks: [
+				{
+					id: "01C5C00D7C342A88"
+					item: "gtceu:long_spacetime_rod"
+					type: "item"
+				}
+				{
+					id: "41784F8F58587273"
+					item: "gtceu:spacetime_hex_wire"
+					type: "item"
+				}
+				{
+					id: "71923719EFA4302C"
+					item: "gtceu:spacetime_octal_wire"
+					type: "item"
+				}
+				{
+					id: "46E0F089B30DE323"
+					item: "gtceu:spacetime_quadruple_wire"
+					type: "item"
+				}
+				{
+					id: "5D2F537B97D05F48"
+					item: "gtceu:spacetime_double_wire"
+					type: "item"
+				}
+				{
+					id: "5C49EA89FAF5FFE1"
+					item: "gtceu:spacetime_single_wire"
+					type: "item"
+				}
+			]
+			title: "tempo e espaço"
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			id: "24F234A810219887"
+			shape: "diamond"
+			subtitle: "Não contém adição de plasma"
+			tasks: [{
+				id: "5B51EFA9E6295369"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Pacote de componentes de plasma\"}"
+						}
+						ic: 35L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:argon_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:heavy_quark_degenerate_matter_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:echoite_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:raw_star_matter_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:legendarium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:metastable_hassium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:degenerate_rhenium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:quark_gluon_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:celestialtungsten_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:chaos_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:starmetal_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:enderium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:oxygen_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:nitrogen_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:orichalcum_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:quasifissioning_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:vibranium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:astraltitanium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:cosmic_mesh_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:taranium_rich_liquid_helium_4_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:dense_neutron_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:draconiumawakened_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:nickel_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:infuscolium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:flyb_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:high_energy_quark_gluon_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:quantumchromodynamically_confined_matter_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:plutonium_241_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:iron_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:silver_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:actinium_superhydride_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:crystalmatrix_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:mithril_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:adamantium_plasma"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:helium_plasma"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			id: "1AF2E460A15948D9"
+			shape: "diamond"
+			subtitle: "Conteúdo complementar que o pacote Hongmeng não possui"
+			tasks: [{
+				id: "50AE20A8198E2B6A"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Pacote de componentes Hongmeng+\"}"
+						}
+						ic: 24L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:white_dwarf_mtter_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:black_dwarf_mtter_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "ae2:sky_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:trinium_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:plutonium_241_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:titanium_50_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:copper76_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uranium_235_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:perditio_crystal_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:earth_crystal_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ignis_crystal_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:tartarite_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uruium_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:force_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:alien_algae_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:bloodstone_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:netherite_scrap"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:purified_tengam_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:quantanium_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:bedrock_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:damascus_steel_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "avaritia:neutron_pile"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:certus_quartz_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "ae2:fluix_dust"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			id: "74E258C9171880FF"
+			shape: "diamond"
+			subtitle: "Reduza muitos bytes e tempo de computação"
+			tasks: [{
+				id: "51BAE9AE9E0B9E4F"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"pacote de componentes\"}"
+						}
+						ic: 112L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:mv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:hv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ev_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:iv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:luv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:zpm_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uhv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uev_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uiv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uxv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:opv_field_generator"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_electric_motor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_electric_pump"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_conveyor_module"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_robot_arm"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_electric_piston"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_emitter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:max_field_generator"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6A2E64BAF19CAF7F"
+			]
+			id: "4894C56BD9AE7F78"
+			shape: "diamond"
+			subtitle: "Alquimia do Caos"
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtladditions:proto_halkonite"
+				id: "42CEC13B37E10942"
+				type: "fluid"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			id: "5CE679E6D70A640C"
+			shape: "diamond"
+			subtitle: "Melhor síntese cósmica"
+			tasks: [{
+				id: "3EAA03F1208B0736"
+				item: "gtceu:cosmic_dust"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"014564D053F65DE6"
+			]
+			description: [
+				"&7[Função] Simulação cósmica aterrorizante e manipulação quântica Circuito 32 simulação cósmica de alta velocidade"
+				"&7[Função] Circuito No. 16 circuito de cálculo eterno de produção de alta velocidade"
+			]
+			id: "4B964C1A03003236"
+			shape: "diamond"
+			tasks: [{
+				id: "20FF04ACB93652FD"
+				item: "assembly_line_distorter:assembly_line_distorter_material"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&0Sim"
+				"{@pagebreak}"
+				"&4Sim"
+				"{@pagebreak}"
+				"&8Sim"
+				"{@pagebreak}"
+				"&cSim"
+				"{@pagebreak}"
+				"&1Sim"
+				"{@pagebreak}"
+				"&5Sim"
+				"{@pagebreak}"
+				"&9Sim"
+				"{@pagebreak}"
+				"&dSim"
+				"{@pagebreak}"
+				"&2Sim"
+				"{@pagebreak}"
+				"&6Sim"
+				"{@pagebreak}"
+				"&aSim"
+				"{@pagebreak}"
+				"&eSim"
+				"{@pagebreak}"
+				"&3Sim"
+				"{@pagebreak}"
+				"&7Sim"
+				"{@pagebreak}"
+				"&bSim"
+				"{@pagebreak}"
+				"&fSim"
+			]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "3648D1CD1068DDD1"
+			rewards: [{
+				id: "55DB24AE45DC9DE5"
+				type: "xp_levels"
+				xp_levels: 99999
+			}]
+			shape: "diamond"
+			subtitle: "[Torcedor de linha de produção]"
+			tasks: [{
+				id: "1330D99279445B3B"
+				title: "Adicionar conteúdo"
+				type: "checkmark"
+			}]
+			title: "&d&k[Torcedor de linha de produção]"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6A2E64BAF19CAF7F"
+			]
+			description: ["&7[Método de síntese]Use a matriz de onda quântica em zigue-zague final"]
+			id: "436A88E037498411"
+			shape: "diamond"
+			subtitle: "Armazém de thread extremo"
+			tasks: [{
+				id: "40D12B53BBF76CA4"
+				item: {
+					Count: 1
+					id: "gtladditions:thread_modifier_hatch"
+					tag: {
+						BlockEntityTag: {
+							astralArrayInventory: {
+								Items: [{
+									Count: 127
+									Slot: 0
+									id: "gtladditions:astral_array"
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7━━━━━━━━━━━━━━━━\"}"
+								"{\"text\":\"§6 incorpora §e127 matrizes de calibre estrela §6\",\"italic\":false}"
+								"{\"text\":\"§b Produção de energia estelar: §3+∞ §b/ tick\"}"
+								"{\"text\":\"§7━━━━━━━━━━━━━━━━\"}"
+								"{\"text\":\"§d§o \\\"A batida dos corações das estrelas\\\"§d\"}"
+							]
+							Name: "{\"text\":\"Motor superceleste\",\"color\":\"#AAFFAA\",\"bold\":true}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"30415110971A52BB"
+			]
+			description: [
+				"&7[Função] Acelere a máquina GT para completar a receita instantaneamente"
+				"&7[Uso] comutação de comando"
+				"Mude o switch shfit vinculando a chave e adicione a chave de ligação para mudar o intervalo"
+				""
+			]
+			icon: "kubejs:spacetime_catalyst"
+			id: "431C8ABDBB20A937"
+			shape: "diamond"
+			subtitle: "Aceleração GT"
+			tasks: [{
+				id: "03FACFB24CA5FB28"
+				title: "Aceleração GT"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"7C4825085A4BAD96"
+			]
+			description: ["&7[Uso] Fusão de grande reator químico"]
+			id: "39058EE1EB8FBB03"
+			shape: "diamond"
+			subtitle: "fusão"
+			tasks: [{
+				id: "6F9B9F0320EEFB4B"
+				item: "gtceu:uev_compressed_fusion_reactor"
+				type: "item"
+			}]
+			title: "fusão"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6DC22E801264BAAC"
+			]
+			icon: "ae2:controller"
+			id: "62C12BDCBCE07F17"
+			rewards: [
+				{
+					id: "16E16901D9466FDF"
+					item: "ae2_ftbquest_detector:me_quests_detector"
+					type: "item"
+				}
+				{
+					id: "0E20781446EFD595"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "008A7D359E68EEB8"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "01765904CFCECFA6"
+					item: "meplacementtool:me_placement_tool"
+					type: "item"
+				}
+				{
+					id: "09EEF88B46A54DCC"
+					item: "ae2wtlib:magnet_card"
+					type: "item"
+				}
+				{
+					id: "0ED08D474B3B9197"
+					item: "expatternprovider:ex_charger"
+					type: "item"
+				}
+				{
+					id: "481632F2EF0850B8"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:blank_pattern"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9F3C63C7200C19"
+					item: "gtlcore:debug_pattern_test"
+					type: "item"
+				}
+				{
+					id: "474410317F223C03"
+					item: "gtlcore:pattern_modifier"
+					type: "item"
+				}
+				{
+					id: "6E9C5EF6A24A01A0"
+					item: "gtlcore:me_pattern_buffer_copy"
+					type: "item"
+				}
+				{
+					id: "76DBE74B429D8A97"
+					item: "gtlcore:me_pattern_buffer_cut"
+					type: "item"
+				}
+				{
+					id: "414F47FB02464B67"
+					item: "gtlcore:cfg_copy"
+					type: "item"
+				}
+				{
+					id: "10E0593D0E82BAF8"
+					item: "gtceu:data_stick"
+					type: "item"
+				}
+				{
+					id: "109A9D6D29620D7A"
+					item: {
+						Count: 1
+						id: "gtmadvancedhatch:net_data_stick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7FC78545DE36BE46"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:fluix_glass_cable"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72E67F5A61F83967"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "expatternprovider:ex_pattern_provider"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AA4C8223579A735"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "expatternprovider:ex_interface"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A1A1EF94404206E"
+					item: {
+						Count: 1
+						id: "expatternprovider:me_packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A138777B14271E3"
+					item: "gtlcore:ultimate_terminal"
+					type: "item"
+				}
+				{
+					id: "284E0D9CF7DE3464"
+					item: "gtlcore:structure_detect"
+					type: "item"
+				}
+				{
+					id: "405F6747CD9B237E"
+					item: {
+						Count: 1
+						id: "gtceu:echoite_vajra"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								HarvestLevel: 6
+								MaxDamage: 63
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "552DB46EB9E9D2AD"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+				{
+					id: "55ED02AE57F09B7B"
+					item: "merequester:requester"
+					type: "item"
+				}
+				{
+					id: "3D0ECAD571B37196"
+					item: {
+						Count: 1
+						id: "toolbelt:belt"
+						tag: {
+							Size: 9
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54B7A50293100DFD"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					id: "44EB36400039E55B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:storage_bus"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "621D22EBB5FA7CF4"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"Pacote de componentes de ferramentas frágeis\"}"
+							}
+							ic: 10L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_file"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_hammer"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_mallet"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_wrench"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_wire_cutter"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_crowbar"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_saw"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_screwdriver"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_knife"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "fragile_tool:fragile_mortar"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61FC9CBD7F008073"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+				{
+					id: "5A5D5B0BCCF3B097"
+					item: "ae2cs:ender_linker"
+					type: "item"
+				}
+				{
+					id: "440104B6DA900D6B"
+					item: "ae2cs:ender_emitter"
+					type: "item"
+				}
+				{
+					id: "32F39F09C13CBD1B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "expatternprovider:ex_pattern_provider_part"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31F2003FE47DD62B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "expatternprovider:ex_interface_part"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F040383D6B77103"
+					item: {
+						Count: 1
+						id: "ae2:quantum_entangled_singularity"
+						tag: {
+							freq: 177367235632900L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1952EBAD30A41A9B"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "481CBD102613B6D4"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "10355AC15AF502AC"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "7D417CA14E7369C8"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					id: "50C8B398AE6C25B1"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"pacote de elementos de concreto\"}"
+							}
+							ic: 16L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:white_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:orange_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:magenta_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:light_blue_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:yellow_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:lime_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:pink_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:gray_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:light_gray_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:cyan_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:purple_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:blue_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:brown_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:green_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:red_concrete"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:black_concrete"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44E33CC9B33E89FD"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"Pacote de componentes de corante\"}"
+							}
+							ic: 16L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:white_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:orange_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:magenta_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:light_blue_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:yellow_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:lime_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:pink_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:gray_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:light_gray_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:cyan_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:purple_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:blue_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:brown_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:green_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:red_dye"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "minecraft:black_dye"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DE56EFDBA1B3275"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+				{
+					id: "54EB27EF68880182"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "53480DF2280D0B36"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+				{
+					id: "51A1A30676A6DC15"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "20F6A42054E722FD"
+					item: "expatternprovider:ex_drive"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "422AABDD7B63B6BD"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "11A49656AA9CEFC2"
+					item: "mae2:256x_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "614D4A3711DAA624"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+				{
+					id: "7F48D3CA0F97CF24"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "40FF87318F32FFBC"
+					item: "expatternprovider:ex_io_port"
+					type: "item"
+				}
+				{
+					id: "047BDDD4665182EB"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0F6C9B311BD3052B"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "0BA99232694F3861"
+					item: "gtlcore:max_storage"
+					type: "item"
+				}
+				{
+					id: "4B90E1D7E8D33BCE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D5D20579498552A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64D5C78152DABCC5"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "extendedae_plus:labeled_wireless_transceiver"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3666769446320BF1"
+					item: "extendedae_plus:infinity_biginteger_cell"
+					type: "item"
+				}
+				{
+					id: "248C331CD17AEF90"
+					item: "gtlcore:fast_infinity_cell"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "642DF7BB7225159C"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "7C954537C3E4C465"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:lava"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31C3D1DA0D752333"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:speed_card"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0983A7C38835B52D"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste_gt"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46913772E8E8E708"
+					item: {
+						Count: 1
+						id: "shrink:shrinking_device"
+						tag: {
+							Energy: 100000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14DECD1A400FCB9B"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "4CFB38E1BA35C4DE"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "3E27E2EB72086314"
+					item: "sophisticatedbackpacks:advanced_restock_upgrade"
+					type: "item"
+				}
+				{
+					id: "4B1F1FD27DC6B0D5"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "756D18638A0955E8"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "24789E21669FAA1D"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "7EE64BF92EC583C5"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+				{
+					id: "77C8BAD41A699452"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: {
+								cores: [
+									"constructionwand:core_angel"
+									"constructionwand:core_destruction"
+								]
+								cores_sel: 0b
+								lock: "nolock"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3027571D473C9AAD"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01938024A2EE1C9A"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "2F5B3F6ED606C262"
+					item: {
+						Count: 1
+						id: "ae2wtlib:wireless_universal_terminal"
+						tag: {
+							crafting: 1b
+							currentTerminal: "crafting"
+							ex_pattern_access: 1b
+							internalCurrentPower: 4800000.0d
+							internalMaxPower: 4800000.0d
+							pattern_encoding: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Artigo muito útil"
+			tasks: [{
+				id: "1869FFD584462CE1"
+				type: "checkmark"
+			}]
+			title: "prático"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"1DFBF69B9884F1E6"
+			]
+			id: "698DD52F69A34D88"
+			subtitle: "Melhor método de síntese Fornalha-Liga de Fundição"
+			tasks: [
+				{
+					id: "0B3561A96691B110"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6AAF2B49F5426973"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "1A09E66068938E0A"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Melhor fabricação de lingotes"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6DC22E801264BAAC"
+			]
+			icon: {
+				Count: 1
+				id: "gtladditions:macro_atomic_resonant_fragment_stripper"
+				tag: {
+					BlockEntityTag: {
+						astralArrayCount: 382
+					}
+					display: {
+						Lore: ["\"O macroátomo que desbloqueou a teoria da realização do paradoxo inseriu 382 arranjos estelares nele. Quando usado como hospedeiro, ele pode ser combinado com a bobina eterna para obter o paralelismo Long.MAX.\""]
+					}
+				}
+			}
+			id: "211DD869CCC05393"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "265BC01930A9B5CA"
+					item: "gtlcore:world_fragments_overworld"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "289E940C6A5233C4"
+					item: "gtlcore:world_fragments_nether"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4DC6C52C2015EF04"
+					item: "gtlcore:world_fragments_end"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "02B7EABC0B63ACE1"
+					item: "gtlcore:world_fragments_reactor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7B6BEA92302359A0"
+					item: "gtlcore:world_fragments_moon"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1B193744821F0EEC"
+					item: "gtlcore:world_fragments_mars"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "008E442FF8E69382"
+					item: "gtlcore:world_fragments_venus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3D3C2F6AFDBF00CC"
+					item: "gtlcore:world_fragments_mercury"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "588F8A91F23AC4B5"
+					item: "gtlcore:world_fragments_ceres"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0D69CAE3EF32F823"
+					item: "gtlcore:world_fragments_io"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4978CCD56E79DBC0"
+					item: "gtlcore:world_fragments_ganymede"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "20D740F29178EC0D"
+					item: "gtlcore:world_fragments_pluto"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6FE0F38C5EC4FE7E"
+					item: "gtlcore:world_fragments_enceladus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "54B4B527D0F07682"
+					item: "gtlcore:world_fragments_titan"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7D9543FED2528D76"
+					item: "gtlcore:world_fragments_glacio"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "416222B43149F0C5"
+					item: "gtlcore:world_fragments_barnarda"
+					type: "item"
+				}
+			]
+			subtitle: "Pare de brincar com seus foguetes fedorentos"
+			tasks: [{
+				id: "68DA104FFC23D714"
+				title: "De onde vem o minério?"
+				type: "checkmark"
+			}]
+			title: "saltar sobre foguete"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"014564D053F65DE6"
+			]
+			description: ["&7[Como obter] Circuito de Manipulação Quântica de Poeira do Imperador No. 16 Circuitos de Todos os Níveis de Produção de Alta Velocidade"]
+			id: "02D3F28EFA0A65A7"
+			tasks: [{
+				id: "172B6DD882E51CFC"
+				item: "assembly_line_distorter:assembly_line_distorter_circuits_ulv"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6E60B171540BE515"
+			]
+			id: "5C6243479CD53930"
+			subtitle: "A magia incondicional de alta velocidade do Circuito 32"
+			tasks: [{
+				id: "3F2C37FF2032FC3B"
+				item: "gtceu:magic_manufacturer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6E60B171540BE515"
+			]
+			id: "6F1F56170B86EDE8"
+			subtitle: "O circuito nº 32 detecta três tipos de fluidos em alta velocidade, sem qualquer poder e condições de computação."
+			tasks: [
+				{
+					id: "6CC0A827A00BC725"
+					item: "gtceu:space_probe_surface_reception"
+					type: "item"
+				}
+				{
+					id: "23E0D58F2191559D"
+					item: "gtceu:space_cosmic_probe_receivers"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6589D857CF68448C"
+			]
+			icon: "gtladditions:heart_of_the_universe"
+			id: "02CA36814C93446C"
+			rewards: [{
+				count: 64
+				id: "3673ABF125F442E3"
+				item: "gtladditions:wireless_energy_network_output_terminal"
+				type: "item"
+			}]
+			subtitle: "Todos os tipos de No. 32 Ultimate Power Generation só podem adicionar aviso de saída da rede elétrica!!! [Você não pode usar matrizes de geração de energia com cabines avançadas e não pode usar matrizes de geração de energia para produzir capacidade]"
+			tasks: [{
+				id: "72003F4DDDB81AC8"
+				title: "Nº 32 Geração de Energia Final"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"35AF4FDE0A4252B9"
+			]
+			id: "6A99A8B7AB6CB212"
+			subtitle: "Todos os mundos podem executar a receita para que todos os mundos possam usá-la."
+			tasks: [{
+				id: "08D98FD12B8B463B"
+				item: "gtceu:door_of_create"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			description: ["&7[Uso] A amostra está programada no circuito nº 16"]
+			id: "62B5755806403D21"
+			subtitle: "Ignore o poder da computação dimensional"
+			tasks: [{
+				id: "1754F43F1DAA3B1A"
+				item: {
+					Count: 1
+					id: "gtceu:create_aggregation"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3AD800B049C4DBB7"
+				"3648D1CD1068DDD1"
+			]
+			id: "0CE837C181AD1C7F"
+			subtitle: "Matadouro 3"
+			tasks: [{
+				id: "04B6DB5C815C9693"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6DC22E801264BAAC"
+			]
+			description: ["&7[Função] A matriz de super síntese pode ser usada para fazer receitas para bancada de trabalho e bancada de forjamento."]
+			icon: "gtceu:molecular_assembler_matrix"
+			id: "0FDA270392C4D495"
+			rewards: [
+				{
+					id: "4681801D00C7DF8F"
+					item: "gtceu:molecular_assembler_matrix"
+					type: "item"
+				}
+				{
+					id: "5E685DD279C762E5"
+					item: "gtceu:me_molecular_assembler_io"
+					type: "item"
+				}
+				{
+					count: 70
+					id: "1C0201928FC72E02"
+					item: "gtlcore:advanced_assembly_line_unit"
+					type: "item"
+				}
+				{
+					count: 320
+					id: "398162D484DFD6C9"
+					item: "gtlcore:iridium_casing"
+					type: "item"
+				}
+				{
+					count: 80
+					id: "212D3DA4B3312C9F"
+					item: "gtlcore:hyper_mechanical_casing"
+					type: "item"
+				}
+				{
+					count: 84
+					id: "53A65EB86EB51484"
+					item: "gtlcore:molecular_casing"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2D3BF5F0E23848A5"
+					item: "gtceu:hsse_frame"
+					type: "item"
+				}
+				{
+					count: 56
+					id: "6EE02DB4C3C33F38"
+					item: "gtceu:naquadah_alloy_frame"
+					type: "item"
+				}
+				{
+					count: 78
+					id: "2FF2580E582A4124"
+					item: "gtceu:trinium_frame"
+					type: "item"
+				}
+				{
+					count: 36
+					id: "4115B283C7223640"
+					item: "gtceu:europium_frame"
+					type: "item"
+				}
+				{
+					count: 306
+					id: "7DB252C641A5E89D"
+					item: "gtceu:high_power_casing"
+					type: "item"
+				}
+				{
+					count: 48
+					id: "60E6F7F106673BE4"
+					item: "gtceu:advanced_computer_casing"
+					type: "item"
+				}
+				{
+					count: 36
+					id: "5E335157F188F8D8"
+					item: "gtceu:fusion_glass"
+					type: "item"
+				}
+				{
+					count: 104
+					id: "2A3C8820D2155F6C"
+					item: "gtceu:superconducting_coil"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7657576685F50822"
+					item: "gtceu:assembly_line_casing"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "754462CFD36E1991"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 90
+					id: "1654097106D0DE48"
+					item: "gtceu:large_scale_assembler_casing"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4F4089599F1FC052"
+					item: "gtceu:me_craft_speed_core"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "2D5864ADB9FFB978"
+					item: "gtceu:me_craft_pattern_container"
+					type: "item"
+				}
+				{
+					count: 61
+					id: "3F11DEDF52DEB8C6"
+					item: "gtceu:me_craft_parallel_core"
+					type: "item"
+				}
+			]
+			subtitle: "Coloque-o no quadrado 21"
+			tasks: [{
+				id: "6DDB995EC569E45F"
+				title: "manipulador molecular"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"2FF58755E9DB0E5B"
+			]
+			description: ["&7[Uso]Torção de etapa única em vez de ativação de nêutrons"]
+			id: "70280E3DBFFD86A7"
+			subtitle: "ativação de nêutrons"
+			tasks: [{
+				id: "61A32E99769FAA73"
+				item: "gtceu:advanced_neutron_activator"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"1DFBF69B9884F1E6"
+			]
+			id: "725EC5508CFBADC7"
+			subtitle: "Esfregar as mãos primitiva"
+			tasks: [
+				{
+					id: "3C31EF475110B4F5"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "7AEF60F4334C2EDC"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			title: "primitivo"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"30415110971A52BB"
+			]
+			icon: "avaritia:infinity_catalyst"
+			id: "3699ADA29AB93BE1"
+			subtitle: "Voar - imune a danos"
+			tasks: [{
+				id: "5CDD6167DCE91A35"
+				title: "Bens privados funcionais"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"1DFBF69B9884F1E6"
+			]
+			id: "51A1D6B4BE0B603F"
+			subtitle: "receita simples"
+			tasks: [{
+				id: "756FB7C2B74118CB"
+				item: "gtceu:infinite_water_cover"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"014564D053F65DE6"
+			]
+			description: ["&7[Função]Suprimentos de ovos de Páscoa"]
+			id: "7BF6F16EC90CFD7D"
+			rewards: [{
+				auto: "enabled"
+				description: "Sacrifício"
+				icon: "sgjourney:classic_stargate_base_block"
+				id: "7E3073B997D4B42C"
+				title: "Arbitrário para sempre"
+				type: "toast"
+			}]
+			tasks: [{
+				id: "13F7A650AA05C02E"
+				item: "assembly_line_distorter:assembly_line_distorter_catalyst"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			id: "69B40FBA6D3D8C2D"
+			subtitle: "Fórmula de cura e pós-duplicação"
+			tasks: [{
+				id: "4A253ABF927BF3CF"
+				item: "gtceu:spacetime_ingot"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"1DFBF69B9884F1E6"
+			]
+			id: "2814E26F9EB080CB"
+			subtitle: "síntese simples"
+			tasks: [
+				{
+					id: "329EB5C244234745"
+					item: "gtladditions:huge_steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3D7BA45571B58019"
+					item: "gtceu:large_steam_input_hatch"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"0AD8A01D3E3AC331"
+			]
+			id: "00DF33E7BD655572"
+			subtitle: "Síntese mais simples"
+			tasks: [
+				{
+					id: "71D088DE5135C513"
+					item: "kubejs:overworld_data"
+					type: "item"
+				}
+				{
+					id: "2A247E7EF6A7A91E"
+					item: "kubejs:nether_data"
+					type: "item"
+				}
+				{
+					id: "5FFCB905F65CDD7A"
+					item: "kubejs:end_data"
+					type: "item"
+				}
+			]
+			title: "dados"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"62BF8D3B3AC008AF"
+			]
+			description: ["&7[Uso] Grande colisão de reator químico"]
+			id: "0F5AA4CEE420A68C"
+			subtitle: "Reator químico de colisão de partículas"
+			tasks: [{
+				id: "0930C0D1ABCB5254"
+				item: "gtceu:super_particle_collider"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			description: ["&7[Uso] Todos os níveis de síntese de bancada de circuito"]
+			icon: "kubejs:supracausal_mainframe"
+			id: "3A139725F5CF2772"
+			tasks: [{
+				id: "2CC415630AEA77E9"
+				type: "checkmark"
+			}]
+			title: "Placa de circuito universal"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"7C4825085A4BAD96"
+			]
+			id: "4AEB69AD81D9A1BC"
+			tasks: [{
+				id: "0074ECF05648B223"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:mutagen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"7C4825085A4BAD96"
+			]
+			id: "56387462E245D69F"
+			tasks: [{
+				id: "2D428D0AB15E3B5C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:sodium_potassium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "1DFBF69B9884F1E6"
+			rewards: [
+				{
+					id: "4A31365D87916F60"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "2A6177BBE8649438"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:glass_tube"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AC83E1CCC4531AB"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"Pacote de componentes de circuito de programação\"}"
+							}
+							ic: 33L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 19
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 14
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 8
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 17
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 30
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 24
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 7
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 5
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 11
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 3
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 31
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 6
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 26
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 21
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 2
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 10
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 12
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 18
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 9
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 16
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 22
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 20
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 15
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 13
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 0
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 27
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 1
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 29
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 28
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 23
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 25
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 32
+											}
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:programmed_circuit"
+											tag: {
+												Configuration: 4
+											}
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "641A24FFE657E4E1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:sticky_resin"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47F246E0A7FE693C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:steam"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C2AD63F09D580A5"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:rubber_log"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54B6B12FD9395A02"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:dirt"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2686D4633EAB610A"
+				title: "[conteúdo preliminar]"
+				type: "checkmark"
+			}]
+			title: "[Era do Vapor]"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "30415110971A52BB"
+			rewards: [{
+				id: "6920D184769EF567"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "44ED50404C3726E2"
+				title: "[Conteúdo da função]"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"17533A65E61A20D0"
+			]
+			description: ["&7[Uso] O circuito nº 32 é iniciado"]
+			id: "6D4DA00D9585987E"
+			tasks: [
+				{
+					id: "33B245E728D9B401"
+					item: "gtladditions:nexus_satellite_factory_mk1"
+					type: "item"
+				}
+				{
+					id: "7FD1FD1D62C212D6"
+					item: "gtladditions:nexus_satellite_factory_mk2"
+					type: "item"
+				}
+				{
+					id: "6698FF1D44A71676"
+					item: "gtladditions:nexus_satellite_factory_mk3"
+					type: "item"
+				}
+				{
+					id: "4C33070D2D4DE3E4"
+					item: "gtladditions:nexus_satellite_factory_mk4"
+					type: "item"
+				}
+			]
+			title: "Caçador de Luz Subespacial"
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1DFBF69B9884F1E6"
+				"3648D1CD1068DDD1"
+			]
+			description: ["&7[Método de síntese]Fundição de liga"]
+			id: "14429731FA206797"
+			tasks: [{
+				id: "3E8DD0DF2C48985A"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1DFBF69B9884F1E6"
+				"3648D1CD1068DDD1"
+			]
+			description: ["&7[Método de Síntese] Bancada"]
+			id: "2768BE6BF72A787F"
+			tasks: [{
+				id: "7AA7CA2BDE0523A7"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "6DC22E801264BAAC"
+			rewards: [{
+				id: "04A961A901C53D47"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "045CFE8C18248876"
+				title: "[Melhor começar]"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"2FF58755E9DB0E5B"
+			]
+			id: "4A688E4EFFCFDB90"
+			rewards: [{
+				count: 160
+				id: "6F304E488CC9385D"
+				item: "gtlcore:power_module_7"
+				type: "item"
+			}]
+			subtitle: "Sem poder de computação, sem eletricidade. A inicialização do circuito 32 reduz bastante o atraso. Recomenda-se que o armazém de manutenção esteja cheio. O atraso é reduzido e o bug de desligamento do armazém de manutenção é corrigido disfarçadamente."
+			tasks: [{
+				id: "1B06C909AC65F46F"
+				item: "gtceu:space_elevator"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"5BF76D91D128E214"
+			]
+			id: "130FF144791D809C"
+			rewards: [{
+				id: "240B20C111FB2190"
+				item: "gtceu:creative_data_access_hatch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26406140ECB5D8C8"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"2FF58755E9DB0E5B"
+			]
+			id: "59A171C210A64496"
+			rewards: [
+				{
+					count: 65
+					id: "2C7DFD27F6E57B4C"
+					item: "kubejs:precision_circuit_assembly_robot_mk5"
+					type: "item"
+				}
+				{
+					count: 65
+					id: "3E7E43289CE9C67A"
+					item: "kubejs:precision_circuit_assembly_robot_mk4"
+					type: "item"
+				}
+				{
+					count: 65
+					id: "71B676FCF192A6DE"
+					item: "kubejs:precision_circuit_assembly_robot_mk3"
+					type: "item"
+				}
+				{
+					count: 65
+					id: "112F29E93FD834AB"
+					item: "kubejs:precision_circuit_assembly_robot_mk2"
+					type: "item"
+				}
+				{
+					count: 65
+					id: "26A9AC9E70CF59EB"
+					item: "kubejs:precision_circuit_assembly_robot_mk1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59A8CC6B0EC82399"
+				item: "gtceu:circuit_assembly_line"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"028D03215468C7FF"
+			]
+			id: "47CF767BAA460047"
+			rewards: [{
+				count: 64
+				id: "572F38DF27E7CFB7"
+				item: "gtceu:vibranium_nanoswarm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "312E4E2D451825A8"
+				item: "gtceu:pcb_factory"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"62BF8D3B3AC008AF"
+			]
+			id: "46FCACAE1F654037"
+			rewards: [{
+				count: 64
+				id: "2C2C9F38455B0EB6"
+				item: "gtceu:carbon_nanoswarm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A35EE0554430C52"
+				item: "gtceu:nano_forge_1"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"6E60B171540BE515"
+			]
+			id: "77652C529433E5CC"
+			rewards: [{
+				count: 64
+				id: "0900C1D1339EB603"
+				item: "gtceu:neutronium_nanoswarm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3B5AB88BA1A69C"
+				item: "gtceu:nano_forge_2"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"26A04ACB250D478C"
+			]
+			id: "2090B97690E6B38F"
+			rewards: [{
+				count: 64
+				id: "05F79B91BE9F3AD2"
+				item: "gtceu:draconium_nanoswarm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27DEC2CD3FCD595A"
+				item: "gtceu:nano_forge_3"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3D1714CFB842CD48"
+			]
+			description: ["&7[Melhor elaboração] Frascos removidos"]
+			id: "575AACB3722ED23F"
+			tasks: [
+				{
+					id: "43033E5F2825B33D"
+					item: "kubejs:contained_kerr_newmann_singularity"
+					type: "item"
+				}
+				{
+					id: "0484F642FA1E7A65"
+					item: "kubejs:contained_reissner_nordstrom_singularity"
+					type: "item"
+				}
+				{
+					id: "6582FF803299D578"
+					item: "kubejs:contained_exotic_matter"
+					type: "item"
+				}
+				{
+					id: "67EC5C5EE12BDBCF"
+					item: "kubejs:contained_high_density_protonic_matter"
+					type: "item"
+				}
+				{
+					id: "433558588EB46EA4"
+					item: "kubejs:cosmic_neutron_plasma_cell"
+					type: "item"
+				}
+			]
+			title: "remover jarro"
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "7292318F08714943"
+			rewards: [{
+				id: "6B1AB66EB324A18B"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "52223E4BE65FCB6B"
+				title: "[Abrindo configurações de piso]"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"7292318F08714943"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "10FD694CE5C95360"
+			rewards: [{
+				command: "/gamerule doWeatherCycle false"
+				id: "024DFB6BC2274EE9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6A1823E079E9F7DD"
+				type: "checkmark"
+			}]
+			title: "Desligue o clima"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"7292318F08714943"
+			]
+			icon: "kubejs:chain_command_block_broken"
+			id: "74B6CB303442ACF0"
+			rewards: [{
+				command: "/gamerule doDaylightCycle false"
+				id: "7BAD37CDFE39A807"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "657F27B426EE1F52"
+				title: "bloquear durante o dia"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"3AD800B049C4DBB7"
+			]
+			description: ["&7 [Uso] Dados correspondentes - O circuito nº 1 é usado para pequena extração e pequena produção - grande extração do circuito nº 2 para produção em lote"]
+			id: "352711D759427EB5"
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:air"
+					id: "5D59544D670F25F3"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:ender_air"
+					id: "186A417D89C62C4F"
+					type: "fluid"
+				}
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:nether_air"
+					id: "5E4830699634A2B1"
+					type: "fluid"
+				}
+			]
+			title: "Uma grande quantidade de produção de gás na fase inicial"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			description: ["&7[Função] O molde se torna um circuito"]
+			icon: "gtceu:field_extruder_factory"
+			id: "0E3D947836537EC1"
+			tasks: [{
+				id: "15C4D36D79187036"
+				title: "mofo"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "6589D857CF68448C"
+			rewards: [{
+				id: "32D59E65BFC1A932"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "6B3EE187444E1D0B"
+				title: "[Conteúdo especial]"
+				type: "checkmark"
+			}]
+			title: "[Melhoria do supermodelo]"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			description: [
+				"&7[Função] A lente se torna um circuito"
+				"&7[Lembrete] Se o Kirin for adicionado, desligue o interruptor variável da lente ou remova o Kirin ou limpe o Kirin sobre o código de gravação a laser"
+				"Altere o ID da chave variável: enableLensRelacement de verdadeiro para falso"
+			]
+			icon: "gtceu:dimensional_focus_engraving_array"
+			id: "7F038C1C93ADAEBF"
+			tasks: [{
+				id: "158081EE012469F6"
+				title: "lente"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			description: ["&7[Função] Removida a capacidade de sintetizar lingotes quentes em pó e sintetizar lingotes diretamente."]
+			icon: "gtladditions:antientropy_condensation_center"
+			id: "2296C40F1A50F359"
+			tasks: [{
+				id: "1F814589EC8A8568"
+				title: "lingote"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			icon: "gtceu:component_assembly_line"
+			id: "0A77DEFA33CC7134"
+			tasks: [{
+				id: "47D55A2CF5652476"
+				title: "Síntese de partes fluidas"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"2FF58755E9DB0E5B"
+			]
+			id: "67C2564239336633"
+			rewards: [{
+				count: 43
+				id: "6C5E0EF546C85B00"
+				item: "gtlcore:component_assembly_line_casing_max"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32B636C0EF03DD6B"
+				item: "gtceu:component_assembly_line"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "3AD800B049C4DBB7"
+			rewards: [
+				{
+					id: "76CEA81AE7382BCC"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					count: 640
+					id: "11076972C5F210AB"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C58ED324936814E"
+				type: "checkmark"
+			}]
+			title: "[LV]"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "0AD8A01D3E3AC331"
+			rewards: [
+				{
+					id: "3224C1DC18E24507"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					count: 640
+					id: "77298981FF3A0D88"
+					item: "gtceu:flawless_emerald_gem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4390EB48D076CEAD"
+				type: "checkmark"
+			}]
+			title: "[MV]"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "5C32613A66FD1268"
+			rewards: [
+				{
+					id: "4049D80F87918E86"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "18BDA1AFF2B4935A"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\"text\":\"Pacote de elementos de lente Infinity\",\"italic\":false}"
+							}
+							ic: 24L
+							internalCurrentPower: 19917.5d
+							keys: [
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:orange_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:magenta_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:light_blue_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:yellow_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:lime_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:pink_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:gray_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:light_gray_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:cyan_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:purple_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:blue_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:brown_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:green_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:red_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:black_glass_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:diamond_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:emerald_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:ruby_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:sapphire_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:nether_star_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtceu:amethyst_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "kubejs:non_linear_optical_lens"
+										}
+									}
+								}
+								{
+									"#c": "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											"#c": "ae2:i"
+											id: "gtladditions:spacetime_lens"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "631AE808C01F8102"
+				type: "checkmark"
+			}]
+			title: "[HV]"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "73A37DCEA319E828"
+			rewards: [
+				{
+					id: "37A5E041F2837E3D"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					count: 640
+					id: "357EC27857D26D15"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "56203C90A3BFFC7B"
+					item: "gtceu:gravity_configuration_hatch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68F7B4738113B687"
+				title: "[EV]"
+				type: "checkmark"
+			}]
+			title: "[EV]"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "5BF76D91D128E214"
+			rewards: [
+				{
+					id: "47ADA86CBBF71F98"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					count: 64
+					id: "7FA0D5333A52A3E7"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5F84715693CC2240"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14152A595F21C7CD"
+				type: "checkmark"
+			}]
+			title: "[IV]"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "7C4825085A4BAD96"
+			rewards: [
+				{
+					id: "11F247789C199BB3"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					id: "5DF8D0D2034179B8"
+					item: "gtceu:creative_computation_provider"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1642D4B87319CC26"
+					item: "gtmthings:wireless_computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4E7489A8C12F0DC8"
+					item: "gtmthings:wireless_computation_receiver_hatch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40E2BA92EFF62030"
+				type: "checkmark"
+			}]
+			title: "[LuV]"
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "62BF8D3B3AC008AF"
+			rewards: [
+				{
+					id: "44F36524E56E47C6"
+					type: "xp_levels"
+					xp_levels: 9999
+				}
+				{
+					count: 16
+					id: "50BBB19D28CC8C12"
+					item: "gtceu:carbon_nanoswarm"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B8E0B83C6DD4349"
+				type: "checkmark"
+			}]
+			title: "[ZPM]"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "2FF58755E9DB0E5B"
+			rewards: [{
+				id: "7B2D7073486200FB"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "10E1B0C456DFA3E7"
+				type: "checkmark"
+			}]
+			title: "[UV]"
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "028D03215468C7FF"
+			rewards: [{
+				id: "49B031E27BB2F0A3"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "41B766D4F9EDB975"
+				title: "[UHV]"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "6E60B171540BE515"
+			rewards: [{
+				id: "3936BB42F5B30D26"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "0BAAFF6B3E3AD6C7"
+				type: "checkmark"
+			}]
+			title: "[UEV]"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "17533A65E61A20D0"
+			rewards: [{
+				id: "629A2A5BEA88B550"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "6AC341AB3F088393"
+				title: "[UIV]"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "26A04ACB250D478C"
+			rewards: [{
+				id: "08CE6EAF9EFEAD77"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "4F7D893A5C95FA8E"
+				type: "checkmark"
+			}]
+			title: "[UXV]"
+			x: 17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "35AF4FDE0A4252B9"
+			rewards: [{
+				id: "68A638A77A0EF76B"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "293FB2745A5E65AC"
+				title: "[OpV]"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "3D1714CFB842CD48"
+			rewards: [{
+				id: "26D54540283F025B"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "076B753D241B90F1"
+				title: "[MAX]"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "6A2E64BAF19CAF7F"
+			rewards: [{
+				id: "2D25FC909662D223"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "0292C4849730478C"
+				title: "[gtladd]"
+				type: "checkmark"
+			}]
+			title: "[GTLAdd]"
+			x: 20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2FF58755E9DB0E5B"
+				"3648D1CD1068DDD1"
+			]
+			id: "57CE50141CB60404"
+			tasks: [{
+				id: "304E029D591011E1"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:bedrock_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5BF76D91D128E214"
+				"3648D1CD1068DDD1"
+			]
+			id: "2BFF493647AD21A3"
+			tasks: [{
+				id: "50A9C6365476D86B"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:biomass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3648D1CD1068DDD1"]
+			icon: "assembly_line_distorter:assembly_line_distorter_catalyst"
+			id: "014564D053F65DE6"
+			rewards: [{
+				id: "2994EC2965FD2A8D"
+				type: "xp_levels"
+				xp_levels: 9999
+			}]
+			tasks: [{
+				id: "12FFC6D7EAF96F11"
+				title: "[assembly_line_distorter]"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3648D1CD1068DDD1"
+				"028D03215468C7FF"
+			]
+			id: "6ADC4483DA0EA7CA"
+			subtitle: "Menos uma fábrica satélite para construir"
+			tasks: [{
+				id: "1972D26D98784744"
+				item: "gtladditions:bioware_echo_shard_wafer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			icon: "gtceu:cooling_tower"
+			id: "7DE453E569F66BFD"
+			tasks: [{
+				id: "1B7AA595C36D234E"
+				type: "checkmark"
+			}]
+			title: "Eixo de transferência de pó simples"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6589D857CF68448C"
+				"3648D1CD1068DDD1"
+			]
+			icon: "gtladditions:helioflare_power_forge"
+			id: "1BB5ACB0EB4299B4"
+			tasks: [{
+				id: "2A1EFAB483040095"
+				title: "Jateamento de forno de fundição de liga"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"35AF4FDE0A4252B9"
+				"3648D1CD1068DDD1"
+			]
+			id: "116F0514D0EDA817"
+			subtitle: "Síntese mais simples"
+			tasks: [{
+				id: "7364A4E1E146A1B0"
+				item: "gtladditions:infinity_input_dual_hatch"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5C32613A66FD1268"
+				"3648D1CD1068DDD1"
+			]
+			id: "2475D48DD57EE77A"
+			subtitle: "Processamento simples de linha de produção eletrolítica de terras raras"
+			tasks: [{
+				id: "62019624888E52B2"
+				item: "gtceu:monazite_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"73A37DCEA319E828"
+				"3648D1CD1068DDD1"
+			]
+			id: "6038CE3F514BEAD0"
+			subtitle: "Processamento simples da linha de produção da série de platina eletrolítica"
+			tasks: [{
+				id: "452C7C301C86BA26"
+				item: "gtceu:cooperite_dust"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+	]
+	title: "&dTorcedor de linha de produção"
+}

@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "honkai_gtl"
+	group: ""
+	icon: "hk3gtl:honkai_energy_crystal"
+	id: "4A00000000000010"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Sintetize o Controlador da Torre de Absorção de Energia Honkai na máquina de montagem para construir uma estrutura multibloco 3×3×3."
+				"A torre de absorção pode extrair partículas de energia Honkai brutas do vazio - é aqui que tudo começa."
+			]
+			id: "4A00000000000011"
+			subtitle: "Extraia partículas de energia Honkai do vazio"
+			tasks: [{
+				id: "4A00000000000012"
+				item: "hk3gtl:honkai_absorption_tower"
+				type: "item"
+			}]
+			title: "§dTorre de absorção de energia Honkai"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A00000000000011"]
+			description: ["Um circuito programado é usado na torre de absorção para selecionar a receita e extrair as partículas de energia Honkai originais."]
+			id: "4A00000000000013"
+			subtitle: "Detritos de energia no vazio"
+			tasks: [{
+				count: 512L
+				id: "4A00000000000014"
+				item: "hk3gtl:raw_honkai_particle"
+				type: "item"
+			}]
+			title: "Partículas de energia Honkai originais"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A00000000000013"]
+			description: [
+				"Sintetize o Controlador da Planta de Condensação de Cristal para construir uma estrutura multibloco 3×3×3."
+				"Partículas originais podem ser condensadas em fragmentos Honkai ou energia Honkai líquida."
+			]
+			id: "4A00000000000015"
+			subtitle: "Condensação de partículas em cristais ou líquidos Colapso de energia"
+			tasks: [{
+				id: "4A00000000000016"
+				item: "hk3gtl:honkai_crystal_condenser"
+				type: "item"
+			}]
+			title: "§d Planta de condensação de cristal de energia Honkai"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A00000000000015"]
+			description: [
+				"As 1.024 partículas originais são comprimidas em 128 fragmentos de colapso na planta de condensação."
+				"§dNo momento em que os Fragmentos Honkai são obtidos, a era da Energia Honkai começa oficialmente."
+			]
+			id: "4A00000000000030"
+			subtitle: "E-MS-001 · Começa a era da energia Honkai"
+			tasks: [{
+				count: 128L
+				id: "4A00000000000031"
+				item: "hk3gtl:honkai_energy_crystal"
+				type: "item"
+			}]
+			title: "Fragmento Honkai"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A00000000000015"]
+			description: [
+				"Outra linha de produção da planta de condensação é a conversão de partículas em energia de colapso líquido."
+				"A fundição do aço alma requer uma grande quantidade de energia Honkai líquida como entrada de fluido."
+			]
+			id: "4A00000000000032"
+			subtitle: "O fluido chave para a fundição de aço alma"
+			tasks: [{
+				id: "4A00000000000033"
+				item: "hk3gtl:liquid_honkai_energy_bucket"
+				type: "item"
+			}]
+			title: "energia de colapso líquido"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4A00000000000030"
+				"4A00000000000032"
+			]
+			description: [
+				"Sintetize o controlador do Soulsteel Smelting Center para construir uma estrutura multibloco 5×3×3."
+				"O Soul Steel Smelting Center é uma cadeia de fundição de quatro etapas:"
+				"Mistura Precursora → Nanomatrix Ativada → Soulsteel Prime → Soulsteel Ingot"
+			]
+			id: "4A00000000000017"
+			subtitle: "E-MS-002 · O nascimento da civilização do soul steel"
+			tasks: [{
+				id: "4A00000000000018"
+				item: "hk3gtl:soulium_smeltery"
+				type: "item"
+			}]
+			title: "§d Centro de fundição e fundição de Soul Steel"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A00000000000017"]
+			description: [
+				"A cadeia de fundição de quatro etapas foi concluída no Soul Steel Smelting Center e o primeiro lote de lingotes Soul Steel foi produzido."
+				"O aço da alma é o material básico para todas as tecnologias de nível Abissal."
+			]
+			id: "4A00000000000034"
+			subtitle: "Novos materiais além da tensão MAX"
+			tasks: [{
+				count: 64L
+				id: "4A00000000000035"
+				item: "hk3gtl:soulium_ingot"
+				type: "item"
+			}]
+			title: "Lingote de Aço da Alma"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A00000000000034"]
+			description: [
+				"Na máquina de montagem, use circuito MAX + material de aço alma + fragmentos Honkai + energia Honkai líquida para sintetizar o circuito de primeiro nível Haiyuan."
+				""
+				"§d§lNo momento em que você fizer esse circuito, você será transportado para a dimensão imaginária e conhecerá Sirin, o Herrscher do Céu."
+				""
+				"§7 Este é o ponto final da versão beta-1 fechada. Obrigado por testar!"
+			]
+			id: "4A00000000000036"
+			size: 1.5d
+			subtitle: "E-MS-003 · Avanço de Haiyuan"
+			tasks: [{
+				id: "4A00000000000037"
+				item: "hk3gtl:abyss_1_processor"
+				type: "item"
+			}]
+			title: "§6§lNúcleo de cálculo de nível 1 de Haiyuan"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"§7§oDescrição interna do progresso de desenvolvimento da versão beta-1"
+				""
+				"§f está atualmente implementado:"
+				"§a✓ §fLinha de produção de energia Honkai (torre de absorção → planta de condensação de cristalização)"
+				"§a✓ §f Corrente de fundição de aço alma (cadeia de quatro etapas do centro de fundição)"
+				"§a✓ §f Síntese de circuito de primeiro nível Haiyuan"
+				"§a✓ §f Diálogo final do beta fechado (Dimensão Imaginária · Xilin)"
+				""
+				"§e Plano de atualização subsequente:"
+				"§7○ §fEstágio Abyss (23 multiblocos)"
+				"§7○ §fEstágio de número imaginário (22 multiblocos)"
+				"§7○ §fEstágio quântico (22 multiblocos)"
+				"§7○ §fFase final (22 multiblocos + julgamento final)"
+				"§7○ §f Sistema de Pesquisa (25 nós)"
+				""
+				"§dObrigado por participar do beta fechado! Por favor, relate quaisquer bugs ou sugestões."
+			]
+			id: "4A00000000000060"
+			size: 2.0d
+			tasks: [{
+				id: "4A00000000000061"
+				title: "§7ler"
+				type: "checkmark"
+			}]
+			title: "§8 Progresso do desenvolvimento e planos de acompanhamento"
+			x: 6.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Versão beta-1 fechada – expansão Honkai Impact III GTL"]
+	title: "Impacto Honkai 3-GTL"
+}
