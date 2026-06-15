@@ -1,0 +1,32 @@
+{
+  "name": "cabo",
+  "icon": "ad_astra:desh_cable",
+  "sortnum": 4,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "cabo",
+      "item": "ad_astra:desh_cable",
+      "text": "Os cabos são a ferramenta preferida para transmitir energia elétrica em longas distâncias. Existem dois tipos de cabos para escolher: cabos de aço e cabos Daiss - os cabos Daiss têm uma taxa de transmissão mais alta do que os cabos de aço. Clique com o botão direito no cabo com uma chave inglesa para ajustar a direção da extensão e desconecte-o do nó da rede."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:steel_cable",
+      "recipe2": "ad_astra:desh_cable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Duto de cabo",
+      "text": "Os cabos não são blocos completos. Portanto, não vedam a estrutura, tornando inoperantes o distribuidor de oxigênio e o normalizador de gravidade. Os dutos de cabos são blocos completos que funcionam exatamente como os cabos, evitando vazamentos."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cable_duct"
+    }
+  ]
+}
