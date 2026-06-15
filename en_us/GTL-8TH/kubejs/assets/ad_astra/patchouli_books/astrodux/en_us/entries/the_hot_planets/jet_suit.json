@@ -1,0 +1,28 @@
+{
+  "name": "jet space suit",
+  "icon": "ad_astra:jet_suit_helmet",
+  "sortnum": 0,
+  "category": "ad_astra:the_hot_planets",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "jet space suit",
+      "item": "ad_astra:jet_suit_helmet",
+      "text": "Compared with alloy spacesuits, jet spacesuits have higher armor value, extra oxygen reserves, and - it has a jetpack that allows you to fly in the air. A jet spacesuit is expensive, but its high-speed flight capabilities will definitely make you feel it is worth the money."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pressing different keys triggers different flight modes: press $(k:jump) to stroll in steady mode, or press $(k:jump) and $(k:sprint) simultaneously to sprint in boost mode. Steady mode will slowly lift you up from where you were, while boost mode has the effect of being propelled by a firework rocket while equipped with elytra. The jet suit requires energy to operate. Hold it and right-click on the energy station to recharge it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:jet_suit_helmet",
+      "recipe2": "ad_astra:jet_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:jet_suit_pants",
+      "recipe2": "ad_astra:jet_suit_boots"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+	"//_comment1": "Esta é uma linha de comentário, alterá-la não tem efeito",
+	"isLoaded": true,
+	"//_comment2": "Habilitar seção de reparo",
+	"//_comment3": "Por favor, verifique o conteúdo específico em README.md",
+	"enableSafeFixes": true,
+	"//_comment4": "Habilitar seção geral",
+	"//_comment5": "Por favor, verifique o conteúdo específico em README.md",
+	"enableSignificantBalanceChanges": true,
+	"//_comment6": "Habilitar seção de explosão nuclear",
+	"//_comment7": "Por favor, verifique o conteúdo específico em README.md",
+	"enableGameBreakingRecipes": true,
+	"Multiple": {
+		"//_comment8": "Item de ajuste do multiplicador de processamento em lote da sala de conversão de bloco",
+		"blockConversionMultiple": 64,
+		"//_comment9": "Dispositivo de agregação processando em lote vários itens de ajuste",
+		"//_comment10": "Em princípio, não deve exceder 64, caso contrário, o barramento ulv não poderá ser inserido, mas não haverá detecção real.",
+		"aggregationDeviceMultiple": 64,
+		"//_comment11": "Multiplicador de lote de fusão de guisado Ajustar este item",
+		"fusionMultiple": 128,
+		"//_comment12": "Processamento em lote da série ISA item de ajuste múltiplo",
+		"isaMultiple": 256
+	}
+}

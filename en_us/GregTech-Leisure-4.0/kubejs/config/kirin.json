@@ -1,0 +1,24 @@
+{
+	"//_comment1": "This is a line of comment, changing it has no effect",
+	"isLoaded": true,
+	"//_comment2": "Enable repair section",
+	"//_comment3": "Please check the specific content in README.md",
+	"enableSafeFixes": true,
+	"//_comment4": "Enable general section",
+	"//_comment5": "Please check the specific content in README.md",
+	"enableSignificantBalanceChanges": true,
+	"//_comment6": "Enable nuclear explosion section",
+	"//_comment7": "Please check the specific content in README.md",
+	"enableGameBreakingRecipes": true,
+	"Multiple": {
+		"//_comment8": "Block conversion room batch processing multiplier adjustment item",
+		"blockConversionMultiple": 64,
+		"//_comment9": "Aggregation device batch processing multiple adjustment item",
+		"//_comment10": "In principle, it should not exceed 64, otherwise the ulv bus cannot be input, but there is no actual detection.",
+		"aggregationDeviceMultiple": 64,
+		"//_comment11": "Stew Fusion Batch Multiplier Adjust this item",
+		"fusionMultiple": 128,
+		"//_comment12": "ISA series batch processing multiple adjustment item",
+		"isaMultiple": 256
+	}
+}

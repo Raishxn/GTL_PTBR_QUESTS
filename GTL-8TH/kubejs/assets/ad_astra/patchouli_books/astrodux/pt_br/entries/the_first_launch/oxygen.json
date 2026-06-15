@@ -1,0 +1,34 @@
+{
+  "name": "oxygen",
+  "icon": "ad_astra:gas_tank",
+  "sortnum": 5,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Now, you finally have the ability to launch rockets...wait, did we forget something? Flying to the moon without some oxygen is simply asking for death. To survive on the moon, you'll need a space suit and some oxygen."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:space_helmet",
+      "recipe2": "ad_astra:space_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:space_pants",
+      "recipe2": "ad_astra:space_boots"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "oxygen",
+      "item": "ad_astra:oxygen_bucket",
+      "text": "The current level of technology only allows you to get oxygen from water. To electrolyze water to obtain oxygen and load it into a storage tank, you need an oxygen loader. Put the bucket in from the left side, turn on the electricity, and the oxygen will be extracted continuously...repeat many times until enough oxygen is obtained."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "oxygen loader",
+      "recipe": "ad_astra:oxygen_loader",
+      "text": "You can put oxygen into drums and fluid tanks, or into space suits. In this way, we are only one step away from the rocket launch!"
+    }
+  ]
+}

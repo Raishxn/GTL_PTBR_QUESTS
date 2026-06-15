@@ -1,0 +1,28 @@
+{
+  "name": "efficient fuel",
+  "icon": "ad_astra:cryo_freezer",
+  "sortnum": 6,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Linbing freezing device",
+      "item": "ad_astra:cryo_freezer",
+      "text": "To produce traditional fuel, you need to find springs of crude oil in the vast sea and then perform complicated processing...The Linbing freezing device allows you to create a more efficient fuel-Linbing fuel. Compared with three barrels of traditional refined fuel to launch a rocket, Linbing fuel only requires one barrel."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The first step in producing ice fuel is to go beneath the surface of those cold planets and look for ice fragment ore. Throwing a piece of ice fragment into the ice freezing device can convert 25 mB of ice fuel; ice, ice floe and blue ice can also be used as backup materials to produce fuel. Put the empty barrel on the right side to get out the ice fuel."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cryo_freezer"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Ice fuel",
+      "item": "ad_astra:cryo_fuel_bucket",
+      "text": "The extraordinary performance of Linbing Fuel also implies its dangers. Like magma, it will cause damage to entities caught in it; its temperature is very low, but it can be stored in the lower realm without worrying about being evaporated; it is also an eternal freezing source that can continuously freeze the water on the side into ice cubes."
+    }
+  ]
+}

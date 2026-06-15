@@ -27,15 +27,16 @@
 	]
 	quests: [
 		{
-			dependencies: ["7C23CC6ADDC33EA0", "638C3C9A1CED8C4D"]
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"638C3C9A1CED8C4D"
+			]
 			id: "6318135AD6CF15D9"
 			subtitle: "Síntese mais complexa"
-			tasks: [
-				{
-					id: "437D817157736685"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "437D817157736685"
+				type: "checkmark"
+			}]
 			title: "66 pó/hexanitrohexaazaisowurtzitano"
 			x: -1.5d
 			y: 7.5d
@@ -49,23 +50,19 @@
 			icon: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
 			icon_scale: 2.0d
 			id: "0A37BD850266E874"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6B07587ED274261C"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B07587ED274261C"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "5DFCCD008BF8F8E4"
-					item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5DFCCD008BF8F8E4"
+				item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
+				type: "item"
+			}]
 			x: 10.5d
 			y: 7.5d
 		}
@@ -109,7 +106,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["31A2580298995223", "2CB26FC379F1B5D6"]
+			dependencies: [
+				"31A2580298995223"
+				"2CB26FC379F1B5D6"
+			]
 			icon: "gtceu:crude_hexanitrohexaaxaisowurtzitane_dust"
 			id: "78BAC16A8B72AAD2"
 			tasks: [
@@ -213,7 +213,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["7D5C0FB3217866B2", "07EF8016FDF84920"]
+			dependencies: [
+				"7D5C0FB3217866B2"
+				"07EF8016FDF84920"
+			]
 			icon: "gtceu:tetraacetyldinitrosohexaazaisowurtzitane_dust"
 			id: "31A2580298995223"
 			tasks: [
@@ -329,7 +332,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["38EB7C6579EAA2FA", "1E1F589D66434053"]
+			dependencies: [
+				"38EB7C6579EAA2FA"
+				"1E1F589D66434053"
+			]
 			icon: "gtceu:dibenzyltetraacetylhexaazaisowurtzitane_dust"
 			id: "7D5C0FB3217866B2"
 			tasks: [
@@ -355,7 +361,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["098D2E1017CDACDD", "3E9E5C5700718226"]
+			dependencies: [
+				"098D2E1017CDACDD"
+				"3E9E5C5700718226"
+			]
 			icon: "gtceu:succinimidyl_acetate_dust"
 			id: "38EB7C6579EAA2FA"
 			tasks: [
@@ -417,7 +426,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["51E15E698E37D696", "47BE820E7218D279"]
+			dependencies: [
+				"51E15E698E37D696"
+				"47BE820E7218D279"
+			]
 			icon: "gtceu:n_hydroxysuccinimide_dust"
 			id: "3E9E5C5700718226"
 			tasks: [
@@ -456,7 +468,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["3B13818CB45C405F", "54D2E272A89C191A"]
+			dependencies: [
+				"3B13818CB45C405F"
+				"54D2E272A89C191A"
+			]
 			icon: "gtceu:hydroxylamine_hydrochloride_bucket"
 			id: "47BE820E7218D279"
 			tasks: [
@@ -476,7 +491,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["6BAA9AF61EC423CD", "098D2E1017CDACDD"]
+			dependencies: [
+				"6BAA9AF61EC423CD"
+				"098D2E1017CDACDD"
+			]
 			icon: "gtceu:succinic_anhydride_dust"
 			id: "51E15E698E37D696"
 			tasks: [
@@ -533,7 +551,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["7CF6C06944B34571", "6BC49F4F219EB5F7"]
+			dependencies: [
+				"7CF6C06944B34571"
+				"6BC49F4F219EB5F7"
+			]
 			icon: "gtceu:potassium_hydroxylaminedisulfonate_dust"
 			id: "59FA2015EE7A625A"
 			tasks: [
@@ -766,7 +787,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["51536979FA28D703", "22D253FBF67F50C9"]
+			dependencies: [
+				"51536979FA28D703"
+				"22D253FBF67F50C9"
+			]
 			icon: "gtceu:benzylamine_bucket"
 			id: "2B5A9CE9D87CFA3D"
 			tasks: [
@@ -839,38 +863,35 @@
 			description: [""]
 			id: "0E926F9B91EECD78"
 			subtitle: "um pouco longo"
-			tasks: [
-				{
-					id: "76185AEA8700EB09"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "76185AEA8700EB09"
+				type: "checkmark"
+			}]
 			title: "Tratamento Francium/tratamento composto Caijin"
 			x: -18.0d
 			y: -6.0d
 		}
 		{
-			dependencies: ["7C316F056D8355F7", "489CD0F35D53FA81"]
+			dependencies: [
+				"7C316F056D8355F7"
+				"489CD0F35D53FA81"
+			]
 			icon: "gtceu:francium_dust"
 			icon_scale: 2.0d
 			id: "00F4B40AD214BCCD"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "42F5635AC2287AE8"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F5635AC2287AE8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4AB0B2CBED3785A4"
-					item: "gtceu:francium_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4AB0B2CBED3785A4"
+				item: "gtceu:francium_dust"
+				type: "item"
+			}]
 			x: 7.5d
 			y: -3.0d
 		}
@@ -901,6 +922,7 @@
 				"7B41D6C27938103B"
 				"5D91DBEE7A88C468"
 			]
+			description: ["O texto original em inglês não corresponde à fórmula química. A substância correspondente à fórmula química é a 2-tiofenoformiltrifluoroacetona."]
 			icon: "gtceu:trifluoroacetic_phosphate_ester_dust"
 			id: "489CD0F35D53FA81"
 			subtitle: "catalisador"
@@ -1023,7 +1045,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["41FC85A3DDAA42DD", "7FCB23233A94999B"]
+			dependencies: [
+				"41FC85A3DDAA42DD"
+				"7FCB23233A94999B"
+			]
 			icon: "gtceu:succinaldehyde_bucket"
 			id: "4B9B2FC3DB2C23EA"
 			tasks: [
@@ -1062,7 +1087,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5307680107A0D67B", "4581DD2F55AE2C44"]
+			dependencies: [
+				"5307680107A0D67B"
+				"4581DD2F55AE2C44"
+			]
 			icon: "gtceu:actinium_radium_hydroxide_solution_bucket"
 			id: "1D0D7293B070CF3D"
 			tasks: [
@@ -1107,7 +1135,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["67BE653A0913AC76", "2615A0FD3FB6CAC1"]
+			dependencies: [
+				"67BE653A0913AC76"
+				"2615A0FD3FB6CAC1"
+			]
 			icon: "gtceu:actinium_trinium_hydroxides_dust"
 			id: "4581DD2F55AE2C44"
 			tasks: [
@@ -1152,6 +1183,7 @@
 				"3ACE24C4CD948728"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Substâncias extremamente ácidas"]
 			icon: "gtceu:fluorocarborane_dust"
 			id: "0D33E584F073EDAC"
 			subtitle: "Pode reciclar trimetilsilano, óxido de prata e pó de césio"
@@ -1214,7 +1246,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["42DFF6C974A34781", "3E04448016A07625"]
+			dependencies: [
+				"42DFF6C974A34781"
+				"3E04448016A07625"
+			]
 			icon: "gtceu:trimethylsilane_bucket"
 			id: "3ACE24C4CD948728"
 			tasks: [
@@ -1294,7 +1329,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["5DE7FBF8976120F7", "605B74E5199950F2"]
+			dependencies: [
+				"5DE7FBF8976120F7"
+				"605B74E5199950F2"
+			]
 			icon: "gtceu:borane_dimethyl_sulfide_bucket"
 			id: "3061DC56393FE8A3"
 			tasks: [
@@ -1314,7 +1352,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["462B86BE9F0CA87C", "237088F52F8A233A"]
+			dependencies: [
+				"462B86BE9F0CA87C"
+				"237088F52F8A233A"
+			]
 			icon: "gtceu:tetrahydrofuran_bucket"
 			id: "2CF90ED1A9A8873B"
 			subtitle: "catalisador"
@@ -1526,7 +1567,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["3E04448016A07625", "36BC738A5D774057"]
+			dependencies: [
+				"3E04448016A07625"
+				"36BC738A5D774057"
+			]
 			icon: "gtceu:sodium_borohydride_dust"
 			id: "639A2B2918BE04E9"
 			tasks: [
@@ -1545,7 +1589,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["48D469A13D6BB882", "39772B7C72986ED7"]
+			dependencies: [
+				"48D469A13D6BB882"
+				"39772B7C72986ED7"
+			]
 			icon: "gtceu:boron_trifluoride_acetate_bucket"
 			id: "4669E40CC06ED5E3"
 			tasks: [
@@ -1683,9 +1730,9 @@
 		}
 		{
 			dependencies: ["64166D3B9F4A817F"]
-			description: ["Pode ser recuperado no ciclo"]
 			icon: "gtceu:antimony_trifluoride_dust"
 			id: "296EC483F90323C3"
+			subtitle: "Pode ser reciclado no ciclo"
 			tasks: [
 				{
 					id: "645AD8E66B3E9722"
@@ -1726,15 +1773,13 @@
 				"79D625C4CC5FFDEB"
 				"1E48A22AF50DFA22"
 			]
-			description: ["{\\\"text\\\":\\\"Você também pode obter Caijin\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"37A99CF028273351\\\"}}"]
+			description: ["{\"text\":\"Você também pode obter Caijin\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"37A99CF028273351\"}}"]
 			id: "76FBE49EFA4545DF"
 			subtitle: "Trifluoreto de antimônio, perfluorobenzeno, fluorocarbonos, criptônio"
-			tasks: [
-				{
-					id: "16306AD6F5FF58CB"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "16306AD6F5FF58CB"
+				type: "checkmark"
+			}]
 			title: "Matérias-primas recicladas"
 			x: -1.5d
 			y: -1.5d
@@ -1846,7 +1891,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["39772B7C72986ED7", "41FC85A3DDAA42DD"]
+			dependencies: [
+				"39772B7C72986ED7"
+				"41FC85A3DDAA42DD"
+			]
 			icon: "gtceu:diborane_bucket"
 			id: "5DE7FBF8976120F7"
 			tasks: [
@@ -1866,7 +1914,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["215825184D2AAE39", "71B8320E8AC240E4"]
+			dependencies: [
+				"215825184D2AAE39"
+				"71B8320E8AC240E4"
+			]
 			hide_dependent_lines: true
 			icon: "gtceu:lithium_aluminium_hydride_dust"
 			id: "41FC85A3DDAA42DD"
@@ -1905,7 +1956,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["71DBAE16E59A3FCE", "3E04448016A07625"]
+			dependencies: [
+				"71DBAE16E59A3FCE"
+				"3E04448016A07625"
+			]
 			icon: "gtceu:sodium_aluminium_hydride_dust"
 			id: "71B8320E8AC240E4"
 			tasks: [
@@ -1986,7 +2040,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7045A5746B618D01", "61B36F6FE5A8D35F"]
+			dependencies: [
+				"7045A5746B618D01"
+				"61B36F6FE5A8D35F"
+			]
 			icon: "gtceu:sodium_perchlorate_dust"
 			id: "356140E29BF9F6F6"
 			tasks: [
@@ -2068,23 +2125,19 @@
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "1D6792F905D97277"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5D0EAFEF3C947E4D"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D0EAFEF3C947E4D"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "39FE6CCC077CEA40"
-					item: "gtceu:fullerene_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "39FE6CCC077CEA40"
+				item: "gtceu:fullerene_dust"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 6.0d
 		}
@@ -2200,7 +2253,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5FBF233B5423F8ED", "35907D3B1BE3BDD9"]
+			dependencies: [
+				"5FBF233B5423F8ED"
+				"35907D3B1BE3BDD9"
+			]
 			icon: "gtceu:potassium_cyanide_dust"
 			id: "05958B9F9E05C97F"
 			tasks: [
@@ -2219,7 +2275,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["06EAF19B016937D9", "2A47C39959BBC6F5"]
+			dependencies: [
+				"06EAF19B016937D9"
+				"2A47C39959BBC6F5"
+			]
 			icon: "gtceu:bromo_succinimide_dust"
 			id: "204AE5B631D28D12"
 			tasks: [
@@ -2561,40 +2620,43 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0", "638C3C9A1CED8C4D"]
-			id: "1B462F1DBFC5F77B"
-			tasks: [
-				{
-					id: "665743DA2FCF47AA"
-					type: "checkmark"
-				}
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"638C3C9A1CED8C4D"
 			]
+			id: "1B462F1DBFC5F77B"
+			tasks: [{
+				id: "665743DA2FCF47AA"
+				type: "checkmark"
+			}]
 			title: "Fulereno"
 			x: -18.0d
 			y: 4.5d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0", "638C3C9A1CED8C4D"]
-			id: "0B32BFB8B18E72D4"
-			tasks: [
-				{
-					id: "711EE572E46AE190"
-					type: "checkmark"
-				}
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"638C3C9A1CED8C4D"
 			]
+			id: "0B32BFB8B18E72D4"
+			tasks: [{
+				id: "711EE572E46AE190"
+				type: "checkmark"
+			}]
 			title: "cicloparafenileno"
 			x: -1.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["4BFA114E12BCB163", "638C3C9A1CED8C4D"]
-			id: "47EC3A53E944E87B"
-			tasks: [
-				{
-					id: "362AE23AF864D18D"
-					type: "checkmark"
-				}
+			dependencies: [
+				"4BFA114E12BCB163"
+				"638C3C9A1CED8C4D"
 			]
+			id: "47EC3A53E944E87B"
+			tasks: [{
+				id: "362AE23AF864D18D"
+				type: "checkmark"
+			}]
 			title: "Resina de poliuretano-Kevlar"
 			x: -18.0d
 			y: 9.0d
@@ -2609,14 +2671,12 @@
 			icon: "gtceu:liquidcrystalkevlar_bucket"
 			icon_scale: 2.0d
 			id: "351519CEF1DFC684"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "34DEA02E23C8D7D6"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34DEA02E23C8D7D6"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [
@@ -2683,7 +2743,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["1801E0D00A1A18BE", "42419FAF75A89201"]
+			dependencies: [
+				"1801E0D00A1A18BE"
+				"42419FAF75A89201"
+			]
 			icon: "gtceu:terephthaloyl_chloride_dust"
 			id: "2630DFE15885F893"
 			tasks: [
@@ -2721,7 +2784,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["777EEC728D2F9F26", "4943427F26262FDD"]
+			dependencies: [
+				"777EEC728D2F9F26"
+				"4943427F26262FDD"
+			]
 			icon: "gtceu:nmethylpyrolidone_bucket"
 			id: "5C20CFA301259438"
 			tasks: [
@@ -2990,6 +3056,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "Metilamina"
 			x: -4.5d
 			y: 15.0d
 		}
@@ -3014,7 +3081,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["2AABD40D9E333983", "77685CD0D6D836B2"]
+			dependencies: [
+				"2AABD40D9E333983"
+				"77685CD0D6D836B2"
+			]
 			icon: "gtceu:butane_1_4_diol_bucket"
 			id: "3E9BA411902E95AD"
 			tasks: [
@@ -3079,7 +3149,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["3368ECC0AF9AA5F3", "24A3BE95E8422E87"]
+			dependencies: [
+				"3368ECC0AF9AA5F3"
+				"24A3BE95E8422E87"
+			]
 			icon: "gtceu:pentaerythritol_dust"
 			id: "5699812EE4E39FD6"
 			tasks: [
@@ -3138,7 +3211,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["7E99A9D66824673E", "7B9B357D62E0602A"]
+			dependencies: [
+				"7E99A9D66824673E"
+				"7B9B357D62E0602A"
+			]
 			icon: "gtceu:siliconoil_bucket"
 			id: "2F58D3EB6585630B"
 			tasks: [
@@ -3263,7 +3339,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["3D515A28C76978A4", "4A3FEDF12C097F29"]
+			dependencies: [
+				"3D515A28C76978A4"
+				"4A3FEDF12C097F29"
+			]
 			icon: "gtceu:diphenylmethanediisocyanatemixture_bucket"
 			id: "240D8F1C0C8037C8"
 			tasks: [
@@ -3303,7 +3382,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["3368ECC0AF9AA5F3", "5CB47EEBC0F0D007"]
+			dependencies: [
+				"3368ECC0AF9AA5F3"
+				"5CB47EEBC0F0D007"
+			]
 			icon: "gtceu:diaminodiphenylmethanmixture_bucket"
 			id: "3D515A28C76978A4"
 			tasks: [
@@ -3348,7 +3430,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["392AD67A87918874", "3E31D094C592D799"]
+			dependencies: [
+				"392AD67A87918874"
+				"3E31D094C592D799"
+			]
 			icon: "gtceu:paracetamol_dust"
 			icon_scale: 2.0d
 			id: "557746707603F91F"
@@ -3370,39 +3455,36 @@
 		}
 		{
 			id: "65FDECC0F69ECD2A"
-			tasks: [
-				{
-					id: "30E46EB70302498A"
-					title: "dois comprimidos"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "30E46EB70302498A"
+				title: "dois comprimidos"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["503C03C654730F65"]
 			id: "51B2B531E6FC0055"
-			tasks: [
-				{
-					id: "63E62085E33B5504"
-					title: "Linha de produção de bactérias"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "63E62085E33B5504"
+				title: "Linha de produção de bactérias"
+				type: "checkmark"
+			}]
 			x: -18.0d
 			y: -12.0d
 		}
 		{
-			dependencies: ["7A7C73D046390488", "53C037F408736E4B"]
-			id: "11B90D1FD2508092"
-			tasks: [
-				{
-					id: "69AD2D6C96709DEE"
-					title: "Linha de produção biológica"
-					type: "checkmark"
-				}
+			dependencies: [
+				"7A7C73D046390488"
+				"53C037F408736E4B"
 			]
+			id: "11B90D1FD2508092"
+			tasks: [{
+				id: "69AD2D6C96709DEE"
+				title: "Linha de produção biológica"
+				type: "checkmark"
+			}]
 			title: "Células biológicas - fluxo ativo de mutação"
 			x: -1.5d
 			y: -12.0d
@@ -3456,7 +3538,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["071C1482A33D97FB", "27A9D4E765101CB9"]
+			dependencies: [
+				"071C1482A33D97FB"
+				"27A9D4E765101CB9"
+			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "70E703942B61C86C"
 			subtitle: "Reator químico mais circuito de vapor nº 3"
@@ -3502,13 +3587,11 @@
 			icon: "gtceu:hydrogen_sulfide_bucket"
 			id: "751BF4CAEE613BBA"
 			subtitle: "Eletrólise de sulfeto de hidrogênio para reciclar hidrogênio"
-			tasks: [
-				{
-					id: "58FAC5989D41DC20"
-					title: "sulfeto de hidrogênio"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "58FAC5989D41DC20"
+				title: "sulfeto de hidrogênio"
+				type: "checkmark"
+			}]
 			x: -30.0d
 			y: -10.5d
 		}
@@ -3536,19 +3619,17 @@
 			dependencies: ["0C5B23E443F1A5D5"]
 			dependency_requirement: "one_completed"
 			id: "1B27E863E90AB90E"
-			tasks: [
-				{
-					id: "47E3DB83C132B814"
-					title: "duas opções"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "47E3DB83C132B814"
+				title: "duas opções"
+				type: "checkmark"
+			}]
 			x: -24.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["1B27E863E90AB90E"]
-			description: ["{\\\"text\\\":\\\"Veja aqui a fonte de cloro\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2CDB693780B9BE2E\\\"}}"]
+			description: ["{\"text\":\"Veja aqui a fonte de cloro\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CDB693780B9BE2E\"}}"]
 			icon: "gtceu:polyvinyl_chloride_bucket"
 			id: "17DDE8CC39438A32"
 			tasks: [
@@ -3651,7 +3732,10 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["45EE0AC3D5680B1F", "6277F42774893AA3"]
+			dependencies: [
+				"45EE0AC3D5680B1F"
+				"6277F42774893AA3"
+			]
 			icon: "gtceu:tetrafluoroethylene_bucket"
 			id: "66CFEE6DC6A4CF34"
 			subtitle: "Depois de atingir EV, você pode usar metano + ácido fluorídrico + cloro gasoso para sair em uma única etapa"
@@ -3777,7 +3861,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["64738DFD97250F17", "71F30E4D75B64953"]
+			dependencies: [
+				"64738DFD97250F17"
+				"71F30E4D75B64953"
+			]
 			icon: "gtceu:epoxy_bucket"
 			id: "7D19A74F09F44223"
 			subtitle: "Você também pode usar acetona + ácido clorídrico"
@@ -3798,7 +3885,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0AD5EE4A003844C3", "5D9B209D891690FD"]
+			dependencies: [
+				"0AD5EE4A003844C3"
+				"5D9B209D891690FD"
+			]
 			dependency_requirement: "one_completed"
 			description: ["Na verdade, também existe cloreto de alila"]
 			icon: "gtceu:epichlorohydrin_bucket"
@@ -3944,7 +4034,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6E68F9920B8DE90B", "20E57648D7692834"]
+			dependencies: [
+				"6E68F9920B8DE90B"
+				"20E57648D7692834"
+			]
 			icon: "gtceu:raw_styrene_butadiene_rubber_dust"
 			id: "6BAC2A8A96690442"
 			subtitle: "Maior rendimento unitário com oxigênio gasoso"
@@ -4004,7 +4097,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0C199AF8612BC6B8", "092CC48DCEE3C012"]
+			dependencies: [
+				"0C199AF8612BC6B8"
+				"092CC48DCEE3C012"
+			]
 			icon: "gtceu:polyvinyl_butyral_plate"
 			icon_scale: 2.0d
 			id: "68FB8A7DC0CE1544"
@@ -4080,11 +4176,15 @@
 					type: "checkmark"
 				}
 			]
+			title: "acetato de vinil"
 			x: -24.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["4F2DFF7391377BAE", "23C7020C07C7E2E9"]
+			dependencies: [
+				"4F2DFF7391377BAE"
+				"23C7020C07C7E2E9"
+			]
 			icon: "gtceu:polybenzimidazole_plate"
 			icon_scale: 2.0d
 			id: "477D384E9CA341EF"
@@ -4206,7 +4306,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0562FFC391118D18", "27A7F19C69EB2D70"]
+			dependencies: [
+				"0562FFC391118D18"
+				"27A7F19C69EB2D70"
+			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:phthalic_acid_bucket"
 			id: "1A8712D336215C23"
@@ -4274,7 +4377,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5FEBFB078C4575DC", "25FFF408FC4FE14F"]
+			dependencies: [
+				"5FEBFB078C4575DC"
+				"25FFF408FC4FE14F"
+			]
 			icon: "gtceu:polyphenylene_sulfide_plate"
 			icon_scale: 2.0d
 			id: "1D235570F7FF1BF1"
@@ -4337,20 +4443,18 @@
 		}
 		{
 			dependencies: ["2EAAF5A6510D0EFE"]
-			description: ["{\\\"text\\\":\\\"A produção da petroquímica e bioquímica veja aqui\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"4B3E2F27FE938277\\\"}}"]
+			description: ["{\"text\":\"A produção da petroquímica e bioquímica veja aqui\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B3E2F27FE938277\"}}"]
 			id: "77881C054BC89696"
-			tasks: [
-				{
-					id: "66DE4C6B60F7BFAA"
-					title: "Esta é a indústria química"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "66DE4C6B60F7BFAA"
+				title: "Esta é a indústria química"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: -12.0d
 		}
 		{
-			description: ["{\\\"text\\\":\\\"A fonte de iodo pode ser encontrada aqui\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"507C5D3A6F000A45\\\"}}"]
+			description: ["{\"text\":\"A fonte de iodo pode ser encontrada aqui\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"507C5D3A6F000A45\"}}"]
 			icon: "gtceu:potassium_iodide_dust"
 			id: "37A2908C38979911"
 			shape: "pentagon"
@@ -4447,7 +4551,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["2F5CC6715CCF49E8", "2051BFA31E99A2D2"]
+			dependencies: [
+				"2F5CC6715CCF49E8"
+				"2051BFA31E99A2D2"
+			]
 			icon: "gtceu:calcium_ferrocyanide_dust"
 			id: "53285662F63F1D61"
 			tasks: [
@@ -4466,7 +4573,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["63A50F5F028D35E0", "0614AE8EE22C0FE8"]
+			dependencies: [
+				"63A50F5F028D35E0"
+				"0614AE8EE22C0FE8"
+			]
 			icon: "gtceu:iron_ii_chloride_bucket"
 			id: "2F5CC6715CCF49E8"
 			tasks: [
@@ -4526,7 +4636,10 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["7B8A17D7F7F94689", "7B5B44F2CD45D972"]
+			dependencies: [
+				"7B8A17D7F7F94689"
+				"7B5B44F2CD45D972"
+			]
 			icon: "gtceu:diethylenetriamine_pentaacetonitrile_bucket"
 			id: "2A3CF9DABBEFB85E"
 			tasks: [
@@ -4566,7 +4679,10 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["29757726EF871DE6", "2051BFA31E99A2D2"]
+			dependencies: [
+				"29757726EF871DE6"
+				"2051BFA31E99A2D2"
+			]
 			icon: "gtceu:glycolonitrile_bucket"
 			id: "7B5B44F2CD45D972"
 			tasks: [
@@ -4717,28 +4833,23 @@
 				"2C184648D47B9426"
 				"02FB675C76544394"
 			]
-			description: [""]
 			hide_dependent_lines: true
 			icon: "gtceu:stem_cells"
 			icon_scale: 2.0d
 			id: "4BE78B22A7CFBBA9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "332D90BFDFC2AA6E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "332D90BFDFC2AA6E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			subtitle: "Parte da pasta bacteriana também pode ser recuperada"
-			tasks: [
-				{
-					id: "1061E5AF8859623C"
-					item: "gtceu:stem_cells"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1061E5AF8859623C"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -10.5d
 		}
@@ -4782,7 +4893,10 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["6F98799FB5D80EF7", "7F3ABA4A43E1437B"]
+			dependencies: [
+				"6F98799FB5D80EF7"
+				"7F3ABA4A43E1437B"
+			]
 			icon: "gtceu:bacterial_sludge_bucket"
 			id: "236C246F76B9A184"
 			tasks: [
@@ -4802,7 +4916,10 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["14C78683ED195532", "554462E27C83472F"]
+			dependencies: [
+				"14C78683ED195532"
+				"554462E27C83472F"
+			]
 			icon: "gtceu:raw_growth_medium_bucket"
 			id: "74434DC5B2E730D0"
 			tasks: [
@@ -4900,7 +5017,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["45637BCB86D71F5D", "2D5BFBB90E759B9D"]
+			dependencies: [
+				"45637BCB86D71F5D"
+				"2D5BFBB90E759B9D"
+			]
 			icon: "gtceu:gelatin_mixture_bucket"
 			id: "0F5151F94E839DDC"
 			tasks: [
@@ -5154,7 +5274,10 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["26DBD68E845DA8A4", "33DF4A7346E83469"]
+			dependencies: [
+				"26DBD68E845DA8A4"
+				"33DF4A7346E83469"
+			]
 			icon: "gtceu:seaweedbroth_bucket"
 			id: "1A51B828C96B9875"
 			tasks: [
@@ -5350,23 +5473,19 @@
 			icon: "kubejs:biological_cells"
 			icon_scale: 2.0d
 			id: "394693172D53841E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "679AE196AC6CDC2B"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "679AE196AC6CDC2B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			subtitle: "A solução estoque de meio de cultura biológica pode ser preparada para alcançar aumento de produção cíclica"
-			tasks: [
-				{
-					id: "62429A30D4A7B808"
-					item: "kubejs:biological_cells"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "62429A30D4A7B808"
+				item: "kubejs:biological_cells"
+				type: "item"
+			}]
 			x: 9.0d
 			y: -10.5d
 		}
@@ -5470,12 +5589,10 @@
 		{
 			hide_dependent_lines: true
 			id: "638C3C9A1CED8C4D"
-			tasks: [
-				{
-					id: "1E05C6B85E20CEF1"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1E05C6B85E20CEF1"
+				type: "checkmark"
+			}]
 			title: "Esta é uma linha de produção relacionada à óptica"
 			x: -19.5d
 			y: -7.5d
@@ -5483,13 +5600,11 @@
 		{
 			dependencies: ["53C037F408736E4B"]
 			id: "4786A4C8A643EA4A"
-			tasks: [
-				{
-					id: "1CD2FAE8BF8570BB"
-					title: "Etanol absoluto"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1CD2FAE8BF8570BB"
+				title: "Etanol absoluto"
+				type: "checkmark"
+			}]
 			x: 13.5d
 			y: -12.0d
 		}
@@ -5556,7 +5671,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["16F770D4C75D3054", "781500CA34F24833"]
+			dependencies: [
+				"16F770D4C75D3054"
+				"781500CA34F24833"
+			]
 			icon: "gtceu:silica_alumina_gel_dust"
 			id: "3ECB695B36A2871E"
 			tasks: [
@@ -5652,7 +5770,10 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["16C5023E2E7D1643", "37953D58E8BB57ED"]
+			dependencies: [
+				"16C5023E2E7D1643"
+				"37953D58E8BB57ED"
+			]
 			icon: "gtceu:lithium_aluminium_fluoride_dust"
 			id: "77FF5B7D5B69287E"
 			tasks: [
@@ -5769,7 +5890,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["089E4D5BBDFDCDD0", "418436D9BDB9B47B"]
+			dependencies: [
+				"089E4D5BBDFDCDD0"
+				"418436D9BDB9B47B"
+			]
 			icon: "gtceu:lithium_aluminium_hydride_dust"
 			id: "37953D58E8BB57ED"
 			tasks: [
@@ -5826,7 +5950,10 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["0D0E68743767B312", "534D27CE9232CDD9"]
+			dependencies: [
+				"0D0E68743767B312"
+				"534D27CE9232CDD9"
+			]
 			icon: "gtceu:sodium_aluminium_hydride_dust"
 			id: "418436D9BDB9B47B"
 			tasks: [
@@ -5866,26 +5993,22 @@
 		{
 			hide_dependent_lines: true
 			id: "53C037F408736E4B"
-			tasks: [
-				{
-					id: "1CD698552747791A"
-					title: "Esta é uma linha de produção bio-relacionada"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1CD698552747791A"
+				title: "Esta é uma linha de produção bio-relacionada"
+				type: "checkmark"
+			}]
 			x: -1.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["53C037F408736E4B"]
 			id: "2928C640C522E0A5"
-			tasks: [
-				{
-					id: "4006167C7176F682"
-					title: "poliimida"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4006167C7176F682"
+				title: "poliimida"
+				type: "checkmark"
+			}]
 			x: 13.5d
 			y: -3.0d
 		}
@@ -5912,7 +6035,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["77862BB6261A9413", "1B2996F301F9692C"]
+			dependencies: [
+				"77862BB6261A9413"
+				"1B2996F301F9692C"
+			]
 			icon: "gtceu:paa_bucket"
 			id: "31D01EB9E8D13626"
 			tasks: [
@@ -6048,7 +6174,7 @@
 				}
 				{
 					id: "0AAA7A91ECD511FA"
-					item: "gtceu:tin_dust"
+					item: "gtceu:zinc_dust"
 					optional_task: true
 					type: "item"
 				}
@@ -6440,7 +6566,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["37A99CF028273351", "3A56FE84B0E3039E"]
+			dependencies: [
+				"37A99CF028273351"
+				"3A56FE84B0E3039E"
+			]
 			icon: "gtceu:trinium_dust"
 			id: "3782F3AE345006F4"
 			tasks: [
@@ -6461,18 +6590,19 @@
 		{
 			dependencies: ["53C037F408736E4B"]
 			id: "19D008698197459E"
-			tasks: [
-				{
-					id: "0375BD4FDB96632A"
-					title: "Polieteretercetona"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0375BD4FDB96632A"
+				title: "Polieteretercetona"
+				type: "checkmark"
+			}]
 			x: 13.5d
 			y: -7.5d
 		}
 		{
-			dependencies: ["0570B92678EFECCF", "51B68297117D673C"]
+			dependencies: [
+				"0570B92678EFECCF"
+				"51B68297117D673C"
+			]
 			icon: "gtceu:polyetheretherketone_bucket"
 			icon_scale: 2.0d
 			id: "3996236913B6C491"
@@ -6514,7 +6644,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["63F0BF44807EABB1", "0B0C63989B2AE468"]
+			dependencies: [
+				"63F0BF44807EABB1"
+				"0B0C63989B2AE468"
+			]
 			icon: "gtceu:difluorobenzophenone_dust"
 			id: "51B68297117D673C"
 			tasks: [
@@ -6553,7 +6686,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["0CF81F1030756AB2", "08DFD996717265D2"]
+			dependencies: [
+				"0CF81F1030756AB2"
+				"08DFD996717265D2"
+			]
 			icon: "gtceu:fluorotoluene_bucket"
 			id: "63F0BF44807EABB1"
 			tasks: [
@@ -6619,7 +6755,10 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["60157E15017B7FA2", "4CAEAB744AF0E5EF"]
+			dependencies: [
+				"60157E15017B7FA2"
+				"4CAEAB744AF0E5EF"
+			]
 			icon: "gtceu:benzenediazonium_tetrafluoroborate_bucket"
 			id: "4A0749CF8299FB4C"
 			tasks: [
@@ -6795,97 +6934,81 @@
 		}
 		{
 			id: "5785F2E43E76E624"
-			tasks: [
-				{
-					id: "0D6827F6800FA11C"
-					title: "Cloreto de polietileno-polivinila"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0D6827F6800FA11C"
+				title: "Cloreto de polietileno-polivinila"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: -10.5d
 		}
 		{
 			id: "01F143E991488E7C"
-			tasks: [
-				{
-					id: "716F82BB3C944BF4"
-					title: "PTFE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "716F82BB3C944BF4"
+				title: "PTFE"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: -7.5d
 		}
 		{
 			id: "58CA7CA601F675BA"
-			tasks: [
-				{
-					id: "4D2E0A0CF6F0D08F"
-					title: "Resina Epóxi Reforçada com Resina Epóxi"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4D2E0A0CF6F0D08F"
+				title: "Resina Epóxi Reforçada com Resina Epóxi"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: -4.5d
 		}
 		{
 			id: "4550151D68AE07A2"
-			tasks: [
-				{
-					id: "4EB9C78788214724"
-					title: "Borracha de estireno-butadieno"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4EB9C78788214724"
+				title: "Borracha de estireno-butadieno"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: -1.5d
 		}
 		{
 			id: "69E208F71C5EB4B3"
-			tasks: [
-				{
-					id: "205811D31A85566A"
-					title: "polibenzimidazol"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "205811D31A85566A"
+				title: "polibenzimidazol"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: 4.5d
 		}
 		{
 			id: "013D893E798ABA99"
-			tasks: [
-				{
-					id: "0EAA78F55293756E"
-					title: "borracha de silicone"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0EAA78F55293756E"
+				title: "borracha de silicone"
+				type: "checkmark"
+			}]
 			x: -25.5d
 			y: -1.5d
 		}
 		{
 			id: "7DE4799C4F88801B"
-			tasks: [
-				{
-					id: "070CD085E8BCDD87"
-					title: "polivinil butiral"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "070CD085E8BCDD87"
+				title: "polivinil butiral"
+				type: "checkmark"
+			}]
 			x: -25.5d
 			y: 1.5d
 		}
 		{
 			id: "1960A97628A48901"
-			tasks: [
-				{
-					id: "481A0D0E21A91289"
-					title: "sulfeto de polifenileno"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "481A0D0E21A91289"
+				title: "sulfeto de polifenileno"
+				type: "checkmark"
+			}]
 			x: -31.5d
 			y: 1.5d
 		}
@@ -6949,7 +7072,10 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["79A2F160AFC832EB", "3BCC01481DA8F994"]
+			dependencies: [
+				"79A2F160AFC832EB"
+				"3BCC01481DA8F994"
+			]
 			icon: "gtceu:cyclohexanone_oxime_dust"
 			id: "1C341944CDAFE144"
 			tasks: [
@@ -6991,13 +7117,11 @@
 		}
 		{
 			id: "5D0389442E831EC0"
-			tasks: [
-				{
-					id: "0812F27CF89323D3"
-					title: "policaprolactama"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0812F27CF89323D3"
+				title: "policaprolactama"
+				type: "checkmark"
+			}]
 			x: -25.5d
 			y: -7.5d
 		}

@@ -45,13 +45,11 @@
 			id: "6C4F1C87F08F38AC"
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "1A869FB7AB0C0536"
-					item: "gtceu:uv_fusion_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1A869FB7AB0C0536"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
@@ -62,13 +60,11 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "A demanda é um pouco alta"
-			tasks: [
-				{
-					id: "39B8A1A88BE55729"
-					item: "gtceu:neutronium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "39B8A1A88BE55729"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
@@ -77,26 +73,22 @@
 			description: ["Silício monocristalino mais avançado"]
 			icon_scale: 2.0d
 			id: "264EA49453E188C4"
-			tasks: [
-				{
-					id: "0DAE2E307ACAD4E6"
-					item: "gtceu:neutronium_boule"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0DAE2E307ACAD4E6"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1223F5F9BF7FF37F"]
 			id: "4D8E0C0295DB26EF"
-			tasks: [
-				{
-					id: "381C8725FC2BBC19"
-					item: "gtceu:highly_advanced_soc"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "381C8725FC2BBC19"
+				item: "gtceu:highly_advanced_soc"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 10.0d
 		}
@@ -145,27 +137,26 @@
 			icon_scale: 2.0d
 			id: "5E7F20C5F8530E1E"
 			size: 1.0d
-			tasks: [
-				{
-					id: "2A747FECF6A9366B"
-					item: "kubejs:bioware_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2A747FECF6A9366B"
+				item: "kubejs:bioware_processor"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["5E7F20C5F8530E1E", "53EB6E99F976AF31"]
+			dependencies: [
+				"5E7F20C5F8530E1E"
+				"53EB6E99F976AF31"
+			]
 			icon_scale: 2.0d
 			id: "76C32ADCD71DE8B8"
-			tasks: [
-				{
-					id: "3EDE41255F7E04E7"
-					item: "kubejs:bioware_assembly"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3EDE41255F7E04E7"
+				item: "kubejs:bioware_assembly"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 10.0d
 		}
@@ -173,22 +164,18 @@
 			dependencies: ["76C32ADCD71DE8B8"]
 			icon_scale: 2.0d
 			id: "2AA1E574BA4327F8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0873F101ADC29532"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0873F101ADC29532"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "648367DCA2352C63"
-					item: "kubejs:bioware_computer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "648367DCA2352C63"
+				item: "kubejs:bioware_computer"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 7.0d
 		}
@@ -198,25 +185,21 @@
 				"1DFC7DC123A3D830"
 				"09537D159735D297"
 			]
-			description: ["{\\\"text\\\":\\\"UHV requer grandes quantidades de netherita\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"39380262677612A9\\\"}}"]
+			description: ["{\"text\":\"UHV requer grandes quantidades de netherita\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39380262677612A9\"}}"]
 			icon_scale: 2.0d
 			id: "7204F1B6BCC74F1C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2550FB2AB2774952"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2550FB2AB2774952"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "circle"
-			tasks: [
-				{
-					id: "1E35DC7EF8C5881E"
-					item: "kubejs:bioware_mainframe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1E35DC7EF8C5881E"
+				item: "kubejs:bioware_mainframe"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 4.0d
 		}
@@ -224,13 +207,11 @@
 			dependencies: ["035C470213E8B4DB"]
 			description: ["Supercondutor &4UHV&r"]
 			id: "1DFC7DC123A3D830"
-			tasks: [
-				{
-					id: "396FE1151A63CF4A"
-					item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "396FE1151A63CF4A"
+				item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.0d
 		}
@@ -239,26 +220,25 @@
 			description: ["A poliimida é um material de engenharia especial amplamente utilizado na aviação, aeroespacial, microeletrônica, nanômetros, cristais líquidos, membranas de separação, lasers e outros campos"]
 			icon: "gtceu:polyimide_bucket"
 			id: "24B011E770B7DF3F"
-			tasks: [
-				{
-					id: "62A6274CE1A1FF7A"
-					title: "poliimida"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "62A6274CE1A1FF7A"
+				title: "poliimida"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["59CA7B4A4A417B53", "18CB66D8EABD5132"]
-			id: "1FA9E56114BFABF5"
-			tasks: [
-				{
-					id: "6A73DF3A0B7C1184"
-					item: "gtceu:pikyonium_ingot"
-					type: "item"
-				}
+			dependencies: [
+				"59CA7B4A4A417B53"
+				"18CB66D8EABD5132"
 			]
+			id: "1FA9E56114BFABF5"
+			tasks: [{
+				id: "6A73DF3A0B7C1184"
+				item: "gtceu:pikyonium_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -298,20 +278,21 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["7204F1B6BCC74F1C", "39380262677612A9"]
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"39380262677612A9"
+			]
 			description: ["Segunda máquina que pode condensar plasma"]
 			icon_scale: 1.3d
 			id: "71D029B59C690121"
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Essencial"
-			tasks: [
-				{
-					id: "50C209A33583AD73"
-					item: "gtceu:plasma_condenser"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50C209A33583AD73"
+				item: "gtceu:plasma_condenser"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 4.0d
 		}
@@ -324,13 +305,11 @@
 			]
 			icon_scale: 2.0d
 			id: "43A7282802A06626"
-			tasks: [
-				{
-					id: "1763964DDAF2AECC"
-					item: "kubejs:bioware_processing_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1763964DDAF2AECC"
+				item: "kubejs:bioware_processing_core"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 12.0d
 		}
@@ -344,18 +323,19 @@
 			description: ["Metade das células biológicas pode ser reciclada"]
 			icon_scale: 2.0d
 			id: "21CF5BE902E89B8A"
-			tasks: [
-				{
-					id: "708ED67D28AAA758"
-					item: "kubejs:bioware_boule"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "708ED67D28AAA758"
+				item: "kubejs:bioware_boule"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["7A7C73D046390488", "53DEE1A65051E06F"]
+			dependencies: [
+				"7A7C73D046390488"
+				"53DEE1A65051E06F"
+			]
 			description: [
 				"Múltiplo demorado: 0,8 ^ (nível de tensão do corpo do elevador -8)"
 				"Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)"
@@ -366,18 +346,19 @@
 			id: "31EDE3D976DE5A33"
 			shape: "rsquare"
 			subtitle: "Isto não é uma linha de montagem"
-			tasks: [
-				{
-					id: "194425B2D808120E"
-					item: "gtceu:assembler_module"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "194425B2D808120E"
+				item: "gtceu:assembler_module"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["7A7C73D046390488", "53DEE1A65051E06F"]
+			dependencies: [
+				"7A7C73D046390488"
+				"53DEE1A65051E06F"
+			]
 			description: [
 				"Múltiplo demorado: 0,8 ^ (nível de tensão do corpo do elevador -8)"
 				"Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)"
@@ -390,13 +371,11 @@
 			id: "7ADB50ACF5AE1D13"
 			shape: "rsquare"
 			subtitle: "Combustível verde combina bem com módulo de coleta"
-			tasks: [
-				{
-					id: "3F389DDC4C0810B4"
-					item: "gtceu:resource_collection"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F389DDC4C0810B4"
+				item: "gtceu:resource_collection"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
@@ -410,13 +389,11 @@
 			id: "6D83BAAC7DB34D51"
 			shape: "pentagon"
 			subtitle: "Algas alienígenas, ouro mágico, compostos Cajun, sílica enriquecida, telúrio, tungstênio, titânio, rubídio, meteoritos, detritos antigos, índio"
-			tasks: [
-				{
-					id: "54ED6D9B82E6A10E"
-					item: "kubejs:space_drone_mk1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "54ED6D9B82E6A10E"
+				item: "kubejs:space_drone_mk1"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 10.0d
 		}
@@ -428,13 +405,11 @@
 			]
 			description: ["Vá para Barnard C e use a pequena câmara de coleta de ar &b&rpara coletar o ar Barnard C"]
 			id: "12F8275FC06FCFEE"
-			tasks: [
-				{
-					id: "3B3096FCBB8D2FE6"
-					item: "gtceu:abyssalalloy_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B3096FCBB8D2FE6"
+				item: "gtceu:abyssalalloy_ingot"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 12.0d
 		}
@@ -442,28 +417,27 @@
 			dependencies: ["12F8275FC06FCFEE"]
 			icon_scale: 2.0d
 			id: "3EA935A712FA0EBE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "49B4CDC78BC20627"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49B4CDC78BC20627"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "1D87EC0E1793346B"
-					item: "kubejs:abyssalalloy_coil_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1D87EC0E1793346B"
+				item: "kubejs:abyssalalloy_coil_block"
+				type: "item"
+			}]
 			title: "Bobina de Liga Infernal"
 			x: 1.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["6C4F1C87F08F38AC", "2802E34A99CE1D79"]
+			dependencies: [
+				"6C4F1C87F08F38AC"
+				"2802E34A99CE1D79"
+			]
 			description: ["novo metal mágico"]
 			id: "776563C5BA327495"
 			tasks: [
@@ -491,13 +465,11 @@
 			description: ["Não existe um ambiente natural de forte gravidade, você deve usar a câmara de controle de gravidade &b&r"]
 			id: "1B548589C6044A63"
 			subtitle: "vida alienígena"
-			tasks: [
-				{
-					id: "74AD31D4642ED7CF"
-					item: "kubejs:tcetieseaweedextract"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74AD31D4642ED7CF"
+				item: "kubejs:tcetieseaweedextract"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 8.0d
 		}
@@ -519,7 +491,7 @@
 				""
 				"Quanto maior a tensão do corpo principal do elevador espacial, maior será a redução demorada do módulo de expansão; quanto maior o nível do módulo de potência, maior o número de módulos de expansão paralelos"
 				""
-				"Clique em \\\"M\\\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos&r"
+				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos&r"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.3d
@@ -548,13 +520,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2E049D2A5A1162D8"
-					item: "gtceu:space_elevator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E049D2A5A1162D8"
+				item: "gtceu:space_elevator"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
@@ -566,26 +536,22 @@
 			]
 			description: ["Muito parecido com wetware"]
 			id: "583079AD88755662"
-			tasks: [
-				{
-					id: "6B65C07BCA6CC667"
-					item: "kubejs:bioware_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B65C07BCA6CC667"
+				item: "kubejs:bioware_printed_circuit_board"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["264EA49453E188C4"]
 			id: "1223F5F9BF7FF37F"
-			tasks: [
-				{
-					id: "3DA4F596F8B93303"
-					item: "gtceu:neutronium_wafer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DA4F596F8B93303"
+				item: "gtceu:neutronium_wafer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 8.0d
 		}
@@ -596,13 +562,11 @@
 			id: "4500AC22EE5C09F0"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "1B9D3E6BA58D1E74"
-					item: "gtceu:mega_vacuum_freezer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B9D3E6BA58D1E74"
+				item: "gtceu:mega_vacuum_freezer"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 2.0d
 		}
@@ -627,13 +591,11 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "Um pouco caro, mas vale o dinheiro"
-			tasks: [
-				{
-					id: "67242CD537B6FEC1"
-					item: "gtceu:super_blast_smelter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "67242CD537B6FEC1"
+				item: "gtceu:super_blast_smelter"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 2.0d
 		}
@@ -643,40 +605,40 @@
 			icon: "gtceu:unknowwater_bucket"
 			id: "333B741B06E49CE8"
 			subtitle: "Líquido desconhecido pode cultivar uma nova vida"
-			tasks: [
-				{
-					id: "51F32C7FCCFA73A7"
-					title: "Líquido não identificado"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "51F32C7FCCFA73A7"
+				title: "Líquido não identificado"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0", "233CA36D529EC3FB"]
-			id: "2719D88ECD353F24"
-			tasks: [
-				{
-					id: "6BA667DA94DDC286"
-					item: "gtceu:uv_energy_input_hatch"
-					type: "item"
-				}
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"233CA36D529EC3FB"
 			]
+			id: "2719D88ECD353F24"
+			tasks: [{
+				id: "6BA667DA94DDC286"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["2802E34A99CE1D79", "035C470213E8B4DB"]
+			dependencies: [
+				"2802E34A99CE1D79"
+				"035C470213E8B4DB"
+			]
 			icon: "gtceu:antimatter_bucket"
 			id: "24585C3114095227"
 			subtitle: "UEV será útil"
-			tasks: [
-				{
-					id: "32D1AAAFAE4E6E8D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "32D1AAAFAE4E6E8D"
+				type: "checkmark"
+			}]
 			title: "antimatéria discreta"
 			x: 6.0d
 			y: 2.0d
@@ -686,7 +648,7 @@
 			description: [
 				"0 não é gravidade, 1 ~ 99 é gravidade normal, 100 é gravidade forte"
 				""
-				"{\\\"text\\\":\\\"A ferramenta de cópia configurada pode copiar e colar configurações de gravidade, e a caixa de manutenção de gravidade automática configurável subsequente pode copiar e colar configurações demoradas de processamento e configurações de gravidade ao mesmo tempo.\\\",\\\"underlined\\\":\\\"true\\\",\\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3740DE62D42A4D0D\\\"}}"
+				"{\"text\":\"A ferramenta de cópia configurada pode copiar e colar configurações de gravidade, e a caixa de manutenção de gravidade automática configurável subsequente pode copiar e colar configurações demoradas de processamento e configurações de gravidade ao mesmo tempo.\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3740DE62D42A4D0D\"}}"
 				"{@pagebreak}"
 				"Curiosidades: Se você usar uma câmara de controle de gravidade configurada com forte gravidade em um ambiente sem gravidade, a máquina multibloco terá a capacidade de determinar ambientes sem gravidade e com forte gravidade ao mesmo tempo."
 			]
@@ -695,13 +657,11 @@
 			id: "07A5A5AD37710056"
 			shape: "rsquare"
 			subtitle: "Também pode ser mantido automaticamente"
-			tasks: [
-				{
-					id: "7039AA556E4A462A"
-					item: "gtceu:gravity_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7039AA556E4A462A"
+				item: "gtceu:gravity_hatch"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 2.0d
 		}
@@ -711,18 +671,19 @@
 			id: "7597D3F42E7E8515"
 			shape: "rsquare"
 			subtitle: "sem perda"
-			tasks: [
-				{
-					id: "798CD0CCB2B791EF"
-					item: "gtceu:zpm_fluid_drilling_rig"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "798CD0CCB2B791EF"
+				item: "gtceu:zpm_fluid_drilling_rig"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["02F523E003E1C93D", "035C470213E8B4DB"]
+			dependencies: [
+				"02F523E003E1C93D"
+				"035C470213E8B4DB"
+			]
 			description: [
 				"Apenas caixas de laser podem ser usadas (duas podem ser colocadas), e os locais disponíveis são no centro do andar inferior e no centro do andar superior"
 				""
@@ -737,23 +698,19 @@
 			]
 			icon_scale: 2.0d
 			id: "16C93F76F74CB8DB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "75A2190E42EDDB29"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75A2190E42EDDB29"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			subtitle: "Otimize drasticamente sua linha de produção"
-			tasks: [
-				{
-					id: "42B8B94BB1B32E83"
-					item: "gtceu:chemical_distort"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "42B8B94BB1B32E83"
+				item: "gtceu:chemical_distort"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.0d
 		}
@@ -761,25 +718,26 @@
 			dependencies: ["11B90D1FD2508092"]
 			icon: "gtceu:mutated_living_solder_bucket"
 			id: "4F87B7DA47087F97"
-			tasks: [
-				{
-					id: "2B9CE70914717C3A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2B9CE70914717C3A"
+				type: "checkmark"
+			}]
 			title: "fluxo ativo de mutação"
 			x: 10.0d
 			y: 12.0d
 		}
 		{
-			dependencies: ["035C470213E8B4DB", "0A2D46609F5C3CAB"]
+			dependencies: [
+				"035C470213E8B4DB"
+				"0A2D46609F5C3CAB"
+			]
 			description: [
 				"Saída até 1A MAX, muito poderosa"
 				""
 				"A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia"
 				""
 				"Também possui um mecanismo de overclock:"
-				"{\\\"text\\\":\\\"Para o mecanismo específico, consulte a definição de overclocking sem perdas.\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"5535934109A12B5D\\\"}}"
+				"{\"text\":\"Para o mecanismo específico, consulte a definição de overclocking sem perdas.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"}}"
 				"Substitua &b4x velocidade de receita&rpor &60,25x tempo de receita&r(incluindo multiplicação de caixas de manutenção configuráveis), consumo de energia &b&rcom &6geração de energia&r, &bcusto total de energia&rcom &6A geração total de energia&ré o mecanismo de overclock do gerador"
 				"O gerador fará overclock automaticamente de&rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo."
 				""
@@ -787,30 +745,26 @@
 			]
 			icon_scale: 2.0d
 			id: "09E013C97E05C052"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2A7DD0EB96FD2044"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A7DD0EB96FD2044"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			subtitle: "Grande sílica ~~ geração de energia ~~"
-			tasks: [
-				{
-					id: "6D5ADEFDD6695856"
-					item: "gtceu:large_naquadah_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D5ADEFDD6695856"
+				item: "gtceu:large_naquadah_reactor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
 			description: [
-				"{\\\"text\\\":\\\"Consulte aqui os cuidados para a construção de uma torre de evaporação.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"224B850538D346D3\\\"}}"
+				"{\"text\":\"Consulte aqui os cuidados para a construção de uma torre de evaporação.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"
 				""
 				"A purificação das linhas de água é na verdade muito linear e fácil de fazer, as únicas coisas a serem observadas são o nitrogênio (carvão ativado) e a velocidade da torre de evaporação"
 			]
@@ -818,28 +772,27 @@
 			icon: "gtceu:grade_8_purified_water_bucket"
 			id: "4EA64DC5DA2F0F8C"
 			subtitle: "Você pode começar a se preparar"
-			tasks: [
-				{
-					id: "53B625F402EEFC80"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "53B625F402EEFC80"
+				type: "checkmark"
+			}]
 			title: "Água purificada nível 8"
 			x: 12.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["7204F1B6BCC74F1C", "31A1ECA11AC31A29"]
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"31A1ECA11AC31A29"
+			]
 			description: ["O disco infinito de alta velocidade é um item dois em um fluido com melhor desempenho"]
 			id: "2DA05E5BAEAFB88E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "51D272FBB89C06A0"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51D272FBB89C06A0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			subtitle: "capacidade ilimitada"
 			tasks: [
 				{
@@ -863,7 +816,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["7204F1B6BCC74F1C", "39380262677612A9"]
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"39380262677612A9"
+			]
 			description: [
 				"Agora você pode criar com eficiência um conjunto de componentes de 8 peças (&oeconomiza 25% dos materiais de &d&r&o&r) e &bsalva o slot de banco de dados&r"
 				""
@@ -880,42 +836,42 @@
 			icon_scale: 2.0d
 			id: "36A2AF68AE67C70A"
 			min_width: 210
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "355BA94438730713"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "355BA94438730713"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "65C99D3D67D677D5"
-					item: "gtceu:component_assembly_line"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "65C99D3D67D677D5"
+				item: "gtceu:component_assembly_line"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["37C5E7628A4B826C", "5D4131C48F9BAE46"]
+			dependencies: [
+				"37C5E7628A4B826C"
+				"5D4131C48F9BAE46"
+			]
 			description: ["Não vá para o minério, vá para o decaimento &b&r&6rádio"]
 			id: "53DEE1A65051E06F"
-			tasks: [
-				{
-					id: "7A9EEB0C236E8FE7"
-					item: "gtceu:actinium_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A9EEB0C236E8FE7"
+				item: "gtceu:actinium_dust"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["035C470213E8B4DB", "0A2D46609F5C3CAB"]
+			dependencies: [
+				"035C470213E8B4DB"
+				"0A2D46609F5C3CAB"
+			]
 			description: [
 				"Primeiro use &dpara atualizar&re clique com o botão direito na montagem do modelo e, em seguida, clique com o botão direito na imagem para vincular a imagem à montagem do modelo anterior."
 				""
@@ -928,13 +884,11 @@
 			optional: true
 			shape: "rsquare"
 			subtitle: "Deixe os clusters de fábricas prosperarem"
-			tasks: [
-				{
-					id: "0B7BBAEB89C27FF0"
-					item: "gtceu:me_pattern_buffer_proxy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B7BBAEB89C27FF0"
+				item: "gtceu:me_pattern_buffer_proxy"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 2.0d
 		}
@@ -943,13 +897,11 @@
 			description: ["Plásticos de engenharia de bioafinidade de alto desempenho"]
 			icon: "gtceu:polyetheretherketone_bucket"
 			id: "7C9AC873CB7209D9"
-			tasks: [
-				{
-					id: "39D039C317D64FD9"
-					title: "Polieteretercetona"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "39D039C317D64FD9"
+				title: "Polieteretercetona"
+				type: "checkmark"
+			}]
 			x: 7.0d
 			y: 11.0d
 		}
@@ -972,23 +924,19 @@
 			]
 			icon_scale: 2.0d
 			id: "172FC2F2B20CD187"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2EACC5A946C44981"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EACC5A946C44981"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "1F71F073D091459C"
-					item: "gtceu:advanced_assembly_line"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1F71F073D091459C"
+				item: "gtceu:advanced_assembly_line"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 2.0d
 		}
@@ -1049,13 +997,11 @@
 			optional: true
 			shape: "rsquare"
 			subtitle: "maior, mais forte"
-			tasks: [
-				{
-					id: "50A279F563E3B266"
-					item: "gtceu:me_extend_pattern_buffer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "50A279F563E3B266"
+				item: "gtceu:me_extend_pattern_buffer"
+				type: "item"
+			}]
 			x: 11.5d
 			y: 12.0d
 		}

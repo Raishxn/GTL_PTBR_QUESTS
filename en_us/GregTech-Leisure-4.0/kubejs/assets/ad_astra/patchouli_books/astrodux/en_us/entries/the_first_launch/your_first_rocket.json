@@ -1,0 +1,42 @@
+{
+  "name": "first rocket",
+  "icon": "ad_astra:nasa_workbench",
+  "sortnum": 3,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "NASA workbench",
+      "item": "ad_astra:nasa_workbench",
+      "text": "To build a rocket, you must first create various components: nose cone, plate, tail fin, fuel tank and rocket engine. Then, you can assemble a real rocket on the NASA workbench, a workbench specially designed for rocket manufacturing."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "NASA workbench",
+      "recipe": "ad_astra:nasa_workbench"
+    },
+    {
+      "type": "multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " 0 ",
+            "   "
+          ]
+        ],
+        "mapping": {
+          "0": "ad_astra:launch_pad"
+        },
+        "symmetrical": true
+      },
+      "text": "To launch your rocket, you need a launch pad."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "NASA workbench",
+      "recipe": "ad_astra:launch_pad",
+      "text": "Once the launch pad is built, place the rocket in the center. If you wish, you can charge any part of the launch pad to automatically launch the rocket after refueling."
+    }
+  ]
+}

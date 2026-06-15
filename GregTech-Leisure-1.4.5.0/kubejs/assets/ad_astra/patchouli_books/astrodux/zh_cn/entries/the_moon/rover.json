@@ -1,0 +1,29 @@
+{
+  "name": "veículo espacial",
+  "icon": "ad_astra:tier_1_rover",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "veículo espacial",
+      "item": "ad_astra:tier_1_rover",
+      "text": "Rover é a melhor escolha para caminhar livremente na superfície acidentada de planetas alienígenas. É incrivelmente rápido, suporta dois jogadores ao mesmo tempo e possui 16 slots de armazenamento. Antes de poder dirigir o Ranger, você precisa abastecê-lo com combustível (clique com o botão direito enquanto se esgueira e coloque o barril de combustível pela esquerda)."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:tier_1_rover",
+      "scale": 0.36
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Receita Rover",
+      "recipe": "ad_astra:tier_1_rover"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "rádio",
+      "text": "O rover possui um rádio integrado que reproduz estações de rádio reais de streaming pela Internet. Use-o interagindo com o rádio no rover ou pressionando ($(k:ad_astra.open_radio)). Se vários jogadores estiverem no rover, eles também ouvirão a mesma transmissão."
+    }
+  ]
+}

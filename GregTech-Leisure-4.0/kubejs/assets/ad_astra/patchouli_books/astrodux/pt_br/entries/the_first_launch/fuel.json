@@ -1,0 +1,30 @@
+{
+  "name": "combustível",
+  "icon": "ad_astra:fuel_bucket",
+  "sortnum": 4,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Não se apresse para lançar ainda. Para chegar ao espaço com sucesso, você precisa abastecer o foguete com combustível."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "obter combustível",
+      "item": "ad_astra:oil_bucket",
+      "text": "Existem muitas fontes de petróleo na superfície do mar. O petróleo é um recurso não renovável e no jogo você precisa coletar o máximo possível. Os Rockets são uma grande potência."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "obter combustível",
+      "item": "ad_astra:fuel_bucket",
+      "text": "Depois de coletar pelo menos 6 barris de petróleo (o que é suficiente para uma viagem de ida e volta de foguete), você precisa refiná-los e transformá-los em combustível. O processo de refino precisa ser realizado em uma refinaria de combustível. Ligue a energia, coloque o óleo pelo lado esquerdo e comece a refinar."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "refinador de combustível",
+      "recipe": "ad_astra:fuel_refinery",
+      "text": "Enquanto se esgueira, clique com o botão esquerdo no foguete para abrir seu inventário e coloque três barris de combustível no campo de entrada. Se você não quer fazer uma viagem que nunca mais volta, é melhor levar mais três barris de combustível."
+    }
+  ]
+}

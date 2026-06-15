@@ -6,26 +6,22 @@
 	icon: "ad_astra:coal_generator"
 	id: "576CB57EB6B77F84"
 	order_index: 4
-	quest_links: [
-		{
-			id: "36B7CB415A94ED0D"
-			linked_quest: "1486FC9F82B2E56E"
-			x: 3.5d
-			y: -3.5d
-		}
-	]
+	quest_links: [{
+		id: "36B7CB415A94ED0D"
+		linked_quest: "1486FC9F82B2E56E"
+		x: 3.5d
+		y: -3.5d
+	}]
 	quests: [
 		{
 			hide_dependent_lines: true
 			icon: "gtmthings:lv_wireless_energy_receive_cover"
 			id: "7577061AE4366606"
-			tasks: [
-				{
-					id: "208E887FE1E45C23"
-					title: "LV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "208E887FE1E45C23"
+				title: "LV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: -3.5d
 		}
@@ -39,7 +35,7 @@
 				""
 				"Entrada insuficiente, espaço de saída insuficiente e compartimento de energia insuficiente restringirão a geração de energia."
 				"{@pagebreak}"
-				"Você pode \\\"emprestar\\\" alguns cristais e geradores mágicos de voltagem ultrabaixa dos aldeões"
+				"Você pode \"emprestar\" alguns cristais e geradores mágicos de voltagem ultrabaixa dos aldeões"
 			]
 			hide_dependent_lines: true
 			id: "4C591AA4F1D907C1"
@@ -60,41 +56,35 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "243E535AEDB5D1A5"
-					item: "gtceu:lv_steam_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "243E535AEDB5D1A5"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\\\"text\\\":\\\"Embora exista este gerador, produzir combustível é difícil nesta fase\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2E401B78E52B9BBC\\\"}}"]
+			description: ["{\"text\":\"Embora exista este gerador, produzir combustível é difícil nesta fase\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2E401B78E52B9BBC\"}}"]
 			id: "11CBF5394DE28373"
-			tasks: [
-				{
-					id: "64A4900F3622DCD3"
-					item: "gtceu:lv_combustion"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "64A4900F3622DCD3"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
 			x: -1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\\\"text\\\":\\\"O mesmo que combustão interna no mesmo estágio\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"351B9D097EC493C5\\\"}}"]
+			description: ["{\"text\":\"O mesmo que combustão interna no mesmo estágio\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"351B9D097EC493C5\"}}"]
 			id: "2103464D61DAF017"
-			tasks: [
-				{
-					id: "1D2E4E5A4DEFD377"
-					item: "gtceu:lv_gas_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1D2E4E5A4DEFD377"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -3.5d
 		}
@@ -102,13 +92,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:mv_wireless_energy_receive_cover"
 			id: "05C8B854877A8A7D"
-			tasks: [
-				{
-					id: "503E4DDF1F1A68CC"
-					title: "MV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "503E4DDF1F1A68CC"
+				title: "MV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: -2.0d
 		}
@@ -117,13 +105,11 @@
 			description: ["O vapor ainda é muito poderoso"]
 			id: "18E1B2BB5CD96398"
 			subtitle: "A eficiência abrangente do vapor em MT não é tão boa quanto a de BT, e ainda pior para AT"
-			tasks: [
-				{
-					id: "77D31323DD63EC0C"
-					item: "gtceu:mv_steam_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77D31323DD63EC0C"
+				item: "gtceu:mv_steam_turbine"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -2.0d
 		}
@@ -131,13 +117,11 @@
 			dependencies: ["05C8B854877A8A7D"]
 			description: ["Se precisar, você pode começar a produzir combustível nesta fase."]
 			id: "2EDFF445746B7571"
-			tasks: [
-				{
-					id: "007DBD60D0CD1C12"
-					item: "gtceu:mv_combustion"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "007DBD60D0CD1C12"
+				item: "gtceu:mv_combustion"
+				type: "item"
+			}]
 			x: -1.0d
 			y: -2.0d
 		}
@@ -145,13 +129,11 @@
 			dependencies: ["05C8B854877A8A7D"]
 			description: ["Com o combustível do motor de combustão interna, o gás também estará disponível"]
 			id: "07103C13615B4340"
-			tasks: [
-				{
-					id: "7D9607E817F5F3C8"
-					item: "gtceu:mv_gas_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D9607E817F5F3C8"
+				item: "gtceu:mv_gas_turbine"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -2.0d
 		}
@@ -159,13 +141,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:hv_wireless_energy_receive_cover"
 			id: "6934C9C15FAAD00A"
-			tasks: [
-				{
-					id: "2206076670EC76B3"
-					title: "HV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2206076670EC76B3"
+				title: "HV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: -0.5d
 		}
@@ -173,39 +153,33 @@
 			dependencies: ["6934C9C15FAAD00A"]
 			description: ["A turbina a vapor de bloco único está pronta para ser descontinuada"]
 			id: "67A3AFD69B00EC4C"
-			tasks: [
-				{
-					id: "73693527D6E35992"
-					item: "gtceu:hv_steam_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73693527D6E35992"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6934C9C15FAAD00A"]
 			id: "4AE439A017FF5A04"
-			tasks: [
-				{
-					id: "31B6DE310917805B"
-					item: "gtceu:hv_combustion"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31B6DE310917805B"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6934C9C15FAAD00A"]
 			id: "5F1205B5A2B98E21"
-			tasks: [
-				{
-					id: "41A77DEE3ADFAD06"
-					item: "gtceu:hv_gas_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41A77DEE3ADFAD06"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -0.5d
 		}
@@ -213,13 +187,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:ev_wireless_energy_receive_cover"
 			id: "62D8D7B8C9730557"
-			tasks: [
-				{
-					id: "0CE1A9B25F5823C9"
-					title: "EV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0CE1A9B25F5823C9"
+				title: "EV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 1.0d
 		}
@@ -239,21 +211,19 @@
 			hide_dependent_lines: true
 			icon: "gtceu:steam_large_turbine"
 			id: "1B77B2C00B24906E"
-			rewards: [
-				{
-					id: "21590805634EFCFF"
-					item: {
-						Count: 1
-						id: "gtceu:turbine_rotor"
-						tag: {
-							GT.PartStats: {
-								Material: "gtceu:hssg"
-							}
+			rewards: [{
+				id: "21590805634EFCFF"
+				item: {
+					Count: 1
+					id: "gtceu:turbine_rotor"
+					tag: {
+						GT.PartStats: {
+							Material: "gtceu:hssg"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "O desempenho atual desta turbina não é tão bom quanto o de um pequeno gerador"
 			tasks: [
 				{
@@ -285,16 +255,17 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "62D8D7B8C9730557"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"62D8D7B8C9730557"
+			]
 			description: ["A diferença entre combustão interna e gás começa a aparecer"]
 			id: "38918D31E5A969C1"
-			tasks: [
-				{
-					id: "225A42BE61876F4A"
-					item: "gtceu:gas_large_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "225A42BE61876F4A"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 1.0d
 		}
@@ -329,18 +300,19 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:iv_wireless_energy_receive_cover"
 			id: "5460CFE78B89DC30"
-			tasks: [
-				{
-					id: "4B7E26D82AAFA0A5"
-					title: "IV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4B7E26D82AAFA0A5"
+				title: "IV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "62D8D7B8C9730557"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"62D8D7B8C9730557"
+			]
 			description: [
 				"Turbinas extragrandes têm uma capacidade de geração de energia relativamente grande e até o vapor é muito potente."
 				""
@@ -350,48 +322,46 @@
 			]
 			icon: "gtceu:steam_mega_turbine"
 			id: "6196565B3DE59BF1"
-			rewards: [
-				{
-					id: "2361C99C0B6F8D3A"
-					item: "gtceu:rotor_hatch"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "625BBCED62255415"
-					item: "gtceu:steam_mega_turbine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2361C99C0B6F8D3A"
+				item: "gtceu:rotor_hatch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "625BBCED62255415"
+				item: "gtceu:steam_mega_turbine"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 1.0d
 		}
 		{
-			dependencies: ["5460CFE78B89DC30", "763DDE9819C3986C"]
+			dependencies: [
+				"5460CFE78B89DC30"
+				"763DDE9819C3986C"
+			]
 			description: ["Versão atualizada, mais eficiente"]
 			id: "3DFD3D7C8DF30B75"
-			tasks: [
-				{
-					id: "14FBA3E915BD5C17"
-					item: "gtceu:extreme_combustion_engine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "14FBA3E915BD5C17"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "5460CFE78B89DC30"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"5460CFE78B89DC30"
+			]
 			description: ["Versão atualizada, mais eficiente"]
 			id: "1FF27C8CE8BD4041"
-			tasks: [
-				{
-					id: "7A3302436045F131"
-					item: "gtceu:gas_mega_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A3302436045F131"
+				item: "gtceu:gas_mega_turbine"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 2.5d
 		}
@@ -399,13 +369,11 @@
 			dependencies: ["62D8D7B8C9730557"]
 			description: ["A elaboração de combustível pode ser um pouco complicada"]
 			id: "1BDB51F089ED52D3"
-			tasks: [
-				{
-					id: "0D3FDB5461E50DF0"
-					item: "gtceu:ev_rocket_engine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0D3FDB5461E50DF0"
+				item: "gtceu:ev_rocket_engine"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 1.0d
 		}
@@ -413,13 +381,11 @@
 			dependencies: ["5460CFE78B89DC30"]
 			description: ["queda repentina na eficiência"]
 			id: "1A76E49604336B50"
-			tasks: [
-				{
-					id: "3A071C147BA1B580"
-					item: "gtceu:iv_rocket_engine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A071C147BA1B580"
+				item: "gtceu:iv_rocket_engine"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 2.5d
 		}
@@ -427,13 +393,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:luv_wireless_energy_receive_cover"
 			id: "504BA5B399BFA571"
-			tasks: [
-				{
-					id: "326C22F23137507B"
-					title: "LuV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "326C22F23137507B"
+				title: "LuV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 4.0d
 		}
@@ -441,13 +405,11 @@
 			dependencies: ["504BA5B399BFA571"]
 			description: ["Apenas metade da eficiência"]
 			id: "5960AA3D42E0F886"
-			tasks: [
-				{
-					id: "68AC62415412A2A1"
-					item: "gtceu:luv_rocket_engine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68AC62415412A2A1"
+				item: "gtceu:luv_rocket_engine"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 4.0d
 		}
@@ -455,27 +417,23 @@
 			dependencies: ["504BA5B399BFA571"]
 			description: ["O combustível de sílica é muito resistente à queima, mas é necessário ter um tanque de energia ZPM para isso."]
 			id: "2CC7E0E80D23E7EF"
-			tasks: [
-				{
-					id: "562C661F9252E3AF"
-					item: "gtceu:luv_naquadah_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "562C661F9252E3AF"
+				item: "gtceu:luv_naquadah_reactor"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5460CFE78B89DC30"]
-			description: ["{\\\"text\\\":\\\"Ao chegar a Io, você pode começar a queimar sílica.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"36F5A40D3976E512\\\"}}"]
+			description: ["{\"text\":\"Ao chegar a Io, você pode começar a queimar sílica.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"36F5A40D3976E512\"}}"]
 			id: "48991235C17FB211"
-			tasks: [
-				{
-					id: "5AF1CFBEC9280D1A"
-					item: "gtceu:iv_naquadah_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AF1CFBEC9280D1A"
+				item: "gtceu:iv_naquadah_reactor"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 2.5d
 		}
@@ -483,13 +441,11 @@
 			dependencies: ["1BD6F43D61ABF744"]
 			description: ["O último gerador de bloco único ainda é muito poderoso"]
 			id: "67A37C28F37F2C3D"
-			tasks: [
-				{
-					id: "43FD10D740D6DCB4"
-					item: "gtceu:zpm_naquadah_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "43FD10D740D6DCB4"
+				item: "gtceu:zpm_naquadah_reactor"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 5.5d
 		}
@@ -497,68 +453,70 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:zpm_wireless_energy_receive_cover"
 			id: "1BD6F43D61ABF744"
-			tasks: [
-				{
-					id: "1661853C8F3910C0"
-					title: "ZPM"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1661853C8F3910C0"
+				title: "ZPM"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 5.5d
 		}
 		{
-			dependencies: ["5460CFE78B89DC30", "763DDE9819C3986C"]
+			dependencies: [
+				"5460CFE78B89DC30"
+				"763DDE9819C3986C"
+			]
 			description: ["Método de geração de energia muito poderoso e estável"]
 			id: "666098A2D466C77A"
-			tasks: [
-				{
-					id: "05ADF526AE790643"
-					item: "gtceu:chemical_energy_devourer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05ADF526AE790643"
+				item: "gtceu:chemical_energy_devourer"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "5460CFE78B89DC30"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"5460CFE78B89DC30"
+			]
 			description: ["Mais poderoso que o grande gás"]
 			id: "2CF58B9EF4F70090"
-			tasks: [
-				{
-					id: "5ACF147740945167"
-					item: "gtceu:rocket_mega_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5ACF147740945167"
+				item: "gtceu:rocket_mega_turbine"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "504BA5B399BFA571"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"504BA5B399BFA571"
+			]
 			description: ["Resfriando o plasma e gerando eletricidade ao mesmo tempo, a eficiência da geração de energia não é tão boa quanto a de uma turbina a vapor supercrítica"]
 			id: "5E76606D0601E263"
-			tasks: [
-				{
-					id: "3EE9E5A4C22EB8A5"
-					item: "gtceu:plasma_large_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3EE9E5A4C22EB8A5"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "1BD6F43D61ABF744"]
-			id: "48462EE64EA29340"
-			tasks: [
-				{
-					id: "70FB2E5BE288D032"
-					item: "gtceu:plasma_mega_turbine"
-					type: "item"
-				}
+			dependencies: [
+				"1B77B2C00B24906E"
+				"1BD6F43D61ABF744"
 			]
+			id: "48462EE64EA29340"
+			tasks: [{
+				id: "70FB2E5BE288D032"
+				item: "gtceu:plasma_mega_turbine"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 5.5d
 		}
@@ -566,27 +524,26 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:uv_wireless_energy_receive_cover"
 			id: "44F827B28C513D5B"
-			tasks: [
-				{
-					id: "513C7F42EA555C43"
-					title: "UV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "513C7F42EA555C43"
+				title: "UV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 7.0d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "62D8D7B8C9730557"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"62D8D7B8C9730557"
+			]
 			description: ["Uma versão atualizada do motor de foguete de bloco único"]
 			id: "408C3C831B65D6F1"
-			tasks: [
-				{
-					id: "32BCA52A82F7C585"
-					item: "gtceu:rocket_large_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "32BCA52A82F7C585"
+				item: "gtceu:rocket_large_turbine"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 1.0d
 		}
@@ -594,13 +551,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:uhv_wireless_energy_receive_cover"
 			id: "4B33F47839538D7B"
-			tasks: [
-				{
-					id: "5B512F241E6679D1"
-					title: "UHV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5B512F241E6679D1"
+				title: "UHV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 8.5d
 		}
@@ -612,13 +567,11 @@
 				"O efeito de fornecer plasma é semelhante ao prolongamento do tempo de receita, que pode ser entendido como X paralelo = X vezes geração de energia"
 			]
 			id: "548E8FA4B1004534"
-			tasks: [
-				{
-					id: "5079AC2040FDA3AA"
-					item: "gtceu:hyper_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5079AC2040FDA3AA"
+				item: "gtceu:hyper_reactor"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 8.5d
 		}
@@ -635,13 +588,11 @@
 			]
 			id: "082BB082BE18C820"
 			subtitle: "Começa muito devagar"
-			tasks: [
-				{
-					id: "4DC11532BC403AB3"
-					item: "gtceu:dyson_sphere"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4DC11532BC403AB3"
+				item: "gtceu:dyson_sphere"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 10.0d
 		}
@@ -649,13 +600,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:uiv_wireless_energy_receive_cover"
 			id: "19C7474792787EE9"
-			tasks: [
-				{
-					id: "2E8606C5E07D1D88"
-					title: "UIV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2E8606C5E07D1D88"
+				title: "UIV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 10.0d
 		}
@@ -668,13 +617,11 @@
 			]
 			id: "25F672CF48091CEC"
 			subtitle: "Use e pare a qualquer momento"
-			tasks: [
-				{
-					id: "7F7D348C6E55EC07"
-					item: "gtceu:advanced_hyper_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F7D348C6E55EC07"
+				item: "gtceu:advanced_hyper_reactor"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 10.0d
 		}
@@ -682,40 +629,34 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:opv_wireless_energy_receive_cover"
 			id: "31779C5096523FEF"
-			tasks: [
-				{
-					id: "28E9E67B5567ABFB"
-					title: "OpV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "28E9E67B5567ABFB"
+				title: "OpV"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\\\"text\\\":\\\"Queime um pouco de combustível simples\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1248D8F428A12A95\\\"}}"]
+			description: ["{\"text\":\"Queime um pouco de combustível simples\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1248D8F428A12A95\"}}"]
 			id: "6EF3C749D06C7262"
-			tasks: [
-				{
-					id: "329F1BD301166219"
-					item: "gtceu:lv_semi_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "329F1BD301166219"
+				item: "gtceu:lv_semi_fluid"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["05C8B854877A8A7D"]
 			id: "28507EACD363F3D1"
-			tasks: [
-				{
-					id: "1D47416F630379AB"
-					item: "gtceu:mv_semi_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1D47416F630379AB"
+				item: "gtceu:mv_semi_fluid"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -723,26 +664,25 @@
 			dependencies: ["6934C9C15FAAD00A"]
 			description: ["Se você estiver com falta de eletricidade, este método de geração de energia é recomendado (queima direta de óleo pesado)"]
 			id: "236EB8B88EA504C9"
-			tasks: [
-				{
-					id: "778BDD1B9F40E23F"
-					item: "gtceu:hv_semi_fluid"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "778BDD1B9F40E23F"
+				item: "gtceu:hv_semi_fluid"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["62D8D7B8C9730557", "763DDE9819C3986C"]
-			id: "4E8004D6D020E5E5"
-			tasks: [
-				{
-					id: "37D6A5F6A1C6D304"
-					item: "gtceu:large_semi_fluid_generator"
-					type: "item"
-				}
+			dependencies: [
+				"62D8D7B8C9730557"
+				"763DDE9819C3986C"
 			]
+			id: "4E8004D6D020E5E5"
+			tasks: [{
+				id: "37D6A5F6A1C6D304"
+				item: "gtceu:large_semi_fluid_generator"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 1.0d
 		}
@@ -755,132 +695,119 @@
 				""
 				"O raio invocado pelo Thunder Trident também recarrega o gerador."
 				""
-				"{\\\"text\\\":\\\"você pode usá-lo\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"0F663054E006E97B\\\"}}"
+				"{\"text\":\"você pode usá-lo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0F663054E006E97B\"}}"
 			]
 			id: "45656BC02DC740CE"
-			rewards: [
-				{
-					id: "04F92B9F1BC615D2"
-					item: {
-						Count: 1
-						id: "minecraft:trident"
-						tag: {
-							Damage: 240
-							Enchantments: [
-								{
-									id: "minecraft:channeling"
-									lvl: 1
-								}
-							]
-						}
+			rewards: [{
+				id: "04F92B9F1BC615D2"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 240
+						Enchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1
+						}]
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "11BBDF10AD954709"
-					item: "gtceu:ev_lightning_rod"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "11BBDF10AD954709"
+				item: "gtceu:ev_lightning_rod"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5460CFE78B89DC30"]
 			id: "61B0C3E3C0B7E6EE"
-			rewards: [
-				{
-					id: "5140439277BABE11"
-					item: {
-						Count: 1
-						id: "minecraft:trident"
-						tag: {
-							Damage: 240
-							Enchantments: [
-								{
-									id: "minecraft:channeling"
-									lvl: 1
-								}
-							]
-						}
+			rewards: [{
+				id: "5140439277BABE11"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 240
+						Enchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1
+						}]
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "31A9D370C6B93F87"
-					item: "gtceu:iv_lightning_rod"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "31A9D370C6B93F87"
+				item: "gtceu:iv_lightning_rod"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["504BA5B399BFA571"]
 			id: "36ED28C6C3F2CDEC"
-			rewards: [
-				{
-					id: "449571C11EA4E049"
-					item: {
-						Count: 1
-						id: "minecraft:trident"
-						tag: {
-							Damage: 240
-							Enchantments: [
-								{
-									id: "minecraft:channeling"
-									lvl: 1
-								}
-							]
-						}
+			rewards: [{
+				id: "449571C11EA4E049"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 240
+						Enchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1
+						}]
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "5BEE28B100FC5354"
-					item: "gtceu:luv_lightning_rod"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BEE28B100FC5354"
+				item: "gtceu:luv_lightning_rod"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "504BA5B399BFA571"]
+			dependencies: [
+				"1B77B2C00B24906E"
+				"504BA5B399BFA571"
+			]
 			description: ["Usados ​​com trocador de calor, reatores de fissão ou reatores de fusão podem ser usados ​​para obter combustível."]
 			id: "749FFDD88305518C"
-			tasks: [
-				{
-					id: "7EE83AF0AE0CD89E"
-					item: "gtceu:supercritical_steam_turbine"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7EE83AF0AE0CD89E"
+				item: "gtceu:supercritical_steam_turbine"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["1B77B2C00B24906E", "1BD6F43D61ABF744"]
-			id: "301FD6AEF56EDB77"
-			tasks: [
-				{
-					id: "039203DBB3645A9D"
-					item: "gtceu:supercritical_mega_steam_turbine"
-					type: "item"
-				}
+			dependencies: [
+				"1B77B2C00B24906E"
+				"1BD6F43D61ABF744"
 			]
+			id: "301FD6AEF56EDB77"
+			tasks: [{
+				id: "039203DBB3645A9D"
+				item: "gtceu:supercritical_mega_steam_turbine"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
-			description: ["A avenida do vapor se manifesta aqui", "Todos no mundo podem se tornar imortais através deste"]
+			description: [
+				"A avenida do vapor se manifesta aqui"
+				"Todos no mundo podem se tornar imortais através deste"
+			]
 			icon: "gtceu:steam_bucket"
 			id: "410D898F86927828"
 			subtitle: "muito poderoso"
@@ -1015,7 +942,10 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["456FF3E513F8660C", "2E401B78E52B9BBC"]
+			dependencies: [
+				"456FF3E513F8660C"
+				"2E401B78E52B9BBC"
+			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:rocket_fuel_bucket"
 			id: "10FC17CA92F03449"
@@ -1319,13 +1249,11 @@
 			id: "5CA04083FCFD26A8"
 			size: 1.0d
 			subtitle: "Pode encher sua caixa de laser de nível mais alto"
-			tasks: [
-				{
-					id: "13573E3E1023E028"
-					item: "gtceu:annihilate_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13573E3E1023E028"
+				item: "gtceu:annihilate_generator"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 11.5d
 		}
@@ -1337,29 +1265,25 @@
 				"A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia"
 				""
 				"Também possui um mecanismo de overclock:"
-				"{\\\"text\\\":\\\"Para o mecanismo específico, consulte a definição de overclocking sem perdas.\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"5535934109A12B5D\\\"}}"
+				"{\"text\":\"Para o mecanismo específico, consulte a definição de overclocking sem perdas.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"}}"
 				"Substitua &b4x velocidade de receita&rpor &60,25x tempo de receita&r(incluindo multiplicação de caixas de manutenção configuráveis), consumo de energia &b&rcom &6geração de energia&r, &bcusto total de energia&rcom &6A geração total de energia&ré o mecanismo de overclock do gerador"
 				"O gerador fará overclock automaticamente de&rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo."
 				""
 				"Geradores com as palavras &b&loverclocking não perderão eficiência energética e&rna descrição possuem mecanismos de overclock."
 			]
 			id: "7BBBF338330F4793"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "450CDF7F75C84E34"
-					table_id: 6225023274141477362L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450CDF7F75C84E34"
+				table_id: 6225023274141477362L
+				type: "loot"
+			}]
 			subtitle: "Grande sílica ~~ geração de energia ~~"
-			tasks: [
-				{
-					id: "17D037479DE11EDF"
-					item: "gtceu:large_naquadah_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17D037479DE11EDF"
+				item: "gtceu:large_naquadah_reactor"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 7.0d
 		}
@@ -1469,13 +1393,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:luv_naquadah_reactor"
 			id: "3E951CCF86DDA5CB"
-			tasks: [
-				{
-					id: "330EAAD1F7D76DB7"
-					title: "Este é o combustível disponível para reatores de sílica"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "330EAAD1F7D76DB7"
+				title: "Este é o combustível disponível para reatores de sílica"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: 2.5d
 		}
@@ -1483,13 +1405,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:luv_rocket_engine"
 			id: "456FF3E513F8660C"
-			tasks: [
-				{
-					id: "0AA9768CA91B571A"
-					title: "Este é o combustível disponível para motores de foguete"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0AA9768CA91B571A"
+				title: "Este é o combustível disponível para motores de foguete"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: 1.0d
 		}
@@ -1518,13 +1438,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:plasma_large_turbine"
 			id: "1814ECC88C7A6D7E"
-			tasks: [
-				{
-					id: "17DA1F85537D48E0"
-					title: "Este é o combustível disponível para a turbina de plasma"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "17DA1F85537D48E0"
+				title: "Este é o combustível disponível para a turbina de plasma"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: 4.0d
 		}
@@ -1532,13 +1450,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:hv_combustion"
 			id: "2E401B78E52B9BBC"
-			tasks: [
-				{
-					id: "69C6510D05710D1D"
-					title: "Este é o combustível disponível para geração de energia de combustão interna"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "69C6510D05710D1D"
+				title: "Este é o combustível disponível para geração de energia de combustão interna"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: -2.0d
 		}
@@ -1546,13 +1462,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:hv_gas_turbine"
 			id: "351B9D097EC493C5"
-			tasks: [
-				{
-					id: "74F26AD3A9FAFE49"
-					title: "Este é o combustível disponível para geração de energia a gás"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "74F26AD3A9FAFE49"
+				title: "Este é o combustível disponível para geração de energia a gás"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: -3.5d
 		}
@@ -1560,13 +1474,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:hv_semi_fluid"
 			id: "1248D8F428A12A95"
-			tasks: [
-				{
-					id: "0070F56927FEED89"
-					title: "Este é um combustível utilizável para geração de energia semilíquida"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0070F56927FEED89"
+				title: "Este é um combustível utilizável para geração de energia semilíquida"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: -0.5d
 		}
@@ -1574,13 +1486,11 @@
 			hide_dependent_lines: true
 			icon: "gtceu:fission_reactor"
 			id: "1A6111948261BCB8"
-			tasks: [
-				{
-					id: "353661CEC8603F0F"
-					title: "outros combustíveis"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "353661CEC8603F0F"
+				title: "outros combustíveis"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: 5.5d
 		}
@@ -1613,7 +1523,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1248D8F428A12A95", "2E401B78E52B9BBC"]
+			dependencies: [
+				"1248D8F428A12A95"
+				"2E401B78E52B9BBC"
+			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:oil_light_bucket"
 			id: "18067F02EC9451C6"
@@ -2029,13 +1942,11 @@
 			hide_dependent_lines: true
 			icon: "gtmthings:max_wireless_energy_receive_cover"
 			id: "129B3F81E43C237D"
-			tasks: [
-				{
-					id: "7953D09AF58F4D90"
-					title: "MAX"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7953D09AF58F4D90"
+				title: "MAX"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: 13.0d
 		}
@@ -2075,12 +1986,10 @@
 			icon: "gtceu:solar_panel"
 			id: "09AADF1A6ECB4164"
 			subtitle: "Nenhuma pessoa foi encontrada"
-			tasks: [
-				{
-					id: "31290CFE5589EA23"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "31290CFE5589EA23"
+				type: "checkmark"
+			}]
 			title: "energia solar"
 			x: -6.5d
 			y: 7.0d

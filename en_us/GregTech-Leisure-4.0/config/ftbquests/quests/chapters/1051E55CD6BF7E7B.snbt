@@ -1,0 +1,1237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1051E55CD6BF7E7B"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:max_electric_motor"
+	id: "1051E55CD6BF7E7B"
+	order_index: 14
+	quest_links: [{
+		id: "2B20C263CB41DBAD"
+		linked_quest: "296DE95F3BE7DC54"
+		shape: "hexagon"
+		size: 2.0d
+		x: -1.0d
+		y: 2.5d
+	}]
+	quests: [
+		{
+			dependencies: ["296DE95F3BE7DC54"]
+			description: [
+				"Obtained by throwing a blue framed magma block into the particle effect of a functioning Gate of Creation."
+				""
+				"The magnetic substance block is to throw 64 magnetic substance ingots &m. Although the magnetic substance block is useless &r"
+			]
+			icon_scale: 2.0d
+			id: "470DDCCD8E017A4F"
+			shape: "rsquare"
+			subtitle: "Got an item from a trade but don't know how to use it"
+			tasks: [{
+				id: "6C1581BB60019E84"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C3C46AC660CC54E"]
+			id: "5AFEAD001EDA612D"
+			subtitle: "Contains all energy in multidimensional space"
+			tasks: [{
+				id: "318A4B7F9925680F"
+				item: "kubejs:create_ultimate_battery"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0BF48314F3323108"
+				"38FFB6D2003C7EB4"
+				"4CF8E0618D65DD65"
+			]
+			id: "1EB9F1815EB656B0"
+			subtitle: "Two-dimensional expansion"
+			tasks: [{
+				id: "453883277EF4A1B6"
+				item: "kubejs:two_way_foil"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"470DDCCD8E017A4F"
+				"1EB9F1815EB656B0"
+			]
+			description: ["Also available in synthetic materials are&btwo-way foil &r"]
+			id: "48925ECBCC5D268D"
+			subtitle: "Items obtained by breaking command blocks"
+			tasks: [{
+				id: "3DFC2C88970DA844"
+				item: "kubejs:command_block_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			hide_dependent_lines: true
+			id: "338F629A694C7556"
+			subtitle: "a bit slow"
+			tasks: [{
+				id: "16C8AA0E8A7E6784"
+				item: "gtlcore:create_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"338F629A694C7556"
+				"5AFEAD001EDA612D"
+				"65C38365E20B7F16"
+			]
+			icon_scale: 2.0d
+			id: "7C4AD33299386B47"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Manipulating gravity to achieve detonation"
+			tasks: [{
+				id: "29CE180A8857179D"
+				item: "gtceu:gravitation_shockburst"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			id: "4C37CB772835CFD0"
+			tasks: [{
+				id: "3456609519072452"
+				item: "kubejs:command_block_broken"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: [
+				"At least MAX level voltage needs to be input"
+				""
+				"If accessing a network switch, make sure the network switch only has input from the creating computer, otherwise the network switch will not work"
+				""
+				"Tip: The wireless computing power warehouse cannot transmit computing power across dimensions."
+				""
+				"&mIs there anyone who still doesn’t know that the molecular assembly room can run the forging table recipe? &r"
+			]
+			icon_scale: 2.0d
+			id: "30907D7231913ACB"
+			shape: "rsquare"
+			subtitle: "Infinite computing power"
+			tasks: [{
+				id: "46A19A3E3D3CF4A9"
+				item: "gtceu:create_computation"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			id: "429AEBE4BF55B1FF"
+			tasks: [{
+				id: "77BD91BF9EFBE178"
+				item: "kubejs:chain_command_block_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"429AEBE4BF55B1FF"
+				"30907D7231913ACB"
+			]
+			description: ["No need to build it, just make 64 units and then follow the gravity explosion formula"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2F9392EF05DB11EF"
+			rewards: [{
+				count: 64
+				id: "4FD478D6E5414E22"
+				item: "gtceu:create_aggregation"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Can only work in the creative dimension"
+			tasks: [{
+				id: "7AB830407E68C7F1"
+				item: "gtceu:create_aggregation"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2F9392EF05DB11EF"
+				"4C37CB772835CFD0"
+			]
+			id: "2D1F2793A396B322"
+			tasks: [{
+				id: "4C7140E1B28862FE"
+				item: "minecraft:chain_command_block"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["429AEBE4BF55B1FF"]
+			hide_dependency_lines: false
+			id: "5BA55D56C47EA2C4"
+			tasks: [{
+				id: "3C8BF60743D0FB97"
+				item: "kubejs:repeating_command_block_core"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5BA55D56C47EA2C4"
+				"435394EAA6536AA9"
+			]
+			id: "75CE99CD1614FB64"
+			tasks: [{
+				id: "065BE74992505A08"
+				item: "minecraft:repeating_command_block"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D1F2793A396B322"]
+			id: "435394EAA6536AA9"
+			tasks: [{
+				id: "5321FDC4FAA49862"
+				item: "kubejs:chain_command_block_broken"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5AFEAD001EDA612D"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2A19E7C6DC247B90"
+			tasks: [{
+				id: "00F2D831815D719F"
+				item: "kubejs:chaotic_energy_core"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75CE99CD1614FB64"]
+			description: ["Put into database to get all study data"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "31B4B834D5DD87DB"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Graduated"
+			tasks: [{
+				id: "6D68D65E443AE5FE"
+				item: "gtceu:creative_data_access_hatch"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2A19E7C6DC247B90"
+				"2D1F2793A396B322"
+			]
+			description: [
+				"{ \"text\": \"Both creative power sources can be put into active transformers to allow unlimited power to wireless networks\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
+				""
+				"You can also put the creative power supply into the machine, so that the machine can obtain power far beyond 4194304A MAX, up to&cM&r&aA&r&9X&r&e+&r&c16 &r"
+				""
+				"Default selection when creating power placement&cM&r&aA&r&9X&r&e+&r&c16 &r"
+				""
+				"Creation power cannot be shared between multiple multi-block structures"
+			]
+			icon_scale: 2.0d
+			id: "5F145D9019C4BC48"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Graduated"
+			tasks: [
+				{
+					id: "02CCDE9B8302A71A"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					id: "4F47141E78EDAE2F"
+					item: "gtmthings:creative_energy_hatch"
+					type: "item"
+				}
+			]
+			title: "creative mode power"
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5F145D9019C4BC48"
+				"31B4B834D5DD87DB"
+			]
+			description: [
+				"When you look at it, you seem to see the bearded doll that was on the shelf of the Pan-Galaxy GregTech sales department many galactic years ago."
+				""
+				"&a&lIf you still plan to challenge the later star gates, you have to pay attention to the various infinite components in JEI. There are also various component packages. Some machines only need to be made. For example, the black hole does not need to be built. Just replace the black hole component package."
+				""
+				"&l&bIn the process of making the star gate, you may encounter a situation where the calculated but unable to place an order shows missing materials but does not show what materials are missing. This is caused by the special optimization algorithm of gtlcore. At this time, you need to place separate orders for the materials. For example, material A requires 1 2 3 4 5 materials. You can place an order of 1,000,000 for each of 1, 2, 3, 4 and 5. Then you will know what materials you are missing."
+			]
+			id: "516498830339A0A9"
+			rewards: [{
+				id: "561786F8A1EF94F6"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Additional questions"
+			tasks: [{
+				id: "74404EE9AEC393D4"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			title: "I will always be with you"
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["516498830339A0A9"]
+			description: [
+				"Congratulations on completing the game and thank you for playing."
+				""
+				"It is said that very few people actually reach here."
+				"{@pagebreak}"
+				"In fact, there are other ways to obtain tea and marshmallows, which are also related to the fish."
+				"{@pagebreak}"
+				"There are rumors that Creation Tanks and Creation Chests are made by fish after they have had enough to eat and drink."
+			]
+			hide_dependency_lines: true
+			icon: "gtlcore:ultimate_tea"
+			id: "503A37C31E60684B"
+			invisible: true
+			rewards: [
+				{
+					id: "76A7B329CDF35304"
+					item: "gtlcore:ultimate_tea"
+					type: "item"
+				}
+				{
+					id: "1B03B8D7C87EF60B"
+					item: "kubejs:heartofthesmogus"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "?"
+			tasks: [{
+				id: "334CC982B1A39C03"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			title: "Finally, it's over"
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			id: "4CF8E0618D65DD65"
+			tasks: [{
+				id: "043893C259EE2DA8"
+				item: "kubejs:hyper_stable_self_healing_adhesive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2A29DA4239E6BA44"
+				"06795792E774476F"
+			]
+			id: "65C38365E20B7F16"
+			tasks: [{
+				id: "36E49D10C86129A3"
+				item: "kubejs:black_body_naquadria_supersolid"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["503A37C31E60684B"]
+			description: [
+				"&6&l※ A message to players of the private version"
+				""
+				"&7We’ve come to this point, please listen to what I have to say."
+				""
+				"&7The original idea for this integration package was just seeing a group of friends not knowing what to do with various private modules and KJS scripts, so I decided to make it."
+				"&7Unknowingly, so many versions have been updated, and many friendly suggestions and criticisms have been received."
+				""
+				"&7I know that this package is not very technical and will not satisfy everyone. The original intention of the private version has always been to \"enhance the original version\", not to be brainless. Some people may not understand: With so many private items added, why are some private items not added? I understand this thinking too. But I am unwilling to touch the core of an integrated package, and I dare not touch it. From the hand rubbing of ULV to the later ordering, this is an improvement in efficiency; from the initial small machine to the later giant structure, this is also an improvement in efficiency. I hope that players can enjoy the feeling of doubling the efficiency from ULV voltage to LV voltage, instead of giving the player the feeling of the entire integration package at once, leaving players without any feeling of feeling when they subsequently increase the voltage, turning them into ruthless boilerplate robots."
+				""
+				"&7I personally have not made any significant contributions to the GTL private goods ecosystem. I would like to sincerely thank you all for your continued support."
+				""
+				"&e&lFinally, I would like to sincerely thank the following guys for their modules and KJS scripts:"
+				"&aGregTech Leisure&7-&fGregTech Leisure Production Team"
+				"&aProduction Line Tearer&7-&fG Su Xiaodeng"
+				"&aGTL-additions                            &7- &fDragonator"
+				"&aGTL-EXtend&7-&fAutumn Leaves"
+				"&aproduction line explosion&7-&fcerebellum completely undeveloped"
+				"&akirin&7-&fSisyphus stone"
+				"&aExtendedae-Plus&7-&fPressure Cooker/iava"
+				"&aGTMGTMAdvancedHatch     &7- &fxingmot"
+				"&aAE Wireless Transceiver       &7- &fxiaopiao"
+				"&aGray Sister’s Wonderful Auxiliary Formula&7-&fPoi-[Blank Data]"
+				"&aSpecial for production line twisters&7-&fOgawa"
+				"&aContributor&7-&fChangzui No. 1"
+				"&7Thank you for your creations, which make this world richer."
+			]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "gtlcore:compressed_pufferfish"
+			id: "3357CBC609FE6B79"
+			min_width: 350
+			optional: true
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "38E68CBC10200563"
+				title: "Finally I want to say something"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"480AF64C4FF681FC"
+				"30907D7231913ACB"
+			]
+			description: [
+				"&6&lGTLAdditions「Dimensional Focus Endless Synthetic Array」"
+				""
+				"&7▌ Function:"
+				"&lcan be installed as a module to the&6molecular manipulator &7, unlocking the endless synthesis mode with&cinfinite parallel&7and the recipe time is fixed at&e1t"
+				""
+				"&7▌ Suggestions:"
+				"&l&6How to build: Place it in the middle of the frame opposite the main block of the Molecular Manipulator"
+			]
+			icon_scale: 2.0d
+			id: "626F62880AFC2843"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15E9B78546751AAC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2B2072F7988D0192"
+				item: "gtladditions:dimension_focus_infinity_crafting_array"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"480AF64C4FF681FC"
+				"30907D7231913ACB"
+			]
+			description: [
+				"&6&lGTLAdditions「Heart of the Universe」"
+				""
+				"&7▌ Function:"
+				"&lArtificial Star Super Enhanced Edition"
+				"&lcan install the celestial sphere divergence engine"
+				""
+				"&7▌ Suggestions:"
+				"&l&6must use&6wireless network output terminal&6to fully output the power it generates"
+				"&7&oSome people say that when you pick up a hundred thousand stars and walk all the extra miles,"
+				"&7&oYou might as well stop in front of the sun for a minute."
+				"&7&oIt will burn for you, and it will also be silent for you."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "1810AFD6C41A4BF6"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BFFDBCABF32218E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "63E2C3D4BF6E8DF3"
+				item: "gtladditions:heart_of_the_universe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"480AF64C4FF681FC"
+				"30907D7231913ACB"
+			]
+			description: [
+				"&6&lGTLAdditions「Arcane Star Map」"
+				""
+				"&7▌ Function:"
+				"&lEnhanced version of Huawei Eye"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Star array is recommended to plug at least 2000"
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "31FEB14219D6C305"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D7D69EAAECEF709"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "33DCAF220BA3100F"
+				item: "gtladditions:arcanic_astrograph"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"480AF64C4FF681FC"
+				"5AFEAD001EDA612D"
+			]
+			description: [
+				"&6&lGTLAdditions \"Sphere Divergence Engine\""
+				""
+				"&7▌ Function:"
+				"&lis installed on supported machines and can significantly increase the number of parallel"
+				"&lcan be filled with 64 star arrays&einside"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Remember to install all machines that support the installation of celestial sphere divergence engines and insert 64 star arrays"
+			]
+			id: "5A80894A5942204F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C60491AFB61A2E2"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "094ADDE3FCD9C157"
+				item: "gtladditions:thread_modifier_hatch"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"5A80894A5942204F"
+			]
+			description: [
+				"&6&lGTLAdditions「Tianji Endless Integrated Ore Treatment Plant」"
+				""
+				"&7▌ Function:"
+				"&lhas&cunlimited parallel&7and&cunlimited thread&7processing capabilities"
+				""
+				"&7▌ Suggestions:"
+				"&l&6If you want to make a star gate in the later stage, this thing is necessary"
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "6DA9600EFDDD9758"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3717A1E29EA296F1"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "78CE2E2258ADA351"
+				item: "gtladditions:space_infinity_integrated_ore_processor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"5AFEAD001EDA612D"
+			]
+			description: [
+				"&9&lGTL-Extend \"Time Breaker\""
+				""
+				"&7▌ Function:"
+				"&lA superior replacement for the Quantum Manipulator that works without any electricity"
+				"&lreduces the probability consumption to&e10% &7, increases the output probability to&a100% &7, and the output magnification is fixed to&c100 times"
+				"&lcannot use any form of isolation device and is not compatible with the sample assembly"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Due to logical problems in the construction of the lamp, you need to throw the lamp on the ground and use creative mode to build it (it is recommended to contact the OP in the server)"
+				"&l&6Compared with the Final Zigzag Quantum Wave Matrix, this machine is cheaper to build, requires no energy supply, and has a hundred times the output &l"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "4E4E474C9393157D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "549FBC06444E7933"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3C00F5076F36F82F"
+				item: "gtl_extend:time_space_breaker"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"5F145D9019C4BC48"
+			]
+			description: [
+				"&6&lGTLAdditions \"Forge of the False God\" / Stellar Forging Array"
+				""
+				"&7▌ Function:"
+				"The&lhost can provide up to 15 times the formula output of&e&7, while enjoying 1/5 of the EU consumption of&a&7reduction"
+				"&lhas a \"hyperdimensional operation\" mode, which requires continuous running of&efor 4 hours in the real world and&7to complete the process."
+				"&lcan perform&6ultra-dimensional smelting &7,&6stellar thermal energy smelting &7,&6ultimate material forging&7three types of formulas"
+				"&lcan be installed with&6stellar jet melting core &7,&astellar thermal energy plasma manufacturing machine &7,&cstellar flame energy furnace &7,&4stellar fusion mutator &7,&3stellar phase dragon vein crystallizer&7and other modules"
+				""
+				"&7&oSome people say that when you exhaust all the materials in the world and light up that beam of light that spans the ages,"
+				"&7&oYou might as well go and stand for a while in front of the furnace that can burn the history of the stars."
+				"&7&oGive it a minute. It will burn out for you and it will stay for you."
+			]
+			hide_dependency_lines: true
+			icon: "gtladditions:forge_of_the_antichrist"
+			icon_scale: 2.0d
+			id: "64E09D0CDAE08AB7"
+			min_required_tasks: 1
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7186D4A3188C8340"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "117EBBBD42D7553B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:raw_star_matter_plasma"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483D4FC56E962599"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:dimensionallytranscendentcrudecatalyst"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "026517315FA7810F"
+					item: "gtladditions:forge_of_the_antichrist"
+					type: "item"
+				}
+				{
+					id: "6E78B0B51C84E687"
+					item: "gtladditions:heliofluix_melting_core"
+					type: "item"
+				}
+				{
+					id: "265F6FE38CFF647A"
+					item: "gtladditions:heliothermal_plasma_fabricator"
+					type: "item"
+				}
+				{
+					id: "30982DF24160E08B"
+					item: "gtladditions:helioflare_power_forge"
+					type: "item"
+				}
+				{
+					id: "36FD4D251931AE89"
+					item: "gtladditions:heliofusion_exoticizer"
+					type: "item"
+				}
+				{
+					id: "4C01AF836172E58E"
+					item: "gtladditions:heliophase_leyline_crystallizer"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"5F145D9019C4BC48"
+			]
+			description: [
+				"&6&lGTLAdditions「Final Zigzag Quantum Wave Matrix」"
+				""
+				"&7▌ Function:"
+				"&lfixes the output probability to&a100%&7and reduces the consumption of the probability input to&c1/10"
+				"&lcan handle a variety of different formula types at the same time"
+				""
+				"&7▌ Suggestions:"
+				"&l&6This machine can actually install a parallel control compartment. Don’t install it even if it’s not in the introduction."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "61C6933B9D9AA813"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D9CF51397ABE1B8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "2B8431D442C1A45C"
+				item: "gtladditions:apocalyptic_torsion_quantum_matrix"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3357CBC609FE6B79"
+				"516498830339A0A9"
+				"5F3B5D797B7318D4"
+				"7D083C0E8C476E9A"
+				"297AC6049CB7EC5F"
+				"4864FDC9B23838A9"
+			]
+			description: [
+				"&d&oYou have gone through the loneliness across the ages and accepted the trial of the God of Elements/Pseudo."
+				"&d&oYou have witnessed the stars returning to the sun, and the final matrix rewriting infinity."
+				"&d&oNow, you have completed the last request of \"Yuda\"."
+				"&d&oStanding in front of the creation box, this block represents the highest authority in this world."
+				"&d&oYou know this will be the last stare."
+				"&d&oA minute of silence is a tribute to all the past struggles and a farewell to this virtual world."
+				""
+				"&l&cCompletion conditions:"
+				"&8• Complete the final mission of the main line \"Yuda\""
+				"&8• Get creative mode box"
+				"&8• Observe creative mode boxes for 1 minute"
+				"&8• Complete the hidden mission \"Gaze across Era\""
+				"&8• Complete the hidden mission \"God of Elements/Pseudo Mercy\""
+				"&8• Complete the hidden mission \"The Stars Gone Silent\""
+				"&8• Complete the hidden mission \"The Final Witness\""
+				""
+				"&7&o\"All stories have an end, but witnessing itself is eternity.\""
+			]
+			hide_until_deps_complete: true
+			id: "62B42D9C7C68A5DC"
+			size: 2.0d
+			tasks: [{
+				icon: "gtceu:creative_chest"
+				id: "6DD3D1304A78A5A6"
+				observe_type: 0
+				timer: 1200L
+				title: "the real ending"
+				to_observe: "gtceu:creative_chest"
+				type: "observation"
+			}]
+			title: "the real ending"
+			x: 26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A80894A5942204F"]
+			description: [
+				"An enhanced version of&l·&fcelestial divergence engine, incorporating&6127&fstar arrays"
+				"&l&fcan further improve the cross-parallel capabilities of the machine"
+				"&l&cNote: Do not dig after placing it, otherwise it will revert to the basic version of the celestial sphere divergence engine"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "34133B8FB2C823E3"
+			size: 1.5d
+			tasks: [{
+				id: "55EF4E591EF4DB97"
+				item: {
+					Count: 1
+					id: "gtladditions:thread_modifier_hatch"
+					tag: {
+						BlockEntityTag: {
+							astralArrayInventory: {
+								Items: [{
+									Count: 127b
+									Slot: 0
+									id: "gtladditions:astral_array"
+								}]
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "super celestial sphere"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64E09D0CDAE08AB7"]
+			description: [
+				"If you don't want to wait 4 hours, you can use this pre-made pseudo-god"
+				"Already running for 4 hours. Ready to install."
+			]
+			id: "63808E4CF9A59DA6"
+			rewards: [{
+				id: "6B5DBB2FED8BC681"
+				item: {
+					Count: 1
+					id: "gtladditions:forge_of_the_antichrist"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+							ForgeData: { }
+							activeRecipeType: 0
+							chance_cache: {
+								block_state: [ ]
+								cwu: [ ]
+								eu: [ ]
+								fluid: [ ]
+								item: [ ]
+								su: [ ]
+							}
+							cover: { }
+							drLimit: 20
+							id: "gtladditions:forge_of_the_antichrist"
+							isDistinct: 0b
+							isFlipped: 0b
+							isFormed: 1b
+							isMuffled: 0b
+							paintingColor: -1
+							recipeLogic: {
+								duration: 20
+								fuelMaxTime: 0
+								fuelTime: 0
+								isActive: 1b
+								isLock: 0b
+								lastRecipe: {
+									id: "gtceu:forge_of_the_antichrist/raw"
+									ocTier: 0
+									realParallels: 1L
+									recipe: {
+										duration: 20
+										outputs: {
+											fluid: [{
+												content: {
+													amount: -1b
+													value: [{
+														fluid: "gtceu:dimensionallytranscendentresidue"
+													}]
+												}
+											}]
+											item: [ ]
+										}
+										type: "gtceu:forge_of_the_antichrist"
+									}
+									wirelessEut: [B;
+										-13b
+										-74b
+										69b
+										-95b
+										-54b
+										-64b
+										-125b
+										-16b
+										-113b
+										-103b
+										10b
+									]
+								}
+								progress: 18
+								status: "WORKING"
+								totalContinuousRunningTime: 1143323L
+							}
+							runningSecs: 14400L
+							starRitual: {
+								collectedItems: [ ]
+								renderMode: "NORMAL"
+								serverCollapseTick: 0
+								serverRecoverTick: 0
+							}
+							uuid: [I;
+								-678325878
+								-1768669170
+								-1197863591
+								-1970070793
+							]
+						}
+						display: {
+							Lore: ["\"This false god has been preheated to a full state of 4 hours\""]
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "17E56CF7ADD3CB94"
+				item: { Count: 12, id: "gtladditions:forge_of_the_antichrist" }
+				type: "item"
+			}]
+			title: "Prefabricated false gods"
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DA9600EFDDD9758"]
+			description: ["Circuit No. 24 of the chemical soaking machine can discharge all fluids"]
+			id: "5534B33BE1949FB6"
+			tasks: [{
+				id: "3B99A36B1FE57114"
+				item: "gtceu:creative_tank"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"61C6933B9D9AA813"
+			]
+			description: [
+				"&9&lGTLAdditions「Time Warper」"
+				""
+				"&7▌ Function:"
+				"&lIt is the binding gain machine of the final zigzag quantum wave matrix."
+				"&lFirst use the hyperspace data module to right-click the Final Zigzag Quantum Wave Matrix to record the data, and then right-click the space-time warper to complete the binding."
+				"&lThe time and space warper itself needs to run the No. 1 circuit idling recipe, which consumesOpVenergy and takes 30 seconds."
+				"After the&lFinal Zigzag Quantum Fluctuation Matrix completes the current round of actual parallel consumption, it will count the total number of successfully processed parallels and try to consume gain resources from the bound space-time warper. All resources are first inspected as a whole and then deducted after passing them."
+				"After the&lgain resource is successfully consumed, only the recipe output of this round will be amplified, and the probability input, probability output or parallel calculation method will not be changed."
+				""
+				"&lcausal distortion level (output multiplier and additional consumption):"
+				""
+				"&l• Level 1: Multiplier 1.3 times, additional consumption of Liquid Endless, quantity = total parallel ÷ 17"
+				"&l• Level 2: Multiply 1.7 times, consume additional liquid Hypergen on the basis of level 1, quantity = total parallel ÷ 28"
+				"&l• Level 3: Multiply 2.6 times, consume additional liquid space-time based on level 2, quantity = total parallelism ÷ 44"
+				"&l• Level 4: 3.2x multiplier, additional consumption of Quantum Anomalies (Number = Total Parallelism ÷ 730) and Hypercubes (Number = Total Parallelism ÷ 873) over Level 3"
+				""
+				"&lquantity calculation uses integer division, and this item is not consumed when the result is 0."
+			]
+			icon_scale: 2.0d
+			id: "5CC48478C1A067FF"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "6526850B589B5F76"
+				item: "gtladditions:time_space_distorter"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"64E09D0CDAE08AB7"
+			]
+			description: [
+				"&9&lGTLAdditions「Recursive inversion array」"
+				""
+				"&7▌ Function:"
+				"&lIt is not an independent production machine, but is bound to a formed furnace of false gods. It reads the status of its own formed modules and provides gains for the bound host."
+				""
+				"&luses the overtime data module for binding:"
+				"&l• First right-click on the formed Furnace of False Gods and record the binding source."
+				"&l• Right-click the formed recursive inversion array in the same dimension to establish binding."
+				"&l• The new binding will overwrite the old binding on both machines."
+				"&l• In survival mode, the data module will be consumed after successful binding; in creative mode, only the record will be cleared."
+				"&l• Right-click on Sneak to clear the saved records."
+				"&l• Cross-dimensional bindings will be rejected."
+				""
+				"&lRecursive Inversion Gain Pack Requirements: The False God's Forge is formed, the array is formed, and the connected Chrono Boost Engine is running and not overheating. Then make a probability judgment based on the perfect space-time boost parameters:"
+				"&l• When the temperature is 93000K–97000K, the parameter is 1.0, and the gain package must take effect."
+				"&l• When the temperature is outside this range and the parameter is less than 1.0, the gain package takes effect based on probability."
+				""
+				"&lWhen the gain probability determination fails, the output/EU gain of the catalytic selection array, the magnetic current convergence core focus, the space-time stasis device, and the hyperspace boost engine EU reduction will not take effect. The basic output multiplier and EU reduction based on running time of the bound host itself still take effect normally. The Star Ceremony entrance is separate from this probability determination: it strictly requires that the booster engines are running, not overheated, and at 93000K–97000K."
+				""
+				"&lEach module must be installed in the array module location or connected in parallel to the array. The module interrupts its own operation when not connected."
+			]
+			icon_scale: 2.0d
+			id: "427A52E59B47DC55"
+			min_width: 250
+			size: 2.0d
+			tasks: [{
+				id: "71666FC5CB9F76AC"
+				item: "gtladditions:recursive_reverse_array"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69799F6DE604C84B"
+				"427A52E59B47DC55"
+			]
+			description: [
+				"&9&lrecursive inversion array · module"
+				""
+				"&7▌ Function:"
+				"&lFirst form the Forge of the False God and the recursive inversion array, and bind them with the hyperspace data module (same dimension, survival mode consumes modules). The array needs to connect all modules to take effect."
+				""
+				"&7▌ Catalytic selection array"
+				"&l• There is a cycle every 32 seconds, and the redstone signal (1-15) is output at 0 seconds to tell you which catalyst is needed for this round (1-3 crude, 4-6 ordinary, 7-9 radiant, 10-12 alien, 13-15 stellar)."
+				"&l• Check the LV giant fluid input bin every second starting from the 7th second, and the correct catalyst consumption is 40B/s → output magnification × 2, EU magnification + 0.15."
+				"&l• Wrong input or no catalyst → Lost output gain (EU gain may remain partially)."
+				""
+				"&7▌ Magnetic flow convergence core"
+				"&l• Only focus on the fluid output, merge multiple outputs into the first one, and then multiply the magnification (less than 2 outputs will be invalid)."
+				"&l• 12-second fuel cycle, randomly select 2 types of item requirements (super-solid super-energy silica blackbody/quantum anomaly/super-stable self-healing adhesive, 1-16384 each) and 1 fluid requirement."
+				"&l• Activation conditions: Accurately input items through 2 ULV giant item buses, input fluid into 1 LV giant fluid tank, and continuously supply 2 magnetic material blocks/second. If satisfied, focus is enabled."
+				""
+				"&7▌ Space-time stasis device"
+				"&l• 0pV continuous operation, consuming 70B/s liquid space-time."
+				"&l• Running by itself + public gain gate on → the running time will not be lost when the bound host is idle (no active increase, just a minimum)."
+				""
+				"&7▌ Hypertime boost engine"
+				"&l• UXV runs continuously and is a necessary module for common gain gating."
+				"&l• Temperature control: initial 48000K, optimal range 93000K-97000K, overheating threshold 105000K."
+				"&l• +1300K/s when working and -900K/s when idle. Temperature control fluid 100B/s: heating (lava +2500, liquid flame +4600, primitive star mixture +14000); cooling (liquid ice -1900, liquid ammonia -3400, extreme cold ice -6700)."
+				"&l• Stops providing gate control after overheating, and the cooling rate becomes -7125K/s until it returns to 48000K."
+				"&l• Installing the Vientiane Transcription node can output the redstone value corresponding to the current temperature."
+				""
+				"&7▌ Note:"
+				"&l• Validity judgment of recursive inversion gain package: When the temperature is 93000K-97000K, the perfect parameter is 1.0, which will definitely take effect; outside the interval, it will take effect according to the parameter probability. If the probability fails, all recursive inversion module gains (catalytic output/EU, magnetic flow focusing, stagnation, engine EU reduction) will be invalid, but the basic multiplier of the host itself will still be there."
+				"&l• The Star Ceremony entrance does not rely on this probability, it requires the engine to be running, not overheated, and at 93000-97000K."
+				"&l• Each module must be installed at the module position of the array or connected in parallel. The module interrupts operation when not connected."
+			]
+			id: "4857E964B8A33634"
+			tasks: [
+				{
+					id: "5084A3F1D8E520B0"
+					item: "gtladditions:catalytic_cascade_array"
+					type: "item"
+				}
+				{
+					id: "769F3087EC2B97BE"
+					item: "gtladditions:magnetorheological_convergence_core"
+					type: "item"
+				}
+				{
+					id: "26997C11947CED21"
+					item: "gtladditions:spacetime_stasis_device"
+					type: "item"
+				}
+				{
+					id: "0EF8D063F12F1FDF"
+					item: "gtladditions:supratemporal_boosting_engine"
+					type: "item"
+				}
+			]
+			title: "Recursive inversion array · module"
+			x: 21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3357CBC609FE6B79"]
+			description: [
+				"&d&oYou chose the shortcut called \"God\"."
+				"&d&oThe power of unlimited parallelism and no power consumption allows you to easily crush all obstacles."
+				"&d&oYou have never experienced loneliness across the ages, nor have you been tested by the God of Elements."
+				"&d&oThe stars still hang high, and the final matrix has never been rewritten."
+				"&d&oYou stand in front of the creation box, but find that you are not qualified to gaze at it."
+				"&d&oThe so-called \"Yuda\"'s request has long been given up at the starting point of the road to false gods."
+				"&d&oOne minute of waiting is just a self-deceiving dream."
+				""
+				"&l&cCompletion conditions:"
+				"&8• Selected the \"Path of the False God\" quest line"
+				"&8• Never completed any hidden missions"
+				""
+				"&7&o\"All shortcuts lead to the same end: that is not the end, but the forgotten void.\""
+				""
+				"&c&l※ The real ending can never be reached."
+			]
+			hide_until_deps_complete: true
+			id: "40580EB922717C0C"
+			size: 2.0d
+			tasks: [{
+				id: "20DA4011521CCD5E"
+				item: "gtceu:creative_chest"
+				type: "item"
+			}]
+			title: "Empty dream"
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7DB501C5EE788E1C"
+				"5A80894A5942204F"
+			]
+			description: [
+				"&9&lGTL Supb \"Eleventh Dimension Aggregation Tower\""
+				""
+				"&7▌ Description:"
+				"&lapex of blender"
+				""
+				"&d▌Exclusive machine for the road of false gods"
+				"&l• No energy consumption required"
+				"&l• Has unlimited parallelism"
+				"&l• Parallelization across recipes"
+				"&l• Ignore recipe conditions"
+				"&l• Supports cross-recipe parallelism"
+			]
+			hide_until_deps_complete: true
+			icon_scale: 1.3d
+			id: "6CD25AF39C267BEE"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7CE53657CD63B923"
+				item: "gtlsupb:hypercube_core_tower"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"480AF64C4FF681FC"
+				"7DB501C5EE788E1C"
+				"296DE95F3BE7DC54"
+			]
+			description: [
+				"&9&lGTL Supb \"Void Energy Absorber\""
+				""
+				"&7▌ Description:"
+				"&ldimensional rift energy harvester directly extracts usable high-density energy from quantum vacuum fluctuations."
+				""
+				"&7▌ Function:"
+				"&l• Unconditionally automatically generates electricity, giving priority to broadcast injection to all EU containers within a 16-block radius, and the remaining energy is stored in the internal energy storage"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "10112EA920498502"
+			tasks: [{
+				id: "172E052415ABDDAF"
+				item: "gtlsupb:max_void_energy_absorber"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7DB501C5EE788E1C"
+				"1810AFD6C41A4BF6"
+			]
+			description: [
+				"&9&lGTL Supb \"Hyperspace Dimension Energy Stability Center\""
+				""
+				"&7▌ Description:"
+				"&lThe pinnacle of the generator unconditionally delivers 5,000-digit power to the grid."
+				""
+				"&7▌ Function:"
+				"&l• Zero energy consumption | Unconditional automatic power generation | Wireless network broadcasting"
+				"&l• The higher the stability, the greater the power generation. Full stability unlocks 12 levels of overclocking; the efficiency decreases when the dimensionality exceeds 60%."
+				"&l• Inject energy into the radio network every tick and scan all loaded blocks to broadcast power every second span"
+			]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "767A20256908783F"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "709DA5E5509EDCF6"
+				item: "gtlsupb:dimensional_energy_stabilization_hub"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 9.0d
+		}
+	]
+	subtitle: ["Tier14-MAX"]
+	title: "upper limit pressure"
+}

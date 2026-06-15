@@ -1,0 +1,6994 @@
+{
+	autofocus_id: "38166A02EA474C1E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "disksavior"
+	group: ""
+	icon: "gtlcore:item_infinity_cell"
+	id: "6118ED8EA9970D67"
+	images: [
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/left"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 13.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&cI really like glue❤️"
+				""
+				"The unlock period for some large machines has been reduced, so that higher-level machines can be put into use during the lower-level stage."
+				""
+				"The original recipe has not been deleted"
+				""
+				"It's amazing, right?"
+				""
+				"But in fact, only the controller lowered the stage. You will likely need a later period to obtain building materials. Maybe the entire mission will send some materials in the future."
+			]
+			icon: "gtceu:glue_bucket"
+			id: "71635B58E5ED57C9"
+			subtitle: "Techniques for rescuing people"
+			tasks: [
+				{
+					id: "0D38159D442F2A5C"
+					item: "gtceu:petrochemical_plant"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C2F0E0B9F8A6230"
+					item: "gtceu:wood_distillation"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Blender Technology"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&c⚠️⚠️⚠️Not recommended for use by &nnewbie Gray employees &r&c!!!!!!"
+				"&l&erecommended installation"
+				"&b- Production line breakdown"
+				"&b- GTL additions"
+				"&b- GTM Advanced Hatch (provides batch processing function for GTL, greatly reducing lag)"
+				"&c⚠️Poor compatibility with GTL private version!!!"
+				"&c⚠️If you do not install GTL additions, you may receive an error."
+				"&c⚠️This private product needs to open the original empty mining machine on GTL core"
+				"This is a private article I wrote for the GregTech Leisure integration package"
+				"Basically no consideration for balance"
+				"There are some technological leaps and value collapse"
+				"Initially, this was because the size of my files running in multiple dimensions was too large."
+				"I just wrote something personal"
+				"With this private product, you almost no longer need to scroll around the map."
+				"The file size can be just over 100 MB by graduation."
+				"By the way, the log task on the top left is for me to write tasks, please ignore it."
+				"&l&o&n&m&8You can search for task captions ( &2kuheehee &r&l&o&n&m&8)"
+			]
+			icon: "gtlcore:item_infinity_cell"
+			id: "38166A02EA474C1E"
+			rewards: [
+				{
+					id: "5EA1DB6711B2C1C9"
+					item: {
+						Count: 1
+						id: "kubejs:suprachronal_mainframe_complex"
+						tag: {
+							display: {
+								Name: "[{\"text\":\"Get it and save fuel on your generator.\",\"color\":\"red\",\"bold\":true,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A19A398829EB223"
+					item: "gtlcore:ultimate_terminal"
+					type: "item"
+				}
+				{
+					id: "721250D9EAD2A396"
+					item: {
+						Count: 1
+						id: "gtceu:echoite_vajra"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 110.0f
+								AttackSpeed: 2.0f
+								Damage: 0
+								Enchantability: 10
+								HarvestLevel: 6
+								MaxDamage: 63
+								ToolSpeed: 1000.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D2D98AA1066E7AA"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "3ACDF033716290C6"
+					item: "kubejs:space_fermium_helmet"
+					type: "item"
+				}
+				{
+					id: "558FDF37F6269FBA"
+					item: "kubejs:space_fermium_chestplate"
+					type: "item"
+				}
+				{
+					id: "678A3528FE5AB5F2"
+					item: "kubejs:space_fermium_leggings"
+					type: "item"
+				}
+				{
+					id: "42EADCD8BBB288FE"
+					item: "kubejs:space_fermium_boots"
+					type: "item"
+				}
+				{
+					id: "6905633783BC8D98"
+					item: "gtlcore:debug_pattern_test"
+					type: "item"
+				}
+				{
+					id: "61A329B484DC6527"
+					item: "gtlcore:pattern_modifier"
+					type: "item"
+				}
+				{
+					id: "4F4D852A807D39F9"
+					item: "expatternprovider:pattern_modifier"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "76D9745103D8C6F3"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "1429D332C54194DC"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "6E077843C8C14A16"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "3A60EF8266AC8985"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "192E2A54801483AB"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "48AB6E778003340C"
+					item: "gtlcore:structure_detect"
+					type: "item"
+				}
+				{
+					id: "4C1E4E4F72CC9039"
+					item: "gtlcore:cfg_copy"
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Steam is my last life..."
+			tasks: [{
+				id: "268C6F78E6B1C04E"
+				optional_task: true
+				title: "Is the load moving slightly?"
+				type: "checkmark"
+			}]
+			title: "&c&kCongratulations on finding the Easter egg. In fact, I just want you to try BLACK SOULS\\nA very warm love adventure RPG! Let's check out the mission above this mission (Kuheehee)"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Please note that this is not a computer creation, it is suspended and ready to use."
+				"Can be connected to a network switch"
+				"This way you don't have to make multiple copies of it."
+				"Preferably a wireless input versus a wireless output"
+				"But network switch &n&r&cis unstable"
+				"&bDirect computer connection recommended in creative mode"
+				"&c⚠️ It is necessary to connect to the machine with an optical cable, direct connection is not possible"
+				""
+				"Theoretically, if you accumulate hundreds of them, you can take down all the other computing machines."
+				"It gets stuck easily, has a lot of problems and is unstable."
+				"So why not just use the authoring computer?"
+				""
+				"What should be given up for performance"
+			]
+			icon: "gtceu:creative_computation_provider"
+			id: "651E6BC0E1CE24AB"
+			subtitle: "Vanished Dream Island Park"
+			tasks: [{
+				id: "006987168B627786"
+				item: "gtceu:creative_computation_provider"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Computer in creative mode reduces IV"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["Add water to circuit #1 of the dehydrator. Remember to add more water."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:block/fluids/fluid.steam"
+				}
+			}
+			id: "70E1F4D106B8A383"
+			shape: "octagon"
+			subtitle: "Voice～The place of arrival～"
+			tasks: [{
+				id: "6BE36AAA90B6A5D2"
+				item: "gtceu:steam_bucket"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Pure heat..."
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"You don't need to run maps to find fluids to build your drilling rig."
+				""
+				"Each level can extract all fluids from this level and lower levels."
+				"In other words, you only need to build &ba &relectrolyzer"
+				"&aPlace the planet block with the highest &rat your current level"
+				"You can collect all current fluids in &dthat can mine &r"
+				""
+				"Why all of them?"
+				"Because I'm too lazy to write a recipe for each fluid (&2KUheehee &r)"
+				""
+				"Basic output calculation formula:"
+				"Multiple batch processing (default 64) × weight × 10"
+				"For each level of upgraded fluid drilling equipment, voltage*4, output*16"
+				""
+				"&ccannot &rwith Endless Fluid Drill"
+				"'Cause I don't think it's necessary"
+				"It will also pollute"
+				""
+				"&aThe next task is to load the block without going to the planet and still use the planet cubes sent by the recipe &r"
+				"&4Don't throw away &r"
+			]
+			id: "4B7BA4B00F4A93B6"
+			subtitle: "The secret of the phenomenal flower"
+			tasks: [
+				{
+					id: "68296AA93F6BD3C8"
+					item: "gtceu:mv_fluid_drilling_rig"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DC73AFD4CD9EDC3"
+					item: "gtceu:hv_fluid_drilling_rig"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64B1C6A0C6E89133"
+					item: "gtceu:ev_fluid_drilling_rig"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1282EEB4C15390EA"
+					item: "gtceu:zpm_fluid_drilling_rig"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "fluid drill electrolysis"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Introduce some private goods"
+				"There is a surprise later (&2KUheehee &r)"
+				""
+				"&aGTL Additions"
+				"Added many endgame machines and endgame content to GTL"
+				"Change the objective from making a big fish to making a star gate"
+				"Significantly expanded later content"
+				"Highly recommended to add"
+				"{@pagebreak}"
+				"&aProduction line explosion Production line breakdown"
+				"These two are kjs scripts"
+				"I removed 90% of the shit from GTL"
+				"Extremely powerful and explosive balance"
+				"Think twice before adding &8&m(This private product is more explosive than these two)"
+				"{@pagebreak}"
+				"&aExtendedAE-Plus"
+				"Added many useful features and new parts to AE2"
+				"I don't want to be specific."
+				"This private product comes with a mission about this module that I came out of nowhere."
+				"&bis closed by default &rif necessary"
+				"config\\ftbquests\\quests\\chapters\\extendedaeplu.snbt.disabled"
+				"Excluir.desabilitado"
+				"Then /ftbquests reloads"
+				"{@pagebreak}"
+				"&aAdvanced Warehouse-GTMAdvancedHatch &2"
+				"A GregTech submodule that is not exclusive to GTL"
+				"Two artifacts, &bpower grid warehouse &rand &badaptive distribution grid &r, have been added to the GTL."
+				"Improved display of &b&rwireless network terminal"
+				"More readable, more information displayed"
+				"The former's powerful performance can also break down the boundaries between laser chambers and energy chambers."
+				"There is even batch processing &b&r"
+				"&eGTL also has batch processing!!!! &r"
+				""
+				"&4……"
+				"{@pagebreak}"
+				"&4I can't live without batch processing..."
+				""
+				""
+				"&4Batch processing is not enough"
+				"&4Deliver batch processing"
+				"&4accesses batch processing"
+				"Where exactly is the batch processing of &4?"
+				"&4Did you hide the batch process?"
+				"{@pagebreak}"
+				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
+				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
+				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
+				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
+				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
+				"\\t"
+				"\\t"
+				"\\t"
+				"\\t"
+				"&4I want batch processing. I really want batch processing. Without batch processing everything feels painful. Where is batch processing?"
+				"&4……"
+				"{@pagebreak}"
+				"&0Batch processing?"
+				"&0Batch processing? Batch processing? Is your processing batch?"
+				"&0Batch processing!"
+				"&0is batch processing! Nothing wrong! Your beloved batch processing is right in front of you!"
+				"{@pagebreak}"
+				"\\t"
+				"\\t"
+				"\\t"
+				"\\t"
+				"&4Batch processing. Batch processing. Some original text in this entry was corrupted, so it was normalized during translation."
+				"{@pagebreak}"
+				"&4&kI love you too 👁️👁️"
+			]
+			icon: "gtceu:vibranium_ring"
+			id: "42546E3C5E202BCF"
+			rewards: [
+				{
+					id: "315EA6CF5BC7EAB0"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "gtmadvancedhatch:gtmah_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "234F2945ADB95492"
+					item: {
+						Count: 1
+						id: "gtmadvancedhatch:net_data_stick"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&cis preceded by &kFuxing's Chaos &r&cso &kRed��� &r&cis necessary"
+			tasks: [{
+				id: "09D2B78574A50185"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "Some recommended modules and private goods"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"A little different from the damn"
+				"Comes with thousand times batch processing"
+				""
+				"All products are stone ore"
+				"No underground rock or end stone"
+				""
+				"Of course, it can also be run with a large empty mining machine"
+				"&crequires steam inlet and circuit #30"
+				""
+				"Because the formula voltage is slightly higher"
+				"&bThe mining efficiency of low-level ores is not as good as that of the electrolysis of the original &rempty mining machine"
+			]
+			icon: "gtceu:large_void_miner"
+			id: "782F836B271246CA"
+			subtitle: "reversible separation state"
+			tasks: [{
+				id: "2DF633661C1624BD"
+				item: "gtceu:large_void_miner"
+				optional_task: true
+				type: "item"
+			}]
+			title: "daxu mining electrolysis"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				""
+				"3D Dice and Damascus Steel Dust now have recipes that do not require dimensional requirements"
+				""
+				"Kuheehee"
+			]
+			id: "506573D651A914EB"
+			subtitle: "Loop off Loop on"
+			tasks: [
+				{
+					id: "34F9B18F067E7D5E"
+					item: "gtceu:damascus_steel_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "454899C75E4C3C96"
+					item: "kubejs:overworld_data"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D68F6A278D4C1F2"
+					item: "kubejs:nether_data"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "465D2F2F95E100BF"
+					item: "kubejs:end_data"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Recipes without dimensionality requirements"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Well, you don't need to go to the packager input bus and drag it one by one."
+				""
+				"Furthermore, this is done with an electrolyzer, although this is not scientific"
+				"But using a centrifuge will tie..."
+			]
+			icon: "kubejs:nuclear_waste"
+			id: "1A90504BB56D5790"
+			subtitle: "Belladonna in Cicero's desert never disappears"
+			tasks: [{
+				id: "2945683BFD464AA6"
+				item: "kubejs:nuclear_waste"
+				type: "item"
+			}]
+			title: "Electrolysis of compressed nuclear waste nine times (Circuit No. 1)"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"can affect balance"
+				"But you don't need to upgrade the maintenance warehouse."
+				"Please note that space elevator &b&r&ccannot &ruse this"
+				"&cshould &ruse &bautomatic maintenance warehouse &r"
+				""
+				"In previous versions, 64 maintenance boxes were required"
+				"In the version from eight centuries ago, 131,072 maintenance warehouses were needed ("
+			]
+			icon: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
+			id: "4B2C74FB285A1936"
+			subtitle: "Pacific Rim Design Network"
+			tasks: [{
+				id: "0E3C47DA57C46167"
+				item: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Configurable Absolute Gravity Clean Maintenance Warehouse to Reduce LV"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Gas chamber and original three-dimensional block discharge electrolysis machine"
+				"Each time the gas chamber is updated to a voltage, the output is *16"
+				""
+				"But actually only BT air collector chamber is available"
+				"Because I think most people do the big gas collection directly"
+				"The gas collection chambers for various other voltages are somewhat non-existent."
+				"So I deleted it to avoid contamination jei"
+				""
+				"Voltage main world &7LV &r, nether world &bMV &r, ultimate &6HV"
+				"&rLarge plenum chamber, although &9IV &rcan be made"
+				"But the voltage required for the recipe is &dLuV &r"
+				"So you need to do a big electrolysis before it can work"
+				"The corresponding output is also at the level of &dLuV &r"
+				"And large-scale gas electrolysis can pump air &binto three dimensions &rat the same time"
+				""
+				"Because products obtained by final air distillation are just a convenient way to obtain them"
+				"I won't skip steps"
+				"Therefore, a large gas collection can pump the final air into IV"
+			]
+			id: "0D68227276AC02D5"
+			subtitle: "All the important things\\nYou taught me\\nGood morning Hello, good night\\nAnd goodbye"
+			tasks: [
+				{
+					id: "53755EBDF548AED0"
+					item: "gtceu:lv_gas_collector"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07DC2B07F980A58D"
+					item: "gtceu:large_gas_collector"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Gas Collection Electrolysis"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: ["you know"]
+			id: "3E9FEB8DF4698E91"
+			rewards: [{
+				count: 64
+				id: "1A1D876872E0437F"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			subtitle: "μ Unknown abyss viola calls your name"
+			tasks: [{
+				id: "4BDAF847523284FA"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "t1"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"centrifuge"
+				"Using rare earth centrifuge to make skewers"
+				"So I used a centrifuge to do this."
+				"In any case, they are all centrifuges."
+				"Very reasonable"
+			]
+			icon: "gtceu:rare_earth_metal_dust"
+			id: "10A75CDB0C5E7F71"
+			subtitle: "I was born on the Red Sail Moon of the Southern Kingdom in the year 528 of the Dragon Age."
+			tasks: [{
+				id: "4F03E6DA8B413FED"
+				item: "gtceu:rare_earth_metal_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Four times compressed rare metal powder centrifuge (circuit no. 1)"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Twist three titanium blocks"
+				"When You Can Use a Space Elevator to Extract Adamantine Compounds Directly"
+				"You can change the formula"
+			]
+			icon: "gtceu:adamantine_dust"
+			id: "0DD66C85912A4D31"
+			subtitle: "Another Day Comes"
+			tasks: [{
+				id: "5E0AD94F1705C719"
+				item: "gtceu:adamantine_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single step fine gold"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: [""]
+			id: "3A9419F50C806A36"
+			rewards: [{
+				count: 64
+				id: "3B75616ECA1A86BA"
+				item: "ad_astra:mars_stone"
+				type: "item"
+			}]
+			subtitle: "ψ As you can see, sleeping like a garden"
+			tasks: [{
+				id: "30C5E10EBAEDDA2E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "t2"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: [""]
+			id: "009FF2D76F616073"
+			rewards: [
+				{
+					count: 256
+					id: "65ADDB05E50A67C2"
+					item: "kubejs:barnarda_log"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "13261A068105853E"
+					item: "kubejs:barnarda_leaves"
+					type: "item"
+				}
+			]
+			subtitle: "&bTo reach the sky!"
+			tasks: [{
+				id: "7A6A822D1C6DDE70"
+				item: "gtceu:space_elevator"
+				type: "item"
+			}]
+			title: "t8"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: [""]
+			id: "49BC08AF06B84ECE"
+			rewards: [
+				{
+					count: 64
+					id: "0CEFA1839C468588"
+					item: "ad_astra:venus_stone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "795D611430DA8498"
+					item: "ad_astra:mercury_stone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "35B2EB7A4154F8E3"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+			]
+			subtitle: "\"Because I am you\""
+			tasks: [{
+				id: "14FAC42EDBC19269"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "t3"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: [""]
+			id: "47E873DCB7C9F8DE"
+			rewards: [
+				{
+					count: 64
+					id: "59B1E61F9CADC61D"
+					item: "kubejs:plutostone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3F6DC1A026871515"
+					item: "kubejs:enceladusstone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "38C7E626E8B75931"
+					item: "kubejs:titanstone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "26D15702904E24AC"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+			]
+			subtitle: "A huge 3D inner courtyard like the birth of stars"
+			tasks: [{
+				id: "6D0A635A3BB53AEB"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "t6"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: [""]
+			id: "3F59E7726DE4459A"
+			rewards: [{
+				count: 64
+				id: "561F959351A1694B"
+				item: "kubejs:ceresstone"
+				type: "item"
+			}]
+			subtitle: "People that existed from the beginning but were forgotten\\n Houses that did not exist from the beginning but are known"
+			tasks: [{
+				id: "0666A1078D0E94E9"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "t4"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			description: [""]
+			id: "43E5CAAC983033B9"
+			rewards: [
+				{
+					count: 64
+					id: "5C797F264C4125FC"
+					item: "kubejs:iostone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7CA1FA5B789AD809"
+					item: "kubejs:ganymedestone"
+					type: "item"
+				}
+			]
+			subtitle: "Large group of crested seeds"
+			tasks: [{
+				id: "3EE58553B085CD1D"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "t5"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Crystalline Uranium + Sulfuric Acid Electrolyzer Circuit No.1"
+				"This is single step uranium sulfate line &b, &c&nis not &r&csingle step uranium sulfate waste liquid"
+				"You must use this line to get the first radium powder &a"
+				"&r"
+				"I really hate the formula that adds mine middlemen to the production line"
+			]
+			icon: "gtceu:uraninite_dust"
+			id: "67E65B908FE0C22F"
+			subtitle: "pollination load"
+			tasks: [{
+				id: "5248316A761B447A"
+				item: "gtceu:uraninite_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single Step Direct Uranium Sulfate Powder Line"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"You don't need to think about opening separate filters for these special minerals in the mine."
+				""
+				"It also comes with electrolyzed copper sulfate and nickel sulfate solutions."
+				"Give electrolyte directly"
+			]
+			icon: "gtceu:platinum_group_sludge_dust"
+			id: "2AEA8EEF3D56CB19"
+			subtitle: "People from the Narcissus Dimension"
+			tasks: [
+				{
+					id: "487B5ABF300074A6"
+					item: "gtceu:tetrahedrite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2629F3338618939B"
+					item: "gtceu:bornite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BF61B5BF1727BAD"
+					item: "gtceu:chalcocite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25979EAF79E70477"
+					item: "gtceu:cooperite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A63273FA96CE352"
+					item: "gtceu:platinum_group_sludge_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Platinum Series Ore Sludge Direct Powder"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Dahua Anti-Circuit No. 30"
+				"It's not much use"
+				"&b&n&rsuper energetic silica solution is produced through &dproduction line by tearing &rsingle step silica &b&r"
+				""
+				"&4Attention &r"
+				"Due to circulation problems, the end product of a single-stage silica fuel will be a certain amount of enriched silica waste liquid."
+				"Due to the evil recursive loop, it is not removed from the recipe here and its recycling is not calculated."
+				"Therefore, it is recommended that &bclick it when writing the &rtemplate"
+				"If you ask me what to do with excess silica-enriched waste liquid in your network"
+				"You can recycle it passively, but I recommend throwing it in the trash can or avoiding direct production of enriched silica fuel."
+				"But when it comes to super reactors, we still have to use silica fuel."
+				"So I suggest leaving it alone"
+			]
+			id: "50C409E34F4A20BC"
+			subtitle: "Like the withered crowns of pilgrims \\nComing from a distant foreign land"
+			tasks: [
+				{
+					id: "008CC3168FA2002E"
+					item: "gtceu:naquadah_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6478AC0C9A363FD6"
+					item: "gtceu:enriched_naquadah_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Single-stage silica fuel and two-stage enriched silica fuel"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&9OPV &rcan be made"
+				"Can be sent &b9221474836470000000 &rEU/t"
+				"That is, close to long-level power generation"
+				""
+				"So why not write a long level?"
+				"Because the true long level will overflow"
+			]
+			hide_dependency_lines: false
+			icon: "disksavior:steam_is_my_last_life"
+			id: "27B75C8FD6E0ADCE"
+			size: 2.5d
+			subtitle: "See that white halo? \\nIt's called the crown\\nIt's the shining crown of the sun\\n &o&8So why can't we see it at normal times? &r\\nBecause the sun is always very blinding\\nAnd only when it's pitch black\\nCan you see his crown"
+			tasks: [{
+				id: "7B705122FBE9DCDD"
+				item: "disksavior:steam_is_my_last_life"
+				type: "item"
+			}]
+			title: "&4I am the steam bone that I hold"
+			x: 0.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"The automatically generated lens is very evil."
+				"In fact, you probably don't need it because there is a lens element pack"
+			]
+			icon: "gtceu:exquisite_emerald_gem"
+			id: "5A8A7F0E764E29C8"
+			rewards: [{
+				id: "28C2B6013D3B9420"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						ic: 78L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_glass_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_glass_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rock_salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_rock_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_echo_shard_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_echo_shard_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:opal_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_opal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cinnabar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_cinnabar_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coke_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_coke_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:glass_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_glass_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:red_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_red_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_magneto_resonatic_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_magneto_resonatic_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:sodalite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sodalite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:lazurite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lazurite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lapis_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_lapis_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_emerald_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_emerald_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:andradite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_andradite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_opal_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_opal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:quartzite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_quartzite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:echo_shard"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_echo_shard_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_malachite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_malachite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_nether_quartz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_nether_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rutile_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_rutile_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:magneto_resonatic_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_magneto_resonatic_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_green_sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_green_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:quartz"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_nether_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_olivine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_olivine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:pyrope_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_pyrope_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_red_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_red_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_andradite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_andradite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_yellow_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_yellow_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:ruby_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_ruby_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:malachite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_malachite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lazurite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_lazurite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:cubic_zirconia_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cubic_zirconia_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:monazite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_monazite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:green_sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_green_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:grossular_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_grossular_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sodalite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_sodalite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_ruby_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_ruby_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_apatite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_apatite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_uvarovite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_uvarovite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_certus_quartz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_certus_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_grossular_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_grossular_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:coal"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:jasper_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_jasper_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:apatite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_apatite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_quartzite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_quartzite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_monazite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_monazite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_blue_topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_blue_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coal_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_coal_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:uvarovite_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_uvarovite_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:coke_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_coke_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_spessartine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_spessartine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:rutile_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rutile_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_almandine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_almandine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:olivine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_olivine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_sapphire_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_sapphire_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_jasper_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_jasper_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:spessartine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_spessartine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cubic_zirconia_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_cubic_zirconia_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:diamond"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_diamond_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:certus_quartz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_certus_quartz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:yellow_garnet_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_yellow_garnet_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:blue_topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_blue_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:cinnabar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_cinnabar_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_diamond_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_diamond_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:rock_salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_rock_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_realgar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_realgar_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:topaz_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_topaz_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:amethyst_shard"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_amethyst_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_pyrope_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_pyrope_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_amethyst_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:exquisite_amethyst_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:almandine_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_almandine_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:emerald"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_emerald_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "minecraft:lapis_lazuli"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_lapis_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:salt_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_salt_gem"
+									}]
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "ae2:processing_pattern"
+								tag: {
+									display: {
+										Lore: [
+											"{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}"
+											"{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\" HV \",\"240\"]}"
+										]
+									}
+									in: [{
+										"#": 2048L
+										"#c": "ae2:i"
+										id: "gtceu:realgar_gem"
+									}]
+									out: [{
+										"#": 1024L
+										"#c": "ae2:i"
+										id: "gtceu:flawless_realgar_gem"
+									}]
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Wei Dong Theory"
+			tasks: [{
+				consume_items: true
+				id: "7E8CDF7779651A94"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "Laser Engraved Gem Sample Gift Pack"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Twist three titanium blocks, circuit number one"
+				"One step less than torn apart"
+			]
+			icon: "gtceu:fullerene_dust"
+			id: "32591B8389C393BE"
+			subtitle: "Dies macht mich antik"
+			tasks: [{
+				id: "55247C7DE88A209B"
+				item: "gtceu:fullerene_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "One-step fullerene"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Dahua Anti-No. 5-circuit aluminum powder plus sulfuric acid"
+				""
+				"This recipe is not scientific"
+				"'Cause there's no need for galena and zinc flash"
+				"Neither electrolyte nor electrolyte will be produced."
+				"But GT is inherently unscientific, so you know"
+			]
+			icon: "gtceu:indium_dust"
+			id: "5C8F8C67F6E4347E"
+			subtitle: "May our worries and worries disappear into thin air"
+			tasks: [{
+				id: "6C8FC4D472830B83"
+				item: "gtceu:indium_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single Step Direct Indium Powder"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"666How can he use chemical reaction to run?"
+				""
+				"&cThere are too many products and the display in jei is incomplete &r"
+				""
+				"Added a comprehensive recipe for the Eye of Hongmeng"
+				"&bThe formula power is the minimum operating power of the Hongmeng Eye."
+				"&bintegrates Hongmeng Eye+ &rfrom group friend @aach.aic"
+				"And @Shanhai Hengchangzai's additions, some were deleted."
+				""
+				"If you want to see what is added, see the Hongmeng Eye sample recipe"
+				"This recipe cannot be performed and is for reference only."
+				"Added things compared to the original Hongmeng"
+				""
+				"There are two recipes: one large and one small."
+				"The power of the big one is /16384 compared to the small one, and the output is *16384"
+			]
+			icon: "disksavior:quantum_chromodynamic_charge_super"
+			id: "19769CB12DDAA49D"
+			subtitle: "The Great Invocation of the Dimension of Entropy"
+			tasks: [
+				{
+					id: "41AFDF31C6A2A85D"
+					item: "kubejs:quantum_chromodynamic_charge"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24755C69AB0AECEF"
+					item: "disksavior:quantum_chromodynamic_charge_super"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19BEF7D6B0723EEA"
+					item: "gtceu:eye_of_harmony"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Transforming Hongmeng into a masterpiece"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&c⚠️Advanced assembly line cannot use the created data warehouse!!!"
+				"&c⚠️You need to use the database to transfer data to the advanced assembly line!!!"
+				""
+				"May cause some recipes to skip"
+				"But this little thing is nothing to worry about"
+			]
+			icon: "gtceu:creative_data_access_hatch"
+			id: "463F5B6E23BFE67F"
+			subtitle: "In the dome of the black tower are two flying birds trapped"
+			tasks: [{
+				id: "229499FBB5150E1B"
+				item: "gtceu:creative_data_access_hatch"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Create a data access data warehouse and reduce IV"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Much cheaper than explosive gunpowder"
+				"And there's no need for platinum surgery"
+				"This can be done when you reach &6HV &r"
+				"But actually, maybe you could just do MV?"
+			]
+			id: "7445959BDA67A481"
+			subtitle: "High Priest and the Mockingbird"
+			tasks: [
+				{
+					id: "5EA4C8EC00D82188"
+					item: "minecraft:soul_sand"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E04C364A03FD408"
+					item: "minecraft:wither_skeleton_skull"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3740EF48A177445B"
+					item: "minecraft:nether_star"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Soul Sand Synthesis Lightning Processing Withered Skull\\nNether Star for Blender-Go to No-Gravity Condition"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Is it really useful?"
+				"I have no idea"
+			]
+			id: "79EC27C7CAEC073E"
+			subtitle: "Hai yai forces"
+			tasks: [
+				{
+					id: "1819917358C64E46"
+					item: "minecraft:grass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AEA2D0EE666FE2F"
+					item: "minecraft:grass_block"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Mixed Grass Cubes Lightning Treated Grass"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["The cost is a little higher (the art of deducting 0)"]
+			icon: {
+				Count: 1
+				id: "gtceu:turbine_rotor"
+				tag: {
+					GT.PartStats: {
+						Material: "gtceu:neutronium"
+					}
+				}
+			}
+			id: "735726D10861E8A6"
+			subtitle: "The girl from Baihuye"
+			tasks: [{
+				id: "3C74645399925DED"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:turbine_rotor"
+						}
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "Infinite Neutron Element Turbine Rotor Element"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&aDistillation tower &rMagma inlet"
+				"It can also be made in a wood chemical plant, but in general it is best to use a distillation tower."
+				"&8&m(Why use magma)"
+				"&8&m(Why is there no wood in lignified wood?)"
+				""
+				"&cThere are too many products and the display in jei is incomplete &r"
+				"Although not fully displayed"
+				"But the main products are placed in front"
+				""
+				"This recipe &aintegrates &r&bOriginal wood-based production line &rand &bblasted wood produces naphthalene &r"
+			]
+			icon: "gtceu:wood_distillation"
+			id: "6C8FB690B7EC68CF"
+			subtitle: "In↗Ya↘↗"
+			tasks: [{
+				id: "139A961C9B005DA6"
+				item: "gtceu:wood_distillation"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Comprehensive wood collection"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"No.1 Assembly Machine Circuit"
+				""
+				"What should I do if I cannot place an order due to a cycle?"
+				"Extract from inventory"
+				"What should I do if I know how to skewer?"
+				"This is still an infinite component, right?"
+			]
+			icon: "minecraft:yellow_dye"
+			id: "30EDD5DEC493E4EB"
+			rewards: [{
+				id: "7EBA907BD2BAE868"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Dye Component Pack\"}"
+						}
+						ic: 16L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:black_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:blue_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:brown_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:cyan_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:gray_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:green_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:light_blue_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:lime_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:magenta_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:orange_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:pink_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:purple_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:red_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:white_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:yellow_dye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:light_gray_dye"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Theoretical Air Force"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6DD442AB54DC59ED"
+				item: { Count: 64, id: "gtceu:salt_dust" }
+				type: "item"
+			}]
+			title: "Dye Component Pack"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Is it really a IV?"
+				"I have no idea"
+				"Anyway, it's not ZPM"
+			]
+			icon: "gtladditions:wireless_energy_network_output_terminal"
+			id: "33FFCB775EBEC5F2"
+			subtitle: "I am willing to perform all the good deeds in the world"
+			tasks: [{
+				id: "5ADDA0B36A190680"
+				item: "gtladditions:wireless_energy_network_output_terminal"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Infinite Mains Output Terminal Stage Reduce IV"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["38166A02EA474C1E"]
+			description: ["There is no need to look for the final gate anymore, and there is no need to enter the end to fight the dragon~"]
+			icon: "minecraft:dragon_head"
+			id: "2820ED68E1E19DC2"
+			rewards: [
+				{
+					id: "2BAEC9B9509C4E16"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "173B47D6DFF7A050"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "50B1C24C92554EE0"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "69A181DAE959BEEA"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "730ACF6030762A93"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F2F80E4B3AA50D5"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+			]
+			subtitle: "Manzhu Shaha"
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "03C6329920642A49"
+				item: { Count: 12, id: "kubejs:end_data" }
+				type: "item"
+			}]
+			title: "End of gift package"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Put the advanced auger fluid drill into the electrolysis machine"
+				"&cThere are too many products and the display in jei is incomplete &r"
+			]
+			icon: "gtceu:advanced_infinite_driller"
+			id: "79601280ABEE9709"
+			subtitle: "&cStar Whale"
+			tasks: [{
+				id: "300CB85A3CD9D5A8"
+				item: "gtceu:advanced_infinite_driller"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Advanced auger drill drills fluids in all dimensions"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"T7 and T8 are connected together"
+				"In fact, all three space elevators are playable."
+				"This recipe is if you want to increase your income alone"
+			]
+			id: "2FD816D86008A262"
+			subtitle: "Northern Country"
+			tasks: [
+				{
+					id: "08492DFB4807AFD0"
+					item: "kubejs:glacio_spirit"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "62F689985674FF84"
+					item: "kubejs:barnarda_log"
+					type: "item"
+				}
+				{
+					id: "0CD84C667245EDB1"
+					item: "gtceu:unknowwater_bucket"
+					type: "item"
+				}
+			]
+			title: "t7 t8 electrolysis"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Distillation column inlet steam"
+				"purified water terminator"
+				""
+				"Don't ask me why steam can distill"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtceu:block/overlay/machine/overlay_water"
+				}
+			}
+			id: "0D1AE5DE82A1BF4B"
+			subtitle: "The last rain in the world"
+			tasks: [
+				{
+					id: "27881309FE01AB4C"
+					item: "gtceu:grade_16_purified_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2692DE6B1FE286DB"
+					item: "gtceu:steam_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Distilled water is centrifuged to produce 16 types of purified water"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"The above and this task are to upgrade steam power generation."
+				"Pull out the stock inlet assembly &b&rand place it into the semi-liquid generator"
+				"Replace with &aa sufficiently large power compartment"
+				"I recommend GTL ADD's &6wireless network output terminal"
+				"&rthen add water &b"
+				"&ccannot be run with a power generation array"
+				"Run with semifluid generator &b&r"
+				"If possible, use &3Chemical Energy Devourer &rto perform"
+				"&cRemember to add lubricant!!!"
+				"&cDo not insert gaseous oxygen and dinitrogen tetroxide!!!"
+				"Because small motors cannot use power compartments with voltages higher than &4UHV &r"
+				""
+				"You may be wondering why it doesn't run with a steam turbine"
+				"Obviously this series is called Steam Power Generation Upgrade"
+				"Since there is a bug, I reluctantly gave up."
+				""
+				"This is what &5EV &rcan do &9IV &r"
+				"Can output 1A &4MAX &r"
+			]
+			id: "1C62F033AA7D5A4F"
+			subtitle: "There is no fog, only recorded dreams \\nAh, even though it is invisible, the emptiness of the alien species \\nAh, all living beings should wake up \\nTomorrow depends on your determination \\nThere is a \"time\" that the alien species are proud of \\nThere are no barriers. Look, nothing is engraved on it."
+			tasks: [{
+				id: "3C723079945A24F4"
+				item: "disksavior:steam_1"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&8He who draws the sword is the king of all the land"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&f&dLuV &rcan be done"
+				"256A &4MAX"
+			]
+			id: "4BBBA4538ED34A31"
+			size: 1.25d
+			subtitle: "By the end of the journey \\nAll the ancient Titans have fallen... \\nAnd the new nameless king is crowned \\nAlong with thousands of heroes... \\nCreate a great cause for salvation."
+			tasks: [{
+				id: "0C626C2B885894EF"
+				item: "disksavior:steam_2"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&fSoldiers who don't need their lives &8This is not the case"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&3UV &rcan be done"
+				"65536A &4MAX"
+			]
+			id: "70A954F693563F5C"
+			size: 1.5d
+			subtitle: "The gods only leave false words\\nNot even human hunger and thirst show mercy\\nThe road is paved with blinding light\\nThe gods leave only cold treatment\\nThrough the burning kingdom\\nThe road is paved with the sound of warning"
+			tasks: [{
+				id: "593DB642DFEA784A"
+				item: "disksavior:steam_3"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&cWeave a crown of thorns"
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&2UIV &rcan be done"
+				"16777216A &4MAX"
+			]
+			id: "738B6DCA4BDD232D"
+			size: 1.75d
+			subtitle: "Burning like holy fire Elmo\\nA scream that melts into the sky\\nAt the edge of the wilderness\\nRows hard towards the island of plenty\\nMarried to the roar of violent lightning\\nThe day of ripe rain"
+			tasks: [{
+				id: "0EC9E8A74501A209"
+				item: "disksavior:steam_4"
+				optional_task: true
+				type: "item"
+			}]
+			title: "&fStealing the shell made by God"
+			x: 0.0d
+			y: -7.75d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"I integrated some scripts from other group members, thanks for sharing"
+				"&cis disabled by default"
+				"Needs to be enabled in the startup script"
+				"&r"
+				"&b@Teemo Braised Roast Pork Ribs"
+				"- Reduced extraction machine revenue"
+				"- The ingot is crushed into powder and transferred to the forging hammer"
+			]
+			icon: "avaritia:infinity_catalyst"
+			id: "42DBFD52653745C6"
+			subtitle: "Hey, the moment of breathless concentration will finally come"
+			tasks: [{
+				id: "21ED4B85D76B3177"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "Other content"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Dahua No. 30 anti-circuit is made directly from monazite powder"
+				"&cThere are too many products and the display in jei is incomplete &r"
+				"Can produce all rare earth metals except promethium"
+				""
+				"Changed the HV magnet used as a catalyst to a magnetic steel rod"
+			]
+			icon: "gtceu:monazite_dust"
+			id: "29D5C6B3B9AB113E"
+			subtitle: "Escher flowering period"
+			tasks: [{
+				id: "317E2EBEDAE18679"
+				item: "gtceu:monazite_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "single pitch rare earth wire"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Can extract mines from t0 to t6"
+				"Mines at different stages can use jei veins to see the exit, which is consistent with what jei shows."
+				""
+				"&cThere are too many products and the display in jei is incomplete &r"
+				"&bDon't forget that there is a quest that will give you a primitive void mining machine at the beginning."
+				""
+				"T3 can unearth ancient remains"
+				"But the production is 1/64 of the others"
+				""
+				"Each level can extract all ores from this level and lower levels."
+				"In other words, you only need to build &ba &relectrolyzer"
+				"&aPlace the planet block with the highest &rat your current level"
+				"You can collect &dall current mines that can mine &r"
+			]
+			icon: "gtceu:primitive_void_ore"
+			id: "6D570EFCB8156651"
+			subtitle: "Like a vaguely colored butterfly rowing a boat made of flesh and blood"
+			tasks: [{
+				id: "6A214AB4DA109A6D"
+				item: "gtceu:primitive_void_ore"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Original Mining Machine Electrolysis"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Now you don't need to see which mines can be explored by drones of this level."
+				""
+				"&cAttention!!! &r&cSpace Elevator must &ruse &b&rAutomatic Maintenance Chamber"
+				"If it does not work, immediately check whether the wrong maintenance compartment is installed."
+				""
+				"Collection module"
+				"Place 64 drones"
+				"1 space elevator"
+				"And add some steam❤️"
+				"You can mine drones of the current level &aand all &rthat can be mined"
+				"Can extract &dBarnard C log &f, &bFrostfield Fragments"
+				"And &b&nmk1 &rcan dig &dBarnard C air &fand &9liquid unknown"
+				"&rEach drone upgrade level has power*4 and output*8"
+				""
+				"&cThere are too many products and the display in jei is incomplete &r"
+				""
+				"&cmay conflict with the private assets of &bKirin &r&cNo. 2 circuit space elevator without computing power"
+				"&ccauses the collection to fail to execute"
+				""
+				"Lets you explore everything with two resource collection modules"
+				"One for mining, another for pumping fluids"
+			]
+			icon: "gtceu:resource_collection"
+			id: "3BE60A131DBBAB68"
+			subtitle: "Ride this turbulent wave of change\\nEven if you are polluted by the world, you will have no regrets"
+			tasks: [{
+				id: "1118DC5636966A3F"
+				item: "gtceu:space_elevator"
+				optional_task: true
+				type: "item"
+			}]
+			title: "A collection of space elevators"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"You don't need to go to the mine anymore"
+				"You ask me why I gave you a reservoir?"
+				"That's because I made this machine &brun on water &r&2&m&o(KUheehee) &r"
+				"&cand can produce steam"
+				"But &acan only produce steam with water"
+				"This means you don't need to build a boiler."
+				"&ccan even produce t0 ore"
+				"That is, &byou can place it in the super flat or empty dimension"
+				"It can also produce some basic resources from the main world."
+				"Bom"
+			]
+			icon: "gtceu:primitive_void_ore"
+			id: "66A65723FD12ABE5"
+			rewards: [
+				{
+					id: "4F0ED47E3C6593D6"
+					item: "gtceu:primitive_void_ore"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5C5B8332DC0ACEFB"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "045EC5E75BB59843"
+					item: "gtmthings:me_export_buffer"
+					type: "item"
+				}
+				{
+					id: "662CAEA8E43D714E"
+					item: "gtceu:reservoir_hatch"
+					type: "item"
+				}
+			]
+			subtitle: "man climbing iron mountain"
+			tasks: [{
+				id: "04427B85F8F6682F"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "Give you an empty primitive mining machine"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["A little expensive"]
+			icon: "gtladditions:wireless_energy_network_output_terminal"
+			id: "0A5548C16EF8F29A"
+			subtitle: "I wish to end all evil deeds in the world"
+			tasks: [{
+				id: "7CCA24E024EF3123"
+				item: "gtladditions:wireless_energy_network_input_terminal"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Unlimited mains input terminal stage reduces OPV"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"The lower parallel control compartment can be compressed into the upper one"
+				""
+				"Production line tearing can be used to compress and control the warehouse in parallel"
+				"But I don't think that's enough"
+				"then"
+				"&2Kuheehee"
+			]
+			id: "797C09A4E4192F55"
+			subtitle: "Tear down and burn the flag of tens of thousands of wasted opportunities"
+			tasks: [
+				{
+					id: "158ADA72C2FB2DF2"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "314137A29ACAD1D8"
+					item: "gtceu:luv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EA91C956085C179"
+					item: "gtceu:zpm_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F910D24AEA42035"
+					item: "gtceu:uv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "131141E92D1991E6"
+					item: "gtceu:uhv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50FAA62624F28880"
+					item: "gtceu:uev_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C1C6881806C69EF"
+					item: "gtceu:uiv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "097C9E77F9FEECD7"
+					item: "gtceu:uxv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "009F161B79A0780D"
+					item: "gtceu:opv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65DEA2043EE45543"
+					item: "gtceu:max_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "102BAB6F5B65C892"
+					item: "gtladditions:super_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Parallel Control Bin Compression Update"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Dahua Anti-Circuit No.1"
+				"&cThere are too many products and the display in jei is incomplete &r"
+				"Dahua Lossless Overclocking"
+				"Otherwise, many distillation towers will be built..."
+			]
+			icon: "gtceu:oil_medium_bucket"
+			id: "7AE5D81EBB27DE71"
+			subtitle: "Yunwu Bay"
+			tasks: [{
+				id: "7A86AB45A47165E1"
+				item: "gtceu:oil_medium_bucket"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Availability and back-running of petrochemical plant recipes"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Everything a slaughterhouse can produce can be produced"
+				"But some useless ones were deleted"
+				"Like various weapons and armor"
+				"There are also unknown flags"
+				"and &dDragon Egg &rand &bNether Star"
+				"&r"
+				"&bcan produce echo fragments"
+				""
+				"&cThere are too many products and the display in jei is incomplete &r"
+				"Finally, I no longer have to worry about that annoying flaming stick."
+			]
+			icon: "gtceu:slaughterhouse"
+			id: "32754048FD76174F"
+			subtitle: "When the head is loose, we can see the clouds at the toes of our boots."
+			tasks: [{
+				id: "48B61C5B3A0858E2"
+				item: "gtceu:slaughterhouse"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Slaughterhouse electrolysis"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"You can get all the plants that can be obtained in the greenhouse"
+				"There are even some greenhouses that cannot be obtained"
+				"Although they are basically useless ("
+				""
+				"Please note that the original greenhouse cannot produce apples"
+				"The apples produced in the greenhouse were caused by explosions"
+				""
+				"&cThere are too many products and the display in jei is incomplete &r"
+			]
+			icon: "gtceu:greenhouse"
+			id: "422E709728EFA718"
+			subtitle: "If we open our eyes we can see seaweed"
+			tasks: [
+				{
+					id: "79804828064DF871"
+					item: "gtceu:greenhouse"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "160B86281E8D74A5"
+					item: "gtceu:large_greenhouse"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Greenhouse electrolysis"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&cIf the reward you see is a question mark, it is not recommended to receive the reward."
+				""
+				"Some recommended accessory modules"
+				""
+				"As this is an auxiliary category, everything related will be sent directly🤪"
+				"The provided items need to be added to the relevant modules before they can be displayed normally."
+				"{@pagebreak}"
+				"&6&l※ &aReHooked"
+				""
+				"&dHighly recommended!!!! Super easy to use!!!!"
+				"Added multiple hooks"
+				"Launch in a straight line, without a parabola"
+				"After hooking, I quickly pull you out."
+				"So fix it in that place"
+				"It is very convenient to repair in various nooks and crannies."
+				"Speed ​​can be changed in &b(archive) setting"
+				"It is recommended to change the traction speed to 128 or 192"
+				"Just deduct a few more 0s for other distances and launch speeds."
+				"{@pagebreak}"
+				"&6&l※ &aME Positioning tool | ME Positioning Tool"
+				""
+				"Added a tool that can pick up and place objects directly from the network"
+				"&8&mThere are two more smokes("
+				"&bMultiple block positioning tools"
+				"construction cane more"
+				"&bME Cable Laying Tool"
+				"You can place ME cables of all colors"
+				"You can also change the placement rules"
+				"Very friendly for large-scale wiring"
+				"{@pagebreak}"
+				"&6&l※ &aTrash slot | TrashSlot"
+				""
+				"Added a trash can that can be opened on almost every page"
+				"DEL launches a square"
+				"SHIFT + DEL launches all similar items"
+				"There may be issues with mold wear and UI incompatibility."
+				"{@pagebreak}"
+				"&6&l※ &aItem placement in the world | Plonk"
+				""
+				"There is no need to consider whether adding Dragon Research into the GTL will collapse."
+				"This basically replicates the corresponding function of Longyan"
+				"Can place items in blocks"
+				"Very decorative and collection function"
+			]
+			icon: "minecraft:emerald"
+			id: "70E09B29025D152D"
+			rewards: [
+				{
+					id: "2F95152C451F785A"
+					item: "rehooked:ender_hook"
+					type: "item"
+				}
+				{
+					id: "06F8DBC1EAF1E187"
+					item: {
+						Count: 1
+						id: "meplacementtool:multiblock_placement_tool"
+						tag: {
+							internalCurrentPower: 2.147E9d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78CB90096DD1E91A"
+					item: {
+						Count: 1
+						id: "meplacementtool:me_cable_placement_tool"
+						tag: {
+							HasUpgrade: 1b
+							internalCurrentPower: 2.147E9d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56EE0BB90C584EF0"
+					item: "meplacementtool:moakiee_fumo"
+					type: "item"
+				}
+				{
+					id: "46132ECA650D5F7F"
+					item: "meplacementtool:cystrysu_fumo"
+					type: "item"
+				}
+			]
+			subtitle: "&2Kuheehee~"
+			tasks: [{
+				consume_items: true
+				id: "214BC20102B2662B"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "Recommended auxiliary modules"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [""]
+			id: "708EF170B690295C"
+			tasks: [{
+				id: "31CE1F1A32C3D574"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Includes floor plan"
+				"It can be placed using the Creator God or Helper model."
+				"It consists of 8*8 framed rectangular blocks, surrounded by a block-wide road."
+				"The road is shared, i.e. gaps between multiple 8*8 block areas must only be one block wide."
+				"&bfits completely into the block"
+				"&r&cmeans this is a uniform length floor"
+				""
+				"&aCreation God"
+				"Use the Chuangshishen module to export and paste"
+				"First //diban schematic load"
+				"Then //glue"
+				"&c⚠️Be sure to test the placement first!!!! &r"
+				"Fixed spawning in the northwest direction"
+				"This is the top left corner when you are facing north"
+				"There will be a big rectangle"
+				""
+				"&ahelper"
+				"First go to the root directory of your version or copy the template in this private installation package"
+				"File name &dDisksavior_diban.txt &r, open &b, select all and copy &r"
+				"Drop &bmodel manager"
+				"&rPlace a copy and paste helper &b&rand a paper &b&rin the right slot"
+				"Standalone \"&aPaste &r\" and click \"&aLoad &r\""
+				"Then prepare the materials and place them"
+				"Recommended opening &e&r, so no need to consider materials"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "07C4E72156AA3E9F"
+			rewards: [
+				{
+					id: "7471466EA3F5CB25"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BFED4C23A074687"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7792092FC5BFE277"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B589D7646194BC2"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							energy: 2147483647
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63EDD86A4EE4D698"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C5AD21CF65B4CD3"
+					item: "buildinggadgets2:template_manager"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6167B0C4B1879D1D"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "7D70D903126849CB"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49E1E5EA12211D87"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste_gt"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Die From Sorrow"
+			tasks: [{
+				id: "71F2853E223F46D3"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "floor"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Voltage requirements are lower than blasting"
+				"No catalyst required"
+				"The amount of balls of material produced is enormous"
+			]
+			id: "22A0E7E55A924CB6"
+			subtitle: "I didn't even read the words to kill myself at dinner"
+			tasks: [
+				{
+					id: "474079A86F17229C"
+					item: "ae2:singularity"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "367D51345E754033"
+					item: "ae2:matter_ball"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Cobblestone Explosion Singularity Matter Ball"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Not guaranteed to be available"
+				""
+				"In my test"
+				"Quantum ring and quantum bridge board can work normally"
+				""
+				"If you want to use it to synthesize other things, you should use explosion."
+			]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "419583430D2C5F74"
+			subtitle: "There is a voice asking the three if it hurts."
+			tasks: [{
+				id: "271508C8871FE7EB"
+				item: "ae2:quantum_entangled_singularity"
+				optional_task: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Bench synthesizes quantum entangled state singularities with nbt"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Dahua Reaction Desulphurization Machine as Catalyst"
+				"The extracted oil is transformed directly into three oils and one gas."
+			]
+			id: "68B4420B8D70995D"
+			subtitle: "Prosperity blocks Shenron"
+			tasks: [
+				{
+					id: "7B6A8BCC6C47CD37"
+					item: "gtceu:heavy_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "448FBAAE8BDC53F5"
+					item: "gtceu:light_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6664E0A6077E5C43"
+					item: "gtceu:naphtha_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EB10BE7639214BB"
+					item: "gtceu:refinery_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Single-step petrochemical desulfurization"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Since the original version first rolled off the parts assembly line in UV"
+				"Therefore, task detection starts at UV"
+				"(Actually, I was too lazy to add the front tension)"
+			]
+			id: "5D3F1DB7A8FB6B2F"
+			subtitle: "The times grant you and me the friendship of others"
+			tasks: [
+				{
+					id: "71136108FB503F6C"
+					item: "gtlcore:component_assembly_line_casing_uv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DB37F6FCB2F6357"
+					item: "gtlcore:component_assembly_line_casing_uhv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CB1510FCFBE9FFF"
+					item: "gtlcore:component_assembly_line_casing_uev"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5FD898438282D5F1"
+					item: "gtlcore:component_assembly_line_casing_uiv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FB684D2C7E71A7A"
+					item: "gtlcore:component_assembly_line_casing_uxv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C0F95DC82C1038A"
+					item: "gtlcore:component_assembly_line_casing_opv"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "107029E7D9A6D996"
+					item: "gtlcore:component_assembly_line_casing_max"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Component assembly line shell compression update"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Twist three titanium blocks"
+				"Extremely simple and crude, chemical formula and cement"
+				"Check the source of californium &bLiquid californium &r"
+			]
+			id: "5AAF52F53F8C6D02"
+			subtitle: "journey of mourning"
+			tasks: [{
+				id: "316E5FF67ABCCB57"
+				item: "gtceu:californium_cyclopentadienide_bucket"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single-step California cyclopentadienylation"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4B7BA4B00F4A93B6"]
+			id: "237CB15FA9DE578A"
+			rewards: [
+				{
+					count: 256
+					id: "62E1BC1E02756A29"
+					item: "kubejs:glacio_spirit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "03FE3803CAD348D3"
+					item: "ad_astra:glacio_stone"
+					type: "item"
+				}
+			]
+			subtitle: "Ha, the evil way Zalinero\\nHa, steal the inevitable thing"
+			tasks: [{
+				id: "52018782C28F64E3"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_7_rocket"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "t7"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Twist three titanium blocks"
+				""
+				"Compared with the torn ones, there is dust coming out straight."
+				"And there is no need for these machines to act as catalysts"
+			]
+			icon: "gtceu:thallium_dust"
+			id: "2D06CC060D592292"
+			subtitle: "in the eye of the storm"
+			tasks: [{
+				icon: "gtceu:thallium_dust"
+				id: "7B3D78DA434021EA"
+				item: "gtceu:thallium_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single Step Thallium Direct Powder"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&c⚠️Advanced assembly line cannot use the created data warehouse!!!"
+				"&c⚠️You need to use the database to transfer data to the advanced assembly line!!!"
+				""
+				"Now there is no need for assembly line automation"
+				"Directly assemble the sample set"
+				"Hee hee hee hee hahahaha"
+			]
+			id: "716F30B78C99711B"
+			subtitle: "Nothingness “the morning that should exist”"
+			tasks: [
+				{
+					id: "1D8A8C420BF065B5"
+					item: "gtceu:assembly_line"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7995A47BD8CFA5C9"
+					item: "gtceu:advanced_assembly_line"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E6109F0731EA6C7"
+					item: "gtlcore:advanced_assembly_line_unit"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Advanced Assembly Line Compression Assembly Line"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Available from the start"
+				"Battery power is limited, use it sparingly"
+				""
+				"You can add water without brain &bCircuit #2 &r"
+				"In fact, you don't even need to add water."
+				"Because I gave you a reservoir ("
+				"If it doesn't work, you probably didn't add tearing. &aOriginal version needs to be run with distilled water &r"
+				""
+				"You can ask &bhow to use the battery box"
+				"&rThe output port is aligned with the power compartment and the battery is placed inside."
+				"When the battery is discharged, it will not produce electricity."
+			]
+			icon: "gtceu:integrated_ore_processor"
+			id: "4A7DB67C708FB300"
+			rewards: [{
+				id: "1406D492781AD4BD"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							34L
+							1L
+							1L
+							1L
+							16L
+							16L
+							1L
+							1L
+							94L
+							1L
+							1L
+							128L
+							1L
+							48L
+							1L
+							1L
+							1L
+							16L
+						]
+						display: {
+							Name: "{\"text\":\"Small OP gift bag\"}"
+						}
+						ic: 363L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "gtceu:tungstensteel_pipe_casing"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:reservoir_hatch"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:tag_filter_me_stock_bus_part_machine"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:lv_energy_input_hatch_16a"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:blue_steel_frame"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:tungstensteel_gearbox"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:me_stocking_input_bus"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:lv_battery_buffer_16x"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:clean_machine_casing"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:max_parallel_hatch"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:zpm_muffler_hatch"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:sturdy_machine_casing"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:integrated_ore_processor"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:laminated_glass"
+							}
+							{
+								"#c": "ae2:i"
+								id: "kubejs:suprachronal_mainframe_complex"
+								tag: {
+									display: {
+										Name: "[{\"text\":\"Do you think the little OP is a little slow?\",\"color\":\"red\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:me_extended_export_buffer"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
+							}
+							{
+								"#c": "ae2:i"
+								id: "gtceu:lv_lithium_battery"
+								tag: {
+									Charge: 120000L
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 3.0d
+			subtitle: "eden sunset"
+			tasks: [{
+				consume_items: true
+				id: "7B062D71725E7898"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "Small OP Gift Bag"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"This tutorial also applies to circuit assembly lines"
+				""
+				"&6Advanced assembly line &rcan use &bsample assembly &r"
+				"But &c&rassembly line cannot"
+				"Although this private product has reduced the advanced assembly line"
+				"But I think all GT players should know this"
+				""
+				"The following is what I summarized after exploring assembly line automation for a long time."
+				"Automated tutorials applicable to most Gray integration packages"
+				"For GTNH part applies"
+				"1.12.2 Requires latest version of AE2 UEL"
+				"{@pagebreak}"
+				"First, let's use an assembly line with a total length of 17 cells as an example:"
+				"16-cell input bus + 4-cell input bay"
+				"First, connect the input bus &6&rand the input enclosure &b&rto the storage bus &e&r"
+				"Connect them with the ME cable"
+				"Put a &dME &rinterface"
+				"Then supply power to this subnet"
+				"The mainnet sample provider &6&rmust be close to the ME interface"
+				"Note that there must be directivity &a&ror &ain &rpanel shape"
+				""
+				"In this way, you have configured a subnet distribution &breceiving end &r"
+				"This is also the construction method commonly used by most players."
+				"But when you put the model in the model provider"
+				"Frequent Problems &cIt is easy to get stuck during continuous distribution &r"
+				"{@pagebreak}"
+				"See how to solve the problem"
+				"You must have heard about nh's &d&radvanced blocking card"
+				"In fact, the top version AE2 &acomes with &radvanced lock"
+				"It just doesn't work as expected in practical applications"
+				""
+				"The reason is simple:"
+				"&cGT input bin and input bus, AE cannot take items from them &r"
+				""
+				"Although players can take it out manually"
+				"But for the storage bus:"
+				"Whether &dcan be picked up determines whether the mainnet can see items in this subnet &r"
+				""
+				"To mean:"
+				"To your default mainnet provider"
+				"No matter how many times it is distributed"
+				"This subnet &cappears as empty &r"
+				"Therefore, the supplier will ship &call the time and &rall the time."
+				"Furthermore, the ME interface has cache"
+				"&cis stuck &r"
+				"{@pagebreak}"
+				"&aSolution: &r"
+				"Open on any memory bus &b&r"
+				"&6【The display cannot be removed】 &r"
+				"So &aincreases the priority of this memory bus &r"
+				"Let items entering the subnet enter this input bus first"
+				""
+				"This way, the main network can normally see the subnet items"
+				"&bAdvanced lock &ralso works normally"
+				"Although this problem can also be solved with synthetic locking..."
+			]
+			icon: "gtceu:assembly_line"
+			id: "5E348961A17CB244"
+			shape: "none"
+			size: 4.0d
+			subtitle: "The iron spikes were cut section by section. Section by section was cut. \\nThe chest seemed to be opening. \\nCut section by section. Section by section. \\nToward you."
+			tasks: [
+				{
+					id: "18B60DD640AEA637"
+					optional_task: true
+					title: "Assembly Line Automation Tutorial"
+					type: "checkmark"
+				}
+				{
+					id: "1500E21C9EC90E98"
+					item: "gtceu:assembly_line"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&l&a1. Basic explanation &r"
+				"Able to write templates efficiently, to be more precise, &bgenerates templates"
+				"&rSimply put, it filters all recipes based on the keywords you enter."
+				"Recipes that meet the filter conditions will automatically generate templates"
+				"It is &bthat loops through the recipes to generate the model &r, not a wildcard model."
+				""
+				"&l&b2. Preparation &r"
+				"1. Press F3+H to open the game's advanced prompt box (must be enabled)"
+				"2. Hold the model tool, &lright-click the air &rto open the user interface (the interface is slightly misaligned, which does not affect the use)"
+				"You can also use &b/kjs hand &rto get item information"
+				"{@pagebreak}"
+				"&l&e3. Teaches you step by step how to make a \"spindle rod\" sample (example) &r"
+				"1. Open the JEI item manager and search for any stamp recipe (for example: iron ingots to make iron bars)"
+				"2. Remember four important pieces of information:"
+				"Recipe ID: extruder (extruder)"
+				"Programming circuit: 0 (if there is no circuit, fill in 0)"
+				"Input item: ingot (ingot)"
+				"Output item: rod (rod)"
+				"3. Fill in the format in the tool:"
+				"extruder 0 0 (fill the required multiple) unfilled ingot unfilled rod"
+				"&bmeans &r: &ato search for formulas without circuits for stamp, all formulas whose input item ID contains ingot and output item ID contains rod."
+				"&r4. &cClick √ to save (very important!!!) &r→ Click &lto get sample &r"
+				"5. The tool automatically generates templates. When there is not enough space in the backpack, the models will fall to the ground."
+				"{@pagebreak}"
+				"&l&c4. 4 Important Things to Note &r"
+				"1. Do not generate samples containing circuit items (integrated circuits, processors, etc.). The tool cannot generate general circuit boards."
+				"2. The generated template &l&cdoes not have &r&rprogramming circuit by default."
+				"3. If you can't make silica stargate mod, please fill sgjourney into the entry blacklist to block it."
+				"4. Regular generation will mix long pole model, please fill in correctly:"
+				"0 multi ingot extruder does not fill long rod and fills long &rto filter long rod in output blacklist &l"
+				""
+				"&l&d5. Working principle (simple explanation) &r"
+				"The tool relies on item ID matching recipes to generate automated models:"
+				"Fill in recipe type → tool finds corresponding machine"
+				"Fill in the programming circuit → match the number of the circuit that is not consumed (fill in 0 if there is no circuit)"
+				"Black and white list rules:"
+				"✅ Whitelist = must contain specified text"
+				"❌ Blacklist = cannot contain specified text"
+				"Multiple keywords can be separated by &lspace &r"
+			]
+			icon: "gtlcore:debug_pattern_test"
+			id: "12C5AF7A2F45859E"
+			rewards: [{
+				id: "0E3B598253ADB3F4"
+				item: "gtlcore:debug_pattern_test"
+				type: "item"
+			}]
+			shape: "none"
+			size: 4.0d
+			subtitle: "Gradually Gradually It's descending now \\nAlarm, I see you \\nAlarm Only a moment left \\nAlarm The fog will lift \\nAlarm The whole city is"
+			tasks: [{
+				id: "2AF149A0A888E17B"
+				optional_task: true
+				title: "Recipe Model Debugging Tool Usage Tutorial"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Twist three titanium blocks, circuit number one"
+				""
+				"This is &b&rSingle Step Actinium Nitrate Line, &c&nis not &r&cSingle Step Actinium Nitrate Solution"
+				"What you need is &bfrancium, astatine and selenium"
+				""
+				"Extreme simplification, without considering the circulating catalyst"
+				"Chemistry Twist How can chemistry not be twisted?"
+				""
+				"In fact, there is a thorium powder whose production cannot be seen, but it is at this stage."
+				"You probably won't care, right?"
+			]
+			id: "665428795B411207"
+			subtitle: "Tomorrow I'll take you to heaven"
+			tasks: [{
+				id: "57BA2E301D1ACDCC"
+				item: "gtceu:francium_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single Step Actinium Nitrate Wire | Single Step Francium Powder | Single Step Astatine Powder | Single Step Selenium Powder"
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Circuit of three titanium blocks #1"
+				""
+				"Violently synthesized according to the chemical formula"
+			]
+			icon: "gtceu:quantum_dots_bucket"
+			id: "4955BA9B1BC39224"
+			subtitle: "Obviously, it should reach your ears immediately"
+			tasks: [{
+				id: "4126D0DC8255B4EA"
+				item: "gtceu:quantum_dots_bucket"
+				optional_task: true
+				type: "item"
+			}]
+			title: "single step quantum dots"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"A little expensive"
+				"Reinforced iridium casing needs to be made on an assembly line"
+				"So you have to set up an assembly line before you can use this machine"
+			]
+			icon: "gtceu:component_assembly_line"
+			id: "3822F7A821A3DFE9"
+			subtitle: "electro-optical bath"
+			tasks: [{
+				id: "3C4BE8127E9145AB"
+				item: "gtceu:component_assembly_line"
+				optional_task: true
+				type: "item"
+			}]
+			title: "IV Recessed Parts Assembly Line"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"&cNo nonlinear optical lens"
+				"I think adding the remaining lenses would upset the balance."
+				"So don't add"
+				""
+				"You don't need to change lens catalyst recipes again and again."
+				"Now you can write the lens into the model"
+				"It can work normally after being distributed to the sample assembly."
+				"However, the lenses will be stacked in the assembly."
+				"No need to deliberately return"
+			]
+			icon: "gtceu:glass_lens"
+			id: "60C488D87659EF8E"
+			rewards: [{
+				id: "70A5830BD9DC9BA0"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Lens Element Pack\"}"
+						}
+						ic: 22L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:orange_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:magenta_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:light_blue_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:yellow_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:lime_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:pink_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:gray_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:light_gray_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:cyan_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:purple_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:blue_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:brown_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:green_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:red_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:black_glass_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:diamond_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:nether_star_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ruby_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:emerald_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:sapphire_lens"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:amethyst_lens"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Nurse Cafe"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1391121521C1F8F0"
+				item: { Count: 64, id: "gtceu:glass_lens" }
+				type: "item"
+			}]
+			title: "Lens Element Pack"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Superfusion may have sporadic downtime issues"
+				"Therefore, MAX was also not reduced."
+				""
+				"Compared to IV, it is a bit expensive."
+			]
+			icon: "gtladditions:super_parallel_hatch"
+			id: "418872EBB26F5D36"
+			subtitle: "Day scanner day scanner"
+			tasks: [
+				{
+					id: "08C2FF90107044F1"
+					item: "gtceu:iv_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6137E87292589A6F"
+					item: "gtladditions:super_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4DE86545ADA3D830"
+					item: "gtceu:max_parallel_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Super parallel control warehouse and MAX parallel control warehouse reduce IV"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"One of them is &o&4swallow &cdevour &6wan &elai &a's &bsilence &dquiet da EAEP"
+				"One is the &eunlimited disk that comes with GTL"
+				""
+				"Compared with GTL's own unlimited disk, the former can see numbers like &a"
+				"&rIn terms of performance, I don't know who is worse, but none of them take up much performance."
+			]
+			icon: "gtlcore:fast_infinity_cell"
+			id: "457C092FC8B51917"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37495A1D5372DC8F"
+				table_id: 8813602807595191694L
+				type: "choice"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "&b&oSiren☆☆"
+			tasks: [{
+				id: "4D9AE24F4E5536C9"
+				type: "checkmark"
+			}]
+			title: "Unlimited disk"
+			x: -1.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Twist three titanium blocks"
+				""
+				"Because single-step gamma ray photoresist cannot be twisted and released, so two steps😢"
+			]
+			id: "18178D5D2E9D2319"
+			subtitle: "yeah, go to that nurses cafe \\nAlmost a hundred years in prison"
+			tasks: [
+				{
+					id: "052368CD4A319662"
+					item: "gtceu:gamma_rays_photoresist_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "387DE47607585339"
+					item: "gtceu:borocarbide_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Two-step gamma ray photoresist"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Not recommended for accumulating small operations"
+				"You can calm down and do a big operation"
+				"The big OP was also reduced"
+				""
+				"It is a shame"
+				"The blocks required for this machine cannot be made until you have &beuropium &r"
+			]
+			icon: "gtceu:integrated_ore_processor"
+			id: "69DC9474142B1328"
+			subtitle: "Until the garden of man is perfected"
+			tasks: [{
+				id: "5894470D4586DF5D"
+				item: "gtceu:integrated_ore_processor"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Small OP negatively regulates IV"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"ZPM can be done, but you may not be able to"
+				"Removed items that do not fit the topic to prevent them from taking up disk space."
+				"&cdoes not have &r&dDragon Egg &r&cand &r&bNether Star &r&c!!!!!!!"
+			]
+			icon: "avaritia:ultimate_stew"
+			id: "2AF8BFC46BE169B2"
+			subtitle: "The sacred sound cleanses heaven and earth\\nThe brilliance shines at dawn\\nThe hymn cleanses my heart"
+			tasks: [{
+				id: "522E7B0694E8661F"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Greenhouse and slaughterhouse component package\"}"
+						}
+						ic: 82L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:oak_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:oak_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:spruce_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:spruce_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:birch_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:birch_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:jungle_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:jungle_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:acacia_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:acacia_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:dark_oak_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:dark_oak_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:mangrove_propagule"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:mangrove_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cherry_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cherry_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:pumpkin"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:pumpkin_seeds"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:beetroot"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:beetroot_seeds"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sweet_berries"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:glow_berries"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:wheat"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:wheat_seeds"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:melon"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:melon_seeds"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:carrot"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sugar_cane"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:kelp"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cactus"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:potato"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cocoa_beans"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:brown_mushroom"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:red_mushroom"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:nether_wart"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:bamboo"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:vine"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sea_pickle"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:rubber_sapling"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:rubber_log"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:sticky_resin"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:poisonous_potato"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:grass"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:melon_slice"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sunflower"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sponge"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:honeycomb"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:wither_skeleton_skull"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:ghast_tear"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:blaze_rod"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:slime_ball"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:ender_pearl"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:echo_shard"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sculk_sensor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sculk_catalyst"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sculk"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:bone"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:porkchop"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:beef"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rabbit"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:chicken"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:mutton"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cod"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:tropical_fish"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:salmon"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:poppy"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:feather"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:string"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:leather"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rabbit_hide"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:gunpowder"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rotten_flesh"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:spider_eye"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rabbit_foot"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:ink_sac"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:glow_ink_sac"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:nautilus_shell"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:glowstone_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:stick"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sugar"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:white_wool"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:egg"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Greenhouse Slaughterhouse Components Package"
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"This is a placeholder for future starter gift pack quests"
+				"There are now other versions of the super ae package"
+				"Gave a lot of content for beginners"
+				"Therefore, the production priority of this is later"
+			]
+			icon: "gtceu:titansteel_foil"
+			id: "3E3719401ED63151"
+			subtitle: "Please don't ask anything. \\nPlease don't say anything."
+			tasks: [{
+				id: "28DF966BE75650E6"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "transporte"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Because there is a single-step actinium nitrate"
+				"So there's no need"
+				"So why should I write?"
+			]
+			icon: "gtceu:fluorocarborane_dust"
+			id: "39A3681D2B860B8F"
+			subtitle: "Aria"
+			tasks: [{
+				id: "62BB7FFDE54E1D87"
+				item: "gtceu:fluorocarborane_dust"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Single-step fluorocarbon (unclear meaning)"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"38166A02EA474C1E"
+				"0F4AFDE98CEA87B1"
+			]
+			description: [
+				"Three crystallizations are produced in reverse and the values ​​are very explosive."
+				"(There is no electrolysis of fragments because the same type of formula already exists)"
+				"Running in Dahua Anti-Rio"
+				"Remember to log in to Steam"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "gtladditions:block/casings/graviton_casing_0"
+				}
+			}
+			id: "428E0E0C5A099DD2"
+			shape: "none"
+			size: 3.0d
+			subtitle: "Sefroedi Jixtgen\\nNadisklai Sheeditslai Klaiya\\nHaupralin Shusolun\\nDasticlai Sasitsfai Klaiya"
+			tasks: [
+				{
+					id: "4AC3E3E703A1A655"
+					item: "gtceu:ulv_fragment_world_collection_machine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A2A2930763DEF56"
+					item: "gtceu:large_fragment_world_collection_machine"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Sky Island Special"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Ancient Electrolysis Reactor Core"
+				""
+				"LV can be done"
+				"But you won't use it until you reach UEV"
+				"Make it easy for you to get started with the Echo series"
+				"Afterwards, it is recommended to use the original tear or formula to produce &2Liquid Eco Fragments &r"
+				""
+				"In fact, electrolysis can also be done in slaughterhouses, but the efficiency is a little lower."
+			]
+			id: "646BB04F3C7E9417"
+			subtitle: "Send blessings to those in the abandoned desert"
+			tasks: [
+				{
+					id: "76AD3FD221A2D8C6"
+					item: "minecraft:echo_shard"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6216E0634D5F5030"
+					item: "minecraft:sculk_sensor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BF788524D2C273B"
+					item: "minecraft:sculk_catalyst"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "74C97238C61D012B"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+			]
+			title: "Eco Series Electrolysis"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Great Rebellion"
+				"A little more direct and before adding"
+				"Since only Liquid Titanium-50 is useful, simply administer Titanium-50 directly."
+			]
+			icon: "gtceu:titanium_50_bucket"
+			id: "736029181D30A404"
+			subtitle: "One sand, one world \\nOne flower, one paradise \\nHolding infinity in the palm of your hand \\nEternity in an instant"
+			tasks: [
+				{
+					id: "616F5F7180A118D5"
+					item: "gtceu:titanium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "672821819D8B1013"
+					item: "gtceu:titanium_50_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Single-Step Titanium-50"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["Cheaper than ripped ones"]
+			icon: "gtceu:quantanium_bucket"
+			id: "2E76FD1DE09D9E0A"
+			subtitle: "Death cannot separate us completely"
+			tasks: [{
+				id: "6D6EB0A02A398CA2"
+				item: "gtceu:quantanium_bucket"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Liquid Quantum Stew"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Liquid quantum is made of cooked shit"
+				"I can't see the full result of Long Chen's formula."
+				"In fact, I just gave a little bit of two types of pearl powder."
+				""
+				"In fact, originally I wanted to pave the way for the production line twister."
+				"But I discovered that there is no recipe conflict"
+				"I'm too lazy to do this (Ku Hee Hee)"
+			]
+			icon: "gtceu:neutron_activator"
+			id: "7CE6CEACDD9D34E6"
+			subtitle: "To the Wilder"
+			tasks: [{
+				id: "60F0E5FB94681C48"
+				item: "gtceu:neutron_activator"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Neutron activator changed for flash treatment"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"For blast compressor"
+				"Before reaching ZPM"
+			]
+			icon: "minecraft:tnt"
+			id: "421C36E4777A0AD5"
+			subtitle: "Sing loudly, raise your high voice with passion"
+			tasks: [{
+				id: "28ED4691499E4020"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:tnt"
+						}
+					}
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "Infinite TNT elements"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["No need to pull a separate assembly into the molding machine and just put in a sample..."]
+			icon: "kubejs:special_ceramics"
+			id: "05553D8D304FE4DA"
+			subtitle: "she holds the black holy sword"
+			tasks: [{
+				id: "1177DBA96BDB7FEA"
+				item: "kubejs:special_ceramics"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Special ceramic slab laminating machine"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["1 MB of Steam is required for easy ordering"]
+			icon: "gtceu:bedrock_dust"
+			id: "1AE772784FB16843"
+			subtitle: "Don't forget. \\nAlways somewhere.\\nSomeone is fighting for you. \\nAs long as you remember her. \\nYou are not alone."
+			tasks: [
+				{
+					id: "0F1E4C0BCA708752"
+					item: "gtceu:bedrock_drilling_rig"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41C018B41E6A18B6"
+					item: "kubejs:bedrock_drill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29400DD8A2951D06"
+					item: "gtceu:bedrock_dust"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Rock Drilling Rig Electrolysis"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: ["There are some recipes that jei cannot write down and will be displayed in this item."]
+			id: "41C457A49F513F15"
+			subtitle: "The most painful thing in the world\\nis knowing a lot\\nbut having little control"
+			tasks: [{
+				id: "7DB6424C01E0E685"
+				item: "disksavior:show"
+				optional_task: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"The items needed for the quest are all main products with added non-jar recipes."
+				""
+				"I hate you jar"
+			]
+			id: "3AE0DB1F6B941D36"
+			rewards: [{
+				id: "7F598C24452B3F30"
+				item: "disksavior:lecb"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "See the stars of the world when it's light all night"
+			tasks: [
+				{
+					id: "7AE6337C7C067673"
+					item: "gtceu:cosmicneutronium_bucket"
+					type: "item"
+				}
+				{
+					id: "219983965B1F5F13"
+					item: "gtceu:chaos_bucket"
+					type: "item"
+				}
+				{
+					id: "0FA886B9AA38E9A6"
+					item: "gtceu:liquid_cosmic_mesh_bucket"
+					type: "item"
+				}
+				{
+					id: "32A242199D4F8E85"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+				{
+					id: "2454FB8D789787EF"
+					item: "gtceu:free_proton_gas_bucket"
+					type: "item"
+				}
+				{
+					id: "2958DA22A6064E70"
+					item: "gtceu:actinium_superhydride_dust"
+					type: "item"
+				}
+				{
+					id: "0552DFCDA1C85695"
+					item: "gtceu:draconiumawakened_bucket"
+					type: "item"
+				}
+				{
+					id: "619CF6B8B1836B9C"
+					item: "gtceu:crystalmatrix_bucket"
+					type: "item"
+				}
+				{
+					id: "32E820FEDC5C33C4"
+					item: "gtceu:echoite_plasma_bucket"
+					type: "item"
+				}
+				{
+					id: "305B5D36ED65436B"
+					item: "gtceu:liquid_degenerate_rhenium_bucket"
+					type: "item"
+				}
+				{
+					id: "6C1203760ED74B8F"
+					item: "kubejs:neutronium_sphere"
+					type: "item"
+				}
+				{
+					id: "0D8D08C60A17D20D"
+					item: "gtceu:dense_neutron_plasma_bucket"
+					type: "item"
+				}
+				{
+					id: "47DC75F322DF2BE6"
+					item: "gtceu:legendarium_plasma_bucket"
+					type: "item"
+				}
+			]
+			title: "&l&bJar Terminator"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"I received it from Kirin"
+				"Will not activate when Kirin is installed (but will still be available in missions)"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "282D9408CF8CD5D9"
+			rewards: [{
+				id: "4C9F867A636AE402"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"§rInfinitely Programmable Circuit Component Package\"}"
+						}
+						ic: 33L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 0
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 1
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 2
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 3
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 4
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 5
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 6
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 7
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 8
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 9
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 10
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 11
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 12
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 13
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 14
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 15
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 16
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 17
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 18
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 19
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 20
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 21
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 22
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 23
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 24
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 25
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 26
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 27
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 28
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 29
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 30
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 31
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 32
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The fire of your duty keeps rising"
+			tasks: [{
+				consume_items: true
+				id: "43059A90652C31FE"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "Unlimited package of programmable circuit components"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"Chemical reaction, that synthesized from powdered sulfur, bio-bran and water"
+				"Facilitate the obtaining of the first ethylene in the initial phase"
+				"This formula is not recommended for further use"
+			]
+			id: "45489EC7147E2502"
+			subtitle: "Morning and night line"
+			tasks: [{
+				id: "1E5A5EBBA692A727"
+				item: "gtceu:ethylene_bucket"
+				type: "item"
+			}]
+			title: "single step ethylene"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"I received it from Kirin"
+				"will not activate when kirin is installed"
+			]
+			id: "4E56E627F64904A8"
+			subtitle: "Deep within the shadowland \\nTime has come for us to rise \\nTo put the sword in the fire \\nMy sleeping warrior"
+			tasks: [{
+				id: "7A044DBA62E9CA9C"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Burnt wrought iron ingot"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["38166A02EA474C1E"]
+			description: [
+				"The 32 parts provided are the construction materials of this multi-block machine."
+				"'Cause it's too late"
+				"Therefore, the shipping quantity of one unit is"
+				""
+				"But it's a shame"
+				"It is also difficult for large operations to process all the ores produced in the corresponding period."
+				"Therefore, it is not recommended to use original virtual mining after doing a large virtual mining."
+				"For the same reason, it is not recommended to use Daxu Min after exiting the space elevator."
+			]
+			id: "3D03B84A76712316"
+			rewards: [{
+				count: 32
+				id: "02A30806B8F89DE8"
+				item: "kubejs:restraint_device"
+				type: "item"
+			}]
+			subtitle: "Let's run and step on this unclean land"
+			tasks: [{
+				id: "1CE8128A0CC87F43"
+				item: "gtceu:advanced_integrated_ore_processor"
+				type: "item"
+			}]
+			title: "Large OP negatively regulates LuV"
+			x: -9.0d
+			y: 0.0d
+		}
+	]
+	title: "hard drive saver"
+}

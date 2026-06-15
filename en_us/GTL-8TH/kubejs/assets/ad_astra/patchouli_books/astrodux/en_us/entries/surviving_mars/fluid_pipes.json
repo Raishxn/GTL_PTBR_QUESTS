@@ -1,0 +1,29 @@
+{
+  "name": "Fluid pipeline",
+  "icon": "ad_astra:ostrum_fluid_pipe",
+  "sortnum": 4,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Fluid pipeline",
+      "item": "ad_astra:ostrum_fluid_pipe",
+      "text": "Fluid pipes are similar to cables, but can only be used to transport fluids. Right-click the fluid pipe with a wrench to switch the transmission mode: \"None\", \"Normal\", \"Cocurrent\" and \"Split\"."
+    },
+    {
+      "type": "patchouli:crafting",
+      "text": "\"Split\" pipes remove fluid from the network, while \"cocurrent\" pipes incorporate fluid into the network.",
+      "recipe": "ad_astra:desh_fluid_pipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:ostrum_fluid_pipe",
+      "recipe2": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:fluid_pipe_duct",
+      "text": "Similar to electrical cables, fluid ducts also have an integral block in the form of a wall that is used to safely transport fluids and keep the structure sealed."
+    }
+  ]
+}

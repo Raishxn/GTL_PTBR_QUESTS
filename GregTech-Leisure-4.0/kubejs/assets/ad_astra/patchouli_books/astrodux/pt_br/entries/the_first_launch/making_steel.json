@@ -1,0 +1,24 @@
+{
+  "name": "siderurgia",
+  "icon": "ad_astra:etrionic_blast_furnace",
+  "sortnum": 2,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "alto-forno elétrico",
+      "item": "ad_astra:etrionic_blast_furnace",
+      "text": "O alto-forno elétrico é uma versão atualizada do alto-forno. Possui dois modos: fundição e co-fundição. O princípio da fundição é semelhante ao de um alto-forno, mas possui 4 slots de entrada e é 4 vezes mais eficiente que um alto-forno. A co-fundição pode fundir materiais para criar ligas."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:etrionic_blast_furnace"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "aço",
+      "item": "ad_astra:steel_ingot",
+      "text": "O aço é produzido pela fusão de ferro e carvão em altos-fornos elétricos. Cada lingote de ferro e carvão pode produzir 1 lingote de aço. O aço é essencial para a maioria das receitas e foi o principal material dos primeiros foguetes."
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extendedaeplu"
+	group: ""
+	icon: "extendedae_plus:infinity_biginteger_cell"
+	id: "68196BEF8441A65E"
+	images: [
+		{
+			height: 5.0d
+			image: "merequester:block/wall_active"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			height: 4.0d
+			image: "ftbquests:textures/picture/012.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f módulo &6 \"Conector sem fio aprimorado\""
+				""
+				"&6&l» &bRecursos principais"
+				"&7 tem a mesma função que o conector sem fio &e padrão &7, mas o processo de configuração &a é bastante simplificado &7 e suporta conexão interdimensional &e &7."
+				""
+				"&6&l» Etapas de configuração de &b"
+				"&71. &b Configurações do terminal principal &7: Conecte o terminal principal à rede principal AE e ele &a bloqueará automaticamente o canal 1 &7."
+				"&72. &bBloqueio de canal&7: Use a chave &e para clicar com o botão direito &7 para clicar no terminal principal para confirmar manualmente ou bloquear novamente o canal."
+				"&73. &b conexão do escravo &7: Após desligar o escravo, ele tentará automaticamente conectar &a ao canal 1 &7 do mestre sem configuração adicional."
+				""
+				"&6&l» &b Resumo das vantagens"
+				"&a• Configuração minimalista &7: Basta colocá-lo de lado e conectá-lo, diga adeus às configurações complicadas."
+				"&a• Suporte multidimensional&7: Construa uma rede global independentemente das restrições de distância e dimensão."
+				"&a• Canal fixo&7: A extremidade principal ocupa exclusivamente o canal 1 para evitar conflitos de canal e confusão de gerenciamento."
+				""
+				"&6&l※ P.S."
+				"&7&m É hora de dizer adeus ao volumoso anel quântico &7, tornando a conexão tão fácil."
+			]
+			icon: "extendedae_plus:wireless_transceiver"
+			id: "78669107F53337D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61210C9421C25B1F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0FED9F9FED0339DC"
+					item: "extendedae_plus:wireless_transceiver"
+					type: "item"
+				}
+				{
+					id: "70355C680D980206"
+					item: "extendedae_plus:labeled_wireless_transceiver"
+					type: "item"
+				}
+			]
+			title: "transceptor sem fio"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f módulo &6 \"Controlador Central\""
+				""
+				"&6&l» &bFunções principais"
+				"&7 Conecte esta máquina à sua rede principal &eAE &7 para controlar centralmente os seguintes modos de trabalho de todos os provedores de amostra &e &7 na rede:"
+				"&7• &e modo de bloqueio"
+				"&7• &eModo de bloqueio avançado"
+				"&7• &eModo de duplicação inteligente"
+				""
+				"&6&l» &bEfeito de uso"
+				"&7 Não há necessidade de configurar cada dispositivo um por um, e &a pode ser trocado em lotes com &7 com um clique, simplificando muito o gerenciamento de linhas de produção em grande escala."
+				""
+				"&6&l» &bNotas"
+				"&c• &7 só tem efeito em provedores de modelos &e &7 que já existem na rede."
+				"&c• &7 Certifique-se de que o canal de rede e o fornecimento de energia sejam suficientes para suportar a função de controle global."
+			]
+			icon: "extendedae_plus:network_pattern_controller"
+			id: "4A6F949923991BA6"
+			rewards: [
+				{
+					id: "28C403965608B682"
+					item: "extendedae_plus:network_pattern_controller"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7864429652DBD3B3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09501A2C442A043A"
+				type: "checkmark"
+			}]
+			title: "Exemplo de controlador de estado do provedor"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &fmodule adiciona &6 \"Modo de bloqueio inteligente\""
+				""
+				"&6&l» Recursos do modo &b"
+				"&7 • &a Filtragem inteligente &7: Bloqueia todos os materiais &c que não são exigidos pela amostra atual &7 e permite apenas que o material da amostra que está sendo processado passe livremente."
+				"&7• &aFornecimento contínuo&7: Após a abertura, os materiais pertinentes serão enviados &e continuamente &7 até que a demanda da amostra seja atendida, ao invés de enviar as cópias originais uma por uma."
+				""
+				"&6&l» Diferenças entre &b e a versão original"
+				"&cModo de bloqueio original&7: Envie os materiais estritamente na ordem das cópias, uma de cada vez."
+				"&a Modo de bloqueio inteligente &7: reabastece continuamente todos os materiais necessários para a amostra alvo &e &7, melhorando significativamente a eficiência da produção contínua."
+				""
+				"&6&l» &b Sugestões de uso"
+				"&7• Adequado para linhas de produção automatizadas que exigem &e produção contínua de &7 o mesmo item por um longo período."
+				"&7• Pode efetivamente evitar o congestionamento de material e garantir a operação ininterrupta da linha de montagem &a &7."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "10321E68A0D24305"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06EF371EE3B0CBBC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5234BD60E90BF84F"
+				title: "Modo de bloqueio inteligente"
+				type: "checkmark"
+			}]
+			title: "Modo de bloqueio inteligente"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"O módulo &9ExtendedAE-Plus &f adiciona a função &b \"upload de modelo\" &f:"
+				""
+				"&6&l» &bDescrição da função"
+				"&7 No terminal de codificação de modelo &e &7, o modelo editado pode ser carregado diretamente no fornecedor de modelo &e conectado &7 ou no conjunto de modelo &e &7."
+				""
+				"&6&l» &bPré-requisitos"
+				"&c• &7 Equipamento alvo (fornecedor de amostra/montagem de amostra) &c foi nomeado &7, e a faca de corte de quartzo que vem com AE2 pode ser usada."
+				"&a• &7 Recomenda-se usar o formato de \"&e[tipo de máquina]-[finalidade]&7\", como \"&e[lingote solidificador de fluido]&7\" ao nomear para facilitar o gerenciamento."
+				""
+				"&6&l» &bEtapas de upload"
+				"&71. Selecione o modelo para fazer upload no terminal."
+				"&72. Adicione um novo mapeamento &7 na área de mapeamento &7 e &a abaixo da interface &e."
+				"&73. No mapeamento, insira &e um nome que seja exatamente igual ao do dispositivo de destino &7. Por exemplo, &e[solidificador de fluido]&7 não precisa ser adicionado para esse propósito."
+				"&74. Após a confirmação, o modelo será sincronizado diretamente com o dispositivo correspondente."
+				""
+				"&c&l⚠ Atenção especial"
+				"&c• Ao carregar um modelo para a matriz de montagem &e &c, &6 \"Núcleo de upload da matriz de montagem\" &c deve ser colocado dentro dele antecipadamente."
+				"&c• Certifique-se de que o nome do dispositivo esteja escrito corretamente, caso contrário o mapeamento não será concluído."
+				"&7• A versão atual do Operador Molecular não suporta upload direto de modelos, mas pode ser carregado por nomeação. Por exemplo, renomeie &dME porta da matriz de montagem de molécula &7 para \"&e[1 modelo de molécula atacado]&7, para que você possa clicar diretamente no botão de upload ao escrever o modelo. O primeiro na primeira página é ele, basta clicar em upload."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "765EF13C171D42CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59124910075566F7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D1BD1839AD4C9D0"
+				title: "Carregamento de amostra"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &f funções aprimoradas do terminal sem fio do módulo:"
+				""
+				"&6&l» &bPesquisa rápida"
+				"&7Aponte o cursor para qualquer item e pressione &eF&7 para pesquisar o item diretamente no terminal AE."
+				""
+				"&6&l» &b Pedido com um clique"
+				"&7Use o mouse &eBotão do meio&7 Clique no item marcado para colocar uma ordem de síntese diretamente."
+				""
+				"&6&l» &bExtração rápida"
+				"&7 Pressione e segure &eShift + clique com o botão esquerdo &7 e clique no item no terminal para retirá-lo diretamente para a mochila."
+				""
+				"&c&l⚠ Pré-requisitos importantes:"
+				"&c Todas as funções aprimoradas acima devem ser usadas com o terminal sem fio &6 &c."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "7C41A497091EE513"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "414B9485B3FA9850"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "186239756876CB04"
+				title: "Mudanças nos favoritos JEI"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"O módulo &9ExtendedAE-Plus &f possui novas ferramentas práticas para ajudá-lo a solucionar problemas e planejar a automação com eficiência:"
+				""
+				"&b▶ Localize materiais rapidamente"
+				"&7 Na interface de síntese automatizada, &bShift+clique com o botão direito &7 clique no material preso para pular automaticamente para o fornecedor do modelo correspondente e destacar o material para facilitar a verificação rápida das configurações do modelo."
+				""
+				"&b▶ Adicione favoritos com um clique"
+				"&7Falta um item durante a síntese? Pressione e segure &bShift e cancele &7 para adicioná-lo automaticamente à sua lista de favoritos JEI para pesquisa e adição subsequentes."
+				""
+				"&c⚠ Nota de compatibilidade:"
+				"&7 e as funções acima &c não são compatíveis com a montagem de amostra &7, preste atenção ao usá-la."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "3D8ED993ABD824B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C0C011FCDE0B5BF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "628626E7E02CAE58"
+				title: "Alterações de pedido"
+				type: "checkmark"
+			}]
+			title: "Alterações de pedido"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"O módulo &9ExtendedAE-Plus &f agora suporta a função &b \"Smart Double\" &f:"
+				"Quando &7 estiver habilitado, o fornecedor do template enviará todos os materiais necessários para a receita de uma só vez, eliminando a necessidade de duplicar manualmente o template."
+				""
+				"&c⚠ Nota:"
+				"&7• Este recurso é recomendado apenas para máquinas multibloco grandes &e. &7, o uso em máquinas de bloco único pode fazer com que o material fique preso."
+				"&7• Quando em uso formal, controle o número de paralelos &e abaixo de 100 &7, caso contrário, poderão ocorrer sérios atrasos ao fazer pedidos."
+				""
+				"&a✅ Nota de compatibilidade:"
+				"&7Esta função não entra em conflito com o sistema de duplicação inteligente &a &7 da montagem da amostra. Se for utilizada uma montagem de modelo, o sistema dará prioridade à sua lógica de duplicação inteligente."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "0474F884C399CCDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A9F604BE5E5A01"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4654BE144CF51BD1"
+				title: "Duplique a inteligência"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"Módulo &9&lExtendedAE-Plus &f agora integrado"
+				"&7O template exibirá diretamente a quantidade de materiais que podem ser produzidos, facilitando a organização e o planejamento."
+			]
+			icon: "kubejs:command_block_broken"
+			id: "66FC07AD3290E690"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "503B64B1358D3AB0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15775D220A643DE4"
+				title: "Alterações na exibição do modelo"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:oak_hanging_sign"
+			id: "082EC9089C89ED32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47BBFF41890B9142"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "398863D2A27BBC13"
+				title: "Recursos úteis"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:reinforced_deepslate"
+			id: "4839D9A5F9085952"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64AF5A1BA58D1A00"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5212B40EFC2D5FC7"
+				title: "Máquina/Bloco/Item"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f módulo &6 \"Acelerador de overclock\""
+				""
+				"&6&l» &bPosicionamento da função"
+				"&7O efeito desta máquina &e é semelhante ao da tocha de aceleração &7, mas deve ser usado com &6 \"placa aceleradora física\" &7 para fornecer um enorme ganho de tempo para o processo de produção principal."
+				""
+				"&6&l» &bEfeito principal"
+				"&7• Em processos de operação contínua como &e geração de energia &7, a eficiência pode ser melhorada &7 até &e dez mil vezes quando usados ​​em conjunto."
+				"&7• Capacidade de &a avançar com extrema rapidez receitas &7 ou equipamentos de capacidade que exigem longas tiragens."
+				""
+				"&c&l⚠ AVISO IMPORTANTE"
+				"&c• Como o princípio é diretamente aplicado às operações de entidades de jogo, &e não é recomendado para implantar &c em grandes quantidades."
+				"&c• O uso excessivo &4 consumirá seriamente o TPS&c do servidor e afetará a suavidade geral do funcionamento."
+				"&7• Recomenda-se que seja usado apenas em &e links de gargalo chave &7 ou &e transição antecipada &7."
+			]
+			id: "076E0FD32E385ECB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5971F8FCB5A1DFB6"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FB4BD321E513096"
+				item: "extendedae_plus:entity_speed_ticker"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f módulo &6 \"Elemento de armazenamento composto infinito\""
+				""
+				"&6&l» &bCaracterísticas do item"
+				"&7• Integre todas as funções do elemento de armazenamento infinito &e &7 e do elemento de fluido infinito &e &7 em uma."
+				"&7• Tem &a capacidade de armazenamento quase ilimitada &7 e pode, teoricamente, armazenar um número ilimitado de itens."
+				"&7• Suporta até &e2,1 bilhões &7 diferentes tipos de itens (diferenciar entre NBT e valor de dano)."
+				""
+				"&6&l» &b Compatibilidade de armazenamento"
+				"&a• Item&7 (incluindo itens NBT)"
+				"&a• Fluido&7 (incluindo plasma e fluido de alta temperatura)"
+				"&a• Gás &7 (de máquinas em geral e outros módulos)"
+				"&a• Chemicals&7 (de módulos como Gregicality)"
+				"&a• e a maioria dos outros tipos de dados armazenáveis"
+				""
+				"&6&l» &b Instruções de uso"
+				"&7• Basta colocá-lo no drive ME e utilizá-lo, nenhuma configuração adicional é necessária."
+				"&7• Pode substituir completamente os tradicionais elementos de armazenamento infinito e elementos fluidos infinitos."
+			]
+			id: "48574B38F4F6AEDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C034FB0880ABF0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1142F13A5408DBE0"
+				item: "extendedae_plus:infinity_biginteger_cell"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f módulo &6 \"Núcleo de upload da matriz de montagem\""
+				""
+				"&6&l» &bPropósito principal"
+				"&7Este item é um componente necessário da matriz de montagem &e &7 para implementar a função de upload automático &a &7."
+				"&7 deve ser colocado dentro da estrutura da matriz de montagem para permitir a função conveniente de carregar o modelo diretamente do terminal para a matriz."
+				""
+				"&6&l» &b Declaração de importância"
+				"&c• Componente principal &7: Sem ele, a matriz de montagem &c não será capaz de usar o recurso de upload direto do terminal fornecido por &9ExtendedAE-Plus &7."
+				"&a• Colocação única de &7: Basta colocar um &7 em &a de uma matriz para desbloquear permanentemente a capacidade de upload automático dessa matriz."
+				""
+				"&7&oDica: certifique-se de ter colocado este núcleo corretamente antes de tentar fazer upload através do terminal de codificação padrão."
+			]
+			id: "070DCDB2DD67D5E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F44D08BEF497704"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "761BE494F634A260"
+				item: "extendedae_plus:assembler_matrix_upload_core"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+	]
+	title: "Extendedae-Plus"
+}

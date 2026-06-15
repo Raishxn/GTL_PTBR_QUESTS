@@ -20,20 +20,16 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "498CB29FA7447C46"
-			rewards: [
-				{
-					id: "6F0F202CEF4CCFD7"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "44CA2F43F475CFD9"
-					title: "Motivo para não trabalhar"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "6F0F202CEF4CCFD7"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CA2F43F475CFD9"
+				title: "Motivo para não trabalhar"
+				type: "checkmark"
+			}]
 			x: 7.5d
 			y: -2.5d
 		}
@@ -45,20 +41,16 @@
 			]
 			icon: "kubejs:uruium_coil_block"
 			id: "2205C5F410B9C4DB"
-			rewards: [
-				{
-					id: "67F6BBF7159FD130"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "50F636D9BF4F6025"
-					title: "Bobina"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "67F6BBF7159FD130"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50F636D9BF4F6025"
+				title: "Bobina"
+				type: "checkmark"
+			}]
 			x: 3.5d
 			y: -2.5d
 		}
@@ -73,20 +65,16 @@
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "0BADECF30AC0BAC4"
-			rewards: [
-				{
-					id: "74229AAB3C2222DD"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "23E71635D04A5A77"
-					title: "distribuído por"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "74229AAB3C2222DD"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E71635D04A5A77"
+				title: "distribuído por"
+				type: "checkmark"
+			}]
 			x: -0.5d
 			y: -2.5d
 		}
@@ -98,20 +86,16 @@
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "5DB8BE71B3733C36"
-			rewards: [
-				{
-					id: "7B4ECA8505F078B1"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "35761A42191E549C"
-					title: "ônibus/caixa"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "7B4ECA8505F078B1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35761A42191E549C"
+				title: "ônibus/caixa"
+				type: "checkmark"
+			}]
 			x: 1.5d
 			y: -2.5d
 		}
@@ -135,26 +119,22 @@
 				""
 				"Exemplo: O Separador Sagrado pode fazer barras de prata e barras de ferro ao mesmo tempo, mas não pode centrifugar o ar e fazer barras de ferro ao mesmo tempo."
 				""
-				"\\\"Threads\\\" é um atributo exclusivo de máquinas com paralelismo de receita cruzada (todas possuem 64 threads). O número paralelo total de uma máquina paralela de receita cruzada é o número de threads multiplicado pelo número paralelo da própria máquina. O número de threads representa o número máximo de receitas para as quais o número paralelo total pode ser alocado. Nota: A máquina paralela de receita cruzada alocará todo o paralelismo total para uma receita quando possível."
+				"\"Threads\" é um atributo exclusivo de máquinas com paralelismo de receita cruzada (todas possuem 64 threads). O número paralelo total de uma máquina paralela de receita cruzada é o número de threads multiplicado pelo número paralelo da própria máquina. O número de threads representa o número máximo de receitas para as quais o número paralelo total pode ser alocado. Nota: A máquina paralela de receita cruzada alocará todo o paralelismo total para uma receita quando possível."
 				"{@pagebreak}"
 				"Caso exista algum material que seja consumido probabilisticamente na receita, será utilizado 100% do consumo do material como base de cálculo em cálculos paralelos."
 			]
 			icon: "gtceu:iv_parallel_hatch"
 			id: "6F503441C24ABD5B"
-			rewards: [
-				{
-					id: "749E6E378FFF375B"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6B1CC517916931AB"
-					title: "paralelo"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "749E6E378FFF375B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1CC517916931AB"
+				title: "paralelo"
+				type: "checkmark"
+			}]
 			x: 9.5d
 			y: -2.5d
 		}
@@ -172,20 +152,16 @@
 			]
 			icon: "minecraft:hopper"
 			id: "2B1992E2158E63A2"
-			rewards: [
-				{
-					id: "0908FF95BE82979B"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3A68620AD827B0E5"
-					title: "Logística de máquinas"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "0908FF95BE82979B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A68620AD827B0E5"
+				title: "Logística de máquinas"
+				type: "checkmark"
+			}]
 			x: 5.5d
 			y: -2.5d
 		}
@@ -201,24 +177,20 @@
 				""
 				"Da mesma forma, se o ambiente de execução da máquina for alterado no meio da execução de uma receita (como redução de tempo, paralelismo, etc.), a máquina continuará a executar a receita com a configuração quando começou a executar a receita e não mudará para o novo ambiente de execução até que a receita seja executada."
 				"{@pagebreak}"
-				"No JEI, você descobrirá que a dica de alguns materiais/produtos relacionados à probabilidade tem \\\"bônus de tensão: +n%/por nível\\\", onde o valor específico de \\\"por nível\\\" é o nível máximo de tensão da receita da própria máquina menos o nível mínimo de tensão de execução da própria receita."
+				"No JEI, você descobrirá que a dica de alguns materiais/produtos relacionados à probabilidade tem \"bônus de tensão: +n%/por nível\", onde o valor específico de \"por nível\" é o nível máximo de tensão da receita da própria máquina menos o nível mínimo de tensão de execução da própria receita."
 			]
 			icon: "gtceu:large_assembler"
 			id: "662FE1772CF9B5ED"
-			rewards: [
-				{
-					id: "0697DFBA0B8FB11C"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4807FB6A36F025EC"
-					title: "outro"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "0697DFBA0B8FB11C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4807FB6A36F025EC"
+				title: "outro"
+				type: "checkmark"
+			}]
 			x: 11.5d
 			y: -2.5d
 		}

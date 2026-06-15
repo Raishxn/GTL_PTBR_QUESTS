@@ -1,0 +1,45 @@
+{
+  "name": "Oxygen distributor",
+  "icon": "ad_astra:oxygen_distributor",
+  "sortnum": 2,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Oxygen distributor",
+      "item": "ad_astra:oxygen_distributor",
+      "text": "Oxygen distributors diffuse oxygen into a confined space to sustain life within it. It works in the same way as an oxygen loader, but the difference is that it diffuses the produced oxygen directly around."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "water pump",
+      "item": "ad_astra:water_pump",
+      "text": "A water pump is necessary when you need an unlimited supply of oxygen. Place the water pump above the unlimited water source, place an oxygen distributor nearby, and ensure that they have sufficient power supply."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Oxygen distributor and water pump",
+      "recipe": "ad_astra:oxygen_distributor",
+      "recipe2": "ad_astra:water_pump"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Use an oxygen dispenser",
+      "text": "When your oxygen distributor has sufficient water and energy supply, it will start to supply oxygen to the confined space where it is located. Click the \"Show\" button in the GUI interface to view the oxygen distribution status. If the space is highlighted, oxygen has been distributed successfully."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If the space where the oxygen distributor is located is not completely sealed, oxygen will escape from a certain hole, and a warning will pop up in the GUI interface of the oxygen distributor. At this time, you need to plug the loopholes as soon as possible to prevent additional energy waste. After that, you can breathe fresh air without wearing a spacesuit. Each oxygen distributor can supply oxygen to up to 6,000 blocks of space, enough to cover a medium-sized space station or base building. If you want to oxygenate a larger space, just place more oxygen dispensers."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "ventilation",
+      "text": "Inside a structure that is filled with oxygen, you should provide appropriate ventilation to ensure that the oxygen is not blocked when the door is closed. You can do this by creating a gap of blocks between walls, or using vent blocks to allow oxygen to flow."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Quick decompression",
+      "text": "When your structure is completely sealed and a hole appears, your structure will rapidly decompress. This could be a catastrophic event. All entities inside are violently sucked out of the hole and die without their spacesuits. Oxygen dispensers will also rapidly consume oxygen and electricity. Be sure to avoid this by patching the hole as soon as possible and preventing accidental holes."
+    }
+  ]
+}

@@ -6,16 +6,14 @@
 	icon: "gtlcore:max_electric_motor"
 	id: "1051E55CD6BF7E7B"
 	order_index: 14
-	quest_links: [
-		{
-			id: "2B20C263CB41DBAD"
-			linked_quest: "296DE95F3BE7DC54"
-			shape: "hexagon"
-			size: 2.0d
-			x: -1.0d
-			y: 2.5d
-		}
-	]
+	quest_links: [{
+		id: "2B20C263CB41DBAD"
+		linked_quest: "296DE95F3BE7DC54"
+		shape: "hexagon"
+		size: 2.0d
+		x: -1.0d
+		y: 2.5d
+	}]
 	quests: [
 		{
 			dependencies: ["48925ECBCC5D268D"]
@@ -87,14 +85,12 @@
 			]
 			id: "1416EAE88C9030C8"
 			subtitle: "terra desconhecida"
-			tasks: [
-				{
-					dimension: "kubejs:create"
-					id: "533527A60F7C2024"
-					title: "Visite Dimensões de Criação"
-					type: "dimension"
-				}
-			]
+			tasks: [{
+				dimension: "kubejs:create"
+				id: "533527A60F7C2024"
+				title: "Visite Dimensões de Criação"
+				type: "dimension"
+			}]
 			title: "Vá para a Dimensão da Criação"
 			x: 7.0d
 			y: 4.5d
@@ -110,13 +106,11 @@
 			id: "470DDCCD8E017A4F"
 			shape: "rsquare"
 			subtitle: "Recebi um item de uma troca, mas não sei como usá-lo"
-			tasks: [
-				{
-					id: "6C1581BB60019E84"
-					item: "minecraft:command_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C1581BB60019E84"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 2.5d
 		}
@@ -124,13 +118,11 @@
 			dependencies: ["2C3C46AC660CC54E"]
 			id: "5AFEAD001EDA612D"
 			subtitle: "Contém toda a energia no espaço multidimensional"
-			tasks: [
-				{
-					id: "318A4B7F9925680F"
-					item: "kubejs:create_ultimate_battery"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "318A4B7F9925680F"
+				item: "kubejs:create_ultimate_battery"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.5d
 		}
@@ -142,28 +134,27 @@
 			]
 			id: "1EB9F1815EB656B0"
 			subtitle: "Expansão bidimensional"
-			tasks: [
-				{
-					id: "453883277EF4A1B6"
-					item: "kubejs:two_way_foil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "453883277EF4A1B6"
+				item: "kubejs:two_way_foil"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["470DDCCD8E017A4F", "1EB9F1815EB656B0"]
+			dependencies: [
+				"470DDCCD8E017A4F"
+				"1EB9F1815EB656B0"
+			]
 			description: ["Também disponíveis em materiais sintéticos estão a folha bidirecional &b&r"]
 			id: "48925ECBCC5D268D"
 			subtitle: "Itens obtidos ao quebrar blocos de comando"
-			tasks: [
-				{
-					id: "3DFC2C88970DA844"
-					item: "kubejs:command_block_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DFC2C88970DA844"
+				item: "kubejs:command_block_core"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 2.5d
 		}
@@ -177,13 +168,11 @@
 			hide_dependent_lines: true
 			id: "34DB07A64CD1439C"
 			subtitle: "Você pode eliminar e quebrar blocos de comando agora, mas ainda não sabe como usá-los"
-			tasks: [
-				{
-					id: "7BD60E6DCA58004A"
-					item: "kubejs:command_wand"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7BD60E6DCA58004A"
+				item: "kubejs:command_wand"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 4.5d
 		}
@@ -191,13 +180,11 @@
 			dependencies: ["48925ECBCC5D268D"]
 			id: "338F629A694C7556"
 			subtitle: "um pouco lento"
-			tasks: [
-				{
-					id: "16C8AA0E8A7E6784"
-					item: "gtlcore:create_casing"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16C8AA0E8A7E6784"
+				item: "gtlcore:create_casing"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 1.5d
 		}
@@ -211,13 +198,11 @@
 			id: "7C4AD33299386B47"
 			shape: "rsquare"
 			subtitle: "Manipulando a gravidade para conseguir a detonação"
-			tasks: [
-				{
-					id: "29CE180A8857179D"
-					item: "gtceu:gravitation_shockburst"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "29CE180A8857179D"
+				item: "gtceu:gravitation_shockburst"
+				type: "item"
+			}]
 			x: 5.0d
 			y: 0.5d
 		}
@@ -225,13 +210,11 @@
 			dependencies: ["7C4AD33299386B47"]
 			hide_dependency_lines: true
 			id: "4C37CB772835CFD0"
-			tasks: [
-				{
-					id: "3456609519072452"
-					item: "kubejs:command_block_broken"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3456609519072452"
+				item: "kubejs:command_block_broken"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 3.5d
 		}
@@ -250,26 +233,22 @@
 			id: "30907D7231913ACB"
 			shape: "rsquare"
 			subtitle: "Poder de computação infinito"
-			tasks: [
-				{
-					id: "46A19A3E3D3CF4A9"
-					item: "gtceu:create_computation"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "46A19A3E3D3CF4A9"
+				item: "gtceu:create_computation"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7C4AD33299386B47"]
 			id: "429AEBE4BF55B1FF"
-			tasks: [
-				{
-					id: "77BD91BF9EFBE178"
-					item: "kubejs:chain_command_block_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "77BD91BF9EFBE178"
+				item: "kubejs:chain_command_block_core"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 0.5d
 		}
@@ -292,13 +271,11 @@
 			id: "2F9392EF05DB11EF"
 			shape: "rsquare"
 			subtitle: "Só pode funcionar na dimensão criativa"
-			tasks: [
-				{
-					id: "7AB830407E68C7F1"
-					item: "gtceu:create_aggregation"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AB830407E68C7F1"
+				item: "gtceu:create_aggregation"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 2.5d
 		}
@@ -309,26 +286,22 @@
 				"34DB07A64CD1439C"
 			]
 			id: "2D1F2793A396B322"
-			tasks: [
-				{
-					id: "4C7140E1B28862FE"
-					item: "minecraft:chain_command_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4C7140E1B28862FE"
+				item: "minecraft:chain_command_block"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["429AEBE4BF55B1FF"]
 			id: "5BA55D56C47EA2C4"
-			tasks: [
-				{
-					id: "3C8BF60743D0FB97"
-					item: "kubejs:repeating_command_block_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3C8BF60743D0FB97"
+				item: "kubejs:repeating_command_block_core"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 0.5d
 		}
@@ -339,26 +312,22 @@
 				"34DB07A64CD1439C"
 			]
 			id: "75CE99CD1614FB64"
-			tasks: [
-				{
-					id: "065BE74992505A08"
-					item: "minecraft:repeating_command_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "065BE74992505A08"
+				item: "minecraft:repeating_command_block"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2D1F2793A396B322"]
 			id: "435394EAA6536AA9"
-			tasks: [
-				{
-					id: "5321FDC4FAA49862"
-					item: "kubejs:chain_command_block_broken"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5321FDC4FAA49862"
+				item: "kubejs:chain_command_block_broken"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 1.5d
 		}
@@ -367,13 +336,11 @@
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "2A19E7C6DC247B90"
-			tasks: [
-				{
-					id: "00F2D831815D719F"
-					item: "kubejs:chaotic_energy_core"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "00F2D831815D719F"
+				item: "kubejs:chaotic_energy_core"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 4.5d
 		}
@@ -385,20 +352,21 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "Graduado"
-			tasks: [
-				{
-					id: "6D68D65E443AE5FE"
-					item: "gtceu:creative_data_access_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6D68D65E443AE5FE"
+				item: "gtceu:creative_data_access_hatch"
+				type: "item"
+			}]
 			x: 13.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["2A19E7C6DC247B90", "2D1F2793A396B322"]
+			dependencies: [
+				"2A19E7C6DC247B90"
+				"2D1F2793A396B322"
+			]
 			description: [
-				"{\\\"text\\\":\\\"Ambas as fontes de energia de criação podem ser colocadas em transformadores ativos para permitir que redes sem fio obtenham energia ilimitada\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3B18900343C2F4E3\\\"}}"
+				"{\"text\":\"Ambas as fontes de energia de criação podem ser colocadas em transformadores ativos para permitir que redes sem fio obtenham energia ilimitada\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B18900343C2F4E3\"}}"
 				""
 				"Você também pode colocar a fonte de alimentação criativa na máquina, para que a máquina possa obter energia muito além de 4194304A MAX, até &cM&r&aA&r&9X&r&e+&r&c16&r"
 				""
@@ -426,26 +394,25 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5F145D9019C4BC48", "31B4B834D5DD87DB"]
+			dependencies: [
+				"5F145D9019C4BC48"
+				"31B4B834D5DD87DB"
+			]
 			description: ["Quando você olha para ele, parece ver a boneca barbuda que estava na prateleira do departamento de vendas da Pan-Galaxy GregTech há muitos anos galácticos."]
 			id: "516498830339A0A9"
-			rewards: [
-				{
-					id: "561786F8A1EF94F6"
-					item: "ae2:controller"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "561786F8A1EF94F6"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Perguntas adicionais"
-			tasks: [
-				{
-					id: "74404EE9AEC393D4"
-					item: "expatternprovider:fishbig"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74404EE9AEC393D4"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
 			title: "Eu sempre estarei com você"
 			x: 15.0d
 			y: 2.5d
@@ -479,13 +446,11 @@
 			]
 			shape: "pentagon"
 			subtitle: "descanse"
-			tasks: [
-				{
-					id: "334CC982B1A39C03"
-					item: "expatternprovider:fishbig"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "334CC982B1A39C03"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
 			title: "Finalmente, acabou"
 			x: 17.5d
 			y: 2.5d
@@ -493,26 +458,25 @@
 		{
 			dependencies: ["2A29DA4239E6BA44"]
 			id: "4CF8E0618D65DD65"
-			tasks: [
-				{
-					id: "043893C259EE2DA8"
-					item: "kubejs:hyper_stable_self_healing_adhesive"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "043893C259EE2DA8"
+				item: "kubejs:hyper_stable_self_healing_adhesive"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["2A29DA4239E6BA44", "06795792E774476F"]
-			id: "65C38365E20B7F16"
-			tasks: [
-				{
-					id: "36E49D10C86129A3"
-					item: "kubejs:black_body_naquadria_supersolid"
-					type: "item"
-				}
+			dependencies: [
+				"2A29DA4239E6BA44"
+				"06795792E774476F"
 			]
+			id: "65C38365E20B7F16"
+			tasks: [{
+				id: "36E49D10C86129A3"
+				item: "kubejs:black_body_naquadria_supersolid"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -0.5d
 		}

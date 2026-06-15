@@ -1,0 +1,29 @@
+{
+  "name": "porta deslizante",
+  "icon": "ad_astra:ostrum_sliding_door",
+  "sortnum": 3,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "porta deslizante",
+      "item": "ad_astra:airlock",
+      "text": "A porta deslizante é uma porta grande de tamanho 3x3. Eles vedam o oxigênio quando fechados, tornando-os excelentes candidatos para câmaras de descompressão. Eles podem ser bloqueados mantendo pressionada a tecla Shift e clicando com o botão direito com a chave inglesa. As portas trancadas só abrem ao receber um sinal redstone."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:iron_sliding_door",
+      "recipe2": "ad_astra:steel_sliding_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:desh_sliding_door",
+      "recipe2": "ad_astra:ostrum_sliding_door"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:airlock",
+      "recipe2": "ad_astra:reinforced_door"
+    }
+  ]
+}

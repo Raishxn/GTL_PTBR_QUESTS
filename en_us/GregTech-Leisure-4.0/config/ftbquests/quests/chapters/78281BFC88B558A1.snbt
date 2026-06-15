@@ -1,0 +1,658 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "78281BFC88B558A1"
+	group: ""
+	id: "78281BFC88B558A1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The upper limit of request quantity is enhanced to&d15 digits &r"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0754E6C7179F70A0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C01B0FEAADE8281"
+				title: "ME requester"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The default here is&dunlimited channel &r, for performance reasons&ehas removed the synthesis recipe of the ME controller &r"
+				"{@pagebreak}"
+				"&mActually, the Fish Making Conference will give you a controller &r"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E4C7717BE75622"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			subtitle: "Why can't the ME controller be synthesized?"
+			tasks: [{
+				id: "777CFBC4F54FBCE9"
+				title: "channel"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			description: ["The basic transmission speed is enhanced to&b64*int level &r"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6066A8C784659D7A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2CF437FD2CAA4A4C"
+				title: "Expansion IO port"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&8ULV mid-term&runlocks AE storage and logistics"
+				"&bMV initial&runlocks order and (basic) upgrade card"
+				"&bMV End&rUnlocked (Advanced) Upgrade Card"
+				"&6HV end&rUnlock wireless AE"
+				"&dEV initial&runlocks the creation of energy components and assembly matrix"
+			]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D9B9C1F54F36031"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50E327F3A46D8F21"
+				title: "About the corresponding stage"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Infinite water/cobblestone component capacity increased to&d9.22P/E &r"
+				"{@pagebreak}"
+				"Creating disks has also been enhanced"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "794B055F477444D2"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B2777F734BD4F5C"
+				title: "infinite components"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The storage type is the default&d4 times &r, which can be adjusted in the configuration file of gltcore"
+				""
+				"At the same time, the inventory update interval of AE can be adjusted in the gtlcore configuration file."
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "512F658362CB473F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "550042261D7CDFD8"
+				title: "disk"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			description: ["The number of slots&rfor the&bextended template provider can be adjusted in the&6gtlcore configuration file &r"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3085CD2B1FBDDF3A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E27D16F8CFDACB4"
+				title: "Extended template provider"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["The basic capacity of each grid is enhanced to&bint level &r"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71B839583F3C3FCA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "042A7D3DB05154B7"
+				title: "ME interface"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Can be doubled directly during coding (only for processing templates)"
+				""
+				"When encoding, the upper limit of input is adjusted to&b2^31-1 &r. Using the doubling function, the maximum input limit can be&b9.22E/P."
+				""
+				"When the blank template is exhausted,&6will automatically call&rto fill the blank template in the ME network."
+				""
+				"When writing a template with a multi-block structure, you can&bautomatically filter certain blocks&r(specifically view and modify it in the configuration of gtlcore, and determine whether to filter based on whether the block id contains the string in the list). After placing the order,&6will automatically cancel the&rspecific order (that is, the order where the product is&d&r)"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B95A7C60276C8B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11AFFE5DA6C9DF13"
+				type: "checkmark"
+			}]
+			title: "Boilerplate coding related"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Synthetic calculation is enabled by default&6UlTRA FAST mode &r, which can be adjusted in the gtlcore configuration file"
+				""
+				"At the same time, the synthesis update interval of AE can be adjusted in the gtlcore configuration file."
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B21D6DFBC7E175F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E2E7DAA9A528870"
+				type: "checkmark"
+			}]
+			title: "Order synthesis related"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The energy system in GregTech is far less simple than that of other tech mods."
+				""
+				"GregTech's energy unit is EU, which is different from the FE used by other modules."
+				""
+				"The EU mechanism is not similar to real-world electricity:"
+				"Power = voltage x current"
+				"Energy = Power x Time"
+				"Resistance is modeled as cable loss in GregTech"
+				""
+				"GregTech is defined as follows:"
+				"- EU is the unit of energy."
+				"- EU/t is the power."
+				"- A (ampere) is the current."
+				"- V (volt) is voltage, which is called LV, MV,HVin the game...because these are gameplay-related values ​​(technically:LV= 32V = 32EU/t/A)."
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "7F97BED1B9552E5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B089CD7CD085D10"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B797503EA800D59"
+				title: "Basic settings"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"In GregTech, electricity is transmitted in \"packets\". The size of each packet is equivalent to its voltage level."
+				""
+				"Taking the LV packet as an example, this \"packet\" will carry 32 EU, multiple blocks are able to generate these EU packets, and the packet will only be generated when the destination can be reached."
+				""
+				"Every tick (1/20th of a second or 0.05 seconds), the EU \"package\" attempts to transfer from energy producer to consumer."
+				""
+				"These \"packages\" have two parameters: the voltage level (V) determined by the producer rating, and the current (A), which determines how much power can actually be transmitted."
+				""
+				"Energy is transferred only when the complete \"packet\" of amps can be received. You may notice that your machines are just below full EU capacity - they will only accept EU if they are missing at least 1A of input voltage."
+				""
+				"If a machine receives a voltage higher than its voltage rating, it will explode, but any excess current will have no adverse effects because the machine only draws as much as it needs."
+				"{@pagebreak}"
+				"Machine explosions would also normally destroy terrain, but that feature is disabled in this pack."
+				""
+				"In short, energy is transmitted in the form of \"packets\", which is 32EU for LV, 128EU for MV... and so on. Due to cable loss, the actual energy received by the machine may be lower than the energy sent."
+				""
+				"Machine energy input is limited by voltage and current, so an MV machine connected to an LV line with an input current of 1A will never accept more than 32EU/t."
+				""
+				"You can still run an MV machine on the LV line, but only if the recipe power is low enough, or if you have a medium voltage battery in the machine's charging slot, the machine will only accept 1A when idle, so the battery will charge at the maximum rate of 32EU/t."
+			]
+			icon: "gtceu:lv_transformer_1a"
+			id: "0CC922B821305906"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7788A001BE78ADD2"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34D8E6B118290930"
+				title: "energy transfer"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Transmitting EU is done via directly connected wires or cables."
+				""
+				"Wires are a poor choice because they can shock you and have high wire loss, so you need to use insulated cable."
+				""
+				"Line loss means you have to move your machine closer to your generator, but this only becomes an issue early in the game."
+				""
+				"GregTech's cable loss means that each cable block's EU packet transmission reduces its stored EU."
+				""
+				"For example, if the wire loss of a tin cable is 1, for a 4-meter cable connected from a basic internal combustion engine, the voltage at the end is only 28 EU/t, which is less than the 30 EU/t of the average LV machine power. Therefore, a working machine may trip after a few seconds."
+				""
+				"But there is no need to worry here, if you browse the mission statement, you will find that there is cheap superconducting in the early stage and wireless in the later stage, thus completely avoiding this problem."
+			]
+			icon: "gtceu:tin_single_cable"
+			id: "4A7E19EF14D3C072"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75310FE01274D8C9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C551BD24A83AB3F"
+				title: "Cable transmission"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"In GregTech, each small generator produces a voltage level of 1A, but here the output current of the small generators is greatly increased."
+				""
+				"If a machine requires 32EU/t, a 32EU \"package\" will be sent every tick."
+				""
+				"A LV battery box with 4 cells can produce 4 amps of LV (128EU/t)."
+				""
+				"The generic machine is configured to draw 2 amps, other machines have specific amp inputs, which are described in their tooltips."
+				""
+				"Trying to transport more amps than the limit will burn your cables."
+				""
+				"Ampere only draws via a cable directly connected to the producer and consumer, and only draws when the consumer is running."
+				""
+				"This means you can safely reduce the thickness of your cables in some places."
+			]
+			icon: "gtceu:lv_diode"
+			id: "4F7A3702787F86A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CCD473A1EB6B783"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "007D09C6CE7CB00B"
+				title: "current"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Overclocking is a mechanism that occurs when you try to run a recipe in a machine with a higher power than the recipe itself, the recipe will use more energy, but the recipe time will be reduced based on the level you are overclocking."
+				""
+				"Some machines have a side menu to set the maximum voltage level it can overclock to, click this to cycle through all available voltages and select a limit."
+				""
+				"One overclock is allowed for every four times the supplied power above the recipe power. Each overclock means: 2x recipe speed, 4x power consumption, 2x total energy cost, called&blossy overclock &r. Most machines use lossy overclocking."
+				""
+				"However, ULV formulas (even 2EU/t grinder formulas) will not be overclocked in LV machines, so they will only use LV-level electrical power when reaching MV (grinder formulas generally use 32EU/t only when HV is obtained)."
+				""
+				"The corresponding concept is&dlossless overclocking &r, 4x recipe speed, 4x power consumption, 1x total energy cost."
+			]
+			icon: "minecraft:clock"
+			id: "5535934109A12B5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "248B95222F2DE50A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DB7B7FC0312D572"
+				title: "Overclocking"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Of course, voltages can be converted between voltages using a transformer. The transformer can only convert between two adjacent voltage levels, with both boost and buck modes. In boost mode, the voltage and 4x current will be converted to a higher voltage and 1x current, and vice versa in buck mode."
+				""
+				"There are four types of transformers: ordinary, advanced, high-current and high-energy transformers. The ordinary transformer is 1A<-->4A, the advanced transformer is 2A<-->8A, the high-current transformer is 4A<-->16A, and the high-energy transformer is 16A<-->64A. The red side of the transformer corresponds to low voltage, and the green side corresponds to high voltage."
+				""
+				"The multi-block machine active transformer unlocked in the LuV stage can support the conversion between any voltage and any current, automatically boost/step down the voltage, and can replace all ordinary transformers in high voltage and high current environments in the middle and later stages."
+				""
+				"But the real purpose of the active is to bend the laser."
+			]
+			icon: "gtceu:active_transformer"
+			id: "010CF028448C17A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A16989AB32BFB97"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "311562AB006A065E"
+				title: "transformer"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The wireless network here has been established from the moment you enter the archive, and has&dunlimited capacity &r,&bwithout energy loss &r, and can even&6transmit power across latitudes &r"
+				""
+				"It can interact with the wireless network through the wireless energy covering board, wireless energy/power bin, wireless laser target/source bin, wireless energy interface and power generation array"
+				""
+				"Wireless energy monitor can monitor the specifics of wireless networks"
+			]
+			icon: "gtmthings:wireless_energy_monitor"
+			id: "1D4874CA93B567A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A8C9AC81599146F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "673111C64F7BABA2"
+				type: "checkmark"
+			}]
+			title: "radio network"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Is the EU/t provided to the multi-block structure greater than the EU/t provided to the recipe?"
+				"Has the maintenance warehouse been maintained?"
+				"Are any special requirements that may be met?"
+				"Are items and fluids correctly entered into the bus/bin/product?"
+				"Is the output space large enough?"
+				"Is the muffler chamber facing the air block?"
+				"Maybe a multi-block structure has been formed, but you forgot about a bin."
+			]
+			icon: "gtceu:maintenance_hatch"
+			id: "498CB29FA7447C46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C362D7D07573B39"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "44CA2F43F475CFD9"
+				title: "Reason for not working"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"What is the impact of an electric blast furnace melting items at a certain temperature? Each electric blast furnace recipe has a specific base temperature. For example, aluminum is smelted at 1700K. If the temperature is not high enough, the recipe will not be executed. If the temperature is high enough, the time consumption will be reduced."
+				""
+				"The temperature mainly depends on the coil grade used, but beyond that there is a 100K increase in temperature for each voltage grade starting from HV. This means that at some point it is possible to use a lower stage coil with a high enough voltage to run certain recipes that would appear to only be possible with a higher stage coil."
+			]
+			icon: "kubejs:uruium_coil_block"
+			id: "2205C5F410B9C4DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502F72B2B473E1F5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "50F636D9BF4F6025"
+				title: "Coil"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Multi-block structures are checked to see if they have sufficient power before working."
+				""
+				"The power consumed by multiple blocks is the sum of all energy bins."
+				""
+				"For example, electricity requires a power input of at least 120EU/t to run its recipe. This can be achieved through two LV energy bins. Each bin requires 2 amps of LV, so a total of 4 amps of LV are needed to achieve a maximum power of 128EU/t. That is,&bdouble warehouse boost &r."
+				"This allows low voltage levels to process high voltage level recipes. Note that this can only be achieved in adjacent voltages, that is,&6can only boost&ronce, and two&renergy bins&band&rmust be used."
+			]
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "0BADECF30AC0BAC4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E4F322748AB8F3B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23E71635D04A5A77"
+				title: "powered by"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"This is the key to the input and output of multi-block structures. More advanced buses/bins/assemblies will provide more space."
+				""
+				"The bus/bin/assembly also comes with&dautomatic input and output&rfunctions, which can be controlled by switches."
+			]
+			icon: "gtceu:lv_input_bus"
+			id: "5DB8BE71B3733C36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3100FD76AEA9BF1D"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "35761A42191E549C"
+				title: "bus/bin"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"When 16 LV machines are run simultaneously, the power is equal to that of one HV machine, but the speed is four times that of one HV machine. This is because the 16 LV machines did not suffer losses caused by lossy overclocking. causing it to do it faster at a lower speed."
+				""
+				"The parallelism of multi-block structures is a similar concept. Simply put, parallelism is an alternative form of lossless overclocking."
+				"{@pagebreak}"
+				"Sub-tick parallelism (1toc) is a mechanism that is triggered when some multi-block structures take less than 1 game tick to process a single recipe."
+				""
+				"All single block machines and cross-recipe parallel machines will not trigger 1toc."
+				""
+				"Example 1: When a multi-block machine with voltage levelLuVtakes exactly 1 game tick to process recipes with voltage level IV, the machine will process 2 recipes per game tick. If the voltage level of the machine is one level higher (reachingZPMlevel), it will process 4 recipes per game tick; if the machine has a lossless overclocking mechanism (such as a large chemical reactor), it will process 4 recipes per game tick respectively atLuVand LuV.ZPMlevel processes 4 and 16 recipes in parallel."
+				""
+				"Example 2: For a recipe that takes 3 game ticks and the recipe is lossless overclocking (the time taken for each overclocking level is reduced to 1/4 of the original, and the total energy consumption remains unchanged), after one level of overclocking, 4 recipes will be processed at the same time, but the time is still 3 game ticks."
+				""
+				"In fact, there is a difference between \"lossy 1toc\" and \"lossless 1toc\". The above example is only for reference."
+				"{@pagebreak}"
+				"Cross-recipe parallelism is a mechanism exclusive to some multi-block machines, which allows the machine to execute multiple different recipes in the same machine mode at the same time."
+				""
+				"Correspondingly, the lower limit of recipe time for all machines with cross-recipe parallelism is 1 second."
+				""
+				"Example: The Holy Separator can make silver rods and iron rods at the same time, but cannot centrifuge air and make iron rods at the same time."
+				""
+				"\"Threads\" is a unique attribute of machines with cross-recipe parallelism (all have 64 threads). The total parallel number of a cross-recipe parallel machine is the number of threads multiplied by the parallel number of the machine itself. The number of threads represents the maximum number of recipes that the total parallel number can be allocated to. Note: The cross-recipe parallel machine will try its best to allocate all total parallelism to a recipe."
+			]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "6F503441C24ABD5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E0EC544E98C754A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B1CC517916931AB"
+				title: "parallel"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&7front side&rshould be obvious,&9output side&ris the side with the dots or holes, by default this is the back side when you place the machine."
+				""
+				"Machines can perform&aautomatic output via their output surfaces. To enable automatic output, click the corresponding button in the GUI. The automatic output of fluids and items is toggled separately. The automatic output can be further controlled through the&doverlay plate &r."
+				""
+				"Use the&5wrench&rto right-click the machine to change the output side, and shift-right-click to change the front."
+				""
+				"By default, items and fluids cannot be inserted through the output side, but this can be switched using the&5screwdriver &r, by right-clicking directly on the output side, or shift-right-clicking on the mesh corresponding to the output side."
+				""
+				"There are some unique machines that do not handle recipes, such as&3pump &r,&3mining machine &r,&3fishing machine &r,&3item collector &r, etc., these machines will output&ron their&7front (still marked as points)."
+			]
+			icon: "minecraft:hopper"
+			id: "2B1992E2158E63A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62C179D18C16AA1C"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A68620AD827B0E5"
+				title: "Machine logistics"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"When the machine mode is switched while the machine is running, the machine will try to continue running the recipe before the switch. Only by reshaping or refreshing the input material can the machine change the operating mode."
+				""
+				"Example 1: A large fractional distillation plant runs the distilled water recipe in distillation column mode. The distillation column recipe is still executed after switching to distillation chamber mode."
+				""
+				"Example 2: A large brewery runs the potato + water → biomass formula in brewing room mode. After switching to fermenter mode, it will not switch to the potato → poisonous potato formula."
+				""
+				"Example 3: When the space elevator acquisition module runs the mining recipe, it switches to the mining fluid mode and still mines."
+				"{@pagebreak}"
+				"In JEI, you will find that the tooltip of some probability-related materials/products has \"voltage bonus: +n%/per level\", where the specific value of \"per level\" is the maximum recipe voltage level of the machine itself minus the minimum voltage level of the recipe itself."
+			]
+			icon: "gtceu:large_assembler"
+			id: "662FE1772CF9B5ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33BEAF2D985838CE"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4807FB6A36F025EC"
+				title: "other"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "31948E4773266CF2"
+			optional: true
+			rewards: [{
+				command: "/toggleGodPath"
+				id: "7552789F298CDFD1"
+				title: "The Path of the False God Debugging"
+				type: "command"
+			}]
+			secret: true
+			tasks: [{
+				id: "3DFB1E0CAA81608E"
+				item: "minecraft:light"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+	]
+	title: "Tips and Tricks"
+}

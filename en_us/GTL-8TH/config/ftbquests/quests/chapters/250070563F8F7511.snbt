@@ -1,0 +1,927 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "250070563F8F7511"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "250070563F8F7511"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"25A6B2F421327892"
+				"4F864738509B6DCA"
+				"4536535E8DA71D5B"
+				"575A2A1E4F56FF34"
+				"27695F7273E7F69D"
+				"516564DCEA7FA80B"
+				"2BFFB6D14D698DF4"
+				"0F4AFDE98CEA87B1"
+				"13371F3E8D27310F"
+				"1D93602C5835593F"
+				"3F8DDC1B589F52AC"
+			]
+			description: ["Before you start, you need to go through all the prerequisite tasks (see them in the top left corner)."]
+			icon: "minecraft:grass_block"
+			icon_scale: 2.0d
+			id: "075D368E91231337"
+			rewards: [
+				{
+					id: "2CF9C7981E9F7DE5"
+					item: {
+						Count: 1
+						id: "ae2:fluix_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+							]
+							RepairCost: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AFEC89A5F1B7FA6"
+					item: {
+						Count: 1
+						id: "ae2:fluix_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "to start"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"By default, &6M &ropens the map. Press &6T &rto teleport to the location pointed to by the mouse. Click the globe icon in the bottom left corner to change dimensions."
+				""
+				"You can claim and force load chunks in the top left corner of the interface (claimed chunks can be explosion-proof). If you are on a server, set &6forced load mode &rin the server settings (purple gear) of the ftb chunk to &balways &rto allow the server to load force loaded chunks even if no one is online."
+				""
+				"Press and hold the &6~ &rkeys to activate the chain"
+				""
+				"In the upper right corner of the task interface, click the third button from the top to view the shortcut keys in the task interface."
+				""
+				"Type /sethome \"name\" to set the teleportation point, type /home \"corresponding name\" to teleport to the corresponding teleportation point"
+				""
+				"The file backup can be found in the backup folder of the game's root directory. Type /backup start to perform a backup immediately."
+				""
+				"Flight inertia is disabled by default and can be changed in the gtlcore configuration file"
+				""
+				"If the GregTech version does not match when online, make sure the configuration files on the server and client are consistent."
+				""
+				"More tips can be found in the chapter group &dTips and Tricks &r"
+			]
+			hide_dependent_lines: true
+			icon: "ftbquests:book"
+			id: "4F864738509B6DCA"
+			rewards: [{
+				id: "723CCD5BBA07EEDA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177349E6447C2C3A"
+				title: "Other tips"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"This mission contains some important information during the game."
+				""
+				"This set of quests is designed to guide you through key milestones in GregTech's progression."
+				""
+				"It is recommended to play in Peaceful mode, as hostile mobs bring little benefit."
+				""
+				"You can use map teleportation, adjust game rules, etc. as you see fit."
+				""
+				"{\"text\":\"The most important thing is that GregTech will have very complex recipes and you need to be proficient in using JEI first.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"575A2A1E4F56FF34\"}}"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:command_block_minecart"
+			id: "25A6B2F421327892"
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Before playing"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"A casual-focused GregTech onboarding package (casual is less difficult than other Graytech packages)"
+				""
+				"Main process"
+				"Steam &8ULV &r: Collect basic resources, larger and more powerful steam engines, ironworks, and ultra-dimensional earth forges."
+				"Low voltage &7LV &r: basic electrical machine, electric blast furnace."
+				"Medium Voltage &bMV &r: Silicon Crystal, Petroleum Processing, Upgraded Machines."
+				"High voltage &6HV &r: processor, large chemical reactor, first stage rocket to the moon, distillation tower, titanium."
+				"Ultra-high pressure &5EV &r: nanoprocessor, empty mining machine, second, third and fourth stage rocket, tungsten, platinum series metals."
+				"Strong pressure guidance &9IV &r: quantum processor, alloy smelting furnace, fission reactor, fifth stage rocket, large machine, assembly line, database."
+				"Dramatic differential pressure &dLuV &r: crystal processor, silica, sixth stage rocket, MK1 nuclear fusion, computer."
+				"Zero point pressure &cZPM &r: wetware processor, MK2 nuclear fusion, seventh stage rocket."
+				"Extreme Pressure &3UV &r: Bioactive Processor, MK3 Nuclear Fusion, Deep Chemical Twister, Circuit Assembly Line, Space Elevator."
+				"Extremely high pressure &4UHV &r: optical processor, MK4 nuclear fusion, star forge, super silica bomb, super reactor."
+				"Extreme Overpressure &aUEV &r: Strange Processor, Fusion MK5, Supercritical Synthesis, Rock Processing, Adamantite."
+				"Extreme pressure &2UIV &r: Universal processor, cosmic detection, mass generator, quarks, superheavy elements."
+				"Extreme Pressure &eUXV &r: Paracausal Processor, Dragon, Cosmic Neutronium, Infinity, Ultradimensional Plasma Forge, X-Side."
+				"Overload voltage &1OpV &r: Hyperspace-time circuit, universe simulation, space-time, singularity, eternity."
+				"Upper limit pressure &cMAX &r: Create item overview."
+				"Additional question &cM &r&aA &r&9X &r&e+ &r: The fish is big."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:structure_void"
+			id: "4536535E8DA71D5B"
+			min_width: 350
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "About the content"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["07AC1B02299EF734"]
+			icon: {
+				Count: 1
+				id: "avaritia:infinity_pickaxe"
+				tag: { }
+			}
+			id: "2DC6C5D7DDA578F7"
+			optional: true
+			rewards: [
+				{
+					id: "3E3948D90F34D5D0"
+					item: {
+						Count: 1
+						id: "gtceu:echoite_vajra"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								HarvestLevel: 6
+								MaxDamage: 63
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C9191D785999C2E"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4D282505E5CCCBA0"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "5347855ACD02CCBD"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "2EA6F783BA516FB4"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "7F21F6FD64206149"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					id: "6DA2B9240B91AFA5"
+					item: {
+						Count: 1
+						id: "toolbelt:belt"
+						tag: {
+							Size: 9
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05223A175AE725A8"
+				type: "checkmark"
+			}]
+			title: "equipamento"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"Right-clicking Obsidian with bare hands can go to the empty world. Crying Obsidian can go to the superflat world. The X and Z coordinates are transferred to the main world coordinate x100."
+				"(Some strange distance phenomena will occur if you are too far from (0, ~, 0). It is recommended to avoid this situation)"
+				""
+				"The Void and Super Flat worlds are time-locked, will not spawn monsters, and will not rain (but will still be affected by the weather in the main world, like the Void and Super Flat worlds will be cloudy when it rains in the main world), with a height limit of 511"
+				""
+				"GT's solar equipment doesn't work here"
+			]
+			icon: "minecraft:obsidian"
+			id: "07AC1B02299EF734"
+			optional: true
+			rewards: [
+				{
+					id: "29C2D0C50033539C"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EC17DCD4A7DF139"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "4FAF4CE9DB085C12"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "2886B347BD9A06B9"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 648
+					id: "554B8648D55DCF6A"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
+			title: "You can go to the empty world to build a base"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: ["Component in ME unit"]
+			icon: "gtlcore:infinite_cell_component"
+			id: "7198356C944E053A"
+			optional: true
+			rewards: [{
+				id: "1EA9D42E4CCD9B57"
+				item: "gtlcore:fast_infinity_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65DA7608DE5FA521"
+				type: "checkmark"
+			}]
+			title: "super storage"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Move the mouse to an item! (Backpack, search bar on the right, in jei)"
+				"Press &6R &rto view &bto synthesize &r!!!"
+				"Press &6U &rto see &buses &r!!!"
+				""
+				"After opening the interface, there are two lines with arrows."
+				"The first row and top icon can switch synthesis tools (click the text in this row to view all synthesis tables this way)"
+				"The second line can be rotated (many items have a large number of synthesis methods, please browse carefully)"
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:rotating_transparent_surface"
+			id: "575A2A1E4F56FF34"
+			rewards: [{
+				id: "15C84CB4A92064A2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076E6DC515FD655D"
+				title: "Introduction to JEI"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This is bad news, you have come to a fragmented world,"
+				"This world is not complete, it has become fragments."
+				"But I left you some goodies that will help you continue your journey."
+				"Keep them, &l&d&oEveryone is needed!!! &r&r&r"
+				""
+				"Necessary Tips:"
+				"What is that! Sky island mode!"
+				"Only if you choose &bSky Island &rwhen creating the world"
+				"This task can be performed"
+				"You need to click &bmodule &rin the game menu interface,"
+				"Search for &bgtlcore &r, click &bto configure &r,"
+				"Change the setting of &bairland mode &rfrom &bfalse &rto &btrue &r"
+				"After completing the above steps, &6restart the &rgame. The configuration content does not support hot reloading."
+				"This is how you really get into island mode. If you want to try normal mode, just go back to normal mode and create a new save file."
+				"See the next page for the sky island version server setup process."
+				""
+				"{ image:ftbquests:textures/picture/002.png width:320 height:200 align:center }"
+				"{@pagebreak}"
+				"If you want to open an island version of the server"
+				"you need to modify"
+				""
+				"In config/gtlcore.yaml"
+				"enableSkyBlokeMode changed to true"
+				""
+				"in server.properties"
+				"Change the level type to skyblockbuilder\\:skyblock"
+				""
+				"And I suggest you take a look at the skyblock builder wiki"
+				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
+				"to learn about the relevant instructions"
+			]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_overworld"
+			id: "0F4AFDE98CEA87B1"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					id: "0AFB0CC841A156B2"
+					item: "gtlcore:world_fragments_overworld"
+					type: "item"
+				}
+				{
+					id: "285D7D67FB3DA012"
+					item: "gtlcore:mining_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A06BA0AE4BD3DB9"
+				type: "checkmark"
+			}]
+			title: "Sky island mode"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: [
+				"Exquisite Series Backpack Case"
+				"Very useful in the initial phase"
+				""
+				"(It is recommended to use AE after launching AE)"
+			]
+			icon: "sophisticatedbackpacks:netherite_backpack"
+			id: "75E8F87D6035DB24"
+			optional: true
+			rewards: [
+				{
+					id: "1F70DA6680CCF39C"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "158E51278C35D758"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "4664CB16D774EB1A"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "1FC671AA05297C53"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "318F591A17C996AE"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+				{
+					id: "3E036F7F08C9B5BF"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "578C38125F51FC26"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "3FFCFB24B2364E2E"
+					item: "sophisticatedbackpacks:advanced_restock_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19EB182CE9C99809"
+				type: "checkmark"
+			}]
+			title: "Exquisite series"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: ["Easily travel between cables"]
+			icon: {
+				Count: 1
+				id: "shrink:shrinking_device"
+				tag: { }
+			}
+			id: "4DFDDE01DF6D6763"
+			optional: true
+			rewards: [{
+				id: "58A68342A1AF7C02"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: {
+						Energy: 100000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "451B93E756FDED48"
+				title: "personal zoom device"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: [
+				"You can sneak and right-click the AE wireless access point &6&rto connect to the ME network (you can also place it directly), directly calling the ME network inventory items"
+				""
+				"When using the shear tool, try not to rotate &c, otherwise part of the block will be lost."
+				""
+				"Wireless power/energy/laser stores placed/copied directly using these tools need to be manually linked to the wireless network by right-clicking on the flash memory, otherwise these stores will not interact with the wireless network (i.e. unpowered or fully charged)"
+			]
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_copy_paste"
+				tag: { }
+			}
+			id: "4B7B7EA38B836F96"
+			optional: true
+			rewards: [
+				{
+					id: "129145AE2D5F717B"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D25323AB959BB72"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							energy: 2147483647
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47615B2849B4F6DB"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE30080CFCFAEE8"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C69CAC34076230"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "These tools are very useful"
+			tasks: [{
+				id: "1B08CDBB964E1058"
+				type: "checkmark"
+			}]
+			title: "Construction helper"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{\"text\":\"You should already know how to use it\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"262671AC71B36736\"}}"
+				"{@pagebreak}"
+				"May cause accident"
+			]
+			hide_dependent_lines: true
+			icon: "gtlcore:structure_detect"
+			id: "1D93602C5835593F"
+			optional: true
+			rewards: [
+				{
+					id: "0ECF96D85FE8AB8F"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "70DA542B8A7D700B"
+					item: "gtlcore:structure_detect"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "61961A7BA63BFAA3"
+				title: "Structural Inspection Tools"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&6bus isolation"
+				""
+				"Note: When full isolation is enabled, &dwill cover the &risolation of all assemblies, that is, each assembly is in an object and fluid isolation state."
+				"{@pagebreak}"
+				"If you upgraded from an old version, remove all input assemblies and put them back in, otherwise isolation may fail."
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:nan_certificate"
+			id: "27695F7273E7F69D"
+			rewards: [{
+				id: "628D529481945AFD"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "460C0F7BD66FE0BF"
+				type: "checkmark"
+			}]
+			title: "Warehouse Isolation User Guide"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Performance monitor monitors delays caused by all machines"
+				""
+				"You can enter /forge tps to check the game lag. It's best to make sure the tps is always at 20"
+				""
+				"The following things could be the cause of the delay:"
+				""
+				"Build everything in a small space. This will not affect the tps, but it will cause the fps to drop."
+				""
+				"Input and output buses are widely used in the network. It is recommended to use the ME interface."
+				""
+				"Place multiple orders for small quantities of items to be shipped. It is recommended to reduce the number of CPU parallels and expand the multiple model."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:data_stick"
+				tag: { }
+			}
+			id: "516564DCEA7FA80B"
+			rewards: [{
+				id: "3C4B05D0EC67442D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0716704AAA0124C9"
+				type: "checkmark"
+			}]
+			title: "If you feel stuck"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"It can be charged in the charging slot of small devices, battery cases, AE chargers, etc."
+				""
+				"You can also grab a charged battery while sneaking and right-click to activate energy release mode to charge other items in the inventory (the zero point module is also a battery)"
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:create_ultimate_battery"
+			id: "2BFFB6D14D698DF4"
+			rewards: [{
+				id: "616BAA1A44B90CC0"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0926D0067A359CF4"
+				type: "checkmark"
+			}]
+			title: "How to charge items"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			description: ["{\"text\":\"You should already know how to use it\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"516564DCEA7FA80B\"}}"]
+			hide_dependent_lines: true
+			icon: "gtceu:performance_monitor"
+			id: "13371F3E8D27310F"
+			optional: true
+			rewards: [
+				{
+					id: "487A6B2627D887C1"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "4387EBD604890CA3"
+					item: "gtceu:performance_monitor"
+					type: "item"
+				}
+				{
+					id: "6445A94764CC8C04"
+					item: "gtmthings:wireless_energy_monitor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CA2929A0F6D9709"
+				title: "monitor"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Based on the advanced terminal, it supports &bto replace &rcoil, space elevator power module, component assembly line shell and star thermal container (click the \"Level block\" text with the mouse to open the level block selection interface)"
+				""
+				"It also supports &bmultiblock structure &rmirror positioning. Tubeless mode will remain in effect and you will even be able to put fluids in (identify the bucket of fluid on your body, the bucket of whales in the ocean, and the fluid in the ME network)"
+				""
+				"At the same time, it supports linking &bto AE &r, directly extracting materials from the ME lattice to build a multi-block structure (stealthy right-click to link any component in the ME lattice; direct cross dimension is not supported, and the same ME lattice component needs to exist in both dimensions)"
+				""
+				"It also supports one-click disassembly of &dfrom the &rmulti-block structure (activate AE mode to directly return to the ME network. When not turned on, it is recommended to carry a backpack and other containers; only AE mode can recycle fluid)"
+			]
+			hide_dependent_lines: true
+			icon: "gtlcore:ultimate_terminal"
+			id: "3F8DDC1B589F52AC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59FDA77962C18357"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "240EDABCD5BFA492"
+					item: "gtlcore:ultimate_terminal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A854BD32D79478B"
+				type: "checkmark"
+			}]
+			title: "final terminal"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			icon: "travelanchors:travel_staff"
+			id: "0D88EB28EF0A182C"
+			optional: true
+			rewards: [
+				{
+					id: "4B6CAC74CE9CA489"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B8694FF9F4587D8"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4502F7A7E7B9C5ED"
+				title: "travel scepter"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["07AC1B02299EF734"]
+			icon: "gtladditions:macro_atomic_resonant_fragment_stripper"
+			id: "7BE76F588F45CD8D"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "5DCBCB0FBEE25481"
+					item: "gtlcore:world_fragments_overworld"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "360E189FC56A70B6"
+					item: "gtlcore:world_fragments_nether"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "257F6AC355598300"
+					item: "gtlcore:world_fragments_end"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4F22DF6A65527116"
+					item: "gtlcore:world_fragments_reactor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "382A1021836BBE26"
+					item: "gtlcore:world_fragments_moon"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CBB85937E7F837C"
+					item: "gtlcore:world_fragments_mars"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5F403A46E00053A6"
+					item: "gtlcore:world_fragments_venus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24F0A7BB0801BE6F"
+					item: "gtlcore:world_fragments_mercury"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "27F5284043A32401"
+					item: "gtlcore:world_fragments_ceres"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D7E77629698E0E0"
+					item: "gtlcore:world_fragments_io"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "536BFFCA6AF63BF4"
+					item: "gtlcore:world_fragments_ganymede"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "618B62B311380E7C"
+					item: "gtlcore:world_fragments_pluto"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D0E1C5F341F1131"
+					item: "gtlcore:world_fragments_enceladus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "734DE1F25EF701D2"
+					item: "gtlcore:world_fragments_titan"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7E48CA73577E5652"
+					item: "gtlcore:world_fragments_glacio"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D2D0FC9B19A6A3A"
+					item: "gtlcore:world_fragments_barnarda"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "72EEA374D314316F"
+					item: "gtceu:ulv_fragment_world_collection_machine"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7B132822ED9F16FC"
+					item: "gtceu:ulv_solar_panel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CCDF824BAF79A29"
+				title: "Where does the ore come from?"
+				type: "checkmark"
+			}]
+			title: "sky island"
+			x: -4.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Level 0-Stone Age"]
+	title: "start from here"
+}

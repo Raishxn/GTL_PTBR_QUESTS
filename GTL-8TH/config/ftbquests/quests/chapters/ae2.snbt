@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "24F4987B35ABEE82"
+	icon: "ae2:controller"
+	id: "6980669C5265DA02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["O número máximo de solicitações aumentou para &d15 dígitos&r"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [{
+				id: "65093F52636EB9D4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C01B0FEAADE8281"
+				title: "solicitante de mim"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"O padrão aqui é &d canal ilimitado &r, por motivos de desempenho &e removeu a receita de síntese do controlador ME &r"
+				"{@pagebreak}"
+				"&m Na verdade, a Fish Making Conference lhe dará um controlador &r"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [{
+				id: "28E44D4CB84273F4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Por que o controlador ME não pode ser sintetizado?"
+			tasks: [{
+				id: "777CFBC4F54FBCE9"
+				title: "canal"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["A velocidade de transmissão básica é aprimorada para &b64*int level&r"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [{
+				id: "1B45E4F32729CBAA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF437FD2CAA4A4C"
+				title: "Porta de expansão IO"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&8 mid-ULV &r desbloqueia armazenamento e logística de AE"
+				"&bEarly MV&r Pedido de desbloqueio e cartão de atualização (básico)"
+				"&bFim do MV&r Desbloquear cartão de atualização (avançado)"
+				"&6HV end&r Desbloquear AE sem fio"
+				"&dEV Beginning&rDesbloqueia a criação de componentes de energia e matrizes de montagem"
+			]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [{
+				id: "7BAB47A6F79DA3F0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E327F3A46D8F21"
+				title: "Sobre o estágio correspondente"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"A capacidade infinita do componente água/paralelepípedos aumentou para &d9.22P/E&r"
+				"{@pagebreak}"
+				"A criação de discos também foi aprimorada"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [{
+				id: "0063B8E8FAFA7D3F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2777F734BD4F5C"
+				title: "componentes infinitos"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"O tipo de armazenamento é o padrão &d 4 vezes &r, que pode ser ajustado no arquivo de configuração do gltcore"
+				""
+				"Ao mesmo tempo, o intervalo de atualização do inventário do AE pode ser ajustado no arquivo de configuração gtlcore."
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [{
+				id: "5D236A4D2FF670E5"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550042261D7CDFD8"
+				title: "disco"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["O número de slots para o provedor de modelo de expansão &b &r pode ser ajustado no arquivo de configuração &6gtlcore &r"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [{
+				id: "5E1211C813682438"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E27D16F8CFDACB4"
+				title: "Provedor de modelo estendido"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["A capacidade básica de cada rede é aumentada para &bint level&r"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [{
+				id: "18A0469DB87BA283"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042A7D3DB05154B7"
+				title: "Interface EU"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Pode ser duplicado diretamente durante a codificação (apenas para processamento de modelos)"
+				""
+				"Ao codificar, o limite superior de entrada é ajustado para &b2^31-1&r, e o valor máximo pode ser &b9.22E/P ao usar a função de duplicação."
+				""
+				"Quando o modelo em branco acabar, &6 chamará automaticamente &r para preencher o modelo em branco na rede ME."
+				""
+				"Ao escrever um modelo com uma estrutura multibloco, você pode &b filtrar automaticamente certos blocos &r (especificamente visualizá-lo e modificá-lo na configuração do gtlcore e determinar se deseja filtrar com base no fato de o ID do bloco conter a string na lista). Após fazer o pedido, &6 cancelará automaticamente &r o pedido específico (ou seja, o pedido onde o produto é &d e está escrito &r)"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [{
+				id: "1F4ED17AAA95E860"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AFFE5DA6C9DF13"
+				type: "checkmark"
+			}]
+			title: "Codificação padrão relacionada"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"O cálculo sintético é habilitado por padrão &6UlTRA FAST mode &r, que pode ser ajustado no arquivo de configuração gtlcore"
+				""
+				"Ao mesmo tempo, o intervalo de atualização de síntese do AE pode ser ajustado no arquivo de configuração gtlcore."
+				""
+				"A interface de confirmação de síntese adiciona o número de rodadas de síntese (número de distribuições) e a porcentagem de itens usados ​​no inventário."
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [{
+				id: "203D454048007BE3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2E7DAA9A528870"
+				type: "checkmark"
+			}]
+			title: "Síntese de pedidos relacionada"
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "Ajustes AE2"
+}

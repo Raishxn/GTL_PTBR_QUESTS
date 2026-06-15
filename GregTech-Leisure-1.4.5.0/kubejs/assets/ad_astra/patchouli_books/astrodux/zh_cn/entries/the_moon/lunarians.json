@@ -1,0 +1,36 @@
+{
+  "name": "aldeões lunares",
+  "icon": "ad_astra:moon_stone_bricks",
+  "sortnum": 5,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "aldeões lunares",
+      "item": "ad_astra:moon_stone_bricks",
+      "text": "Existem inúmeras aldeias subterrâneas espalhadas pela lua, e os aldeões lunares entre eles se autodenominam “Lunários”. Ao contrário dos aldeões que conhecemos que vivem na Terra, os aldeões lunares não precisam respirar oxigênio e podem sobreviver no frio intenso da lua."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:lunarian",
+      "default_rotation": 45
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Os aldeões da Lua comercializam muitos produtos novos, incluindo materiais especiais de seu planeta, trajes espaciais e vários equipamentos de oxigênio."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Mercador Errante da Lua",
+      "item": "ad_astra:lunarian_wandering_trader_spawn_egg",
+      "text": "Comerciantes Lunares Errantes aparecem em todos os planetas e em suas luas. Muitas de suas cargas são necessárias para viagens interestelares que podem salvar sua vida: plataformas de lançamento, oxigênio, combustível, iluminação e água. Eles usam esmeraldas como moeda, que são frequentemente encontradas em tesouros relíquias em vários planetas."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Mercador Errante da Lua",
+      "entity": "ad_astra:lunarian_wandering_trader",
+      "default_rotation": 45,
+      "scale": 0.8
+    }
+  ]
+}

@@ -1,0 +1,2529 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "250070563F8F7511"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "250070563F8F7511"
+	order_index: 0
+	quest_links: [
+		{
+			id: "1FBD237DE0BEF3AF"
+			linked_quest: "262671AC71B36736"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			id: "5BAA553E95FFD418"
+			linked_quest: "124EE416D53264B8"
+			x: -7.0d
+			y: -0.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"25A6B2F421327892"
+				"4F864738509B6DCA"
+				"4536535E8DA71D5B"
+				"575A2A1E4F56FF34"
+				"27695F7273E7F69D"
+				"516564DCEA7FA80B"
+				"2BFFB6D14D698DF4"
+				"124EE416D53264B8"
+				"262671AC71B36736"
+			]
+			description: ["Before you start, you need to go through all the prerequisite tasks (see them in the top left corner)."]
+			icon: "minecraft:grass_block"
+			icon_scale: 2.0d
+			id: "075D368E91231337"
+			rewards: [
+				{
+					id: "2CF9C7981E9F7DE5"
+					item: {
+						Count: 1
+						id: "ae2:fluix_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+							]
+							RepairCost: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "36B4CF4D8F7CFC86"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "to start"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The default is &6M &rto open the map. Press &6T &rto teleport to the location pointed to by the mouse. Click the globe icon in the bottom left corner to change dimensions."
+				""
+				"You can claim and load blocks in the top left corner of the interface (claimed blocks can be explosion-proof). If you are on a server, set the forced loading mode &6&rin the server settings (purple gear) of the ftb chunk to &balways &r, which allows the server to load force loaded blocks even if no one is online."
+				""
+				"Press and hold the &6~ &rkeys to activate the chain"
+				""
+				"In the upper right corner of the task interface, click the third button from the top to view the shortcut keys in the task interface."
+				""
+				"Type /sethome \"name\" to set the teleportation point, type /home \"corresponding name\" to teleport to the corresponding teleportation point"
+				""
+				"The file backup can be found in the backup folder of the game's root directory. Type /backup start to perform a backup immediately."
+				""
+				"Flight inertia is disabled by default and can be changed in the gtlcore configuration file"
+				""
+				"If the GregTech version does not match when online, make sure the configuration files on the server and client are consistent."
+				""
+				"More tips can be found in the &d&rTips and Tricks chapter group"
+			]
+			hide_dependent_lines: true
+			icon: "ftbquests:book"
+			id: "4F864738509B6DCA"
+			rewards: [{
+				id: "723CCD5BBA07EEDA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177349E6447C2C3A"
+				title: "Other tips"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"This mission contains some important information during the game."
+				""
+				"This set of quests is designed to guide you through key milestones in GregTech's progression."
+				""
+				"It is recommended to play in Peaceful mode, as hostile mobs bring little benefit."
+				""
+				"You can use map teleportation, adjust game rules, etc. as you see fit."
+				""
+				"{\"text\":\"The most important thing is that GregTech will have very complex recipes and you need to be proficient in using JEI first.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"575A2A1E4F56FF34\"}}"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:command_block_minecart"
+			id: "25A6B2F421327892"
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Before playing"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"A casual-focused GregTech onboarding package (casual is less difficult than other Graytech packages)"
+				""
+				"Main process"
+				"Steam &8ULV &r: Collect basic resources, larger and more powerful steam engines, ironworks, and ultra-dimensional earth forges."
+				"Low voltage &7LV &r: basic electrical machine, electric blast furnace."
+				"Medium Voltage &bMV &r: Silicon Crystal, Petroleum Processing, Upgraded Machine."
+				"High voltage &6HV &r: processor, large chemical reactor, first stage rocket to the moon, distillation tower, titanium."
+				"Ultra-high voltage &5EV &r: Nanoprocessor, empty mining machine, second, third and fourth stage rocket, tungsten, platinum series metals."
+				"Strong Pressure Guide &9IV &r: Quantum processor, alloy smelting furnace, fission reactor, fifth stage rocket, large machine, assembly line, database."
+				"Dramatic differential pressure &dLuV &r: crystal processor, silica, sixth stage rocket, MK1 nuclear fusion, computer."
+				"Zero point pressure &cZPM &r: wetware processor, MK2 nuclear fusion, seventh stage rocket."
+				"Extreme Pressure &3UV &r: Biologically active processor, MK3 nuclear fusion, deep chemical twister, circuit assembly line, space elevator."
+				"Extremely high pressure &4UHV &r: optical processor, MK4 nuclear fusion, star forge, super silica bomb, super reactor."
+				"Extreme Overpressure &aUEV &r: Strange Processor, Fusion MK5, Supercritical Synthesis, Bedrock Processing, Adamantite."
+				"Extreme pressure &2UIV &r: Universal processor, cosmic detection, mass generator, quarks, superheavy elements."
+				"Extremely High Pressure &eUXV &r: Super Causal Processor, Dragon, Cosmic Neutron, Infinity, Ultra-Dimensional Plasma Forge, X-Side."
+				"Overload voltage &1OpV &r: Hyper-time and space circuit, simulation of universe, time and space, singularity, eternity."
+				"Upper limit pressure &cMAX &r: Create item crafting."
+				"Additional question &cM &r&aA &r&9X &r&e+ &r: The fish is big."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:structure_void"
+			id: "4536535E8DA71D5B"
+			min_width: 350
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "About the content"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"It goes without saying how to achieve this."
+				""
+				"This quest will give you a prospector. You can switch modes by right-clicking in stealth mode. Fluid mode is not yet available."
+				""
+				"If you enable cheating, click anywhere on the prospector interface to transfer directly (the interface will not update in real time)"
+			]
+			id: "77DF4A561164B530"
+			rewards: [{
+				id: "624C887B89A0A253"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.luv"
+					tag: {
+						Charge: 1000000000L
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF3F7FDB78E5053"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77DF4A561164B530"]
+			description: ["Stone Age"]
+			icon: "minecraft:cobblestone"
+			id: "2DC6C5D7DDA578F7"
+			rewards: [{
+				count: 10
+				id: "26CD53567ABEF77A"
+				item: {
+					Count: 1
+					id: "ae2:fluix_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}
+						]
+						RepairCost: 3
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "426437E5876CC96A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Get cobblestones"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DC6C5D7DDA578F7"]
+			description: ["Blast furnace is faster"]
+			id: "0EA3AAE338C0FE7A"
+			rewards: [{
+				count: 8
+				id: "6BBB541521787C80"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04BF77BE023E656F"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -3.2d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77DF4A561164B530"]
+			description: ["You don't have to worry about the dark anymore"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+			id: "525ED642C7A365D1"
+			optional: true
+			rewards: [
+				{
+					command: "/effect give @p minecraft:night_vision infinite 0 true"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "gtceu:nightvision_goggles"
+						tag: { }
+					}
+					id: "08BEFC60D3DA3529"
+					title: "see through the darkness"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/effect clear @p minecraft:night_vision"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "gtceu:milk_bucket"
+					id: "53A6BC3530F811BE"
+					silent: true
+					title: "Automatically clear the original night vision effect to avoid bugs, just ignore it"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0F388023136A8A7C"
+				title: "Get night vision"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77DF4A561164B530"]
+			description: [
+				"Right-clicking Obsidian with bare hands can go to the empty world. Crying Obsidian can go to the superflat world. The X and Z coordinates are transferred to the main world coordinates x100."
+				"(Some strange distance phenomena will occur if you are too far from (0, ~, 0). It is recommended to avoid this situation)"
+				""
+				"The Void and Super Flat worlds are time-locked, will not spawn monsters, and will not rain (but will still be affected by the weather in the main world, like the Void and Super Flat worlds will be cloudy when it rains in the main world), with a height limit of 511"
+				""
+				"GT's solar equipment doesn't work here"
+			]
+			icon: "minecraft:obsidian"
+			id: "07AC1B02299EF734"
+			optional: true
+			rewards: [
+				{
+					id: "29C2D0C50033539C"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EC17DCD4A7DF139"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "4FAF4CE9DB085C12"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "2886B347BD9A06B9"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
+			title: "You can go to the empty world to build a base"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["77DF4A561164B530"]
+			disable_toast: true
+			icon: "minecraft:white_concrete"
+			id: "3223AEF42BD9327C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E4ED4FDC73FC201"
+				table_id: 9058340522588536399L
+				type: "choice"
+			}]
+			subtitle: "Concrete Gift Package!"
+			tasks: [{
+				id: "5D566363C29BF687"
+				type: "checkmark"
+			}]
+			title: "Unlimited building materials"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["050FD340224F7AB6"]
+			description: ["Entering the Iron Age"]
+			id: "2C6F506ADD78F277"
+			rewards: [
+				{
+					id: "1DC27EA1D26C5D2F"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_256k"
+						tag: {
+							internalCurrentPower: 2000000000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "779A4E88384434F2"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28215E02018149ED"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "67DD6CA240F794CA"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "5C55D2E7ACAEE4CA"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+			]
+			title: "collect minerals"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"Most items in GT require tools when synthesized at the workbench."
+				"The secondary function of the forging hammer is through the right button &9&lSilent Machine"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "6A7BE998C2EC882D"
+			rewards: [
+				{
+					id: "6FB84C6CFD46A0F1"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43DB6E0844CC0989"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E277D3D320568AE"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "134DA9B09434EE22"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_plunger"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "2CBE8FF328FE35AC"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "75B26C1A65DF3848"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "6D4A489A3578B8B0"
+					item: {
+						Count: 1
+						id: "gtceu:iron_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Make tools"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A7BE998C2EC882D"]
+			dependency_requirement: "all_started"
+			description: ["Grind to powder with a pestle and mix with your hands"]
+			id: "133BC85B5D3EF1CB"
+			rewards: [{
+				id: "0DA275C860355A9D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "327FF4C13FFEC8B6"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					id: "788C88B4C8AD93FC"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+			]
+			title: "Copper powder and tin powder"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["133BC85B5D3EF1CB"]
+			description: ["Main materials of the steam era"]
+			id: "4B6F43302E963F5E"
+			rewards: [
+				{
+					id: "45521EDF902431C8"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72E40163E169A592"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57C6A23ADA9034AA"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"Wrought iron is a low-carbon iron alloy that has better properties than iron"
+				""
+				"Now you can only get wrought iron by burning iron nuggets to get wrought iron nuggets. With the electric arc furnace, you can make wrought iron ingots directly from iron ingots or even iron and oxygen blocks."
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "52A0EE026A3D3A79"
+			rewards: [{
+				id: "11FB0702EB3F7E18"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1172C9C38B0C9D97"
+					item: "gtceu:wrought_iron_nugget"
+					type: "item"
+				}
+				{
+					id: "11CC7209E677F77B"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "wrought iron"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52A0EE026A3D3A79"]
+			description: [
+				"The &6handheld terminal right-clicks the &rmultiblock host to automatically construct a multiblock structure. If it is &dand &ris empty-handed, a preview will be shown."
+				""
+				"The terminal can recognize that the &bblock is not in the accessory slot of the &rexquisite backpack"
+				""
+				"There are some issues with auto-building, especially in creative mode. It is recommended not to place functional warehouses in the backpack first, but only structural blocks. After building the main structure, you can manually place functional warehouses."
+			]
+			icon: "gtceu:terminal"
+			id: "4AB25C15F0B05AA0"
+			rewards: [{
+				id: "300E1DE7547E2113"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "685A67720A9B9F7E"
+				title: "terminal"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AB25C15F0B05AA0"]
+			description: ["Standard Y key can switch slots"]
+			icon: "kubejs:warped_ender_pearl"
+			id: "72AFAC66A9EC5F1A"
+			optional: true
+			rewards: [{
+				id: "16D977A5C13DD6A2"
+				item: "kubejs:warped_ender_pearl"
+				type: "item"
+			}]
+			subtitle: "If you don't like using commands or the minimap"
+			tasks: [{
+				id: "26A4AD36BD56873A"
+				title: "transmissor"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"Ancient gold coins can be exchanged for treasures in the small market"
+				""
+				"Diamond is the king of burning resistance and is recommended for boilers"
+			]
+			id: "2E6B876A85B30554"
+			rewards: [{
+				id: "4C4D7911A44B42C2"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CD84934E0B48CD4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1EE7EFCCC10CA395"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "7C87E9AE267A441A"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "68643AA8783BC7E6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "729E31CB328745E5"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+			]
+			title: "More mines"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: ["Use an anvil to upgrade"]
+			id: "0A047A198C30D7FD"
+			optional: true
+			rewards: [
+				{
+					count: 7
+					id: "0E8E94B52A21BFCA"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "6BB7B6C2BB52BAC1"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			tasks: [{
+				id: "7A23943381FB2DC4"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["050FD340224F7AB6"]
+			description: ["Coarse coal can be used directly as fuel here."]
+			id: "4C943E88E3926A9A"
+			rewards: [{
+				id: "3C50340F6A70A194"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30667165CE23DFCE"
+				item: "gtceu:raw_coal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A7BE998C2EC882D"]
+			description: [
+				"Right-clicking the key can &9&lset the output port of the GT machine &rand &9&lto connect the tube &r, while right-clicking the mouse can &9&lrotate the machine &rand &9&llock the flow pipe &r(the off-hand cannot have items at this time), or it can be used in its place as a pickaxe to destroy the machine."
+				""
+				"The screwdriver can use &9&lto open the machine cover plate configuration interface &rand &9&lto set whether the automatic output is on."
+				""
+				"Cable cutters can connect cables &9&l"
+				""
+				"The right soft hammer key can &9&lto quickly pause the &rmachine, and the right sneak key can &9&lto pause the &rmachine after the end of this recipe cycle (to resume, you can only right-click and not sneak)."
+				""
+				"A crowbar can &9&lremove the cover plate"
+				"{@pagebreak}"
+				"wrench:"
+				"When you hold a wrench and point it at a block where it can be used, a grid of nine squares will be displayed on each side of the block:"
+				"Among them, the center is the largest, the edges are the second, and the corners are the smallest."
+				"By right-clicking on the center of the machine face, you can rotate the front to that face (non-GT machines with face distinction only) or adjust the output port to that face (for GT machines); by right-clicking an edge, you can rotate face to face with the direction of the corresponding edge; When you right-click a corner, you can rotate the face to the opposite side of the right-clicked face. But if the right-click is a non-GT machine without facial recognition, the above operations will disassemble the machine. By right-clicking the center of a face, you can rotate the front face to that face (for all machines), and the others are the same for edges and corners. For non-GT machines without surface distinction, the machine must be disassembled for the above operations."
+				"When you right-click the center of a pipe face, there is no change; however, right-clicking an edge can connect/disconnect the pipe in the direction of the corresponding edge; Right-clicking the corner can connect/disconnect the tube in the opposite direction. Shift-right clicking can control whether the corresponding surface should be inserted."
+				"You can turn by right-clicking on logs, hay blocks, comparators, repeaters, pumpkins, jack-o'-lanterns, pistons, sticky pistons, launchers, launchers, furnaces, chests, trapped chests, ender chests, and hoppers that are not in front of you;"
+				"It can be dismantled by right-clicking in front of a workbench, bookshelf, pumpkin, jack-o'-lantern, piston, sticky piston, launcher, launcher, furnace, chest, trapped chest, ender chest, or hopper."
+				"But in addition to these, blocks such as levers and rails can still be rotated or dismantled."
+				"{@pagebreak}"
+				"Soft hammer:"
+				"Right click to turn on/off the machine."
+				"Right-clicking a lit redstone lamp can turn it off and vice versa."
+				"Right click on the power rail to activate it directly and vice versa."
+				"Right-click on a log, hay block, piston, sticky piston, launcher, launcher, pumpkin, pumpkin, furnace, chest, trapped chest, or hopper to rotate the block;"
+				""
+				"screwdriver:"
+				"Used to adjust various output ports and synthetic parts."
+				"By right-clicking on the front of the machine and on the output port, you can adjust whether input to the output surface is allowed."
+				"Note: Although holding a screwdriver against wires and tubes does indeed produce a grid of nine squares, the actual measurement has no effect."
+				"Correct statement: If the surface corresponding to the nine-square grid can be controlled by a screwdriver, this is equivalent to directly controlling the surface; if not, it has no effect. And the operating rules are the same as a wrench."
+				"By right clicking on the comparator or repeater you can rotate."
+				""
+				"Crowbar:"
+				"Used to pry rails and open various boxes, as well as remove cover panels."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_crowbar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "1F663A6C2DD1DB60"
+			rewards: [
+				{
+					id: "3953AFA6DC255A9D"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47195CDC24BB0499"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C92E28D8F481344"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B53D098FE44E1E7"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F2ECAEB122EA729"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AE5213059754673"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43B75892B602126D"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "23148C33657FFC60"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "512E4BCCAB2B9D22"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "488D299ED5C3EADF"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "52AE2ABE91E6D909"
+					item: {
+						Count: 1
+						id: "gtceu:iron_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "67B43C5CC46DE41B"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "4AB4BAEA70096ED0"
+					item: {
+						Count: 1
+						id: "gtceu:wood_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 127
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "7D3B7BFBCCA97435"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "More tools"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F663A6C2DD1DB60"]
+			description: [
+				"To produce creosote, you can press the U key on the coke oven (main block) item to go to the JEI page and view the multi-block structure."
+				""
+				"The coke oven warehouse is equivalent to the main block of the coke oven without a GUI, and can be interacted with using tubes or funnels."
+				""
+				"For details, please go to the prompt page &b&land the multiblock &rpart of the machine chapter to view"
+			]
+			icon: "gtceu:coke_oven"
+			icon_scale: 2.0d
+			id: "12E605EC5CFDE71A"
+			rewards: [{
+				id: "11023544A8C72E30"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3ADD45CC260064D7"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "64C7B22ED83480AB"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					id: "406B104BD18B1B99"
+					item: "gtceu:coke_oven_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4B6F43302E963F5E"
+				"12E605EC5CFDE71A"
+				"4AB25C15F0B05AA0"
+			]
+			description: ["With bronze you can start creating various steam-powered machines"]
+			icon: "gtceu:lp_steam_alloy_smelter"
+			id: "46F82A0A3D57C225"
+			rewards: [{
+				id: "07408B5DAB665BC8"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "529B5BE92883F9CE"
+				title: "age of steam"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DC6C5D7DDA578F7"]
+			description: [
+				"GregTech ores are generated in the form of veins, and each vein has a specific ore."
+				""
+				"You can check the ore vein generation information in the Coarse Ore JEI."
+				""
+				"The specific content of mineral veins can be viewed in the ore generation chapter."
+				""
+				"Chain can collect all ores"
+				""
+				"Fortune only works with stone dust taken from GT ores."
+			]
+			icon: "gtceu:raw_tin"
+			id: "050FD340224F7AB6"
+			rewards: [{
+				id: "373E50B37DA19C04"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "398CEBA3D72D1063"
+				type: "checkmark"
+			}]
+			title: "Ore generation"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DC6C5D7DDA578F7"]
+			description: ["Sugar cane is used to make paper (more problematic) and rubber tree is used to make sticky resin"]
+			id: "79D4AD9908A4578A"
+			rewards: [{
+				count: 320
+				id: "543181C0221A8BB4"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			subtitle: "Here are the plants you need to collect"
+			tasks: [
+				{
+					id: "35C774E2B111952D"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "2E3FFC0A31D39AA0"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+			]
+			title: "Sugar cane and rubber trees"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B6F43302E963F5E"]
+			description: ["Both components can be placed in the ME drive to function as a disk (powered or unpowered)"]
+			icon: "gtlcore:infinite_cell_component"
+			id: "7198356C944E053A"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7480CA9E0C881C90"
+					item: {
+						Count: 1
+						id: "gtlcore:super_portable_item_storage_cell"
+						tag: {
+							internalCurrentPower: 2000000000
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "7E40E854D6E1AE44"
+					item: {
+						Count: 1
+						id: "gtlcore:super_portable_fluid_storage_cell"
+						tag: {
+							internalCurrentPower: 2000000000
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "bronze plate"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "373DF3479C5D655D"
+					item: "gtceu:bronze_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "39860496FDB73E14"
+					item: "gtceu:bronze_drum"
+					type: "item"
+				}
+			]
+			title: "super storage"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2DC6C5D7DDA578F7"]
+			description: [
+				"The first line is the maximum number of strings. It is not recommended to set it too large."
+				""
+				"A chained blacklist can be defined in the gtlcore configuration file. The blacklist includes AE cables and grass blocks by default."
+				""
+				"At the same time, the \"amorphous\" digging range can be modified (chain digging check range)"
+			]
+			icon: {
+				Count: 1
+				id: "ae2:fluix_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64D9F1266FDE5FFE"
+			optional: true
+			rewards: [{
+				command: "/ftbultimine serverconfig"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: { }
+				}
+				id: "73FADAC6A80B392D"
+				title: "string configuration"
+				type: "command"
+			}]
+			tasks: [{
+				id: "49D06A3D2A085A61"
+				title: "faster mining"
+				type: "checkmark"
+			}]
+			x: -1.8d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Move the mouse to an item! (Backpack, search bar on the right, in jei)"
+				"Press &6R &rto see crafting &b&r!!!"
+				"Press &6U &rto see &buses &r!!!"
+				""
+				"After opening the interface, there are two lines with arrows."
+				"The first row and top icon can switch crafting tools (click the text in this row to view all crafting tables this way)"
+				"The second row can be rotated (many items have a large number of crafting methods, please browse carefully)"
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:rotating_transparent_surface"
+			id: "575A2A1E4F56FF34"
+			rewards: [{
+				id: "15C84CB4A92064A2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076E6DC515FD655D"
+				title: "Introduction to JEI"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B6F43302E963F5E"]
+			description: [
+				"✓Online"
+				"✓Jump on the machine"
+				"✓Jump on the machine"
+				"✓Jump on the machine"
+				"off-line"
+			]
+			icon: "usclb:clipboard"
+			id: "0FA161E6D70D211E"
+			optional: true
+			rewards: [{
+				id: "4B16101838A6524C"
+				item: "usclb:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B126388869ACC4"
+				type: "checkmark"
+			}]
+			title: "take notes"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"1 is always operating"
+				"2 One-to-many transmission will be super slow"
+				"3 Changing the allocation rule for poll scheduling will cause excessive delay."
+				"4 A large number of filters will cause super delay"
+				"5 The fluid tube will be very stuck"
+				"6 Unable to transfer EU"
+			]
+			id: "206F4C123EC2550F"
+			optional: true
+			tasks: [{
+				id: "78133B00994EC9AC"
+				item: "pipez:wrench"
+				type: "item"
+			}]
+			title: "Pipez"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4AB25C15F0B05AA0"
+				"388BD32463FA905D"
+			]
+			description: [
+				"Wareless mode is very useful, but remember to right-click and open the GUI every time you enter the file, otherwise it will have no effect."
+				""
+				"Coil level detection on advanced terminals is not very sensitive"
+				""
+				"The number of repeating structures is suitable for multi-block structures that can be stacked in multiple layers, such as distillation towers. Simply put, the higher the number, the longer the structure."
+			]
+			id: "1A124E85453923DF"
+			optional: true
+			rewards: [{
+				id: "17FC55AEB50BEEE0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10AA38DEE8B23298"
+				item: "gtmthings:advanced_terminal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"This is bad news, you have come to a fragmented world,"
+				"This world is not complete, it has become fragments."
+				"But I left you some goodies that will help you continue your journey."
+				"Save them, &l&d&oThey are all necessary!!! &r&r&r"
+				""
+				"Necessary Tips:"
+				"What is that! Sky island mode!"
+				"Only if you selected &bSky Island &rwhen creating the world"
+				"This task can be performed"
+				"You need to click on the &b&rmodule in the game menu interface."
+				"Search &bgtlcore &r, click &bto configure &r,"
+				"Change island mode setting &b&rfrom &bfalse &rto &btrue &r"
+				"After completing the above steps, &6restart the &rgame. The configuration content does not support hot reloading."
+				"This is how you really get into island mode. If you want to try normal mode, just go back to normal mode and create a new save file."
+				"See the next page for the sky island version server setup process."
+				""
+				"{ image:ftbquests:textures/picture/002.png width:320 height:200 align:center }"
+				"{@pagebreak}"
+				"If you want to open an island version of the server"
+				"you need to modify"
+				""
+				"In config/gtlcore.yaml"
+				"enableSkyBlokeMode changed to true"
+				""
+				"in server.properties"
+				"Change the level type to skyblockbuilder\\:skyblock"
+				""
+				"And I suggest you take a look at the skyblock builder wiki"
+				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
+				"to learn about the relevant instructions"
+			]
+			icon: "gtlcore:world_fragments_overworld"
+			id: "0F4AFDE98CEA87B1"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "0AFB0CC841A156B2"
+				item: "gtlcore:world_fragments_overworld"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61677438ACE10819"
+				item: "gtlcore:mining_crystal"
+				type: "item"
+			}]
+			title: "Sky island mode"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["050FD340224F7AB6"]
+			description: [
+				"Exquisite Series Backpack Case"
+				"Very useful in the initial phase"
+				""
+				"(It is recommended to use AE after launching AE)"
+			]
+			id: "75E8F87D6035DB24"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "0AFB0CC841A156B1"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "1F70DA6680CCF39C"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "158E51278C35D758"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "4664CB16D774EB1A"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "1FC671AA05297C53"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "746B3FAB696E74EA"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+					type: "item"
+				}
+				{
+					id: "318F591A17C996AE"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5921757C1C1F6183"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "68A7941991B1E028"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "6E5C66425A74A989"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Exquisite series"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B6F43302E963F5E"]
+			description: ["Easily travel between cables"]
+			id: "4DFDDE01DF6D6763"
+			optional: true
+			rewards: [{
+				id: "58A68342A1AF7C02"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: {
+						Energy: 100000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0BC8CBF4882C8CC4"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B6F43302E963F5E"]
+			description: [
+				"You can right-click the AE wireless access point &6&rto bind the ME network (you can also place it directly into it), directly calling the ME network inventory items"
+				""
+				"When using the shear tool, try not to rotate &cor &r, otherwise part of the block will be lost."
+				""
+				"Wireless power/energy/laser stores placed/copied directly using these tools need to be manually linked to the wireless network by right-clicking on the flash memory, otherwise these stores will not interact with the wireless network (i.e. unpowered or fully charged)"
+			]
+			id: "4B7B7EA38B836F96"
+			optional: true
+			rewards: [
+				{
+					id: "129145AE2D5F717B"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D25323AB959BB72"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							energy: 2147483647
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47615B2849B4F6DB"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE30080CFCFAEE8"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C69CAC34076230"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "These tools are very useful"
+			tasks: [
+				{
+					consume_items: true
+					id: "5686A229D312C6F2"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "07AFC3474F9E8507"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "3112A4E70822D557"
+					item: "buildinggadgets2:gadget_exchanging"
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "6FE264F121A16B9B"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "663520E4BEA58470"
+					item: "buildinggadgets2:gadget_destruction"
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "Construction helper"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AB25C15F0B05AA0"]
+			description: [
+				"{\"text\":\"You should already know how to use it\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"262671AC71B36736\"}}"
+				"{@pagebreak}"
+				"May cause accident"
+			]
+			id: "1D93602C5835593F"
+			optional: true
+			rewards: [{
+				id: "0ECF96D85FE8AB8F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7AB796D165A6C084"
+				item: "gtlcore:structure_detect"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6Bus isolation &rin input set &bisolation items &r, open in main block multiblock GUI &6full isolation &renable &bfluid isolation &r"
+				""
+				"Note: When full isolation is enabled, &dwill cover the &risolation of all assemblies, that is, each assemblage is in an item and fluid isolation state."
+				"{@pagebreak}"
+				"If you upgraded from an old version, remove all input assemblies and put them back in, otherwise isolation may fail."
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:nan_certificate"
+			id: "27695F7273E7F69D"
+			rewards: [{
+				id: "628D529481945AFD"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "460C0F7BD66FE0BF"
+				type: "checkmark"
+			}]
+			title: "Warehouse Isolation User Guide"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Performance monitor monitors delays caused by all machines"
+				""
+				"You can enter /forge tps to check the game lag. It's best to make sure the tps is always at 20"
+				""
+				"The following things could be the cause of the delay:"
+				""
+				"Build everything in a small space. This will not affect the tps, but it will cause the fps to drop."
+				""
+				"Input and output buses are widely used in the network. It is recommended to use the ME interface."
+				""
+				"Place multiple orders for small quantities of items to be shipped. It is recommended to reduce the number of CPU parallels and expand the multiple model."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:data_stick"
+				tag: { }
+			}
+			id: "516564DCEA7FA80B"
+			rewards: [{
+				id: "3C4B05D0EC67442D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3AF442DDE4EA8CF5"
+					item: "gtceu:performance_monitor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0716704AAA0124C9"
+					type: "checkmark"
+				}
+			]
+			title: "If you feel stuck"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"It can be charged in the charging slot of small devices, battery cases, AE chargers, etc."
+				""
+				"You can also grab a charged battery while sneaking and right-click to activate energy release mode to charge other items in the inventory (the zero point module is also a battery)"
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:create_ultimate_battery"
+			id: "2BFFB6D14D698DF4"
+			rewards: [{
+				id: "616BAA1A44B90CC0"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0926D0067A359CF4"
+				type: "checkmark"
+			}]
+			title: "How to charge items"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1D93602C5835593F"]
+			description: ["{\"text\":\"You should already know how to use it\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"516564DCEA7FA80B\"}}"]
+			id: "13371F3E8D27310F"
+			optional: true
+			rewards: [{
+				id: "487A6B2627D887C1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFF7EDB2EFF81D6"
+				item: "gtceu:performance_monitor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1A124E85453923DF"
+				"027197A71E630966"
+			]
+			description: [
+				"Based on the advanced terminal, &bis compatible with the replacement of &rcoil, space elevator power module, component assembly line shell and stellar thermal container (click the \"Level Block\" text with the mouse to open the level block selection interface)"
+				""
+				"It also supports &bmirror positioning and &rmulti-block structure. Tubeless mode will remain in effect and you will even be able to put fluids in (identify the bucket of fluid on your body, the bucket of whales in the ocean, and the fluid in the ME network)"
+				""
+				"It also supports linking from &bto AE &r, extracting materials directly from the ME lattice to build a multi-block structure (stealthy right-click to link any component in the ME lattice; direct cross dimension is not supported and the same ME lattice component needs to exist in both dimensions)"
+				""
+				"It also supports one-click disassembly of the &d&rmulti-block structure (activating AE mode will directly return to the ME network. When not turning it on, it is recommended to carry a backpack and other containers; only AE mode can recycle fluid)"
+			]
+			id: "3F8DDC1B589F52AC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59FDA77962C18357"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "45EF957CA69802F4"
+				item: "gtlcore:ultimate_terminal"
+				type: "item"
+			}]
+			title: "final terminal"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: ["You can use frame blocks to build a shell for your multiblock machine"]
+			hide_dependency_lines: true
+			icon: "framedblocks:framed_cube"
+			id: "48A58B3CA3F6B26C"
+			optional: true
+			rewards: [
+				{
+					id: "00B7465DD44803E8"
+					item: "framedblocks:powered_framing_saw"
+					type: "item"
+				}
+				{
+					id: "611BCE94536D6538"
+					item: {
+						Count: 1
+						id: "framedblocks:framed_blueprint"
+						tag: {
+							blueprint_data: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62A506DFDBCFCCD1"
+					item: "framedblocks:framed_screwdriver"
+					type: "item"
+				}
+				{
+					id: "59429C1B167C4966"
+					item: "framedblocks:framed_key"
+					type: "item"
+				}
+				{
+					id: "67A60F1B4DFAFFDE"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+				{
+					id: "046327D60806998E"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A2BBDEBA9F14ADD"
+				type: "checkmark"
+			}]
+			title: "frame block"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6A7BE998C2EC882D"
+				"1F663A6C2DD1DB60"
+			]
+			hide_dependency_lines: true
+			id: "6351549C3E192BA3"
+			optional: true
+			rewards: [
+				{
+					id: "3B1463C98BA27DF7"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE2255D55B16430"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6DE3C3C56BB53A"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6655216672D046CF"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055ADEDF7D0791A4"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C918678E17D3364"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20894971EB749758"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02E86F6C1BB17D0F"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19752643B33099DF"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E1084BD2F2E7F77"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10E628F77CC949A6"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Get another set"
+			tasks: [
+				{
+					consume_items: true
+					id: "0767FAD73530ABA2"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "60CE58A22CC84117"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "22300BEB167AC80A"
+					item: {
+						Count: 1
+						id: "gtceu:iron_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "4CC8969CB71DFFD8"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "44B8A269BC8ED118"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "2BE5469F0FCEBB2E"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "2863842AB0C9D0FA"
+					item: {
+						Count: 1
+						id: "gtceu:iron_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "18F7D3D45DAB0905"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "7378F00E10DEE6B3"
+					item: {
+						Count: 1
+						id: "gtceu:wood_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 127
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "3E214464402A1ECE"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "09E940B128F7E4A3"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			title: "if you lose your tools"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: ["The original null mining machine &b&rcan be enabled in the gtlcore configuration file. It consumes steam in the main/underworld/end world to randomly produce coarse ore of the corresponding dimension."]
+			hide_dependency_lines: true
+			icon: "minecraft:raw_iron"
+			id: "5531507E2FA738A4"
+			optional: true
+			tasks: [{
+				id: "390E2C9977EE3EEF"
+				type: "checkmark"
+			}]
+			title: "Original Empty Miner"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E6B876A85B30554"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:prospector.luv"
+				tag: {
+					Charge: 1000000000L
+				}
+			}
+			id: "420A04A0033C1E3B"
+			optional: true
+			rewards: [
+				{
+					id: "13987C2635D5B879"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.luv"
+						tag: {
+							Charge: 1000000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661D0BAEBDD12451"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Change another one, don't miss it this time"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "43CEABA34FB29845"
+					item: { Count: 64, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "4E24326430CE5947"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			title: "If you lose your prospector"
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Level 0-Stone Age"]
+	title: "start from here"
+}

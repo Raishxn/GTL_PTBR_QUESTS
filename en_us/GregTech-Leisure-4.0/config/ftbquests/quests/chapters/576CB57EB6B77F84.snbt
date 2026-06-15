@@ -1,0 +1,1263 @@
+{
+	autofocus_id: "400F0B799A92376E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 2.0d
+	filename: "576CB57EB6B77F84"
+	group: ""
+	icon: "ad_astra:coal_generator"
+	id: "576CB57EB6B77F84"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["400F0B799A92376E"]
+			icon: "gtmthings:lv_wireless_energy_receive_cover"
+			id: "7577061AE4366606"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B4B470DD27FACC7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "208E887FE1E45C23"
+				title: "LV"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7577061AE4366606"]
+			icon: "gtmthings:mv_wireless_energy_receive_cover"
+			id: "05C8B854877A8A7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C12544334123AB"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "503E4DDF1F1A68CC"
+				title: "MV"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05C8B854877A8A7D"]
+			icon: "gtmthings:hv_wireless_energy_receive_cover"
+			id: "6934C9C15FAAD00A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1476538CCBF53FD1"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2206076670EC76B3"
+				title: "HV"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6934C9C15FAAD00A"]
+			icon: "gtmthings:ev_wireless_energy_receive_cover"
+			id: "62D8D7B8C9730557"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CAC4BD3B927E628"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0CE1A9B25F5823C9"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62D8D7B8C9730557"]
+			icon: "gtmthings:iv_wireless_energy_receive_cover"
+			id: "5460CFE78B89DC30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3FBE449FC22436"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4B7E26D82AAFA0A5"
+				title: "IV"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5460CFE78B89DC30"]
+			icon: "gtmthings:luv_wireless_energy_receive_cover"
+			id: "504BA5B399BFA571"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DCD032CB74EAC6D"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "326C22F23137507B"
+				title: "LuV"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["504BA5B399BFA571"]
+			icon: "gtmthings:zpm_wireless_energy_receive_cover"
+			id: "1BD6F43D61ABF744"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76362233DC715FF5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1661853C8F3910C0"
+				title: "ZPM"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BD6F43D61ABF744"]
+			icon: "gtmthings:uv_wireless_energy_receive_cover"
+			id: "44F827B28C513D5B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F39FAD7A5B06595"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "513C7F42EA555C43"
+				title: "UV"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44F827B28C513D5B"]
+			icon: "gtmthings:uhv_wireless_energy_receive_cover"
+			id: "4B33F47839538D7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EFF145920E7CE4B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5B512F241E6679D1"
+				title: "UHV"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B33F47839538D7B"]
+			description: [
+				"Compared with large silica rock, it is more fuel-efficient and has a maximum output of 256A MAX."
+				""
+				"The effect of providing plasma is similar to extending the recipe time, which can be understood as X parallel = X times power generation"
+			]
+			id: "548E8FA4B1004534"
+			size: 1.0d
+			tasks: [{
+				id: "5079AC2040FDA3AA"
+				item: "gtceu:hyper_reactor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65DE5DA645CC596B"]
+			icon: "gtmthings:uiv_wireless_energy_receive_cover"
+			id: "19C7474792787EE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78620BDBD6EA966B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2E8606C5E07D1D88"
+				title: "UIV"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19C7474792787EE9"]
+			description: ["Up to 16384A MAX output"]
+			id: "25F672CF48091CEC"
+			size: 1.0d
+			subtitle: "Use and stop at any time"
+			tasks: [{
+				id: "7F7D348C6E55EC07"
+				item: "gtceu:advanced_hyper_reactor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19C7474792787EE9"]
+			icon: "gtmthings:opv_wireless_energy_receive_cover"
+			id: "31779C5096523FEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7E6DB6423C775E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "28E9E67B5567ABFB"
+				title: "OpV"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BBBF338330F4793"]
+			icon: "gtceu:hyper_fuel_1_bucket"
+			id: "4C7F01C6BDC4C668"
+			min_required_tasks: 1
+			size: 1.0d
+			subtitle: "There are four kinds in total"
+			tasks: [
+				{
+					id: "06F85A701518B6F5"
+					item: "gtceu:hyper_fuel_1_bucket"
+					type: "item"
+				}
+				{
+					id: "170F06CEC80E8064"
+					item: "gtceu:hyper_fuel_2_bucket"
+					type: "item"
+				}
+				{
+					id: "64AC3D663B37D806"
+					item: "gtceu:hyper_fuel_3_bucket"
+					type: "item"
+				}
+				{
+					id: "7889220B2D1FB064"
+					item: "gtceu:hyper_fuel_4_bucket"
+					type: "item"
+				}
+				{
+					id: "618C675912DD6D18"
+					type: "checkmark"
+				}
+			]
+			title: "super fuel"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["548E8FA4B1004534"]
+			description: ["The atomic refining recipe cannot be used until UXV"]
+			icon: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
+			id: "703B4E87BFB463A3"
+			min_required_tasks: 1
+			size: 1.0d
+			subtitle: "There are two kinds"
+			tasks: [
+				{
+					id: "5F10F9EBFF422F19"
+					item: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
+					type: "item"
+				}
+				{
+					id: "3560E9EFBBA5A492"
+					item: "gtceu:concentration_mixing_hyper_fuel_2_bucket"
+					type: "item"
+				}
+				{
+					id: "1CF78040408BAE70"
+					type: "checkmark"
+				}
+			]
+			title: "Concentrated mixed super fuel"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5CA04083FCFD26A8"]
+			description: ["Endless antimatter fuel rods have the highest power generation capacity"]
+			icon: "kubejs:neutronium_antimatter_fuel_rod"
+			id: "0371ECA23AB14C7F"
+			min_required_tasks: 1
+			size: 1.0d
+			subtitle: "There are four kinds in total"
+			tasks: [
+				{
+					id: "6ED166264A82E96F"
+					item: "kubejs:neutronium_antimatter_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "60C7E1074E36278D"
+					item: "kubejs:draconium_antimatter_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "0B91B62CB9B36F4E"
+					item: "kubejs:cosmicneutronium_antimatter_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "441A60B4E4B75056"
+					item: "kubejs:infinity_antimatter_fuel_rod"
+					type: "item"
+				}
+				{
+					id: "73D5441111075427"
+					type: "checkmark"
+				}
+			]
+			title: "antimatter fuel rods"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["31779C5096523FEF"]
+			description: [
+				"Up to 67108864A MAX output"
+				""
+				"The warehouse can and can only replace&b&lhigh-energy machine casing&r(in addition to both sides of the main unit, there are also four corners on the base)"
+			]
+			id: "5CA04083FCFD26A8"
+			size: 1.0d
+			subtitle: "Can fill up your highest level laser bin"
+			tasks: [{
+				id: "13573E3E1023E028"
+				item: "gtceu:annihilate_generator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44F827B28C513D5B"]
+			description: [
+				"Up to 1A MAX output, very powerful"
+				""
+				"Starting from Big Silica, all generators can use&l&claser source bins&r&rto output energy"
+				""
+				"It also has an overclocking mechanism:"
+				"{ \"text\": \"For specific mechanisms, see the definition of lossless overclocking\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
+				"Replace&b4x recipe speed&rwith&60.25x recipe time&r(including the multiplication of the configurable maintenance bin),&bpower consumption&rwith&6power generation &r,&btotal energy cost&rwith&6total power generation&ris the overclocking mechanism of the generator"
+				"The generator will automatically overclock&raccording to the&dpower bin/laser source bin size&r&eto the overclocking upper limit, and the running time will be shortened to 1~3 ticks at the minimum."
+				""
+				"Generators with the words&b&loverclocking will not lose energy efficiency and&rin the description have an overclocking mechanism."
+			]
+			id: "7BBBF338330F4793"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E10F1424169BFD6"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Big silica~~power generation~~"
+			tasks: [{
+				id: "17D037479DE11EDF"
+				item: "gtceu:large_naquadah_reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["31779C5096523FEF"]
+			description: [""]
+			icon: "gtmthings:max_wireless_energy_receive_cover"
+			id: "129B3F81E43C237D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F2C87E87170F0F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7953D09AF58F4D90"
+				title: "MAX"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["129B3F81E43C237D"]
+			description: [
+				"Transfer electricity from the created energy to the wireless network through active transformers, up to 50331648A MAX output"
+				""
+				"The actual power generation is far lower than that of the Universe Heart and is limited to transitional use."
+			]
+			icon: "gtceu:active_transformer"
+			id: "3B18900343C2F4E3"
+			size: 1.0d
+			subtitle: "endless energy"
+			tasks: [
+				{
+					id: "586428C96B81B3FF"
+					item: "gtceu:active_transformer"
+					type: "item"
+				}
+				{
+					id: "7392D649858C0BAC"
+					item: "gtmthings:creative_energy_hatch"
+					type: "item"
+				}
+				{
+					id: "7DEC05B7049C4085"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					id: "56DAF1C0101F4081"
+					item: "gtmthings:max_4194304a_wireless_laser_source_hatch"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:porkchop"
+			id: "0AA2FA1727C36D2E"
+			invisible: true
+			rewards: [
+				{
+					id: "0D22524C232615EE"
+					item: "minecraft:pig_spawn_egg"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "pig summon ~ ~ ~ {CustomName:'{\"text\":\"group friends\"}',Health:250f, Attributes:[{Name:\"minecraft:generic.max_health\",Base:250}]}"
+					elevate_perms: true
+					id: "30D03FA09433D73A"
+					title: "Summon friends"
+					type: "command"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: "minecraft:pig_spawn_egg"
+				id: "6CB3724BB84C9A26"
+				observe_type: 5
+				timer: 120L
+				title: "Observe group friends"
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"09E013C97E05C052"
+				"7BBBF338330F4793"
+			]
+			description: ["Pay attention to ensure a stable supply of fuel and plasma. The laser cabin must be large enough."]
+			id: "4C42E6BF77A096D9"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "63C4206A5DC61C2C"
+				item: "thetornproductionline:hyper_excitation_module_1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["548E8FA4B1004534"]
+			description: ["Pay attention to ensure a stable supply of fuel and plasma. The laser cabin must be large enough."]
+			id: "3E3414C93CC16F15"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "4694F86ED30A52AA"
+				item: "thetornproductionline:hyper_excitation_module_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25F672CF48091CEC"]
+			description: ["Pay attention to ensure a stable supply of fuel and plasma. The laser cabin must be large enough."]
+			id: "0F299C73FA9397AF"
+			size: 1.0d
+			tasks: [{
+				id: "3320ADD68BC6EC04"
+				item: "thetornproductionline:hyper_excitation_module_3"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25F672CF48091CEC"]
+			id: "494DF399F517126C"
+			min_required_tasks: 1
+			size: 1.0d
+			tasks: [{
+				id: "68D075F84D91A3D3"
+				item: "gtceu:concentration_mixing_hyper_fuel_2_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5CA04083FCFD26A8"]
+			description: ["Best used with power grid output terminals"]
+			id: "20D215B7D9F2B95D"
+			size: 1.0d
+			tasks: [{
+				id: "57157FD2688C1A4C"
+				item: "thetornproductionline:black_hole_engine_module"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["129B3F81E43C237D"]
+			id: "7927F8C89C624FB2"
+			size: 1.0d
+			tasks: [{
+				id: "02016CB9297A89B8"
+				item: "gtladditions:heart_of_the_universe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7927F8C89C624FB2"]
+			id: "5CE941EACA1A8577"
+			size: 1.0d
+			tasks: [
+				{
+					id: "549AFC0058ACCAD7"
+					item: "gtladditions:black_hole_seed"
+					type: "item"
+				}
+				{
+					id: "029B7124A38956FD"
+					item: "gtladditions:strange_annihilation_fuel_rod"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7927F8C89C624FB2"]
+			description: ["Best used with power grid output terminals"]
+			id: "323D67C30193DC44"
+			size: 1.0d
+			tasks: [{
+				id: "5242709320E5E010"
+				item: "thetornproductionline:black_hole_engine_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7577061AE4366606"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "315CC7527A6D2596"
+			size: 1.0d
+			tasks: [{
+				id: "1B48438D1C56F071"
+				item: "gtceu:lv_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["05C8B854877A8A7D"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "099050A063B2A37C"
+			size: 1.0d
+			tasks: [{
+				id: "6B7CD45C0A971EDE"
+				item: "gtl_extend:mv_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6934C9C15FAAD00A"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "0D8ACBC05D0AFB5E"
+			size: 1.0d
+			tasks: [{
+				id: "5CB8BFD1972D1D2F"
+				item: "gtl_extend:hv_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D8D7B8C9730557"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "76BC9B6945A384CD"
+			size: 1.0d
+			tasks: [{
+				id: "327DA50976320B42"
+				item: "gtl_extend:ev_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5460CFE78B89DC30"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "56CD852828BFFB69"
+			size: 1.0d
+			tasks: [{
+				id: "33C7E498667C8DE1"
+				item: "gtl_extend:iv_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["504BA5B399BFA571"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "2E9FEC3BFF273BC4"
+			size: 1.0d
+			tasks: [{
+				id: "5F93ED34480DA1FD"
+				item: "gtl_extend:luv_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BD6F43D61ABF744"]
+			description: [
+				"&7▌ Function:"
+				"&lhas extremely low initial cost and is suitable for large-scale accumulation"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: place obsidian, place end crystal on it, remove the obsidian, and place the machine body in the original obsidian position"
+			]
+			id: "46FF033073F4B64B"
+			size: 1.0d
+			tasks: [{
+				id: "22CB2E683A699977"
+				item: "gtl_extend:zpm_primitive_magic_energy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"What is shown here is only a relatively optimal way of generating electricity."
+				"In fact, there are many power generation facilities at various stages."
+			]
+			icon: "kubejs:create_ultimate_battery"
+			id: "400F0B799A92376E"
+			size: 1.0d
+			tasks: [{
+				id: "7682BF1C6F278DB3"
+				title: "How to generate electricity"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44F827B28C513D5B"]
+			description: [
+				"&9&lGTL-Extend \"Dragon Egg Energy Absorber\""
+				"&7Added&5UV&7to&e&lUIV&7grade model"
+				""
+				"&7▌ Function:"
+				"&lThe first choice for low-cost power generation in the medium term"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: Place the dragon egg energy absorber and place the dragon egg on top."
+			]
+			id: "0BD40257BC2D2954"
+			size: 1.0d
+			tasks: [{
+				id: "242769E725378F3E"
+				item: "gtl_extend:uv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B33F47839538D7B"]
+			description: [
+				"&9&lGTL-Extend \"Dragon Egg Energy Absorber\""
+				"&7Added&5UV&7to&e&lUIV&7grade model"
+				""
+				"&7▌ Function:"
+				"&lThe first choice for low-cost power generation in the medium term"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: Place the dragon egg energy absorber and place the dragon egg on top."
+			]
+			id: "7AE7409A42913BC1"
+			size: 1.0d
+			tasks: [{
+				id: "4374164BB1665EF5"
+				item: "gtl_extend:uhv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65DE5DA645CC596B"]
+			description: [
+				"&9&lGTL-Extend \"Dragon Egg Energy Absorber\""
+				"&7Added&5UV&7to&e&lUIV&7grade model"
+				""
+				"&7▌ Function:"
+				"&lThe first choice for low-cost power generation in the medium term"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: Place the dragon egg energy absorber and place the dragon egg on top."
+			]
+			id: "000C1F013FC0A642"
+			size: 1.0d
+			tasks: [{
+				id: "41E6BC6A0CF8BBE0"
+				item: "gtl_extend:uev_primitive_dragon_egg_energy"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B33F47839538D7B"]
+			icon: "gtmthings:uev_wireless_energy_receive_cover"
+			id: "65DE5DA645CC596B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "370AEDABAC4C3DC5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7C97F5B20A9553C7"
+				type: "checkmark"
+			}]
+			title: "UEV"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19C7474792787EE9"]
+			description: [
+				"&9&lGTL-Extend \"Dragon Egg Energy Absorber\""
+				"&7Added&5UV&7to&e&lUIV&7grade model"
+				""
+				"&7▌ Function:"
+				"&lThe first choice for low-cost power generation in the medium term"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: Place the dragon egg energy absorber and place the dragon egg on top."
+			]
+			id: "47C088A0343A2894"
+			size: 1.0d
+			tasks: [{
+				id: "4AE95120C42D7599"
+				item: "gtl_extend:uiv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: ["If you really have a dark face"]
+			disable_toast: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "4B77B8E853F123C6"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7FC1614D3CC17266"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "77B51B32E26206C6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "6C8C6E1196A60FBD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "4D3C5952AAA69ADD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "4456E1E7EF3B4213"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "2E8F8952FA34EA8B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "446E3E871A687972"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "19465FA8D9D95980"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "52E3404B670FC341"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "597C2EFF9BB4CEF1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "08B948E286E7A5BD"
+				type: "checkmark"
+			}]
+			title: "Ten draws in a row"
+			x: -17.5d
+			y: 2.0d
+		}
+		{
+			description: ["If you really have a dark face"]
+			disable_toast: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "34F014CC2AF2946C"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "5516CF6CDD9A2619"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "026BF12B59F723A4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "5A94B6872D023A73"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "7E03682C4AFA01E5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "12218428EC7B602C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "255375D6ACC39504"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "38C2FBD6034082CD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "76DB89306A3977FA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "2614E45393313CA2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "0ADF9553DCA2CD0E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6961A26AA6790C5F"
+				type: "checkmark"
+			}]
+			title: "Ten draws in a row"
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			description: ["If you really have a dark face"]
+			disable_toast: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "4830FCBBBE3848BD"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "611809D934792516"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "6018E96591F23E64"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "23392B27F7C8B903"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "1B167CF565126C6D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "28B9332C8120ED36"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "6473D4E44E59D538"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "615B247227378559"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "7B3890CB6B09CC23"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "2A821EC5E12BCCFE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "6C3B09B85C4B155C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "04057A3BAE051130"
+				type: "checkmark"
+			}]
+			title: "Ten draws in a row"
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			description: ["If you really have a dark face"]
+			disable_toast: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "538ACD1D48F9F80A"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "44372CA635079F7D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "3A4F39840B6CECD5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "6C1C7F2BD7F7570D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "27BE38938F252060"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "318DF752C3A48A33"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "5F18F3632D16A72F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "4A39F1EACC75484D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "2D33F1DC246B5A03"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "7E1C3955C67F089F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "30EA8A5108EBDB78"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2A9D13A3196CAA6B"
+				type: "checkmark"
+			}]
+			title: "Ten draws in a row"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			description: ["If you really have a dark face"]
+			disable_toast: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "2D2E3AD3A0BD9BA0"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "6AFE665A637BEA90"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "1E690D736525964D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "78643A1B97D93592"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "5C8B57D9CF74A21B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "39A14C669CED650A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "5DC1B7D618B3C8F0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "112DBA8A56F9FC67"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "48D5567CEBB577EE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "77CEF056D24925A1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "13ED24DAC49FF624"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7DF0A30FF496A144"
+				type: "checkmark"
+			}]
+			title: "Ten draws in a row"
+			x: -9.5d
+			y: 2.0d
+		}
+	]
+	title: "How to generate electricity"
+}

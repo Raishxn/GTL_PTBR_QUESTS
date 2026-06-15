@@ -1,0 +1,30 @@
+{
+  "name": "fuel",
+  "icon": "ad_astra:fuel_bucket",
+  "sortnum": 4,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Don't rush to launch yet. To successfully reach space, you need to fill up the rocket with fuel."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "get fuel",
+      "item": "ad_astra:oil_bucket",
+      "text": "There are many oil springs on the sea surface. Oil is a non-renewable resource, and in the game you need to collect as much of it as possible. The Rockets are a big powerhouse."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "get fuel",
+      "item": "ad_astra:fuel_bucket",
+      "text": "After collecting at least 6 barrels of oil (which is enough for a rocket round trip), you need to refine them into fuel. The refining process needs to be carried out in a fuel refiner. Turn on the power, put the oil in from the left side, and start refining."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "fuel refiner",
+      "recipe": "ad_astra:fuel_refinery",
+      "text": "While sneaking, left-click the rocket to open its inventory, then place three barrels of fuel in the input field. If you don't want to take a trip that never comes back, you'd better take three more barrels of fuel with you."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+//priority: 96
+ServerEvents.recipes((event) => {
+    const gtr = event.recipes.gtceu
+
+    gtr.alloy_smelter("gtceu:pulsating_alloy_ingot")
+        .itemInputs("minecraft:iron_ingot", "minecraft:gunpowder")
+        .itemOutputs("gtceu:pulsating_alloy_ingot")
+        .EUt(16)
+        .duration(80)
+
+    gtr.alloy_smelter("gtceu:conductive_alloy_ingot")
+        .itemInputs("gtceu:pulsating_alloy_ingot", "minecraft:redstone")
+        .itemOutputs("gtceu:conductive_alloy_ingot")
+        .EUt(16)
+        .duration(160)
+
+    gtr.mixer("kubejs:vibrant_alloy_dust")
+        .itemInputs("#forge:dusts/energetic_alloy", "#forge:dusts/ender_pearl")
+        .itemOutputs("2x gtceu:vibrant_alloy_dust")
+        .duration(260)
+        .EUt(30)
+
+    gtr.mixer("kubejs:energetic_alloy_dust")
+        .itemInputs("2x #forge:dusts/gold", "#forge:dusts/redstone", "#forge:dusts/glowstone")
+        .itemOutputs("4x gtceu:energetic_alloy_dust")
+        .duration(140)
+        .EUt(30)
+
+    gtr.circuit_assembler("kubejs:basic_control_circuit")
+        .notConsumable("gtceu:vacuum_tube")
+        .itemInputs("gtceu:steel_plate", "minecraft:redstone")
+        .itemOutputs("2x kubejs:basic_control_circuit")
+        .inputFluids("gtceu:glue 20")
+        .duration(40)
+        .EUt(7)
+
+    gtr.circuit_assembler("kubejs:advanced_control_circuit")
+        .notConsumable("gtceu:basic_electronic_circuit")
+        .itemInputs("kubejs:basic_control_circuit", "gtceu:iron_plate", "gtceu:red_alloy_dust")
+        .itemOutputs("2x kubejs:advanced_control_circuit")
+        .inputFluids("gtceu:glue 20")
+        .duration(80)
+        .EUt(16)
+
+    gtr.circuit_assembler("kubejs:elite_control_circuit")
+        .notConsumable("gtceu:good_electronic_circuit")
+        .itemInputs("minecraft:paper", "2x kubejs:advanced_control_circuit", "gtceu:wrought_iron_plate", "gtceu:small_diamond_dust")
+        .itemOutputs("2x kubejs:elite_control_circuit")
+        .inputFluids("gtceu:glue 20")
+        .duration(160)
+        .EUt(30)
+
+    gtr.circuit_assembler("kubejs:ultimate_control_circuit")
+        .notConsumable("gtceu:advanced_integrated_circuit")
+        .itemInputs("gtceu:resin_printed_circuit_board", "kubejs:elite_control_circuit", "gtceu:steel_plate", "gtceu:small_obsidian_dust", "2x gtceu:red_alloy_screw")
+        .itemOutputs("kubejs:ultimate_control_circuit")
+        .inputFluids("gtceu:glue 20")
+        .duration(80)
+        .EUt(120)
+
+    gtr.circuit_assembler("kubejs:ultima_control_circuit")
+        .itemInputs("gtceu:phenolic_printed_circuit_board", "4x kubejs:ultimate_control_circuit", "8x gtceu:red_alloy_foil")
+        .itemOutputs("4x kubejs:ultima_control_circuit")
+        .EUt(480)
+        .duration(200)
+})

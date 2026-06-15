@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "24F4987B35ABEE82"
+	icon: "ae2:controller"
+	id: "6980669C5265DA02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The upper limit of the requested quantity is increased to &d15 digits &r"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [{
+				id: "65093F52636EB9D4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C01B0FEAADE8281"
+				title: "requester of me"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The default here is &dunlimited channel &r, for performance reasons &eremoved the crafting recipe from the ME controller &r"
+				"{@pagebreak}"
+				"&mIn fact, the Fish Making Conference will give you a &rcontroller"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [{
+				id: "28E44D4CB84273F4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Why can't the ME controller be synthesized?"
+			tasks: [{
+				id: "777CFBC4F54FBCE9"
+				title: "canal"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Basic transmission speed is improved to &b64*int level &r"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [{
+				id: "1B45E4F32729CBAA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF437FD2CAA4A4C"
+				title: "IO expansion port"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&8Mid-Term ULV &rUnlocks AE Warehousing and Logistics"
+				"&bMV first &runlock order and upgrade card (basic)"
+				"&bEnd of MV &rUpgrade Card (Advanced) Unlock"
+				"&6HV Ultimate &rUnlock AE Wireless"
+				"&dEV Home &rUnlocks creation of power components and assembly matrix"
+			]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [{
+				id: "7BAB47A6F79DA3F0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E327F3A46D8F21"
+				title: "About the corresponding internship"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Infinite water/cobblestone component capacity increased for &d9.22P/E &r"
+				"{@pagebreak}"
+				"Disc creation has also been improved"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [{
+				id: "0063B8E8FAFA7D3F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2777F734BD4F5C"
+				title: "infinite components"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The storage type is the default &d4 times &r, which can be adjusted in the gltcore configuration file"
+				""
+				"At the same time, the AE inventory update interval can be adjusted in the gtlcore configuration file."
+			]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [{
+				id: "5D236A4D2FF670E5"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550042261D7CDFD8"
+				title: "disco"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["The number of slots of the extended model provider &b&rcan be adjusted in the gtlcore configuration file &6&r"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [{
+				id: "5E1211C813682438"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E27D16F8CFDACB4"
+				title: "Extended Model Provider"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["The basic capacity of each network is increased to &bat the internal level &r"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [{
+				id: "18A0469DB87BA283"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042A7D3DB05154B7"
+				title: "EU Interface"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Now you can duplicate it directly during coding (only when processing models)"
+				""
+				"When encoding, the input upper limit is set to &b2^31-1 &r, and the doubling function can be used to achieve a maximum of &b9.22E/P"
+				""
+				"When the blank model runs out, &6will automatically call &rto fill the blank model on the ME network."
+				""
+				"When writing a model with a multi-block structure, you can &bautomatically filter certain &rblocks (specifically view and modify it in the gtlcore configuration and determine whether to filter based on whether the block ID contains the string in the list). After placing the order, &6will automatically cancel the specific order of &r(that is, the order where the product is &d&r)"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [{
+				id: "1F4ED17AAA95E860"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AFFE5DA6C9DF13"
+				type: "checkmark"
+			}]
+			title: "Related standard encoding"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Synthetic calculation is enabled by default in &6Ultra FAST &rmode, which can be adjusted in the gtlcore configuration file"
+				""
+				"At the same time, the AE crafting refresh interval can be adjusted in the gtlcore configuration file."
+				""
+				"The crafting confirmation interface adds the number of crafting rounds (number of distributions) and the percentage of items used in the inventory."
+			]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [{
+				id: "203D454048007BE3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2E7DAA9A528870"
+				type: "checkmark"
+			}]
+			title: "Related order overview"
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "AE2 Adjustments"
+}

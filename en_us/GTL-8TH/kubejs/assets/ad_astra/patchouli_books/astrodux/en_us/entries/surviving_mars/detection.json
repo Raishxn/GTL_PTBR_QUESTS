@@ -1,0 +1,18 @@
+{
+  "name": "Detect the environment",
+  "icon": "ad_astra:oxygen_sensor",
+  "sortnum": 7,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "oxygen sensor",
+      "item": "ad_astra:oxygen_sensor",
+      "text": "Oxygen sensors emit a redstone signal when they detect oxygen. You can invert the signal by holding down the shift key and right-clicking on it. Even though it's called an oxygen sensor, you can still change its detection type by right-clicking with a wrench. It has the option to detect oxygen, safe temperature and normal gravity."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:oxygen_sensor"
+    }
+  ]
+}
