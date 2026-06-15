@@ -1,0 +1,7424 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "1"
+	group: ""
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:nether_star"
+	id: "31DBD05CDAC527FC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6FF4FC4606DE3FDF"]
+			icon: "kubejs:suprachronal_ulv"
+			id: "7696C1CC69F5C9E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5024F084612498E5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4770FE3782E95801"
+				title: "ULV"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"7696C1CC69F5C9E4"
+			]
+			icon: "kubejs:suprachronal_lv"
+			id: "6F1E6F5DB0952B88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "111565E07666A0F9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A566A8B0F18049B"
+				title: "LV"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["6F1E6F5DB0952B88"]
+			dependency_requirement: "one_started"
+			id: "313C3AEB40D04540"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "01D390A1758B9CD4"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "509F619E461C9B82"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "284B7C99FF1AAC47"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59A9C7AFF9853B24"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C34DEAE5BC101D6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "514E442EFBE95811"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24DD617AE10A5527"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F9EFC406F4E0757"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:lv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "5783EFB0DB70DFA0"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "6158271C3E08E068"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "157B1A45B2C53600"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "163E3F72575B8D27"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "192B24D185DECACE"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "1C4DB3863D543D06"
+					item: "gtceu:lv_field_generator"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "005957580D52B62A"
+					item: "gtceu:lv_emitter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "7B7C302F08325960"
+					item: "gtceu:lv_sensor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "1EC03391EB58133B"
+					item: "kubejs:elite_control_circuit"
+					type: "item"
+				}
+			]
+			title: "LV eight-piece set"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"6F1E6F5DB0952B88"
+			]
+			icon: "kubejs:suprachronal_mv"
+			id: "59E658752600C5D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A895CA1D15809D3"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0DA79C772EDDBE82"
+				title: "MV"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"59E658752600C5D9"
+			]
+			icon: "kubejs:suprachronal_hv"
+			id: "33D1A59D1D85A63E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EBFEFF23050E366"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26DDB094C0F49032"
+				title: "HV"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"33D1A59D1D85A63E"
+			]
+			icon: "kubejs:suprachronal_ev"
+			id: "25328CD34C0CC3F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F2A29C5D7BFF889"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54F761468F047D35"
+				title: "EV"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"25328CD34C0CC3F3"
+			]
+			icon: "kubejs:suprachronal_iv"
+			id: "25B98668EEFA750C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD050B7D6E4BB48"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "773C1D1A59E4721A"
+				title: "IV"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"25B98668EEFA750C"
+			]
+			icon: "kubejs:suprachronal_luv"
+			id: "24558CC9C81217D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11FF3E7E19FD75E7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07377D4F103EE297"
+				title: "LUV"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"24558CC9C81217D1"
+			]
+			icon: "kubejs:suprachronal_zpm"
+			id: "2AF6DCE078FF812B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2C41F88C7CEEEF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BB68F009D45C41D"
+				title: "ZPM"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"2AF6DCE078FF812B"
+			]
+			icon: "kubejs:suprachronal_uv"
+			id: "7A47144A820F0656"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79988C0973EFBB6E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D313F5329166F5F"
+				title: "UV"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"7A47144A820F0656"
+			]
+			icon: "kubejs:suprachronal_uhv"
+			id: "35A0BFA8E776CDB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73EBF4F66DF4A234"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D9167881AB77260"
+				title: "UHV"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"35A0BFA8E776CDB1"
+			]
+			icon: "kubejs:suprachronal_uev"
+			id: "7C45F0A9440E8AD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54A88C0A29D10F63"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B023ACC775C9A75"
+				title: "UEV"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"7C45F0A9440E8AD5"
+			]
+			icon: "kubejs:suprachronal_uiv"
+			id: "34FCC740B2D499E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159A1594EFFCDA43"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "768C11A3B33D6EFD"
+				title: "UIV"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"34FCC740B2D499E3"
+			]
+			icon: "kubejs:suprachronal_uxv"
+			id: "3D7D23E9FB5EC4B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00AC80CB5A5C6CD6"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2608F40EF88CC3A8"
+				title: "UXV"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"3D7D23E9FB5EC4B6"
+			]
+			icon: "kubejs:suprachronal_opv"
+			id: "35A661BA59512359"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43ACAF5DFFDB77D5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "460CFEB5D9D4EE29"
+				title: "OPV"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6FF4FC4606DE3FDF"
+				"35A661BA59512359"
+			]
+			description: [
+				"&7&oSome people say that the end of the super store is not infinite, but the beginning of another journey."
+				"&7&oWhen ores are endlessly processed in the universe, and Tianji’s factories are running in the void,"
+				"&7&oMaybe you should visit the matrix that can rewrite probability and give it a minute."
+				"&7&oIt can’t speak, but it will remember you."
+			]
+			icon: "kubejs:suprachronal_max"
+			id: "22DDEB5121457784"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "648C62790ABDE917"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B2B5C4375C935B3"
+				title: "MAX"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["59E658752600C5D9"]
+			id: "1E85633A128B7985"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "3D5A74B96B52F3FE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60D733709A20258D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "667CA29D57922EE2"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7959589B7BBE9471"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E4F29F53109E4A1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38372638F8111A0B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6817BDFDBA3BA8C3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B65DD709BE2670C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:mv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "7A8EEB9BC969EB84"
+					item: "gtceu:mv_electric_motor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "2CEAC58BE647B333"
+					item: "gtceu:mv_electric_pump"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "218A48F3A719FF82"
+					item: "gtceu:mv_electric_piston"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "4BBFAE0D93CD9B5E"
+					item: "gtceu:mv_robot_arm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "5F25B16CC5C1B866"
+					item: "gtceu:mv_conveyor_module"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "63E650FFFABC11A0"
+					item: "gtceu:mv_field_generator"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "6D5C813A5FF25A44"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "3616F1BF5BA85FD0"
+					item: "gtceu:mv_sensor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "60F8C826557EF0ED"
+					item: "kubejs:ultimate_control_circuit"
+					type: "item"
+				}
+			]
+			title: "MV eight-piece set"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["33D1A59D1D85A63E"]
+			id: "7C8B633FDBE86725"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "3F66C9BB7E34EBF5"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1814420079A67B3A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "081F65C1EACC8BD2"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "411D1561515CBE00"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7587B8E27E9012EE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DFC61A3833C626B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0815B2FC92DC642B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EE1E997938F666A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:hv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "23C520BEC4768C3E"
+					item: "gtceu:hv_electric_motor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "5F5E1F4E8701D435"
+					item: "gtceu:hv_electric_pump"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "0123A7E79FBA47E1"
+					item: "gtceu:hv_electric_piston"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "2BA546EEE8B8755C"
+					item: "gtceu:hv_robot_arm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "15F657D6792D692C"
+					item: "gtceu:hv_conveyor_module"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "099494D4C7B14216"
+					item: "gtceu:hv_field_generator"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "721299E805723D5E"
+					item: "gtceu:hv_emitter"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "54507C3566698EC2"
+					item: "gtceu:hv_sensor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10000L
+					id: "1068DAD9458B789A"
+					item: "gtceu:micro_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "HV eight-piece set"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["25328CD34C0CC3F3"]
+			id: "58A8227762F57B72"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "401228D2321B13E0"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B647152E79F5B3F"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C1F98A009F2E272"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CD8626EAE7B367B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A5370387E5ED840"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543AFC5A601B56F7"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D79CE64EA5F79E2"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63FFAFCF5826D136"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:ev_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 5000L
+					id: "26AF5B9A0DA2DB6D"
+					item: "gtceu:ev_electric_motor"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "525712F85F6CCE5E"
+					item: "gtceu:ev_electric_pump"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "0E35DFE4B0220580"
+					item: "gtceu:ev_electric_piston"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "18D1E86315800EE9"
+					item: "gtceu:ev_robot_arm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "46786E9ED06E211A"
+					item: "gtceu:ev_conveyor_module"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "58F65CC96A8C8017"
+					item: "gtceu:ev_field_generator"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5000L
+					id: "1C625327AAE4F46E"
+					item: "gtceu:ev_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "54632CCC6B2FF844"
+					item: "gtceu:ev_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "62A7D17A29984570"
+					item: "gtceu:nano_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "EV eight-piece set"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["25B98668EEFA750C"]
+			id: "3E451B37C25BC550"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "4C06B750CC2F2AAF"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4602E3D0C971F01F"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "450FEF7540486FEF"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "753F2A46FEBB2EA5"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BA88CCC71925E31"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "768F149E4730B527"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "360390FE0C7E919B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A531AED7295CBA3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:iv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "18FEBDA798311D0F"
+					item: { Count: 5000, id: "gtceu:iv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "38BDD891FAD44563"
+					item: "gtceu:iv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "56E3CB6177559FEF"
+					item: "gtceu:iv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "7C2219200815A33A"
+					item: "gtceu:iv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "5B2623D4693F45DB"
+					item: "gtceu:iv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "0A8CCE8C9462A29A"
+					item: "gtceu:iv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "472E99A5EB6E422D"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "64042A9DBBBF39BB"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "423731ED55FCBA2E"
+					item: "gtceu:quantum_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "IV eight-piece set"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["24558CC9C81217D1"]
+			id: "01D71EBE0BD4438D"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "1AF3E103FB5CDD91"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C0CA97660B30716"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C9230580099EF81"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6589D6917B65115A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59CD64C38DDB2831"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC07C39AAA727A9"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D961D4DF7A8F885"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D9D691404552246"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:luv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "083687809AD3834C"
+					item: { Count: 5000, id: "gtceu:luv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1138D879B2D9176A"
+					item: "gtceu:luv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "286B82DEA620885D"
+					item: "gtceu:luv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "758EC228E6EB4E52"
+					item: "gtceu:luv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "538D60A72F393D23"
+					item: "gtceu:luv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "63AA43E1D070C408"
+					item: "gtceu:luv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "09D07EEA10DCC1B3"
+					item: "gtceu:luv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "6D6E20F316E296F8"
+					item: "gtceu:luv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "3A1A8B238FFF00F9"
+					item: { Count: 10000, id: "gtceu:crystal_processor_mainframe" }
+					type: "item"
+				}
+			]
+			title: "LUV eight-piece set"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2AF6DCE078FF812B"]
+			id: "7B93C6174C6A7A24"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "75E38FBC60665D98"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69E206F40B16B8BC"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "195E2DE0A8149C4C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7217E2C9C912B28E"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE1B22BCF59DF9C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42455E6250B34E6E"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B80F9704E99EA60"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "124D0526829AE5BF"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:zpm_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "7408DF8B8F41C137"
+					item: { Count: 5000, id: "gtceu:zpm_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1F4F819C38D25B94"
+					item: "gtceu:zpm_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "759F2B9479F460DB"
+					item: "gtceu:zpm_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "6385AD79BAFDD531"
+					item: "gtceu:zpm_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "6E7E502FFBB801F3"
+					item: "gtceu:zpm_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "5FB7C13E401214B1"
+					item: "gtceu:zpm_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "01F86C8CDE58770C"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "489D16285CD988C8"
+					item: "gtceu:zpm_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "3FDD01D41E5A5F13"
+					item: { Count: 10000, id: "gtceu:wetware_processor_mainframe" }
+					type: "item"
+				}
+			]
+			title: "ZPM eight-piece set"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["7A47144A820F0656"]
+			id: "56B592292B3F0E29"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "1E36E95E64C5C3C2"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07449D0C7EE30921"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CBBCE7B5DEED257"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678F971C57421C1B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A1B135DD571398B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AC7309C38808104"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5825C2A9936E38B3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29E79A15A278BFC4"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "4C90C2387D9BDF4E"
+					item: { Count: 5000, id: "gtceu:uv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "7706D32A0E5BF5D4"
+					item: "gtceu:uv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "2313AEF43327A3F6"
+					item: "gtceu:uv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1921FF27D1FC1B69"
+					item: "gtceu:uv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "0D56F123362C2F9C"
+					item: "gtceu:uv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "568D0FF82C76CA86"
+					item: "gtceu:uv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "07A9C6A21293F96C"
+					item: "gtceu:uv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "253D1A71BE1836E3"
+					item: "gtceu:uv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "4C40684E98712F42"
+					item: { Count: 10000, id: "kubejs:bioware_mainframe" }
+					type: "item"
+				}
+			]
+			title: "UV eight-piece set"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "564E171CC8DBCB15"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "383BC200E04AE4E9"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358A4B2059333C0C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B5DACAE42064C30"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51C68D7ACE403A4D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "721D735F0AC87F5A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F0FD8959D531198"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49550E0C1B7FD260"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "588170EBF773B52B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uhv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "1D6219A057FE2D3F"
+					item: { Count: 5000, id: "gtceu:uhv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1A10DFE255A58424"
+					item: "gtceu:uhv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "13735C2279BDC89C"
+					item: "gtceu:uhv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "52568DDE82FF5CA4"
+					item: "gtceu:uhv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "19B113E9D5461D62"
+					item: "gtceu:uhv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "23C7635B21D0ACC6"
+					item: "gtceu:uhv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "5F1BCDCD6E5F6CB4"
+					item: "gtceu:uhv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "7C28ABEB24143FF0"
+					item: "gtceu:uhv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "5FB6037FC1AD2C5B"
+					item: { Count: 10000, id: "kubejs:optical_mainframe" }
+					type: "item"
+				}
+			]
+			title: "UHV eight-piece set"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "60C165005D7F7237"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "1A4AB8FF8E57E833"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "322C2CEA65AD0E9F"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11C63683341B1D40"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7814D57F4002CD77"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51897CE65D233B08"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DDDC0C166924E55"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E094324183A7C09"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58C6552F327F0EEB"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uev_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "534E1FFFD4247CB6"
+					item: { Count: 5000, id: "gtceu:uev_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "79112C55B8C27EAA"
+					item: "gtceu:uev_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "720B0BBF6F4794DA"
+					item: "gtceu:uev_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "0751D84FC8E60D84"
+					item: "gtceu:uev_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "323807FA451005DD"
+					item: "gtceu:uev_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "3881BF0AF5180632"
+					item: "gtceu:uev_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1A9508A8DC2A6247"
+					item: "gtceu:uev_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "276C13424411F644"
+					item: "gtceu:uev_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "385EFCA000DFB8BA"
+					item: { Count: 10000, id: "kubejs:exotic_mainframe" }
+					type: "item"
+				}
+			]
+			title: "UEV eight-piece set"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["34FCC740B2D499E3"]
+			id: "6B460E5E9534CB57"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "1CF1C6B007A29377"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "774B1B150D6C0A34"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BA3C2CA785F9BBB"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BFB41907F29AB99"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "411940EE751147FC"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6655133ABB7CD936"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39E8539AB3E3FACE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EF483F669A0A1A0"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uiv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "6D9B004450D3B497"
+					item: { Count: 5000, id: "gtceu:uiv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "6E39E9866175BCFC"
+					item: "gtceu:uiv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "075DED8BFBAFE147"
+					item: "gtceu:uiv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "622CA7880FEC5AB6"
+					item: "gtceu:uiv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "32B7211A8A0D2E4B"
+					item: "gtceu:uiv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "773AF2933215BC7E"
+					item: "gtceu:uiv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "67B99AED06E286C6"
+					item: "gtceu:uiv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "0100A61C0E2B4DB5"
+					item: "gtceu:uiv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "1E4BA357889B705E"
+					item: { Count: 10000, id: "kubejs:exotic_mainframe" }
+					type: "item"
+				}
+			]
+			title: "UIV eight-piece set"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "48A9289C5B1CE780"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "5C429EB2DF1A35A6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FE752FDD52F8FEA"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D16148BEB2885E3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "401B26B53C092055"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B12616F9640FF30"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E3E5725BFECDD1A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C32CA41D31D22D7"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52A942C20E788068"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:uxv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "0D589AFD3F9668AD"
+					item: { Count: 5000, id: "gtceu:uxv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "2FD9938D4EE0B5D7"
+					item: "gtceu:uxv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "6D55AB33CB4EA85B"
+					item: "gtceu:uxv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "3769DA13349EA995"
+					item: "gtceu:uxv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1C87194A35ECCCCF"
+					item: "gtceu:uxv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "3260193BF97FBE49"
+					item: "gtceu:uxv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "2DB0196BE947342B"
+					item: "gtceu:uxv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "38F05D9783F63346"
+					item: "gtceu:uxv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "52145C8B05EE4D8C"
+					item: { Count: 10000, id: "kubejs:supracausal_mainframe" }
+					type: "item"
+				}
+			]
+			title: "UXV eight-piece set"
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["35A661BA59512359"]
+			id: "2FF013AD202578D2"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "46CB5DF112BA18C3"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52CEC02D74A0E780"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "440E6F6FC6B3BE44"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CE16D62BC0D5AAE"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "565BFB39BC6AFE21"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CD9B4AE26ED078A"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74D797EA07FAB459"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72F1AB1D4BE96255"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:opv_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "484928D221FF83B8"
+					item: { Count: 5000, id: "gtceu:opv_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "41E558EF1C591586"
+					item: "gtceu:opv_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "110A194C88BE742A"
+					item: "gtceu:opv_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "5EE8A047777F7D50"
+					item: "gtceu:opv_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "2D57CA64E05590A5"
+					item: "gtceu:opv_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "5A83F5E938790F2D"
+					item: "gtceu:opv_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "46B89E868BC043D1"
+					item: "gtceu:opv_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "525FDBD412CFB4AF"
+					item: "gtceu:opv_sensor"
+					type: "item"
+				}
+				{
+					count: 10000L
+					id: "3AC5AFD5AC656E36"
+					item: { Count: 10000, id: "kubejs:suprachronal_mainframe_complex" }
+					type: "item"
+				}
+			]
+			title: "OPV eight-piece set"
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["22DDEB5121457784"]
+			id: "02889B7BECB58533"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					id: "335796A3F17021FA"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_electric_piston"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C522974F49FA686"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_electric_motor"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "191C8DC2CE20A549"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_robot_arm"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2420099F32E3F80D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_conveyor_module"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "692892423712A9A6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_electric_pump"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DC7A91694956595"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_field_generator"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FB91CD63ACD2E1D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_emitter"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "405B4F3C25BCFCE0"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtlcore:max_sensor"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5000L
+					id: "6CA21CD83C9B0384"
+					item: { Count: 5000, id: "gtlcore:max_electric_motor" }
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "1589C14B04DF23CD"
+					item: "gtlcore:max_electric_pump"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "00C238FEAAEB5BE7"
+					item: "gtlcore:max_electric_piston"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "4F4366A253CEBDB0"
+					item: "gtlcore:max_robot_arm"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "7F94057583F801AD"
+					item: "gtlcore:max_conveyor_module"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "2721B753195E1366"
+					item: "gtlcore:max_field_generator"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "0BF3771057E0F79A"
+					item: "gtlcore:max_emitter"
+					type: "item"
+				}
+				{
+					count: 5000L
+					id: "4C3F4E5F5AFAB2EA"
+					item: "gtlcore:max_sensor"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3F3E289004E7C69F"
+					item: { Count: 10, id: "gtmthings:creative_energy_hatch" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "068932F9697A8DBB"
+					item: { Count: 10, id: "gtmthings:creative_laser_hatch" }
+					type: "item"
+				}
+			]
+			title: "MAX eight-piece set"
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F1E6F5DB0952B88"]
+			id: "62867D5D86781499"
+			rewards: [{
+				id: "7A834F4509A9D284"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:aluminium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "1F5C2E641A69E897"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			title: "aluminum ingot"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "62137D9E6C2C4429"
+			rewards: [
+				{
+					id: "2986A361B6B0618E"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "kubejs:eternity_coil_block"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E16BDABEBE4DC8E"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "kubejs:infinity_coil_block"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "790035CD9F82CD3F"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "kubejs:hypogen_coil_block"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1000L
+					id: "781892459B73254A"
+					item: { Count: 1000, id: "kubejs:infinity_coil_block" }
+					type: "item"
+				}
+				{
+					count: 1000L
+					id: "3675A2A79EB47866"
+					item: { Count: 1000, id: "kubejs:hypogen_coil_block" }
+					type: "item"
+				}
+				{
+					count: 1000L
+					id: "1B29E643BE6E6288"
+					item: { Count: 1000, id: "kubejs:eternity_coil_block" }
+					type: "item"
+				}
+			]
+			title: "Endless/Hyperjeon/Eternal Coil Cube"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7696C1CC69F5C9E4"]
+			id: "44A686261E43526E"
+			rewards: [{
+				id: "00BA1EFA499DBBBB"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:steel_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4DAFFAEEFBB6C6C8"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "steel ingot"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7696C1CC69F5C9E4"]
+			icon: "gtceu:steam_bucket"
+			id: "45FCB273282A6C62"
+			rewards: [{
+				id: "37BB8CFAA0276059"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:steam"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "2C97FC9DE12B68C7"
+				item: { Count: 128, id: "gtceu:dimensionally_transcendent_steam_boiler" }
+				type: "item"
+			}]
+			title: "steam"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59E658752600C5D9"]
+			id: "137D9AB56F979BC6"
+			rewards: [{
+				id: "19D532408A212A62"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:stainless_steel_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "21BD375DB579C46F"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			title: "stainless steel ingot"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33D1A59D1D85A63E"]
+			id: "5F5774FA80B38B6C"
+			rewards: [{
+				id: "69C6620D127D5C87"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:titanium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "3A372F00B4B3FB71"
+				item: { Count: 6400, id: "gtceu:titanium_ingot" }
+				type: "item"
+			}]
+			title: "titanium ingot"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25328CD34C0CC3F3"]
+			icon: "gtceu:platinum_group_sludge_dust"
+			id: "0183D0BDA2ED5667"
+			rewards: [{
+				id: "4D5C0EFD1391E9B8"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:platinum_group_sludge_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6400L
+					id: "3F4EB70DC2DFB8E6"
+					item: { Count: 6400, id: "gtceu:platinum_dust" }
+					type: "item"
+				}
+				{
+					count: 6400L
+					id: "172EA9958E0D345C"
+					item: { Count: 6400, id: "gtceu:palladium_dust" }
+					type: "item"
+				}
+				{
+					count: 6400L
+					id: "2A163537951EB6FD"
+					item: { Count: 6400, id: "gtceu:ruthenium_dust" }
+					type: "item"
+				}
+				{
+					count: 6400L
+					id: "67AB3045A6CF5831"
+					item: { Count: 6400, id: "gtceu:iridium_dust" }
+					type: "item"
+				}
+				{
+					count: 6400L
+					id: "4090849182B72EFE"
+					item: { Count: 6400, id: "gtceu:osmium_dust" }
+					type: "item"
+				}
+				{
+					count: 6400L
+					id: "2728BC9F67C5C579"
+					item: { Count: 6400, id: "gtceu:rhodium_dust" }
+					type: "item"
+				}
+			]
+			title: "Platinum series slime"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25B98668EEFA750C"]
+			id: "549225ED1010D7B5"
+			rewards: [{
+				id: "3429ECDB0095E3D1"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:rare_earth_chlorides"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 640L
+					id: "1D209F69610876E9"
+					item: { Count: 640, id: "gtceu:lanthanum_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "354FCD35E8E74B0F"
+					item: { Count: 640, id: "gtceu:cerium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "0A65D225041F29A5"
+					item: { Count: 640, id: "gtceu:praseodymium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "1232B7DEE6CF5A6A"
+					item: { Count: 640, id: "gtceu:neodymium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "2518E03EAA9516BA"
+					item: { Count: 640, id: "gtceu:scandium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "2703A2389D43B5DF"
+					item: { Count: 640, id: "gtceu:samarium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "015CCBF331D88637"
+					item: { Count: 640, id: "gtceu:europium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "31FFABD71220EFCF"
+					item: { Count: 640, id: "gtceu:gadolinium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "10153D9E8F188ED8"
+					item: { Count: 640, id: "gtceu:yttrium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "676FBF899FA4D747"
+					item: { Count: 640, id: "gtceu:terbium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "175D65A80371EDE5"
+					item: { Count: 640, id: "gtceu:dysprosium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "55D9299E696F53A1"
+					item: { Count: 640, id: "gtceu:holmium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "1BDDE70531FFE225"
+					item: { Count: 640, id: "gtceu:erbium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "4EB4EAE21B43C519"
+					item: { Count: 640, id: "gtceu:thulium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "7417EA483BD2424F"
+					item: { Count: 640, id: "gtceu:ytterbium_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 640L
+					id: "6A1DC103F88EA75A"
+					item: { Count: 640, id: "gtceu:lutetium_oxide_dust" }
+					type: "item"
+				}
+			]
+			title: "Rare earth chlorine compounds"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24558CC9C81217D1"]
+			id: "4CB54BB397AA1EE6"
+			rewards: [{
+				id: "7E9E60F7EF65CB8F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:rhodium_plated_palladium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "541EC88061FB4844"
+				item: { Count: 6400, id: "gtceu:rhodium_plated_palladium_ingot" }
+				type: "item"
+			}]
+			title: "Rhodium plated palladium ingot"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7696C1CC69F5C9E4"]
+			id: "79ECA37D8A232ABA"
+			rewards: [{
+				id: "2A29CE30F891669C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:bronze_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "7C0ACB993DA735A9"
+				item: { Count: 6400, id: "gtceu:bronze_ingot" }
+				type: "item"
+			}]
+			title: "bronze ingot"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F1E6F5DB0952B88"]
+			id: "25D7B6FE10025AAE"
+			rewards: [{
+				id: "2E4C9755E30735E6"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:rubber"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "48D1A0947CCAF7ED"
+				item: { Count: 6400, id: "gtceu:rubber_ingot" }
+				type: "item"
+			}]
+			title: "liquid rubber"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33D1A59D1D85A63E"]
+			icon: "gtceu:polyethylene_ingot"
+			id: "09A2372D1F0BF188"
+			rewards: [
+				{
+					id: "2AEFC010B0EC5FAB"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:polyethylene"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70E157C136EDC60C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:ethylene"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6400L
+				id: "4588564122A5788B"
+				item: { Count: 6400, id: "gtceu:polyethylene_block" }
+				type: "item"
+			}]
+			title: "Liquid polyethylene/ethylene"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25328CD34C0CC3F3"]
+			id: "69BA29B6DD8DAC87"
+			rewards: [{
+				id: "05B659BA2611FE05"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:tungsten_steel_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4BDD4F88580A8424"
+				item: { Count: 6400, id: "gtceu:tungsten_steel_ingot" }
+				type: "item"
+			}]
+			title: "Tungsten steel ingot"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25328CD34C0CC3F3"]
+			id: "626BE0CF4311D561"
+			rewards: [{
+				id: "2BA3165CF065100D"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:nether_star"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "5E9FCD44EB8DC5E3"
+				item: { Count: 6400, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			title: "nether star"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["25B98668EEFA750C"]
+			description: [""]
+			id: "05AC776A81123514"
+			rewards: [
+				{
+					id: "0A9F46975E569CD1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:supercritical_steam"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0735F65C8DC2A269"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:sodium_potassium"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "5C313C01F1421B70"
+				item: { Count: 10, id: "gtceu:fission_reactor" }
+				type: "item"
+			}]
+			title: "Supercritical steam/sodium potassium alloy"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25B98668EEFA750C"]
+			description: [
+				"Don't let the reactor stop"
+				"Don't let the reactor blow up either."
+			]
+			id: "7A85F74E720FB0A0"
+			rewards: [{
+				id: "06B4E156270074E0"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:reactor_mox_quad"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "6160BD123E4422E7"
+				item: { Count: 1000, id: "kubejs:reactor_mox_quad" }
+				type: "item"
+			}]
+			title: "Quad MOX fuel rod"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["24558CC9C81217D1"]
+			id: "04B7D720D7DE44B0"
+			rewards: [{
+				id: "7F7B526F94262D2F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:superconducting_coil"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2000L
+				id: "66B5748E4D59A8B6"
+				item: { Count: 2000, id: "gtceu:superconducting_coil" }
+				type: "item"
+			}]
+			title: "superconducting coil block"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24558CC9C81217D1"]
+			id: "35AA9BCFAB4F676E"
+			rewards: [{
+				id: "5E841A3C2A3DCC30"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:duranium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 640L
+				id: "2C69C4A217F63245"
+				item: { Count: 640, id: "gtceu:duranium_ingot" }
+				type: "item"
+			}]
+			title: "Uranium ingot"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			id: "745A81C1B9FFF9C6"
+			rewards: [{
+				id: "47C0F48BCD87D446"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:darmstadtium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "01AD82EE181B9276"
+				item: { Count: 64, id: "gtceu:darmstadtium_ingot" }
+				type: "item"
+			}]
+			title: "𫟼 tablets"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			id: "5C62E71FC15FE041"
+			rewards: [{
+				id: "14528C6822892C8F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:americium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "72030643971F3933"
+				item: { Count: 6400, id: "gtceu:americium_ingot" }
+				type: "item"
+			}]
+			title: "Americium ingot"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			id: "535E57895784A241"
+			rewards: [{
+				id: "51EDF9157FDF3649"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:tritanium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4A0C3D8732CE1537"
+				item: { Count: 6400, id: "gtceu:tritanium_ingot" }
+				type: "item"
+			}]
+			title: "Three titanium ingots"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			id: "7D9C03D9DAE9658D"
+			rewards: [{
+				id: "6DC990707BADBECE"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:glacio_spirit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "5938CEB43B6DAD24"
+				item: "kubejs:glacio_spirit"
+				type: "item"
+			}]
+			title: "Frostfield Shard"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			id: "51A068F5AB40B94D"
+			rewards: [{
+				id: "4877461F6EFFE7C4"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:stem_cells"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64000L
+				id: "37FA57F416B300FE"
+				item: { Count: 64000, id: "gtceu:stem_cells" }
+				type: "item"
+			}]
+			title: "stem cells"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			icon: "gtceu:drilling_fluid_bucket"
+			id: "6579A71401F940B8"
+			rewards: [{
+				id: "50689B8CAAD9B846"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:drilling_fluid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "0E7A519DBFBDE5CB"
+				item: { Count: 10, id: "gtceu:large_void_miner" }
+				type: "item"
+			}]
+			title: "Drilling fluid"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			id: "6C7C60B22D0F00A7"
+			rewards: [{
+				id: "5E817A87D2C12D9C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:orichalcum_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4D44BB5F9752AC16"
+				item: { Count: 6400, id: "gtceu:orichalcum_ingot" }
+				type: "item"
+			}]
+			title: "Orichalcum Ingot"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			id: "53FA45514A20F8C2"
+			rewards: [{
+				id: "2CDF4BBA1F170E83"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:mithril_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4B5F9445E5C13C00"
+				item: { Count: 6400, id: "gtceu:mithril_ingot" }
+				type: "item"
+			}]
+			title: "Mithril Bar"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			id: "5E16B9CAAD88B540"
+			rewards: [{
+				id: "477488B0782CDEC8"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:neutronium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "601A23F2E30FA6AD"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			title: "Neutron element ingot"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			icon: "gtceu:rocket_fuel_h8n4c2o4_bucket"
+			id: "78C28A2C626A30CE"
+			rewards: [{
+				id: "6A08DD115D81599A"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:rocket_fuel_h8n4c2o4"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22984641796B6083"
+					item: "gtceu:space_elevator"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "06448CFAB2358686"
+					item: "gtceu:resource_collection"
+					type: "item"
+				}
+			]
+			title: "Rocket fuel (dimethylhydrazine-nitrogen tetroxide)"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			icon: "kubejs:dust_cryotheum"
+			id: "0F4F48B28A61CB2E"
+			rewards: [{
+				id: "26661CBBD39A7E70"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:dust_cryotheum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "30CD6A351F8E5CEC"
+				item: { Count: 3, id: "gtceu:plasma_condenser" }
+				type: "item"
+			}]
+			title: "Lin ice powder"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			icon: "gtceu:polyimide_bucket"
+			id: "67E48EEE3D8B9F51"
+			rewards: [
+				{
+					id: "7C4BCD5A58BA895D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:polyimide"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F656F702CC70C0C"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:polyetheretherketone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "464B91C4BA22C8F8"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:mutated_living_solder"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 1000L
+				id: "55BC80D10ACAA6F2"
+				item: { Count: 1000, id: "kubejs:bioware_mainframe" }
+				type: "item"
+			}]
+			title: "Polyimide/liquid polyetheretherketone/mutant active solder"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "5F5C7CAEF09B3119"
+			rewards: [{
+				id: "52B1B18B94C05810"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:seaborgium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "595A6A6449BDB38B"
+				item: { Count: 6400, id: "gtceu:seaborgium_ingot" }
+				type: "item"
+			}]
+			title: "𬭳 tablets"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "3170AE8494E40124"
+			rewards: [{
+				id: "7EFBF345D3B2FD4E"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:dubnium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "0E71E2AB6127B872"
+				item: { Count: 6400, id: "gtceu:dubnium_ingot" }
+				type: "item"
+			}]
+			title: "𬭊 tablets"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "223DA887593CD458"
+			rewards: [{
+				id: "1556475FE4310650"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:francium_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "000FD5E0D7E72366"
+				item: { Count: 6400, id: "gtceu:francium_dust" }
+				type: "item"
+			}]
+			title: "Francium powder"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "4DF40212746D51B5"
+			rewards: [{
+				id: "2030503AC20EFDB1"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "417D2164854339DF"
+				item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
+				type: "item"
+			}]
+			title: "Hexanitrohexaazaisowurtzitane powder"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "4E4A8A74298E3694"
+			rewards: [{
+				id: "6FCB75B342A7259C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:naquadria_charge"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "264140BAEB5452BA"
+				item: { Count: 6400, id: "kubejs:naquadria_charge" }
+				type: "item"
+			}]
+			title: "Super silica explosive bomb"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "11AF00D3D970E78A"
+			rewards: [{
+				id: "7544624180133E62"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:cycloparaphenylene"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "07B054C43DCD0BFF"
+				item: "gtceu:carbon_nanotubes_ingot"
+				type: "item"
+			}]
+			title: "cycloparaphenylene"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "4569D37AFB69E35D"
+			rewards: [{
+				id: "7E93F3917DE595F6"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:polyurethaneresin"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "30035A359FB0EBA2"
+				item: "gtceu:kevlar_plate"
+				type: "item"
+			}]
+			title: "Polyurethane resin"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "5E8556D7A6ED8AD0"
+			rewards: [{
+				id: "18B2B6746A7A1955"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:zylon_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "2CD807272190A07F"
+				item: { Count: 6400, id: "gtceu:zylon_dust" }
+				type: "item"
+			}]
+			title: "Chailon fiber powder"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "7E2DD407DE6314EE"
+			rewards: [{
+				id: "2A4E34E775A6A23F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:echo_shard"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "2D4EAB6240B1180D"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			title: "Echo Shard"
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "3897D8F18D7F9D57"
+			rewards: [{
+				id: "48A43326AFF0CF3B"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:echoite_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "1095BAE058B69B55"
+				item: "gtceu:echoite_ingot"
+				type: "item"
+			}]
+			title: "Echo Alloy Ingot"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "652B6D64B93DE695"
+			rewards: [{
+				id: "4C55B16732483259"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:naquadah_contain_rare_earth_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "2EF24BD98808913B"
+				item: "gtceu:naquadah_contain_rare_earth_dust"
+				type: "item"
+			}]
+			title: "Rare earth powder containing silica rock"
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "20B689E7DCC46A88"
+			rewards: [{
+				id: "20F3EDA937563AEF"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:fullerene_polymer_matrix_pulp_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4111AF2203387A82"
+				item: { Count: 640000, id: "gtceu:fullerene_polymer_matrix_pulp_dust" }
+				type: "item"
+			}]
+			title: "Fullerene polymer matrix powder"
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "6E4291AC7631B296"
+			rewards: [{
+				id: "5DB7EDA44B336D7C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:vibranium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "58FC6E1F3B7AA596"
+				item: { Count: 6400, id: "gtceu:vibranium_ingot" }
+				type: "item"
+			}]
+			title: "Vibranium Ingot"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "5D62AEA184C2BC3C"
+			rewards: [{
+				id: "10984E783006A81D"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:draconium_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "544841E479A68B93"
+				item: { Count: 6400, id: "kubejs:draconium_dust" }
+				type: "item"
+			}]
+			title: "Long Chen"
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "77DBEE9BBE1B3014"
+			rewards: [{
+				id: "29657269F3BD1AB1"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:californium_cyclopentadienide"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "335B81AA3BC9CDB8"
+				item: { Count: 6400, id: "gtceu:californium_dust" }
+				type: "item"
+			}]
+			title: "californium cyclopentadienide"
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "59A62D36A8FCA86E"
+			rewards: [{
+				id: "71F7E5B587642702"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:draconic_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "394D1E9F10B2F53A"
+				item: { Count: 6400, id: "kubejs:draconic_core" }
+				type: "item"
+			}]
+			title: "Godson"
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			icon: "gtceu:euv_photoresist_bucket"
+			id: "0DA4CDCC6016ED5E"
+			rewards: [{
+				id: "54D2B4D8722A5A66"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:euv_photoresist"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "121D548C1EACF2E5"
+				item: { Count: 3, id: "gtceu:dimensional_focus_engraving_array" }
+				type: "item"
+			}]
+			title: "EUV photoresist"
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "21D8AD8139DAFBB9"
+			rewards: [{
+				id: "702D50D5E00E2544"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:leptonic_charge"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "7361629D7E87D9E5"
+				item: { Count: 6400, id: "kubejs:leptonic_charge" }
+				type: "item"
+			}]
+			title: "lepton bomb"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "463EF55CB7909798"
+			rewards: [{
+				id: "32096907503A8F49"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:scintillator_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "4BBB5CBE0D5F1D85"
+				item: { Count: 6400, id: "kubejs:scintillator_crystal" }
+				type: "item"
+			}]
+			title: "scintillation crystal"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "515ACA9A1DE7E2DF"
+			rewards: [{
+				id: "49EEC174AE180FF0"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:hassium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "44498348345D0B5A"
+				item: { Count: 6400, id: "gtceu:hassium_ingot" }
+				type: "item"
+			}]
+			title: "𬭶 tablets"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "3A8BD5238228325E"
+			rewards: [{
+				id: "1778C5A4A550ED58"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:insulation_wire_assembly"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "3BE2E0D6F68D339D"
+				item: { Count: 6400, id: "kubejs:insulation_wire_assembly" }
+				type: "item"
+			}]
+			title: "Insulated wire skeins"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			icon: "gtceu:gamma_rays_photoresist_bucket"
+			id: "62C3F4CAB781BC2D"
+			rewards: [{
+				id: "3A2672D2BA23632C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:gamma_rays_photoresist"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "525BF03643EAB9AA"
+				item: "gtladditions:lucid_etchdreamer"
+				type: "item"
+			}]
+			title: "gamma ray photoresist"
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "57FC1AABD01BB304"
+			rewards: [{
+				id: "721E15658A6EBFD3"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:photopolymer"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 640L
+				id: "5ABCADE3FF760C6F"
+				item: { Count: 640, id: "kubejs:photocoated_hassium_boule" }
+				type: "item"
+			}]
+			title: "photopolymer solution"
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "198DB2F252D1CE22"
+			rewards: [{
+				id: "5048F68B4DD02FE9"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:oganesson_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "023BE41D07F3B7FD"
+				item: { Count: 6400, id: "gtceu:oganesson_ingot" }
+				type: "item"
+			}]
+			title: "鿫 Ingot"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "0D680C8F7B0D32C0"
+			rewards: [{
+				id: "63214E1D9397C482"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:cosmic_superconductor"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "2C414073BFF58003"
+				item: { Count: 640, id: "gtlcore:fast_conversion_simulate_card" }
+				type: "item"
+			}]
+			title: "Universal superconducting liquid"
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "2067625C6357B3C5"
+			rewards: [{
+				id: "7736675646343455"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:crystalmatrix_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "0184F10767E74720"
+				item: { Count: 6400, id: "gtceu:crystalmatrix_ingot" }
+				type: "item"
+			}]
+			title: "Crystal Matrix Ingot"
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "33131DBCB3E53D4C"
+			rewards: [{
+				id: "36C8B6BB923F3053"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:draconiumawakened_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "114B3F866CDDC39D"
+				item: { Count: 6400, id: "gtceu:draconiumawakened_ingot" }
+				type: "item"
+			}]
+			title: "Awakening Dragon Ingot"
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "057A7309DFD4F889"
+			rewards: [{
+				id: "6DC863E9E97308CD"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:awakened_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "585A82F437B48B47"
+				item: { Count: 6400, id: "kubejs:awakened_core" }
+				type: "item"
+			}]
+			title: "awakening core"
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "4DE0C17803FEC083"
+			rewards: [{
+				id: "1F74B39171D4617D"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:cosmic_fabric"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "580C5AF34A01D4BA"
+				item: { Count: 6400, id: "kubejs:cosmic_fabric" }
+				type: "item"
+			}]
+			title: "Universal Fabric"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "7906F0571A23EC0B"
+			rewards: [{
+				id: "59EF82162205D46F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:periodicium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "086C58DE93658A21"
+				item: { Count: 6400, id: "gtceu:periodicium_ingot" }
+				type: "item"
+			}]
+			title: "Table ingot"
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "7F4AC988D7E0D7EE"
+			rewards: [{
+				id: "37AAE22EAB47957F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:topological_manipulator_unit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "6FE3732FFF302EC8"
+				item: { Count: 6400, id: "kubejs:topological_manipulator_unit" }
+				type: "item"
+			}]
+			title: "topology control control unit"
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "3D35B6A8141B14F4"
+			rewards: [{
+				id: "3343B47105164F4B"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:ctc_computational_unit"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "7FE659FFBD83D640"
+				item: { Count: 6400, id: "kubejs:ctc_computational_unit" }
+				type: "item"
+			}]
+			title: "Closed time-like curve calculation unit"
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "35ADB25198EBFBD1"
+			rewards: [{
+				id: "2B619628ED624016"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:nuclear_star"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "054FA067C4E189AD"
+				item: { Count: 6400, id: "kubejs:nuclear_star" }
+				type: "item"
+			}]
+			title: "nuclear star"
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "7FF07C219D1698FA"
+			rewards: [
+				{
+					id: "270B022849721E8E"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:radox"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "361FFCBD9AE54389"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "kubejs:quantum_chromodynamic_charge"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EB17081642C5C11"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:radox_gas"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 6400L
+					id: "7AE31E0ED1978FCE"
+					item: { Count: 6400, id: "gtceu:radox_ingot" }
+					type: "item"
+				}
+				{
+					count: 6400L
+					id: "046B272FB82E1592"
+					item: { Count: 6400, id: "kubejs:quantum_chromodynamic_charge" }
+					type: "item"
+				}
+			]
+			title: "Lado X Polymer/Quantum Chromodynamic Bomb/Lado X Gas"
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "5CA8A9C0E50CC0D9"
+			rewards: [{
+				id: "7588D766C4688FD7"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:dimensionallytranscendentresplendentcatalyst"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2246F82AC322D42E"
+				item: { Count: 64, id: "gtlcore:spacetimebendingcore" }
+				type: "item"
+			}]
+			title: "Brilliant Hyperdimensional Catalyst"
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "0B804FD77C6A8C0E"
+			rewards: [{
+				id: "0780884A382A68BF"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:chaos_shard"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "62FA650CF5E80B11"
+				item: { Count: 6400, id: "kubejs:chaos_shard" }
+				type: "item"
+			}]
+			title: "Shards of Chaos"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "322DE639DB3F019B"
+			rewards: [{
+				id: "3E8C780A2E96EE4F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:transcendentmetal_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "36DA41B421DAEEF1"
+				item: { Count: 6400, id: "gtceu:transcendentmetal_ingot" }
+				type: "item"
+			}]
+			title: "Hyperdimensional Metal Ingot"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "6619B0F3CB27C0C0"
+			rewards: [{
+				id: "6D0C71733E0C2DFF"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:hypercube"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "576728579A47E19C"
+				item: { Count: 6400, id: "kubejs:hypercube" }
+				type: "item"
+			}]
+			title: "hypercube"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "3781A8CAE64C5BAF"
+			rewards: [{
+				id: "554DCD1E45109D44"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:timepiece"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "272761E15E342562"
+				item: { Count: 6400, id: "kubejs:timepiece" }
+				type: "item"
+			}]
+			title: "Time fragments"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "0BA1346128294831"
+			rewards: [{
+				id: "7D6D7C87A25DC1E9"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:chaotic_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "43F5336D182DBAAF"
+				item: { Count: 6400, id: "kubejs:chaotic_core" }
+				type: "item"
+			}]
+			title: "Chaos Core"
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "7D86D71B72A9A85D"
+			rewards: [{
+				id: "1BFA765404FE4232"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:quantum_anomaly"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 640L
+				id: "05D4FD1875A198CF"
+				item: { Count: 640, id: "kubejs:quantum_anomaly" }
+				type: "item"
+			}]
+			title: "quantum anomaly"
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "561217ABD487DD8A"
+			rewards: [{
+				id: "7ECEFF6168D5C427"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:eternity_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "5D2858A7B4AF6574"
+				item: { Count: 6400, id: "gtceu:eternity_ingot" }
+				type: "item"
+			}]
+			title: "Eternal Ingot"
+			x: 14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "720954C162C96529"
+			rewards: [{
+				id: "3532E1F6E925EB15"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:spacetime"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "5452203E26484548"
+				item: "gtceu:spacetime_ingot"
+				type: "item"
+			}]
+			title: "Time and space ingot"
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "6C8238348D63E156"
+			rewards: [{
+				id: "123067BA6BDD4FC3"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:draconic_energy_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 640L
+				id: "1D5786D2F7B8C557"
+				item: { Count: 640, id: "kubejs:draconic_energy_core" }
+				type: "item"
+			}]
+			title: "Shenlong energy core"
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "3BB006959BAE6E1B"
+			rewards: [{
+				id: "2A48F38A8FC16517"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:dimension_creation_casing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "725E9D55F545119F"
+				item: { Count: 10, id: "kubejs:dimension_creation_casing" }
+				type: "item"
+			}]
+			title: "Create dimension mechanical cubes"
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "4FE5ADE9C8A411FB"
+			rewards: [{
+				id: "159125C3C3346FFE"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:command_block"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 640L
+				id: "24868DDADE369CBB"
+				item: { Count: 640, id: "minecraft:command_block" }
+				type: "item"
+			}]
+			title: "command block"
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "2B832E23921ACDEE"
+			rewards: [
+				{
+					id: "256741C2EB3408DA"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "expatternprovider:fishbig"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "714D941D781E319F"
+					item: "ae2:creative_item_cell"
+					type: "item"
+				}
+				{
+					id: "0540D0C05A4FE877"
+					item: "ae2:creative_fluid_cell"
+					type: "item"
+				}
+				{
+					command: "/gamemode creative"
+					elevate_perms: true
+					id: "2490B3BE9B749503"
+					title: "gain god's power"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 2502326172L
+					id: "2164619CAD88B138"
+					item: "expatternprovider:fishbig"
+					type: "item"
+				}
+				{
+					id: "1D925FC8D851FFCD"
+					item: "gtceu:creative_chest"
+					type: "item"
+				}
+				{
+					id: "41D56EDF57CD38D0"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+			]
+			title: "Graduated"
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "4228DAF60265B8F6"
+			rewards: [{
+				id: "2979FE06352CD661"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:chaotic_energy_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "646AA1CAD371E573"
+				item: { Count: 1000, id: "kubejs:chaotic_energy_core" }
+				type: "item"
+			}]
+			title: "Chaos Energy Core"
+			x: 15.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "33D2ECFAD9226F08"
+			rewards: [{
+				id: "594AA7716F1A7028"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:supracausal_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "00A4B51CD34B87A8"
+				item: { Count: 6400, id: "kubejs:supracausal_mainframe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "4E3605F60A60ECB4"
+			rewards: [{
+				id: "1B2A00B32ACE5717"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:cosmic_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "456FC71947B719D3"
+				item: { Count: 6400, id: "kubejs:cosmic_mainframe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "54C04CBEF266FA2C"
+			rewards: [{
+				id: "05219C7288EADF1F"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:exotic_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "42C7C5AE7721E2D5"
+				item: { Count: 6400, id: "kubejs:exotic_mainframe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "699343AC287F3BC4"
+			rewards: [{
+				id: "74DDCE3D53DE9855"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:optical_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "42DABE83E8E8F461"
+				item: { Count: 6400, id: "kubejs:optical_mainframe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "305E7828B02313E5"
+			rewards: [{
+				id: "0C84024C2E9AF7C7"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:bioware_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "3A5F974BE630470F"
+				item: { Count: 6400, id: "kubejs:bioware_mainframe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "0565255EA73B7814"
+			rewards: [{
+				id: "3E04932CFF2DC6A5"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:wetware_processor_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "2314B23C463F19C2"
+				item: { Count: 6400, id: "gtceu:wetware_processor_mainframe" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "7C6573781E0ADACA"
+			rewards: [{
+				id: "091C7116FDE71242"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:crystal_processor_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "2FD439A765371B29"
+				item: { Count: 6400, id: "gtceu:crystal_processor_mainframe" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "3F53DEC7386D6472"
+			rewards: [{
+				id: "1892E39CCFA979A3"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:quantum_processor_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "28AF944CC5EDFFE2"
+				item: { Count: 6400, id: "gtceu:quantum_processor_mainframe" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "28EEBFCCDAC716AE"
+			rewards: [{
+				id: "70DD7D118F07AFB0"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:nano_processor_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "14CAA50DF7E9B15C"
+				item: { Count: 6400, id: "gtceu:nano_processor_mainframe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6B460E5E9534CB57"]
+			id: "3A828BCB8C9D5A31"
+			rewards: [{
+				id: "0378684E92A2C471"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:micro_processor_mainframe"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "26C6F8C7707CE64E"
+				item: { Count: 6400, id: "gtceu:micro_processor_mainframe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["59E658752600C5D9"]
+			id: "5C989BEB923BA8AB"
+			rewards: [{
+				id: "6D3CEDED744F2D9C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:kanthal_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "1A143B9770B2669A"
+				item: { Count: 6400, id: "gtceu:kanthal_ingot" }
+				type: "item"
+			}]
+			title: "Kantar Alloy Ingot"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59E658752600C5D9"]
+			id: "36287E7C87FF5FC5"
+			rewards: [{
+				id: "493339386242CED0"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:silicon_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "202652CD049340EB"
+				item: { Count: 6400, id: "gtceu:silicon_ingot" }
+				type: "item"
+			}]
+			title: "silicon ingot"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59E658752600C5D9"]
+			id: "51FE780A786EDEE8"
+			rewards: [{
+				id: "11107348F7CBF2C2"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:vanadium_steel_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "355863B26B171026"
+				item: { Count: 6400, id: "gtceu:vanadium_steel_ingot" }
+				type: "item"
+			}]
+			title: "Vanadium Steel Ingot"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25328CD34C0CC3F3"]
+			id: "65289505F068B57D"
+			rewards: [{
+				id: "057970D00F0A6973"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:polytetrafluoroethylene"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "22DB2EA58651652E"
+				item: { Count: 6400, id: "gtceu:polytetrafluoroethylene_ingot" }
+				type: "item"
+			}]
+			title: "Liquid polytetrafluoroethylene"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["25B98668EEFA750C"]
+			id: "6F3A1D4B7AF6FB30"
+			rewards: [{
+				id: "5392B19ABA932D23"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:indium_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "7B0511935CC8095C"
+				item: { Count: 6400, id: "gtceu:indium_ingot" }
+				type: "item"
+			}]
+			title: "Indium ingot"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24558CC9C81217D1"]
+			icon: "gtceu:nitrogen_bucket"
+			id: "202F621DB4E66C99"
+			rewards: [{
+				id: "4C22073615F3A180"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:nitrogen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "1060A9B6F2A5C7FB"
+				item: { Count: 3, id: "gtceu:wood_distillation" }
+				type: "item"
+			}]
+			title: "Gaseous nitrogen"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["24558CC9C81217D1"]
+			icon: "gtceu:fluoroantimonic_acid_bucket"
+			id: "2F7E932361F8D4BB"
+			rewards: [{
+				id: "20453CD46FAB8C5A"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:fluoroantimonic_acid"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "0028019319A14971"
+				item: { Count: 10, id: "gtceu:neutron_activator" }
+				type: "item"
+			}]
+			title: "Fluorantibonic acid"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "36B418D4890B02ED"
+			invisible: true
+			rewards: [
+				{
+					id: "71CD871774FB8899"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:grass_block"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1479D8C992782D2F"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:dirt"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				block: "minecraft:grass_block"
+				block_type: 0
+				checkItem: false
+				id: "778A12AC9279EDFF"
+				title: "Why are you digging so much dirt?"
+				type: "questsadditions:break"
+				value: 100000L
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24558CC9C81217D1"]
+			id: "554155F645D10F1E"
+			rewards: [{
+				id: "6D661DEBDFC50EB3"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:tungsten_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "1ABD825218D5A4A7"
+				item: { Count: 6400, id: "gtceu:tungsten_ingot" }
+				type: "item"
+			}]
+			title: "Tungsten ingot"
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "39D50C29B4F170F9"
+			rewards: [{
+				id: "67425953BD20BA82"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:space_essence"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "44756A0469194AB4"
+				item: { Count: 6400, id: "kubejs:space_essence" }
+				type: "item"
+			}]
+			title: "Essence of the Universe"
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "46E45BDB3450FDF1"
+			rewards: [{
+				id: "1042A3DE721222F8"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:wyvern_core"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "07CC2275CD98DADE"
+				item: { Count: 6400, id: "kubejs:wyvern_core" }
+				type: "item"
+			}]
+			title: "Wyvern Core"
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "741849DF7E4CCAC1"
+			rewards: [{
+				id: "010695171AE985B4"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:thallium_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "0D826C7BE5A08AD5"
+				item: { Count: 6400, id: "gtceu:thallium_dust" }
+				type: "item"
+			}]
+			title: "thallium powder"
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "7532C994D5BC3FA0"
+			rewards: [{
+				id: "441710A8293AF9C2"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:proto_matter"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "64EB617F0775251C"
+				item: { Count: 6400, id: "kubejs:proto_matter" }
+				type: "item"
+			}]
+			title: "primordial matter"
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "1914DFC8377263D3"
+			rewards: [{
+				id: "60D2996E62303C14"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtlcore:create_casing"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 640L
+				id: "1F3C3F90D7699486"
+				item: { Count: 640, id: "gtlcore:create_casing" }
+				type: "item"
+			}]
+			title: "Create mechanical blocks"
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C45F0A9440E8AD5"]
+			id: "26765EC61A65BC19"
+			rewards: [{
+				id: "3FD6C136358E3160"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:bedrock_dust"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "083A2C818A2442A8"
+				item: "gtceu:bedrock_dust"
+				type: "item"
+			}]
+			title: "Bedrock powder"
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A47144A820F0656"]
+			icon: "gtceu:naquadah_fuel_bucket"
+			id: "718935001F16E074"
+			rewards: [
+				{
+					id: "13E62603CCD0BF8D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:naquadah_fuel"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3934F32B0AB47F05"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:oxygen_plasma"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "4ADA06CE5B5DC64F"
+				item: { Count: 32, id: "gtceu:large_naquadah_reactor" }
+				type: "item"
+			}]
+			title: "Silica fuel/oxygen plasma"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["48448F256F0614B3"]
+			description: [
+				"&e&l▌Infinite component series"
+				""
+				"&b&lis dedicated to solving core problems in the late stages of the game:"
+				"&lWhen the game reaches a very late stage, the calculation amount of the AE system will be very large, resulting in too long calculation time or even inability to calculate."
+				""
+				"&lWe neither want to redesign the entire passive production line nor significantly change the existing prototype architecture."
+				""
+				"&lThis series aims to provide a smooth optimization solution to bring you a linear gaming experience instead of duplicating work for specific materials."
+				""
+				"&lAfter you unlock the materials of the corresponding stage, you only need to make a certain amount of the materials to directly exchange for the corresponding&aunlimited components &7"
+				""
+				"&cUnlimited components that cannot be redeemed across stages for late-stage materials"
+				""
+				"&acan be exchanged only if&7has the large-scale stable output capacity of&eof this material."
+				""
+				"&8Source-GregTech Leisure-Private Edition"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "gtlcore:item_infinity_cell"
+			id: "6FF4FC4606DE3FDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E05274E4A6CB5C7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "67DA2568D6F22645"
+				title: "Infinite component series"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			icon: "gtceu:concentration_mixing_hyper_fuel_2_bucket"
+			id: "7471F25972803269"
+			rewards: [{
+				id: "0BEFDE588D792486"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:concentration_mixing_hyper_fuel_2"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "0CB1656BAFFA6562"
+				item: { Count: 32, id: "gtceu:advanced_hyper_reactor" }
+				type: "item"
+			}]
+			title: "Concentrated mixed super fuel"
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			icon: "kubejs:infinity_antimatter_fuel_rod"
+			id: "7EA12AF41C2E304D"
+			rewards: [{
+				id: "6BB8296A397E98F5"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:infinity_antimatter_fuel_rod"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "6FE628FAF7F26211"
+				item: { Count: 3, id: "gtceu:annihilate_generator" }
+				type: "item"
+			}]
+			title: "Endless antimatter fuel rods"
+			x: 14.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			icon: "gtladditions:strange_annihilation_fuel_rod"
+			id: "4339A89F15AB6FAD"
+			rewards: [
+				{
+					id: "0FB99D11529D0F9D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtladditions:black_hole_seed"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D4CC3048F1652F9"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtladditions:strange_annihilation_fuel_rod"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "3B9F4E0B70187D91"
+				item: { Count: 5, id: "gtladditions:heart_of_the_universe" }
+				type: "item"
+			}]
+			title: "Black hole seeds/strange annihilation fuel rods"
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			icon: "gtceu:biomass_bucket"
+			id: "2581C42AD2895C65"
+			rewards: [{
+				id: "1D4B4863B00027B2"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:biomass"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "4C1B6572FEC56233"
+				item: { Count: 128, id: "gtceu:large_pyrolyse_oven" }
+				type: "item"
+			}]
+			title: "biomass"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2AF6DCE078FF812B"]
+			icon: "kubejs:machine_casing_grinding_head"
+			id: "55D22A0303AFC2CC"
+			rewards: [{
+				id: "425F754FD71FB564"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:machine_casing_grinding_head"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "514A0DD29BEC3C5A"
+				item: "gtceu:large_fragment_world_collection_machine"
+				type: "item"
+			}]
+			title: "Strong drill bit"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3D7D23E9FB5EC4B6"]
+			id: "3898D8CB98E81F4C"
+			rewards: [{
+				id: "55ABB4CC58732588"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Cosmic Detection Component Package\"}"
+						}
+						ic: 3L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:cosmic_element"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:starlight"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:heavy_lepton_mixture"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "4AC31553FC12671C"
+				item: { Count: 128, id: "gtceu:space_cosmic_probe_receivers" }
+				type: "item"
+			}]
+			title: "Space exploration component package"
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "6D5804317115AAD0"
+			rewards: [{
+				id: "7D617BB149E581FF"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Hongmeng+ component package\",\"italic\":false}"
+						}
+						ic: 24L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:white_dwarf_mtter_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:black_dwarf_mtter_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "ae2:sky_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:trinium_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:plutonium_241_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:titanium_50_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:copper76_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uranium_235_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:perditio_crystal_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:earth_crystal_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:ignis_crystal_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:tartarite_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:uruium_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:force_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:alien_algae_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:bloodstone_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:netherite_scrap"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:purified_tengam_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:quantanium_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:bedrock_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:damascus_steel_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "avaritia:neutron_pile"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:certus_quartz_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "ae2:fluix_dust"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "198725A15A19EFC2"
+				item: { Count: 128, id: "gtl_extend:black_hole_matter_decompressor" }
+				type: "item"
+			}]
+			title: "Hongmeng+ component package"
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "6FF6B5CC98449D31"
+			rewards: [{
+				id: "00DB116607330F0C"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "gtceu:stellar_energy_rocket_fuel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "08882BF96600CFC5"
+				item: { Count: 10, id: "gtladditions:space_infinity_integrated_ore_processor" }
+				type: "item"
+			}]
+			title: "star energy rocket fuel"
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			icon: "gtladditions:macro_atomic_resonant_fragment_stripper"
+			id: "2BEF5891385537E5"
+			rewards: [{
+				id: "561A0756D436A51A"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtlcore:miracle_crystal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 128L
+					id: "69CB0894F3D40B17"
+					item: { Count: 128, id: "gtladditions:macro_atomic_resonant_fragment_stripper" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "339BF63F6070570D"
+					item: {
+						Count: 1
+						id: "gtladditions:macro_atomic_resonant_fragment_stripper"
+						tag: {
+							BlockEntityTag: {
+								astralArrayCount: 382
+							}
+							display: {
+								Lore: ["\"The macro atom that has unlocked the paradox realization theory has stuffed 382 star arrays. When used as a host, it can be used with the eternal coil to obtain Long.MAXparallel\""]
+							}
+						}
+					}
+					match_nbt: true
+					title: "Obtain the enhanced version of the Macro-Atomic Resonance Debris Stripper"
+					type: "item"
+				}
+			]
+			title: "Miracle crystal"
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["34FCC740B2D499E3"]
+			id: "1FDE8B90967E8637"
+			rewards: [{
+				id: "5253E091235A4A75"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Vacuum freezing component package\",\"italic\":false}"
+						}
+						ic: 4L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:liquid_helium"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:liquid_hydrogen"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:ice"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:f"
+										id: "gtceu:liquid_oxygen"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "14B60D1740EE06B7"
+				item: { Count: 128, id: "gtladditions:antientropy_condensation_center" }
+				type: "item"
+			}]
+			title: "Vacuum freezing element"
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["33D1A59D1D85A63E"]
+			id: "4AA5FD343A3FE0B2"
+			rewards: [{
+				id: "3BB080E8F1C43223"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Fishery component package\",\"italic\":false}"
+						}
+						ic: 16L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cod"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:salmon"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:tropical_fish"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:pufferfish"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:nautilus_shell"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:saddle"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:lily_pad"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:stick"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rotten_flesh"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:leather"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:string"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:bone"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:ink_sac"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "kubejs:zero_point_module_fragments"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "avaritia:neutron_pile"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:damascus_steel_nugget"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "1A45E205115E9CCB"
+				item: { Count: 128, id: "gtceu:fishing_ground" }
+				type: "item"
+			}]
+			title: "Fishing farm component package"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["22DDEB5121457784"]
+			id: "1044D74B4398EB19"
+			rewards: [{
+				id: "0DF1E80E193EF9E0"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"World Fragment Component Pack\",\"italic\":false}"
+						}
+						ic: 16L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_ganymede"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_pluto"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_enceladus"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_glacio"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_barnarda"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_ceres"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_titan"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_io"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_overworld"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_nether"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_end"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_reactor"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_moon"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_mars"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_venus"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtlcore:world_fragments_mercury"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 128L
+				id: "0AAF170159298EEC"
+				item: { Count: 128, id: "gtladditions:macro_atomic_resonant_fragment_stripper" }
+				type: "item"
+			}]
+			title: "World Shards Component Pack"
+			x: 15.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["35A661BA59512359"]
+			id: "6468C70DFA66D4EE"
+			rewards: [{
+				id: "6572195AD2973F62"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "kubejs:extremely_durable_plasma_cell"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6400L
+				id: "216F4D69C73FEC9D"
+				item: { Count: 6400, id: "kubejs:extremely_durable_plasma_cell" }
+				type: "item"
+			}]
+			title: "Highly durable plasma vessel"
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"6DA9600EFDDD9758"
+				"59A62D36A8FCA86E"
+				"33D2ECFAD9226F08"
+				"69BA29B6DD8DAC87"
+				"33131DBCB3E53D4C"
+				"1FDE8B90967E8637"
+				"79ECA37D8A232ABA"
+				"09A2372D1F0BF188"
+				"6619B0F3CB27C0C0"
+				"535E57895784A241"
+				"35A661BA59512359"
+				"5E16B9CAAD88B540"
+				"4E3605F60A60ECB4"
+				"0565255EA73B7814"
+				"4AA5FD343A3FE0B2"
+				"20B689E7DCC46A88"
+				"25328CD34C0CC3F3"
+				"2F7E932361F8D4BB"
+				"0DA4CDCC6016ED5E"
+				"7D9C03D9DAE9658D"
+				"4E4A8A74298E3694"
+				"25B98668EEFA750C"
+				"4569D37AFB69E35D"
+				"720954C162C96529"
+				"0D680C8F7B0D32C0"
+				"6579A71401F940B8"
+				"057A7309DFD4F889"
+				"01D71EBE0BD4438D"
+				"0B804FD77C6A8C0E"
+				"3170AE8494E40124"
+				"54C04CBEF266FA2C"
+				"7EA12AF41C2E304D"
+				"7C45F0A9440E8AD5"
+				"65289505F068B57D"
+				"62867D5D86781499"
+				"21D8AD8139DAFBB9"
+				"5D62AEA184C2BC3C"
+				"7FF07C219D1698FA"
+				"4DF40212746D51B5"
+				"35AA9BCFAB4F676E"
+				"313C3AEB40D04540"
+				"2581C42AD2895C65"
+				"57FC1AABD01BB304"
+				"53FA45514A20F8C2"
+				"6E4291AC7631B296"
+				"59E658752600C5D9"
+				"4CB54BB397AA1EE6"
+				"78C28A2C626A30CE"
+				"741849DF7E4CCAC1"
+				"7696C1CC69F5C9E4"
+				"28EEBFCCDAC716AE"
+				"22DDEB5121457784"
+				"4228DAF60265B8F6"
+				"202F621DB4E66C99"
+				"3897D8F18D7F9D57"
+				"77DBEE9BBE1B3014"
+				"6FF6B5CC98449D31"
+				"4FE5ADE9C8A411FB"
+				"7A47144A820F0656"
+				"58A8227762F57B72"
+				"51A068F5AB40B94D"
+				"6F1E6F5DB0952B88"
+				"24558CC9C81217D1"
+				"5C62E71FC15FE041"
+				"7A85F74E720FB0A0"
+				"6C7C60B22D0F00A7"
+				"7D86D71B72A9A85D"
+				"463EF55CB7909798"
+				"36287E7C87FF5FC5"
+				"5E8556D7A6ED8AD0"
+				"5F5C7CAEF09B3119"
+				"5F5774FA80B38B6C"
+				"3D35B6A8141B14F4"
+				"51FE780A786EDEE8"
+				"02889B7BECB58533"
+				"554155F645D10F1E"
+				"7C8B633FDBE86725"
+				"3E451B37C25BC550"
+				"7906F0571A23EC0B"
+				"6B460E5E9534CB57"
+				"3D7D23E9FB5EC4B6"
+				"1914DFC8377263D3"
+				"6C8238348D63E156"
+				"699343AC287F3BC4"
+				"25D7B6FE10025AAE"
+				"11AF00D3D970E78A"
+				"62137D9E6C2C4429"
+				"60C165005D7F7237"
+				"56B592292B3F0E29"
+				"34FCC740B2D499E3"
+				"3F53DEC7386D6472"
+				"198DB2F252D1CE22"
+				"1044D74B4398EB19"
+				"3BB006959BAE6E1B"
+				"137D9AB56F979BC6"
+				"564E171CC8DBCB15"
+				"46E45BDB3450FDF1"
+				"4339A89F15AB6FAD"
+				"745A81C1B9FFF9C6"
+				"62C3F4CAB781BC2D"
+				"7E2DD407DE6314EE"
+				"3781A8CAE64C5BAF"
+				"48A9289C5B1CE780"
+				"2067625C6357B3C5"
+				"2FF013AD202578D2"
+				"6D5804317115AAD0"
+				"44A686261E43526E"
+				"322DE639DB3F019B"
+				"305E7828B02313E5"
+				"1E85633A128B7985"
+				"0F4F48B28A61CB2E"
+				"55D22A0303AFC2CC"
+				"0183D0BDA2ED5667"
+				"561217ABD487DD8A"
+				"6F3A1D4B7AF6FB30"
+				"7532C994D5BC3FA0"
+				"5CA8A9C0E50CC0D9"
+				"05AC776A81123514"
+				"7471F25972803269"
+				"2AF6DCE078FF812B"
+				"35ADB25198EBFBD1"
+				"45FCB273282A6C62"
+				"7B93C6174C6A7A24"
+				"7F4AC988D7E0D7EE"
+				"26765EC61A65BC19"
+				"2BEF5891385537E5"
+				"35A0BFA8E776CDB1"
+				"67E48EEE3D8B9F51"
+				"626BE0CF4311D561"
+				"0BA1346128294831"
+				"549225ED1010D7B5"
+				"7C6573781E0ADACA"
+				"223DA887593CD458"
+				"3A8BD5238228325E"
+				"5C989BEB923BA8AB"
+				"4DE0C17803FEC083"
+				"3A828BCB8C9D5A31"
+				"652B6D64B93DE695"
+				"718935001F16E074"
+				"6468C70DFA66D4EE"
+				"39D50C29B4F170F9"
+				"33D1A59D1D85A63E"
+				"3898D8CB98E81F4C"
+				"515ACA9A1DE7E2DF"
+				"04B7D720D7DE44B0"
+			]
+			description: [
+				"&5&l【Final Witness】"
+				""
+				"&d&oYou have gone through the long road to the super store and redeemed all the unlimited components, so that the AE system no longer has any worries about calculations."
+				"&d&oYou built a space-based endless integrated ore processing plant, allowing ore processing to extend infinitely in the universe."
+				"&d&oFinally, you stand in front of the final zigzag quantum wave matrix and stare at this minute——"
+				"&d&oThis creation, which can rewrite probability and reverse cause and effect, witnesses your ultimate pursuit of \"infinity\"."
+				""
+				"&l&cCompletion conditions:"
+				"&8• Redeem all unlimited components in the Super Store"
+				"&8• Making Tianji Endless Integrated Ore Processing Plant"
+				"&8• Observe the final zigzag quantum wave matrix for 1 minute"
+				""
+				"&6&lReward:"
+				"&a• Cosmic Debris"
+				""
+				"&7&o\"The end, witness the infinite.\""
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "4864FDC9B23838A9"
+			invisible: true
+			min_width: 240
+			rewards: [{
+				id: "33A63ABBF8613A19"
+				item: "kubejs:cosmic_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "gtladditions:apocalyptic_torsion_quantum_matrix"
+				id: "44909EA228C4E57C"
+				observe_type: 0
+				timer: 1200L
+				title: "final witness"
+				to_observe: "gtladditions:apocalyptic_torsion_quantum_matrix"
+				type: "observation"
+			}]
+			title: "final witness"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35A0BFA8E776CDB1"]
+			id: "395BD319E3CADCD7"
+			rewards: [
+				{
+					id: "0146D53F5D4EC7ED"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:hyper_fuel_4"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00A88EC73EE7DA0D"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "gtceu:degenerate_rhenium_plasma"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "677F5ADA0E5B40DD"
+				item: { Count: 32, id: "gtceu:hyper_reactor" }
+				type: "item"
+			}]
+			title: "super reactor fuel"
+			x: 8.0d
+			y: 10.0d
+		}
+	]
+	title: "&9super&6level&ashop&eshop"
+}

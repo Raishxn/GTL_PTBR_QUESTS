@@ -6,35 +6,32 @@
 	icon: "gtlcore:primitive_robot_arm"
 	id: "77F8039ACE718C6C"
 	order_index: 0
-	quest_links: [
-		{
-			id: "4E8ED4704A82F154"
-			linked_quest: "376F6857ABEF60BF"
-			x: -2.0d
-			y: 4.0d
-		}
-	]
+	quest_links: [{
+		id: "4E8ED4704A82F154"
+		linked_quest: "376F6857ABEF60BF"
+		x: -2.0d
+		y: 4.0d
+	}]
 	quests: [
 		{
 			dependencies: ["46F82A0A3D57C225"]
-			description: ["Pegue o lingote de bronze e você poderá começar a era do vapor", "Tenha a coragem de entrar no primeiro Voltage da GregTech!"]
-			id: "5F5F348E3A34827E"
-			rewards: [
-				{
-					id: "41A3ACD4F54D9969"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
+			description: [
+				"Pegue o lingote de bronze e você poderá começar a era do vapor"
+				"Tenha a coragem de entrar no primeiro Voltage da GregTech!"
 			]
+			id: "5F5F348E3A34827E"
+			rewards: [{
+				id: "41A3ACD4F54D9969"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "47D6C464DF34C115"
-					item: "gtceu:bronze_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			title: "Era do Vapor ULV"
 			x: 0.0d
 			y: 0.0d
@@ -49,13 +46,11 @@
 				"Além disso, o armazém de saída de BT e o armazém de saída de MT podem multiplicar a produção por 400% e, quando chover, a produção será multiplicada por 150%."
 			]
 			id: "4E96A08CF12D496A"
-			rewards: [
-				{
-					id: "0EF18EDF382FF874"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0EF18EDF382FF874"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "229E6CD8C1F311CF"
@@ -82,28 +77,24 @@
 				"Caldeiras de combustível líquido usam lava como combustível; as caldeiras solares aquecem naturalmente durante o dia e caem de temperatura à noite/quando à sombra"
 			]
 			id: "4BFC342697BDE75A"
-			rewards: [
-				{
-					count: 64
-					id: "5EB3FB5E5FAF9235"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:netherite_shulker_box"
-						tag: {
-							accentColor: 16383998
-							mainColor: 16383998
-						}
+			rewards: [{
+				count: 64
+				id: "5EB3FB5E5FAF9235"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_shulker_box"
+					tag: {
+						accentColor: 16383998
+						mainColor: 16383998
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "70DE0442DB10C914"
-					item: "gtceu:lp_steam_solid_boiler"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
 			title: "caldeira de baixa pressão"
 			x: 2.0d
 			y: -2.0d
@@ -123,21 +114,17 @@
 			icon: "gtceu:spacetime_tiny_fluid_pipe"
 			id: "781417A4FA36101D"
 			optional: true
-			rewards: [
-				{
-					count: 64
-					id: "6CF397F913CDAA81"
-					item: "gtceu:spacetime_tiny_fluid_pipe"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "02A2DDC03475574B"
-					title: "Dê-lhe alguns canos"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "6CF397F913CDAA81"
+				item: "gtceu:spacetime_tiny_fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A2DDC03475574B"
+				title: "Dê-lhe alguns canos"
+				type: "checkmark"
+			}]
 			x: -2.0d
 			y: 0.0d
 		}
@@ -174,10 +161,7 @@
 				{
 					count: 12L
 					id: "42BD89429E9AAD22"
-					item: {
-						Count: 12
-						id: "gtceu:firebricks"
-					}
+					item: { Count: 12, id: "gtceu:firebricks" }
 					type: "item"
 				}
 			]
@@ -188,20 +172,16 @@
 			dependencies: ["2B9D62FB6BF39201"]
 			description: ["É usado para compactar coisas"]
 			id: "5C936EF307594737"
-			rewards: [
-				{
-					id: "704DF16EECC15BD8"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "00E7B6F2A5F20C06"
-					item: "gtceu:lp_steam_compressor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "704DF16EECC15BD8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E7B6F2A5F20C06"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -210,13 +190,11 @@
 			description: ["Moa o pó diretamente com um almofariz e depois sintetize-o diretamente"]
 			icon: "gtceu:fireclay_dust"
 			id: "36A49197309D1F09"
-			rewards: [
-				{
-					id: "777E0B3B0A58DE1A"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "777E0B3B0A58DE1A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "35AB6D0569B73FB7"
@@ -244,21 +222,17 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "79E81CC078F246C0"
-			rewards: [
-				{
-					count: 128
-					id: "289E9D4B6242976B"
-					item: "gtceu:sticky_resin"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0A519A3A397BBD45"
-					item: "gtceu:rubber_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 128
+				id: "289E9D4B6242976B"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
 			title: "seu primeiro pedaço de borracha"
 			x: 6.0d
 			y: -2.0d
@@ -266,26 +240,25 @@
 		{
 			dependencies: ["5CE50DDC960340D8"]
 			id: "388BD32463FA905D"
-			rewards: [
-				{
-					id: "57B2E9912F4375C3"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5ADD8EEFE40F5663"
-					item: "gtceu:steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "57B2E9912F4375C3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
 			title: "Seu primeiro lingote de aço"
 			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["02375F5D54E5F347", "43DE0784E5D32B46"]
+			dependencies: [
+				"02375F5D54E5F347"
+				"43DE0784E5D32B46"
+			]
 			description: [
 				"Usado para fazer máquinas elétricas e armazéns"
 				""
@@ -293,23 +266,19 @@
 			]
 			icon_scale: 1.3d
 			id: "7CB85061F0822830"
-			rewards: [
-				{
-					id: "0D14C938E01BD29D"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0D14C938E01BD29D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Você definitivamente precisa de muita imaginação para usá-lo"
-			tasks: [
-				{
-					id: "6500863B6A64DE2F"
-					item: "gtceu:lv_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
 			x: 14.0d
 			y: -2.0d
 		}
@@ -317,28 +286,24 @@
 			dependencies: ["2B9D62FB6BF39201"]
 			description: ["Mistura de metais usando um forno de liga"]
 			id: "30F031CD02425ED7"
-			rewards: [
-				{
-					count: 64
-					id: "4FB6BBE01DEAFC93"
-					item: "minecraft:gunpowder"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7D7E7EBAB75A2F8D"
-					item: "gtceu:lp_steam_alloy_smelter"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 64
+				id: "4FB6BBE01DEAFC93"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7E7EBAB75A2F8D"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["00579BDA1FA1BEC6"]
 			description: [
-				"{\\\"text\\\":\\\"Existem algumas minas úteis no mundo antigo\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3FFD20E53A9DF62A\\\"}}"
+				"{\"text\":\"Existem algumas minas úteis no mundo antigo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3FFD20E53A9DF62A\"}}"
 				""
 				"Se houver um quadrado com o nome de uma determinada dimensão no canto inferior direito da fórmula em JEI, significa que esta fórmula &bsó pode ser feita na dimensão correspondente&r(por exemplo, pó de aço Damasco só pode ser feito no mundo antigo)"
 			]
@@ -400,20 +365,16 @@
 			dependencies: ["30F031CD02425ED7"]
 			description: ["Material supercondutor ULV, mas agora vamos usá-lo para fazer núcleos de reatores antigos"]
 			id: "3D65D9712DFB63D9"
-			rewards: [
-				{
-					id: "7FAA57A862B018AE"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4DE17D3F21E3C195"
-					item: "gtceu:pulsating_alloy_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7FAA57A862B018AE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DE17D3F21E3C195"
+				item: "gtceu:pulsating_alloy_ingot"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
@@ -452,19 +413,13 @@
 				{
 					count: 4L
 					id: "1CB49FF2229A3D77"
-					item: {
-						Count: 4
-						id: "gtceu:steel_block"
-					}
+					item: { Count: 4, id: "gtceu:steel_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "3542128803577207"
-					item: {
-						Count: 4
-						id: "minecraft:diamond_block"
-					}
+					item: { Count: 4, id: "minecraft:diamond_block" }
 					type: "item"
 				}
 			]
@@ -476,65 +431,56 @@
 			description: [
 				"Ele pode martelar três fusos em duas placas, o que tem uma taxa de utilização maior do que a fricção manual."
 				""
-				"{\\\"text\\\":\\\"Existe também uma máquina multibloco chamada martelo de pistão a vapor, que é mais eficiente.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"4877DB6020D6BFBC\\\"}}"
+				"{\"text\":\"Existe também uma máquina multibloco chamada martelo de pistão a vapor, que é mais eficiente.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4877DB6020D6BFBC\"}}"
 			]
 			hide_dependency_lines: true
 			id: "6525C9DE2A276238"
-			rewards: [
-				{
-					id: "6B3DEE9FC411E85C"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "31BB0DC594040BE2"
-					item: "gtceu:lp_steam_forge_hammer"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6B3DEE9FC411E85C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BB0DC594040BE2"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
 			x: 10.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["6525C9DE2A276238", "388BD32463FA905D"]
+			dependencies: [
+				"6525C9DE2A276238"
+				"388BD32463FA905D"
+			]
 			description: ["A taxa de utilização da máquina é maior com um martelo de forjamento"]
 			id: "02375F5D54E5F347"
-			rewards: [
-				{
-					id: "1A0B2145C6BEAD5B"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "78729EFD5CE8CD48"
-					item: "gtceu:steel_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A0B2145C6BEAD5B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78729EFD5CE8CD48"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["79E81CC078F246C0"]
 			id: "43DE0784E5D32B46"
-			rewards: [
-				{
-					id: "61C758028D9C9DB9"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6B8D0D8D101E1641"
-					item: "gtceu:tin_single_cable"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "61C758028D9C9DB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
 			title: "cabo de estanho"
 			x: 12.0d
 			y: -2.0d
@@ -542,43 +488,38 @@
 		{
 			dependencies: ["30F031CD02425ED7"]
 			id: "707E5114B7979898"
-			rewards: [
-				{
-					id: "255AB427616C13EB"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "61CD30ADFD9B58AE"
-					item: "gtceu:glass_tube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "255AB427616C13EB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CD30ADFD9B58AE"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["707E5114B7979898", "388BD32463FA905D"]
+			dependencies: [
+				"707E5114B7979898"
+				"388BD32463FA905D"
+			]
 			description: ["Seu primeiro circuito ULV, você precisa usá-lo para ajudar a fazer circuitos mais baratos, basta fazer alguns"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "5CD26DECB937FC71"
-			rewards: [
-				{
-					id: "327EC9AD42261D00"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "16EA9C62F6D609A0"
-					item: "gtceu:vacuum_tube"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "327EC9AD42261D00"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 2.0d
 		}
@@ -586,20 +527,16 @@
 			dependencies: ["30F031CD02425ED7"]
 			description: ["Você não pode misturar isso manualmente como o bronze, você só pode sintetizá-lo com a ajuda de uma máquina."]
 			id: "3C91E284A9A03B1B"
-			rewards: [
-				{
-					id: "08462119775B14A3"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "15717008A6B7F20E"
-					item: "gtceu:red_alloy_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "08462119775B14A3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
@@ -607,27 +544,26 @@
 			dependencies: ["5C936EF307594737"]
 			description: ["Moer madeira para obter polpa de madeira"]
 			id: "1FAB9EF48D8D9258"
-			rewards: [
-				{
-					count: 128
-					id: "6333E0136E33F27A"
-					item: "gtceu:wood_dust"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5F9E85F4FF39EB70"
-					item: "gtceu:wood_plate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 128
+				id: "6333E0136E33F27A"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F9E85F4FF39EB70"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
-			description: ["Segurar a Picareta dos Gêmeos Mágicos enquanto se esgueira e clica com o botão direito pode alternar entre Fortune III e Coleção Precisa.", "&m(Você pode até usar esta função para ganhar experiência)&r"]
+			description: [
+				"Segurar a Picareta dos Gêmeos Mágicos enquanto se esgueira e clica com o botão direito pode alternar entre Fortune III e Coleção Precisa."
+				"&m(Você pode até usar esta função para ganhar experiência)&r"
+			]
 			id: "12FE2B59FA86381C"
 			rewards: [
 				{
@@ -672,20 +608,16 @@
 			]
 			description: ["Versão automática da bancada/mesa de forja/cortador de pedra, mas é necessário fazer um protótipo para utilizá-la. Agora é usado apenas como material de artesanato."]
 			id: "3C071C0542CF935D"
-			rewards: [
-				{
-					id: "4304D0C677F66D9B"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "5738459D5168A55F"
-					item: "ae2:molecular_assembler"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4304D0C677F66D9B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5738459D5168A55F"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 6.0d
 		}
@@ -694,21 +626,17 @@
 			description: ["Os povos primitivos também tiveram que montar circuitos"]
 			icon_scale: 2.0d
 			id: "34FCFA114E75D770"
-			rewards: [
-				{
-					id: "0C0731B2ACDDCE0D"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0C0731B2ACDDCE0D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "6255EA9A7B4B58EC"
-					item: "gtceu:large_steam_circuit_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6255EA9A7B4B58EC"
+				item: "gtceu:large_steam_circuit_assembler"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 6.0d
 		}
@@ -719,47 +647,42 @@
 				""
 				"Eles têm alto paralelismo e podem ter overclock e boost quando o aço inoxidável estiver disponível (MV)"
 				""
-				"{\\\"text\\\":\\\"Vá para o capítulo sobre estrutura multibloco para saber mais\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"40405034AE9D9945\\\"}}"
+				"{\"text\":\"Vá para o capítulo sobre estrutura multibloco para saber mais\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"40405034AE9D9945\"}}"
 			]
 			hide_dependent_lines: true
 			id: "5276CA8FA5262C9B"
-			rewards: [
-				{
-					id: "7A6E4F26CB4EC8FB"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "72CA64283A8A3E34"
-					item: "kubejs:precision_steam_mechanism"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7A6E4F26CB4EC8FB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["5276CA8FA5262C9B", "38CC43F7A6A39BB4"]
+			dependencies: [
+				"5276CA8FA5262C9B"
+				"38CC43F7A6A39BB4"
+			]
 			description: ["Não se esqueça de colocar a bandeja de saída"]
 			icon_scale: 2.0d
 			id: "2585418910B6798A"
-			rewards: [
-				{
-					id: "372783FB309C5A6A"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "372783FB309C5A6A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "5F47C1E28CF33F84"
-					item: "gtceu:large_steam_centrifuge"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5F47C1E28CF33F84"
+				item: "gtceu:large_steam_centrifuge"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 8.0d
 		}
@@ -774,21 +697,17 @@
 			]
 			hide_dependent_lines: true
 			id: "38CC43F7A6A39BB4"
-			rewards: [
-				{
-					id: "3354D072C3B1F387"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3354D072C3B1F387"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			subtitle: "Não bloqueie a saída de fumaça"
-			tasks: [
-				{
-					id: "6FF18125E551DB42"
-					item: "gtceu:lv_muffler_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -808,20 +727,16 @@
 			icon_scale: 2.0d
 			id: "5065BEDC95AE564E"
 			min_required_dependencies: 2
-			rewards: [
-				{
-					id: "58F5C373D0AE0142"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "011218464BCA60AC"
-					item: "gtceu:basic_electronic_circuit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "58F5C373D0AE0142"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
 			title: "seu primeiro circuito"
 			x: 4.0d
 			y: 6.0d
@@ -830,20 +745,16 @@
 			dependencies: ["79D4AD9908A4578A"]
 			description: ["Um pouco mais problemático que o original"]
 			id: "77A1011F608079C9"
-			rewards: [
-				{
-					id: "11D6ADD9CE28FA57"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "36895A43C9C125F4"
-					item: "minecraft:paper"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "11D6ADD9CE28FA57"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36895A43C9C125F4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
@@ -851,20 +762,16 @@
 			dependencies: ["77A1011F608079C9"]
 			description: ["Existem muitas fórmulas para resistores e fios finos são mais econômicos"]
 			id: "6D729450ED86BDAF"
-			rewards: [
-				{
-					id: "108CAF7D675F876A"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "72F7066EE104AACE"
-					item: "gtceu:resistor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "108CAF7D675F876A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 8.0d
 		}
@@ -872,40 +779,32 @@
 			dependencies: ["1FAB9EF48D8D9258"]
 			hide_dependency_lines: true
 			id: "051710FFC9907807"
-			rewards: [
-				{
-					id: "765C29DBBBD61E54"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2B8641531625E4B7"
-					item: "gtceu:resin_circuit_board"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "765C29DBBBD61E54"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["051710FFC9907807"]
 			id: "740C2D1F3F420480"
-			rewards: [
-				{
-					id: "0C13652D6A0B6866"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6354CE91F0CF6378"
-					item: "gtceu:resin_printed_circuit_board"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0C13652D6A0B6866"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 6.0d
 		}
@@ -913,54 +812,52 @@
 			dependencies: ["2585418910B6798A"]
 			description: ["Resina pegajosa para centrífuga"]
 			id: "06285BE2396AB639"
-			rewards: [
-				{
-					id: "2AEAC8B8E1C1EBB2"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "48597AE64D4B6F49"
-					item: "gtceu:glue_bucket"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2AEAC8B8E1C1EBB2"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48597AE64D4B6F49"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
 			title: "cola"
 			x: 8.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["34FCFA114E75D770", "06285BE2396AB639"]
+			dependencies: [
+				"34FCFA114E75D770"
+				"06285BE2396AB639"
+			]
 			description: ["Circuitos muito baratos, esta série vai até circuitos EV"]
 			icon_scale: 2.0d
 			id: "08B7D8F835DFE214"
 			size: 1.0d
-			tasks: [
-				{
-					id: "344BB3250C20E4FB"
-					item: "kubejs:basic_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["08B7D8F835DFE214", "5065BEDC95AE564E"]
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
 			description: ["Este é um circuito LV barato"]
 			icon_scale: 2.0d
 			id: "553B2D61416792DC"
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "41CA550B62F920A6"
-					item: "kubejs:advanced_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
@@ -1012,13 +909,11 @@
 				}
 			]
 			subtitle: "AE2"
-			tasks: [
-				{
-					id: "76E9DDCCC307F224"
-					title: "Energia Aplicada 2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "76E9DDCCC307F224"
+				title: "Energia Aplicada 2"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: 4.0d
 		}
@@ -1054,13 +949,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "31B3E7B10BBA0EDD"
-					item: "gtceu:bronze_large_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "31B3E7B10BBA0EDD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 8.0d
 		}
@@ -1075,20 +968,16 @@
 			]
 			icon: "gtceu:lp_steam_rock_crusher"
 			id: "7736F74AEBCB914E"
-			rewards: [
-				{
-					id: "25A3A90A72A7835D"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1FF020A8688728E6"
-					title: "Por que minha máquina a vapor para depois de funcionar uma vez?"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "25A3A90A72A7835D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FF020A8688728E6"
+				title: "Por que minha máquina a vapor para depois de funcionar uma vez?"
+				type: "checkmark"
+			}]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -1127,13 +1016,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Obtenha produtos instantaneamente"
-			tasks: [
-				{
-					id: "2BE6A835D6EF790C"
-					item: "gtceu:dimensionally_transcendent_dirt_forge"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2BE6A835D6EF790C"
+				item: "gtceu:dimensionally_transcendent_dirt_forge"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -2.0d
 		}
@@ -1148,22 +1035,18 @@
 			]
 			icon_scale: 1.3d
 			id: "0532330B52D98469"
-			rewards: [
-				{
-					id: "142C72A3F57D1D8C"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "142C72A3F57D1D8C"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "5AC94C8C8DEF4A0E"
-					item: "gtceu:dimensionally_transcendent_steam_oven"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AC94C8C8DEF4A0E"
+				item: "gtceu:dimensionally_transcendent_steam_oven"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -1172,20 +1055,16 @@
 			description: ["Os fornos da era do vapor eram, na verdade, mais lentos do que os fornos comuns."]
 			hide_dependency_lines: true
 			id: "10750DEB64B4BF89"
-			rewards: [
-				{
-					id: "5931B37625BB11BB"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "12742633AB7C6E1F"
-					item: "gtceu:lp_steam_furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5931B37625BB11BB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12742633AB7C6E1F"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
@@ -1193,25 +1072,24 @@
 			dependencies: ["10750DEB64B4BF89"]
 			description: ["8 paralelo, você pode continuar a atualizar"]
 			id: "1AB03D24332B722E"
-			rewards: [
-				{
-					id: "26F40D0C80FD0D34"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "1AE97C5270D5F402"
-					item: "gtceu:steam_oven"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "26F40D0C80FD0D34"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE97C5270D5F402"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["5F5F348E3A34827E", "4E96A08CF12D496A"]
+			dependencies: [
+				"5F5F348E3A34827E"
+				"4E96A08CF12D496A"
+			]
 			description: [
 				"O vapor geralmente vem de água fervente"
 				""
@@ -1219,20 +1097,16 @@
 			]
 			icon: "gtceu:steam_bucket"
 			id: "2B9D62FB6BF39201"
-			rewards: [
-				{
-					id: "7E1DBDCD0B82F6E6"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "61D5BA33A860F807"
-					title: "fonte de vapor"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "7E1DBDCD0B82F6E6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61D5BA33A860F807"
+				title: "fonte de vapor"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -1247,7 +1121,7 @@
 				""
 				"Grandes multiblocos de vapor têm paralelismo &664&r, &bpode executar a receita LV&re a velocidade de processamento é 2 vezes maior que a da máquina LV; multiblocos de vapor não grandes têm paralelismo &68&re &btambém pode executar a receita LV&r"
 				""
-				"{\\\"text\\\":\\\"O invólucro multibloco a vapor pode ser adquirido no pequeno mercado.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3E6BC2F76ED6F531\\\"}}"
+				"{\"text\":\"O invólucro multibloco a vapor pode ser adquirido no pequeno mercado.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E6BC2F76ED6F531\"}}"
 				""
 				"O consumo de vapor é particularmente elevado quando grandes blocos de vapor trabalham em paralelo. Métodos de transmissão de fluidos de alta velocidade, como tubulações espaço-temporais ou nós de laser, são necessários para fornecer vapor, caso contrário, o vapor irá pular."
 			]
@@ -1290,13 +1164,11 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "Não há subprodutos na moagem a vapor, é preciso esperar até HV para ter subprodutos"
-			tasks: [
-				{
-					id: "6ACDB1E4B636D7F0"
-					title: "Multibloco Steam"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6ACDB1E4B636D7F0"
+				title: "Multibloco Steam"
+				type: "checkmark"
+			}]
 			x: -2.0d
 			y: 2.0d
 		}
@@ -1402,13 +1274,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "46DB998969DFD278"
-					item: "ae2:inscriber"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "46DB998969DFD278"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 8.0d
 		}
@@ -1490,14 +1360,12 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					consume_items: true
-					id: "34FA7A3FDCEEFF9C"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "34FA7A3FDCEEFF9C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "bom negócio"
 			x: 14.0d
 			y: 6.0d
@@ -1508,25 +1376,21 @@
 			icon: "ae2:fluix_crystal"
 			id: "3C4577BA6C01FD37"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 16
-					id: "4D53D6781FE064EF"
-					item: "ae2:fluix_crystal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "4D53D6781FE064EF"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
-			tasks: [
-				{
-					consume_items: true
-					id: "3ECB4C0EB5E8F595"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "3ECB4C0EB5E8F595"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Se você achar que é problemático, você pode comprar cerca de 1"
 			x: 13.75d
 			y: 2.75d
@@ -1537,25 +1401,21 @@
 			icon: "ae2:logic_processor"
 			id: "54A70F547E4F87C2"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 16
-					id: "15293996D8FA5F0C"
-					item: "ae2:logic_processor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "15293996D8FA5F0C"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
-			tasks: [
-				{
-					consume_items: true
-					id: "29ED502848D5ECAA"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "29ED502848D5ECAA"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Se você achar que é problemático, você pode comprar cerca de 2"
 			x: 14.25d
 			y: 2.75d
@@ -1566,25 +1426,21 @@
 			icon: "ae2:calculation_processor"
 			id: "3D4B2ED043BAF8E4"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 16
-					id: "25D2B5A2963C5701"
-					item: "ae2:calculation_processor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "25D2B5A2963C5701"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
-			tasks: [
-				{
-					consume_items: true
-					id: "52F04A057F457538"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "52F04A057F457538"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Se você achar que é problemático, você pode comprar cerca de 3"
 			x: 13.75d
 			y: 3.25d
@@ -1595,25 +1451,21 @@
 			icon: "ae2:engineering_processor"
 			id: "49265178B29A2A51"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 16
-					id: "6887FB040E263E04"
-					item: "ae2:engineering_processor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "6887FB040E263E04"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
 			shape: "square"
 			size: 0.5d
-			tasks: [
-				{
-					consume_items: true
-					id: "7734AD7C5393BBC4"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "7734AD7C5393BBC4"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Se você achar isso problemático, você pode comprar cerca de 4"
 			x: 14.25d
 			y: 3.25d
@@ -1623,20 +1475,16 @@
 			description: ["Após a instalação do elemento de armazenamento, ele também pode ser utilizado para criar esferas de matéria e singularidades."]
 			id: "144AC3BC2AA25E63"
 			optional: true
-			rewards: [
-				{
-					id: "037A6AECE7DF8FF6"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3450B32B0DB406C7"
-					item: "ae2:condenser"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "037A6AECE7DF8FF6"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3450B32B0DB406C7"
+				item: "ae2:condenser"
+				type: "item"
+			}]
 			title: "Isto é uma lata de lixo"
 			x: 14.0d
 			y: 2.0d
@@ -1644,20 +1492,18 @@
 		{
 			dependencies: ["08B7D8F835DFE214"]
 			description: [
-				"{\\\"text\\\":\\\"Para uso específico, consulte a tarefa <Coverboard>.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3A726EDBF7AC5E5B\\\"}}"
+				"{\"text\":\"Para uso específico, consulte a tarefa <Coverboard>.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3A726EDBF7AC5E5B\"}}"
 				""
 				"Emparelhado com a interface ME, pode ser alcançada uma incrível eficiência de transmissão"
 			]
 			hide_dependency_lines: true
 			id: "205B11E482DDF464"
 			optional: true
-			rewards: [
-				{
-					id: "5C0BF363979378F9"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5C0BF363979378F9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			subtitle: "Tecnologia primitiva, chocante"
 			tasks: [
 				{
@@ -1688,13 +1534,11 @@
 			icon: "mae2:eu_p2p_tunnel"
 			id: "4B66FAB975B2C7D2"
 			optional: true
-			rewards: [
-				{
-					id: "2CC3618D4DDD6383"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2CC3618D4DDD6383"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0A2F1ED90BB8F670"
@@ -1890,18 +1734,19 @@
 				}
 			]
 			subtitle: "Enviar-lhe um conjunto completo de moldes e matrizes"
-			tasks: [
-				{
-					id: "7BE713D4B18B2691"
-					title: "Pacote de presente de cabeça de molde"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7BE713D4B18B2691"
+				title: "Pacote de presente de cabeça de molde"
+				type: "checkmark"
+			}]
 			x: 13.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["51B9A72C19F84F0E", "516AA655EF6CBBF0"]
+			dependencies: [
+				"51B9A72C19F84F0E"
+				"516AA655EF6CBBF0"
+			]
 			dependency_requirement: "one_started"
 			description: [
 				"Pode ser entendido como um item não consumível (catalisador), mas nenhum item real é necessário. Só precisa ser configurado no armazém de máquinas/entradas. O local específico está no canto inferior esquerdo da GUI do armazém de máquina/entrada."
@@ -1919,21 +1764,17 @@
 			icon_scale: 2.0d
 			id: "51A6B6CDC90D7E76"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "7AFF24BD5E9724BE"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7AFF24BD5E9724BE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "7A6B0453CD49843F"
-					title: "circuito de programação"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7A6B0453CD49843F"
+				title: "circuito de programação"
+				type: "checkmark"
+			}]
 			x: -2.0d
 			y: 8.0d
 		}

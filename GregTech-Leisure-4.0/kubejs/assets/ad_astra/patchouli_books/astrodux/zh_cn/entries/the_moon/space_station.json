@@ -1,0 +1,38 @@
+{
+  "name": "estação espacial",
+  "icon": "ad_astra:/textures/gui/sprites/space_station.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "estação espacial",
+      "text": "As estações espaciais são estruturas pré-fabricadas que podem ser geradas na tela de seleção de planetas assim que você tiver materiais suficientes. A estação espacial será gerada na órbita baixa da Terra do corpo celeste alvo. Com a estação espacial, não será difícil explorar a órbita baixa da Terra."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "estação espacial",
+      "text": "A estação espacial serve como estrutura básica, permitindo expandi-la ao máximo para realizar seus sonhos espaciais. Todas as suas estações espaciais aparecem na tela do planeta. Outros jogadores não podem gerar novas estações na mesma área que você, então suas estruturas estão seguras."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "espaço de roaming",
+      "text": "A física no espaço é muito diferente daquela da Terra. Neste ambiente de gravidade zero, você flutuará, sem ser afetado pela gravidade ou pela resistência do ar. Isso pode dificultar a movimentação. Uma ferramenta que pode ajudá-lo é uma pistola de compressão. As armas de compressão requerem oxigênio e o consumirão rapidamente para impulsioná-lo para frente. Isso permite que você se mova no espaço. Controle sua velocidade com cuidado. Como não há resistência do ar, você pode voar muito longe e se perder."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Pistola de compressão",
+      "recipe": "ad_astra:zip_gun"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cadmus",
+      "text": "Se o mod $(l:https://modrinth.com/mod/cadmus)Cadmus$(/l) estiver instalado, os pedaços 3x3 em sua estação espacial serão ocupados. Além disso, os jogadores não poderão criar novas estações em nenhum bloco capturado."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Argonauts",
+      "text": "Se você tiver o mod $(l:https://modrinth.com/mod/argonauts)Argonauts$(/l) instalado, outros jogadores do seu grupo ou guilda poderão pousar na sua estação, e você poderá pousar na deles."
+    }
+  ]
+}

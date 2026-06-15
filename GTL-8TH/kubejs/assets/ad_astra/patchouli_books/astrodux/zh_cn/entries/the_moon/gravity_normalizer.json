@@ -1,0 +1,19 @@
+{
+  "name": "gravity normalizer",
+  "icon": "ad_astra:gravity_normalizer",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "gravity normalizer",
+      "item": "ad_astra:gravity_normalizer",
+      "text": "Gravity normalizers allow you to create artificial gravity in confined areas, similar to oxygen dispensers. It has a slider to set the target gravity - from 0-G to 2-G. Gravity normalizers require considerable power to operate, so use with caution if your structure does not require gravity adjustment."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Gravity Normalizer Recipe",
+      "recipe": "ad_astra:gravity_normalizer"
+    }
+  ]
+}

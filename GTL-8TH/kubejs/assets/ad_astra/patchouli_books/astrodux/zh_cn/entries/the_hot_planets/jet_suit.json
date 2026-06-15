@@ -1,0 +1,28 @@
+{
+  "name": "jet space suit",
+  "icon": "ad_astra:jet_suit_helmet",
+  "sortnum": 0,
+  "category": "ad_astra:the_hot_planets",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "jet space suit",
+      "item": "ad_astra:jet_suit_helmet",
+      "text": "Comparados aos trajes espaciais de liga leve, os trajes espaciais a jato têm maior valor de blindagem, reservas extras de oxigênio e - possuem um jetpack que permite voar no ar. Um traje espacial a jato é caro, mas suas capacidades de vôo em alta velocidade certamente farão você sentir que vale a pena o dinheiro investido."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Pressionar teclas diferentes aciona diferentes modos de vôo: pressione $(k:jump) para andar no modo constante ou pressione $(k:jump) e $(k:sprint) simultaneamente para correr no modo boost. O modo constante irá levantá-lo lentamente de onde você estava, enquanto o modo boost tem o efeito de ser impulsionado por um foguete de fogos de artifício enquanto estiver equipado com élitros. O traje a jato requer energia para funcionar. Segure-o e clique com o botão direito na estação de energia para recarregá-la."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:jet_suit_helmet",
+      "recipe2": "ad_astra:jet_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:jet_suit_pants",
+      "recipe2": "ad_astra:jet_suit_boots"
+    }
+  ]
+}

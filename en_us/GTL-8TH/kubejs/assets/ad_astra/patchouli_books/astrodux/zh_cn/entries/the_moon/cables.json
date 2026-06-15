@@ -1,0 +1,32 @@
+{
+  "name": "cable",
+  "icon": "ad_astra:desh_cable",
+  "sortnum": 4,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "cable",
+      "item": "ad_astra:desh_cable",
+      "text": "Cables are the tool of choice for transmitting electrical energy over long distances. There are two types of cables to choose from: steel cables and Daiss cables - Daiss cables have a higher transmission rate than steel cables. Right-click the cable with a wrench to adjust the extension direction and disconnect it from the node in the network."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:steel_cable",
+      "recipe2": "ad_astra:desh_cable"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cable duct",
+      "text": "Cables are not complete blocks. Therefore, they do not seal the structure, rendering the oxygen distributor and gravity normalizer inoperable. Cable ducts are complete blocks that work exactly like cables while preventing leaks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cable_duct"
+    }
+  ]
+}

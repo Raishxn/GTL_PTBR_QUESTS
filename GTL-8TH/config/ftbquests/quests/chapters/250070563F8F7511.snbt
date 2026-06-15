@@ -1,0 +1,927 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "250070563F8F7511"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "250070563F8F7511"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"25A6B2F421327892"
+				"4F864738509B6DCA"
+				"4536535E8DA71D5B"
+				"575A2A1E4F56FF34"
+				"27695F7273E7F69D"
+				"516564DCEA7FA80B"
+				"2BFFB6D14D698DF4"
+				"0F4AFDE98CEA87B1"
+				"13371F3E8D27310F"
+				"1D93602C5835593F"
+				"3F8DDC1B589F52AC"
+			]
+			description: ["Antes de começar, você precisa passar por todas as tarefas de pré-requisito (veja-as no canto superior esquerdo)."]
+			icon: "minecraft:grass_block"
+			icon_scale: 2.0d
+			id: "075D368E91231337"
+			rewards: [
+				{
+					id: "2CF9C7981E9F7DE5"
+					item: {
+						Count: 1
+						id: "ae2:fluix_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+							]
+							RepairCost: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AFEC89A5F1B7FA6"
+					item: {
+						Count: 1
+						id: "ae2:fluix_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "começar"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Por padrão, &6M&r abre o mapa. Pressione &6T&r para se teletransportar para o local apontado pelo mouse. Clique no ícone do globo no canto inferior esquerdo para alterar as dimensões."
+				""
+				"Você pode reivindicar e forçar o carregamento de pedaços no canto superior esquerdo da interface (os pedaços reivindicados podem ser à prova de explosão). Se você estiver em um servidor, defina &6 modo de carregamento forçado &r nas configurações do servidor (engrenagem roxa) do pedaço ftb para &balways&r para permitir que o servidor carregue pedaços carregados à força, mesmo que ninguém esteja online."
+				""
+				"Pressione e segure as teclas &6~&r para ativar a cadeia"
+				""
+				"No canto superior direito da interface de tarefas, clique no terceiro botão de cima para baixo para visualizar as teclas de atalho na interface de tarefas."
+				""
+				"Digite /sethome \"nome\" para definir o ponto de teletransporte, digite /home \"nome correspondente\" para se teletransportar para o ponto de teletransporte correspondente"
+				""
+				"O backup do arquivo pode ser encontrado na pasta de backup do diretório raiz do jogo. Digite /backup start para realizar um backup imediatamente."
+				""
+				"A inércia de vôo está desabilitada por padrão e pode ser alterada no arquivo de configuração do gtlcore"
+				""
+				"Se a versão GregTech não corresponder quando estiver online, certifique-se de que os arquivos de configuração no servidor e no cliente sejam consistentes."
+				""
+				"Mais dicas podem ser encontradas no grupo de capítulos &d Dicas e Truques &r"
+			]
+			hide_dependent_lines: true
+			icon: "ftbquests:book"
+			id: "4F864738509B6DCA"
+			rewards: [{
+				id: "723CCD5BBA07EEDA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177349E6447C2C3A"
+				title: "Outras dicas"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Esta missão contém algumas informações importantes durante o jogo."
+				""
+				"Este conjunto de missões foi projetado para guiá-lo pelos principais marcos na progressão da GregTech."
+				""
+				"Recomenda-se jogar no modo Pacífico, pois mobs hostis trazem poucos benefícios."
+				""
+				"Você pode usar o teletransporte do mapa, ajustar as regras do jogo, etc., conforme achar necessário."
+				""
+				"{\"text\":\"O mais importante é que GregTech terá receitas muito complexas e você precisa primeiro ter proficiência no uso de JEI.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"575A2A1E4F56FF34\"}}"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:command_block_minecart"
+			id: "25A6B2F421327892"
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Antes de jogar"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Um pacote de integração GregTech com foco no casual (casual é menos difícil do que outros pacotes Graytech)"
+				""
+				"Processo principal"
+				"Steam&8ULV&r: Colete recursos básicos, máquinas a vapor maiores e mais poderosas, siderurgia e forjas terrestres ultradimensionais."
+				"Baixa tensão &7LV&r: máquina elétrica básica, alto-forno elétrico."
+				"Média Tensão &bMV&r: Cristal de Silício, Processamento de Petróleo, Máquinas Atualizadas."
+				"Alta tensão&6HV&r: processador, grande reator químico, foguete de primeiro estágio para a lua, torre de destilação, titânio."
+				"Pressão ultra-alta&5EV&r: nanoprocessador, máquina de mineração vazia, foguete de segundo, terceiro e quarto estágio, tungstênio, metais da série platina."
+				"Orientação de pressão forte&9IV&r: processador quântico, forno de fundição de liga, reator de fissão, foguete de quinto estágio, máquina grande, linha de montagem, banco de dados."
+				"Pressão diferencial dramática&dLuV&r: processador de cristal, sílica, foguete de sexto estágio, fusão nuclear MK1, computador."
+				"Pressão de ponto zero&cZPM&r: processador wetware, fusão nuclear MK2, foguete de sétimo estágio."
+				"Pressão Extrema&3UV&r: Processador Bioativo, Fusão Nuclear MK3, Twister Químico Profundo, Linha de Montagem de Circuito, Elevador Espacial."
+				"Pressão extremamente alta&4UHV&r: processador óptico, fusão nuclear MK4, forja estelar, super bomba de sílica, super reator."
+				"Sobrepressão Extrema&aUEV&r: Processador Estranho, Fusion MK5, Síntese Supercrítica, Processamento de Rocha, Adamantita."
+				"Pressão extrema&2UIV&r: Processador universal, detecção cósmica, gerador de massa, quarks, elementos superpesados."
+				"Pressão Extrema&eUXV&r: Processador Paracausal, Dragão, Neutrônio Cósmico, Infinito, Forja de Plasma Ultradimensional, Lado X."
+				"Tensão de sobrecarga&1OpV&r: Circuito hiperespaço-tempo, simulação de universo, espaço-tempo, singularidade, eternidade."
+				"Pressão limite superior &cMAX&r: Criar síntese de item."
+				"Pergunta adicional &cM&r&aA&r&9X&r&e+&r: O peixe é grande."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:structure_void"
+			id: "4536535E8DA71D5B"
+			min_width: 350
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "Sobre o conteúdo"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["07AC1B02299EF734"]
+			icon: {
+				Count: 1
+				id: "avaritia:infinity_pickaxe"
+				tag: { }
+			}
+			id: "2DC6C5D7DDA578F7"
+			optional: true
+			rewards: [
+				{
+					id: "3E3948D90F34D5D0"
+					item: {
+						Count: 1
+						id: "gtceu:echoite_vajra"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								HarvestLevel: 6
+								MaxDamage: 63
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C9191D785999C2E"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4D282505E5CCCBA0"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "5347855ACD02CCBD"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "2EA6F783BA516FB4"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "7F21F6FD64206149"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					id: "6DA2B9240B91AFA5"
+					item: {
+						Count: 1
+						id: "toolbelt:belt"
+						tag: {
+							Size: 9
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05223A175AE725A8"
+				type: "checkmark"
+			}]
+			title: "equipamento"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"Clicar com o botão direito em Obsidian com as mãos nuas pode ir para o mundo vazio. Chorar Obsidian pode ir para o mundo superplano. As coordenadas X e Z são transferidas para a coordenada mundial principal x100."
+				"(Alguns fenômenos de distância estranhos ocorrerão se você estiver muito longe de (0, ~, 0). Recomenda-se evitar esta situação)"
+				""
+				"Os mundos Void e Super Flat estão bloqueados no tempo, não gerarão monstros e não choverão (mas ainda serão afetados pelo clima no mundo principal, como os mundos Void e Super Flat ficarão nublados quando chover no mundo principal), com um limite de altura de 511"
+				""
+				"O equipamento solar da GT não funciona aqui"
+			]
+			icon: "minecraft:obsidian"
+			id: "07AC1B02299EF734"
+			optional: true
+			rewards: [
+				{
+					id: "29C2D0C50033539C"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EC17DCD4A7DF139"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "4FAF4CE9DB085C12"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "2886B347BD9A06B9"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 648
+					id: "554B8648D55DCF6A"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
+			title: "Você pode ir para o mundo vazio para construir uma base"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: ["Componente na unidade ME"]
+			icon: "gtlcore:infinite_cell_component"
+			id: "7198356C944E053A"
+			optional: true
+			rewards: [{
+				id: "1EA9D42E4CCD9B57"
+				item: "gtlcore:fast_infinity_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65DA7608DE5FA521"
+				type: "checkmark"
+			}]
+			title: "super armazenamento"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Mova o mouse para um item! (Mochila, barra de pesquisa à direita, em jei)"
+				"Pressione &6R&r para visualizar &b para sintetizar &r! ! !"
+				"Pressione &6U&r para ver &b usa &r! ! !"
+				""
+				"Depois de abrir a interface, há duas linhas com setas."
+				"A primeira linha e o ícone superior podem alternar as ferramentas de síntese (clique no texto nesta linha para visualizar todas as tabelas de síntese desta forma)"
+				"A segunda linha pode ser girada (muitos itens possuem um grande número de métodos de síntese, navegue com atenção)"
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:rotating_transparent_surface"
+			id: "575A2A1E4F56FF34"
+			rewards: [{
+				id: "15C84CB4A92064A2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076E6DC515FD655D"
+				title: "Introdução ao JEI"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Esta é uma má notícia, você veio para um mundo fragmentado,"
+				"Este mundo não está completo, tornou-se em fragmentos."
+				"Mas deixei algumas guloseimas para você que o ajudarão a continuar sua jornada."
+				"Fique com eles, &l&d&oTodos são necessários!!!&r&r&r"
+				""
+				"Dicas necessárias:"
+				"O que é isso! Modo ilha do céu!"
+				"Somente se você escolher &b Sky Island&r ao criar o mundo"
+				"Esta tarefa pode ser realizada"
+				"Você precisa clicar em &bmodule&r na interface do menu do jogo,"
+				"Procure por &bgtlcore&r, clique em &b para configurar &r,"
+				"Altere a configuração do &bairland mode&r de &bfalse&r para &btrue&r"
+				"Após concluir as etapas acima, &6 reinicie o jogo &r. O conteúdo da configuração não suporta recarregamento a quente."
+				"É assim que você realmente entra no modo ilha. Se você quiser experimentar o modo normal, basta voltar ao modo e criar um novo arquivo salvo."
+				"Veja a próxima página para o processo de configuração do servidor da versão sky island."
+				""
+				"{image:ftbquests:textures/picture/002.png width:320 height:200 align:center}"
+				"{@pagebreak}"
+				"Se você deseja abrir uma versão ilha do servidor"
+				"você precisa modificar"
+				""
+				"Em config/gtlcore.yaml"
+				"enableSkyBlokeMode alterado para verdadeiro"
+				""
+				"em server.properties"
+				"Altere o tipo de nível para skyblockbuilder\\:skyblock"
+				""
+				"E eu sugiro que você dê uma olhada no wiki do construtor skyblock"
+				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
+				"para aprender sobre as instruções relevantes"
+			]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_overworld"
+			id: "0F4AFDE98CEA87B1"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					id: "0AFB0CC841A156B2"
+					item: "gtlcore:world_fragments_overworld"
+					type: "item"
+				}
+				{
+					id: "285D7D67FB3DA012"
+					item: "gtlcore:mining_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A06BA0AE4BD3DB9"
+				type: "checkmark"
+			}]
+			title: "Modo ilha do céu"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: [
+				"Caixa de mochila da série Exquisite"
+				"Muito útil na fase inicial"
+				""
+				"(Recomenda-se usar AE após o lançamento do AE)"
+			]
+			icon: "sophisticatedbackpacks:netherite_backpack"
+			id: "75E8F87D6035DB24"
+			optional: true
+			rewards: [
+				{
+					id: "1F70DA6680CCF39C"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "158E51278C35D758"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "4664CB16D774EB1A"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "1FC671AA05297C53"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "318F591A17C996AE"
+					item: "sophisticatedbackpacks:smithing_upgrade"
+					type: "item"
+				}
+				{
+					id: "3E036F7F08C9B5BF"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "578C38125F51FC26"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "3FFCFB24B2364E2E"
+					item: "sophisticatedbackpacks:advanced_restock_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19EB182CE9C99809"
+				type: "checkmark"
+			}]
+			title: "Série requintada"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: ["Viaje facilmente entre cabos"]
+			icon: {
+				Count: 1
+				id: "shrink:shrinking_device"
+				tag: { }
+			}
+			id: "4DFDDE01DF6D6763"
+			optional: true
+			rewards: [{
+				id: "58A68342A1AF7C02"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: {
+						Energy: 100000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "451B93E756FDED48"
+				title: "dispositivo de zoom pessoal"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			description: [
+				"Você pode se esgueirar e clicar com o botão direito do mouse no ponto de acesso sem fio &6 &r do AE para se conectar à rede ME (você também pode colocá-lo diretamente), chamando diretamente os itens de inventário da rede ME"
+				""
+				"Ao utilizar a ferramenta de cisalhamento, tente não girar &c, caso contrário parte do bloco será perdida."
+				""
+				"Armazéns de energia/energia/laser sem fio colocados/copiados diretamente usando essas ferramentas precisam ser vinculados manualmente à rede sem fio clicando com o botão direito na memória flash, caso contrário, esses armazéns não interagirão com a rede sem fio (ou seja, sem energia ou totalmente carregados)"
+			]
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_copy_paste"
+				tag: { }
+			}
+			id: "4B7B7EA38B836F96"
+			optional: true
+			rewards: [
+				{
+					id: "129145AE2D5F717B"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D25323AB959BB72"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							energy: 2147483647
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47615B2849B4F6DB"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE30080CFCFAEE8"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C69CAC34076230"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Essas ferramentas são muito úteis"
+			tasks: [{
+				id: "1B08CDBB964E1058"
+				type: "checkmark"
+			}]
+			title: "Ajudante de construção"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{\"text\":\"Você já deve saber como usá-lo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"262671AC71B36736\"}}"
+				"{@pagebreak}"
+				"Pode causar acidente"
+			]
+			hide_dependent_lines: true
+			icon: "gtlcore:structure_detect"
+			id: "1D93602C5835593F"
+			optional: true
+			rewards: [
+				{
+					id: "0ECF96D85FE8AB8F"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "70DA542B8A7D700B"
+					item: "gtlcore:structure_detect"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "61961A7BA63BFAA3"
+				title: "Ferramentas de inspeção estrutural"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&6 Isolamento de barramento &r no conjunto de entrada &b Isolar itens &r apenas, ativar &6 Isolamento completo &r na GUI do bloco principal multibloco &b Isolamento de fluido &r"
+				""
+				"Nota: Quando o isolamento completo estiver habilitado, &d cobrirá o isolamento &r de todas as montagens, ou seja, cada montagem está em um estado de isolamento de objeto e fluido."
+				"{@pagebreak}"
+				"Se você atualizou de uma versão antiga, remova todos os assemblies de entrada e coloque-os novamente, caso contrário o isolamento poderá falhar."
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:nan_certificate"
+			id: "27695F7273E7F69D"
+			rewards: [{
+				id: "628D529481945AFD"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "460C0F7BD66FE0BF"
+				type: "checkmark"
+			}]
+			title: "Guia do usuário para isolamento de armazém"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"O monitor de desempenho monitora atrasos causados ​​por todas as máquinas"
+				""
+				"Você pode inserir /forge tps para verificar o atraso do jogo. É melhor garantir que o tps esteja sempre em 20"
+				""
+				"As seguintes coisas podem ser a causa do atraso:"
+				""
+				"Construa tudo em um pequeno espaço. Isso não afetará o tps, mas fará com que o fps caia."
+				""
+				"Os barramentos de entrada e saída são amplamente utilizados na rede. Recomenda-se usar a interface ME."
+				""
+				"Faça vários pedidos para pequenas quantidades de itens a serem enviados. Recomenda-se reduzir o número de paralelos de CPU e expandir o modelo múltiplo."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:data_stick"
+				tag: { }
+			}
+			id: "516564DCEA7FA80B"
+			rewards: [{
+				id: "3C4B05D0EC67442D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0716704AAA0124C9"
+				type: "checkmark"
+			}]
+			title: "Se você se sentir preso"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Ele pode ser carregado no slot de carregamento de pequenos dispositivos, caixas de bateria, carregadores AE, etc."
+				""
+				"Você também pode pegar uma bateria carregada enquanto se esgueira e clicar com o botão direito para ativar o modo de liberação de energia para carregar outros itens no inventário (o módulo de ponto zero também é uma bateria)"
+			]
+			hide_dependent_lines: true
+			icon: "kubejs:create_ultimate_battery"
+			id: "2BFFB6D14D698DF4"
+			rewards: [{
+				id: "616BAA1A44B90CC0"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0926D0067A359CF4"
+				type: "checkmark"
+			}]
+			title: "Como cobrar itens"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			description: ["{\"text\":\"Você já deve saber como usá-lo\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"516564DCEA7FA80B\"}}"]
+			hide_dependent_lines: true
+			icon: "gtceu:performance_monitor"
+			id: "13371F3E8D27310F"
+			optional: true
+			rewards: [
+				{
+					id: "487A6B2627D887C1"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "4387EBD604890CA3"
+					item: "gtceu:performance_monitor"
+					type: "item"
+				}
+				{
+					id: "6445A94764CC8C04"
+					item: "gtmthings:wireless_energy_monitor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CA2929A0F6D9709"
+				title: "monitor"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Com base no terminal avançado, ele suporta &b para substituir a bobina &r, módulo de potência do elevador espacial, shell de linha de montagem de componentes e contêiner térmico estelar (clique no texto \"Bloco de nível\" com o mouse para abrir a interface de seleção de bloco de nível)"
+				""
+				"Ele também suporta estrutura multibloco &b posicionamento de espelho&r. O modo sem câmara continuará em vigor e você poderá até colocar fluidos (identifique o balde de fluido em seu corpo, o balde de baleias no oceano e o fluido na rede ME)"
+				""
+				"Ao mesmo tempo, ele suporta a ligação de &b a AE&r, extraindo materiais diretamente da rede ME para construir uma estrutura multibloco (clique furtivamente com o botão direito para vincular qualquer componente na rede ME; dimensão cruzada direta não é suportada e o mesmo componente de rede ME precisa existir em ambas as dimensões)"
+				""
+				"Ele também suporta a desmontagem com um clique de &d da estrutura multibloco &r (ative o modo AE para retornar diretamente à rede ME. Quando não ligado, é recomendado carregar uma mochila e outros recipientes; somente o modo AE pode reciclar fluido)"
+			]
+			hide_dependent_lines: true
+			icon: "gtlcore:ultimate_terminal"
+			id: "3F8DDC1B589F52AC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59FDA77962C18357"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "240EDABCD5BFA492"
+					item: "gtlcore:ultimate_terminal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A854BD32D79478B"
+				type: "checkmark"
+			}]
+			title: "terminal final"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			icon: "travelanchors:travel_staff"
+			id: "0D88EB28EF0A182C"
+			optional: true
+			rewards: [
+				{
+					id: "4B6CAC74CE9CA489"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4B8694FF9F4587D8"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4502F7A7E7B9C5ED"
+				title: "cetro de viagem"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["07AC1B02299EF734"]
+			icon: "gtladditions:macro_atomic_resonant_fragment_stripper"
+			id: "7BE76F588F45CD8D"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "5DCBCB0FBEE25481"
+					item: "gtlcore:world_fragments_overworld"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "360E189FC56A70B6"
+					item: "gtlcore:world_fragments_nether"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "257F6AC355598300"
+					item: "gtlcore:world_fragments_end"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4F22DF6A65527116"
+					item: "gtlcore:world_fragments_reactor"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "382A1021836BBE26"
+					item: "gtlcore:world_fragments_moon"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5CBB85937E7F837C"
+					item: "gtlcore:world_fragments_mars"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5F403A46E00053A6"
+					item: "gtlcore:world_fragments_venus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24F0A7BB0801BE6F"
+					item: "gtlcore:world_fragments_mercury"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "27F5284043A32401"
+					item: "gtlcore:world_fragments_ceres"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D7E77629698E0E0"
+					item: "gtlcore:world_fragments_io"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "536BFFCA6AF63BF4"
+					item: "gtlcore:world_fragments_ganymede"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "618B62B311380E7C"
+					item: "gtlcore:world_fragments_pluto"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D0E1C5F341F1131"
+					item: "gtlcore:world_fragments_enceladus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "734DE1F25EF701D2"
+					item: "gtlcore:world_fragments_titan"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7E48CA73577E5652"
+					item: "gtlcore:world_fragments_glacio"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4D2D0FC9B19A6A3A"
+					item: "gtlcore:world_fragments_barnarda"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "72EEA374D314316F"
+					item: "gtceu:ulv_fragment_world_collection_machine"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7B132822ED9F16FC"
+					item: "gtceu:ulv_solar_panel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CCDF824BAF79A29"
+				title: "De onde vem o minério?"
+				type: "checkmark"
+			}]
+			title: "ilha do céu"
+			x: -4.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Nível 0-Idade da Pedra"]
+	title: "comece daqui"
+}

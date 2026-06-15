@@ -68,13 +68,11 @@
 				}
 			]
 			size: 1.5d
-			tasks: [
-				{
-					id: "20A638BEB859B6BC"
-					title: "começar"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "começar"
+				type: "checkmark"
+			}]
 			x: -7.5d
 			y: -2.5d
 		}
@@ -88,7 +86,7 @@
 				""
 				"No canto superior direito da interface de tarefas, clique no terceiro botão de cima para baixo para visualizar as teclas de atalho na interface de tarefas."
 				""
-				"Digite /sethome \\\"nome\\\" para definir o ponto de teletransporte, digite /home \\\"nome correspondente\\\" para se teletransportar para o ponto de teletransporte correspondente"
+				"Digite /sethome \"nome\" para definir o ponto de teletransporte, digite /home \"nome correspondente\" para se teletransportar para o ponto de teletransporte correspondente"
 				""
 				"O backup do arquivo pode ser encontrado na pasta de backup do diretório raiz do jogo. Digite /backup start para realizar um backup imediatamente."
 				""
@@ -101,20 +99,16 @@
 			hide_dependent_lines: true
 			icon: "ftbquests:book"
 			id: "4F864738509B6DCA"
-			rewards: [
-				{
-					id: "723CCD5BBA07EEDA"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "177349E6447C2C3A"
-					title: "Outras dicas"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "723CCD5BBA07EEDA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177349E6447C2C3A"
+				title: "Outras dicas"
+				type: "checkmark"
+			}]
 			x: -6.0d
 			y: -4.0d
 		}
@@ -128,25 +122,21 @@
 				""
 				"Você pode usar o teletransporte do mapa, ajustar as regras do jogo, etc., conforme achar necessário."
 				""
-				"{\\\"text\\\":\\\"O mais importante é que GregTech terá receitas muito complexas e você precisa primeiro ter proficiência no uso do JEI.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"575A2A1E4F56FF34\\\"}}"
+				"{\"text\":\"O mais importante é que GregTech terá receitas muito complexas e você precisa primeiro ter proficiência no uso do JEI.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"575A2A1E4F56FF34\"}}"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
 			id: "25A6B2F421327892"
-			rewards: [
-				{
-					id: "16F2F040644DAC8F"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "767FB3AAC7684750"
-					title: "Antes de jogar"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Antes de jogar"
+				type: "checkmark"
+			}]
 			x: -9.5d
 			y: -2.0d
 		}
@@ -176,20 +166,16 @@
 			icon: "minecraft:structure_void"
 			id: "4536535E8DA71D5B"
 			min_width: 350
-			rewards: [
-				{
-					id: "646CA29C41AD06C1"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "653FC7E3CCCA0A5E"
-					title: "Sobre o conteúdo"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "Sobre o conteúdo"
+				type: "checkmark"
+			}]
 			x: -9.5d
 			y: -3.0d
 		}
@@ -203,26 +189,22 @@
 				"Se você ativar a trapaça, clique em qualquer local da interface do prospector para transferir diretamente (a interface não será atualizada em tempo real)"
 			]
 			id: "77DF4A561164B530"
-			rewards: [
-				{
-					id: "624C887B89A0A253"
-					item: {
-						Count: 1
-						id: "gtceu:prospector.luv"
-						tag: {
-							Charge: 1000000000L
-						}
+			rewards: [{
+				id: "624C887B89A0A253"
+				item: {
+					Count: 1
+					id: "gtceu:prospector.luv"
+					tag: {
+						Charge: 1000000000L
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "4FF3F7FDB78E5053"
-					item: "minecraft:crafting_table"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FF3F7FDB78E5053"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -2.5d
 		}
@@ -231,38 +213,34 @@
 			description: ["Idade da Pedra"]
 			icon: "minecraft:cobblestone"
 			id: "2DC6C5D7DDA578F7"
-			rewards: [
-				{
-					count: 10
-					id: "26CD53567ABEF77A"
-					item: {
-						Count: 1
-						id: "ae2:fluix_pickaxe"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:efficiency"
-									lvl: 5s
-								}
-							]
-							RepairCost: 3
-						}
+			rewards: [{
+				count: 10
+				id: "26CD53567ABEF77A"
+				item: {
+					Count: 1
+					id: "ae2:fluix_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}
+						]
+						RepairCost: 3
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "426437E5876CC96A"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "426437E5876CC96A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			title: "Obtenha paralelepípedos"
 			x: -2.5d
 			y: -2.5d
@@ -271,21 +249,17 @@
 			dependencies: ["2DC6C5D7DDA578F7"]
 			description: ["Alto-forno é mais rápido"]
 			id: "0EA3AAE338C0FE7A"
-			rewards: [
-				{
-					count: 8
-					id: "6BBB541521787C80"
-					item: "minecraft:blast_furnace"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "04BF77BE023E656F"
-					item: "minecraft:furnace"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "6BBB541521787C80"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04BF77BE023E656F"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
 			x: -3.2d
 			y: -1.0d
 		}
@@ -317,14 +291,23 @@
 					title: "veja através da escuridão"
 					type: "command"
 				}
-			]
-			tasks: [
 				{
-					id: "0F388023136A8A7C"
-					title: "Obtenha visão noturna"
-					type: "checkmark"
+					auto: "invisible"
+					command: "/effect clear @p minecraft:night_vision"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "gtceu:milk_bucket"
+					id: "53A6BC3530F811BE"
+					silent: true
+					title: "Limpe automaticamente o efeito de visão noturna original para evitar bugs, apenas ignore-o"
+					type: "command"
 				}
 			]
+			tasks: [{
+				id: "0F388023136A8A7C"
+				title: "Obtenha visão noturna"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: -4.0d
 		}
@@ -369,12 +352,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2FB6F5ECEC5CFC30"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
 			title: "Você pode ir para o mundo vazio para construir uma base"
 			x: -4.5d
 			y: -1.0d
@@ -386,21 +367,17 @@
 			icon: "minecraft:white_concrete"
 			id: "3223AEF42BD9327C"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1E4ED4FDC73FC201"
-					table_id: 9058340522588536399L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E4ED4FDC73FC201"
+				table_id: 9058340522588536399L
+				type: "choice"
+			}]
 			subtitle: "Pacote de presente de concreto!"
-			tasks: [
-				{
-					id: "5D566363C29BF687"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5D566363C29BF687"
+				type: "checkmark"
+			}]
 			title: "Materiais de construção ilimitados"
 			x: -4.5d
 			y: 0.5d
@@ -450,7 +427,10 @@
 		}
 		{
 			dependencies: ["2C6F506ADD78F277"]
-			description: ["A maioria dos itens no GT requerem ferramentas quando sintetizados na bancada.", "A função secundária do martelo de forjamento é através do botão direito &9&lSilent Machine"]
+			description: [
+				"A maioria dos itens no GT requerem ferramentas quando sintetizados na bancada."
+				"A função secundária do martelo de forjamento é através do botão direito &9&lSilent Machine"
+			]
 			icon: {
 				Count: 1
 				id: "gtceu:iron_hammer"
@@ -533,6 +513,25 @@
 					}
 					type: "item"
 				}
+				{
+					id: "134DA9B09434EE22"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_plunger"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -607,13 +606,11 @@
 			dependency_requirement: "all_started"
 			description: ["Moa até virar pó com um pilão e misture com as mãos"]
 			id: "133BC85B5D3EF1CB"
-			rewards: [
-				{
-					id: "0DA275C860355A9D"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0DA275C860355A9D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "327FF4C13FFEC8B6"
@@ -640,14 +637,18 @@
 					item: "gtceu:cupronickel_credit"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "57C6A23ADA9034AA"
-					item: "gtceu:bronze_ingot"
+					count: 2
+					id: "72E40163E169A592"
+					item: "minecraft:ender_pearl"
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "57C6A23ADA9034AA"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			x: 7.5d
 			y: -2.5d
 		}
@@ -660,13 +661,11 @@
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "52A0EE026A3D3A79"
-			rewards: [
-				{
-					id: "11FB0702EB3F7E18"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "11FB0702EB3F7E18"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1172C9C38B0C9D97"
@@ -694,20 +693,16 @@
 			]
 			icon: "gtceu:terminal"
 			id: "4AB25C15F0B05AA0"
-			rewards: [
-				{
-					id: "300E1DE7547E2113"
-					item: "gtceu:terminal"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "685A67720A9B9F7E"
-					title: "terminal"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "300E1DE7547E2113"
+				item: "gtceu:terminal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "685A67720A9B9F7E"
+				title: "terminal"
+				type: "checkmark"
+			}]
 			x: 3.5d
 			y: 0.5d
 		}
@@ -717,21 +712,17 @@
 			icon: "kubejs:warped_ender_pearl"
 			id: "72AFAC66A9EC5F1A"
 			optional: true
-			rewards: [
-				{
-					id: "16D977A5C13DD6A2"
-					item: "kubejs:warped_ender_pearl"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "16D977A5C13DD6A2"
+				item: "kubejs:warped_ender_pearl"
+				type: "item"
+			}]
 			subtitle: "Se você não gosta de usar comandos ou do minimapa"
-			tasks: [
-				{
-					id: "26A4AD36BD56873A"
-					title: "transmissor"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "26A4AD36BD56873A"
+				title: "transmissor"
+				type: "checkmark"
+			}]
 			x: 3.5d
 			y: 2.0d
 		}
@@ -743,13 +734,11 @@
 				"O diamante é o rei da resistência à queima e é recomendado para caldeiras"
 			]
 			id: "2E6B876A85B30554"
-			rewards: [
-				{
-					id: "4C4D7911A44B42C2"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4C4D7911A44B42C2"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4CD84934E0B48CD4"
@@ -793,14 +782,17 @@
 					item: "toolbelt:pouch"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					id: "7A23943381FB2DC4"
-					item: "toolbelt:belt"
-					type: "item"
+					id: "6BB7B6C2BB52BAC1"
+					type: "xp_levels"
+					xp_levels: 50
 				}
 			]
+			tasks: [{
+				id: "7A23943381FB2DC4"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
 			x: 2.5d
 			y: -4.0d
 		}
@@ -808,20 +800,16 @@
 			dependencies: ["050FD340224F7AB6"]
 			description: ["O carvão grosso pode ser usado diretamente como combustível aqui."]
 			id: "4C943E88E3926A9A"
-			rewards: [
-				{
-					id: "3C50340F6A70A194"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "30667165CE23DFCE"
-					item: "gtceu:raw_coal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3C50340F6A70A194"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30667165CE23DFCE"
+				item: "gtceu:raw_coal"
+				type: "item"
+			}]
 			x: -0.5d
 			y: -4.0d
 		}
@@ -1206,13 +1194,11 @@
 			icon: "gtceu:coke_oven"
 			icon_scale: 2.0d
 			id: "12E605EC5CFDE71A"
-			rewards: [
-				{
-					id: "11023544A8C72E30"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "11023544A8C72E30"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -1246,22 +1232,18 @@
 			description: ["Com o bronze, você pode começar a criar várias máquinas movidas a vapor"]
 			icon: "gtceu:lp_steam_alloy_smelter"
 			id: "46F82A0A3D57C225"
-			rewards: [
-				{
-					id: "07408B5DAB665BC8"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "07408B5DAB665BC8"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "529B5BE92883F9CE"
-					title: "era do vapor"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "529B5BE92883F9CE"
+				title: "era do vapor"
+				type: "checkmark"
+			}]
 			x: 7.5d
 			y: -1.0d
 		}
@@ -1280,19 +1262,15 @@
 			]
 			icon: "gtceu:raw_tin"
 			id: "050FD340224F7AB6"
-			rewards: [
-				{
-					id: "373E50B37DA19C04"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "398CEBA3D72D1063"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "373E50B37DA19C04"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "398CEBA3D72D1063"
+				type: "checkmark"
+			}]
 			title: "Geração de minério"
 			x: -0.5d
 			y: -2.5d
@@ -1301,14 +1279,12 @@
 			dependencies: ["2DC6C5D7DDA578F7"]
 			description: ["A cana-de-açúcar é usada para fazer papel (mais problemático) e a seringueira é usada para fazer resina pegajosa"]
 			id: "79D4AD9908A4578A"
-			rewards: [
-				{
-					count: 320
-					id: "543181C0221A8BB4"
-					item: "minecraft:bone_meal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 320
+				id: "543181C0221A8BB4"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
 			subtitle: "Aqui estão as plantas que você precisa coletar"
 			tasks: [
 				{
@@ -1388,7 +1364,7 @@
 				""
 				"Uma lista negra encadeada pode ser definida no arquivo de configuração gtlcore. A lista negra inclui cabos AE e blocos de grama por padrão."
 				""
-				"Ao mesmo tempo, a faixa de escavação \\\"amorfa\\\" pode ser modificada (faixa de verificação de escavação em cadeia)"
+				"Ao mesmo tempo, a faixa de escavação \"amorfa\" pode ser modificada (faixa de verificação de escavação em cadeia)"
 			]
 			icon: {
 				Count: 1
@@ -1399,27 +1375,23 @@
 			}
 			id: "64D9F1266FDE5FFE"
 			optional: true
-			rewards: [
-				{
-					command: "/ftbultimine serverconfig"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "avaritia:infinity_pickaxe"
-						tag: { }
-					}
-					id: "73FADAC6A80B392D"
-					title: "configuração de cadeia"
-					type: "command"
+			rewards: [{
+				command: "/ftbultimine serverconfig"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "avaritia:infinity_pickaxe"
+					tag: { }
 				}
-			]
-			tasks: [
-				{
-					id: "49D06A3D2A085A61"
-					title: "mineração mais rápida"
-					type: "checkmark"
-				}
-			]
+				id: "73FADAC6A80B392D"
+				title: "configuração de cadeia"
+				type: "command"
+			}]
+			tasks: [{
+				id: "49D06A3D2A085A61"
+				title: "mineração mais rápida"
+				type: "checkmark"
+			}]
 			x: -1.8d
 			y: -1.0d
 		}
@@ -1436,20 +1408,16 @@
 			hide_dependent_lines: true
 			icon: "kubejs:rotating_transparent_surface"
 			id: "575A2A1E4F56FF34"
-			rewards: [
-				{
-					id: "15C84CB4A92064A2"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "076E6DC515FD655D"
-					title: "Introdução ao JEI"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "15C84CB4A92064A2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076E6DC515FD655D"
+				title: "Introdução ao JEI"
+				type: "checkmark"
+			}]
 			x: -8.0d
 			y: -0.5d
 		}
@@ -1465,19 +1433,15 @@
 			icon: "usclb:clipboard"
 			id: "0FA161E6D70D211E"
 			optional: true
-			rewards: [
-				{
-					id: "4B16101838A6524C"
-					item: "usclb:clipboard"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "62B126388869ACC4"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "4B16101838A6524C"
+				item: "usclb:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B126388869ACC4"
+				type: "checkmark"
+			}]
 			title: "faça anotações"
 			x: 7.5d
 			y: -4.0d
@@ -1494,19 +1458,20 @@
 			]
 			id: "206F4C123EC2550F"
 			optional: true
-			tasks: [
-				{
-					id: "78133B00994EC9AC"
-					item: "pipez:wrench"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78133B00994EC9AC"
+				item: "pipez:wrench"
+				type: "item"
+			}]
 			title: "Pipez"
 			x: 1.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["4AB25C15F0B05AA0", "388BD32463FA905D"]
+			dependencies: [
+				"4AB25C15F0B05AA0"
+				"388BD32463FA905D"
+			]
 			description: [
 				"O modo sem armazém é muito útil, mas lembre-se de clicar com o botão direito e abrir a GUI toda vez que entrar no arquivo, caso contrário, não terá efeito."
 				""
@@ -1515,20 +1480,17 @@
 				"O número de estruturas repetidas é adequado para estruturas multibloco que podem ser empilhadas em múltiplas camadas, como torres de destilação. Simplificando, quanto maior o número, mais longa será a estrutura."
 			]
 			id: "1A124E85453923DF"
-			rewards: [
-				{
-					id: "17FC55AEB50BEEE0"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "10AA38DEE8B23298"
-					item: "gtmthings:advanced_terminal"
-					type: "item"
-				}
-			]
+			optional: true
+			rewards: [{
+				id: "17FC55AEB50BEEE0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10AA38DEE8B23298"
+				item: "gtmthings:advanced_terminal"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 0.5d
 		}
@@ -1559,7 +1521,7 @@
 				"enableSkyBlokeMode alterado para verdadeiro"
 				""
 				"em server.properties"
-				"Altere o tipo de nível para skyblockbuilder\\\\:skyblock"
+				"Altere o tipo de nível para skyblockbuilder\\:skyblock"
 				""
 				"E eu sugiro que você dê uma olhada no wiki do construtor skyblock"
 				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
@@ -1569,20 +1531,16 @@
 			id: "0F4AFDE98CEA87B1"
 			min_width: 350
 			optional: true
-			rewards: [
-				{
-					id: "0AFB0CC841A156B2"
-					item: "gtlcore:world_fragments_overworld"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "61677438ACE10819"
-					item: "gtlcore:mining_crystal"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0AFB0CC841A156B2"
+				item: "gtlcore:world_fragments_overworld"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61677438ACE10819"
+				item: "gtlcore:mining_crystal"
+				type: "item"
+			}]
 			title: "Modo ilha do céu"
 			x: -6.0d
 			y: -1.0d
@@ -1679,32 +1637,28 @@
 			description: ["Viaje facilmente entre cabos"]
 			id: "4DFDDE01DF6D6763"
 			optional: true
-			rewards: [
-				{
-					id: "58A68342A1AF7C02"
-					item: {
-						Count: 1
-						id: "shrink:shrinking_device"
-						tag: {
-							Energy: 100000
-						}
+			rewards: [{
+				id: "58A68342A1AF7C02"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: {
+						Energy: 100000
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "0BC8CBF4882C8CC4"
-					item: {
-						Count: 1
-						id: "shrink:shrinking_device"
-						tag: { }
-					}
-					type: "item"
-					weak_nbt_match: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0BC8CBF4882C8CC4"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: { }
 				}
-			]
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: 6.5d
 			y: -4.0d
 		}
@@ -1833,27 +1787,23 @@
 		{
 			dependencies: ["4AB25C15F0B05AA0"]
 			description: [
-				"{\\\"text\\\":\\\"Você já deve saber como usá-lo\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"262671AC71B36736\\\"}}"
+				"{\"text\":\"Você já deve saber como usá-lo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"262671AC71B36736\"}}"
 				"{@pagebreak}"
 				"Pode causar acidente"
 			]
 			id: "1D93602C5835593F"
 			optional: true
-			rewards: [
-				{
-					id: "0ECF96D85FE8AB8F"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0ECF96D85FE8AB8F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "7AB796D165A6C084"
-					item: "gtlcore:structure_detect"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AB796D165A6C084"
+				item: "gtlcore:structure_detect"
+				type: "item"
+			}]
 			x: 5.5d
 			y: 2.0d
 		}
@@ -1868,19 +1818,15 @@
 			hide_dependent_lines: true
 			icon: "gtceu:nan_certificate"
 			id: "27695F7273E7F69D"
-			rewards: [
-				{
-					id: "628D529481945AFD"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "460C0F7BD66FE0BF"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "628D529481945AFD"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "460C0F7BD66FE0BF"
+				type: "checkmark"
+			}]
 			title: "Guia do usuário para isolamento de armazém"
 			x: -9.0d
 			y: -1.0d
@@ -1906,13 +1852,11 @@
 				tag: { }
 			}
 			id: "516564DCEA7FA80B"
-			rewards: [
-				{
-					id: "3C4B05D0EC67442D"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3C4B05D0EC67442D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3AF442DDE4EA8CF5"
@@ -1938,49 +1882,44 @@
 			hide_dependent_lines: true
 			icon: "kubejs:create_ultimate_battery"
 			id: "2BFFB6D14D698DF4"
-			rewards: [
-				{
-					id: "616BAA1A44B90CC0"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0926D0067A359CF4"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "616BAA1A44B90CC0"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0926D0067A359CF4"
+				type: "checkmark"
+			}]
 			title: "Como cobrar itens"
 			x: -8.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1D93602C5835593F"]
-			description: ["{\\\"text\\\":\\\"Você já deve saber como usá-lo\\\",\\\"underlined\\\":\\\"true\\\",\\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"516564DCEA7FA80B\\\"}}"]
+			description: ["{\"text\":\"Você já deve saber como usá-lo\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"516564DCEA7FA80B\"}}"]
 			id: "13371F3E8D27310F"
 			optional: true
-			rewards: [
-				{
-					id: "487A6B2627D887C1"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2AFF7EDB2EFF81D6"
-					item: "gtceu:performance_monitor"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "487A6B2627D887C1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFF7EDB2EFF81D6"
+				item: "gtceu:performance_monitor"
+				type: "item"
+			}]
 			x: 7.5d
 			y: 2.0d
 		}
 		{
-			dependencies: ["1A124E85453923DF", "40C39645B1DE2488"]
+			dependencies: [
+				"1A124E85453923DF"
+				"027197A71E630966"
+			]
 			description: [
-				"Com base no terminal avançado, &bé compatível com a substituição da bobina&r, módulo de potência do elevador espacial, invólucro da linha de montagem de componentes e contêiner térmico estelar (clique no texto \\\"Bloco de nível\\\" com o mouse para abrir a interface de seleção do bloco de nível)"
+				"Com base no terminal avançado, &bé compatível com a substituição da bobina&r, módulo de potência do elevador espacial, invólucro da linha de montagem de componentes e contêiner térmico estelar (clique no texto \"Bloco de nível\" com o mouse para abrir a interface de seleção do bloco de nível)"
 				""
 				"Ele também suporta posicionamento de espelho &be estrutura multibloco&r. O modo sem câmara continuará em vigor e você poderá até colocar fluidos (identifique o balde de fluido em seu corpo, o balde de baleias no oceano e o fluido na rede ME)"
 				""
@@ -1989,21 +1928,19 @@
 				"Ele também suporta a desmontagem com um clique da estrutura multibloco &d&r(ativar o modo AE retornará diretamente à rede ME. Ao não ligá-lo, é recomendável carregar uma mochila e outros recipientes; somente o modo AE pode reciclar fluido)"
 			]
 			id: "3F8DDC1B589F52AC"
-			rewards: [
-				{
-					id: "7878F01FAAB84253"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59FDA77962C18357"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "pentagon"
-			tasks: [
-				{
-					id: "45EF957CA69802F4"
-					item: "gtlcore:ultimate_terminal"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45EF957CA69802F4"
+				item: "gtlcore:ultimate_terminal"
+				type: "item"
+			}]
 			title: "terminal final"
 			x: 7.5d
 			y: 0.5d
@@ -2053,19 +1990,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5A2BBDEBA9F14ADD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5A2BBDEBA9F14ADD"
+				type: "checkmark"
+			}]
 			title: "bloco de quadro"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["6A7BE998C2EC882D", "1F663A6C2DD1DB60"]
+			dependencies: [
+				"6A7BE998C2EC882D"
+				"1F663A6C2DD1DB60"
+			]
 			hide_dependency_lines: true
 			id: "6351549C3E192BA3"
 			optional: true
@@ -2528,12 +2466,10 @@
 			icon: "minecraft:raw_iron"
 			id: "5531507E2FA738A4"
 			optional: true
-			tasks: [
-				{
-					id: "390E2C9977EE3EEF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "390E2C9977EE3EEF"
+				type: "checkmark"
+			}]
 			title: "Mineiro Vazio Original"
 			x: 4.5d
 			y: -4.0d
@@ -2574,10 +2510,7 @@
 					consume_items: true
 					count: 64L
 					id: "43CEABA34FB29845"
-					item: {
-						Count: 64
-						id: "minecraft:diamond"
-					}
+					item: { Count: 64, id: "minecraft:diamond" }
 					type: "item"
 				}
 				{

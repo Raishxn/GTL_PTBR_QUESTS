@@ -1,0 +1,28 @@
+{
+  "name": "combustível eficiente",
+  "icon": "ad_astra:cryo_freezer",
+  "sortnum": 6,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Dispositivo de congelamento Linbing",
+      "item": "ad_astra:cryo_freezer",
+      "text": "Para produzir combustível tradicional, você precisa encontrar fontes de petróleo bruto no vasto mar e então realizar um processamento complicado... O dispositivo de congelamento Linbing permite criar um combustível Linbing mais eficiente. Comparado com três barris de combustível refinado tradicional para lançar um foguete, o combustível Linbing requer apenas um barril."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "O primeiro passo na produção de combustível de gelo é ir abaixo da superfície desses planetas frios e procurar fragmentos de minério de gelo. Jogar um pedaço de gelo no dispositivo de congelamento de gelo pode converter 25 mB de combustível de gelo; gelo, bloco de gelo e gelo azul também podem ser usados ​​como materiais de reserva para produzir combustível. Coloque o barril vazio no lado direito para retirar o combustível de gelo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:cryo_freezer"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Combustível de gelo",
+      "item": "ad_astra:cryo_fuel_bucket",
+      "text": "O desempenho extraordinário do Linbing Fuel também implica seus perigos. Assim como o magma, causará danos às entidades nele capturadas; sua temperatura é muito baixa, mas pode ser armazenado no reino inferior sem a preocupação de evaporar; é também uma fonte eterna de congelamento que pode congelar continuamente a água lateral em cubos de gelo."
+    }
+  ]
+}

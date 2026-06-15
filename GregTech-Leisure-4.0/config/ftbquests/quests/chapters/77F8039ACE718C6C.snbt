@@ -1,0 +1,2012 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77F8039ACE718C6C"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:primitive_robot_arm"
+	id: "77F8039ACE718C6C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46F82A0A3D57C225"]
+			description: [
+				"&lObtenha o lingote de bronze e você poderá começar a era do vapor!"
+				"&lTenha coragem e dê um passo em direção à primeira voltagem da GregTech!"
+				""
+				"&lNa versão pirata, a fase de vapor passa muito rapidamente."
+				"&lSeu objetivo principal é:"
+				"&a• Alcançando o mundo antigo"
+				"&a• Obter pacote AE"
+				"&a• Combinado com componentes de ferramentas frágeis e matriz de montagem"
+				"&a• Uso adequado de motores a vapor universais"
+				"&a• Use modelos de ferramentas para fazer a transição rápida para o estágio MV"
+			]
+			id: "5F5F348E3A34827E"
+			rewards: [
+				{
+					id: "41A3ACD4F54D9969"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7956D911A9298668"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Era do Vapor ULV"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6&lExtendedAE&fÁgua ilimitada/componentes de pedra bruta ilimitados"
+				""
+				"&7▌ Funções principais:"
+				"&b● Fornecimento ilimitado&7- Coloque-o no drive ME para ter água e pedras brutas ilimitadas."
+				""
+				"&7▌ Melhoria de desempenho (modificado por GTLcore):"
+				"&a● Limite superior de capacidade de fluido&7- Atualização para o nível&bP (Peta) &7"
+				"&a● Capacidade máxima de itens&7- Atualização para o nível&6E (Exa) &7"
+			]
+			icon: "gtceu:infinite_water_cover"
+			id: "4E96A08CF12D496A"
+			rewards: [
+				{
+					id: "038CB3302357CBD6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:f"
+								id: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00ED6D40098E5E9F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D12F457F04B8E1D"
+				type: "checkmark"
+			}]
+			title: "fonte de água"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"Os diamantes são os mais resistentes à queima. Recomenda-se queimar diamantes."
+				""
+				"Quando a água é introduzida na caldeira durante a queima a seco, ela explodirá&4&r"
+				""
+				"Caldeiras de combustível líquido usam lava como combustível; as caldeiras solares aquecem naturalmente durante o dia e caem de temperatura à noite/quando à sombra"
+			]
+			id: "4BFC342697BDE75A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FF8DAA6E2A87E42"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "caldeira de baixa pressão"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Pipez logístico&9&lda Pipez"
+				"&7O Cano Original do GregTech é útil, mas o uso excessivo pode levar a &cRedução no TPS&7."
+				""
+				"&7▌ Vantagens:"
+				"&a● Lógica de operação&7- supera em muito o pipeline original de Gray em termos de conveniência operacional e funcionalidade"
+				""
+				"&7▌ Sugestões de uso:"
+				"&e● Transição&7- Recomenda-se usar&6em pequenas quantidades nas fases iniciais do jogo &7"
+			]
+			hide_dependent_lines: true
+			icon: "pipez:universal_pipe"
+			id: "781417A4FA36101D"
+			optional: true
+			rewards: [
+				{
+					count: 128
+					id: "0CC24CDF61843D22"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "71FEA40CC3737EBA"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+				{
+					id: "114A4FAD37E13686"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02A2DDC03475574B"
+				title: "Dê-lhe alguns canos"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36A49197309D1F09"]
+			description: [
+				"Você pode começar a fazer aço"
+				""
+				"Você também pode fazer diretamente &5, Ultra Dimension e outras forjas terrestres &r"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			icon_scale: 2.0d
+			id: "5CE50DDC960340D8"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "2D8761085E458691"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6BF8F26BE81E1228"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A97BAAD30D2E0A2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6649B915F2C7704F"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "42BD89429E9AAD22"
+					item: { Count: 12, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "384B35545A351C2B"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["É usado para compactar coisas"]
+			icon: "gtceu:lp_steam_compressor"
+			id: "5C936EF307594737"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "704DF16EECC15BD8"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EF947EB58D179AE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "00E7B6F2A5F20C06"
+					item: "gtceu:lp_steam_compressor"
+					type: "item"
+				}
+				{
+					id: "188C3655F83EA500"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Moa o pó diretamente com um almofariz e depois sintetize-o diretamente"]
+			icon: "gtceu:fireclay_dust"
+			id: "36A49197309D1F09"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "777E0B3B0A58DE1A"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "566CD2FC2F908A82"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "35AB6D0569B73FB7"
+					item: "gtceu:brick_dust"
+					type: "item"
+				}
+				{
+					id: "3F0F3F0437100ADB"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					id: "3AC2D6A0AAB107FA"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+				{
+					id: "481E70A78F7B9C57"
+					type: "checkmark"
+				}
+			]
+			title: "pó de argila refratária"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Recomenda-se usar um compressor diretamente na fase inicial"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "79E81CC078F246C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73B9E147546EBC29"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "3A9C5F77B9311BE8"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:sticky_resin"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "seu primeiro pedaço de borracha"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			id: "388BD32463FA905D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0A65994D146D91"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "6DCFAFBFE0D4B757"
+					item: "gtceu:steel_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Seu primeiro lingote de aço"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02375F5D54E5F347"
+				"43DE0784E5D32B46"
+			]
+			description: [
+				"Usado para fazer máquinas elétricas e armazéns"
+				""
+				"Pode até ser usado para armazenar&c&r&epara armazenar energia&r&a&b&r&re&3para conectar&r&9a&r&1ME&r&5líquido&r&dlíquido &r!"
+			]
+			icon_scale: 1.3d
+			id: "7CB85061F0822830"
+			rewards: [
+				{
+					id: "0D14C938E01BD29D"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A0E8901C57DEF7D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Você definitivamente precisa de muita imaginação para usá-lo"
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["Mistura de metais usando um forno de liga"]
+			id: "30F031CD02425ED7"
+			rewards: [
+				{
+					count: 640
+					id: "4FB6BBE01DEAFC93"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6838B3281CE8CC00"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D7E7EBAB75A2F8D"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00579BDA1FA1BEC6"]
+			description: [
+				"&l·&fSe o nome do bloco de uma determinada dimensão for exibido no canto inferior direito da receita JEI, significa que a receita&bsó pode ser produzida na dimensão correspondente &f"
+				"&l&fExemplo: Pó de Aço de Damasco só pode ser fabricado no Mundo Antigo"
+			]
+			icon: "kubejs:reactor_core"
+			icon_scale: 2.0d
+			id: "335ED39019FC62E7"
+			rewards: [
+				{
+					id: "120C3F2CEC94168B"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1436494559DCBE1B"
+					item: {
+						Count: 1
+						id: "gtceu:avanced_nanomuscle_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "542A36C70B6D39A1"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "4A5E920CBD312AF2"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0BD8635BD90C8E04"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07FB696437048D7B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "66A3FE9FC45449C6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:damascus_steel_dust"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5570EF3E7801BFD4"
+				type: "checkmark"
+			}]
+			title: "mundo antigo"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["Material supercondutor ULV, mas agora vamos usá-lo para fazer núcleos de reatores antigos"]
+			id: "3D65D9712DFB63D9"
+			rewards: [
+				{
+					id: "7FAA57A862B018AE"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E67BCCD0BD6E7DE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4DE17D3F21E3C195"
+				item: "gtceu:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D65D9712DFB63D9"]
+			description: [
+				"&lAgora você pode usá-lo para viajar ao mundo antigo!"
+				""
+				"Requisitos de posicionamento estrutural &l:"
+				"&a• Centro: Núcleo"
+				"&a• Quatro direções adjacentes (cima, baixo, esquerda e direita): blocos de aço"
+				"&a• Quatro cantos: blocos de diamante"
+				"Depois que&lfor colocado na horizontal, clique com o botão direito no núcleo com as mãos nuas para se teletransportar para o mundo antigo."
+				""
+				"&lDepois de fazer o foguete de terceiro estágio no estágio&5EV &r, você ainda precisará usá-lo para viajar para o Nether."
+				""
+				"&aNa versão privada, você não precisa minerar manualmente!"
+				"&aCada vez que um novo mundo é desbloqueado, será dada prioridade à visualização da fórmula do fragmento do mundo correspondente."
+				"&aBasta usar o coletor de fragmentos para coletar minérios."
+			]
+			icon: "kubejs:reactor_core"
+			id: "00579BDA1FA1BEC6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45B5A926290BB6CA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "56F493267DC5C509"
+					item: "gtlcore:world_fragments_reactor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C71CBD9FE0DC224"
+				item: "kubejs:reactor_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "gtceu:lp_steam_forge_hammer"
+			id: "6525C9DE2A276238"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "6B3DEE9FC411E85C"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47E14C8E606056D1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "31BB0DC594040BE2"
+					item: "gtceu:lp_steam_forge_hammer"
+					type: "item"
+				}
+				{
+					id: "048744192AC419A1"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6525C9DE2A276238"
+				"388BD32463FA905D"
+			]
+			description: [""]
+			id: "02375F5D54E5F347"
+			rewards: [
+				{
+					id: "1A0B2145C6BEAD5B"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5312492FE3F23C80"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78729EFD5CE8CD48"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79E81CC078F246C0"]
+			id: "43DE0784E5D32B46"
+			rewards: [
+				{
+					id: "61C758028D9C9DB9"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F8D0C292AFF4ADD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "cabo de estanho"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["&aÉ realmente um pouco difícil para você pressionar o molde no estágio inicial."]
+			icon: "gtceu:glass_tube"
+			id: "707E5114B7979898"
+			rewards: [
+				{
+					id: "616256D1A595C948"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:glass_tube"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78475953D7E8AEA4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "18D90ADC7E5AC578"
+				title: "tubo de vidro"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"707E5114B7979898"
+				"388BD32463FA905D"
+			]
+			description: ["Seu primeiro circuito ULV, você precisa usá-lo para ajudar a fazer circuitos mais baratos, basta fazer alguns"]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "5CD26DECB937FC71"
+			rewards: [
+				{
+					id: "327EC9AD42261D00"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "107280FF73093BBC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["Você não pode misturar isso manualmente como o bronze, você só pode sintetizá-lo com a ajuda de uma máquina."]
+			id: "3C91E284A9A03B1B"
+			rewards: [
+				{
+					id: "08462119775B14A3"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "454981C19DE25FBF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Moer madeira para obter polpa de madeira"]
+			id: "1FAB9EF48D8D9258"
+			rewards: [
+				{
+					count: 128
+					id: "6333E0136E33F27A"
+					item: "gtceu:wood_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "408BD6C8171510EA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5F9E85F4FF39EB70"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			description: [
+				"&l·&fSegurando&aPicareta Gêmea Mágica&fClique furtivamente com o botão direito para alternar entre&6Fortune III&fe&6Coleção Precisa &f"
+				"&l&m(Você pode até usar esta função para ganhar experiência) &r"
+				""
+				"&l·&aEsta picareta é muito útil &f. Você ainda se lembra do componente portátil&616K&fque recebeu no início?"
+			]
+			id: "12FE2B59FA86381C"
+			rewards: [
+				{
+					id: "0D834802BFD2366F"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D50893D4ABD079"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Isso é muito mais eficiente do que a rocha-mãe"
+			tasks: [
+				{
+					id: "456D397A52A6D291"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+				{
+					id: "5E645191AA6CD3ED"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Minas do mundo antigo"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"12FE2B59FA86381C"
+				"664C46D5C12E7255"
+				"5CD26DECB937FC71"
+			]
+			description: ["materiais sintéticos"]
+			id: "3C071C0542CF935D"
+			rewards: [
+				{
+					id: "4304D0C677F66D9B"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F54F489C0200D87"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5738459D5168A55F"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C071C0542CF935D"]
+			description: [
+				"O nome de mapeamento da máquina de montagem de circuito&l·&fé montagem de circuito&6&f, que é usado para distingui-la da máquina de montagem e facilitar o upload de amostras"
+				"&l·&fPor favor, escreva o conjunto do circuito&6na caixa de nomenclatura do conjunto da superamostra"
+			]
+			icon: "gtceu:large_steam_circuit_assembler"
+			icon_scale: 2.0d
+			id: "34FCFA114E75D770"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "0C0731B2ACDDCE0D"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CC81FBFFC3611B3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6255EA9A7B4B58EC"
+					item: "gtceu:large_steam_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "111189520EC4A128"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Confie nele para criar algumas estruturas multibloco de vapor superfortes"
+				""
+				"Eles têm alto paralelismo e podem ter overclock e boost quando o aço inoxidável estiver disponível (MV)"
+			]
+			hide_dependent_lines: true
+			id: "5276CA8FA5262C9B"
+			rewards: [
+				{
+					id: "7A6E4F26CB4EC8FB"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "504DE9ABBF7BD631"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5276CA8FA5262C9B"
+				"38CC43F7A6A39BB4"
+			]
+			description: ["Não se esqueça de colocar a bandeja de saída"]
+			icon: "gtceu:large_steam_centrifuge"
+			icon_scale: 2.0d
+			id: "2585418910B6798A"
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DE643DF97234BC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5F47C1E28CF33F84"
+					item: "gtceu:large_steam_centrifuge"
+					type: "item"
+				}
+				{
+					id: "799B64678999BF9B"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7CB85061F0822830"]
+			description: [
+				"&l·&bpode ser compartilhado"
+				""
+				"&l·&fExceto para máquinas individuais, todas as máquinas multibloco que requerem uma câmara silenciadora podem usar a câmara silenciadora&6LV &f, e a câmara silenciadora avançada não tem uso prático"
+				""
+				"&l·&fSilenciador mesmo&6 com cinzas acumuladas&f, &aainda assim não afeta o funcionamento da máquina&f"
+			]
+			hide_dependent_lines: true
+			id: "38CC43F7A6A39BB4"
+			rewards: [
+				{
+					id: "3354D072C3B1F387"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71C979CBB926FAC2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Não bloqueie a saída de fumaça"
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5CD26DECB937FC71"
+				"740C2D1F3F420480"
+				"6D729450ED86BDAF"
+				"3C91E284A9A03B1B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Você não precisa fazer muito, apenas faça alguns."
+				""
+				"Pode ser feito posteriormente com uma grande máquina de montagem de circuito de vapor"
+			]
+			icon_scale: 2.0d
+			id: "5065BEDC95AE564E"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "58F5C373D0AE0142"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5821FAA626B0AB58"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "seu primeiro circuito"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "77A1011F608079C9"
+			rewards: [
+				{
+					id: "11D6ADD9CE28FA57"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A1990C9DFDA6D5E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36895A43C9C125F4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["77A1011F608079C9"]
+			description: [""]
+			id: "6D729450ED86BDAF"
+			rewards: [
+				{
+					id: "108CAF7D675F876A"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78E273F99859FCA4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1FAB9EF48D8D9258"]
+			hide_dependency_lines: true
+			id: "051710FFC9907807"
+			rewards: [
+				{
+					id: "765C29DBBBD61E54"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63D20DACDBBDE514"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["051710FFC9907807"]
+			id: "740C2D1F3F420480"
+			rewards: [
+				{
+					id: "0C13652D6A0B6866"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743C2B6AB06C2606"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2585418910B6798A"]
+			description: ["Resina pegajosa para centrífuga"]
+			id: "06285BE2396AB639"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2800910E1DC81B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "FALSE"
+				fluid: "gtceu:glue"
+				id: "25861EAAFDCFE2E9"
+				type: "fluid"
+			}]
+			title: "cola"
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"34FCFA114E75D770"
+				"06285BE2396AB639"
+			]
+			description: ["Circuitos muito baratos, esta série vai até EV"]
+			icon_scale: 2.0d
+			id: "08B7D8F835DFE214"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D0B48E418B55D9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
+			description: ["Este é um circuito LV barato"]
+			icon_scale: 2.0d
+			id: "553B2D61416792DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367782BB7B641C95"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: ["&l\"Sobre a bagunça que aconteceu quando fui forçado a ligar a automação pela irmã mais velha do AE antes que eu pudesse esfregar as mãos o suficiente nos primeiros dez minutos\""]
+			icon: "ae2:guide"
+			id: "6E69F45AEA66D5ED"
+			rewards: [
+				{
+					id: "1DFA26133A6F203D"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8E2E60E44FFD5F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "1BA5B1AAEAC0F23D"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "AE2"
+			tasks: [{
+				id: "76E9DDCCC307F224"
+				title: "Energia Aplicada 2"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			description: [
+				"&l·&fA grande caldeira a vapor foi bastante reforçada e pode facilmente suportar o estágio&6HV&fcom geração de energia a vapor (várias unidades precisam ser usadas no estágio HV)"
+				""
+				"&l·&fO armazém de manutenção requer manutenção manual na fase inicial.&a&oNão há necessidade."
+				""
+				"&l·&fPosicionamento inferior&bCompartimento de entrada/barramento de entrada/conjunto de entrada &f,&bCompartimento de manutenção &f,&bCompartimento do silenciador &f"
+				"&l&fcolocado no segundo ao quarto andar&bcompartimento de saída &f"
+				""
+				"&l·&cNota &f: Não utilize o conjunto de entrada gigante na caldeira, pois pode causar travamento"
+			]
+			icon_scale: 2.0d
+			id: "328D5CF265FCCCA3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AA6A149721C29DF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "2147DDE2794D4427"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5D6907A2849A8704"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "31B3E7B10BBA0EDD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"&l· A máquina a vapor&b&fprecisa ser equipada com a porta de exaustão&e&f. Ele precisa ser esgotado após uma operação. A porta de exaustão deve estar voltada para o ar, caso contrário a máquina não poderá funcionar."
+				"&l·&fUse a chave&6&fpara clicar com o botão direito para definir a porta de escape"
+				"&l·&fGases expelidos podem causar danos"
+			]
+			icon: "gtceu:lp_steam_rock_crusher"
+			id: "7736F74AEBCB914E"
+			rewards: [
+				{
+					id: "25A3A90A72A7835D"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E6BB4F9E076CF2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FF020A8688728E6"
+				title: "Por que minha máquina a vapor para depois de funcionar uma vez?"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			description: [
+				"&l·&fpossui e apenas os tijolos refratários da camada inferior&6&fpodem ser substituídos pelo barramento de entrada/saída &b"
+				"&l·&fCertifique-se de que haja espaço suficiente para a operação do barramento de entrada e do barramento de saída&bforge &f"
+				""
+				"&l&c&lNota: O ônibus a vapor não pode ser usado&r&f"
+				"&l·&fEsta máquina não é uma máquina a vapor.&c&lnão requer um compartimento de entrada de vapor."
+				""
+				"&l·&4Esta máquina não é uma fornalha, só é usada para queimar lingotes de aço"
+			]
+			icon: "gtceu:dimensionally_transcendent_dirt_forge"
+			icon_scale: 1.3d
+			id: "0662E205D1783D31"
+			min_required_tasks: 1
+			rewards: [
+				{
+					count: 2100
+					id: "739BBFD8B3216A13"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 1200
+					id: "2898894E21E5801A"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "315AFCCED70ADF27"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C8494BE11D5DEB0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Permite obter lingotes de aço mais rapidamente"
+			tasks: [
+				{
+					id: "2BE6A835D6EF790C"
+					item: "gtceu:dimensionally_transcendent_dirt_forge"
+					type: "item"
+				}
+				{
+					id: "583D4BC856FAE465"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F5F348E3A34827E"
+				"4E96A08CF12D496A"
+			]
+			description: [
+				"O vapor geralmente vem de água fervente"
+				""
+				"A relação de conversão entre vapor e eletricidade é 2mb/t=1eu/t"
+			]
+			icon: "gtceu:steam_bucket"
+			id: "2B9D62FB6BF39201"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E74C063CD33F40E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61D5BA33A860F807"
+				title: "fonte de vapor"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"&l· Os multiblocos de vapor&fprecisam ser colocados no compartimento de entrada de vapor&b&fpara fornecer vapor (o compartimento grande de entrada de vapor é um item de nível&cMV&fe não pode ser produzido no momento. Basta usar um compartimento de entrada de vapor comum)"
+				""
+				"&l· Barramento de entrada de vapor&b&fe&bbarramento de saída de vapor&f(aprimorado para&616 slots &f) é usado para entrada e saída de itens, o barramento de entrada de vapor&cnão pode definir o circuito de programação &f, use outros barramentos/conjuntos de entrada se necessário"
+				""
+				"&l· O fluido&fusa um armazém de entrada e um armazém de saída. O armazém comum de entrada e saída só pode acomodar &c, um tipo de fluido &f; o armazém de saída comum e o armazém de saída gigante&7LV&fpodem bloquear a saída de fluido marcando o segundo slot da grade (arraste de&6JEI&fou marque-o com um balde de fluido)"
+				""
+				"&l·&fMultibloco de vapor grande tem&664&fparalelo,&bpode executar a fórmula LV &f, a velocidade de processamento é 2 vezes da máquina&6LV &f; multibloco de vapor não grande é&68&fparalelo,&btambém pode executar a fórmula LV &f"
+				""
+				"&l·&fO shell multibloco Steam pode ser adquirido no pequeno mercado"
+				""
+				"&l·&fQuando grandes blocos de vapor estão totalmente paralelos, o consumo de vapor é extremamente alto. É necessário usar meios de transmissão de fluido de alta velocidade, como o gasoduto espaço-tempo&6&fou o nó laser&6&fpara fornecer vapor, caso contrário, o vapor saltará."
+			]
+			hide_dependent_lines: true
+			icon: "gtceu:steam_piston_hammer"
+			icon_scale: 2.0d
+			id: "05BB1E1E38478F26"
+			rewards: [
+				{
+					count: 64
+					id: "38DB793439A26752"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "58C24B68D0260EBD"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5C377797179ABF3E"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "08E592312C7CBF11"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "308AACC75A49E732"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Não há subprodutos na moagem a vapor, é preciso esperar até HV para ter subprodutos"
+			tasks: [{
+				id: "6ACDB1E4B636D7F0"
+				title: "Multibloco Steam"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"Quando não há eletricidade, você pode primeiro usar uma manivela para fornecer energia ou pode fazer uma câmara ressonante e queimar diamantes"
+				""
+				"Os modelos de impressão são obtidos quebrando blocos misteriosos"
+				""
+				"Mais tarde, a máquina de estampagem&6&rpode ser usada para substituir a impressora para tornar o processador mais eficiente."
+			]
+			id: "664C46D5C12E7255"
+			rewards: [
+				{
+					count: 64
+					id: "4293BEFEC83DEFB3"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6248E1EE31D4FBCA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "46DB998969DFD278"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"&lNa versão privada, a unidade de processamento paralelo não é muito útil."
+				"&lParalelismo muito alto afetará o TPS, portanto não é recomendado criar paralelismo alto"
+				"&lEAEP vem com inteligência duplicada, e a montagem do supermodelo também vem com inteligência duplicada"
+				"&lenvia 64 paralelos que podem ser usados ​​até a formatura"
+			]
+			icon: "ae2:drive"
+			id: "007BBB3D4E349869"
+			optional: true
+			rewards: [
+				{
+					id: "497174F8C3C0CDB1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:blank_pattern"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2684F3F75F3C1E13"
+					item: "gtlcore:max_storage"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6195835370390CC3"
+					item: "extendedae_plus:64x_crafting_accelerator"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "34FA7A3FDCEEFF9C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "bom negócio"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:fluix_crystal"
+			id: "3C4577BA6C01FD37"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "4D53D6781FE064EF"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "3ECB4C0EB5E8F595"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Se você achar que é problemático, você pode comprar cerca de 1"
+			x: 13.75d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:logic_processor"
+			id: "54A70F547E4F87C2"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "15293996D8FA5F0C"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "29ED502848D5ECAA"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Se você achar que é problemático, você pode comprar cerca de 2"
+			x: 14.25d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:calculation_processor"
+			id: "3D4B2ED043BAF8E4"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "25D2B5A2963C5701"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "52F04A057F457538"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Se você achar que é problemático, você pode comprar cerca de 3"
+			x: 13.75d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			icon: "ae2:engineering_processor"
+			id: "49265178B29A2A51"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "6887FB040E263E04"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "7734AD7C5393BBC4"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "Se você achar isso problemático, você pode comprar cerca de 4"
+			x: 14.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: ["&aNão há necessidade de produzir singularidades e bolas de matéria."]
+			id: "144AC3BC2AA25E63"
+			optional: true
+			rewards: [
+				{
+					id: "444EBA7ECA750712"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:matter_ball"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35E585102D58A7FC"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:singularity"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B96A6086AA50B17"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3450B32B0DB406C7"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "Isto é uma lata de lixo"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08B7D8F835DFE214"]
+			description: [
+				"{ \"text\": \"Para uso específico, consulte a tarefa <Coverboard>\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"
+				""
+				"Emparelhado com a interface ME, pode ser alcançada uma incrível eficiência de transmissão"
+			]
+			hide_dependency_lines: true
+			id: "205B11E482DDF464"
+			optional: true
+			rewards: [
+				{
+					id: "5C0BF363979378F9"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D84B9A72F35FF10"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Tecnologia primitiva, chocante"
+			tasks: [
+				{
+					id: "08A0A7ABDCC61BFB"
+					item: "gtlcore:primitive_robot_arm"
+					type: "item"
+				}
+				{
+					id: "31170C895B9A9E5C"
+					item: "gtlcore:primitive_fluid_regulator"
+					type: "item"
+				}
+			]
+			title: "conjunto original de duas peças"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["007BBB3D4E349869"]
+			description: [
+				"&5▌ Muito econômico"
+				""
+				"Dicas de coleta &l:"
+				"&7• Certifique-se de que haja pelo menos&e34 espaços vazios na mochila ao recebê-la."
+				"&7• Se não houver espaço suficiente na mochila, fique em uma posição segura antes de recolhê-la para evitar a perda de itens estruturais."
+				""
+				"Sala de montagem de supermoléculas da versão&lGT:"
+				"&a• Não há necessidade de consumir UE"
+				"&a• Suporta paralelismo entre receitas"
+				"&a• Interagindo com a rede ME através da porta matriz"
+				""
+				"&6Cinco núcleos de velocidade&rpodem atingir o consumo mínimo de tempo (1 tick)"
+				""
+				"Notas &l:"
+				"&b• O núcleo só pode substituir os blocos de maquinaria molecular na estrutura central"
+				"&c• A porta da matriz não pode ser sintetizada usando a montagem do modelo"
+			]
+			icon: "gtceu:molecular_assembler_matrix"
+			id: "077EBB4D37275000"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56737670E3E5411F"
+				table_id: 6918560632641624041L
+				title: "operador molecular"
+				type: "all_table"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "127C16CA33BB94AE"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "Pacote de síntese automática"
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4F61FBBCF28E1327"
+				"2B9D62FB6BF39201"
+			]
+			description: [
+				"&9&lGTL-Extend&fMáquina a vapor universal"
+				""
+				"&7▌ Função:"
+				"&lA máquina vem com um paralelismo padrão de 16384"
+				"&lTodo o tempo de processamento da fórmula é de 10 ticks"
+				"&lignora o nível de tensão de qualquer receita"
+				"&lpode instalar compartimento de manutenção"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Após selecionar o modo após a formação desta máquina, é recomendado remover qualquer bloco e deixá-lo se reformar, caso contrário, será avisado que a entrada de energia é insuficiente ou a fórmula não pode ser encontrada."
+				""
+				"&l&6No pacote de integração GTL, a maioria das máquinas que rodam no Steam no estágio Steam apresentam bugs de desligamento inexplicáveis. Recomenda-se abandonar o uso deste tipo de máquina no estágio IV."
+			]
+			icon_scale: 1.5d
+			id: "00E1974416E23474"
+			rewards: [{
+				count: 2000
+				id: "095E2B031B19D19C"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6BAE13D0ACEE9E37"
+				item: "gtl_extend:general_purpose_steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["077EBB4D37275000"]
+			description: [
+				"&6&lME Ferramenta de posicionamento 「Ferramenta maravilhosa」"
+				"&9é um conjunto de ferramentas de posicionamento convenientes especialmente projetadas para sistemas ME, abrangendo posicionamento comum, posicionamento em lote e assentamento de cabos."
+				""
+				"&7▌ Função:"
+				"&l\"&6ME Placement Tool &f\": Após vincular o nó de acesso sem fio, clique com o botão direito para abrir a GUI e preencher os itens. Pressione a tecla G para trocar os itens colocados. Os itens serão automaticamente extraídos do AE e colocados."
+				""
+				"&l\"&6ME Ferramenta de posicionamento multibloco &f\": A função é a mesma acima, mas suporta a seleção da quantidade de posicionamento e possui posicionamento em lote semelhante às bengalas de construção."
+				""
+				"&l\"&6ME Cable Placement Tool &f\": suporta a seleção ponto a ponto do ponto inicial e final e estabelece automaticamente cabos AE especificados"
+			]
+			icon: "meplacementtool:me_placement_tool"
+			id: "761EBFF727E3354F"
+			rewards: [
+				{
+					id: "6AE4AC72559A0092"
+					item: {
+						Count: 1
+						id: "meplacementtool:me_placement_tool"
+						tag: {
+							internalCurrentPower: 9.0E10d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BFD0B81A1E47C3A"
+					item: {
+						Count: 1
+						id: "meplacementtool:multiblock_placement_tool"
+						tag: {
+							internalCurrentPower: 9.0E10d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7978F223F4C28E3F"
+					item: {
+						Count: 1
+						id: "meplacementtool:me_cable_placement_tool"
+						tag: {
+							internalCurrentPower: 9.0E10d
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "63AAFBD60D0B1B80"
+				title: "Ferramentas para mim"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"&l·&fNeste pacote, caixas de energia comuns podem ser sintetizadas diretamente na versão sem fio&d&fou na versão de rede&6&f"
+				"&l·&fé fortemente recomendado para ser sintetizado na versão do armazém de energia da rede &6"
+			]
+			icon: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+			icon_scale: 2.0d
+			id: "0077892401F923A5"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "0B62AB0FBC941286"
+				type: "checkmark"
+			}]
+			title: "Armazém de energia sem fio/armazém de energia de rede"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"&l·&fColoque a máquina em&6Sky Island World&fe insira&aSteam&fpara produzir todos os minerais do mundo principal"
+				"&l·&fTaxa de produção de minério&620 grupos por segundo &f, o que pode economizar muitas pequenas minerações no estágio inicial"
+				""
+				"&l·Esta é uma máquina de estrutura multibloco"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1AB29FA99478121D"
+			tasks: [{
+				id: "461B67A32B06A68B"
+				item: "gtceu:primitive_void_ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: [
+				"&l·&ftem superforno paralelo&6524288 &f"
+				"&l·&fe todas as receitas deste forno são concluídas em segundos"
+				""
+				"&l·&fEsta máquina requer compartimento de entrada de vapor&b&f, barramento de entrada&b&f, barramento de saída&b&fou um conjunto de amostra &b"
+				""
+				"&l·&cNão é recomendado fazer esta máquina&fporque ela ocupa uma área muito grande."
+				"&l· Máquina a vapor universal&fcom modo de forno elétrico&6&f"
+			]
+			icon: "gtceu:dimensionally_transcendent_steam_oven"
+			icon_scale: 1.3d
+			id: "2743C91A3D25503A"
+			min_required_tasks: 1
+			optional: true
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Os povos primitivos também querem construir instituições"
+			tasks: [
+				{
+					id: "3381572B4A885068"
+					item: "gtceu:dimensionally_transcendent_steam_oven"
+					type: "item"
+				}
+				{
+					id: "025B22EB2DFEB480"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02375F5D54E5F347"]
+			description: [
+				"Na versão de bens privados, todos os moldes e cabeçotes foram transformados em circuitos"
+				"Essas cabeças de molde são tudo que você pode usar neste pacote"
+			]
+			icon: "gtceu:plate_casting_mold"
+			id: "34C5683D7C379895"
+			rewards: [
+				{
+					count: 64
+					id: "6A473A4611660FE8"
+					item: "gtceu:plate_extruder_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3058C1D0501A4A86"
+					item: "gtceu:cell_extruder_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1184181687A9CA9B"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "01E379305E6908EF"
+					item: "gtceu:credit_casting_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5DE6E17DCC4B09E2"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0DF9991CF20CD32D"
+					item: "gtceu:nugget_casting_mold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63ED1CB3856C3A78"
+				title: "Pacote de presente de abrasivos"
+				type: "checkmark"
+			}]
+			title: "Pacote de presente de molde"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["12FE2B59FA86381C"]
+			description: [
+				"Este comando aumenta seu alcance"
+				"A configuração padrão é 15 se parecer muito baixo ou muito alto"
+				""
+				"Você pode usar o seguinte comando para modificar"
+				"&l&b/attribute @p forge:block_reach base set 15"
+			]
+			icon: "gtceu:silicone_rubber_ingot"
+			id: "790B1D35140D65FA"
+			optional: true
+			rewards: [{
+				command: "/attribute @p forge:block_reach base set 15"
+				elevate_perms: true
+				id: "4C346EFC41A1CE2A"
+				title: "Modifique o alcance para 15"
+				type: "command"
+			}]
+			tasks: [{
+				id: "25424C78793974AF"
+				type: "checkmark"
+			}]
+			title: "homem de borracha"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7DB501C5EE788E1C"
+				"7CB85061F0822830"
+			]
+			description: [
+				"&9&lGTL Supb \"Absorvedor de Energia do Vazio\""
+				""
+				"&7▌ Descrição:"
+				"O coletor de energia de fenda dimensional&lextrai diretamente energia utilizável de alta densidade de flutuações quânticas de vácuo."
+				""
+				"&7▌ Função:"
+				"&l• Gera eletricidade de forma automática e incondicional, dando prioridade à injeção de transmissão para todos os contêineres da UE em um raio de 16 quarteirões, e a energia restante é armazenada no armazenamento interno de energia"
+			]
+			id: "193352158630B520"
+			tasks: [{
+				id: "45DAA223710EE463"
+				item: "gtlsupb:lv_void_energy_absorber"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Tier0.5-ULV"]
+	title: "era do vapor"
+}

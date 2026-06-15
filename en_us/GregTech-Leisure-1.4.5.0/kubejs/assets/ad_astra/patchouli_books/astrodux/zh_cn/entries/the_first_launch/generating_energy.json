@@ -1,0 +1,18 @@
+{
+  "name": "generate electricity",
+  "icon": "ad_astra:coal_generator",
+  "sortnum": 0,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Coal-fired generator",
+      "item": "ad_astra:coal_generator",
+      "text": "Electric energy is the core resource of the module. It is available on all machines and is required by all machines. There are many ways to generate energy, the most basic of which is a coal-fired generator. It uses combustible resources such as wood or coal to generate electricity."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:coal_generator"
+    }
+  ]
+}

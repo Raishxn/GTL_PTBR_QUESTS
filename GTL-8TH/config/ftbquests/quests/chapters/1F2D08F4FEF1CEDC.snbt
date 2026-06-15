@@ -1,0 +1,218 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F2D08F4FEF1CEDC"
+	group: "24F4987B35ABEE82"
+	icon: "gtceu:lv_sodium_battery"
+	id: "1F2D08F4FEF1CEDC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"O sistema de energia do GregTech é muito menos simples do que o de outros mods tecnológicos."
+				""
+				"A unidade de energia da GregTech é a UE, o que é diferente da FE usada por outros módulos."
+				""
+				"O mecanismo da UE não é semelhante à eletricidade do mundo real:"
+				"Potência = tensão x corrente"
+				"Energia = Potência x Tempo"
+				"A resistência é modelada como perda de cabo na GregTech"
+				""
+				"GregTech é definido da seguinte forma:"
+				"- UE é a unidade de energia."
+				"- EU/t é o poder."
+				"- A (ampere) é a corrente."
+				"- V (volt) é a tensão, chamada de LV, MV, HV no jogo... porque são valores relacionados ao jogo (tecnicamente: LV = 32V = 32EU/t/A)."
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "7F97BED1B9552E5E"
+			rewards: [{
+				id: "21A127B9A78F381C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B797503EA800D59"
+				title: "Configurações básicas"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"Na GregTech, a eletricidade é transmitida em “pacotes”. O tamanho de cada pacote é equivalente ao seu nível de tensão."
+				""
+				"Tomando o pacote LV como exemplo, este “pacote” transportará 32 EU, vários blocos são capazes de gerar esses pacotes EU, e o pacote só será gerado quando o destino puder ser alcançado."
+				""
+				"A cada tick (1/20 de segundo ou 0,05 segundos), o “pacote” da UE tenta transferir do produtor de energia para o consumidor."
+				""
+				"Esses “pacotes” possuem dois parâmetros: o nível de tensão (V) determinado pela classificação do produtor, e a corrente (A), que determina quanta energia pode realmente ser transmitida."
+				""
+				"A energia é transferida somente quando o “pacote” completo de amplificadores puder ser recebido. Você pode notar que suas máquinas estão um pouco abaixo da capacidade total da UE - elas só aceitarão a UE se faltarem pelo menos 1A de tensão de entrada."
+				""
+				"Se uma máquina receber uma tensão superior à sua tensão nominal, ela explodirá, mas qualquer excesso de corrente não terá efeitos adversos porque a máquina consome apenas a quantidade necessária."
+				"{@pagebreak}"
+				"Explosões de máquinas normalmente também destruiriam terreno, mas esse recurso está desabilitado neste pacote."
+				""
+				"Em suma, a energia é transmitida na forma de “pacotes”, que são 32EU para BT, 128EU para MT... e assim por diante. Devido à perda do cabo, a energia real recebida pela máquina pode ser inferior à energia enviada."
+				""
+				"A entrada de energia da máquina é limitada pela tensão e pela corrente, portanto, uma máquina de MT conectada a uma linha de BT com uma corrente de entrada de 1A nunca aceitará mais de 32EU/t."
+				""
+				"Você ainda pode operar uma máquina MT na linha BT, mas somente se a potência da receita for baixa o suficiente, ou se você tiver uma bateria de média tensão no slot de carregamento da máquina, a máquina aceitará apenas 1A quando ociosa, então a bateria carregará na taxa máxima de 32EU/t."
+			]
+			icon: "gtceu:lv_transformer_1a"
+			id: "0CC922B821305906"
+			rewards: [{
+				id: "6AACFA4A99B6EF47"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D8E6B118290930"
+				title: "transferência de energia"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"A transmissão da UE é feita através de fios ou cabos conectados diretamente."
+				""
+				"Os fios são uma escolha ruim porque podem causar choques e ter alta perda de fio, então você precisa usar um cabo isolado."
+				""
+				"A perda de linha significa que você precisa mover sua máquina para mais perto do gerador, mas isso só se torna um problema no início do jogo."
+				""
+				"A perda de cabo da GregTech significa que a transmissão de pacotes UE de cada bloco de cabo reduz seu EU armazenado."
+				""
+				"Por exemplo, se a perda de fio de um cabo de estanho for 1, para um cabo de 4 metros conectado a um motor de combustão interna básico, a tensão na extremidade é de apenas 28 EU/t, o que é inferior aos 30 EU/t da potência média da máquina de baixa tensão. Portanto, uma máquina em funcionamento pode desarmar após alguns segundos."
+				""
+				"Mas não há necessidade de se preocupar aqui, se você ler a declaração de missão, descobrirá que existem supercondutores baratos no estágio inicial e sem fio no estágio posterior, evitando assim completamente esse problema."
+			]
+			icon: "gtceu:tin_single_cable"
+			id: "4A7E19EF14D3C072"
+			rewards: [{
+				id: "0742E14D9F82B5DA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C551BD24A83AB3F"
+				title: "Transmissão por cabo"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Na GregTech, cada pequeno gerador produz um nível de tensão de 1A, mas aqui a corrente de saída dos pequenos geradores é bastante aumentada."
+				""
+				"Se uma máquina exigir 32EU/t, um “pacote” de 32EU será enviado a cada tick."
+				""
+				"Uma caixa de bateria BT com 4 células pode produzir 4 amperes de BT (128EU/t)."
+				""
+				"A máquina genérica está configurada para consumir 2 amperes, outras máquinas possuem entradas de amp específicas, que são descritas em suas dicas de ferramentas."
+				""
+				"Tentar transportar mais amperes do que o limite queimará seus cabos."
+				""
+				"Ampere só consome através de um cabo conectado diretamente ao produtor e ao consumidor, e só consome quando o consumidor está funcionando."
+				""
+				"Isso significa que você pode reduzir com segurança a espessura dos cabos em determinados locais."
+			]
+			icon: "gtceu:lv_diode"
+			id: "4F7A3702787F86A7"
+			rewards: [{
+				id: "12DB6E7A8A385246"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "007D09C6CE7CB00B"
+				title: "atual"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Overclocking é um mecanismo que ocorre quando você tenta rodar uma receita em uma máquina com potência maior que a receita em si, a receita consumirá mais energia, mas o tempo da receita será reduzido de acordo com o nível do seu overclock."
+				""
+				"Algumas máquinas têm um menu lateral para definir o nível máximo de tensão para o qual podem fazer overclock. Clique aqui para percorrer todas as tensões disponíveis e selecionar um limite."
+				""
+				"Um overclock é permitido para cada quatro vezes a potência fornecida acima da potência da receita. Cada overclock significa: 2x a velocidade da receita, 4x o consumo de energia, 2x o custo total de energia, chamado &b overclocking com perdas &r. A maioria das máquinas usa overclock com perdas."
+				""
+				"No entanto, as fórmulas ULV (mesmo as fórmulas de moedor de 2EU/t) não terão overclock em máquinas de baixa tensão, portanto, elas só usarão energia elétrica de nível LV ao atingir MV (as fórmulas de moedor geralmente usam 32EU/t somente quando HV é obtido)."
+				""
+				"O conceito correspondente é &d overclocking sem perdas &r, 4x velocidade da receita, 4x consumo de energia, 1x custo total de energia."
+			]
+			icon: "minecraft:clock"
+			id: "5535934109A12B5D"
+			rewards: [{
+				id: "31ED6CE96AA0C0E8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB7B7FC0312D572"
+				title: "Overclock"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Obviamente, as tensões podem ser convertidas entre tensões usando um transformador. O transformador só pode converter entre dois níveis de tensão adjacentes, com modos boost e buck. No modo boost, a tensão e a corrente 4x serão convertidas em uma tensão mais alta e corrente 1x, e vice-versa no modo buck."
+				""
+				"Existem quatro tipos de transformadores: transformadores comuns, avançados, de alta corrente e de alta energia. O transformador comum é 1A<-->4A, o transformador avançado é 2A<-->8A, o transformador de alta corrente é 4A<-->16A e o transformador de alta energia é 16A<-->64A. O lado vermelho do transformador corresponde à baixa tensão e o lado verde corresponde à alta tensão."
+				""
+				"O transformador ativo da máquina multibloco desbloqueado no estágio LuV pode suportar a conversão entre qualquer tensão e qualquer corrente, aumentar/diminuir automaticamente a tensão e pode substituir todos os transformadores comuns em ambientes de alta tensão e alta corrente nos estágios intermediário e posterior."
+				""
+				"Mas o verdadeiro propósito do ativo é dobrar o laser."
+			]
+			icon: "gtceu:active_transformer"
+			id: "010CF028448C17A9"
+			rewards: [{
+				id: "7C3F436CBD1BBB13"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311562AB006A065E"
+				title: "transformador"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"A rede sem fio foi estabelecida a partir do momento em que você entra no arquivo e tem &d capacidade ilimitada &r, &b sem perda de energia &r e pode até &6 transmitir energia através de latitudes &r"
+				""
+				"Ele pode interagir com a rede sem fio através da placa de cobertura de energia sem fio, compartimento de energia/potência sem fio, compartimento de alvo/fonte de laser sem fio, interface de energia sem fio e matriz de geração de energia"
+				""
+				"O monitor de energia sem fio pode monitorar as especificidades das redes sem fio"
+			]
+			icon: "gtmthings:wireless_energy_monitor"
+			id: "1D4874CA93B567A3"
+			rewards: [{
+				id: "1AA63229CC142EBE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673111C64F7BABA2"
+				type: "checkmark"
+			}]
+			title: "rede de rádio"
+			x: 9.0d
+			y: -2.5d
+		}
+	]
+	title: "eletricidade"
+}

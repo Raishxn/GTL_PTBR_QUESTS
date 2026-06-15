@@ -1,0 +1,36 @@
+{
+  "name": "lunar villagers",
+  "icon": "ad_astra:moon_stone_bricks",
+  "sortnum": 5,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "lunar villagers",
+      "item": "ad_astra:moon_stone_bricks",
+      "text": "There are countless underground villages scattered throughout the moon, and the lunar villagers among them call themselves \"Lunarians\". Unlike the villagers we are familiar with living on Earth, lunar villagers do not need to breathe oxygen and can survive in the cold of the moon."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:lunarian",
+      "default_rotation": 45
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Moon villagers trade many novel products, including special materials from their planet, space suits, and various oxygen equipment."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Wandering Merchant of the Moon",
+      "item": "ad_astra:lunarian_wandering_trader_spawn_egg",
+      "text": "Lunar Wandering Traders appear on every planet and their moons. Many of their cargoes are necessities for interstellar travel that might save your life in a pinch: launch pads, oxygen, fuel, lighting, and water. They use emeralds as currency, which are often found in relic treasures on various planets."
+    },
+    {
+      "type": "patchouli:entity",
+      "name": "Wandering Merchant of the Moon",
+      "entity": "ad_astra:lunarian_wandering_trader",
+      "default_rotation": 45,
+      "scale": 0.8
+    }
+  ]
+}

@@ -1,40 +1,47 @@
-# Tradução PT-BR das quests do GregTech Leisure
+# Traduções do GregTech Leisure
 
-Este repositório reúne arquivos de quests do FTB Quests traduzidos para PT-BR para três versões/variações do GregTech Leisure.
+Este repositório reúne traduções de quests do FTB Quests e arquivos KubeJS para GregTech Leisure/GTL.
 
-## Pastas disponíveis
+## Idiomas
 
-- `GregTech-Leisure-3.7/config/ftbquests`
-- `GregTech-Leisure-1.4.5.0/config/ftbquests`
-- `GTL-7TH/config/ftbquests`
+- As pastas no topo do repositório são a versão **Português do Brasil**.
+- A pasta `en_us/` contém as mesmas versões em **inglês**.
+
+## Versões disponíveis
+
+### Português do Brasil
+
+- `GregTech-Leisure-4.0/`
+- `GregTech-Leisure-1.4.5.0/`
+- `GTL-8TH/`
+- `GregTech-Leisure-3.7/`
+- `GTL-7TH/`
+
+### Inglês
+
+- `en_us/GregTech-Leisure-4.0/`
+- `en_us/GregTech-Leisure-1.4.5.0/`
+- `en_us/GTL-8TH/`
 
 ## Como instalar
 
-1. Feche o Minecraft e o launcher antes de substituir os arquivos.
-2. Abra a pasta da instância do modpack.
-3. Vá até `minecraft/config`.
-4. Faça backup da pasta original `ftbquests`.
-5. Copie a pasta `config/ftbquests` da versão correspondente deste repositório.
-6. Cole dentro de `minecraft/config`, substituindo a pasta `ftbquests` original.
-7. Abra o modpack novamente.
-
-## Caminhos comuns
+1. Feche o Minecraft e o launcher.
+2. Faça backup das pastas originais da instância.
+3. Copie a pasta da versão desejada deste repositório para a raiz `minecraft` da instância.
+4. Substitua pelo menos:
+   - `minecraft/config/ftbquests`
+   - `minecraft/kubejs`
+5. Abra o modpack novamente.
 
 No Prism Launcher, o caminho normalmente fica parecido com:
 
 ```text
-PrismLauncher/instances/NOME_DA_INSTANCIA/minecraft/config/ftbquests
-```
-
-Em instalações exportadas ou extraídas manualmente, procure por:
-
-```text
-.minecraft/config/ftbquests
+PrismLauncher/instances/NOME_DA_INSTANCIA/minecraft
 ```
 
 ## Observações
 
-As traduções das versões `GregTech-Leisure-3.7` e `GregTech-Leisure-1.4.5.0` foram aplicadas sobre as quests originais dos packs públicos, preservando a estrutura original. A mesclagem substitui somente textos de quests, capítulos, tarefas e tabelas de recompensa quando o mesmo `id` existe na fonte traduzida.
-
-A pasta `GTL-7TH` foi incluída como base PT-BR já existente.
-
+- As traduções preservam IDs de quests, itens, receitas, recompensas, dependências e scripts.
+- Os diretórios `kubejs/assets/**/lang/pt_br.json` e `kubejs/assets/**/lang/en_us.json` foram criados a partir dos assets traduzidos quando a fonte só tinha `zh_cn`.
+- Alguns símbolos técnicos/custom glyphs de materiais foram preservados de propósito, por exemplo `鿫`, `鿏` e `鿭`.
+- A tradução bulk foi gerada por pipeline automático com proteção de tokens; os scripts usados ficam em `tools/`.

@@ -14,14 +14,12 @@
 		{
 			description: ["Pode ser encontrado em templos na selva ou capturado em áreas de pesca"]
 			id: "369BA1002418F097"
-			tasks: [
-				{
-					consume_items: false
-					id: "0E78B5C528062928"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: false
+				id: "0E78B5C528062928"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "tesouro antigo"
 			x: -7.5d
 			y: -7.0d
@@ -49,20 +47,18 @@
 			}
 			id: "15A4420D900FEDE6"
 			optional: true
-			rewards: [
-				{
-					id: "7E56F698AF18B8AD"
-					item: {
-						Count: 1
-						id: "kubejs:time_twister"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-						}
+			rewards: [{
+				id: "7E56F698AF18B8AD"
+				item: {
+					Count: 1
+					id: "kubejs:time_twister"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -88,13 +84,11 @@
 			icon: "avaritia:infinity_sword"
 			id: "59E9131BD015B4F5"
 			optional: true
-			rewards: [
-				{
-					id: "4F21C8505D7A2EBC"
-					item: "avaritia:infinity_sword"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4F21C8505D7A2EBC"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -120,7 +114,7 @@
 				""
 				"Chave Z com visão noturna"
 				""
-				"{\\\"text\\\":\\\"O traje pode ser atualizado para uma versão espacial que é resistente a perigos cósmicos e não requer oxigênio.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"79AEF94C9E242133\\\"}}"
+				"{\"text\":\"O traje pode ser atualizado para uma versão espacial que é resistente a perigos cósmicos e não requer oxigênio.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"79AEF94C9E242133\"}}"
 				""
 				"O método de operação do Endless Set e Astral Set é o mesmo do Fermium Set."
 			]
@@ -218,19 +212,17 @@
 			}
 			id: "3A0E2C1B07649B81"
 			optional: true
-			rewards: [
-				{
-					id: "3B9623C406861996"
-					item: {
-						Count: 1
-						id: "kubejs:bedrock_destroyer"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "3B9623C406861996"
+				item: {
+					Count: 1
+					id: "kubejs:bedrock_destroyer"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -276,25 +268,21 @@
 			icon: "travelanchors:travel_staff"
 			id: "0A5739F8E482B47E"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "0CCB7C8F1482C14A"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [
-								{
-									id: "travelanchors:teleportation"
-									lvl: 1s
-								}
-							]
-						}
+			rewards: [{
+				auto: "no_toast"
+				id: "0CCB7C8F1482C14A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "travelanchors:teleportation"
+							lvl: 1s
+						}]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -384,12 +372,10 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "minecraft:silk_touch"
-									lvl: 1s
-								}
-							]
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
 						}
 					}
 					type: "item"
@@ -449,15 +435,13 @@
 			icon: "gtceu:steam_machine_casing"
 			id: "3E6BC2F76ED6F531"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 10
-					id: "456F4E89948DB4FC"
-					item: "gtceu:steam_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 10
+				id: "456F4E89948DB4FC"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
 			tasks: [
 				{
 					consume_items: true
@@ -483,23 +467,19 @@
 			icon: "gtceu:gold_credit"
 			id: "2D03768503C09D2D"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "47E27CC67FB028DC"
-					item: "gtceu:gold_credit"
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "6308157A73013E2A"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "47E27CC67FB028DC"
+				item: "gtceu:gold_credit"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6308157A73013E2A"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "aproveitador"
 			x: -4.5d
 			y: -2.5d
@@ -510,24 +490,20 @@
 			icon: "gtceu:platinum_credit"
 			id: "1F3806972B21488E"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "54D86640EAE02D8E"
-					item: "gtceu:platinum_credit"
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 10L
-					id: "75F18055C9084870"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "54D86640EAE02D8E"
+				item: "gtceu:platinum_credit"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "75F18055C9084870"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "Chefe de coração negro"
 			x: -3.0d
 			y: -2.5d
@@ -538,27 +514,20 @@
 			icon: "gtceu:osmium_credit"
 			id: "5D20FDB89B25FB89"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "23FC3BE7E1A76D12"
-					item: "gtceu:osmium_credit"
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 100L
-					id: "30A40F139AABD92E"
-					item: {
-						Count: 100
-						id: "gtceu:ancient_gold_coin"
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "23FC3BE7E1A76D12"
+				item: "gtceu:osmium_credit"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "30A40F139AABD92E"
+				item: { Count: 100, id: "gtceu:ancient_gold_coin" }
+				type: "item"
+			}]
 			title: "capitalista"
 			x: -1.5d
 			y: -2.5d
@@ -643,14 +612,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					id: "6C29298EE3013869"
-					item: "gtceu:platinum_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "6C29298EE3013869"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			title: "Pacote de presente sem fio"
 			x: 3.0d
 			y: -7.0d
@@ -663,22 +630,18 @@
 			icon: "ae2:fluix_glass_cable"
 			id: "74D4AA7CA6A67F59"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3EA4BC8F313C7B94"
-					table_id: 5241784325866169384L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "5559DCB34AF137A7"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EA4BC8F313C7B94"
+				table_id: 5241784325866169384L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5559DCB34AF137A7"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Cabo EA"
 			x: -1.5d
 			y: -5.5d
@@ -689,22 +652,18 @@
 			icon: "minecraft:yellow_dye"
 			id: "7B72A96FC0A31033"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5C68B938EAB084D8"
-					table_id: 3370214622901424373L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "52079BD0F841DEA6"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C68B938EAB084D8"
+				table_id: 3370214622901424373L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "52079BD0F841DEA6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			title: "Mundo colorido"
 			x: -7.5d
 			y: -5.5d
@@ -715,40 +674,37 @@
 			hide_until_deps_complete: true
 			id: "7F3D9F19428262A4"
 			optional: true
-			tasks: [
-				{
-					id: "01ED6237660732C1"
-					title: "ilha do céu"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "01ED6237660732C1"
+				title: "ilha do céu"
+				type: "checkmark"
+			}]
 			x: -7.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["7F3D9F19428262A4", "1B664763E9558755"]
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
 			disable_toast: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "16A27768544CDACB"
 			optional: true
-			rewards: [
-				{
-					id: "7BB93EB9D7CE4DC6"
-					item: "gtceu:ulv_fragment_world_collection_machine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7BB93EB9D7CE4DC6"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
 			subtitle: "Mais um"
-			tasks: [
-				{
-					consume_items: true
-					id: "30DBCFC58F070BB5"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "30DBCFC58F070BB5"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Colecionador de Mundo Fragmentado"
 			x: -6.0d
 			y: -1.0d
@@ -760,15 +716,13 @@
 			icon: "gtceu:steam_machine_casing"
 			id: "5C28B39C5A5B7999"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 100
-					id: "2ACD5C025153D4EB"
-					item: "gtceu:steam_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 100
+				id: "2ACD5C025153D4EB"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [
 				{
@@ -857,15 +811,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					count: 648L
-					id: "718508D163EF0C83"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 648L
+				id: "718508D163EF0C83"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "loteria"
 			x: 0.0d
 			y: -2.5d
@@ -878,22 +830,18 @@
 			icon: "minecraft:sweet_berries"
 			id: "15D2C4D62F746F8E"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "175C286D3328C0F5"
-					table_id: 6900985691539960503L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "00F84D5F9C5FE714"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "175C286D3328C0F5"
+				table_id: 6900985691539960503L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "00F84D5F9C5FE714"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "plantas exóticas"
 			x: 0.0d
 			y: -1.0d
@@ -906,21 +854,17 @@
 			icon: "minecraft:mycelium"
 			id: "4567AA9D7B0D3CC0"
 			optional: true
-			rewards: [
-				{
-					id: "290920A88897A095"
-					item: "minecraft:mycelium"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "149C7B953BE12FB1"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "290920A88897A095"
+				item: "minecraft:mycelium"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "149C7B953BE12FB1"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "micélio"
 			x: 1.5d
 			y: -1.0d
@@ -949,14 +893,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					id: "6DB56B0260FD2CA0"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "6DB56B0260FD2CA0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "conector sem fio"
 			x: 1.5d
 			y: -5.5d
@@ -969,24 +911,20 @@
 			icon: "ae2:fluix_glass_cable"
 			id: "73580F0C930CF62D"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2F57617E73B6CED1"
-					table_id: 6275199759017360205L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F57617E73B6CED1"
+				table_id: 6275199759017360205L
+				type: "choice"
+			}]
 			size: 0.5d
-			tasks: [
-				{
-					consume_items: true
-					count: 10L
-					id: "1481D575F5478267"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "1481D575F5478267"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Cabo AE * 10"
 			x: -2.0d
 			y: -5.0d
@@ -1047,14 +985,12 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					consume_items: true
-					id: "03970DFBE879FDF0"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "03970DFBE879FDF0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			title: "Pacote de presente de mudas"
 			x: -6.0d
 			y: -5.5d
@@ -1064,81 +1000,75 @@
 			icon: "avaritia:star_fuel"
 			id: "7EE5DA5164BD22A3"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 3
-					id: "70FD485EB71EEE61"
-					item: "avaritia:star_fuel"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 3
+				id: "70FD485EB71EEE61"
+				item: "avaritia:star_fuel"
+				type: "item"
+			}]
 			subtitle: "Mais durável que diamantes"
-			tasks: [
-				{
-					consume_items: true
-					id: "27368E8BA5B2D852"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "27368E8BA5B2D852"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "combustível estelar"
 			x: -4.5d
 			y: -5.5d
 		}
 		{
-			dependencies: ["7F3D9F19428262A4", "1B664763E9558755"]
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
 			disable_toast: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "5C9016400CB5CE94"
 			optional: true
-			rewards: [
-				{
-					id: "27C1819273879C39"
-					item: "gtceu:ulv_fragment_world_collection_machine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "27C1819273879C39"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
 			subtitle: "Mais um"
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "53EA4DD9BBB64AC0"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "53EA4DD9BBB64AC0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Colecionador de Mundo Fragmentado"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["7F3D9F19428262A4", "1B664763E9558755"]
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
 			disable_toast: true
 			hide_until_deps_visible: true
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "49FCF7722FFB15E0"
 			optional: true
-			rewards: [
-				{
-					id: "7DABC882C0E85B39"
-					item: "gtceu:ulv_fragment_world_collection_machine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7DABC882C0E85B39"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
 			subtitle: "Mais um"
-			tasks: [
-				{
-					consume_items: true
-					count: 64L
-					id: "6CCC33C193433C37"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6CCC33C193433C37"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Colecionador de Mundo Fragmentado"
 			x: -3.0d
 			y: -1.0d
@@ -1147,23 +1077,19 @@
 			icon: "gtceu:rubber_sapling"
 			id: "5054FD991D1D0B95"
 			optional: true
-			rewards: [
-				{
-					id: "49C50B543C67842E"
-					item: "gtceu:rubber_sapling"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "49C50B543C67842E"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
 			size: 0.5d
-			tasks: [
-				{
-					consume_items: true
-					count: 2L
-					id: "3343065B377BAF77"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3343065B377BAF77"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			title: "Se você realmente não consegue encontrar uma seringueira"
 			x: -6.5d
 			y: -5.0d
@@ -1185,27 +1111,23 @@
 			}
 			id: "7DAB120908CDFA34"
 			optional: true
-			rewards: [
-				{
-					id: "1E2E2F6B583A8C9C"
-					item: {
-						Count: 1
-						id: "expatternprovider:me_packing_tape"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-						}
+			rewards: [{
+				id: "1E2E2F6B583A8C9C"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "4E686813243ED91F"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E686813243ED91F"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "Fita de vedação ME indestrutível"
 			x: -3.0d
 			y: -7.0d
@@ -1216,22 +1138,18 @@
 			icon: "gtmthings:wireless_item_transfer_cover"
 			id: "25F7BDA5CE06DE15"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "51EF6735BCF4E6FC"
-					table_id: 8408641976190544177L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "706A23E870104074"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51EF6735BCF4E6FC"
+				table_id: 8408641976190544177L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "706A23E870104074"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Placa de cobertura sem fio"
 			x: 1.5d
 			y: -4.0d
@@ -1362,22 +1280,18 @@
 			icon: "minecraft:axolotl_bucket"
 			id: "7967AAA100851B87"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3C4099959A25CE7D"
-					table_id: 105710808927491837L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "69C3E83E2908F147"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C4099959A25CE7D"
+				table_id: 105710808927491837L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69C3E83E2908F147"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			title: "mundo do mar"
 			x: 3.0d
 			y: -1.0d
@@ -1388,22 +1302,18 @@
 			icon: "gtceu:conductive_alloy_hex_wire"
 			id: "3AF2865F9C88CBFD"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 16
-					id: "3D73B1FE2544DF32"
-					item: "gtceu:conductive_alloy_hex_wire"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2E00A7AE5F291164"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "3D73B1FE2544DF32"
+				item: "gtceu:conductive_alloy_hex_wire"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E00A7AE5F291164"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			title: "Supercondutor de baixa tensão"
 			x: -3.0d
 			y: -4.0d
@@ -1414,23 +1324,19 @@
 			icon: "gtceu:energetic_alloy_hex_wire"
 			id: "2C67C2689302087C"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 16
-					id: "204DE752EC143DC8"
-					item: "gtceu:energetic_alloy_hex_wire"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 2L
-					id: "76C14C6AECA7A5EB"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 16
+				id: "204DE752EC143DC8"
+				item: "gtceu:energetic_alloy_hex_wire"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "76C14C6AECA7A5EB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			title: "Supercondutor MV"
 			x: -1.5d
 			y: -4.0d
@@ -1441,24 +1347,20 @@
 			icon: "kubejs:speeding_pipe"
 			id: "76CCF73A5BAE819C"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 32
-					id: "285872F752F188F8"
-					item: "ad_astra:fluid_pipe_duct"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 32
+				id: "285872F752F188F8"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
 			subtitle: "Se você não quer cavar Dess"
-			tasks: [
-				{
-					consume_items: true
-					id: "1A1A4D7DE1FE849B"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "1A1A4D7DE1FE849B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Materiais de dutos de alta velocidade"
 			x: 0.0d
 			y: -4.0d
@@ -1472,59 +1374,54 @@
 				id: "expatternprovider:infinity_cell"
 				tag: {
 					record: {
-						#c: "ae2:f"
+						"#c": "ae2:f"
 						id: "minecraft:water"
 					}
 				}
 			}
 			id: "2213666AEE156B16"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "13DD1C9FF3CA901B"
-					table_id: 235539005227150062L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DD1C9FF3CA901B"
+				table_id: 235539005227150062L
+				type: "choice"
+			}]
 			subtitle: "Tenha alguns elementos concretos infinitos"
-			tasks: [
-				{
-					consume_items: true
-					id: "07A79C463A75BD17"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				id: "07A79C463A75BD17"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			title: "Se você achar a caixa shulker problemática"
 			x: -3.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["7F3D9F19428262A4", "1B664763E9558755"]
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
 			disable_toast: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "6CB995A1E0A04D71"
 			optional: true
-			rewards: [
-				{
-					id: "4DEC9A2B78AF6A83"
-					item: "gtceu:ulv_fragment_world_collection_machine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4DEC9A2B78AF6A83"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
 			subtitle: "Mais um"
-			tasks: [
-				{
-					consume_items: true
-					count: 128L
-					id: "75DAF36A0099DCC0"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "75DAF36A0099DCC0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Colecionador de Mundo Fragmentado"
 			x: -1.5d
 			y: -1.0d
@@ -1534,23 +1431,19 @@
 			icon: "gtceu:cupronickel_credit"
 			id: "07CBD674009E9F7B"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "433CEC73172A80B9"
-					item: "gtceu:cupronickel_credit"
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 100L
-					id: "65BD637ECC358EEE"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "433CEC73172A80B9"
+				item: "gtceu:cupronickel_credit"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "65BD637ECC358EEE"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			title: "empresa gigante"
 			x: -7.5d
 			y: -2.5d
@@ -1560,23 +1453,19 @@
 			icon: "gtceu:silver_credit"
 			id: "6EAE19EC8243B019"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "22CF0485DB77498C"
-					item: "gtceu:silver_credit"
-					team_reward: false
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 1000L
-					id: "7AB89C213F1DD7C5"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "22CF0485DB77498C"
+				item: "gtceu:silver_credit"
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "7AB89C213F1DD7C5"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			title: "empresa universal"
 			x: -6.0d
 			y: -2.5d
@@ -1586,22 +1475,18 @@
 			icon: "gtlcore:debug_structure_writer"
 			id: "7ED9A979A4F27C00"
 			optional: true
-			rewards: [
-				{
-					id: "3C0197FC2007FD67"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 648L
-					id: "295B13DE932B896E"
-					item: "gtceu:doge_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3C0197FC2007FD67"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 648L
+				id: "295B13DE932B896E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
 			title: "loteria"
 			x: 1.5d
 			y: -2.5d
@@ -1613,24 +1498,20 @@
 			icon: "gtceu:uiv_quantum_chest"
 			id: "082CFC6624AEFD15"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "5115F7FBD5907B3D"
-					item: "gtceu:uiv_quantum_chest"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "5115F7FBD5907B3D"
+				item: "gtceu:uiv_quantum_chest"
+				type: "item"
+			}]
 			subtitle: "Melhor do que gavetas de armazenamento"
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "2CFC47FC5D816AB0"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2CFC47FC5D816AB0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "caixa quântica"
 			x: 3.0d
 			y: -4.0d
@@ -1642,24 +1523,20 @@
 			icon: "gtceu:uiv_quantum_chest"
 			id: "735E838FF2E58283"
 			optional: true
-			rewards: [
-				{
-					auto: "disabled"
-					id: "77E33793519224FC"
-					item: "gtceu:uiv_quantum_tank"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "disabled"
+				id: "77E33793519224FC"
+				item: "gtceu:uiv_quantum_tank"
+				type: "item"
+			}]
 			subtitle: "Corpo pequeno, barriga grande"
-			tasks: [
-				{
-					consume_items: true
-					count: 8L
-					id: "493DD166E169F9DC"
-					item: "gtceu:gold_credit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "493DD166E169F9DC"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			title: "Cilindro quântico"
 			x: 3.0d
 			y: -2.5d
@@ -1669,22 +1546,18 @@
 			icon: "travelanchors:travel_anchor"
 			id: "72071E20EDFE5C1F"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					count: 4
-					id: "0E490C97A68ACB8C"
-					item: "travelanchors:travel_anchor"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "593EFDBAA293A304"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				count: 4
+				id: "0E490C97A68ACB8C"
+				item: "travelanchors:travel_anchor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "593EFDBAA293A304"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			title: "âncora de viagem"
 			x: -4.5d
 			y: -4.0d
@@ -1694,22 +1567,18 @@
 			icon: "minecraft:wheat_seeds"
 			id: "4850EC4B20555B06"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "17C69FFAFD83AB1C"
-					table_id: 1659528585629102822L
-					type: "choice"
-				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					id: "134061F47B5B78D2"
-					item: "gtceu:silver_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C69FFAFD83AB1C"
+				table_id: 1659528585629102822L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "134061F47B5B78D2"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			title: "mercado de agricultores"
 			x: 3.0d
 			y: -5.5d

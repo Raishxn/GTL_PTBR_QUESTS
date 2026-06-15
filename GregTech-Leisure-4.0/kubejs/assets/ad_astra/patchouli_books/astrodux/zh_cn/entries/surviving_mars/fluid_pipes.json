@@ -1,0 +1,29 @@
+{
+  "name": "Pipeline de fluido",
+  "icon": "ad_astra:ostrum_fluid_pipe",
+  "sortnum": 4,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Pipeline de fluido",
+      "item": "ad_astra:ostrum_fluid_pipe",
+      "text": "Os tubos de fluidos são semelhantes aos cabos, mas só podem ser usados ​​para transportar fluidos. Clique com o botão direito no tubo de fluido com uma chave inglesa para alternar o modo de transmissão: \"Nenhum\", \"Normal\", \"Cocorrente\" e \"Dividido\"."
+    },
+    {
+      "type": "patchouli:crafting",
+      "text": "Os tubos “divididos” removem o fluido da rede, enquanto os tubos “cocorrentes” incorporam o fluido na rede.",
+      "recipe": "ad_astra:desh_fluid_pipe"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:ostrum_fluid_pipe",
+      "recipe2": "ad_astra:wrench"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:fluid_pipe_duct",
+      "text": "Semelhante aos cabos elétricos, os dutos de fluidos também possuem um bloco integral em forma de parede que serve para transportar fluidos com segurança e manter a estrutura vedada."
+    }
+  ]
+}

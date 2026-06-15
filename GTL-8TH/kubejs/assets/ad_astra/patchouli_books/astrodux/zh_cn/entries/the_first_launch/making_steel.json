@@ -1,0 +1,24 @@
+{
+  "name": "steelmaking",
+  "icon": "ad_astra:etrionic_blast_furnace",
+  "sortnum": 2,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Electric blast furnace",
+      "item": "ad_astra:etrionic_blast_furnace",
+      "text": "Electric blast furnace is an upgraded version of blast furnace. It has two modes: smelting and co-casting. The principle of smelting is similar to that of a blast furnace, but it has 4 input slots and is 4 times more efficient than a blast furnace. Co-casting can fuse materials to create alloys."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:etrionic_blast_furnace"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "steel",
+      "item": "ad_astra:steel_ingot",
+      "text": "Steel is made by fusing iron and coal in electric blast furnaces. Each iron ingot and coal can produce 1 steel ingot. Steel is essential to most recipes and was the main material of the first rockets."
+    }
+  ]
+}

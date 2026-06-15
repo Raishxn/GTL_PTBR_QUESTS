@@ -1,0 +1,18 @@
+{
+  "name": "synthetic board",
+  "icon": "ad_astra:compressor",
+  "sortnum": 1,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "compressor",
+      "item": "ad_astra:compressor",
+      "text": "Once you have access to electricity, you'll want to make a compressor. This machine can compress ingots and blocks into plates, which is necessary for making many things."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:compressor"
+    }
+  ]
+}

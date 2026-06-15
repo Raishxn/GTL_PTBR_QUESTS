@@ -1,0 +1,1206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5786819A13D84D25"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:uhv_electric_motor"
+	id: "5786819A13D84D25"
+	order_index: 9
+	quest_links: [{
+		id: "7F9C7923EEED3AD7"
+		linked_quest: "035C470213E8B4DB"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 6.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"3008FED65F71C459"
+				"702EFE9BA62A8CDA"
+			]
+			description: [
+				"Core material production machines in later stages, with lossless overclocking"
+				""
+				"It will be a bit expensive the first time you do it"
+			]
+			icon_scale: 1.3d
+			id: "433793B7470FAA09"
+			rewards: [{
+				count: 122
+				id: "6BA6B818FA917749"
+				item: "gtlcore:ultimate_stellar_containment_casing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "It’s Yangyang, not Changchǎng!"
+			tasks: [{
+				id: "02412DC87B9DA266"
+				item: "gtceu:stellar_forge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3063F232F801D089"]
+			id: "76BAF48FA9D845C6"
+			tasks: [{
+				id: "16C7DE1FF416631A"
+				item: "gtceu:dubnium_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3063F232F801D089"]
+			id: "5CD56CD71662D4A7"
+			tasks: [{
+				id: "393B76A2C2075C2D"
+				item: "gtceu:seaborgium_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3008FED65F71C459"]
+			description: [
+				"&l·&fThe fusion reactor body is only used as a catalyst"
+				"&l&fAll fusion recipes have been transferred to the&balloy smelting furnace"
+				"&l&fAs a price, the recipe takes 16 times as long as &6"
+			]
+			icon_scale: 1.3d
+			id: "3063F232F801D089"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6A331B95C454D30D"
+				item: "gtceu:uhv_fusion_reactor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2B45F7E3AC7574C8"]
+			id: "506E6C56FF4B5C0B"
+			tasks: [{
+				id: "22A861F44023FD98"
+				item: "gtceu:carbon_nanotubes_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"11E334686F113560"
+				"38CD9E5F805E3CF3"
+				"10B0D1A4D9551754"
+			]
+			icon_scale: 2.0d
+			id: "2711E6516920E825"
+			tasks: [{
+				id: "6596739A0934A935"
+				item: "kubejs:optical_processing_core"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2711E6516920E825"]
+			description: [
+				"Use light to transmit information at the fastest speed, adjusting the frequency to perform analog calculations."
+				""
+				"&l&4Don’t use extraordinary SOC chips"
+			]
+			icon_scale: 2.0d
+			id: "460277B62B964613"
+			tasks: [{
+				id: "361E652DBDE8C652"
+				item: "kubejs:optical_processor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["460277B62B964613"]
+			icon_scale: 2.0d
+			id: "5B1757594AE08A2A"
+			tasks: [{
+				id: "635363238E37429D"
+				item: "kubejs:optical_assembly"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B1757594AE08A2A"
+				"5CD56CD71662D4A7"
+			]
+			icon_scale: 2.0d
+			id: "362C5064150C4F26"
+			tasks: [{
+				id: "4656D43F66C740C6"
+				item: "kubejs:optical_computer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"362C5064150C4F26"
+				"6B990D7D964DF559"
+			]
+			description: [
+				"&lFor most giant structures, it is recommended to adopt the structure of&bdual energy warehouse + single laser warehouse &f, taking into account the formula level and power."
+				"&lSome giant structures can have multiple main blocks sharing the same body, for example:&bInfinite Unit Cell, Holy Separator &f."
+				""
+				"&7&oLegend has it that a true hunter is never in a hurry to build a magnificent palace."
+				"&7&oBefore the era of megastructure comes, if you can stare at the ultimate light alone for one minute"
+				"&7&ocan gain some ancient recognition as the pinnacle of UIV."
+			]
+			icon_scale: 2.0d
+			id: "783379F3A7557CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B9AC1EF5D7A328F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "Entering the era of megastructure"
+			tasks: [{
+				id: "30416700DDAFB1E4"
+				item: "kubejs:optical_mainframe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"433793B7470FAA09"
+				"53975CD8F7F4BF78"
+			]
+			icon_scale: 2.0d
+			id: "2DD8E128C6E3E41D"
+			shape: "rsquare"
+			subtitle: "Can't detonate"
+			tasks: [{
+				id: "078D60E2A5552DED"
+				item: "kubejs:naquadria_charge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"78F0147BABE80DDD"
+			]
+			description: ["From here on, the production method of most ingots becomes stellar thermal smelting-plasma condensation-fluid solidification."]
+			icon: "gtceu:enderium_ingot"
+			id: "5E223597F71DB81D"
+			tasks: [{
+				id: "4AEC015F52D69587"
+				item: "gtceu:enderium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E223597F71DB81D"]
+			description: [
+				"&aUEV&rSuperconductor"
+				""
+				"You can make&6configurable gravity ultra-clean maintenance warehouse &r"
+			]
+			id: "6B990D7D964DF559"
+			tasks: [{
+				id: "7681E9EB89F79679"
+				item: "gtceu:enderite_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["76BAF48FA9D845C6"]
+			description: ["The recipe has been simplified"]
+			id: "11E334686F113560"
+			tasks: [
+				{
+					id: "6D049619508BA8B3"
+					item: "kubejs:low_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "5B5107A72FF57A66"
+					item: "kubejs:medium_frequency_laser"
+					type: "item"
+				}
+				{
+					id: "6F17764F565B9198"
+					item: "kubejs:high_frequency_laser"
+					type: "item"
+				}
+			]
+			title: "laser"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"78F0147BABE80DDD"
+			]
+			icon: "gtceu:degenerate_rhenium_plate"
+			id: "2E05225ADF4D7D31"
+			tasks: [{
+				id: "02C39E225C1D5ECD"
+				item: "gtceu:degenerate_rhenium_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"702EFE9BA62A8CDA"
+				"7204F1B6BCC74F1C"
+			]
+			description: [
+				"Convert Scrap into Matter Orbs or UU Amplifier Fluids"
+				""
+				"It is recommended to use red granite (obtained from the large rock crusher) to craft scraps"
+				""
+				"Regarding large rock crushers: two input bins/assemblies are required to provide water and lava respectively."
+			]
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "2FBCD8BCE586ADB8"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1E707BD4FE3FEA6B"
+				item: "gtceu:matter_fabricator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7370721CB75472C1"
+				"0936769874A5F740"
+				"2FBCD8BCE586ADB8"
+			]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "32A49A2CBFC934C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40B1F46C6798A8DF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0B1D64CEDCD5AB9B"
+				item: "kubejs:titansteel_coil_block"
+				type: "item"
+			}]
+			title: "titan steel coil"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"384CC871242ECF6E"
+				"4EA64DC5DA2F0F8C"
+			]
+			id: "164C87812A3A465C"
+			subtitle: "Requires level 8 purified water"
+			tasks: [{
+				id: "32508D6A4ABB9745"
+				item: "kubejs:optical_slice"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["164C87812A3A465C"]
+			id: "38CD9E5F805E3CF3"
+			tasks: [{
+				id: "4FF5602FE4DEBD74"
+				item: "kubejs:optical_soc"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["702EFE9BA62A8CDA"]
+			description: [
+				"Now that you have Titan Steel, you can start preparing to replace the power module MK3."
+				""
+				"For the same mining recipe, there is no improvement from replacing advanced drones"
+				""
+				"Jasper, unknown liquid"
+			]
+			id: "7370721CB75472C1"
+			shape: "pentagon"
+			subtitle: "Space Drone MK 2 Circuit 25"
+			tasks: [{
+				id: "532AAB28A3CC8CD1"
+				item: "kubejs:space_drone_mk2"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"713FF88279AD9A31"
+				"76BAF48FA9D845C6"
+				"4059A907154E2865"
+				"32A49A2CBFC934C8"
+			]
+			description: [
+				"You can also collect light and heavy fuel oil, naphtha, and refinery gas. Therefore, if you do not retain the old petrochemical production line, you can consider using an elevator to directly collect intermediate products."
+				""
+				"Bloodstone, Uru, Strength, Barnard C Air"
+			]
+			id: "1FE5F8D737ADB1B8"
+			shape: "pentagon"
+			subtitle: "Space Drone 3 Circuit 27 26"
+			tasks: [{
+				id: "1D082DFC064E38EA"
+				item: "kubejs:space_drone_mk3"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Optical circuit substrate materials"]
+			id: "7B8FEC11FCC03D9A"
+			tasks: [{
+				id: "6442C4D80672144D"
+				item: "gtceu:kevlar_plate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"702EFE9BA62A8CDA"
+			]
+			description: [
+				"Dedicated production machine for precision circuit substrates, with lossless overclocking"
+				""
+				"Remember to go back and optimize the previous circuit substrate recipe"
+			]
+			icon_scale: 2.0d
+			id: "0CF40DD5F6239209"
+			rewards: [{
+				count: 64
+				id: "38ABCEEF012FE31D"
+				item: "gtceu:vibranium_nanoswarm"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Don’t forget to place the nano swarm"
+			tasks: [{
+				id: "65BF39050B7B60AD"
+				item: "gtceu:pcb_factory"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CF40DD5F6239209"
+				"7B8FEC11FCC03D9A"
+			]
+			id: "10B0D1A4D9551754"
+			tasks: [{
+				id: "1B03550B8A3A4EAD"
+				item: "kubejs:optical_printed_circuit_board"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"7EAED8E6D66C24D2"
+			]
+			description: [
+				"Requires photoresist and computing power for precision joint laser etching"
+				""
+				"Precision laser etching mode&cparallel number is fixed at 1 &r"
+				""
+				"Multi-block molding only requires&b&lfilter mechanical blocks"
+			]
+			icon_scale: 1.3d
+			id: "42081F59690E6469"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "will always be useful"
+			tasks: [{
+				id: "6B6EF476B6430A90"
+				item: "gtceu:engraving_laser_plant"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"42081F59690E6469"
+				"01433D78C43AD215"
+			]
+			hide_dependency_lines: true
+			id: "5BFA4802D228358C"
+			tasks: [{
+				id: "7D3290423A198D18"
+				item: "kubejs:photon_carrying_wafer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42081F59690E6469"
+				"01433D78C43AD215"
+			]
+			id: "3008FED65F71C459"
+			tasks: [{
+				id: "7AC4A6AA9FC19537"
+				item: "kubejs:nm_chip"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BFA4802D228358C"
+				"6158FD5813B18D3D"
+			]
+			icon_scale: 2.0d
+			id: "384CC871242ECF6E"
+			size: 1.0d
+			tasks: [{
+				id: "16B3499EBAEFA108"
+				item: "kubejs:optical_wafer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: [
+				"Laser versions of vacuum freezers and plasma condensers with cross-recipe parallelism"
+				""
+				"Only the second layer needs to place water sources, and water sources can be placed quickly like a fishery."
+			]
+			icon_scale: 2.0d
+			id: "3DD334C5B070AF94"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "12A231EAC2E4FD44"
+				item: "gtceu:cooling_tower"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"2E05225ADF4D7D31"
+				"4059A907154E2865"
+			]
+			description: [
+				"The&l·&flaser assembly line also has the function of an assembly line. The time-consuming multiple is&60.4&fand has lossless overclocking characteristics (the expansion module&cdoes not include&flossless overclocking)"
+				""
+				"&l·&4&lNote: You must connect to the database regardless of whether you need to research!!! &r"
+				""
+				"&l·&fMulti-block molding requires only&b&lfilter mechanical block &r"
+				"&l·&fexpansion module host only recognizes&68&ffunction blocks around it"
+				""
+				"&l·&fIf you use the circuit assembly line mode, when replacing the robot through the sample assembly, you need to&6clear the recipe cache&fat the same time (such as taking out the sample and putting it back, digging and placing the sample assembly, etc.)"
+				"&l&cOtherwise, the sample assembly may not be able to recognize the new robot, resulting in the recipe being unable to be synthesized."
+				""
+				"&l·&fClick&eM&fon the multi-block structure preview interface of&6JEI&fto view the complete structure of&eafter installing all modules &f"
+				""
+				"The mapping name of&l·&fSuper Time and Space Assembly Line is&6Super Time and Space &f, which is used to distinguish it from the assembly line and facilitate sample uploading."
+				"&l·&fPlease write&6in the naming box of the super sample assembly."
+				""
+				"&l·&fPlease see the next page for the detailed installation diagram."
+				"{@pagebreak}"
+				"{image:ftbquests:textures/picture/008.png width:350 height:200 align:center}"
+				"The expansion module installation diagram is as follows:"
+				"{image:ftbquests:textures/picture/007.png width:350 height:200 align:center}"
+			]
+			icon_scale: 2.0d
+			id: "72B80ADFE77198DD"
+			min_width: 360
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "755F7D9375F0D8A5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "If you are rich, you can make one now. This machine only has a special recipe in OpV and beyond."
+			tasks: [{
+				id: "2489A12E61345011"
+				item: "gtceu:suprachronal_assembly_line"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: [
+				"&c&lNote that you must connect to the database regardless of whether you need to research!!!"
+				"&c&lNote that you must connect to the database regardless of whether you need to research!!!"
+				"&c&lNote that you must connect to the database regardless of whether you need to research!!!"
+				""
+				"&ris the laser version of the laser etching factory. It has lossless overclocking and uses a temperature parallel mechanism. Every time the temperature increases by 900K, the number of parallels is ×2."
+				""
+				"Some recipes that need to be researched need to be first made with&blaser etching factory&rfor&dscan &r"
+				""
+				"As the number of parallelism increases, the computing power requirement will also increase (if any). The specific calculation formula is: the minimum computing power requirement multiplied by the number of parallelism"
+				""
+				"When the computing power&6is not enough to consume all the input materials&rat once, the machine will not work &r"
+			]
+			icon_scale: 2.0d
+			id: "1BDEBBAF5BA9854E"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Don't tear down the laser etching factory"
+			tasks: [{
+				id: "43EBC608B5383709"
+				item: "gtceu:dimensional_focus_engraving_array"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["Laser versions of stampers and compressors with cross-recipe parallelism"]
+			icon_scale: 2.0d
+			id: "6D6E342B03B9FE72"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5C5CC922CD9EF716"
+				item: "gtceu:field_extruder_factory"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["The laser version of the wire rod mill uses a temperature parallel mechanism. Every time the temperature increases by 900K, the number of parallels is ×2, and it has cross-recipe parallelism."]
+			icon_scale: 2.0d
+			id: "75E65C72F3C6BD43"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "6FAEEFBEBAEAE58F"
+				item: "gtceu:mega_wiremill"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["The laser version of the plate bending machine, forging hammer and stamping machine tool uses a temperature overclocking mechanism. Every time the temperature increases by 900K, the number of parallelism is ×2, and it has cross-recipe parallelism."]
+			icon_scale: 2.0d
+			id: "41BBD0FCCD5BEED2"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "76AB32A27420A608"
+				item: "gtceu:mega_presser"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["The laser version of the extractor and fluid solidifier uses a temperature parallel mechanism. Every time the temperature increases by 900K, the number of parallels is ×2, and it has cross-recipe parallelism."]
+			icon_scale: 2.0d
+			id: "174B8FFFC1745311"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "38F98C857B04D47D"
+				item: "gtceu:mega_extractor"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["Laser version of canning machine with cross-recipe parallelism"]
+			icon_scale: 2.0d
+			id: "7833098408DB2057"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5266F8533351D5E1"
+				item: "gtceu:mega_canner"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"035C470213E8B4DB"
+				"3008FED65F71C459"
+				"4F87B7DA47087F97"
+				"12F8275FC06FCFEE"
+			]
+			hide_dependent_lines: true
+			id: "0936769874A5F740"
+			tasks: [{
+				id: "1557E8CF828FFBEA"
+				item: "gtmadvancedhatch:uhv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"776563C5BA327495"
+				"5CBDC24C2C404232"
+			]
+			description: ["Basic materials of UEV"]
+			id: "713FF88279AD9A31"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "4FAE8DB663013B5C"
+				item: "gtceu:quantanium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AE40ADC74AAA54B"]
+			description: ["New monocrystalline silicon"]
+			icon_scale: 2.0d
+			id: "01433D78C43AD215"
+			tasks: [{
+				id: "4F8AB9CCDC8174BC"
+				item: "kubejs:rutherfordium_neutronium_boule"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53DEE1A65051E06F"]
+			description: [
+				"Obtained by decaying actinium"
+				"Don't look at the tearing formula, it's not for this stage."
+			]
+			id: "7AE40ADC74AAA54B"
+			tasks: [{
+				id: "0EB322451B4A8795"
+				item: "gtceu:rutherfordium_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27A9D4E765101CB9"]
+			icon: "gtceu:photoresist_bucket"
+			id: "7EAED8E6D66C24D2"
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:photoresist"
+				id: "4E0FAD22314B0426"
+				type: "fluid"
+			}]
+			title: "Photoresist"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783379F3A7557CEE"]
+			description: ["Laser versions of assembly machines, circuit assembly machines and precision assembly machines with lossless overclocking"]
+			icon_scale: 2.0d
+			id: "4130D8DCFAB9A2BD"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "4473AB040FFE4C24"
+				item: "gtceu:mage_assembler"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["Laser versions of autoclaves and chemical dip machines with lossless overclocking"]
+			icon_scale: 2.0d
+			id: "63C00AE12F936B4F"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "08918F3065E60387"
+				item: "gtceu:crystalline_infinity"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["Laser versions of cutters, lathes, grinders and centrifuges with cross-recipe parallelism"]
+			icon_scale: 2.0d
+			id: "533870EB6E913B32"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "47B9326610C58E03"
+				item: "gtceu:holy_separator"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"0936769874A5F740"
+				"702EFE9BA62A8CDA"
+			]
+			description: ["Efficient rare earth processing and the only source of&6for&dpromethium&r&r"]
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "4059A907154E2865"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "514070C4137916EE"
+				item: "gtceu:rare_earth_centrifugal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: ["The laser version of the vacuum drying oven and dehydrator has lossless overclocking and uses a temperature parallel mechanism. Every time the temperature increases by 900K, the number of parallels x 2"]
+			icon_scale: 2.0d
+			id: "544545C3AC0812E0"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "54B5A2E6D815DC1A"
+				item: "gtceu:advanced_vacuum_drying_furnace"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"783379F3A7557CEE"
+				"4059A907154E2865"
+			]
+			description: [
+				"Laser versions of distillation chambers, distillation columns and evaporation towers with cross-recipe parallelism"
+				""
+				"Only use&etriple titanium coil &r"
+			]
+			icon_scale: 2.0d
+			id: "6DC013B45A9CCBE1"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "2E34BD033CF0435A"
+				item: "gtceu:mega_distillery"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4F945AA31D61A74D"
+				"506E6C56FF4B5C0B"
+			]
+			id: "6158FD5813B18D3D"
+			tasks: [{
+				id: "523D6494786714F9"
+				item: "gtceu:francium_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			description: ["&lMaking a UEV laser target warehouse After upgrading the twist to the UIV level, you can skip most of the materials at this stage."]
+			id: "4F945AA31D61A74D"
+			subtitle: "advanced materials"
+			tasks: [{
+				id: "68D1F9870CA24329"
+				item: "gtceu:fullerene_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["&lMaking a UEV laser target warehouse After upgrading the twist to the UIV level, you can skip most of the materials at this stage."]
+			id: "53975CD8F7F4BF78"
+			tasks: [{
+				id: "432F2C44D2FDFDC9"
+				item: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:cycloparaphenylene_bucket"
+			id: "2B45F7E3AC7574C8"
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:cycloparaphenylene"
+				id: "05B796DBD0D5372C"
+				type: "fluid"
+			}]
+			title: "cycloparaphenylene"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"0936769874A5F740"
+				"7204F1B6BCC74F1C"
+			]
+			description: ["Laser versions of two-stage magnetizers, electromagnetic concentrators, electrolyzers and lightning processors with lossless overclocking"]
+			icon_scale: 1.5d
+			id: "68FDC7A6BE158D5F"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "4BFAA4EE65589228"
+				item: "gtceu:superconducting_electromagnetism"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3EA935A712FA0EBE"
+				"0DC5BFACB3D4BC95"
+			]
+			description: [
+				"At this stage you will encounter a demand voltage that is 2 stages higher than your"
+				"You must first make Fusion Reactor 4 and obtain 𬭊 before you can make a UEV-level energy warehouse"
+			]
+			hide_dependent_lines: true
+			id: "702EFE9BA62A8CDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67DF491AA7BBC61F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3D65AB47A9ADAD4F"
+				item: "gtceu:highurabilityompoundteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"702EFE9BA62A8CDA"
+			]
+			description: ["Laser version of the chemical plant with a larger maximum number of available warehouses"]
+			icon_scale: 1.5d
+			id: "48BC39B9A41C4439"
+			shape: "rsquare"
+			subtitle: "bigger, stronger"
+			tasks: [{
+				id: "2BF318141C2DB38D"
+				item: "gtceu:large_chemical_plant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"713FF88279AD9A31"
+				"32A49A2CBFC934C8"
+				"7204F1B6BCC74F1C"
+			]
+			description: ["Starting from UHV, there will be situations where the recipe voltage requirement is two levels higher than the current voltage level, and an energy warehouse needs to be made one level higher than the current voltage level."]
+			hide_dependent_lines: true
+			id: "78F0147BABE80DDD"
+			tasks: [{
+				id: "5AC1E872FEE6BC39"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CB9366F857D7D68"
+				"362C5064150C4F26"
+			]
+			description: [
+				"&6&lGTLAdditions「Secret Box」"
+				""
+				"&7▌ Function:"
+				"&lbaler laser version"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Used with the celestial sphere bifurcation engine"
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "5407B8878D3A65D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AE86B195ABE3ADF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "02329C5EFE7A484B"
+				item: "gtladditions:arcane_cache_vault"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			description: ["&lonly recommends using this to make liquid quantum"]
+			id: "5CBDC24C2C404232"
+			optional: true
+			tasks: [{
+				id: "3D9391B8FBDF1BEC"
+				item: "thetornproductionline:neutron_activator_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE5F8D737ADB1B8"]
+			description: ["Extract jasper"]
+			id: "409B6856A7EE9B99"
+			optional: true
+			tasks: [{
+				id: "48EAAB7613FDC40D"
+				item: "gtceu:purified_tengam_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53975CD8F7F4BF78"]
+			description: [
+				"Electrolysis of 13B actinium nitrate solution produces 1 francium powder 100%"
+				""
+				"&aGreatly simplifies the synthesis of catalyst and actinium nitrate solution"
+			]
+			icon: "gtceu:francium_dust"
+			id: "702751C06318D107"
+			optional: true
+			tasks: [{
+				id: "1D83CF16CC7C0FD1"
+				title: "Francium powder auxiliary formula"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["639BE904FFDCED52"]
+			description: [
+				"&9&lGTL-Extend \"Dragon Egg Energy Absorber\""
+				"&7Added&5UV&7to&e&lUIV&7grade model"
+				""
+				"&7▌ Function:"
+				"&lThe first choice for low-cost power generation in the medium term"
+				"&lgenerates electricity without any fuel or maintenance"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Construction method: Place the dragon egg energy absorber and place the dragon egg on top."
+			]
+			id: "0DD52F3875764B8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C4C0C72E0ED12F4"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7F0EE6F147EAA9F5"
+				item: "gtl_extend:uhv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["362C5064150C4F26"]
+			description: [
+				"&9&lGTLAdditions「Planetary Ionization Combined Tower」"
+				""
+				"&7▌ Function:"
+				"&lcan only use coils of Titan steel and above."
+				"&lEvery 3 seconds is a working cycle."
+				"&lIf there is still energy entering after the internal energy buffer is full, an extremely large explosion will occur centered on the machine."
+				"At the beginning of the&lcycle, a 1-tick instantaneous extremely high-power EU pulse is generated to charge the cache, and the remaining time is smoothly discharged at lower power."
+				"After the&lpulse ends, the cache will output power through the power compartment or laser source compartment."
+				""
+				"&lThe level of the stellar thermal container affects the cache amount:"
+				"&l• Base: 54.12 trillion EU"
+				"&l• Advanced: 3475 trillion EU"
+				"&l• Ultimate: 1160 trillion EU"
+				""
+				"&lcoil level affects the type of fluid consumed, consumption per cycle and power generation:"
+				""
+				"&l• Titansteel ~ Adamantite: consumes 73728 mB of liquid iron, 8 KB of liquid ice, and 0.0002 space drone MKII"
+				"&linstantaneous maximum 4096 A, discharge maximum 16 A"
+				"&l• Super Silica ~ Starlight: consumes 36864 mB of liquid tantalum, 4 KB of liquid helium, and 0.0001 space drone MKIV"
+				"&linstantaneous maximum 524288 A, discharge maximum 256 A"
+				"&l• Endless ~ Eternity: consumes Liquid Crystal Matrix 9216 mB, Extremely Cold Ice 1 KB, Space Drone MKVI 0.000025 pieces"
+				"&linstantaneous maximum 268435456 A, discharge maximum 131072 A"
+				""
+				"&7▌ Note:"
+				"&l&6The machine mechanism is more complex. For more detailed instructions, please refer to the GTLAdditions guide."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "0851D0AEEEBA9ADE"
+			size: 1.0d
+			tasks: [{
+				id: "5604A7C745459683"
+				item: "gtladditions:planetary_ionisation_convergence_tower"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"639BE904FFDCED52"
+				"7DB501C5EE788E1C"
+				"702EFE9BA62A8CDA"
+			]
+			description: [
+				"&9&lGTL Supb \"Void Energy Absorber\""
+				""
+				"&7▌ Description:"
+				"&ldimensional rift energy harvester directly extracts usable high-density energy from quantum vacuum fluctuations."
+				""
+				"&7▌ Function:"
+				"&l• Unconditionally automatically generates electricity, giving priority to broadcast injection to all EU containers within a 16-block radius, and the remaining energy is stored in the internal energy storage"
+			]
+			hide_until_deps_complete: true
+			id: "56271925F2BA543F"
+			tasks: [{
+				id: "31872823F619F4BF"
+				item: "gtlsupb:uhv_void_energy_absorber"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Tier9-UHV"]
+	title: "extremely high voltage"
+}

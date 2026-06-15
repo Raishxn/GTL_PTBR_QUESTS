@@ -1,0 +1,1039 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77F8039ACE718C6C"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:primitive_robot_arm"
+	id: "77F8039ACE718C6C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Get the bronze ingot and you can start the age of steam"
+				"Have the courage to join GregTech's first Voltage!"
+			]
+			id: "5F5F348E3A34827E"
+			rewards: [{
+				id: "41A3ACD4F54D9969"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Steam Era ULV"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"And where does the water come from? Now you need some water"
+				""
+				"Water production will be different in different biomes. The wetter the biomes, the more water will be produced."
+				""
+				"Furthermore, BT outgoing warehouse and MT outgoing warehouse can multiply the production by 400%, and when it rains, the production will be multiplied by 150%."
+			]
+			id: "4E96A08CF12D496A"
+			rewards: [{
+				id: "0EF18EDF382FF874"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "229E6CD8C1F311CF"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "032BCE4DA9E399A5"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
+			title: "water fountain"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E96A08CF12D496A"]
+			description: [
+				"Diamonds are the most resistant to burning. It is recommended to burn diamonds."
+				""
+				"When the boiler is dry burning, the water &4will explode &r"
+				""
+				"Liquid fuel boilers use lava as fuel; Solar boilers heat up naturally during the day and drop in temperature at night/when in the shade"
+			]
+			hide_dependent_lines: true
+			id: "4BFC342697BDE75A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E9D12DC0201D2E0"
+				table_id: 6225023274141477362L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "low pressure boiler"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36A49197309D1F09"]
+			description: [
+				"You can start making steel"
+				""
+				"You can also directly make &5Hyper Dimension and other ground forges &r"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "5CE50DDC960340D8"
+			rewards: [
+				{
+					id: "2D8761085E458691"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6BF8F26BE81E1228"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6649B915F2C7704F"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "42BD89429E9AAD22"
+					item: { Count: 12, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BFC342697BDE75A"]
+			description: ["It is used to compress things"]
+			id: "5C936EF307594737"
+			rewards: [{
+				id: "704DF16EECC15BD8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E7B6F2A5F20C06"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5C936EF307594737"
+				"5E55C7565A39AF65"
+			]
+			description: ["Grind the powder directly with a mortar and then synthesize it directly"]
+			icon: "gtceu:fireclay_dust"
+			id: "36A49197309D1F09"
+			rewards: [{
+				id: "777E0B3B0A58DE1A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35AB6D0569B73FB7"
+					item: "gtceu:brick_dust"
+					type: "item"
+				}
+				{
+					id: "3F0F3F0437100ADB"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					id: "3AC2D6A0AAB107FA"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+			]
+			title: "fireclay powder"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["It is recommended to use a compressor directly at the initial stage"]
+			hide_dependency_lines: false
+			id: "79E81CC078F246C0"
+			rewards: [{
+				count: 128
+				id: "289E9D4B6242976B"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "your first piece of rubber"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			hide_dependent_lines: true
+			id: "388BD32463FA905D"
+			rewards: [{
+				id: "57B2E9912F4375C3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Your first steel ingot"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"02375F5D54E5F347"
+				"43DE0784E5D32B46"
+			]
+			description: [
+				"Used to make electrical machines and warehouses"
+				""
+				"It can even be used to &cstore &r&estore &r&aelectricity &benergy &r&rand &3connect &r&9to &r&1ME &r&5network &r&dnetwork &r!"
+			]
+			id: "7CB85061F0822830"
+			rewards: [{
+				id: "0D14C938E01BD29D"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "You definitely need a lot of imagination to use it"
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BFC342697BDE75A"]
+			description: ["Mixing metals using an alloy furnace"]
+			id: "30F031CD02425ED7"
+			rewards: [{
+				count: 64
+				id: "4FB6BBE01DEAFC93"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D7E7EBAB75A2F8D"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BFC342697BDE75A"]
+			description: [
+				"It can hammer three spindles into two plates, which has a higher utilization rate than manual friction."
+				""
+				"{\"text\":\"There is also a multi-block machine called a steam piston hammer, which is more efficient.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4877DB6020D6BFBC\"}}"
+			]
+			hide_dependency_lines: true
+			id: "6525C9DE2A276238"
+			rewards: [{
+				id: "6B3DEE9FC411E85C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BB0DC594040BE2"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6525C9DE2A276238"
+				"388BD32463FA905D"
+			]
+			description: ["The machine utilization rate is higher with a forging hammer"]
+			hide_dependent_lines: true
+			id: "02375F5D54E5F347"
+			rewards: [{
+				id: "1A0B2145C6BEAD5B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78729EFD5CE8CD48"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["79E81CC078F246C0"]
+			id: "43DE0784E5D32B46"
+			rewards: [{
+				id: "61C758028D9C9DB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "tin cable"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			id: "707E5114B7979898"
+			rewards: [{
+				id: "255AB427616C13EB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CD30ADFD9B58AE"
+				item: "gtceu:glass_tube"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"707E5114B7979898"
+				"388BD32463FA905D"
+			]
+			description: ["Your first circuit ULV, you need to use it to help make cheaper circuits, just make some"]
+			id: "5CD26DECB937FC71"
+			rewards: [{
+				id: "327EC9AD42261D00"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["You cannot mix it manually like bronze, you can only synthesize it with the help of a machine."]
+			id: "3C91E284A9A03B1B"
+			rewards: [{
+				id: "08462119775B14A3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Grind wood to obtain wood pulp"]
+			id: "1FAB9EF48D8D9258"
+			rewards: [{
+				count: 128
+				id: "6333E0136E33F27A"
+				item: "gtceu:wood_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F9E85F4FF39EB70"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CD26DECB937FC71"]
+			description: ["Automatic version of the workbench/forging table/stone cutter, but you need to make a prototype to use it. Now it is only used as a craft material."]
+			id: "3C071C0542CF935D"
+			rewards: [{
+				id: "4304D0C677F66D9B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5738459D5168A55F"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C071C0542CF935D"]
+			description: ["Primitive people also had to set up circuits"]
+			id: "34FCFA114E75D770"
+			rewards: [{
+				id: "0C0731B2ACDDCE0D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6255EA9A7B4B58EC"
+				item: "gtceu:large_steam_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Trust it to create some super strong multi-block steam structures"
+				""
+				"They have high parallelism and can be overclocked and boosted ( MV ) when stainless steel is available"
+				""
+				"{\"text\":\"Go to the chapter on multiblock structure to learn more\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"40405034AE9D9945\"}}"
+			]
+			hide_dependent_lines: true
+			id: "5276CA8FA5262C9B"
+			rewards: [{
+				id: "7A6E4F26CB4EC8FB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5276CA8FA5262C9B"
+				"38CC43F7A6A39BB4"
+			]
+			description: ["Don't forget to load the output tray"]
+			id: "2585418910B6798A"
+			rewards: [{
+				id: "372783FB309C5A6A"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F47C1E28CF33F84"
+				item: "gtceu:large_steam_centrifuge"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CB85061F0822830"]
+			description: [
+				"Can be shared"
+				""
+				"In fact, except a few machines, all multiblock machines that require a silencer chamber can use low voltage silencer chambers. Advanced silencer chambers are of little use."
+				""
+				"Even if the muffler chamber is filled with ash, it will not affect the operation of the machine."
+			]
+			id: "38CC43F7A6A39BB4"
+			rewards: [{
+				id: "3354D072C3B1F387"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "Do not block the smoke outlet"
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5CD26DECB937FC71"
+				"740C2D1F3F420480"
+				"6D729450ED86BDAF"
+				"3C91E284A9A03B1B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"You don't need to do a lot, just do some."
+				""
+				"Can be done later with a large steam circuit assembly machine"
+			]
+			id: "5065BEDC95AE564E"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "58F5C373D0AE0142"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "your first circuit"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: ["A little more problematic than the original"]
+			id: "77A1011F608079C9"
+			rewards: [{
+				id: "11D6ADD9CE28FA57"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36895A43C9C125F4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77A1011F608079C9"]
+			description: ["There are many formulas for resistors and thin wires are more economical"]
+			id: "6D729450ED86BDAF"
+			rewards: [{
+				id: "108CAF7D675F876A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FAB9EF48D8D9258"]
+			id: "051710FFC9907807"
+			rewards: [{
+				id: "765C29DBBBD61E54"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["051710FFC9907807"]
+			id: "740C2D1F3F420480"
+			rewards: [{
+				id: "0C13652D6A0B6866"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2585418910B6798A"]
+			description: ["Sticky resin for centrifuge"]
+			hide_dependent_lines: true
+			id: "06285BE2396AB639"
+			rewards: [{
+				id: "2AEAC8B8E1C1EBB2"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:glue"
+				id: "686949D4F1338E97"
+				type: "fluid"
+			}]
+			title: "cola"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"34FCFA114E75D770"
+				"06285BE2396AB639"
+			]
+			description: ["Very cheap circuits, this series goes up to EV circuits"]
+			id: "08B7D8F835DFE214"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23D55C24236E6224"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
+			description: ["This is a cheap LV circuit"]
+			id: "553B2D61416792DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "327983726888BD6F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			description: [
+				"Large steam boilers have been improved to an epic level, so you don't need to think about using steam to generate electricity for high voltage (you need to stack more high voltage and more advanced boilers consume fuel faster)"
+				""
+				"Large-scale steel, titanium and tungsten steel steam boilers will follow."
+				""
+				"Water consumption = production * throttling efficiency/32 mB/t"
+				""
+				"The maintenance warehouse requires manual maintenance in the initial phase."
+				""
+				"The input/bus/assembly compartment, maintenance compartment and muffler compartment are placed on the bottom floor, and the output compartments are placed on the second to fourth floors."
+				""
+				"This is not a steam engine and cannot use the steam bus"
+				""
+				"Be careful not to use a giant inlet assembly on the boiler as it may cause an accident &4&r"
+			]
+			id: "328D5CF265FCCCA3"
+			rewards: [
+				{
+					id: "02EE5681EA132E6A"
+					item: "avaritia:star_fuel"
+					type: "item"
+				}
+				{
+					id: "38F3639A0D9D9BBB"
+					item: "kubejs:diamond_compressed_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31B3E7B10BBA0EDD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			description: [
+				"Only the bottom layer of refractory bricks can be replaced by inlet and outlet busbars"
+				""
+				"Make sure the input bus and output bus space is sufficient for the forge to operate"
+				""
+				"This is not a steam engine, &c&ldoes not require a steam inlet reservoir &r, &c&lcannot use the steam bus &r"
+				""
+				"There is a lot of clay in the Lush Cave; Below the area where the rhododendron is is the Lush Cave"
+			]
+			id: "0662E205D1783D31"
+			rewards: [
+				{
+					count: 2100
+					id: "739BBFD8B3216A13"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 1200
+					id: "2898894E21E5801A"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "315AFCCED70ADF27"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Get products instantly"
+			tasks: [{
+				id: "2BE6A835D6EF790C"
+				item: "gtceu:dimensionally_transcendent_dirt_forge"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AB03D24332B722E"]
+			description: [
+				"Powerful oven with low steam consumption"
+				""
+				"&b&lcan &ruse the steam bus"
+				""
+				"If you use a large steam inlet compartment, overclocking will just increase steam consumption out of nowhere and have no other effect."
+			]
+			id: "0532330B52D98469"
+			rewards: [{
+				id: "142C72A3F57D1D8C"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AC94C8C8DEF4A0E"
+				item: "gtceu:dimensionally_transcendent_steam_oven"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BFC342697BDE75A"]
+			description: ["Steam era ovens were actually slower than regular ovens."]
+			id: "10750DEB64B4BF89"
+			rewards: [{
+				id: "5931B37625BB11BB"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12742633AB7C6E1F"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10750DEB64B4BF89"]
+			description: ["8 parallel, you can continue to upgrade"]
+			id: "1AB03D24332B722E"
+			rewards: [{
+				id: "26F40D0C80FD0D34"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE97C5270D5F402"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"Steam multiblocks need to be placed in the &b&rsteam inlet compartment to supply steam (the large steam inlet compartment is an item at the end of &cMV &r. If you can't do this now, just use a regular steam inlet compartment)"
+				""
+				"&bSteam input bus &rand &bSteam output bus &r(enhanced to 16 slots!) can input and output items to multi-steam blocks (steam input bus &ccannot set programming circuit &r, use other input buses/sets if necessary)"
+				""
+				"Fluids use inlet compartments and outlet compartments; common inlet and outlet compartments may only contain &cone fluid type &r; Ordinary outlet compartments and giant outlet compartments of LV can block the fluid outlet by marking the second slot from top to bottom (drag from JEI, mark with a bucket containing fluid, etc.)"
+				""
+				"Large steam multiblocks have &664 parallelism &r, &bcan execute LV &rrecipes, and the processing speed is 2 times that of LV machines; non-large steam multiblocks have parallelism &68 &rand &bcan run recipes LV &r"
+				""
+				"{\"text\":\"The steam multiblock casing can be purchased from the small market.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E6BC2F76ED6F531\"}}"
+				""
+				"Steam consumption is particularly high when large steam blocks work in parallel. High-speed fluid transmission methods such as space-time pipelines or laser nodes are required to deliver steam, otherwise the steam will bounce."
+			]
+			icon: "gtceu:steam_piston_hammer"
+			id: "05BB1E1E38478F26"
+			rewards: [
+				{
+					id: "2D8751AF3B8B1D6A"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3BC641A02C9D4998"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "38DB793439A26752"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "58C24B68D0260EBD"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5C377797179ABF3E"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "08E592312C7CBF11"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "There are no by-products in steam grinding, you have to wait until HV to have by-products"
+			tasks: [{
+				id: "6ACDB1E4B636D7F0"
+				title: "Steam Multiblock"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			id: "01BE9636A48E20C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DA603FEEE71F72F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "307F53BB79525F7B"
+				item: "gtceu:steam_pressor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6525C9DE2A276238"]
+			id: "57572F71374E159B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DF078AD0FA35949"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "341FAED2472D0781"
+				item: "gtceu:steam_piston_hammer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			id: "23F12378FC88D5A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC41DFE1662F2A7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "184C055C24637B97"
+				item: "gtceu:steam_foundry"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			id: "1D7C4653AAF30E57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F9AF7CEB18CD446"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11E710E80F5ED1FF"
+				item: "gtceu:large_steam_bath"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			id: "1FD5C000D22F9580"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "772784C7C46DEFE7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6AAF70C168C31EF4"
+				item: "gtceu:large_steam_thermal_centrifuge"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5E55C7565A39AF65"]
+			id: "47DE21A08EB47806"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37459E6780A38F04"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FEDBF6B9BEF2DD0"
+				item: "gtceu:large_steam_macerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			id: "1B3FE44FB44DBA87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03E0BB0A0FF3A559"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EA6FD400E9FB4AD"
+				item: "gtceu:large_steam_ore_washer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			id: "7BC8D7B69C0BC9DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237608555B58BA98"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "200D9F2E606320B0"
+				item: "gtceu:large_steam_mixer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BFC342697BDE75A"]
+			id: "5E55C7565A39AF65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "280E3F55655DE5B8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6C17AF20C3B136DA"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			id: "758038CF5945255E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3707E2DB845D05"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AFAF649725A179C"
+				item: "gtceu:steam_input_hatch"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["758038CF5945255E"]
+			id: "56DBABEC051CC755"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "577864E26FC9DE53"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DE45AB70C05675D"
+				item: "gtceu:large_steam_input_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+	]
+	subtitle: ["Tier0.5-ULV"]
+	title: "age of steam"
+}

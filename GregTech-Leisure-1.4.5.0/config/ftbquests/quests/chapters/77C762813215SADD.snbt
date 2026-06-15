@@ -993,13 +993,11 @@
 			icon: "gtlcore:world_fragments_nether"
 			id: "36F2CA6E24DE74E1"
 			size: 1.0d
-			tasks: [
-				{
-					id: "377042ABB6567FBD"
-					title: "veias inferiores"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "377042ABB6567FBD"
+				title: "veias inferiores"
+				type: "checkmark"
+			}]
 			x: 24.0d
 			y: 0.0d
 		}
@@ -1009,13 +1007,11 @@
 			icon: "gtlcore:world_fragments_end"
 			id: "71DEF0909984EE63"
 			size: 1.0d
-			tasks: [
-				{
-					id: "6F190A09C2230BC7"
-					title: "veias finais"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6F190A09C2230BC7"
+				title: "veias finais"
+				type: "checkmark"
+			}]
 			x: 24.0d
 			y: 3.5d
 		}
@@ -1025,13 +1021,11 @@
 			icon: "gtlcore:world_fragments_overworld"
 			id: "2BECA06D9AF485D3"
 			size: 1.0d
-			tasks: [
-				{
-					id: "1DAF439DEDBD42A0"
-					title: "Veios minerais do mundo superior"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1DAF439DEDBD42A0"
+				title: "Veios minerais do mundo superior"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -1041,13 +1035,11 @@
 			icon: "gtlcore:world_fragments_reactor"
 			id: "3FFD20E53A9DF62A"
 			size: 1.0d
-			tasks: [
-				{
-					id: "69F1DA9AF626411A"
-					title: "Veios minerais do mundo antigo"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "69F1DA9AF626411A"
+				title: "Veios minerais do mundo antigo"
+				type: "checkmark"
+			}]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1367,12 +1359,10 @@
 			dependencies: ["075D368E91231337"]
 			description: ["Este capítulo lista apenas os veios únicos de cada dimensão, os recorrentes só serão mencionados na primeira vez que aparecerem."]
 			id: "4BADDE862BDA04BA"
-			tasks: [
-				{
-					id: "3345D7655113741E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "3345D7655113741E"
+				type: "checkmark"
+			}]
 			title: "Prefácio"
 			x: -4.5d
 			y: 0.0d
@@ -1382,13 +1372,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_moon"
 			id: "74F1C81B60FABEAA"
-			tasks: [
-				{
-					id: "48929967A3BEAA01"
-					title: "veias lunares"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "48929967A3BEAA01"
+				title: "veias lunares"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -1538,13 +1526,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_mars"
 			id: "0CE213ED8D234B0A"
-			tasks: [
-				{
-					id: "36EF29137DC38E08"
-					title: "Veias marcianas"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "36EF29137DC38E08"
+				title: "Veias marcianas"
+				type: "checkmark"
+			}]
 			x: 19.0d
 			y: 0.0d
 		}
@@ -1666,13 +1652,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_venus"
 			id: "423F98D732C4D981"
-			tasks: [
-				{
-					id: "0ED89C2EA5B44FC7"
-					title: "Veias de Vênus"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0ED89C2EA5B44FC7"
+				title: "Veias de Vênus"
+				type: "checkmark"
+			}]
 			x: 27.5d
 			y: 3.5d
 		}
@@ -1709,13 +1693,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_mercury"
 			id: "108D89FA7643AEB8"
-			tasks: [
-				{
-					id: "4BE32C3F21E70B08"
-					title: "veia de mercúrio"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4BE32C3F21E70B08"
+				title: "veia de mercúrio"
+				type: "checkmark"
+			}]
 			x: 27.5d
 			y: 0.0d
 		}
@@ -1817,13 +1799,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_ceres"
 			id: "76F659B8F102B236"
-			tasks: [
-				{
-					id: "4E73854CB6C0A883"
-					title: "Mina de Ceres"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4E73854CB6C0A883"
+				title: "Mina de Ceres"
+				type: "checkmark"
+			}]
 			x: 8.5d
 			y: 3.5d
 		}
@@ -1859,13 +1839,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_io"
 			id: "56AF6D5B1E2205DC"
-			tasks: [
-				{
-					id: "73B96560086419EE"
-					title: "Veias Minerais Io"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "73B96560086419EE"
+				title: "Veias Minerais Io"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: 3.5d
 		}
@@ -1876,7 +1854,7 @@
 				""
 				"A sílica pode ser processada em sílica enriquecida, super sílica, índio e trititânio em &dLuV&re &cZPM&rrespectivamente."
 				""
-				"{\\\"text\\\":\\\"Pode até ser usado como combustível para gerar eletricidade.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3E951CCF86DDA5CB\\\"}}"
+				"{\"text\":\"Pode até ser usado como combustível para gerar eletricidade.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E951CCF86DDA5CB\"}}"
 			]
 			icon: "gtceu:iostone_naquadah_ore"
 			id: "5FDD8771824E57CF"
@@ -1943,13 +1921,11 @@
 			hide_dependent_lines: true
 			icon: "gtlcore:world_fragments_ganymede"
 			id: "65A7AD4DF669F605"
-			tasks: [
-				{
-					id: "2A2B08E5908F587E"
-					title: "Lode de Ganimedes"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2A2B08E5908F587E"
+				title: "Lode de Ganimedes"
+				type: "checkmark"
+			}]
 			x: 19.0d
 			y: 3.5d
 		}

@@ -1,0 +1,2181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "250070563F8F7511"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "250070563F8F7511"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"25A6B2F421327892"
+				"65BFE4FC9735A317"
+				"338B78A9B370B1C1"
+			]
+			description: [
+				"&lIn this package, the game mode must be air island mode and create an air island map. If you find that you were born in the main world, please delete the file and recreate the world."
+				""
+				"If there are any bugs in the private version, please contact the person who uploaded the private version. Please do not ask in the official group chat."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:grass_block"
+			icon_scale: 2.0d
+			id: "075D368E91231337"
+			rewards: [
+				{
+					count: 64
+					id: "36B4CF4D8F7CFC86"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "04205FE41742BF68"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "712002D57E5A1A80"
+					item: {
+						Count: 1
+						id: "ae2:fluix_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5
+								}
+							]
+							RepairCost: 3
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "start"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&l·&fThis task contains important information during the game"
+				"&l·&fis designed to guide you through major GregTech milestones"
+				"&l·&fIt is recommended to play in&6peaceful mode &f, hostile creatures bring little benefits"
+				"&l·&fcan be freely used as needed to transfer&6map &f, adjust&6game rules &f, etc."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:command_block_minecart"
+			id: "25A6B2F421327892"
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Before playing"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&l·&fis a GregTech integration package focusing on leisure, which is less difficult than other GrayTech packages."
+				""
+				"&l·&fMain processes"
+				"&l·&7Steam&8ULV &r: Collect basic resources, larger and more powerful steam machines, steel making, ultra-dimensional earth forge"
+				"&l·&7Low voltage&7LV &r: Basic electric equipment, electric blast furnace"
+				"&l·&7medium voltage&bMV &r: silicon crystal, oil processing, upgraded machine"
+				"&l·&7High Voltage&6HV &r: Processor, large chemical reactor, first-stage rocket to the moon, distillation tower, titanium"
+				"&l·&7Ultra-high voltage&5EV &r: Nanoprocessor, void mining machine, second, third and fourth stage rocket, tungsten, platinum series metals"
+				"&l·&7Strong pressure guide&9IV &r: quantum processor, alloy smelting furnace, fission reactor, fifth-stage rocket, large machine, assembly line, database"
+				"&l·&7drama differential pressure&dLuV &r: crystal processor, silica, sixth-stage rocket, nuclear fusion MK1, computer"
+				"&l·&7Zero point pressure&cZPM &r: wetware processor, nuclear fusion MK2, seventh-stage rocket"
+				"&l·&7Ultimate Pressure&3UV &r: Bioactive Processor, Nuclear Fusion MK3, Deep Chemical Twister, Circuit Assembly Line, Space Elevator"
+				"&l·&7Ultra High Voltage&4UHV &r: Optical Processor, Nuclear Fusion MK4, Stellar Flame Forge, Super Silica Bomb, Super Reactor"
+				"&l·&7Extreme Overpressure&aUEV &r: Strange Processor, Fusion MK5, Supercritical Synthesis, Bedrock Processing, Adamantite"
+				"&l·&7Extreme Pressure&2UIV &r: Universal Processor, Universe Detection, Mass Generator, Quarks, Superheavy Elements"
+				"&l·&7Extreme Pressure&eUXV &r: Super Causal Processor, Dragon, Cosmic Neutron, Endless, Ultra-Dimensional Plasma Forge, Lado X"
+				"&l·&7Overload Voltage&1OpV &r: Hyper-space-time circuit, universe simulation, time and space, singularity, eternity"
+				"&l·&7Upper limit pressure&cMAX &r: Create item synthesis"
+				"&l·&7Additional questions&cM&r&aA&r&9"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:structure_void"
+			id: "4536535E8DA71D5B"
+			min_width: 350
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "About content"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"075D368E91231337"
+				"096E10631D12B7D4"
+			]
+			description: ["It goes without saying how to obtain this."]
+			id: "77DF4A561164B530"
+			tasks: [{
+				id: "4FF3F7FDB78E5053"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A96F99E9B466799"]
+			description: ["Stone Age"]
+			icon: "minecraft:cobblestone"
+			id: "2DC6C5D7DDA578F7"
+			rewards: [{
+				id: "0AD34EEC27E458CA"
+				item: {
+					Count: 1
+					id: "ae2:fluix_pickaxe"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "426437E5876CC96A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Get cobblestone"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DC6C5D7DDA578F7"]
+			description: [
+				"&l·&bFurnace&fAll recipes in the private version are instant burning"
+				""
+				"&l·&bME tag output bus&fcan help you build a small assembly line in the early stage"
+				"&l&ffurnace only&aabove&faccepts input,&abelow&faccepts output"
+				""
+				"&l·&fCoarse mineral mineral wildcard:&e“forge:raw_materials”"
+				"&l·&fRaw mineral wildcard:&e“forge:ores”"
+				"&l·&fDiamonds are legendary for their resistance to burning, and compressed diamond blocks are even more so."
+			]
+			id: "0EA3AAE338C0FE7A"
+			rewards: [
+				{
+					id: "7DF9A64D04FF9F88"
+					item: "expatternprovider:tag_export_bus"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68B30ADB127E0BDB"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "19D3653E5655B95F"
+					item: "kubejs:diamond_compressed_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1594A33E877D3E59"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+				{
+					id: "54E2ABD6321F5E1F"
+					item: "pipez:wrench"
+					type: "item"
+				}
+				{
+					id: "621AA8531B8C6041"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04BF77BE023E656F"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77DF4A561164B530"]
+			description: [
+				"&l·&fRight-click&8Obsidian&fto go to&7Void World &f, right-click&5Weeping Obsidian&fto go to&7Super Flat World"
+				"&l&fTransfer position&6X, Z&fcoordinates are the main world coordinates&6100 times &f"
+				"&l&cNote &f: Coordinate anomalies may occur if it is too far from the origin. It is recommended to avoid it."
+				""
+				"&l·&fThe void world and the super-flat world are time-locked, and creatures will not be refreshed and it will not rain."
+				"&l&fBut it is still affected by the weather in the main world (when it rains in the main world, the two worlds turn to cloudy)"
+				""
+				"&l·&fIn the above world,&bGT solar device&fcannot work"
+			]
+			icon: "minecraft:obsidian"
+			id: "07AC1B02299EF734"
+			optional: true
+			rewards: [
+				{
+					id: "29C2D0C50033539C"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6EC17DCD4A7DF139"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+				{
+					id: "4FAF4CE9DB085C12"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "2886B347BD9A06B9"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
+			title: "You can go to the void world to build a base"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2DC6C5D7DDA578F7"]
+			description: [
+				"Entering the Iron Age"
+				""
+				"&aThis portable component is useful. Don’t throw it away."
+			]
+			id: "2C6F506ADD78F277"
+			rewards: [
+				{
+					id: "1DC27EA1D26C5D2F"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							internalCurrentPower: 2000000.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "779A4E88384434F2"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28215E02018149ED"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "67DD6CA240F794CA"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "5C55D2E7ACAEE4CA"
+					item: "gtceu:tin_ingot"
+					type: "item"
+				}
+			]
+			title: "collect minerals"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"&6Thanks to the fragile tool components of G Suraoden, employees can directly abandon the original tools when writing samples."
+				""
+				"&6Fragile tools can be understood as a set of tools with a durability of only 1, which will be automatically destroyed after synthesis."
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "6A7BE998C2EC882D"
+			rewards: [{
+				id: "13029760711551D0"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Fragile tool component package\"}"
+						}
+						ic: 10L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_file"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_hammer"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_mallet"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_wrench"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_wire_cutter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_crowbar"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_saw"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_screwdriver"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_knife"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_mortar"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C6D35E55DFD3CB0"
+				type: "checkmark"
+			}]
+			title: "Make tools"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A7BE998C2EC882D"]
+			dependency_requirement: "all_started"
+			description: ["Grind it into powder using a mortar and mix it with your hands"]
+			id: "133BC85B5D3EF1CB"
+			rewards: [{
+				id: "0DA275C860355A9D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "327FF4C13FFEC8B6"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					id: "788C88B4C8AD93FC"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+			]
+			title: "Copper powder and tin powder"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["133BC85B5D3EF1CB"]
+			description: ["Main materials of the steam age"]
+			id: "4B6F43302E963F5E"
+			rewards: [
+				{
+					id: "45521EDF902431C8"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "0FA0E54BE4474E55"
+					item: "minecraft:stone_button"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57C6A23ADA9034AA"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A7BE998C2EC882D"]
+			description: [
+				"&l·&fHandheld terminal&6Sneak right-click multi-block host&fcan automatically build a multi-block structure,&dempty-handed&fwill display a preview"
+				"&l·&fTerminal recognizes the block in&bnot in the accessory slot &f's exquisite backpack"
+				""
+				"&l·&fThere are a few problems with automatic construction. It is recommended to put only the structure blocks in the backpack first, and then manually place the functional warehouse after building the main body."
+				"&l·&fThe warehouse-less mode is very useful, but you need to right-click and open the GUI every time you enter the archive before it will take effect."
+				""
+				"&l·&fThe number of repeated structures is suitable for multi-block structures that can be stacked in multiple layers, such as distillation towers. The larger the value, the longer the structure."
+				"&l·&fBased on the advanced terminal,&bis supported to replace the&fcoil, space elevator power module, component assembly line shell and stellar thermal container (click the \"level box\" text to open the selection interface)"
+				""
+				"&l·&fsupports&bmirror placement&fmulti-block structure, no warehouse mode continues to take effect"
+				"&l·&fDemolition mode requires dismantling and closing once. You don’t want to explode all the samples, right?"
+				"&l·&f&6Shift+right click&fUnlimited access to nodes, can extract items and fluids in AE during construction, especially useful for multi-block structures that require water"
+			]
+			icon: {
+				Count: 1
+				id: "gtlcore:ultimate_terminal"
+				tag: {
+					AEMode: 0b
+					BoundAE: {
+						X: 18
+						Y: 88
+						Z: 26
+						dim: "minecraft:overworld"
+					}
+					DismantleMode: 0b
+					NoHatchMode: 1b
+					RepeatCount: 0
+					ReplaceMode: 1b
+					Tier: 16
+					blocks: "coil"
+				}
+			}
+			id: "4AB25C15F0B05AA0"
+			min_width: 350
+			rewards: [{
+				id: "35D6F9168956F794"
+				item: {
+					Count: 1
+					id: "gtlcore:ultimate_terminal"
+					tag: {
+						AEMode: 0b
+						BoundAE: {
+							X: 80
+							Y: 64
+							Z: 79
+							dim: "kubejs:flat"
+						}
+						DismantleMode: 0b
+						NoHatchMode: 0b
+						RepeatCount: 0
+						ReplaceMode: 0b
+						Tier: 1
+						blocks: "coil"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45C33C0157520B13"
+				title: "terminal"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4AB25C15F0B05AA0"]
+			description: ["The default Y key can switch slots"]
+			icon: "kubejs:warped_ender_pearl"
+			id: "72AFAC66A9EC5F1A"
+			optional: true
+			rewards: [{
+				id: "16D977A5C13DD6A2"
+				item: "kubejs:warped_ender_pearl"
+				type: "item"
+			}]
+			subtitle: "If you don't like using commands or the minimap"
+			tasks: [{
+				id: "26A4AD36BD56873A"
+				title: "transmitter"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"Ancient gold coins can be exchanged for treasures at the small market"
+				""
+				"Diamond is the king of resistance to burning and is recommended for boilers"
+			]
+			id: "2E6B876A85B30554"
+			rewards: [{
+				id: "4C4D7911A44B42C2"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CD84934E0B48CD4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1EE7EFCCC10CA395"
+					item: "gtceu:lead_ingot"
+					type: "item"
+				}
+				{
+					id: "7C87E9AE267A441A"
+					item: "gtceu:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "68643AA8783BC7E6"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "729E31CB328745E5"
+					item: "gtceu:nickel_ingot"
+					type: "item"
+				}
+			]
+			title: "More mines"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: ["Use an anvil to upgrade"]
+			id: "0A047A198C30D7FD"
+			optional: true
+			rewards: [{
+				count: 7
+				id: "0E8E94B52A21BFCA"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A23943381FB2DC4"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B6F43302E963F5E"]
+			description: ["With bronze, you can start crafting various steam-powered machines"]
+			icon: "gtceu:lp_steam_alloy_smelter"
+			id: "46F82A0A3D57C225"
+			rewards: [{
+				id: "07408B5DAB665BC8"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "529B5BE92883F9CE"
+				title: "steam age"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6F43302E963F5E"]
+			description: [
+				"✓Online"
+				"✓Jump around on the machine"
+				"✓Jump around on the machine"
+				"✓Jump around on the machine"
+				"offline"
+			]
+			icon: "usclb:clipboard"
+			id: "0FA161E6D70D211E"
+			optional: true
+			rewards: [{
+				id: "4B16101838A6524C"
+				item: "usclb:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B126388869ACC4"
+				type: "checkmark"
+			}]
+			title: "take notes"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: ["Materials with multi-block structure can be placed in the backpack, not in the accessories slot, and will be automatically retrieved when molding using the terminal."]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "75E8F87D6035DB24"
+			optional: true
+			rewards: [
+				{
+					id: "1FC671AA05297C53"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "760B3EB053B430E3"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "30725E119C313D96"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "6615A674FDCB50C1"
+					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "4DC756AD1D9BD1A3"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "49880549D24D83E2"
+					item: "sophisticatedbackpacks:advanced_void_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0391B87B11C80FAA"
+				type: "checkmark"
+			}]
+			title: "Exquisite series"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B6F43302E963F5E"]
+			description: [
+				"&l·&fSneak right click&6Wireless access point&fcan be bound to the ME network (you can also put it directly) to directly call items in the ME network"
+				""
+				"&l·&fWhen using the cutting tool, try not to rotate&c&f, otherwise it may cause part of the NBT of the block to be lost"
+				""
+				"&l·&fThe wireless energy warehouse, wireless power warehouse, and wireless laser warehouse placed/copied using the above tools need to use&dflash memory&fto manually bind the wireless network by right-clicking, otherwise the warehouse cannot interact with the wireless network (that is, there is no power supply or no output)"
+			]
+			icon: "buildinggadgets2:gadget_building"
+			id: "4B7B7EA38B836F96"
+			optional: true
+			rewards: [
+				{
+					id: "129145AE2D5F717B"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D25323AB959BB72"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							energy: 2147483647
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47615B2849B4F6DB"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44C69CAC34076230"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61B8724EEB01A83F"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: {
+							energy: 2147483647
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "These tools are very useful"
+			tasks: [{
+				id: "325132BE2D401942"
+				type: "checkmark"
+			}]
+			title: "Construction helper"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4AB25C15F0B05AA0"]
+			description: [
+				"&l·&fRight-click on the blocks except the multi-block structure host to switch between mirror mode and normal mode"
+				"&l&cPlease do not use it frequently unless necessary, as it may cause the game to crash."
+			]
+			id: "1D93602C5835593F"
+			optional: true
+			rewards: [{
+				id: "0ECF96D85FE8AB8F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7AB796D165A6C084"
+				item: "gtlcore:structure_detect"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&l·&bPerformance Monitor&fmonitors delays caused by all machines"
+				""
+				"&l·&fEnter&6/forge tps&fto check the game delay. It is recommended to keep&6tps&fas&620"
+				""
+				"&l·&fThe following things may be the cause of lagging:"
+				"&l·&fBuild all machines in a small space: does not affect&6tps &f, but will reduce&6fps"
+				"&l·&fuses the input/output bus extensively: it is recommended to use the&bME interface instead"
+				"&l·&fPlace multiple orders and the single quantity is small: It is recommended to reduce the number of&6CPU parallel&fand increase the sample magnification at the same time"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:data_stick"
+				tag: { }
+			}
+			id: "516564DCEA7FA80B"
+			rewards: [{
+				id: "0CBA8C238306FA5A"
+				item: "gtceu:performance_monitor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0716704AAA0124C9"
+				type: "checkmark"
+			}]
+			title: "If you feel stuck"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6A7BE998C2EC882D"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:stainless_steel_wire_cutter"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 3
+						MaxDamage: 1023
+						ToolSpeed: 11.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "6351549C3E192BA3"
+			optional: true
+			rewards: [
+				{
+					id: "3B1463C98BA27DF7"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE2255D55B16430"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6DE3C3C56BB53A"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6655216672D046CF"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055ADEDF7D0791A4"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C918678E17D3364"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20894971EB749758"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02E86F6C1BB17D0F"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19752643B33099DF"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E1084BD2F2E7F77"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Give you a set"
+			tasks: [{
+				id: "6C2749E3467F421C"
+				type: "checkmark"
+			}]
+			title: "If you prefer the original tool"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&6&l\"The choice for departure\""
+				""
+				"&5▌ Foreword:"
+				"&fTraveler, welcome to the world of GregTech."
+				"&fAt this moment, a pill will determine the rules of this world and your starting point."
+				""
+				"&5▌&dPurple Pill · Path of the Successor"
+				"&fChoose it and you will return as an experienced multi-game traveler."
+				"&fThe experience of the past life is turned into a guide, and the auxiliary optical brain will provide you with a lot of help."
+				"&fThe laws of this world are more tolerant to you and are suitable for you to explore new mysteries calmly."
+				"&7Becoming a god or a false god? It's up to you - and at your expense."
+				""
+				"&5▌&eYellow Pill · Pioneer Journey"
+				"&fChoose it and you will step into this world as a pure new student."
+				"&f\"Pan-Galaxy Gray Technology Co., Ltd.\" will be your solid backing."
+				"&fRich initial supplies are ready, inviting you to immerse yourself in the deep challenge of starting from scratch."
+				"&fThis route does not include the path to becoming a god and remains original."
+				""
+				"&6&l※ Final tips:"
+				"&eThis is a choice that shapes your destiny."
+				"&ePlease follow your heart."
+			]
+			icon: "kubejs:annihilation_constrainer"
+			id: "338B78A9B370B1C1"
+			tasks: [{
+				id: "375B37A687ADE758"
+				type: "checkmark"
+			}]
+			title: "choice of fate"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["338B78A9B370B1C1"]
+			description: ["This task and the&6yellow pill&ftask can only be chosen one from the other."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "gtceu:rad_away_pill"
+			id: "38D7837BE9480F5E"
+			incompatible: [
+				"33111A35EDDAB7A0"
+				"3A6BC3AF5296E6DF"
+			]
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "153ED1BD4D94D17A"
+				type: "checkmark"
+			}]
+			title: "purple pill"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["38D7837BE9480F5E"]
+			description: [
+				"&5&lPurple Pill: Imprint of Past Life"
+				""
+				"&f- This is not the first encounter. As a returnee from the awakening, you carry with you memories and skills you already possess."
+				"&f- The AE system knowledge engraved in your soul is your most precious legacy at the beginning."
+				"&f- The blueprint of all things has been loaded into the super light brain connected to your consciousness."
+				"&f- All the formulas that need to be researched are directly open to you, and any complex calculations can be completed in an instant."
+				"&f- You will have the opportunity to start a road to becoming a god or a false god"
+				""
+				"&c&l※ Important reminder:"
+				"&c- Database Please do not use all energy bins in advanced bins."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "gtceu:rad_away_pill"
+			id: "52F4BB406C323852"
+			incompatible: [
+				"33111A35EDDAB7A0"
+				"3A6BC3AF5296E6DF"
+			]
+			optional: true
+			rewards: [
+				{
+					id: "01F7417D892487C9"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "074AC6BA4E04C55C"
+					item: "expatternprovider:ex_drive"
+					type: "item"
+				}
+				{
+					id: "2370BC888E829F97"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "291A777EAB38A275"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25933FCA382DDC0B"
+					table_id: 9124141049972917098L
+					type: "choice"
+				}
+				{
+					id: "0271355138D6B9A0"
+					item: "gtlsupb:data_maintenance_hatch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5939285C1A6EFC10"
+					item: "gtlsupb:computation_maintenance_hatch"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5CDE84DCD9F13ECC"
+				type: "checkmark"
+			}]
+			title: "purple pill reward"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["338B78A9B370B1C1"]
+			description: ["This task and the&dPurple Pill&ftask can only be chosen one from the other."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "gtceu:paracetamol_pill"
+			id: "33111A35EDDAB7A0"
+			incompatible: [
+				"38D7837BE9480F5E"
+				"52F4BB406C323852"
+			]
+			optional: true
+			shape: "gear"
+			tasks: [{
+				id: "4FFCC4526002C959"
+				type: "checkmark"
+			}]
+			title: "yellow pill"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["33111A35EDDAB7A0"]
+			description: [
+				"&5&lYellow Pill: The Beginning of the Journey"
+				""
+				"&f- This is your first encounter with a massive industrial legend."
+				"&f- Don't worry, the abundant capital of \"Pan Galaxy Gray Technology Co., Ltd.\" will be your solid backing."
+				"&f- Accept this starting resource and step into this new world composed of machinery and logic."
+				"&f- Build your first blast furnace with your own hands and write your own pioneering epic."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "gtceu:paracetamol_pill"
+			id: "3A6BC3AF5296E6DF"
+			incompatible: [
+				"38D7837BE9480F5E"
+				"52F4BB406C323852"
+			]
+			optional: true
+			rewards: [
+				{
+					id: "4F29662DF04F70E1"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2FE20C3343E153E6"
+					item: "expatternprovider:ex_drive"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "70184A537440D0F9"
+					item: "ae2:white_covered_cable"
+					type: "item"
+				}
+				{
+					id: "2AF35A4E632CC91E"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662B6616177CDE98"
+					table_id: 9124141049972917098L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "55AACA948447C227"
+				type: "checkmark"
+			}]
+			title: "yellow pill reward"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			description: [
+				"&6&l\"Private version description\""
+				""
+				"&5▌ Overview:"
+				"&f- This integration package is based on the original production of \"GregTech: Leisure\". It is not the original version. All copyrights belong to the original production team."
+				"&f- Modules have been added and removed and task content has been adjusted."
+				""
+				"&5▌ Changes:"
+				"&f- Added a large number of KJS scripts and adjusted the ways to obtain a large number of items."
+				"&f- Restructured part of the quest line and added several additional chapters."
+				"&c- Tip: This version is not recommended for players who are new to GregTech: Leisure."
+				"&f- If you want the original experience, please go to the \"GregTech: Leisure\" official group to get the original integration package."
+				""
+				"&4&lWarning:"
+				"&c- Any form of forwarding or secondary dissemination is prohibited."
+				"&c- It is prohibited to disclose the content or screenshots of this version in the official GregTech related groups."
+				"&c- This version is a modified version, unofficial release, please be careful to identify it."
+				"&c- You must bear any consequences caused by violating the above."
+				""
+				"&6&l※Statement:"
+				"&e- I am only responsible for the integration work, and all KJS scripts and modules are from"
+				"&e- Community sharing and public resource site (such as MC Encyclopedia), the copyright belongs to the respective original authors."
+				""
+				"&aCurrent version:&l4.0"
+			]
+			icon: "minecraft:writable_book"
+			id: "65BFE4FC9735A317"
+			min_width: 250
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6771503E8EF84F6F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				elapsedTime: 120L
+				id: "254FC0D42FCC1A5A"
+				title: "Please read it carefully. This is very important."
+				type: "questsadditions:time"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52F4BB406C323852"]
+			description: [
+				"&4&lCritical balance warning"
+				"&cAfter completing this task, a&4&lstore that extremely affects the game balance&cwill be permanently unlocked."
+				""
+				"&4&l▌ Reminder:"
+				"&c● Newbie player&4&lIt is strongly not recommended that&ccomplete this task!"
+				"&c● This store is only available for&6speedrunners&cor&6multi-game players &c."
+				""
+				"&4&l▌ Notes:"
+				"&7Once unlocked, the store will provide resources and items beyond the ordinary."
+				"&7will&cseriously ruin&7your experience of playing GTL for the first time."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:nether_star"
+			id: "48448F256F0614B3"
+			incompatible: [
+				"33111A35EDDAB7A0"
+				"3A6BC3AF5296E6DF"
+			]
+			rewards: [{
+				command: "/say Super store has been opened"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:spacetime"
+					}
+				}
+				id: "142BC4D770EF4B2E"
+				title: "&4Open Super Store"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "5C7954097BC9EC72"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			title: "super store"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&5▌ Default description:"
+				"&f- In the integration package, the mapping of the template has been configured"
+				"&f- Just rename the corresponding&6template assembly&for&6template supplier&fto the name of the current operating mode of the machine"
+				"&f- Use&equartz cutting knife&fto rename; the sample assembly can be renamed directly in the upper right corner of the interface"
+				""
+				"&5▌ Naming example:"
+				"&e● Regular machine&f- Example: Rename&fgiant assembly plant&fto&6assembly machine"
+				"&e● Multi-mode machine&f- For example,&fstamping machine &f, multiple sample assemblies or sample suppliers need to be prepared and named respectively:"
+				"&fFor example:&fCompression molding machine-gear &f,&fCompression molding machine-large pipe"
+			]
+			icon: "extendedae_plus:wireless_transceiver"
+			id: "435CFED3A9190C8A"
+			tasks: [{
+				id: "622FD0182D269781"
+				title: "EAEP mapping changes"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&f- This integration package enables&eisland mode&fby default."
+				""
+				"&6&l» Main parameters"
+				"&f- Machine processing speed:&e0.1&f(i.e. 10 times faster)"
+				"&f- Original Void Miner:&aon"
+				"&f- Mineral processing magnification:&e64 times"
+				""
+				"&4&lImportant reminder: About GTL Additions super sample assembly"
+				"&c- This item has been preset to&ewith a maximum grid count of &c, please do not change this configuration."
+				"&c- If you need to migrate the archive, be sure to copy the configuration file&cof the&eGTL Additions as well."
+				"&c- Otherwise, all internal&4templates will be lost and&cwill be lost."
+			]
+			icon: "gtceu:aluminium_gear"
+			id: "6C46E5641ADF7F11"
+			rewards: [
+				{
+					command: "/gamerule doDaylightCycle false"
+					elevate_perms: true
+					id: "7AA1E6BCFCEDECA7"
+					title: "Prohibition of day and night changes"
+					type: "command"
+				}
+				{
+					command: "/gamerule doWeatherCycle false"
+					elevate_perms: true
+					id: "62F94A62247376F2"
+					title: "No weather cycles"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "287CE358FA260F77"
+				title: "Private version configuration related"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B6F43302E963F5E"]
+			description: [
+				"&l·&7Connect it to the&6AE network&7to detect or submit items/fluids in storage to complete the&6FTB task"
+				""
+				"The&l·&7detector is bound to the&6FTB team&7of the player who placed it, and will automatically detect items in storage to complete non-consuming tasks."
+				""
+				"When&l·&7team members take the initiative to submit in the task interface, they will first consume the items/fluid in&6ME storage &7"
+			]
+			icon: "ae2_ftbquest_detector:me_quests_detector"
+			id: "3F38A56BBD3D0F9E"
+			rewards: [{
+				id: "496BB1E0D95184DB"
+				item: "ae2_ftbquest_detector:me_quests_detector"
+				type: "item"
+			}]
+			subtitle: "Submit task items more efficiently"
+			tasks: [{
+				id: "169E6283F7FFC3D3"
+				type: "checkmark"
+			}]
+			title: "ME task detection tool"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77DF4A561164B530"]
+			description: [
+				"&l·&fsolar panels only work in the overworld"
+				""
+				"The working voltage of the&l·&ffragmented world collector is&7&lULV &f. If the solar panel is not used for power supply, the&6transformer&fneeds to be used to step down the current to&7&lULV."
+				""
+				"&l·&fThe fragmented world collector comes with a fluid output space of&b&l32B &f. The machine will not work when the single fluid output exceeds this value."
+			]
+			icon: "minecraft:diamond_ore"
+			id: "4A96F99E9B466799"
+			optional: true
+			rewards: [
+				{
+					id: "31DBF03318AE15EC"
+					item: "gtceu:ulv_fragment_world_collection_machine"
+					type: "item"
+				}
+				{
+					id: "677F8A6CE75FBD15"
+					item: "gtceu:ulv_solar_panel"
+					type: "item"
+				}
+				{
+					id: "5A1995501697C2C5"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "minecraft:cobblestone"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3E6A3339C1B57B77"
+					item: "gtlcore:world_fragments_overworld"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4A74C9197766D99E"
+					title: "Where does the ore come from?"
+					type: "checkmark"
+				}
+				{
+					id: "5C404C08CEB6EEB8"
+					item: "gtlcore:mining_crystal"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A96F99E9B466799"]
+			description: ["The output gradually increases in sequence"]
+			hide_until_deps_visible: true
+			id: "47F5E784AD479E6F"
+			min_required_tasks: 1
+			optional: true
+			subtitle: "These are drill bits that can be used to collect fluids"
+			tasks: [
+				{
+					id: "4D3C4DD2525E28E2"
+					item: "gtceu:steel_drill_head"
+					type: "item"
+				}
+				{
+					id: "0A73AF59C948B18F"
+					item: "gtceu:titanium_drill_head"
+					type: "item"
+				}
+				{
+					id: "728B3CA1DB234D56"
+					item: "gtceu:naquadah_alloy_drill_head"
+					type: "item"
+				}
+				{
+					id: "6E4B30CBFAA562F4"
+					item: "gtceu:neutronium_drill_head"
+					type: "item"
+				}
+				{
+					id: "77F5002AC62CDCD0"
+					item: "kubejs:machine_casing_grinding_head"
+					type: "item"
+				}
+			]
+			title: "Five types of drill bits"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			id: "7A138E175000BDB3"
+			rewards: [
+				{
+					id: "41FEAC6C24F048A3"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5B957990E18EA3B9"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "24C34D5D90DA2D06"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "3D0B840F2206230B"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "100DA280A0826285"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "41D74AD9DEF63C21"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "3172C665E25BE8D8"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "7C5120395273CA3E"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+				{
+					id: "19CFFD303BC66B14"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42300AE23C66B60A"
+				title: "Sapling gift pack"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07AC1B02299EF734"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "62EC7CE2D95D7E45"
+			optional: true
+			rewards: [{
+				id: "259B5B5101AFDD05"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"Infinite Concrete Element Pack\",\"italic\":false}"
+						}
+						ic: 16L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:white_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:orange_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:magenta_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:light_blue_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:yellow_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:lime_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:pink_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:gray_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:light_gray_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cyan_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:purple_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:blue_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:brown_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:green_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:red_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:black_concrete"
+									}
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Have some infinite concrete elements"
+			tasks: [{
+				id: "12E0BAD076A806BA"
+				type: "checkmark"
+			}]
+			title: "free building materials"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07AC1B02299EF734"]
+			description: [
+				"&l&ais a very useful island expansion tool that can automatically identify and fill 1X1 or 3X3 blocks."
+				""
+				"&7•&fUse a wooden stick or wrench for mode adjustment."
+				""
+				"&7•&fHold the controller close to the platform block to display the expanded preview."
+				""
+				"&7•&fRight-click while standing to switch platform types."
+				""
+				"&7•&fRight-click while sneaking to switch whether to fill up or down."
+				""
+				"&7•&fHold any stone and right-click on the platform block to expand the platform according to the current settings."
+				""
+				"&4• When unfolding the platform, please be sure to pay attention to the filling direction"
+				"&4• When filling, it will directly destroy and replace everything in the upper and lower directions of the selected block."
+				"&4• Please squat down and right-click with a wrench or wooden stick to change the mode to"
+				"&4• \"The block above the&aplatform will remain &4\""
+			]
+			icon: "industrial_platform:industrial_platform"
+			id: "3EED8F13FFEC140F"
+			rewards: [{
+				id: "23C63958ED9106F9"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "industrial_platform:industrial_platform"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Dark slate looks better"
+			tasks: [{
+				id: "19CCF32610DADBE8"
+				type: "checkmark"
+			}]
+			title: "Industrial platform"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&lThis is a reminder achievement"
+				""
+				"&lThere are several hidden achievements in this package"
+				"&lThis may be the first one you find"
+			]
+			hide_until_deps_complete: true
+			icon: "gtceu:steam_bucket"
+			id: "113FC98BF64872F0"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5667B6128479F286"
+				table_id: 6225023274141477362L
+				type: "all_table"
+			}]
+			subtitle: "Generate electricity? What generates electricity?"
+			tasks: [{
+				amount: 1000000000L
+				consume_fluid: "FALSE"
+				fluid: "gtceu:steam"
+				id: "06127C993F064039"
+				type: "fluid"
+			}]
+			title: "Steam Mania"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Every time&9restores 1 heart of health, you will automatically get 1 steel ingot, which is the crystallization of your will."
+				""
+				"It is said that when you reply to a certain number of hearts, something magical will happen."
+			]
+			icon: "gtceu:steel_ingot"
+			id: "517AFE9DCCC8D18B"
+			tasks: [{
+				id: "5AFF78E92D3A68C4"
+				type: "checkmark"
+			}]
+			title: "iron will"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2C6F506ADD78F277"]
+			description: [
+				"&9Use your fiery gaze to burn the iron block&fto obtain a wrought iron ingot"
+				"Your main source of wrought iron ingots will be the&6electric arc furnace in the future."
+			]
+			disable_toast: true
+			icon: "gtceu:wrought_iron_ingot"
+			id: "71A79CC3C94E4126"
+			optional: true
+			rewards: [{
+				auto: "no_toast"
+				id: "076351F83ABF8F14"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:iron_block"
+				id: "348A903030EE2DA1"
+				observe_type: 0
+				timer: 5L
+				title: "piercing eyes"
+				to_observe: "minecraft:iron_block"
+				type: "observation"
+			}]
+			title: "piercing eyes"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			id: "096E10631D12B7D4"
+			rewards: [{
+				count: 512
+				id: "6F79B4E9205BDCFD"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			tasks: [{
+				block: "minecraft:logs"
+				block_type: 1
+				checkItem: false
+				id: "1D9C4870C2C06AE2"
+				title: "To get rich, first__"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Get logs"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52F4BB406C323852"]
+			description: [
+				"&l&6The Road of False Gods"
+				""
+				"&7▌ Mission introduction:"
+				"After starting this mission, you will unlock a set of extremely abnormal machines."
+				""
+				"This machine has the following features:"
+				"&l• Unlimited parallelism"
+				"&l• Parallelization across recipes"
+				"&l• No need to consume any power"
+				"&l• Ten thousand times output"
+				"&l• Ignore any recipe conditions"
+				"&l• Covers recipes for most machines"
+				""
+				"&fOnce you select this task, you will:"
+				"&l• Unlock a new set of quest lines and crafting tables"
+				"&l• Unlock all the hidden recipes of this machine"
+				""
+				"&c⚠ Extreme warning:"
+				"This set of machines will greatly change your gaming experience and crush the original balance."
+				"After selecting this mission, you will not be able to complete all hidden missions and true endings."
+				""
+				"&6Please decide carefully."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "sgjourney:golden_idol"
+			icon_scale: 1.3d
+			id: "7DB501C5EE788E1C"
+			optional: true
+			rewards: [{
+				command: "/enableGodPath"
+				icon: "sgjourney:golden_idol"
+				id: "4FF6FE702053E0A6"
+				title: "Start the road to false gods"
+				type: "command"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "6EA91273A97B1BCC"
+				type: "checkmark"
+			}]
+			title: "Path of False Gods"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7DB501C5EE788E1C"
+				"2DC6C5D7DDA578F7"
+			]
+			description: [
+				"&9&lGTL Supb 「 Ancient Stone Furnace 」"
+				""
+				"&7▌ Description:"
+				"&lThe pinnacle of furnaces and electric furnaces"
+				""
+				"&d▌Exclusive machine for the road of false gods"
+				"&l• No energy consumption required"
+				"&l• Has unlimited parallelism"
+				"&l• Parallelization across recipes"
+				"&l• Ignore recipe conditions"
+				"&l• Supports cross-recipe parallelism"
+			]
+			hide_until_deps_complete: true
+			id: "1F63B793CB7EC9FD"
+			tasks: [{
+				id: "326799C94EA2D3F2"
+				item: "gtlsupb:primitive_stone_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7DB501C5EE788E1C"
+				"2DC6C5D7DDA578F7"
+			]
+			description: [
+				"&9&lGTL Supb「Original Fragment Collector」"
+				""
+				"&7▌ Description:"
+				"&lVertex of ordinary collector"
+				""
+				"&d▌Exclusive machine for the road of false gods"
+				"&l• No energy consumption required"
+				"&l• Has unlimited parallelism"
+				"&l• Parallelization across recipes"
+				"&l• Ignore recipe conditions"
+				"&l• Supports cross-recipe parallelism"
+			]
+			hide_until_deps_complete: true
+			id: "73832BD2465163B0"
+			tasks: [{
+				id: "5208DCB4BD6A2FCA"
+				item: "gtlsupb:fragment_world_collector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+	]
+	subtitle: ["Tier0-Stone Age"]
+	title: "start from here"
+}

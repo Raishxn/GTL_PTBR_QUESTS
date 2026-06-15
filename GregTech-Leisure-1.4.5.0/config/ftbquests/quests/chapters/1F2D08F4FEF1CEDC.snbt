@@ -27,20 +27,16 @@
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "7F97BED1B9552E5E"
-			rewards: [
-				{
-					id: "21A127B9A78F381C"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7B797503EA800D59"
-					title: "Configurações básicas"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "21A127B9A78F381C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B797503EA800D59"
+				title: "Configurações básicas"
+				type: "checkmark"
+			}]
 			x: -3.0d
 			y: -2.5d
 		}
@@ -69,20 +65,16 @@
 			]
 			icon: "gtceu:lv_transformer_1a"
 			id: "0CC922B821305906"
-			rewards: [
-				{
-					id: "6AACFA4A99B6EF47"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "34D8E6B118290930"
-					title: "transferência de energia"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "6AACFA4A99B6EF47"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D8E6B118290930"
+				title: "transferência de energia"
+				type: "checkmark"
+			}]
 			x: -1.0d
 			y: -2.5d
 		}
@@ -102,20 +94,16 @@
 			]
 			icon: "gtceu:tin_single_cable"
 			id: "4A7E19EF14D3C072"
-			rewards: [
-				{
-					id: "0742E14D9F82B5DA"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6C551BD24A83AB3F"
-					title: "Transmissão por cabo"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "0742E14D9F82B5DA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C551BD24A83AB3F"
+				title: "Transmissão por cabo"
+				type: "checkmark"
+			}]
 			x: 1.0d
 			y: -2.5d
 		}
@@ -137,20 +125,16 @@
 			]
 			icon: "gtceu:lv_diode"
 			id: "4F7A3702787F86A7"
-			rewards: [
-				{
-					id: "12DB6E7A8A385246"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "007D09C6CE7CB00B"
-					title: "atual"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "12DB6E7A8A385246"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "007D09C6CE7CB00B"
+				title: "atual"
+				type: "checkmark"
+			}]
 			x: 3.0d
 			y: -2.5d
 		}
@@ -168,20 +152,16 @@
 			]
 			icon: "minecraft:clock"
 			id: "5535934109A12B5D"
-			rewards: [
-				{
-					id: "31ED6CE96AA0C0E8"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4DB7B7FC0312D572"
-					title: "Overclock"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "31ED6CE96AA0C0E8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DB7B7FC0312D572"
+				title: "Overclock"
+				type: "checkmark"
+			}]
 			x: 5.0d
 			y: -2.5d
 		}
@@ -197,20 +177,16 @@
 			]
 			icon: "gtceu:active_transformer"
 			id: "010CF028448C17A9"
-			rewards: [
-				{
-					id: "7C3F436CBD1BBB13"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "311562AB006A065E"
-					title: "transformador"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "7C3F436CBD1BBB13"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "311562AB006A065E"
+				title: "transformador"
+				type: "checkmark"
+			}]
 			x: 7.0d
 			y: -2.5d
 		}
@@ -224,19 +200,15 @@
 			]
 			icon: "gtmthings:wireless_energy_monitor"
 			id: "1D4874CA93B567A3"
-			rewards: [
-				{
-					id: "1AA63229CC142EBE"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "673111C64F7BABA2"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "1AA63229CC142EBE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673111C64F7BABA2"
+				type: "checkmark"
+			}]
 			title: "rede de rádio"
 			x: 9.0d
 			y: -2.5d

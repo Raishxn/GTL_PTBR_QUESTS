@@ -1,0 +1,18 @@
+{
+  "name": "charger",
+  "icon": "ad_astra:energizer",
+  "sortnum": 5,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "charger",
+      "item": "ad_astra:energizer",
+      "text": "Chargers can store large amounts of electricity, power nearby machines, or charge items. Hold the item that needs charging and right-click on the charger to charge it. The energy station can store up to 2M units of energy, which is enough to support nearby machines to work for a long time. When destroyed, the energy station retains its energy."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:energizer"
+    }
+  ]
+}

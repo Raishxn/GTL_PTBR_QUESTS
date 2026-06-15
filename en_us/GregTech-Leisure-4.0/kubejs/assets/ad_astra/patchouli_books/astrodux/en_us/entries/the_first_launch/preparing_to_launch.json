@@ -1,0 +1,16 @@
+{
+  "name": "ready to launch",
+  "icon": "ad_astra:tier_1_rocket",
+  "sortnum": 8,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(#ff0000)Please strictly follow the steps below! Any improper operation of $() may make your trip extremely difficult, and may even trap you on the moon! $(br2)If you still want to return to Earth, please be sure to carry a launch pad and three barrels of fuel with you."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Put them in your rocket's inventory and it's a good habit to make sure you have both of these items with you before each launch. In addition, you also need to bring some survival necessities: multiple storage tanks filled with oxygen, enough food, lighting tools that do not consume oxygen such as soul torches or glowstones, powerful weapons, and various tools to expand territories. After you are properly prepared, board the rocket, press $(k:jump), and start launching!"
+    }
+  ]
+}
