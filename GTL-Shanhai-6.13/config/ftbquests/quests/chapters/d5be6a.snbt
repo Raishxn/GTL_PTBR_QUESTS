@@ -1,0 +1,656 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "d5be6a"
+	group: ""
+	icon: "thetornproductionline:celestial_secret_deducing_creative_module"
+	id: "51CE99A68DCB8F8B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39708070BFB479F0"
+			subtitle: "Módulo secreto falso &7"
+			tasks: [{
+				id: "18CBBB10CF924E3C"
+				item: "thetornproductionline:celestial_secret_deducing_module_ulv"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39708070BFB479F0"]
+			id: "51BF3CF8B9086319"
+			subtitle: "&7A primeira vez que entrei em contato com Tianji, finalmente falhei."
+			tasks: [{
+				id: "299EF6B53AEFC055"
+				item: "thetornproductionline:celestial_secret_deducing_module_lv"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51BF3CF8B9086319"]
+			id: "6A6CD10E50D8C304"
+			subtitle: "&7Este frágil invólucro de material único não cabe nele"
+			tasks: [{
+				id: "5C6AA972CB7FAEB5"
+				item: "thetornproductionline:celestial_secret_deducing_module_mv"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A6CD10E50D8C304"]
+			id: "33B1F226D3BFDD6C"
+			subtitle: "&7Embora ainda não consiga suportar o segredo, você sabe que está muito perto do sucesso."
+			tasks: [{
+				id: "0EE4C11EE9DD1CF1"
+				item: "thetornproductionline:celestial_secret_deducing_module_hv"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33B1F226D3BFDD6C"]
+			id: "660E01CB3730ED04"
+			subtitle: "&7Sim, o titânio de alta resistência resistiu ao bombardeio desta máquina espacial."
+			tasks: [{
+				id: "51F8DD9AEBADA09A"
+				item: "thetornproductionline:celestial_secret_deducing_module_ev"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["660E01CB3730ED04"]
+			id: "01A62F6543C89992"
+			subtitle: "Extensão eletrônica &2, um passo adiante"
+			tasks: [{
+				id: "33AF45D61D4009E3"
+				item: "thetornproductionline:celestial_secret_deducing_module_iv"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A62F6543C89992"]
+			id: "4D99B47E8CDBA747"
+			subtitle: "&2Componentes eletrônicos de alta precisão atingiram um nível realista"
+			tasks: [{
+				id: "5EAEEE62A535C1E7"
+				item: "thetornproductionline:celestial_secret_deducing_module_luv"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D99B47E8CDBA747"]
+			id: "742EC42B1DB7F5DD"
+			subtitle: "&2O fantasma quântico restringiu alguns segredos do céu"
+			tasks: [{
+				id: "071F144CD8D7CD9C"
+				item: "thetornproductionline:celestial_secret_deducing_module_zpm"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["742EC42B1DB7F5DD"]
+			id: "7D8162B1AA0C0A98"
+			subtitle: "&2Use cristais comuns para fazer um corpo com casca"
+			tasks: [{
+				id: "52B0F7563479063F"
+				item: "thetornproductionline:celestial_secret_deducing_module_uv"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D8162B1AA0C0A98"]
+			id: "795F6A3AFB10DCFA"
+			subtitle: "&dAlém do comum, mais poderoso do que a mera fusão de carne e eletrônicos"
+			tasks: [{
+				id: "40C0CD843A622B42"
+				item: "thetornproductionline:celestial_secret_deducing_module_uhv"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["795F6A3AFB10DCFA"]
+			id: "6DC58EE958F07529"
+			subtitle: "&dColoque a ecologia no módulo e capacite-o com o segredo do céu"
+			tasks: [{
+				id: "2B62AD66DAEA53F0"
+				item: "thetornproductionline:celestial_secret_deducing_module_uev"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DC58EE958F07529"]
+			id: "3C709AAD9305EC9F"
+			subtitle: "O fóton &dé 01. Deseletrifique para verificar objetos"
+			tasks: [{
+				id: "5CC085B900B7AF17"
+				item: "thetornproductionline:celestial_secret_deducing_module_uiv"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C709AAD9305EC9F"]
+			id: "0D8D74A37697F900"
+			subtitle: "&6Além da tecnologia, integrando energia mágica"
+			tasks: [{
+				id: "3A1C08AB9B9E878D"
+				item: "thetornproductionline:celestial_secret_deducing_module_uxv"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D8D74A37697F900"]
+			id: "2DA7747D389140D8"
+			subtitle: "&6Não apenas física, mas também integrado ao universo"
+			tasks: [{
+				id: "205529F29EA66BBF"
+				item: "thetornproductionline:celestial_secret_deducing_module_opv"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DA7747D389140D8"]
+			id: "484AEBB52F4FF9D6"
+			subtitle: "&dresolve &5e coloca &bem &e. colocar"
+			tasks: [{
+				id: "59031B4118D51682"
+				item: "thetornproductionline:celestial_secret_deducing_module_max"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["484AEBB52F4FF9D6"]
+			id: "192939831C76AFCD"
+			subtitle: "'"
+			tasks: [{
+				id: "4FE0EB7A01E46764"
+				item: "thetornproductionline:celestial_secret_deducing_module_advanced_max"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["192939831C76AFCD"]
+			description: [""]
+			id: "6751AD9C90914BD6"
+			subtitle: "' &fi &9ou seja, &fou seja, &9ou seja, &f, &9ou seja, &fou seja, &9ou seja, &fi'"
+			tasks: [{
+				id: "12F9E3E7B9910F0C"
+				item: "thetornproductionline:celestial_secret_deducing_creative_module"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01A62F6543C89992"]
+			id: "582F046F4A894CC6"
+			optional: true
+			subtitle: "A energia nuclear é moleza!"
+			tasks: [{
+				id: "22490183560EF21D"
+				item: "thetornproductionline:fission_reactor_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D99B47E8CDBA747"]
+			id: "43170C46E8786D74"
+			optional: true
+			subtitle: "Usado quando a velocidade é inferior a 0,001"
+			tasks: [{
+				id: "78585D1EA40836D3"
+				item: "thetornproductionline:fusion_process_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D99B47E8CDBA747"]
+			description: ["&afoi alterado para não reduzir mais a produção, e a produção é a mesma da ativação de nêutrons original"]
+			id: "44175C35E0F19847"
+			optional: true
+			subtitle: "&dNovo retorno de chamada de produção!"
+			tasks: [{
+				id: "794BF5C7FCCE30C2"
+				item: "thetornproductionline:neutron_activator_module"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["742EC42B1DB7F5DD"]
+			id: "23A9918F284BE9DD"
+			optional: true
+			subtitle: "Produção em massa ulv- ev"
+			tasks: [{
+				id: "02B90D65E3EBD439"
+				item: "thetornproductionline:circult_process_module_1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D8162B1AA0C0A98"]
+			id: "68D4B979E18FF6C4"
+			optional: true
+			subtitle: "Geração de energia em alta velocidade"
+			tasks: [{
+				id: "1F5790ACD05B6706"
+				item: "thetornproductionline:hyper_excitation_module_1"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DC58EE958F07529"]
+			id: "3DD7342643446328"
+			optional: true
+			subtitle: "Ressonância magnética iv -zpm"
+			tasks: [{
+				id: "4CA3712DAA08144C"
+				item: "thetornproductionline:circult_process_module_2"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DC58EE958F07529"]
+			id: "19D2B5BDD6FD504B"
+			optional: true
+			subtitle: "Geração de energia em alta velocidade"
+			tasks: [{
+				id: "3E9CE4D9E8D7B9F8"
+				item: "thetornproductionline:hyper_excitation_module_2"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DA7747D389140D8"]
+			id: "31A57E26DB3EF097"
+			optional: true
+			subtitle: "iv - ressonância magnética uev, observe que há um aumento na produção"
+			tasks: [{
+				id: "17A738157B2EF030"
+				item: "thetornproductionline:circult_process_module_3"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2DA7747D389140D8"]
+			id: "3A7942C261FA2E7C"
+			optional: true
+			subtitle: "Geração de energia de sílica versus antimatéria de fio"
+			tasks: [{
+				id: "648FE05985FD0C1B"
+				item: "thetornproductionline:hyper_excitation_module_3"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["192939831C76AFCD"]
+			id: "6B8117943617BF39"
+			optional: true
+			subtitle: "A saída do circuito do hiperespaço é 64 vezes!"
+			tasks: [{
+				id: "311ABACE4AB26CFB"
+				item: "thetornproductionline:circult_process_module_4"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["192939831C76AFCD"]
+			id: "6C7F4B6A42C29DD6"
+			optional: true
+			subtitle: "Verdadeira energia criativa"
+			tasks: [{
+				id: "672E409856743739"
+				item: "thetornproductionline:black_hole_engine_module"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["192939831C76AFCD"]
+			id: "78749AD6123FE448"
+			optional: true
+			tasks: [
+				{
+					id: "435A95FFA81E9F4C"
+					item: "thetornproductionline:matter_refactoring_module"
+					type: "item"
+				}
+				{
+					id: "06430A3CD01881C5"
+					item: "thetornproductionline:matter_refactoring_module_2"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["192939831C76AFCD"]
+			description: ["Pode ser mais caro que o Stargate"]
+			id: "34ABD3D706193AED"
+			optional: true
+			subtitle: "Clique para inserir texto"
+			tasks: [{
+				id: "38C89C7F70B50D13"
+				item: "thetornproductionline:fishbig_process_module"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.5d
+		}
+		{
+			id: "3BD1A9EB88A0B4E7"
+			tasks: [{
+				id: "070D842D2969F1D8"
+				title: "O módulo de dedução Tianji também pode ser usado como placa de circuito"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D8162B1AA0C0A98"]
+			description: [""]
+			id: "280BCBAE0D929762"
+			optional: true
+			subtitle: "&9Mineração com um clique, versão mendiga do conjunto estelar"
+			tasks: [{
+				id: "770375C04FFB3BF6"
+				item: "thetornproductionline:space_elevator_miner_module_mk1"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"795F6A3AFB10DCFA"
+				"280BCBAE0D929762"
+			]
+			id: "56F91B745E1B464A"
+			optional: true
+			subtitle: "&9Mineração com um clique, versão mendiga do conjunto estelar"
+			tasks: [{
+				id: "51262F1D60D7CA6E"
+				item: "thetornproductionline:space_elevator_miner_module_mk2"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6DC58EE958F07529"
+				"56F91B745E1B464A"
+			]
+			id: "284E68507DA5CD51"
+			optional: true
+			subtitle: "&9Mineração com um clique, versão mendiga do conjunto estelar"
+			tasks: [{
+				id: "103E01809B7BDC4D"
+				item: "thetornproductionline:space_elevator_miner_module_mk3"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"3C709AAD9305EC9F"
+				"284E68507DA5CD51"
+			]
+			id: "641CD3F86FE53246"
+			optional: true
+			subtitle: "&9Mineração com um clique, versão mendiga do conjunto estelar"
+			tasks: [{
+				id: "273D2A14503F9012"
+				item: "thetornproductionline:space_elevator_miner_module_mk4"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0D8D74A37697F900"
+				"641CD3F86FE53246"
+			]
+			id: "454A2D73616B2AE4"
+			optional: true
+			subtitle: "&9Mineração com um clique, versão mendiga do conjunto estelar"
+			tasks: [{
+				id: "5B27A2209C9AC796"
+				item: "thetornproductionline:space_elevator_miner_module_mk5"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2DA7747D389140D8"
+				"454A2D73616B2AE4"
+			]
+			id: "54138E22EF845972"
+			optional: true
+			subtitle: "&9Mineração com um clique, versão mendiga do conjunto estelar"
+			tasks: [{
+				id: "75E4C73E6B70D0B0"
+				item: "thetornproductionline:space_elevator_miner_module_mk6"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6751AD9C90914BD6"]
+			description: ["&5Com a ajuda do bloco de comando, o módulo de reconstrução de material pode sintetizar portões estelares a partir de qualquer matéria-prima, o que requer uma enorme quantidade de energia e poder de computação, e 4 portões estelares como modelos"]
+			id: "675DCB8CFADB254B"
+			optional: true
+			subtitle: "A produção &aé apenas uma imagem"
+			tasks: [{
+				id: "762A14DD1E6F050F"
+				item: "thetornproductionline:stargate_constitution_module"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51BF3CF8B9086319"]
+			description: ["&m&1Você não pode usá-lo ainda, porque não há espaço de saída suficiente para pequenas britagens."]
+			id: "5EFB1165B76B79B0"
+			optional: true
+			subtitle: "&eCaixa simples?"
+			tasks: [{
+				id: "1AF5C3C1FB271BB1"
+				item: "thetornproductionline:easy_world_fragment_miner_module"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["660E01CB3730ED04"]
+			id: "46992310CB336CC5"
+			optional: true
+			subtitle: "&eCaixa simples?"
+			tasks: [{
+				id: "59011496EDA62EA4"
+				item: "thetornproductionline:advanced_world_fragment_miner_module"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01A62F6543C89992"]
+			id: "0257000F68A6CF6D"
+			optional: true
+			subtitle: "&eNão é difícil perfurar com fluido?"
+			tasks: [{
+				id: "1A6A913098EC9009"
+				item: "thetornproductionline:ultimate_world_fragment_miner_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["01A62F6543C89992"]
+			description: [""]
+			id: "434FD2BFA09B8292"
+			optional: true
+			subtitle: "Simulador de ecossistema &a?"
+			tasks: [{
+				id: "45F0681F877FEF57"
+				item: "thetornproductionline:greenhouse_speed_cultivation_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D8162B1AA0C0A98"]
+			description: [""]
+			id: "4A45D6443E9243D3"
+			optional: true
+			subtitle: "Simulador de ecossistema &etipo 2"
+			tasks: [{
+				id: "02DE5CE9D1DDBE44"
+				item: "thetornproductionline:high_speed_bio_data_module"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D8162B1AA0C0A98"]
+			description: [""]
+			id: "053F61C82BCB06EF"
+			optional: true
+			subtitle: "&aSomos tão loucos!"
+			tasks: [{
+				id: "1D8FE1C3137C1281"
+				item: "kubejs:portable_chem_distort_module_mk1"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"053F61C82BCB06EF"
+				"6DC58EE958F07529"
+			]
+			id: "57F5A3B50642B7F5"
+			optional: true
+			subtitle: "&aSomos tão loucos!"
+			tasks: [{
+				id: "4E8F0737A64BD1BE"
+				item: "kubejs:portable_chem_distort_module_mk2"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"57F5A3B50642B7F5"
+				"0D8D74A37697F900"
+			]
+			id: "6D0164FFC0FECEF7"
+			optional: true
+			subtitle: "&aSomos tão loucos!"
+			tasks: [{
+				id: "0ECC5A48950DC7C9"
+				item: "kubejs:portable_chem_distort_module_mk3"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6D0164FFC0FECEF7"
+				"2DA7747D389140D8"
+			]
+			id: "7349F6597692E37F"
+			optional: true
+			subtitle: "&aSomos tão loucos!"
+			tasks: [{
+				id: "3ACC10DFBE2C9184"
+				item: "kubejs:portable_chem_distort_module_mk4"
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3C709AAD9305EC9F"]
+			description: [""]
+			id: "2A4E760E91C94BC3"
+			optional: true
+			subtitle: "&bNão há necessidade de construir um dispositivo de agregação"
+			tasks: [{
+				id: "676C563E7FD95813"
+				item: "thetornproductionline:celestial_aggregate_dragon_vein_module"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+	]
+	title: "&d&k???"
+}

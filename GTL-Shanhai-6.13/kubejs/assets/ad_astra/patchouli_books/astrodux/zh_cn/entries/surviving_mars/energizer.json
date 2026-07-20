@@ -1,0 +1,18 @@
+{
+  "name": "carregador",
+  "icon": "ad_astra:energizer",
+  "sortnum": 5,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "carregador",
+      "item": "ad_astra:energizer",
+      "text": "Os carregadores podem armazenar grandes quantidades de eletricidade, alimentar máquinas próximas ou carregar itens. Segure o item que precisa ser carregado e clique com o botão direito no carregador para carregá-lo. A estação de energia pode armazenar até 2 milhões de unidades de energia, o que é suficiente para manter máquinas próximas funcionando por um longo tempo. Quando destruída, a estação de energia retém a sua energia."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:energizer"
+    }
+  ]
+}

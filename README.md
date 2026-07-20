@@ -12,6 +12,7 @@ Este repositório reúne traduções de quests do FTB Quests e arquivos KubeJS p
 ### Português do Brasil
 
 - `GregTech-Leisure-4.0/`
+- `GTL-Shanhai-6.13/`
 - `GregTech-Leisure-1.4.5.0/`
 - `GTL-8TH/`
 - `GregTech-Leisure-3.7/`

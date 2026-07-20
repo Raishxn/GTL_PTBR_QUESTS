@@ -1,0 +1,29 @@
+{
+  "name": "recursos removíveis",
+  "icon": "ad_astra:gas_tank",
+  "sortnum": 6,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "tanque de armazenamento de fluido",
+      "item": "ad_astra:gas_tank",
+      "text": "Os tanques de armazenamento de fluidos permitem armazenar oxigênio de uma forma conveniente e portátil. Manter pressionado o botão direito distribuirá oxigênio aos itens do inventário, favorecendo a armadura."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:gas_tank",
+      "recipe2": "ad_astra:large_gas_tank"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "capacitor",
+      "item": "ad_astra:etrionic_capacitor",
+      "text": "Um capacitor é um objeto semelhante a uma bateria usado para armazenar energia elétrica de forma portátil. Ele pode ser colocado no tanque de energia de uma máquina para alimentá-la e, como um reservatório de fluido, pode ser alocado em seu inventário mantendo pressionado o botão direito. Possui dois modos: modo sequencial e modo de agendamento de votação. O modo sequencial alocará energia uma por uma, enquanto o modo de programação round robin alocará energia uniformemente. Clique com o botão direito enquanto se esgueira para mudar de modo."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:etrionic_capacitor"
+    }
+  ]
+}

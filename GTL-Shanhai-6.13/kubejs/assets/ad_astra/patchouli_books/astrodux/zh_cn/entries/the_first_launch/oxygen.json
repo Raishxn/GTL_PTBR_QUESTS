@@ -1,0 +1,34 @@
+{
+  "name": "oxigênio",
+  "icon": "ad_astra:gas_tank",
+  "sortnum": 5,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Agora, você finalmente tem a capacidade de lançar foguetes... espere, esquecemos alguma coisa? Voar para a Lua sem oxigênio é simplesmente pedir a morte. Para sobreviver na lua, você precisará de um traje espacial e de um pouco de oxigênio."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:space_helmet",
+      "recipe2": "ad_astra:space_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:space_pants",
+      "recipe2": "ad_astra:space_boots"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "oxigênio",
+      "item": "ad_astra:oxygen_bucket",
+      "text": "O nível atual de tecnologia só permite obter oxigênio da água. Para eletrolisar a água para obter oxigênio e carregá-la em um tanque de armazenamento, você precisa de um carregador de oxigênio. Coloque o balde pelo lado esquerdo, ligue a eletricidade e o oxigênio será extraído continuamente... repita várias vezes até obter oxigênio suficiente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "carregador de oxigênio",
+      "recipe": "ad_astra:oxygen_loader",
+      "text": "Você pode colocar oxigênio em tambores e tanques de fluidos ou em trajes espaciais. Desta forma, estamos a apenas um passo do lançamento do foguete!"
+    }
+  ]
+}

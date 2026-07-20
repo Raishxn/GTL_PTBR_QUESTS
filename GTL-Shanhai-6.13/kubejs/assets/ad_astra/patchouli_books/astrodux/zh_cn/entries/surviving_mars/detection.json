@@ -1,0 +1,18 @@
+{
+  "name": "Detectar o ambiente",
+  "icon": "ad_astra:oxygen_sensor",
+  "sortnum": 7,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "sensor de oxigênio",
+      "item": "ad_astra:oxygen_sensor",
+      "text": "Os sensores de oxigênio emitem um sinal redstone quando detectam oxigênio. Você pode inverter o sinal mantendo pressionada a tecla Shift e clicando com o botão direito nela. Mesmo sendo chamado de sensor de oxigênio, você ainda pode alterar seu tipo de detecção clicando com o botão direito do mouse com uma chave inglesa. Tem a opção de detectar oxigênio, temperatura segura e gravidade normal."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:oxygen_sensor"
+    }
+  ]
+}

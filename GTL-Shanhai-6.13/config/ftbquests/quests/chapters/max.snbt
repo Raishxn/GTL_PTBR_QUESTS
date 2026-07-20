@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "max"
+	group: "68CBF1606D696C68"
+	icon: "expatternprovider:fishbig"
+	id: "5B57B24B3D158119"
+	order_index: 15
+	progression_mode: "linear"
+	quest_links: [{
+		id: "5DA8545665096163"
+		linked_quest: "5F145D9019C4BC48"
+		x: 0.0d
+		y: 3.0d
+	}]
+	quests: [
+		{
+			dependencies: ["296DE95F3BE7DC54"]
+			icon_scale: 1.2d
+			id: "0BEE7206C4033D86"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "A origem de todas as coisas"
+			tasks: [{
+				id: "2EBBC4A46E8356DF"
+				item: "minecraft:command_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			id: "39D2E254C1EE424E"
+			tasks: [{
+				id: "289B31D0D1F785A5"
+				item: "gtladditions:super_parallel_hatch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["39D2E254C1EE424E"]
+			description: [
+				"Veja Warp/Lighthunter, Macro Atom, Arcane Star Chart"
+				"Usado com o mecanismo de divergência da esfera celeste"
+			]
+			id: "384E0624B0BECE65"
+			tasks: [{
+				id: "7AE588FC22EF45B8"
+				item: "gtladditions:astral_array"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["384E0624B0BECE65"]
+			id: "423D67A7943CF352"
+			tasks: [{
+				id: "0A4E5A6448D2B1D8"
+				item: "kubejs:giga_chad"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["423D67A7943CF352"]
+			id: "215EFD9E273025B9"
+			subtitle: "Armazém de controle paralelo mais poderoso"
+			tasks: [{
+				id: "1DD3F2C1D529F1E5"
+				item: "gtladditions:thread_modifier_hatch"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			hide_dependency_lines: true
+			id: "69901FCCFE32E8A9"
+			tasks: [{
+				id: "1CF6138AC494BF53"
+				item: "avaritia:singularity"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			hide_dependency_lines: true
+			id: "67F7A95C056077FB"
+			tasks: [{
+				id: "01DCE90EA9F77928"
+				item: "gtladditions:black_hole_seed"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			hide_dependency_lines: true
+			id: "7AE945A1E44906BC"
+			subtitle: "Liga MÁXIMA?"
+			tasks: [{
+				id: "6BBF5C349BAE0A54"
+				item: "gtladditions:mellion_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			hide_dependency_lines: true
+			id: "60E5FEF83459A71E"
+			subtitle: "Liga MÁXIMA?"
+			tasks: [{
+				id: "35783AA8D5260310"
+				item: "gtladditions:creon_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"69901FCCFE32E8A9"
+				"67F7A95C056077FB"
+				"470DDCCD8E017A4F"
+			]
+			description: [""]
+			icon: "gtladditions:heart_of_the_universe"
+			icon_scale: 1.2d
+			id: "6E5B6B0958835434"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Maior do que criar energia"
+			tasks: [
+				{
+					id: "6CE4ABB2903DD642"
+					item: "gtladditions:heart_of_the_universe"
+					type: "item"
+				}
+				{
+					id: "0C1DFE52FC1A81FF"
+					item: "gtladditions:strange_annihilation_fuel_rod"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F145D9019C4BC48"]
+			description: ["Coopere com o coração do universo"]
+			id: "73CD0845D94106E6"
+			tasks: [
+				{
+					id: "4A6A212CA4DF8732"
+					item: "gtladditions:wireless_energy_network_output_terminal"
+					type: "item"
+				}
+				{
+					id: "35200C2A9585CB6D"
+					item: "gtladditions:wireless_energy_network_input_terminal"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6868697B794C6040"
+				"7AE945A1E44906BC"
+				"60E5FEF83459A71E"
+			]
+			description: [
+				"Falsos deuses não podem dobrar a jarra"
+				"15 vezes a produção!"
+			]
+			icon: "gtladditions:forge_of_the_antichrist"
+			icon_scale: 1.2d
+			id: "7E9FDCD72EAA749C"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Detonação da linha de produção"
+			tasks: [
+				{
+					id: "62708DC895660EAD"
+					item: "gtladditions:forge_of_the_antichrist"
+					type: "item"
+				}
+				{
+					id: "4978CF56CACC8FE4"
+					item: "gtladditions:heliofusion_exoticizer"
+					type: "item"
+				}
+				{
+					id: "22F8E5D5F31DC177"
+					item: "gtladditions:helioflare_power_forge"
+					type: "item"
+				}
+				{
+					id: "580A6F08B317F4C4"
+					item: "gtladditions:heliofluix_melting_core"
+					type: "item"
+				}
+				{
+					id: "6D314FA25192769C"
+					item: "gtladditions:heliothermal_plasma_fabricator"
+					type: "item"
+				}
+				{
+					id: "3F3455F228DE3EBC"
+					item: "gtladditions:heliophase_leyline_crystallizer"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5422786A5587CEC9"]
+			id: "6868697B794C6040"
+			tasks: [
+				{
+					id: "1909988A908CC26C"
+					item: "gtladditions:thermal_superconductor"
+					type: "item"
+				}
+				{
+					id: "20CC35C0F68ED7A0"
+					item: "gtladditions:relativistic_heat_capacitor"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["470DDCCD8E017A4F"]
+			icon_scale: 1.2d
+			id: "5422786A5587CEC9"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "209EFCF5BACEEBBE"
+				item: "gtladditions:fuxi_bagua_heaven_forging_furnace"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["423D67A7943CF352"]
+			id: "6764F948D86FDA1F"
+			tasks: [{
+				id: "757682B97AD3B793"
+				item: "gtladditions:arcanic_astrograph"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			description: ["Estrada para Deus"]
+			icon_scale: 1.2d
+			id: "17D252EDB51FE938"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Estrada para Deus"
+			tasks: [{
+				id: "1F453C666EAED7A5"
+				item: "gtladditions:dimension_focus_infinity_crafting_array"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"17D252EDB51FE938"
+				"72F0E46BDD70EF55"
+				"7B5E512D32CBA914"
+			]
+			id: "5D131038B1B0B1CE"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Ela irá ajudá-lo a criar a caixa do fabricante"
+			tasks: [{
+				id: "1A5A8762930BFA54"
+				item: "expatternprovider:fishbig"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["470DDCCD8E017A4F"]
+			id: "72F0E46BDD70EF55"
+			tasks: [{
+				id: "66D415EF700EF69E"
+				item: "gtlcore:compressed_pufferfish"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			description: ["Lembre-se de otimizar a linha de produção para solda ativa hipercatalítica"]
+			id: "7B5E512D32CBA914"
+			tasks: [{
+				id: "41DC73EDCB02BC7B"
+				item: "gtlcore:super_glue"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"5D131038B1B0B1CE"
+				"5FD91997BD699687"
+				"6489DA4914736940"
+			]
+			id: "0B584F2208A92491"
+			subtitle: "Prepare alguns materiais"
+			tasks: [{
+				id: "1F44763A9C24E2AE"
+				item: "kubejs:heartofthesmogus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["470DDCCD8E017A4F"]
+			description: [""]
+			hide_dependent_lines: true
+			icon_scale: 1.2d
+			id: "3DBB9BAD8D9AED44"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Grande Manipulador Quântico"
+			tasks: [{
+				id: "64DEA9A7FC12A4E9"
+				item: "gtladditions:apocalyptic_torsion_quantum_matrix"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B584F2208A92491"]
+			id: "22B3BBC4CE851C25"
+			tasks: [{
+				id: "183242A212E2FF0F"
+				item: "gtlcore:ultimate_tea"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0B584F2208A92491"]
+			id: "0AE3CB4C3435AED7"
+			tasks: [{
+				id: "2CA98069DA46F0AA"
+				item: "gtceu:cosmic_nanoswarm"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0B584F2208A92491"]
+			id: "7FFFFA2F436F9915"
+			tasks: [{
+				id: "7EBCFF8FB7E4511F"
+				item: "gtladditions:super_dense_magmatter_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"7E9FDCD72EAA749C"
+				"22B3BBC4CE851C25"
+				"3DBB9BAD8D9AED44"
+				"0AE3CB4C3435AED7"
+				"7FFFFA2F436F9915"
+			]
+			hide_dependency_lines: false
+			id: "102CA398886980DC"
+			subtitle: "Vamos começar"
+			tasks: [{
+				id: "46FD49DC129A369D"
+				item: "gtladditions:stargate_shielding_foil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4C09E00BC09A7542"]
+			id: "5BC085604BDDB315"
+			tasks: [{
+				id: "73BF42BA867E949A"
+				item: "sgjourney:classic_stargate_ring_block"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["5BC085604BDDB315"]
+			id: "622F4DB0E45BCD0B"
+			tasks: [{
+				id: "2096DF2362233467"
+				item: "gtladditions:stargate_chevron_upgrade"
+				type: "item"
+			}]
+			title: "Material do Portal Estelar Ⅱ"
+			x: 10.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["622F4DB0E45BCD0B"]
+			id: "1FE2E3465A7681B4"
+			tasks: [{
+				id: "70DA248C40F461FB"
+				item: "sgjourney:classic_stargate_chevron_block"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["102CA398886980DC"]
+			icon: "gtladditions:star_gate_crystal_slurry_bucket"
+			id: "2DF0B394CAB375F5"
+			tasks: [{
+				id: "423C4CB5EA493BB3"
+				type: "checkmark"
+			}]
+			title: "Pasta de Cristal Star Gate"
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2DF0B394CAB375F5"]
+			icon: "gtceu:creative_tank"
+			id: "1EE71061F58883D6"
+			tasks: [
+				{
+					id: "37F9736AA6D13738"
+					item: "gtceu:creative_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "537EC927F317EF56"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1EE71061F58883D6"]
+			id: "4F3FABAE33117A00"
+			tasks: [{
+				id: "754257C8BAA75116"
+				item: "sgjourney:crystal_base"
+				type: "item"
+			}]
+			title: "Material do Portal Estelar III"
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["102CA398886980DC"]
+			id: "4C09E00BC09A7542"
+			tasks: [
+				{
+					id: "3B0CDCA091A96474"
+					item: "gtladditions:stargate_frame_part"
+					type: "item"
+				}
+				{
+					id: "3D9690314282FAA7"
+					item: "sgjourney:universe_stargate_chevron"
+					type: "item"
+				}
+				{
+					id: "5A08692B14225D33"
+					item: "sgjourney:reaction_chamber"
+					type: "item"
+				}
+			]
+			title: "Material do Portal Estelar Ⅰ"
+			x: 6.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4F3FABAE33117A00"]
+			id: "6465916E792EBEED"
+			tasks: [{
+				id: "7912AED017E67E03"
+				item: {
+					Count: 1
+					id: "sgjourney:pegasus_dhd"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0L
+							Inventory: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0
+										id: "sgjourney:large_control_crystal"
+									}
+									{
+										Count: 1b
+										Slot: 1
+										id: "sgjourney:advanced_energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 2
+										id: "sgjourney:advanced_communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3
+										id: "sgjourney:advanced_energy_crystal"
+										tag: {
+											Energy: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 6
+										id: "sgjourney:advanced_communication_crystal"
+										tag: {
+											Frequency: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7
+										id: "sgjourney:advanced_transfer_crystal"
+										tag: {
+											TransferLimit: 5000L
+										}
+									}
+								]
+								Size: 9
+							}
+							energy_inventory: {
+								Items: [{
+									Count: 1b
+									Slot: 0
+									id: "sgjourney:fusion_core"
+								}]
+								Size: 2
+							}
+							id: "sgjourney:pegasus_dhd"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"1FE2E3465A7681B4"
+				"6465916E792EBEED"
+			]
+			id: "2F34A587AAB5534A"
+			tasks: [{
+				id: "63736312BBF33983"
+				item: "sgjourney:classic_stargate_base_block"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["2F34A587AAB5534A"]
+			description: [
+				"Você pode optar por resgatá-lo diretamente"
+				"Como usar: jei colocou as coisas diretamente"
+			]
+			icon_scale: 1.2d
+			id: "11A9A6C558289A65"
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "acabou"
+			tasks: [{
+				id: "15C0C849571315BF"
+				item: "gtceu:creative_chest"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			hide_dependency_lines: true
+			id: "5FD91997BD699687"
+			tasks: [{
+				id: "778D349BBEF36873"
+				item: "gtlcore:miracle_crystal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0BEE7206C4033D86"]
+			hide_dependency_lines: true
+			id: "6489DA4914736940"
+			tasks: [{
+				id: "5DFE5B77CF30EAAB"
+				item: "avaritia:ultimate_stew"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2F34A587AAB5534A"]
+			id: "2E9029AC215D352A"
+			tasks: [{
+				id: "2AA25E71589CDA2D"
+				type: "checkmark"
+			}]
+			title: "Você pode optar por fazer um pedido de um grande número de stargates para testar o grau de otimização da linha de produção."
+			x: 14.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1EE71061F58883D6"]
+			description: [
+				"Coloque na máquina de imersão química, passe em água, circuito nº 32"
+				"&4Preste atenção ao seu computador"
+			]
+			icon: "expatternprovider:fishbig"
+			id: "60D32B90D2A07EA2"
+			optional: true
+			tasks: [{
+				id: "653DC3D0484B8C38"
+				title: "Como usar a lata"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11A9A6C558289A65"]
+			description: [
+				"Coloque a caixa do modo criativo na máquina de montagem, entre no paralelepípedo e entre no circuito 32."
+				"&4!!! Aviso severo: Faça backup antes de usar e preste atenção ao seu computador!!!"
+				"&4!!! Aviso severo: Faça backup antes de usar e preste atenção ao seu computador!!!"
+				"&4!!! Aviso severo: Faça backup antes de usar e preste atenção ao seu computador!!!"
+			]
+			icon: "expatternprovider:fishbig"
+			id: "2BFC428C515D59DE"
+			optional: true
+			tasks: [{
+				id: "0A278F1D888A9B52"
+				title: "Como usar a caixa de criação"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 18.0d
+		}
+	]
+	subtitle: ["Tier15-MAX+"]
+	title: "Pressão limite superior+"
+}
