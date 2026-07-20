@@ -651,7 +651,7 @@
 		}
 		{
 			dependencies: ["6E3B42BCBA6064F5"]
-			description: ["{ \\\"text\\\": \\\"Seu pó de alumínio no estágio LV só pode ser obtido através de safira eletrolítica ou pó de safira verde\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"6EFE154D32A2155E\\\" } }"]
+			description: ["{ \"text\": \"Seu pó de alumínio no estágio LV só pode ser obtido através de safira eletrolítica ou pó de safira verde\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
 			hide_dependency_lines: false
 			id: "73EFFB71A1A827D6"
 			rewards: [
@@ -868,7 +868,7 @@
 		}
 		{
 			dependencies: ["075D368E91231337"]
-			description: ["{ \\\"text\\\": \\\"A fonte inicial do pó de gálio era a esfalerita térmica\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"12243715403F9E51\\\" } }", ""]
+			description: ["{ \"text\": \"A fonte inicial do pó de gálio era a esfalerita térmica\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }", ""]
 			id: "6D63FB02A50F8249"
 			rewards: [
 				{
@@ -1022,7 +1022,7 @@
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
-			description: ["{ \\\"text\\\": \\\"Você precisa usar uma máquina de montagem para fazer isso\\\", \\\"italic\\\": \\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3E50EE376968519F\\\" } }"]
+			description: ["{ \"text\": \"Você precisa usar uma máquina de montagem para fazer isso\", \"italic\": \"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
 			id: "49ABB341017BAE85"
 			rewards: [
 				{
@@ -1142,7 +1142,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["{ \\\"text\\\": \\\"O enxofre vem do mundo antigo\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"12243715403F9E51\\\" } }", ""]
+			description: ["{ \"text\": \"O enxofre vem do mundo antigo\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }", ""]
 			id: "5D4ADE3F2E57635C"
 			rewards: [
 				{
@@ -1205,7 +1205,7 @@
 			description: [
 				"Supercondutor sério &8LV &r"
 				""
-				"{ \\\"text\\\": \\\"Veja aqui a fonte do fósforo\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"70252B72F7728EFD\\\" } }"
+				"{ \"text\": \"Veja aqui a fonte do fósforo\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
 				""
 			]
 			id: "4EBCDD1E943F7350"
@@ -1263,7 +1263,7 @@
 		{
 			dependencies: ["0BBC0C3FB2E8C800"]
 			description: [
-				"{ \\\"text\\\": \\\"Veja a saída específica aqui\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"19D339F25E824A2C\\\" } }"
+				"{ \"text\": \"Veja a saída específica aqui\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
 				""
 				"Não tente entrar no matadouro, você sofrerá dano de morte instantâneo de /kill a cada segundo"
 			]
@@ -1310,237 +1310,237 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"屠宰元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"屠宰元件包\",\"italic\":false}"
 							}
 							ic: 23L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:egg"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:feather"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:blaze_rod"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:beef"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sugar"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ghast_tear"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:poppy"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:mutton"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wither_skeleton_skull"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wheat"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ender_pearl"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glowstone_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:chicken"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit_foot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:gunpowder"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:potato"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glass_bottle"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:porkchop"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:carrot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit_hide"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:nether_star"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:slime_ball"
 										}
 									}
@@ -1567,7 +1567,7 @@
 		{
 			dependencies: ["27A9D4E765101CB9"]
 			description: [
-				"{ \\\"text\\\": \\\"Pode ser obtido processando petróleo/petróleo bruto/óleo leve\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5785F2E43E76E624\\\" } }"
+				"{ \"text\": \"Pode ser obtido processando petróleo/petróleo bruto/óleo leve\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
 				""
 				"O óleo pesado precisa usar a câmara de destilação MV"
 				""

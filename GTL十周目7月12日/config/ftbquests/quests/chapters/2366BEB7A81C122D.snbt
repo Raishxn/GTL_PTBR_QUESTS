@@ -211,7 +211,7 @@
 				"1DFC7DC123A3D830"
 				"09537D159735D297"
 			]
-			description: ["{ \\\"text\\\": \\\"UHV requer uma grande quantidade de netherite\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"39380262677612A9\\\" } }"]
+			description: ["{ \"text\": \"UHV requer uma grande quantidade de netherite\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"39380262677612A9\" } }"]
 			id: "7204F1B6BCC74F1C"
 			rewards: [
 				{
@@ -616,7 +616,7 @@
 				""
 				"Quanto maior a tensão do corpo principal do elevador espacial, maior será a redução demorada do módulo de expansão; quanto maior o nível do módulo de potência, maior o número de módulos de expansão paralelos"
 				""
-				"Clique em \\\"M\\\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos &r"
+				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos &r"
 				""
 				"&l· O combustível &7recomenda apenas combustível de foguete &a(dimetilhidrazina-tetróxido nitroso uniforme)"
 				""
@@ -769,12 +769,12 @@
 			description: [
 				"0 não é gravidade, 1 ~ 99 é gravidade normal, 100 é gravidade forte"
 				""
-				"{ \\\"text\\\": \\\"A ferramenta de cópia de configuração pode copiar e colar as configurações de gravidade, e o subsequente armazém de manutenção de gravidade automática configurável pode copiar e colar as configurações demoradas e de gravidade ao mesmo tempo\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				"{ \"text\": \"A ferramenta de cópia de configuração pode copiar e colar as configurações de gravidade, e o subsequente armazém de manutenção de gravidade automática configurável pode copiar e colar as configurações demoradas e de gravidade ao mesmo tempo\", \"underlined\": \"true\", \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				"{@pagebreak}"
 				"Curiosidades: Se você usar uma câmara de controle de gravidade configurada com forte gravidade em um ambiente sem gravidade, a máquina multibloco terá a capacidade de determinar ambientes sem gravidade e com forte gravidade ao mesmo tempo."
 				"&l· Ferramenta de cópia de configuração &b&fpode copiar e colar configurações de gravidade"
 				"&l· &bpode ser configurado com um armazém automático de manutenção por gravidade. &fpode ser copiado e colado ao mesmo tempo para processar as configurações demoradas das configurações de gravidade &6e &fe &6."
-				"{ \\\"text\\\": \\\"A ferramenta de cópia configurada pode copiar e colar configurações de gravidade, e o subsequente armazém de manutenção de gravidade automática configurável pode copiar e colar configurações demoradas de processamento e configurações de gravidade ao mesmo tempo\\\", \\\"sublinhado\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				"{ \"text\": \"A ferramenta de cópia de configuração pode copiar e colar as configurações de gravidade, e o subsequente armazém de manutenção de gravidade automática configurável pode copiar e colar as configurações demoradas e de gravidade ao mesmo tempo\", \"underlined\": \"true\", \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""
 				"&l· &eCuriosidades &f: Se a gravidade forte &6for usada para configurar a câmara de controle de gravidade de &fno ambiente livre de gravidade &fde &6, a máquina multibloco terá determinações de ambiente de gravidade zero e de gravidade forte."
 			]
@@ -880,7 +880,7 @@
 				"A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia"
 				""
 				"Também possui um mecanismo de overclock:"
-				"{ \\\"text\\\": \\\"Para mecanismos específicos, consulte a definição de overclocking sem perdas\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5535934109A12B5D\\\" } }"
+				"{ \"text\": \"Para mecanismos específicos, consulte a definição de overclocking sem perdas\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
 				"Substitua &b4x velocidade de receita &rpor &60,25x tempo de receita &r(incluindo a multiplicação do compartimento de manutenção configurável), consumo de energia &b&rcom geração de energia &6&r, custo total de energia &b&rcom potência total &6geração &ré o mecanismo de overclock do gerador"
 				"O gerador fará overclock automaticamente &rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo."
 				""

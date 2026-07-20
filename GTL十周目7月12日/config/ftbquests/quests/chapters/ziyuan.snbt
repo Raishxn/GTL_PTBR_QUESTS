@@ -2111,7 +2111,7 @@
 			description: [
 				"Agora, primeiro obtenha-o através da solução de enriquecimento de índio"
 				""
-				"{ \\\"text\\\": \\\"Pode ser obtido posteriormente no processo de enriquecimento da rocha de sílica\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1534BC8521461BC8\\\" } }"
+				"{ \"text\": \"Pode ser obtido posteriormente no processo de enriquecimento da rocha de sílica\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2412,7 +2412,7 @@
 		}
 		{
 			dependencies: ["275854E3F1E59652", "4059A907154E2865"]
-			description: ["{ \\\"text\\\": \\\"Você pode cavar com o drone MKIV\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"670D8EB2CE915FD5\\\" } }"]
+			description: ["{ \"text\": \"Você pode cavar com o drone MKIV\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"670D8EB2CE915FD5\" } }"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "7570243EDE6F35B1"
 			subtitle: "Você pode cavar diretamente mais tarde"
@@ -2434,7 +2434,7 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			dependency_requirement: "one_completed"
-			description: ["{ \\\"text\\\": \\\"Neste momento, a linha de extração de nano resina também produzirá pó de promécio\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"72DFAC3212692136\\\" } }"]
+			description: ["{ \"text\": \"Neste momento, a linha de extração de nano resina também produzirá pó de promécio\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DFAC3212692136\" } }"]
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
@@ -4137,7 +4137,7 @@
 			dependencies: ["6DDE77C23FC5D067", "7A7C73D046390488"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ \\\"text\\\": \\\"Linha de produção longa\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"0E926F9B91EECD78\\\" } }"
+				"{ \"text\": \"Linha de produção longa\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E926F9B91EECD78\" } }"
 				""
 				"Quando você tem um armazém de energia UEV, você pode eletrolisar diretamente para obter o pó Caijin"
 			]
@@ -4951,7 +4951,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ \\\"text\\\": \\\"Veja aqui os cuidados para a construção de uma torre de evaporação\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"224B850538D346D3\\\" } }"]
+			description: ["{ \"text\": \"Veja aqui os cuidados para a construção de uma torre de evaporação\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"224B850538D346D3\" } }"]
 			id: "3AB780C51F3F021A"
 			tasks: [
 				{
@@ -5000,7 +5000,7 @@
 		}
 		{
 			dependencies: ["6730821C43B619C5"]
-			description: ["{ \\\"text\\\": \\\"Você pode usar o elevador espacial para coletar diretamente mais tarde\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1FE5F8D737ADB1B8\\\" } }"]
+			description: ["{ \"text\": \"Você pode usar o elevador espacial para coletar diretamente mais tarde\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE5F8D737ADB1B8\" } }"]
 			icon: "gtceu:bromine_bucket"
 			icon_scale: 2.0d
 			id: "4A7883F69F6490C5"
@@ -6356,7 +6356,7 @@
 			y: 21.0d
 		}
 		{
-			description: ["{ \\\"text\\\": \\\"Fonte de bromo\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3AB780C51F3F021A\\\" } }"]
+			description: ["{ \"text\": \"Fonte de bromo\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AB780C51F3F021A\" } }"]
 			icon: "gtceu:bromine_trifluoride_bucket"
 			id: "5ABE1C11479A0229"
 			shape: "pentagon"

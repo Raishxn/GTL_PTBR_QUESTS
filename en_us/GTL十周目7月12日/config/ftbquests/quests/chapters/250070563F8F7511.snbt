@@ -143,7 +143,7 @@
 				""
 				"In the upper right corner of the task interface, click the third button from the top to view the shortcut keys in the task interface."
 				""
-				"Type /sethome \\\"name\\\" to set the teleportation point, type /home \\\"corresponding name\\\" to teleport to the corresponding teleportation point"
+				"Type /sethome \"name\" to set the teleportation point, type /home \"corresponding name\" to teleport to the corresponding teleportation point"
 				""
 				"The file backup can be found in the backup folder of the game's root directory. Type /backup start to perform a backup immediately."
 				""
@@ -183,7 +183,7 @@
 				""
 				"You can use map teleportation, adjust game rules, etc. as you see fit."
 				""
-				"{ \\\"text\\\": \\\"The most important thing is that GregTech will have very complicated recipes, and you need to be proficient in using JEI first.\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"575A2A1E4F56FF34\\\" } }"
+				"{ \"text\": \"Most importantly, GregTech will have very complex recipes, and you need to be proficient in using JEI first.\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"575A2A1E4F56FF34\" } }"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
@@ -265,13 +265,13 @@
 						id: "gtceu:echoite_vajra"
 						tag: {
 							DisallowContainerItem: 0b
-							GT.Behaviours: {
+							"GT.Behaviours": {
 								DisableShields: 1b
 								Mode: 2b
 								RelocateMinedBlocks: 1b
 								TreeFelling: 1b
 							}
-							GT.Tool: {
+							"GT.Tool": {
 								Damage: 0
 								Enchantability: 10
 								HarvestLevel: 6
@@ -472,7 +472,7 @@
 				"enableSkyBlokeMode changed to true"
 				""
 				"in server.properties"
-				"Change the level type to skyblockbuilder\\\\:skyblock"
+				"Change the level type to skyblockbuilder\\:skyblock"
 				""
 				"And I suggest you take a look at the skyblock builder wiki"
 				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
@@ -815,7 +815,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["{\\\"text\\\":\\\"You should already know how to use it\\\",\\\"underlined\\\":\\\"true\\\",\\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"516564DCEA7FA80B\\\"}}"]
+			description: ["{\"text\":\"You should already know how to use it\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"516564DCEA7FA80B\"}}"]
 			hide_dependent_lines: true
 			icon: "gtceu:performance_monitor"
 			id: "13371F3E8D27310F"
@@ -849,7 +849,7 @@
 		}
 		{
 			description: [
-				"Based on the advanced terminal, it supports &bto replace &rcoil, space elevator power module, component assembly line shell and star thermal container (click the \\\"Level block\\\" text with the mouse to open the level block selection interface)"
+				"Based on the advanced terminal, it supports &bto replace &rcoil, space elevator power module, component assembly line shell and star thermal container (click the \"Level block\" text with the mouse to open the level block selection interface)"
 				""
 				"It also supports &bmultiblock structure &rmirror positioning. Tubeless mode will remain in effect and you will even be able to put fluids in (identify the bucket of fluid on your body, the bucket of whales in the ocean, and the fluid in the ME network)"
 				""

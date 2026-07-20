@@ -105,7 +105,7 @@
 				""
 				"Chave Z com visão noturna"
 				""
-				"{ \\\"text\\\": \\\"Você pode usar um traje espacial para atualizar para uma versão de voo espacial que é resistente a perigos cósmicos e não requer oxigênio\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"79AEF94C9E242133\\\" } }"
+				"{ \"text\": \"Você pode usar um traje espacial para atualizar para uma versão de voo espacial que é resistente a perigos cósmicos e não requer oxigênio\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
 			]
 			icon: {
 				Count: 1
@@ -235,12 +235,12 @@
 				tag: {
 					Charge: 66666666L
 					DisallowContainerItem: 0b
-					GT.Behaviours: {
+					"GT.Behaviours": {
 						DisableShields: 1b
 						Mode: 2b
 						TreeFelling: 1b
 					}
-					GT.Tool: {
+					"GT.Tool": {
 						AttackDamage: 18.0f
 						AttackSpeed: 2.0f
 						Damage: 0
@@ -263,13 +263,13 @@
 						id: "gtceu:echoite_vajra"
 						tag: {
 							DisallowContainerItem: 0b
-							GT.Behaviours: {
+							"GT.Behaviours": {
 								DisableShields: 1b
 								Mode: 2b
 								RelocateMinedBlocks: 1b
 								TreeFelling: 1b
 							}
-							GT.Tool: {
+							"GT.Tool": {
 								Damage: 0
 								Enchantability: 10
 								HarvestLevel: 6
@@ -540,167 +540,167 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"无限染料元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"无限染料元件包\",\"italic\":false}"
 							}
 							ic: 16L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:white_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:orange_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:magenta_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:light_blue_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:yellow_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:lime_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pink_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:gray_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:light_gray_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cyan_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:purple_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:blue_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:brown_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:green_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:red_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:black_dye"
 										}
 									}
@@ -846,247 +846,247 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"无限透镜元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"无限透镜元件包\",\"italic\":false}"
 							}
 							ic: 24L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:orange_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:magenta_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:light_blue_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:yellow_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lime_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:pink_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gray_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:light_gray_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cyan_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:purple_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:blue_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:brown_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:green_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:red_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:black_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:diamond_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:emerald_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ruby_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:sapphire_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:nether_star_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:amethyst_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:non_linear_optical_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtladditions:spacetime_lens"
 										}
 									}
@@ -1258,287 +1258,287 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"温室元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"温室元件包\",\"italic\":false}"
 							}
 							ic: 28L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sweet_berries"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:spruce_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pumpkin"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:apple"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:kelp"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:jungle_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wheat"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glow_berries"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sugar_cane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rubber_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:acacia_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:birch_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cocoa_beans"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:vine"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:melon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:oak_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:beetroot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:mangrove_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cherry_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sea_pickle"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:red_mushroom"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cactus"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:bamboo"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:brown_mushroom"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:dark_oak_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:potato"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:carrot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:nether_wart"
 										}
 									}
@@ -1586,57 +1586,57 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"AE元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"AE元件包\",\"italic\":false}"
 							}
 							ic: 5L
 							internalCurrentPower: 19954.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "expatternprovider:oversize_interface"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "expatternprovider:ex_pattern_provider"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "ae2:storage_bus"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "ae2:fluix_smart_cable"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "extendedae_plus:wireless_transceiver"
 										}
 									}

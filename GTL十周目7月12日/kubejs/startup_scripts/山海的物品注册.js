@@ -1545,7 +1545,7 @@ e.create('dishanhai:time_reversal_protocol')
     ]);;
 
         e.create('dishanhai:long_zui')
-        .displayName('§6Muito bêbado')
+        .displayName('§6bêbado há muito tempo')
         .texture('dishanhai_item:item/cz')
         TooltipAPI.register('dishanhai:long_zui', [
         '{ultimateRainbow} O Rei Teocrático – Bêbado e deitado no longo rio do tempo e do espaço, apenas pedindo para encontrá-lo novamente',
@@ -1641,7 +1641,7 @@ e.create('dishanhai:time_reversal_protocol')
         try {
             if (typeof ShanhaiText !== 'undefined') {
                 e.create('dishanhai:worldline_residual_fragment')
-                .displayName(Component.literal('Fragmentos da Linha da Vida Após a Morte'))
+                .displayName(Component.literal('Fragmentos da Linha Mundial da Vida Após a Morte'))
                 .texture('dishanhai_item:item/worldline_residual_fragment')
                 .fireResistant(false)
                 .displayName('Fragmentos da Linha &$crimson-Yu Zhen Shi')
@@ -1709,7 +1709,7 @@ e.create('dishanhai:time_reversal_protocol')
         try {
             if (typeof ShanhaiText !== 'undefined') {
                 e.create('dishanhai:worldline_genesis_embryo')
-                .displayName(Component.literal('Embriões de criação da linha Genesis'))
+                .displayName(Component.literal('Embrião de criação da linha Gênesis'))
                 .texture('dishanhai_item:item/worldline_genesis_embryo')
                 .fireResistant(false)
                 .displayName('&$golden-O Embrião de Criação da Linha de Criação')

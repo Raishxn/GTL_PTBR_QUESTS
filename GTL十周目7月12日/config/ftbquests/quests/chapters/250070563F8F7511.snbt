@@ -143,7 +143,7 @@
 				""
 				"No canto superior direito da interface de tarefas, clique no terceiro botão de cima para baixo para visualizar as teclas de atalho na interface de tarefas."
 				""
-				"Digite /sethome \\\"nome\\\" para definir o ponto de teletransporte, digite /home \\\"nome correspondente\\\" para se teletransportar para o ponto de teletransporte correspondente"
+				"Digite /sethome \"nome\" para definir o ponto de teletransporte, digite /home \"nome correspondente\" para se teletransportar para o ponto de teletransporte correspondente"
 				""
 				"O backup do arquivo pode ser encontrado na pasta de backup do diretório raiz do jogo. Digite /backup start para realizar um backup imediatamente."
 				""
@@ -183,7 +183,7 @@
 				""
 				"Você pode usar o teletransporte do mapa, ajustar as regras do jogo, etc., conforme achar necessário."
 				""
-				"{ \\\"text\\\": \\\"Mais importante ainda, GregTech terá receitas muito complexas e você precisa primeiro ser proficiente no uso de JEI.\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"575A2A1E4F56FF34\\\" } }"
+				"{ \"text\": \"Mais importante ainda, GregTech terá receitas muito complexas e você precisa primeiro ser proficiente no uso de JEI.\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"575A2A1E4F56FF34\" } }"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
@@ -265,13 +265,13 @@
 						id: "gtceu:echoite_vajra"
 						tag: {
 							DisallowContainerItem: 0b
-							GT.Behaviours: {
+							"GT.Behaviours": {
 								DisableShields: 1b
 								Mode: 2b
 								RelocateMinedBlocks: 1b
 								TreeFelling: 1b
 							}
-							GT.Tool: {
+							"GT.Tool": {
 								Damage: 0
 								Enchantability: 10
 								HarvestLevel: 6
@@ -472,7 +472,7 @@
 				"enableSkyBlokeMode alterado para verdadeiro"
 				""
 				"em server.properties"
-				"Altere o tipo de nível para skyblockbuilder\\\\:skyblock"
+				"Altere o tipo de nível para skyblockbuilder\\:skyblock"
 				""
 				"E eu sugiro que você dê uma olhada no wiki do construtor skyblock"
 				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
@@ -691,7 +691,7 @@
 		}
 		{
 			description: [
-				"{ \\\"text\\\": \\\"Você já deve saber como usá-lo\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"262671AC71B36736\\\" } }"
+				"{ \"text\": \"Você já deve saber como usá-lo\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }"
 				""
 				"Clique com o botão direito nos blocos que não sejam o host da estrutura multibloco para alternar entre o modo de espelhamento e o modo normal. As informações na dica de ferramenta &mestão erradas."
 			]
@@ -815,7 +815,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["{ \\\"text\\\": \\\"Você já deve saber como usá-lo\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"516564DCEA7FA80B\\\" } }"]
+			description: ["{ \"text\": \"Você já deve saber como usá-lo\", \"underlined\": \"true\", \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"516564DCEA7FA80B\" } }"]
 			hide_dependent_lines: true
 			icon: "gtceu:performance_monitor"
 			id: "13371F3E8D27310F"
@@ -849,7 +849,7 @@
 		}
 		{
 			description: [
-				"Com base no terminal avançado, &bé compatível para substituir a bobina &r, o módulo de potência do elevador espacial, o invólucro da linha de montagem de componentes e o contêiner térmico estelar (clique no texto \\\"Bloco de nível\\\" com o mouse para abrir a interface de seleção do bloco de nível)"
+				"Com base no terminal avançado, &bé compatível para substituir a bobina &r, o módulo de potência do elevador espacial, o invólucro da linha de montagem de componentes e o contêiner térmico estelar (clique no texto \"Bloco de nível\" com o mouse para abrir a interface de seleção do bloco de nível)"
 				""
 				"Ele também suporta posicionamento de espelho &be estrutura multibloco &r. O modo sem câmara continuará em vigor e você poderá até colocar fluidos (identifique o balde de fluido em seu corpo, o balde de baleias no oceano e o fluido na rede ME)"
 				""

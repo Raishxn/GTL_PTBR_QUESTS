@@ -92,7 +92,7 @@
 						id: "kubejs:suprachronal_mainframe_complex"
 						tag: {
 							display: {
-								Name: "[{\\\"text\\\":\\\"拿去给你的发电机省点燃料吧\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"italic\\\":true,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]"
+								Name: "[{\"text\":\"拿去给你的发电机省点燃料吧\",\"color\":\"red\",\"bold\":true,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
 							}
 						}
 					}
@@ -110,13 +110,13 @@
 						id: "gtceu:echoite_vajra"
 						tag: {
 							DisallowContainerItem: 0b
-							GT.Behaviours: {
+							"GT.Behaviours": {
 								DisableShields: 1b
 								Mode: 2b
 								RelocateMinedBlocks: 1b
 								TreeFelling: 1b
 							}
-							GT.Tool: {
+							"GT.Tool": {
 								AttackDamage: 110.0f
 								AttackSpeed: 2.0f
 								Damage: 0
@@ -219,7 +219,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&c&kCongratulations on finding the Easter egg. In fact, I just want you to try BLACK SOULS\\\\nA very warm love adventure RPG! Let's check out the mission above this mission (Kuheehee)"
+			title: "&c&kCongratulations on finding the Easter egg. In fact, I just want you to try BLACK SOULS\\nA very warm love adventure RPG! Let's check out the mission above this mission (Kuheehee)"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -359,7 +359,7 @@
 				"I don't want to be specific."
 				"This private product comes with a mission about this module that I came out of nowhere."
 				"&bis closed by default &rif necessary"
-				"config\\\\ftbquests\\\\quests\\\\chapters\\\\extendedaeplu.snbt.disabled"
+				"config\\ftbquests\\quests\\chapters\\extendedaeplu.snbt.disabled"
 				"Excluir.desabilitado"
 				"Then /ftbquests reloads"
 				"{@pagebreak}"
@@ -388,10 +388,10 @@
 				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
 				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
 				"&4lot! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! Batch! &r"
-				"\\\\t"
-				"\\\\t"
-				"\\\\t"
-				"\\\\t"
+				"\\t"
+				"\\t"
+				"\\t"
+				"\\t"
 				"&4I want batch processing. I really want batch processing. Without batch processing everything feels painful. Where is batch processing?"
 				"&4……"
 				"{@pagebreak}"
@@ -409,7 +409,7 @@
 						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
-							patchouli:book: "gtmadvancedhatch:gtmah_book"
+							"patchouli:book": "gtmadvancedhatch:gtmah_book"
 						}
 					}
 					type: "item"
@@ -577,7 +577,7 @@
 				"Therefore, a large gas collection can pump the final air into IV"
 			]
 			id: "0D68227276AC02D5"
-			subtitle: "All the important things\\\\nYou taught me\\\\nGood morning Hello, good night\\\\nAnd goodbye"
+			subtitle: "All the important things\\nYou taught me\\nGood morning Hello, good night\\nAnd goodbye"
 			tasks: [
 				{
 					id: "53755EBDF548AED0"
@@ -754,7 +754,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "\\\"Because I am you\\\""
+			subtitle: "\"Because I am you\""
 			tasks: [
 				{
 					id: "14FAC42EDBC19269"
@@ -830,7 +830,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "People that existed from the beginning but were forgotten\\\\n Houses that did not exist from the beginning but are known"
+			subtitle: "People that existed from the beginning but were forgotten\\n Houses that did not exist from the beginning but are known"
 			tasks: [
 				{
 					id: "0666A1078D0E94E9"
@@ -970,7 +970,7 @@
 				"So I suggest leaving it alone"
 			]
 			id: "50C409E34F4A20BC"
-			subtitle: "Like the withered crowns of pilgrims \\\\nComing from a distant foreign land"
+			subtitle: "Like the withered crowns of pilgrims \\nComing from a distant foreign land"
 			tasks: [
 				{
 					id: "008CC3168FA2002E"
@@ -1003,7 +1003,7 @@
 			icon: "disksavior:steam_is_my_last_life"
 			id: "27B75C8FD6E0ADCE"
 			size: 2.5d
-			subtitle: "See that white halo? \\\\nIt's called the crown\\\\nIt's the shining crown of the sun\\\\n &o&8So why can't we see it at normal times? &r\\\\nBecause the sun is always very blinding\\\\nAnd only when it's pitch black\\\\nCan you see his crown"
+			subtitle: "See that white halo? \\nIt's called the crown\\nIt's the shining crown of the sun\\n &o&8So why can't we see it at normal times? &r\\nBecause the sun is always very blinding\\nAnd only when it's pitch black\\nCan you see his crown"
 			tasks: [
 				{
 					id: "7B705122FBE9DCDD"
@@ -1112,1794 +1112,1794 @@
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_glass_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_glass_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_salt_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_salt_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_rock_salt_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_rock_salt_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_echo_shard_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_echo_shard_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:opal_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_opal_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_cinnabar_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_cinnabar_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_coke_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_coke_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:glass_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_glass_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:red_garnet_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_red_garnet_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_magneto_resonatic_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_magneto_resonatic_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:sodalite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_sodalite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:lazurite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_lazurite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_lapis_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_lapis_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_emerald_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_emerald_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:andradite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_andradite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_opal_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_opal_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:quartzite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_quartzite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:echo_shard"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_echo_shard_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_malachite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_malachite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_nether_quartz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_nether_quartz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_rutile_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_rutile_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:sapphire_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_sapphire_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:magneto_resonatic_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_magneto_resonatic_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_green_sapphire_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_green_sapphire_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:quartz"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_nether_quartz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_olivine_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_olivine_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_topaz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_topaz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:pyrope_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_pyrope_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_red_garnet_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_red_garnet_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_andradite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_andradite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_yellow_garnet_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_yellow_garnet_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:ruby_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_ruby_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:malachite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_malachite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_lazurite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_lazurite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:cubic_zirconia_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_cubic_zirconia_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:monazite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_monazite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:green_sapphire_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_green_sapphire_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:grossular_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_grossular_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_sodalite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_sodalite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_ruby_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_ruby_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_apatite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_apatite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_uvarovite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_uvarovite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_certus_quartz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_certus_quartz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_grossular_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_grossular_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:coal"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_coal_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:jasper_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_jasper_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:apatite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_apatite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_quartzite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_quartzite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_monazite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_monazite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_blue_topaz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_blue_topaz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_coal_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_coal_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:uvarovite_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_uvarovite_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:coke_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_coke_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_spessartine_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_spessartine_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:rutile_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_rutile_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_almandine_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_almandine_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:olivine_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_olivine_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_sapphire_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_sapphire_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_jasper_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_jasper_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:spessartine_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_spessartine_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_cubic_zirconia_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_cubic_zirconia_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:diamond"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_diamond_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:certus_quartz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_certus_quartz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:yellow_garnet_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_yellow_garnet_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:blue_topaz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_blue_topaz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:cinnabar_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_cinnabar_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_diamond_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_diamond_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:rock_salt_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_rock_salt_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_realgar_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_realgar_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:topaz_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_topaz_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:amethyst_shard"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_amethyst_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_pyrope_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_pyrope_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_amethyst_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:exquisite_amethyst_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:almandine_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_almandine_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:emerald"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_emerald_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "minecraft:lapis_lazuli"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_lapis_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:salt_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_salt_gem"
 											}
 										]
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										display: {
-											Lore: ["{\\\"extra\\\":[{\\\"extra\\\":[{\\\"translate\\\":\\\"gui.gtlcore.circuit_format\\\",\\\"with\\\":[\\\"0\\\"]}],\\\"translate\\\":\\\"gtceu.laser_engraver\\\"}],\\\"translate\\\":\\\"gui.gtlcore.machine_colon\\\"}", "{\\\"translate\\\":\\\"gui.gtlcore.voltage_colon\\\",\\\"with\\\":[\\\"HV\\\",\\\"240\\\"]}"]
+											Lore: ["{\"extra\":[{\"extra\":[{\"translate\":\"gui.gtlcore.circuit_format\",\"with\":[\"0\"]}],\"translate\":\"gtceu.laser_engraver\"}],\"translate\":\"gui.gtlcore.machine_colon\"}", "{\"translate\":\"gui.gtlcore.voltage_colon\",\"with\":[\"HV\",\"240\"]}"]
 										}
 										in: [
 											{
-												#: 2048L
-												#c: "ae2:i"
+												"#": 2048L
+												"#c": "ae2:i"
 												id: "gtceu:realgar_gem"
 											}
 										]
 										out: [
 											{
-												#: 1024L
-												#c: "ae2:i"
+												"#": 1024L
+												"#c": "ae2:i"
 												id: "gtceu:flawless_realgar_gem"
 											}
 										]
@@ -3067,7 +3067,7 @@
 					type: "item"
 				}
 			]
-			title: "Soul Sand Synthesis Lightning Processing Withered Skull\\\\nNether Star for Blender-Go to No-Gravity Condition"
+			title: "Soul Sand Synthesis Lightning Processing Withered Skull\\nNether Star for Blender-Go to No-Gravity Condition"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -3101,7 +3101,7 @@
 				Count: 1
 				id: "gtceu:turbine_rotor"
 				tag: {
-					GT.PartStats: {
+					"GT.PartStats": {
 						Material: "gtceu:neutronium"
 					}
 				}
@@ -3116,7 +3116,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:turbine_rotor"
 							}
 						}
@@ -3198,167 +3198,167 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"染料元件包\\\"}"
+								Name: "{\"text\":\"染料元件包\"}"
 							}
 							ic: 16L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:black_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:blue_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:brown_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:cyan_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:gray_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:green_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:light_blue_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:lime_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:magenta_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:orange_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:pink_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:purple_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:red_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:white_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:yellow_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:light_gray_dye"
 										}
 									}
@@ -3574,7 +3574,7 @@
 				"Can output 1A &4MAX &r"
 			]
 			id: "1C62F033AA7D5A4F"
-			subtitle: "There is no fog, only recorded dreams \\\\nAh, even though it is invisible, the emptiness of the alien species \\\\nAh, all living beings should wake up \\\\nTomorrow depends on your determination \\\\nThere is a \\\"time\\\" that the alien species are proud of \\\\nThere are no barriers. Look, nothing is engraved on it."
+			subtitle: "There is no fog, only recorded dreams \\nAh, even though it is invisible, the emptiness of the alien species \\nAh, all living beings should wake up \\nTomorrow depends on your determination \\nThere is a \"time\" that the alien species are proud of \\nThere are no barriers. Look, nothing is engraved on it."
 			tasks: [
 				{
 					id: "3C723079945A24F4"
@@ -3592,7 +3592,7 @@
 			description: ["&f&dLuV &rcan be done", "256A &4MAX"]
 			id: "4BBBA4538ED34A31"
 			size: 1.25d
-			subtitle: "By the end of the journey \\\\nAll the ancient Titans have fallen... \\\\nAnd the new nameless king is crowned \\\\nAlong with thousands of heroes... \\\\nCreate a great cause for salvation."
+			subtitle: "By the end of the journey \\nAll the ancient Titans have fallen... \\nAnd the new nameless king is crowned \\nAlong with thousands of heroes... \\nCreate a great cause for salvation."
 			tasks: [
 				{
 					id: "0C626C2B885894EF"
@@ -3610,7 +3610,7 @@
 			description: ["&3UV &rcan be done", "65536A &4MAX"]
 			id: "70A954F693563F5C"
 			size: 1.5d
-			subtitle: "The gods only leave false words\\\\nNot even human hunger and thirst show mercy\\\\nThe road is paved with blinding light\\\\nThe gods leave only cold treatment\\\\nThrough the burning kingdom\\\\nThe road is paved with the sound of warning"
+			subtitle: "The gods only leave false words\\nNot even human hunger and thirst show mercy\\nThe road is paved with blinding light\\nThe gods leave only cold treatment\\nThrough the burning kingdom\\nThe road is paved with the sound of warning"
 			tasks: [
 				{
 					id: "593DB642DFEA784A"
@@ -3628,7 +3628,7 @@
 			description: ["&2UIV &rcan be done", "16777216A &4MAX"]
 			id: "738B6DCA4BDD232D"
 			size: 1.75d
-			subtitle: "Burning like holy fire Elmo\\\\nA scream that melts into the sky\\\\nAt the edge of the wilderness\\\\nRows hard towards the island of plenty\\\\nMarried to the roar of violent lightning\\\\nThe day of ripe rain"
+			subtitle: "Burning like holy fire Elmo\\nA scream that melts into the sky\\nAt the edge of the wilderness\\nRows hard towards the island of plenty\\nMarried to the roar of violent lightning\\nThe day of ripe rain"
 			tasks: [
 				{
 					id: "0EC9E8A74501A209"
@@ -3749,7 +3749,7 @@
 			]
 			icon: "gtceu:resource_collection"
 			id: "3BE60A131DBBAB68"
-			subtitle: "Ride this turbulent wave of change\\\\nEven if you are polluted by the world, you will have no regrets"
+			subtitle: "Ride this turbulent wave of change\\nEven if you are polluted by the world, you will have no regrets"
 			tasks: [
 				{
 					id: "1118DC5636966A3F"
@@ -4140,7 +4140,7 @@
 				"File name &dDisksavior_diban.txt &r, open &b, select all and copy &r"
 				"Drop &bmodel manager"
 				"&rPlace a copy and paste helper &b&rand a paper &b&rin the right slot"
-				"Standalone \\\"&aPaste &r\\\" and click \\\"&aLoad &r\\\""
+				"Standalone \"&aPaste &r\" and click \"&aLoad &r\""
 				"Then prepare the materials and place them"
 				"Recommended opening &e&r, so no need to consider materials"
 			]
@@ -4438,7 +4438,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ha, the evil way Zalinero\\\\nHa, steal the inevitable thing"
+			subtitle: "Ha, the evil way Zalinero\\nHa, steal the inevitable thing"
 			tasks: [
 				{
 					id: "52018782C28F64E3"
@@ -4562,86 +4562,86 @@
 								16L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"小op礼包\\\"}"
+								Name: "{\"text\":\"小op礼包\"}"
 							}
 							ic: 363L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:tungstensteel_pipe_casing"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:reservoir_hatch"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:tag_filter_me_stock_bus_part_machine"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:lv_energy_input_hatch_16a"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:blue_steel_frame"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:tungstensteel_gearbox"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:me_stocking_input_bus"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:lv_battery_buffer_16x"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:clean_machine_casing"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:max_parallel_hatch"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:zpm_muffler_hatch"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:sturdy_machine_casing"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:integrated_ore_processor"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:laminated_glass"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "kubejs:suprachronal_mainframe_complex"
 									tag: {
 										display: {
-											Name: "[{\\\"text\\\":\\\"是不是感觉小op有点慢？\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":false,\\\"italic\\\":true,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]"
+											Name: "[{\"text\":\"是不是感觉小op有点慢？\",\"color\":\"red\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:me_extended_export_buffer"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:lv_lithium_battery"
 									tag: {
 										Charge: 120000L
@@ -4731,7 +4731,7 @@
 			id: "5E348961A17CB244"
 			shape: "none"
 			size: 4.0d
-			subtitle: "The iron spikes were cut section by section. Section by section was cut. \\\\nThe chest seemed to be opening. \\\\nCut section by section. Section by section. \\\\nToward you."
+			subtitle: "The iron spikes were cut section by section. Section by section was cut. \\nThe chest seemed to be opening. \\nCut section by section. Section by section. \\nToward you."
 			tasks: [
 				{
 					id: "18B60DD640AEA637"
@@ -4763,7 +4763,7 @@
 				"2. Hold the model tool, &lright-click the air &rto open the user interface (the interface is slightly misaligned, which does not affect the use)"
 				"You can also use &b/kjs hand &rto get item information"
 				"{@pagebreak}"
-				"&l&e3. Teaches you step by step how to make a \\\"spindle rod\\\" sample (example) &r"
+				"&l&e3. Teaches you step by step how to make a \"spindle rod\" sample (example) &r"
 				"1. Open the JEI item manager and search for any stamp recipe (for example: iron ingots to make iron bars)"
 				"2. Remember four important pieces of information:"
 				"Recipe ID: extruder (extruder)"
@@ -4803,7 +4803,7 @@
 			]
 			shape: "none"
 			size: 4.0d
-			subtitle: "Gradually Gradually It's descending now \\\\nAlarm, I see you \\\\nAlarm Only a moment left \\\\nAlarm The fog will lift \\\\nAlarm The whole city is"
+			subtitle: "Gradually Gradually It's descending now \\nAlarm, I see you \\nAlarm Only a moment left \\nAlarm The fog will lift \\nAlarm The whole city is"
 			tasks: [
 				{
 					id: "2AF149A0A888E17B"
@@ -4936,227 +4936,227 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"透镜元件包\\\"}"
+								Name: "{\"text\":\"透镜元件包\"}"
 							}
 							ic: 22L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:orange_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:magenta_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:light_blue_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:yellow_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lime_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:pink_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gray_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:light_gray_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cyan_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:purple_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:blue_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:brown_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:green_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:red_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:black_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:diamond_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:nether_star_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ruby_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:emerald_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:sapphire_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:amethyst_lens"
 										}
 									}
@@ -5259,7 +5259,7 @@
 				"Because single-step gamma ray photoresist cannot be twisted and released, so two steps😢"
 			]
 			id: "18178D5D2E9D2319"
-			subtitle: "yeah, go to that nurses cafe \\\\nAlmost a hundred years in prison"
+			subtitle: "yeah, go to that nurses cafe \\nAlmost a hundred years in prison"
 			tasks: [
 				{
 					id: "052368CD4A319662"
@@ -5312,7 +5312,7 @@
 			]
 			icon: "avaritia:ultimate_stew"
 			id: "2AF8BFC46BE169B2"
-			subtitle: "The sacred sound cleanses heaven and earth\\\\nThe brilliance shines at dawn\\\\nThe hymn cleanses my heart"
+			subtitle: "The sacred sound cleanses heaven and earth\\nThe brilliance shines at dawn\\nThe hymn cleanses my heart"
 			tasks: [
 				{
 					id: "522E7B0694E8661F"
@@ -5407,827 +5407,827 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"温室&屠宰场元件包\\\"}"
+								Name: "{\"text\":\"温室&屠宰场元件包\"}"
 							}
 							ic: 82L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:oak_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:oak_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:spruce_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:spruce_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:birch_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:birch_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:jungle_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:jungle_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:acacia_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:acacia_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:dark_oak_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:dark_oak_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:mangrove_propagule"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:mangrove_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cherry_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cherry_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pumpkin"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pumpkin_seeds"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:beetroot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:beetroot_seeds"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sweet_berries"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glow_berries"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wheat"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wheat_seeds"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:melon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:melon_seeds"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:carrot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sugar_cane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:kelp"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cactus"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:potato"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cocoa_beans"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:brown_mushroom"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:red_mushroom"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:nether_wart"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:bamboo"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:vine"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sea_pickle"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rubber_sapling"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rubber_log"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:sticky_resin"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:poisonous_potato"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:grass"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:melon_slice"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sunflower"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sponge"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:honeycomb"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wither_skeleton_skull"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ghast_tear"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:blaze_rod"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:slime_ball"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ender_pearl"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:echo_shard"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sculk_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sculk_catalyst"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sculk"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:bone"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:porkchop"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:beef"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:chicken"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:mutton"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cod"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:tropical_fish"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:salmon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:poppy"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:feather"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:string"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:leather"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit_hide"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:gunpowder"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rotten_flesh"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:spider_eye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit_foot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ink_sac"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glow_ink_sac"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:nautilus_shell"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glowstone_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:stick"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sugar"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:white_wool"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:egg"
 										}
 									}
@@ -6252,7 +6252,7 @@
 			]
 			icon: "gtceu:titansteel_foil"
 			id: "3E3719401ED63151"
-			subtitle: "Please don't ask anything. \\\\nPlease don't say anything."
+			subtitle: "Please don't ask anything. \\nPlease don't say anything."
 			tasks: [
 				{
 					id: "28DF966BE75650E6"
@@ -6304,7 +6304,7 @@
 			id: "428E0E0C5A099DD2"
 			shape: "none"
 			size: 3.0d
-			subtitle: "Sefroedi Jixtgen\\\\nNadisklai Sheeditslai Klaiya\\\\nHaupralin Shusolun\\\\nDasticlai Sasitsfai Klaiya"
+			subtitle: "Sefroedi Jixtgen\\nNadisklai Sheeditslai Klaiya\\nHaupralin Shusolun\\nDasticlai Sasitsfai Klaiya"
 			tasks: [
 				{
 					id: "4AC3E3E703A1A655"
@@ -6375,7 +6375,7 @@
 			]
 			icon: "gtceu:titanium_50_bucket"
 			id: "736029181D30A404"
-			subtitle: "One sand, one world \\\\nOne flower, one paradise \\\\nHolding infinity in the palm of your hand \\\\nEternity in an instant"
+			subtitle: "One sand, one world \\nOne flower, one paradise \\nHolding infinity in the palm of your hand \\nEternity in an instant"
 			tasks: [
 				{
 					id: "616F5F7180A118D5"
@@ -6452,7 +6452,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:tnt"
 							}
 						}
@@ -6488,7 +6488,7 @@
 			description: ["1 MB of Steam is required for easy ordering"]
 			icon: "gtceu:bedrock_dust"
 			id: "1AE772784FB16843"
-			subtitle: "Don't forget. \\\\nAlways somewhere.\\\\nSomeone is fighting for you. \\\\nAs long as you remember her. \\\\nYou are not alone."
+			subtitle: "Don't forget. \\nAlways somewhere.\\nSomeone is fighting for you. \\nAs long as you remember her. \\nYou are not alone."
 			tasks: [
 				{
 					id: "0F1E4C0BCA708752"
@@ -6517,7 +6517,7 @@
 			dependencies: ["38166A02EA474C1E"]
 			description: ["There are some recipes that jei cannot write down and will be displayed in this item."]
 			id: "41C457A49F513F15"
-			subtitle: "The most painful thing in the world\\\\nis knowing a lot\\\\nbut having little control"
+			subtitle: "The most painful thing in the world\\nis knowing a lot\\nbut having little control"
 			tasks: [
 				{
 					id: "7DB6424C01E0E685"
@@ -6674,17 +6674,17 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"§r无限编程电路元件包\\\"}"
+								Name: "{\"text\":\"§r无限编程电路元件包\"}"
 							}
 							ic: 33L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 0
@@ -6693,11 +6693,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 1
@@ -6706,11 +6706,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 2
@@ -6719,11 +6719,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 3
@@ -6732,11 +6732,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 4
@@ -6745,11 +6745,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 5
@@ -6758,11 +6758,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 6
@@ -6771,11 +6771,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 7
@@ -6784,11 +6784,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 8
@@ -6797,11 +6797,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 9
@@ -6810,11 +6810,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 10
@@ -6823,11 +6823,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 11
@@ -6836,11 +6836,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 12
@@ -6849,11 +6849,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 13
@@ -6862,11 +6862,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 14
@@ -6875,11 +6875,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 15
@@ -6888,11 +6888,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 16
@@ -6901,11 +6901,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 17
@@ -6914,11 +6914,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 18
@@ -6927,11 +6927,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 19
@@ -6940,11 +6940,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 20
@@ -6953,11 +6953,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 21
@@ -6966,11 +6966,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 22
@@ -6979,11 +6979,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 23
@@ -6992,11 +6992,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 24
@@ -7005,11 +7005,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 25
@@ -7018,11 +7018,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 26
@@ -7031,11 +7031,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 27
@@ -7044,11 +7044,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 28
@@ -7057,11 +7057,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 29
@@ -7070,11 +7070,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 30
@@ -7083,11 +7083,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 31
@@ -7096,11 +7096,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 32
@@ -7151,7 +7151,7 @@
 			dependencies: ["38166A02EA474C1E"]
 			description: ["I received it from Kirin", "will not activate when kirin is installed"]
 			id: "4E56E627F64904A8"
-			subtitle: "Deep within the shadowland \\\\nTime has come for us to rise \\\\nTo put the sword in the fire \\\\nMy sleeping warrior"
+			subtitle: "Deep within the shadowland \\nTime has come for us to rise \\nTo put the sword in the fire \\nMy sleeping warrior"
 			tasks: [
 				{
 					id: "7A044DBA62E9CA9C"

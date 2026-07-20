@@ -137,7 +137,7 @@
 				""
 				"Exemplo: O Separador Sagrado pode fazer barras de prata e barras de ferro ao mesmo tempo, mas não pode centrifugar o ar e fazer barras de ferro ao mesmo tempo."
 				""
-				"\\\"Threads\\\" é um atributo exclusivo de máquinas com paralelismo de receita cruzada (todas possuem 64 threads). O número paralelo total de uma máquina paralela de receita cruzada é o número de threads multiplicado pelo número paralelo da própria máquina. O número de threads representa o número máximo de receitas para as quais o número paralelo total pode ser alocado. Nota: A máquina paralela de receita cruzada fará o possível para alocar todo o paralelismo total a uma receita."
+				"\"Threads\" é um atributo exclusivo de máquinas com paralelismo de receita cruzada (todas possuem 64 threads). O número paralelo total de uma máquina paralela de receita cruzada é o número de threads multiplicado pelo número paralelo da própria máquina. O número de threads representa o número máximo de receitas para as quais o número paralelo total pode ser alocado. Nota: A máquina paralela de receita cruzada fará o possível para alocar todo o paralelismo total a uma receita."
 				"{@pagebreak}"
 				"Caso exista algum material que seja consumido probabilisticamente na receita, será utilizado 100% do consumo do material como base de cálculo em cálculos paralelos."
 			]
@@ -203,7 +203,7 @@
 				"{@pagebreak}"
 				"Da mesma forma, se o ambiente operacional da máquina for alterado no meio do caminho quando a máquina estiver executando uma receita (como redução de tempo, paralelismo, etc.), a máquina continuará a executar a receita com a configuração quando começou a executar a receita e não mudará para o novo ambiente operacional até que a receita seja executada."
 				"{@pagebreak}"
-				"No JEI, você descobrirá que a dica de alguns materiais/produtos relacionados à probabilidade tem \\\"bônus de tensão: +n%/por nível\\\", onde o valor específico de \\\"por nível\\\" é o nível máximo de tensão da receita da própria máquina menos o nível mínimo de tensão da própria receita."
+				"No JEI, você descobrirá que a dica de alguns materiais/produtos relacionados à probabilidade tem \"bônus de tensão: +n%/por nível\", onde o valor específico de \"por nível\" é o nível máximo de tensão da receita da própria máquina menos o nível mínimo de tensão da própria receita."
 			]
 			icon: "gtceu:large_assembler"
 			id: "662FE1772CF9B5ED"

@@ -16,7 +16,7 @@
 	]
 	quests: [
 		{
-			description: ["{ \\\"text\\\": \\\"Vá cavar para Io\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5FDD8771824E57CF\\\" } }"]
+			description: ["{ \"text\": \"Vá cavar para Io\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
 			id: "7F92A8EE58AD5BA2"
 			rewards: [
 				{
@@ -256,7 +256,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:raw_crystal_chip"
 							}
 						}

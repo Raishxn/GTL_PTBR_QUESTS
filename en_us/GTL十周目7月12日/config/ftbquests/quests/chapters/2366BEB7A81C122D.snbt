@@ -774,7 +774,7 @@
 				""
 				"&l·&bconfiguration copy tool&fcan copy and paste gravity settings"
 				"&l·&bcan be configured with an automatic gravity maintenance warehouse.&fcan be copied and pasted at the same time to process the time-consuming settings of&6and&fand&6gravity settings."
-				"{ \\\"text\\\": \\\"The configuration copy tool can copy and paste the gravity settings, and the subsequent configurable automatic gravity maintenance warehouse can copy and paste the time-consuming settings and gravity settings at the same time\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				"{ \"text\": \"The configuration copy tool can copy and paste the gravity settings, and the subsequent configurable automatic gravity maintenance warehouse can copy and paste the time-consuming settings and gravity settings at the same time\", \"underlined\": \"true\", \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""
 				"&l·&eTrivia &f: If&6strong gravity is used in&6gravity-free environment&fto configure the gravity control chamber of &f, the multi-block machine will have both zero-gravity and strong-gravity environment determinations."
 			]
@@ -881,12 +881,12 @@
 				"&l&f-&b4 times the recipe speed&fconverted to&60.25 times the recipe time&f(including the multiplication of the configurable maintenance bin)"
 				"&l&f-&bPower consumption&fconverted to&6generated power &f"
 				"&l&f-&bTotal energy cost&fconverted to&6Total power generation &f"
-				"&l&fFor details on the specific mechanism, please refer to the&6\\\"Lossless Overclocking\\\"&ftask"
+				"&l&fFor details on the specific mechanism, please refer to the&6\"Lossless Overclocking\"&ftask"
 				""
 				"&l·&fgenerator automatically overclocks to the upper limit according to&dpower bin/laser source bin level &f"
 				"&l&fThe shortest running time can be shortened to&61~3 ticks &f"
 				""
-				"&l·&fOnly generators whose description contains the words&b&l\\\"overclocking will not lose energy efficiency\\\"&r&fhave this mechanism"
+				"&l·&fOnly generators whose description contains the words&b&l\"overclocking will not lose energy efficiency\"&r&fhave this mechanism"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d

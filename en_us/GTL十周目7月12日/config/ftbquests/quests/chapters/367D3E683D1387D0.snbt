@@ -129,7 +129,7 @@
 				""
 				"Example 2: For a recipe that takes 3 game ticks and the recipe is lossless overclocking (the time taken for each overclocking level is reduced to 1/4 of the original, and the total energy consumption remains unchanged), after one level of overclocking, 4 recipes will be processed at the same time, but the time is still 3 game ticks."
 				""
-				"In fact, there is a difference between \\\"lossy 1toc\\\" and \\\"lossless 1toc\\\". The above example is only for reference."
+				"In fact, there is a difference between \"lossy 1toc\" and \"lossless 1toc\". The above example is only for reference."
 				"{@pagebreak}"
 				"Cross-recipe parallelism is a mechanism exclusive to some multi-block machines, which allows the machine to execute multiple different recipes in the same machine mode at the same time."
 				""
@@ -137,7 +137,7 @@
 				""
 				"Example: The Holy Separator can make silver rods and iron rods at the same time, but cannot centrifuge air and make iron rods at the same time."
 				""
-				"\\\"Threads\\\" is a unique attribute of machines with cross-recipe parallelism (all have 64 threads). The total parallel number of a cross-recipe parallel machine is the number of threads multiplied by the parallel number of the machine itself. The number of threads represents the maximum number of recipes that the total parallel number can be allocated to. Note: The cross-recipe parallel machine will try its best to allocate all total parallelism to a recipe."
+				"\"Threads\" is a unique attribute of machines with cross-recipe parallelism (all have 64 threads). The total parallel number of a cross-recipe parallel machine is the number of threads multiplied by the parallel number of the machine itself. The number of threads represents the maximum number of recipes that the total parallel number can be allocated to. Note: The cross-recipe parallel machine will try its best to allocate all total parallelism to a recipe."
 				"{@pagebreak}"
 				"If there is a material that is probabilistically consumed in the recipe, 100% consumption of the material will be used as the basis for calculation in parallel calculations."
 			]
@@ -201,7 +201,7 @@
 				""
 				"Example 3: When the space elevator acquisition module runs the mining recipe, it switches to the mining fluid mode and still mines."
 				"{@pagebreak}"
-				"In JEI, you will find that the tooltip of some probability-related materials/products has \\\"voltage bonus: +n%/per level\\\", where the specific value of \\\"per level\\\" is the maximum recipe voltage level of the machine itself minus the minimum voltage level of the recipe itself."
+				"In JEI, you will find that the tooltip of some probability-related materials/products has \"voltage bonus: +n%/per level\", where the specific value of \"per level\" is the maximum recipe voltage level of the machine itself minus the minimum voltage level of the recipe itself."
 				"{@pagebreak}"
 				"In JEI, you will find that the tooltip of some probability-related materials/products has \"voltage bonus: +n%/per level\", where the specific value of \"per level\" is the maximum recipe voltage level of the machine itself minus the minimum voltage level of the recipe itself."
 			]

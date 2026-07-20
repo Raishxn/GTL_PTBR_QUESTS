@@ -315,107 +315,107 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"脆弱工具元件包\\\"}"
+								Name: "{\"text\":\"脆弱工具元件包\"}"
 							}
 							ic: 10L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_file"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_hammer"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_mallet"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_wrench"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_wire_cutter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_crowbar"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_saw"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_screwdriver"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_knife"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_mortar"
 										}
 									}
@@ -506,29 +506,29 @@
 					internalCurrentPower: 2000000.0d
 					keys: [
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:blank_pattern"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_pattern_access_part"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:molecular_assembler"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:echoite_vajra"
 							tag: {
 								DisallowContainerItem: 0b
-								GT.Behaviours: {
+								"GT.Behaviours": {
 									DisableShields: 1b
 									Mode: 2b
 									RelocateMinedBlocks: 1b
 									TreeFelling: 1b
 								}
-								GT.Tool: {
+								"GT.Tool": {
 									Damage: 0
 									Enchantability: 10
 									HarvestLevel: 6
@@ -540,35 +540,35 @@
 							}
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:64k_crafting_storage"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:pattern_encoding_terminal"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:creative_energy_cell"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:speed_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:crafting_terminal"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_pattern_provider"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:fluix_glass_cable"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "mae2:64x_crafting_accelerator"
 						}
 					]
@@ -608,29 +608,29 @@
 							internalCurrentPower: 2000000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:blank_pattern"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:ex_pattern_access_part"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:molecular_assembler"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "gtceu:echoite_vajra"
 									tag: {
 										DisallowContainerItem: 0b
-										GT.Behaviours: {
+										"GT.Behaviours": {
 											DisableShields: 1b
 											Mode: 2b
 											RelocateMinedBlocks: 1b
 											TreeFelling: 1b
 										}
-										GT.Tool: {
+										"GT.Tool": {
 											Damage: 0
 											Enchantability: 10
 											HarvestLevel: 6
@@ -642,35 +642,35 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:64k_crafting_storage"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:pattern_encoding_terminal"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:creative_energy_cell"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:speed_card"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:crafting_terminal"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:ex_pattern_provider"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:fluix_glass_cable"
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "mae2:64x_crafting_accelerator"
 								}
 							]
@@ -863,38 +863,38 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"聚变批处理样板-搅拌机\\\"}"
+								Name: "{\"text\":\"聚变批处理样板-搅拌机\"}"
 							}
 							ic: 37L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:silicon"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:magnesium"
 											}
 											{ }
@@ -976,8 +976,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -988,11 +988,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silicon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:magnesium"
 														}
 													]
@@ -1028,32 +1028,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:hydrogen"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:vanadium"
 											}
 											{ }
@@ -1135,8 +1135,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -1147,11 +1147,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:hydrogen"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:vanadium"
 														}
 													]
@@ -1187,32 +1187,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:taranium_enriched_liquid_helium_3"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:hydrogen"
 											}
 											{ }
@@ -1294,8 +1294,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -1306,11 +1306,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:taranium_enriched_liquid_helium_3"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:hydrogen"
 														}
 													]
@@ -1346,32 +1346,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:arsenic"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:ruthenium"
 											}
 											{ }
@@ -1453,8 +1453,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -1465,11 +1465,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:arsenic"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:ruthenium"
 														}
 													]
@@ -1505,32 +1505,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:lutetium"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:chromium"
 											}
 											{ }
@@ -1612,8 +1612,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -1624,11 +1624,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lutetium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:chromium"
 														}
 													]
@@ -1664,32 +1664,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 65536L
-												#c: "ae2:f"
+												"#": 65536L
+												"#c": "ae2:f"
 												id: "gtceu:calcium"
 											}
 											{
-												#: 65536L
-												#c: "ae2:f"
+												"#": 65536L
+												"#c": "ae2:f"
 												id: "gtceu:plutonium"
 											}
 											{ }
@@ -1771,8 +1771,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -1783,11 +1783,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:calcium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:plutonium"
 														}
 													]
@@ -1823,32 +1823,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:oganesson_breeding_base"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:dysprosium"
 											}
 											{ }
@@ -1930,8 +1930,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -1942,11 +1942,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:oganesson_breeding_base"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:dysprosium"
 														}
 													]
@@ -1982,32 +1982,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:mercury"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:magnesium"
 											}
 											{ }
@@ -2089,8 +2089,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -2101,11 +2101,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:mercury"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:magnesium"
 														}
 													]
@@ -2141,32 +2141,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:deuterium"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:tritium"
 											}
 											{ }
@@ -2248,8 +2248,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -2260,11 +2260,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:deuterium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:tritium"
 														}
 													]
@@ -2300,32 +2300,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:beryllium"
 											}
 											{
-												#: 384000L
-												#c: "ae2:f"
+												"#": 384000L
+												"#c": "ae2:f"
 												id: "gtceu:deuterium"
 											}
 											{ }
@@ -2407,8 +2407,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -2419,11 +2419,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:beryllium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:deuterium"
 														}
 													]
@@ -2459,32 +2459,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:lead"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:bromine"
 											}
 											{ }
@@ -2566,8 +2566,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -2578,11 +2578,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lead"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:bromine"
 														}
 													]
@@ -2618,32 +2618,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:silver"
 											}
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:lithium"
 											}
 											{ }
@@ -2725,8 +2725,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -2737,11 +2737,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silver"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lithium"
 														}
 													]
@@ -2777,32 +2777,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:europium"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:arsenic"
 											}
 											{ }
@@ -2884,8 +2884,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -2896,11 +2896,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:europium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:arsenic"
 														}
 													]
@@ -2936,32 +2936,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 2048000L
-												#c: "ae2:f"
+												"#": 2048000L
+												"#c": "ae2:f"
 												id: "gtceu:crystalmatrix"
 											}
 											{
-												#: 1024000L
-												#c: "ae2:f"
+												"#": 1024000L
+												"#c": "ae2:f"
 												id: "gtceu:cosmicneutronium"
 											}
 											{ }
@@ -3043,8 +3043,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -3055,11 +3055,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:crystalmatrix"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:cosmicneutronium"
 														}
 													]
@@ -3095,32 +3095,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:gold"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:mercury"
 											}
 											{ }
@@ -3202,8 +3202,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -3214,11 +3214,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:gold"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:mercury"
 														}
 													]
@@ -3254,32 +3254,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:berkelium"
 											}
 											{
-												#: 1179648L
-												#c: "ae2:f"
+												"#": 1179648L
+												"#c": "ae2:f"
 												id: "gtceu:potassium"
 											}
 											{ }
@@ -3361,8 +3361,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -3373,11 +3373,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:berkelium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:potassium"
 														}
 													]
@@ -3413,32 +3413,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:lutetium"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:vanadium"
 											}
 											{ }
@@ -3520,8 +3520,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -3532,11 +3532,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lutetium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:vanadium"
 														}
 													]
@@ -3572,32 +3572,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:einsteinium"
 											}
 											{
-												#: 1179648L
-												#c: "ae2:f"
+												"#": 1179648L
+												"#c": "ae2:f"
 												id: "gtceu:sodium"
 											}
 											{ }
@@ -3679,8 +3679,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -3691,11 +3691,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:einsteinium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:sodium"
 														}
 													]
@@ -3731,32 +3731,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:krypton"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:cerium"
 											}
 											{ }
@@ -3838,8 +3838,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -3850,11 +3850,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:krypton"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:cerium"
 														}
 													]
@@ -3890,32 +3890,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:xenon"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:zinc"
 											}
 											{ }
@@ -3997,8 +3997,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4009,11 +4009,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:xenon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:zinc"
 														}
 													]
@@ -4049,32 +4049,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:calcium"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:curium"
 											}
 											{ }
@@ -4156,8 +4156,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4168,11 +4168,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:calcium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:curium"
 														}
 													]
@@ -4208,32 +4208,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 131072L
-												#c: "ae2:f"
+												"#": 131072L
+												"#c": "ae2:f"
 												id: "gtceu:americium"
 											}
 											{
-												#: 131072L
-												#c: "ae2:f"
+												"#": 131072L
+												"#c": "ae2:f"
 												id: "gtceu:naquadria"
 											}
 											{ }
@@ -4315,8 +4315,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4327,11 +4327,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:americium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:naquadria"
 														}
 													]
@@ -4367,32 +4367,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:gold"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:aluminium"
 											}
 											{ }
@@ -4474,8 +4474,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4486,11 +4486,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:gold"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:aluminium"
 														}
 													]
@@ -4526,32 +4526,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:carbon"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:magnesium"
 											}
 											{ }
@@ -4633,8 +4633,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4645,11 +4645,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:carbon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:magnesium"
 														}
 													]
@@ -4685,32 +4685,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:gallium"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:radon"
 											}
 											{ }
@@ -4792,8 +4792,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4804,11 +4804,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:gallium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:radon"
 														}
 													]
@@ -4844,32 +4844,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:vibranium_unstable"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:adamantium"
 											}
 											{ }
@@ -4951,8 +4951,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -4963,11 +4963,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:vibranium_unstable"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:adamantium"
 														}
 													]
@@ -5003,32 +5003,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:silver"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:copper"
 											}
 											{ }
@@ -5110,8 +5110,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -5122,11 +5122,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silver"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:copper"
 														}
 													]
@@ -5162,32 +5162,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:scandium_titanium_50_mixture"
 											}
 											{
-												#: 256000L
-												#c: "ae2:f"
+												"#": 256000L
+												"#c": "ae2:f"
 												id: "gtceu:radon"
 											}
 											{ }
@@ -5269,8 +5269,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -5281,11 +5281,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:scandium_titanium_50_mixture"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:radon"
 														}
 													]
@@ -5321,32 +5321,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:thorium"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:iron"
 											}
 											{ }
@@ -5428,8 +5428,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -5440,11 +5440,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:thorium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:iron"
 														}
 													]
@@ -5480,32 +5480,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:enriched_naquadah"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:radon"
 											}
 											{ }
@@ -5587,8 +5587,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -5599,11 +5599,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:enriched_naquadah"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:radon"
 														}
 													]
@@ -5639,32 +5639,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 65536L
-												#c: "ae2:f"
+												"#": 65536L
+												"#c": "ae2:f"
 												id: "gtceu:europium"
 											}
 											{
-												#: 256000L
-												#c: "ae2:f"
+												"#": 256000L
+												"#c": "ae2:f"
 												id: "gtceu:neon"
 											}
 											{ }
@@ -5746,8 +5746,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -5758,11 +5758,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:europium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:neon"
 														}
 													]
@@ -5798,32 +5798,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:titanium"
 											}
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:duranium"
 											}
 											{ }
@@ -5905,8 +5905,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -5917,11 +5917,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:titanium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:duranium"
 														}
 													]
@@ -5957,32 +5957,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:neodymium"
 											}
 											{
-												#: 384000L
-												#c: "ae2:f"
+												"#": 384000L
+												"#c": "ae2:f"
 												id: "gtceu:hydrogen"
 											}
 											{ }
@@ -6064,8 +6064,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6076,11 +6076,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:neodymium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:hydrogen"
 														}
 													]
@@ -6116,32 +6116,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:lanthanum"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:silicon"
 											}
 											{ }
@@ -6223,8 +6223,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6235,11 +6235,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lanthanum"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silicon"
 														}
 													]
@@ -6275,32 +6275,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:draconium"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:quantumchromodynamically_confined_matter"
 											}
 											{ }
@@ -6382,8 +6382,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6394,11 +6394,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:draconium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:quantumchromodynamically_confined_matter"
 														}
 													]
@@ -6434,32 +6434,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:carbon"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:helium_3"
 											}
 											{ }
@@ -6541,8 +6541,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6553,11 +6553,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:carbon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:helium_3"
 														}
 													]
@@ -6593,32 +6593,32 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{ }
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "gtceu:programmed_circuit"
 												tag: {
 													Configuration: 1
 												}
 											}
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 											}
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:potassium"
 											}
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:fluorine"
 											}
 											{ }
@@ -6700,8 +6700,8 @@
 										]
 										out: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6712,11 +6712,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:potassium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:fluorine"
 														}
 													]
@@ -6804,19 +6804,19 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"聚变批处理样板-聚变堆\\\"}"
+								Name: "{\"text\":\"聚变批处理样板-聚变堆\"}"
 							}
 							ic: 37L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6827,11 +6827,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:europium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:arsenic"
 														}
 													]
@@ -6920,8 +6920,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:silver_plasma"
 											}
 											{ }
@@ -6954,13 +6954,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -6971,11 +6971,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:neodymium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:hydrogen"
 														}
 													]
@@ -7064,8 +7064,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:europium"
 											}
 											{ }
@@ -7098,13 +7098,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7115,11 +7115,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:carbon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:magnesium"
 														}
 													]
@@ -7208,8 +7208,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:argon_plasma"
 											}
 											{ }
@@ -7242,13 +7242,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7259,11 +7259,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:calcium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:plutonium"
 														}
 													]
@@ -7352,8 +7352,8 @@
 										]
 										out: [
 											{
-												#: 65536L
-												#c: "ae2:f"
+												"#": 65536L
+												"#c": "ae2:f"
 												id: "gtceu:seaborgium"
 											}
 											{ }
@@ -7386,13 +7386,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7403,11 +7403,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lutetium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:vanadium"
 														}
 													]
@@ -7496,8 +7496,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:plutonium_241_plasma"
 											}
 											{ }
@@ -7530,13 +7530,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7547,11 +7547,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:taranium_enriched_liquid_helium_3"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:hydrogen"
 														}
 													]
@@ -7640,8 +7640,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:taranium_rich_liquid_helium_4_plasma"
 											}
 											{ }
@@ -7674,13 +7674,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7691,11 +7691,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:einsteinium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:sodium"
 														}
 													]
@@ -7784,8 +7784,8 @@
 										]
 										out: [
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:orichalcum_plasma"
 											}
 											{ }
@@ -7818,13 +7818,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7835,11 +7835,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:oganesson_breeding_base"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:dysprosium"
 														}
 													]
@@ -7928,8 +7928,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:hot_oganesson"
 											}
 											{ }
@@ -7962,13 +7962,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -7979,11 +7979,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lutetium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:chromium"
 														}
 													]
@@ -8072,8 +8072,8 @@
 										]
 										out: [
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:americium"
 											}
 											{ }
@@ -8106,13 +8106,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8123,11 +8123,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silver"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lithium"
 														}
 													]
@@ -8216,8 +8216,8 @@
 										]
 										out: [
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:indium"
 											}
 											{ }
@@ -8250,13 +8250,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8267,11 +8267,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:hydrogen"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:vanadium"
 														}
 													]
@@ -8360,8 +8360,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:chromium"
 											}
 											{ }
@@ -8394,13 +8394,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8411,11 +8411,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:gallium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:radon"
 														}
 													]
@@ -8504,8 +8504,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:duranium"
 											}
 											{ }
@@ -8538,13 +8538,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8555,11 +8555,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:beryllium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:deuterium"
 														}
 													]
@@ -8648,8 +8648,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:nitrogen_plasma"
 											}
 											{ }
@@ -8682,13 +8682,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8699,11 +8699,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:thorium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:iron"
 														}
 													]
@@ -8792,8 +8792,8 @@
 										]
 										out: [
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:livermorium"
 											}
 											{ }
@@ -8826,13 +8826,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8843,11 +8843,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:titanium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:duranium"
 														}
 													]
@@ -8936,8 +8936,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:tritanium"
 											}
 											{ }
@@ -8970,13 +8970,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -8987,11 +8987,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silicon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:magnesium"
 														}
 													]
@@ -9080,8 +9080,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:iron_plasma"
 											}
 											{ }
@@ -9114,13 +9114,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9131,11 +9131,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:berkelium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:potassium"
 														}
 													]
@@ -9224,8 +9224,8 @@
 										]
 										out: [
 											{
-												#: 147456L
-												#c: "ae2:f"
+												"#": 147456L
+												"#c": "ae2:f"
 												id: "gtceu:mithril_plasma"
 											}
 											{ }
@@ -9258,13 +9258,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9275,11 +9275,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:calcium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:curium"
 														}
 													]
@@ -9368,8 +9368,8 @@
 										]
 										out: [
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:moscovium"
 											}
 											{ }
@@ -9402,13 +9402,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9419,11 +9419,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:draconium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:quantumchromodynamically_confined_matter"
 														}
 													]
@@ -9512,8 +9512,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:draconiumawakened_plasma"
 											}
 											{ }
@@ -9546,13 +9546,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9563,11 +9563,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:vibranium_unstable"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:adamantium"
 														}
 													]
@@ -9656,8 +9656,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:vibranium_plasma"
 											}
 											{ }
@@ -9690,13 +9690,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9707,11 +9707,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:potassium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:fluorine"
 														}
 													]
@@ -9800,8 +9800,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:nickel_plasma"
 											}
 											{ }
@@ -9834,13 +9834,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9851,11 +9851,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:gold"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:mercury"
 														}
 													]
@@ -9944,8 +9944,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:radon"
 											}
 											{ }
@@ -9978,13 +9978,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -9995,11 +9995,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:arsenic"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:ruthenium"
 														}
 													]
@@ -10088,8 +10088,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:darmstadtium"
 											}
 											{ }
@@ -10122,13 +10122,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -10139,11 +10139,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:deuterium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:tritium"
 														}
 													]
@@ -10232,8 +10232,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:helium_plasma"
 											}
 											{ }
@@ -10266,13 +10266,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -10283,11 +10283,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:europium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:neon"
 														}
 													]
@@ -10376,8 +10376,8 @@
 										]
 										out: [
 											{
-												#: 65536L
-												#c: "ae2:f"
+												"#": 65536L
+												"#c": "ae2:f"
 												id: "gtceu:dubnium"
 											}
 											{ }
@@ -10410,13 +10410,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -10427,11 +10427,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:crystalmatrix"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:cosmicneutronium"
 														}
 													]
@@ -10520,8 +10520,8 @@
 										]
 										out: [
 											{
-												#: 65536L
-												#c: "ae2:f"
+												"#": 65536L
+												"#c": "ae2:f"
 												id: "gtceu:infinity"
 											}
 											{ }
@@ -10554,13 +10554,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -10571,11 +10571,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:scandium_titanium_50_mixture"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:radon"
 														}
 													]
@@ -10664,8 +10664,8 @@
 										]
 										out: [
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:metastable_hassium_plasma"
 											}
 											{ }
@@ -10698,13 +10698,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -10715,11 +10715,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silver"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:copper"
 														}
 													]
@@ -10808,8 +10808,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:osmium"
 											}
 											{ }
@@ -10842,13 +10842,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -10859,11 +10859,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:xenon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:zinc"
 														}
 													]
@@ -10952,8 +10952,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:plutonium"
 											}
 											{ }
@@ -10986,13 +10986,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11003,11 +11003,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:enriched_naquadah"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:radon"
 														}
 													]
@@ -11096,8 +11096,8 @@
 										]
 										out: [
 											{
-												#: 4096L
-												#c: "ae2:f"
+												"#": 4096L
+												"#c": "ae2:f"
 												id: "gtceu:naquadria"
 											}
 											{ }
@@ -11130,13 +11130,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11147,11 +11147,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:americium"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:naquadria"
 														}
 													]
@@ -11240,8 +11240,8 @@
 										]
 										out: [
 											{
-												#: 32768L
-												#c: "ae2:f"
+												"#": 32768L
+												"#c": "ae2:f"
 												id: "gtceu:neutronium"
 											}
 											{ }
@@ -11274,13 +11274,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11291,11 +11291,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lanthanum"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:silicon"
 														}
 													]
@@ -11384,8 +11384,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:lutetium"
 											}
 											{ }
@@ -11418,13 +11418,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11435,11 +11435,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:lead"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:bromine"
 														}
 													]
@@ -11528,8 +11528,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:tennessine"
 											}
 											{ }
@@ -11562,13 +11562,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11579,11 +11579,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:gold"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:aluminium"
 														}
 													]
@@ -11672,8 +11672,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:uranium"
 											}
 											{ }
@@ -11706,13 +11706,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11723,11 +11723,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:carbon"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:helium_3"
 														}
 													]
@@ -11816,8 +11816,8 @@
 										]
 										out: [
 											{
-												#: 128000L
-												#c: "ae2:f"
+												"#": 128000L
+												"#c": "ae2:f"
 												id: "gtceu:oxygen_plasma"
 											}
 											{ }
@@ -11850,13 +11850,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -11867,11 +11867,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:krypton"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:cerium"
 														}
 													]
@@ -11960,8 +11960,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:plutonium_241"
 											}
 											{ }
@@ -11994,13 +11994,13 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "ae2:processing_pattern"
 									tag: {
 										in: [
 											{
-												#: 1L
-												#c: "ae2:i"
+												"#": 1L
+												"#c": "ae2:i"
 												id: "ae2:fluid_storage_cell_1k"
 												tag: {
 													amts: [
@@ -12011,11 +12011,11 @@
 													ic: 2L
 													keys: [
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:mercury"
 														}
 														{
-															#c: "ae2:f"
+															"#c": "ae2:f"
 															id: "gtceu:magnesium"
 														}
 													]
@@ -12104,8 +12104,8 @@
 										]
 										out: [
 											{
-												#: 16384L
-												#c: "ae2:f"
+												"#": 16384L
+												"#c": "ae2:f"
 												id: "gtceu:uranium_235"
 											}
 											{ }
@@ -12149,7 +12149,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:fluid_storage_cell_1k"
 							}
 						}
@@ -12383,335 +12383,335 @@
 					internalCurrentPower: 2000000.0d
 					keys: [
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_pattern_provider"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_pattern_access_part"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_import_bus_part"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_export_bus_part"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_drive"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:wireless_access_point"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:wireless_connect"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:pattern_encoding_terminal"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:me_input_hatch"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:capacity_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:flint_and_steel"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:wireless_crafting_terminal"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:wireless_ex_pat"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2wtlib:wireless_pattern_encoding_terminal"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:ender_pearl_dust"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:fuzzy_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:orange_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:light_gray_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:light_blue_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:void_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:gray_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:singularity"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:basic_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:equal_distribution_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:magenta_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:crafting_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:inverter_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:speed_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:creative_energy_cell"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:quantum_link"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:quantum_ring"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:me_input_bus"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:assembler_matrix_glass"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:crafting_terminal"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_interface"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:fluix_smart_cable"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:fluix_glass_cable"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:fluix_covered_dense_cable"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:fluix_smart_dense_cable"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:blank_pattern"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:pink_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:purple_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:red_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:cable_anchor"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:redstone_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2wtlib:quantum_bridge_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:logic_processor"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:calculation_processor"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:engineering_processor"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:black_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:yellow_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:green_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:blue_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:assembler_matrix_crafter"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:assembler_matrix_wall"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:assembler_matrix_pattern"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:assembler_matrix_frame"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:assembler_matrix_speed"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:tnt"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:lime_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:advanced_card"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:cyan_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "minecraft:white_dye"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:quartz_fiber"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:ex_io_port"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:level_emitter"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "ae2:toggle_bus"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtladditions:infinity_input_dual_hatch"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtladditions:me_super_pattern_buffer"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtladditions:me_super_pattern_buffer_proxy"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:uv_dual_output_hatch"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:uv_dual_input_hatch"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:me_extended_export_buffer"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:me_extended_async_export_buffer"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:tag_filter_me_stock_bus_part_machine"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtceu:me_dual_hatch_stock_part_machine"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtlcore:fast_infinity_cell"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtlcore:debug_pattern_test"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtlcore:pattern_modifier"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:pattern_modifier"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "gtlcore:max_storage"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "mae2:256x_crafting_accelerator"
 						}
 						{
-							#c: "ae2:i"
+							"#c": "ae2:i"
 							id: "expatternprovider:wireless_tool"
 						}
 					]
@@ -12965,7 +12965,7 @@
 		{
 			dependencies: ["047FECE40CB5A791"]
 			description: [
-				"{\\\"text\\\":\\\"There is a mission available\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3740DE62D42A4D0D\\\"}}"
+				"{\"text\":\"There is a mission available\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3740DE62D42A4D0D\"}}"
 				"Can also be synthesized by compressor"
 				"Efficient template writing tool"
 				"{@pagebreak}"
@@ -13336,7 +13336,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:sticky_resin"
 							}
 						}
@@ -13350,7 +13350,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:plant_ball"
 							}
 						}
@@ -13364,7 +13364,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:spruce_log"
 							}
 						}
@@ -13378,7 +13378,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:cherry_log"
 							}
 						}
@@ -13392,7 +13392,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:mangrove_log"
 							}
 						}
@@ -13406,7 +13406,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:birch_log"
 							}
 						}
@@ -13420,7 +13420,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:rubber_log"
 							}
 						}
@@ -13434,7 +13434,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:acacia_log"
 							}
 						}
@@ -13448,7 +13448,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:oak_log"
 							}
 						}
@@ -13462,7 +13462,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:jungle_log"
 							}
 						}
@@ -13476,7 +13476,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:dark_oak_log"
 							}
 						}
@@ -13490,7 +13490,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:potato"
 							}
 						}
@@ -13504,7 +13504,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:sweet_berries"
 							}
 						}
@@ -13518,7 +13518,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:carrot"
 							}
 						}
@@ -13532,7 +13532,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:wheat"
 							}
 						}
@@ -13546,7 +13546,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:kelp"
 							}
 						}
@@ -13560,7 +13560,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:cocoa_beans"
 							}
 						}
@@ -13574,7 +13574,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:melon"
 							}
 						}
@@ -13588,7 +13588,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:beetroot"
 							}
 						}
@@ -13602,7 +13602,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:red_mushroom"
 							}
 						}
@@ -13616,7 +13616,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:nether_wart"
 							}
 						}
@@ -13630,7 +13630,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:sugar_cane"
 							}
 						}
@@ -13644,7 +13644,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:vine"
 							}
 						}
@@ -13658,7 +13658,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:brown_mushroom"
 							}
 						}
@@ -13687,7 +13687,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:oil_medium"
 							}
 						}
@@ -13711,7 +13711,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:oil_heavy"
 							}
 						}
@@ -13725,7 +13725,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:coal_gas"
 							}
 						}
@@ -13739,7 +13739,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:krypton"
 							}
 						}
@@ -13753,7 +13753,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:helium_3"
 							}
 						}
@@ -13767,7 +13767,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:methane"
 							}
 						}
@@ -13781,7 +13781,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:chlorine"
 							}
 						}
@@ -13795,7 +13795,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:helium"
 							}
 						}
@@ -13809,7 +13809,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:oil"
 							}
 						}
@@ -13823,7 +13823,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:oil_light"
 							}
 						}
@@ -13837,7 +13837,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:unknowwater"
 							}
 						}
@@ -13851,7 +13851,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:benzene"
 							}
 						}
@@ -13865,7 +13865,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:natural_gas"
 							}
 						}
@@ -13879,7 +13879,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:charcoal_byproducts"
 							}
 						}
@@ -13893,7 +13893,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:neon"
 							}
 						}
@@ -13907,7 +13907,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:deuterium"
 							}
 						}
@@ -13921,7 +13921,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:xenon"
 							}
 						}
@@ -13935,7 +13935,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:radon"
 							}
 						}
@@ -13949,7 +13949,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:hydrochloric_acid"
 							}
 						}
@@ -13963,7 +13963,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:nitric_acid"
 							}
 						}
@@ -13977,7 +13977,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:fluorine"
 							}
 						}
@@ -13991,7 +13991,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:sulfuric_acid"
 							}
 						}
@@ -14005,7 +14005,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "minecraft:lava"
 							}
 						}
@@ -14031,7 +14031,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:ice"
 							}
 						}
@@ -14055,7 +14055,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:nitrogen"
 							}
 						}
@@ -14079,7 +14079,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:rocket_fuel_h8n4c2o4"
 							}
 						}
@@ -14093,7 +14093,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:distilled_water"
 							}
 						}
@@ -14107,7 +14107,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:salt_water"
 							}
 						}
@@ -14132,7 +14132,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:steam"
 							}
 						}
@@ -14146,7 +14146,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:liquid_helium"
 							}
 						}
@@ -14171,7 +14171,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:oxygen"
 							}
 						}
@@ -14185,7 +14185,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:hydrogen"
 							}
 						}
@@ -14214,7 +14214,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:meat_dust"
 							}
 						}
@@ -14228,7 +14228,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:fish_oil"
 							}
 						}
@@ -14242,7 +14242,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:lubricant"
 							}
 						}
@@ -14267,7 +14267,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:scrap"
 							}
 						}
@@ -14281,7 +14281,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:matter_ball"
 							}
 						}
@@ -14295,7 +14295,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:singularity"
 							}
 						}
@@ -14309,7 +14309,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:dirt"
 							}
 						}
@@ -14323,7 +14323,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:fertilizer"
 							}
 						}
@@ -14347,7 +14347,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:uu_amplifier"
 							}
 						}
@@ -14371,7 +14371,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:uu_matter"
 							}
 						}
@@ -14385,7 +14385,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:timepiece"
 							}
 						}
@@ -14399,7 +14399,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:quantum_chromodynamic_charge"
 							}
 						}
@@ -14413,7 +14413,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:bone"
 							}
 						}
@@ -14427,7 +14427,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "avaritia:neutron_pile"
 							}
 						}
@@ -14441,7 +14441,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:pufferfish"
 							}
 						}
@@ -14455,7 +14455,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:damascus_steel_nugget"
 							}
 						}
@@ -14489,67 +14489,67 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"集气元件包\\\"}"
+								Name: "{\"text\":\"集气元件包\"}"
 							}
 							ic: 6L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:air"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:liquid_air"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:nether_air"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:liquid_nether_air"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:ender_air"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:liquid_ender_air"
 										}
 									}
@@ -14582,37 +14582,37 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"宇宙探测元件包\\\"}"
+								Name: "{\"text\":\"宇宙探测元件包\"}"
 							}
 							ic: 3L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:cosmic_element"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:starlight"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:heavy_lepton_mixture"
 										}
 									}
@@ -14656,237 +14656,237 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"木化石化元件包\\\"}"
+								Name: "{\"text\":\"木化石化元件包\"}"
 							}
 							ic: 23L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:ethanol"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:naphthalene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:octane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:ethane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:propane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:butane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:toluene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:benzene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:butadiene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:butene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:propene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:ethylene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:methanol"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:absolute_ethanol"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:methane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:methyl_acetate"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:acetic_acid"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:carbon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:creosote"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:carbon_monoxide"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:dimethylbenzene"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:acetone"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:phenol"
 										}
 									}
@@ -15062,1447 +15062,1447 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"鸿蒙元件包\\\"}"
+								Name: "{\"text\":\"鸿蒙元件包\"}"
 							}
 							ic: 144L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:carbon_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:phosphorus_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:sulfur_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:selenium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iodine_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:boron_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:silicon_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:germanium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:arsenic_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:antimony_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tellurium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:astatine_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:aluminium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gallium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:indium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tin_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:thallium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lead_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:bismuth_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:polonium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:titanium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:vanadium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:chromium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:manganese_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iron_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cobalt_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:nickel_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:copper_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zinc_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zirconium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:niobium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:molybdenum_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:technetium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ruthenium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rhodium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:palladium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:silver_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cadmium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hafnium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tantalum_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tungsten_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rhenium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:osmium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iridium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:platinum_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gold_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:beryllium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:magnesium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:calcium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:strontium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:barium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:radium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:yttrium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lithium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:sodium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:potassium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rubidium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:caesium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:francium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:scandium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:actinium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:thorium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:protactinium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uranium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:neptunium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:plutonium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:americium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:curium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:berkelium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:californium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:einsteinium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:fermium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mendelevium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:nobelium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lawrencium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lanthanum_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cerium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:praseodymium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:neodymium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:promethium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:samarium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:europium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gadolinium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:terbium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:dysprosium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:holmium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:erbium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:thulium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ytterbium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lutetium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rutherfordium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:dubnium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:seaborgium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:bohrium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hassium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:meitnerium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:darmstadtium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:roentgenium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:copernicium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:nihonium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flerovium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:moscovium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:livermorium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tennessine_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:oganesson_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:jasper_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:naquadah_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:enriched_naquadah_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:naquadria_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:duranium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tritanium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mithril_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:orichalcum_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:enderium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:adamantine_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:vibranium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:infuscolium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:taranium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:draconium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:starmetal_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:spacetime"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:raw_star_matter_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:quark_gluon_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:heavy_quark_degenerate_matter_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:neutronium"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:heavy_lepton_mixture"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:hydrogen"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:nitrogen"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:oxygen"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:fluorine"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:chlorine"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:bromine"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:helium"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:neon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:argon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:krypton"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:xenon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:radon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:mercury"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:deuterium"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:tritium"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:helium_3"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:unknowwater"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:uu_matter"
 										}
 									}
@@ -17073,7 +17073,7 @@
 		}
 		{
 			dependencies: ["2DA32CBA5D3D242C"]
-			description: ["Dahua Reverse Circuit No. 24: Chlorine + salt water + water synthesize liquid bromine", "{\\\"text\\\":\\\"However, you can push a drone to jump over the bromine production line\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1FE5F8D737ADB1B8\\\"}}"]
+			description: ["Dahua Reverse Circuit No. 24: Chlorine + salt water + water synthesize liquid bromine", "{\"text\":\"However, you can push a drone to jump over the bromine production line\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1FE5F8D737ADB1B8\"}}"]
 			icon: "gtceu:bromine_bucket"
 			id: "1F74859A92BF08E1"
 			optional: true
@@ -17708,7 +17708,7 @@
 								currentParallel: 256
 							}
 							display: {
-								Lore: ["\\\"一重压缩 实际并行数：256 谨慎放置 挖掘/点击后会重置并行\\\""]
+								Lore: ["\"一重压缩 实际并行数：256 谨慎放置 挖掘/点击后会重置并行\""]
 							}
 						}
 					}
@@ -17724,7 +17724,7 @@
 								currentParallel: 1024
 							}
 							display: {
-								Lore: ["\\\"二重压缩 实际并行数：1024 谨慎放置 挖掘/点击后会重置并行\\\""]
+								Lore: ["\"二重压缩 实际并行数：1024 谨慎放置 挖掘/点击后会重置并行\""]
 							}
 						}
 					}
@@ -17740,7 +17740,7 @@
 								currentParallel: 4096
 							}
 							display: {
-								Lore: ["\\\"三重压缩 实际并行数：4096 谨慎放置 挖掘/点击后会重置并行\\\""]
+								Lore: ["\"三重压缩 实际并行数：4096 谨慎放置 挖掘/点击后会重置并行\""]
 							}
 						}
 					}
@@ -17781,7 +17781,7 @@
 								maintenanceProblems: 127b
 							}
 							display: {
-								Lore: ["\\\"耗时乘数2.0x 维护过一次 谨慎放置 挖掘后会重置维护状态与耗时乘数\\\""]
+								Lore: ["\"耗时乘数2.0x 维护过一次 谨慎放置 挖掘后会重置维护状态与耗时乘数\""]
 							}
 						}
 					}
@@ -17808,7 +17808,7 @@
 								durationMultiplier: 2.0f
 							}
 							display: {
-								Lore: ["\\\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\\\""]
+								Lore: ["\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\""]
 							}
 						}
 					}
@@ -17927,157 +17927,157 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"通用电路板元件包\\\"}"
+								Name: "{\"text\":\"通用电路板元件包\"}"
 							}
 							ic: 15L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:ulv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:lv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:mv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:hv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:ev_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:iv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:luv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:zpm_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:uv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:uhv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:uev_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:uiv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:uxv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:opv_universal_circuit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:max_universal_circuit"
 										}
 									}
@@ -18107,7 +18107,7 @@
 								astralArrayCount: 382
 							}
 							display: {
-								Lore: ["\\\"已解锁悖论实现理论的宏原子 塞了382个星阵 作为主机时配合永恒线圈获得 Long.MAX 并行\\\""]
+								Lore: ["\"已解锁悖论实现理论的宏原子 塞了382个星阵 作为主机时配合永恒线圈获得 Long.MAX 并行\""]
 							}
 						}
 					}

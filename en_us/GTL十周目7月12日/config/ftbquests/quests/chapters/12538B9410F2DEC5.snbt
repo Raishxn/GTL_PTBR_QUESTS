@@ -291,7 +291,7 @@
 		{
 			dependencies: ["77759D1FE48F958B"]
 			description: [
-				"Since Just Enough Characters (Universal Pinyin Search) does not include the pinyin corresponding to many elements in the periodic table, you can use \\\"#\\\" + \\\"element symbol\\\" to search, for example: #ds can search for it 𫟼; since the chemical formula of the fluid will not be displayed on the ME network, you can use \\\"*\\\" + \\\"tag\\\" to search for fluids, for example *darmstadtium can search for liquid 𫟼"
+				"Since Just Enough Characters (Universal Pinyin Search) does not include the pinyin corresponding to many elements in the periodic table, you can use \"#\" + \"element symbol\" to search, for example: #ds can search for it 𫟼; since the chemical formula of the fluid will not be displayed on the ME network, you can use \"*\" + \"tag\" to search for fluids, for example *darmstadtium can search for liquid 𫟼"
 				""
 				"You can also directly update this mod manually. The latest version has solved this problem."
 				""
@@ -831,7 +831,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:space_essence"
 							}
 						}

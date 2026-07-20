@@ -292,7 +292,7 @@
 		{
 			dependencies: ["2A19E7C6DC247B90", "2D1F2793A396B322"]
 			description: [
-				"{ \\\"text\\\": \\\"Both creative power sources can be put into active transformers to allow unlimited power to wireless networks\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3B18900343C2F4E3\\\" } }"
+				"{ \"text\": \"Both creative power sources can be put into active transformers to allow unlimited power to wireless networks\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
 				""
 				"You can also put the creative power supply into the machine, so that the machine can obtain power far beyond 4194304A MAX, up to&cM&r&aA&r&9X&r&e+&r&c16 &r"
 				""
@@ -529,7 +529,7 @@
 		{
 			dependencies: ["5AFEAD001EDA612D"]
 			description: [
-				"&6&lGTLAdditions \\\"Sphere Divergence Engine\\\""
+				"&6&lGTLAdditions \"Sphere Divergence Engine\""
 				""
 				"&7▌ Function:"
 				"&lis installed on supported machines and can significantly increase the number of parallel"
@@ -564,11 +564,11 @@
 		{
 			dependencies: ["5F145D9019C4BC48"]
 			description: [
-				"&6&lGTLAdditions \\\"Forge of the False God\\\" / Stellar Forging Array"
+				"&6&lGTLAdditions \"Forge of the False God\" / Stellar Forging Array"
 				""
 				"&7▌ Function:"
 				"The&lhost can provide up to 15 times the formula output of&e&7, while enjoying 1/5 of the EU consumption of&a&7reduction"
-				"&lhas a \\\"hyperdimensional operation\\\" mode, which requires continuous running of&efor 4 hours in the real world and&7to complete the process."
+				"&lhas a \"hyperdimensional operation\" mode, which requires continuous running of&efor 4 hours in the real world and&7to complete the process."
 				"&lcan perform&6ultra-dimensional smelting &7,&6stellar thermal energy smelting &7,&6ultimate material forging&7three types of formulas"
 				"&lcan be installed with&6stellar jet melting core &7,&astellar thermal energy plasma manufacturing machine &7,&cstellar flame energy furnace &7,&4stellar fusion mutator &7,&3stellar phase dragon vein crystallizer&7and other modules"
 				""
@@ -595,7 +595,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:raw_star_matter_plasma"
 							}
 						}
@@ -609,7 +609,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:dimensionallytranscendentcrudecatalyst"
 							}
 						}
@@ -695,21 +695,21 @@
 			description: [
 				"&d&oYou have gone through the loneliness across the ages and accepted the trial of the God of Elements/Pseudo."
 				"&d&oYou have witnessed the stars returning to the sun, and the final matrix rewriting infinity."
-				"&d&oNow, you have completed the last request of \\\"Yuda\\\"."
+				"&d&oNow, you have completed the last request of \"Yuda\"."
 				"&d&oStanding in front of the creation box, this block represents the highest authority in this world."
 				"&d&oYou know this will be the last stare."
 				"&d&oA minute of silence is a tribute to all the past struggles and a farewell to this virtual world."
 				""
 				"&l&cCompletion conditions:"
-				"&8• Complete the final mission of the main line \\\"Yuda\\\""
+				"&8• Complete the final mission of the main line \"Yuda\""
 				"&8• Get creative mode box"
 				"&8• Observe creative mode boxes for 1 minute"
-				"&8• Complete the hidden mission \\\"Gaze across Era\\\""
-				"&8• Complete the hidden mission \\\"God of Elements/Pseudo Mercy\\\""
-				"&8• Complete the hidden mission \\\"The Stars Gone Silent\\\""
-				"&8• Complete the hidden mission \\\"The Final Witness\\\""
+				"&8• Complete the hidden mission \"Gaze across Era\""
+				"&8• Complete the hidden mission \"God of Elements/Pseudo Mercy\""
+				"&8• Complete the hidden mission \"The Stars Gone Silent\""
+				"&8• Complete the hidden mission \"The Final Witness\""
 				""
-				"&7&o\\\"All stories have an end, but witnessing itself is eternity.\\\""
+				"&7&o\"All stories have an end, but witnessing itself is eternity.\""
 			]
 			icon_scale: 1.3d
 			id: "62B42D9C7C68A5DC"
@@ -762,13 +762,13 @@
 							}
 							display: {
 								Lore: [
-									"{\\\"text\\\":\\\"§7━━━━━━━━━━━━━━━━\\\"}"
-									"{\\\"text\\\":\\\"§6嵌入 §e127 个星规矩阵 §6\\\",\\\"italic\\\":false}"
-									"{\\\"text\\\":\\\"§b星能输出：§3+∞ §b/ tick\\\"}"
-									"{\\\"text\\\":\\\"§7━━━━━━━━━━━━━━━━\\\"}"
-									"{\\\"text\\\":\\\"§d§o「群星之心的跳动」§d\\\"}"
+									"{\"text\":\"§7━━━━━━━━━━━━━━━━\"}"
+									"{\"text\":\"§6嵌入 §e127 个星规矩阵 §6\",\"italic\":false}"
+									"{\"text\":\"§b星能输出：§3+∞ §b/ tick\"}"
+									"{\"text\":\"§7━━━━━━━━━━━━━━━━\"}"
+									"{\"text\":\"§d§o「群星之心的跳动」§d\"}"
 								]
-								Name: "{\\\"text\\\":\\\"超级天球引擎\\\",\\\"color\\\":\\\"#AAFFAA\\\",\\\"bold\\\":true}"
+								Name: "{\"text\":\"超级天球引擎\",\"color\":\"#AAFFAA\",\"bold\":true}"
 							}
 						}
 					}

@@ -291,7 +291,7 @@
 		{
 			dependencies: ["77759D1FE48F958B"]
 			description: [
-				"Como Just Enough Characters (Universal Pinyin Search) não inclui o pinyin correspondente a muitos elementos da tabela periódica, você pode usar \\\"#\\\" + \\\"element symbol\\\" para pesquisar, por exemplo: #ds pode pesquisá-lo 𫟼; como a fórmula química do fluido não será exibida na rede ME, você pode usar \\\"*\\\" + \\\"tag\\\" para pesquisar fluidos, por exemplo *darmstadtium pode pesquisar líquido 𫟼"
+				"Como Just Enough Characters (Universal Pinyin Search) não inclui o pinyin correspondente a muitos elementos da tabela periódica, você pode usar \"#\" + \"element symbol\" para pesquisar, por exemplo: #ds pode pesquisá-lo 𫟼; como a fórmula química do fluido não será exibida na rede ME, você pode usar \"*\" + \"tag\" para pesquisar fluidos, por exemplo *darmstadtium pode pesquisar líquido 𫟼"
 				""
 				"Você também pode atualizar este mod diretamente manualmente. A versão mais recente resolveu esse problema."
 				""
@@ -782,7 +782,7 @@
 		{
 			dependencies: ["6DDE77C23FC5D067", "7A7C73D046390488"]
 			dependency_requirement: "one_completed"
-			description: ["{ \\\"text\\\": \\\"Zircônio em Ganimedes\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"71E844874F97530A\\\" } }", ""]
+			description: ["{ \"text\": \"Zircônio em Ganimedes\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E844874F97530A\" } }", ""]
 			id: "042A0E98DC1084B3"
 			rewards: [
 				{
@@ -831,7 +831,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:space_essence"
 							}
 						}

@@ -2111,7 +2111,7 @@
 			description: [
 				"Now first get it through indium enrichment solution"
 				""
-				"{\\\"text\\\":\\\"Can be obtained later during processing of enriched silica rock\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1534BC8521461BC8\\\"}}"
+				"{\"text\":\"Can be obtained later during processing of enriched silica rock\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1534BC8521461BC8\"}}"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2412,7 +2412,7 @@
 		}
 		{
 			dependencies: ["275854E3F1E59652", "4059A907154E2865"]
-			description: ["{\\\"text\\\":\\\"With the MKIV drone you can dig\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"670D8EB2CE915FD5\\\"}}"]
+			description: ["{\"text\":\"With the MKIV drone you can dig\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"670D8EB2CE915FD5\"}}"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "7570243EDE6F35B1"
 			subtitle: "You can dig directly later"
@@ -2434,7 +2434,7 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			dependency_requirement: "one_completed"
-			description: ["{\\\"text\\\":\\\"At this time, the nano resin extraction line will also produce promethium powder.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"72DFAC3212692136\\\"}}"]
+			description: ["{\"text\":\"At this time, the nano resin extraction line will also produce promethium powder.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"72DFAC3212692136\"}}"]
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
@@ -4137,7 +4137,7 @@
 			dependencies: ["6DDE77C23FC5D067", "7A7C73D046390488"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{\\\"text\\\":\\\"long production line\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"0E926F9B91EECD78\\\"}}"
+				"{\"text\":\"long production line\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0E926F9B91EECD78\"}}"
 				""
 				"When you have a UEV energy store, you can electrolyze directly to obtain Caijin powder"
 			]
@@ -4951,7 +4951,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{\\\"text\\\":\\\"See precautions for building an evaporation tower here.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"224B850538D346D3\\\"}}"]
+			description: ["{\"text\":\"See precautions for building an evaporation tower here.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"]
 			id: "3AB780C51F3F021A"
 			tasks: [
 				{
@@ -5000,7 +5000,7 @@
 		}
 		{
 			dependencies: ["6730821C43B619C5"]
-			description: ["{\\\"text\\\":\\\"You can use the space elevator to collect it directly later.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1FE5F8D737ADB1B8\\\"}}"]
+			description: ["{\"text\":\"You can use the space elevator to collect it directly later.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1FE5F8D737ADB1B8\"}}"]
 			icon: "gtceu:bromine_bucket"
 			icon_scale: 2.0d
 			id: "4A7883F69F6490C5"
@@ -6356,7 +6356,7 @@
 			y: 21.0d
 		}
 		{
-			description: ["{\\\"text\\\":\\\"Bromine Source\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"3AB780C51F3F021A\\\"}}"]
+			description: ["{\"text\":\"Bromine Source\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3AB780C51F3F021A\"}}"]
 			icon: "gtceu:bromine_trifluoride_bucket"
 			id: "5ABE1C11479A0229"
 			shape: "pentagon"

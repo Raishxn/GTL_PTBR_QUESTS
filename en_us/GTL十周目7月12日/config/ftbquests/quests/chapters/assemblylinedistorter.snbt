@@ -63,13 +63,13 @@
 							}
 							display: {
 								Lore: [
-									"\\\"§6§l伪神之煅炉·终极形态\\\""
-									"\\\"§e§n经过终焉曲折量子波动矩阵无尽伟力，铸就伪神之基\\\""
-									"\\\"§7§m一秒吞噬9.2E的EU万物迎来终焉\\\""
-									"\\\"§5§o承载万物，突破凡俗桎梏\\\""
-									"\\\"§c§k焚烬世界一切......\\\""
+									"\"§6§l伪神之煅炉·终极形态\""
+									"\"§e§n经过终焉曲折量子波动矩阵无尽伟力，铸就伪神之基\""
+									"\"§7§m一秒吞噬9.2E的EU万物迎来终焉\""
+									"\"§5§o承载万物，突破凡俗桎梏\""
+									"\"§c§k焚烬世界一切......\""
 								]
-								Name: "{\\\"text\\\":\\\"终焉伪神之锻炉\\\",\\\"color\\\":\\\"#FF4500\\\",\\\"bold\\\":true,\\\"italic\\\":true}"
+								Name: "{\"text\":\"终焉伪神之锻炉\",\"color\":\"#FF4500\",\"bold\":true,\"italic\":true}"
 							}
 						}
 					}
@@ -165,367 +165,367 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"等离子元件包\\\"}"
+								Name: "{\"text\":\"等离子元件包\"}"
 							}
 							ic: 36L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:argon_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:heavy_quark_degenerate_matter_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:echoite_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:raw_star_matter_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:legendarium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:metastable_hassium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:degenerate_rhenium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:quark_gluon_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:celestialtungsten_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:chaos_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:starmetal_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:enderium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:oxygen_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:nitrogen_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:orichalcum_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:quasifissioning_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:vibranium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:astraltitanium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:cosmic_mesh_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:taranium_rich_liquid_helium_4_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:dense_neutron_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:draconiumawakened_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:nickel_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:infuscolium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:flyb_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:high_energy_quark_gluon_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:quantumchromodynamically_confined_matter_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:plutonium_241_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:iron_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:silver_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:actinium_superhydride_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:crystalmatrix_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:mithril_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:adamantium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtceu:helium_plasma"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:f"
+											"#c": "ae2:f"
 											id: "gtladditions:creon_plasma"
 										}
 									}
@@ -579,247 +579,247 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"鸿蒙+元件包\\\"}"
+								Name: "{\"text\":\"鸿蒙+元件包\"}"
 							}
 							ic: 24L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:white_dwarf_mtter_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:black_dwarf_mtter_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "ae2:sky_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:trinium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:plutonium_241_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:titanium_50_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:copper76_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uranium_235_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:perditio_crystal_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:earth_crystal_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ignis_crystal_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:tartarite_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uruium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:force_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:alien_algae_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:bloodstone_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:netherite_scrap"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:purified_tengam_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:quantanium_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:bedrock_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:damascus_steel_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "avaritia:neutron_pile"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:certus_quartz_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "ae2:fluix_dust"
 										}
 									}
@@ -961,1127 +961,1127 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"部件元件包\\\"}"
+								Name: "{\"text\":\"部件元件包\"}"
 							}
 							ic: 112L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:mv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:hv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ev_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:luv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:zpm_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uhv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uev_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uiv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uxv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:opv_field_generator"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_electric_motor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_electric_pump"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_conveyor_module"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_robot_arm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_electric_piston"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_emitter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_sensor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:max_field_generator"
 										}
 									}
@@ -2221,13 +2221,13 @@
 							}
 							display: {
 								Lore: [
-									"{\\\"text\\\":\\\"§7━━━━━━━━━━━━━━━━\\\"}"
-									"{\\\"text\\\":\\\"§6嵌入 §e127 个星规矩阵 §6\\\",\\\"italic\\\":false}"
-									"{\\\"text\\\":\\\"§b星能输出：§3+∞ §b/ tick\\\"}"
-									"{\\\"text\\\":\\\"§7━━━━━━━━━━━━━━━━\\\"}"
-									"{\\\"text\\\":\\\"§d§o「群星之心的跳动」§d\\\"}"
+									"{\"text\":\"§7━━━━━━━━━━━━━━━━\"}"
+									"{\"text\":\"§6嵌入 §e127 个星规矩阵 §6\",\"italic\":false}"
+									"{\"text\":\"§b星能输出：§3+∞ §b/ tick\"}"
+									"{\"text\":\"§7━━━━━━━━━━━━━━━━\"}"
+									"{\"text\":\"§d§o「群星之心的跳动」§d\"}"
 								]
-								Name: "{\\\"text\\\":\\\"超级天球引擎\\\",\\\"color\\\":\\\"#AAFFAA\\\",\\\"bold\\\":true}"
+								Name: "{\"text\":\"超级天球引擎\",\"color\":\"#AAFFAA\",\"bold\":true}"
 							}
 						}
 					}
@@ -2321,7 +2321,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:blank_pattern"
 							}
 						}
@@ -2374,7 +2374,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:fluix_glass_cable"
 							}
 						}
@@ -2388,7 +2388,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "expatternprovider:ex_pattern_provider"
 							}
 						}
@@ -2402,7 +2402,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "expatternprovider:ex_interface"
 							}
 						}
@@ -2437,13 +2437,13 @@
 						id: "gtceu:echoite_vajra"
 						tag: {
 							DisallowContainerItem: 0b
-							GT.Behaviours: {
+							"GT.Behaviours": {
 								DisableShields: 1b
 								Mode: 2b
 								RelocateMinedBlocks: 1b
 								TreeFelling: 1b
 							}
-							GT.Tool: {
+							"GT.Tool": {
 								Damage: 0
 								Enchantability: 10
 								HarvestLevel: 6
@@ -2489,7 +2489,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:storage_bus"
 							}
 						}
@@ -2517,107 +2517,107 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"脆弱工具元件包\\\"}"
+								Name: "{\"text\":\"脆弱工具元件包\"}"
 							}
 							ic: 10L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_file"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_hammer"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_mallet"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_wrench"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_wire_cutter"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_crowbar"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_saw"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_screwdriver"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_knife"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "fragile_tool:fragile_mortar"
 										}
 									}
@@ -2644,7 +2644,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "expatternprovider:ex_pattern_provider_part"
 							}
 						}
@@ -2658,7 +2658,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "expatternprovider:ex_interface_part"
 							}
 						}
@@ -2724,167 +2724,167 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"混凝土元件包\\\"}"
+								Name: "{\"text\":\"混凝土元件包\"}"
 							}
 							ic: 16L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:white_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:orange_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:magenta_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:light_blue_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:yellow_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:lime_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pink_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:gray_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:light_gray_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cyan_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:purple_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:blue_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:brown_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:green_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:red_concrete"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:black_concrete"
 										}
 									}
@@ -2921,167 +2921,167 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"染料元件包\\\"}"
+								Name: "{\"text\":\"染料元件包\"}"
 							}
 							ic: 16L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:white_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:orange_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:magenta_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:light_blue_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:yellow_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:lime_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pink_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:gray_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:light_gray_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cyan_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:purple_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:blue_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:brown_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:green_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:red_dye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:black_dye"
 										}
 									}
@@ -3168,7 +3168,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "extendedae_plus:labeled_wireless_transceiver"
 							}
 						}
@@ -3193,7 +3193,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "ae2:speed_card"
 							}
 						}
@@ -3351,7 +3351,7 @@
 						astralArrayCount: 382
 					}
 					display: {
-						Lore: ["\\\"已解锁悖论实现理论的宏原子 塞了382个星阵 作为主机时配合永恒线圈获得 Long.MAX 并行\\\""]
+						Lore: ["\"已解锁悖论实现理论的宏原子 塞了382个星阵 作为主机时配合永恒线圈获得 Long.MAX 并行\""]
 					}
 				}
 			}
@@ -3385,167 +3385,167 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"世界碎片元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"世界碎片元件包\",\"italic\":false}"
 							}
 							ic: 16L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_ganymede"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_pluto"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_enceladus"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_glacio"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_barnarda"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_ceres"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_titan"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_io"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_overworld"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_nether"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_end"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_reactor"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_moon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_mars"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_venus"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtlcore:world_fragments_mercury"
 										}
 									}
@@ -4008,7 +4008,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:mutagen"
 							}
 						}
@@ -4030,7 +4030,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:sodium_potassium"
 							}
 						}
@@ -4090,17 +4090,17 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"编程电路元件包\\\"}"
+								Name: "{\"text\":\"编程电路元件包\"}"
 							}
 							ic: 33L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 19
@@ -4109,11 +4109,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 14
@@ -4122,11 +4122,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 8
@@ -4135,11 +4135,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 17
@@ -4148,11 +4148,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 30
@@ -4161,11 +4161,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 24
@@ -4174,11 +4174,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 7
@@ -4187,11 +4187,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 5
@@ -4200,11 +4200,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 11
@@ -4213,11 +4213,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 3
@@ -4226,11 +4226,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 31
@@ -4239,11 +4239,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 6
@@ -4252,11 +4252,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 26
@@ -4265,11 +4265,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 21
@@ -4278,11 +4278,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 2
@@ -4291,11 +4291,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 10
@@ -4304,11 +4304,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 12
@@ -4317,11 +4317,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 18
@@ -4330,11 +4330,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 9
@@ -4343,11 +4343,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 16
@@ -4356,11 +4356,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 22
@@ -4369,11 +4369,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 20
@@ -4382,11 +4382,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 15
@@ -4395,11 +4395,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 13
@@ -4408,11 +4408,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 0
@@ -4421,11 +4421,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 27
@@ -4434,11 +4434,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 1
@@ -4447,11 +4447,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 29
@@ -4460,11 +4460,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 28
@@ -4473,11 +4473,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 23
@@ -4486,11 +4486,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 25
@@ -4499,11 +4499,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 32
@@ -4512,11 +4512,11 @@
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:programmed_circuit"
 											tag: {
 												Configuration: 4
@@ -4536,7 +4536,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:sticky_resin"
 							}
 						}
@@ -4550,7 +4550,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:rubber_log"
 							}
 						}
@@ -4564,7 +4564,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:dirt"
 							}
 						}
@@ -4578,7 +4578,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "minecraft:water"
 							}
 						}
@@ -4592,7 +4592,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:cobblestone"
 							}
 						}
@@ -4606,7 +4606,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:clay_ball"
 							}
 						}
@@ -4620,7 +4620,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "minecraft:lava"
 							}
 						}
@@ -5209,267 +5209,267 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"无限透镜元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"无限透镜元件包\",\"italic\":false}"
 							}
 							ic: 26L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:blue_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:amethyst_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:yellow_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:purple_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:diamond_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:brown_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:orange_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ruby_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:magenta_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gray_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:non_linear_optical_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:black_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:lime_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:sapphire_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:nether_star_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:light_blue_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:emerald_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:light_gray_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:grating_lithography_mask"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cyan_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:green_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:red_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:lithography_mask"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:pink_glass_lens"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtladditions:spacetime_lens"
 										}
 									}
@@ -5726,7 +5726,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:bedrock_dust"
 							}
 						}
@@ -5748,7 +5748,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:biomass"
 							}
 						}
@@ -5885,7 +5885,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:dust_cryotheum"
 							}
 						}
@@ -5920,7 +5920,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:rocket_fuel_h8n4c2o4"
 							}
 						}
@@ -5976,7 +5976,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:stellar_energy_rocket_fuel"
 							}
 						}
@@ -6010,7 +6010,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:miracle_adhesive"
 							}
 						}
@@ -6024,7 +6024,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:miracle"
 							}
 						}
@@ -6038,7 +6038,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:miracle_gas"
 							}
 						}
@@ -6052,7 +6052,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtlcore:miracle_crystal"
 							}
 						}
@@ -6108,7 +6108,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "avaritia:ultimate_stew"
 							}
 						}
@@ -6122,7 +6122,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "avaritia:cosmic_meatballs"
 							}
 						}
@@ -6171,7 +6171,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:space_essence"
 							}
 						}
@@ -6206,7 +6206,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:netherrack"
 							}
 						}
@@ -6220,7 +6220,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:end_stone"
 							}
 						}
@@ -6234,7 +6234,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:deepslate"
 							}
 						}
@@ -6248,7 +6248,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:prismarine"
 							}
 						}
@@ -6262,7 +6262,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:stone"
 							}
 						}
@@ -6276,7 +6276,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:sand"
 							}
 						}
@@ -6290,7 +6290,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:gravel"
 							}
 						}
@@ -6325,7 +6325,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:obsidian"
 							}
 						}
@@ -6356,7 +6356,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:activated_carbon_dust"
 							}
 						}
@@ -6378,7 +6378,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:bio_chaff"
 							}
 						}
@@ -6449,7 +6449,7 @@
 				id: "expatternprovider:infinity_cell"
 				tag: {
 					record: {
-						#c: "ae2:i"
+						"#c": "ae2:i"
 						id: "minecraft:cobblestone"
 					}
 				}
@@ -6772,7 +6772,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:dragon_egg"
 							}
 						}
@@ -7120,7 +7120,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:stellar_energy_rocket_fuel"
 							}
 						}
@@ -7150,7 +7150,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtladditions:wireless_energy_network_output_terminal"
 							}
 						}
@@ -7164,7 +7164,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtladditions:wireless_energy_network_input_terminal"
 							}
 						}
@@ -7178,7 +7178,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
 							}
 						}
@@ -7192,7 +7192,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:me_dual_hatch_stock_part_machine"
 							}
 						}
@@ -7206,7 +7206,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:me_extended_export_buffer"
 							}
 						}
@@ -7220,7 +7220,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtladditions:me_super_pattern_buffer"
 							}
 						}
@@ -7234,7 +7234,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtladditions:super_parallel_hatch"
 							}
 						}
@@ -7248,7 +7248,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtladditions:thread_modifier_hatch"
 							}
 						}
@@ -7262,7 +7262,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtladditions:astral_array"
 							}
 						}
@@ -7276,7 +7276,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:eternity_coil_block"
 							}
 						}
@@ -7290,7 +7290,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtmadvancedhatch:adaptive_net_laser_target_hatch"
 							}
 						}
@@ -7304,7 +7304,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtmadvancedhatch:adaptive_net_energy_input_hatch"
 							}
 						}
@@ -7318,7 +7318,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:tag_filter_me_stock_bus_part_machine"
 							}
 						}
@@ -7332,7 +7332,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:me_stocking_pattern_buffer"
 							}
 						}
@@ -7346,7 +7346,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:me_final_pattern_buffer"
 							}
 						}
@@ -7360,7 +7360,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:me_wildcard_pattern_buffer"
 							}
 						}
@@ -7474,7 +7474,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtladditions:star_gate_crystal_slurry"
 							}
 						}
@@ -7607,7 +7607,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtlsupb:pattern_assembly"
 							}
 						}
@@ -7646,13 +7646,13 @@
 				id: "gtceu:echoite_vajra"
 				tag: {
 					DisallowContainerItem: 0b
-					GT.Behaviours: {
+					"GT.Behaviours": {
 						DisableShields: 1b
 						Mode: 2b
 						RelocateMinedBlocks: 1b
 						TreeFelling: 1b
 					}
-					GT.Tool: {
+					"GT.Tool": {
 						Damage: 0
 						Enchantability: 10
 						HarvestLevel: 6
@@ -8068,237 +8068,237 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"屠宰元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"屠宰元件包\",\"italic\":false}"
 							}
 							ic: 23L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:egg"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:feather"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:blaze_rod"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:beef"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sugar"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ghast_tear"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:poppy"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:mutton"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wither_skeleton_skull"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:wheat"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:ender_pearl"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glowstone_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:chicken"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit_foot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:gunpowder"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:potato"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:glass_bottle"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:porkchop"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:carrot"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rabbit_hide"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:nether_star"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:slime_ball"
 										}
 									}
@@ -8332,7 +8332,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:steam"
 							}
 						}
@@ -8430,7 +8430,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:mana"
 							}
 						}
@@ -8461,7 +8461,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:f"
+								"#c": "ae2:f"
 								id: "gtceu:uu_amplifier"
 							}
 						}
@@ -8623,787 +8623,787 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"晶体元件包\\\"}"
+								Name: "{\"text\":\"晶体元件包\"}"
 							}
 							ic: 78L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_blue_topaz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_ruby_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_salt_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_nether_quartz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_jasper_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_malachite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_lapis_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_diamond_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_emerald_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_quartzite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_echo_shard_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_andradite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_coal_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_glass_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_monazite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_olivine_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_red_garnet_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_apatite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_magneto_resonatic_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_grossular_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_green_sapphire_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_amethyst_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_certus_quartz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_sapphire_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_cinnabar_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_opal_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_realgar_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_uvarovite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_coke_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_almandine_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_rock_salt_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_pyrope_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_lazurite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_rutile_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_topaz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_cubic_zirconia_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_spessartine_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_sodalite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:exquisite_yellow_garnet_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_nether_quartz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_malachite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_blue_topaz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_jasper_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_salt_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_certus_quartz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_coal_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_andradite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_quartzite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_red_garnet_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_olivine_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_rutile_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_magneto_resonatic_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_diamond_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_ruby_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_topaz_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_coke_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_lazurite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_yellow_garnet_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_monazite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_pyrope_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_echo_shard_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_almandine_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_sodalite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_cubic_zirconia_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_opal_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_cinnabar_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_amethyst_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_uvarovite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_realgar_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_spessartine_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_sapphire_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_emerald_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_rock_salt_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_green_sapphire_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_grossular_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_apatite_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_lapis_gem"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:flawless_glass_gem"
 										}
 									}
@@ -9457,257 +9457,257 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"纳米蜂群元件包\\\"}"
+								Name: "{\"text\":\"纳米蜂群元件包\"}"
 							}
 							ic: 25L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:copper_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:white_dwarf_mtter_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:enderium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cosmicneutronium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:rhenium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iridium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:carbon_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:osmium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:eternity_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:neutronium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:uruium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:orichalcum_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:starmetal_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:draconium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:vibranium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:iron_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:spacetime_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:transcendentmetal_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:glowstone_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:cosmic_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:infuscolium_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:naquadah_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:silver_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:black_dwarf_mtter_nanoswarm"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:gold_nanoswarm"
 										}
 									}
@@ -9732,7 +9732,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "gtceu:stem_cells"
 							}
 						}
@@ -9746,7 +9746,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "kubejs:biological_cells"
 							}
 						}
@@ -9823,217 +9823,217 @@
 								1L
 							]
 							display: {
-								Name: "{\\\"text\\\":\\\"渔场元件包\\\",\\\"italic\\\":false}"
+								Name: "{\"text\":\"渔场元件包\",\"italic\":false}"
 							}
 							ic: 21L
 							internalCurrentPower: 20000.0d
 							keys: [
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "avaritia:neutron_pile"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:leather"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:salmon"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:kelp"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:nautilus_shell"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:bone"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:spider_eye"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cod"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cactus"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:poisonous_potato"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:pufferfish"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:sugar_cane"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:ancient_gold_coin"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "gtceu:damascus_steel_dust"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "kubejs:zero_point_module_fragments"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:cocoa_beans"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:rotten_flesh"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:stick"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:string"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:tropical_fish"
 										}
 									}
 								}
 								{
-									#c: "ae2:i"
+									"#c": "ae2:i"
 									id: "expatternprovider:infinity_cell"
 									tag: {
 										record: {
-											#c: "ae2:i"
+											"#c": "ae2:i"
 											id: "minecraft:vine"
 										}
 									}

@@ -32,7 +32,7 @@
 				""
 				"Insufficient input, insufficient output space and insufficient power compartment will restrict power generation."
 				"{@pagebreak}"
-				"You can \\\"borrow\\\" some crystals and ultra-low voltage magic generators from the villagers"
+				"You can \"borrow\" some crystals and ultra-low voltage magic generators from the villagers"
 			]
 			hide_dependent_lines: true
 			id: "4C591AA4F1D907C1"
@@ -65,7 +65,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\\\"text\\\":\\\"Although this generator exists, producing fuel is difficult at this stage\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"2E401B78E52B9BBC\\\"}}"]
+			description: ["{\"text\":\"Although this generator exists, producing fuel is difficult at this stage\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2E401B78E52B9BBC\"}}"]
 			id: "11CBF5394DE28373"
 			tasks: [
 				{
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\\\"text\\\":\\\"Same as internal combustion at the same stage\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"351B9D097EC493C5\\\"}}"]
+			description: ["{\"text\":\"Same as internal combustion at the same stage\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"351B9D097EC493C5\"}}"]
 			id: "2103464D61DAF017"
 			tasks: [
 				{
@@ -239,7 +239,7 @@
 						Count: 1
 						id: "gtceu:turbine_rotor"
 						tag: {
-							GT.PartStats: {
+							"GT.PartStats": {
 								Material: "gtceu:hssg"
 							}
 						}
@@ -261,7 +261,7 @@
 						Count: 1
 						id: "gtceu:turbine_rotor"
 						tag: {
-							GT.PartStats: {
+							"GT.PartStats": {
 								Material: "gtceu:aluminium"
 							}
 						}
@@ -460,7 +460,7 @@
 		}
 		{
 			dependencies: ["5460CFE78B89DC30"]
-			description: ["{\\\"text\\\":\\\"Once you reach Io, you can start burning silica.\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"36F5A40D3976E512\\\"}}"]
+			description: ["{\"text\":\"Once you reach Io, you can start burning silica.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"36F5A40D3976E512\"}}"]
 			id: "48991235C17FB211"
 			tasks: [
 				{
@@ -683,7 +683,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\\\"text\\\":\\\"Burn some simple fuel\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"1248D8F428A12A95\\\"}}"]
+			description: ["{\"text\":\"Burn some simple fuel\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1248D8F428A12A95\"}}"]
 			id: "6EF3C749D06C7262"
 			tasks: [
 				{
@@ -744,7 +744,7 @@
 				""
 				"The lightning summoned by the Thunder Trident also recharges the generator."
 				""
-				"{\\\"text\\\":\\\"you can use it\\\",\\\"italic\\\":\\\"true\\\",\\\"underlined\\\":\\\"true\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"change_page\\\",\\\"value\\\":\\\"0F663054E006E97B\\\"}}"
+				"{\"text\":\"you can use it\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0F663054E006E97B\"}}"
 			]
 			id: "45656BC02DC740CE"
 			rewards: [
@@ -1326,7 +1326,7 @@
 				"Starting from Big Silica, all generators can use&l&claser source bins&r&rto output energy"
 				""
 				"It also has an overclocking mechanism:"
-				"{ \\\"text\\\": \\\"For specific mechanisms, see the definition of lossless overclocking\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5535934109A12B5D\\\" } }"
+				"{ \"text\": \"For specific mechanisms, see the definition of lossless overclocking\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
 				"Replace&b4x recipe speed&rwith&60.25x recipe time&r(including the multiplication of the configurable maintenance bin),&bpower consumption&rwith&6power generation &r,&btotal energy cost&rwith&6total power generation&ris the overclocking mechanism of the generator"
 				"The generator will automatically overclock&raccording to the&dpower bin/laser source bin size&r&eto the overclocking upper limit, and the running time will be shortened to 1~3 ticks at the minimum."
 				""

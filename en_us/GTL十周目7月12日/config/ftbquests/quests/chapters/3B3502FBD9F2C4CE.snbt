@@ -549,11 +549,11 @@
 				""
 				"&5For information about advanced assembly lines, you can read this"
 				""
-				"{ \\\"text\\\": \\\"Click to view the advanced assembly line tutorial\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"172FC2F2B20CD187\\\" } }"
+				"{ \"text\": \"Click to view the advanced assembly line tutorial\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"172FC2F2B20CD187\" } }"
 				""
 				"&5For information about the database, you can read this"
 				""
-				"{ \\\"text\\\": \\\"Click to view the tutorial of the database\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5F0A175D6704A8D0\\\" } }"
+				"{ \"text\": \"Click to view the tutorial of the database\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F0A175D6704A8D0\" } }"
 			]
 			icon_scale: 1.3d
 			id: "7F8C2ECC7CE2BF20"
@@ -926,7 +926,7 @@
 			description: [
 				"0.2x is used to accelerate the machine, 1.2x is used to save fuel. In some cases, the generator can obtain additional overclocking times to increase power generation."
 				""
-				"{ \\\"text\\\": \\\"Configure the copy tool to copy and paste processing time-consuming settings\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				"{ \"text\": \"Configure the copy tool to copy and paste processing time-consuming settings\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""
 				"You can also make&6configurable ultra-clean maintenance warehouse &r"
 			]
@@ -1080,7 +1080,7 @@
 								durationMultiplier: 2.0f
 							}
 							display: {
-								Lore: ["\\\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\\\""]
+								Lore: ["\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\""]
 							}
 						}
 					}

@@ -549,11 +549,11 @@
 				""
 				"&5Para obter informações sobre linhas de montagem avançadas, você pode ler isto"
 				""
-				"{ \\\"text\\\": \\\"Clique para visualizar o tutorial avançado da linha de montagem\\\", \\\"sublinhado\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"172FC2F2B20CD187\\\" } }"
+				"{ \"text\": \"Clique para visualizar o tutorial avançado da linha de montagem\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"172FC2F2B20CD187\" } }"
 				""
 				"&5Para obter informações sobre o banco de dados, você pode ler isto"
 				""
-				"{ \\\"text\\\": \\\"Clique para visualizar o tutorial do banco de dados\\\", \\\"sublinhado\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5F0A175D6704A8D0\\\" } }"
+				"{ \"text\": \"Clique para visualizar o tutorial do banco de dados\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F0A175D6704A8D0\" } }"
 			]
 			icon_scale: 1.3d
 			id: "7F8C2ECC7CE2BF20"
@@ -860,7 +860,7 @@
 		}
 		{
 			description: [
-				"{ \\\"text\\\": \\\"A linha de produção de samário pode ser muito longa ou muito curta\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1223D839C224777B\\\" } }"
+				"{ \"text\": \"A linha de produção de samário pode ser muito longa ou muito curta\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"
 				""
 				"&l· Centrífuga &bCentrífuga &f&ecloreto de terras raras &fentão desidratador &b&fobter pó de óxido de lantanídeo &7"
 				""
@@ -926,7 +926,7 @@
 			description: [
 				"0,2x é usado para acelerar a máquina, 1,2x é usado para economizar combustível. Em alguns casos, o gerador pode obter tempos de overclock adicionais para aumentar a geração de energia."
 				""
-				"{ \\\"text\\\": \\\"Configure a ferramenta de cópia para copiar e colar configurações demoradas de processamento\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				"{ \"text\": \"Configure a ferramenta de cópia para copiar e colar configurações demoradas de processamento\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""
 				"Você também pode tornar &6armazém de manutenção ultralimpo configurável &r"
 			]
@@ -1080,7 +1080,7 @@
 								durationMultiplier: 2.0f
 							}
 							display: {
-								Lore: ["\\\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\\\""]
+								Lore: ["\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\""]
 							}
 						}
 					}
