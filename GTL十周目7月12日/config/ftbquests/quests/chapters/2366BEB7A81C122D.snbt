@@ -1,0 +1,1043 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "2366BEB7A81C122D"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:uv_electric_motor"
+	id: "2366BEB7A81C122D"
+	order_index: 8
+	quest_links: [
+		{
+			id: "23C44004B0D7572C"
+			linked_quest: "73C70C42B7EF5D4F"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "3F71D8E597D26019"
+			linked_quest: "7C23CC6ADDC33EA0"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "3C65CAC0D7289CD7"
+			linked_quest: "702EFE9BA62A8CDA"
+			x: 12.0d
+			y: 12.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"0A2D46609F5C3CAB"
+				"7C4C11E7C931C01B"
+				"73C70C42B7EF5D4F"
+				"2719D88ECD353F24"
+			]
+			description: [
+				"Como o armazém de energia sem fio UV requer elementos de nêutrons, tente anexar a maior placa de cobertura de energia sem fio existente ao invólucro da máquina recém-fabricado e, em seguida, alinhe o invólucro da máquina com o armazém de energia no reator de fusão (vermelho vs. verde)"
+				""
+				"Transformadores ativos também podem ser usados. O compartimento de energia e o compartimento de energia estão intimamente conectados e podem transmitir eletricidade."
+			]
+			icon_scale: 1.3d
+			id: "6C4F1C87F08F38AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7576B71120A56F46"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1A869FB7AB0C0536"
+					item: "gtceu:uv_fusion_reactor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C4F1C87F08F38AC"]
+			description: ["Materiais básicos para UHV"]
+			id: "035C470213E8B4DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DFA3AA2F1EC2419"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "A demanda é um pouco alta"
+			tasks: [
+				{
+					id: "39B8A1A88BE55729"
+					item: "gtceu:neutronium_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["Silício monocristalino mais avançado"]
+			id: "264EA49453E188C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49F0660376C50182"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0DAE2E307ACAD4E6"
+					item: "gtceu:neutronium_boule"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1223F5F9BF7FF37F"]
+			id: "4D8E0C0295DB26EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16A610045A672990"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "381C8725FC2BBC19"
+					item: "gtceu:highly_advanced_soc"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4D8E0C0295DB26EF", "43A7282802A06626"]
+			description: ["Simula cálculos usando microecossistemas e traduz os resultados em soluções abrangentes. É um dispositivo de computação de alta velocidade e alto rendimento."]
+			id: "5E7F20C5F8530E1E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1837207214E50607"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2A747FECF6A9366B"
+					item: "kubejs:bioware_processor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E7F20C5F8530E1E", "53EB6E99F976AF31"]
+			id: "76C32ADCD71DE8B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6324C2D02BC50BAC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3EDE41255F7E04E7"
+					item: "kubejs:bioware_assembly"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["76C32ADCD71DE8B8"]
+			id: "2AA1E574BA4327F8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0873F101ADC29532"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4697B1C35AAED641"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "648367DCA2352C63"
+					item: "kubejs:bioware_computer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2AA1E574BA4327F8"
+				"1DFC7DC123A3D830"
+				"09537D159735D297"
+			]
+			description: ["{ \\\"text\\\": \\\"UHV requer uma grande quantidade de netherite\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"39380262677612A9\\\" } }"]
+			id: "7204F1B6BCC74F1C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2550FB2AB2774952"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21E309771B6553BB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "04565B34473CBDE9"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1E35DC7EF8C5881E"
+					item: "kubejs:bioware_mainframe"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: ["Supercondutor &4UHV &r"]
+			id: "1DFC7DC123A3D830"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59CEF54428740C8A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "396FE1151A63CF4A"
+					item: "gtceu:ruthenium_trinium_americium_neutronate_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59CA7B4A4A417B53"]
+			id: "1FA9E56114BFABF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "762E4A69D58219E6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6A73DF3A0B7C1184"
+					item: "gtceu:pikyonium_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1FA9E56114BFABF5"
+				"776563C5BA327495"
+				"3B098EA4601A7827"
+			]
+			description: [
+				"Barramento de entrada &e&ldeve &rColocar um robô como catalisador &o&c&rpara usar. Quanto maior o nível do robô, mais curta será a receita. O número de robôs aqui não afeta o paralelismo."
+				""
+				"Colocar os mesmos robôs no host e no barramento de entrada permite maior paralelismo, até 64 robôs (128 paralelos)"
+				""
+				"Diferente da linha de montagem, a linha de montagem do circuito pode usar o barramento de entrada gigante &bULV &re o compartimento de entrada gigante &bEV &r"
+				""
+				"&l· A linha de montagem do circuito &fpode usar o barramento de entrada gigante &bULV &fe o compartimento de entrada gigante &bEV &f(diferente das linhas de montagem comuns)"
+				""
+				"&l· &cNota &f: Há um problema de lógica de síntese automática com o barramento de entrada gigante &cULV"
+				"O nome de mapeamento da linha de montagem de circuito &l· &fé conjunto de circuito &6&f, que é usado para distingui-lo da linha de montagem e facilitar o upload de amostras."
+				"&l· &fPor favor, escreva o conjunto do circuito &6na caixa de nome do fornecedor de amostra"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:circuit_assembly_line"
+			icon_scale: 1.3d
+			id: "53EB6E99F976AF31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E04EED31DBE528B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "66C57F761F419F46"
+					item: "gtmthings:ulv_huge_item_import_bus"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Na verdade, não é uma máquina de montagem de circuitos multibloco!"
+			tasks: [
+				{
+					id: "2E802CA66A25BB20"
+					item: "gtceu:circuit_assembly_line"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["21CF5BE902E89B8A", "583079AD88755662"]
+			icon_scale: 2.0d
+			id: "43A7282802A06626"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "747DBEFF411D5BCB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1763964DDAF2AECC"
+					item: "kubejs:bioware_processing_core"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1B548589C6044A63", "1223F5F9BF7FF37F"]
+			description: ["Metade das células biológicas pode ser reciclada"]
+			id: "21CF5BE902E89B8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C970E9743183FEB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "708ED67D28AAA758"
+					item: "kubejs:bioware_boule"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488", "53DEE1A65051E06F"]
+			description: [
+				"Múltiplo demorado: 0,8 ^ (nível de tensão do corpo do elevador -8)"
+				"Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)"
+				""
+				"Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação."
+			]
+			icon_scale: 1.3d
+			id: "31EDE3D976DE5A33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C889DE02EBB1E3E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Isto não é uma linha de montagem"
+			tasks: [
+				{
+					id: "194425B2D808120E"
+					item: "gtceu:assembler_module"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488", "53DEE1A65051E06F"]
+			description: [
+				"Múltiplo demorado: 0,8 ^ (nível de tensão do corpo do elevador -8)"
+				"Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)"
+				""
+				"Com o desbloqueio de drones avançados, você pode pular várias linhas de produção e obter recursos diretamente."
+				""
+				"Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação."
+				""
+				"&8&mSe você sabe como matar aula, existe uma rota mais conveniente"
+			]
+			icon_scale: 1.3d
+			id: "7ADB50ACF5AE1D13"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70688D904589D6F8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Combustível verde combina bem com módulo de coleta"
+			tasks: [
+				{
+					id: "3F389DDC4C0810B4"
+					item: "gtceu:resource_collection"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31EDE3D976DE5A33"]
+			description: [
+				"Você pode usar o barramento de inventário &dME/&rpara compartilhar com vários módulos de aquisição"
+				""
+				"Depois de obter o pó mágico de ouro, lembre-se de atualizar o módulo de potência MK2!"
+				"&l· &fAlgas Alienígenas"
+				"&l· &fInfundido com ouro mágico"
+				"&l· &fComposto Caijin"
+				"&l· Sílica enriquecida &f"
+				"&l· &fTelúrio"
+				"&l· &fTungstênio"
+				"&l· &fTitânio"
+				"&l· &fRubídio"
+				"&l· Meteorito &f"
+				"&l· &fDestroços antigos"
+				"&l· &fÍndio"
+			]
+			id: "6D83BAAC7DB34D51"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12DCC99CA3E39E4B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "Algas alienígenas, ouro mágico, compostos Cajun, sílica enriquecida, telúrio, tungstênio, titânio, rubídio, meteoritos, detritos antigos, índio"
+			tasks: [
+				{
+					id: "54ED6D9B82E6A10E"
+					item: "kubejs:space_drone_mk1"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7A7C73D046390488"]
+			description: [
+				"Vá para Barnard C e use a pequena câmara de coleta de ar &b&rpara coletar o ar Barnard C"
+				"A fonte do pó de germânio &lé o tratamento relâmpago &2&fverruga inferior"
+				"A fonte do pó de háfnio &lé a bomba de vazio grande &2, circuito &fNo."
+			]
+			id: "12F8275FC06FCFEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "411C702A611C803F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3B3096FCBB8D2FE6"
+					item: "gtceu:abyssalalloy_ingot"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["12F8275FC06FCFEE"]
+			icon_scale: 1.3d
+			id: "3EA935A712FA0EBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49B4CDC78BC20627"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3560398A523AEFBF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1D87EC0E1793346B"
+					item: "kubejs:abyssalalloy_coil_block"
+					type: "item"
+				}
+			]
+			title: "Bobina de Liga Infernal"
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6C4F1C87F08F38AC", "2802E34A99CE1D79"]
+			description: ["novo metal mágico"]
+			id: "776563C5BA327495"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AE54EE904B52032"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "55625B7675054641"
+					item: "gtceu:orichalcum_ingot"
+					type: "item"
+				}
+				{
+					id: "09537D159735D297"
+					item: "gtceu:mithril_ingot"
+					type: "item"
+				}
+			]
+			title: "Orichalcum e Mithril"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7ADB50ACF5AE1D13"
+				"6D83BAAC7DB34D51"
+				"07A5A5AD37710056"
+			]
+			description: ["Não existe um ambiente natural de forte gravidade, você deve usar o armazém de controle de gravidade &b&r"]
+			id: "1B548589C6044A63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D594EF649193A8A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "vida alienígena"
+			tasks: [
+				{
+					id: "74AD31D4642ED7CF"
+					item: "kubejs:tcetieseaweedextract"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1FA9E56114BFABF5"
+				"776563C5BA327495"
+				"035C470213E8B4DB"
+				"2A0269009ABF1414"
+			]
+			description: [
+				"Este é o foguete T8. Desbloqueie Barnard C. Clique em &ena GUI do host para partir e ir para &r(você também pode ir para outros planetas)"
+				""
+				"&bé necessário para inserir o circuito nº 1 &rusando o barramento de entrada e fornece continuamente 128 de potência de computação. Quando o elevador estiver funcionando normalmente, o tempo de operação será &6, que irá circular entre 6~13s."
+				"Portanto, &c&l&onão usa o compartimento de manutenção configurável para modificar a receita, o que é demorado"
+				""
+				"Somente quando o corpo principal do elevador espacial estiver funcionando normalmente (ou seja, o módulo de potência e o motor principal estiverem acesos) o módulo de expansão mostrará que está conectado e funcionando normalmente?"
+				""
+				"Quanto maior a tensão do corpo principal do elevador espacial, maior será a redução demorada do módulo de expansão; quanto maior o nível do módulo de potência, maior o número de módulos de expansão paralelos"
+				""
+				"Clique em \\\"M\\\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos &r"
+				""
+				"&l· O combustível &7recomenda apenas combustível de foguete &a(dimetilhidrazina-tetróxido nitroso uniforme)"
+				""
+				"&l· &5Se você achar que o comportamento paralelo é 0 após a moldagem, não se preocupe, ele pode ser restaurado executando a receita uma vez, é apenas um BUG de exibição"
+				"&l· &fNão há necessidade de consumir energia de computação para inserir o circuito nº 2, mas ainda requer energia de computação para formar o data warehouse de destino."
+			]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "7A7C73D046390488"
+			rewards: [
+				{
+					id: "680C703A77E766E4"
+					item: "avaritia:infinity_helmet"
+					type: "item"
+				}
+				{
+					id: "253A05AC70840061"
+					item: "avaritia:infinity_chestplate"
+					type: "item"
+				}
+				{
+					id: "377492F72A4F19D0"
+					item: "avaritia:infinity_pants"
+					type: "item"
+				}
+				{
+					id: "50FC070B92E66FE7"
+					item: "avaritia:infinity_boots"
+					type: "item"
+				}
+				{
+					count: 160
+					id: "3A5DF93DBE67E358"
+					item: "gtlcore:power_module_7"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1CAEA0DAA38B5E8E"
+					item: "gtlcore:world_fragments_barnarda"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2E049D2A5A1162D8"
+					item: "gtceu:space_elevator"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["051792ED136C96D0", "4A058FA1859A00D1"]
+			description: ["Muito parecido com wetware"]
+			id: "583079AD88755662"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72D1DA331123C29A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B65C07BCA6CC667"
+					item: "kubejs:bioware_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["264EA49453E188C4"]
+			id: "1223F5F9BF7FF37F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D00F0068CB566ED"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3DA4F596F8B93303"
+					item: "gtceu:neutronium_wafer"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DFC7DC123A3D830"]
+			description: ["maior, mais forte"]
+			icon_scale: 1.3d
+			id: "4500AC22EE5C09F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17BB6CCEB14986C5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1B9D3E6BA58D1E74"
+					item: "gtceu:mega_vacuum_freezer"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0", "233CA36D529EC3FB"]
+			icon_scale: 1.3d
+			id: "2719D88ECD353F24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C1B6A31DFF1614A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6BA667DA94DDC286"
+					item: "gtmadvancedhatch:uv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB"]
+			description: [
+				"0 não é gravidade, 1 ~ 99 é gravidade normal, 100 é gravidade forte"
+				""
+				"{ \\\"text\\\": \\\"A ferramenta de cópia de configuração pode copiar e colar as configurações de gravidade, e o subsequente armazém de manutenção de gravidade automática configurável pode copiar e colar as configurações demoradas e de gravidade ao mesmo tempo\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				"{@pagebreak}"
+				"Curiosidades: Se você usar uma câmara de controle de gravidade configurada com forte gravidade em um ambiente sem gravidade, a máquina multibloco terá a capacidade de determinar ambientes sem gravidade e com forte gravidade ao mesmo tempo."
+				"&l· Ferramenta de cópia de configuração &b&fpode copiar e colar configurações de gravidade"
+				"&l· &bpode ser configurado com um armazém automático de manutenção por gravidade. &fpode ser copiado e colado ao mesmo tempo para processar as configurações demoradas das configurações de gravidade &6e &fe &6."
+				"{ \\\"text\\\": \\\"A ferramenta de cópia configurada pode copiar e colar configurações de gravidade, e o subsequente armazém de manutenção de gravidade automática configurável pode copiar e colar configurações demoradas de processamento e configurações de gravidade ao mesmo tempo\\\", \\\"sublinhado\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\",\\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				""
+				"&l· &eCuriosidades &f: Se a gravidade forte &6for usada para configurar a câmara de controle de gravidade de &fno ambiente livre de gravidade &fde &6, a máquina multibloco terá determinações de ambiente de gravidade zero e de gravidade forte."
+			]
+			icon: "gtceu:gravity_hatch"
+			icon_scale: 1.3d
+			id: "07A5A5AD37710056"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49C73ECA80BD7AF6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7039AA556E4A462A"
+					item: "gtceu:gravity_hatch"
+					type: "item"
+				}
+				{
+					id: "37BC59F8BA475B03"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["02F523E003E1C93D", "035C470213E8B4DB"]
+			description: [
+				"Apenas caixas de laser podem ser usadas (duas podem ser colocadas), e os locais disponíveis são no centro do andar inferior e no centro do andar superior"
+				""
+				"As linhas de produção que podem ser otimizadas incluem (a cor representa o estágio de tensão):"
+				"&3Tratamento de metal platina Sulfeto de polifenileno Resina epóxi Borracha de silicone Mutagênico &r"
+				"&3Borracha de estireno-butadieno Politetrafluoroetileno Polivinil butiral Polibenzimidazol &r"
+				"&3Solução de enriquecimento ácido/sílica superenergética &r"
+				"&4células-tronco de poliimida tratamento de sílica cloreto de polivinila &r"
+				"&aResina de poliuretano Fotorresistente Cristal líquido Kevlar Fullereno desdobrado Ciclofenileno Tratamento de zircão Células biológicas Polieteretercetona &r"
+				"&eZylon fibra EUV fotopolímero fotorresistente hexanitrohexaazaisowurtzitano &r"
+				"&eLíquido Supercondutor Universal &r"
+				"&l· &eLíquido Supercondutor Universal"
+				""
+				""
+				"{@pagebreak}"
+				"A linha de produção otimizada após o fortalecimento do rasgo da linha de produção &l· &fé a seguinte:"
+				""
+				"&3Borracha de estireno-butadieno Politetrafluoroetileno Polivinil butiral Polibenzimidazol &r"
+				"&3Solução de enriquecimento ácido/sílica superenergética &r"
+				"&l· &3Enriquecimento ácido/solução de sílica superenergética, células biológicas, cloreto de polivinila, poliimida"
+				"&l· &3Células-tronco, fotorresistente, processamento de zircão, processamento de sílica, processamento ISA de pó de tálio"
+				"&l· Extrato de algas &3T Ceti E, aerogel de grafeno, perrenato de amônio"
+				"&l· Polieteretercetona &3, pó de partículas de zeólita peneirado, espuma viscoelástica de poliuretano"
+				"&l· Água purificada &30→5→8"
+				"&l· &4UHV: pó 66, pó de terras raras contendo rocha de sílica, tratamento composto Caijin, tratamento Talan"
+				"&l· &4Pó de matriz de polímero de fulereno, pó de fibra de Zylon, fotorresistente EUV"
+				"&l· &4Mistura de hidrocarbonetos aromáticos policíclicos em pó, azafulereno, resina de poliuretano"
+				"&l· &4Kevlar de cristal líquido, fulereno desdobrado, cicloparafenileno"
+				"&l· &aUEV: gás de rocha, água purificada grau 13, solução de fotopolímero"
+				"&l· &eUIV: Líquido Supercondutor Universal"
+				"&l· &eUXV: Sangue de Dragão"
+				""
+				"&l· &fSubstâncias adicionais otimizáveis:"
+				"&l· &fPó de fulereno, pó 66, polilactama, líquido de energia estelar, pó de etil xantato de sódio/potássio"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "16C93F76F74CB8DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75A2190E42EDDB29"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "718351B91786517E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Otimize drasticamente sua linha de produção"
+			tasks: [
+				{
+					id: "42B8B94BB1B32E83"
+					item: "gtceu:chemical_distort"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C470213E8B4DB", "0A2D46609F5C3CAB"]
+			description: [
+				"Saída até 1A MAX, muito poderosa"
+				""
+				"A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia"
+				""
+				"Também possui um mecanismo de overclock:"
+				"{ \\\"text\\\": \\\"Para mecanismos específicos, consulte a definição de overclocking sem perdas\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5535934109A12B5D\\\" } }"
+				"Substitua &b4x velocidade de receita &rpor &60,25x tempo de receita &r(incluindo a multiplicação do compartimento de manutenção configurável), consumo de energia &b&rcom geração de energia &6&r, custo total de energia &b&rcom potência total &6geração &ré o mecanismo de overclock do gerador"
+				"O gerador fará overclock automaticamente &rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo."
+				""
+				"Geradores com as palavras &boverclocking &lnão perderão eficiência energética e &rna descrição possuem um mecanismo de overclock."
+				""
+				"&l· &fSomente geradores cuja descrição contenha as palavras &b&l\"overclocking não perderá eficiência energética\" &r&fpossuem este mecanismo"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "09E013C97E05C052"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A7DD0EB96FD2044"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41388D2017C44D71"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "3694C59D7B76F83A"
+					item: "gtladditions:wireless_energy_network_output_terminal"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Grande sílica ~~ geração de energia ~~"
+			tasks: [
+				{
+					id: "6D5ADEFDD6695856"
+					item: "gtceu:large_naquadah_reactor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7204F1B6BCC74F1C"]
+			description: [
+				"Agora você pode criar com eficiência um conjunto de componentes de 8 peças (&oeconomiza 25% dos materiais de &d&r&o&r) e &bsalva o slot de banco de dados &r"
+				""
+				"A classificação do invólucro da linha de montagem precisa ser maior ou igual à classificação da receita (&6pode ser compatível com &r)"
+				""
+				"Os oito blocos diretamente abaixo do host podem ser substituídos por conjuntos de entrada (incluindo estrutura de aço de tungstênio &b&r)"
+				""
+				"A localização do compartimento de energia/laser é mostrada abaixo. A ilustração é apenas para referência. Na realidade, até dois compartimentos de energia e um compartimento de laser podem ser colocados ao mesmo tempo."
+				"(frente)"
+				"{image:ftbquests:textures/picture/003.png width:200 height:100 align:center}"
+				"(voltar)"
+				"{image:ftbquests:textures/picture/006.png width:200 height:100 align:center}"
+			]
+			icon_scale: 1.3d
+			id: "36A2AF68AE67C70A"
+			min_width: 210
+			rewards: [
+				{
+					count: 43
+					id: "25B958CA2592038C"
+					item: "gtlcore:component_assembly_line_casing_max"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5132D373E44D4A20"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "65C99D3D67D677D5"
+					item: "gtceu:component_assembly_line"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D4131C48F9BAE46"]
+			description: ["Não vá para o minério, vá para o decaimento &b&r&6rádio"]
+			id: "53DEE1A65051E06F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F8E74643741B7E0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7A9EEB0C236E8FE7"
+					item: "gtceu:actinium_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB", "035C470213E8B4DB"]
+			description: [
+				"Um compartimento de controle paralelo mais longo e rápido pode ser instalado, e o conjunto de entrada gigante &b&rou mesmo o conjunto de amostra &b&rpode ser usado!"
+				""
+				"O compartimento de entrada pode ser substituído por um conjunto de entrada gigante, mas o barramento de entrada não pode ser substituído por um conjunto de entrada gigante."
+				""
+				"O local disponível para o compartimento paralelo é próximo ao barramento de entrada"
+				""
+				"Os dados só podem ser fornecidos usando o armazém de destino de dados ópticos &e(sem fio) &r"
+				""
+				"O comprimento máximo é de 65 grades e o multiplicador de tempo mínimo pode chegar a 0,35."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:advanced_assembly_line"
+			icon_scale: 1.3d
+			id: "172FC2F2B20CD187"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EACC5A946C44981"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB069F47A6B0ABC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1F71F073D091459C"
+					item: "gtceu:advanced_assembly_line"
+					type: "item"
+				}
+				{
+					id: "7163E793A96045E0"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Tier8-UV"]
+	title: "pressão final"
+}

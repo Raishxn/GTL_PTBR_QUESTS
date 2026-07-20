@@ -1,0 +1,1432 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "hv"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:hv_electric_motor"
+	id: "3FFA6F604319D492"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C75EB0628CB491A", "242AFA510EC14878"]
+			description: ["&lAt this stage, you will face another setting of this package - the operating environment.", "&lIf you are a veteran of many games, there will be surprises waiting for you in this chapter."]
+			hide_dependent_lines: true
+			icon: "kubejs:hv_universal_circuit"
+			id: "1A48D2DB936FF632"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D75EE177DE053B0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "2F52039C169285CF"
+					title: "HV"
+					type: "checkmark"
+				}
+			]
+			title: "High voltage HV"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74D9136DE32F9129"]
+			icon_scale: 1.3d
+			id: "1EC6366E9611F2AD"
+			rewards: [
+				{
+					id: "797DDD6D591D0FFA"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56EBE1F7EF7076FF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0B078D6B5E8ADED5"
+					item: "gtceu:ev_machine_hull"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4DDF10E2B541BCBF"]
+			description: ["The last circuit in this series"]
+			id: "7940CFD732610594"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "272C8E46F0DA728C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6DF561795A593EDB"
+					item: "kubejs:ultima_control_circuit"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			icon: "gtceu:hv_circuit_assembler"
+			icon_scale: 1.3d
+			id: "4DDF10E2B541BCBF"
+			rewards: [
+				{
+					id: "3815B8B981E6F460"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03398CA02EB78F8D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "054FD71E04CD34FC"
+					item: "gtceu:hv_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "3A42FE19011F9610"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4302F67F2B0B22D0"]
+			id: "26FA6E064EF9FF5B"
+			rewards: [
+				{
+					id: "16C2721F050EF032"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D55409CC6AEF028"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1A199FD6643AADF7"
+					item: "gtceu:hv_emitter"
+					type: "item"
+				}
+				{
+					id: "49F6D41F68C1CA45"
+					item: "gtceu:hv_sensor"
+					type: "item"
+				}
+			]
+			title: "HV sensors and transmitters"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E9C078C4BABAE3B", "4967FCD7B2675E94"]
+			id: "4302F67F2B0B22D0"
+			rewards: [
+				{
+					id: "775860DEC4147D06"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "039F84BBE54C43B2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "009EE8D1C5AC4CBD"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61049DA87C6DEFC6"]
+			description: ["The Blaze Rod can be obtained from the Slaughterhouse"]
+			id: "3E9C078C4BABAE3B"
+			rewards: [
+				{
+					id: "45A95ECC52A47B8B"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24C76147F3138457"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0AA5FB1BA702DF77"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			icon_scale: 1.3d
+			id: "61049DA87C6DEFC6"
+			rewards: [
+				{
+					id: "28784D8A493C03B3"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CEDB2E4C3E6B565"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "388AD19F722DB366"
+					item: "gtceu:hv_chemical_reactor"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0243CEA5EE705EB0"]
+			dependency_requirement: "one_started"
+			description: [
+				"Processors (in a narrow sense) ranging from micro to wetware series can be efficiently produced using SoC chips with simplified formulas, referred to as SOC circuits."
+				""
+				"The SoC series also includes NAND chips (ULV) and microchip processors (LV)"
+			]
+			id: "3FCF807491579B94"
+			rewards: [
+				{
+					id: "62693CFE4D386654"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1260B2C1BCD2F0E2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1259CD7048B5DE84"
+					item: "gtceu:micro_processor"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FCF807491579B94"]
+			id: "18CA398800CC2E1B"
+			rewards: [
+				{
+					id: "68D0EF3FC6EEA6B9"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52065A609B677F38"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2C8B079C13E74751"
+					item: "gtceu:micro_processor_assembly"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18CA398800CC2E1B", "5E9EA7E22BE663AF"]
+			description: ["If there is no clean room, you have to put the circuit assembly machine in the&6general assembly factory &r, and then install the&bclean maintenance warehouse&rin the general assembly factory."]
+			id: "1C320B245EAC8D14"
+			rewards: [
+				{
+					id: "6B1C840CF7158D92"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "058068C878B2D5C7"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "759C0F5C1FCC6D04"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14", "31B5C9A6F8FB0BA2"]
+			id: "3461BF0D74E5E8DF"
+			rewards: [
+				{
+					id: "4785F0739BD9FEF4"
+					item: "gtceu:osmium_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67860A5CECAF27AF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Must do"
+			tasks: [
+				{
+					id: "4C4E9514C39EE1F0"
+					item: "gtceu:micro_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26FA6E064EF9FF5B"]
+			description: ["Put it in a multi-block structure to make the multi-blocks obtain&dclean room environment &r"]
+			icon_scale: 1.3d
+			id: "5E9EA7E22BE663AF"
+			rewards: [
+				{
+					id: "3AAB5D8903AA730D"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F9D02CCC4FC8991"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "It can also be maintained automatically"
+			tasks: [
+				{
+					id: "0106634910539280"
+					item: "gtceu:cleaning_maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5EECD56BF0EC1539"]
+			id: "0243CEA5EE705EB0"
+			rewards: [
+				{
+					id: "147065FBB37624B6"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65E6EF008CD6A19A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0843D22E4B02D63E"
+					item: "gtceu:plastic_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "5EECD56BF0EC1539"
+			rewards: [
+				{
+					id: "57F8326FBE7A9BD0"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15AD35E028F33969"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5009E0AA80514313"
+					item: "gtceu:plastic_circuit_board"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [
+				"You can get some useful resources from the fishing grounds, don’t forget to build them"
+				""
+				"The zero point module is a ZPM grade&dbattery&rand can only be put into a ZPM grade battery box."
+				""
+				"64 fishing rods can be entered using multiple busses, giant buses, inventory buses, etc."
+				""
+				"Tips: You can quickly place water by placing ice and then breaking the chain."
+			]
+			icon_scale: 1.3d
+			id: "6F85AB2294DA3310"
+			rewards: [
+				{
+					id: "02DA5E6725FF070A"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2910FF07950F778F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "79B8A54FE0807A62"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [
+								L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\\\"text\\\":\\\"渔场元件包\\\",\\\"italic\\\":false}"
+							}
+							ic: 21L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "avaritia:neutron_pile"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:leather"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:salmon"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:kelp"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:nautilus_shell"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:bone"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:spider_eye"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:cod"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:cactus"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:poisonous_potato"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:pufferfish"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:sugar_cane"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "gtceu:ancient_gold_coin"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "gtceu:damascus_steel_dust"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "kubejs:zero_point_module_fragments"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:cocoa_beans"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:rotten_flesh"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:stick"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:string"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:tropical_fish"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:vine"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0E4B176D3DF3D8F5"
+					item: "gtceu:fishing_ground"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [
+				"&l·&frequires a large amount of chemical raw materials in the&6EV&fstage. It is recommended to build the&6petrochemical and biochemical joint production line&fin advance, otherwise the follow-up will be very difficult."
+				""
+				"&l·&fDistillation column:"
+				"&l·&fExcept for the bottom layer, each layer&o&6can only and must&rplace a&bsmall output warehouse &f. Each output warehouse corresponds to one product (can be stacked by itself, no additional height bonus)"
+				"&l·&fhas and only&6bottom layer&fcan use&boutput assembly &f, which can reduce the height; if&dME output assembly&fis used, only three layers are needed"
+				""
+				"&l·&fHow to obtain crude oil: Try centrifugation&6Oil sands &f"
+			]
+			icon_scale: 1.3d
+			id: "2EAAF5A6510D0EFE"
+			rewards: [
+				{
+					id: "5BAC2973956359FC"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "090FAC550E6F73C0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1A9ABA22BF878A3D"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					id: "466980CCE6FBFDF7"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					id: "44B80ADCCEE1ECE4"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+			]
+			title: "Petrochemical and biochemical production line"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: ["All subsequent ingots need to use this machine, and you cannot use a chemical soaking machine."]
+			icon_scale: 1.3d
+			id: "027197A71E630966"
+			rewards: [
+				{
+					id: "32C398A7D50E0057"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30A678E523E9B980"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "67020EF8AE962E62"
+					item: "gtceu:vacuum_freezer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: ["Helium and argon can be obtained from liquid air and are protective gases for firing higher-grade metals"]
+			id: "2610283E00EC04E4"
+			rewards: [
+				{
+					id: "31410A08F07C9CC3"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A3A84485C624F3E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:liquid_air"
+					id: "28FE8356407E237F"
+					type: "fluid"
+				}
+			]
+			title: "liquid air"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			icon_scale: 1.3d
+			id: "06F68B574AC84B7B"
+			rewards: [
+				{
+					id: "6AA3BA15A6AB3C7C"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "561E95EBA08DD3D0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "13A390535ABFA12A"
+					item: "gtceu:hv_assembler"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"676D1982102F4E79"
+				"06F68B574AC84B7B"
+				"242AFA510EC14878"
+			]
+			icon_scale: 1.3d
+			id: "75DAAFAD21F1451C"
+			rewards: [
+				{
+					id: "4BA99C2D7D2D3D75"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50732F13A9182FCF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "33D7768B5C37A187"
+					item: "gtmadvancedhatch:hv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BE334D9B0575DCD"]
+			icon_scale: 1.3d
+			id: "0A8178183C888BE0"
+			rewards: [
+				{
+					id: "47533DAABD2949AB"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0278F2DEDE4D8C3D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3E9AD74BC94DB5D5"
+					item: "gtceu:hv_cutter"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A8178183C888BE0", "5E9EA7E22BE663AF"]
+			description: ["If there is no clean room, you have to put the cutting machine into the&6general processing plant &r, and then install the&bclean maintenance warehouse for the general processing plant."]
+			id: "676D1982102F4E79"
+			rewards: [
+				{
+					id: "73D294571F48A5E9"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EFD6A2E957F9758"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B2D53D953086706"
+					item: "gtceu:lpic_chip"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4967FCD7B2675E94"]
+			id: "0BE334D9B0575DCD"
+			rewards: [
+				{
+					id: "4987CEA2B2050E6C"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C9AB7A5AFAB5664"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4394414AFDD8E56B"
+					item: "gtceu:lpic_wafer"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			icon: "gtceu:hv_chemical_bath"
+			icon_scale: 1.3d
+			id: "4967FCD7B2675E94"
+			rewards: [
+				{
+					id: "488F9C493B727D21"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6024966CAD0C223A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "27DFEA3AEE09C688"
+					item: "gtceu:hv_chemical_bath"
+					type: "item"
+				}
+				{
+					id: "1659A581E28C571F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["06F68B574AC84B7B"]
+			description: ["Platinum can be obtained by leaching mercury or grinding nickel ore.", "&lI hope you have already made a steam OP by this time"]
+			id: "157A951DA379C259"
+			rewards: [
+				{
+					id: "22590F01A2B5B20C"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C7E7CF70002B854"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "more efficient"
+			tasks: [
+				{
+					id: "00D5736963F13047"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "444F63C98C574053"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "7CAE6607D1EA81D0"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "4DDE442739B2FDC1"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+				{
+					id: "0CDB1B3E7BB73C38"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+			]
+			title: "patch"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61049DA87C6DEFC6"]
+			dependency_requirement: "one_completed"
+			description: ["Polytetrafluoroethylene, or PTFE for short, is a unique plastic material with excellent chemical stability, heat resistance, low coefficient of friction and non-stick surface, used as parts for chemical processing equipment, electronic insulation, and seals for pumps and valves."]
+			id: "11186961491B1773"
+			rewards: [
+				{
+					id: "50D9BD8E2FED65CF"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E44FA9468E18D50"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3E80F0C58C4A3699"
+					item: "gtceu:polytetrafluoroethylene_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11186961491B1773"]
+			description: [
+				"In fact, it has&blossless overclocking &r, and has&6exclusive advanced formula&r(magical No. 24 circuit), which is more powerful than the general mixing factory"
+				""
+				"Only&ewhite copper coils can be used"
+			]
+			icon_scale: 1.3d
+			id: "29450DC426C4E2D6"
+			rewards: [
+				{
+					id: "50F14222E01C7EAC"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AA9532115FC8F0F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "42EC7CCD50B1D828"
+					item: "gtceu:large_chemical_reactor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: ["This alloy has excellent corrosion resistance, high temperature resistance and mechanical properties, and is often used to manufacture heat-resistant and corrosion-resistant equipment and components."]
+			id: "6843AB3573F42310"
+			rewards: [
+				{
+					id: "4521C94E7C8BF69B"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58B8A1304BFEB95D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "2D03BAC3311DD9E5"
+					item: "gtceu:nichrome_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "07F31D51E577D06C"
+					item: "gtceu:nichrome_ingot"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6843AB3573F42310"]
+			icon_scale: 1.3d
+			id: "42E88FC72902FC0B"
+			rewards: [
+				{
+					id: "6C2BC13971660863"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25396B341B786A6C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "25491710B97DE83B"
+					item: "gtceu:nichrome_coil_block"
+					type: "item"
+				}
+			]
+			title: "Nichrome coil"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "360787FE602FBF66"
+			rewards: [
+				{
+					id: "2E4680FA75010FFB"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BC0D564200C4E02"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6FE53B164E07E8FA"
+					item: "gtceu:rutile_dust"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["027197A71E630966", "75819171DFBE923B"]
+			description: ["If you see that this powder can be obtained from minerals, please don’t look for it", "This mineral is later obtained through large void mining machines or space elevators."]
+			id: "74D9136DE32F9129"
+			rewards: [
+				{
+					id: "11EC0893B4B00754"
+					item: "gtceu:nano_saber"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AC28BCF3C8E3CE0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "07A926486A616135"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "18D78F45AECF373E"
+					item: "gtceu:titanium_ingot"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			icon: "gtceu:hv_macerator"
+			icon_scale: 1.3d
+			id: "24A12D2F592DC50D"
+			rewards: [
+				{
+					id: "5AD386A16F67A37E"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03638934DAB7D052"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Finally the by-products of grinding can be obtained"
+			tasks: [
+				{
+					id: "68B4BAC1D648029B"
+					item: "gtceu:hv_macerator"
+					type: "item"
+				}
+				{
+					id: "2C7E54D4ED65604E"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [
+				"Only use&eKantal alloy coil &r"
+				""
+				"It may be your first cross-recipe parallel machine (this can only be reflected with the parallel control bin)"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0752A7F2C67CDF76"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2257DA292B48722A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "44035FCFBB02978D"
+					item: "gtceu:desulfurizer"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["360787FE602FBF66"]
+			description: ["Rutile/ilmenite electrolytic powder HV", "Rutile powder can react with titanium powder and oxygen in Dahua"]
+			icon: "gtceu:titanium_dust"
+			id: "75819171DFBE923B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38B8D7B81BCEB73F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0BAD120E0C368EAB"
+					title: "Single-step titanium treatment"
+					type: "checkmark"
+				}
+				{
+					id: "3CB65890D4C08180"
+					item: "gtceu:titanium_dust"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"&lIf you change the extremely high speed formula (such as thousand times speed, ten thousand times speed), it can allow some machines that have lost&41toc&fto regain&41toc."
+				"&41toc&8is to overclock the machine to a very short time:"
+				"&8• Lossy overclocked machines: limit is 1 tick (1t)"
+				"&8• Lossless overclocked machine: limit is less than 4 ticks (<4t)"
+				"After reaching this limit, continuing to overclock will result in parallel compensation:"
+				"&8• Lossy overclocked machine: power consumption becomes 4 times, parallelism becomes 2 times"
+				"&8• Lossless overclocked machine: energy consumption becomes 4 times, parallelism becomes 4 times"
+				""
+				"&lAfter testing, the upper limit of parallel compensation is 2147483647."
+				"Currently known applicable machines include: electric blast furnace, alloy smelting furnace, vacuum drying furnace (vacuum drying mode)."
+				""
+				"&lFor example:"
+				"Hormone version of electric blast furnace equipped with 16aHVwireless energy warehouse:"
+				"• Burning steel ingots with normal maintenance chamber: 1 per second"
+				"• Burn ingots with this configurable maintenance bin: 64 per second"
+			]
+			icon_scale: 1.3d
+			id: "0CE3B62AD3B427AA"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2327F855B54D41EA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Time multiplier 2.0"
+			tasks: [
+				{
+					id: "2C9AB67EF877B0DD"
+					item: {
+						Count: 1
+						id: "gtceu:configurable_maintenance_hatch"
+						tag: {
+							BlockEntityTag: {
+								durationMultiplier: 2.0f
+								maintenanceProblems: 127b
+							}
+							display: {
+								Lore: ["\\\"耗时乘数2.0x 维护过一次 谨慎放置 挖掘后会重置维护状态与耗时乘数\\\""]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E9EA7E22BE663AF"]
+			description: ["&l·&fuses the&aultra-clean maintenance warehouse&fand above level maintenance warehouse, and puts the corresponding level&acircuit host&finto the&bassembly machine &f", "&l&fcan directly synthesize the maintenance warehouse that has been configured with the corresponding speed. There is no need to adjust the formula speed after placing it."]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "630D44A5A85EBD27"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "620B94F991F0C85A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1D83CA11C72CCBD1"
+					item: "gtceu:cleaning_configuration_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "Prefabricated maintenance warehouse"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Tier3-HV"]
+	title: "high pressure"
+}

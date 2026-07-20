@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch5_finality"
+	group: ""
+	icon: "hk3gtl:finality_1_processor"
+	id: "4A50000000000000"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Estágio final (nível de tensão 27~30) - o intervalo de tensão final."
+				"Sua civilização construirá o Hyperion, passará na revisão da Matriz de Verificação de Civilização e obterá uma licença de graduação."
+				""
+				"§cAviso: §7O edifício de referência neste capítulo trará muita atenção (Huberlian +80, Matriz de Verificação +100), garantindo que os buffers estejam no lugar."
+			]
+			icon: "hk3gtl:ancient_will"
+			id: "4A50000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A50000000000101"
+					title: "Entrando na fase terminal"
+					type: "checkmark"
+				}
+			]
+			title: "Era Final §d§l"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000100"]
+			description: ["A Oficina Final de Construção da Civilização e a Forja Final de Materiais Extremos – os motores gêmeos de componentes e materiais na fase final."]
+			id: "4A50000000000200"
+			subtitle: "Finalmente, começa a construção de infraestrutura"
+			tasks: [
+				{
+					id: "4A50000000000201"
+					item: "hk3gtl:finality_civilization_construction_works"
+					type: "item"
+				}
+				{
+					id: "4A50000000000203"
+					item: "hk3gtl:finality_ultimate_material_forge"
+					type: "item"
+				}
+			]
+			title: "Oficina de construção §d× Extreme Forge"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000200"]
+			description: ["Elenco §d, núcleo de determinação de sequência final §r, acionando o marco E-MS-010."]
+			id: "4A50000000000300"
+			rewards: [
+				{
+					id: "4A50000000000302"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "E-MS-010 · A melhor ignição em poder de computação"
+			tasks: [
+				{
+					id: "4A50000000000301"
+					item: "hk3gtl:finality_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6Núcleo de determinação de sequência final"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000300"]
+			description: ["Hyperion - o carro-chefe do Destiny e a plataforma central da fase final.", "A conclusão aciona os marcos §dE-MS-011 §re §dE-FB-015 §r(entrada de pesquisa de expansão baseada em navio). §cé concluído pela primeira vez com atenção +80 §r."]
+			id: "4A50000000000400"
+			size: 1.5d
+			subtitle: "E-MS-011 / E-FB-015 · Nau capitânia zarpa"
+			tasks: [
+				{
+					id: "4A50000000000401"
+					item: "hk3gtl:hyperion_flagship"
+					type: "item"
+				}
+			]
+			title: "§d§lHipérion"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000400"]
+			description: [
+				"Quatro módulos principais de bordo:"
+				"§7· Cabine de observação do terminal embarcado: velocidade de pesquisa §a2,0× §7(o bônus mais alto do jogo)"
+				"§7· Convés do reator de energia dupla a bordo: Fleet Energy"
+				"§7· Sala de Coordenação de Civilização a Bordo: Colaboração de Civilização"
+				"§7· Santuário Chave de Deus a bordo: A Consagração Chave de Deus"
+				""
+				"Dicas §e: §7Existem ovos de páscoa escondidos após coletar todos os quatro módulos."
+			]
+			id: "4A50000000000500"
+			subtitle: "A nau capitânia está fortemente armada"
+			tasks: [
+				{
+					id: "4A50000000000501"
+					item: "hk3gtl:shipboard_finality_observation"
+					type: "item"
+				}
+				{
+					id: "4A50000000000503"
+					item: "hk3gtl:shipboard_dual_energy_reactor_deck"
+					type: "item"
+				}
+				{
+					id: "4A50000000000505"
+					item: "hk3gtl:shipboard_civilization_coordination_hall"
+					type: "item"
+				}
+				{
+					id: "4A50000000000507"
+					item: "hk3gtl:shipboard_divine_key_shrine"
+					type: "item"
+				}
+			]
+			title: "§dQuatro módulos principais de bordo"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000500"]
+			description: ["Os dois últimos arrays integrados de domínio casulo e o terceiro operador de teste final §rsão §d(marco de acionamento E-MS-012)."]
+			id: "4A50000000000600"
+			subtitle: "E-MS-012 · Capacidade de computação de teste"
+			tasks: [
+				{
+					id: "4A50000000000601"
+					item: "hk3gtl:finality_2_assembly"
+					type: "item"
+				}
+				{
+					id: "4A50000000000603"
+					item: "hk3gtl:finality_3_computer"
+					type: "item"
+				}
+			]
+			title: "Circuito §6Final II · III"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000400"]
+			description: ["O centro de poder da civilização final e o Anel de Aniquilação Honkai final - a garantia de energia e purificação antes da revisão final."]
+			id: "4A50000000000700"
+			subtitle: "Energia e Purificação Finais"
+			tasks: [
+				{
+					id: "4A50000000000701"
+					item: "hk3gtl:finality_civilization_power_hub"
+					type: "item"
+				}
+				{
+					id: "4A50000000000703"
+					item: "hk3gtl:finality_honkai_annihilation_ring"
+					type: "item"
+				}
+			]
+			title: "Hub de energia §d× Anel de aniquilação"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A50000000000600"]
+			description: ["§dFinal Four Judgment Host §r- o circuito de ordem mais alta do módulo completo, acionando o marco E-MS-013."]
+			id: "4A50000000000800"
+			rewards: [
+				{
+					id: "4A50000000000802"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "E-MS-013 · O fim do poder computacional"
+			tasks: [
+				{
+					id: "4A50000000000801"
+					item: "hk3gtl:finality_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6§lAnfitrião do Julgamento Final Four"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000800"]
+			description: [
+				"Matriz de Verificação de Civilização - Dispositivo de Revisão Final, concluído para acionar §dE-MS-014 §re §dE-FB-016 §r(Entrada da Cadeia de Pesquisa de Verificação de Graduação), §cfoi concluído pela primeira vez com atenção +100 §r."
+				""
+				"Dicas §e: Quando §7concluir a pesquisa sobre R-FN-009, o evento de certificação de pré-graduação de cada acampamento será acionado, então preste atenção na rolagem do arquivo."
+			]
+			id: "4A50000000000900"
+			size: 1.5d
+			subtitle: "E-MS-014 / E-FB-016 · Em revisão"
+			tasks: [
+				{
+					id: "4A50000000000901"
+					item: "hk3gtl:civilization_validation_matrix"
+					type: "item"
+				}
+			]
+			title: "Matriz de Verificação de Civilização §d§l"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000900"]
+			description: ["O altar de verificação da autoridade de graduação e o templo das maravilhas da civilização - o portador físico da cadeia de verificação de graduação (R-GR-001 ~ 005).", "Após a conclusão da pesquisa §dR-FN-012 “Certificação Final de Exportação” §r, inicia-se a fase de verificação da graduação."]
+			id: "4A50000000000A00"
+			subtitle: "R-FN-012 · Véspera de formatura"
+			tasks: [
+				{
+					id: "4A50000000000A01"
+					item: "hk3gtl:graduation_permission_verification_altar"
+					type: "item"
+				}
+				{
+					id: "4A50000000000A03"
+					item: "hk3gtl:civilization_wonder_sanctum"
+					type: "item"
+				}
+			]
+			title: "Altar de Verificação §d× Templo das Maravilhas"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Capítulo 5 · Nível de Tensão 27~30"]
+	title: "§dCapítulo 5 · Fase Final"
+}

@@ -1,0 +1,302 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch3_imaginary"
+	group: ""
+	icon: "hk3gtl:imaginary_1_processor"
+	id: "4A30000000000000"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Estágio imaginário (nível de tensão 19~22). Nesta etapa você tocará os galhos da árvore dos números imaginários e dialogará com o legado das civilizações anteriores.", "Há um total de 12 multiblocos neste capítulo. A maioria dos nós de pesquisa exige §dcorrespondente ao evento de conclusão da máquina §r(E-FB-009/010/011) como pré-requisito - construa a máquina primeiro e depois inicie a pesquisa."]
+			icon: "hk3gtl:nano_ceramic"
+			id: "4A30000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A30000000000101"
+					title: "Entrando no estágio do número imaginário"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lramo de números imaginários"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000100"]
+			description: ["A nanocerâmica é o material de entrada para o estágio imaginário e a base comum para invólucros e circuitos imaginários."]
+			id: "4A30000000000200"
+			subtitle: "A primeira lição de ciência material de números imaginários"
+			tasks: [
+				{
+					count: 16L
+					id: "4A30000000000201"
+					item: "hk3gtl:nano_ceramic"
+					type: "item"
+				}
+			]
+			title: "Nanocerâmica"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000200"]
+			description: [
+				"Matriz de observação da árvore numérica imaginária - Concluída para acionar §dE-FB-009 §r, desbloqueando a pesquisa da série I do número imaginário."
+				""
+				"§eEvite armadilhas: §7Sem esta máquina, o número imaginário do nó de pesquisa não pode ser enviado, portanto, não se apresse em economizar materiais do circuito."
+			]
+			id: "4A30000000000300"
+			subtitle: "E-FB-009 · A porta para o estudo dos números imaginários"
+			tasks: [
+				{
+					id: "4A30000000000301"
+					item: "hk3gtl:imaginary_tree_observation_array"
+					type: "item"
+				}
+			]
+			title: "Matriz de observação de árvore de números imaginários §d"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000300"]
+			description: ["O Templo do Cálculo de Circuitos de Nível Imaginário – o berço dos circuitos imaginários de quarto nível.", "Depois de concluir a pesquisa sobre o número imaginário I em cooperação com a matriz de observação, o elemento central da sequência imaginária número um §d§rfoi lançado (desencadeando o marco E-MS-005)."]
+			id: "4A30000000000400"
+			rewards: [
+				{
+					id: "4A30000000000402"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "E-MS-005 · Ignição de poder computacional imaginário"
+			tasks: [
+				{
+					id: "4A30000000000401"
+					item: "hk3gtl:imaginary_circuit_computation_sanctum"
+					type: "item"
+				}
+				{
+					id: "4A30000000000403"
+					item: "hk3gtl:imaginary_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6Elemento central da sequência imaginária número um"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000400"]
+			description: ["Fornalha de sonho imaginária e máquina de tricô de matéria imaginária - os gêmeos materiais imaginários: ligas fluidas, espelhos de transferência de fase e máquinas magnéticas de anel de Einstein são todos produzidos aqui."]
+			id: "4A30000000000500"
+			subtitle: "Linha de produção de material imaginário"
+			tasks: [
+				{
+					id: "4A30000000000501"
+					item: "hk3gtl:imaginary_dream_furnace"
+					type: "item"
+				}
+				{
+					id: "4A30000000000503"
+					item: "hk3gtl:imaginary_matter_weaver"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A30000000000505"
+					item: "hk3gtl:fluid_alloy"
+					type: "item"
+				}
+			]
+			title: "Forno de sonho §d× Máquina de tecelagem de materiais"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A30000000000400"]
+			description: ["O centro de intercâmbios civilizados - estabeleça contato com as duas principais organizações, Destiny e Anti-Entropy.", "Saída §ddestino · núcleo de número imaginário §re §dentropia inversa · núcleo de número imaginário §r, núcleos duplos do circuito de número imaginário II."]
+			id: "4A30000000000600"
+			subtitle: "A cristalização técnica de duas grandes organizações"
+			tasks: [
+				{
+					id: "4A30000000000601"
+					item: "hk3gtl:civilization_exchange_council_hub"
+					type: "item"
+				}
+				{
+					id: "4A30000000000603"
+					item: "hk3gtl:schicksal_imaginary_core"
+					type: "item"
+				}
+				{
+					id: "4A30000000000605"
+					item: "hk3gtl:anti_entropy_imaginary_core"
+					type: "item"
+				}
+			]
+			title: "Centro de discussão de intercâmbio de civilizações §d"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000600"]
+			description: ["Depois de reunir o poder de computação dual core e número imaginário I, monte o corpo integrado de coroa número dois imaginário §d§r."]
+			id: "4A30000000000700"
+			subtitle: "Poder de computação do Canopy"
+			tasks: [
+				{
+					id: "4A30000000000701"
+					item: "hk3gtl:imaginary_2_assembly"
+					type: "item"
+				}
+			]
+			title: "Corpo integrado com coroa de árvore imaginária número dois"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000700"]
+			description: ["Dispositivo de ancoragem de número imaginário - construído para acionar §dE-FB-010 §r, desbloqueando a pesquisa do sistema de número imaginário III.", "Cooperando com o espelho de transferência de fase da fornalha dos sonhos e o ímã do anel de Einstein, o cálculo §de as três leis imaginárias dos números imaginários são calculados como o pivô §r."]
+			id: "4A30000000000800"
+			subtitle: "E-FB-010 · Números imaginários ancorados"
+			tasks: [
+				{
+					id: "4A30000000000801"
+					item: "hk3gtl:imaginary_anchor_device"
+					type: "item"
+				}
+				{
+					id: "4A30000000000803"
+					item: "hk3gtl:imaginary_3_computer"
+					type: "item"
+				}
+			]
+			title: "§dDispositivo de ancoragem de número imaginário → Número imaginário III"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000400"]
+			description: ["Fábrica de Purificação de Fase Honkai - O olhar de §aaumenta em -30% §rdentro de um intervalo de 16 blocos, e os efeitos são multiplicados quando o buffer é ativado.", "Construí-lo próximo à matriz de pesquisa é um meio passivo de controlar o olhar nos estágios intermediários e posteriores."]
+			icon: "hk3gtl:honkai_suppressant"
+			id: "4A30000000000900"
+			shape: "diamond"
+			subtitle: "supressão passiva do olhar"
+			tasks: [
+				{
+					id: "4A30000000000901"
+					item: "hk3gtl:honkai_phase_purification_plant"
+					type: "item"
+				}
+			]
+			title: "Planta de purificação de fase §5Honkai"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A30000000000800"]
+			description: ["Estação de fornecimento estável de energia dupla (energia Honkai + fornecimento de energia de trilho duplo da UE) e estação de forjamento de superestrutura de aço soul (processamento de forma final de aço soul).", "Ambos são visitantes frequentes do estágio final dos números imaginários e da cadeia de receitas do estágio quântico."]
+			id: "4A30000000000A00"
+			subtitle: "Infraestrutura de back-end imaginária"
+			tasks: [
+				{
+					id: "4A30000000000A01"
+					item: "hk3gtl:dual_energy_stable_supply_station"
+					type: "item"
+				}
+				{
+					id: "4A30000000000A03"
+					item: "hk3gtl:soulium_superstructure_forge"
+					type: "item"
+				}
+			]
+			title: "Fonte de energia dupla §d× forjamento de superestrutura"
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A30000000000800"]
+			description: ["Torre de decodificação de banco de dados pré-civilização - a conclusão aciona §dE-FB-011 §r, desbloqueando a pesquisa do sistema de número imaginário IV.", "Saída de decodificação §dherança antiga §re §dantigo será §r: o primeiro é para pesquisa, e o último é o material chave do cérebro imaginário do número IV e da cadeia de graduação."]
+			id: "4A30000000000B00"
+			subtitle: "E-FB-011 · Ouvindo a pré-civilização"
+			tasks: [
+				{
+					id: "4A30000000000B01"
+					item: "hk3gtl:precivilization_database_decoder"
+					type: "item"
+				}
+				{
+					id: "4A30000000000B03"
+					item: "hk3gtl:ancient_legacy"
+					type: "item"
+				}
+				{
+					id: "4A30000000000B05"
+					item: "hk3gtl:ancient_will"
+					type: "item"
+				}
+			]
+			title: "Torre de decodificação de banco de dados pré-civilização §d"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000B00"]
+			description: [
+				"§c§lCertifique-se de ler antes de sintetizar!"
+				""
+				"O cérebro principal dos quatro números imaginários é o auge do estágio dos números imaginários. No momento em que §do coloca na mochila pela primeira vez, o marco E-MS-006 é acionado: Você será imediatamente teletransportado para a dimensão imaginária §r- onde está o Herrscher do Céu, Siren."
+				""
+				"§eEvite armadilhas:"
+				"§71. Após o teletransporte, o modo aventura é forçado e os blocos não podem ser destruídos/colocados. Este é um fenômeno normal;"
+				"§72. Para obter detalhes sobre a interação do enredo dentro da dimensão (Imaginary Rift e Sirin), consulte o Capítulo 6 \"Julgamento Final\" - §cAssim que o diálogo for concluído, o julgamento final será acionado e a graduação será marcada. §7. Se você quiser completar o estágio quântico/final primeiro, não fale com Sirin depois de vê-la, apenas saia diretamente;"
+				"§73. Você pode continuar o jogo normal após sair e a função cerebral principal não será afetada."
+			]
+			id: "4A30000000000C00"
+			rewards: [
+				{
+					id: "4A30000000000C02"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 1.5d
+			subtitle: "E-MS-006 · O pico dos números imaginários · Aviso de transmissão forçada"
+			tasks: [
+				{
+					id: "4A30000000000C01"
+					item: "hk3gtl:imaginary_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6§lNúmero Imaginário Quatro Sequência Imaginária Cérebro Mestre"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000C00"]
+			description: ["Após concluir a pesquisa §dR-IM-021 \"Certificação de Exportação de Número Imaginário\" §r(prefixado por R-IM-016 / R-IM-017 / R-IM-020), o estágio quântico é desbloqueado."]
+			icon: "hk3gtl:superconductive_metal_hydrogen"
+			id: "4A30000000000D00"
+			shape: "diamond"
+			subtitle: "R-IM-021 · Portal para o Mar Quântico"
+			tasks: [
+				{
+					id: "4A30000000000D01"
+					title: "Concluída pesquisa de certificação de exportação imaginária"
+					type: "checkmark"
+				}
+			]
+			title: "§dExportação de número imaginário"
+			x: 22.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Capítulo 3 · Nível de Tensão 19~22"]
+	title: "§dCapítulo 3 · Estágio do Número Imaginário"
+}

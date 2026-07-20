@@ -1,0 +1,38 @@
+{
+  "name": "space station",
+  "icon": "ad_astra:/textures/gui/sprites/space_station.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "space station",
+      "text": "Space stations are prefabricated structures that can be spawned in the planet selection screen once you have enough materials. The space station will be generated in the low-Earth orbit of the target celestial body. With the space station, it will not be difficult to explore the low-Earth orbit."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "space station",
+      "text": "The space station serves as the basic structure, allowing you to expand it to the greatest extent to realize your space dreams. All your space stations appear on the planet screen. Other players cannot spawn new stations in the same area as you, so your structures are safe."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "roaming space",
+      "text": "The physics in space are very different from those on Earth. In this zero-gravity environment, you'll float around, unaffected by gravity or air resistance. This may make moving around difficult. One tool that can help you is a compression gun. Compression guns require oxygen and will consume it quickly to propel you forward. This allows you to move around in space. Control your speed carefully. Since there is no air resistance, you can fly very far and get lost."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Compression gun",
+      "recipe": "ad_astra:zip_gun"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cadmus",
+      "text": "If the $( l:https://modrinth.com/mod/cadmus)Cadmus$(/l) mod is installed, the 3x3 chunks in your space station will be occupied. Additionally, players will not be able to create new stations in any tile you capture."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Argonauts",
+      "text": "If you have the $( l:https://modrinth.com/mod/argonauts)Argonauts$(/l) mod installed, other players in your party or guild will be able to land on your station, and you will be able to land on theirs."
+    }
+  ]
+}

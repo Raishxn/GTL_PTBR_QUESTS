@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch4_quantum"
+	group: ""
+	icon: "hk3gtl:quantum_1_processor"
+	id: "4A40000000000000"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Quantum stage (voltage Tier 23~26). As civilization sails into the quantum sea, the pressure of attention begins to become the main contradiction.", "The key to this chapter: The quantum entanglement computer is the precursor (E-FB-012) of all quantum research §d§rand must be built first."]
+			icon: "hk3gtl:world_bubble_sample"
+			id: "4A40000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A40000000000101"
+					title: "Entering the quantum stage"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lQuantum Sea"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000100"]
+			description: [
+				"Quantum Entanglement Computer - Completion triggers §dE-FB-012 §r, unlocks full-line quantum research, and provides §a1.5× research speed §rbonus to the research matrix."
+				""
+				"§eTip: §7It is both a threshold and an accelerator, the first priority in the quantum stage."
+			]
+			id: "4A40000000000200"
+			size: 1.5d
+			subtitle: "E-FB-012·Gateway to Quantum Research"
+			tasks: [
+				{
+					id: "4A40000000000201"
+					item: "hk3gtl:quantum_entanglement_computer"
+					type: "item"
+				}
+			]
+			title: "§d§lQuantum Entanglement Computer"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000200"]
+			description: ["Quantum superconducting lattice factory - produces §dsuperconducting metallic hydrogen §r, the core material of quantum circuits and casings."]
+			id: "4A40000000000300"
+			subtitle: "Building blocks of quantum materials"
+			tasks: [
+				{
+					id: "4A40000000000301"
+					item: "hk3gtl:quantum_superconductor_lattice_factory"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A40000000000303"
+					item: "hk3gtl:superconductive_metal_hydrogen"
+					type: "item"
+				}
+			]
+			title: "§dQuantum Superconducting Lattice Factory"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000300"]
+			description: ["Quantum Thinking Forging Station - the birthplace of quantum fourth-order circuits.", "Casting §dquantum entanglement logic core §r, triggering milestone E-MS-007."]
+			id: "4A40000000000400"
+			rewards: [
+				{
+					id: "4A40000000000402"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "E-MS-007 · Quantum computing power ignition"
+			tasks: [
+				{
+					id: "4A40000000000401"
+					item: "hk3gtl:quantum_thought_forge"
+					type: "item"
+				}
+				{
+					id: "4A40000000000403"
+					item: "hk3gtl:quantum_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6Quantum-entanglement logic core"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000400"]
+			description: ["World Bubble Melting Furnace and Quantum Civilization Trading Port - Incorporate the resources of the Quantum Sea (world bubbles, cross-civilization trade goods) into the production system."]
+			id: "4A40000000000500"
+			subtitle: "Quantum resource dual channel"
+			tasks: [
+				{
+					id: "4A40000000000501"
+					item: "hk3gtl:world_bubble_meltdown_furnace"
+					type: "item"
+				}
+				{
+					id: "4A40000000000503"
+					item: "hk3gtl:quantum_civilization_trade_port"
+					type: "item"
+				}
+			]
+			title: "§dMelting Furnace × Trading Port"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A40000000000400"]
+			description: ["Honkai Wireless Transit Hub - the core node of Honkai Wireless Network, carrying the honkai_wireless_transit production line.", "In conjunction with the wireless warehouse in Chapter 2, the Honkai Impact system is fully wireless."]
+			id: "4A40000000000600"
+			subtitle: "wireless network backbone"
+			tasks: [
+				{
+					id: "4A40000000000601"
+					item: "hk3gtl:honkai_wireless_transit_hub"
+					type: "item"
+				}
+			]
+			title: "§dHonkai Impact Wireless Relay Hub"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000400"]
+			description: ["The Quantum Precision Assembly Factory and the Quantum Honkai Fusion Ring are responsible for components and energy in the middle and late stages of Quantum.", "The eight major quantum components (such as §fsensor_quantum_x §7) are produced by the assembly factory."]
+			id: "4A40000000000700"
+			subtitle: "Quantum infrastructure duo"
+			tasks: [
+				{
+					id: "4A40000000000701"
+					item: "hk3gtl:quantum_precision_assembly_factory"
+					type: "item"
+				}
+				{
+					id: "4A40000000000703"
+					item: "hk3gtl:quantum_honkai_fusion_ring"
+					type: "item"
+				}
+			]
+			title: "§dAssembly Plant × Fusion Ring"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A40000000000500"
+				"4A40000000000600"
+				"4A40000000000700"
+			]
+			description: ["Light up quantum II, III circuits step by step."]
+			id: "4A40000000000800"
+			subtitle: "Computing power climbs"
+			tasks: [
+				{
+					id: "4A40000000000801"
+					item: "hk3gtl:quantum_2_assembly"
+					type: "item"
+				}
+				{
+					id: "4A40000000000803"
+					item: "hk3gtl:quantum_3_computer"
+					type: "item"
+				}
+			]
+			title: "Quantum II·III Circuits"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000200"]
+			description: [
+				"Final Pressure Buffer Array - nearby research matrix §a, the lower limit of research speed is increased to 40% §r, a life-saving structure when the visibility is high."
+				"God's Key Gallery - Each unit has an additional +10% research speed, stacking up to 3 units (+30%)."
+				""
+				"§eTips: §7can easily reach hundreds of quantum stage fixations. These two machines are the lifeline of research efficiency."
+			]
+			icon: "hk3gtl:gaze_buffer_unit"
+			id: "4A40000000000900"
+			shape: "diamond"
+			subtitle: "Infrastructure against the gaze"
+			tasks: [
+				{
+					id: "4A40000000000901"
+					item: "hk3gtl:finality_pressure_buffer_array"
+					type: "item"
+				}
+				{
+					id: "4A40000000000903"
+					item: "hk3gtl:divine_key_gallery"
+					type: "item"
+				}
+			]
+			title: "§5Pressure Buffer × God’s Key Display"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A40000000000800"]
+			description: [
+				"Quantum Four Quantum Judgment Host - The top of the quantum stage."
+				""
+				"The first holding of §dwill trigger milestone E-MS-009 §r."
+			]
+			id: "4A40000000000A00"
+			rewards: [
+				{
+					id: "4A40000000000A02"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "E-MS-009 · Quantum Summit"
+			tasks: [
+				{
+					id: "4A40000000000A01"
+					item: "hk3gtl:quantum_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6Quantum Four Quantum Arbitration Host"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000A00"]
+			description: [
+				"One Thousand Worlds - A train that travels across a thousand worlds."
+				"The completion triggers the milestones §dE-MS-008 §rand §dE-FB-013 §r(final research entrance). §cis first completed with attention +50 §r."
+				""
+				"The spectacle simulation construction platform, a preview venue for the final spectacle, is recommended to be constructed at the same time."
+			]
+			id: "4A40000000000B00"
+			size: 1.5d
+			subtitle: "E-MS-008 / E-FB-013 · Toward the end"
+			tasks: [
+				{
+					id: "4A40000000000B01"
+					item: "hk3gtl:thousand_realms_train"
+					type: "item"
+				}
+				{
+					id: "4A40000000000B03"
+					item: "hk3gtl:wonder_construction_simulation_platform"
+					type: "item"
+				}
+			]
+			title: "§d§lOne Thousand Realms"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000B00"]
+			description: ["After completing the research §dR-QT-012 \"Quantum Export Certification\" §r(prefixed by R-QT-011 / R-QT-006 / R-QT-009), the final stage is unlocked."]
+			icon: "hk3gtl:quantum_4_processor_mainframe"
+			id: "4A40000000000C00"
+			shape: "diamond"
+			subtitle: "R-QT-012 · Final Ticket"
+			tasks: [
+				{
+					id: "4A40000000000C01"
+					title: "Complete Quantum Export Certification Study"
+					type: "checkmark"
+				}
+			]
+			title: "§dQuantum Export"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Chapter 4 · Voltage Tier 23~26"]
+	title: "§dChapter 4 · Quantum Stage"
+}

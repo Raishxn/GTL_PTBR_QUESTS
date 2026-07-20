@@ -1,0 +1,1014 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "77F8039ACE718C6C"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:primitive_robot_arm"
+	id: "77F8039ACE718C6C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Pegue o lingote de bronze e você poderá começar a era do vapor"
+				"Tenha a coragem de entrar no primeiro Voltage da GregTech!"
+				""
+				"&lNa versão pirata, a fase de vapor passa muito rapidamente."
+				"&lSeu objetivo principal é:"
+				"&a• Alcançando o mundo antigo"
+				"&a• Obter pacote AE"
+				"&a• Com componentes de ferramenta frágeis e matriz de montagem"
+				"&a• Uso adequado de motores a vapor universais"
+				"&a• Use modelos de ferramentas para fazer a transição rápida para o estágio MV"
+			]
+			id: "5F5F348E3A34827E"
+			rewards: [
+				{
+					id: "41A3ACD4F54D9969"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7956D911A9298668"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "3AF9BBC8A451F81A"
+					item: "avaritia:crystal_pickaxe"
+					type: "item"
+				}
+				{
+					count: 2048
+					id: "43BBB1E413ADE769"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "47D6C464DF34C115"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			title: "Era do Vapor ULV"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"Os diamantes são os mais resistentes à queima. Recomenda-se queimar diamantes."
+				""
+				"Quando a água é introduzida na caldeira durante a queima a seco, ela explodirá &4&r"
+				""
+				"Caldeiras de combustível líquido usam lava como combustível; as caldeiras solares aquecem naturalmente durante o dia e caem de temperatura à noite/quando à sombra"
+			]
+			icon_scale: 1.3d
+			id: "4BFC342697BDE75A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FF8DAA6E2A87E42"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "70DE0442DB10C914"
+					item: "gtceu:lp_steam_solid_boiler"
+					type: "item"
+				}
+			]
+			title: "caldeira de baixa pressão"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["É usado para compactar coisas"]
+			icon: "gtceu:lp_steam_compressor"
+			icon_scale: 1.3d
+			id: "5C936EF307594737"
+			rewards: [
+				{
+					id: "704DF16EECC15BD8"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EF947EB58D179AE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "00E7B6F2A5F20C06"
+					item: "gtceu:lp_steam_compressor"
+					type: "item"
+				}
+				{
+					id: "188C3655F83EA500"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			description: ["Recomenda-se usar um compressor diretamente na fase inicial"]
+			hide_dependency_lines: false
+			id: "79E81CC078F246C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73B9E147546EBC29"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "3A9C5F77B9311BE8"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:i"
+								id: "gtceu:sticky_resin"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0A519A3A397BBD45"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+			]
+			title: "seu primeiro pedaço de borracha"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "388BD32463FA905D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0A65994D146D91"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "77BD1B24648C9FE5"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "5ADD8EEFE40F5663"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Seu primeiro lingote de aço"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43DE0784E5D32B46"]
+			description: [
+				"Usado para fazer máquinas elétricas e armazéns"
+				""
+				"Pode até ser usado para armazenar &c&r&epara armazenar energia &r&a&b&r&re &3para conectar &r&9a &r&1ME &r&5líquido &r&dlíquido &r!"
+			]
+			icon_scale: 1.3d
+			id: "7CB85061F0822830"
+			rewards: [
+				{
+					id: "0D14C938E01BD29D"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A0E8901C57DEF7D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Você definitivamente precisa de muita imaginação para usá-lo"
+			tasks: [
+				{
+					id: "6500863B6A64DE2F"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["Mistura de metais usando um forno de liga"]
+			icon_scale: 1.3d
+			id: "30F031CD02425ED7"
+			rewards: [
+				{
+					count: 640
+					id: "4FB6BBE01DEAFC93"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6838B3281CE8CC00"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7D7E7EBAB75A2F8D"
+					item: "gtceu:lp_steam_alloy_smelter"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: ["Ele pode martelar três fusos em duas placas, o que tem uma taxa de utilização maior do que a fricção manual."]
+			icon: "gtceu:lp_steam_forge_hammer"
+			icon_scale: 1.3d
+			id: "6525C9DE2A276238"
+			rewards: [
+				{
+					id: "6B3DEE9FC411E85C"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47E14C8E606056D1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "31BB0DC594040BE2"
+					item: "gtceu:lp_steam_forge_hammer"
+					type: "item"
+				}
+				{
+					id: "048744192AC419A1"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79E81CC078F246C0"]
+			id: "43DE0784E5D32B46"
+			rewards: [
+				{
+					id: "61C758028D9C9DB9"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F8D0C292AFF4ADD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B8D0D8D101E1641"
+					item: "gtceu:tin_single_cable"
+					type: "item"
+				}
+			]
+			title: "cabo de estanho"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["&aÉ realmente um pouco difícil para você pressionar o molde no estágio inicial."]
+			icon: "gtceu:glass_tube"
+			id: "707E5114B7979898"
+			rewards: [
+				{
+					id: "616256D1A595C948"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:i"
+								id: "gtceu:glass_tube"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78475953D7E8AEA4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "18D90ADC7E5AC578"
+					title: "tubo de vidro"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["707E5114B7979898", "388BD32463FA905D"]
+			description: ["Seu primeiro circuito ULV, você precisa usá-lo para ajudar a fazer circuitos mais baratos, basta fazer alguns"]
+			id: "5CD26DECB937FC71"
+			rewards: [
+				{
+					id: "327EC9AD42261D00"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "107280FF73093BBC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "16EA9C62F6D609A0"
+					item: "gtceu:vacuum_tube"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			description: ["Você não pode misturar isso manualmente como o bronze, você só pode sintetizá-lo com a ajuda de uma máquina."]
+			id: "3C91E284A9A03B1B"
+			rewards: [
+				{
+					id: "08462119775B14A3"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "454981C19DE25FBF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "4996E380CA2D44A9"
+					item: "gtceu:red_alloy_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "15717008A6B7F20E"
+					item: "gtceu:red_alloy_ingot"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: ["Os povos primitivos também tiveram que montar circuitos", "&l· &fPor favor, escreva o conjunto do circuito &6na caixa de nomenclatura do conjunto da superamostra"]
+			icon: "gtceu:large_steam_circuit_assembler"
+			icon_scale: 1.3d
+			id: "34FCFA114E75D770"
+			rewards: [
+				{
+					id: "0C0731B2ACDDCE0D"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CC81FBFFC3611B3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6255EA9A7B4B58EC"
+					item: "gtceu:large_steam_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "111189520EC4A128"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Confie nele para criar algumas estruturas multibloco de vapor superfortes"
+				""
+				"Eles têm alto paralelismo e podem ter overclock e boost quando o aço inoxidável estiver disponível ( MV )"
+			]
+			id: "5276CA8FA5262C9B"
+			rewards: [
+				{
+					id: "7A6E4F26CB4EC8FB"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "504DE9ABBF7BD631"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "72CA64283A8A3E34"
+					item: "kubejs:precision_steam_mechanism"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5276CA8FA5262C9B", "38CC43F7A6A39BB4"]
+			description: ["Não se esqueça de colocar a bandeja de saída"]
+			icon: "gtceu:large_steam_centrifuge"
+			icon_scale: 1.3d
+			id: "2585418910B6798A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13DE643DF97234BC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5F47C1E28CF33F84"
+					item: "gtceu:large_steam_centrifuge"
+					type: "item"
+				}
+				{
+					id: "799B64678999BF9B"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CB85061F0822830"]
+			description: [
+				"Pode ser compartilhado"
+				""
+				"Na verdade, exceto algumas máquinas, todas as máquinas multibloco que requerem uma câmara de silenciador podem usar câmaras de silenciador de baixa tensão. As câmaras de silenciador avançadas são de pouca utilidade."
+				""
+				"Mesmo que a câmara do silenciador esteja cheia de cinzas, isso não afetará o funcionamento da máquina."
+			]
+			icon_scale: 1.3d
+			id: "38CC43F7A6A39BB4"
+			rewards: [
+				{
+					id: "3354D072C3B1F387"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71C979CBB926FAC2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Não bloqueie a saída de fumaça"
+			tasks: [
+				{
+					id: "6FF18125E551DB42"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5CD26DECB937FC71"
+				"740C2D1F3F420480"
+				"6D729450ED86BDAF"
+				"3C91E284A9A03B1B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Você não precisa fazer muito, apenas faça alguns."
+				""
+				"Pode ser feito posteriormente com uma grande máquina de montagem de circuito de vapor"
+			]
+			id: "5065BEDC95AE564E"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "58F5C373D0AE0142"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5821FAA626B0AB58"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "011218464BCA60AC"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
+			title: "seu primeiro circuito"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["Existem muitas fórmulas para resistores e fios finos são mais econômicos"]
+			id: "6D729450ED86BDAF"
+			rewards: [
+				{
+					id: "108CAF7D675F876A"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78E273F99859FCA4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "72F7066EE104AACE"
+					item: "gtceu:resistor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "051710FFC9907807"
+			rewards: [
+				{
+					id: "765C29DBBBD61E54"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63D20DACDBBDE514"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2B8641531625E4B7"
+					item: "gtceu:resin_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["051710FFC9907807"]
+			id: "740C2D1F3F420480"
+			rewards: [
+				{
+					id: "0C13652D6A0B6866"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743C2B6AB06C2606"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6354CE91F0CF6378"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2585418910B6798A"]
+			description: ["Resina pegajosa para centrífuga"]
+			id: "06285BE2396AB639"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F2800910E1DC81B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "FALSE"
+					fluid: "gtceu:glue"
+					id: "25861EAAFDCFE2E9"
+					type: "fluid"
+				}
+			]
+			title: "cola"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34FCFA114E75D770", "06285BE2396AB639"]
+			description: ["Circuitos muito baratos, esta série vai até circuitos EV"]
+			hide_dependent_lines: true
+			id: "08B7D8F835DFE214"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57D0B48E418B55D9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "344BB3250C20E4FB"
+					item: "kubejs:basic_control_circuit"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08B7D8F835DFE214", "5065BEDC95AE564E"]
+			description: ["Este é um circuito LV barato"]
+			id: "553B2D61416792DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "367782BB7B641C95"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "41CA550B62F920A6"
+					item: "kubejs:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+				"O vapor geralmente vem de água fervente"
+				""
+				"A relação de conversão entre vapor e eletricidade é 2mb/t=1eu/t"
+			]
+			icon: "gtceu:steam_bucket"
+			id: "2B9D62FB6BF39201"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E74C063CD33F40E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "61D5BA33A860F807"
+					title: "fonte de vapor"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["&l·&fNeste pacote, caixas de energia comuns podem ser sintetizadas diretamente na versão sem fio&d&fou na versão de rede&6&f", "&l·&fé fortemente recomendado para ser sintetizado na versão do armazém de energia da rede &6"]
+			icon: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+			icon_scale: 1.3d
+			id: "0077892401F923A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00287780E0DF68D8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0B62AB0FBC941286"
+					type: "checkmark"
+				}
+			]
+			title: "Armazém de energia sem fio/armazém de energia de rede"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B9D62FB6BF39201"]
+			description: [
+				"&l·&fColoque a máquina em&6Sky Island World&fe insira&aSteam&fpara produzir todos os minerais do mundo principal"
+				"&l·&fTaxa de produção de minério&620 grupos por segundo &f, o que pode economizar muitas pequenas minerações no estágio inicial"
+				""
+				"&l·Esta é uma máquina de estrutura multibloco"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "1AB29FA99478121D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FCD9A7610F1FC71"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "461B67A32B06A68B"
+					item: "gtceu:primitive_void_ore"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Este comando aumenta seu alcance"
+				"A configuração padrão é 15 se parecer muito baixo ou muito alto"
+				""
+				"Você pode usar o seguinte comando para modificar"
+				"&l&b/attribute @p forge:block_reach base set 15"
+			]
+			icon: "gtceu:silicone_rubber_ingot"
+			id: "790B1D35140D65FA"
+			optional: true
+			rewards: [
+				{
+					command: "/attribute @p forge:block_reach base set 15"
+					elevate_perms: true
+					id: "4C346EFC41A1CE2A"
+					title: "Modifique o alcance para 15"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "25424C78793974AF"
+					type: "checkmark"
+				}
+			]
+			title: "homem de borracha"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C936EF307594737"]
+			icon_scale: 1.3d
+			id: "12EFFF2247F9891F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F92AC6FCFDDEB77"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0BF1442F1B798AD1"
+					item: "gtceu:steam_pressor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6525C9DE2A276238"]
+			icon_scale: 1.3d
+			id: "1CD854E9940E14EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A0B37E6328FBF38"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5946D26DE367E3BC"
+					item: "gtceu:steam_piston_hammer"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BFC342697BDE75A"]
+			icon_scale: 1.3d
+			id: "58A3407E6F0CE4F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37303319FD42EB64"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6C66F56E8E525670"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30F031CD02425ED7"]
+			icon_scale: 1.3d
+			id: "3C0F39E0AB9F37B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58B0B56D0ED27A9E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6E5B62356C6B43AC"
+					item: "gtceu:steam_foundry"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			icon: "ae2:condenser"
+			icon_scale: 1.3d
+			id: "4529D264D34462D1"
+			rewards: [
+				{
+					id: "234375B1EF8DC947"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:i"
+								id: "ae2:singularity"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B29E084615A0B41"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:i"
+								id: "ae2:matter_ball"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2500CE230FEEA2C3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Agregador de materiais = lata de lixo"
+			tasks: [
+				{
+					id: "25C59619016CE73C"
+					title: "lata de lixo"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Tier0.5-ULV"]
+	title: "era do vapor"
+}

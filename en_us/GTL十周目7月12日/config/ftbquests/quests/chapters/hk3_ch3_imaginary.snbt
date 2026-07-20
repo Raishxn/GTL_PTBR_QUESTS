@@ -1,0 +1,302 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch3_imaginary"
+	group: ""
+	icon: "hk3gtl:imaginary_1_processor"
+	id: "4A30000000000000"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Imaginary stage (voltage Tier 19~22). In this stage you will touch the branches of the tree of imaginary numbers and have a dialogue with the legacy of previous civilizations.", "There are a total of 12 multi-blocks in this chapter. Most research nodes require §dcorresponding to the machine completion event §r(E-FB-009/010/011) as a prerequisite - build the machine first and then start research."]
+			icon: "hk3gtl:nano_ceramic"
+			id: "4A30000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A30000000000101"
+					title: "Entering the imaginary number stage"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lbranch of imaginary numbers"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000100"]
+			description: ["Nanoceramics are the entry material for the imaginary stage and the common base for imaginary casings and circuits."]
+			id: "4A30000000000200"
+			subtitle: "The first lesson of material science of imaginary numbers"
+			tasks: [
+				{
+					count: 16L
+					id: "4A30000000000201"
+					item: "hk3gtl:nano_ceramic"
+					type: "item"
+				}
+			]
+			title: "Nanoceramics"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000200"]
+			description: [
+				"Imaginary Number Tree Observation Array - Completed to trigger §dE-FB-009 §r, unlocking imaginary number I series research."
+				""
+				"§eAvoid pitfalls: §7Without this machine, the imaginary number I research node cannot be submitted, so don’t rush to save circuit materials."
+			]
+			id: "4A30000000000300"
+			subtitle: "E-FB-009 · The door to the study of imaginary numbers"
+			tasks: [
+				{
+					id: "4A30000000000301"
+					item: "hk3gtl:imaginary_tree_observation_array"
+					type: "item"
+				}
+			]
+			title: "§dimaginary number tree observation array"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000300"]
+			description: ["The Temple of Imaginary Level Circuit Calculation—the birthplace of imaginary fourth-level circuits.", "After completing the research on the imaginary number I in cooperation with the observation array, the §dimaginary number one sequence core element §rwas cast (triggering milestone E-MS-005)."]
+			id: "4A30000000000400"
+			rewards: [
+				{
+					id: "4A30000000000402"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "E-MS-005 · Imaginary computing power ignition"
+			tasks: [
+				{
+					id: "4A30000000000401"
+					item: "hk3gtl:imaginary_circuit_computation_sanctum"
+					type: "item"
+				}
+				{
+					id: "4A30000000000403"
+					item: "hk3gtl:imaginary_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6Imaginary number one sequence core element"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000400"]
+			description: ["Imaginary dream furnace and imaginary matter knitting machine - the imaginary material twins: fluid alloys, phase transfer mirrors, and Einstein ring magnetic machines are all produced here."]
+			id: "4A30000000000500"
+			subtitle: "Imaginary material production line"
+			tasks: [
+				{
+					id: "4A30000000000501"
+					item: "hk3gtl:imaginary_dream_furnace"
+					type: "item"
+				}
+				{
+					id: "4A30000000000503"
+					item: "hk3gtl:imaginary_matter_weaver"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A30000000000505"
+					item: "hk3gtl:fluid_alloy"
+					type: "item"
+				}
+			]
+			title: "§dDream Furnace × Material Weaving Machine"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A30000000000400"]
+			description: ["The hub of civilized exchanges - establish contact with the two major organizations of Destiny and Anti-Entropy.", "Output §ddestiny·imaginary number core §rand §dinverse entropy·imaginary number core §r, dual cores of the imaginary number II circuit."]
+			id: "4A30000000000600"
+			subtitle: "The technical crystallization of two major organizations"
+			tasks: [
+				{
+					id: "4A30000000000601"
+					item: "hk3gtl:civilization_exchange_council_hub"
+					type: "item"
+				}
+				{
+					id: "4A30000000000603"
+					item: "hk3gtl:schicksal_imaginary_core"
+					type: "item"
+				}
+				{
+					id: "4A30000000000605"
+					item: "hk3gtl:anti_entropy_imaginary_core"
+					type: "item"
+				}
+			]
+			title: "§dCivilization exchange discussion hub"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000600"]
+			description: ["After gathering the dual core and imaginary number I computing power, assemble the §dimaginary number two crown integrated body §r."]
+			id: "4A30000000000700"
+			subtitle: "Canopy computing power"
+			tasks: [
+				{
+					id: "4A30000000000701"
+					item: "hk3gtl:imaginary_2_assembly"
+					type: "item"
+				}
+			]
+			title: "Imaginary number two tree crown integrated body"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000700"]
+			description: ["Imaginary number anchoring device - built to trigger §dE-FB-010 §r, unlocking imaginary number III system research.", "Cooperating with the phase transfer mirror of the dream furnace and the Einstein ring magnet, the calculation §dand the three imaginary laws of imaginary numbers are calculated as the pivot §r."]
+			id: "4A30000000000800"
+			subtitle: "E-FB-010 · Anchored imaginary numbers"
+			tasks: [
+				{
+					id: "4A30000000000801"
+					item: "hk3gtl:imaginary_anchor_device"
+					type: "item"
+				}
+				{
+					id: "4A30000000000803"
+					item: "hk3gtl:imaginary_3_computer"
+					type: "item"
+				}
+			]
+			title: "§dImaginary number anchoring device → Imaginary number III"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000400"]
+			description: ["Honkai Phase Purification Factory - §a's gaze increases by -30% §rwithin a 16-block range, and the effects are multiplied when the buffer is activated.", "Building it next to the research matrix is ​​a passive means of controlling gaze in the middle and later stages."]
+			icon: "hk3gtl:honkai_suppressant"
+			id: "4A30000000000900"
+			shape: "diamond"
+			subtitle: "passive gaze suppression"
+			tasks: [
+				{
+					id: "4A30000000000901"
+					item: "hk3gtl:honkai_phase_purification_plant"
+					type: "item"
+				}
+			]
+			title: "§5Honkai phase purification plant"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A30000000000800"]
+			description: ["Dual energy stable supply station (Honkai energy + EU dual-rail energy supply) and soul steel super structure forging station (soul steel ultimate form processing).", "Both are frequent visitors to the late stage of imaginary numbers and the quantum stage recipe chain."]
+			id: "4A30000000000A00"
+			subtitle: "Imaginary back-end infrastructure"
+			tasks: [
+				{
+					id: "4A30000000000A01"
+					item: "hk3gtl:dual_energy_stable_supply_station"
+					type: "item"
+				}
+				{
+					id: "4A30000000000A03"
+					item: "hk3gtl:soulium_superstructure_forge"
+					type: "item"
+				}
+			]
+			title: "§ddual energy supply × super structure forging"
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A30000000000800"]
+			description: ["Pre-civilization database decoding tower - completion triggers §dE-FB-011 §r, unlocking imaginary number IV system research.", "Decoding output §dancient inheritance §rand §dancient will §r: the former is for research, and the latter is the key material of the imaginary number IV mastermind and graduation chain."]
+			id: "4A30000000000B00"
+			subtitle: "E-FB-011 · Listening to pre-civilization"
+			tasks: [
+				{
+					id: "4A30000000000B01"
+					item: "hk3gtl:precivilization_database_decoder"
+					type: "item"
+				}
+				{
+					id: "4A30000000000B03"
+					item: "hk3gtl:ancient_legacy"
+					type: "item"
+				}
+				{
+					id: "4A30000000000B05"
+					item: "hk3gtl:ancient_will"
+					type: "item"
+				}
+			]
+			title: "§dPre-civilization database decoding tower"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000B00"]
+			description: [
+				"§c§lBe sure to read before synthesizing!"
+				""
+				"The main brain of the four imaginary numbers is the pinnacle of the imaginary number stage. The moment §dputs it into the backpack for the first time, milestone E-MS-006 is triggered: You will be immediately teleported to the imaginary dimension §r- where the Herrscher of the Sky, Siren, is."
+				""
+				"§eAvoid pitfalls:"
+				"§71. After teleportation, adventure mode is forced and blocks cannot be destroyed/placed. This is a normal phenomenon;"
+				"§72. For details about the plot interaction within the dimension (Imaginary Rift and Sirin), please see Chapter 6 \"Final Judgment\" - §cOnce the dialogue is completed, the final judgment will be triggered and graduation will be marked. §7. If you want to complete the quantum/final stage first, don't talk to Sirin after seeing her, just leave directly;"
+				"§73. You can continue the normal game after leaving, and the main brain function will not be affected."
+			]
+			id: "4A30000000000C00"
+			rewards: [
+				{
+					id: "4A30000000000C02"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			size: 1.5d
+			subtitle: "E-MS-006 · The Peak of Imaginary Numbers · Forced Transmission Warning"
+			tasks: [
+				{
+					id: "4A30000000000C01"
+					item: "hk3gtl:imaginary_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6§lImaginary Number Four Imaginary Sequence Master Brain"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A30000000000C00"]
+			description: ["After completing the research §dR-IM-021 \"Imaginary Number Export Certification\" §r(prefixed by R-IM-016 / R-IM-017 / R-IM-020), the quantum stage is unlocked."]
+			icon: "hk3gtl:superconductive_metal_hydrogen"
+			id: "4A30000000000D00"
+			shape: "diamond"
+			subtitle: "R-IM-021 · Gateway to the Quantum Sea"
+			tasks: [
+				{
+					id: "4A30000000000D01"
+					title: "Completed imaginary export certification research"
+					type: "checkmark"
+				}
+			]
+			title: "§dImaginary number export"
+			x: 22.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Chapter 3 · Voltage Tier 19~22"]
+	title: "§dChapter 3 · Imaginary Number Stage"
+}

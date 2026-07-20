@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch2_abyss"
+	group: ""
+	icon: "hk3gtl:abyss_1_processor"
+	id: "4A20000000000000"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"O estágio abissal (nível de tensão 15~18) começa oficialmente."
+				"O objetivo deste capítulo: Construir o conjunto inicial de quatro peças MAX → Iluminar o abismo I ~ Circuito IV → Usar a amostra da bolha mundial para bater na porta dos números imaginários."
+				""
+				"Dicas §e: §7Haiyuanqi, quase todas as receitas são controladas por nós de pesquisa. Estude a fórmula cinza na interface e primeiro estude o prefixo da matriz."
+			]
+			icon: "hk3gtl:casing_soulium"
+			id: "4A20000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A20000000000101"
+					title: "Entrando no estágio abissal"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lcaiu no abismo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000100"]
+			description: [
+				"Void Manzo Analysis Institute - Analisa os dados da cópia da Chave de Deus \"Void Manzo\" e produz fragmentos de dados pré-civilização e outros materiais de pesquisa abissais."
+				""
+				"Dicas §e: §7O corpo do Void Manzo é presenteado pelo evento da trama E-OT-001 (convite de Otto). Preste atenção ao texto do evento e ao pergaminho do arquivo da civilização na caixa de bate-papo."
+			]
+			id: "4A20000000000200"
+			subtitle: "Interpretando os Ecos da Chave de Deus"
+			tasks: [
+				{
+					id: "4A20000000000201"
+					item: "hk3gtl:void_archives_analysis_chamber"
+					type: "item"
+				}
+			]
+			title: "Centro de Análise Void Manzo §d"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A20000000000100"]
+			description: [
+				"Matriz de reconstrução de circuito estrutural - produz toda a série de placas de circuito de energia de colapso §d§r( ULV ~ MAX, um total de 15 níveis) e unidades de buffer de observação."
+				""
+				"Dicas §e: §7A linha de produção desta máquina precisa pesquisar R-WL-001 \"Presente de Walter\", que será concluído automaticamente após o evento correspondente E-WL-001 ser acionado."
+			]
+			id: "4A20000000000300"
+			subtitle: "Colapso da linha de produção de placa de circuito de energia"
+			tasks: [
+				{
+					id: "4A20000000000301"
+					item: "hk3gtl:reason_reconstruction_array"
+					type: "item"
+				}
+			]
+			title: "Matriz de reconstrução de circuito físico §d"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000100"]
+			description: ["A Torre de Conversão Honkai Energy-EU - preenche a lacuna entre a Honkai Energy e a energia elétrica GT e é um nó chave para a integração do sistema Honkai Energy na rede principal."]
+			id: "4A20000000000400"
+			subtitle: "A ponte entre duas fontes de energia"
+			tasks: [
+				{
+					id: "4A20000000000401"
+					item: "hk3gtl:honkai_eu_converter"
+					type: "item"
+				}
+			]
+			title: "Torre de conversão §dHonkai Energy-EU"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A20000000000300"]
+			description: ["Fundição do Circuito Haiyuan - a origem de todos os circuitos de quarta ordem de Haiyuan.", "Use o circuito MAX + material de aço da alma + fragmentos de Honkai + energia Honkai líquida para lançar o primeiro circuito do Abismo."]
+			id: "4A20000000000500"
+			subtitle: "Poder de computação além do MAX"
+			tasks: [
+				{
+					id: "4A20000000000501"
+					item: "hk3gtl:abyss_circuit_foundry"
+					type: "item"
+				}
+			]
+			title: "Fundição de circuito §dHaiyuan"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000500"]
+			description: [
+				"Núcleo de cálculo Haiyuan One forjado (Circuito Tier 15)."
+				""
+				"Segurar §dpela primeira vez irá acionar o marco E-MS-003 \"Abyss Breakthrough\", com atenção +50 §r- esta é a primeira vez que a civilização é realmente vista."
+				"Recomendação §e: §7Faça primeiro a unidade de buffer de olhar e depois sintetize-a (consulte a tarefa \"Diminuir grau de olhar\" neste capítulo)."
+			]
+			id: "4A20000000000600"
+			rewards: [
+				{
+					id: "4A20000000000602"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "E-MS-003 · Avanço de Haiyuan"
+			tasks: [
+				{
+					id: "4A20000000000601"
+					item: "hk3gtl:abyss_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6§lNúcleo de cálculo Haiyuanyi"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000300"]
+			description: [
+				"Unidade de buffer de olhar: §aClique com o botão direito para usar §rpara reduzir imediatamente o grau de olhar em 50 pontos e obter um buffer de 10 minutos (durante o qual o crescimento do olhar é reduzido pela metade)."
+				""
+				"Evitar armadilhas §e: a unidade avançada de buffer de olhar §7é um material de submissão de pesquisa. §cnão tem o efeito de clique com o botão direito de §7. Não o utilize como consumível."
+			]
+			icon: "hk3gtl:gaze_buffer_unit"
+			id: "4A20000000000700"
+			rewards: [
+				{
+					count: 2
+					id: "4A20000000000702"
+					item: "hk3gtl:gaze_buffer_unit"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Suprimindo ativamente o olhar final"
+			tasks: [
+				{
+					id: "4A20000000000701"
+					item: "hk3gtl:gaze_buffer_unit"
+					type: "item"
+				}
+			]
+			title: "§5menor nível de atenção"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A20000000000600"]
+			description: ["Grande Reator de Energia Honkai - a principal fonte de energia na Fase Abissal (a conclusão aciona E-FB-005, primeiro olhar +20).", "O combustível é a barra de combustível de energia §dHonkai §r, que pode ser atualizada para barras de combustível de alta densidade posteriormente."]
+			id: "4A20000000000800"
+			subtitle: "E-FB-005 · Energia Honkai principal fonte de energia"
+			tasks: [
+				{
+					id: "4A20000000000801"
+					item: "hk3gtl:large_honkai_reactor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4A20000000000803"
+					item: "hk3gtl:honkai_fuel_rod"
+					type: "item"
+				}
+			]
+			title: "§dGrande Reator de Energia Honkai"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A20000000000600"]
+			description: ["Planta de fundição profunda de Haiyuan e oficina de processamento de precisão de Haiyuan - as estrelas gêmeas do processamento profundo de aço soul.", "O primeiro é responsável pela linha de produção de fundição em alta temperatura, e o último é responsável pelos componentes de precisão (oito peças principais e peças estruturais)."]
+			id: "4A20000000000900"
+			subtitle: "Processamento profundo de alma de aço"
+			tasks: [
+				{
+					id: "4A20000000000901"
+					item: "hk3gtl:abyss_deep_smeltery"
+					type: "item"
+				}
+				{
+					id: "4A20000000000903"
+					item: "hk3gtl:abyss_precision_workshop"
+					type: "item"
+				}
+			]
+			title: "§dFundição profunda × Processamento de precisão"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000900"]
+			description: ["Os \"oito componentes principais\" do estágio Haiyuan: motor elétrico, pistão, bomba, correia transportadora, braço robótico, gerador de campo de força, transmissor e sensor.", "Envie um motor elétrico Haiyuan I para provar que a linha de produção foi aprovada - as sete peças restantes estão disponíveis na mesma linha de produção."]
+			id: "4A20000000000A00"
+			subtitle: "Linha de produção de componentes Super MAX"
+			tasks: [
+				{
+					id: "4A20000000000A01"
+					item: "hk3gtl:electric_motor_abyss_1"
+					type: "item"
+				}
+			]
+			title: "Oito peças principais de Haiyuan"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A20000000000800"]
+			description: [
+				"Câmara sem fio Honkai Impact: Depois de se esgueirar e clicar com o botão direito para vincular o proprietário, Honkai Impact pode entrar e sair diretamente de seu pool sem fio pessoal §d§r(a capacidade padrão é 1 bilhão)."
+				"A partir de agora, não há necessidade de ligação física entre a unidade de produção de energia de Honkai e as máquinas elétricas."
+				""
+				"§eEvitar armadilhas: §7O pool sem fio está vinculado ao jogador, esquecendo-se de vincular a tecla direita furtiva = o armazém não está funcionando."
+			]
+			id: "4A20000000000B00"
+			subtitle: "O elo final da automação do Honkai Impact"
+			tasks: [
+				{
+					id: "4A20000000000B01"
+					item: "hk3gtl:wireless_honkai_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A20000000000B03"
+					item: "hk3gtl:wireless_honkai_output_hatch"
+					type: "item"
+				}
+			]
+			title: "Rede sem fio de impacto Honkai §d"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A20000000000900"]
+			description: ["Anel de pesquisa de partículas Haiyuan - Materiais de pesquisa de alta qualidade Haiyuan e processamento profundo de cristalização/colapso em três partes.", "Coopere com a matriz de pesquisa para avançar os nós intermediários e posteriores do R-AB."]
+			id: "4A20000000000C00"
+			subtitle: "Equipamento de pesquisa científica Haiyuan"
+			tasks: [
+				{
+					id: "4A20000000000C01"
+					item: "hk3gtl:abyss_particle_research_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Pesquisa de Partículas Abissais §d"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000A00", "4A20000000000C00"]
+			description: ["Ilumine os circuitos Haiyuan II e III passo a passo: Matriz de cálculo Haiyuan II → Centro de cálculo inteligente Haiyuan III.", "§7Cada nível requer o circuito do nível anterior + o nó de pesquisa correspondente. Se você tiver dúvidas, olhe primeiro a árvore de pesquisa."]
+			id: "4A20000000000D00"
+			subtitle: "O poder da computação aumenta"
+			tasks: [
+				{
+					id: "4A20000000000D01"
+					item: "hk3gtl:abyss_2_assembly"
+					type: "item"
+				}
+				{
+					id: "4A20000000000D03"
+					item: "hk3gtl:abyss_3_computer"
+					type: "item"
+				}
+			]
+			title: "Circuito Haiyuan II·III"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000D00"]
+			description: [
+				"Haiyuan Four Control Host - o auge do poder de computação no estágio Haiyuan."
+				""
+				"A primeira participação de §dacionará o marco E-MS-004 §r."
+			]
+			id: "4A20000000000E00"
+			rewards: [
+				{
+					id: "4A20000000000E02"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "E-MS-004 · Topo do Abismo"
+			tasks: [
+				{
+					id: "4A20000000000E01"
+					item: "hk3gtl:abyss_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6Haiyuan Quatro Anfitriões de Controle"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000E00"]
+			description: [
+				"Observatório do Mar Quântico - observe a bolha mundial e colete a amostra da bolha mundial §r."
+				"A amostra da bolha mundial é a submissão principal da Haiyuan Export Research R-AB-024 e vários nós na fase imaginária."
+				""
+				"Após concluir a pesquisa sobre §dR-AB-024 \"Haiyuan Export Certification\" §r, a fase imaginária é oficialmente desbloqueada."
+			]
+			id: "4A20000000000F00"
+			size: 1.5d
+			subtitle: "R-AB-024 · Bilhete para Números Imaginários"
+			tasks: [
+				{
+					id: "4A20000000000F01"
+					item: "hk3gtl:sea_of_quanta_observatory"
+					type: "item"
+				}
+				{
+					id: "4A20000000000F03"
+					item: "hk3gtl:world_bubble_sample"
+					type: "item"
+				}
+			]
+			title: "§d§lObservatório do Mar Quântico"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Capítulo 2 · Nível de Tensão 15~18"]
+	title: "§dCapítulo 2 · Estágio Abissal"
+}

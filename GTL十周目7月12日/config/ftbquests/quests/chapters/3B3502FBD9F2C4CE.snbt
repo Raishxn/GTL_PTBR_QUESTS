@@ -1,0 +1,1112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "3B3502FBD9F2C4CE"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:iv_electric_motor"
+	id: "3B3502FBD9F2C4CE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Provavelmente o último liquidificador pequeno"]
+			hide_dependent_lines: true
+			icon: "gtceu:iv_mixer"
+			icon_scale: 1.3d
+			id: "0526B4AC0CAF99A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6214F333329885C2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5F54118CC67D850B"
+					item: "gtceu:iv_mixer"
+					type: "item"
+				}
+				{
+					id: "384BD55212AD8D35"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Aí vem um monte de lingotes"]
+			id: "4058D1416D94BABB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "113C20F1840F03F0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3721A749B9944105"
+					item: "gtceu:tantalum_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "3D4368BF854766C4"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "5B71A05490BD6C07"
+					item: "gtceu:titanium_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "24CD9EC3BF9BC94C"
+					item: "gtceu:molybdenum_disilicide_ingot"
+					type: "item"
+				}
+				{
+					id: "0654B52D0046F9EA"
+					item: "gtceu:hsla_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "vários lingotes"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			description: [
+				"O forno de fundição de liga produzirá fluido (o produto correspondente pode ser produzido através do alto-forno misturador-elétrico ou dissulfeto de carbono) e fluido fundido. O fluido fundido precisa ser resfriado usando um freezer a vácuo"
+				""
+				"Não se deixe levar pelo longo tempo de fundição, isso é resultado da integração da receita do liquidificador diretamente na receita de fundição e, na verdade, consome menos tempo do que misturar e depois fundir o pó em um alto-forno (como aço inoxidável)."
+				""
+				"Quase todos os materiais de liga podem ser produzidos nesta máquina, portanto, se você tiver problemas para encontrar a receita da liga, procure o fluido fundido &b&l!"
+			]
+			icon: "gtceu:alloy_blast_smelter"
+			icon_scale: 1.3d
+			id: "1F0956C3BD4745A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40454BB4221A9F96"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "369FD15BD477C9E7"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2035A4EF9D87ACD7"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: [
+				"Agora é possível fazer versões maiores de máquinas monobloco, com melhor boost e overclock, e maior paralelismo"
+				""
+				"Máquinas com &ena descrição permitem que a máquina processe múltiplas receitas idênticas ao mesmo tempo através de caixas de controle paralelas &rpode ser instalada com caixas de controle paralelas"
+				""
+				"Não se esqueça de instalar câmaras de controle paralelas para máquinas anteriores (dessulfurizadores, pescarias, grandes estufas, etc.)"
+				""
+				"Armazém paralelo pode ser compartilhado por &b"
+			]
+			icon: "gtceu:large_material_press"
+			icon_scale: 1.3d
+			id: "1FACFECB6C5962E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23E5F5E2DCB32051"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2F1127262F7ACA6C"
+					title: "Máquina grande"
+					type: "checkmark"
+				}
+				{
+					id: "28CA024A75969F52"
+					item: "gtceu:iv_parallel_hatch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0526B4AC0CAF99A5"]
+			description: [
+				"Você pode fazer isso com um misturador IV ou um forno de fundição de liga"
+				""
+				"&aé recomendado para ser usado com o sistema adaptativo, que utiliza o mecanismo de redução de tempo de receita de alta potência e o mecanismo de compensação paralela de processamento em lote. Mesmo se você estiver correndo na velocidade original, poderá atingir 0,01 vezes a velocidade."
+				""
+				"&cNota: Recomenda-se não fazer um armazém de energia da rede superior a 16384A. Se o armazém de energia da rede elétrica for muito grande, sua rede elétrica será drenada instantaneamente!"
+			]
+			hide_dependent_lines: true
+			id: "4BFA114E12BCB163"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "146B307F0F8CE8EA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E766DD9BEDA9B75"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "121BAC69F16DF2AF"
+					item: "gtceu:rhodium_plated_palladium_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Você pode usar fosfeto de índio ou olhos quânticos"]
+			id: "68A3D32BFF9BF7F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5362869D828FC54E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "05E8D6C7043D0BCD"
+					item: "gtceu:qbit_cpu_chip"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["O aço rápido (HSS) é uma liga de aço mais resistente ao desgaste"]
+			id: "62B67704211A105D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46A28DD36D108F6C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "75763C7F36454825"
+					item: "gtceu:hssg_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"62B67704211A105D"
+				"079CD9FD65CB2ED2"
+				"4058D1416D94BABB"
+			]
+			icon_scale: 1.3d
+			id: "7DCA0B7C9F3C3ACF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CE8ACD7ED41412F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542612C5D7F043D1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0D25CA72C05B394F"
+					item: "gtceu:hssg_coil_block"
+					type: "item"
+				}
+			]
+			title: "Bobina de aço-G de alta velocidade"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DCA0B7C9F3C3ACF"]
+			description: ["Você pode fazer isso com um misturador IV ou um forno de fundição de liga"]
+			id: "2A81EA75E3DD41A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FF7B9A81E086C7F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3F58471B4B491DD6"
+					item: "gtceu:hsse_ingot"
+					type: "item"
+				}
+				{
+					id: "061B78C4A8F3772C"
+					item: "gtceu:hsss_ingot"
+					type: "item"
+				}
+			]
+			title: "Aço rápido-E e S"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A81EA75E3DD41A3"]
+			description: ["O circuito do estágio IV não precisa ser usado"]
+			id: "4604207A60F04214"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "375702CC9D8688DD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Vá mais longe"
+			tasks: [
+				{
+					id: "54EBA1E915CCDDAC"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "1743212DEA6120B0"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7C65FDD089837CA1"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "38EF641F76BC06F9"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "17178C475BF5FB0D"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "Patch avançado"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Provavelmente o último tipo de máquina de montagem pequena"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "079CD9FD65CB2ED2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DCDAAE4DA395A80"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6C5DFE407694E794"
+					item: "gtceu:iv_assembler"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"68A3D32BFF9BF7F3"
+				"027B25761BD830C8"
+				"22795A09A3BD7344"
+			]
+			description: ["Os processadores quânticos usam qubits como unidade básica de informação e podem estar em um estado de superposição de 0 e 1 ao mesmo tempo, permitindo que computadores quânticos executem tarefas computacionais complexas."]
+			id: "31AC84CBD7C26566"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "480DAF3E699691B4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "30125C65F7525965"
+					item: "gtceu:quantum_processor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31AC84CBD7C26566"]
+			id: "3F0D5B17665DF1CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "169D85D02B9F3CD8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "77F7DCDCA5B2558E"
+					item: "gtceu:quantum_processor_assembly"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F0D5B17665DF1CE"]
+			id: "506BE1A622532375"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09D1DF47703B324C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D522F0399004B1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4A198917EC175743"
+					item: "gtceu:quantum_processor_computer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["506BE1A622532375"]
+			hide_dependent_lines: true
+			id: "4E1A28AFF661CED0"
+			min_width: 2
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A2D16D0B69D55E4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "716E000FB16A6BCC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0851DE42F4AC5E9C"
+					item: "gtceu:quantum_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CAC63F25BAF50B3"]
+			id: "0FCA3B71669C8122"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5549186DCFEB353F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Ainda quero ir para a estação espacial"
+			tasks: [
+				{
+					id: "431CBC4C1A32BCEC"
+					item: "gtceu:quantum_star"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCA3B71669C8122", "5B65662B72C369E7"]
+			id: "27BA6EBA81622516"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BEE9E8F8F58127A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "67E0235F740E8863"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "755A3CDD5C7A1643"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
+			title: "Sensores e transmissores IV"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"O comprimento mais longo pode chegar a 17 grades e o comprimento não afeta a eficiência do trabalho."
+				""
+				"A maioria das receitas exige que os dados da receita &6&rsejam executados ao mesmo tempo. Os dados da receita podem ser considerados algum tipo de catalisador &b&r."
+				""
+				"Somente o barramento de entrada ULV &e&o&rpode ser usado, e o compartimento de entrada pode usar compartimentos de entrada pequenos/quádruplos/nove."
+				""
+				"Os itens e fluidos &bnão precisam ser inseridos no pedido &r. O mesmo se aplica a linhas de montagem avançadas, linhas de montagem de circuitos, linhas de montagem de hiperespaço, módulos de expansão de linha de montagem de hiperespaço e dispositivos de agregação."
+				""
+				"&dé automaticamente ignorado ao gravar modelos de tipo de linha de montagem &r&6Memória flash contendo dados de pesquisa Bolas de dados &r, &6Módulos de dados &re &6"
+				""
+				"&aEstou realmente farto de linhas de montagem comuns que não podem abrigar montagens de amostra."
+				""
+				"&5Para obter informações sobre linhas de montagem avançadas, você pode ler isto"
+				""
+				"{ \\\"text\\\": \\\"Clique para visualizar o tutorial avançado da linha de montagem\\\", \\\"sublinhado\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"172FC2F2B20CD187\\\" } }"
+				""
+				"&5Para obter informações sobre o banco de dados, você pode ler isto"
+				""
+				"{ \\\"text\\\": \\\"Clique para visualizar o tutorial do banco de dados\\\", \\\"sublinhado\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5F0A175D6704A8D0\\\" } }"
+			]
+			icon_scale: 1.3d
+			id: "7F8C2ECC7CE2BF20"
+			rewards: [
+				{
+					id: "63EB5453F2989C62"
+					item: "gtceu:advanced_assembly_line"
+					type: "item"
+				}
+				{
+					count: 500
+					id: "13EA9DA63893122F"
+					item: "gtlcore:advanced_assembly_line_unit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "33EF5A91B6478C2D"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "53A965E89BF54659"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "1A97313B7A4E6ABE"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "2DE3BED5D2EBF72E"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28249BAFB3C09E45"
+					item: "gtceu:high_power_casing"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "58066391C642273F"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72F3E2394C2F2208"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Muito caro, mas necessário após a administração intravenosa."
+			tasks: [
+				{
+					id: "07456C679DEEEE04"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516", "25F272243EB904D5"]
+			description: ["Não será a última máquina de montagem de pequenos circuitos"]
+			icon: "gtceu:iv_circuit_assembler"
+			icon_scale: 1.3d
+			id: "027B25761BD830C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61754E9986AF3028"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "57AB73EF21D31E54"
+					item: "gtceu:iv_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "25E248E10C3232E0"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["027B25761BD830C8"]
+			description: ["&cnão pode &raumentar o dobro do armazém"]
+			icon: "gtceu:large_circuit_assembler"
+			icon_scale: 1.3d
+			id: "30A0D221474FB44A"
+			rewards: [
+				{
+					id: "6DF7733A3D463FA1"
+					item: "avaritia:infinity_umbrella"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "527236C9A60ED192"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "074FB16F523697D0"
+					item: "gtceu:large_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "1680FF6E26A52EA3"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B79A329196883EF"]
+			id: "15F08D296DE33A44"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "104B7B440E9AC32E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7472EEF5D4982552"
+					item: "gtceu:hpic_chip"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"15F08D296DE33A44"
+				"079CD9FD65CB2ED2"
+				"3461BF0D74E5E8DF"
+			]
+			description: ["Impulsionar"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "15580C25FF239402"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D44C1AE1C8CA217"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3591906D5662013E"
+					item: "gtmadvancedhatch:iv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7DCA0B7C9F3C3ACF"
+				"0526B4AC0CAF99A5"
+				"3ECA33037D940EAB"
+			]
+			description: ["Supercondutor &9IV &r"]
+			id: "02D426BE0947F123"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6827510FB6F03B1B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4FD9779EEB7F7F57"
+					item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02D426BE0947F123"]
+			id: "0F22A8CE63F369CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52D4D5311080FCD9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "611CC6E7E5FEEA67"
+					item: "gtceu:iv_field_generator"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Provavelmente a última pequena máquina de corte"]
+			icon_scale: 1.3d
+			id: "3B79A329196883EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CE4148D189EFC04"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3F7925F1D16C107A"
+					item: "gtceu:iv_cutter"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			id: "22795A09A3BD7344"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F475A700E59D3D2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7117E2CF984E0BF0"
+					item: "gtceu:fiber_reinforced_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42129A63D97DDF28", "4C43D30FD9B89965"]
+			description: ["Nesta fase, é recomendável se estabelecer após construir uma máquina grande, reconstruir sua linha de produção e escolher um novo método de geração de energia."]
+			hide_dependent_lines: true
+			icon: "kubejs:iv_universal_circuit"
+			id: "38480A52A13DA157"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AB86BD275ECDD2E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "01068F963A96E633"
+					title: "Pressão forte IV"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ \\\"text\\\": \\\"A linha de produção de samário pode ser muito longa ou muito curta\\\", \\\"italic\\\":\\\"true\\\",\\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1223D839C224777B\\\" } }"
+				""
+				"&l· Centrífuga &bCentrífuga &f&ecloreto de terras raras &fentão desidratador &b&fobter pó de óxido de lantanídeo &7"
+				""
+				"&l· Pó de óxido de lantanídeo &7&f+ pó de carbono &a&fO pó de minério de lantanídeo &9completo pode ser obtido no alto-forno elétrico &b&f"
+				""
+				""
+				"&l&bforno de secagem a vácuo &fpode ser consumido às custas de &ecloreto de terras raras &f&516 vezes &fcópia &9pó mineral de lantanídeo"
+			]
+			id: "3ECA33037D940EAB"
+			min_width: 210
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BB5064A7B245F0D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7778FF7D320A8783"
+					item: "gtceu:samarium_dust"
+					type: "item"
+				}
+			]
+			title: "Linha de produção da série Lantânio"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"A quantidade de vapor produzido pelas ligas quentes de sódio-potássio excede em muito a produzida pelas caldeiras superdimensionais."
+				""
+				"A liga supercrítica de sódio-potássio também pode ser usada para obter vapor supercrítico, que pode ser usado para gerar eletricidade para turbinas a vapor supercríticas."
+				""
+				"Além da fórmula da liga térmica de sódio-potássio, o trocador de calor não é afetado pelo compartimento de manutenção configurável."
+			]
+			icon_scale: 1.3d
+			id: "24CE67689DD540B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32BAC89A18085ECE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Certifique-se de que haja excesso de líquido refrigerante"
+			tasks: [
+				{
+					id: "4B207AC62685A5B5"
+					item: "gtceu:heat_exchanger"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F8C2ECC7CE2BF20", "15580C25FF239402"]
+			description: [
+				"0,2x é usado para acelerar a máquina, 1,2x é usado para economizar combustível. Em alguns casos, o gerador pode obter tempos de overclock adicionais para aumentar a geração de energia."
+				""
+				"{ \\\"text\\\": \\\"Configure a ferramenta de cópia para copiar e colar configurações demoradas de processamento\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				""
+				"Você também pode tornar &6armazém de manutenção ultralimpo configurável &r"
+			]
+			icon: "gtceu:auto_configuration_maintenance_hatch"
+			icon_scale: 1.3d
+			id: "585580AFDFACDDB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1483320B022E7C22"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "458B2F2C747E0083"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Mesmo incondicionalmente"
+			tasks: [
+				{
+					id: "7D699FD179C16EB0"
+					item: "gtceu:auto_configuration_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "799AF69CEDFF5B31"
+					type: "checkmark"
+				}
+			]
+			title: "Cinco vezes mais rápido!!"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F22A8CE63F369CA"]
+			description: ["Maior, mais forte, estará sempre com você"]
+			icon_scale: 1.3d
+			id: "3068FF40AFC77779"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5891965CFDA04301"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5602AA7E6200A168"
+					item: "gtceu:large_pyrolyse_oven"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: ["Todos os produtos do reator de fissão podem ser criados usando este módulo"]
+			id: "36AF5A36BBC51B59"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A0527C48F3785BC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2F0AFFD04B5B2C28"
+					item: "thetornproductionline:fission_reactor_module"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Dahua Anti-Não. 4 Circuito", "Digite galena pura e minério de esfalerita + ácido sulfúrico"]
+			icon: "gtceu:indium_dust"
+			id: "7250170164BFFD11"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61D33E2621A0DC9E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "(explosão)"
+			tasks: [
+				{
+					id: "1D3EE9ADA5B53C97"
+					title: "Enriquecimento de índio em uma etapa"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"&lSe você alterar a fórmula de velocidade extremamente alta (como velocidade mil vezes, velocidade dez mil vezes), isso pode permitir que algumas máquinas que perderam&41toc&frecuperem&41toc."
+				"&41toc&8é para fazer overclock da máquina em um tempo muito curto:"
+				"&8• Máquinas com overclock com perdas: o limite é 1 tick (1t)"
+				"&8• Máquina com overclock sem perdas: o limite é inferior a 4 ticks (<4t)"
+				"Após atingir este limite, continuar o overclock resultará em compensação paralela:"
+				"&8• Máquina com overclock com perdas: o consumo de energia aumenta 4 vezes, o paralelismo aumenta 2 vezes"
+				"&8• Máquina com overclock sem perdas: o consumo de energia aumenta 4 vezes, o paralelismo aumenta 4 vezes"
+				""
+				"&lApós o teste, o limite superior da compensação paralela é 2147483647."
+				"As máquinas aplicáveis ​​atualmente conhecidas incluem: alto-forno elétrico, forno de fundição de ligas, forno de secagem a vácuo (modo de secagem a vácuo)."
+				""
+				"&lPor exemplo:"
+				"Versão hormonal do alto-forno elétrico equipado com armazém de energia sem fio 16a HV:"
+				"• Queima de lingotes de aço com câmara de manutenção normal: 1 por segundo"
+				"• Queime lingotes com este compartimento de manutenção configurável: 64 por segundo"
+			]
+			icon_scale: 1.3d
+			id: "67D966CFB2F16028"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "630279E201E90718"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Multiplicador de tempo 2.0"
+			tasks: [
+				{
+					id: "0FF5579D0C2E397C"
+					item: {
+						Count: 1
+						id: "gtceu:auto_configuration_maintenance_hatch"
+						tag: {
+							BlockEntityTag: {
+								durationMultiplier: 2.0f
+							}
+							display: {
+								Lore: ["\\\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\\\""]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15580C25FF239402"]
+			icon_scale: 1.3d
+			id: "67A867B165805A3B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0FB61A4621E1AB45"
+					item: "gtmadvancedhatch:iv_64a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Tier5-IV"]
+	title: "Pressão forte"
+}

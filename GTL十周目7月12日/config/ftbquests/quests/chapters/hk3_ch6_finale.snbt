@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch6_finale"
+	group: ""
+	icon: "hk3gtl:imaginary_dimension_gateway"
+	id: "4A60000000000000"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["O capítulo final. Sua civilização construirá doze maravilhas, completará a cadeia de pesquisa de verificação de graduação e então irá para a dimensão imaginária para aceitar o julgamento final da Sereia, o Herrscher do Céu."]
+			icon: "minecraft:end_crystal"
+			id: "4A60000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A60000000000101"
+					title: "no final"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lJulgamento Final"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000100"]
+			description: ["Quatro maravilhas de energia e fé: o Núcleo de Fusão Final do Impacto Honkai, a Catedral da Chave de Deus, o Tear do Destino e o Centro de Comunicação de Todos os Reinos."]
+			id: "4A60000000000200"
+			subtitle: "Maravilha, eu"
+			tasks: [
+				{
+					id: "4A60000000000201"
+					item: "hk3gtl:honkai_ultimate_fusion_core"
+					type: "item"
+				}
+				{
+					id: "4A60000000000203"
+					item: "hk3gtl:divine_key_grand_cathedral"
+					type: "item"
+				}
+				{
+					id: "4A60000000000205"
+					item: "hk3gtl:destiny_loom"
+					type: "item"
+				}
+				{
+					id: "4A60000000000207"
+					item: "hk3gtl:myriad_realms_communication_nexus"
+					type: "item"
+				}
+			]
+			title: "Maravilhas §d· Energia e Fé"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A60000000000100"]
+			description: [
+				"Quatro maravilhas da memória e do exame: Corredor do Julgamento Civilizado, Monumento Eterno da Memória Civilizada, Matriz de Observação do Olho Civilizado e Plataforma do Narrador da Reencarnação."
+				""
+				"Dicas §e: §7Após a formatura, volte para o Monumento à Prova de Existência e espere um pouco, haverá um ovo de páscoa especial."
+			]
+			id: "4A60000000000300"
+			subtitle: "Espetáculo II"
+			tasks: [
+				{
+					id: "4A60000000000301"
+					item: "hk3gtl:civilization_judgment_corridor"
+					type: "item"
+				}
+				{
+					id: "4A60000000000303"
+					item: "hk3gtl:civilization_memory_eternal_monument"
+					type: "item"
+				}
+				{
+					id: "4A60000000000305"
+					item: "hk3gtl:civilization_eye_observation_array"
+					type: "item"
+				}
+				{
+					id: "4A60000000000307"
+					item: "hk3gtl:cycle_narrator_platform"
+					type: "item"
+				}
+			]
+			title: "Maravilhas §d· Memória e Exame"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A60000000000200", "4A60000000000300"]
+			description: ["Quatro maravilhas de existência e herança: o Museu Civil da Nave Estelar, o Monumento à Prova de Existência, o Templo da Meditação Suprema e o Altar da Grande Reunião.", "§7As Doze Maravilhas se reúnem e a integridade da civilização passará pela revisão final da Matriz de Verificação."]
+			id: "4A60000000000400"
+			subtitle: "Espetáculo III"
+			tasks: [
+				{
+					id: "4A60000000000401"
+					item: "hk3gtl:civilization_starship_museum"
+					type: "item"
+				}
+				{
+					id: "4A60000000000403"
+					item: "hk3gtl:proof_of_existence_memorial"
+					type: "item"
+				}
+				{
+					id: "4A60000000000405"
+					item: "hk3gtl:ultimate_meditation_sanctum"
+					type: "item"
+				}
+				{
+					id: "4A60000000000407"
+					item: "hk3gtl:grand_convergence_altar"
+					type: "item"
+				}
+			]
+			title: "Maravilha §d· Existência e herança"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000400"]
+			description: ["Conclua a cadeia de verificação de graduação §dR-GR-001 ~ R-GR-005 §rna matriz de pesquisa.", "Após a conclusão da \"Permissão de Graduação Final\" R-GR-005, o portão de transição de dimensão imaginária §d§rpode ser ativado."]
+			id: "4A60000000000500"
+			subtitle: "R-GR-005 · Aprovação Final"
+			tasks: [
+				{
+					id: "4A60000000000501"
+					item: "hk3gtl:imaginary_dimension_gateway"
+					type: "item"
+				}
+			]
+			title: "§dPortão de transição de dimensão imaginária"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000500"]
+			description: [
+				"Entre na Dimensão Imaginária (através do portão de salto ou teletransporte-se passivamente ao segurar o Imaginary Four Mastermind pela primeira vez)."
+				""
+				"Regra de dimensão §e:"
+				"§71. Após entrar no modo de aventura forçada, é proibido destruir e colocar blocos;"
+				"§72. Há um número imaginário §dcrack §7no centro da plataforma - clique com o botão direito sobre ele e a Sirene aparecerá;"
+				"§73. O arquivo graduado não pode ser inserido novamente."
+			]
+			id: "4A60000000000600"
+			subtitle: "O Reino do Herrscher do Céu"
+			tasks: [
+				{
+					dimension: "hk3gtl:imaginary_dimension"
+					id: "4A60000000000601"
+					type: "dimension"
+				}
+			]
+			title: "§d§lEntre na dimensão imaginária"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000600"]
+			description: [
+				"Clique com o botão direito na fenda imaginária, espere o aparecimento de Sirin terminar, §d, e clique com o botão direito em Sirin §rnovamente para iniciar o diálogo final."
+				"Selecione uma linha IF na conversa e ouça-a contar a história da sua civilização em outra possibilidade."
+				""
+				"§dNo momento em que a conversa terminar: Archive Mark Graduation (E-MS-015), você será enviado de volta ao ponto de spawn no mundo principal. §r"
+				""
+				"Dicas §e: §7As linhas IF são desduplicadas nos arquivos - o mesmo jogador ouvirá uma história IF diferente em cada arquivo até que todas as 20 linhas tenham sido lidas."
+			]
+			icon: "minecraft:amethyst_shard"
+			id: "4A60000000000700"
+			size: 1.5d
+			subtitle: "E-MS-015 · Bom final · Civilização passa em julgamento"
+			tasks: [
+				{
+					id: "4A60000000000701"
+					title: "Conclua a conversa de final de jogo com Siren"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lJulgamento Final·Graduação"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000600"]
+			description: [
+				"§c§lAviso: Isto não é uma piada."
+				""
+				"Se você der um soco em Siren na dimensão imaginária - ela é invencível, imune a todos os debuffs, regenera vida completa a cada segundo, e cada dano que você sofrer será refletido de volta para você dez vezes."
+				""
+				"Se você §cinsistir em atacá-la 10 vezes §rno total, o final ruim será acionado: ela irá removê-lo pessoalmente desta história - §cincluindo seu progresso no jogo e o nome do mundo §r."
+				""
+				"Após reentrar no jogo e retornar novamente à dimensão imaginária, o final ruim chegará ao seu próprio fim, e o salvamento também será marcado como graduado."
+				""
+				"§7§oA escolha é sua."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:wither_rose"
+			id: "4A60000000000800"
+			shape: "octagon"
+			subtitle: "§cNão ataque o Herrscher do Céu"
+			tasks: [
+				{
+					id: "4A60000000000801"
+					title: "Eu já sei as consequências"
+					type: "checkmark"
+				}
+			]
+			title: "§4§lTabu · Vingança Narrativa"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A60000000000700"]
+			description: [
+				"§a§lLista de aceitação da linha de tarefas (verificar item por item antes do lançamento):"
+				""
+				"§f1. Verificação do gatilho: §7Os IDs de registro de todas as tarefas de item são consistentes com os IDs reais no JEI (pontos-chave: hk3gtl:soulium_ingot e hk3gtl:liquid_honkai_energy_bucket são itens de material GT); o destino da tarefa de dimensão é hk3gtl:imaginary_dimension;"
+				"§f2. Verificação de recompensa: §7XP e recompensas de itens em cada capítulo podem ser recebidos normalmente e não há itens não autorizados;"
+				"§f3. Verificação de link: §7As seis dependências de capítulo são todas dependências unidirecionais dentro do capítulo + arranjo sequencial entre capítulos, sem loops, sem pontos de interrupção; a tarefa de marca de seleção não bloqueia a linha principal (as tarefas de descrição são todas ramificações secundárias);"
+				"§f4. Verificação de redação: §7Todos os números de marco (E-MS/E-FB) e números de pesquisa (R-XX) são consistentes com as condições reais de acionamento do código; as dicas para evitar poços são consistentes com a implementação do mecanismo (aço de alma proibido EBF, transmissão forçada E-MS-006, condições de disparo de finalização ruins);"
+				"§f5. A conclusão desta tarefa significa que a linha de tarefa foi aceita. §dObrigado por jogar Honkai Impact III-GTL!"
+			]
+			icon: "minecraft:nether_star"
+			id: "4A60000000000900"
+			rewards: [
+				{
+					id: "4A60000000000902"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Concluiu todas as linhas de missão"
+			tasks: [
+				{
+					id: "4A60000000000901"
+					title: "Aceitação aprovada"
+					type: "checkmark"
+				}
+			]
+			title: "Cerimônia de formatura §6§l· Aceitação"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Capítulo Final · Espetáculos e Julgamento"]
+	title: "§dCapítulo Final · Julgamento Final"
+}

@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch5_finality"
+	group: ""
+	icon: "hk3gtl:finality_1_processor"
+	id: "4A50000000000000"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Final stage (voltage Tier 27~30) - the final voltage interval."
+				"Your civilization will build the Hyperion, pass the Civilization Verification Matrix review, and obtain a graduation permit."
+				""
+				"§cWarning: §7The landmark building in this chapter will bring a huge amount of attention (Huberlian +80, Verification Matrix +100), ensure that buffers are in place."
+			]
+			icon: "hk3gtl:ancient_will"
+			id: "4A50000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A50000000000101"
+					title: "Entering the terminal stage"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lFinal Era"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000100"]
+			description: ["The Final Civilization Construction Workshop and the Final Extreme Material Forge—the twin engines of components and materials in the final stage."]
+			id: "4A50000000000200"
+			subtitle: "Finally, infrastructure construction begins"
+			tasks: [
+				{
+					id: "4A50000000000201"
+					item: "hk3gtl:finality_civilization_construction_works"
+					type: "item"
+				}
+				{
+					id: "4A50000000000203"
+					item: "hk3gtl:finality_ultimate_material_forge"
+					type: "item"
+				}
+			]
+			title: "§dConstruction Workshop × Extreme Forge"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000200"]
+			description: ["Cast §d, final sequence determination core §r, triggering milestone E-MS-010."]
+			id: "4A50000000000300"
+			rewards: [
+				{
+					id: "4A50000000000302"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "E-MS-010 · The ultimate computing power ignition"
+			tasks: [
+				{
+					id: "4A50000000000301"
+					item: "hk3gtl:finality_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6Final sequence determination core"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000300"]
+			description: ["Hyperion - the flagship of Destiny and the core platform of the final stage.", "The completion triggers the milestones §dE-MS-011 §rand §dE-FB-015 §r(ship-based expansion research entrance). §cis first completed with attention +80 §r."]
+			id: "4A50000000000400"
+			size: 1.5d
+			subtitle: "E-MS-011 / E-FB-015 · Flagship sets sail"
+			tasks: [
+				{
+					id: "4A50000000000401"
+					item: "hk3gtl:hyperion_flagship"
+					type: "item"
+				}
+			]
+			title: "§d§lHyperion"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000400"]
+			description: [
+				"Four major shipboard modules:"
+				"§7· Shipborne terminal observation cabin: research speed §a2.0× §7(the highest bonus in the game)"
+				"§7· Shipboard Dual Energy Reactor Deck: Fleet Energy"
+				"§7· Shipboard Civilization Coordination Hall: Civilization Collaboration"
+				"§7· Shipboard God’s Key Shrine: God’s Key Enshrinement"
+				""
+				"§eTips: §7There are hidden easter eggs after collecting all four modules."
+			]
+			id: "4A50000000000500"
+			subtitle: "The flagship is heavily armed"
+			tasks: [
+				{
+					id: "4A50000000000501"
+					item: "hk3gtl:shipboard_finality_observation"
+					type: "item"
+				}
+				{
+					id: "4A50000000000503"
+					item: "hk3gtl:shipboard_dual_energy_reactor_deck"
+					type: "item"
+				}
+				{
+					id: "4A50000000000505"
+					item: "hk3gtl:shipboard_civilization_coordination_hall"
+					type: "item"
+				}
+				{
+					id: "4A50000000000507"
+					item: "hk3gtl:shipboard_divine_key_shrine"
+					type: "item"
+				}
+			]
+			title: "§dFour major shipboard modules"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000500"]
+			description: ["The final two cocoon domain integrated arrays and the final third trial operator §rare §d(trigger milestone E-MS-012)."]
+			id: "4A50000000000600"
+			subtitle: "E-MS-012 · Trial computing power"
+			tasks: [
+				{
+					id: "4A50000000000601"
+					item: "hk3gtl:finality_2_assembly"
+					type: "item"
+				}
+				{
+					id: "4A50000000000603"
+					item: "hk3gtl:finality_3_computer"
+					type: "item"
+				}
+			]
+			title: "§6Final II · III circuit"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000400"]
+			description: ["The final civilization power hub and the final Honkai Annihilation Ring - the energy and purification guarantee before the final review."]
+			id: "4A50000000000700"
+			subtitle: "Ultimate Energy and Purification"
+			tasks: [
+				{
+					id: "4A50000000000701"
+					item: "hk3gtl:finality_civilization_power_hub"
+					type: "item"
+				}
+				{
+					id: "4A50000000000703"
+					item: "hk3gtl:finality_honkai_annihilation_ring"
+					type: "item"
+				}
+			]
+			title: "§dPower Hub × Annihilation Ring"
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A50000000000600"]
+			description: ["§dFinal Four Judgment Host §r- the highest-order circuit of the full module, triggering the milestone E-MS-013."]
+			id: "4A50000000000800"
+			rewards: [
+				{
+					id: "4A50000000000802"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "E-MS-013 · The end of computing power"
+			tasks: [
+				{
+					id: "4A50000000000801"
+					item: "hk3gtl:finality_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6§lFinal Four Judgment Host"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000800"]
+			description: [
+				"Civilization Verification Matrix - Final Review Device, completed to trigger §dE-MS-014 §rand §dE-FB-016 §r(Graduation Verification Research Chain Entrance), §cwas completed for the first time with attention +100 §r."
+				""
+				"§eTips: When §7completes research on R-FN-009, the pre-graduation certification event of each camp will be triggered, so pay attention to the file scroll."
+			]
+			id: "4A50000000000900"
+			size: 1.5d
+			subtitle: "E-MS-014 / E-FB-016 · Under review"
+			tasks: [
+				{
+					id: "4A50000000000901"
+					item: "hk3gtl:civilization_validation_matrix"
+					type: "item"
+				}
+			]
+			title: "§d§lCivilization Verification Matrix"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A50000000000900"]
+			description: ["The graduation authority verification altar and the temple of civilization wonders - the physical carrier of the graduation verification chain (R-GR-001~005).", "After completing the research §dR-FN-012 \"Final Export Certification\" §r, the graduation verification phase begins."]
+			id: "4A50000000000A00"
+			subtitle: "R-FN-012 · Graduation Eve"
+			tasks: [
+				{
+					id: "4A50000000000A01"
+					item: "hk3gtl:graduation_permission_verification_altar"
+					type: "item"
+				}
+				{
+					id: "4A50000000000A03"
+					item: "hk3gtl:civilization_wonder_sanctum"
+					type: "item"
+				}
+			]
+			title: "§dAltar of Verification × Temple of Wonders"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Chapter 5 · Voltage Tier 27~30"]
+	title: "§dChapter 5 · Final Stage"
+}

@@ -1,0 +1,66 @@
+{
+	id: "4A7C425543918095"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: "dishanhai:dog_coins"
+			random_bonus: 15
+			weight: 0.1f
+		}
+		{
+			count: 256
+			item: "dishanhai:copper_coin"
+			random_bonus: 1314
+			weight: 20.0f
+		}
+		{
+			count: 200
+			item: "dishanhai:cupronickel_coin"
+			random_bonus: 1200
+			weight: 18.0f
+		}
+		{
+			count: 180
+			item: "dishanhai:silver_coin"
+			random_bonus: 1100
+			weight: 16.0f
+		}
+		{
+			count: 160
+			item: "dishanhai:gold_coin"
+			random_bonus: 1000
+			weight: 14.0f
+		}
+		{
+			count: 150
+			item: "dishanhai:platinum_coin"
+			random_bonus: 800
+			weight: 12.0f
+		}
+		{
+			count: 64
+			item: "dishanhai:osmium_coin"
+			random_bonus: 600
+			weight: 10.0f
+		}
+		{
+			count: 32
+			item: "dishanhai:naquadah_coin"
+			random_bonus: 400
+			weight: 5.0f
+		}
+		{
+			count: 16
+			item: "dishanhai:neutronium_coin"
+			random_bonus: 100
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: "dishanhai:dog_coins"
+			random_bonus: 8
+		}
+	]
+	title: "Sorteio de moeda"
+}

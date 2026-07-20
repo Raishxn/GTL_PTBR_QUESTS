@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch2_abyss"
+	group: ""
+	icon: "hk3gtl:abyss_1_processor"
+	id: "4A20000000000000"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The abyssal stage (voltage Tier 15~18) officially begins."
+				"The goal of this chapter: Build the MAX starting four-piece set → Light up the abyss I~ IV circuit → Use the world bubble sample to knock on the door of imaginary numbers."
+				""
+				"§eTips: §7Haiyuanqi, almost all recipes are gated by research nodes. Study the gray formula in the interface, and first study the matrix prefix."
+			]
+			icon: "hk3gtl:casing_soulium"
+			id: "4A20000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A20000000000101"
+					title: "Entering the abyssal stage"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lfell into the abyss"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000100"]
+			description: [
+				"Void Manzo Analysis Institute - Analyzes the data of the \"Void Manzo\" God's Key copy, and produces pre-civilization data fragments and other abyssal research materials."
+				""
+				"§eTips: §7The Void Manzo body is gifted by plot event E-OT-001 (Otto's invitation). Pay attention to the event text and civilization archive scroll in the chat box."
+			]
+			id: "4A20000000000200"
+			subtitle: "Interpreting the Echoes of God's Key"
+			tasks: [
+				{
+					id: "4A20000000000201"
+					item: "hk3gtl:void_archives_analysis_chamber"
+					type: "item"
+				}
+			]
+			title: "§dVoid Manzo Analysis Center"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A20000000000100"]
+			description: [
+				"Structural circuit reconstruction array - produces the entire series of §dcollapse energy circuit boards §r( ULV ~ MAX, a total of 15 levels) and watch buffer units."
+				""
+				"§eTips: §7The production line of this machine needs to research R-WL-001 \"Walter's Gift\", which will be completed automatically after the corresponding event E-WL-001 is triggered."
+			]
+			id: "4A20000000000300"
+			subtitle: "Collapse energy circuit board production line"
+			tasks: [
+				{
+					id: "4A20000000000301"
+					item: "hk3gtl:reason_reconstruction_array"
+					type: "item"
+				}
+			]
+			title: "§dphysical circuit reconstruction array"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000100"]
+			description: ["The Honkai Energy-EU Conversion Tower - bridges the gap between Honkai Energy and GT electric energy, and is a key node for the integration of the Honkai Energy system into the main grid."]
+			id: "4A20000000000400"
+			subtitle: "The bridge between two energy sources"
+			tasks: [
+				{
+					id: "4A20000000000401"
+					item: "hk3gtl:honkai_eu_converter"
+					type: "item"
+				}
+			]
+			title: "§dHonkai Energy-EU Conversion Tower"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A20000000000300"]
+			description: ["Haiyuan Circuit Foundry - the origin of all Haiyuan's fourth-order circuits.", "Use MAX circuit + soul steel material + Honkai fragments + liquid Honkai energy to cast the first Abyss circuit."]
+			id: "4A20000000000500"
+			subtitle: "Computing power beyond MAX"
+			tasks: [
+				{
+					id: "4A20000000000501"
+					item: "hk3gtl:abyss_circuit_foundry"
+					type: "item"
+				}
+			]
+			title: "§dHaiyuan Circuit Foundry"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000500"]
+			description: [
+				"Forged Haiyuan One Calculation Core (Tier 15 Circuit)."
+				""
+				"Holding §dfor the first time will trigger the milestone E-MS-003 \"Abyss Breakthrough\", with attention +50 §r- this is the first time that civilization is truly seen."
+				"§eRecommendation: §7Make the gaze buffer unit first and then synthesize it (see the \"Lower Gaze Degree\" task in this chapter)."
+			]
+			id: "4A20000000000600"
+			rewards: [
+				{
+					id: "4A20000000000602"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "E-MS-003 · Haiyuan Breakthrough"
+			tasks: [
+				{
+					id: "4A20000000000601"
+					item: "hk3gtl:abyss_1_processor"
+					type: "item"
+				}
+			]
+			title: "§6§lHaiyuanyi Calculation Core"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000300"]
+			description: [
+				"Gaze buffer unit: §aRight-click to use §rto immediately reduce the gaze degree by 50 points and obtain a 10-minute buffer (during which the gaze growth is halved)."
+				""
+				"§epitfall avoidance: §7advanced gaze buffer unit is a research submission material. §cdoes not have the right-click effect of §7. Do not use it as a consumable."
+			]
+			icon: "hk3gtl:gaze_buffer_unit"
+			id: "4A20000000000700"
+			rewards: [
+				{
+					count: 2
+					id: "4A20000000000702"
+					item: "hk3gtl:gaze_buffer_unit"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Actively suppressing the final gaze"
+			tasks: [
+				{
+					id: "4A20000000000701"
+					item: "hk3gtl:gaze_buffer_unit"
+					type: "item"
+				}
+			]
+			title: "§5lower attention level"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A20000000000600"]
+			description: ["Large Honkai Energy Reactor - the main energy source in the Abyssal Phase (completion triggers E-FB-005, first gaze +20).", "The fuel is §dHonkai energy fuel rod §r, which can be upgraded to high-density fuel rods later."]
+			id: "4A20000000000800"
+			subtitle: "E-FB-005 · Honkai energy main energy source"
+			tasks: [
+				{
+					id: "4A20000000000801"
+					item: "hk3gtl:large_honkai_reactor"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4A20000000000803"
+					item: "hk3gtl:honkai_fuel_rod"
+					type: "item"
+				}
+			]
+			title: "§dLarge Honkai Energy Reactor"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A20000000000600"]
+			description: ["Haiyuan deep smelting plant and Haiyuan precision processing workshop - the twin stars of soul steel deep processing.", "The former is responsible for the high-temperature smelting production line, and the latter is responsible for precision components (eight major parts and structural parts)."]
+			id: "4A20000000000900"
+			subtitle: "Deep processing of soul steel"
+			tasks: [
+				{
+					id: "4A20000000000901"
+					item: "hk3gtl:abyss_deep_smeltery"
+					type: "item"
+				}
+				{
+					id: "4A20000000000903"
+					item: "hk3gtl:abyss_precision_workshop"
+					type: "item"
+				}
+			]
+			title: "§dDeep smelting × Precision processing"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000900"]
+			description: ["The \"eight major components\" of the Haiyuan stage: electric motor, piston, pump, conveyor belt, robotic arm, force field generator, transmitter, and sensor.", "Submit one Haiyuan I electric motor to prove that the production line has been passed - the remaining seven pieces are available on the same production line."]
+			id: "4A20000000000A00"
+			subtitle: "Super MAX component production line"
+			tasks: [
+				{
+					id: "4A20000000000A01"
+					item: "hk3gtl:electric_motor_abyss_1"
+					type: "item"
+				}
+			]
+			title: "Eight major pieces of Haiyuan"
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A20000000000800"]
+			description: [
+				"Honkai Impact Wireless Chamber: After sneaking and right-clicking to bind the owner, Honkai Impact can directly enter and exit your §dpersonal wireless pool §r(default capacity is 1 billion)."
+				"From now on, there is no need for physical connection between the Honkai energy production site and the electrical machines."
+				""
+				"§ePitfall avoidance: §7Wireless pool is bound by player, forgetting to bind stealth right key = warehouse is not working."
+			]
+			id: "4A20000000000B00"
+			subtitle: "The final link of Honkai Impact's automation"
+			tasks: [
+				{
+					id: "4A20000000000B01"
+					item: "hk3gtl:wireless_honkai_input_hatch"
+					type: "item"
+				}
+				{
+					id: "4A20000000000B03"
+					item: "hk3gtl:wireless_honkai_output_hatch"
+					type: "item"
+				}
+			]
+			title: "§dHonkai Impact Wireless Network"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A20000000000900"]
+			description: ["Haiyuan Particle Research Ring - Haiyuan high-end research materials and three-part crystallization/collapse crystal deep processing.", "Cooperate with the research matrix to advance the middle and later nodes of R-AB."]
+			id: "4A20000000000C00"
+			subtitle: "Haiyuan scientific research equipment"
+			tasks: [
+				{
+					id: "4A20000000000C01"
+					item: "hk3gtl:abyss_particle_research_ring"
+					type: "item"
+				}
+			]
+			title: "§dAbyssal Particle Research Ring"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000A00", "4A20000000000C00"]
+			description: ["Light up the Haiyuan II and III circuits step by step: Haiyuan II calculation matrix → Haiyuan III intelligent calculation center.", "§7Each level requires the circuit of the previous level + the corresponding research node. If you get stuck, look at the research tree first."]
+			id: "4A20000000000D00"
+			subtitle: "Computing power climbs"
+			tasks: [
+				{
+					id: "4A20000000000D01"
+					item: "hk3gtl:abyss_2_assembly"
+					type: "item"
+				}
+				{
+					id: "4A20000000000D03"
+					item: "hk3gtl:abyss_3_computer"
+					type: "item"
+				}
+			]
+			title: "Haiyuan II·III circuit"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000D00"]
+			description: [
+				"Haiyuan Four Control Host - the pinnacle of computing power in the Haiyuan stage."
+				""
+				"The first holding of §dwill trigger milestone E-MS-004 §r."
+			]
+			id: "4A20000000000E00"
+			rewards: [
+				{
+					id: "4A20000000000E02"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "E-MS-004 · Top of the Abyss"
+			tasks: [
+				{
+					id: "4A20000000000E01"
+					item: "hk3gtl:abyss_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "§6Haiyuan Four Control Host"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A20000000000E00"]
+			description: [
+				"Quantum Sea Observatory - observe the world bubble and collect §dworld bubble sample §r."
+				"The world bubble sample is the core submission of Haiyuan Export Research R-AB-024 and multiple nodes in the imaginary phase."
+				""
+				"After completing the research on §dR-AB-024 \"Haiyuan Export Certification\" §r, the imaginary phase is officially unlocked."
+			]
+			id: "4A20000000000F00"
+			size: 1.5d
+			subtitle: "R-AB-024 · Ticket to Imaginary Numbers"
+			tasks: [
+				{
+					id: "4A20000000000F01"
+					item: "hk3gtl:sea_of_quanta_observatory"
+					type: "item"
+				}
+				{
+					id: "4A20000000000F03"
+					item: "hk3gtl:world_bubble_sample"
+					type: "item"
+				}
+			]
+			title: "§d§lQuantum Sea Observatory"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Chapter 2 · Voltage Tier 15~18"]
+	title: "§dChapter 2 · Abyssal Stage"
+}

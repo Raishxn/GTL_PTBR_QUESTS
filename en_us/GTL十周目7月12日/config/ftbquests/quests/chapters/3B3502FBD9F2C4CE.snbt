@@ -1,0 +1,1112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "3B3502FBD9F2C4CE"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:iv_electric_motor"
+	id: "3B3502FBD9F2C4CE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Probably the last small blender"]
+			hide_dependent_lines: true
+			icon: "gtceu:iv_mixer"
+			icon_scale: 1.3d
+			id: "0526B4AC0CAF99A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6214F333329885C2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5F54118CC67D850B"
+					item: "gtceu:iv_mixer"
+					type: "item"
+				}
+				{
+					id: "384BD55212AD8D35"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Here comes a bunch of ingots"]
+			id: "4058D1416D94BABB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "113C20F1840F03F0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3721A749B9944105"
+					item: "gtceu:tantalum_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "3D4368BF854766C4"
+					item: "gtceu:tungsten_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "5B71A05490BD6C07"
+					item: "gtceu:titanium_carbide_ingot"
+					type: "item"
+				}
+				{
+					id: "24CD9EC3BF9BC94C"
+					item: "gtceu:molybdenum_disilicide_ingot"
+					type: "item"
+				}
+				{
+					id: "0654B52D0046F9EA"
+					item: "gtceu:hsla_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "various ingots"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			description: [
+				"The alloy smelting furnace will produce fluid (the corresponding product can be produced through the mixer-electric blast furnace or carbon disulfide) and molten fluid. The molten fluid needs to be cooled using a vacuum freezer"
+				""
+				"Don't be put off by the long smelting time, this is a result of integrating the blender's recipe directly into the smelting recipe, and is actually less time consuming than blending and then smelting the powder in a blast furnace (like stainless steel)."
+				""
+				"Almost every alloy material can be produced in this machine, so if you have trouble finding the alloy recipe, look for&b&lmolten fluid &r!"
+			]
+			icon: "gtceu:alloy_blast_smelter"
+			icon_scale: 1.3d
+			id: "1F0956C3BD4745A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40454BB4221A9F96"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "369FD15BD477C9E7"
+					item: "gtceu:alloy_blast_smelter"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "2035A4EF9D87ACD7"
+					item: "gtceu:heat_vent"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: [
+				"It is now possible to make larger versions of single-block machines, with better boost and overclocking, and higher parallelism"
+				""
+				"Machines with&ein the description allow the machine to process multiple identical recipes at the same time through parallel control bins&rcan be installed with parallel control bins"
+				""
+				"Don’t forget to install parallel control chambers for previous machines (desulfurizers, fisheries, large greenhouses, etc.)"
+				""
+				"Parallel warehouse can be shared by &b"
+			]
+			icon: "gtceu:large_material_press"
+			icon_scale: 1.3d
+			id: "1FACFECB6C5962E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23E5F5E2DCB32051"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2F1127262F7ACA6C"
+					title: "Large machine"
+					type: "checkmark"
+				}
+				{
+					id: "28CA024A75969F52"
+					item: "gtceu:iv_parallel_hatch"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0526B4AC0CAF99A5"]
+			description: [
+				"&lFrom this stage, you can make a grid energy warehouse exceeding 64A."
+				""
+				"&ais recommended to be used with the adaptive system, which uses the high-power recipe time reduction mechanism and the parallel compensation mechanism of batch processing. Even if you are running at the original speed, you can achieve 0.01 times the speed."
+				""
+				"&cNote: It is recommended not to make a grid energy warehouse exceeding 16384A. If the power grid energy warehouse is too large, your power grid will be drained instantly!"
+			]
+			hide_dependent_lines: true
+			id: "4BFA114E12BCB163"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "146B307F0F8CE8EA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E766DD9BEDA9B75"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "121BAC69F16DF2AF"
+					item: "gtceu:rhodium_plated_palladium_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["You can use indium phosphide or quantum eyes"]
+			id: "68A3D32BFF9BF7F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5362869D828FC54E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "05E8D6C7043D0BCD"
+					item: "gtceu:qbit_cpu_chip"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["High speed steel (HSS) is a more wear-resistant steel alloy"]
+			id: "62B67704211A105D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46A28DD36D108F6C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "75763C7F36454825"
+					item: "gtceu:hssg_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"62B67704211A105D"
+				"079CD9FD65CB2ED2"
+				"4058D1416D94BABB"
+			]
+			icon_scale: 1.3d
+			id: "7DCA0B7C9F3C3ACF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CE8ACD7ED41412F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "542612C5D7F043D1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0D25CA72C05B394F"
+					item: "gtceu:hssg_coil_block"
+					type: "item"
+				}
+			]
+			title: "High speed steel-G coil"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DCA0B7C9F3C3ACF"]
+			description: ["You can do it with an IV mixer or an alloy smelting furnace"]
+			id: "2A81EA75E3DD41A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FF7B9A81E086C7F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3F58471B4B491DD6"
+					item: "gtceu:hsse_ingot"
+					type: "item"
+				}
+				{
+					id: "061B78C4A8F3772C"
+					item: "gtceu:hsss_ingot"
+					type: "item"
+				}
+			]
+			title: "High speed steel-E and S"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A81EA75E3DD41A3"]
+			description: ["The IV stage circuit does not need to be used"]
+			id: "4604207A60F04214"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "375702CC9D8688DD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Go further"
+			tasks: [
+				{
+					id: "54EBA1E915CCDDAC"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "1743212DEA6120B0"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "7C65FDD089837CA1"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "38EF641F76BC06F9"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "17178C475BF5FB0D"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "Advanced patch"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Probably the last kind of small assembly machine"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "079CD9FD65CB2ED2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DCDAAE4DA395A80"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6C5DFE407694E794"
+					item: "gtceu:iv_assembler"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"68A3D32BFF9BF7F3"
+				"027B25761BD830C8"
+				"22795A09A3BD7344"
+			]
+			description: ["Quantum processors use qubits as the basic unit of information and can be in a superposition state of 0 and 1 at the same time, allowing quantum computers to perform complex computing tasks."]
+			id: "31AC84CBD7C26566"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "480DAF3E699691B4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "30125C65F7525965"
+					item: "gtceu:quantum_processor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31AC84CBD7C26566"]
+			id: "3F0D5B17665DF1CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "169D85D02B9F3CD8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "77F7DCDCA5B2558E"
+					item: "gtceu:quantum_processor_assembly"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F0D5B17665DF1CE"]
+			id: "506BE1A622532375"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09D1DF47703B324C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D522F0399004B1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4A198917EC175743"
+					item: "gtceu:quantum_processor_computer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["506BE1A622532375"]
+			hide_dependent_lines: true
+			id: "4E1A28AFF661CED0"
+			min_width: 2
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A2D16D0B69D55E4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "716E000FB16A6BCC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0851DE42F4AC5E9C"
+					item: "gtceu:quantum_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2CAC63F25BAF50B3"]
+			id: "0FCA3B71669C8122"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5549186DCFEB353F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Still want to go to the space station"
+			tasks: [
+				{
+					id: "431CBC4C1A32BCEC"
+					item: "gtceu:quantum_star"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FCA3B71669C8122", "5B65662B72C369E7"]
+			id: "27BA6EBA81622516"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BEE9E8F8F58127A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "67E0235F740E8863"
+					item: "gtceu:iv_emitter"
+					type: "item"
+				}
+				{
+					id: "755A3CDD5C7A1643"
+					item: "gtceu:iv_sensor"
+					type: "item"
+				}
+			]
+			title: "IV sensors and transmitters"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The longest length can reach 17 grids, and the length does not affect work efficiency."
+				""
+				"Most recipes require&6recipe data&rto run at the same time. The recipe data can be regarded as some kind of&bcatalyst &r."
+				""
+				"Only&e&oULV input bus&rcan be used, and the input bin can use small/quad/nine input bins."
+				""
+				"Items and fluids&bdo not need to be input in order &r. The same applies to advanced assembly lines, circuit assembly lines, hyperspace assembly lines, hyperspace assembly line expansion modules, and aggregation devices."
+				""
+				"&dis automatically ignored when writing assembly line type templates&r&6Flash memory containing research data &r,&6data balls&rand&6data modules"
+				""
+				"&aI'm really fed up with ordinary assembly lines that can't house sample assemblies."
+				""
+				"&5For information about advanced assembly lines, you can read this"
+				""
+				"{ \\\"text\\\": \\\"Click to view the advanced assembly line tutorial\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"172FC2F2B20CD187\\\" } }"
+				""
+				"&5For information about the database, you can read this"
+				""
+				"{ \\\"text\\\": \\\"Click to view the tutorial of the database\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5F0A175D6704A8D0\\\" } }"
+			]
+			icon_scale: 1.3d
+			id: "7F8C2ECC7CE2BF20"
+			rewards: [
+				{
+					id: "63EB5453F2989C62"
+					item: "gtceu:advanced_assembly_line"
+					type: "item"
+				}
+				{
+					count: 500
+					id: "13EA9DA63893122F"
+					item: "gtlcore:advanced_assembly_line_unit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "33EF5A91B6478C2D"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "53A965E89BF54659"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "1A97313B7A4E6ABE"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "2DE3BED5D2EBF72E"
+					item: "gtceu:computer_heat_vent"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28249BAFB3C09E45"
+					item: "gtceu:high_power_casing"
+					type: "item"
+				}
+				{
+					count: 18
+					id: "58066391C642273F"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72F3E2394C2F2208"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Very expensive, but necessary after IV."
+			tasks: [
+				{
+					id: "07456C679DEEEE04"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516", "25F272243EB904D5"]
+			description: ["It won’t be the last small circuit assembly machine"]
+			icon: "gtceu:iv_circuit_assembler"
+			icon_scale: 1.3d
+			id: "027B25761BD830C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61754E9986AF3028"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "57AB73EF21D31E54"
+					item: "gtceu:iv_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "25E248E10C3232E0"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["027B25761BD830C8"]
+			description: ["&ccannot&rdouble warehouse boost"]
+			icon: "gtceu:large_circuit_assembler"
+			icon_scale: 1.3d
+			id: "30A0D221474FB44A"
+			rewards: [
+				{
+					id: "6DF7733A3D463FA1"
+					item: "avaritia:infinity_umbrella"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "527236C9A60ED192"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "074FB16F523697D0"
+					item: "gtceu:large_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "1680FF6E26A52EA3"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B79A329196883EF"]
+			id: "15F08D296DE33A44"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "104B7B440E9AC32E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7472EEF5D4982552"
+					item: "gtceu:hpic_chip"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"15F08D296DE33A44"
+				"079CD9FD65CB2ED2"
+				"3461BF0D74E5E8DF"
+			]
+			description: ["Boost"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "15580C25FF239402"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D44C1AE1C8CA217"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3591906D5662013E"
+					item: "gtmadvancedhatch:iv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7DCA0B7C9F3C3ACF"
+				"0526B4AC0CAF99A5"
+				"3ECA33037D940EAB"
+			]
+			description: ["&9IV&rsuperconductor"]
+			id: "02D426BE0947F123"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6827510FB6F03B1B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4FD9779EEB7F7F57"
+					item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02D426BE0947F123"]
+			id: "0F22A8CE63F369CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52D4D5311080FCD9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "611CC6E7E5FEEA67"
+					item: "gtceu:iv_field_generator"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["Probably the last small cutting machine"]
+			icon_scale: 1.3d
+			id: "3B79A329196883EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CE4148D189EFC04"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3F7925F1D16C107A"
+					item: "gtceu:iv_cutter"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			id: "22795A09A3BD7344"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F475A700E59D3D2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7117E2CF984E0BF0"
+					item: "gtceu:fiber_reinforced_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["42129A63D97DDF28", "4C43D30FD9B89965"]
+			description: ["At this stage, it is recommended to settle down after building a large machine, reconstruct your production line, and replace all energy bins with adaptive energy bins."]
+			hide_dependent_lines: true
+			icon: "kubejs:iv_universal_circuit"
+			id: "38480A52A13DA157"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AB86BD275ECDD2E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "01068F963A96E633"
+					title: "Strong pressure IV"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&l·&bfermentation tank&fis produced with&amonazite powder&fand&ahydrochloric acid&f&erare earth chloride &f"
+				""
+				"&l·&bcentrifuge&fcentrifuge&erare earth chloride&fthen&bdehydrator&fobtain&7lanthanide oxide powder"
+				""
+				"&l·&7lanthanide oxide powder&f+&acarbon powder&fComplete&9lanthanide ore powder can be obtained in&belectric blast furnace &f"
+				""
+				""
+				"&l&bvacuum drying furnace&fcan be consumed at the expense of&erare earth chloride&f&516 times&fcopy&9lanthanide mineral powder"
+			]
+			id: "3ECA33037D940EAB"
+			min_width: 210
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BB5064A7B245F0D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7778FF7D320A8783"
+					item: "gtceu:samarium_dust"
+					type: "item"
+				}
+			]
+			title: "Lanthanum series production line"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The amount of steam produced by hot sodium-potassium alloys far exceeds that produced by super-dimensional boilers."
+				""
+				"Supercritical sodium-potassium alloy can also be used to obtain supercritical steam, which can be used to generate electricity for supercritical steam turbines."
+				""
+				"In addition to the thermal sodium-potassium alloy formula, the heat exchanger is not affected by the configurable maintenance compartment."
+			]
+			icon_scale: 1.3d
+			id: "24CE67689DD540B7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32BAC89A18085ECE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Make sure there is excess coolant"
+			tasks: [
+				{
+					id: "4B207AC62685A5B5"
+					item: "gtceu:heat_exchanger"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F8C2ECC7CE2BF20", "15580C25FF239402"]
+			description: [
+				"0.2x is used to accelerate the machine, 1.2x is used to save fuel. In some cases, the generator can obtain additional overclocking times to increase power generation."
+				""
+				"{ \\\"text\\\": \\\"Configure the copy tool to copy and paste processing time-consuming settings\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3740DE62D42A4D0D\\\" } }"
+				""
+				"You can also make&6configurable ultra-clean maintenance warehouse &r"
+			]
+			icon: "gtceu:auto_configuration_maintenance_hatch"
+			icon_scale: 1.3d
+			id: "585580AFDFACDDB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1483320B022E7C22"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "458B2F2C747E0083"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Even unconditionally"
+			tasks: [
+				{
+					id: "7D699FD179C16EB0"
+					item: "gtceu:auto_configuration_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "799AF69CEDFF5B31"
+					type: "checkmark"
+				}
+			]
+			title: "Five times faster!!"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F22A8CE63F369CA"]
+			description: ["Bigger, stronger, will always be with you"]
+			icon_scale: 1.3d
+			id: "3068FF40AFC77779"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5891965CFDA04301"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5602AA7E6200A168"
+					item: "gtceu:large_pyrolyse_oven"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			description: ["All products of the fission reactor can be crafted using this module"]
+			id: "36AF5A36BBC51B59"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A0527C48F3785BC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2F0AFFD04B5B2C28"
+					item: "thetornproductionline:fission_reactor_module"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Dahua Anti-No. 4 Circuit", "Enter pure galena and sphalerite ore + sulfuric acid"]
+			icon: "gtceu:indium_dust"
+			id: "7250170164BFFD11"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61D33E2621A0DC9E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "(blasting)"
+			tasks: [
+				{
+					id: "1D3EE9ADA5B53C97"
+					title: "One step indium enrichment"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			description: [
+				"&lIf you change the extremely high speed formula (such as thousand times speed, ten thousand times speed), it can allow some machines that have lost&41toc&fto regain&41toc."
+				"&41toc&8is to overclock the machine to a very short time:"
+				"&8• Lossy overclocked machines: limit is 1 tick (1t)"
+				"&8• Lossless overclocked machine: limit is less than 4 ticks (<4t)"
+				"After reaching this limit, continuing to overclock will result in parallel compensation:"
+				"&8• Lossy overclocked machine: power consumption becomes 4 times, parallelism becomes 2 times"
+				"&8• Lossless overclocked machine: energy consumption becomes 4 times, parallelism becomes 4 times"
+				""
+				"&lAfter testing, the upper limit of parallel compensation is 2147483647."
+				"Currently known applicable machines include: electric blast furnace, alloy smelting furnace, vacuum drying furnace (vacuum drying mode)."
+				""
+				"&lFor example:"
+				"Hormone version of electric blast furnace equipped with 16aHVwireless energy warehouse:"
+				"• Burning steel ingots with normal maintenance chamber: 1 per second"
+				"• Burn ingots with this configurable maintenance bin: 64 per second"
+			]
+			icon_scale: 1.3d
+			id: "67D966CFB2F16028"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "630279E201E90718"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Time multiplier 2.0"
+			tasks: [
+				{
+					id: "0FF5579D0C2E397C"
+					item: {
+						Count: 1
+						id: "gtceu:auto_configuration_maintenance_hatch"
+						tag: {
+							BlockEntityTag: {
+								durationMultiplier: 2.0f
+							}
+							display: {
+								Lore: ["\\\"耗时乘数2.0x 谨慎放置 挖掘后会重置耗时乘数\\\""]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15580C25FF239402"]
+			icon_scale: 1.3d
+			id: "67A867B165805A3B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0FB61A4621E1AB45"
+					item: "gtmadvancedhatch:iv_64a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Tier5-IV"]
+	title: "Strong pressure"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "normalizador de gravidade",
+  "icon": "ad_astra:gravity_normalizer",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "normalizador de gravidade",
+      "item": "ad_astra:gravity_normalizer",
+      "text": "Os normalizadores de gravidade permitem criar gravidade artificial em áreas confinadas, semelhantes aos dispensadores de oxigênio. Possui um controle deslizante para definir a gravidade alvo - de 0-G a 2-G. Os normalizadores de gravidade requerem uma potência considerável para operar, portanto, use-os com cuidado se sua estrutura não exigir ajuste de gravidade."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Gravity Normalizer Recipe",
+      "recipe": "ad_astra:gravity_normalizer"
+    }
+  ]
+}

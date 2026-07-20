@@ -1,0 +1,802 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "1051E55CD6BF7E7B"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:max_electric_motor"
+	id: "1051E55CD6BF7E7B"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Obtido ao jogar um bloco de magma com moldura azul no efeito de partícula de um Portão da Criação em funcionamento."
+				""
+				"O bloco de substância magnética deve lançar 64 lingotes de substância magnética &m. Embora o bloco de substância magnética seja inútil &r"
+			]
+			icon_scale: 1.3d
+			id: "470DDCCD8E017A4F"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Recebi um item de uma troca, mas não sei como usá-lo"
+			tasks: [
+				{
+					id: "6C1581BB60019E84"
+					item: "minecraft:command_block"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "5AFEAD001EDA612D"
+			subtitle: "Contém toda a energia no espaço multidimensional"
+			tasks: [
+				{
+					id: "318A4B7F9925680F"
+					item: "kubejs:create_ultimate_battery"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38FFB6D2003C7EB4", "4CF8E0618D65DD65"]
+			id: "1EB9F1815EB656B0"
+			subtitle: "Expansão bidimensional"
+			tasks: [
+				{
+					id: "453883277EF4A1B6"
+					item: "kubejs:two_way_foil"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["470DDCCD8E017A4F", "1EB9F1815EB656B0"]
+			description: ["Também disponível em materiais sintéticos está a folha bidirecional &b&r"]
+			id: "48925ECBCC5D268D"
+			subtitle: "Itens obtidos ao quebrar blocos de comando"
+			tasks: [
+				{
+					id: "3DFC2C88970DA844"
+					item: "kubejs:command_block_core"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "338F629A694C7556"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "um pouco lento"
+			tasks: [
+				{
+					id: "16C8AA0E8A7E6784"
+					item: "gtlcore:create_casing"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"338F629A694C7556"
+				"5AFEAD001EDA612D"
+				"65C38365E20B7F16"
+			]
+			icon_scale: 1.3d
+			id: "7C4AD33299386B47"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Manipulando a gravidade para conseguir a detonação"
+			tasks: [
+				{
+					id: "29CE180A8857179D"
+					item: "gtceu:gravitation_shockburst"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			icon_scale: 1.3d
+			id: "4C37CB772835CFD0"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3456609519072452"
+					item: "kubejs:command_block_broken"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48925ECBCC5D268D"]
+			description: [
+				"Pelo menos a tensão de nível MAX precisa ser inserida"
+				""
+				"Se estiver acessando um switch de rede, certifique-se de que o switch de rede receba apenas entrada do computador criador, caso contrário, o switch de rede não funcionará"
+				""
+				"Dica: O armazém de poder de computação sem fio não pode transmitir poder de computação entre dimensões."
+				""
+				"&mAlguém ainda não sabe que a sala de montagem molecular pode executar a receita da mesa de forjamento? &r"
+			]
+			icon_scale: 1.3d
+			id: "30907D7231913ACB"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Poder de computação infinito"
+			tasks: [
+				{
+					id: "46A19A3E3D3CF4A9"
+					item: "gtceu:create_computation"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C4AD33299386B47"]
+			id: "429AEBE4BF55B1FF"
+			tasks: [
+				{
+					id: "77BD91BF9EFBE178"
+					item: "kubejs:chain_command_block_core"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["429AEBE4BF55B1FF", "30907D7231913ACB"]
+			description: ["O consumo de energia é fixado em 16A MAX"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "2F9392EF05DB11EF"
+			rewards: [
+				{
+					count: 64
+					id: "4FD478D6E5414E22"
+					item: "gtceu:create_aggregation"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Só pode funcionar na dimensão criativa"
+			tasks: [
+				{
+					id: "7AB830407E68C7F1"
+					item: "gtceu:create_aggregation"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F9392EF05DB11EF", "4C37CB772835CFD0"]
+			icon_scale: 1.3d
+			id: "2D1F2793A396B322"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4C7140E1B28862FE"
+					item: "minecraft:chain_command_block"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["429AEBE4BF55B1FF"]
+			hide_dependency_lines: false
+			id: "5BA55D56C47EA2C4"
+			tasks: [
+				{
+					id: "3C8BF60743D0FB97"
+					item: "kubejs:repeating_command_block_core"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BA55D56C47EA2C4", "435394EAA6536AA9"]
+			icon_scale: 1.3d
+			id: "75CE99CD1614FB64"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "065BE74992505A08"
+					item: "minecraft:repeating_command_block"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2D1F2793A396B322"]
+			icon_scale: 1.3d
+			id: "435394EAA6536AA9"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5321FDC4FAA49862"
+					item: "kubejs:chain_command_block_broken"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5AFEAD001EDA612D"]
+			hide_dependent_lines: true
+			id: "2A19E7C6DC247B90"
+			size: 1.0d
+			tasks: [
+				{
+					id: "00F2D831815D719F"
+					item: "kubejs:chaotic_energy_core"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75CE99CD1614FB64"]
+			description: ["Coloque no banco de dados para obter todos os dados do estudo"]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "31B4B834D5DD87DB"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Graduado"
+			tasks: [
+				{
+					id: "6D68D65E443AE5FE"
+					item: "gtceu:creative_data_access_hatch"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A19E7C6DC247B90", "2D1F2793A396B322"]
+			description: [
+				"{ \\\"text\\\": \\\"Ambas as fontes de energia criativas podem ser colocadas em transformadores ativos para permitir energia ilimitada para redes sem fio\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3B18900343C2F4E3\\\" } }"
+				""
+				"Você também pode colocar a fonte de alimentação criativa na máquina, para que a máquina possa obter energia muito além de 4194304A MAX, até &cM &r&aA &r&9X &r&e+ &r&c16 &r"
+				""
+				"As configurações padrão de energia ao criar o posicionamento de energia são &cM &r&aA &r&9X &r&e+ &r&c16 &r"
+				""
+				"O poder de criação não pode ser compartilhado entre múltiplas estruturas multibloco"
+			]
+			icon_scale: 1.3d
+			id: "5F145D9019C4BC48"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Graduado"
+			tasks: [
+				{
+					id: "02CCDE9B8302A71A"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					id: "4F47141E78EDAE2F"
+					item: "gtmthings:creative_energy_hatch"
+					type: "item"
+				}
+			]
+			title: "poder do modo criativo"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F145D9019C4BC48", "31B4B834D5DD87DB"]
+			description: [
+				"Quando você olha para ele, parece ver a boneca barbuda que estava na prateleira do departamento de vendas da Pan-Galaxy GregTech há muitos anos galácticos."
+				""
+				"&a&lSe você ainda planeja desafiar os portais estelares posteriores, deve prestar atenção aos vários componentes infinitos em JEI. Existem também vários pacotes de componentes. Algumas máquinas só precisam ser fabricadas. Por exemplo, o buraco negro não precisa ser construído. Basta substituir o pacote de componentes do buraco negro."
+				""
+				"&l&bNo processo de fabricação do portal estelar, você pode encontrar uma situação em que o pedido calculado, mas incapaz de fazer um pedido, mostre os materiais faltantes, mas não mostre quais materiais estão faltando. Isso é causado pelo algoritmo de otimização especial do gtlcore. Neste momento, você precisa fazer pedidos separados de materiais. Por exemplo, o material A requer 1 2 3 4 5 materiais. Você pode fazer um pedido de 1.000.000 para cada um de 1, 2, 3, 4 e 5. Então você saberá quais materiais estão faltando."
+			]
+			icon_scale: 1.3d
+			id: "516498830339A0A9"
+			rewards: [
+				{
+					id: "561786F8A1EF94F6"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Perguntas adicionais"
+			tasks: [
+				{
+					id: "74404EE9AEC393D4"
+					item: "expatternprovider:fishbig"
+					type: "item"
+				}
+			]
+			title: "Eu sempre estarei com você"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["516498830339A0A9"]
+			description: [
+				"Parabéns por completar o jogo e obrigado por jogar."
+				""
+				"Diz-se que muito poucas pessoas chegam aqui."
+				"{@pagebreak}"
+				"Na verdade, existem outras formas de obter chá e marshmallows, que também estão relacionados com o peixe."
+				"{@pagebreak}"
+				"Há rumores de que os Tanques de Criação e os Baús de Criação são feitos por peixes depois de terem comido e bebido o suficiente."
+			]
+			icon: "gtlcore:ultimate_tea"
+			id: "503A37C31E60684B"
+			rewards: [
+				{
+					id: "76A7B329CDF35304"
+					item: "gtlcore:ultimate_tea"
+					type: "item"
+				}
+				{
+					id: "1B03B8D7C87EF60B"
+					item: "kubejs:heartofthesmogus"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "descanse"
+			tasks: [
+				{
+					id: "334CC982B1A39C03"
+					item: "expatternprovider:fishbig"
+					type: "item"
+				}
+			]
+			title: "Finalmente, acabou"
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			id: "4CF8E0618D65DD65"
+			tasks: [
+				{
+					id: "043893C259EE2DA8"
+					item: "kubejs:hyper_stable_self_healing_adhesive"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			id: "65C38365E20B7F16"
+			tasks: [
+				{
+					id: "36E49D10C86129A3"
+					item: "kubejs:black_body_naquadria_supersolid"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["30907D7231913ACB"]
+			description: [
+				"&6&lGTLAdditions「Matriz sintética infinita de foco dimensional」"
+				""
+				"&7▌ Função:"
+				"&lpode ser instalado como um módulo para o manipulador molecular&6&7, desbloqueando o modo de síntese infinita com&cparalelo infinito&7e o tempo de receita é fixado em&e1t"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Como construir: Coloque-o no meio da moldura em frente ao bloco principal do Manipulador Molecular"
+			]
+			icon_scale: 1.3d
+			id: "626F62880AFC2843"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15E9B78546751AAC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2B2072F7988D0192"
+					item: "gtladditions:dimension_focus_infinity_crafting_array"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30907D7231913ACB"]
+			description: [
+				"&6&lGTLAdditions「Coração do Universo」"
+				""
+				"&7▌ Função:"
+				"&lEstrela Artificial Edição Super Aprimorada"
+				"&lpode instalar o mecanismo de divergência da esfera celestial"
+				""
+				"&7▌ Sugestões:"
+				"&l&6deve usar o terminal de saída de rede sem fio&6&6para produzir totalmente a energia que gera"
+				"&7&oAlgumas pessoas dizem que quando você pega cem mil estrelas e caminha todos os quilômetros extras,"
+				"&7&oVocê também pode parar na frente do sol por um minuto."
+				"&7&oEle queimará para você e também ficará em silêncio para você."
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1810AFD6C41A4BF6"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BFFDBCABF32218E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "63E2C3D4BF6E8DF3"
+					item: "gtladditions:heart_of_the_universe"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30907D7231913ACB"]
+			description: [
+				"&6&lGTLAdditions「Mapa Estelar Arcano」"
+				""
+				"&7▌ Função:"
+				"&lVersão aprimorada do Huawei Eye"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Star array é recomendado para conectar pelo menos 2.000"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "31FEB14219D6C305"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D7D69EAAECEF709"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "33DCAF220BA3100F"
+					item: "gtladditions:arcanic_astrograph"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AFEAD001EDA612D"]
+			description: [
+				"&6&lGTLAdições \\\"Sphere Divergence Engine\\\""
+				""
+				"&7▌ Função:"
+				"&lé instalado em máquinas suportadas e pode aumentar significativamente o número de conexões paralelas"
+				"&lpode ser preenchido com 64 matrizes de estrelas&edentro"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Lembre-se de instalar todas as máquinas que suportam a instalação de motores de divergência de esferas celestes e inserir 64 matrizes estelares"
+			]
+			icon_scale: 1.3d
+			id: "5A80894A5942204F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C60491AFB61A2E2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "094ADDE3FCD9C157"
+					item: "gtladditions:thread_modifier_hatch"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F145D9019C4BC48"]
+			description: [
+				"&6&lGTLAdditions \\\"Forja do Falso Deus\\\" / Stellar Forging Array"
+				""
+				"&7▌ Função:"
+				"O host&lpode fornecer até 15 vezes a produção de fórmula de&e&7, enquanto desfruta de 1/5 do consumo da UE de redução de&a&7"
+				"&lpossui um modo de \\\"operação hiperdimensional\\\", que requer execução contínua de&epor 4 horas no mundo real e&7para concluir o processo."
+				"&lpode realizar fundição ultradimensional&6&7,&6fundição de energia térmica estelar &7,&6forjamento de material final&7três tipos de fórmulas"
+				"&lpode ser instalado com núcleo de fusão de jato estelar&6&7, máquina de fabricação de plasma de energia térmica estelar&a&7, forno de energia de chama estelar&c&7,&4mutador de fusão estelar &7, cristalizador de veia de dragão de fase estelar&3&7e outros módulos"
+				""
+				"&7&oAlgumas pessoas dizem que quando você esgota todos os materiais do mundo e acende aquele feixe de luz que atravessa os tempos,"
+				"&7&oVocê também pode ficar um pouco em frente à fornalha que pode queimar a história das estrelas."
+				"&7&oEspere um minuto. Isso vai queimar para você e vai ficar para você."
+			]
+			hide_dependency_lines: true
+			icon: "gtladditions:forge_of_the_antichrist"
+			icon_scale: 1.3d
+			id: "64E09D0CDAE08AB7"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7186D4A3188C8340"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "117EBBBD42D7553B"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:f"
+								id: "gtceu:raw_star_matter_plasma"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "483D4FC56E962599"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:f"
+								id: "gtceu:dimensionallytranscendentcrudecatalyst"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "026517315FA7810F"
+					item: "gtladditions:forge_of_the_antichrist"
+					type: "item"
+				}
+				{
+					id: "6E78B0B51C84E687"
+					item: "gtladditions:heliofluix_melting_core"
+					type: "item"
+				}
+				{
+					id: "265F6FE38CFF647A"
+					item: "gtladditions:heliothermal_plasma_fabricator"
+					type: "item"
+				}
+				{
+					id: "30982DF24160E08B"
+					item: "gtladditions:helioflare_power_forge"
+					type: "item"
+				}
+				{
+					id: "36FD4D251931AE89"
+					item: "gtladditions:heliofusion_exoticizer"
+					type: "item"
+				}
+				{
+					id: "4C01AF836172E58E"
+					item: "gtladditions:heliophase_leyline_crystallizer"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F145D9019C4BC48"]
+			description: [
+				"&6&lGTLAdditions「Matriz final de ondas quânticas em zigue-zague」"
+				""
+				"&7▌ Função:"
+				"&lfixa a probabilidade de saída para&a100%&7e reduz o consumo da entrada de probabilidade para&c1/10"
+				"&lpode lidar com uma variedade de tipos de fórmulas diferentes ao mesmo tempo"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Esta máquina pode realmente instalar um compartimento de controle paralelo. Não instale mesmo que não esteja na introdução."
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "61C6933B9D9AA813"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D9CF51397ABE1B8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2B8431D442C1A45C"
+					item: "gtladditions:apocalyptic_torsion_quantum_matrix"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["516498830339A0A9"]
+			description: [
+				"&d&oVocê passou pela solidão ao longo dos tempos e aceitou o julgamento do Deus dos Elementos/Pseudo."
+				"&d&oVocê testemunhou as estrelas retornando ao sol e a matriz final reescrevendo o infinito."
+				"&d&oAgora você completou o último pedido de \\\"Yuda\\\"."
+				"&d&oEm frente à caixa de criação, este bloco representa a autoridade máxima neste mundo."
+				"&d&oVocê sabe que este será o último olhar."
+				"&d&oUm minuto de silêncio é uma homenagem a todas as lutas passadas e uma despedida deste mundo virtual."
+				""
+				"&l&cCondições de conclusão:"
+				"&8• Complete a missão final da linha principal \\\"Yuda\\\""
+				"&8• Caixa do modo criativo"
+				"&8• Observe as caixas do modo criativo por 1 minuto"
+				"&8• Complete a missão oculta \\\"Gaze across Era\\\""
+				"&8• Complete a missão oculta \\\"Deus dos Elementos/Pseudo Misericórdia\\\""
+				"&8• Complete a missão oculta \\\"The Stars Gone Silent\\\""
+				"&8• Complete a missão oculta \\\"The Final Witness\\\""
+				""
+				"&7&o\\\"Todas as histórias têm um fim, mas testemunhar é a eternidade.\\\""
+			]
+			icon_scale: 1.3d
+			id: "62B42D9C7C68A5DC"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					icon: "gtceu:creative_chest"
+					id: "6DD3D1304A78A5A6"
+					observe_type: 0
+					timer: 1200L
+					title: "o verdadeiro final"
+					to_observe: "gtceu:creative_chest"
+					type: "observation"
+				}
+			]
+			title: "o verdadeiro final"
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A80894A5942204F"]
+			description: [
+				"Uma versão aprimorada do mecanismo de divergência celestial&l· &f, incorporando matrizes estelares&6127 &f"
+				"&l&fpode melhorar ainda mais as capacidades paralelas cruzadas da máquina"
+				"&l&cNota: Não cave após colocá-lo, caso contrário ele reverterá para a versão básica do mecanismo de divergência da esfera celeste"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "34133B8FB2C823E3"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3BEA5026B5F21C46"
+					item: {
+						Count: 1
+						id: "gtladditions:thread_modifier_hatch"
+						tag: {
+							BlockEntityTag: {
+								astralArrayInventory: {
+									Items: [
+										{
+											Count: 127
+											Slot: 0
+											id: "gtladditions:astral_array"
+										}
+									]
+								}
+							}
+							display: {
+								Lore: [
+									"{\\\"text\\\":\\\"§7━━━━━━━━━━━━━━━━\\\"}"
+									"{\\\"text\\\":\\\"§6嵌入 §e127 个星规矩阵 §6\\\",\\\"italic\\\":false}"
+									"{\\\"text\\\":\\\"§b星能输出：§3+∞ §b/ tick\\\"}"
+									"{\\\"text\\\":\\\"§7━━━━━━━━━━━━━━━━\\\"}"
+									"{\\\"text\\\":\\\"§d§o「群星之心的跳动」§d\\\"}"
+								]
+								Name: "{\\\"text\\\":\\\"超级天球引擎\\\",\\\"color\\\":\\\"#AAFFAA\\\",\\\"bold\\\":true}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "esfera superceleste"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A80894A5942204F"]
+			description: ["O circuito nº 24 da máquina de imersão química pode descarregar todos os fluidos"]
+			icon_scale: 1.3d
+			id: "5534B33BE1949FB6"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3B99A36B1FE57114"
+					item: "gtceu:creative_tank"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Tier14-MAX"]
+	title: "pressão limite superior"
+}

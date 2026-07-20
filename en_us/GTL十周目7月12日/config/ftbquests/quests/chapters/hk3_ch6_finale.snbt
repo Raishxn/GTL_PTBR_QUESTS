@@ -1,0 +1,255 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch6_finale"
+	group: ""
+	icon: "hk3gtl:imaginary_dimension_gateway"
+	id: "4A60000000000000"
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The final chapter. Your civilization will build twelve wonders, complete the graduation verification research chain, and then go to the imaginary dimension to accept the final judgment of Siren, the Herrscher of the Sky."]
+			icon: "minecraft:end_crystal"
+			id: "4A60000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A60000000000101"
+					title: "towards the end"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lFinal Judgment"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000100"]
+			description: ["Four wonders of energy and faith: the Honkai Impact Ultimate Fusion Core, the Key of God Cathedral, the Loom of Destiny, and the Communication Hub of All Realms."]
+			id: "4A60000000000200"
+			subtitle: "Wonder I"
+			tasks: [
+				{
+					id: "4A60000000000201"
+					item: "hk3gtl:honkai_ultimate_fusion_core"
+					type: "item"
+				}
+				{
+					id: "4A60000000000203"
+					item: "hk3gtl:divine_key_grand_cathedral"
+					type: "item"
+				}
+				{
+					id: "4A60000000000205"
+					item: "hk3gtl:destiny_loom"
+					type: "item"
+				}
+				{
+					id: "4A60000000000207"
+					item: "hk3gtl:myriad_realms_communication_nexus"
+					type: "item"
+				}
+			]
+			title: "§dWonders · Energy and Faith"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A60000000000100"]
+			description: [
+				"Four wonders of memory and examination: Civilized Judgment Corridor, Civilized Memory Eternal Monument, Civilized Eye Observation Array, and Reincarnation Narrator Platform."
+				""
+				"§eTips: §7After graduation, go back to the Proof of Existence Monument and stand for a while, there will be a special easter egg."
+			]
+			id: "4A60000000000300"
+			subtitle: "Spectacle II"
+			tasks: [
+				{
+					id: "4A60000000000301"
+					item: "hk3gtl:civilization_judgment_corridor"
+					type: "item"
+				}
+				{
+					id: "4A60000000000303"
+					item: "hk3gtl:civilization_memory_eternal_monument"
+					type: "item"
+				}
+				{
+					id: "4A60000000000305"
+					item: "hk3gtl:civilization_eye_observation_array"
+					type: "item"
+				}
+				{
+					id: "4A60000000000307"
+					item: "hk3gtl:cycle_narrator_platform"
+					type: "item"
+				}
+			]
+			title: "§dWonders · Memory and Examination"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A60000000000200", "4A60000000000300"]
+			description: ["Four wonders of existence and inheritance: the Civilian Starship Museum, the Existence Proof Monument, the Ultimate Meditation Temple, and the Great Gathering Altar.", "§7The Twelve Wonders gather and the integrity of civilization will pass the final review of the Verification Matrix."]
+			id: "4A60000000000400"
+			subtitle: "Spectacle III"
+			tasks: [
+				{
+					id: "4A60000000000401"
+					item: "hk3gtl:civilization_starship_museum"
+					type: "item"
+				}
+				{
+					id: "4A60000000000403"
+					item: "hk3gtl:proof_of_existence_memorial"
+					type: "item"
+				}
+				{
+					id: "4A60000000000405"
+					item: "hk3gtl:ultimate_meditation_sanctum"
+					type: "item"
+				}
+				{
+					id: "4A60000000000407"
+					item: "hk3gtl:grand_convergence_altar"
+					type: "item"
+				}
+			]
+			title: "§dWonder · Existence and inheritance"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000400"]
+			description: ["Complete the graduation verification chain §dR-GR-001 ~ R-GR-005 §rin the research matrix.", "After the R-GR-005 \"Final Graduation Permit\" is completed, the §dimaginary dimension transition gate §rcan be activated."]
+			id: "4A60000000000500"
+			subtitle: "R-GR-005 · Final Approval"
+			tasks: [
+				{
+					id: "4A60000000000501"
+					item: "hk3gtl:imaginary_dimension_gateway"
+					type: "item"
+				}
+			]
+			title: "§dImaginary dimension transition gate"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000500"]
+			description: [
+				"Step into the Imaginary Dimension (via the jump gate, or passively teleport when holding the Imaginary Four Mastermind for the first time)."
+				""
+				"§edimension rule:"
+				"§71. After entering the forced adventure mode, destroying and placing blocks is prohibited;"
+				"§72. There is a §dimaginary number crack §7in the center of the platform - right click on it and Siren will come;"
+				"§73. The graduated archive cannot be entered again."
+			]
+			id: "4A60000000000600"
+			subtitle: "The Realm of the Herrscher of the Sky"
+			tasks: [
+				{
+					dimension: "hk3gtl:imaginary_dimension"
+					id: "4A60000000000601"
+					type: "dimension"
+				}
+			]
+			title: "§d§lStep into the imaginary dimension"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000600"]
+			description: [
+				"Right-click on the imaginary rift, wait for Sirin's appearance to end, §d, and right-click on Sirin §ragain to start the final dialogue."
+				"Select an IF line in the conversation and hear her tell the story of your civilization in another possibility."
+				""
+				"§dThe moment the conversation ends: Archive Mark Graduation (E-MS-015), you will be sent back to the spawn point in the main world. §r"
+				""
+				"§eTips: §7IF lines are deduplicated across archives - the same player will hear a different IF story in each archive until all 20 lines have been read."
+			]
+			icon: "minecraft:amethyst_shard"
+			id: "4A60000000000700"
+			size: 1.5d
+			subtitle: "E-MS-015 · Good Ending · Civilization Passes Judgment"
+			tasks: [
+				{
+					id: "4A60000000000701"
+					title: "Complete the endgame conversation with Siren"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lFinal Judgment·Graduation"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A60000000000600"]
+			description: [
+				"§c§lWarning: This is not a joke."
+				""
+				"If you punch Siren in the imaginary dimension - she is invincible, immune to all debuffs, regenerates full life every second, and every bit of damage you take will be reflected back to you tenfold."
+				""
+				"If you §cinsist on attacking her 10 times §rin total, the bad ending will be triggered: she will personally remove you from this story - §cincluding your game progress and the name of the world §r."
+				""
+				"After re-entering the game and returning to the imaginary dimension again, the bad ending will come to its own end, and the save will also be marked as graduated."
+				""
+				"§7§oThe choice is yours."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:wither_rose"
+			id: "4A60000000000800"
+			shape: "octagon"
+			subtitle: "§cDon't attack the Herrscher of the Sky"
+			tasks: [
+				{
+					id: "4A60000000000801"
+					title: "I already know the consequences"
+					type: "checkmark"
+				}
+			]
+			title: "§4§lTaboo · Narrative Revenge"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A60000000000700"]
+			description: [
+				"§a§lTask line acceptance list (check item by item before release):"
+				""
+				"§f1. Trigger verification: §7The registration IDs of all item tasks are consistent with the actual IDs in JEI (key points: hk3gtl:soulium_ingot and hk3gtl:liquid_honkai_energy_bucket are GT material items); the dimension task target is hk3gtl:imaginary_dimension;"
+				"§f2. Reward verification: §7XP and item rewards in each chapter can be received normally, and there are no unauthorized items;"
+				"§f3. Link verification: §7The six chapter dependencies are all one-way dependencies within the chapter + sequential arrangement between chapters, no loops, no breakpoints; the checkmark task does not block the main line (the description tasks are all side branches);"
+				"§f4. Copywriting verification: §7All milestone numbers (E-MS/E-FB) and research numbers (R-XX) are consistent with the actual trigger conditions of the code; pit avoidance tips are consistent with the mechanism implementation (EBF forbidden soul steel, E-MS-006 forced transmission, bad ending trigger conditions);"
+				"§f5. Completing this task means that the task line has been accepted. §dThanks for playing Honkai Impact III-GTL!"
+			]
+			icon: "minecraft:nether_star"
+			id: "4A60000000000900"
+			rewards: [
+				{
+					id: "4A60000000000902"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Completed all quest lines"
+			tasks: [
+				{
+					id: "4A60000000000901"
+					title: "Acceptance passed"
+					type: "checkmark"
+				}
+			]
+			title: "§6§lGraduation Ceremony·Acceptance"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Final Chapter · Spectacles and Judgment"]
+	title: "§dFinal Chapter · Final Judgment"
+}

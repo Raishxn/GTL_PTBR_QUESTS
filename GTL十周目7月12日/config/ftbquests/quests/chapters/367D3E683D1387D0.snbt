@@ -1,0 +1,229 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "367D3E683D1387D0"
+	group: ""
+	icon: "gtceu:lv_bender"
+	id: "367D3E683D1387D0"
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"O EU/t fornecido para a estrutura multibloco é maior do que o EU/t fornecido para a receita?"
+				"O armazém de manutenção foi mantido?"
+				"Existem requisitos especiais que podem ser atendidos?"
+				"Os itens e fluidos são inseridos corretamente no ônibus/lixo/produto?"
+				"O espaço de saída é grande o suficiente?"
+				"A câmara do silenciador está voltada para o bloco de ar?"
+				"Talvez uma estrutura multibloco tenha sido formada, mas você se esqueceu de uma lixeira."
+			]
+			icon: "gtceu:maintenance_hatch"
+			id: "498CB29FA7447C46"
+			rewards: [
+				{
+					id: "6F0F202CEF4CCFD7"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "44CA2F43F475CFD9"
+					title: "Motivo para não trabalhar"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Qual é o impacto de um alto-forno elétrico derreter itens a uma determinada temperatura? Cada receita de alto-forno elétrico possui uma temperatura base específica. Por exemplo, o alumínio é fundido a 1700K. Se a temperatura não for suficientemente elevada, a receita não será executada. Se a temperatura for suficientemente alta, o consumo de tempo será reduzido."
+				""
+				"A temperatura depende principalmente do tipo de bobina utilizada, mas além disso há um aumento de 100K na temperatura para cada grau de tensão a partir de HV. Isso significa que em algum momento é possível usar uma bobina de estágio inferior com tensão alta o suficiente para executar certas receitas que pareceriam possíveis apenas com uma bobina de estágio superior."
+			]
+			icon: "kubejs:uruium_coil_block"
+			id: "2205C5F410B9C4DB"
+			rewards: [
+				{
+					id: "67F6BBF7159FD130"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50F636D9BF4F6025"
+					title: "Bobina"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"As estruturas multibloco são verificadas para ver se têm energia suficiente antes de trabalhar."
+				""
+				"A energia consumida por vários blocos é a soma de todos os compartimentos de energia."
+				""
+				"Por exemplo, a eletricidade requer uma entrada de energia de pelo menos 120EU/t para executar a sua receita. Isto pode ser conseguido através de dois compartimentos de energia de baixa tensão. Cada compartimento requer 2 amperes de BT, portanto são necessários um total de 4 amperes de BT para atingir uma potência máxima de 128EU/t. Ou seja, &baumenta o armazém duplo &r."
+				"Isso permite que níveis de baixa tensão processem receitas de alto nível de tensão. Observe que isso só pode ser alcançado em tensões adjacentes, ou seja, &6só pode aumentar &ruma vez e dois compartimentos de energia &r, &be &r, devem ser usados."
+			]
+			icon: "gtceu:lv_energy_input_hatch"
+			id: "0BADECF30AC0BAC4"
+			rewards: [
+				{
+					id: "74229AAB3C2222DD"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23E71635D04A5A77"
+					title: "distribuído por"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Esta é a chave para a entrada e saída de estruturas multibloco. Ônibus/caixas/conjuntos mais avançados proporcionarão mais espaço."
+				""
+				"O barramento/bin/montagem também vem com funções automáticas de entrada e saída &d&r, que podem ser controladas por interruptores."
+			]
+			icon: "gtceu:lv_input_bus"
+			id: "5DB8BE71B3733C36"
+			rewards: [
+				{
+					id: "7B4ECA8505F078B1"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35761A42191E549C"
+					title: "ônibus/caixa"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Quando 16 máquinas de baixa tensão funcionam simultaneamente, a potência é igual à de uma máquina de alta tensão, mas a velocidade é quatro vezes maior que a de uma máquina de alta tensão. Isso ocorre porque as máquinas de 16 BT não sofreram perdas causadas por overclocking com perdas. fazendo com que ele faça isso mais rápido em uma velocidade menor."
+				""
+				"O paralelismo de estruturas multibloco é um conceito semelhante. Simplificando, o paralelismo é uma forma alternativa de overclocking sem perdas."
+				"{@pagebreak}"
+				"O paralelismo de sub-tick (1toc) é um mecanismo que é acionado quando algumas estruturas multibloco levam menos de 1 tick de jogo para processar uma única receita."
+				""
+				"Todas as máquinas de bloco único e máquinas paralelas de receita cruzada não acionarão 1toc."
+				""
+				"Exemplo 1: Quando uma máquina multibloco com nível de tensão LuV leva exatamente 1 tick de jogo para processar receitas com nível de tensão IV, a máquina processará 2 receitas por tick de jogo. Se o nível de tensão da máquina for um nível superior (atingindo o nível ZPM ), ela processará 4 receitas por tick de jogo; se a máquina tiver um mecanismo de overclock sem perdas (como um grande reator químico), ela processará 4 receitas por tick de jogo, respectivamente, em LuV e LuV. O nível ZPM processa 4 e 16 receitas em paralelo."
+				""
+				"Exemplo 2: Para uma receita que leva 3 tiques de jogo e a receita é de overclock sem perdas (o tempo necessário para cada nível de overclock é reduzido para 1/4 do original e o consumo total de energia permanece inalterado), após um nível de overclock, 4 receitas serão processadas ao mesmo tempo, mas o tempo ainda é de 3 tiques de jogo."
+				""
+				"Na verdade, há uma diferença entre “1toc com perdas” e “1toc sem perdas”. O exemplo acima é apenas para referência."
+				"{@pagebreak}"
+				"O paralelismo entre receitas é um mecanismo exclusivo de algumas máquinas multibloco, que permite à máquina executar múltiplas receitas diferentes no mesmo modo de máquina ao mesmo tempo."
+				""
+				"Da mesma forma, o limite inferior do tempo de receita para todas as máquinas com paralelismo entre receitas é de 1 segundo."
+				""
+				"Exemplo: O Separador Sagrado pode fazer barras de prata e barras de ferro ao mesmo tempo, mas não pode centrifugar o ar e fazer barras de ferro ao mesmo tempo."
+				""
+				"\\\"Threads\\\" é um atributo exclusivo de máquinas com paralelismo de receita cruzada (todas possuem 64 threads). O número paralelo total de uma máquina paralela de receita cruzada é o número de threads multiplicado pelo número paralelo da própria máquina. O número de threads representa o número máximo de receitas para as quais o número paralelo total pode ser alocado. Nota: A máquina paralela de receita cruzada fará o possível para alocar todo o paralelismo total a uma receita."
+				"{@pagebreak}"
+				"Caso exista algum material que seja consumido probabilisticamente na receita, será utilizado 100% do consumo do material como base de cálculo em cálculos paralelos."
+			]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "6F503441C24ABD5B"
+			rewards: [
+				{
+					id: "749E6E378FFF375B"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1CC517916931AB"
+					title: "paralelo"
+					type: "checkmark"
+				}
+			]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&7lado frontal &rdeve ser óbvio, lado de saída &9&ré o lado com pontos ou furos, por padrão este é o lado traseiro quando você coloca a máquina."
+				""
+				"As máquinas podem realizar saída automática &aatravés de suas superfícies de saída. Para ativar a saída automática, clique no botão correspondente na GUI. A saída automática de fluidos e itens é alternada separadamente. A saída automática pode ser controlada ainda mais através da placa de sobreposição &d&r."
+				""
+				"Use a chave &5&rpara clicar com o botão direito na máquina para alterar o lado de saída e clicar com o botão direito do mouse para alterar a frente."
+				""
+				"Por padrão, itens e fluidos não podem ser inseridos pelo lado de saída, mas isso pode ser alternado usando a chave de fenda &5&r, clicando com o botão direito diretamente no lado de saída ou clicando com o botão direito do mouse na malha correspondente ao lado de saída."
+				""
+				"Existem algumas máquinas exclusivas que não suportam receitas, como a bomba &3&r, a máquina de mineração &3&r, a máquina de pesca &3&r, o coletor de itens &3&r, etc., essas máquinas produzirão &rem sua frente &7(ainda marcada como pontos)."
+			]
+			icon: "minecraft:hopper"
+			id: "2B1992E2158E63A2"
+			rewards: [
+				{
+					id: "0908FF95BE82979B"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A68620AD827B0E5"
+					title: "Logística de máquinas"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Quando o modo da máquina é alternado enquanto a máquina está em funcionamento, a máquina tentará continuar executando a receita antes da troca. Somente remodelando ou atualizando o material de entrada a máquina pode alterar o modo de operação."
+				""
+				"Exemplo 1: Uma grande instalação de destilação fracionada executa a receita de água destilada no modo de coluna de destilação. A receita da coluna de destilação ainda é executada após a mudança para o modo de câmara de destilação."
+				""
+				"Exemplo 2: Uma grande cervejaria opera a fórmula batata + água → biomassa no modo sala de cerveja. Depois de mudar para o modo fermentador, ele não mudará para a fórmula batata → batata venenosa."
+				""
+				"Exemplo 3: Quando o módulo de aquisição do elevador espacial executa a receita de mineração, ele muda para o modo de fluido de mineração e ainda minera."
+				"{@pagebreak}"
+				"Da mesma forma, se o ambiente operacional da máquina for alterado no meio do caminho quando a máquina estiver executando uma receita (como redução de tempo, paralelismo, etc.), a máquina continuará a executar a receita com a configuração quando começou a executar a receita e não mudará para o novo ambiente operacional até que a receita seja executada."
+				"{@pagebreak}"
+				"No JEI, você descobrirá que a dica de alguns materiais/produtos relacionados à probabilidade tem \\\"bônus de tensão: +n%/por nível\\\", onde o valor específico de \\\"por nível\\\" é o nível máximo de tensão da receita da própria máquina menos o nível mínimo de tensão da própria receita."
+			]
+			icon: "gtceu:large_assembler"
+			id: "662FE1772CF9B5ED"
+			rewards: [
+				{
+					id: "0697DFBA0B8FB11C"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4807FB6A36F025EC"
+					title: "outro"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: -2.5d
+		}
+	]
+	title: "máquina"
+}

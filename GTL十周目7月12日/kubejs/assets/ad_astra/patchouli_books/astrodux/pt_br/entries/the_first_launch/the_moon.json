@@ -1,0 +1,24 @@
+{
+  "name": "Lua",
+  "icon": "ad_astra:/textures/environment/moon.png",
+  "sortnum": 9,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Lua",
+      "item": "ad_astra:desh_ingot",
+      "text": "Parabéns por chegar à lua! Até onde a vista alcançava, a superfície da lua era árida, sombria e silenciosa. No entanto, retire o solo cinzento e as rochas e você poderá encontrar ricos depósitos minerais, incluindo o primeiro material alienígena que você vê no mod - Dais! O Dais pode ser usado na construção de mais máquinas, estações espaciais e foguetes de segundo estágio."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "ambiente lunar",
+      "text": "O ambiente da Lua é muito diferente do da Terra. Como a Lua não tem oxigênio e está experimentando temperaturas extremamente baixas, tentar colocar água congelará e blocos em chamas, como tochas, quebrarão. Qualquer planta e colheita também morrerá rapidamente. Para combater esses efeitos indesejados, você pode construir um distribuidor de oxigênio, que abordaremos mais tarde."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Retornar",
+      "text": "Saudades da Terra? Clique com o botão direito em sua cápsula de pouso enquanto se esgueira para coletar seus foguetes, combustível e plataforma de lançamento e, a seguir, clique com o botão esquerdo na cápsula de pouso para pegá-la. O resto da operação é praticamente a mesma de antes: abaixe a plataforma de lançamento, coloque o foguete, abasteça o combustível e pressione $( k:jump ). Ir para casa!"
+    }
+  ]
+}

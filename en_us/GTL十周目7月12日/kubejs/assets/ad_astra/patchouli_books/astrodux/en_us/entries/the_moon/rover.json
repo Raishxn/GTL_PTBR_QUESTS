@@ -1,0 +1,29 @@
+{
+  "name": "rover",
+  "icon": "ad_astra:tier_1_rover",
+  "sortnum": 3,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "rover",
+      "item": "ad_astra:tier_1_rover",
+      "text": "Rover is the best choice for walking freely on the rugged surface of alien planets. It's incredibly fast, supports two players at the same time, and has 16 slots of storage space. Before you can drive the Ranger, you need to fill it with fuel (right-click while sneaking and put the fuel barrel in from the left)."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "ad_astra:tier_1_rover",
+      "scale": 0.36
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Rover recipe",
+      "recipe": "ad_astra:tier_1_rover"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "radio",
+      "text": "The rover has a built-in radio that plays real internet streaming radio stations. Use it by interacting with the radio on the rover or pressing ($( k:ad_astra.open_radio )). If multiple players are in the rover, they will also hear the same broadcast."
+    }
+  ]
+}

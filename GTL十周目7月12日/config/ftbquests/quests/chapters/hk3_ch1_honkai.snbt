@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch1_honkai"
+	group: ""
+	icon: "hk3gtl:honkai_energy_crystal"
+	id: "4A10000000000000"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bem-vindo ao §dHonkai Impact III-GTL §r. Sua civilização atingiu a voltagem MAX da tecnologia GT, mas isso é apenas o prólogo."
+				""
+				"Além de MAX, existem quatro novos estágios: §dAbismo §r, §dNúmero Imaginário §r, §dQuantum §r, §dFinal §re, eventualmente, sua civilização aceitará o julgamento final."
+				""
+				"Instruções principais §e:"
+				"§71. A máquina multibloco §fdeste módulo não requer um armazém de energia §7. Ele se vinculará automaticamente ao jogador mais próximo quando for formado, e a UE será deduzida diretamente da sua rede sem fio - certifique-se de que haja energia na rede elétrica."
+				"§72. Um grande número de receitas e máquinas são controlados pelo sistema de pesquisa §f§7, e as tarefas subsequentes irão guiá-lo na construção de uma matriz de pesquisa."
+				"§73. Quanto mais poderosa for uma civilização, mais ela será observada §f§7- Muita atenção diminuirá a velocidade da pesquisa, aprenda a gerenciá-la."
+			]
+			icon: "minecraft:book"
+			id: "4A10000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A10000000000101"
+					title: "A era do colapso começa"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lBem-vindo à Era Honkai"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000100"]
+			description: ["O Pergaminho do Arquivo da Civilização é a entrada narrativa para o módulo – marcos acionados, eventos de acampamento e ovos de Páscoa serão todos registrados aqui.", "Quando você se perder, primeiro examine os arquivos. A próxima etapa geralmente fica oculta no texto do evento."]
+			id: "4A10000000000200"
+			subtitle: "crônica de sua civilização"
+			tasks: [
+				{
+					id: "4A10000000000201"
+					item: "hk3gtl:narrative_codex"
+					type: "item"
+				}
+			]
+			title: "Pergaminho do Arquivo da Civilização"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A10000000000100"]
+			description: [
+				"Sintetize a energia Honkai para absorver controladores de torre e construir estruturas multiblocos."
+				"A torre de absorção extrai partículas de energia Honkai originais §d§rdo vazio - este é o ponto de partida para todas as tecnologias além de MAX."
+				""
+				"§eEvitar armadilhas: Depois que o controlador §7for formado, ele vinculará o jogador mais próximo como proprietário. Por favor, fique sozinho para concluir a construção; A UE é deduzida da rede sem fio do proprietário e a receita aguardará (ESPERANDO) quando a rede elétrica estiver sem energia."
+			]
+			id: "4A10000000000300"
+			subtitle: "Extraindo Energia Honkai do Vazio"
+			tasks: [
+				{
+					id: "4A10000000000301"
+					item: "hk3gtl:honkai_absorption_tower"
+					type: "item"
+				}
+			]
+			title: "Torre de absorção de energia §dHonkai"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000300"]
+			description: ["Deixe a torre de absorção continuar a operar e acumular um lote de partículas de energia Honkai originais.", "§7Os cristais, aço da alma e circuitos subsequentes o usam como fonte. Recomenda-se coletá-lo automaticamente o mais rápido possível."]
+			id: "4A10000000000400"
+			rewards: [
+				{
+					count: 256
+					id: "4A10000000000402"
+					item: "hk3gtl:raw_honkai_particle"
+					type: "item"
+				}
+			]
+			subtitle: "Detritos de energia no vazio"
+			tasks: [
+				{
+					count: 512L
+					id: "4A10000000000401"
+					item: "hk3gtl:raw_honkai_particle"
+					type: "item"
+				}
+			]
+			title: "Partículas de energia Honkai originais"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000400"]
+			description: ["Sintetize o Controlador da Planta de Condensação de Cristal de Energia Honkai e construa a estrutura.", "A planta de condensação possui duas linhas de produção: partículas → fragmentos de colapso §d§r(sólido) e partículas → energia de colapso líquido §d§r(fluido). Ambos são necessários."]
+			id: "4A10000000000500"
+			subtitle: "Dois destinos de partículas"
+			tasks: [
+				{
+					id: "4A10000000000501"
+					item: "hk3gtl:honkai_crystal_condenser"
+					type: "item"
+				}
+			]
+			title: "Planta de condensação de cristal de energia §dHonkai"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000500"]
+			description: [
+				"As partículas originais são condensadas em fragmentos Honkai na planta de coagulação."
+				""
+				"§dNo momento em que você obtiver os Fragmentos Honkai, o marco E-MS-001 \"A Era da Energia Honkai Começa\" será acionado. §r- Vem com 8 partículas originais e completa automaticamente a pesquisa R-AB-001/R-AB-002."
+			]
+			id: "4A10000000000600"
+			rewards: [
+				{
+					id: "4A10000000000602"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "E-MS-001 · Começa a era da energia Honkai"
+			tasks: [
+				{
+					count: 128L
+					id: "4A10000000000601"
+					item: "hk3gtl:honkai_energy_crystal"
+					type: "item"
+				}
+			]
+			title: "Fragmento Honkai"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A10000000000500"]
+			description: ["Linha de produção de fluidos da planta de condensação - energia de colapso de líquidos.", "§7Cada etapa da fundição do aço alma o consome, portanto, prepare o armazenamento de fluidos e as tubulações com antecedência."]
+			id: "4A10000000000700"
+			subtitle: "A força vital da fundição do aço soul"
+			tasks: [
+				{
+					id: "4A10000000000701"
+					item: "hk3gtl:liquid_honkai_energy_bucket"
+					type: "item"
+				}
+			]
+			title: "energia de colapso líquido"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A10000000000600", "4A10000000000700"]
+			description: [
+				"Sintetize o Controlador do Centro de Forjamento Soulsteel e construa a estrutura."
+				"O Soul Steel Smelting Center hospeda uma cadeia de fundição de quatro etapas:"
+				"Mistura precursora §d→ nanomatriz ativada → substância primária de aço alma → lingote de aço alma §r"
+				""
+				"§cEvite poços: §7Alto-forno elétrico (EBF) §cIncapaz de fundir aço alma §7- esta receita foi removida, a cadeia de quatro etapas é a única maneira, não desperdice materiais tentando."
+			]
+			id: "4A10000000000800"
+			subtitle: "Cadeia de fundição de quatro etapas"
+			tasks: [
+				{
+					id: "4A10000000000801"
+					item: "hk3gtl:soulium_smeltery"
+					type: "item"
+				}
+			]
+			title: "Centro de fundição de aço alma §d"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000800"]
+			description: [
+				"Conclua a cadeia de fundição de quatro etapas e produza o primeiro lote de lingotes de aço alma."
+				"O aço soul é o material básico para as carcaças e componentes de todas as máquinas da classe Haiyuan."
+				""
+				"§dSegurar o lingote de Soul Steel pela primeira vez acionará o marco E-MS-002 \"O Nascimento da Civilização Soul Steel\" §re completará automaticamente a pesquisa R-AB-003."
+			]
+			id: "4A10000000000900"
+			rewards: [
+				{
+					id: "4A10000000000902"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "E-MS-002 · O nascimento da civilização do soul steel"
+			tasks: [
+				{
+					count: 64L
+					id: "4A10000000000901"
+					item: "hk3gtl:soulium_ingot"
+					type: "item"
+				}
+			]
+			title: "Lingote de Aço da Alma"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000900"]
+			description: [
+				"Sintetize o controlador de matriz de análise de pesquisa Haiyuan e construa a estrutura (acione o evento E-FB-007, desbloqueie o envio manual de pesquisa)."
+				""
+				"Uso do sistema de pesquisa §e:"
+				"§71. Clique com o botão direito no controlador para abrir a interface de pesquisa;"
+				"§72. Selecione o nó de pesquisa e envie os itens necessários para iniciar a pesquisa;"
+				"§73. Durante o período de pesquisa, a matriz §fcontinua desligando §7(também no modo de espera). Caso haja corte de energia ou desmontagem da estrutura, a pesquisa será suspensa;"
+				"§74. A pesquisa é pausada quando os jogadores estão offline, não há necessidade de desligar."
+			]
+			id: "4A10000000000A00"
+			size: 1.5d
+			subtitle: "E-FB-007 · Chave para a Árvore Tecnológica"
+			tasks: [
+				{
+					id: "4A10000000000A01"
+					item: "hk3gtl:abyss_research_analysis_matrix"
+					type: "item"
+				}
+			]
+			title: "Matriz de análise de pesquisa §d§lHaiyuan"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000A00"]
+			description: ["O pacote de pesquisa de dados é um envio comum para muitos nós de pesquisa e é recomendado ter um conjunto permanente.", "§7Você pode ver os requisitos de envio específicos de cada nó na interface de pesquisa."]
+			id: "4A10000000000B00"
+			rewards: [
+				{
+					count: 2
+					id: "4A10000000000B02"
+					item: "hk3gtl:data_research_package"
+					type: "item"
+				}
+			]
+			subtitle: "moeda forte para pesquisa"
+			tasks: [
+				{
+					id: "4A10000000000B01"
+					item: "hk3gtl:data_research_package"
+					type: "item"
+				}
+			]
+			title: "pacote de pesquisa de dados"
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A10000000000600"]
+			description: [
+				"A partir do momento em que você toca a Energia Honkai, sua civilização entra na visão do “fim”."
+				""
+				"Mecanismo de atenção §e:"
+				"§7· Faixa 0~1000, HUD no canto superior esquerdo é exibido em tempo real (oculto quando é 0);"
+				"§7· Acionar marcos importantes, construir máquinas icônicas e manter circuitos de nível superior aumentará a atenção de §c;"
+				"§7· Quanto mais alto o olhar, mais lenta será a velocidade de pesquisa do §c§7(o mínimo é reduzido para menos da metade);"
+				"§7· O limite 100/500/800 acionará eventos de olhar para diferentes acampamentos."
+				""
+				"As contramedidas §aserão desbloqueadas no capítulo Abyss: Gaze Buffer Unit, Honkai Phase Purification Plant, etc."
+			]
+			icon: "minecraft:ender_eye"
+			id: "4A10000000000C00"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4A10000000000C01"
+					title: "Entenda o olhar"
+					type: "checkmark"
+				}
+			]
+			title: "§5O olhar final"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A10000000000A00"]
+			description: [
+				"O multibloco §fdeste módulo não possui um armazém de energia §r: O controlador está vinculado ao jogador mais próximo quando é formado, e a UE é liquidada a partir da rede sem fio GTMThings do jogador."
+				""
+				"Lista para evitar armadilhas §e:"
+				"§71. Quando o equilíbrio da rede elétrica é insuficiente, a máquina entra em ESPERA e não explode ou foge - verifique primeiro a rede elétrica e depois solucione o problema da estrutura;"
+				"§72. A substituição de pessoas e a reconstrução da estrutura mudarão o proprietário da máquina vinculada;"
+				"§73. O sistema Honkai Energy também possui uma rede sem fio independente §dHonkai Energy §7(vinculada ao jogador, capacidade de 1 bilhão), que não está conectada à rede elétrica da UE e será usada no capítulo Haiyuan."
+			]
+			icon: "minecraft:redstone"
+			id: "4A10000000000D00"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4A10000000000D01"
+					title: "Entenda o sistema de fornecimento de energia"
+					type: "checkmark"
+				}
+			]
+			title: "Sistema de alimentação sem câmara §e"
+			x: 20.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Capítulo 1 · De MAX à Honkai Energy"]
+	title: "§dCapítulo 1 · Era da Energia Honkai"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Traje espacial Netherite",
+  "icon": "ad_astra:netherite_space_helmet",
+  "sortnum": 7,
+  "category": "ad_astra:surviving_mars",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Traje espacial Netherite",
+      "item": "ad_astra:netherite_space_helmet",
+      "text": "O traje espacial Netherite é um traje espacial resistente ao calor, ao fogo e altamente resistente que permite sobreviver nos ambientes agressivos de Vênus e Mercúrio. Antes de viajar para esses planetas, você deve criar um traje espacial netherita ou morrerá queimado."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:netherite_space_helmet",
+      "recipe2": "ad_astra:netherite_space_suit"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ad_astra:netherite_space_pants",
+      "recipe2": "ad_astra:netherite_space_boots"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch4_quantum"
+	group: ""
+	icon: "hk3gtl:quantum_1_processor"
+	id: "4A40000000000000"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Estágio quântico (nível de tensão 23~26). À medida que a civilização navega no mar quântico, a pressão da atenção começa a tornar-se a principal contradição.", "A chave para este capítulo: O computador de emaranhamento quântico é o precursor (E-FB-012) de toda pesquisa quântica §d§re deve ser construído primeiro."]
+			icon: "hk3gtl:world_bubble_sample"
+			id: "4A40000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A40000000000101"
+					title: "Entrando no estágio quântico"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lMar Quântico"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000100"]
+			description: [
+				"Computador de emaranhamento quântico - A conclusão aciona §dE-FB-012 §r, desbloqueia pesquisa quântica de linha completa e fornece §abônus de velocidade de pesquisa de 1,5× §rpara a matriz de pesquisa."
+				""
+				"Dica §e: §7É ao mesmo tempo um limite e um acelerador, a primeira prioridade no estágio quântico."
+			]
+			id: "4A40000000000200"
+			size: 1.5d
+			subtitle: "E-FB-012·Portal para Pesquisa Quântica"
+			tasks: [
+				{
+					id: "4A40000000000201"
+					item: "hk3gtl:quantum_entanglement_computer"
+					type: "item"
+				}
+			]
+			title: "§d§lComputador de emaranhamento quântico"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000200"]
+			description: ["Fábrica de rede supercondutora quântica - produz hidrogênio metálico supercondutor §d§r, o material central de circuitos e invólucros quânticos."]
+			id: "4A40000000000300"
+			subtitle: "Blocos de construção de materiais quânticos"
+			tasks: [
+				{
+					id: "4A40000000000301"
+					item: "hk3gtl:quantum_superconductor_lattice_factory"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4A40000000000303"
+					item: "hk3gtl:superconductive_metal_hydrogen"
+					type: "item"
+				}
+			]
+			title: "Fábrica de rede supercondutora quântica §d"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000300"]
+			description: ["Estação de Forjamento de Pensamento Quântico - o berço dos circuitos quânticos de quarta ordem.", "Fundindo o núcleo lógico de emaranhamento quântico §d§r, acionando o marco E-MS-007."]
+			id: "4A40000000000400"
+			rewards: [
+				{
+					id: "4A40000000000402"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "E-MS-007 · Ignição de poder de computação quântica"
+			tasks: [
+				{
+					id: "4A40000000000401"
+					item: "hk3gtl:quantum_thought_forge"
+					type: "item"
+				}
+				{
+					id: "4A40000000000403"
+					item: "hk3gtl:quantum_1_processor"
+					type: "item"
+				}
+			]
+			title: "Núcleo lógico de emaranhamento quântico §6"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000400"]
+			description: ["Forno de fusão de bolhas mundiais e porto comercial da civilização quântica - Incorporar os recursos do Mar Quântico (bolhas mundiais, bens comerciais entre civilizações) no sistema de produção."]
+			id: "4A40000000000500"
+			subtitle: "Canal duplo de recursos quânticos"
+			tasks: [
+				{
+					id: "4A40000000000501"
+					item: "hk3gtl:world_bubble_meltdown_furnace"
+					type: "item"
+				}
+				{
+					id: "4A40000000000503"
+					item: "hk3gtl:quantum_civilization_trade_port"
+					type: "item"
+				}
+			]
+			title: "Forno de fusão §d× Porto comercial"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A40000000000400"]
+			description: ["Honkai Wireless Transit Hub - o nó central da Honkai Wireless Network, transportando a linha de produção honkai_wireless_transit.", "Em conjunto com o armazém sem fio do Capítulo 2, o sistema Honkai Impact é totalmente sem fio."]
+			id: "4A40000000000600"
+			subtitle: "backbone de rede sem fio"
+			tasks: [
+				{
+					id: "4A40000000000601"
+					item: "hk3gtl:honkai_wireless_transit_hub"
+					type: "item"
+				}
+			]
+			title: "Hub de relé sem fio de impacto Honkai §d"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000400"]
+			description: ["A Quantum Precision Assembly Factory e o Quantum Honkai Fusion Ring são responsáveis ​​pelos componentes e energia nos estágios intermediário e final do Quantum.", "Os oito componentes quânticos principais (como §fsensor_quantum_x §7) são produzidos pela fábrica de montagem."]
+			id: "4A40000000000700"
+			subtitle: "Dupla de infraestrutura quântica"
+			tasks: [
+				{
+					id: "4A40000000000701"
+					item: "hk3gtl:quantum_precision_assembly_factory"
+					type: "item"
+				}
+				{
+					id: "4A40000000000703"
+					item: "hk3gtl:quantum_honkai_fusion_ring"
+					type: "item"
+				}
+			]
+			title: "Planta de montagem §d× Anel de fusão"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4A40000000000500"
+				"4A40000000000600"
+				"4A40000000000700"
+			]
+			description: ["Ilumine circuitos quânticos II, III passo a passo."]
+			id: "4A40000000000800"
+			subtitle: "O poder da computação aumenta"
+			tasks: [
+				{
+					id: "4A40000000000801"
+					item: "hk3gtl:quantum_2_assembly"
+					type: "item"
+				}
+				{
+					id: "4A40000000000803"
+					item: "hk3gtl:quantum_3_computer"
+					type: "item"
+				}
+			]
+			title: "Circuitos Quânticos II·III"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000200"]
+			description: [
+				"Matriz de buffer de pressão final - matriz de pesquisa próxima §a, o limite inferior da velocidade de pesquisa é aumentado para 40% §r, uma estrutura que salva vidas quando a visibilidade é alta."
+				"Galeria de Chaves de Deus - Cada unidade tem +10% de velocidade de pesquisa adicional, acumulando até 3 unidades (+30%)."
+				""
+				"Dicas §e: §7pode facilmente alcançar centenas de fixações de estágio quântico. Essas duas máquinas são a salvação da eficiência da pesquisa."
+			]
+			icon: "hk3gtl:gaze_buffer_unit"
+			id: "4A40000000000900"
+			shape: "diamond"
+			subtitle: "Infraestrutura contra o olhar"
+			tasks: [
+				{
+					id: "4A40000000000901"
+					item: "hk3gtl:finality_pressure_buffer_array"
+					type: "item"
+				}
+				{
+					id: "4A40000000000903"
+					item: "hk3gtl:divine_key_gallery"
+					type: "item"
+				}
+			]
+			title: "Tampão de pressão §5× Exibição da chave de Deus"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A40000000000800"]
+			description: [
+				"Quantum Four Quantum Judgment Host - O topo do estágio quântico."
+				""
+				"A primeira participação de §dacionará o marco E-MS-009 §r."
+			]
+			id: "4A40000000000A00"
+			rewards: [
+				{
+					id: "4A40000000000A02"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "E-MS-009 · Cimeira Quântica"
+			tasks: [
+				{
+					id: "4A40000000000A01"
+					item: "hk3gtl:quantum_4_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "Anfitrião de arbitragem quântica §6Quantum Four"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000A00"]
+			description: [
+				"Mil Mundos - Um trem que viaja por mil mundos."
+				"A conclusão aciona os marcos §dE-MS-008 §re §dE-FB-013 §r(entrada final na pesquisa). §cé concluído pela primeira vez com atenção +50 §r."
+				""
+				"Recomenda-se que a plataforma de construção da simulação de espetáculo, local de pré-visualização do espetáculo final, seja construída ao mesmo tempo."
+			]
+			id: "4A40000000000B00"
+			size: 1.5d
+			subtitle: "E-MS-008 / E-FB-013 · Perto do final"
+			tasks: [
+				{
+					id: "4A40000000000B01"
+					item: "hk3gtl:thousand_realms_train"
+					type: "item"
+				}
+				{
+					id: "4A40000000000B03"
+					item: "hk3gtl:wonder_construction_simulation_platform"
+					type: "item"
+				}
+			]
+			title: "§d§lMil Reinos"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A40000000000B00"]
+			description: ["Após completar a pesquisa §dR-QT-012 \"Quantum Export Certification\" §r(prefixado por R-QT-011 / R-QT-006 / R-QT-009), a etapa final é desbloqueada."]
+			icon: "hk3gtl:quantum_4_processor_mainframe"
+			id: "4A40000000000C00"
+			shape: "diamond"
+			subtitle: "R-QT-012 · Bilhete Final"
+			tasks: [
+				{
+					id: "4A40000000000C01"
+					title: "Estudo completo de certificação de exportação quântica"
+					type: "checkmark"
+				}
+			]
+			title: "Exportação Quântica §d"
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Capítulo 4 · Nível de Tensão 23~26"]
+	title: "§dCapítulo 4 · Estágio Quântico"
+}

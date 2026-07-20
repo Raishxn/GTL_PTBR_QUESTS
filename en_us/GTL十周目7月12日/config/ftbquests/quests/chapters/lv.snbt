@@ -1,0 +1,1773 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "lv"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:lv_electric_motor"
+	id: "393DD40CAFBB69A5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"The last three parts can also be used as overlays"
+				"{@pagebreak}"
+				"An electric motor is a device that converts electrical energy into mechanical energy. Its working principle is based on electromagnetic induction. When current passes through the coil of the motor, a force is generated in the magnetic field. This force causes the rotor of the motor to rotate, thereby driving the load to work. Electric motors are widely used in a variety of industrial, commercial and household appliances."
+				"{@pagebreak}"
+				"An electric piston is an electrically driven reciprocating device that converts the rotational motion of an electric motor into linear reciprocating motion. Such devices can be used in various applications such as compressors, pneumatic actuators, robotic arms, etc."
+				"{@pagebreak}"
+				"A robotic arm is a mechanical device that mimics the functions of a human arm. It is usually composed of a series of links and joints and is capable of performing a range of complex movements, including rotation, bending and extension. Robotic arms can be programmed or remotely controlled to perform a variety of tasks such as handling, assembly, welding, spray painting, measurement, and exploration."
+				"{@pagebreak}"
+				"A conveyor belt is a type of transportation machinery used to move materials or products from one location to another. It consists of one or more continuous belt-like structures rotating around two rollers that serve as drive and support points. The conveyor belt can run horizontally, tilted or vertically to suit different handling needs."
+			]
+			id: "2D6BB32B642AE8BA"
+			rewards: [
+				{
+					id: "544735BB21DE9B9D"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "106664C7800B4F5C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5DBFDA1AF623D088"
+					item: "gtceu:lv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "31B636C7F831CBD3"
+					item: "gtceu:lv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "6B73DE9C2DD2D8F1"
+					item: "gtceu:lv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "29F8DEDDA3A8411F"
+					item: "gtceu:lv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "58065362C30CB627"
+					item: "gtceu:lv_electric_pump"
+					type: "item"
+				}
+			]
+			title: "five piece set"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CB85061F0822830", "553B2D61416792DC"]
+			description: [
+				"&l&aIt is recommended to browse the two chapters \\\"Electricity\\\" and \\\"Machine\\\" for the first time playing."
+				""
+				"&lGenerating electricity is very simple in this modpack."
+				""
+				"&b• From LV to ZPM stage, magic energy absorber is your best choice."
+				"&b• Steady transition to the silica reactor stage, and then a few more."
+				"&b• Continue the transition to super reactors, to artificial stars, and finally to the heart of the universe."
+			]
+			icon: "kubejs:lv_universal_circuit"
+			id: "51B9A72C19F84F0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "627DDB0E4F8D395D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "261509D592C17075"
+					item: "gtlcore:cfg_copy"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "13DADE13289E59D0"
+					title: "Low voltage LV"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Allows you to obtain wires and thin wires more efficiently"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "0CF19CAFB3355075"
+			rewards: [
+				{
+					id: "2AC3B6BF675F4682"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377EBFBA8FCF2C0D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "588BCA87500214EF"
+					item: "gtceu:lv_wiremill"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Allows you to obtain boards and foils more efficiently. One ingot can produce one board, and one ingot can produce four foils."]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "3DC0B933936357B3"
+			rewards: [
+				{
+					id: "5722F9FCDB566036"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E58BFA3A2C02ABF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "137AFD6CB3927548"
+					item: "gtceu:lv_bender"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Allows you to obtain rods and screws more efficiently: one ingot produces two rods, one bolt produces one screw"]
+			icon_scale: 1.3d
+			id: "048455FFC9BDC82A"
+			rewards: [
+				{
+					id: "4B27D0AEB350794A"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26FF2F6C4BD85EE2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "57EDE3A779842162"
+					item: "gtceu:lv_lathe"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["Use it to magnetize items"]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "51F0CE5F1BCC78D1"
+			rewards: [
+				{
+					id: "6F1E030D11A09345"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50D625DD2307AC41"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3DA43E9650F117DD"
+					item: "gtceu:lv_polarizer"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"32CE144D9A9F0943"
+				"198ED0A20800F3ED"
+				"20F6BF1EDC6EBDC1"
+			]
+			description: [
+				"&l·&fPlace two&7LV&fenergy bins on the electric blast furnace to increase the voltage to&bMV&fto run the&bMV&fformula (voltage conversion relationship: 4ALV= 1AMV, and so on)"
+				""
+				"Whether the&l·&frecipe can actually run depends on the&6heat capacity/temperature&fof the electric blast furnace, not the coil"
+				""
+				"&l·&fuses&aProduction Line Ripper 2.0 configurable maintenance warehouse&fwith&ahigh-security power grid energy warehouse &f, which can fully satisfy the parallel compensation and achieve batch parallel effects."
+			]
+			icon_scale: 1.3d
+			id: "07D0D7005DA4F446"
+			rewards: [
+				{
+					id: "59A5761D2A7FD87D"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68F309B464BE04CF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "7C1D2BB130DDFB06"
+					item: "gtceu:data_stick"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0BAFA129FC209B2A"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3117BF8E4782DB2A", "553B2D61416792DC"]
+			description: ["This is the block that powers the multi-block structure"]
+			icon_scale: 1.3d
+			id: "32CE144D9A9F0943"
+			rewards: [
+				{
+					id: "00234C85463FBBF3"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28719A322AB39A3F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "66CE417A92BDA931"
+					item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07D0D7005DA4F446"]
+			description: [
+				"This is the warehouse the blast furnace needs"
+				""
+				"Maintenance warehouse &4cannot be shared by multiple &rblock structures"
+				""
+				"Hold the ribbon and right-click the maintenance compartment to quickly maintain it."
+				""
+				"In fact, there is no adhesive tape in the maintenance compartment to prevent failure."
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:maintenance_hatch"
+			icon_scale: 1.3d
+			id: "3F38CC8C8D650202"
+			rewards: [
+				{
+					id: "62C270080F8D4EF8"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					count: 256
+					id: "483D9851469E85ED"
+					item: "gtceu:duct_tape"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F357966596364FF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 256
+					id: "123C32BBD8960074"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "55818A0E7052B32C"
+					type: "checkmark"
+				}
+			]
+			title: "some warehouses"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3E50EE376968519F"
+				"18C2AB18B354F774"
+				"7F9F473B8C508676"
+				"36E33432C72763C8"
+			]
+			description: ["Can be shared by multiple multi-block structures"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "20F6BF1EDC6EBDC1"
+			rewards: [
+				{
+					id: "0368C7A8382A16D9"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49C5A1E9722F17D5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "your first set of coils"
+			tasks: [
+				{
+					count: 16L
+					id: "022D8EB7519F65E1"
+					item: {
+						Count: 16
+						id: "gtceu:cupronickel_coil_block"
+					}
+					type: "item"
+				}
+			]
+			title: "white copper coil"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: [
+				"&l&c&nThe assembly machine is an assembly machine, and the circuit assembly machine is a circuit assembly machine. Don’t get it wrong!!!"
+				"&l&c&nThe assembly machine is an assembly machine, and the circuit assembly machine is a circuit assembly machine. Don’t get it wrong!!!"
+				"&l&c&nThe assembly machine is an assembly machine, and the circuit assembly machine is a circuit assembly machine. Don’t get it wrong!!!"
+			]
+			icon_scale: 1.3d
+			id: "3E50EE376968519F"
+			min_width: 240
+			rewards: [
+				{
+					id: "2DF768F56128A868"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4240557C062D9FA5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Can't assemble the circuit"
+			tasks: [
+				{
+					id: "0A32B247C01822D2"
+					item: "gtceu:lv_assembler"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			description: ["Convert items to fluids"]
+			icon: "gtceu:lv_extractor"
+			icon_scale: 1.3d
+			id: "63C2FA96C708C125"
+			rewards: [
+				{
+					id: "00F71B34C31D9DD1"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7110AFF1E7DE9972"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "061EC839843C4CDA"
+					item: "gtceu:lv_extractor"
+					type: "item"
+				}
+				{
+					id: "5210903E32179E17"
+					type: "checkmark"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13DADE13289E59D0"]
+			description: ["Use a mixer to make powder and then smelt it, or you can directly use an alloy furnace to make it."]
+			id: "7CC28185463F24C2"
+			rewards: [
+				{
+					id: "1B049A74A1F581C4"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6839F84037B01A41"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "377289770B54571F"
+					item: "gtceu:cupronickel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B0AD5C6137AEFCE"
+					item: "gtceu:cupronickel_ingot"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["63C2FA96C708C125"]
+			hide_dependency_lines: true
+			icon: "gtceu:tin_alloy_bucket"
+			id: "18C2AB18B354F774"
+			rewards: [
+				{
+					id: "39AA63FFC2362D94"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C04627F34383788"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:tin_alloy"
+					id: "3781D8803CEA425B"
+					type: "fluid"
+				}
+			]
+			title: "liquid tin-iron alloy"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["Use a mixer to make powder and then smelt it, or you can directly use an alloy furnace to make it."]
+			hide_dependency_lines: true
+			id: "198ED0A20800F3ED"
+			rewards: [
+				{
+					id: "2684D5389A34E1FD"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65A5B14D4039A268"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "7E19E12A1A1C9788"
+					item: "gtceu:invar_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1CB9DD3F4D92C8FD"
+					item: "gtceu:invar_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CF19CAFB3355075", "7CC28185463F24C2"]
+			id: "7F9F473B8C508676"
+			rewards: [
+				{
+					id: "79ECDB061254A027"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39A952FD31203F1C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "75A397E09A1E76A7"
+					item: "gtceu:cupronickel_double_wire"
+					type: "item"
+				}
+			]
+			title: "White copper wire"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3DC0B933936357B3"]
+			id: "36E33432C72763C8"
+			rewards: [
+				{
+					id: "291856E74A9E5F26"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D09E03F80EBAE52"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1CC54740C4BEE22C"
+					item: "gtceu:bronze_foil"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["Obtain materials from electrolytic mineral powder"]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6E3B42BCBA6064F5"
+			rewards: [
+				{
+					id: "5CE4F17667F7FBCE"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EA8272364CBF8A4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2FE273B543714BD1"
+					item: "gtceu:lv_electrolyzer"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E3B42BCBA6064F5"]
+			description: ["At the LV stage, your aluminum powder can only be obtained through electrolytic sapphire or green sapphire powder."]
+			hide_dependency_lines: false
+			id: "73EFFB71A1A827D6"
+			rewards: [
+				{
+					id: "069723A603517148"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64317E910B06D28E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2E83C5426C90F1A6"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73EFFB71A1A827D6", "3F38CC8C8D650202"]
+			id: "11B60450D7F3C188"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56D30533FE70D801"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "306AC42F8E0D1044"
+					item: "gtceu:aluminium_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "298A039260B352D6"
+					item: "gtceu:aluminium_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0877362A9EE36FB3", "006BBE4D312A2E2E"]
+			id: "7D399E31506924A0"
+			rewards: [
+				{
+					id: "005FED5AFFB39EE8"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2515CE9575D54F08"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Your first MV circuit"
+			tasks: [
+				{
+					id: "0F9DE31D5976C043"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D399E31506924A0"]
+			description: ["This is a cheap MV circuit"]
+			id: "40C39645B1DE2488"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25C6770E1DDF86CC"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "348825C79AD479CA"
+					item: "kubejs:elite_control_circuit"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E50EE376968519F"]
+			description: [""]
+			hide_dependency_lines: false
+			id: "3A97E85643D2F8AC"
+			rewards: [
+				{
+					id: "1C7F382616F0B1B4"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C5AA67BCE7E41EF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "395F73DF4EA428B0"
+					item: "gtceu:phenolic_circuit_board"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A97E85643D2F8AC", "1BF78ABAD1FF993F"]
+			description: ["You can use chemical reaction later to make it more efficient."]
+			id: "006BBE4D312A2E2E"
+			rewards: [
+				{
+					id: "556A75455225A1FC"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02679D27F0190154"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4E8A56A18EA1888B"
+					item: "gtceu:phenolic_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CF19CAFB3355075"]
+			id: "1BF78ABAD1FF993F"
+			rewards: [
+				{
+					id: "19C6BCAF6C93F813"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DD28365B93DCBD1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5D16B78D90582E29"
+					item: "gtceu:silver_single_wire"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D63FB02A50F8249", "06F767F4EFFD5DC6"]
+			description: ["It can be made from silicon wafers and polyethylene later"]
+			id: "0877362A9EE36FB3"
+			rewards: [
+				{
+					id: "13E6DA5EABE53D58"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A132C39CAC4A18F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "632999DA643003E5"
+					item: "gtceu:diode"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: ["The early source of&lgallium powder was&dcoarse zinc blende&9(centrifuge circuit No. 3)", "The early source of&larsenic powder was&6coarse realgar&9(centrifuge circuit No. 3)"]
+			id: "6D63FB02A50F8249"
+			rewards: [
+				{
+					id: "243137AFBD25F931"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11D87BA46BF6514F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3DBD74652FB4B8BF"
+					item: "gtceu:gallium_arsenide_dust"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: [
+				"Use it to fire annealed copper and wrought iron"
+				""
+				"Can also recycle useless machines"
+				""
+				"If you find that you can't make a cutting machine now, you might as well look at the tasks above"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "524AC325E68AEB3A"
+			rewards: [
+				{
+					id: "658C1C586BC53BC0"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DBB286114452AC7"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4F2FF11089D97406"
+					item: "gtceu:lv_arc_furnace"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["51F0CE5F1BCC78D1"]
+			hide_dependent_lines: true
+			id: "18DC7021FF2C7EEB"
+			rewards: [
+				{
+					id: "59DCAAF6EF76D2DD"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "275582E3CF19786C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "06EC3C1BF7D124CB"
+					item: "gtceu:magnetic_steel_rod"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["524AC325E68AEB3A"]
+			description: ["Annealed copper can replace copper in many places and is sometimes more efficient"]
+			id: "31B5C9A6F8FB0BA2"
+			rewards: [
+				{
+					id: "25EAB2420E51D496"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AA5766CD744500C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "1B23580F3E537A16"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0C8DEF275C16A96E"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["54034055F57DDAA5", "49ABB341017BAE85"]
+			icon_scale: 1.3d
+			id: "388E5C1034C54D19"
+			rewards: [
+				{
+					id: "2DC114FA32688047"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D8E2296386BEB58"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "08CFFDE3C82C9FCF"
+					item: "gtceu:mv_machine_hull"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35F31D71CC8B67CF"]
+			description: ["{ \\\"text\\\": \\\"You need to use an assembly machine to do it\\\", \\\"italic\\\": \\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3E50EE376968519F\\\" } }"]
+			id: "49ABB341017BAE85"
+			rewards: [
+				{
+					id: "3694138B038CCF53"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C0D053B3FDB3582"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4B0294376308A36D"
+					item: "gtceu:copper_single_cable"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11B60450D7F3C188"]
+			id: "54034055F57DDAA5"
+			rewards: [
+				{
+					id: "78F1A4EDCA1788D5"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E201602E16A9DD4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "20A2D5C286E8A31E"
+					item: "gtceu:aluminium_plate"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27A9D4E765101CB9", "5D4ADE3F2E57635C"]
+			description: [
+				"&l·&fThere are two ways to make rubber strips:"
+				"&l&f- Use&6sulfur powder&fand&6raw rubber powder&fto react in&bchemical reactor &f"
+				"&l&f- Extract using&brubber strip&for&brubber strip &f"
+				""
+				"&l·&bThe Bucket of Whales in the Ocean &f"
+				"&l&f- The slot capacity of each grid is&62.1MB &f. The number of slots is extremely large and can be regarded as an infinite fluid unit."
+				"&l&f- Right click on air to switch between different fluids"
+			]
+			id: "35F31D71CC8B67CF"
+			rewards: [
+				{
+					id: "40AA3B1525E39A70"
+					item: "avaritia:infinity_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01277B7EBADF230D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:rubber"
+					id: "6F04BF9EE3A2DA93"
+					type: "fluid"
+				}
+			]
+			title: "liquid rubber"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D6BB32B642AE8BA"]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "27A9D4E765101CB9"
+			rewards: [
+				{
+					id: "633A0E4549008312"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CBC0EA28F065A5A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "708FD829786614CE"
+					item: "gtceu:lv_chemical_reactor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: ["&lSulfur comes from the ancient world", "&lRaw rubber powder comes from centrifugal viscous resin"]
+			id: "5D4ADE3F2E57635C"
+			rewards: [
+				{
+					id: "47DA92AD0AF8469A"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AC813FCA85A4F9C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1F83D0A9E7203CB7"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "40CDF40EC6D4E24F"
+					item: "gtceu:raw_rubber_dust"
+					type: "item"
+				}
+			]
+			title: "Sulfur powder and raw rubber"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E50EE376968519F"]
+			hide_dependency_lines: true
+			id: "3117BF8E4782DB2A"
+			rewards: [
+				{
+					id: "7A61C3136C8C309B"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08C9F225FB4431E2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5A00FC384A33FB54"
+					item: "gtceu:lv_voltage_coil"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07D0D7005DA4F446"]
+			description: [
+				"Serious&8LV&rsuperconductor"
+				""
+				"The source of&lmanganese is&3coarse pyrolusite&9(centrifuge circuit No. 3)"
+				"The source of&lphosphorus is&3crude tricalcium phosphate&9(centrifuge circuit No. 3)"
+			]
+			id: "4EBCDD1E943F7350"
+			rewards: [
+				{
+					count: 4
+					id: "3578D6E34AD7CFF0"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07F96AEC7076DD32"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 2048
+					id: "333BDE6A34BCCD6E"
+					item: "gtceu:manganese_phosphide_ingot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A0E245BCDBBC3D3"
+					item: "gtceu:manganese_phosphide_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EBCDD1E943F7350"]
+			id: "0BBC0C3FB2E8C800"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03540CC51A7C2D1E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "193D5046F8A8CD47"
+					item: "gtceu:lv_field_generator"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0BBC0C3FB2E8C800"]
+			description: [
+				"&l·&fSlaughterhouse has a greater impact on performance"
+				"&l&fEspecially in entity mode and server environment, when a large number of players use it at the same time, it has a huge impact on&6TPS &f"
+				"&l·&fTherefore,&6unlimited component package&fis directly given away"
+			]
+			icon_scale: 1.3d
+			id: "62B5D5669A535245"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3093F6B626CCE3CE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "252F08459B2B089C"
+					item: {
+						Count: 1
+						id: "ae2:portable_item_cell_16k"
+						tag: {
+							RepairCost: 0
+							amts: [
+								L;
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+								1L
+							]
+							display: {
+								Name: "{\\\"text\\\":\\\"屠宰元件包\\\",\\\"italic\\\":false}"
+							}
+							ic: 23L
+							internalCurrentPower: 20000.0d
+							keys: [
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:egg"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:feather"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:blaze_rod"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:beef"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:sugar"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:ghast_tear"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:poppy"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:mutton"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:wither_skeleton_skull"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:wheat"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:ender_pearl"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:glowstone_dust"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:chicken"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:rabbit"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:rabbit_foot"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:gunpowder"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:potato"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:glass_bottle"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:porkchop"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:carrot"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:rabbit_hide"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:nether_star"
+										}
+									}
+								}
+								{
+									#c: "ae2:i"
+									id: "expatternprovider:infinity_cell"
+									tag: {
+										record: {
+											#c: "ae2:i"
+											id: "minecraft:slime_ball"
+										}
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Electric monster spawning tower"
+			tasks: [
+				{
+					id: "41EE54C0336928F8"
+					item: "gtceu:slaughterhouse"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27A9D4E765101CB9"]
+			description: [
+				"Can be obtained by processing petroleum/crude oil/light oil"
+				""
+				"Heavy oil needs to use MV distillation chamber"
+				""
+				"You can also get it by reacting sulfuric acid and ethanol"
+				""
+				"&aUniversal steam engines ignore voltage levels. For example, for polyethylene, you can look at the formula for first-level purified water in centrifuge mode."
+			]
+			hide_dependency_lines: true
+			id: "0037D6BA6A4ABB72"
+			rewards: [
+				{
+					id: "23021EEA7BDB8553"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79294161C4D1711B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F6EDDC1FC7CD64E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "your first production line"
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:polyethylene"
+					id: "494EC2D9C0052E24"
+					type: "fluid"
+				}
+			]
+			title: "liquid polyethylene"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63C2FA96C708C125"]
+			hide_dependency_lines: true
+			icon: "gtceu:glass_bucket"
+			id: "06F767F4EFFD5DC6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "074BF98A028E48B8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:glass"
+					id: "7F8B174919D3CF04"
+					type: "fluid"
+				}
+			]
+			title: "liquid glass"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["66DC685BEC00E4A6", "4357DF535061C2E5"]
+			description: ["&l·&fWireless Energy Receiver&7is installed on a small machine, allowing the machine to obtain energy directly from the wireless network"]
+			id: "1FA24513965B09A8"
+			rewards: [
+				{
+					id: "77595952A08DE8D5"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AE4CF01B217A842"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "The power of radio"
+			tasks: [
+				{
+					id: "36AFB28F70862E5B"
+					item: "gtmthings:lv_wireless_energy_receive_cover"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["51B9A72C19F84F0E"]
+			description: ["It can also be used to make a lightning processor to steadily obtain liquid ender pearls."]
+			id: "4357DF535061C2E5"
+			rewards: [
+				{
+					id: "32B350A25034F919"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46526019B329EFAB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7BE7A6F90F9E6751"
+					item: "gtceu:lv_emitter"
+					type: "item"
+				}
+				{
+					id: "7C678EAE6E1244AF"
+					item: "gtceu:lv_sensor"
+					type: "item"
+				}
+			]
+			title: "LV sensors and transmitters"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: [
+				"It is recommended to use the Slaughterhouse to obtain it first, or you can use the Lightning Processor to obtain it."
+				""
+				"Extract the ender pearl powder, then solidify the liquid ender pearl into blocks, and then dismantle the ender pearl block (forging hammer or molecular assembly) to obtain&l&blosslessly&r&rpearls"
+				""
+				"Can also use implosion compressor (lossy)"
+			]
+			icon: "minecraft:ender_pearl"
+			id: "66DC685BEC00E4A6"
+			rewards: [
+				{
+					id: "06B013BBB4442F41"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32A6D9DE02D7F013"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 640
+					id: "10FBD6CC5B57D86F"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2A8461478B2B66CC"
+					title: "ender pearl"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4357DF535061C2E5"]
+			description: ["Convert ordinary materials into more useful materials by simulating high-energy lightning, such as Fruit Crystal, Charged Seth Quartz, Ender Pearl Powder, Glowstone Powder, etc."]
+			icon_scale: 1.3d
+			id: "5C831396310E6546"
+			rewards: [
+				{
+					id: "314AAA3E7631AAA5"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E204B34BA164D14"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "68056D9427DD774E"
+					item: "gtceu:lv_lightning_processor"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+	]
+	subtitle: ["Tier1-LV"]
+	title: "low pressure"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Distribuidor de oxigênio",
+  "icon": "ad_astra:oxygen_distributor",
+  "sortnum": 2,
+  "category": "ad_astra:the_moon",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Distribuidor de oxigênio",
+      "item": "ad_astra:oxygen_distributor",
+      "text": "Os distribuidores de oxigênio difundem o oxigênio em um espaço confinado para sustentar a vida dentro dele. Funciona da mesma forma que um carregador de oxigênio, mas a diferença é que ele difunde o oxigênio produzido diretamente ao redor."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "bomba de água",
+      "item": "ad_astra:water_pump",
+      "text": "Uma bomba d'água é necessária quando você precisa de um suprimento ilimitado de oxigênio. Coloque a bomba d'água acima da fonte de água ilimitada, coloque um distribuidor de oxigênio próximo e certifique-se de que haja fornecimento de energia suficiente."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Distribuidor de oxigênio e bomba de água",
+      "recipe": "ad_astra:oxygen_distributor",
+      "recipe2": "ad_astra:water_pump"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Use um dispensador de oxigênio",
+      "text": "Quando o seu distribuidor de oxigênio tiver abastecimento suficiente de água e energia, ele começará a fornecer oxigênio ao espaço confinado onde está localizado. Clique no botão \"Mostrar\" na interface GUI para visualizar o status de distribuição de oxigênio. Se o espaço estiver destacado, o oxigênio foi distribuído com sucesso."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Se o espaço onde o distribuidor de oxigênio está localizado não estiver completamente vedado, o oxigênio escapará de um determinado orifício e um aviso aparecerá na interface GUI do distribuidor de oxigênio. Neste momento, você precisa preencher as lacunas o mais rápido possível para evitar desperdício adicional de energia. Depois disso, você pode respirar ar puro sem usar traje espacial. Cada distribuidor de oxigênio pode fornecer oxigênio para até 6.000 blocos de espaço, o suficiente para cobrir uma estação espacial ou edifício base de tamanho médio. Se quiser oxigenar um espaço maior, basta colocar mais dispensadores de oxigênio."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "ventilação",
+      "text": "Dentro de uma estrutura cheia de oxigênio, você deve fornecer ventilação adequada para garantir que o oxigênio não seja bloqueado quando a porta for fechada. Você pode fazer isso criando um espaço de blocos entre as paredes ou usando blocos de ventilação para permitir o fluxo de oxigênio."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Descompressão rápida",
+      "text": "Quando sua estrutura estiver completamente selada e aparecer um buraco, sua estrutura se descomprimirá rapidamente. Este poderia ser um evento catastrófico. Todas as entidades dentro dele são violentamente sugadas para fora do buraco e morrem sem seus trajes espaciais. Os dispensadores de oxigênio também consumirão rapidamente oxigênio e eletricidade. Certifique-se de evitar isso remendando o buraco o mais rápido possível e evitando buracos acidentais."
+    }
+  ]
+}

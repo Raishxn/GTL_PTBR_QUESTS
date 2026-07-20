@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hk3_ch1_honkai"
+	group: ""
+	icon: "hk3gtl:honkai_energy_crystal"
+	id: "4A10000000000000"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to §dHonkai Impact III-GTL §r. Your civilization has reached the MAX voltage of GT technology, but that's just the prologue."
+				""
+				"On top of MAX, there are four new stages: §dAbyss §r, §dImaginary Number §r, §dQuantum §r, §dFinal §r, and eventually your civilization will accept the final judgment."
+				""
+				"§eCore instructions:"
+				"§71. The multi-block machine §fof this module does not require an energy warehouse §7. It will automatically bind to the nearest player when it is formed, and the EU will be directly deducted from your wireless network - please make sure there is power in the power grid."
+				"§72. A large number of recipes and machines are gated by the §fresearch system §7, and subsequent tasks will guide you to build a research matrix."
+				"§73. The more powerful a civilization is, the more it will be watched §f§7- Too much attention will slow down the research speed, learn to manage it."
+			]
+			icon: "minecraft:book"
+			id: "4A10000000000100"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4A10000000000101"
+					title: "The era of collapse begins"
+					type: "checkmark"
+				}
+			]
+			title: "§d§lWelcome to Honkai Era"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000100"]
+			description: ["The Civilization Archive Scroll is the narrative entrance to the module—triggered milestones, camp events, and Easter eggs will all be recorded here.", "When you get lost, look through the files first. The next step is often hidden in the event text."]
+			id: "4A10000000000200"
+			subtitle: "chronicle of your civilization"
+			tasks: [
+				{
+					id: "4A10000000000201"
+					item: "hk3gtl:narrative_codex"
+					type: "item"
+				}
+			]
+			title: "Civilization Archive Scroll"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A10000000000100"]
+			description: [
+				"Synthesize Honkai energy to absorb tower controllers and build multi-block structures."
+				"The absorption tower extracts §doriginal Honkai energy particles §rfrom the void - this is the starting point for all technologies beyond MAX."
+				""
+				"§ePitfall Avoidance: After the §7controller is formed, it will bind the nearest player as the owner. Please stand by yourself to complete the construction; EU is deducted from the owner's wireless network, and the recipe will wait (WAITING) when the power grid is out of power."
+			]
+			id: "4A10000000000300"
+			subtitle: "Extracting Honkai Energy from the Void"
+			tasks: [
+				{
+					id: "4A10000000000301"
+					item: "hk3gtl:honkai_absorption_tower"
+					type: "item"
+				}
+			]
+			title: "§dHonkai Energy Absorption Tower"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000300"]
+			description: ["Let the absorption tower continue to operate and accumulate a batch of original Honkai energy particles.", "§7The subsequent crystals, soul steel, and circuits all use it as the source. It is recommended to collect it automatically as soon as possible."]
+			id: "4A10000000000400"
+			rewards: [
+				{
+					count: 256
+					id: "4A10000000000402"
+					item: "hk3gtl:raw_honkai_particle"
+					type: "item"
+				}
+			]
+			subtitle: "Energy debris in the void"
+			tasks: [
+				{
+					count: 512L
+					id: "4A10000000000401"
+					item: "hk3gtl:raw_honkai_particle"
+					type: "item"
+				}
+			]
+			title: "Original Honkai Energy Particles"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000400"]
+			description: ["Synthesize the Honkai Energy Crystal Condensation Plant Controller and build the structure.", "The condensation plant has two production lines: particles → §dcollapse fragments §r(solid), and particles → §dliquid collapse energy §r(fluid). Both are needed."]
+			id: "4A10000000000500"
+			subtitle: "Two fates of particles"
+			tasks: [
+				{
+					id: "4A10000000000501"
+					item: "hk3gtl:honkai_crystal_condenser"
+					type: "item"
+				}
+			]
+			title: "§dHonkai Energy Crystal Condensation Plant"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000500"]
+			description: [
+				"The original particles are condensed into Honkai Fragments in the Coagulation Plant."
+				""
+				"§dThe moment you obtain the Honkai Fragments, the milestone E-MS-001 \"The Era of Honkai Energy Begins\" will be triggered. §r- Comes with 8 original particles and automatically completes research R-AB-001/R-AB-002."
+			]
+			id: "4A10000000000600"
+			rewards: [
+				{
+					id: "4A10000000000602"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "E-MS-001 · The era of Honkai energy begins"
+			tasks: [
+				{
+					count: 128L
+					id: "4A10000000000601"
+					item: "hk3gtl:honkai_energy_crystal"
+					type: "item"
+				}
+			]
+			title: "Honkai Fragment"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A10000000000500"]
+			description: ["Fluid production line of condensation plant - liquid collapse energy.", "§7Every step of soul steel smelting consumes it, so prepare fluid storage and pipelines in advance."]
+			id: "4A10000000000700"
+			subtitle: "The lifeblood of soul steel smelting"
+			tasks: [
+				{
+					id: "4A10000000000701"
+					item: "hk3gtl:liquid_honkai_energy_bucket"
+					type: "item"
+				}
+			]
+			title: "liquid collapse energy"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A10000000000600", "4A10000000000700"]
+			description: [
+				"Synthesize the Soulsteel Forging Center Controller and build the structure."
+				"The Soul Steel Smelting Center hosts a four-step smelting chain:"
+				"§dprecursor mixture → activated nanomatrix → soul steel primary substance → soul steel ingot §r"
+				""
+				"§cAvoid pits: §7Electric Blast Furnace (EBF) §cUnable to §7smelt soul steel - this recipe has been removed, the four-step chain is the only way, don't waste materials trying."
+			]
+			id: "4A10000000000800"
+			subtitle: "Four-step smelting chain"
+			tasks: [
+				{
+					id: "4A10000000000801"
+					item: "hk3gtl:soulium_smeltery"
+					type: "item"
+				}
+			]
+			title: "§dSoul Steel Smelting Center"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000800"]
+			description: [
+				"Complete the four-step smelting chain and produce the first batch of soul steel ingots."
+				"Soul steel is the basic material for the shells and components of all Haiyuan-class machines."
+				""
+				"§dHolding Soul Steel Ingot for the first time will trigger milestone E-MS-002 \"The Birth of Soul Steel Civilization\" §rand automatically complete research R-AB-003."
+			]
+			id: "4A10000000000900"
+			rewards: [
+				{
+					id: "4A10000000000902"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "E-MS-002 · The birth of soul steel civilization"
+			tasks: [
+				{
+					count: 64L
+					id: "4A10000000000901"
+					item: "hk3gtl:soulium_ingot"
+					type: "item"
+				}
+			]
+			title: "Soul Steel Ingot"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000900"]
+			description: [
+				"Synthesize the Haiyuan Research Analysis Matrix Controller and build the structure (trigger event E-FB-007, unlock manual research submission)."
+				""
+				"§eResearch System Usage:"
+				"§71. Right-click the controller to open the research interface;"
+				"§72. Select the research node and submit the required items to start research;"
+				"§73. During the research period, the matrix §fcontinues to power off §7(also in standby mode). If the power is cut off or the structure is disbanded, the research will be suspended;"
+				"§74. Research is paused when players are offline, no need to hang up."
+			]
+			id: "4A10000000000A00"
+			size: 1.5d
+			subtitle: "E-FB-007 · Key to the Tech Tree"
+			tasks: [
+				{
+					id: "4A10000000000A01"
+					item: "hk3gtl:abyss_research_analysis_matrix"
+					type: "item"
+				}
+			]
+			title: "§d§lHaiyuan Research Analysis Matrix"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10000000000A00"]
+			description: ["The data research package is a common submission for many research nodes, and it is recommended to have a standing set.", "§7You can see the specific submission requirements of each node in the research interface."]
+			id: "4A10000000000B00"
+			rewards: [
+				{
+					count: 2
+					id: "4A10000000000B02"
+					item: "hk3gtl:data_research_package"
+					type: "item"
+				}
+			]
+			subtitle: "hard currency for research"
+			tasks: [
+				{
+					id: "4A10000000000B01"
+					item: "hk3gtl:data_research_package"
+					type: "item"
+				}
+			]
+			title: "data research package"
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A10000000000600"]
+			description: [
+				"From the moment you touch Honkai Energy, your civilization enters the vision of \"the end\"."
+				""
+				"§eattention mechanism:"
+				"§7· Range 0~1000, HUD in the upper left corner is displayed in real time (hidden when it is 0);"
+				"§7· Triggering key milestones, building iconic machines, and holding higher-level circuits will §cincrease §7’s attention;"
+				"§7· The higher the gaze, the slower the §cresearch speed §7(the minimum is reduced to less than half);"
+				"§7· Threshold 100/500/800 will trigger gaze events for different camps."
+				""
+				"§aCountermeasures will be unlocked in the Abyss Chapter: Gaze Buffer Unit, Honkai Phase Purification Plant, etc."
+			]
+			icon: "minecraft:ender_eye"
+			id: "4A10000000000C00"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4A10000000000C01"
+					title: "Understand gaze"
+					type: "checkmark"
+				}
+			]
+			title: "§5The final gaze"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A10000000000A00"]
+			description: [
+				"The multi-block §fof this module does not have an energy warehouse §r: The controller is bound to the nearest player when it is formed, and the EU is settled from the player's GTMThings wireless network."
+				""
+				"§ePitfall avoidance list:"
+				"§71. When the balance of the power grid is insufficient, the machine enters WAITING and will not explode or run away - check the power grid first and then troubleshoot the structure;"
+				"§72. Substituting people and rebuilding the structure will change the bound machine owner;"
+				"§73. The Honkai Energy system also has an independent §dHonkai Energy wireless network §7(bound by player, capacity 1 billion), which is not connected to the EU power grid and will be used in the Haiyuan chapter."
+			]
+			icon: "minecraft:redstone"
+			id: "4A10000000000D00"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4A10000000000D01"
+					title: "Understand the power supply system"
+					type: "checkmark"
+				}
+			]
+			title: "§eChamberless power supply system"
+			x: 20.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Chapter 1 · From MAX to Honkai Energy"]
+	title: "§dChapter 1 · Honkai Energy Era"
+}

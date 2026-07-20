@@ -1,0 +1,976 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "23041C2CD2A7311B"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:uxv_electric_motor"
+	id: "23041C2CD2A7311B"
+	order_index: 12
+	quest_links: [
+		{
+			id: "7ED0015FCA833C34"
+			linked_quest: "26607B94D873E07A"
+			x: -4.0d
+			y: -4.0d
+		}
+	]
+	quests: [
+		{
+			id: "1433920A4DDCE2B5"
+			tasks: [
+				{
+					id: "2034E44DBD7BF004"
+					item: "kubejs:contained_high_density_protonic_matter"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["55458BD1EFC248C8", "1C4D5D7786F64485"]
+			id: "49ED5C32664DDF6C"
+			tasks: [
+				{
+					id: "4D768A7D3AD7A99E"
+					item: "gtceu:crystalmatrix_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55458BD1EFC248C8", "687FA1A8A6443436"]
+			description: ["Ele é obtido primeiro pela condensação do brilho da estrela de plasma da forja e, posteriormente, pode ser disparado diretamente em um alto-forno elétrico."]
+			id: "7B46E8DE77D0BE8F"
+			subtitle: "poder estelar"
+			tasks: [
+				{
+					id: "73B1CA578DA24E93"
+					item: "gtceu:starmetal_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B46E8DE77D0BE8F", "49ED5C32664DDF6C"]
+			description: ["O número de bobinas paralelas convencionais é equivalente ao compartimento de controle paralelo &bMAX"]
+			icon_scale: 1.3d
+			id: "6E3F07B3E9AB5882"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0679789A4E588089"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "013D66093320BE17"
+					item: "kubejs:starmetal_coil_block"
+					type: "item"
+				}
+			]
+			title: "Bobina Estelar"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5E223597F71DB81D"
+				"4A1F4AAAABC1DE23"
+				"1C4D5D7786F64485"
+			]
+			description: ["Sangue de dragão pode circular"]
+			id: "6A1F7D407BE033A9"
+			subtitle: "Lonsu de alta pureza"
+			tasks: [
+				{
+					id: "65FF8A6173E91F9E"
+					item: "gtceu:draconium_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A1F7D407BE033A9", "6E3F07B3E9AB5882"]
+			description: ["Requer gasolina/alto cetano/alta octanagem como gás de proteção"]
+			id: "108792B10FDEC848"
+			subtitle: "poder do dragão"
+			tasks: [
+				{
+					id: "73F908E584D4518A"
+					item: "gtceu:draconium_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "2E8DB6C5B61682C2"
+			tasks: [
+				{
+					id: "098F3ABC24B16631"
+					item: "kubejs:contained_reissner_nordstrom_singularity"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E8DB6C5B61682C2"]
+			id: "30C7E9FE04629708"
+			tasks: [
+				{
+					id: "0968342DC438273D"
+					item: "kubejs:contained_kerr_newmann_singularity"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["30C7E9FE04629708", "1C4D5D7786F64485"]
+			id: "5EEF654D4CD2168F"
+			tasks: [
+				{
+					id: "1B0100A2DA661C34"
+					item: "kubejs:contained_kerr_singularity"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43CEF1808795ECAD", "1E2191E5E31DC8B0"]
+			id: "5A4208D724465B97"
+			tasks: [
+				{
+					id: "3B1FF91246454F05"
+					item: "kubejs:graviton_transducer"
+					type: "item"
+				}
+				{
+					id: "4724441EFFB20DC2"
+					item: "kubejs:topological_manipulator_unit"
+					type: "item"
+				}
+			]
+			title: "Transdutor Graviton e unidade de manipulação de controle de topologia"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EEF654D4CD2168F"]
+			description: ["Lembre-se de voltar e otimizar a linha de produção de ouro fino"]
+			icon: "kubejs:microwormhole_generator"
+			id: "1E2191E5E31DC8B0"
+			tasks: [
+				{
+					id: "67B06D38CC806064"
+					item: "kubejs:microwormhole_generator"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5A4208D724465B97"
+				"2667AA2D0C0929B3"
+				"437E5E4108228333"
+				"583D5AF26EDAF7DF"
+			]
+			id: "7843B0B9DF3F6FB3"
+			size: 1.0d
+			tasks: [
+				{
+					id: "393B897D7AB83DD9"
+					item: "kubejs:supracausal_processing_core"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7843B0B9DF3F6FB3", "1BA07BC3DBFFF3E6"]
+			description: ["Use buracos de minhoca para iniciar cálculos exatamente no momento em que uma pergunta é feita, para que você possa obter a resposta quando a pergunta for feita."]
+			id: "2895FBB66750C0DF"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5D7AD7E0AEDFAC06"
+					item: "kubejs:supracausal_processor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2895FBB66750C0DF"
+				"41A24F250D9C582A"
+				"042FBA3AE7DE9957"
+				"4C667361F07F4243"
+			]
+			id: "44F9AF619F87974F"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "489CB00F1158C54B"
+					item: "kubejs:supracausal_assembly"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1433920A4DDCE2B5"]
+			icon: "gtceu:free_proton_gas_bucket"
+			id: "55458BD1EFC248C8"
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:free_proton_gas"
+					id: "2398C2DD8FE43EDF"
+					type: "fluid"
+				}
+			]
+			title: "próton livre"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "41B4A5048EBCE287"
+			tasks: [
+				{
+					id: "3D5673DC2CDD9216"
+					item: "kubejs:space_probe_mk2"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41B4A5048EBCE287"]
+			description: [""]
+			icon: "gtceu:liquid_starlight_bucket"
+			id: "6FF53B92BA6D2370"
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:liquid_starlight"
+					id: "324B250B01436D41"
+					type: "fluid"
+				}
+			]
+			title: "Líquido de Energia Estelar"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FF53B92BA6D2370"]
+			description: ["preciso de muito gelo"]
+			id: "687FA1A8A6443436"
+			tasks: [
+				{
+					id: "0FCC5549E1E17DF9"
+					item: "kubejs:resonating_gem"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["108792B10FDEC848"]
+			icon_scale: 1.3d
+			id: "74186877DB7DBE4D"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "A última bomba"
+			tasks: [
+				{
+					id: "68FDD4F89178DC73"
+					item: "kubejs:quantum_chromodynamic_charge"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["74186877DB7DBE4D"]
+			id: "43CEF1808795ECAD"
+			tasks: [
+				{
+					id: "163852661E3ED688"
+					item: "kubejs:quantumchromodynamic_protective_plating"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64441B6414C20A57"]
+			id: "2667AA2D0C0929B3"
+			tasks: [
+				{
+					id: "26EB8AC36A5784A4"
+					item: "kubejs:relativistic_spinorial_memory_system"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "1BA07BC3DBFFF3E6"
+			tasks: [
+				{
+					id: "1359A5CB71BF3AC9"
+					item: "kubejs:manifold_oscillatory_power_cell"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E2191E5E31DC8B0"]
+			id: "15A1DA0756AD0044"
+			tasks: [
+				{
+					id: "13D35A9347B57438"
+					item: "kubejs:macrowormhole_generator"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15A1DA0756AD0044", "17F6AFC430A15CDA"]
+			id: "41A24F250D9C582A"
+			tasks: [
+				{
+					id: "27F3C5C31B10F0B5"
+					item: "kubejs:recursively_folded_negative_space"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1433920A4DDCE2B5"]
+			hide_dependent_lines: true
+			id: "042FBA3AE7DE9957"
+			tasks: [
+				{
+					id: "4DF8BA0CEEDEAE11"
+					item: "kubejs:contained_exotic_matter"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41A24F250D9C582A", "2E46491F39351B94"]
+			id: "76C086C1C346355A"
+			tasks: [
+				{
+					id: "64FA91CB818D7F89"
+					item: "kubejs:eigenfolded_kerr_manifold"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Use apenas a câmara silenciadora &eUEV &r"
+				""
+				"&aA eficiência do coletor de detritos em grande escala é muito maior do que isso"
+				"&aou sala de simulação de dados biológicos"
+			]
+			icon: "gtceu:dragon_egg_copier"
+			icon_scale: 1.3d
+			id: "4A1F4AAAABC1DE23"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3E7381E30A07D91A"
+					item: "gtceu:dragon_egg_copier"
+					type: "item"
+				}
+				{
+					id: "1B42D1FA0E84EF70"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			description: ["Muitos tipos de óxidos são necessários"]
+			icon: "gtceu:radox_bucket"
+			id: "437E5E4108228333"
+			subtitle: "um pouco confuso"
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:radox"
+					id: "342D04D2A204EFE9"
+					type: "fluid"
+				}
+			]
+			title: "LadoX"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01EE0F4156F0578B", "43CEF1808795ECAD"]
+			description: [
+				"As seguintes linhas de produção também podem ser otimizadas (as cores representam estágios de tensão):"
+				"&epó de matriz de polímero de fulereno de água purificada de grau 8/16 Taran &r"
+				"&1Fluido Espacial Expandido Lado X Gas &r"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2A29DA4239E6BA44"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Máquina muito cara"
+			tasks: [
+				{
+					id: "08A25F44515BD5D7"
+					item: "gtceu:qft"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15A1DA0756AD0044", "042FBA3AE7DE9957"]
+			id: "2E46491F39351B94"
+			tasks: [
+				{
+					id: "141EA89CD2B703FA"
+					item: "kubejs:stabilized_wormhole_generator"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B46E8DE77D0BE8F", "1C4D5D7786F64485"]
+			hide_dependency_lines: true
+			id: "64441B6414C20A57"
+			tasks: [
+				{
+					id: "4E6808ACDDA056DD"
+					item: "kubejs:charged_lepton_trap_crystal"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"76C086C1C346355A"
+				"44F9AF619F87974F"
+				"6F7D79B8EA4FBF46"
+			]
+			id: "30AC80FE245A38E0"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "41E02527C8CF211E"
+					item: "kubejs:supracausal_computer"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30AC80FE245A38E0"
+				"1291AD37204E4960"
+				"38FFB6D2003C7EB4"
+			]
+			description: ["A Série Super Causal recomenda apenas o uso deste circuito"]
+			id: "32186EFF7020D432"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29CC1AB75CAA10E6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "vértice do circuito"
+			tasks: [
+				{
+					id: "27BE9064DAF5CCF3"
+					item: "kubejs:supracausal_mainframe"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76C086C1C346355A", "72EDAF2AFEF2827C"]
+			id: "1291AD37204E4960"
+			tasks: [
+				{
+					id: "5BA2D936168F00E3"
+					item: "kubejs:ctc_computational_unit"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E46491F39351B94", "760D2FA10E6907DD"]
+			id: "72EDAF2AFEF2827C"
+			tasks: [
+				{
+					id: "3A4819805B21E8A5"
+					item: "kubejs:ctc_computational_unit_container"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			id: "583D5AF26EDAF7DF"
+			tasks: [
+				{
+					id: "2722C3C695B1ED2E"
+					item: "kubejs:nuclear_clock"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00A227F06D7F109E", "6C1AB68CC57D8670"]
+			id: "6F7D79B8EA4FBF46"
+			tasks: [
+				{
+					id: "6F01212E598DF915"
+					item: "kubejs:nuclear_star"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A61ABB6E4917C6C", "49ED5C32664DDF6C"]
+			description: [
+				"Não olhe para a receita do Ultimate Workbench, você não conseguirá usá-la"
+				""
+				"&cM &r&aA &r&9"
+			]
+			hide_dependency_lines: true
+			id: "00A227F06D7F109E"
+			size: 1.0d
+			subtitle: "ferro arco-íris"
+			tasks: [
+				{
+					id: "4551291536D7C6FC"
+					item: "avaritia:infinity_ingot"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00A227F06D7F109E", "042FBA3AE7DE9957"]
+			description: ["Lembre-se de otimizar as fórmulas de nêutrons cósmicos, matriz cristalina e nêutrons densos"]
+			id: "77A53FAAC098F859"
+			size: 1.0d
+			subtitle: "Veja a receita da Forja de Plasma Hiperdimensional"
+			tasks: [
+				{
+					id: "4ED6698376CC0B5A"
+					item: "avaritia:infinity_catalyst"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01EE0F4156F0578B"]
+			description: ["Usará o recipiente de plasma de alta durabilidade &6, um tanto caro"]
+			id: "5A61ABB6E4917C6C"
+			subtitle: "Use também bombas cromodinâmicas quânticas"
+			tasks: [
+				{
+					id: "3BDF193D7E2C7B39"
+					item: "gtceu:cosmicneutronium_ingot"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			description: ["não inclui toda a tabela periódica"]
+			id: "01EE0F4156F0578B"
+			subtitle: "diāo jī biǎo"
+			tasks: [
+				{
+					id: "1CF19DFA270D37F3"
+					item: "gtceu:periodicium_ingot"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A61ABB6E4917C6C"]
+			id: "233C152024BACC4E"
+			tasks: [
+				{
+					id: "0DD7CD386050EFC7"
+					item: "kubejs:highly_dense_polymer_plate"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"233C152024BACC4E"
+				"17F6AFC430A15CDA"
+				"6C1AB68CC57D8670"
+			]
+			description: ["Precisa da folha de borracha &b&r, espero que você não tenha desmontado a linha de produção de borracha anterior"]
+			id: "38FFB6D2003C7EB4"
+			tasks: [
+				{
+					id: "0B788414AD9CB8B4"
+					item: "kubejs:cosmic_fabric"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["375DD76CAEAD2CE1"]
+			id: "4C667361F07F4243"
+			size: 1.0d
+			tasks: [
+				{
+					id: "16E54E03B44B51AF"
+					item: "kubejs:awakened_core"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43CEF1808795ECAD"]
+			description: ["Supercondutor &1OpV &r"]
+			hide_dependency_lines: true
+			id: "375DD76CAEAD2CE1"
+			tasks: [
+				{
+					id: "530622EE4C092735"
+					item: "gtceu:draconiumawakened_ingot"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26607B94D873E07A", "39F73A63746EE6E8"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "17F6AFC430A15CDA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4100140D3535F108"
+					item: "gtmadvancedhatch:uxv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01EE0F4156F0578B"]
+			description: ["Pode ser usado para replicar elementos e isótopos escassos ou difíceis de produzir."]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "46C33CC4A1420A10"
+			optional: true
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Copie toda a tabela periódica e fragmentos do mundo"
+			tasks: [
+				{
+					id: "3B815CD546D80CF0"
+					item: "gtceu:element_copying"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["108792B10FDEC848", "17F6AFC430A15CDA"]
+			description: [
+				"O último drone, observe que as anãs pretas e brancas requerem 64 drones para coletar"
+				""
+				"Estrela anã preta e branca, brilho estelar"
+			]
+			hide_dependent_lines: true
+			id: "760D2FA10E6907DD"
+			size: 1.0d
+			subtitle: "Estrela anã preta e branca, brilho estelar"
+			tasks: [
+				{
+					id: "002EC33D0813520C"
+					item: "kubejs:space_drone_mk6"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64441B6414C20A57"]
+			description: [
+				"Versão laser do gerador de massa"
+				""
+				"Só pode usar blocos de bobina de aço Titan &e&r"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6C84DCF091D31F16"
+			optional: true
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "maior, mais forte"
+			tasks: [
+				{
+					id: "03E32FDEE4E177BB"
+					item: "gtceu:a_mass_fabricator"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C667361F07F4243"]
+			description: ["Para atualizar com base no nível 2, lembre-se de substituir o shell de linha de montagem &e&rpelo shell de linha de montagem avançado &b&r"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "6C1AB68CC57D8670"
+			rewards: [
+				{
+					count: 64
+					id: "3F74A3B4346E7F89"
+					item: "gtceu:draconium_nanoswarm"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Requer a colocação de nano enxame de dragão"
+			tasks: [
+				{
+					id: "37C6A37E62975D44"
+					item: "gtceu:nano_forge_3"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C1AB68CC57D8670"
+				"233C152024BACC4E"
+				"375DD76CAEAD2CE1"
+			]
+			description: ["Possui overclock sem perdas e multiplicador demorado de 0,05"]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1E220C2F02E65FFC"
+			optional: true
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7AC30167CA6E2D12"
+					item: "gtceu:nano_core"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30AC80FE245A38E0"]
+			description: [
+				"&6&lGTLAdditions「Removedor de detritos por ressonância atômica macro」"
+				""
+				"&7▌ Função:"
+				"&lpode executar todas as receitas diferentes simultaneamente através de múltiplas portas de entrada, e o número de paralelos para cada receita é o mesmo"
+				"&lpossui dois modos de trabalho:"
+				"&l● Modo de remoção de núcleo em estrela: paralelo básico&a1536, cada temperatura é superior a&e1200K&7paralelo +&a300, requer nível de estrela ou bobinas acima, pode incorporar até&a256 matrizes de estrelas"
+				"Fórmula multiplicadora:&72 * (6 + 10 * ((Quantidade - 1) / 184)^2)"
+				"&l● Modo de cópia de elemento: requer bobina eterna e matriz&ade 256 estrelas, com capacidades paralelas ilimitadas"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "79FCC33FA617B33A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C25844D4484E621"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2478D29BDFCCC47E"
+					item: "gtladditions:macro_atomic_resonant_fragment_stripper"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30AC80FE245A38E0"]
+			description: [
+				"&6&lGTLAdições \\\"Esqueleto de máquina de velocidade variável\\\""
+				""
+				"&7▌ Função:"
+				"Versão laser&ldo acelerador de decaimento"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Somente para fórmulas de aceleração de decaimento"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7324863A300725BE"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C66D05936C3807B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7DEDECD6795AADA9"
+					item: "gtladditions:skeleton_shift_rift_engine"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30AC80FE245A38E0"]
+			description: [
+				"&6&lGTLAdições \\\"Dream Eclipse of Light\\\""
+				""
+				"&7▌ Função:"
+				"Versão do laser da máquina de gravação a laser &l"
+				""
+				"&7▌ Sugestões:"
+				"&l&6Substituição superior completa da matriz de gravação a laser com foco dimensional"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "086706A0888BFBF2"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23C141B4BB158C64"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "26EE58325C3B3FA7"
+					item: "gtladditions:lucid_etchdreamer"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["Tier12-UXV"]
+	title: "Pressão extrema"
+}

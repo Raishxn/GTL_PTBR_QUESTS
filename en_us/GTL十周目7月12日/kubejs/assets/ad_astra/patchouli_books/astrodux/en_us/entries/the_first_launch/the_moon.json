@@ -1,0 +1,24 @@
+{
+  "name": "Moon",
+  "icon": "ad_astra:/textures/environment/moon.png",
+  "sortnum": 9,
+  "category": "ad_astra:the_first_launch",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Moon",
+      "item": "ad_astra:desh_ingot",
+      "text": "Congratulations on reaching the moon! As far as the eye could see, the surface of the moon was barren and gloomy and silent. However, peel back the gray soil and rocks and you can find rich mineral deposits, including the first alien material you see in the mod - Dais! Dais can be used in the construction of more machines, space stations and second-stage rockets."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "lunar environment",
+      "text": "The moon's environment is very different from Earth's. Since the moon has no oxygen and is experiencing extremely low temperatures, trying to place water will freeze, and burning blocks, such as torches, will break. Any plant life and crops will also die quickly. To combat these unwanted effects, you can build an oxygen distributor, which we'll cover later."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Return",
+      "text": "Miss the Earth? Right-click on your landing pod while sneaking to collect your rockets, fuel, and launch pad, then left-click on the landing pod to take it. The rest of the operation is pretty much the same as before: put down the launch pad, place the rocket, fill up the fuel, and press $( k:jump ). Go home!"
+    }
+  ]
+}

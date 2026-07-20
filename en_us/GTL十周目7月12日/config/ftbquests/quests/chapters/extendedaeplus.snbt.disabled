@@ -1,0 +1,629 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extendedaeplu"
+	group: ""
+	icon: "extendedae_plus:infinity_biginteger_cell"
+	id: "68196BEF8441A65E"
+	images: [
+		{
+			height: 5.0d
+			image: "merequester:block/wall_active"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:block/annihilate_core"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			height: 4.0d
+			image: "ftbquests:textures/picture/012.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "gtceu:block/overlay/appeng/me_extended_export_buffer"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f模组 &6「增强型无线连接器」"
+				""
+				"&6&l» &b核心特点"
+				"&7功能与默认的&e无线连接器&7相同，但配置流程&a大幅简化&7，并支持&e跨维度连接&7。"
+				""
+				"&6&l» &b配置步骤"
+				"&71. &b主端设置&7：将主端连接至AE主网，它会&a自动锁定1号频道&7。"
+				"&72. &b频道锁定&7：使用&e扳手右键&7点击主端，可手动确认或重新锁定频道。"
+				"&73. &b从端连接&7：放下从端后，它将&a自动尝试连接至主端的1号频道&7，无需额外配置。"
+				""
+				"&6&l» &b优势总结"
+				"&a• 配置极简&7：放下即连，告别复杂设置。"
+				"&a• 跨维度支持&7：无视距离与维度限制，构建全局网络。"
+				"&a• 频道固定&7：主端独占1号频道，避免频道冲突与管理混乱。"
+				""
+				"&6&l※ 附言"
+				"&7&m是时候告别笨重的量子环了&7，让连接变得如此轻松。"
+			]
+			icon: "extendedae_plus:wireless_transceiver"
+			id: "78669107F53337D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61210C9421C25B1F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0FED9F9FED0339DC"
+					item: "extendedae_plus:wireless_transceiver"
+					type: "item"
+				}
+				{
+					id: "70355C680D980206"
+					item: "extendedae_plus:labeled_wireless_transceiver"
+					type: "item"
+				}
+			]
+			title: "无线收发器"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f模组 &6「中央控制器」"
+				""
+				"&6&l» &b核心功能"
+				"&7将此机器连接至你的&eAE主网络&7，即可集中管控网络中所有&e样板供应器&7的以下工作模式："
+				"&7• &e阻挡模式"
+				"&7• &e高级阻挡模式"
+				"&7• &e智能翻倍模式"
+				""
+				"&6&l» &b使用效果"
+				"&7无需逐个设备设置，可&a一键批量切换&7所有样板供应器的运行逻辑，极大简化大规模生产线的管理。"
+				""
+				"&6&l» &b注意事项"
+				"&c• &7仅对网络中已存在的&e样板供应器&7生效。"
+				"&c• &7请确保网络频道与能源供应充足，以支持全局控制功能。"
+			]
+			icon: "extendedae_plus:network_pattern_controller"
+			id: "4A6F949923991BA6"
+			rewards: [
+				{
+					id: "28C403965608B682"
+					item: "extendedae_plus:network_pattern_controller"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7864429652DBD3B3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09501A2C442A043A"
+				type: "checkmark"
+			}]
+			title: "样板供应器状态控制器"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &f模组新增 &6「智能阻挡模式」"
+				""
+				"&6&l» &b模式特点"
+				"&7• &a智能过滤&7：阻挡一切&c非当前样板&7所需的材料，仅允许正在处理的样板材料自由通过。"
+				"&7• &a持续供应&7：开启后，相关材料将&e持续发送&7，直至满足样板需求，而非原版的一份份发送。"
+				""
+				"&6&l» &b与原版区别"
+				"&c原版阻挡模式&7：严格按份数顺序发送材料，一次一份。"
+				"&a智能阻挡模式&7：为目标样板&e持续补充&7所有所需材料，极大提升连续生产效率。"
+				""
+				"&6&l» &b使用建议"
+				"&7• 适用于需要&e长时间连续生产&7同一种物品的自动化产线。"
+				"&7• 可有效避免材料卡顿，确保流水线&a不间断运行&7。"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "10321E68A0D24305"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06EF371EE3B0CBBC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5234BD60E90BF84F"
+				title: "智能阻挡模式"
+				type: "checkmark"
+			}]
+			title: "智能阻挡模式"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &f模组新增 &b「样板上传」&f功能："
+				""
+				"&6&l» &b功能描述"
+				"&7在&e样板编码终端&7中，可将编辑好的样板直接上传至已连接的&e样板供应器&7或&e样板总成&7。"
+				""
+				"&6&l» &b前提条件"
+				"&c• &7目标设备（样板供应器/样板总成）&c已完成命名&7，可以用AE2自带的石英切割刀。"
+				"&a• &7建议命名时统一采用“&e[机器类型]-[用途]&7”例如“&e[流体固化器-锭]&7”的格式，以便于管理。"
+				""
+				"&6&l» &b上传步骤"
+				"&71. 在终端中选择要上传的样板。"
+				"&72. 在界面&e下方映射区&7，&a新增一条映射&7。"
+				"&73. 在映射中输入&e与目标设备完全一致的名称&7例如&e[流体固化器]&7用途不需要添加进去。"
+				"&74. 确认后，样板将直接同步至对应设备。"
+				""
+				"&c&l⚠ 特别注意"
+				"&c• 为 &e装配矩阵 &c上传样板时，其内部必须提前放置 &6“装配矩阵上传核心”&c。"
+				"&c• 请确保设备名称拼写准确，否则将无法完成映射。"
+				"&7• 分子操作者目前版本不支持直接上传样板，但可以用命名的方式上传，例如把&dME分子装配矩阵端口&7改名为“&e[1分子样板批发]&7，这样就可以在写好样板的时候直接点击上传按钮，在第一页 第一个就是他，点击上传即可。"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "765EF13C171D42CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59124910075566F7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D1BD1839AD4C9D0"
+				title: "样板上传"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &f模组无线终端增强功能："
+				""
+				"&6&l» &b快捷搜索"
+				"&7将光标对准任意物品按 &eF&7，即可在AE终端中直接搜索该物品。"
+				""
+				"&6&l» &b一键下单"
+				"&7使用鼠标 &e中键&7 点击已添加书签的物品，可直接下达合成订单。"
+				""
+				"&6&l» &b快速提取"
+				"&7按住 &eShift + 左键&7 点击终端中的物品，可直接将其取出至背包。"
+				""
+				"&c&l⚠ 重要前提："
+				"&c以上所有增强功能，均需配合 &6无线终端 &c使用。"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "7C41A497091EE513"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "414B9485B3FA9850"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "186239756876CB04"
+				title: "JEI书签改动"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &f模组新增实用工具，助你高效排查与规划自动化："
+				""
+				"&b▶ 快速定位材料"
+				"&7在自动化合成界面，&bShift+右键&7点击卡住的材料，即可自动跳转至对应的样板供应器，并高亮标记该材料，方便快速检查样板设置。"
+				""
+				"&b▶ 一键添加书签"
+				"&7合成时缺少某个物品？按住&bShift再取消&7，即可自动将其添加至你的JEI书签列表，便于后续查找与补充。"
+				""
+				"&c⚠ 兼容性说明："
+				"&7以上功能&c不兼容样板总成&7，在使用时请注意。"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "3D8ED993ABD824B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C0C011FCDE0B5BF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "628626E7E02CAE58"
+				title: "下单改动"
+				type: "checkmark"
+			}]
+			title: "下单改动"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9ExtendedAE-Plus &f模组现已支持 &b「智能翻倍」&f功能："
+				"&7启用后，样板供应器将一次性发送配方所需的全部材料，无需手动翻倍样板。"
+				""
+				"&c⚠ 注意："
+				"&7• 该功能仅建议用于&e大型多方块机器&7，在单方块机器中使用可能导致材料卡住。"
+				"&7• 正式使用时，请将&e并行数控制在 100 以下&7，否则下达订单时可能出现严重卡顿。"
+				""
+				"&a✅ 兼容性说明："
+				"&7此功能与样板总成的&a智能翻倍系统&7并不冲突。若已使用样板总成，系统将优先使用其智能翻倍逻辑。"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "0474F884C399CCDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A9F604BE5E5A01"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4654BE144CF51BD1"
+				title: "智能翻倍"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["082EC9089C89ED32"]
+			description: [
+				"&9&lExtendedAE-Plus &f模组现已整合"
+				"&7样板将直接显示可制作的材料数量，整理与规划更加轻松。"
+			]
+			icon: "kubejs:command_block_broken"
+			id: "66FC07AD3290E690"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "503B64B1358D3AB0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15775D220A643DE4"
+				title: "样板显示改动"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:oak_hanging_sign"
+			id: "082EC9089C89ED32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47BBFF41890B9142"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "398863D2A27BBC13"
+				title: "有用的功能"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:reinforced_deepslate"
+			id: "4839D9A5F9085952"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64AF5A1BA58D1A00"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5212B40EFC2D5FC7"
+				title: "机器/方块/物品"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f模组 &6「超频加速器」"
+				""
+				"&6&l» &b功能定位"
+				"&7此机器的效果 &e类似于加速火把&7，但必须配合 &6“实体加速卡” &7使用，为核心生产过程提供巨大的时间增益。"
+				""
+				"&6&l» &b核心效果"
+				"&7• 在&e发电&7等持续运转的流程中，配合使用可实现最高&e万倍的效率提升&7。"
+				"&7• 能&a极快地推进&7需要长时间运行的配方或产能设备。"
+				""
+				"&c&l⚠ 重要警告"
+				"&c• 由于原理是直接作用于游戏实体运算，&e不推荐大量部署&c。"
+				"&c• 过量使用会 &4严重消耗服务器TPS&c，影响整体运行流畅度。"
+				"&7• 建议仅用于&e关键瓶颈环节&7或&e前期过渡&7。"
+			]
+			id: "076E0FD32E385ECB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5971F8FCB5A1DFB6"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3FB4BD321E513096"
+				item: "extendedae_plus:entity_speed_ticker"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f模组 &6「无限复合存储元件」"
+				""
+				"&6&l» &b物品特性"
+				"&7• 集成&e无限存储元件&7与&e无限流体元件&7的全部功能于一体。"
+				"&7• 拥有&a近乎无限的存储容量&7，理论上可存储无限数量的物品。"
+				"&7• 最多支持&e21亿种&7不同的物品类型（区分NBT与损害值）。"
+				""
+				"&6&l» &b存储兼容性"
+				"&a• 物品&7（包含NBT物品）"
+				"&a• 流体&7（包括高温流体与等离子体）"
+				"&a• 气体&7（来自通用机械等模组）"
+				"&a• 化学品&7（来自Gregicality等模组）"
+				"&a• 及其他大多数可存储的数据类型"
+				""
+				"&6&l» &b使用说明"
+				"&7• 直接放入ME驱动器即可使用，无需额外配置。"
+				"&7• 可完全替代传统的无限存储元件与无限流体元件。"
+			]
+			id: "48574B38F4F6AEDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C034FB0880ABF0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1142F13A5408DBE0"
+				item: "extendedae_plus:infinity_biginteger_cell"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4839D9A5F9085952"]
+			description: [
+				"&9ExtendedAE-Plus &f模组 &6「装配矩阵上传核心」"
+				""
+				"&6&l» &b核心用途"
+				"&7此物品是 &e装配矩阵 &7实现 &a自动上传功能 &7的必备组件。"
+				"&7必须将其放入装配矩阵结构内部，才能启用从终端直接上传样板至矩阵的便捷功能。"
+				""
+				"&6&l» &b重要性说明"
+				"&c• 关键组件&7：缺少它，装配矩阵将 &c无法使用 &9ExtendedAE-Plus &7提供的终端直连上传特性。"
+				"&a• 一次性放置&7：只需在矩阵中 &a放入一个&7，即可永久解锁该矩阵的自动上传能力。"
+				""
+				"&7&o提示：请确保在尝试通过样板编码终端上传前，已正确放置此核心。"
+			]
+			id: "070DCDB2DD67D5E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F44D08BEF497704"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "761BE494F634A260"
+				item: "extendedae_plus:assembler_matrix_upload_core"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+	]
+	title: "Extendedae-Plus"
+}

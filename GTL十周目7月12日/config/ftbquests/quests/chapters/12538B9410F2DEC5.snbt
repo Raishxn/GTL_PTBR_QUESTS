@@ -1,0 +1,1062 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "12538B9410F2DEC5"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:zpm_electric_motor"
+	id: "12538B9410F2DEC5"
+	order_index: 7
+	quest_links: [
+		{
+			id: "5EEBF7A4BECF0BAA"
+			linked_quest: "0B89B3108EB4A01F"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0A5828AFCC7D442F"
+			linked_quest: "0485D45408234C99"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "46BFC6BCC3440819"
+			linked_quest: "4A058FA1859A00D1"
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["38D23D186C444492", "5E9E2F25AE1EC731"]
+			description: ["A sala limpa estéril pode ser compatível com versões anteriores da fórmula de sala limpa &6&r, e o mesmo princípio se aplica à limpeza absoluta"]
+			icon: "gtceu:sterilizing_filter_casing"
+			icon_scale: 1.3d
+			id: "04B1D03A3FE114F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "750E8B64B649D0DD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Adequado para pesquisa biológica"
+			tasks: [
+				{
+					id: "42A2A3DE0D71F79C"
+					item: "gtceu:sterilizing_filter_casing"
+					type: "item"
+				}
+				{
+					id: "42A0398691BDA897"
+					item: "gtceu:sterile_cleaning_maintenance_hatch"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4DD127E33DCEC616"
+				"233CA36D529EC3FB"
+				"4A058FA1859A00D1"
+				"5D980DBF92017008"
+			]
+			description: [
+				"&l·&fO corpo do reator de fusão é usado apenas como catalisador"
+				"&l&fTodas as receitas de fusão foram transferidas para o forno de fundição de liga &b"
+				"&l&fComo preço, a receita leva 16 vezes mais tempo que &6"
+			]
+			icon_scale: 1.3d
+			id: "77759D1FE48F958B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11905C179AD05CB1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Vá mais longe"
+			tasks: [
+				{
+					id: "00D112DFCD012D77"
+					item: "gtceu:zpm_fusion_reactor"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B", "6A59FA11D10C648A"]
+			description: ["&cNão procure &r&eGanimedes &rilmenita e &eGanimedes &rminério de titânio"]
+			id: "38D23D186C444492"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79CFC034C79EBFBB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "33183645B439CFDB"
+					item: "gtceu:tritanium_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["503C03C654730F65"]
+			description: ["O método de produção não é mais reação química"]
+			id: "051792ED136C96D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "454AC127230F3B81"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7DFA913411D706CB"
+					item: "gtceu:wetware_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04B1D03A3FE114F1"]
+			description: [
+				"Neste momento, você também pode ir diretamente para o grande."
+				""
+				"Na verdade, o bloco mecânico do filtro na estrutura multibloco só pode usar o nível mais baixo e não há necessidade de atualização."
+			]
+			icon: "gtceu:large_incubator"
+			icon_scale: 1.3d
+			id: "503C03C654730F65"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00B9ECA27226DE8B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "42AA2699F73F1D0A"
+					item: "gtceu:large_incubator"
+					type: "item"
+				}
+			]
+			title: "tanque de cultura"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["503C03C654730F65"]
+			id: "64EAB77978C87CE9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75EB6DC7ADF12B79"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B0EF909ED8DFCFD"
+					item: "gtceu:stem_cells"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64EAB77978C87CE9", "7EFC2C7FF6FFF1F7"]
+			id: "46855799A4471E34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C13EEA4614E599B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0623E66A9C488A49"
+					item: "gtceu:neuro_processing_unit"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["46855799A4471E34"]
+			description: ["Execute rapidamente cálculos em grande escala usando células-tronco cultivadas organicamente interagindo com estimulação eletrônica."]
+			id: "425D7CD010B9C90E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CE11D2A3B8502EF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1C1B32F4B3E713A2"
+					item: "gtceu:wetware_processor"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["425D7CD010B9C90E"]
+			id: "582AFD622AA67792"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "799B4930D63CD805"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "63AC52623C55FBD6"
+					item: "gtceu:wetware_processor_assembly"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["582AFD622AA67792"]
+			id: "7CF037F2C4BF55B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26DC4E706EA64372"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F3346C0C5E0710C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5E77549BE2B175D2"
+					item: "gtceu:wetware_processor_computer"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B"]
+			description: [
+				"Como Just Enough Characters (Universal Pinyin Search) não inclui o pinyin correspondente a muitos elementos da tabela periódica, você pode usar \\\"#\\\" + \\\"element symbol\\\" para pesquisar, por exemplo: #ds pode pesquisá-lo 𫟼; como a fórmula química do fluido não será exibida na rede ME, você pode usar \\\"*\\\" + \\\"tag\\\" para pesquisar fluidos, por exemplo *darmstadtium pode pesquisar líquido 𫟼"
+				""
+				"Você também pode atualizar este mod diretamente manualmente. A versão mais recente resolveu esse problema."
+				""
+				"&aPor que eu deveria lhe dar um vidro de campo de força? Será útil mais tarde"
+			]
+			id: "7C23CC6ADDC33EA0"
+			rewards: [
+				{
+					id: "7EE1E2350338492F"
+					item: "kubejs:force_field_glass"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EF775E107AD1B13"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "68B49A32B28AECEA"
+					item: "gtceu:darmstadtium_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77759D1FE48F958B"]
+			description: ["A noite está tão linda ~"]
+			id: "73C70C42B7EF5D4F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18FB28DB69E1FEEB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1E7062E4355C5661"
+					item: "gtceu:americium_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38D23D186C444492"]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "59CA7B4A4A417B53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "393D8E88379DE548"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "660C7300DF6A9A97"
+					item: "gtceu:tritanium_coil_block"
+					type: "item"
+				}
+			]
+			title: "Três bobinas de titânio"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59CA7B4A4A417B53"]
+			description: ["Supercondutor &3UV &r"]
+			hide_dependency_lines: true
+			id: "62D2B830A98424BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "417A7FE905D5EB65"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "188D424E2FE3A663"
+					item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7CF037F2C4BF55B5", "5E86110BBAEA92BA"]
+			dependency_requirement: "one_completed"
+			description: ["Na verdade, não há necessidade de usar um switch de rede"]
+			id: "0A2D46609F5C3CAB"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BF1D99A47554C8B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30AB647D0F43FDE4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "31A360FB27D6251A"
+					item: "gtceu:wetware_processor_mainframe"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["Também será útil numa fase posterior", "&aEste armazém de energia é para você usar mais tarde. Claro, você também pode usá-lo agora, mas lembre-se que é para o acelerador de decaimento."]
+			icon_scale: 1.3d
+			id: "5D4131C48F9BAE46"
+			rewards: [
+				{
+					id: "2EF551034E1352F3"
+					item: "gtmthings:max_2a_wireless_energy_input_hatch"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "134845642FA5F6B6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "271AD42D98889163"
+					item: "gtceu:decay_hastener"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5B01312E34A3AD60"
+				"0F22A8CE63F369CA"
+				"52DF531AFB3A07CE"
+				"4172820CE8E15F90"
+			]
+			icon_scale: 1.3d
+			id: "4DD127E33DCEC616"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "245A7BC2F0E823BE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5E1809039C58C20B"
+					item: "gtceu:fusion_coil"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D2B830A98424BB"]
+			description: [
+				"O poder de computação fornecido por um computador pode não ser suficiente. Se você deseja combinar o poder da computação, você deve usar esta máquina."
+				""
+				"Certifique-se de que o componente da ponte &b&lesteja instalado em seu computador antes de usar"
+				"&r"
+				"O poder computacional exibido na interface do switch é apenas a soma do poder computacional máximo teórico de todos os computadores conectados. &c&lnão é o poder de computação real &r."
+				""
+				"Quando o switch de rede estiver operando normalmente, cada armazém de poder de computação continuará a consumir energia &e7.680 &rEU/t (0,9A &6HV &r). &4Se a fonte de alimentação for insuficiente, alguns depósitos de energia computacional falharão."
+				"&r"
+				"Os switches podem ser conectados em série (os switches podem aceitar o poder de computação de outros switches)"
+				"&l· Os switches &fsuportam conexão em série e podem receber o poder de computação combinado de outros switches"
+			]
+			icon: "gtceu:network_switch"
+			icon_scale: 1.3d
+			id: "5E86110BBAEA92BA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07841244228B9DDA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1DF9E2E28B0FC970"
+					item: "gtceu:network_switch"
+					type: "item"
+				}
+				{
+					id: "306E8A5EA724CE3C"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D4131C48F9BAE46", "7C4C11E7C931C01B"]
+			description: [
+				"Produzir alguns elementos transurânicos e séries de antimatéria"
+				""
+				"A estrutura de armazém de energia dupla + armazém de laser único pode ser usada, e o nível da fórmula e a potência podem ser apreendidos em ambas as extremidades."
+			]
+			icon_scale: 1.3d
+			id: "2802E34A99CE1D79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20272011DD610464"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Necessário mais tarde"
+			tasks: [
+				{
+					id: "30BC4BA2F6A606D5"
+					item: "gtceu:super_particle_collider"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0507FDF7BECE29AF", "52DF531AFB3A07CE"]
+			description: ["Você pode criar um componente de ponte de computador, mas talvez não precise dele neste estágio."]
+			id: "5E9E2F25AE1EC731"
+			rewards: [
+				{
+					id: "2D31F3080985F641"
+					item: "gtceu:hpca_bridge_component"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1886E392DDEF281A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3C99AB623FB588D4"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B89B3108EB4A01F", "5E9E2F25AE1EC731"]
+			description: ["Você pode substituir seu computador por componentes de computação avançados"]
+			hide_dependent_lines: true
+			id: "7C4C11E7C931C01B"
+			rewards: [
+				{
+					id: "317FA5D50BB6754B"
+					item: "gtceu:hpca_advanced_computation_component"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28E23FDF715388D3"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1A1852A8E4DD94CF"
+					item: "gtceu:zpm_field_generator"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: [
+				"Entrada de óleo e vapor, saída de produtos"
+				""
+				"As bobinas afetam apenas o consumo de energia"
+				""
+				"A planta petroquímica não produzirá produtos intermediários. Você pode optar por manter a antiga linha de produção petroquímica ou ir para trás e usar o elevador espacial para coletar diretamente os produtos intermediários."
+			]
+			icon_scale: 1.3d
+			id: "61838E13426B2B88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16F715AE223AD35D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Um passo"
+			tasks: [
+				{
+					id: "6FEB78AB1D5BDDCA"
+					item: "gtceu:petrochemical_plant"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64EAB77978C87CE9"]
+			description: ["Enxame de nanorrobôs"]
+			icon: "gtceu:carbon_nanoswarm"
+			id: "02F523E003E1C93D"
+			rewards: [
+				{
+					count: 16
+					id: "44EDD962157B2BA7"
+					item: "gtceu:carbon_nanoswarm"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5DF8910E641F5DA6"
+					type: "checkmark"
+				}
+			]
+			title: "nanoenxame de carbono"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02F523E003E1C93D"]
+			description: [
+				"A série Nanoforge só pode usar câmaras de laser"
+				""
+				"Precisa colocar &6colônia de nano abelhas de carbono &r"
+				""
+				"Lembre-se de otimizar a receita do nanoswarm de carbono"
+			]
+			icon_scale: 1.3d
+			id: "3B098EA4601A7827"
+			rewards: [
+				{
+					id: "5F0FAE078ED077A9"
+					item: "avaritia:neutron_ring"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00302D4F7E58AB4C"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "5CDAFD006D91699F"
+					item: "gtceu:carbon_nanoswarm"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Produção de nanoswarm em alto volume"
+			tasks: [
+				{
+					id: "429C36800C493E79"
+					item: "gtceu:nano_forge_1"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0485D45408234C99", "4E1A28AFF661CED0"]
+			icon_scale: 1.3d
+			id: "5D980DBF92017008"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B80BF5CE789EC82"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "1E867C12E424C07B"
+					item: "gtmadvancedhatch:zpm_2a_net_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["051792ED136C96D0"]
+			description: ["Claro, isso ainda precisa ser feito com reação química."]
+			id: "7EFC2C7FF6FFF1F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FACCF57D60B50FB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1BB25071E7E00C66"
+					item: "gtceu:wetware_printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["Não é necessário, o elevador espacial também pode extrair todos os minerais não mineráveis ​​produzidos por grandes fábricas de mineração vazias."]
+			icon_scale: 1.3d
+			id: "6DDE77C23FC5D067"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E16BCA6E5AF091D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Contém minerais que não podem ser extraídos"
+			tasks: [
+				{
+					id: "0F730F8E535FA432"
+					item: "gtceu:large_void_miner"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DDE77C23FC5D067", "7A7C73D046390488"]
+			dependency_requirement: "one_completed"
+			description: ["{ \\\"text\\\": \\\"Zircônio em Ganimedes\\\", \\\"underlined\\\": \\\"true\\\", \\\"italic\\\":\\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"71E844874F97530A\\\" } }", ""]
+			id: "042A0E98DC1084B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "371F418932AFD09A"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0B436E19F0479E87"
+					item: "gtceu:zirconium_dust"
+					type: "item"
+				}
+				{
+					id: "3EE902C024F94F0D"
+					item: "gtceu:tellurium_dust"
+					type: "item"
+				}
+			]
+			title: "Zircônio e telúrio"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53C57981CF76DEEA"]
+			description: [
+				"Várias essências de veios minerais não são usadas apenas no modo de precisão de locais de mineração vazios em grande escala, mas também são um dos materiais para itens necessários subsequentes."
+				""
+				"A essência só pode ser feita com leite da &9GregTech &r. De onde vem o leite? Pegue um balde de leite e sintetize um ovo de vaca na máquina de extração."
+			]
+			icon: "kubejs:space_essence"
+			id: "68D3E6670941A3F5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "357DD97A5AEBC0B1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "4A57D903A9D15BFD"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								#c: "ae2:i"
+								id: "kubejs:space_essence"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "158FBB1423A51456"
+					title: "Várias essências minerais"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D2B830A98424BB", "7C23CC6ADDC33EA0"]
+			description: ["maior, mais forte", ""]
+			icon_scale: 1.3d
+			id: "41C7A298C421C65D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CAFCF595CC3C31E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "070CBBD82AB7328A"
+					item: "gtceu:mega_alloy_blast_smelter"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["38D23D186C444492"]
+			description: [
+				"Usando eletricidade para detonar diretamente, não são necessários explosivos e uma câmara de controle paralela pode ser instalada!"
+				""
+				"Use apenas a câmara do silenciador &eLuV &r"
+				""
+				"Agora você pode criar a bancada de trabalho definitiva, mas é quase inútil"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6A6895119CECF238"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "052FB61C4D0B224B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5F057510EFCAAEC7"
+					item: "gtceu:electric_implosion_compressor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62D2B830A98424BB"]
+			description: ["maior, mais forte"]
+			icon_scale: 1.3d
+			id: "71C7130610E0294D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22F0022DD0CDFCF9"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "228D7C725D7D92B8"
+					item: "gtceu:mega_blast_furnace"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7CF037F2C4BF55B5"]
+			description: [
+				"&9&lGTLAdditions「Sala de simulação de dados biológicos」"
+				""
+				"&7simula e gera saque através de ovos biológicos e biomassa"
+				""
+				"&7▌ Função:"
+				"&lcoloca ovos biológicos e biomassa nele e produz diretamente o saque correspondente à criatura biológica."
+				"A colônia de abelhas colocada em&ldetermina o número de processamento paralelo e a taxa de consumo de energia"
+				""
+				"&7▌ Sugestões:"
+				"&l&6é complementar ao mecanismo do matadouro e não pode substituir o matadouro. O matadouro original ainda deve ser mantido."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.3d
+			id: "6A817493F721D80D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CC7F46D725F9A75"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52F2E8B78204A89F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 10
+					id: "7365B6DCAEF8E987"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "787EFB60685DBF67"
+					item: "gtladditions:biological_simulation_laboratory"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			description: ["&l&aA irritante sala de conversão de blocos não é mais necessária. Todas as receitas foram movidas para o reator químico. Preste atenção ao JEI."]
+			icon: "gtceu:block_conversion_room"
+			icon_scale: 1.3d
+			id: "53C57981CF76DEEA"
+			optional: true
+			rewards: [
+				{
+					id: "51F57CBCF19D0C6C"
+					item: "gtlcore:fast_conversion_simulate_card"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "34AE4A46E65B4C8C"
+					title: "Sala de conversão Dahua versão reversa"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59CA7B4A4A417B53"]
+			description: ["Pirólise de alta temperatura de restos antigos em altos-fornos elétricos", "Requer três bobinas de titânio"]
+			icon: "minecraft:netherite_ingot"
+			id: "31C84A095EDE44D2"
+			optional: true
+			tasks: [
+				{
+					id: "21D863BD96F90FA6"
+					title: "Uma maneira mais simples de fabricar lingotes de netherita"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: [
+				"Também chamado de pequeno OP"
+				"Processe seu minério em uma única etapa Circuito 2 entrada de água"
+				"Apenas o silenciador&4ZPM pode ser usado"
+			]
+			icon: "gtceu:integrated_ore_processor"
+			icon_scale: 1.3d
+			id: "10B239D3046937F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24640D1D158F658D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0298DF8B3BFCF45B"
+					item: "gtceu:integrated_ore_processor"
+					type: "item"
+				}
+				{
+					id: "2D9FA3B5846BD39F"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["Tier7-ZPM"]
+	title: "Pressão de ponto zero"
+}
