@@ -23,14 +23,27 @@
         let $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder')
         let $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys')
         let addFluid = (mat, key) => {
-        let prop = new $FluidProperty()
-        prop.getStorage().enqueueRegistration(key, new $FluidBuilder())
-        mat.setProperty(PropertyKey.FLUID, prop)}
+            if (!mat) return
+            try {
+                let prop
+                if (mat.hasProperty(PropertyKey.FLUID)) {
+                    prop = mat.getProperty(PropertyKey.FLUID)
+                } else {
+                    prop = new $FluidProperty()
+                    mat.setProperty(PropertyKey.FLUID, prop)
+                }
+                if (prop && prop.getStorage() && prop.getStorage().getQueuedBuilder(key) == null && prop.getStorage().get(key) == null) {
+                    prop.getStorage().enqueueRegistration(key, new $FluidBuilder())
+                }
+            } catch (e) {
+                console.warn(`[Kirin] Could not register fluid for ${mat}: ` + e)
+            }
+        }
         GTCEuStartupEvents.registry("gtceu:material", event => {
             addFluid(GTMaterials.Technetium, $FluidStorageKeys.LIQUID)
             addFluid(GTMaterials.Rhenium, $FluidStorageKeys.LIQUID)
             addFluid(GTMaterials.Germanium, $FluidStorageKeys.LIQUID)
             addFluid(GTMaterials.Ruridit, $FluidStorageKeys.LIQUID)
-    })
+        })
     }
 })()
