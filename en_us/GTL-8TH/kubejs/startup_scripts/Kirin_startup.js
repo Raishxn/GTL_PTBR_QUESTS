@@ -29,11 +29,17 @@
                 if (mat.hasProperty(PropertyKey.FLUID)) {
                     prop = mat.getProperty(PropertyKey.FLUID)
                 } else {
-                    prop = new $FluidProperty()
+                    prop = new $FluidProperty(key, new $FluidBuilder())
                     mat.setProperty(PropertyKey.FLUID, prop)
+                    return
                 }
-                if (prop && prop.getStorage() && prop.getStorage().getQueuedBuilder(key) == null && prop.getStorage().get(key) == null) {
-                    prop.getStorage().enqueueRegistration(key, new $FluidBuilder())
+                if (prop) {
+                    if (prop.getPrimaryKey() == null) {
+                        prop.setPrimaryKey(key)
+                    }
+                    try {
+                        prop.enqueueRegistration(key, new $FluidBuilder())
+                    } catch (ignored) {}
                 }
             } catch (e) {
                 console.warn(`[Kirin] Could not register fluid for ${mat}: ` + e)
