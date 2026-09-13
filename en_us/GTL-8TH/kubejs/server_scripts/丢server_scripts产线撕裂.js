@@ -1206,8 +1206,11 @@ inputs={"item":[{"content":{"type":"gtceu:circuit","configuration":2},"chance":0
 
 
 
+    let seenInfiniteFluids = new Set()
     for(let i = 0; i < fluidlist.length;i++)//创造罐子加强配方
         {
+            if (seenInfiniteFluids.has(fluidid[i])) continue
+            seenInfiniteFluids.add(fluidid[i])
             gtr.chemical_bath("kubejs:infinite_"+fluidid[i])
             .notConsumable('1x gtceu:creative_tank')
             .notConsumableFluid(fluidlist[i]+' 1')

@@ -194,9 +194,12 @@
 
         if (TwistedLine.enableFluidSolidifierAll) {
             let addSolidifier = (tag, circuit, fluidMult, outputMult, idSuffix, transformFn) => {
+                let seen = new Set();
                 Ingredient.of(tag).getItemIds().forEach(id => {
                     let materialName = transformFn(id);
                     if (!materialName) return;
+                    let recipeId = `assembly_line_distorter:fs_${idSuffix}_${materialName}`;
+                    if (seen.has(recipeId)) return;
                     let parts = id.split(':');
                     let modid = parts[0];
                     let foundFluid = null;
@@ -204,7 +207,8 @@
                         if(Fluid.exists(fid)) { foundFluid = fid; break; }
                     }
                     if(!foundFluid) return;
-                    gtr.fluid_solidifier(`assembly_line_distorter:fs_${idSuffix}_${materialName}`).notConsumable(Item.of('gtceu:programmed_circuit',`{Configuration:${circuit}}`).strongNBT()).inputFluids(Fluid.of(foundFluid,144*fluidMult)).itemOutputs(`${outputMult}x ${id}`).EUt(GTValues.VA[GTValues.LV]).duration(1);
+                    seen.add(recipeId);
+                    gtr.fluid_solidifier(recipeId).notConsumable(Item.of('gtceu:programmed_circuit',`{Configuration:${circuit}}`).strongNBT()).inputFluids(Fluid.of(foundFluid,144*fluidMult)).itemOutputs(`${outputMult}x ${id}`).EUt(GTValues.VA[GTValues.LV]).duration(1);
                     stats.addedRecipes++;
                 });
             };

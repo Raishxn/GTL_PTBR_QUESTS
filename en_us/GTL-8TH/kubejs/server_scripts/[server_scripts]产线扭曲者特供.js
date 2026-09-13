@@ -2,7 +2,7 @@
     let TwistedLine = global.TwistedLine = global.TwistedLine || {};
     let scriptStartTime = Date.now();
     let config;
-    try { config = JsonIO.read('kubejs/config/[config]Special for production line twisters.json'); if (config == null || typeof config !== 'object') throw new Error(); }
+    try { config = JsonIO.read('kubejs/config/[config]Especial para linha de produção twisters.json'); if (config == null || typeof config !== 'object') throw new Error(); }
     catch(e) { config = { enableBlastScript: true, enableSimpleIngotProcessing: true, enableSimpleLineProcessing: true, enableFluidSolidifierAll: true, enableExtractorOverride: true, enableMoldAndSpecialRecipes: true, enableLensReplacement: true, enableTimeAcceleration: true, enableFusionRecipes: true, enableParticleColliderRecipes: true, enableGeneratorRecipes: true, enableCircuitPackRecipes: true, enableFurnaceBlastAcceleration: true, enableComponentPackRecipes: true, enableInfinityCellRecipes: true, enableGTLAdditionsUpgrade: true, enableDistortRecipes: true, enableStellarForgeRecipes: true, enableContentOptimizationRecipes: true, enableFlight: true, enableInvulnerable: true, enableExclusiveContent: true, enableAlloyBlastSmelterRecipes: true, enableSimpleAggregationRecipes: true }; }
     for (let k in config) TwistedLine[k] = config[k];
     TwistedLine.blast_config = config;
@@ -194,9 +194,12 @@
 
         if (TwistedLine.enableFluidSolidifierAll) {
             let addSolidifier = (tag, circuit, fluidMult, outputMult, idSuffix, transformFn) => {
+                let seen = new Set();
                 Ingredient.of(tag).getItemIds().forEach(id => {
                     let materialName = transformFn(id);
                     if (!materialName) return;
+                    let recipeId = `assembly_line_distorter:fs_${idSuffix}_${materialName}`;
+                    if (seen.has(recipeId)) return;
                     let parts = id.split(':');
                     let modid = parts[0];
                     let foundFluid = null;
@@ -204,7 +207,8 @@
                         if(Fluid.exists(fid)) { foundFluid = fid; break; }
                     }
                     if(!foundFluid) return;
-                    gtr.fluid_solidifier(`assembly_line_distorter:fs_${idSuffix}_${materialName}`).notConsumable(Item.of('gtceu:programmed_circuit',`{Configuration:${circuit}}`).strongNBT()).inputFluids(Fluid.of(foundFluid,144*fluidMult)).itemOutputs(`${outputMult}x ${id}`).EUt(GTValues.VA[GTValues.LV]).duration(1);
+                    seen.add(recipeId);
+                    gtr.fluid_solidifier(recipeId).notConsumable(Item.of('gtceu:programmed_circuit',`{Configuration:${circuit}}`).strongNBT()).inputFluids(Fluid.of(foundFluid,144*fluidMult)).itemOutputs(`${outputMult}x ${id}`).EUt(GTValues.VA[GTValues.LV]).duration(1);
                     stats.addedRecipes++;
                 });
             };

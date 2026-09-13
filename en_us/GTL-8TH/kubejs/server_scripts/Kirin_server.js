@@ -25,7 +25,7 @@
 	}
 	//不兼容
 	if (loadedAddons.gtladd3) {
-		console.error('本私货暂时(也可能是永远)不会支持GtlAdditions3.0+！')
+		console.warn('本私货暂时(也可能是永远)不会支持GtlAdditions3.0+！')
 		return
 	}
 	//所有流体
