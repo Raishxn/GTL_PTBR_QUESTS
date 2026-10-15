@@ -6,51 +6,48 @@
 	icon: "gtceu:mv_electric_motor"
 	id: "6AE49AAF3BDC94C1"
 	order_index: 2
-	quest_links: [
-		{
-			id: "4D82F79414331554"
-			linked_quest: "0037D6BA6A4ABB72"
-			x: 14.0d
-			y: 10.0d
-		}
-	]
+	quest_links: [{
+		id: "4D82F79414331554"
+		linked_quest: "0037D6BA6A4ABB72"
+		x: 14.0d
+		y: 10.0d
+	}]
 	quests: [
 		{
-			dependencies: ["40C39645B1DE2488", "388E5C1034C54D19"]
+			dependencies: [
+				"40C39645B1DE2488"
+				"388E5C1034C54D19"
+			]
 			description: [
-				"&l&cNeste estágio, não é recomendado que você construa linhas de produção passivas. A eficiência é muito baixa. Faça apenas as passivas que devem ser feitas, por exemplo:"
-				"&a • Máquina de peneiramento"
-				"&a • Centrífuga térmica"
-				"&7 (use máquina monobloco + interface ME + tubo Pipez)"
+				"&l&cNão é recomendado que você construa qualquer linha de produção passiva neste estágio. A eficiência é muito baixa. Faça apenas as coisas passivas que devem ser feitas, como:"
+				"&a• Máquina de peneiramento"
+				"&a• Centrífuga térmica"
+				"&7(basta usar uma máquina de bloco único + interface ME + tubo Pipez)"
 				""
-				"&l&bA fábrica universal é um item obrigatório! Máquinas pequenas ficarão presas na codificação de circuitos e o paralelismo será sempre apenas 1."
+				"&l&bUniversal Factory é um item obrigatório! Máquinas pequenas ficarão presas na codificação do circuito e o paralelismo será sempre apenas 1."
 				"&lSubstituir todas as suas máquinas monobloco atuais por motores a vapor universais e fábricas universais é a coisa mais importante que você precisa fazer neste estágio."
 			]
 			icon: "kubejs:mv_universal_circuit"
 			id: "7296C57805F5DC96"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "61F22EF968A03449"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61F22EF968A03449"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0A5103D6EA070927"
-					title: "MT de média tensão"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0A5103D6EA070927"
+				title: "MT de média tensão"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66DC60EABAAE0619"]
-			description: ["Recomenda-se usar a máquina de montagem de circuito de vapor grande &b &r equipada com recipiente grande de entrada de vapor &e &r"]
+			description: ["Recomenda-se usar a máquina de montagem de circuito de vapor grande &b&requipada com o compartimento de entrada de vapor grande &e&r."]
 			icon_scale: 2.0d
 			id: "242AFA510EC14878"
 			rewards: [
@@ -74,18 +71,19 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "12FCE0B44F0C1BC4"
-					item: "kubejs:ultimate_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "12FCE0B44F0C1BC4"
+				item: "kubejs:ultimate_control_circuit"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["17E9AB180BA36353", "0037D6BA6A4ABB72"]
+			dependencies: [
+				"17E9AB180BA36353"
+				"0037D6BA6A4ABB72"
+			]
 			icon_scale: 1.3d
 			id: "2C75EB0628CB491A"
 			rewards: [
@@ -103,18 +101,19 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "04521EB6735C042B"
-					item: "gtceu:hv_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "04521EB6735C042B"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["27C18D37D5E19043", "56EA21AD61D2ACB1"]
+			dependencies: [
+				"27C18D37D5E19043"
+				"56EA21AD61D2ACB1"
+			]
 			description: ["Outro impulso duplo no armazém, desta vez é MV"]
 			id: "17E9AB180BA36353"
 			rewards: [
@@ -133,13 +132,11 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "4CD859B6C985E070"
-					item: "gtceu:stainless_steel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4CD859B6C985E070"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
 			x: 11.0d
 			y: 8.0d
 		}
@@ -166,18 +163,19 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "32774AACDA27D252"
-					item: "gtmadvancedhatch:mv_2a_net_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "32774AACDA27D252"
+				item: "gtmadvancedhatch:mv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["06B0D98F33A4AEB1", "37E3699028B55610"]
+			dependencies: [
+				"06B0D98F33A4AEB1"
+				"37E3699028B55610"
+			]
 			hide_dependent_lines: true
 			id: "27C18D37D5E19043"
 			rewards: [
@@ -193,13 +191,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "09CA8849D3D6202F"
-					item: "gtceu:stainless_steel_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "09CA8849D3D6202F"
+				item: "gtceu:stainless_steel_dust"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -237,7 +233,7 @@
 		}
 		{
 			dependencies: ["541275BC83188F74"]
-			description: ["&l O pó de cromo vem do rubi &7", "&lA fonte de manganês é &7pirolusita grossa"]
+			description: ["&lO pó de cromo é obtido de &7rubis.", "&lO manganês vem da &7pirolusita bruta."]
 			id: "37E3699028B55610"
 			rewards: [
 				{
@@ -317,7 +313,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["128671E4DC47EF55", "51F0CE5F1BCC78D1"]
+			dependencies: [
+				"128671E4DC47EF55"
+				"51F0CE5F1BCC78D1"
+			]
 			id: "59C94B44DB70D37C"
 			rewards: [
 				{
@@ -332,13 +331,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "53F5F042D84BDAC6"
-					item: "gtceu:mv_voltage_coil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "53F5F042D84BDAC6"
+				item: "gtceu:mv_voltage_coil"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 10.0d
 		}
@@ -358,19 +355,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5DDAE9B27590BFDB"
-					item: "gtceu:ulpic_chip"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5DDAE9B27590BFDB"
+				item: "gtceu:ulpic_chip"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["46035DDD3D8A4966", "535D45580FBDE02B"]
-			description: ["{ \\\"text\\\": \\\"Veja isto\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"4574A92031339D1F\\\" } }"]
+			dependencies: [
+				"46035DDD3D8A4966"
+				"535D45580FBDE02B"
+			]
+			description: ["{\"text\":\"Veja isto.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4574A92031339D1F\"}}"]
 			id: "4691BAFF9456938A"
 			rewards: [
 				{
@@ -385,18 +383,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3E2E9CEC1EAB4992"
-					item: "gtceu:ulpic_wafer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3E2E9CEC1EAB4992"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
 			x: 7.0d
 			y: 5.0d
 		}
 		{
-			dependencies: ["402C76093CA517F1", "1DD87D3E0ABFCEC4"]
+			dependencies: [
+				"402C76093CA517F1"
+				"1DD87D3E0ABFCEC4"
+			]
 			id: "46035DDD3D8A4966"
 			rewards: [
 				{
@@ -411,19 +410,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4F9D5F3F34D92B95"
-					item: "gtceu:silicon_wafer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F9D5F3F34D92B95"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["541275BC83188F74"]
-			description: ["&l Existem muitas fontes de silício na fase inicial. Recomenda-se usar talco &7 &f ou pó de pedra vermelha &c"]
+			description: ["Existem muitas fontes de silício no estágio inicial do &l. Recomenda-se o uso de talco &7, pó de pedra vermelha&fou &c."]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
 			id: "402C76093CA517F1"
@@ -441,19 +438,20 @@
 				}
 			]
 			subtitle: "um pouco lento"
-			tasks: [
-				{
-					id: "6FB8A19B895A786C"
-					item: "gtceu:silicon_boule"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FB8A19B895A786C"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["46035DDD3D8A4966", "535D45580FBDE02B"]
-			description: ["{ \\\"text\\\": \\\"Veja isto\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"4574A92031339D1F\\\" } }"]
+			dependencies: [
+				"46035DDD3D8A4966"
+				"535D45580FBDE02B"
+			]
+			description: ["{\"text\":\"Veja isto.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4574A92031339D1F\"}}"]
 			id: "35687FC065DB2F00"
 			rewards: [
 				{
@@ -533,13 +531,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3A330A7C83F4A2CC"
-					item: "gtceu:mv_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3A330A7C83F4A2CC"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 10.0d
 		}
@@ -559,13 +555,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "72F47377801EA0AB"
-					item: "gtceu:mv_cutter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72F47377801EA0AB"
+				item: "gtceu:mv_cutter"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
@@ -585,13 +579,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "474DC2227C435ACF"
-					item: "gtceu:vanadium_steel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "474DC2227C435ACF"
+				item: "gtceu:vanadium_steel_ingot"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
@@ -613,13 +605,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "22033355187C3C14"
-					item: "gtceu:mv_laser_engraver"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22033355187C3C14"
+				item: "gtceu:mv_laser_engraver"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 8.0d
 		}
@@ -664,7 +654,7 @@
 		}
 		{
 			dependencies: ["1F2E7A99C7F1E199"]
-			description: ["Pode ser fabricado posteriormente com um compressor explosivo"]
+			description: ["Pode ser fabricado posteriormente usando um compressor explosivo"]
 			id: "3B47FC6D8D2065F3"
 			rewards: [
 				{
@@ -679,13 +669,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1DE93ED869CB2A25"
-					item: "gtceu:flawless_emerald_gem"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1DE93ED869CB2A25"
+				item: "gtceu:flawless_emerald_gem"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
@@ -706,13 +694,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "57D7EE4152E1B3F5"
-					item: "gtceu:mv_sifter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57D7EE4152E1B3F5"
+				item: "gtceu:mv_sifter"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 10.0d
 		}
@@ -737,19 +723,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "56F6B38403F40E3F"
-					item: "gtceu:mv_electrolyzer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56F6B38403F40E3F"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["06B0D98F33A4AEB1"]
-			description: ["O vanádio é obtido pelo processamento de magnetita de vanádio"]
+			description: ["{ \"text\": \"O vanádio é obtido pelo processamento da magnetita de vanádio\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260E516A219825A2\" } }"]
 			id: "5F77B034EC3FA6D3"
 			rewards: [
 				{
@@ -764,18 +748,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "16ED60A2F8082F61"
-					item: "gtceu:vanadium_steel_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16ED60A2F8082F61"
+				item: "gtceu:vanadium_steel_dust"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["554D9DF1365F857C", "55AB003495D2CCE9"]
+			dependencies: [
+				"554D9DF1365F857C"
+				"55AB003495D2CCE9"
+			]
 			description: ["Mais tarde, foi substituído por um circuito de controle final mais barato"]
 			icon_scale: 2.0d
 			id: "66DC60EABAAE0619"
@@ -792,13 +777,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "43981A0E5471F967"
-					item: "gtceu:advanced_integrated_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "43981A0E5471F967"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -819,13 +802,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "45E791F7E5FFEDB1"
-					item: "gtceu:good_integrated_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45E791F7E5FFEDB1"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 2.0d
 		}
@@ -846,13 +827,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "47C4401B5934BEA4"
-					item: "gtceu:basic_integrated_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "47C4401B5934BEA4"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 4.0d
 		}
@@ -873,13 +852,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "63ADA10902E04916"
-					item: "gtceu:transistor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "63ADA10902E04916"
+				item: "gtceu:transistor"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -918,7 +895,7 @@
 		}
 		{
 			dependencies: ["06B0D98F33A4AEB1"]
-			description: ["&lA fonte inicial de pó de cromo é &aeletrólise&4rubi"]
+			description: ["A fonte inicial do pó de cromo&lé o rubi eletrolítico&a&4"]
 			id: "58B03CD99B6C3A8B"
 			rewards: [
 				{
@@ -933,13 +910,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3864E2C8C6EACDB1"
-					item: "gtceu:kanthal_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3864E2C8C6EACDB1"
+				item: "gtceu:kanthal_dust"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -965,13 +940,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "26BC0F11B36A6722"
-					item: "gtceu:kanthal_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "26BC0F11B36A6722"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.0d
 		}
@@ -994,13 +967,11 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "7DEB147BF481A274"
-					item: "gtceu:kanthal_coil_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7DEB147BF481A274"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
 			title: "Bobina de liga Kantar"
 			x: 6.0d
 			y: 2.0d
@@ -1022,13 +993,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "720C914C91C6C7A5"
-					item: "gtceu:silicon_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "720C914C91C6C7A5"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1050,19 +1019,17 @@
 				}
 			]
 			subtitle: "fábrica de plantas"
-			tasks: [
-				{
-					id: "653A8C3A0132C035"
-					item: "gtceu:greenhouse"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "653A8C3A0132C035"
+				item: "gtceu:greenhouse"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["{ \\\"text\\\": \\\"Haverá algumas coisas diversas na linha bioquímica\\\", \\\"italic\\\":\\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"1EBBA5A10A8A48DB\\\" } }"]
+			description: ["{\"text\":\"A linha bioquímica terá alguns materiais variados.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1EBBA5A10A8A48DB\"}}"]
 			id: "06D1ABE453F52DF1"
 			rewards: [
 				{
@@ -1077,31 +1044,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3F82567D39D93499"
-					item: "gtceu:pyrolyse_oven"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F82567D39D93499"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["128671E4DC47EF55"]
-			description: [
-				"&l&aGuia geral do usuário de fábrica"
-				""
-				"&l Máquina de produção eficiente: Coloque vários compartimentos/barramentos/conjuntos de entrada e ligue o isolamento, para que uma máquina possa executar as receitas de vários circuitos ou moldes ao mesmo tempo."
-				""
-				"Como usar &l: Coloque a máquina de bloco único &f correspondente ao modo de trabalho &b na GUI de fábrica (apenas uma pode ser colocada)."
-				""
-				"&cCondições importantes: O nível da máquina do bloco único colocado deve corresponder exatamente à tensão da receita de fábrica!"
-				""
-				"&6Esta máquina suporta reforço de armazém duplo!"
-				""
-				"&a Because of the limitations of the single-block machine: when the number of AE distribution is too large, the single-block machine will stop working or connect circuits. Portanto, recomenda-se substituir todas as máquinas monobloco por fábricas de uso geral. Não pense que é desnecessário. As máquinas de bloco único são muito menos eficientes do que as fábricas de uso geral."
-			]
+			description: ["&l &a Guia geral do usuário de fábrica", "", "&lMáquinas de produção eficientes: coloque várias escotilhas, barramentos ou conjuntos de entrada e ative a separação. Assim, uma máquina pode executar simultaneamente receitas de diferentes circuitos ou moldes.", "", "&lComo usar: coloque na interface da fábrica &ba máquina de um bloco correspondente ao modo de operação&f; apenas uma máquina pode ser inserida.", "", "&c Condição importante: O nível da máquina do bloco único colocado deve corresponder exatamente à tensão da receita de fábrica!", "", "&6 Esta máquina suporta reforço de armazém duplo!", "", "&a Devido às limitações da máquina monobloco: quando o número de AE ​​distribuídos for muito grande, a máquina monobloco irá parar de funcionar ou conectar circuitos. Portanto, recomenda-se substituir todas as máquinas monobloco por fábricas de uso geral. Não pense que é desnecessário. As máquinas de bloco único são muito menos eficientes do que as fábricas de uso geral."]
 			hide_dependency_lines: true
 			icon: "gtceu:processing_plant"
 			icon_scale: 1.3d
@@ -1149,7 +1102,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "fábrica geral"
+			title: "fábrica universal"
 			x: 14.0d
 			y: 2.0d
 		}
@@ -1171,13 +1124,11 @@
 				}
 			]
 			subtitle: "Essencial"
-			tasks: [
-				{
-					id: "22DE2B728BF46F3E"
-					item: "gtceu:mv_extruder"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22DE2B728BF46F3E"
+				item: "gtceu:mv_extruder"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 10.0d
 		}
@@ -1204,12 +1155,10 @@
 						Count: 1
 						id: "minecraft:enchanted_book"
 						tag: {
-							StoredEnchantments: [
-								{
-									id: "travelanchors:range"
-									lvl: 3s
-								}
-							]
+							StoredEnchantments: [{
+								id: "travelanchors:range"
+								lvl: 3s
+							}]
 						}
 					}
 					type: "item"
@@ -1227,19 +1176,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2D126E194E987083"
-					item: "travelanchors:travel_staff"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2D126E194E987083"
+				item: "travelanchors:travel_staff"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["79AE49C5DE7900FF", "56EA21AD61D2ACB1"]
-			description: ["A saída de gravação é 4 vezes maior que a do silício de cristal único comum. Só pode ser usado após ter uma máquina de gravação a laser &6HV&r."]
+			dependencies: [
+				"79AE49C5DE7900FF"
+				"56EA21AD61D2ACB1"
+			]
+			description: ["A saída de gravação é 4 vezes maior que a do silício monocristalino comum. Ele só pode ser usado com a máquina de gravação a laser &6HV &r."]
 			hide_dependency_lines: true
 			id: "506DFA831FEBD175"
 			rewards: [
@@ -1255,19 +1205,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "00F2B98E327F18B6"
-					item: "gtceu:phosphorus_boule"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "00F2B98E327F18B6"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["7296C57805F5DC96"]
-			description: ["Sério, a supercondução &bMV&r só pode ser feita em &6HV&r (diboreto de magnésio)"]
+			description: ["Supercondução séria &bMV&rnão pode ser feita até &6HV&r(diboreto de magnésio)"]
 			id: "13B7ED783EFDB8CB"
 			rewards: [
 				{
@@ -1283,13 +1231,11 @@
 				}
 			]
 			subtitle: "Supercondutor barato de MV"
-			tasks: [
-				{
-					id: "412AE134485FD3CC"
-					item: "gtceu:energetic_alloy_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "412AE134485FD3CC"
+				item: "gtceu:energetic_alloy_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -1316,18 +1262,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "05A5ED1BE84BBEBF"
-					item: "gtlcore:cfg_copy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05A5ED1BE84BBEBF"
+				item: "gtlcore:cfg_copy"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5CD0A0B4C93C7095", "7296C57805F5DC96"]
+			dependencies: [
+				"5CD0A0B4C93C7095"
+				"7296C57805F5DC96"
+			]
 			description: [
 				"&9&lGTL-Extend「Absorvedor de Energia Mágica」"
 				"&7 Adicionado modelo de grau &bMV &7 ao &5&lZPM &7"
@@ -1357,18 +1304,19 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "1398C9D075973AF1"
-					item: "gtl_extend:mv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1398C9D075973AF1"
+				item: "gtl_extend:mv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["5CD0A0B4C93C7095", "2F5CB842110A5DB2"]
+			dependencies: [
+				"5CD0A0B4C93C7095"
+				"2F5CB842110A5DB2"
+			]
 			description: [
 				"&9&lGTL-Extend「Centro Integrado de Processamento de Minério Steam」"
 				"&7 é uma excelente escolha de transição no estágio inicial e pode ser usado de forma estável até o grande estágio OP."
@@ -1402,35 +1350,31 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "5897A5403E5B1D5F"
-					item: "gtl_extend:steam_integrated_ore_processing_center"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5897A5403E5B1D5F"
+				item: "gtl_extend:steam_integrated_ore_processing_center"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&l·&fEsta ferramenta pode evitar muitas escritas repetitivas"
-				"&l &f Por exemplo: &a Prensa de molde &f, &a Máquina-ferramenta &f, &a Laminador de fio-máquina &f, &a A maioria das fórmulas da máquina laminadora de chapa &f"
+				"&l·&fEsta ferramenta pode pular muitas escritas repetitivas de clichês"
+				"&l&fPor exemplo: prensa de matriz&a&f, máquina-ferramenta&a&f, laminador de fio-máquina&a&f, máquina laminadora de placas&aa maioria das fórmulas de &f"
 				""
-				"&l·&f Desvantagem: O modelo gerado não possui código de circuito &6 &f"
-				"&l &f precisa preparar um conjunto de amostra &b separado &f para definir o circuito correspondente antes que ele possa operar normalmente"
+				"&l·&fDesvantagem: O modelo gerado não possui o código de circuito&6&f"
+				"&l&fprecisa preparar um conjunto de amostra&bseparado e definir o circuito correspondente para&foperar normalmente."
 				""
-				"&l·&fOs tutoriais e exemplos de uso específicos estão no pacote compactado da versão privada, você pode consultá-lo diretamente"
+				"&l· Tutoriais e exemplos de uso específicos de&festão no pacote compactado da versão privada, você pode consultá-lo diretamente"
 			]
 			id: "152C68927C2B5002"
 			shape: "hexagon"
-			tasks: [
-				{
-					id: "5AC7211F8560502C"
-					item: "gtlcore:debug_pattern_test"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AC7211F8560502C"
+				item: "gtlcore:debug_pattern_test"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 4.0d
 		}

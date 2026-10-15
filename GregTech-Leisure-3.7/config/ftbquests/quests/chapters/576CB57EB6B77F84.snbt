@@ -14,22 +14,18 @@
 			dependencies: ["400F0B799A92376E"]
 			icon: "gtmthings:lv_wireless_energy_receive_cover"
 			id: "7577061AE4366606"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5B4B470DD27FACC7"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B4B470DD27FACC7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "208E887FE1E45C23"
-					title: "LV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "208E887FE1E45C23"
+				title: "LV"
+				type: "checkmark"
+			}]
 			x: -15.5d
 			y: 4.0d
 		}
@@ -37,22 +33,18 @@
 			dependencies: ["7577061AE4366606"]
 			icon: "gtmthings:mv_wireless_energy_receive_cover"
 			id: "05C8B854877A8A7D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "42C12544334123AB"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C12544334123AB"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "503E4DDF1F1A68CC"
-					title: "MV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "503E4DDF1F1A68CC"
+				title: "MV"
+				type: "checkmark"
+			}]
 			x: -13.5d
 			y: 4.0d
 		}
@@ -60,22 +52,18 @@
 			dependencies: ["05C8B854877A8A7D"]
 			icon: "gtmthings:hv_wireless_energy_receive_cover"
 			id: "6934C9C15FAAD00A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1476538CCBF53FD1"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1476538CCBF53FD1"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "2206076670EC76B3"
-					title: "HV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2206076670EC76B3"
+				title: "HV"
+				type: "checkmark"
+			}]
 			x: -11.5d
 			y: 4.0d
 		}
@@ -83,22 +71,18 @@
 			dependencies: ["6934C9C15FAAD00A"]
 			icon: "gtmthings:ev_wireless_energy_receive_cover"
 			id: "62D8D7B8C9730557"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0CAC4BD3B927E628"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CAC4BD3B927E628"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "0CE1A9B25F5823C9"
-					title: "EV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0CE1A9B25F5823C9"
+				title: "EV"
+				type: "checkmark"
+			}]
 			x: -9.5d
 			y: 4.0d
 		}
@@ -106,22 +90,18 @@
 			dependencies: ["62D8D7B8C9730557"]
 			icon: "gtmthings:iv_wireless_energy_receive_cover"
 			id: "5460CFE78B89DC30"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3D3FBE449FC22436"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3FBE449FC22436"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "4B7E26D82AAFA0A5"
-					title: "IV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4B7E26D82AAFA0A5"
+				title: "IV"
+				type: "checkmark"
+			}]
 			x: -7.5d
 			y: 4.0d
 		}
@@ -129,22 +109,18 @@
 			dependencies: ["5460CFE78B89DC30"]
 			icon: "gtmthings:luv_wireless_energy_receive_cover"
 			id: "504BA5B399BFA571"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6DCD032CB74EAC6D"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DCD032CB74EAC6D"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "326C22F23137507B"
-					title: "LuV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "326C22F23137507B"
+				title: "LuV"
+				type: "checkmark"
+			}]
 			x: -5.5d
 			y: 4.0d
 		}
@@ -152,22 +128,18 @@
 			dependencies: ["504BA5B399BFA571"]
 			icon: "gtmthings:zpm_wireless_energy_receive_cover"
 			id: "1BD6F43D61ABF744"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "76362233DC715FF5"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76362233DC715FF5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "1661853C8F3910C0"
-					title: "ZPM"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1661853C8F3910C0"
+				title: "ZPM"
+				type: "checkmark"
+			}]
 			x: -3.5d
 			y: 4.0d
 		}
@@ -175,22 +147,18 @@
 			dependencies: ["1BD6F43D61ABF744"]
 			icon: "gtmthings:uv_wireless_energy_receive_cover"
 			id: "44F827B28C513D5B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5F39FAD7A5B06595"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F39FAD7A5B06595"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "513C7F42EA555C43"
-					title: "UV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "513C7F42EA555C43"
+				title: "UV"
+				type: "checkmark"
+			}]
 			x: -1.5d
 			y: 4.0d
 		}
@@ -198,41 +166,35 @@
 			dependencies: ["44F827B28C513D5B"]
 			icon: "gtmthings:uhv_wireless_energy_receive_cover"
 			id: "4B33F47839538D7B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6EFF145920E7CE4B"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EFF145920E7CE4B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "5B512F241E6679D1"
-					title: "UHV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5B512F241E6679D1"
+				title: "UHV"
+				type: "checkmark"
+			}]
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4B33F47839538D7B"]
 			description: [
-				"Comparado com a sílica grande, é mais eficiente em termos de combustível e tem uma potência máxima de 256A MAX."
+				"Comparado com a rocha de sílica grande, é mais eficiente em termos de combustível e tem uma potência máxima de 256A MAX."
 				""
 				"O efeito de fornecer plasma é semelhante ao prolongamento do tempo de receita, que pode ser entendido como X paralelo = X vezes geração de energia"
 			]
 			id: "548E8FA4B1004534"
 			size: 1.0d
-			tasks: [
-				{
-					id: "5079AC2040FDA3AA"
-					item: "gtceu:hyper_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5079AC2040FDA3AA"
+				item: "gtceu:hyper_reactor"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 6.0d
 		}
@@ -240,22 +202,18 @@
 			dependencies: ["65DE5DA645CC596B"]
 			icon: "gtmthings:uiv_wireless_energy_receive_cover"
 			id: "19C7474792787EE9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "78620BDBD6EA966B"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78620BDBD6EA966B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "2E8606C5E07D1D88"
-					title: "UIV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2E8606C5E07D1D88"
+				title: "UIV"
+				type: "checkmark"
+			}]
 			x: 4.5d
 			y: 4.0d
 		}
@@ -265,13 +223,11 @@
 			id: "25F672CF48091CEC"
 			size: 1.0d
 			subtitle: "Use e pare a qualquer momento"
-			tasks: [
-				{
-					id: "7F7D348C6E55EC07"
-					item: "gtceu:advanced_hyper_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7F7D348C6E55EC07"
+				item: "gtceu:advanced_hyper_reactor"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 5.5d
 		}
@@ -279,22 +235,18 @@
 			dependencies: ["19C7474792787EE9"]
 			icon: "gtmthings:opv_wireless_energy_receive_cover"
 			id: "31779C5096523FEF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3E7E6DB6423C775E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7E6DB6423C775E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "28E9E67B5567ABFB"
-					title: "OpV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "28E9E67B5567ABFB"
+				title: "OpV"
+				type: "checkmark"
+			}]
 			x: 6.5d
 			y: 4.0d
 		}
@@ -403,53 +355,36 @@
 			description: [
 				"Até 67108864A saída MÁXIMA"
 				""
-				"O armazém pode e só pode substituir o invólucro da máquina de alta energia &b&l &r (além de ambos os lados da unidade principal, há também quatro cantos na base)"
+				"O armazém pode e só pode substituir o invólucro da máquina de alta energia &b&l&r(além de ambos os lados da unidade principal, há também quatro cantos na base)"
 			]
 			id: "5CA04083FCFD26A8"
 			size: 1.0d
 			subtitle: "Pode encher sua caixa de laser de nível mais alto"
-			tasks: [
-				{
-					id: "13573E3E1023E028"
-					item: "gtceu:annihilate_generator"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13573E3E1023E028"
+				item: "gtceu:annihilate_generator"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["44F827B28C513D5B"]
-			description: [
-				"Saída até 1A MAX, muito poderosa"
-				""
-				"A partir da Big Silica, todos os geradores podem usar &l&ccâmara de fonte de laser&r&r para produzir energia"
-				""
-				"Também possui um mecanismo de overclock:"
-				"{ \\\"text\\\": \\\"Para mecanismos específicos, consulte a definição de overclocking sem perdas\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"5535934109A12B5D\\\" } }"
-				"Substitua &b4x velocidade da receita &r por &60,25x tempo da receita &r (incluindo a multiplicação do compartimento de manutenção configurável), &b consumo de energia &r por &6 geração de energia &r, &b custo total de energia &r por &6 geração total de energia &r, que é o mecanismo de overclock do gerador"
-				"O gerador fará overclock automaticamente em &r até o limite superior de overclock com base no tamanho do compartimento de energia/fonte de laser &d &r&e, e o tempo de execução mais curto será reduzido para 1 ~ 3 ticks."
-				""
-				"Geradores com as palavras &b&l overclocking não perderão eficiência energética&r na descrição possuem mecanismo de overclock."
-			]
+			description: ["Saída até 1A MAX, muito poderosa", "", "A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia", "", "Também possui um mecanismo de overclock:", "{ \"text\": \"Para mecanismos específicos, consulte a definição de overclocking sem perdas\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }", "Troque &bvelocidade de receita 4x&r por &6duração de receita 0.25x&r (incluindo a multiplicação da escotilha de manutenção configurável), &bconsumo de energia&r por &6potência gerada&r e &bcusto energético total&r por &6energia total gerada&r para obter a mecânica de overclock dos geradores.", "O gerador fará overclock automaticamente &rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo.", "", "Geradores com as palavras &boverclocking &lnão perderão eficiência energética e &rna descrição possuem um mecanismo de overclock."]
 			id: "7BBBF338330F4793"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4E10F1424169BFD6"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E10F1424169BFD6"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
 			subtitle: "Grande sílica ~~ geração de energia ~~"
-			tasks: [
-				{
-					id: "17D037479DE11EDF"
-					item: "gtceu:large_naquadah_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "17D037479DE11EDF"
+				item: "gtceu:large_naquadah_reactor"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 6.0d
 		}
@@ -458,22 +393,18 @@
 			description: [""]
 			icon: "gtmthings:max_wireless_energy_receive_cover"
 			id: "129B3F81E43C237D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "43F2C87E87170F0F"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F2C87E87170F0F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "7953D09AF58F4D90"
-					title: "MAX"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7953D09AF58F4D90"
+				title: "MAX"
+				type: "checkmark"
+			}]
 			x: 8.5d
 			y: 4.0d
 		}
@@ -534,33 +465,32 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					icon: "minecraft:pig_spawn_egg"
-					id: "6CB3724BB84C9A26"
-					observe_type: 5
-					timer: 120L
-					title: "Observe os amigos do grupo"
-					to_observe: "minecraft:pig"
-					type: "observation"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:pig_spawn_egg"
+				id: "6CB3724BB84C9A26"
+				observe_type: 5
+				timer: 120L
+				title: "Observe os amigos do grupo"
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
 			x: 10.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["09E013C97E05C052", "7BBBF338330F4793"]
+			dependencies: [
+				"09E013C97E05C052"
+				"7BBBF338330F4793"
+			]
 			description: ["Preste atenção para garantir um fornecimento estável de combustível e plasma. A cabine do laser deve ser grande o suficiente."]
 			id: "4C42E6BF77A096D9"
 			optional: true
 			size: 1.0d
-			tasks: [
-				{
-					id: "63C4206A5DC61C2C"
-					item: "thetornproductionline:hyper_excitation_module_1"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "63C4206A5DC61C2C"
+				item: "thetornproductionline:hyper_excitation_module_1"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 8.5d
 		}
@@ -570,13 +500,11 @@
 			id: "3E3414C93CC16F15"
 			optional: true
 			size: 1.0d
-			tasks: [
-				{
-					id: "4694F86ED30A52AA"
-					item: "thetornproductionline:hyper_excitation_module_2"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4694F86ED30A52AA"
+				item: "thetornproductionline:hyper_excitation_module_2"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 8.5d
 		}
@@ -585,13 +513,11 @@
 			description: ["Preste atenção para garantir um fornecimento estável de combustível e plasma. A cabine do laser deve ser grande o suficiente."]
 			id: "0F299C73FA9397AF"
 			size: 1.0d
-			tasks: [
-				{
-					id: "3320ADD68BC6EC04"
-					item: "thetornproductionline:hyper_excitation_module_3"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3320ADD68BC6EC04"
+				item: "thetornproductionline:hyper_excitation_module_3"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 8.5d
 		}
@@ -599,13 +525,11 @@
 			dependencies: ["25F672CF48091CEC"]
 			id: "494DF399F517126C"
 			size: 1.0d
-			tasks: [
-				{
-					id: "68D075F84D91A3D3"
-					item: "gtceu:concentration_mixing_hyper_fuel_2_bucket"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68D075F84D91A3D3"
+				item: "gtceu:concentration_mixing_hyper_fuel_2_bucket"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 7.5d
 		}
@@ -614,13 +538,11 @@
 			description: ["Melhor usado com terminais de saída da rede elétrica"]
 			id: "20D215B7D9F2B95D"
 			size: 1.0d
-			tasks: [
-				{
-					id: "57157FD2688C1A4C"
-					item: "thetornproductionline:black_hole_engine_module"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57157FD2688C1A4C"
+				item: "thetornproductionline:black_hole_engine_module"
+				type: "item"
+			}]
 			x: 6.5d
 			y: 8.5d
 		}
@@ -628,13 +550,11 @@
 			dependencies: ["129B3F81E43C237D"]
 			id: "7927F8C89C624FB2"
 			size: 1.0d
-			tasks: [
-				{
-					id: "02016CB9297A89B8"
-					item: "gtladditions:heart_of_the_universe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02016CB9297A89B8"
+				item: "gtladditions:heart_of_the_universe"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 5.5d
 		}
@@ -662,13 +582,11 @@
 			description: ["Melhor usado com terminais de saída da rede elétrica"]
 			id: "323D67C30193DC44"
 			size: 1.0d
-			tasks: [
-				{
-					id: "5242709320E5E010"
-					item: "thetornproductionline:black_hole_engine_module"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5242709320E5E010"
+				item: "thetornproductionline:black_hole_engine_module"
+				type: "item"
+			}]
 			x: 8.5d
 			y: 8.5d
 		}
@@ -687,13 +605,11 @@
 			]
 			id: "315CC7527A6D2596"
 			size: 1.0d
-			tasks: [
-				{
-					id: "1B48438D1C56F071"
-					item: "gtceu:lv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B48438D1C56F071"
+				item: "gtceu:lv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -15.5d
 			y: 6.0d
 		}
@@ -712,13 +628,11 @@
 			]
 			id: "099050A063B2A37C"
 			size: 1.0d
-			tasks: [
-				{
-					id: "6B7CD45C0A971EDE"
-					item: "gtl_extend:mv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B7CD45C0A971EDE"
+				item: "gtl_extend:mv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -13.5d
 			y: 6.0d
 		}
@@ -737,13 +651,11 @@
 			]
 			id: "0D8ACBC05D0AFB5E"
 			size: 1.0d
-			tasks: [
-				{
-					id: "5CB8BFD1972D1D2F"
-					item: "gtl_extend:hv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5CB8BFD1972D1D2F"
+				item: "gtl_extend:hv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -11.5d
 			y: 6.0d
 		}
@@ -762,13 +674,11 @@
 			]
 			id: "76BC9B6945A384CD"
 			size: 1.0d
-			tasks: [
-				{
-					id: "327DA50976320B42"
-					item: "gtl_extend:ev_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "327DA50976320B42"
+				item: "gtl_extend:ev_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -9.5d
 			y: 6.0d
 		}
@@ -787,13 +697,11 @@
 			]
 			id: "56CD852828BFFB69"
 			size: 1.0d
-			tasks: [
-				{
-					id: "33C7E498667C8DE1"
-					item: "gtl_extend:iv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "33C7E498667C8DE1"
+				item: "gtl_extend:iv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 6.0d
 		}
@@ -812,13 +720,11 @@
 			]
 			id: "2E9FEC3BFF273BC4"
 			size: 1.0d
-			tasks: [
-				{
-					id: "5F93ED34480DA1FD"
-					item: "gtl_extend:luv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5F93ED34480DA1FD"
+				item: "gtl_extend:luv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -5.5d
 			y: 6.0d
 		}
@@ -837,13 +743,11 @@
 			]
 			id: "46FF033073F4B64B"
 			size: 1.0d
-			tasks: [
-				{
-					id: "22CB2E683A699977"
-					item: "gtl_extend:zpm_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "22CB2E683A699977"
+				item: "gtl_extend:zpm_primitive_magic_energy"
+				type: "item"
+			}]
 			x: -3.5d
 			y: 6.0d
 		}
@@ -852,13 +756,11 @@
 			icon: "kubejs:create_ultimate_battery"
 			id: "400F0B799A92376E"
 			size: 1.0d
-			tasks: [
-				{
-					id: "7682BF1C6F278DB3"
-					title: "Como gerar eletricidade"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7682BF1C6F278DB3"
+				title: "Como gerar eletricidade"
+				type: "checkmark"
+			}]
 			x: -17.5d
 			y: 4.0d
 		}
@@ -877,13 +779,11 @@
 			]
 			id: "0BD40257BC2D2954"
 			size: 1.0d
-			tasks: [
-				{
-					id: "242769E725378F3E"
-					item: "gtl_extend:uv_primitive_dragon_egg_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "242769E725378F3E"
+				item: "gtl_extend:uv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
 			x: -1.5d
 			y: 2.0d
 		}
@@ -902,13 +802,11 @@
 			]
 			id: "7AE7409A42913BC1"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4374164BB1665EF5"
-					item: "gtl_extend:uhv_primitive_dragon_egg_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4374164BB1665EF5"
+				item: "gtl_extend:uhv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
 			x: 0.5d
 			y: 2.0d
 		}
@@ -927,13 +825,11 @@
 			]
 			id: "000C1F013FC0A642"
 			size: 1.0d
-			tasks: [
-				{
-					id: "41E6BC6A0CF8BBE0"
-					item: "gtl_extend:uev_primitive_dragon_egg_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41E6BC6A0CF8BBE0"
+				item: "gtl_extend:uev_primitive_dragon_egg_energy"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 2.0d
 		}
@@ -941,21 +837,17 @@
 			dependencies: ["4B33F47839538D7B"]
 			icon: "gtmthings:uev_wireless_energy_receive_cover"
 			id: "65DE5DA645CC596B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "370AEDABAC4C3DC5"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "370AEDABAC4C3DC5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "7C97F5B20A9553C7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7C97F5B20A9553C7"
+				type: "checkmark"
+			}]
 			title: "UEV"
 			x: 2.5d
 			y: 4.0d
@@ -975,13 +867,11 @@
 			]
 			id: "47C088A0343A2894"
 			size: 1.0d
-			tasks: [
-				{
-					id: "4AE95120C42D7599"
-					item: "gtl_extend:uiv_primitive_dragon_egg_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4AE95120C42D7599"
+				item: "gtl_extend:uiv_primitive_dragon_egg_energy"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 2.0d
 		}
@@ -1054,12 +944,10 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "08B948E286E7A5BD"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "08B948E286E7A5BD"
+				type: "checkmark"
+			}]
 			title: "Dez empates consecutivos"
 			x: -17.5d
 			y: 2.0d
@@ -1133,12 +1021,10 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "6961A26AA6790C5F"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6961A26AA6790C5F"
+				type: "checkmark"
+			}]
 			title: "Dez empates consecutivos"
 			x: -15.5d
 			y: 2.0d
@@ -1212,12 +1098,10 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "04057A3BAE051130"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "04057A3BAE051130"
+				type: "checkmark"
+			}]
 			title: "Dez empates consecutivos"
 			x: -13.5d
 			y: 2.0d
@@ -1291,12 +1175,10 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "2A9D13A3196CAA6B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2A9D13A3196CAA6B"
+				type: "checkmark"
+			}]
 			title: "Dez empates consecutivos"
 			x: -11.5d
 			y: 2.0d
@@ -1370,12 +1252,10 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "7DF0A30FF496A144"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7DF0A30FF496A144"
+				type: "checkmark"
+			}]
 			title: "Dez empates consecutivos"
 			x: -9.5d
 			y: 2.0d

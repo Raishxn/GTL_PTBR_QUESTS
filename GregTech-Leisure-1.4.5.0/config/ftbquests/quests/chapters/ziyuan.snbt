@@ -195,7 +195,7 @@
 			id: "0BFF08842D22B72C"
 			tasks: [{
 				id: "327415F83D02B65E"
-				title: "Somente estabelecendo uma boa base você poderá andar rápido"
+				title: "Somente estabelecendo uma boa base você poderá avançar rapidamente"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -580,7 +580,7 @@
 			description: [
 				"Britagem de minério - lavagem/lixiviação"
 				""
-				"Minérios purificados peneiráveis possuem a tag especial &o&bforge:siftables&r"
+				"Min?rios puros peneir?veis possuem a tag especial &o&bforge:siftables&r"
 			]
 			icon: "gtceu:purified_iron_ore"
 			id: "14EE67044597E62A"
@@ -1083,7 +1083,7 @@
 				""
 				"Para muitos produtos no futuro, é recomendado manter uma certa quantidade de estoque."
 				""
-				"Recomenda-se usar uma placa de crafting/solicitante/(transmissor + barramento de disparo/placa de sobreposição de controle da máquina) para manter a quantidade"
+				"Recomenda-se usar uma placa de síntese/solicitante/(transmissor + barramento de disparo/placa de sobreposição de controle da máquina) para manter a quantidade"
 				""
 				"Depois de fazer a máquina IV grande, é recomendado usar a máquina grande para otimizar a linha de produção."
 			]
@@ -2120,7 +2120,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["Até que o elemento replicador só possa produzir pó de neptúnio &6&ra partir de lixo nuclear"]
+			description: ["Até agora, o replicador de elementos só poderia produzir pó de neptúnio &6&ra partir de resíduos nucleares."]
 			icon: "gtceu:neptunium_dust"
 			icon_scale: 2.0d
 			id: "37B172AA6C7DD6BB"
@@ -2181,7 +2181,7 @@
 			description: [
 				"Agora, primeiro obtenha-o através da solução de enriquecimento de índio"
 				""
-				"{\"text\":\"Pode ser obtido posteriormente durante o processamento de rocha de sílica enriquecida\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1534BC8521461BC8\"}}"
+				"{ \"text\": \"Pode ser obtido posteriormente no processo de enriquecimento da rocha de sílica\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2297,7 +2297,7 @@
 		}
 		{
 			dependencies: ["4CF6C5A8940B4DDF"]
-			description: ["{\"text\":\"Você também pode obter cloretos de terras raras da lama vermelha\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"605B973142727552\"}}"]
+			description: ["Você também pode obter cloretos de terras raras da lama vermelha"]
 			icon: "gtceu:rare_earth_chlorides_bucket"
 			id: "5465659AD5EEE7E3"
 			tasks: [
@@ -2481,7 +2481,7 @@
 				"275854E3F1E59652"
 				"4059A907154E2865"
 			]
-			description: ["{\"text\":\"Com o drone MKIV você pode cavar\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"670D8EB2CE915FD5\"}}"]
+			description: ["{ \"text\": \"Você pode cavar com o drone MKIV\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"670D8EB2CE915FD5\" } }"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "7570243EDE6F35B1"
 			subtitle: "Você pode cavar diretamente mais tarde"
@@ -2503,7 +2503,7 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			dependency_requirement: "one_completed"
-			description: ["{\"text\":\"Neste momento, a linha de extração de nano resina também produzirá pó de promécio.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"72DFAC3212692136\"}}"]
+			description: ["{ \"text\": \"Neste momento, a linha de extração de nano resina também produzirá pó de promécio\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DFAC3212692136\" } }"]
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
@@ -4063,7 +4063,6 @@
 			description: ["Se você estiver com falta de um determinado elemento de terras raras, você pode tentar a extração"]
 			icon: "gtceu:p507_bucket"
 			id: "72DFAC3212692136"
-			shape: "pentagon"
 			subtitle: "Linha de extração de nano resina para elementos de terras raras"
 			tasks: [
 				{
@@ -4265,7 +4264,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{\"text\":\"longa linha de produção\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0E926F9B91EECD78\"}}"
+				"{ \"text\": \"Linha de produção longa\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E926F9B91EECD78\" } }"
 				""
 				"Quando você tem um armazém de energia UEV, você pode eletrolisar diretamente para obter o pó Caijin"
 			]
@@ -4299,7 +4298,6 @@
 			dependencies: [
 				"09EBEB8F3415BB6E"
 				"55233E02B6C95444"
-				"766D051A40AB5324"
 			]
 			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
 			id: "3703156457BD35FD"
@@ -4440,7 +4438,6 @@
 			dependencies: [
 				"36E8964CD1BE7569"
 				"55233E02B6C95444"
-				"766D051A40AB5324"
 			]
 			icon: "gtceu:impure_naquadria_solution_bucket"
 			id: "2F4E165431B56059"
@@ -4804,7 +4801,7 @@
 				"7248EC9288C91A33"
 				"14C55CE8EA930227"
 			]
-			description: ["Este combustível funcionará em &4UHV&r"]
+			description: ["Este combustível só funcionará em &4UHV &r"]
 			icon: "gtceu:hyper_fuel_1_bucket"
 			id: "0D53712AA7F733A8"
 			tasks: [
@@ -5113,7 +5110,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{\"text\":\"Consulte aqui os cuidados para a construção de uma torre de evaporação.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"]
+			description: ["{ \"text\": \"Veja aqui os cuidados para a construção de uma torre de evaporação\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"224B850538D346D3\" } }"]
 			id: "3AB780C51F3F021A"
 			tasks: [{
 				id: "6B75C2EA75F998A8"
@@ -5161,7 +5158,7 @@
 		}
 		{
 			dependencies: ["6730821C43B619C5"]
-			description: ["{\"text\":\"Você pode usar o elevador espacial para coletá-lo diretamente mais tarde.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1FE5F8D737ADB1B8\"}}"]
+			description: ["{ \"text\": \"Você pode usar o elevador espacial para coletar diretamente mais tarde\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE5F8D737ADB1B8\" } }"]
 			icon: "gtceu:bromine_bucket"
 			icon_scale: 2.0d
 			id: "4A7883F69F6490C5"
@@ -5941,7 +5938,6 @@
 			icon_scale: 2.0d
 			id: "4D0ABB8BAB575DDC"
 			shape: "diamond"
-			subtitle: "Será usado na UEV"
 			tasks: [
 				{
 					id: "2AA0689645DCE9D2"
@@ -6200,7 +6196,7 @@
 		}
 		{
 			description: [
-				"O ciclo de eletrólise de hidróxido de potássio-potássio é mais eficiente nos estágios iniciais do que a eletrólise da água"
+				"O ciclo de eletrólise de hidróxido de potássio-potássio é mais eficiente no estágio inicial do que a eletrólise da água"
 				""
 				"O hidróxido de cálcio é tão eficiente quanto o hidróxido de potássio, o hidróxido de sódio é menos eficiente"
 			]
@@ -6525,7 +6521,7 @@
 			y: 21.0d
 		}
 		{
-			description: ["{\"text\":\"Fonte de bromo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3AB780C51F3F021A\"}}"]
+			description: ["{ \"text\": \"Fonte de bromo\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AB780C51F3F021A\" } }"]
 			icon: "gtceu:bromine_trifluoride_bucket"
 			id: "5ABE1C11479A0229"
 			shape: "pentagon"
@@ -6613,12 +6609,12 @@
 				"Modo de geração sem entidade:"
 				"Circuito nº 1: Lingotes de ferro, couro, bambu, penas, fios, papoulas, costeletas de porco cruas, carne crua, carne crua de coelho, carneiro cru, ossos, bacalhau cru, salmão cru, pele de coelho"
 				""
-				"Circuito nº 2: Lágrimas de Ghast, varas de madeira, &dEnder Pearl&r, pólvora, carvão, garrafa de vidro, &dGlowstone&r, carne podre, linha, ossos, pepitas de ouro, olhos de aranha, flechas, açúcar, pedra vermelha"
+				"Circuito nº 2: Lágrima de Ghast, bastão de madeira, &dEnder Pearl &r, pólvora, carvão, garrafa de vidro, &dGlowstone &r, carne podre, linha, ossos, pepitas de ouro, olhos de aranha, flechas, açúcar, pedra vermelha"
 				""
 				"Saída adicional do modo de geração de entidade:"
 				"Circuito nº 1: Várias lãs tingidas, esmeraldas, trigo, pés de coelho, ovos"
 				""
-				"Circuito 2: várias armas e armaduras, &dblaze rod&r, bandeira desconhecida, lingote de ouro, lingote de ferro, lingote de cobre, cenoura, batata, &dcrânio murcho&r, bola de limo, concha de nautilus"
+				"Circuito 2: várias armas e armaduras, haste de chama &d&r, bandeira desconhecida, lingote de ouro, lingote de ferro, lingote de cobre, cenoura, batata, crânio murcho &d&r, bola de limo, concha de nautilus"
 			]
 			icon: "gtceu:slaughterhouse"
 			id: "19D339F25E824A2C"
@@ -6642,9 +6638,9 @@
 			subtitle: "forge:molten"
 			tasks: [{
 				id: "3F3605BFBBA3D0C7"
-				title: "Fundido XX"
 				type: "checkmark"
 			}]
+			title: "metal fundido"
 			x: 7.5d
 			y: 8.5d
 		}
@@ -6679,7 +6675,7 @@
 			subtitle: "forge:plasmas"
 			tasks: [{
 				id: "755D300470DEE06F"
-				title: "Estado: estado de plasma"
+				title: "plasma"
 				type: "checkmark"
 			}]
 			x: 9.5d
@@ -7405,7 +7401,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["Você verá muitos tipos de petróleo jorrando no mundo principal, entre os quais o óleo Ad Astra jorrando no mar é inútil."]
+			description: ["Você verá muitos tipos de petróleo ejetados no mundo principal, entre os quais o óleo Ad Astra ejetado do mar é inútil."]
 			icon: "ad_astra:oil_bucket"
 			id: "113D8AE67948F32E"
 			optional: true
@@ -7439,7 +7435,7 @@
 			description: [
 				"Pode haver baús contendo minério de Dais e Dais na estrutura da lua."
 				""
-				"A estrutura de Vênus pode conter rochas inferiores e detritos antigos"
+				"A estrutura de Vênus contém rochas inferiores e detritos antigos"
 				""
 				"A estrutura do templo em Marte possui um bloco de ouro roxo fixado em seu interior."
 			]
@@ -7476,7 +7472,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Solução de nitrato de amônio"
+			title: "solução de nitrato de amônio"
 			x: 20.0d
 			y: 5.5d
 		}
@@ -7785,480 +7781,9 @@
 					type: "checkmark"
 				}
 			]
-			title: "Solução de nitrato de amônio"
+			title: "solução de nitrato de amônio"
 			x: 23.0d
 			y: 17.0d
-		}
-		{
-			dependencies: ["7CBD79CE32AF8E30"]
-			icon: "gtceu:argon_bucket"
-			id: "73CAB219B444F14D"
-			subtitle: "forge:gases"
-			tasks: [{
-				id: "71EDCBA7450E2BA3"
-				title: "Estado: Gasoso"
-				type: "checkmark"
-			}]
-			title: "Estado: Gasoso"
-			x: 11.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["7CBD79CE32AF8E30"]
-			description: ["Exclui XX fundido"]
-			icon: "gtceu:chaos_bucket"
-			id: "5F6743F253DAA00E"
-			subtitle: "forge:liquids"
-			tasks: [{
-				id: "531281C4D12E64E1"
-				title: "Estado: líquido"
-				type: "checkmark"
-			}]
-			x: 13.5d
-			y: 8.5d
-		}
-		{
-			dependencies: [
-				"4CD8D717657730DF"
-				"19F3E6426C5C7FCD"
-			]
-			icon: "gtceu:red_mud_bucket"
-			id: "6A97D3F6B0CE2C42"
-			subtitle: "A Linha Isaac e a Centrífuga de Terras Raras também produzirão"
-			tasks: [
-				{
-					id: "5C43373EB7CD8621"
-					item: "gtceu:red_mud_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "036C36DE94386A52"
-					type: "checkmark"
-				}
-			]
-			title: "lama vermelha"
-			x: 43.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6A97D3F6B0CE2C42"]
-			icon: "gtceu:neutralised_red_mud_bucket"
-			id: "10DA22DCF8269EBE"
-			tasks: [
-				{
-					id: "31F9F43D155A5FCA"
-					item: "gtceu:neutralised_red_mud_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "22DD6C0C63B329DD"
-					type: "checkmark"
-				}
-			]
-			title: "Neutralize a lama vermelha"
-			x: 45.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["10DA22DCF8269EBE"]
-			icon: "gtceu:red_slurry_bucket"
-			id: "7B36AF4885EF0CE8"
-			tasks: [
-				{
-					id: "6A294833F791BB00"
-					item: "gtceu:red_slurry_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "67AC9E23C437E2D9"
-					type: "checkmark"
-				}
-			]
-			title: "pasta de lama vermelha"
-			x: 46.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["10DA22DCF8269EBE"]
-			icon: "gtceu:ferric_ree_chloride_bucket"
-			id: "090B5ECF1E1446D0"
-			tasks: [
-				{
-					id: "5B7D2D6C4AFAA95D"
-					item: "gtceu:ferric_ree_chloride_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4F5685B409F43974"
-					type: "checkmark"
-				}
-			]
-			title: "Contendo cloreto férrico de terras raras"
-			x: 45.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7B36AF4885EF0CE8"]
-			icon: "gtceu:titanyl_sulfate_bucket"
-			id: "6506B06AD3678111"
-			tasks: [
-				{
-					id: "50FBFF7D602F24D2"
-					item: "gtceu:titanyl_sulfate_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "03A3A20080ABAAD6"
-					type: "checkmark"
-				}
-			]
-			title: "Sulfato de titânio"
-			x: 48.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6506B06AD3678111"]
-			icon: "gtceu:titanium_tetrachloride_bucket"
-			icon_scale: 2.0d
-			id: "2169CC60A6CD56B1"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "678B5AF630F7A692"
-					item: "gtceu:titanium_tetrachloride_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "235526F9624509CC"
-					type: "checkmark"
-				}
-			]
-			title: "Tetracloreto de titânio"
-			x: 49.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["090B5ECF1E1446D0"]
-			icon: "gtceu:rare_earth_chlorides_bucket"
-			icon_scale: 2.0d
-			id: "0774EF5DC443A072"
-			shape: "diamond"
-			tasks: [
-				{
-					id: "50EFAA286842158E"
-					item: "gtceu:rare_earth_chlorides_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "75C30F75C1C5C0D8"
-					type: "checkmark"
-				}
-			]
-			title: "Cloretos de terras raras"
-			x: 46.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["090B5ECF1E1446D0"]
-			icon: "gtceu:iron_iii_chloride_bucket"
-			id: "0C9C6415D9DEE550"
-			tasks: [
-				{
-					id: "661C77AF088538AF"
-					item: "gtceu:iron_iii_chloride_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "68E2EB5519D20F8B"
-					type: "checkmark"
-				}
-			]
-			title: "cloreto férrico"
-			x: 45.0d
-			y: 1.0d
-		}
-		{
-			icon: "gtceu:sodium_hydroxide_solution_bucket"
-			id: "19F3E6426C5C7FCD"
-			tasks: [
-				{
-					id: "58C96DADA3FC3AE2"
-					item: "gtceu:sodium_hydroxide_solution_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2A6B540F46124DFE"
-					type: "checkmark"
-				}
-			]
-			title: "solução de hidróxido de sódio"
-			x: 43.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6F7ECACBB30F2E15"]
-			icon: "gtceu:stone_dust_residue_dust"
-			id: "4CD8D717657730DF"
-			subtitle: "O pó de resíduo fino produzido na próxima etapa são itens relacionados à Tallan."
-			tasks: [
-				{
-					id: "1539BCE6AE619FDC"
-					item: "gtceu:stone_dust_residue_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6750A96A94FA0742"
-					type: "checkmark"
-				}
-			]
-			x: 42.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5E8F9D81FB483A5A"]
-			icon: "gtceu:dirty_hexafluorosilicic_acid_bucket"
-			id: "6F7ECACBB30F2E15"
-			tasks: [
-				{
-					id: "712C1798B874F30A"
-					item: "gtceu:dirty_hexafluorosilicic_acid_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "361D7F63E96FC3FD"
-					type: "checkmark"
-				}
-			]
-			title: "Ácido hexafluorossilícico sujo"
-			x: 40.5d
-			y: -1.0d
-		}
-		{
-			id: "605B973142727552"
-			tasks: [{
-				id: "3A16890A86764715"
-				title: "lama vermelha"
-				type: "checkmark"
-			}]
-			x: 39.0d
-			y: -2.0d
-		}
-		{
-			icon: "gtceu:stone_dust"
-			id: "5E8F9D81FB483A5A"
-			tasks: [
-				{
-					id: "61272BA88B86AB2A"
-					item: "gtceu:stone_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "63AA3C297DA290EE"
-					type: "checkmark"
-				}
-			]
-			x: 39.0d
-			y: -1.0d
-		}
-		{
-			description: ["A fonte da lava pode ser uma fornalha de lava ou uma broca de fluido vazio"]
-			icon: "minecraft:lava_bucket"
-			id: "6589FF5D2A68B509"
-			tasks: [
-				{
-					id: "153DAD5549258C4B"
-					item: "gtceu:silicon_dioxide_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "414CB8B8749E0B60"
-					item: "gtceu:magnesia_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "768A658ACFF5125F"
-					item: "gtceu:quicklime_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7C9B0CFA4ADE2266"
-					item: "minecraft:gold_nugget"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "06521653BB2E263C"
-					item: "gtceu:sapphire_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6B1B837C2BAB8145"
-					item: "gtceu:tantalite_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "16D8FC6E4F725221"
-					type: "checkmark"
-				}
-			]
-			title: "produção de lava"
-			x: 49.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4FD556B867463D30"]
-			id: "5DF5B7470FF81C80"
-			tasks: [{
-				id: "5A8293F9BBF582C1"
-				title: "Três tipos de soro de pedras preciosas"
-				type: "checkmark"
-			}]
-			x: 16.0d
-			y: 24.5d
-		}
-		{
-			dependencies: ["5DF5B7470FF81C80"]
-			icon: "gtceu:ruby_slurry_bucket"
-			id: "0B4B79CC02E2FF3E"
-			tasks: [
-				{
-					id: "0D16B4781555A5EA"
-					item: "gtceu:aluminium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2570FDD28B29072C"
-					item: "gtceu:chromium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "12E0480691247C4C"
-					item: "gtceu:iron_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "24CD83A83EFEA66E"
-					item: "gtceu:vanadium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5BA899BD43D351D4"
-					item: "gtceu:titanium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2F592430C85BFE90"
-					type: "checkmark"
-				}
-			]
-			title: "pasta de rubi"
-			x: 16.0d
-			y: 23.5d
-		}
-		{
-			dependencies: ["5DF5B7470FF81C80"]
-			icon: "gtceu:sapphire_slurry_bucket"
-			id: "36B91BD999443B6A"
-			tasks: [
-				{
-					id: "5F5AD8986FDB3096"
-					item: "gtceu:aluminium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					consume_items: false
-					id: "1984D4EB00C4B3E0"
-					item: "gtceu:titanium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2883B6945D07C500"
-					item: "gtceu:iron_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "753602A3057D9B97"
-					item: "gtceu:vanadium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "59DC3739142B80FF"
-					type: "checkmark"
-				}
-			]
-			title: "Pasta de safira"
-			x: 17.0d
-			y: 25.0d
-		}
-		{
-			dependencies: ["5DF5B7470FF81C80"]
-			icon: "gtceu:green_sapphire_slurry_bucket"
-			id: "49AA718B9CABF90E"
-			tasks: [
-				{
-					id: "18CB66816BAEACBF"
-					item: "gtceu:aluminium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0E0050107AFEF884"
-					item: "gtceu:beryllium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "623ACF7B4D99EA77"
-					item: "gtceu:titanium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "658D271E4122A427"
-					item: "gtceu:iron_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7E138D8D54CE4832"
-					item: "gtceu:vanadium_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1EFBC72BBD40B26D"
-					type: "checkmark"
-				}
-			]
-			title: "pasta de safira verde"
-			x: 15.0d
-			y: 25.0d
 		}
 	]
 	title: "Extração de matéria-prima"

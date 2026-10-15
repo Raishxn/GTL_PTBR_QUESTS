@@ -23,7 +23,7 @@
 				"- UE é a unidade de energia."
 				"- EU/t é o poder."
 				"- A (ampere) é a corrente."
-				"- V (Volt) é a voltagem, chamada de LV, MV, HV no jogo... porque são valores relacionados ao gameplay (tecnicamente: LV = 32V = 32EU/t/A)."
+				"- V (volt) é a tensão, que é chamada de LV, MV, HV no jogo...porque esses são valores relacionados ao jogo (tecnicamente: LV = 32V = 32EU/t/A)."
 			]
 			icon: "gtceu:lv_battery_buffer_4x"
 			id: "7F97BED1B9552E5E"
@@ -42,27 +42,7 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: [
-				"Na GregTech, a eletricidade é transmitida em “pacotes”. O tamanho de cada pacote é equivalente ao seu nível de tensão."
-				""
-				"Tomando o pacote LV como exemplo, este “pacote” transportará 32 EU, vários blocos são capazes de gerar esses pacotes EU, e o pacote só será gerado quando o destino puder ser alcançado."
-				""
-				"A cada tick (1/20 de segundo ou 0,05 segundos), o “pacote” da UE tenta transferir do produtor de energia para o consumidor."
-				""
-				"Esses “pacotes” possuem dois parâmetros: o nível de tensão (V) determinado pela classificação do produtor, e a corrente (A), que determina quanta energia pode realmente ser transmitida."
-				""
-				"A energia é transferida somente quando o “pacote” completo de amplificadores puder ser recebido. Você pode notar que suas máquinas estão um pouco abaixo da capacidade total da UE - elas só aceitarão a UE se faltarem pelo menos 1A de tensão de entrada."
-				""
-				"Se uma máquina receber uma tensão superior à sua tensão nominal, ela explodirá, mas qualquer excesso de corrente não terá efeitos adversos porque a máquina consome apenas a quantidade necessária."
-				"{@pagebreak}"
-				"Explosões de máquinas normalmente também destruiriam terreno, mas esse recurso está desabilitado neste pacote."
-				""
-				"Em suma, a energia é transmitida na forma de “pacotes”, que são 32EU para BT, 128EU para MT... e assim por diante. Devido à perda do cabo, a energia real recebida pela máquina pode ser inferior à energia enviada."
-				""
-				"A entrada de energia da máquina é limitada pela tensão e pela corrente, portanto, uma máquina de MT conectada a uma linha de BT com uma corrente de entrada de 1A nunca aceitará mais de 32EU/t."
-				""
-				"Você ainda pode operar uma máquina MT na linha BT, mas somente se a potência da receita for baixa o suficiente, ou se você tiver uma bateria de média tensão no slot de carregamento da máquina, a máquina aceitará apenas 1A quando ociosa, então a bateria carregará na taxa máxima de 32EU/t."
-			]
+			description: ["Na GregTech, a eletricidade é transmitida em “pacotes”. O tamanho de cada pacote é equivalente ao seu nível de tensão.", "", "Por exemplo, um pacote LV transporta 32EU. Vários blocos podem produzir esses pacotes de EU, que só são gerados quando há um destino acessível.", "", "A cada tick (1/20 de segundo, ou 0.05 segundo), os pacotes de EU tentam passar dos produtores aos consumidores de energia.", "", "Esses “pacotes” possuem dois parâmetros: o nível de tensão (V) determinado pela classificação do produtor, e a corrente (A), que determina quanta energia pode realmente ser transmitida.", "", "A energia é transferida somente quando o “pacote” completo de amplificadores puder ser recebido. Você pode notar que suas máquinas estão um pouco abaixo da capacidade total da UE - elas só aceitarão a UE se faltarem pelo menos 1A de tensão de entrada.", "", "Se uma máquina receber uma tensão superior à sua tensão nominal, ela explodirá, mas qualquer excesso de corrente não terá efeitos adversos porque a máquina consome apenas a quantidade necessária.", "{@pagebreak}", "Explosões de máquinas normalmente também destruiriam terreno, mas esse recurso está desabilitado neste pacote.", "", "Em suma, a energia é transmitida na forma de “pacotes”, que são 32EU para BT, 128EU para MT... e assim por diante. Devido à perda do cabo, a energia real recebida pela máquina pode ser inferior à energia enviada.", "", "A entrada de energia da máquina é limitada pela tensão e pela corrente, portanto, uma máquina de MT conectada a uma linha de BT com uma corrente de entrada de 1A nunca aceitará mais de 32EU/t.", "", "Você ainda pode operar uma máquina MT na linha BT, mas somente se a potência da receita for baixa o suficiente, ou se você tiver uma bateria de média tensão no slot de carregamento da máquina, a máquina aceitará apenas 1A quando ociosa, então a bateria carregará na taxa máxima de 32EU/t."]
 			icon: "gtceu:lv_transformer_1a"
 			id: "0CC922B821305906"
 			rewards: [{
@@ -79,19 +59,7 @@
 			y: -2.5d
 		}
 		{
-			description: [
-				"A transmissão da UE é feita através de fios ou cabos conectados diretamente."
-				""
-				"Os fios são uma escolha ruim porque podem causar choques e ter alta perda de fio, então você precisa usar um cabo isolado."
-				""
-				"A perda de linha significa que você precisa mover sua máquina para mais perto do gerador, mas isso só se torna um problema no início do jogo."
-				""
-				"A perda de cabo da GregTech significa que a transmissão de pacotes UE de cada bloco de cabo reduz seu EU armazenado."
-				""
-				"Por exemplo, se a perda de fio de um cabo de estanho for 1, para um cabo de 4 metros conectado a um motor de combustão interna básico, a tensão na extremidade é de apenas 28 EU/t, o que é inferior aos 30 EU/t da potência média da máquina de baixa tensão. Portanto, uma máquina em funcionamento pode desarmar após alguns segundos."
-				""
-				"Mas não há necessidade de se preocupar aqui, se você ler a declaração de missão, descobrirá que existem supercondutores baratos no estágio inicial e sem fio no estágio posterior, evitando assim completamente esse problema."
-			]
+			description: ["A transmissão da UE é feita através de fios ou cabos conectados diretamente.", "", "Os fios são uma escolha ruim porque podem causar choques e ter alta perda de fio, então você precisa usar um cabo isolado.", "", "A perda de linha significa que você precisa mover sua máquina para mais perto do gerador, mas isso só se torna um problema no início do jogo.", "", "A perda de cabo da GregTech significa que a transmissão de pacotes UE de cada bloco de cabo reduz seu EU armazenado.", "", "Por exemplo, um cabo de estanho perde 1 unidade por bloco. Um cabo de 4 metros ligado a um gerador de combustão básico entrega apenas 28EU/t na ponta, abaixo dos 30EU/t exigidos por uma máquina LV comum. Por isso, ela pode ficar sem energia após alguns segundos.", "", "Mas não há necessidade de se preocupar aqui, se você ler a declaração de missão, descobrirá que existem supercondutores baratos no estágio inicial e sem fio no estágio posterior, evitando assim completamente esse problema."]
 			icon: "gtceu:tin_single_cable"
 			id: "4A7E19EF14D3C072"
 			rewards: [{
@@ -121,7 +89,7 @@
 				""
 				"Ampere só consome através de um cabo conectado diretamente ao produtor e ao consumidor, e só consome quando o consumidor está funcionando."
 				""
-				"Isso significa que você pode reduzir com segurança a espessura dos cabos em determinados locais."
+				"Isso significa que você pode reduzir com segurança a espessura dos cabos em alguns lugares."
 			]
 			icon: "gtceu:lv_diode"
 			id: "4F7A3702787F86A7"
@@ -140,9 +108,9 @@
 		}
 		{
 			description: [
-				"Overclocking é um mecanismo que ocorre quando você tenta rodar uma receita em uma máquina com potência maior que a receita em si, a receita consumirá mais energia, mas o tempo da receita será reduzido de acordo com o nível do seu overclock."
+				"Overclocking é um mecanismo que ocorre quando você tenta rodar uma receita em uma máquina com potência maior que a receita em si, a receita consumirá mais energia, mas o tempo da receita será reduzido dependendo do nível que você está fazendo overclock."
 				""
-				"Algumas máquinas têm um menu lateral para definir o nível máximo de tensão para o qual pode fazer overclock. Clique aqui para percorrer todas as tensões disponíveis e selecionar um limite."
+				"Algumas máquinas têm um menu lateral para definir o nível máximo de tensão para o qual podem fazer overclock. Clique aqui para percorrer todas as tensões disponíveis e selecionar um limite."
 				""
 				"Um overclock é permitido para cada quatro vezes a potência fornecida acima da potência da receita. Cada overclock significa: 2x a velocidade da receita, 4x o consumo de energia, 2x o custo total de energia, chamado overclock com perdas &b&r. A maioria das máquinas usa overclock com perdas."
 				""
@@ -192,7 +160,7 @@
 		}
 		{
 			description: [
-				"A rede wireless foi estabelecida a partir do momento em que você entra no arquivo, e possui capacidade ilimitada &d&r, &bsem perda de energia&r, podendo até &6transmitir energia através das latitudes&r"
+				"A rede sem fio foi estabelecida a partir do momento em que você entra no arquivo e tem capacidade ilimitada &d&r, &bsem perda de energia &r, e pode até mesmo &6transmitir energia através das latitudes &r"
 				""
 				"Ele pode interagir com a rede sem fio através da placa de cobertura de energia sem fio, compartimento de energia/potência sem fio, compartimento de alvo/fonte de laser sem fio, interface de energia sem fio e matriz de geração de energia"
 				""

@@ -612,25 +612,24 @@
 	]
 	quests: [
 		{
-			dependencies: ["7ADB50ACF5AE1D13", "34D6F0DF329B1877"]
+			dependencies: [
+				"7ADB50ACF5AE1D13"
+				"34D6F0DF329B1877"
+			]
 			description: ["Só funciona quando instalado em uma forja de plasma hiperdimensional"]
 			icon_scale: 2.0d
 			id: "11D8044BD0401E53"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "23354F0AF6425138"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "20F532379723D90D"
-					item: "kubejs:uruium_coil_block"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23354F0AF6425138"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20F532379723D90D"
+				item: "kubejs:uruium_coil_block"
+				type: "item"
+			}]
 			title: "Bobina com super capacidade de calor"
 			x: -9.0d
 			y: 23.0d
@@ -639,13 +638,11 @@
 			dependencies: ["0DC5BFACB3D4BC95"]
 			icon_scale: 2.0d
 			id: "6FDC282122A5B02C"
-			tasks: [
-				{
-					id: "6B6EC87CDD8D05E2"
-					item: "kubejs:circuit_resonatic_ulv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B6EC87CDD8D05E2"
+				item: "kubejs:circuit_resonatic_ulv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -1.0d
 		}
@@ -653,13 +650,11 @@
 			dependencies: ["6FDC282122A5B02C"]
 			icon_scale: 2.0d
 			id: "646C1CCEB181849D"
-			tasks: [
-				{
-					id: "05ED3909F6DF2267"
-					item: "kubejs:circuit_resonatic_lv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05ED3909F6DF2267"
+				item: "kubejs:circuit_resonatic_lv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 0.5d
 		}
@@ -667,13 +662,11 @@
 			dependencies: ["646C1CCEB181849D"]
 			icon_scale: 2.0d
 			id: "2AC1D8E0FE210ECA"
-			tasks: [
-				{
-					id: "0883B3B82134C146"
-					item: "kubejs:circuit_resonatic_mv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0883B3B82134C146"
+				item: "kubejs:circuit_resonatic_mv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 2.0d
 		}
@@ -681,13 +674,11 @@
 			dependencies: ["2AC1D8E0FE210ECA"]
 			icon_scale: 2.0d
 			id: "592112D25203587D"
-			tasks: [
-				{
-					id: "3EABC2D14C1D7929"
-					item: "kubejs:circuit_resonatic_hv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3EABC2D14C1D7929"
+				item: "kubejs:circuit_resonatic_hv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 3.5d
 		}
@@ -695,13 +686,11 @@
 			dependencies: ["592112D25203587D"]
 			icon_scale: 2.0d
 			id: "014F144FE1D44D76"
-			tasks: [
-				{
-					id: "32F9802B6D740EB8"
-					item: "kubejs:circuit_resonatic_ev"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "32F9802B6D740EB8"
+				item: "kubejs:circuit_resonatic_ev"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 5.0d
 		}
@@ -709,13 +698,11 @@
 			dependencies: ["014F144FE1D44D76"]
 			icon_scale: 2.0d
 			id: "538AD958004C9735"
-			tasks: [
-				{
-					id: "420D7E2027220B0C"
-					item: "kubejs:circuit_resonatic_iv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "420D7E2027220B0C"
+				item: "kubejs:circuit_resonatic_iv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 6.5d
 		}
@@ -723,13 +710,11 @@
 			dependencies: ["538AD958004C9735"]
 			icon_scale: 2.0d
 			id: "72B2B688F850153C"
-			tasks: [
-				{
-					id: "2ABE84510F3A9EDA"
-					item: "kubejs:circuit_resonatic_luv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2ABE84510F3A9EDA"
+				item: "kubejs:circuit_resonatic_luv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 8.0d
 		}
@@ -737,13 +722,11 @@
 			dependencies: ["72B2B688F850153C"]
 			icon_scale: 2.0d
 			id: "2345247068AC8E96"
-			tasks: [
-				{
-					id: "4205CF48C71A3DC8"
-					item: "kubejs:circuit_resonatic_zpm"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4205CF48C71A3DC8"
+				item: "kubejs:circuit_resonatic_zpm"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 9.5d
 		}
@@ -751,13 +734,11 @@
 			dependencies: ["2345247068AC8E96"]
 			icon_scale: 2.0d
 			id: "37F21A829C79917A"
-			tasks: [
-				{
-					id: "6816D41E49BBC5C0"
-					item: "kubejs:circuit_resonatic_uv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6816D41E49BBC5C0"
+				item: "kubejs:circuit_resonatic_uv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 11.0d
 		}
@@ -765,13 +746,11 @@
 			dependencies: ["37F21A829C79917A"]
 			icon_scale: 2.0d
 			id: "4E5FE0D4C86C6EC3"
-			tasks: [
-				{
-					id: "7AC9602F29EA48BF"
-					item: "kubejs:circuit_resonatic_uhv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AC9602F29EA48BF"
+				item: "kubejs:circuit_resonatic_uhv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 12.5d
 		}
@@ -779,13 +758,11 @@
 			dependencies: ["4E5FE0D4C86C6EC3"]
 			icon_scale: 2.0d
 			id: "7D6D4939A8E1DE7C"
-			tasks: [
-				{
-					id: "3AFBEEF7BC30F4CA"
-					item: "kubejs:circuit_resonatic_uev"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3AFBEEF7BC30F4CA"
+				item: "kubejs:circuit_resonatic_uev"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 14.0d
 		}
@@ -793,13 +770,11 @@
 			dependencies: ["7D6D4939A8E1DE7C"]
 			icon_scale: 2.0d
 			id: "19E4FA7B41F44BDC"
-			tasks: [
-				{
-					id: "5942973187EA50BD"
-					item: "kubejs:circuit_resonatic_uiv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5942973187EA50BD"
+				item: "kubejs:circuit_resonatic_uiv"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 15.5d
 		}
@@ -808,13 +783,11 @@
 			description: ["Estes são apenas elementos da realidade"]
 			icon: "gtceu:nan_certificate"
 			id: "58CCCFF70575B019"
-			rewards: [
-				{
-					id: "31F703F6A716FA49"
-					item: "gtceu:nan_certificate"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "31F703F6A716FA49"
+				item: "gtceu:nan_certificate"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -885,17 +858,18 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["736395E39993F727", "32186EFF7020D432"]
+			dependencies: [
+				"736395E39993F727"
+				"32186EFF7020D432"
+			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "038B4D0C09824CC9"
-			tasks: [
-				{
-					id: "21F728CD94FD5E2E"
-					item: "kubejs:suprachronal_ulv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21F728CD94FD5E2E"
+				item: "kubejs:suprachronal_ulv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: -1.0d
 		}
@@ -903,13 +877,11 @@
 			dependencies: ["038B4D0C09824CC9"]
 			icon_scale: 2.0d
 			id: "734A0585587FCC45"
-			tasks: [
-				{
-					id: "0B28527C4B16D04C"
-					item: "kubejs:suprachronal_lv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B28527C4B16D04C"
+				item: "kubejs:suprachronal_lv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 0.5d
 		}
@@ -917,13 +889,11 @@
 			dependencies: ["734A0585587FCC45"]
 			icon_scale: 2.0d
 			id: "01F2F946EADE6386"
-			tasks: [
-				{
-					id: "3B56C1845D55AC8B"
-					item: "kubejs:suprachronal_mv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3B56C1845D55AC8B"
+				item: "kubejs:suprachronal_mv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 2.0d
 		}
@@ -931,13 +901,11 @@
 			dependencies: ["01F2F946EADE6386"]
 			icon_scale: 2.0d
 			id: "7174B34849778BCA"
-			tasks: [
-				{
-					id: "16FF7764A9FADC57"
-					item: "kubejs:suprachronal_hv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16FF7764A9FADC57"
+				item: "kubejs:suprachronal_hv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 3.5d
 		}
@@ -945,13 +913,11 @@
 			dependencies: ["7174B34849778BCA"]
 			icon_scale: 2.0d
 			id: "14E23BFD646CBD4A"
-			tasks: [
-				{
-					id: "6BEF99E6962FC3E5"
-					item: "kubejs:suprachronal_ev"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6BEF99E6962FC3E5"
+				item: "kubejs:suprachronal_ev"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 5.0d
 		}
@@ -959,13 +925,11 @@
 			dependencies: ["14E23BFD646CBD4A"]
 			icon_scale: 2.0d
 			id: "4B2D93E8BDD66170"
-			tasks: [
-				{
-					id: "1CC32AE134661CEE"
-					item: "kubejs:suprachronal_iv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CC32AE134661CEE"
+				item: "kubejs:suprachronal_iv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 6.5d
 		}
@@ -973,13 +937,11 @@
 			dependencies: ["4B2D93E8BDD66170"]
 			icon_scale: 2.0d
 			id: "20AF2AAC6D04DBEB"
-			tasks: [
-				{
-					id: "219063D50EB7D925"
-					item: "kubejs:suprachronal_luv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "219063D50EB7D925"
+				item: "kubejs:suprachronal_luv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 8.0d
 		}
@@ -987,13 +949,11 @@
 			dependencies: ["20AF2AAC6D04DBEB"]
 			icon_scale: 2.0d
 			id: "155B6106B6F3E3C6"
-			tasks: [
-				{
-					id: "565D5D00AD82E08B"
-					item: "kubejs:suprachronal_zpm"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "565D5D00AD82E08B"
+				item: "kubejs:suprachronal_zpm"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 9.5d
 		}
@@ -1001,13 +961,11 @@
 			dependencies: ["155B6106B6F3E3C6"]
 			icon_scale: 2.0d
 			id: "16B8D184CBCC6EA7"
-			tasks: [
-				{
-					id: "218BAF83AB8AA9C6"
-					item: "kubejs:suprachronal_uv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "218BAF83AB8AA9C6"
+				item: "kubejs:suprachronal_uv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 11.0d
 		}
@@ -1015,13 +973,11 @@
 			dependencies: ["16B8D184CBCC6EA7"]
 			icon_scale: 2.0d
 			id: "6679B323FB986C6D"
-			tasks: [
-				{
-					id: "0E6BB7B6A0C15796"
-					item: "kubejs:suprachronal_uhv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E6BB7B6A0C15796"
+				item: "kubejs:suprachronal_uhv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 12.5d
 		}
@@ -1029,13 +985,11 @@
 			dependencies: ["16B8D184CBCC6EA7"]
 			icon_scale: 2.0d
 			id: "5C972A177A96ECEF"
-			tasks: [
-				{
-					id: "7BD5E56198CF251B"
-					item: "kubejs:suprachronal_uev"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7BD5E56198CF251B"
+				item: "kubejs:suprachronal_uev"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 14.0d
 		}
@@ -1043,13 +997,11 @@
 			dependencies: ["5C972A177A96ECEF"]
 			icon_scale: 2.0d
 			id: "531BF9450F4AAE40"
-			tasks: [
-				{
-					id: "02B85BC14775E64A"
-					item: "kubejs:suprachronal_uiv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "02B85BC14775E64A"
+				item: "kubejs:suprachronal_uiv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 15.5d
 		}
@@ -1057,13 +1009,11 @@
 			dependencies: ["531BF9450F4AAE40"]
 			icon_scale: 2.0d
 			id: "05C1A14049210A6C"
-			tasks: [
-				{
-					id: "56CE4A94ABD6B6BA"
-					item: "kubejs:suprachronal_uxv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56CE4A94ABD6B6BA"
+				item: "kubejs:suprachronal_uxv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 17.0d
 		}
@@ -1071,343 +1021,281 @@
 			dependencies: ["05C1A14049210A6C"]
 			icon_scale: 2.0d
 			id: "771080AF846271E3"
-			tasks: [
-				{
-					id: "730DF3F3003CEA81"
-					item: "kubejs:suprachronal_opv"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "730DF3F3003CEA81"
+				item: "kubejs:suprachronal_opv"
+				type: "item"
+			}]
 			x: 15.0d
 			y: 18.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "694752515DEBC87C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3254702DA9214672"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3254702DA9214672"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "19D20548AE366D92"
-					item: "gtceu:ulv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "19D20548AE366D92"
+				item: "gtceu:ulv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: -1.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "4234B7EDEAAE2589"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5E2CA3BD68BDD092"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E2CA3BD68BDD092"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "2006087B97E343F5"
-					item: "gtceu:lv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2006087B97E343F5"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 0.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "0C8149BB0F901A88"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0AF4FC46FC59A1FA"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AF4FC46FC59A1FA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "51FFD964059871E9"
-					item: "gtceu:mv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "51FFD964059871E9"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 2.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "7DB9586C50C51487"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2684F4088F86F557"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2684F4088F86F557"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "18CFD175ECA63708"
-					item: "gtceu:hv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "18CFD175ECA63708"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 3.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "0CEED8F7B1078679"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "57806340731AACD9"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57806340731AACD9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "21F4A5823596410F"
-					item: "gtceu:ev_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "21F4A5823596410F"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 5.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "57DFF4DF39921D5C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "022333C3C3D953B7"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022333C3C3D953B7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "42FF3761F3F92DA4"
-					item: "gtceu:iv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "42FF3761F3F92DA4"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 6.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "3E6D32B9DFD2A0D8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4CF55E4C7B09A9CA"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF55E4C7B09A9CA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "27DB91D1C0D05429"
-					item: "gtceu:luv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "27DB91D1C0D05429"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 8.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "02C0A8AB8ECBE0D8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "435E39934AFC30DA"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "435E39934AFC30DA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "399F9084C6185086"
-					item: "gtceu:zpm_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "399F9084C6185086"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 9.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "521F07096D5DCD7D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "337A3EE9298BE4A7"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "337A3EE9298BE4A7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "0CBDC4566D576FE8"
-					item: "gtceu:uv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0CBDC4566D576FE8"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 11.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "20077D3358408F12"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7796A3EEA49CD57D"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7796A3EEA49CD57D"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "1BB8185770EF286D"
-					item: "gtceu:uhv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1BB8185770EF286D"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 12.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "4F0F6DA08B2C3164"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "23368BBC7B31CE38"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23368BBC7B31CE38"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "647650F1707A7F08"
-					item: "gtceu:uev_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "647650F1707A7F08"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 14.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "09A15DBD55577A17"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "53BDA3FF7A50CAF8"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53BDA3FF7A50CAF8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "78BE460A3F2B1371"
-					item: "gtceu:uiv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78BE460A3F2B1371"
+				item: "gtceu:uiv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 15.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "50C6E9D9A0B3A5FF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4535778AD4AA25F4"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4535778AD4AA25F4"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "2112EFCCF70E7A5D"
-					item: "gtceu:uxv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2112EFCCF70E7A5D"
+				item: "gtceu:uxv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 17.0d
 		}
 		{
 			icon_scale: 2.0d
 			id: "7115D3726E4D2512"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2310523441456509"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2310523441456509"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "74271DBF23D228FF"
-					item: "gtceu:opv_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74271DBF23D228FF"
+				item: "gtceu:opv_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 18.5d
 		}
 		{
 			icon_scale: 2.0d
 			id: "3F14EBCC998FB895"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6B6DED4315424DC4"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B6DED4315424DC4"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "4523F4EFDB23EB2E"
-					item: "gtceu:max_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4523F4EFDB23EB2E"
+				item: "gtceu:max_energy_input_hatch"
+				type: "item"
+			}]
 			x: -7.5d
 			y: 20.0d
 		}
@@ -1416,13 +1304,11 @@
 			icon_scale: 2.0d
 			id: "33C6444D30015BF5"
 			optional: true
-			tasks: [
-				{
-					id: "581585A379363A9C"
-					item: "gtceu:nand_chip"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "581585A379363A9C"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -1.0d
 		}
@@ -1431,13 +1317,11 @@
 			icon_scale: 2.0d
 			id: "1FCD810E5705FE37"
 			optional: true
-			tasks: [
-				{
-					id: "6145265D5C20368B"
-					item: "gtceu:microchip_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6145265D5C20368B"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
 			x: 1.5d
 			y: 0.5d
 		}

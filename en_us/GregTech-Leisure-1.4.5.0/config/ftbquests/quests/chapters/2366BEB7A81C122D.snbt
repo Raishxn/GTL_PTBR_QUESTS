@@ -59,7 +59,7 @@
 			id: "035C470213E8B4DB"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Demand is a little high"
+			subtitle: "The demand is a bit high"
 			tasks: [{
 				id: "39B8A1A88BE55729"
 				item: "gtceu:neutronium_ingot"
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["Most advanced monocrystalline silicon"]
+			description: ["More advanced monocrystalline silicon"]
 			icon_scale: 2.0d
 			id: "264EA49453E188C4"
 			tasks: [{
@@ -133,7 +133,7 @@
 				"43A7282802A06626"
 				"4F87B7DA47087F97"
 			]
-			description: ["Simulates calculations using micro-ecosystems and translates the results into comprehensive solutions. It is a high-speed, high-throughput computing device."]
+			description: ["It simulates calculations using micro-ecosystems and translates the results into comprehensive solutions. It is a high-speed, high-throughput computing device."]
 			icon_scale: 2.0d
 			id: "5E7F20C5F8530E1E"
 			size: 1.0d
@@ -205,7 +205,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["&4UHV Superconductor &r"]
+			description: ["&4UHV&rsuperconductor"]
 			id: "1DFC7DC123A3D830"
 			tasks: [{
 				id: "396FE1151A63CF4A"
@@ -222,7 +222,7 @@
 			id: "24B011E770B7DF3F"
 			tasks: [{
 				id: "62A6274CE1A1FF7A"
-				title: "poliimida"
+				title: "Poliimida"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -261,7 +261,7 @@
 			id: "53EB6E99F976AF31"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "In fact, it is not a multi-block circuit assembly machine!"
+			subtitle: "It’s really not a multi-block circuit assembly machine!"
 			tasks: [
 				{
 					id: "2E802CA66A25BB20"
@@ -287,7 +287,7 @@
 			id: "71D029B59C690121"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Essencial"
+			subtitle: "Essential"
 			tasks: [{
 				id: "50C209A33583AD73"
 				item: "gtceu:plasma_condenser"
@@ -337,10 +337,10 @@
 				"53DEE1A65051E06F"
 			]
 			description: [
-				"Time-consuming multiple: 0.8^ (elevator body tension level -8)"
-				"Maximum number of parallels: 4 ^ (elevator body power module level -1)"
+				"Time-consuming multiple: 0.8^ (elevator body voltage level -8)"
+				"Maximum number of parallels: 4^ (elevator body power module level -1)"
 				""
-				"Make sure the &6&rspace elevator module base and the &6&rspace elevator module connector completely overlap with those that come with the space elevator to complete the installation"
+				"Make sure that the&6space elevator module base&rand&6space elevator module connector&rof the module completely overlap with those that come with the space elevator to complete the installation."
 			]
 			icon_scale: 2.0d
 			id: "31EDE3D976DE5A33"
@@ -370,7 +370,7 @@
 			icon_scale: 2.0d
 			id: "7ADB50ACF5AE1D13"
 			shape: "rsquare"
-			subtitle: "Green fuel combines well with collection module"
+			subtitle: "Green fuel goes well with the collection module"
 			tasks: [{
 				id: "3F389DDC4C0810B4"
 				item: "gtceu:resource_collection"
@@ -429,7 +429,7 @@
 				item: "kubejs:abyssalalloy_coil_block"
 				type: "item"
 			}]
-			title: "Infernal Alloy Coil"
+			title: "Hell Alloy Coil"
 			x: 1.0d
 			y: 12.0d
 		}
@@ -482,10 +482,10 @@
 				"2A0269009ABF1414"
 			]
 			description: [
-				"This is the T8 rocket, unlock Barnard C, click &ein the host GUI to start &r(you can also go to other planets)"
+				"This is the T8 rocket. Unlock Barnard C. Click on &ein the host GUI to start the journey to &r(you can also go to other planets)"
 				""
-				"&bis required to input circuit #1 &rusing the input bus and continuously provides 128 computing power. When the elevator is working normally, the operating time will be &6, which will cycle between 6~13s."
-				"Therefore, &c&l&oDo not use the configurable maintenance compartment to modify the recipe. It's time consuming."
+				"It is necessary to use &bto input circuit #1 &rusing the input bus and continuously supply 128 computing power. When the elevator is working normally, the running time will &6cycle between 6~13s."
+				"Therefore, &c&l&odoes not use the configurable maintenance compartment to modify the recipe, which is time-consuming"
 				""
 				"Only when the main body of the space elevator is operating normally (that is, the power module and main engine are lit) will the expansion module show that it is connected and operating normally?"
 				""
@@ -534,7 +534,7 @@
 				"4A058FA1859A00D1"
 				"4786A4C8A643EA4A"
 			]
-			description: ["Very similar to wetware"]
+			description: ["Much like wetware"]
 			id: "583079AD88755662"
 			tasks: [{
 				id: "6B65C07BCA6CC667"
@@ -732,16 +732,16 @@
 				"0A2D46609F5C3CAB"
 			]
 			description: [
-				"Output up to 1A MAX, very powerful"
+				"Up to 1A MAX output, very powerful"
 				""
-				"Starting from Big Silica, all generators can use &l&c&r&rlaser source boxes to produce power"
+				"Starting from Big Silica, all generators can use&l&claser source bins&r&rto output energy"
 				""
 				"It also has an overclocking mechanism:"
-				"{\"text\":\"For the specific engine, see the definition of lossless overclocking.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"}}"
-				"Replace &b4x recipe speed &rwith &60.25x recipe time &r(including multiplication of configurable maintenance boxes), power consumption &b&rwith &6power generation &r, &btotal power cost &rwith &6Total power generation &ris generator overclocking mechanism"
-				"The generator will automatically overclock &raccording to the size of the power bin/laser source &d&r&eto the upper overclocking limit, and the running time will be reduced to 1~3 ticks at least."
+				"{ \"text\": \"For specific mechanisms, see the definition of lossless overclocking\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
+				"Replace&b4x recipe speed&rwith&60.25x recipe time&r(including the multiplication of the configurable maintenance bin),&bpower consumption&rwith&6power generation &r,&btotal energy cost&rwith&6total power generation&ris the overclocking mechanism of the generator"
+				"The generator will automatically overclock&raccording to the&dpower bin/laser source bin size&r&eto the overclocking upper limit, and the running time will be shortened to 1~3 ticks at the minimum."
 				""
-				"Generators with the words &b&loverclocking will not lose energy efficiency and &rin the description have overclocking mechanisms."
+				"Generators with the words&b&loverclocking will not lose energy efficiency and&rin the description have an overclocking mechanism."
 			]
 			icon_scale: 2.0d
 			id: "09E013C97E05C052"
@@ -752,7 +752,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "Large silica ~~ power generation ~~"
+			subtitle: "Big silica~~power generation~~"
 			tasks: [{
 				id: "6D5ADEFDD6695856"
 				item: "gtceu:large_naquadah_reactor"
@@ -763,11 +763,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: [
-				"{\"text\":\"See precautions for building an evaporation tower here.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"
-				""
-				"Purifying water lines is actually very linear and easy to do, the only things to watch out for are nitrogen (activated carbon) and the speed of the evaporation tower"
-			]
+			description: ["{\"text\":\"See the construction notes for the evaporation tower here.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"]
 			hide_dependency_lines: true
 			icon: "gtceu:grade_8_purified_water_bucket"
 			id: "4EA64DC5DA2F0F8C"
@@ -857,7 +853,7 @@
 				"37C5E7628A4B826C"
 				"5D4131C48F9BAE46"
 			]
-			description: ["Don't go for the ore, go for the decay &b&r&6radio"]
+			description: ["Don't go for ore, go for&bdecay&r&6radium"]
 			id: "53DEE1A65051E06F"
 			tasks: [{
 				id: "7A9EEB0C236E8FE7"
@@ -1013,15 +1009,7 @@
 				"24585C3114095227"
 				"4F87B7DA47087F97"
 			]
-			description: [
-				"The GT version of the supermolecular assembly room does not require EU consumption, has parallelism between recipes and interacts with the ME network through the matrix gate."
-				""
-				"&6Five speed cores &rcan achieve minimum time consumption (1 tick)"
-				""
-				"The core can only replace the &bmolecular machinery block in the core structure."
-				"&r"
-				"Matrix port &ccannot be synthesized using template set &r"
-			]
+			description: ["The GT version of the supermolecular assembly room does not require EU consumption, has parallelism between recipes and interacts with the ME network through the matrix gate.", "", "&6 Five &r speed cores can achieve the minimum time consumption (1tick)", "", "The core can only replace the &bmolecular machinery block in the core structure.", "&r", "Matrix port &ccannot be synthesized using template set &r"]
 			hide_dependency_lines: true
 			icon: "gtceu:molecular_assembler_matrix"
 			icon_scale: 1.5d
@@ -1062,5 +1050,5 @@
 		}
 	]
 	subtitle: ["Tier8-UV"]
-	title: "final pressure"
+	title: "ultimate pressure"
 }

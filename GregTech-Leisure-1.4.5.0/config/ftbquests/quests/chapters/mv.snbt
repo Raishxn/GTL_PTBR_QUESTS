@@ -35,7 +35,7 @@
 				"66DC60EABAAE0619"
 				"32960AFE43AFF989"
 			]
-			description: ["Recomenda-se usar a máquina de montagem de circuito de vapor grande &b&requipada com o compartimento grande de entrada de vapor &e&r."]
+			description: ["Recomenda-se usar a máquina de montagem de circuito de vapor grande &b&requipada com o compartimento de entrada de vapor grande &e&r."]
 			icon_scale: 2.0d
 			id: "242AFA510EC14878"
 			rewards: [
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -475,7 +475,7 @@
 		}
 		{
 			dependencies: ["1F2E7A99C7F1E199"]
-			description: ["Pode ser fabricado posteriormente com um compressor explosivo"]
+			description: ["Pode ser fabricado posteriormente usando um compressor explosivo"]
 			id: "3B47FC6D8D2065F3"
 			rewards: [{
 				id: "62695C43C2C4F027"
@@ -727,7 +727,7 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["{\"text\":\"Haverá algumas coisas diversas na linha bioquímica\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1EBBA5A10A8A48DB\"}}"]
+			description: ["{\"text\":\"A linha bioquímica terá alguns materiais variados.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1EBBA5A10A8A48DB\"}}"]
 			id: "06D1ABE453F52DF1"
 			rewards: [{
 				id: "0FB4E8525644D620"
@@ -819,17 +819,13 @@
 					type: "item"
 				}
 			]
-			title: "fábrica geral"
+			title: "fábrica universal"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["17E9AB180BA36353"]
-			description: [
-				"Esta câmara impulsiona a máquina a vapor até o ponto onde ela pode executar a receita &bMV&r"
-				""
-				"O overclock também é possível: a cada overclock o consumo de vapor é multiplicado por 3, e o tempo de consumo é reduzido pela metade, com no máximo 4 tempos de overclock."
-			]
+			description: ["Esta escotilha eleva a tensão de grandes máquinas a vapor para executar receitas &bMV&r e permite até 4 overclocks."]
 			icon_scale: 2.0d
 			id: "32960AFE43AFF989"
 			rewards: [{
@@ -851,11 +847,11 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["Molde &busado &l&ocabeça&rnão molde &e&l&oferramenta&r"]
+			description: ["O &b molde&l cabeça&r é usado, não o &e molde&ltool&r"]
 			id: "6B09F1B78A5FCF7D"
 			rewards: [{
 				id: "53478885AF4B4433"
@@ -924,7 +920,7 @@
 				"79AE49C5DE7900FF"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["A saída de gravação é 4 vezes maior que a do silício monocristalino comum. Só pode ser usado com a máquina de gravação a laser &6HV&r."]
+			description: ["A saída de gravação é 4 vezes maior que a do silício monocristalino comum. Ele só pode ser usado com a máquina de gravação a laser &6HV &r."]
 			hide_dependency_lines: true
 			id: "506DFA831FEBD175"
 			rewards: [{
@@ -942,11 +938,7 @@
 		}
 		{
 			dependencies: ["56EA21AD61D2ACB1"]
-			description: [
-				"Duas caixas de energia comuns têm potência de 4A, mas aumentarão o nível da receita, fazendo com que as máquinas de fábrica em geral exijam máquinas pequenas mais avançadas para funcionar."
-				""
-				"Mas se você colocar apenas um compartimento de energia 4A, a máquina apenas aumentará a potência, mas não o nível da fórmula, permitindo que a fábrica em geral use máquinas MT para operar em velocidades HV. Se você colocar dois compartimentos de energia 4A, a máquina também aumentará o nível da fórmula, que é 1 vez mais potência que o normal. Se a máquina puder ser paralelizada, ela obterá mais paralelismo do que a caixa comum."
-			]
+			description: ["2 escotilhas de energia comuns fornecem 4A, mas também aumentam o nível das receitas. Por isso, máquinas como a Fábrica Universal precisam de máquinas de um bloco de nível superior para funcionar.", "", "Com apenas uma escotilha de energia de 4A, a máquina ganha potência sem aumentar o nível das receitas: uma Fábrica Universal pode executar uma máquina MV na velocidade HV. Instalar 2 escotilhas de 4A também eleva o nível das receitas e fornece 1 vez adicional da potência comum. Máquinas com processamento paralelo podem, assim, obter mais operações simultâneas que com escotilhas normais."]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "58723DA3E76316E6"
@@ -1061,32 +1053,6 @@
 			}]
 			x: 14.0d
 			y: 10.0d
-		}
-		{
-			dependencies: ["242AFA510EC14878"]
-			description: [
-				"{\"text\":\"Pode ser sua primeira máquina paralela de receitas cruzadas\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6F503441C24ABD5B\"}}"
-				""
-				"É mais potente no período posterior (ao usar a bobina super sílica-Talan, o número de paralelos excede o do forno a vapor ultradimensional)"
-				""
-				"Você pode usar o armazém de laser, suportar paralelismo de receita cruzada, usar o mecanismo paralelo de temperatura, cada vez que a temperatura aumenta em 900K, o número de paralelismo × 2"
-			]
-			icon_scale: 1.4d
-			id: "099798B0FDA4463B"
-			rewards: [{
-				id: "63B56A33E21B8FD5"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "24D537E4F7918A6D"
-				item: "gtceu:advanced_multi_smelter"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
 		}
 	]
 	subtitle: ["Tier2-MV"]

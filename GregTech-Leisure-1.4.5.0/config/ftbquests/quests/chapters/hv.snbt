@@ -52,15 +52,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1C320B245EAC8D14"]
+			dependencies: ["4DDF10E2B541BCBF"]
 			description: ["O último circuito desta série"]
 			icon_scale: 2.0d
 			id: "7940CFD732610594"
-			rewards: [{
-				id: "1F569A837DBC3D5A"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -70,6 +65,22 @@
 			}]
 			x: 10.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			id: "4DDF10E2B541BCBF"
+			rewards: [{
+				id: "3815B8B981E6F460"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "054FD71E04CD34FC"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4302F67F2B0B22D0"]
@@ -151,9 +162,9 @@
 			dependencies: ["0243CEA5EE705EB0"]
 			dependency_requirement: "one_started"
 			description: [
-				"Processadores das séries micro a wetware (em sentido estrito) podem ser produzidos de forma eficiente usando chips SoC com fórmulas simplificadas, chamados de circuitos SOC."
+				"Processadores (em sentido estrito) que variam de séries micro a wetware podem ser produzidos com eficiência usando chips SoC com fórmulas simplificadas, chamados de circuitos SOC."
 				""
-				"Existem também chips NAND (ULV) e processadores microchip (LV) na série SoC."
+				"A série SoC também inclui chips NAND ( ULV ) e processadores microchip ( LV )"
 			]
 			icon_scale: 2.0d
 			id: "3FCF807491579B94"
@@ -192,7 +203,7 @@
 				"18CA398800CC2E1B"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["Se não houver sala limpa, é necessário colocar a máquina de montagem de circuitos na montadora geral &6&re, em seguida, instalar o armazém de manutenção ultralimpo &b&rna montadora geral."]
+			description: ["Se não houver sala limpa, você deverá colocar a máquina de montagem de circuito na fábrica de montagem geral &6&re, em seguida, instalar o armazém de manutenção limpa &b&rna fábrica de montagem geral."]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [{
@@ -387,14 +398,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: [
-				"Quando se trata de EV, você precisa de muitas matérias-primas químicas estranhas. Se você não montar uma linha de produção conjunta petroquímica e bioquímica agora, o EV ficará muito preso mais tarde."
-				""
-				"Exceto para a camada inferior da torre de destilação, cada &o&6só pode e deve&rcolocar um pequeno compartimento de saída &b&r. Cada bandeja de saída corresponde a um produto (pode ser empilhada sozinha, sem nenhum bônus adicional de altura)"
-				"Existem e apenas a camada inferior &6&rpode usar o conjunto de saída &b&r, o que pode reduzir a altura. Se você usar o conjunto de saída &dME&r, poderá até construir apenas três camadas."
-				""
-				"O limite superior do bônus de velocidade do forno de pirólise é &a500%&r, e o limite inferior do bônus de consumo de energia da máquina de craqueamento é &a10%&r"
-			]
+			description: ["No EV, você precisará de grandes quantidades de materiais químicos variados. Monte agora uma linha integrada de petroquímica e bioquímica para evitar dificuldades no restante do EV.", "", "Exceto para a camada inferior da torre de destilação, &o&6só pode e deve &rcolocar um pequeno compartimento de saída &b&r. Cada caixa de saída corresponde a um produto (pode ser empilhada sozinha, sem nenhum bônus adicional de altura)", "Existem e apenas a camada inferior &6&rpode usar o conjunto de saída &b&r, o que pode reduzir a altura. Se você usar o conjunto de saída &dME &r, poderá até construir apenas três camadas."]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
 			rewards: [{
@@ -651,7 +655,7 @@
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"Possui overclock sem perdas &b&re possui a fórmula avançada exclusiva&rdo &6(circuito mágico nº 24), que é mais poderoso do que a fábrica de mixagem geral"
+				"Na verdade, ele possui overclock sem perdas &b&re possui fórmula avançada exclusiva &6&r(circuito mágico nº 24), que é mais poderoso do que a fábrica de mixagem geral"
 				""
 				"Somente bobinas de cobre branco &epodem ser usadas"
 			]
@@ -728,10 +732,9 @@
 		}
 		{
 			dependencies: ["360787FE602FBF66"]
-			description: ["{\"text\":\"Você também pode obter tetracloreto de titânio sem ir para o céu\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"605B973142727552\"}}"]
+			description: ["Também pode ser usado para aumentar a produção de plástico"]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
-			subtitle: "Também pode ser usado para aumentar a produção de plástico"
 			tasks: [{
 				id: "2B5DDF34950566F1"
 				type: "checkmark"
@@ -745,10 +748,7 @@
 				"1AC5A3B5522F78D9"
 				"027197A71E630966"
 			]
-			description: [
-				"Se você perceber que este pó pode ser obtido a partir de minerais, por favor, não procure."
-				"Este mineral é posteriormente obtido através de grandes máquinas de mineração de vazios ou elevadores espaciais."
-			]
+			description: ["Se você perceber que este pó pode ser obtido a partir de minerais, por favor, não procure.", "Este mineral é posteriormente obtido através de grandes máquinas de mineração de vazios ou elevadores espaciais."]
 			id: "74D9136DE32F9129"
 			rewards: [{
 				id: "11EC0893B4B00754"
@@ -791,6 +791,7 @@
 				""
 				"O supercondutor sério de HV é o óxido de mercúrio, bário, cálcio e cobre"
 			]
+			hide_dependency_lines: true
 			id: "46BFDB71190C1F49"
 			rewards: [{
 				id: "21D42C7B4D0E84C3"
@@ -803,12 +804,12 @@
 				item: "gtceu:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["Na verdade, ele pode encher instantaneamente a caixa de entrada gigante de baixa tensão (2,1 MB/t)"]
+			description: ["Na prática, consegue encher instantaneamente uma escotilha de entrada gigante LV (2.1MB/t)."]
 			id: "05360F828860DB6F"
 			rewards: [{
 				id: "700022A87BC01B7D"
@@ -860,18 +861,19 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["Use apenas bobina de liga Kantal &e&r"]
+			description: ["Use apenas bobina de liga &eKantal &r", "", "Pode ser sua primeira máquina paralela de receita cruzada (isso só pode ser refletido com a caixa de controle paralelo)", "", "{\"text\":\"Também pode ser o Forno Avançado.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5549BBB07626B52C\"}}"]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "0752A7F2C67CDF76"
+			optional: true
 			shape: "rsquare"
-			subtitle: "Dessulfurização em uma etapa"
 			tasks: [{
 				id: "44035FCFBB02978D"
 				item: "gtceu:desulfurizer"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]

@@ -198,11 +198,11 @@
 		{
 			dependencies: ["4C591AA4F1D907C1"]
 			description: [
-				"Turbine rotor &l&c(with durability) &r&ris used instead of rotor, pay attention to the difference"
+				"&l&c(with durability) &r&rturbine rotor is used instead of rotor, pay attention to the difference."
 				""
 				"Note that &bdoes not block the &rrotor holder (it will also be considered locked when the rotor holder is oriented up or down)"
 				""
-				"Do not attempt to replace the rotor directly on the rotor support when the turbine is running. This will only make your health worse. &mXXX dove into the turbine."
+				"When the turbine is running, do not attempt to replace the rotor directly on the rotor support. This will only reduce your health. &mXXX dove into the turbine."
 				""
 				"Please note that the rotor support degree cannot be less than the minimum requirement in the turbine description, otherwise -1 efficiency will be displayed."
 				""
@@ -276,7 +276,7 @@
 				""
 				"Be careful not to block the mechanical air intake block of the &bengine"
 				""
-				"&cengine generator cannot be mounted &r(i.e. the main engine cannot be oriented up or down)"
+				"The &cgenerator engine cannot be mounted &r(that is, the main engine cannot be oriented up or down)"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:large_combustion_engine"
@@ -316,7 +316,7 @@
 			description: [
 				"Extra-large turbines have a relatively large power generation capacity and even steam is very powerful."
 				""
-				"Please note that each rotor bracket cannot be blocked and all &bmust use the same type of &rturbine rotor"
+				"Please note that each rotor support cannot be blocked and all &bmust use the same type of &rturbine rotor"
 				""
 				"The rotor box can automatically place the stored turbine rotors into the empty rotor holder; available silo positions are located above, below, left and right of the main turbine engine; only extra-large turbines can install the rotor casing"
 			]
@@ -562,9 +562,9 @@
 		{
 			dependencies: ["4B33F47839538D7B"]
 			description: [
-				"Compared with large silica, it is more fuel efficient and has a maximum power of 256A MAX."
+				"Compared with large silica rock, it is more fuel-efficient and has a maximum output of 256A MAX."
 				""
-				"The effect of supplying plasma is similar to prolonging recipe time, which can be understood as X parallel = X times power generation"
+				"The effect of providing plasma is similar to extending the recipe time, which can be understood as X parallel = X times power generation"
 			]
 			id: "548E8FA4B1004534"
 			tasks: [{
@@ -577,15 +577,7 @@
 		}
 		{
 			dependencies: ["19C7474792787EE9"]
-			description: [
-				"Maximum output up to 10000A"
-				""
-				"After booting, &ewill be forced to lock &rin the dark night"
-				""
-				"The launch module process and the power generation process &ecannot be carried out at the same time &r"
-				""
-				"&mMay get stuck and not generate electricity after firing 10,000 modules &r"
-			]
+			description: ["Maximum output up to 10000A", "", "After booting, &ewill be forced to lock &rin the dark night", "", "The launch module process and the power generation process &ecannot be carried out at the same time &r", "", "&mIt may stop producing power after launching 10000 modules.&r"]
 			id: "082BB082BE18C820"
 			subtitle: "Starts very slowly"
 			tasks: [{
@@ -610,11 +602,7 @@
 		}
 		{
 			dependencies: ["19C7474792787EE9"]
-			description: [
-				"Output up to 16384A MAX"
-				""
-				"Note that the two plasmas in the tip do not correspond to the fuel."
-			]
+			description: ["Up to 16384A MAX output"]
 			id: "25F672CF48091CEC"
 			subtitle: "Use and stop at any time"
 			tasks: [{
@@ -804,10 +792,7 @@
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
-			description: [
-				"The avenue of vapor manifests itself here"
-				"Everyone in the world can become immortal through this"
-			]
+			description: ["The avenue of vapor manifests itself here", "Everyone in the world can become immortal through this"]
 			icon: "gtceu:steam_bucket"
 			id: "410D898F86927828"
 			subtitle: "very powerful"
@@ -1111,7 +1096,7 @@
 			dependencies: ["1A6111948261BCB8"]
 			icon: "gtceu:hyper_fuel_1_bucket"
 			id: "4C7F01C6BDC4C668"
-			subtitle: "There are four types in total"
+			subtitle: "There are four kinds in total"
 			tasks: [
 				{
 					id: "06F85A701518B6F5"
@@ -1142,16 +1127,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "superfuel"
+			title: "super fuel"
 			x: -8.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
-			description: ["Atomic refining recipe cannot be used until UXV"]
+			description: ["The atomic refining recipe cannot be used until UXV"]
 			icon: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
 			id: "703B4E87BFB463A3"
-			subtitle: "There are two types"
+			subtitle: "There are two kinds"
 			tasks: [
 				{
 					id: "5F10F9EBFF422F19"
@@ -1170,7 +1155,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Concentrated mixed superfuel"
+			title: "Concentrated mixed super fuel"
 			x: -8.5d
 			y: 10.0d
 		}
@@ -1178,7 +1163,7 @@
 			dependencies: ["1A6111948261BCB8"]
 			icon: "kubejs:neutronium_antimatter_fuel_rod"
 			id: "0371ECA23AB14C7F"
-			subtitle: "There are four types in total"
+			subtitle: "There are four kinds in total"
 			tasks: [
 				{
 					id: "6ED166264A82E96F"
@@ -1244,11 +1229,11 @@
 			description: [
 				"Up to 67108864A MAX output"
 				""
-				"The warehouse can and can only replace the high-energy machine shell &b&l&r(in addition to both sides of the main machine, there are also four corners on the base)"
+				"The warehouse can and can only replace&b&lhigh-energy machine casing&r(in addition to both sides of the main unit, there are also four corners on the base)"
 			]
 			id: "5CA04083FCFD26A8"
 			size: 1.0d
-			subtitle: "Can fill your highest level laser box"
+			subtitle: "Can fill up your highest level laser bin"
 			tasks: [{
 				id: "13573E3E1023E028"
 				item: "gtceu:annihilate_generator"
@@ -1260,16 +1245,16 @@
 		{
 			dependencies: ["44F827B28C513D5B"]
 			description: [
-				"Output up to 1A MAX, very powerful"
+				"Up to 1A MAX output, very powerful"
 				""
-				"Starting from Big Silica, all generators can use &l&c&r&rlaser source boxes to produce power"
+				"Starting from Big Silica, all generators can use&l&claser source bins&r&rto output energy"
 				""
 				"It also has an overclocking mechanism:"
-				"{\"text\":\"For the specific engine, see the definition of lossless overclocking.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"}}"
-				"Replace &b4x recipe speed &rwith &60.25x recipe time &r(including multiplication of configurable maintenance boxes), power consumption &b&rwith &6power generation &r, &btotal power cost &rwith &6Total power generation &ris generator overclocking mechanism"
-				"The generator will automatically overclock &raccording to the size of the power bin/laser source &d&r&eto the upper overclocking limit, and the running time will be reduced to 1~3 ticks at least."
+				"{ \"text\": \"For specific mechanisms, see the definition of lossless overclocking\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
+				"Replace&b4x recipe speed&rwith&60.25x recipe time&r(including the multiplication of the configurable maintenance bin),&bpower consumption&rwith&6power generation &r,&btotal energy cost&rwith&6total power generation&ris the overclocking mechanism of the generator"
+				"The generator will automatically overclock&raccording to the&dpower bin/laser source bin size&r&eto the overclocking upper limit, and the running time will be shortened to 1~3 ticks at the minimum."
 				""
-				"Generators with the words &b&loverclocking will not lose energy efficiency and &rin the description have overclocking mechanisms."
+				"Generators with the words&b&loverclocking will not lose energy efficiency and&rin the description have an overclocking mechanism."
 			]
 			id: "7BBBF338330F4793"
 			rewards: [{
@@ -1278,7 +1263,7 @@
 				table_id: 6225023274141477362L
 				type: "loot"
 			}]
-			subtitle: "Large silica ~~ power generation ~~"
+			subtitle: "Big silica~~power generation~~"
 			tasks: [{
 				id: "17D037479DE11EDF"
 				item: "gtceu:large_naquadah_reactor"
@@ -1952,10 +1937,10 @@
 		}
 		{
 			dependencies: ["129B3F81E43C237D"]
-			description: ["Transfer electricity from the created energy to the wireless network through active transformers, up to output 50331648A MAX"]
+			description: ["Transfer electricity from the created energy to the wireless network through active transformers, up to 50331648A MAX output"]
 			icon: "gtceu:active_transformer"
 			id: "3B18900343C2F4E3"
-			subtitle: "infinite energy"
+			subtitle: "endless energy"
 			tasks: [
 				{
 					id: "586428C96B81B3FF"

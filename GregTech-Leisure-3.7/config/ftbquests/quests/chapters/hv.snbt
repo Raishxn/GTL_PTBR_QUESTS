@@ -9,28 +9,27 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2C75EB0628CB491A", "242AFA510EC14878"]
-			description: ["&lNesta fase, você enfrentará outra configuração deste pacote - o ambiente de execução.", "&l Se você é um veterano de vários filmes, haverá surpresas esperando por você neste capítulo."]
+			dependencies: [
+				"2C75EB0628CB491A"
+				"242AFA510EC14878"
+			]
+			description: ["&lNesta fase, você encontrará outra configuração deste pacote - o ambiente operacional.", "&lSe você é um veterano em muitos jogos, haverá surpresas esperando por você neste capítulo."]
 			hide_dependent_lines: true
 			icon: "kubejs:hv_universal_circuit"
 			id: "1A48D2DB936FF632"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4D75EE177DE053B0"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D75EE177DE053B0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2F52039C169285CF"
-					title: "HV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2F52039C169285CF"
+				title: "HV"
+				type: "checkmark"
+			}]
 			title: "Alta tensão de alta tensão"
 			x: 0.0d
 			y: 0.0d
@@ -54,13 +53,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0B078D6B5E8ADED5"
-					item: "gtceu:ev_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B078D6B5E8ADED5"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 8.0d
 		}
@@ -69,23 +66,19 @@
 			description: ["O último circuito desta série"]
 			icon_scale: 2.0d
 			id: "7940CFD732610594"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "272C8E46F0DA728C"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "272C8E46F0DA728C"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "6DF561795A593EDB"
-					item: "kubejs:ultima_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6DF561795A593EDB"
+				item: "kubejs:ultima_control_circuit"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 2.0d
 		}
@@ -154,7 +147,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3E9C078C4BABAE3B", "4967FCD7B2675E94"]
+			dependencies: [
+				"3E9C078C4BABAE3B"
+				"4967FCD7B2675E94"
+			]
 			id: "4302F67F2B0B22D0"
 			rewards: [
 				{
@@ -169,19 +165,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "009EE8D1C5AC4CBD"
-					item: "minecraft:ender_eye"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "009EE8D1C5AC4CBD"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["61049DA87C6DEFC6"]
-			description: ["O Blaze Rod pode ser obtido no Matadouro"]
+			description: ["Você pode pegar o Blaze Rod no Matadouro, lembre-se de ativar o modo entidade"]
 			id: "3E9C078C4BABAE3B"
 			rewards: [
 				{
@@ -196,13 +190,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "0AA5FB1BA702DF77"
-					item: "minecraft:blaze_powder"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0AA5FB1BA702DF77"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -222,13 +214,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "388AD19F722DB366"
-					item: "gtceu:hv_chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "388AD19F722DB366"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.0d
 		}
@@ -236,9 +226,9 @@
 			dependencies: ["0243CEA5EE705EB0"]
 			dependency_requirement: "one_started"
 			description: [
-				"Processadores das séries micro a wetware (em sentido estrito) podem ser produzidos de forma eficiente usando chips SoC com fórmulas simplificadas, chamados de circuitos SOC."
+				"Processadores (em sentido estrito) que variam de séries micro a wetware podem ser produzidos com eficiência usando chips SoC com fórmulas simplificadas, chamados de circuitos SOC."
 				""
-				"A série SoC também inclui chips NAND (ULV) e processadores microchip (LV)"
+				"A série SoC também inclui chips NAND ( ULV ) e processadores microchip ( LV )"
 			]
 			icon_scale: 2.0d
 			id: "3FCF807491579B94"
@@ -255,13 +245,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1259CD7048B5DE84"
-					item: "gtceu:micro_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1259CD7048B5DE84"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 8.0d
 		}
@@ -282,19 +270,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2C8B079C13E74751"
-					item: "gtceu:micro_processor_assembly"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2C8B079C13E74751"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["18CA398800CC2E1B", "5E9EA7E22BE663AF"]
-			description: ["Se não houver sala ultralimpa, você deverá colocar a máquina de montagem de circuito na planta de montagem geral &6 &r e, em seguida, instalar o armazém de manutenção ultralimpo &b &r para a planta de montagem geral."]
+			dependencies: [
+				"18CA398800CC2E1B"
+				"5E9EA7E22BE663AF"
+			]
+			description: ["Se não houver sala limpa, você deverá colocar a máquina de montagem de circuito na fábrica de montagem geral &6&re, em seguida, instalar o armazém de manutenção limpa &b&rna fábrica de montagem geral."]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [
@@ -312,18 +301,19 @@
 			]
 			shape: "diamond"
 			size: 1.0d
-			tasks: [
-				{
-					id: "759C0F5C1FCC6D04"
-					item: "gtceu:micro_processor_computer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "759C0F5C1FCC6D04"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["1C320B245EAC8D14", "31B5C9A6F8FB0BA2"]
+			dependencies: [
+				"1C320B245EAC8D14"
+				"31B5C9A6F8FB0BA2"
+			]
 			icon_scale: 2.0d
 			id: "3461BF0D74E5E8DF"
 			rewards: [
@@ -340,19 +330,17 @@
 				}
 			]
 			subtitle: "Deve fazer"
-			tasks: [
-				{
-					id: "4C4E9514C39EE1F0"
-					item: "gtceu:micro_processor_mainframe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4C4E9514C39EE1F0"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]
-			description: ["Coloque-o em uma estrutura multibloco para fazer com que os multiblocos obtenham &d ambiente de sala limpa &r"]
+			description: ["Coloque-o em uma estrutura multibloco para fazer com que os multiblocos obtenham ambiente de sala limpa &d&r"]
 			icon_scale: 2.0d
 			id: "5E9EA7E22BE663AF"
 			rewards: [
@@ -370,13 +358,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "Também pode ser mantido automaticamente"
-			tasks: [
-				{
-					id: "0106634910539280"
-					item: "gtceu:cleaning_maintenance_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0106634910539280"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
@@ -397,13 +383,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "0843D22E4B02D63E"
-					item: "gtceu:plastic_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0843D22E4B02D63E"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 8.0d
 		}
@@ -479,13 +463,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5009E0AA80514313"
-					item: "gtceu:plastic_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5009E0AA80514313"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 8.0d
 		}
@@ -494,7 +476,7 @@
 			description: [
 				"Você pode obter alguns recursos úteis nos pesqueiros, não se esqueça de construí-los"
 				""
-				"O módulo de ponto zero é uma bateria &d&r de grau ZPM e só pode ser colocado em uma caixa de bateria de grau ZPM."
+				"O módulo de ponto zero é uma bateria &d&rde grau ZPM e só pode ser colocado em uma caixa de bateria de grau ZPM."
 				""
 				"64 varas de pesca podem ser inseridas usando vários ônibus, ônibus gigantes, ônibus de inventário, etc."
 				""
@@ -522,27 +504,17 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "0E4B176D3DF3D8F5"
-					item: "gtceu:fishing_ground"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0E4B176D3DF3D8F5"
+				item: "gtceu:fishing_ground"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: [
-				"&l·&f requer uma grande quantidade de matérias-primas químicas no estágio &6EV&f. Recomenda-se construir a linha de produção conjunta petroquímica e bioquímica &6&f com antecedência, caso contrário será muito difícil acompanhar."
-				""
-				"&l·&f Torre de destilação:"
-				"&l ·&f Exceto a camada inferior, cada camada &o&6 só pode e deve &r colocar um pequeno armazém de saída &b &f. Cada armazém de saída corresponde a um produto (pode ser empilhado sozinho, sem bônus adicional de altura)"
-				"&l ·&f tem e apenas &6 camada inferior &f pode usar &b conjunto de saída &f, o que pode reduzir a altura; se o conjunto de saída &dME &f for usado, apenas três camadas serão necessárias"
-				""
-				"&l·&fComo obter petróleo bruto: Experimente a centrifugação&6Areias betuminosas&f"
-			]
+			description: ["&l · &f requer uma grande quantidade de matérias-primas químicas no estágio &6 EV &f. Recomenda-se construir a linha de produção conjunta petroquímica e bioquímica &6 &f com antecedência, caso contrário o acompanhamento será muito difícil.", "", "&l·&fTorre de destilação:", "&l · &f Exceto para a camada inferior, cada camada &o &6 só pode e deve &r colocar um pequeno armazém de saída &b &f. Cada armazém de saída corresponde a um produto (pode ser empilhado sozinho, sem bônus adicional de altura)", "&l · &f possui e apenas a camada inferior &6 &f pode usar o conjunto de saída &b &f, o que pode reduzir a altura; se o conjunto de saída &d ME &f for usado, apenas três camadas serão necessárias", "", "&l · &f Como obter petróleo bruto: Experimente a centrifugação &6 Areias betuminosas &f"]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
 			rewards: [
@@ -583,7 +555,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["Todos os lingotes subsequentes precisam usar esta máquina e você não pode usar uma máquina de imersão química."]
+			description: ["Os fusos quentes na parte traseira precisam ser resfriados por esta máquina e a máquina de imersão química não pode ser usada."]
 			icon_scale: 1.3d
 			id: "027197A71E630966"
 			rewards: [
@@ -601,13 +573,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "67020EF8AE962E62"
-					item: "gtceu:vacuum_freezer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "67020EF8AE962E62"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 4.0d
 		}
@@ -628,15 +598,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:liquid_air"
-					id: "28FE8356407E237F"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:liquid_air"
+				id: "28FE8356407E237F"
+				type: "fluid"
+			}]
 			title: "ar líquido"
 			x: 10.0d
 			y: 6.0d
@@ -657,13 +625,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "13A390535ABFA12A"
-					item: "gtceu:hv_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13A390535ABFA12A"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -690,13 +656,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "33D7768B5C37A187"
-					item: "gtmadvancedhatch:hv_2a_net_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "33D7768B5C37A187"
+				item: "gtmadvancedhatch:hv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 8.0d
 		}
@@ -716,19 +680,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3E9AD74BC94DB5D5"
-					item: "gtceu:hv_cutter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3E9AD74BC94DB5D5"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["0A8178183C888BE0", "5E9EA7E22BE663AF"]
-			description: ["Se não houver sala ultralimpa, você deverá colocar a máquina de corte na planta de processamento geral &6 &r e, em seguida, instalar o armazém de manutenção ultralimpo &b para a planta de processamento geral."]
+			dependencies: [
+				"0A8178183C888BE0"
+				"5E9EA7E22BE663AF"
+			]
+			description: ["Se não houver sala limpa, você deverá colocar a máquina de corte na planta de processamento geral &6&re, em seguida, instalar o armazém de manutenção limpa &bpara a planta de processamento geral."]
 			id: "676D1982102F4E79"
 			rewards: [
 				{
@@ -743,13 +708,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "6B2D53D953086706"
-					item: "gtceu:lpic_chip"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B2D53D953086706"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
@@ -769,13 +732,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4394414AFDD8E56B"
-					item: "gtceu:lpic_wafer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4394414AFDD8E56B"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 5.0d
 		}
@@ -813,7 +774,7 @@
 		}
 		{
 			dependencies: ["06F68B574AC84B7B"]
-			description: ["A platina pode ser obtida por lixiviação de mercúrio ou moagem de minério de níquel.", "&l Espero que você já tenha feito um OP Steam a essa altura"]
+			description: ["A platina pode ser obtida por lixiviação de mercúrio ou moagem de minério de níquel.", "&lEspero que você já tenha feito um OP Steam a essa altura"]
 			id: "157A951DA379C259"
 			rewards: [
 				{
@@ -878,22 +839,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3E80F0C58C4A3699"
-					item: "gtceu:polytetrafluoroethylene_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3E80F0C58C4A3699"
+				item: "gtceu:polytetrafluoroethylene_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"Na verdade, ele possui &b overclock sem perdas &r e possui &6 fórmula avançada exclusiva &r (circuito mágico nº 24), que é mais poderoso do que a fábrica de mixagem geral"
+				"Na verdade, ele possui overclock sem perdas &b&re possui fórmula avançada exclusiva &6&r(circuito mágico nº 24), que é mais poderoso do que a fábrica de mixagem geral"
 				""
-				"Somente bobinas de cobre branco &e podem ser usadas"
+				"Somente bobinas de cobre branco &epodem ser usadas"
 			]
 			icon_scale: 1.3d
 			id: "29450DC426C4E2D6"
@@ -912,13 +871,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "42EC7CCD50B1D828"
-					item: "gtceu:large_chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "42EC7CCD50B1D828"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -939,13 +896,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "07F31D51E577D06C"
-					item: "gtceu:nichrome_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "07F31D51E577D06C"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 6.0d
 		}
@@ -968,13 +923,11 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [
-				{
-					id: "25491710B97DE83B"
-					item: "gtceu:nichrome_coil_block"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "25491710B97DE83B"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
 			title: "Bobina de nicromo"
 			x: 12.0d
 			y: 8.0d
@@ -996,13 +949,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "6FE53B164E07E8FA"
-					item: "gtceu:rutile_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FE53B164E07E8FA"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 2.0d
 		}
@@ -1011,23 +962,19 @@
 			description: ["Também pode ser usado para aumentar a produção de plástico"]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5F185FAF3AE923B5"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:titanium_tetrachloride"
-					id: "71C9ABC4C39DF4B0"
-					type: "fluid"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F185FAF3AE923B5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:titanium_tetrachloride"
+				id: "71C9ABC4C39DF4B0"
+				type: "fluid"
+			}]
 			title: "Tetracloreto de titânio"
 			x: 14.0d
 			y: 0.0d
@@ -1051,13 +998,11 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "18D78F45AECF373E"
-					item: "gtceu:titanium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "18D78F45AECF373E"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 6.0d
 		}
@@ -1119,19 +1064,17 @@
 				}
 			]
 			subtitle: "Supercondutor barato para HV"
-			tasks: [
-				{
-					id: "7DDB9B944116C1C1"
-					item: "gtceu:vibrant_alloy_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7DDB9B944116C1C1"
+				item: "gtceu:vibrant_alloy_ingot"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["Na verdade, ele pode encher instantaneamente a caixa de entrada gigante de baixa tensão (2,1 MB/t)"]
+			description: ["Na prática, consegue encher instantaneamente uma escotilha de entrada gigante LV (2.1MB/t)."]
 			id: "05360F828860DB6F"
 			rewards: [
 				{
@@ -1147,19 +1090,17 @@
 				}
 			]
 			subtitle: "Remendo água ilimitada"
-			tasks: [
-				{
-					id: "3743494D34E98762"
-					item: "gtceu:infinite_water_cover"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3743494D34E98762"
+				item: "gtceu:infinite_water_cover"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["O nome de mapeamento do compressor de implosão &l·&f é &6 implosão&f, que é usado para distingui-lo do compressor e facilitar o upload do modelo.", "&l·&fPor favor escreva &6 Explosão na caixa de nomenclatura da montagem do supermodelo"]
+			description: ["O nome de mapeamento do compressor de implosão &l·&f é &6聚爆 ( implosão)&f, que é usado para distingui-lo do compressor e facilitar o upload do modelo.", "&l·&fPor favor escreva &6聚爆 ( Explosão na caixa de nomenclatura da montagem do supermodelo)"]
 			icon_scale: 1.5d
 			id: "58936CEB6176A18B"
 			rewards: [
@@ -1176,20 +1117,18 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "456C48E25C1F5649"
-					item: "gtceu:implosion_compressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "456C48E25C1F5649"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"Somente bobinas de liga Cantal &e &r podem ser usadas"
+				"Use apenas bobina de liga &eKantal &r"
 				""
 				"Pode ser sua primeira máquina paralela de receita cruzada (isso só pode ser refletido com a caixa de controle paralelo)"
 			]
@@ -1197,22 +1136,18 @@
 			icon_scale: 1.5d
 			id: "0752A7F2C67CDF76"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2257DA292B48722A"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2257DA292B48722A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "44035FCFBB02978D"
-					item: "gtceu:desulfurizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "44035FCFBB02978D"
+				item: "gtceu:desulfurizer"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 8.0d
 		}
@@ -1239,13 +1174,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "7856EBD205E13280"
-					item: "gtceu:advanced_energy_detector_cover"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7856EBD205E13280"
+				item: "gtceu:advanced_energy_detector_cover"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1277,13 +1210,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "0CFD1F25DA57A2ED"
-					item: "gtl_extend:hv_primitive_magic_energy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0CFD1F25DA57A2ED"
+				item: "gtl_extend:hv_primitive_magic_energy"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
@@ -1304,35 +1235,28 @@
 			icon: "gtceu:sterile_cleaning_gravity_configuration_maintenance_hatch"
 			id: "6C41B053B31153E2"
 			optional: true
-			rewards: [
-				{
-					id: "464526990AD89B1A"
-					item: {
-						Count: 1
-						id: "minecraft:paper"
-						tag: {
-							RepairCost: 0
-							display: {
-								Name: "{\\\"text\\\":\\\"准考证\\\"}"
-							}
+			rewards: [{
+				id: "464526990AD89B1A"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"准考证\"}"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					consume_items: true
-					count: 16L
-					id: "115B22C9B397E881"
-					item: {
-						Count: 16
-						id: "gtceu:cleaning_maintenance_hatch"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "115B22C9B397E881"
+				item: { Count: 16, id: "gtceu:cleaning_maintenance_hatch" }
+				type: "item"
+			}]
 			title: "Jogos de quebra-cabeça"
 			x: 16.5d
 			y: 0.0d
@@ -1351,13 +1275,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "436D0FD40631FDA5"
-					title: "A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "436D0FD40631FDA5"
+				title: "A"
+				type: "checkmark"
+			}]
 			title: "Pergunta 1A"
 			x: 18.0d
 			y: 2.0d
@@ -1375,13 +1297,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "1B2ECC522EACA2A8"
-					title: "B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1B2ECC522EACA2A8"
+				title: "B"
+				type: "checkmark"
+			}]
 			title: "Pergunta 1B"
 			x: 19.5d
 			y: 2.0d
@@ -1401,25 +1321,24 @@
 			icon: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
 			icon_scale: 1.3d
 			id: "4E5AA22F3C3B4A51"
-			incompatible: ["3C4A8E129BB1855D", "228C153CC7079886"]
-			optional: true
-			rewards: [
-				{
-					count: 128
-					id: "38CB8B04F0BB7363"
-					item: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
-					type: "item"
-				}
+			incompatible: [
+				"3C4A8E129BB1855D"
+				"228C153CC7079886"
 			]
+			optional: true
+			rewards: [{
+				count: 128
+				id: "38CB8B04F0BB7363"
+				item: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "57D69B2AC51AEFF8"
-					title: "prêmio"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "57D69B2AC51AEFF8"
+				title: "prêmio"
+				type: "checkmark"
+			}]
 			title: "Recompensa: Correto"
 			x: 19.5d
 			y: 0.0d
@@ -1437,13 +1356,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "6EAA7B5889C14A4B"
-					title: "C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6EAA7B5889C14A4B"
+				title: "C"
+				type: "checkmark"
+			}]
 			title: "Pergunta 1C"
 			x: 21.0d
 			y: 2.0d
@@ -1461,13 +1378,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "5F775603DFC59C2C"
-					title: "D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5F775603DFC59C2C"
+				title: "D"
+				type: "checkmark"
+			}]
 			title: "Pergunta 1D"
 			x: 22.5d
 			y: 2.0d
@@ -1501,23 +1416,19 @@
 			id: "3C4A8E129BB1855D"
 			incompatible: ["4E5AA22F3C3B4A51"]
 			optional: true
-			rewards: [
-				{
-					count: 128
-					id: "16257AE7B6006EE0"
-					item: "gtceu:cleaning_maintenance_hatch"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 128
+				id: "16257AE7B6006EE0"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 1.0d
-			tasks: [
-				{
-					id: "04D6BD5714F306E9"
-					title: "prêmio"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "04D6BD5714F306E9"
+				title: "prêmio"
+				type: "checkmark"
+			}]
 			title: "Recompensa: Erro"
 			x: 21.0d
 			y: 0.0d
@@ -1535,13 +1446,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "37C72A4B9C55530B"
-					title: "A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "37C72A4B9C55530B"
+				title: "A"
+				type: "checkmark"
+			}]
 			title: "Pergunta 2A"
 			x: 18.0d
 			y: 4.0d
@@ -1559,13 +1468,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "5CF99E7DE3ABEF8A"
-					title: "B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5CF99E7DE3ABEF8A"
+				title: "B"
+				type: "checkmark"
+			}]
 			title: "Pergunta 2B"
 			x: 19.5d
 			y: 4.0d
@@ -1583,13 +1490,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "7ECB579F0B71009A"
-					title: "C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7ECB579F0B71009A"
+				title: "C"
+				type: "checkmark"
+			}]
 			title: "Pergunta 2C"
 			x: 21.0d
 			y: 4.0d
@@ -1607,13 +1512,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "43541281BDC5AA70"
-					title: "D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "43541281BDC5AA70"
+				title: "D"
+				type: "checkmark"
+			}]
 			title: "Pergunta 2D"
 			x: 22.5d
 			y: 4.0d
@@ -1632,13 +1535,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "07A97DD978FF1405"
-					title: "A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "07A97DD978FF1405"
+				title: "A"
+				type: "checkmark"
+			}]
 			title: "Pergunta 3A"
 			x: 18.0d
 			y: 6.0d
@@ -1658,13 +1559,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "613560704EFE96A4"
-					title: "B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "613560704EFE96A4"
+				title: "B"
+				type: "checkmark"
+			}]
 			title: "Pergunta 3B"
 			x: 19.5d
 			y: 6.0d
@@ -1683,13 +1582,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "22EE672C93C1DA35"
-					title: "C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "22EE672C93C1DA35"
+				title: "C"
+				type: "checkmark"
+			}]
 			title: "Pergunta 3C"
 			x: 21.0d
 			y: 6.0d
@@ -1708,13 +1605,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "55DE56C82084EA46"
-					title: "D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "55DE56C82084EA46"
+				title: "D"
+				type: "checkmark"
+			}]
 			title: "Pergunta 3D"
 			x: 22.5d
 			y: 6.0d
@@ -1733,13 +1628,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "76D01D49A0E50FDE"
-					title: "A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "76D01D49A0E50FDE"
+				title: "A"
+				type: "checkmark"
+			}]
 			title: "Pergunta 4A"
 			x: 18.0d
 			y: 8.0d
@@ -1758,13 +1651,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "335400B91BEC03FE"
-					title: "B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "335400B91BEC03FE"
+				title: "B"
+				type: "checkmark"
+			}]
 			title: "Pergunta 4B"
 			x: 19.5d
 			y: 8.0d
@@ -1783,13 +1674,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "03AFDCD9A2178F04"
-					title: "C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "03AFDCD9A2178F04"
+				title: "C"
+				type: "checkmark"
+			}]
 			title: "Pergunta 4C"
 			x: 21.0d
 			y: 8.0d
@@ -1808,13 +1697,11 @@
 			]
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "5D154A64D50B488E"
-					title: "D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5D154A64D50B488E"
+				title: "D"
+				type: "checkmark"
+			}]
 			title: "Pergunta 4D"
 			x: 22.5d
 			y: 8.0d
@@ -1844,7 +1731,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\\\"text\\\":\\\"准考证\\\"}"
+								Name: "{\"text\":\"准考证\"}"
 							}
 						}
 					}
@@ -1864,13 +1751,11 @@
 			id: "2A7F74D29E912B5E"
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "05E351121E513ABE"
-					title: "Pergunta 2"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "05E351121E513ABE"
+				title: "Pergunta 2"
+				type: "checkmark"
+			}]
 			x: 16.5d
 			y: 4.0d
 		}
@@ -1884,13 +1769,11 @@
 			id: "7C620702BAD41178"
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "18925EF144CC4BCE"
-					title: "Pergunta 3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "18925EF144CC4BCE"
+				title: "Pergunta 3"
+				type: "checkmark"
+			}]
 			x: 16.5d
 			y: 6.0d
 		}
@@ -1904,13 +1787,11 @@
 			id: "6BC7FCCE9104490D"
 			optional: true
 			shape: "square"
-			tasks: [
-				{
-					id: "421D16CDB0C183A6"
-					title: "Pergunta 4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "421D16CDB0C183A6"
+				title: "Pergunta 4"
+				type: "checkmark"
+			}]
 			x: 16.5d
 			y: 8.0d
 		}
@@ -1928,13 +1809,11 @@
 			incompatible: ["4E5AA22F3C3B4A51"]
 			optional: true
 			shape: "gear"
-			tasks: [
-				{
-					elapsedTime: 300L
-					id: "228C153CC7079886"
-					type: "questsadditions:time"
-				}
-			]
+			tasks: [{
+				elapsedTime: 300L
+				id: "228C153CC7079886"
+				type: "questsadditions:time"
+			}]
 			title: "tempo restante"
 			x: 18.0d
 			y: 0.0d
@@ -1945,73 +1824,67 @@
 			icon: "gtceu:titanium_dust"
 			id: "75819171DFBE923B"
 			optional: true
-			tasks: [
-				{
-					id: "0BAD120E0C368EAB"
-					title: "Tratamento de titânio em etapa única"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0BAD120E0C368EAB"
+				title: "Tratamento de titânio em etapa única"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: 3.5d
 		}
 		{
 			description: [
-				"&lSe você alterar a fórmula para velocidades extremamente altas (como mil vezes a velocidade, dez mil vezes a velocidade), isso poderá permitir que algumas máquinas que perderam &41toc&f recuperem &41toc."
-				"&41toc&8 é fazer um overclock da máquina para um tempo muito curto:"
+				"&lSe você alterar a fórmula de velocidade extremamente alta (como velocidade mil vezes, velocidade dez mil vezes), isso pode permitir que algumas máquinas que perderam&41toc&frecuperem&41toc."
+				"&41toc&8é para fazer overclock da máquina em um tempo muito curto:"
 				"&8• Máquinas com overclock com perdas: o limite é 1 tick (1t)"
 				"&8• Máquina com overclock sem perdas: o limite é inferior a 4 ticks (<4t)"
 				"Após atingir este limite, continuar o overclock resultará em compensação paralela:"
 				"&8• Máquina com overclock com perdas: o consumo de energia aumenta 4 vezes, o paralelismo aumenta 2 vezes"
 				"&8• Máquina com overclock sem perdas: o consumo de energia aumenta 4 vezes, o paralelismo aumenta 4 vezes"
 				""
-				"&l Após o teste, o limite superior da compensação paralela é 2147483647."
+				"&lApós o teste, o limite superior da compensação paralela é 2147483647."
 				"As máquinas aplicáveis ​​atualmente conhecidas incluem: alto-forno elétrico, forno de fundição de ligas, forno de secagem a vácuo (modo de secagem a vácuo)."
 				""
-				"&l Por exemplo:"
-				"Versão hormonal do alto-forno elétrico equipado com tanque de energia sem fio 16a HV:"
+				"&lPor exemplo:"
+				"Versão hormonal do alto-forno elétrico equipado com armazém de energia sem fio 16a HV:"
 				"• Queima de lingotes de aço com câmara de manutenção normal: 1 por segundo"
 				"• Queime lingotes com este compartimento de manutenção configurável: 64 por segundo"
 			]
 			id: "0CE3B62AD3B427AA"
 			optional: true
 			subtitle: "Multiplicador de tempo 2.0"
-			tasks: [
-				{
-					id: "2C9AB67EF877B0DD"
-					item: {
-						Count: 1
-						id: "gtceu:configurable_maintenance_hatch"
-						tag: {
-							BlockEntityTag: {
-								durationMultiplier: 2.0f
-								maintenanceProblems: 127b
-							}
-							display: {
-								Lore: ["\\\"耗时乘数2.0x 维护过一次 谨慎放置 挖掘后会重置维护状态与耗时乘数\\\""]
-							}
+			tasks: [{
+				id: "2C9AB67EF877B0DD"
+				item: {
+					Count: 1
+					id: "gtceu:configurable_maintenance_hatch"
+					tag: {
+						BlockEntityTag: {
+							durationMultiplier: 2.0f
+							maintenanceProblems: 127b
+						}
+						display: {
+							Lore: ["\"耗时乘数2.0x 维护过一次 谨慎放置 挖掘后会重置维护状态与耗时乘数\""]
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5E9EA7E22BE663AF"]
-			description: ["&l·&f usa &a armazém de manutenção ultralimpo &f e armazém de manutenção de nível superior e coloca o host de circuito &a de nível correspondente &f na máquina de montagem &b &f", "&l &f pode sintetizar diretamente o armazém de manutenção que foi configurado com a velocidade correspondente. Não há necessidade de ajustar a velocidade da fórmula após colocá-la."]
+			description: ["&l·&fusa o armazém de manutenção ultralimpo&a&fe o armazém de manutenção de nível acima, e coloca o host de circuito&ade nível correspondente&fna máquina de montagem&b&f", "&l&fpode sintetizar diretamente o armazém de manutenção que foi configurado com a velocidade correspondente. Não há necessidade de ajustar a velocidade da fórmula após colocá-la."]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "630D44A5A85EBD27"
 			size: 1.0d
-			tasks: [
-				{
-					id: "1D83CA11C72CCBD1"
-					item: "gtceu:cleaning_configuration_maintenance_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1D83CA11C72CCBD1"
+				item: "gtceu:cleaning_configuration_maintenance_hatch"
+				type: "item"
+			}]
 			title: "Armazém de manutenção pré-fabricado"
 			x: -2.0d
 			y: 0.0d

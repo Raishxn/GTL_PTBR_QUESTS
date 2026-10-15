@@ -17,7 +17,7 @@
 				"{@pagebreak}"
 				"Um pistão elétrico é um dispositivo alternativo acionado eletricamente que converte o movimento rotacional de um motor elétrico em movimento alternativo linear. Tais dispositivos podem ser utilizados em diversas aplicações, como compressores, atuadores pneumáticos, braços robóticos, etc."
 				"{@pagebreak}"
-				"Um braço robótico é um dispositivo mecânico que imita as funções de um braço humano, geralmente consistindo de uma série de elos e articulações, capaz de realizar uma série de movimentos complexos, incluindo rotação, flexão e extensão. Os braços robóticos podem ser programados ou controlados remotamente para realizar uma variedade de tarefas, como manuseio, montagem, soldagem, pintura em spray, medição e exploração."
+				"Um braço robótico é um dispositivo mecânico que imita as funções de um braço humano. Geralmente é composto por uma série de elos e articulações e é capaz de realizar uma série de movimentos complexos, incluindo rotação, flexão e extensão. Os braços robóticos podem ser programados ou controlados remotamente para realizar uma variedade de tarefas, como manuseio, montagem, soldagem, pintura em spray, medição e exploração."
 				"{@pagebreak}"
 				"Uma correia transportadora é um tipo de maquinário de transporte usado para mover materiais ou produtos de um local para outro. Consiste em uma ou mais estruturas contínuas em forma de correia girando em torno de dois rolos que servem como pontos de acionamento e suporte. A correia transportadora pode funcionar horizontalmente, inclinada ou verticalmente para atender às diferentes necessidades de manuseio."
 			]
@@ -67,16 +67,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7CB85061F0822830", "553B2D61416792DC"]
-			description: [
-				"&l&a Recomenda-se navegar pelos dois capítulos “Eletricidade” e “Máquina” pela primeira vez jogando."
-				""
-				"&lNeste modpack gerar eletricidade é muito simples."
-				""
-				"&b• Do estágio LV ao ZPM, o absorvedor de energia mágica é sua melhor escolha."
-				"&b• Transição constante para o estágio do reator de sílica e mais alguns."
-				"&b• Continuar a transição para super reatores, para estrelas artificiais e, finalmente, para o coração do universo."
+			dependencies: [
+				"7CB85061F0822830"
+				"553B2D61416792DC"
 			]
+			description: ["&l &a Recomenda-se navegar pelos dois capítulos \"Eletricidade\" e \"Máquina\" pela primeira vez jogando.", "", "&lGerar eletricidade é muito simples neste modpack.", "", "&b • Do estágio LV ao ZPM, o absorvedor de energia mágica é sua melhor escolha.", "&b • Transição constante para o estágio do reator de sílica e mais alguns.", "&b • Continuar a transição para super reatores, para estrelas artificiais e, finalmente, para o coração do universo."]
 			icon: "kubejs:lv_universal_circuit"
 			id: "51B9A72C19F84F0E"
 			rewards: [
@@ -94,13 +89,11 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [
-				{
-					id: "13DADE13289E59D0"
-					title: "Baixa tensão BT"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "13DADE13289E59D0"
+				title: "Baixa tensão BT"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -4.0d
 		}
@@ -124,13 +117,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "588BCA87500214EF"
-					item: "gtceu:lv_wiremill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "588BCA87500214EF"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
 			x: 1.0d
 			y: 0.0d
 		}
@@ -154,13 +145,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "137AFD6CB3927548"
-					item: "gtceu:lv_bender"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "137AFD6CB3927548"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
 			x: -0.5d
 			y: 0.0d
 		}
@@ -183,13 +172,11 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "57EDE3A779842162"
-					item: "gtceu:lv_lathe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57EDE3A779842162"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
 			x: 2.5d
 			y: 0.0d
 		}
@@ -211,13 +198,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3DA43E9650F117DD"
-					item: "gtceu:lv_polarizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DA43E9650F117DD"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 2.0d
 		}
@@ -228,13 +213,7 @@
 				"198ED0A20800F3ED"
 				"20F6BF1EDC6EBDC1"
 			]
-			description: [
-				"&l·&f Coloque dois compartimentos de energia &7LV&f no alto-forno elétrico para aumentar a tensão para &bMV&f, executando assim a fórmula &bMV&f (relação de conversão de tensão: 4A LV = 1A MV e assim por diante)"
-				""
-				"Se a receita &l·&f pode realmente ser executada depende da capacidade térmica/temperatura &6 do alto-forno elétrico &f, não da bobina"
-				""
-				"&l·&f usa &a linha de produção tearer 2.0 armazém de manutenção configurável &f com &a armazém de energia de rede elétrica de alta segurança &f, que pode satisfazer totalmente a compensação paralela e obter efeitos paralelos de lote."
-			]
+			description: ["&l · &f Coloque dois compartimentos de energia &7 LV &f no alto-forno elétrico para aumentar a tensão para &b MV &f, executando assim a fórmula &b MV &f (relação de conversão de tensão: 4A LV = 1A MV e assim por diante)", "", "&l·&fA possibilidade de executar a receita depende da &6capacidade térmica/temperatura&f do alto-forno elétrico, e não das bobinas.", "", "&l · &f usa o rasgador de linha de produção &a 2.0 com armazém de manutenção configurável &f e &a armazém de energia de rede elétrica de alta segurança &f, que pode receber compensação paralela completa e obter efeitos paralelos de lote"]
 			icon_scale: 1.3d
 			id: "07D0D7005DA4F446"
 			rewards: [
@@ -263,18 +242,19 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0BAFA129FC209B2A"
-					item: "gtceu:electric_blast_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BAFA129FC209B2A"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["3117BF8E4782DB2A", "553B2D61416792DC"]
+			dependencies: [
+				"3117BF8E4782DB2A"
+				"553B2D61416792DC"
+			]
 			description: ["Este é o bloco que alimenta a estrutura multibloco"]
 			id: "32CE144D9A9F0943"
 			rewards: [
@@ -290,13 +270,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "66CE417A92BDA931"
-					item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66CE417A92BDA931"
+				item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.0d
 		}
@@ -305,7 +283,7 @@
 			description: [
 				"Este é o armazém que o alto-forno precisa"
 				""
-				"O armazém de manutenção &4 não pode ser compartilhado por múltiplas estruturas de bloco &r"
+				"O armazém de manutenção &4não pode ser compartilhado por estruturas multibloco &r"
 				""
 				"Segure a fita e clique com o botão direito no compartimento de manutenção para mantê-lo rapidamente."
 				""
@@ -387,17 +365,12 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "seu primeiro conjunto de bobinas"
-			tasks: [
-				{
-					count: 16L
-					id: "022D8EB7519F65E1"
-					item: {
-						Count: 16
-						id: "gtceu:cupronickel_coil_block"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "022D8EB7519F65E1"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
 			title: "bobina de cobre branco"
 			x: 2.0d
 			y: 4.0d
@@ -405,9 +378,9 @@
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
 			description: [
-				"&l&c&n A máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado! ! !"
-				"&l&c&n A máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado! ! !"
-				"&l&c&n A máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado! ! !"
+				"&l&c&nA máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
+				"&l&c&nA máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
+				"&l&c&nA máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
 			]
 			icon_scale: 2.0d
 			id: "3E50EE376968519F"
@@ -427,13 +400,11 @@
 			]
 			shape: "rsquare"
 			subtitle: "Não consigo montar o circuito"
-			tasks: [
-				{
-					id: "0A32B247C01822D2"
-					item: "gtceu:lv_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A32B247C01822D2"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -474,7 +445,7 @@
 		}
 		{
 			dependencies: ["13DADE13289E59D0"]
-			description: ["Use um misturador para fazer o pó e depois fundi-lo, ou você pode usar diretamente um forno de liga para fazê-lo."]
+			description: ["Use um misturador para fazer o pó e depois fundi-lo, ou você pode usar diretamente um forno de fundição a vapor para fazê-lo"]
 			id: "7CC28185463F24C2"
 			rewards: [
 				{
@@ -489,13 +460,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1B0AD5C6137AEFCE"
-					item: "gtceu:cupronickel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B0AD5C6137AEFCE"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
@@ -517,22 +486,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:tin_alloy"
-					id: "3781D8803CEA425B"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:tin_alloy"
+				id: "3781D8803CEA425B"
+				type: "fluid"
+			}]
 			title: "liga líquida de estanho-ferro"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["Use um misturador para fazer o pó e depois fundi-lo, ou você pode usar diretamente um forno de liga para fazê-lo."]
+			description: ["Use um misturador para fazer o pó e depois fundi-lo, ou você pode usar diretamente um forno de fundição a vapor para fazê-lo"]
 			hide_dependency_lines: true
 			id: "198ED0A20800F3ED"
 			rewards: [
@@ -548,18 +515,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1CB9DD3F4D92C8FD"
-					item: "gtceu:invar_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CB9DD3F4D92C8FD"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0CF19CAFB3355075", "7CC28185463F24C2"]
+			dependencies: [
+				"0CF19CAFB3355075"
+				"7CC28185463F24C2"
+			]
 			id: "7F9F473B8C508676"
 			rewards: [
 				{
@@ -574,13 +542,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "75A397E09A1E76A7"
-					item: "gtceu:cupronickel_double_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75A397E09A1E76A7"
+				item: "gtceu:cupronickel_double_wire"
+				type: "item"
+			}]
 			title: "Fio de cobre branco"
 			x: 2.0d
 			y: 6.0d
@@ -601,13 +567,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1CC54740C4BEE22C"
-					item: "gtceu:bronze_foil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CC54740C4BEE22C"
+				item: "gtceu:bronze_foil"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
@@ -629,19 +593,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2FE273B543714BD1"
-					item: "gtceu:lv_electrolyzer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FE273B543714BD1"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6E3B42BCBA6064F5"]
-			description: ["No estágio LV, seu pó de alumínio só pode ser obtido através de safira eletrolítica ou pó de safira verde."]
+			description: ["{ \"text\": \"Seu pó de alumínio no estágio LV só pode ser obtido através de safira eletrolítica ou pó de safira verde\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
 			hide_dependency_lines: false
 			id: "73EFFB71A1A827D6"
 			rewards: [
@@ -657,18 +619,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2E83C5426C90F1A6"
-					item: "gtceu:aluminium_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E83C5426C90F1A6"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["73EFFB71A1A827D6", "07D0D7005DA4F446"]
+			dependencies: [
+				"73EFFB71A1A827D6"
+				"07D0D7005DA4F446"
+			]
 			id: "11B60450D7F3C188"
 			rewards: [
 				{
@@ -686,18 +649,19 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "298A039260B352D6"
-					item: "gtceu:aluminium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "298A039260B352D6"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
 			x: 9.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0877362A9EE36FB3", "006BBE4D312A2E2E"]
+			dependencies: [
+				"0877362A9EE36FB3"
+				"006BBE4D312A2E2E"
+			]
 			icon_scale: 2.0d
 			id: "7D399E31506924A0"
 			rewards: [
@@ -714,13 +678,11 @@
 				}
 			]
 			subtitle: "Seu primeiro circuito MT"
-			tasks: [
-				{
-					id: "0F9DE31D5976C043"
-					item: "gtceu:good_electronic_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0F9DE31D5976C043"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
 		}
@@ -744,13 +706,11 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [
-				{
-					id: "348825C79AD479CA"
-					item: "kubejs:elite_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "348825C79AD479CA"
+				item: "kubejs:elite_control_circuit"
+				type: "item"
+			}]
 			x: 12.0d
 			y: -2.0d
 		}
@@ -772,18 +732,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "395F73DF4EA428B0"
-					item: "gtceu:phenolic_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "395F73DF4EA428B0"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3A97E85643D2F8AC", "1BF78ABAD1FF993F"]
+			dependencies: [
+				"3A97E85643D2F8AC"
+				"1BF78ABAD1FF993F"
+			]
 			description: ["Você pode usar a reação química posteriormente para torná-la mais eficiente."]
 			id: "006BBE4D312A2E2E"
 			rewards: [
@@ -799,13 +760,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4E8A56A18EA1888B"
-					item: "gtceu:phenolic_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4E8A56A18EA1888B"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -825,18 +784,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5D16B78D90582E29"
-					item: "gtceu:silver_single_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D16B78D90582E29"
+				item: "gtceu:silver_single_wire"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["6D63FB02A50F8249", "06F767F4EFFD5DC6"]
+			dependencies: [
+				"6D63FB02A50F8249"
+				"06F767F4EFFD5DC6"
+			]
 			description: ["Pode ser feito de pastilhas de silício e polietileno posteriormente"]
 			id: "0877362A9EE36FB3"
 			rewards: [
@@ -852,19 +812,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "632999DA643003E5"
-					item: "gtceu:diode"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "632999DA643003E5"
+				item: "gtceu:diode"
+				type: "item"
+			}]
 			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["075D368E91231337"]
-			description: ["&lA fonte inicial de pó de gálio foi &desfalerita grossa&9 (circuito de centrífuga nº 3)", "&l A fonte inicial de pó de arsênico foi &6 realgar grosso &9 (circuito de centrífuga nº 3)"]
+			description: ["&lUma fonte inicial de pó de gálio é a &desfalerita bruta&9 (centrífuga com circuito 3).", "&lUma fonte inicial de pó de arsênio é o &6realgar bruto&9 (centrífuga com circuito 3)."]
 			id: "6D63FB02A50F8249"
 			rewards: [
 				{
@@ -879,18 +837,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3DBD74652FB4B8BF"
-					item: "gtceu:gallium_arsenide_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DBD74652FB4B8BF"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
 			x: 10.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["51B9A72C19F84F0E", "3A726EDBF7AC5E5B"]
+			dependencies: [
+				"51B9A72C19F84F0E"
+				"3A726EDBF7AC5E5B"
+			]
 			description: [
 				"Use-o para queimar cobre recozido e ferro forjado"
 				""
@@ -913,13 +872,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4F2FF11089D97406"
-					item: "gtceu:lv_arc_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F2FF11089D97406"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -940,13 +897,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "06EC3C1BF7D124CB"
-					item: "gtceu:magnetic_steel_rod"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "06EC3C1BF7D124CB"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 2.0d
 		}
@@ -967,13 +922,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "0C8DEF275C16A96E"
-					item: "gtceu:annealed_copper_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0C8DEF275C16A96E"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 4.0d
 		}
@@ -995,13 +948,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "13AD3E7E937E345D"
-					item: "gtceu:lv_gas_collector"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "13AD3E7E937E345D"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 6.0d
 		}
@@ -1061,19 +1012,20 @@
 				}
 			]
 			subtitle: "Este é um material supercondutor barato no estágio LV"
-			tasks: [
-				{
-					id: "001139BEE7311878"
-					item: "gtceu:conductive_alloy_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "001139BEE7311878"
+				item: "gtceu:conductive_alloy_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			can_repeat: false
-			dependencies: ["54034055F57DDAA5", "49ABB341017BAE85"]
+			dependencies: [
+				"54034055F57DDAA5"
+				"49ABB341017BAE85"
+			]
 			icon_scale: 1.3d
 			id: "388E5C1034C54D19"
 			rewards: [
@@ -1091,19 +1043,17 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "08CFFDE3C82C9FCF"
-					item: "gtceu:mv_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "08CFFDE3C82C9FCF"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
-			description: ["{ \\\"text\\\": \\\"Você precisa usar uma máquina de montagem para fazer isso\\\", \\\"italic\\\": \\\"true\\\", \\\"underlined\\\": \\\"true\\\", \\\"clickEvent\\\": { \\\"action\\\": \\\"change_page\\\", \\\"value\\\": \\\"3E50EE376968519F\\\" } }"]
+			description: ["{ \"text\": \"Você precisa usar uma máquina de montagem para fazer isso\", \"italic\": \"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
 			id: "49ABB341017BAE85"
 			rewards: [
 				{
@@ -1118,13 +1068,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4B0294376308A36D"
-					item: "gtceu:copper_single_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B0294376308A36D"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
 			x: 14.0d
 			y: 4.0d
 		}
@@ -1144,27 +1092,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "20A2D5C286E8A31E"
-					item: "gtceu:aluminium_plate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20A2D5C286E8A31E"
+				item: "gtceu:aluminium_plate"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["27A9D4E765101CB9", "5D4ADE3F2E57635C"]
-			description: [
-				"&l·&fExistem duas maneiras de fazer tiras de borracha:"
-				"&l &f- Use pó de enxofre &6 &f e pó de borracha bruta &6 &f para reagir no reator químico &b &f"
-				"&l &f- Extraia usando tira de borracha &b &f ou folha de borracha &b &f"
-				""
-				"&l·&bO balde de baleias em mar aberto&f"
-				"&l &f- A capacidade de slot de cada grade é &62,1MB&f. O número de slots é extremamente grande e pode ser considerado como uma unidade fluida infinita."
-				"&l &f- Clique com o botão direito no ar para alternar entre diferentes fluidos"
+			dependencies: [
+				"27A9D4E765101CB9"
+				"5D4ADE3F2E57635C"
 			]
+			description: ["&l · &f Existem duas maneiras de fazer tiras de borracha:", "&l &f - Use pó de enxofre &6 &f e pó de borracha bruta &6 &f para reagir no reator químico &b &f", "&l &f - Extraia usando a tira de borracha &b &f ou a tira de borracha &b &f", "", "&l · &b O barril de baleias engolindo o oceano &f", "&l &f - A capacidade de slot de cada grade é &6 2.1MB &f. O número de slots é extremamente grande e pode ser considerado como uma unidade fluida infinita.", "&l &f - Clique com o botão direito no ar para alternar entre diferentes fluidos"]
 			id: "35F31D71CC8B67CF"
 			rewards: [
 				{
@@ -1179,15 +1120,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:rubber"
-					id: "6F04BF9EE3A2DA93"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:rubber"
+				id: "6F04BF9EE3A2DA93"
+				type: "fluid"
+			}]
 			title: "borracha líquida"
 			x: 14.0d
 			y: 6.0d
@@ -1209,19 +1148,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "708FD829786614CE"
-					item: "gtceu:lv_chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "708FD829786614CE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
-			description: ["&lO enxofre vem do mundo antigo", "&l O pó de borracha bruta vem de resina viscosa centrífuga"]
+			description: ["&lO enxofre vem do Mundo Antigo.", "&lO pó de borracha bruta é obtido centrifugando resina pegajosa."]
 			id: "5D4ADE3F2E57635C"
 			rewards: [
 				{
@@ -1269,18 +1206,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5A00FC384A33FB54"
-					item: "gtceu:lv_voltage_coil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A00FC384A33FB54"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["40C39645B1DE2488", "54034055F57DDAA5"]
+			dependencies: [
+				"40C39645B1DE2488"
+				"54034055F57DDAA5"
+			]
 			id: "0D3122E318CB119D"
 			rewards: [
 				{
@@ -1295,24 +1233,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "60A911126CE7DD9B"
-					item: "ae2:crafting_unit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60A911126CE7DD9B"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
 			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["07D0D7005DA4F446"]
-			description: [
-				"Supercondutor sério &8LV&r"
-				""
-				"&lA fonte de manganês é &3pirolusita grossa&9 (circuito de centrífuga nº 3)"
-				"&lA fonte de fósforo é &3fosfato tricálcico bruto&9 (circuito de centrífuga nº 3)"
-			]
+			description: ["Supercondutor sério &8LV&r", "", "&lO manganês vem da &3pirolusita bruta&9 (centrífuga com circuito 3).", "&lO fósforo vem da &3apatita bruta&9 (centrífuga com circuito 3)."]
 			id: "4EBCDD1E943F7350"
 			rewards: [
 				{
@@ -1328,320 +1259,305 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2A0E245BCDBBC3D3"
-					item: "gtceu:manganese_phosphide_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2A0E245BCDBBC3D3"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4EBCDD1E943F7350"]
 			id: "0BBC0C3FB2E8C800"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "03540CC51A7C2D1E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "193D5046F8A8CD47"
-					item: "gtceu:lv_field_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03540CC51A7C2D1E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "193D5046F8A8CD47"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0BBC0C3FB2E8C800"]
-			description: [
-				"&l·&fMatadouro tem maior impacto no desempenho"
-				"&l &f Especialmente no modo entidade e ambiente de servidor, quando um grande número de jogadores o usa ao mesmo tempo, tem um enorme impacto em &6TPS&f"
-				"&l · &f Portanto, &6 pacote de componentes ilimitado &f é fornecido diretamente."
-			]
+			description: ["&l·&fO matadouro causa um impacto considerável no desempenho.", "&l &f Especialmente no modo entidade e ambiente de servidor, quando um grande número de jogadores o usa ao mesmo tempo, tem um grande impacto no &6 TPS &f", "&l · &f Portanto, doe diretamente &6 pacote de componentes ilimitado &f"]
 			icon_scale: 2.0d
 			id: "62B5D5669A535245"
-			rewards: [
-				{
-					id: "51ACE7A8A810325A"
-					item: {
-						Count: 1
-						id: "ae2:portable_item_cell_16k"
-						tag: {
-							RepairCost: 0
-							amts: [
-								L;
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-							]
-							display: {
-								Name: "{\\\"text\\\":\\\"屠宰元件包\\\",\\\"italic\\\":false}"
-							}
-							ic: 22L
-							internalCurrentPower: 20000.0d
-							keys: [
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:feather"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:poppy"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:porkchop"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:beef"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:rabbit"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:mutton"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:rabbit_hide"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:ghast_tear"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:ender_pearl"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:gunpowder"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:glass_bottle"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:glowstone_dust"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:sugar"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:wheat"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:rabbit_foot"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:egg"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:blaze_rod"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:carrot"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:potato"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:wither_skeleton_skull"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:slime_ball"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:chicken"
-										}
-									}
-								}
-							]
+			rewards: [{
+				id: "51ACE7A8A810325A"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"屠宰元件包\",\"italic\":false}"
 						}
+						ic: 22L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:feather"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:poppy"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:porkchop"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:beef"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rabbit"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:mutton"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rabbit_hide"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:ghast_tear"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:ender_pearl"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:gunpowder"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:glass_bottle"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:glowstone_dust"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:sugar"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:wheat"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:rabbit_foot"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:egg"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:blaze_rod"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:carrot"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:potato"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:wither_skeleton_skull"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:slime_ball"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:chicken"
+									}
+								}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Torre elétrica de desova de monstros"
-			tasks: [
-				{
-					id: "41EE54C0336928F8"
-					item: "gtceu:slaughterhouse"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41EE54C0336928F8"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 6.0d
 		}
@@ -1675,26 +1591,24 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "757BF64A60BBE633"
-					title: "solicitante de mim"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "757BF64A60BBE633"
+				title: "solicitante de mim"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["27A9D4E765101CB9"]
 			description: [
-				"Pode ser obtido através do processamento de petróleo/petróleo bruto/óleo leve"
+				"{ \"text\": \"Pode ser obtido processando petróleo/petróleo bruto/óleo leve\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
 				""
 				"O óleo pesado precisa usar a câmara de destilação MV"
 				""
 				"Você também pode obtê-lo reagindo ácido sulfúrico e etanol"
 				""
-				"&aOs motores a vapor gerais ignoram os níveis de tensão. Por exemplo, para polietileno, você pode consultar a receita para purificação de água de primeiro nível no modo centrífuga."
+				"&aOs motores a vapor universais ignoram os níveis de tensão. Por exemplo, para polietileno, você pode consultar a fórmula para água purificada de primeiro nível no modo centrífuga."
 			]
 			hide_dependency_lines: true
 			id: "0037D6BA6A4ABB72"
@@ -1718,15 +1632,13 @@
 				}
 			]
 			subtitle: "sua primeira linha de produção"
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:polyethylene"
-					id: "494EC2D9C0052E24"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:polyethylene"
+				id: "494EC2D9C0052E24"
+				type: "fluid"
+			}]
 			title: "polietileno líquido"
 			x: 12.0d
 			y: -4.0d
@@ -1771,31 +1683,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "69E2A810A09B2B6A"
-					title: "placa de cobertura"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "69E2A810A09B2B6A"
+				title: "placa de cobertura"
+				type: "checkmark"
+			}]
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: [
-				"O barramento/entrada gigante &c não pode modificar as configurações do circuito do próprio armazém por meio de circuitos de programação de entrada externos."
-				""
-				"Os slots de itens disponíveis para o Mega Input Bus/Input são, na verdade, um &r a menos que o &c indicado na descrição do item."
-				""
-				"O julgamento formador do conjunto de entrada gigante é tanto o barramento de entrada quanto o compartimento de entrada. O julgamento do conjunto de entrada comum é apenas o barramento de entrada. Preste atenção à distinção."
-				""
-				"Os itens não podem ser colocados manualmente no barramento de entrada/entrada gigante e precisam interagir por meio de contêineres de armazenamento (baús, interfaces me, provedores de modelos, etc.)"
-				""
-				"Além do aumento de capacidade, o barramento de entrada gigante também possui 4 slots de catalisador de item &b &r, enquanto o conjunto de entrada gigante possui 9 slots de catalisador de fluido &b &r."
-				""
-				"Shift + clique com o botão direito no barramento de entrada gigante colocará o item no slot do catalisador"
-			]
+			description: ["O barramento/entrada gigante &c não pode modificar as configurações do circuito do próprio armazém por meio de circuitos de programação de entrada externos.", "", "Os slots de itens disponíveis para o Mega Input Bus/Input são, na verdade, um &r a menos que o &c indicado na descrição do item.", "", "O julgamento formador do conjunto de entrada gigante é tanto o barramento de entrada quanto o compartimento de entrada. O julgamento do conjunto de entrada comum é apenas o barramento de entrada. Preste atenção à distinção.", "", "Os itens não podem ser colocados manualmente no barramento de entrada/entrada gigante e precisam interagir por meio de contêineres de armazenamento (baús, interfaces me, provedores de modelos, etc.)", "", "Além da capacidade maior, o barramento de entrada gigante possui 4 slots de &bcatalisadores de itens&r. O conjunto de entrada gigante possui 9 slots de catalisadores de itens e 9 slots de &bcatalisadores de fluidos&r.", "", "Shift + clique com o botão direito no barramento de entrada gigante colocará o item no slot do catalisador"]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"
 			min_required_tasks: 3
@@ -1873,30 +1771,29 @@
 			hide_dependency_lines: true
 			icon: "gtceu:glass_bucket"
 			id: "06F767F4EFFD5DC6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "074BF98A028E48B8"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:glass"
-					id: "7F8B174919D3CF04"
-					type: "fluid"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074BF98A028E48B8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:glass"
+				id: "7F8B174919D3CF04"
+				type: "fluid"
+			}]
 			title: "vidro líquido"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["66DC685BEC00E4A6", "4357DF535061C2E5"]
-			description: ["&l·&fReceptor de energia sem fio&7 é instalado em uma máquina pequena, permitindo que a máquina obtenha energia diretamente da rede sem fio"]
+			dependencies: [
+				"66DC685BEC00E4A6"
+				"4357DF535061C2E5"
+			]
+			description: ["&l·&fReceptor de energia sem fio: &7instale em uma máquina de um bloco para que ela receba energia diretamente da rede sem fio."]
 			id: "1FA24513965B09A8"
 			rewards: [
 				{
@@ -1912,19 +1809,17 @@
 				}
 			]
 			subtitle: "O poder do rádio"
-			tasks: [
-				{
-					id: "36AFB28F70862E5B"
-					item: "gtmthings:lv_wireless_energy_receive_cover"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36AFB28F70862E5B"
+				item: "gtmthings:lv_wireless_energy_receive_cover"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["Também pode ser usado para fazer um processador relâmpago para obter pérolas líquidas de forma estável."]
+			description: ["Também pode ser usado para fazer um processador relâmpago para obter pérolas ender líquidas de forma constante."]
 			id: "4357DF535061C2E5"
 			rewards: [
 				{
@@ -1978,12 +1873,10 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "Agora você pode conhecer os detalhes da sua rede de rádio"
-			tasks: [
-				{
-					id: "0786C711E7F795CE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0786C711E7F795CE"
+				type: "checkmark"
+			}]
 			title: "monitoramento de rádio"
 			x: 6.0d
 			y: -4.0d
@@ -1993,7 +1886,7 @@
 			description: [
 				"É recomendado usar o Matadouro para obtê-lo primeiro, ou você pode usar o Processador Lightning para obtê-lo."
 				""
-				"Extraia o pó de pérola ender, depois solidifique a pérola ender líquida em blocos e, em seguida, desmonte o bloco de pérola ender (martelo de forjamento ou montagem molecular) para obter pérolas &l&b sem perda&r&r"
+				"Extraia o pó de pérola ender, em seguida, solidifique a pérola ender líquida em blocos e, em seguida, desmonte o bloco de pérola ender (martelo de forjamento ou montagem molecular) para obter pérolas &l&bsem perdas &r&r"
 				""
 				"Também pode usar compressor de implosão (com perdas)"
 			]
@@ -2011,13 +1904,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "04ABF24908220C1E"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "04ABF24908220C1E"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -2041,13 +1932,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "O tempo é cortado diretamente pela metade"
-			tasks: [
-				{
-					id: "66CF95DF328B6E71"
-					item: "kubejs:time_twister_wireless"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66CF95DF328B6E71"
+				item: "kubejs:time_twister_wireless"
+				type: "item"
+			}]
 			x: 6.0d
 			y: -2.0d
 		}
@@ -2068,13 +1957,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "68056D9427DD774E"
-					item: "gtceu:lv_lightning_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68056D9427DD774E"
+				item: "gtceu:lv_lightning_processor"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -2104,12 +1991,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "5FACD281003E4DA0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5FACD281003E4DA0"
+				type: "checkmark"
+			}]
 			title: "Absorvedor de Energia Mágica"
 			x: -2.0d
 			y: -4.0d
@@ -2136,205 +2021,200 @@
 			icon_scale: 2.0d
 			id: "51A6B6CDC90D7E76"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "6394E14BDFA610B9"
-					item: {
-						Count: 1
-						id: "ae2:portable_item_cell_16k"
-						tag: {
-							RepairCost: 0
-							amts: [
-								L;
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-							]
-							display: {
-								Name: "{\\\"text\\\":\\\"编程电路元件包\\\"}"
-							}
-							ic: 12L
-							internalCurrentPower: 20000.0d
-							keys: [
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 30
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 7
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 9
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 16
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 3
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 5
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 1
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 10
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 6
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 8
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 4
-											}
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "gtceu:programmed_circuit"
-											tag: {
-												Configuration: 2
-											}
-										}
-									}
-								}
-							]
+			rewards: [{
+				id: "6394E14BDFA610B9"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"编程电路元件包\"}"
 						}
+						ic: 12L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 30
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 7
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 9
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 16
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 3
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 5
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 1
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 10
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 6
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 8
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 4
+										}
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "gtceu:programmed_circuit"
+										tag: {
+											Configuration: 2
+										}
+									}
+								}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "7A6B0453CD49843F"
-					title: "circuito de programação"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "7A6B0453CD49843F"
+				title: "circuito de programação"
+				type: "checkmark"
+			}]
 			x: 14.0d
 			y: 0.0d
 		}

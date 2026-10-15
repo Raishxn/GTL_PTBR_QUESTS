@@ -174,7 +174,7 @@
 			description: [
 				"Os requisitos de energia de computação são grandes"
 				""
-				"A estrutura de liga de titânio preta &emais alta&rnão pode ser bloqueada por blocos, caso contrário a máquina não funcionará."
+				"A estrutura de liga de titânio preta &emais alta &rnão pode ser bloqueada por blocos, caso contrário a máquina não funcionará."
 			]
 			icon: "gtceu:space_probe_surface_reception"
 			icon_scale: 1.3d
@@ -215,7 +215,7 @@
 				"02401278940CE1F3"
 			]
 			description: [
-				"Pode substituir Stellar Flame Forge (o modo &6Stellar Heat Smelting&rsó pode usar &eSuper Heat Capacity Coil&r, pode executar todas as receitas de &bneste modo&r)"
+				"Pode substituir o Stellar Forge (o modo &6 Stellar Thermal Smelting&r só pode usar &e Super Heat Capacity Coil&r e pode executar todas as receitas de &b neste modo&r)"
 				""
 				"Você deve se lembrar que clicar com o botão direito do mouse no martelo de forjamento no host da máquina pode silenciar a máquina, certo?"
 			]
@@ -434,6 +434,7 @@
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
+			description: ["Você tem que usar o tanque de energia UEV"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
 				id: "57160CEA2FCA306C"
@@ -479,7 +480,7 @@
 			id: "7C796A0CDAB038C9"
 			tasks: [{
 				id: "68D95C8EDB412DD5"
-				title: "Fluido supercondutor universal"
+				title: "Líquido supercondutor universal"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -547,9 +548,9 @@
 		{
 			dependencies: ["2F82F4BCC261723A"]
 			description: [
-				"Supercondutor &eUXV&r"
+				"Supercondutor &eUXV &r"
 				""
-				"Você pode tornar o compartimento de manutenção configurável absolutamente limpo &6&re o mais avançado compartimento de manutenção configurável por gravidade configurável &d&r."
+				"Você pode tornar o &6o compartimento de manutenção configurável absolutamente limpo &re o mais avançado compartimento de manutenção configurável por gravidade configurável &d&r."
 			]
 			hide_dependent_lines: true
 			id: "559836CC234447C0"
@@ -566,7 +567,6 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["Talvez você possa considerar o uso de estruturas gigantes para resolver o problema das torres de evaporação lenta e condensadores de plasma"]
 			hide_dependent_lines: true
 			icon: "gtceu:grade_16_purified_water_bucket"
 			id: "6FE5409DB7A22427"
@@ -661,9 +661,9 @@
 				"26607B94D873E07A"
 			]
 			description: [
-				"Versões a laser de cubas de cultura, fermentadores e cervejarias com overclocking sem perdas"
+				"Versão laser do tanque de cultura com overclock sem perdas"
 				""
-				"Use apenas o bloco mecânico do filtro esterilizante &e"
+				"Use apenas o bloco mecânico do filtro de esterilização &e"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -719,7 +719,7 @@
 				item: "gtlcore:fast_conversion_simulate_card"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 8.0d
 		}
 		{

@@ -22,7 +22,7 @@
 				"{@pagebreak}"
 				"Um pistão elétrico é um dispositivo alternativo acionado eletricamente que converte o movimento rotacional de um motor elétrico em movimento alternativo linear. Tais dispositivos podem ser utilizados em diversas aplicações, como compressores, atuadores pneumáticos, braços robóticos, etc."
 				"{@pagebreak}"
-				"Um braço robótico é um dispositivo mecânico que imita as funções de um braço humano, geralmente consistindo de uma série de elos e articulações, capaz de realizar uma série de movimentos complexos, incluindo rotação, flexão e extensão. Os braços robóticos podem ser programados ou controlados remotamente para realizar uma variedade de tarefas, como manuseio, montagem, soldagem, pintura em spray, medição e exploração."
+				"Um braço robótico é um dispositivo mecânico que imita as funções de um braço humano. Geralmente é composto por uma série de elos e articulações e é capaz de realizar uma série de movimentos complexos, incluindo rotação, flexão e extensão. Os braços robóticos podem ser programados ou controlados remotamente para realizar uma variedade de tarefas, como manuseio, montagem, soldagem, pintura em spray, medição e exploração."
 				"{@pagebreak}"
 				"Uma correia transportadora é um tipo de maquinário de transporte usado para mover materiais ou produtos de um local para outro. Consiste em uma ou mais estruturas contínuas em forma de correia girando em torno de dois rolos que servem como pontos de acionamento e suporte. A correia transportadora pode funcionar horizontalmente, inclinada ou verticalmente para atender às diferentes necessidades de manuseio."
 			]
@@ -218,7 +218,7 @@
 			description: [
 				"Este é o armazém que o alto-forno precisa"
 				""
-				"O armazém de manutenção &4não pode ser compartilhado por estruturas multibloco&r"
+				"O armazém de manutenção &4não pode ser compartilhado por estruturas multibloco &r"
 				""
 				"Segure a fita e clique com o botão direito no compartimento de manutenção para mantê-lo rapidamente."
 				""
@@ -296,9 +296,9 @@
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
 			description: [
-				"&l&c&nUma máquina de montagem é uma máquina de montagem e uma máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
-				"&l&c&nUma máquina de montagem é uma máquina de montagem e uma máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
-				"&l&c&nUma máquina de montagem é uma máquina de montagem e uma máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
+				"&l&c&nA máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
+				"&l&c&nA máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
+				"&l&c&nA máquina de montagem é uma máquina de montagem e a máquina de montagem de circuito é uma máquina de montagem de circuito. Não entenda errado!!!"
 			]
 			icon_scale: 2.0d
 			id: "3E50EE376968519F"
@@ -772,7 +772,7 @@
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
-			description: ["{\"text\":\"Você precisa usar uma máquina de montagem para fazer isso\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E50EE376968519F\"}}"]
+			description: ["{ \"text\": \"Você precisa usar uma máquina de montagem para fazer isso\", \"italic\": \"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
 			id: "49ABB341017BAE85"
 			rewards: [{
 				id: "3694138B038CCF53"
@@ -808,11 +808,7 @@
 				"27A9D4E765101CB9"
 				"5D4ADE3F2E57635C"
 			]
-			description: [
-				"Use pó de enxofre e pó de borracha bruta para reagir em um reator químico. Você também pode usar um forno de fundição a vapor para fazer tiras de borracha e depois extraí-las."
-				""
-				"O balde de baleias no oceano pode ser utilizado como uma unidade fluida com 2,1 MB por slot e slots quase ilimitados (pode consumir toda a energia da rede ME ao interagir com a rede ME); clique com o botão direito no ar para trocar fluidos"
-			]
+			description: ["Use pó de enxofre e pó de borracha bruta para reagir em um reator químico. Você também pode usar um forno de fundição a vapor para fazer tiras de borracha e depois extraí-las.", "", "O Barril da Baleia Abissal funciona como uma célula de fluido com 2.1MB por slot e uma quantidade de slots praticamente inesgotável. Interagir com a rede ME pode esgotar toda a energia dela. Clique com o botão direito no ar para trocar o fluido."]
 			id: "35F31D71CC8B67CF"
 			rewards: [{
 				id: "40AA3B1525E39A70"
@@ -1058,7 +1054,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "Sua primeira linha de produção"
+			subtitle: "sua primeira linha de produção"
 			tasks: [{
 				id: "41803FDFF0B25EBC"
 				item: "gtceu:polyethylene_bucket"
@@ -1094,7 +1090,7 @@
 		{
 			dependencies: ["51B9A72C19F84F0E"]
 			description: [
-				"A placa de cobertura pode ser instalada em diversas máquinas GT, armazéns e até mesmo tubulações para atingir diferentes funções. Use a chave de fenda &b&l&rpara abrir rapidamente a interface de configuração da placa de cobertura"
+				"A placa de cobertura pode ser instalada em diversas máquinas GT, armazéns e até mesmo tubulações para atingir diferentes funções. Use a chave de fenda &b&l &r para abrir rapidamente a interface de configuração da placa de cobertura"
 				""
 				"Correias transportadoras e braços robóticos podem extrair e ejetar itens, enquanto bombas elétricas e calibradores de fluidos correspondem a fluidos; cartões de filtro podem ser carregados para filtrar entrada/saída"
 				""
@@ -1157,17 +1153,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: [
-				"Barramento de entrada gigante/Entrada &cAs configurações do circuito do próprio armazém não podem ser modificadas através de circuitos de programação de entrada externos."
-				""
-				"O julgamento formador do conjunto de entrada gigante é tanto o barramento de entrada quanto o compartimento de entrada. O julgamento do conjunto de entrada comum é apenas o barramento de entrada. Preste atenção à distinção."
-				""
-				"Os itens não podem ser colocados manualmente no barramento de entrada/entrada gigante e precisam interagir por meio de contêineres de armazenamento (baús, interfaces me, provedores de modelos, etc.)"
-				""
-				"Além da capacidade aumentada, o barramento de entrada gigante também possui 4 slots de catalisador de item &b&r, enquanto o conjunto de entrada gigante possui 9 slots de catalisador de item e 9 slots de catalisador de fluido &b&r."
-				""
-				"Shift + clique com o botão direito no barramento de entrada gigante colocará o item no slot do catalisador"
-			]
+			description: ["O barramento/entrada gigante &c não pode modificar as configurações do circuito do próprio armazém por meio de circuitos de programação de entrada externos.", "", "Os slots de itens disponíveis para o Mega Input Bus/Input são, na verdade, um &r a menos que o &c indicado na descrição do item.", "", "O julgamento formador do conjunto de entrada gigante é tanto o barramento de entrada quanto o compartimento de entrada. O julgamento do conjunto de entrada comum é apenas o barramento de entrada. Preste atenção à distinção.", "", "Os itens não podem ser colocados manualmente no barramento de entrada/entrada gigante e precisam interagir por meio de contêineres de armazenamento (baús, interfaces me, provedores de modelos, etc.)", "", "Além da capacidade maior, o barramento de entrada gigante possui 4 slots de &bcatalisadores de itens&r. O conjunto de entrada gigante possui 9 slots de catalisadores de itens e 9 slots de &bcatalisadores de fluidos&r.", "", "Shift + clique com o botão direito no barramento de entrada gigante colocará o item no slot do catalisador"]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"
 			rewards: [
@@ -1336,7 +1322,7 @@
 			description: [
 				"É recomendado usar o Matadouro para obtê-lo primeiro, ou você pode usar o Processador Lightning para obtê-lo."
 				""
-				"Extraia o pó de pérola ender, depois solidifique as pérolas ender líquidas em blocos e, em seguida, desmonte os blocos de pérolas ender (martelo de forjamento ou montagem molecular) para obter &l&bsem danos&r&rpara obter pérolas"
+				"Extraia o pó de pérola ender, em seguida, solidifique a pérola ender líquida em blocos e, em seguida, desmonte o bloco de pérola ender (martelo de forjamento ou montagem molecular) para obter pérolas &l&bsem perdas &r&r"
 				""
 				"Também pode usar compressor de implosão (com perdas)"
 			]

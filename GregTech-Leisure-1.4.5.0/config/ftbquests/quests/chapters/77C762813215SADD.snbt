@@ -174,7 +174,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["Um veio de minério de estanho puro, muito útil no início do jogo."]
+			description: ["Um veio de estanho puro, muito útil no início do jogo."]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
 			size: 1.0d
@@ -206,7 +206,7 @@
 			description: [
 				"Esta é uma boa alternativa se você ainda não encontrou um veio de minério de estanho puro."
 				""
-				"Além da cassiterita, os demais minerais são como enfeites."
+				"Com exceção da cassiterita, os demais minerais são como ornamentos."
 			]
 			icon: "gtceu:cassiterite_sand_ore"
 			id: "41616C31D9C08648"
@@ -358,7 +358,7 @@
 			description: [
 				"Este veio tem o valor da liga Al-Mg no meio do jogo."
 				""
-				"O Peridot também é útil, pois pode substituir a &aEmerald&rem muitos artesanatos."
+				"Peridot também é útil, pois pode substituir a Esmeralda &a&rem muitos artesanatos."
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
@@ -439,7 +439,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "veios granada"
+			title: "Veias granada"
 			x: 3.5d
 			y: 3.5d
 		}
@@ -510,7 +510,7 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"As duas variantes Sapphire são suas principais fontes de alumínio até que você consiga desbloquear as outras receitas eletrolíticas em &bMV&r."
+				"As duas variantes Sapphire são suas principais fontes de alumínio até que você consiga desbloquear as outras receitas eletrolíticas em &bMV &r."
 				""
 				"As outras duas joias são, na melhor das hipóteses, mundanas."
 			]
@@ -555,11 +555,11 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"É uma boa fonte de óleo combustível pesado &6&re cedo para combustível líquido &6&r."
+				"É uma boa fonte de óleo pesado &6&re foi usado nos primeiros dias do combustível líquido &6&r."
 				""
-				"Caso não queira processar completamente o minério, você pode processá-lo diretamente com a centrífuga &b&rapós queimá-lo."
+				"Se não quiser processar completamente o minério, você pode processá-lo diretamente com a centrífuga &b&rapós queimá-lo."
 				""
-				"Se você centrifugar o minério bruto diretamente, produzirá óleo &d&rem vez de óleo pesado &6&r"
+				"Se você centrifugar o minério bruto diretamente, você produzirá óleo &d&rem vez de óleo pesado &6&r"
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
@@ -628,7 +628,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["Sodalita é o minério mais valioso aqui e é especialmente útil com a receita de Eletrólise quando você atinge &bMV&r."]
+			description: ["Sodalita é o minério mais valioso aqui e é especialmente útil na receita de eletrólise quando você atinge &bMV &r."]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
 			size: 1.0d
@@ -670,7 +670,7 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"Manganita é o motivo pelo qual você está aqui. Ele pode ser fundido diretamente em manganês, e você precisará de muito manganês para fazer os itens &6HV&r."
+				"Manganita é o motivo pelo qual você está aqui. Ele pode ser fundido diretamente em manganês, e você precisará de muito manganês para fazer os itens &6HV &r."
 				""
 				"O tântalo acabará por se tornar muito valioso, graças ao seu subproduto nióbio."
 			]
@@ -873,7 +873,7 @@
 			description: [
 				"Esta variante dos veios inferiores de limonita nunca deve ser ignorada."
 				""
-				"Esta é uma excelente fonte de ferro e ouro, graças ao &aque duplica&r."
+				"Como &aduplica &r, esta é uma excelente fonte de ferro e ouro."
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
@@ -1079,7 +1079,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"O desenvolvimento do &bApplied Energy 2&rrequer o veio &6Seth Quartz&r."
+				"O desenvolvimento de &bApplied Energy 2 &rrequer veios &6Seth Quartz &r."
 				""
 				"A barita é eletrolisada para produzir bário, que será necessário para fabricar alguns materiais supercondutores avançados."
 			]
@@ -1118,7 +1118,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"Minério Esmeralda é o minério mais útil aqui. Necessário em pequenas quantidades para fabricar itens técnicos em &bMV&r."
+				"Minério Esmeralda é o minério mais útil aqui. Necessário em pequenas quantidades para fabricar itens técnicos em &bMV &r."
 				""
 				"O berílio pode ser usado para fazer pó de pérola ender."
 			]
@@ -1151,7 +1151,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"Bluestone é muito importante na progressão &6HV&r, onde é separado em ouro âmbar (uma fonte de ouro e prata) e redstone em uma centrífuga."
+				"Bluestone é muito importante na progressão &6HV &r, onde é separado em ouro âmbar (uma fonte de ouro e prata) e redstone em uma centrífuga."
 				""
 				"O salitre é usado em diversas reações"
 			]
@@ -1276,7 +1276,7 @@
 			description: [
 				"Um veio de cobre quase puro. Maldito minério de antimônio!"
 				""
-				"O minério de antimônio pode ser fundido diretamente em antimônio, que você precisa obter em &7LV&rpara fazer baterias."
+				"O minério de antimônio pode ser fundido diretamente em antimônio, você precisa obter antimônio em &7LV &rpara fazer baterias."
 			]
 			icon: "gtceu:diorite_tetrahedrite_ore"
 			id: "086553052433A3A3"
@@ -1451,7 +1451,7 @@
 		{
 			dependencies: ["74F1C81B60FABEAA"]
 			description: [
-				"Se você é uma pessoa bem ajustada, os filões de mineração &bAlumínio&re &dTitânio&restão bem aqui."
+				"Se você é uma pessoa bem ajustada, os veios de mineração do alumínio &b&re do titânio &d&restão bem aqui."
 				""
 				"Desista dessas minas de mica – a bauxita é o futuro!"
 			]
@@ -1488,7 +1488,7 @@
 		}
 		{
 			dependencies: ["74F1C81B60FABEAA"]
-			description: ["É a fonte de terras raras de &5EV&r."]
+			description: ["É a fonte de terras raras de &5EV &r."]
 			icon: "gtceu:moon_stone_bastnasite_ore"
 			id: "00AA7D62FCE4B40E"
 			size: 1.0d
@@ -1537,9 +1537,9 @@
 		{
 			dependencies: ["0CE213ED8D234B0A"]
 			description: [
-				"A platina começou em &5EV&r."
+				"A platina começou em &5EV &r."
 				""
-				"Os metais do grupo da platina tornam-se necessários nas fases posteriores do &5EV&r, e Sheldon é o melhor minério para iniciar o processamento."
+				"Os metais do grupo da platina tornam-se necessários nos estágios posteriores do &5EV &r, e Sheldon é o melhor minério para iniciar o processamento."
 			]
 			icon: "gtceu:mars_stone_cooperite_ore"
 			id: "5C9AC0D1F2624D9E"
@@ -1608,13 +1608,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "veias de fosfato"
+			title: "veios de fosfato"
 			x: 19.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0CE213ED8D234B0A"]
-			description: ["Esta é uma veia muito importante, já que o tungstênio foi muito usado no &9IV&re além."]
+			description: ["Este é um veio muito importante, pois o tungstênio foi muito usado em &9IV &re fases posteriores."]
 			icon: "gtceu:mars_stone_scheelite_ore"
 			id: "5D0FE695E1E46BC4"
 			size: 1.0d
@@ -1695,7 +1695,7 @@
 			id: "108D89FA7643AEB8"
 			tasks: [{
 				id: "4BE32C3F21E70B08"
-				title: "veia de mercúrio"
+				title: "Filão de Mercúrio"
 				type: "checkmark"
 			}]
 			x: 27.5d
@@ -1801,7 +1801,7 @@
 			id: "76F659B8F102B236"
 			tasks: [{
 				id: "4E73854CB6C0A883"
-				title: "Mina de Ceres"
+				title: "Veia Ceres"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -1850,11 +1850,11 @@
 		{
 			dependencies: ["56AF6D5B1E2205DC"]
 			description: [
-				"&2Sílica&rdo Stargate! Começando com &dLuV&rvocê descobrirá que este se torna um material importante."
+				"&2Sílica &rdo Stargate! Começando com &dLuV &rvocê descobrirá que este se torna um material importante."
 				""
-				"A sílica pode ser processada em sílica enriquecida, super sílica, índio e trititânio em &dLuV&re &cZPM&rrespectivamente."
+				"A sílica pode ser processada em sílica enriquecida, super sílica, índio e trititânio em &dLuV &re &cZPM &rrespectivamente."
 				""
-				"{\"text\":\"Pode até ser usado como combustível para gerar eletricidade.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E951CCF86DDA5CB\"}}"
+				"{ \"text\": \"Pode até ser usado como combustível para gerar eletricidade.\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E951CCF86DDA5CB\" } }"
 			]
 			icon: "gtceu:iostone_naquadah_ore"
 			id: "5FDD8771824E57CF"

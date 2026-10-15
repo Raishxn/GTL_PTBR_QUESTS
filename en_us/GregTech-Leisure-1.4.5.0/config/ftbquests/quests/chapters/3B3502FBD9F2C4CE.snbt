@@ -58,18 +58,18 @@
 					type: "item"
 				}
 			]
-			title: "Various ingots"
+			title: "various ingots"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4058D1416D94BABB"]
 			description: [
-				"The alloy smelting furnace will produce fluid (the corresponding product can be produced through the mixing-electric blast furnace or carbon disulfide) and molten fluid. The molten fluid needs to be cooled using a vacuum freezer"
+				"The alloy smelting furnace will produce fluid (the corresponding product can be produced through the mixer-electric blast furnace or carbon disulfide) and molten fluid. The molten fluid needs to be cooled using a vacuum freezer"
 				""
-				"Don't be put off by the long smelting time, this is a result of integrating the blender recipe directly into the smelting recipe and is actually less time consuming than mixing and then smelting the powder in a blast furnace (like stainless steel)."
+				"Don't be put off by the long smelting time, this is a result of integrating the blender's recipe directly into the smelting recipe, and is actually less time consuming than blending and then smelting the powder in a blast furnace (like stainless steel)."
 				""
-				"Almost all alloy materials can be produced in this machine, so if you have trouble finding the alloy recipe, please look for &b&lMolten Fluid &r!"
+				"Almost every alloy material can be produced in this machine, so if you have trouble finding the alloy recipe, look for&b&lmolten fluid &r!"
 			]
 			icon: "gtceu:alloy_blast_smelter"
 			icon_scale: 1.3d
@@ -93,10 +93,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"1F0956C3BD4745A1"
-				"27BA6EBA81622516"
-			]
+			dependencies: ["1F0956C3BD4745A1"]
 			description: [
 				"It is now possible to make larger versions of monoblock machines, with better boost and overclocking, and greater parallelism"
 				""
@@ -116,7 +113,7 @@
 			tasks: [
 				{
 					id: "2F1127262F7ACA6C"
-					title: "Big machine"
+					title: "Large machine"
 					type: "checkmark"
 				}
 				{
@@ -126,12 +123,12 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
-			description: ["You can do this with a IV mixer or an alloy smelting furnace"]
+			description: ["You can do it with an IV mixer or an alloy smelting furnace"]
 			hide_dependent_lines: true
 			id: "4BFA114E12BCB163"
 			shape: "gear"
@@ -191,7 +188,7 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			title: "High Speed ​​G-Steel Coil"
+			title: "High speed steel-G coil"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -200,7 +197,7 @@
 				"7DCA0B7C9F3C3ACF"
 				"3CB16B36A5AA2A10"
 			]
-			description: ["You can do this with a IV mixer or an alloy smelting furnace"]
+			description: ["You can do it with an IV mixer or an alloy smelting furnace"]
 			id: "2A81EA75E3DD41A3"
 			tasks: [
 				{
@@ -214,7 +211,7 @@
 					type: "item"
 				}
 			]
-			title: "High-speed steel-E and S"
+			title: "High speed steel-E and S"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -253,13 +250,13 @@
 					type: "item"
 				}
 			]
-			title: "Advanced patching"
+			title: "Advanced patch"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["Probably the last type of small assembly machine"]
+			description: ["Probably the last kind of small assembly machine"]
 			hide_dependent_lines: true
 			id: "079CD9FD65CB2ED2"
 			tasks: [{
@@ -295,7 +292,7 @@
 				"027B25761BD830C8"
 				"22795A09A3BD7344"
 			]
-			description: ["Quantum processors use qubits as the basic unit of information and can be in a superposition state of 0 and 1 at the same time, allowing quantum computers to perform complex computational tasks."]
+			description: ["Quantum processors use qubits as the basic unit of information and can be in a superposition state of 0 and 1 at the same time, allowing quantum computers to perform complex computing tasks."]
 			icon_scale: 2.0d
 			id: "31AC84CBD7C26566"
 			tasks: [{
@@ -363,7 +360,7 @@
 				"2CAC63F25BAF50B3"
 			]
 			id: "0FCA3B71669C8122"
-			subtitle: "I still want to go to the space station"
+			subtitle: "Still want to go to the space station"
 			tasks: [{
 				id: "431CBC4C1A32BCEC"
 				item: "gtceu:quantum_star"
@@ -422,7 +419,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Very expensive, but necessary after intravenous administration."
+			subtitle: "Very expensive, but necessary after IV."
 			tasks: [{
 				id: "07456C679DEEEE04"
 				item: "gtceu:assembly_line"
@@ -436,7 +433,7 @@
 				"27BA6EBA81622516"
 				"25F272243EB904D5"
 			]
-			description: ["It will not be the last small circuit assembly machine"]
+			description: ["It won’t be the last small circuit assembly machine"]
 			id: "027B25761BD830C8"
 			tasks: [{
 				id: "57AB73EF21D31E54"
@@ -486,7 +483,7 @@
 				"079CD9FD65CB2ED2"
 				"3461BF0D74E5E8DF"
 			]
-			description: ["Impulsionar"]
+			description: ["Boost"]
 			hide_dependent_lines: true
 			icon_scale: 1.3d
 			id: "15580C25FF239402"
@@ -506,7 +503,7 @@
 				"0526B4AC0CAF99A5"
 				"3ECA33037D940EAB"
 			]
-			description: ["Superconductor &9IV &r"]
+			description: ["&9IV&rsuperconductor"]
 			id: "02D426BE0947F123"
 			tasks: [{
 				id: "4FD9779EEB7F7F57"
@@ -716,8 +713,8 @@
 				item: "gtceu:fission_reactor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
@@ -852,7 +849,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "01068F963A96E633"
-				title: "Strong Conductive Pressure IV"
+				title: "Strong pressure IV"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -860,11 +857,7 @@
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
-			description: [
-				"64 parallel vacuum freezer"
-				""
-				"&mI know liquid ice sounds ridiculous, but that's what I recorded &r"
-			]
+			description: ["64-parallel Vacuum Freezer"]
 			icon_scale: 1.3d
 			id: "4C4081C79D227D1F"
 			rewards: [{
@@ -928,9 +921,7 @@
 				""
 				"Supercritical sodium-potassium alloy can also be used to obtain supercritical steam, which can be used to generate electricity for supercritical steam turbines."
 				""
-				"In addition to the sodium-potassium thermal alloy formula, the heat exchanger is not affected by the configurable maintenance compartment."
-				""
-				"Hot sodium-potassium alloys come from low-temperature fission reactors (≤825K), and supercritical sodium-potassium alloys come from high-temperature fission reactors (>825K)."
+				"In addition to the thermal sodium-potassium alloy formula, the heat exchanger is not affected by the configurable maintenance compartment."
 			]
 			icon_scale: 2.0d
 			id: "24CE67689DD540B7"
@@ -952,11 +943,11 @@
 				"15580C25FF239402"
 			]
 			description: [
-				"0.2x is used to speed up the machine, 1.2x is used to save fuel. In some cases, the generator may obtain additional overclocking times to increase power generation."
+				"0.2x is used to accelerate the machine, 1.2x is used to save fuel. In some cases, the generator can obtain additional overclocking times to increase power generation."
 				""
-				"{\"text\":\"Configure the copy tool to copy and paste time-consuming settings\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3740DE62D42A4D0D\"}}"
+				"{ \"text\": \"Configure the copy tool to copy and paste processing time-consuming settings\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""
-				"You can also make the configurable ultra-clean maintenance warehouse &6&r"
+				"You can also make&6configurable ultra-clean maintenance warehouse &r"
 			]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hk3_ch3_imaginary"
-	group: ""
+	group: "55F6563FBB4902EC"
 	icon: "hk3gtl:imaginary_1_processor"
 	id: "4A30000000000000"
-	order_index: 11
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,13 +14,11 @@
 			id: "4A30000000000100"
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "4A30000000000101"
-					title: "Entering the imaginary number stage"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4A30000000000101"
+				title: "Entering the imaginary number stage"
+				type: "checkmark"
+			}]
 			title: "§d§lbranch of imaginary numbers"
 			x: 0.0d
 			y: 0.0d
@@ -30,14 +28,12 @@
 			description: ["Nanoceramics are the entry material for the imaginary stage and the common base for imaginary casings and circuits."]
 			id: "4A30000000000200"
 			subtitle: "The first lesson of material science of imaginary numbers"
-			tasks: [
-				{
-					count: 16L
-					id: "4A30000000000201"
-					item: "hk3gtl:nano_ceramic"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "4A30000000000201"
+				item: "hk3gtl:nano_ceramic"
+				type: "item"
+			}]
 			title: "Nanoceramics"
 			x: 2.5d
 			y: 0.0d
@@ -51,13 +47,11 @@
 			]
 			id: "4A30000000000300"
 			subtitle: "E-FB-009 · The door to the study of imaginary numbers"
-			tasks: [
-				{
-					id: "4A30000000000301"
-					item: "hk3gtl:imaginary_tree_observation_array"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A30000000000301"
+				item: "hk3gtl:imaginary_tree_observation_array"
+				type: "item"
+			}]
 			title: "§dimaginary number tree observation array"
 			x: 5.0d
 			y: 0.0d
@@ -66,13 +60,11 @@
 			dependencies: ["4A30000000000300"]
 			description: ["The Temple of Imaginary Level Circuit Calculation—the birthplace of imaginary fourth-level circuits.", "After completing the research on the imaginary number I in cooperation with the observation array, the §dimaginary number one sequence core element §rwas cast (triggering milestone E-MS-005)."]
 			id: "4A30000000000400"
-			rewards: [
-				{
-					id: "4A30000000000402"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
+			rewards: [{
+				id: "4A30000000000402"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			subtitle: "E-MS-005 · Imaginary computing power ignition"
 			tasks: [
 				{
@@ -148,13 +140,11 @@
 			description: ["After gathering the dual core and imaginary number I computing power, assemble the §dimaginary number two crown integrated body §r."]
 			id: "4A30000000000700"
 			subtitle: "Canopy computing power"
-			tasks: [
-				{
-					id: "4A30000000000701"
-					item: "hk3gtl:imaginary_2_assembly"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A30000000000701"
+				item: "hk3gtl:imaginary_2_assembly"
+				type: "item"
+			}]
 			title: "Imaginary number two tree crown integrated body"
 			x: 12.5d
 			y: 0.0d
@@ -187,13 +177,11 @@
 			id: "4A30000000000900"
 			shape: "diamond"
 			subtitle: "passive gaze suppression"
-			tasks: [
-				{
-					id: "4A30000000000901"
-					item: "hk3gtl:honkai_phase_purification_plant"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A30000000000901"
+				item: "hk3gtl:honkai_phase_purification_plant"
+				type: "item"
+			}]
 			title: "§5Honkai phase purification plant"
 			x: 10.0d
 			y: 2.5d
@@ -258,22 +246,18 @@
 				"§73. You can continue the normal game after leaving, and the main brain function will not be affected."
 			]
 			id: "4A30000000000C00"
-			rewards: [
-				{
-					id: "4A30000000000C02"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
+			rewards: [{
+				id: "4A30000000000C02"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
 			size: 1.5d
 			subtitle: "E-MS-006 · The Peak of Imaginary Numbers · Forced Transmission Warning"
-			tasks: [
-				{
-					id: "4A30000000000C01"
-					item: "hk3gtl:imaginary_4_processor_mainframe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A30000000000C01"
+				item: "hk3gtl:imaginary_4_processor_mainframe"
+				type: "item"
+			}]
 			title: "§6§lImaginary Number Four Imaginary Sequence Master Brain"
 			x: 20.0d
 			y: 0.0d
@@ -285,13 +269,11 @@
 			id: "4A30000000000D00"
 			shape: "diamond"
 			subtitle: "R-IM-021 · Gateway to the Quantum Sea"
-			tasks: [
-				{
-					id: "4A30000000000D01"
-					title: "Completed imaginary export certification research"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4A30000000000D01"
+				title: "Completed imaginary export certification research"
+				type: "checkmark"
+			}]
 			title: "§dImaginary number export"
 			x: 22.5d
 			y: 0.0d

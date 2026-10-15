@@ -11,31 +11,31 @@
 	quests: [
 		{
 			description: [
-				"&6&o&lEstrutura multibloco&r&r&ré uma estrutura composta por vários blocos"
+				"&6&o&lEstrutura multibloco &r&r&ré uma estrutura composta por vários blocos"
 				"Você pode usar uma chave inglesa para girar o console multibloco, e a estrutura multibloco suporta a colocação de espelho."
 				"Alguns hospedeiros de estrutura multibloco não estão incluídos no corpo principal da estrutura, portanto é possível que vários hospedeiros compartilhem o corpo principal da estrutura, como fornos de coque, altos-fornos elétricos, plantas integradas de processamento de minério, separadores sagrados, etc."
 				"Na GUI do host multibloco, clique no sinal \"+\" no canto superior direito para visualizar as condições do armazém em toda a estrutura multibloco."
 				"O ícone inferior no canto inferior esquerdo da GUI pode bloquear o host para executar apenas uma receita. O método de operação específico: pressione o ícone para bloquear primeiro e, em seguida, execute a receita que deseja bloquear uma vez, e então a máquina reconhecerá apenas esta receita."
 				""
-				"Na página de informações da estrutura multibloco &b&rde &cJEI&r,"
+				"Na página de informações da estrutura multibloco &b&rde &cJEI &r,"
 				"O tipo e a quantidade correspondente de blocos necessários para a estrutura de visualização atual são exibidos na parte inferior."
-				"No lado direito existem dois botões: “P” para ajustar o número de estruturas repetidas &e&rou &enível de máquina&r, “ALL” para &eestratificação&rpara visualizar a estrutura completa da máquina"
+				"No lado direito existem dois botões: \"P\" para ajustar a quantidade &eda estrutura repetitiva &rou &enível de máquina &r, \"ALL\" para &eestratificação &rpara visualizar a estrutura completa da máquina"
 				"Mantenha pressionada a tecla Shift e clique em \"P\" e \"ALL\" para redefinir as configurações, mantenha pressionada a tecla Ctrl e clique em \"P\" para definir o número de estruturas repetidas ou nível da máquina para o valor máximo"
-				"A interface de imagem no meio suporta interação de clique &e&r: Após clicar em um determinado bloco, o bloco será destacado, e todos os tipos de blocos opcionais permitidos nesta posição serão listados no lado esquerdo da página."
-				"Clique em “M” para visualizar a estrutura multibloco do &eapós instalar todos os módulos&r. Clique em “M” novamente para fechá-lo."
+				"A interface de imagem no meio suporta interação de clique &e&r: Após clicar em um determinado bloco, o bloco será destacado e todos os tipos de blocos opcionais permitidos nesta posição serão listados no lado esquerdo da página."
+				"Clique em \"M\" para visualizar a estrutura multibloco do &eapós instalar todos os módulos &r. Clique em “M” novamente para fechá-lo."
 				"Nota: Os tipos de bloco exibidos na parte inferior mostram apenas o tipo atualmente selecionado. Os tipos específicos baseiam-se nos blocos opcionais listados à esquerda (armazém de entrada e saída, armazém de laser alimentado por energia, armazém de manutenção, armazém de silenciadores, armazém de entrada de vapor, etc.)"
 				""
-				"&d&oFerramenta de inspeção estrutural&r&r"
+				"&d&oFerramenta de inspeção estrutural &r&r"
 				"Pode ajudá-lo a verificar se há erros na estrutura para ajudá-lo a construir a estrutura"
-				"A razão pela qual clicar com o botão direito no host multibloco não obtém a forma"
+				"A razão pela qual o host multibloco não é formado ao clicar com o botão direito nele"
 				"{@pagebreak}"
-				"&e&o&lEstrutura gigante&r&r&rO momento em que ganha forma através do terminal"
+				"&e&o&lMega estrutura &r&r&rNo instante em que toma forma usando o terminal"
 				"irá gerar enormes requisitos de memória,"
-				"Isso bloqueia o thread e faz com que &4trave&r,"
-				"A solução é usar um bloco de erro &oque não deveria existir para evitar que ele forme&r,"
-				"E após colocar todos os outros blocos &be finalmente&r, coloque a estrutura multibloco &dhost&r."
+				"Isso bloqueia o thread e faz com que &4trave &r,"
+				"A solução é usar um bloco de erro &oque não deveria existir para evitar que ele forme &r,"
+				"E depois de colocar todos os outros blocos &be finalmente &r, coloque a estrutura multibloco &dhost &r."
 				""
-				"&d&oSimulador Multibloco&r&r"
+				"Simulador Multibloco &d&o&r&r"
 				"Pode ajudá-lo a construir estruturas gigantes,"
 				"Você pode ver diretamente se a máquina pode tomar forma,"
 				"Em seguida, substitua o bloco principal."
@@ -63,10 +63,10 @@
 				"Armazém de energia, armazém de energia, barramento de entrada, barramento de entrada gigante, armazém de entrada, montagem de entrada, barramento de saída, barramento de saída gigante, armazém de saída, montagem de saída, armazém de manutenção, armazém de silenciadores, armazém de dados, armazém de laser, conjunto de entrada gigante, armazém de potência de computação"
 				"Você pode verificar os requisitos de localização e quantidade para cada armazém em jei"
 				""
-				"&l&cObserve&r&r"
-				"&o&bA câmara do silenciador deve estar voltada para o bloco de ar."
+				"&l&cObserve &r&r"
+				"&o&bA câmara do silenciador deve ficar voltada para o bloco de ar."
 				"&o&bVocê pode substituir o barramento por um conjunto,"
-				"&o&bEntretanto, o compartimento não pode ser substituído por um conjunto."
+				"&o&bContudo, o compartimento não pode ser substituído por um conjunto."
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:max_dual_input_hatch"
@@ -363,7 +363,7 @@
 		}
 		{
 			dependencies: ["23DC6EEC1BCEF845"]
-			description: ["O modo &6de fundição térmica estelar&rsó pode usar a bobina de super capacidade de calor &b&r"]
+			description: ["&6O modo de fundição de energia térmica estelar &rsó pode usar a bobina de super capacidade de calor &b&r"]
 			icon_scale: 1.3d
 			id: "06EAF391250421CA"
 			rewards: [{
@@ -1034,10 +1034,7 @@
 		}
 		{
 			dependencies: ["32BD532132423050"]
-			description: [
-				"Exceto para a camada inferior da torre de destilação, cada &o&6só pode e deve&rcolocar um pequeno compartimento de saída &b&r. Cada bandeja de saída corresponde a um produto (pode ser empilhada sozinha, sem nenhum bônus adicional de altura)"
-				"Existem e apenas a camada inferior &6&rpode usar o conjunto de saída &b&r, o que pode reduzir a altura. Se você usar o conjunto de saída &dME&r, poderá até construir apenas três camadas."
-			]
+			description: ["Exceto para a camada inferior da torre de destilação, &o&6só pode e deve &rcolocar um pequeno compartimento de saída &b&r. Cada caixa de saída corresponde a um produto (pode ser empilhada sozinha, sem nenhum bônus adicional de altura)", "Existem e apenas a camada inferior &6&rpode usar o conjunto de saída &b&r, o que pode reduzir a altura. Se você usar o conjunto de saída &dME &r, poderá até construir apenas três camadas."]
 			icon_scale: 1.3d
 			id: "17A797C2D7167222"
 			rewards: [{
@@ -1276,8 +1273,8 @@
 		{
 			dependencies: ["1443E064A0AB0B8B"]
 			description: [
-				"A partir do terceiro andar &o&6só pode e deve&rcolocar um pequeno compartimento de saída &b&r"
-				"Existem e apenas &6inferior e segunda camada&rpodem usar o conjunto de saída &b&rou o conjunto de saída &dME&r"
+				"Do terceiro andar em diante &o&6só pode e deve &rcolocar um pequeno compartimento de saída &b&r"
+				"Existem e apenas &6inferior e segunda camada &rpodem usar o conjunto de saída &b&rou o conjunto de saída &dME &r"
 				"Da mesma forma, não há bônus adicional para altura"
 			]
 			icon_scale: 1.3d
@@ -1334,7 +1331,6 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
-			description: ["Agora esta máquina &l&opode impulsionar o armazém duplo&r"]
 			icon_scale: 1.3d
 			id: "18252D602561E4A9"
 			rewards: [{
@@ -1353,7 +1349,7 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
-			description: ["&cnão pode&raumentar o dobro do armazém"]
+			description: ["&cnão pode &raumentar o dobro do armazém"]
 			icon_scale: 1.3d
 			id: "0892BF5A6B8239F3"
 			rewards: [{
@@ -1825,10 +1821,7 @@
 		}
 		{
 			dependencies: ["32BD532132423050"]
-			description: [
-				"A torre de evaporação é semelhante à torre de destilação. Cada camada da terceira à penúltima camada deve e só pode colocar um pequeno compartimento de saída &b&r. O conjunto de saída &d&rpode ser colocado na parte inferior e na segunda camada."
-				"Da mesma forma, não há bônus adicional para altura"
-			]
+			description: ["A torre de evaporação é semelhante à torre de destilação. Cada camada da terceira à penúltima camada deve e só pode colocar um pequeno compartimento de saída &b&r. O conjunto de saída &d&rpode ser colocado na camada inferior e na segunda camada.", "Da mesma forma, não há bônus adicional para altura"]
 			icon_scale: 1.3d
 			id: "224B850538D346D3"
 			rewards: [{
@@ -2082,7 +2075,7 @@
 				"40D8E0B3024D5231"
 				"05801CE2E3390E3F"
 			]
-			description: ["Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação"]
+			description: ["Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação."]
 			icon_scale: 1.3d
 			id: "24F5D1338F48A57E"
 			rewards: [{
@@ -2106,7 +2099,7 @@
 				"56F2156559F2ADF9"
 				"6D6A8592BA1B4A3B"
 			]
-			description: ["Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação"]
+			description: ["Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação."]
 			icon_scale: 1.3d
 			id: "290495468BAB6553"
 			rewards: [{
@@ -3482,7 +3475,7 @@
 					type: "item"
 				}
 			]
-			title: "fábrica geral"
+			title: "fábrica universal"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -4455,7 +4448,7 @@
 		}
 		{
 			dependencies: ["45096D94AE6F7864"]
-			description: ["Se a proporção do fluido &bde entrada&rfor diferente da proporção da fórmula, &esempre engolirá o material sem produzir o produto&r"]
+			description: ["Se a proporção do fluido &bde entrada &rfor diferente da proporção da fórmula, &esempre engolirá o material sem produzir o produto &r"]
 			icon_scale: 1.3d
 			id: "58CCDA50B0673DB3"
 			rewards: [{

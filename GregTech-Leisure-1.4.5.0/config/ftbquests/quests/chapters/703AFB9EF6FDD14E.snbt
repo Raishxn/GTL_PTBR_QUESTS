@@ -17,6 +17,7 @@
 	quests: [
 		{
 			dependencies: ["516AA655EF6CBBF0"]
+			description: [""]
 			hide_until_deps_visible: false
 			id: "0F04364907145AF1"
 			optional: true
@@ -58,9 +59,9 @@
 			description: [
 				"Os painéis solares só funcionam no mundo superior"
 				""
-				"A tensão de trabalho do coletor mundial fragmentado é &7&lULV&r, o que significa que se o painel solar não for utilizado para alimentação de energia, é necessário um transformador &6&rpara reduzir a corrente para ULV"
+				"A tensão de trabalho do coletor mundial fragmentado é &7&lULV &r, o que significa que se o painel solar não for usado para fonte de alimentação, um transformador &6&ré necessário para reduzir a corrente para ULV"
 				""
-				"Observe que o espaço de saída de fluido integrado do coletor mundial fragmentado é &b&l32B&r. Se a saída de fluido único for superior a este valor, a máquina não funcionará."
+				"Observe que o espaço de saída de fluido integrado do coletor mundial fragmentado é &b&l32B &r. Se a saída de fluido único for superior a este valor, a máquina não funcionará."
 			]
 			icon: "minecraft:diamond_ore"
 			id: "516AA655EF6CBBF0"
@@ -111,9 +112,9 @@
 		{
 			dependencies: ["1B664763E9558755"]
 			description: [
-				"Máquina especial para Sky Island. O overclock não pode exceder 1A de potência ZPM."
+				"Máquina especial Air Island não pode ter overclock"
 				""
-				"Pode ser produzido na pós-produção &5EV&r"
+				"Pode ser produzido na pós-produção &5EV &r"
 			]
 			hide_until_deps_visible: false
 			id: "72FB1A140FACFA76"
@@ -140,7 +141,7 @@
 			optional: true
 			rewards: [{
 				id: "3DF6CF1997E498F4"
-				item: "gtlcore:world_fragments_overworld"
+				item: "gtlcore:world_fragments_reactor"
 				type: "item"
 			}]
 			subtitle: "Você não precisa ir para outras dimensões para cavar minerais."
@@ -155,6 +156,7 @@
 		}
 		{
 			dependencies: ["7F78340CB4A8EC59"]
+			description: [""]
 			hide_until_deps_visible: false
 			id: "7C24D5FD2C008BD4"
 			optional: true
@@ -298,7 +300,7 @@
 			description: [
 				"Não há necessidade de ir para a estação espacial"
 				""
-				"A determinação da gravidade da estrutura multibloco depende apenas da posição do hospedeiro &m(portanto, cabe apenas no tanque de cultura grande)&r"
+				"A determinação da gravidade da estrutura multibloco depende apenas da posição do hospedeiro &m(para que caiba apenas no tanque de cultura grande) &r"
 			]
 			hide_until_deps_visible: false
 			icon: {
@@ -359,7 +361,7 @@
 		}
 		{
 			dependencies: ["5F403C7AE4B5486C"]
-			description: ["{\"text\":\"criar dimensões\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1416EAE88C9030C8\"}}"]
+			description: ["{ \"text\": \"Criar dimensão\", \"underlined\": \"true\", \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"1416EAE88C9030C8\" } }"]
 			hide_until_deps_visible: false
 			icon: "minecraft:bedrock"
 			id: "14E8D6FF37930A06"
@@ -476,11 +478,11 @@
 				""
 				"O terreno no início possui blocos de grama. Se não houver blocos de grama, você pode escavá-los na área super plana."
 				""
-				"Apenas fortalezas inferiores serão geradas no Nether, e apenas a ilha principal permanecerá no final. Terrenos em outras dimensões ainda serão gerados normalmente. &mnão é como indicado na missão inicial."
+				"O Nether é semelhante ao mundo principal, exceto que as fortalezas no Nether estão todas vazias e o terreno em outras dimensões ainda é gerado normalmente. &mnão é como indicado na missão inicial."
 				"&r"
-				"Obtenha sementes de melancia/abóbora/beterraba e cactos dos comerciantes errantes &m. Você também pode comprá-los no pequeno mercado&r."
+				"Obtenha sementes de melancia/abóbora/beterraba e cactos dos comerciantes errantes &m. Você também pode comprar &rno pequeno mercado."
 				""
-				"As vacas serão renovadas em blocos de grama e também podem ser encontradas no matadouro no modo físico do Circuito No. 1. &mVocê também pode ir para Frostfield Star para encontrar Frostfield Sheep.&r"
+				"As vacas serão refrescadas em blocos de grama e também podem ser encontradas no matadouro no modo físico do Circuito No. 1 &m. Você também pode ir para Frostfield Star para encontrar Frostfield Sheep &r."
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:nan_certificate"

@@ -922,7 +922,6 @@
 				"7B41D6C27938103B"
 				"5D91DBEE7A88C468"
 			]
-			description: ["The original English text does not correspond to the chemical formula. The substance corresponding to the chemical formula is 2-thiophenoformyltrifluoroacetone."]
 			icon: "gtceu:trifluoroacetic_phosphate_ester_dust"
 			id: "489CD0F35D53FA81"
 			subtitle: "catalisador"
@@ -1183,7 +1182,6 @@
 				"3ACE24C4CD948728"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Extremely acidic substances"]
 			icon: "gtceu:fluorocarborane_dust"
 			id: "0D33E584F073EDAC"
 			subtitle: "Can recycle trimethylsilane, silver oxide and cesium powder"
@@ -1411,7 +1409,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "acetileno"
+			title: "Acetileno"
 			x: -9.0d
 			y: 1.5d
 		}
@@ -1730,9 +1728,9 @@
 		}
 		{
 			dependencies: ["64166D3B9F4A817F"]
+			description: ["Can be recycled in the cycle"]
 			icon: "gtceu:antimony_trifluoride_dust"
 			id: "296EC483F90323C3"
-			subtitle: "Can be recycled in the cycle"
 			tasks: [
 				{
 					id: "645AD8E66B3E9722"
@@ -2950,7 +2948,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "p-nitroanilina"
+			title: "p-Nitroanilina"
 			x: -7.5d
 			y: 12.0d
 		}
@@ -3056,7 +3054,6 @@
 					type: "checkmark"
 				}
 			]
-			title: "Metilamina"
 			x: -4.5d
 			y: 15.0d
 		}
@@ -3520,7 +3517,7 @@
 			]
 			icon: "gtceu:naphtha_bucket"
 			id: "071C1482A33D97FB"
-			subtitle: "Sulfur-containing naphtha hydrogenated gas"
+			subtitle: "Sulfur Naphtha Hydrogenation"
 			tasks: [
 				{
 					id: "5487A28C3E9B45E0"
@@ -4176,7 +4173,6 @@
 					type: "checkmark"
 				}
 			]
-			title: "vinyl acetate"
 			x: -24.0d
 			y: 3.0d
 		}
@@ -4443,7 +4439,7 @@
 		}
 		{
 			dependencies: ["2EAAF5A6510D0EFE"]
-			description: ["{\"text\":\"Petrochemical and biochemical production see here\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B3E2F27FE938277\"}}"]
+			description: ["{\"text\":\"Petrochemical and biochemical production can be seen here\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B3E2F27FE938277\"}}"]
 			id: "77881C054BC89696"
 			tasks: [{
 				id: "66DE4C6B60F7BFAA"
@@ -4833,6 +4829,7 @@
 				"2C184648D47B9426"
 				"02FB675C76544394"
 			]
+			description: [""]
 			hide_dependent_lines: true
 			icon: "gtceu:stem_cells"
 			icon_scale: 2.0d
@@ -6006,7 +6003,7 @@
 			id: "2928C640C522E0A5"
 			tasks: [{
 				id: "4006167C7176F682"
-				title: "poliimida"
+				title: "Poliimida"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -6030,7 +6027,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "poliimida"
+			title: "Poliimida"
 			x: 22.5d
 			y: -3.0d
 		}
@@ -6174,7 +6171,7 @@
 				}
 				{
 					id: "0AAA7A91ECD511FA"
-					item: "gtceu:zinc_dust"
+					item: "gtceu:tin_dust"
 					optional_task: true
 					type: "item"
 				}
@@ -6183,7 +6180,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Nitrobenzene and zinc powder"
+			title: "Nitrobenzene and tin powder"
 			x: 16.5d
 			y: -3.0d
 		}
@@ -6976,7 +6973,7 @@
 			id: "69E208F71C5EB4B3"
 			tasks: [{
 				id: "205811D31A85566A"
-				title: "polibenzimidazol"
+				title: "Polibenzimidazol"
 				type: "checkmark"
 			}]
 			x: -31.5d

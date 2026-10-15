@@ -24,7 +24,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "0A5103D6EA070927"
-				title: "medium voltage MT"
+				title: "Medium voltage MV"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -35,7 +35,7 @@
 				"66DC60EABAAE0619"
 				"32960AFE43AFF989"
 			]
-			description: ["It is recommended to use &b&rlarge steam circuit assembly machine equipped with &e&rlarge steam inlet compartment."]
+			description: ["It is recommended to use&blarge steam circuit assembly machine&requipped with&elarge steam input bin &r."]
 			icon_scale: 2.0d
 			id: "242AFA510EC14878"
 			rewards: [
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -88,7 +88,7 @@
 				"27C18D37D5E19043"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["Another double boost in the warehouse, this time it's MV"]
+			description: ["Another double warehouse boost, this time it’s MV"]
 			id: "17E9AB180BA36353"
 			rewards: [{
 				id: "3A4DBEDE4E62E01E"
@@ -321,7 +321,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "a little slow"
+			subtitle: "a bit slow"
 			tasks: [{
 				id: "6FB8A19B895A786C"
 				item: "gtceu:silicon_boule"
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["750D2CE269C7068D"]
-			description: ["After upgrading to version HV, you can also transform low-quality gems into high-quality gems."]
+			description: ["After upgrading to the HV version, you can also etch low-quality gems into high-quality gems."]
 			hide_dependent_lines: true
 			id: "535D45580FBDE02B"
 			rewards: [{
@@ -469,13 +469,13 @@
 					type: "item"
 				}
 			]
-			title: "MT sensors and transmitters"
+			title: "MV sensors and transmitters"
 			x: 4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1F2E7A99C7F1E199"]
-			description: ["Can be manufactured later with an explosive compressor"]
+			description: ["Can be crafted later using an explosive compressor"]
 			id: "3B47FC6D8D2065F3"
 			rewards: [{
 				id: "62695C43C2C4F027"
@@ -509,9 +509,9 @@
 		{
 			dependencies: ["4C2AD408BAB73087"]
 			description: [
-				"Most minerals can be electrolyzed in VM"
+				"Most minerals can be electrolyzed in MV"
 				""
-				"Now you can get aluminum powder and silica powder from electrolytic clay powder"
+				"You can now get aluminum powder and silica powder from electrolytic clay powder"
 			]
 			id: "541275BC83188F74"
 			rewards: [{
@@ -549,7 +549,7 @@
 				"554D9DF1365F857C"
 				"55AB003495D2CCE9"
 			]
-			description: ["It was later replaced by a cheaper final control circuit"]
+			description: ["Later, it was replaced with a cheaper ultimate control circuit"]
 			icon_scale: 2.0d
 			id: "66DC60EABAAE0619"
 			rewards: [{
@@ -655,7 +655,7 @@
 				"0C8149BB0F901A88"
 				"58B03CD99B6C3A8B"
 			]
-			description: ["Another double boost in the warehouse, this time it's MV"]
+			description: ["Another double warehouse boost, this time it’s MV"]
 			id: "3E2F61B1A26AD378"
 			rewards: [{
 				id: "4C5A07460B528E86"
@@ -692,7 +692,7 @@
 		}
 		{
 			dependencies: ["79AE49C5DE7900FF"]
-			description: ["Silica burns faster but consumes more toner"]
+			description: ["Silica burns faster, but consumes more toner"]
 			id: "1648F829649D4300"
 			rewards: [{
 				id: "1F448D23874F2FE8"
@@ -819,17 +819,13 @@
 					type: "item"
 				}
 			]
-			title: "general factory"
+			title: "universal factory"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["17E9AB180BA36353"]
-			description: [
-				"This chamber drives the steam engine to the point where it can execute the recipe &bMV &r"
-				""
-				"Overclocking is also possible: with each overclock the steam consumption is multiplied by 3, and the consumption time is reduced by half, with a maximum of 4 overclocking times."
-			]
+			description: ["This hatch raises large steam machines to support &bMV&r recipes and allows up to 4 overclocks."]
 			icon_scale: 2.0d
 			id: "32960AFE43AFF989"
 			rewards: [{
@@ -851,7 +847,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
@@ -862,7 +858,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "Essencial"
+			subtitle: "Essential"
 			tasks: [{
 				id: "22DE2B728BF46F3E"
 				item: "gtceu:mv_extruder"
@@ -924,7 +920,7 @@
 				"79AE49C5DE7900FF"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["The recording output is 4 times that of ordinary monocrystalline silicon. Can only be used with &6HV &rlaser engraving machine."]
+			description: ["The etching output is 4 times that of ordinary monocrystalline silicon. It can only be used with the&6HV&rlaser etching machine."]
 			hide_dependency_lines: true
 			id: "506DFA831FEBD175"
 			rewards: [{
@@ -942,11 +938,7 @@
 		}
 		{
 			dependencies: ["56EA21AD61D2ACB1"]
-			description: [
-				"Two common power boxes have 4A power, but will increase the income level, making general factory machines require more advanced small machines to work."
-				""
-				"But if you only put a 4A power compartment, the machine will only increase the power but not the formula level, allowing the general factory to use MT machines to operate at HV speeds. If you put two 4A power compartments, the machine will also increase the formula level, which is 1 times more power than normal. If the machine can be parallelized, it will achieve more parallelism than the ordinary box."
-			]
+			description: ["2 standard energy hatches provide 4A but also raise the recipe tier, so machines such as the Universal Factory need higher-tier single-block machines to run.", "", "With only one 4A energy hatch, the machine gains power without raising its recipe tier: a Universal Factory can run an MV machine at HV speed. Installing 2 hatches of 4A also raises the recipe tier and provides 1 additional multiple of the standard power. Machines supporting parallel processing can therefore gain more parallel operations than with normal hatches."]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "58723DA3E76316E6"
@@ -977,7 +969,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "MV Cheap Superconductor"
+			subtitle: "MV’s cheap superconductor"
 			tasks: [{
 				id: "412AE134485FD3CC"
 				item: "gtceu:energetic_alloy_ingot"
@@ -1019,7 +1011,7 @@
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
-			description: ["Sneak up and right click on the small machine/room to register the setting and right click to apply the setting."]
+			description: ["Sneak and right-click the small machine/room to record the configuration, and right-click to apply the configuration."]
 			hide_dependency_lines: true
 			id: "3740DE62D42A4D0D"
 			rewards: [
@@ -1061,32 +1053,6 @@
 			}]
 			x: 14.0d
 			y: 10.0d
-		}
-		{
-			dependencies: ["242AFA510EC14878"]
-			description: [
-				"{\"text\":\"It could be your first cross-recipe parallel machine\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6F503441C24ABD5B\"}}"
-				""
-				"It is more powerful in the later period (when using super silica-Talan coil, the number of parallels exceeds that of ultra-dimensional steam furnace)"
-				""
-				"You can use the laser warehouse, support cross-recipe parallelism, use the temperature parallel mechanism, each time the temperature increases by 900K, the number of parallelism × 2"
-			]
-			icon_scale: 1.4d
-			id: "099798B0FDA4463B"
-			rewards: [{
-				id: "63B56A33E21B8FD5"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "24D537E4F7918A6D"
-				item: "gtceu:advanced_multi_smelter"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
 		}
 	]
 	subtitle: ["Tier2-MV"]

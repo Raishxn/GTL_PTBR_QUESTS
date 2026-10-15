@@ -63,7 +63,7 @@
 		{
 			id: "2A787266A123D9FE"
 			linked_quest: "76F659B8F102B236"
-			x: 39.5d
+			x: 38.0d
 			y: 2.0d
 		}
 		{
@@ -413,7 +413,7 @@
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
-			description: ["&mVocê não precisa usar traje espacial e usar um totem para apoiar&r"]
+			description: ["&mVocê não precisa usar um traje espacial e usar um totem para apoiar &r"]
 			icon: "ad_astra:moon_stone"
 			icon_scale: 2.0d
 			id: "23C2F99FC949AF0A"
@@ -429,11 +429,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "560602E8EACC8B7A"
-				item: "ad_astra:moon_cobblestone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					id: "2CCD7DD07A345FE5"
+					optional_task: true
+					title: "Lua"
+					type: "dimension"
+				}
+				{
+					id: "560602E8EACC8B7A"
+					item: "ad_astra:moon_cobblestone"
+					type: "item"
+				}
+			]
 			title: "Lua"
 			x: 8.0d
 			y: 0.0d
@@ -497,7 +506,6 @@
 					type: "checkmark"
 				}
 			]
-			title: "Combustível de foguete RP-1"
 			x: 15.0d
 			y: 2.0d
 		}
@@ -625,12 +633,20 @@
 			icon: "ad_astra:mars_stone"
 			icon_scale: 2.0d
 			id: "702471643821B0DE"
-			tasks: [{
-				id: "0AB08618956CA74F"
-				item: "ad_astra:mars_cobblestone"
-				type: "item"
-			}]
-			title: "Marte"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					id: "7429ACF48E70AF34"
+					optional_task: true
+					title: "Marte"
+					type: "dimension"
+				}
+				{
+					id: "0AB08618956CA74F"
+					item: "ad_astra:mars_cobblestone"
+					type: "item"
+				}
+			]
 			x: 17.0d
 			y: 0.0d
 		}
@@ -920,31 +936,45 @@
 		}
 		{
 			dependencies: ["5F482FD80B1E9CB3"]
-			description: ["Cuidado com a chuva ácida e o calor extremo"]
 			icon: "ad_astra:venus_stone"
 			icon_scale: 2.0d
 			id: "602F48807D4A89A6"
-			tasks: [{
-				id: "78B145B588D4A27E"
-				item: "ad_astra:venus_cobblestone"
-				type: "item"
-			}]
-			title: "Vênus"
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					id: "6120571D7D2195C0"
+					optional_task: true
+					title: "Vênus"
+					type: "dimension"
+				}
+				{
+					id: "78B145B588D4A27E"
+					item: "ad_astra:venus_cobblestone"
+					type: "item"
+				}
+			]
 			x: 27.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F482FD80B1E9CB3"]
-			description: ["Cuidado com a lava por toda parte!"]
 			icon: "ad_astra:mercury_stone"
 			icon_scale: 2.0d
 			id: "240EDC34562E580F"
-			tasks: [{
-				id: "4F66F12F3196F92E"
-				item: "ad_astra:mercury_cobblestone"
-				type: "item"
-			}]
-			title: "Mercúrio"
+			tasks: [
+				{
+					dimension: "ad_astra:mercury"
+					id: "75BE9C3C745B47E6"
+					optional_task: true
+					title: "Mercúrio"
+					type: "dimension"
+				}
+				{
+					id: "4F66F12F3196F92E"
+					item: "ad_astra:mercury_cobblestone"
+					type: "item"
+				}
+			]
 			x: 28.0d
 			y: 0.0d
 		}
@@ -958,7 +988,7 @@
 				title: "Preparando-se para ir para o T4"
 				type: "checkmark"
 			}]
-			x: 31.0d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -980,7 +1010,7 @@
 				}
 				type: "item"
 			}]
-			x: 37.5d
+			x: 36.0d
 			y: 0.0d
 		}
 		{
@@ -999,7 +1029,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 36.0d
+			x: 34.5d
 			y: -1.0d
 		}
 		{
@@ -1018,7 +1048,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 36.0d
+			x: 34.5d
 			y: 1.0d
 		}
 		{
@@ -1037,7 +1067,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 34.5d
+			x: 33.0d
 			y: 0.0d
 		}
 		{
@@ -1059,7 +1089,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 33.0d
+			x: 31.5d
 			y: 0.0d
 		}
 		{
@@ -1079,7 +1109,7 @@
 				}
 			]
 			title: "Combustível de foguete (nitrato de metilhidrazina)"
-			x: 37.5d
+			x: 36.0d
 			y: 2.0d
 		}
 		{
@@ -1099,8 +1129,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Metilidrazina"
-			x: 37.5d
+			x: 36.0d
 			y: 4.0d
 		}
 		{
@@ -1108,13 +1137,21 @@
 			icon: "kubejs:ceresstone"
 			icon_scale: 2.0d
 			id: "5010011959CF5337"
-			tasks: [{
-				id: "7555B3FDBAE2F20D"
-				item: "kubejs:ceresstone"
-				type: "item"
-			}]
-			title: "Ceres"
-			x: 39.5d
+			tasks: [
+				{
+					dimension: "kubejs:ceres"
+					id: "4661CE23F70EE69E"
+					optional_task: true
+					title: "Ceres"
+					type: "dimension"
+				}
+				{
+					id: "7555B3FDBAE2F20D"
+					item: "kubejs:ceresstone"
+					type: "item"
+				}
+			]
+			x: 38.0d
 			y: 0.0d
 		}
 		{
@@ -1125,9 +1162,7 @@
 			description: [
 				"Se o AE não conseguir reconhecer a memória flash sintetizada automaticamente, é recomendado substituir manualmente a memória flash no modelo pela memória flash que já existe na rede (o mesmo vale para bolas de dados e módulos de dados)"
 				""
-				"Os dados mundiais &cnão podem ser copiados por&rusando um scanner"
-				""
-				"Use o ar inferior para embeber o granito e obter netherita, ou vá a Vênus e ao mundo superior para encontrar netherita produzida naturalmente."
+				"Os dados mundiais &cnão podem ser copiados por &rusando um scanner"
 			]
 			icon_scale: 2.0d
 			id: "2BB52D1C09C418A9"
@@ -1266,7 +1301,7 @@
 				}
 			]
 			title: "Veias Fluidas de Ceres"
-			x: 39.5d
+			x: 38.0d
 			y: 4.0d
 		}
 		{
@@ -1628,7 +1663,7 @@
 				}
 				type: "item"
 			}]
-			x: 31.0d
+			x: 30.0d
 			y: 8.0d
 		}
 		{
@@ -1652,7 +1687,7 @@
 				}
 			]
 			title: "combustível de foguete de energia estelar"
-			x: 31.0d
+			x: 30.0d
 			y: 10.0d
 		}
 		{
@@ -1665,7 +1700,7 @@
 				title: "Preparando-se para ir para o T7"
 				type: "checkmark"
 			}]
-			x: 28.5d
+			x: 28.0d
 			y: 8.0d
 		}
 		{
@@ -1673,12 +1708,20 @@
 			icon: "kubejs:iostone"
 			icon_scale: 2.0d
 			id: "73613E3EBEFFB326"
-			tasks: [{
-				id: "15E9748008958D52"
-				item: "kubejs:iostone"
-				type: "item"
-			}]
-			title: "Eu"
+			tasks: [
+				{
+					dimension: "kubejs:io"
+					id: "322F6EC282672EDF"
+					optional_task: true
+					title: "Eu"
+					type: "dimension"
+				}
+				{
+					id: "15E9748008958D52"
+					item: "kubejs:iostone"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 8.0d
 		}
@@ -1687,12 +1730,20 @@
 			icon: "kubejs:ganymedestone"
 			icon_scale: 2.0d
 			id: "761877FE2F5E2E2E"
-			tasks: [{
-				id: "65AC27BA85204DB0"
-				item: "kubejs:ganymedestone"
-				type: "item"
-			}]
-			title: "Ganimedes"
+			tasks: [
+				{
+					dimension: "kubejs:ganymede"
+					id: "1C809A36C617A480"
+					optional_task: true
+					title: "Ganimedes"
+					type: "dimension"
+				}
+				{
+					id: "65AC27BA85204DB0"
+					item: "kubejs:ganymedestone"
+					type: "item"
+				}
+			]
 			x: 13.0d
 			y: 8.0d
 		}
@@ -1741,12 +1792,20 @@
 			icon: "kubejs:plutostone"
 			icon_scale: 2.0d
 			id: "61140578961B01A9"
-			tasks: [{
-				id: "6C5FCBBCCD24040E"
-				item: "kubejs:plutostone"
-				type: "item"
-			}]
-			title: "Plutão"
+			tasks: [
+				{
+					dimension: "kubejs:pluto"
+					id: "31DA86E1A97BF813"
+					optional_task: true
+					title: "Plutão"
+					type: "dimension"
+				}
+				{
+					id: "6C5FCBBCCD24040E"
+					item: "kubejs:plutostone"
+					type: "item"
+				}
+			]
 			x: 23.0d
 			y: 8.0d
 		}
@@ -1755,12 +1814,20 @@
 			icon: "kubejs:enceladusstone"
 			icon_scale: 2.0d
 			id: "22B38057B7705160"
-			tasks: [{
-				id: "5BF9CBFA9E400E52"
-				item: "kubejs:enceladusstone"
-				type: "item"
-			}]
-			title: "Encélado"
+			tasks: [
+				{
+					dimension: "kubejs:enceladus"
+					id: "41C8995FDDD8DF81"
+					optional_task: true
+					title: "Encélado"
+					type: "dimension"
+				}
+				{
+					id: "5BF9CBFA9E400E52"
+					item: "kubejs:enceladusstone"
+					type: "item"
+				}
+			]
 			x: 24.0d
 			y: 8.0d
 		}
@@ -1769,12 +1836,20 @@
 			icon: "kubejs:titanstone"
 			icon_scale: 2.0d
 			id: "7E8D49D03B9CF783"
-			tasks: [{
-				id: "4A144A8E63383664"
-				item: "kubejs:titanstone"
-				type: "item"
-			}]
-			title: "Titã"
+			tasks: [
+				{
+					dimension: "kubejs:titan"
+					id: "2660E03A1F112547"
+					optional_task: true
+					title: "Titã"
+					type: "dimension"
+				}
+				{
+					id: "4A144A8E63383664"
+					item: "kubejs:titanstone"
+					type: "item"
+				}
+			]
 			x: 25.0d
 			y: 8.0d
 		}
@@ -1783,16 +1858,12 @@
 				"61140578961B01A9"
 				"67784DEB22D18308"
 			]
-			description: [
-				"O método de abertura da porta é semelhante à versão original, exceto que você precisa segurar os dados finais na mão do substituto (eles serão consumidos, então lembre-se de trazer mais), e finalmente entrar no portal para ir até o final."
-				""
-				"Desta vez, você só pode obter a pedra final embebendo andesita com ar final"
-			]
+			description: ["O método de abertura da porta é semelhante à versão original, exceto que você precisa segurar os dados finais na mão do substituto (eles serão consumidos, então lembre-se de trazer mais), e finalmente entrar no portal para ir até o final."]
 			icon: "minecraft:end_portal_frame"
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
 			shape: "rsquare"
-			subtitle: "Encontre o portal final"
+			subtitle: "Primeiro vá para o portal na fortaleza original"
 			tasks: [{
 				id: "0F4C07DD6A1BB112"
 				item: "kubejs:end_data"
@@ -1808,18 +1879,20 @@
 			icon: "minecraft:dragon_head"
 			icon_scale: 2.0d
 			id: "5E3EDA6C94CEC3C4"
-			rewards: [{
-				count: 2
-				id: "7EC3B44739A63D99"
-				item: "minecraft:shulker_shell"
-				type: "item"
-			}]
-			tasks: [{
-				id: "01FF8004FA2CF00E"
-				item: "minecraft:dragon_head"
-				type: "item"
-			}]
-			title: "fim"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "0FC672E8CA7E4414"
+					optional_task: true
+					title: "fim"
+					type: "dimension"
+				}
+				{
+					id: "01FF8004FA2CF00E"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
 			x: 26.0d
 			y: 10.0d
 		}
@@ -1865,7 +1938,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Veias fluidas de Encélado"
+			title: "Veias fluidas em Encélado"
 			x: 24.0d
 			y: 10.0d
 		}
@@ -1906,13 +1979,21 @@
 			icon: "ad_astra:glacio_stone"
 			icon_scale: 2.0d
 			id: "25AA088531768F81"
-			tasks: [{
-				id: "3ED53E0C61B41595"
-				item: "ad_astra:glacio_cobblestone"
-				type: "item"
-			}]
-			title: "estrela lisa de geada"
-			x: 33.0d
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					id: "7016F7E78116220B"
+					optional_task: true
+					title: "estrela lisa de geada"
+					type: "dimension"
+				}
+				{
+					id: "3ED53E0C61B41595"
+					item: "ad_astra:glacio_cobblestone"
+					type: "item"
+				}
+			]
+			x: 31.5d
 			y: 8.0d
 		}
 		{
@@ -1920,7 +2001,7 @@
 			description: [
 				"Caiu ao matar ovelhas congeladas"
 				""
-				"Conhecimento \"frio\": ovelhas Shuangyuan podem realmente espremer leite de cabra &mLeite&r"
+				"Conhecimento \"frio\": ovelhas Shuangyuan podem realmente espremer leite de cabra &mleite de cabra &r"
 			]
 			icon: "kubejs:glacio_spirit"
 			icon_scale: 2.0d
@@ -1931,7 +2012,7 @@
 				type: "item"
 			}]
 			title: "Especialidades Frosty Star"
-			x: 33.0d
+			x: 31.5d
 			y: 10.0d
 		}
 		{
@@ -1944,22 +2025,22 @@
 				title: "Preparando-se para ir para o T8"
 				type: "checkmark"
 			}]
-			x: 35.0d
+			x: 34.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5A185A4065DD7FCF"]
 			description: [
-				"Este é o foguete T8, desbloqueie Barnard C, clique em &ena GUI do host para iniciar&r(você também pode ir para outros planetas)"
+				"Este é o foguete T8. Desbloqueie Barnard C. Clique em &ena GUI do host para partir e ir para &r(você também pode ir para outros planetas)"
 				""
-				"&bé necessário para inserir o circuito nº 1&rusando o barramento de entrada e fornece continuamente 128 de potência de computação. Quando o elevador estiver funcionando normalmente, o tempo de funcionamento será &6, que irá circular entre 6~13s."
-				"Portanto, &c&l&oNão utilize o compartimento de manutenção configurável para modificar a receita. É demorado."
+				"&bé necessário para inserir o circuito nº 1 &rusando o barramento de entrada e fornece continuamente 128 de potência de computação. Quando o elevador estiver funcionando normalmente, o tempo de operação será &6, que irá circular entre 6~13s."
+				"Portanto, &c&l&onão usa o compartimento de manutenção configurável para modificar a receita, o que é demorado"
 				""
 				"Somente quando o corpo principal do elevador espacial estiver funcionando normalmente (ou seja, o módulo de potência e o motor principal estiverem acesos) o módulo de expansão mostrará que está conectado e funcionando normalmente?"
 				""
 				"Quanto maior a tensão do corpo principal do elevador espacial, maior será a redução demorada do módulo de expansão; quanto maior o nível do módulo de potência, maior o número de módulos de expansão paralelos"
 				""
-				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos&r"
+				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos &r"
 			]
 			icon_scale: 2.0d
 			id: "60FA18C7093410F8"
@@ -1970,22 +2051,29 @@
 				item: "gtceu:space_elevator"
 				type: "item"
 			}]
-			x: 37.0d
+			x: 36.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["60FA18C7093410F8"]
-			description: ["O que fazer em Barnard C, coletar folhas de Barnard C, ar de Barnard C e líquidos desconhecidos"]
 			icon: "kubejs:barnarda_log"
 			icon_scale: 2.0d
 			id: "7796B2AE8F20C564"
-			tasks: [{
-				id: "03FE5121F10BA46D"
-				item: "kubejs:barnarda_log"
-				type: "item"
-			}]
-			title: "Barnard C."
-			x: 39.5d
+			tasks: [
+				{
+					dimension: "kubejs:barnarda"
+					id: "4C86D85114E0D472"
+					optional_task: true
+					title: "Barnard C."
+					type: "dimension"
+				}
+				{
+					id: "03FE5121F10BA46D"
+					item: "kubejs:barnarda_log"
+					type: "item"
+				}
+			]
+			x: 38.0d
 			y: 8.0d
 		}
 		{
@@ -2005,7 +2093,7 @@
 				}
 			]
 			title: "Veias fluidas de Barnard C"
-			x: 39.5d
+			x: 38.0d
 			y: 10.0d
 		}
 		{
@@ -2156,7 +2244,7 @@
 				title: "Vá para Ceres"
 				type: "checkmark"
 			}]
-			x: 39.5d
+			x: 38.0d
 			y: -2.0d
 		}
 		{
@@ -2336,7 +2424,7 @@
 				title: "Vá para Barnard C"
 				type: "checkmark"
 			}]
-			x: 39.5d
+			x: 38.0d
 			y: 6.0d
 		}
 		{
@@ -2366,7 +2454,7 @@
 				title: "Vá para a estrela plana e gelada"
 				type: "checkmark"
 			}]
-			x: 33.0d
+			x: 31.5d
 			y: 6.0d
 		}
 		{
@@ -2375,6 +2463,7 @@
 				"335ED39019FC62E7"
 				"5E59E7938F004FBE"
 			]
+			description: ["Torne-o mais conveniente para você"]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -2394,7 +2483,6 @@
 				title: "Transferência com um clique"
 				type: "command"
 			}]
-			subtitle: "Torne-o mais conveniente para você"
 			tasks: [{
 				id: "3E0B96E6350FED35"
 				title: "Vá para o mundo antigo"
@@ -2454,11 +2542,20 @@
 			icon_scale: 2.0d
 			id: "3A48F268FB265977"
 			subtitle: "Há um ambiente livre de gravidade aqui"
-			tasks: [{
-				id: "2DC081A5022B8300"
-				item: "gtceu:quantum_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					id: "43A03BBB4763EE69"
+					optional_task: true
+					title: "estação espacial terrestre"
+					type: "dimension"
+				}
+				{
+					id: "2DC081A5022B8300"
+					item: "gtceu:quantum_eye"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: 0.0d
 		}
@@ -2694,7 +2791,7 @@
 				}
 			]
 			title: "Nitrobenzeno"
-			x: 29.0d
+			x: 28.0d
 			y: 10.0d
 		}
 		{
@@ -2714,7 +2811,7 @@
 				}
 			]
 			title: "HMX"
-			x: 31.0d
+			x: 30.0d
 			y: 12.0d
 		}
 		{
@@ -2732,7 +2829,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 29.0d
+			x: 28.0d
 			y: 12.0d
 		}
 		{
@@ -2815,27 +2912,6 @@
 			]
 			x: 20.5d
 			y: 12.0d
-		}
-		{
-			dependencies: ["2AE3DE0BC3CD1D5B"]
-			icon: "minecraft:ender_eye"
-			id: "422CD2204ECC7895"
-			optional: true
-			rewards: [{
-				count: 12
-				id: "612270B8C71BBCD6"
-				item: "minecraft:end_portal_frame"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "0A758FE911098014"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			title: "Se você está com preguiça de encontrar"
-			x: 27.0d
-			y: 9.0d
 		}
 	]
 	title: "Explore o mundo"

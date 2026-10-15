@@ -174,7 +174,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["A vein of pure tin ore, very useful early in the game."]
+			description: ["A shaft of pure tin, very useful at the beginning of the game."]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
 			size: 1.0d
@@ -358,7 +358,7 @@
 			description: [
 				"This shaft has the value of the Al-Mg league in the middle of the game."
 				""
-				"Peridot is also useful as it can replace &aEmerald &rin many crafts."
+				"Peridot is also useful as it can replace &aemerald &rin many crafts."
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
@@ -555,11 +555,11 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"It is a good source of heavy fuel oil &6&rand early for liquid fuel &6&r."
+				"It is a good source of heavy fuel oil &6&r, which was used in early days for liquid fuel &6&r."
 				""
-				"If you don't want to completely process the ore, you can process it directly with the &b&rcentrifuge after burning it."
+				"If you don't want to completely process the ore, you can burn it and process it directly with the &b&rcentrifuge."
 				""
-				"If you centrifuge the raw ore directly, it will produce &d&roil instead of &6&rheavy oil"
+				"If you centrifuge the raw ore directly, you will produce &d&roil instead of &6heavy &roil"
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
@@ -628,7 +628,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["Sodalite is the most valuable ore here and is especially useful with the Electrolysis recipe when you reach &bMV &r."]
+			description: ["Sodalite is the most valuable ore here and is especially useful once you reach &bMV &rwith the electrolysis recipe."]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
 			size: 1.0d
@@ -670,7 +670,7 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"Manganita is why you are here. It can be smelted directly into manganese, and you will need a lot of manganese to make items &6HV &r."
+				"Manganita is why you are here. It can be smelted directly into manganese, and you will need large amounts of manganese to craft &6HV &ritems."
 				""
 				"Tantalum will eventually become very valuable, thanks to its byproduct niobium."
 			]
@@ -873,7 +873,7 @@
 			description: [
 				"This variant of the lower limonite veins should never be ignored."
 				""
-				"This is an excellent source of iron and gold, thanks to &awhich doubles &r."
+				"This is an excellent source of iron and gold thanks to &awhich doubles the benefits of &r."
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
@@ -1079,7 +1079,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"Development of the &bApplied Energy 2 &rrequires the &6Seth Quartz &rvein."
+				"The development of &bApplied Energy 2 &rrequires &6Setus Quartz &rveins."
 				""
 				"Barite is electrolyzed to produce barium, which will be needed to make some advanced superconducting materials."
 			]
@@ -1118,7 +1118,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"Emerald Ore is the most useful ore here. Required in small quantities to craft technical items in &bMV &r."
+				"Emerald Ore is the most useful ore here. Required in small quantities to craft tech items in &bMV &r."
 				""
 				"Beryllium can be used to make ender pearl powder."
 			]
@@ -1151,7 +1151,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"Bluestone is very important in the progression &6HV &r, where it is separated into amber gold (a source of gold and silver) and redstone in a centrifuge."
+				"Bluestone is very important in the progression &6HV &r, being centrifugally separated into amber (source of gold and silver) and redstone."
 				""
 				"Saltpeter is used in several reactions"
 			]
@@ -1276,7 +1276,7 @@
 			description: [
 				"A vein of almost pure copper. Damn antimony ore!"
 				""
-				"Antimony ore can be smelted directly into antimony, which you need to get from &7LV &rto make batteries."
+				"Antimony ore can be smelted directly into antimony. You need to get antimony from &7LV &rto make batteries."
 			]
 			icon: "gtceu:diorite_tetrahedrite_ore"
 			id: "086553052433A3A3"
@@ -1451,7 +1451,7 @@
 		{
 			dependencies: ["74F1C81B60FABEAA"]
 			description: [
-				"If you are a well-adjusted person, the &bAluminum &rand &dTitanium &rmining lodes are right here."
+				"If you are a well-adjusted person, the &baluminum &rand &dtitanium &rmining shafts are right here."
 				""
 				"Give up on those mica mines – bauxite is the future!"
 			]
@@ -1488,7 +1488,7 @@
 		}
 		{
 			dependencies: ["74F1C81B60FABEAA"]
-			description: ["It is the rare earth source of &5EV &r."]
+			description: ["It is the rare earth source for &5EV &r."]
 			icon: "gtceu:moon_stone_bastnasite_ore"
 			id: "00AA7D62FCE4B40E"
 			size: 1.0d
@@ -1537,9 +1537,9 @@
 		{
 			dependencies: ["0CE213ED8D234B0A"]
 			description: [
-				"Platinum started at &5EV &r."
+				"Platinum came into use in &5EV &r."
 				""
-				"Platinum group metals become necessary in the later stages of &5EV &r, and Sheldon is the best ore to begin processing."
+				"Platinum group metals become a necessary condition in the later stages of &5EV &r, and Sheldon is the best ore to start processing."
 			]
 			icon: "gtceu:mars_stone_cooperite_ore"
 			id: "5C9AC0D1F2624D9E"
@@ -1614,7 +1614,7 @@
 		}
 		{
 			dependencies: ["0CE213ED8D234B0A"]
-			description: ["This is a very important vein, as tungsten was used heavily in the &9IV &rand beyond."]
+			description: ["This is a very important vein, as tungsten was heavily used in &9IV &rand subsequent phases."]
 			icon: "gtceu:mars_stone_scheelite_ore"
 			id: "5D0FE695E1E46BC4"
 			size: 1.0d
@@ -1695,7 +1695,7 @@
 			id: "108D89FA7643AEB8"
 			tasks: [{
 				id: "4BE32C3F21E70B08"
-				title: "mercury vein"
+				title: "Lode of Mercury"
 				type: "checkmark"
 			}]
 			x: 27.5d
@@ -1801,7 +1801,7 @@
 			id: "76F659B8F102B236"
 			tasks: [{
 				id: "4E73854CB6C0A883"
-				title: "Ceres Mine"
+				title: "Ceres vein"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -1850,9 +1850,9 @@
 		{
 			dependencies: ["56AF6D5B1E2205DC"]
 			description: [
-				"&2Stargate Silica &r! Starting with &dLuV &ryou will find that this becomes an important material."
+				"&2Stargate Silica &r! Starting with &dLuV &r, you will find this becomes an important material."
 				""
-				"Silica can be processed into enriched silica, super silica, indium and trititanium into &dLuV &rand &cZPM &rrespectively."
+				"Silica can be processed into enriched silica, supersilica, indium and trititanium into &dLuV &rand &cZPM &rrespectively."
 				""
 				"{\"text\":\"It can even be used as fuel to generate electricity.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E951CCF86DDA5CB\"}}"
 			]

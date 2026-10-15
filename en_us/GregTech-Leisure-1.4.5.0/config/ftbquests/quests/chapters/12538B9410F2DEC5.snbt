@@ -34,7 +34,7 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["The sterile clean room can be backward compatible with the clean room formula &6&rand is absolutely clean in the same way."]
+			description: ["Sterile clean room can be backward compatible with&6&rclean room formula, and the same principle applies to absolute cleanliness"]
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
@@ -81,7 +81,7 @@
 				"77759D1FE48F958B"
 				"6A59FA11D10C648A"
 			]
-			description: ["&cDo not look for &r&eGanymede &rilmenite and &eGanymede &rtitanium ore"]
+			description: ["&cDon't look for&r&eGanymede&rilmenite and&eGanymede&rtitanium ore"]
 			id: "38D23D186C444492"
 			tasks: [{
 				id: "33183645B439CFDB"
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["46855799A4471E34"]
-			description: ["Quickly perform large-scale calculations using organically grown stem cells interacting with electronic stimulation."]
+			description: ["Rapidly perform large-scale computations using organically cultured stem cells interacting with electronic stimulation."]
 			icon_scale: 2.0d
 			id: "425D7CD010B9C90E"
 			tasks: [{
@@ -249,7 +249,7 @@
 		}
 		{
 			dependencies: ["59CA7B4A4A417B53"]
-			description: ["Superconductor UV &3&r"]
+			description: ["&3UV&rsuperconductor"]
 			id: "62D2B830A98424BB"
 			tasks: [{
 				id: "188D424E2FE3A663"
@@ -266,7 +266,7 @@
 				"5C4B11CEA53D5B78"
 			]
 			dependency_requirement: "one_completed"
-			description: ["In fact, there is no need to use a network switch"]
+			description: ["There is actually no need to use a network switch"]
 			icon_scale: 2.0d
 			id: "0A2D46609F5C3CAB"
 			min_required_dependencies: 2
@@ -319,17 +319,7 @@
 		}
 		{
 			dependencies: ["62D2B830A98424BB"]
-			description: [
-				"The computing power provided by a computer may not be enough. If you want to combine computing power, you must use this machine."
-				""
-				"Make sure the &b&lbridge component is installed on your computer before using"
-				"&r"
-				"The computing power displayed on the switch interface is only the sum of the theoretical maximum computing power of all connected computers, &c&lis not the actual computing power &r"
-				""
-				"When the network switch is operating normally, each computing power store will continue to consume power."
-				"&r"
-				"Switches can be connected in series (switches can accept computing power from other switches)"
-			]
+			description: ["The computing power provided by a computer may not be enough. If you want to combine computing power, you must use this machine.", "", "Make sure the &b&lbridge component is installed on your computer before using", "&r", "The computing power displayed on the switch interface is only the sum of the theoretical maximum computing power of all connected computers, &c&lis not the actual computing power &r", "", "While the network switch runs normally, every computation hatch continuously consumes &e 7,680 &rEU/t (0.9A &6HV&r). &4Insufficient power disables some computation hatches.", "&r", "Switches can be connected in series (switches can accept computing power from other switches)"]
 			icon_scale: 1.3d
 			id: "5E86110BBAEA92BA"
 			shape: "hexagon"
@@ -357,7 +347,7 @@
 			id: "2802E34A99CE1D79"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "purple donut"
+			subtitle: "Needed later"
 			tasks: [{
 				id: "30BC4BA2F6A606D5"
 				item: "gtceu:super_particle_collider"
@@ -371,7 +361,7 @@
 				"0507FDF7BECE29AF"
 				"52DF531AFB3A07CE"
 			]
-			description: ["You can create a computer bridge component, but you may not need it at this stage."]
+			description: ["You can make a computer bridge component, but you may not need it at this stage."]
 			id: "5E9E2F25AE1EC731"
 			rewards: [{
 				id: "2D31F3080985F641"
@@ -430,11 +420,11 @@
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
 			description: [
-				"Oil and steam inlet, product outlet"
+				"Input oil and steam, output products"
 				""
-				"Coils only affect power consumption"
+				"Coils only affect energy consumption"
 				""
-				"The petrochemical plant will not produce intermediate products. You can choose to keep the old petrochemical production line or go backwards and use the space elevator to directly collect intermediate products."
+				"The petrochemical plant will not produce intermediate products. You can choose to keep the old petrochemical production line or go to the back and use the space elevator to directly collect the intermediate products."
 			]
 			icon_scale: 2.0d
 			id: "61838E13426B2B88"
@@ -524,7 +514,7 @@
 		}
 		{
 			dependencies: ["64EAB77978C87CE9"]
-			description: ["Swarm of nanorobots"]
+			description: ["Nanorobot swarm"]
 			id: "02F523E003E1C93D"
 			tasks: [{
 				id: "50ACEB6385D60F9C"
@@ -551,7 +541,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "High volume nanoswarm production"
+			subtitle: "High-volume nanoswarm production"
 			tasks: [{
 				id: "429C36800C493E79"
 				item: "gtceu:nano_forge_1"
@@ -601,7 +591,7 @@
 		{
 			can_repeat: false
 			dependencies: ["051792ED136C96D0"]
-			description: ["Of course, this still needs to be done with a chemical reaction."]
+			description: ["Of course, this still needs to be done with chemical reaction."]
 			id: "7EFC2C7FF6FFF1F7"
 			tasks: [{
 				id: "1BB25071E7E00C66"
@@ -631,12 +621,12 @@
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
-			description: ["Not necessary, the space elevator can also extract all unmineable minerals produced by large empty mining plants"]
+			description: ["Not required, the space elevator can also mine all unminable minerals produced by large void mining factories."]
 			icon_scale: 2.0d
 			id: "6DDE77C23FC5D067"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Contains minerals that cannot be extracted"
+			subtitle: "Contains minerals that cannot be mined"
 			tasks: [{
 				id: "0F730F8E535FA432"
 				item: "gtceu:large_void_miner"
@@ -723,7 +713,6 @@
 			dependencies: [
 				"0485D45408234C99"
 				"39380262677612A9"
-				"46BFDB71190C1F49"
 			]
 			description: [
 				"A &binput bus is required to enter circuit #1 to maintain machine operation."
@@ -802,9 +791,9 @@
 		{
 			dependencies: ["35D158AD5036923D"]
 			description: [
-				"Various mineral vein essences are not only used in the precision mode of large-scale empty mining sites, but are also one of the materials for subsequent necessary items."
+				"Various mineral vein essences are not only used in the precision mode of large-scale void mining sites, but are also one of the materials for subsequent necessary items."
 				""
-				"Essence can only be made with milk from &9GregTech &r. Where does the milk come from? Take a bucket of milk and put it into the extraction machine, then synthesize cow spawn egg for unlimited extraction."
+				"Essence can only be made with milk from&9GregTech &r. Where does the milk come from? Scoop a bucket of milk and synthesize a cow spawn egg into the extraction machine."
 			]
 			icon: "kubejs:space_essence"
 			id: "68D3E6670941A3F5"
@@ -821,7 +810,7 @@
 				"62D2B830A98424BB"
 				"7C23CC6ADDC33EA0"
 			]
-			description: ["Bigger, stronger and capable of performing alloy casting recipes"]
+			description: ["bigger, stronger"]
 			icon_scale: 2.0d
 			id: "41C7A298C421C65D"
 			shape: "rsquare"

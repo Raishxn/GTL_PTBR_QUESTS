@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hk3_ch5_finality"
-	group: ""
+	group: "55F6563FBB4902EC"
 	icon: "hk3gtl:finality_1_processor"
 	id: "4A50000000000000"
-	order_index: 16
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,13 +19,11 @@
 			id: "4A50000000000100"
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "4A50000000000101"
-					title: "Entering the terminal stage"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000101"
+				title: "Entering the terminal stage"
+				type: "checkmark"
+			}]
 			title: "§d§lFinal Era"
 			x: 0.0d
 			y: 0.0d
@@ -55,21 +53,17 @@
 			dependencies: ["4A50000000000200"]
 			description: ["Cast §d, final sequence determination core §r, triggering milestone E-MS-010."]
 			id: "4A50000000000300"
-			rewards: [
-				{
-					id: "4A50000000000302"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
+			rewards: [{
+				id: "4A50000000000302"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
 			subtitle: "E-MS-010 · The ultimate computing power ignition"
-			tasks: [
-				{
-					id: "4A50000000000301"
-					item: "hk3gtl:finality_1_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000301"
+				item: "hk3gtl:finality_1_processor"
+				type: "item"
+			}]
 			title: "§6Final sequence determination core"
 			x: 5.0d
 			y: 0.0d
@@ -80,13 +74,11 @@
 			id: "4A50000000000400"
 			size: 1.5d
 			subtitle: "E-MS-011 / E-FB-015 · Flagship sets sail"
-			tasks: [
-				{
-					id: "4A50000000000401"
-					item: "hk3gtl:hyperion_flagship"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000401"
+				item: "hk3gtl:hyperion_flagship"
+				type: "item"
+			}]
 			title: "§d§lHyperion"
 			x: 7.5d
 			y: 0.0d
@@ -176,21 +168,17 @@
 			dependencies: ["4A50000000000600"]
 			description: ["§dFinal Four Judgment Host §r- the highest-order circuit of the full module, triggering the milestone E-MS-013."]
 			id: "4A50000000000800"
-			rewards: [
-				{
-					id: "4A50000000000802"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-			]
+			rewards: [{
+				id: "4A50000000000802"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			subtitle: "E-MS-013 · The end of computing power"
-			tasks: [
-				{
-					id: "4A50000000000801"
-					item: "hk3gtl:finality_4_processor_mainframe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000801"
+				item: "hk3gtl:finality_4_processor_mainframe"
+				type: "item"
+			}]
 			title: "§6§lFinal Four Judgment Host"
 			x: 15.0d
 			y: 0.0d
@@ -205,13 +193,11 @@
 			id: "4A50000000000900"
 			size: 1.5d
 			subtitle: "E-MS-014 / E-FB-016 · Under review"
-			tasks: [
-				{
-					id: "4A50000000000901"
-					item: "hk3gtl:civilization_validation_matrix"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000901"
+				item: "hk3gtl:civilization_validation_matrix"
+				type: "item"
+			}]
 			title: "§d§lCivilization Verification Matrix"
 			x: 17.5d
 			y: 0.0d

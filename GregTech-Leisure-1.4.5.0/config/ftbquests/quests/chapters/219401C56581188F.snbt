@@ -297,7 +297,7 @@
 				"7523FB4AAB1F89C3"
 				"34D6F0DF329B1877"
 			]
-			description: ["Supercondutor &2UIV&r"]
+			description: ["Supercondutor &2UIV &r"]
 			id: "2641CC6BC33F6A31"
 			subtitle: "Muito difícil"
 			tasks: [{
@@ -406,7 +406,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["Versão laser da máquina de crafting supercrítica, que também pode ser equipada com uma câmara de controle paralela"]
+			description: ["Versão laser da máquina de síntese supercrítica, que também pode ser equipada com uma câmara de controle paralela"]
 			icon_scale: 2.0d
 			id: "33390417E8A0AB88"
 			optional: true
@@ -429,7 +429,6 @@
 			description: ["Você pode usar plasma mágico de ouro para fazê-lo ou pode usar uma máquina de crafting supercrítica para fazê-lo."]
 			hide_dependent_lines: true
 			id: "369DCD1E26334632"
-			subtitle: "Materiais componentes UIV"
 			tasks: [{
 				id: "1758AC8CF4E9EC2B"
 				item: "gtceu:attuned_tengam_ingot"
@@ -882,11 +881,7 @@
 				"6BB5ED6ECC43E30C"
 				"369DCD1E26334632"
 			]
-			description: [
-				"A versão laser do pequeno OP vem com &d2,1 bilhões de receitas cruzadas paralelas&r, muito poderoso"
-				""
-				"Fique de olho nas suas reservas de água destilada"
-			]
+			description: ["A versão a laser do pequeno OP, com &d21 × 100 milhões de operações paralelas entre receitas&r integradas. Muito poderosa.", "", "Fique de olho nas suas reservas de água destilada"]
 			icon_scale: 2.0d
 			id: "0991031579C4CAA7"
 			optional: true
@@ -1008,26 +1003,6 @@
 			}]
 			x: 14.0d
 			y: 4.0d
-		}
-		{
-			id: "788621675279AC20"
-			optional: true
-			rewards: [{
-				command: "/locate structure minecraft:ancient_city"
-				elevate_perms: true
-				icon: "minecraft:warden_spawn_egg"
-				id: "38C944D8B95E71FE"
-				title: "Localize rapidamente cidades antigas"
-				type: "command"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "6A524513170EB8B1"
-				type: "checkmark"
-			}]
-			title: "Se você tem preguiça de fazer desenhos"
-			x: 10.5d
-			y: -3.5d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

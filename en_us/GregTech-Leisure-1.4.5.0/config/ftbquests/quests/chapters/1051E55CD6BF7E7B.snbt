@@ -98,14 +98,14 @@
 		{
 			dependencies: ["296DE95F3BE7DC54"]
 			description: [
-				"Obtained by throwing a blue-framed magma block into the particle effect of a working Gate of Creation."
+				"Obtained by throwing a blue framed magma block into the particle effect of a functioning Gate of Creation."
 				""
-				"The block of magnetic substance should release 64 ingots of magnetic substance &m. Although the magnetic substance block is useless &r"
+				"The magnetic substance block is to throw 64 magnetic substance ingots &m. Although the magnetic substance block is useless &r"
 			]
 			icon_scale: 2.0d
 			id: "470DDCCD8E017A4F"
 			shape: "rsquare"
-			subtitle: "I received an item from a trade, but I don't know how to use it"
+			subtitle: "Got an item from a trade but don't know how to use it"
 			tasks: [{
 				id: "6C1581BB60019E84"
 				item: "minecraft:command_block"
@@ -147,7 +147,7 @@
 				"470DDCCD8E017A4F"
 				"1EB9F1815EB656B0"
 			]
-			description: ["Also available in synthetic materials are &b&rbi-directional sheet"]
+			description: ["Also available in synthetic materials are&btwo-way foil &r"]
 			id: "48925ECBCC5D268D"
 			subtitle: "Items obtained by breaking command blocks"
 			tasks: [{
@@ -179,7 +179,7 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			id: "338F629A694C7556"
-			subtitle: "a little slow"
+			subtitle: "a bit slow"
 			tasks: [{
 				id: "16C8AA0E8A7E6784"
 				item: "gtlcore:create_casing"
@@ -221,13 +221,13 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
-				"At least &e64 &r&cA &r&cM &r&aA &r&9X &rpower supply"
+				"At least MAX level voltage needs to be input"
 				""
-				"If accessing a network switch, make sure the network switch only receives input from the creating computer, otherwise the network switch will not work"
+				"If accessing a network switch, make sure the network switch only has input from the creating computer, otherwise the network switch will not work"
 				""
-				"Tip: The wireless computing power warehouse cannot transmit computing power between dimensions."
+				"Tip: The wireless computing power warehouse cannot transmit computing power across dimensions."
 				""
-				"&mIs there anyone who still doesn't know that the molecular assembly room can run the forging table recipe? &r"
+				"&mIs there anyone who still doesn’t know that the molecular assembly room can run the forging table recipe? &r"
 			]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
@@ -270,7 +270,7 @@
 			icon_scale: 2.0d
 			id: "2F9392EF05DB11EF"
 			shape: "rsquare"
-			subtitle: "It can only work in the creative dimension"
+			subtitle: "Can only work in the creative dimension"
 			tasks: [{
 				id: "7AB830407E68C7F1"
 				item: "gtceu:create_aggregation"
@@ -351,7 +351,7 @@
 			id: "31B4B834D5DD87DB"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Graduado"
+			subtitle: "Graduated"
 			tasks: [{
 				id: "6D68D65E443AE5FE"
 				item: "gtceu:creative_data_access_hatch"
@@ -365,18 +365,12 @@
 				"2A19E7C6DC247B90"
 				"2D1F2793A396B322"
 			]
-			description: [
-				"{\"text\":\"Both creation power sources can be placed in active transformers to allow wireless networks to obtain unlimited power\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B18900343C2F4E3\"}}"
-				""
-				"You can also put the creative power supply into the machine, so that the machine can get power far beyond 4194304A MAX, up to &cM &r&aA &r&9X &r&e+ &r&c16 &r"
-				""
-				"The default power setting when creating power placement is &cM &r&aA &r&9"
-			]
+			description: ["{\"text\":\"Both creation power sources can be placed in active transformers to allow wireless networks to obtain unlimited power\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B18900343C2F4E3\"}}", "", "You can also put the creative power supply into the machine, so that the machine can get power far beyond 4194304A MAX, up to &cM &r&aA &r&9X &r&e+ &r&c16 &r", "", "When placed, the creative power source defaults to &cM&r&aA&r&9X&r&e+&r&c16&r power."]
 			icon_scale: 2.0d
 			id: "5F145D9019C4BC48"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Graduado"
+			subtitle: "Graduated"
 			tasks: [
 				{
 					id: "02CCDE9B8302A71A"
@@ -389,7 +383,7 @@
 					type: "item"
 				}
 			]
-			title: "power of creative mode"
+			title: "creative mode power"
 			x: 13.0d
 			y: 3.5d
 		}
@@ -422,11 +416,11 @@
 			description: [
 				"Congratulations on completing the game and thank you for playing."
 				""
-				"It is said that very few people come here."
+				"It is said that very few people actually reach here."
 				"{@pagebreak}"
-				"In fact, there are other ways to obtain tea and marshmallows, which are also related to fish."
+				"In fact, there are other ways to obtain tea and marshmallows, which are also related to the fish."
 				"{@pagebreak}"
-				"It is rumored that Breeding Tanks and Breeding Chests are made by fish after they have eaten and drunk enough."
+				"There are rumors that Creation Tanks and Creation Chests are made by fish after they have had enough to eat and drink."
 			]
 			hide_dependency_lines: true
 			icon: "gtlcore:ultimate_tea"

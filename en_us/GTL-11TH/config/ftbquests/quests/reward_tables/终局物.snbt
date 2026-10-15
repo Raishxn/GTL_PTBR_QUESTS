@@ -1,0 +1,19 @@
+{
+	id: "3F67E78A37FF5748"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "dishanhai:csj", weight: 0.05f }
+		{ item: "dishanhai:big_tear", weight: 0.05f }
+		{ item: "dishanhai:bridge_and_gate", weight: 5.0f }
+		{ item: "dishanhai:gate_and_bridg", weight: 10.0f }
+		{ item: "dishanhai:collapse_tear", weight: 10.0f }
+		{
+			description: ""
+			title: "Congratulations on drawing the rolling wood"
+			type: "toast"
+			weight: 70.0f
+		}
+	]
+	title: "ending object"
+}

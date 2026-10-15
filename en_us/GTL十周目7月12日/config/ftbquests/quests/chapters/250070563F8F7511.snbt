@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:grass_block"
 	id: "250070563F8F7511"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -123,13 +123,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "20A638BEB859B6BC"
-					title: "start"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "start"
+				type: "checkmark"
+			}]
 			x: -7.5d
 			y: -2.5d
 		}
@@ -156,20 +154,16 @@
 			hide_dependent_lines: true
 			icon: "ftbquests:book"
 			id: "4F864738509B6DCA"
-			rewards: [
-				{
-					id: "723CCD5BBA07EEDA"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "177349E6447C2C3A"
-					title: "Other tips"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "723CCD5BBA07EEDA"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177349E6447C2C3A"
+				title: "Other tips"
+				type: "checkmark"
+			}]
 			x: -7.0d
 			y: -4.5d
 		}
@@ -188,63 +182,35 @@
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
 			id: "25A6B2F421327892"
-			rewards: [
-				{
-					id: "16F2F040644DAC8F"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "767FB3AAC7684750"
-					title: "Before playing"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Before playing"
+				type: "checkmark"
+			}]
 			x: -9.0d
 			y: -1.5d
 		}
 		{
-			description: [
-				"&l·&fis a GregTech integration package focusing on leisure, which is less difficult than other GrayTech packages."
-				""
-				"&l·&fMain processes"
-				"&l·&7Steam&8ULV &r: Collect basic resources, larger and more powerful steam machines, steel making, ultra-dimensional earth forge"
-				"&l·&7Low voltage&7LV &r: Basic electric equipment, electric blast furnace"
-				"&l·&7medium voltage&bMV &r: silicon crystal, oil processing, upgraded machine"
-				"&l·&7High Voltage&6HV &r: Processor, large chemical reactor, first-stage rocket to the moon, distillation tower, titanium"
-				"&l·&7Ultra-high voltage&5EV &r: Nanoprocessor, void mining machine, second, third and fourth stage rocket, tungsten, platinum series metals"
-				"&l·&7Strong pressure guide&9IV &r: quantum processor, alloy smelting furnace, fission reactor, fifth-stage rocket, large machine, assembly line, database"
-				"&l·&7drama differential pressure&dLuV &r: crystal processor, silica, sixth-stage rocket, nuclear fusion MK1, computer"
-				"&l·&7Zero point pressure&cZPM &r: wetware processor, nuclear fusion MK2, seventh-stage rocket"
-				"&l·&7Ultimate Pressure&3UV &r: Bioactive Processor, Nuclear Fusion MK3, Deep Chemical Twister, Circuit Assembly Line, Space Elevator"
-				"&l·&7Ultra High Voltage&4UHV &r: Optical Processor, Nuclear Fusion MK4, Stellar Flame Forge, Super Silica Bomb, Super Reactor"
-				"&l·&7Extreme Overpressure&aUEV &r: Strange Processor, Fusion MK5, Supercritical Synthesis, Bedrock Processing, Adamantite"
-				"&l·&7Extreme Pressure&2UIV &r: Universal Processor, Universe Detection, Mass Generator, Quarks, Superheavy Elements"
-				"&l·&7Extreme Pressure&eUXV &r: Super Causal Processor, Dragon, Cosmic Neutron, Endless, Ultra-Dimensional Plasma Forge, Lado X"
-				"&l·&7Overload Voltage&1OpV &r: Hyper-space-time circuit, universe simulation, time and space, singularity, eternity"
-				"&l·&7Upper limit pressure&cMAX &r: Create item synthesis"
-				"&l·&7Additional questions&cM&r&aA&r&9"
-			]
+			description: ["&l·&fis a GregTech integration package focusing on leisure, which is less difficult than other GrayTech packages.", "", "&l·&fMain processes", "&l·&7Steam&8ULV &r: Collect basic resources, larger and more powerful steam machines, steel making, ultra-dimensional earth forge", "&l·&7Low voltage&7LV &r: Basic electric equipment, electric blast furnace", "&l·&7medium voltage&bMV &r: silicon crystal, oil processing, upgraded machine", "&l·&7High Voltage&6HV &r: Processor, large chemical reactor, first-stage rocket to the moon, distillation tower, titanium", "&l·&7Ultra-high voltage&5EV &r: Nanoprocessor, void mining machine, second, third and fourth stage rocket, tungsten, platinum series metals", "&l·&7Strong pressure guide&9IV &r: quantum processor, alloy smelting furnace, fission reactor, fifth-stage rocket, large machine, assembly line, database", "&l·&7drama differential pressure&dLuV &r: crystal processor, silica, sixth-stage rocket, nuclear fusion MK1, computer", "&l·&7Zero point pressure&cZPM &r: wetware processor, nuclear fusion MK2, seventh-stage rocket", "&l·&7Ultimate Pressure&3UV &r: Bioactive Processor, Nuclear Fusion MK3, Deep Chemical Twister, Circuit Assembly Line, Space Elevator", "&l·&7Ultra High Voltage&4UHV &r: Optical Processor, Nuclear Fusion MK4, Stellar Flame Forge, Super Silica Bomb, Super Reactor", "&l·&7Extreme Overpressure&aUEV &r: Strange Processor, Fusion MK5, Supercritical Synthesis, Bedrock Processing, Adamantite", "&l·&7Extreme Pressure&2UIV &r: Universal Processor, Universe Detection, Mass Generator, Quarks, Superheavy Elements", "&l·&7Extreme Pressure&eUXV &r: Super Causal Processor, Dragon, Cosmic Neutron, Endless, Ultra-Dimensional Plasma Forge, Lado X", "&l·&7Overload Voltage&1OpV &r: Hyper-space-time circuit, universe simulation, time and space, singularity, eternity", "&l·&7Upper limit pressure&cMAX &r: Create item synthesis", "Bonus question &cM&r&aA&r&9X&r&e+&r: Fish Big."]
 			hide_dependent_lines: true
 			icon: "minecraft:structure_void"
 			id: "4536535E8DA71D5B"
 			min_width: 350
-			rewards: [
-				{
-					id: "646CA29C41AD06C1"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "653FC7E3CCCA0A5E"
-					title: "About content"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "About content"
+				type: "checkmark"
+			}]
 			x: -9.0d
 			y: -3.5d
 		}
@@ -265,13 +231,13 @@
 						id: "gtceu:echoite_vajra"
 						tag: {
 							DisallowContainerItem: 0b
-							"GT.Behaviours": {
+							GT.Behaviours: {
 								DisableShields: 1b
 								Mode: 2b
 								RelocateMinedBlocks: 1b
 								TreeFelling: 1b
 							}
-							"GT.Tool": {
+							GT.Tool: {
 								Damage: 0
 								Enchantability: 10
 								HarvestLevel: 6
@@ -325,26 +291,17 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "05223A175AE725A8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "05223A175AE725A8"
+				type: "checkmark"
+			}]
 			title: "Get cobblestone"
 			x: -4.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["075D368E91231337"]
-			description: [
-				"&l·&fRight-click&8Obsidian&fto go to&7Void World &f, right-click&5Weeping Obsidian&fto go to&7Super Flat World"
-				"&l&fTransfer position&6X, Z&fcoordinates are the main world coordinates&6100 times &f"
-				"&l&cNote &f: Coordinate anomalies may occur if it is too far from the origin. It is recommended to avoid it."
-				""
-				"&l·&fThe void world and the super-flat world are time-locked, and creatures will not be refreshed and it will not rain."
-				"&l&fBut it is still affected by the weather in the main world (when it rains in the main world, the two worlds turn to cloudy)"
-			]
+			description: ["Right-click obsidian with an empty hand to enter the void world, or crying obsidian for the superflat world. Destination X,Z coordinates equal the Overworld coordinates x100.", "(Strange distance-related behavior may occur too far from (0,~,0); avoid doing this.)", "", "Time is locked in the void and superflat worlds. Mobs do not spawn and it does not rain, although Overworld weather can still make the sky overcast. The height limit is 511.", "", "&l&fBut it is still affected by the weather in the main world (when it rains in the main world, the two worlds turn to cloudy)"]
 			icon: "minecraft:obsidian"
 			id: "07AC1B02299EF734"
 			optional: true
@@ -372,7 +329,10 @@
 						id: "constructionwand:infinity_wand"
 						tag: {
 							wand_options: {
-								cores: ["constructionwand:core_angel", "constructionwand:core_destruction"]
+								cores: [
+									"constructionwand:core_angel"
+									"constructionwand:core_destruction"
+								]
 								cores_sel: 0b
 								lock: "nolock"
 							}
@@ -381,12 +341,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2FB6F5ECEC5CFC30"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
 			title: "You can go to the void world to build a base"
 			x: -6.0d
 			y: -2.5d
@@ -398,19 +356,15 @@
 			icon: "gtlcore:infinite_cell_component"
 			id: "7198356C944E053A"
 			optional: true
-			rewards: [
-				{
-					id: "1EA9D42E4CCD9B57"
-					item: "gtlcore:fast_infinity_cell"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "65DA7608DE5FA521"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "1EA9D42E4CCD9B57"
+				item: "gtlcore:fast_infinity_cell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65DA7608DE5FA521"
+				type: "checkmark"
+			}]
 			title: "super storage"
 			x: -4.0d
 			y: -3.5d
@@ -428,20 +382,16 @@
 			hide_dependent_lines: true
 			icon: "kubejs:rotating_transparent_surface"
 			id: "575A2A1E4F56FF34"
-			rewards: [
-				{
-					id: "15C84CB4A92064A2"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "076E6DC515FD655D"
-					title: "Introduction to JEI"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "15C84CB4A92064A2"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "076E6DC515FD655D"
+				title: "Introduction to JEI"
+				type: "checkmark"
+			}]
 			x: -8.0d
 			y: -0.5d
 		}
@@ -495,12 +445,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2A06BA0AE4BD3DB9"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2A06BA0AE4BD3DB9"
+				type: "checkmark"
+			}]
 			title: "Sky island mode"
 			x: -7.0d
 			y: -0.5d
@@ -559,12 +507,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "19EB182CE9C99809"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "19EB182CE9C99809"
+				type: "checkmark"
+			}]
 			title: "Exquisite series"
 			x: -4.0d
 			y: -0.5d
@@ -580,39 +526,29 @@
 			}
 			id: "4DFDDE01DF6D6763"
 			optional: true
-			rewards: [
-				{
-					id: "58A68342A1AF7C02"
-					item: {
-						Count: 1
-						id: "shrink:shrinking_device"
-						tag: {
-							Energy: 100000
-						}
+			rewards: [{
+				id: "58A68342A1AF7C02"
+				item: {
+					Count: 1
+					id: "shrink:shrinking_device"
+					tag: {
+						Energy: 100000
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "451B93E756FDED48"
-					title: "personal zoom device"
-					type: "checkmark"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "451B93E756FDED48"
+				title: "personal zoom device"
+				type: "checkmark"
+			}]
 			x: -4.0d
 			y: -1.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["07AC1B02299EF734"]
-			description: [
-				"&l·&fSneak right click&6Wireless access point&fcan be bound to the ME network (you can also put it directly) to directly call items in the ME network"
-				""
-				"&l·&fWhen using the cutting tool, try not to rotate&c&f, otherwise it may cause part of the NBT of the block to be lost"
-				""
-				"&l·&fThe wireless energy warehouse, wireless power warehouse, and wireless laser warehouse placed/copied using the above tools need to use&dflash memory&fto manually bind the wireless network by right-clicking, otherwise the warehouse cannot interact with the wireless network (that is, there is no power supply or no output)"
-			]
+			description: ["Sneak-right-click AE's &6Wireless Access Point&r to bind it to an ME network, or place it inside directly, allowing access to items stored in that network.", "", "When using the cut tool, try &cnot to rotate&r the selection, as doing so may lose some block NBT data.", "", "&l·&fThe wireless energy warehouse, wireless power warehouse, and wireless laser warehouse placed/copied using the above tools need to use&dflash memory&fto manually bind the wireless network by right-clicking, otherwise the warehouse cannot interact with the wireless network (that is, there is no power supply or no output)"]
 			icon: {
 				Count: 1
 				id: "buildinggadgets2:gadget_copy_paste"
@@ -679,22 +615,16 @@
 				}
 			]
 			subtitle: "These tools are very useful"
-			tasks: [
-				{
-					id: "1B08CDBB964E1058"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1B08CDBB964E1058"
+				type: "checkmark"
+			}]
 			title: "Construction helper"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
-			description: [
-				"&l·&fRight-click on the blocks except the multi-block structure host to switch between mirror mode and normal mode"
-				"&l&cPlease do not use it frequently unless necessary, as it may cause the game to crash."
-				"May cause crash"
-			]
+			description: ["{\"text\":\"You should already know how to use it.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"262671AC71B36736\"}}", "{@pagebreak}", "May cause crash"]
 			hide_dependent_lines: true
 			icon: "gtlcore:structure_detect"
 			id: "1D93602C5835593F"
@@ -712,40 +642,28 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "61961A7BA63BFAA3"
-					title: "Structural Inspection Tools"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "61961A7BA63BFAA3"
+				title: "Structural Inspection Tools"
+				type: "checkmark"
+			}]
 			x: -6.0d
 			y: -4.5d
 		}
 		{
-			description: [
-				"&6bus isolation"
-				""
-				"Note: When full isolation is enabled, &dwill cover the &risolation of all assemblies, that is, each assembly is in an object and fluid isolation state."
-				"{@pagebreak}"
-				"If you upgraded from an old version, remove all input assemblies and put them back in, otherwise isolation may fail."
-			]
+			description: ["In an input assembly, &6bus separation&r separates &bonly items&r. Enable &6full separation&r in the multiblock controller GUI to enable &bfluid separation&r.", "", "Note: When full isolation is enabled, &dwill cover the &risolation of all assemblies, that is, each assembly is in an object and fluid isolation state.", "{@pagebreak}", "If you upgraded from an old version, remove all input assemblies and put them back in, otherwise isolation may fail."]
 			hide_dependent_lines: true
 			icon: "gtceu:nan_certificate"
 			id: "27695F7273E7F69D"
-			rewards: [
-				{
-					id: "628D529481945AFD"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "460C0F7BD66FE0BF"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "628D529481945AFD"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "460C0F7BD66FE0BF"
+				type: "checkmark"
+			}]
 			title: "Warehouse Isolation User Guide"
 			x: -9.0d
 			y: -0.5d
@@ -771,19 +689,15 @@
 				tag: { }
 			}
 			id: "516564DCEA7FA80B"
-			rewards: [
-				{
-					id: "3C4B05D0EC67442D"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0716704AAA0124C9"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "3C4B05D0EC67442D"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0716704AAA0124C9"
+				type: "checkmark"
+			}]
 			title: "If you feel stuck"
 			x: -9.0d
 			y: -4.5d
@@ -797,19 +711,15 @@
 			hide_dependent_lines: true
 			icon: "kubejs:create_ultimate_battery"
 			id: "2BFFB6D14D698DF4"
-			rewards: [
-				{
-					id: "616BAA1A44B90CC0"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0926D0067A359CF4"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "616BAA1A44B90CC0"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0926D0067A359CF4"
+				type: "checkmark"
+			}]
 			title: "How to charge items"
 			x: -8.0d
 			y: -4.5d
@@ -837,13 +747,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1CA2929A0F6D9709"
-					title: "monitor"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1CA2929A0F6D9709"
+				title: "monitor"
+				type: "checkmark"
+			}]
 			x: -6.0d
 			y: -0.5d
 		}
@@ -874,12 +782,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1A854BD32D79478B"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1A854BD32D79478B"
+				type: "checkmark"
+			}]
 			title: "final terminal"
 			x: -9.0d
 			y: -2.5d
@@ -904,13 +810,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4502F7A7E7B9C5ED"
-					title: "travel scepter"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4502F7A7E7B9C5ED"
+				title: "travel scepter"
+				type: "checkmark"
+			}]
 			x: -4.0d
 			y: -5.5d
 		}
@@ -1029,13 +933,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "4CCDF824BAF79A29"
-					title: "Where does the ore come from?"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4CCDF824BAF79A29"
+				title: "Where does the ore come from?"
+				type: "checkmark"
+			}]
 			title: "sky island"
 			x: -4.0d
 			y: -2.5d
@@ -1065,13 +967,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "05A5ED1BE84BBEBF"
-					item: "gtlcore:cfg_copy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "05A5ED1BE84BBEBF"
+				item: "gtlcore:cfg_copy"
+				type: "item"
+			}]
 			x: -6.0d
 			y: -6.0d
 		}
@@ -1087,23 +987,19 @@
 			]
 			icon_scale: 1.3d
 			id: "152C68927C2B5002"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "43854458E758B579"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43854458E758B579"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "5AC7211F8560502C"
-					item: "gtlcore:debug_pattern_test"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5AC7211F8560502C"
+				item: "gtlcore:debug_pattern_test"
+				type: "item"
+			}]
 			x: -6.0d
 			y: 1.0d
 		}

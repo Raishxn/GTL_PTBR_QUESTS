@@ -19,23 +19,23 @@
 				""
 				"In the information page of &b&rmultiblock structure of &cJEI &r,"
 				"The type and corresponding quantity of blocks required for the current visualization structure are displayed at the bottom."
-				"On the right side there are two buttons: “P” to adjust the number of repeated structures &e&ror &emachine level &r, “ALL” for &elayering &rto view the complete machine structure"
+				"On the right side there are two buttons: \"P\" to adjust the amount of &eof the repetitive structure &ror &emachine level &r, \"ALL\" for &ein layered &rto view the complete machine structure"
 				"Hold down the Shift key and click \"P\" and \"ALL\" to reset the settings, hold down the Ctrl key and click \"P\" to set the number of repeating structures or machine level to the maximum value"
-				"The image interface in the middle supports click interaction &e&r: After clicking a certain block, the block will be highlighted, and all types of optional blocks allowed in this position will be listed on the left side of the page."
-				"Click “M” to view the multiblock structure of &eafter installing all &rmodules. Click “M” again to close it."
+				"The image interface in the middle supports &e&rclick interaction: after clicking a block, the block will be highlighted and all optional block types allowed in that location will be listed on the left side of the page."
+				"Click \"M\" to view the multiblock structure after &einstalls all &rmodules, click \"M\" again to close"
 				"Note: The block types displayed at the bottom only show the currently selected type. The specific types are based on the option blocks listed on the left (input and output warehouse, power-powered laser warehouse, maintenance warehouse, muffler warehouse, steam inlet warehouse, etc.)"
 				""
 				"&d&oStructural Inspection Tool &r&r"
 				"It can help you check the structure for errors to help you build the structure"
-				"The reason why right-clicking on the multiblock host does not get the shape"
+				"The reason why multiblock host is not formed when right-clicking on it"
 				"{@pagebreak}"
-				"&e&o&lGiant structure &r&r&rThe moment it takes shape through the terminal"
+				"&e&o&lThe giant structure &r&r&rThe moment it takes shape using the terminal"
 				"will generate huge memory requirements,"
 				"This blocks the thread and causes &4to hang &r,"
-				"The solution is to use a &oerror block that shouldn't exist to prevent it from forming &r,"
+				"The solution is to use a &oerror block that shouldn't exist to prevent &rfrom forming,"
 				"And after placing all other blocks &band finally &r, place the multiblock structure &dhost &r."
 				""
-				"&d&oMultiblock Simulator &r&r"
+				"&d&oMultiblock simulator &r&r"
 				"It can help you build giant structures,"
 				"You can directly see whether the machine can take shape,"
 				"Then replace the main block."
@@ -63,10 +63,10 @@
 				"Energy warehouse, power warehouse, input bus, giant input bus, input warehouse, input assembly, output bus, giant output bus, output warehouse, output assembly, maintenance warehouse, muffler warehouse, data warehouse, laser warehouse, giant input assembly, computing power warehouse"
 				"You can check the location and quantity requirements for each warehouse at jei"
 				""
-				"&l&cObserve &r&r"
+				"&l&cAttention &r&r"
 				"&o&bThe muffler chamber must face the air block."
-				"&o&bYou can replace the bus with a set,"
-				"&o&bHowever, the enclosure cannot be replaced by an assembly."
+				"&o&bYou can replace the bus with an assembly,"
+				"&o&bBut the box cannot be replaced by a mount."
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:max_dual_input_hatch"
@@ -363,7 +363,7 @@
 		}
 		{
 			dependencies: ["23DC6EEC1BCEF845"]
-			description: ["Star Thermal Casting &6mode &rcan only use super heat capacity coil &b&r"]
+			description: ["&6&rstellar thermal energy smelting mode can only use &bsuper heat capacity coil &r"]
 			icon_scale: 1.3d
 			id: "06EAF391250421CA"
 			rewards: [{
@@ -1034,10 +1034,7 @@
 		}
 		{
 			dependencies: ["32BD532132423050"]
-			description: [
-				"Except for the bottom layer of the distillation tower, each &o&6can only and should &rplace a small outlet compartment &b&r. Each output tray corresponds to one product (can be stacked alone, without any additional height bonus)"
-				"There are and only the bottom layer &6&rcan use the output set &b&r, which can reduce the height. If you use the &dME &routput set, you can even build just three layers."
-			]
+			description: ["Each layer of the distillation tower, except the bottom layer &o&6, can and should only &rplace one small outlet compartment &b&r. Each outbox corresponds to one product (can be stacked alone, without any additional height bonus)", "If there is &6and only bottom layer &r, you can use the output set &b&r, which can reduce the height. If you use the &dME &routput set, you can even build just three layers."]
 			icon_scale: 1.3d
 			id: "17A797C2D7167222"
 			rewards: [{
@@ -1276,8 +1273,8 @@
 		{
 			dependencies: ["1443E064A0AB0B8B"]
 			description: [
-				"From the third floor &o&6you can and should only &rplace a small exit compartment &b&r"
-				"There are and only lower &6and second layer &rcan use &b&routput set or &dME &routput set"
+				"From the third floor, &o&6can only and must &rplace a &bsmall exit compartment &r"
+				"If only &6bottom layer and &rsecond layer can use &boutput set &r, you can also use &dME output set &r"
 				"Likewise, there is no additional bonus for height"
 			]
 			icon_scale: 1.3d
@@ -1334,7 +1331,6 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
-			description: ["Now this &l&omachine can drive &rdouble warehouse"]
 			icon_scale: 1.3d
 			id: "18252D602561E4A9"
 			rewards: [{
@@ -1825,10 +1821,7 @@
 		}
 		{
 			dependencies: ["32BD532132423050"]
-			description: [
-				"The evaporation tower is similar to the distillation tower. Each layer from the third to the penultimate layer must and can only place a small output bin &b&r. &d&routput assembly can be placed on the bottom and second layer."
-				"Likewise, there is no additional bonus for height"
-			]
+			description: ["The evaporation tower is similar to the distillation tower. Each floor from the third to the penultimate floor must and can only place one &bsmall &routput tray. &d&routlet assembly can be placed on the bottom floor and second floor.", "Likewise, there is no additional bonus for height"]
 			icon_scale: 1.3d
 			id: "224B850538D346D3"
 			rewards: [{
@@ -2082,7 +2075,7 @@
 				"40D8E0B3024D5231"
 				"05801CE2E3390E3F"
 			]
-			description: ["Make sure the &6&rspace elevator module base and the &6&rspace elevator module connector completely overlap with those that come with the space elevator to complete the installation"]
+			description: ["Make sure the &6&rSpace Elevator Module Base and &6&rSpace Elevator Module Connector completely overlap those that come with the Space Elevator to complete the installation."]
 			icon_scale: 1.3d
 			id: "24F5D1338F48A57E"
 			rewards: [{
@@ -2106,7 +2099,7 @@
 				"56F2156559F2ADF9"
 				"6D6A8592BA1B4A3B"
 			]
-			description: ["Make sure the &6&rspace elevator module base and the &6&rspace elevator module connector completely overlap with those that come with the space elevator to complete the installation"]
+			description: ["Make sure the &6&rSpace Elevator Module Base and &6&rSpace Elevator Module Connector completely overlap those that come with the Space Elevator to complete the installation."]
 			icon_scale: 1.3d
 			id: "290495468BAB6553"
 			rewards: [{
@@ -3482,7 +3475,7 @@
 					type: "item"
 				}
 			]
-			title: "general factory"
+			title: "universal factory"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -3782,7 +3775,7 @@
 		}
 		{
 			dependencies: ["234661B47841AA2B"]
-			description: ["The warehouse can and can only replace the high energy machine shell &b&l"]
+			description: ["The warehouse can and can only replace the shell of the high energy machine &b&l"]
 			icon_scale: 1.3d
 			id: "015BE5C32238B5F7"
 			rewards: [{
@@ -4455,7 +4448,7 @@
 		}
 		{
 			dependencies: ["45096D94AE6F7864"]
-			description: ["If the &bfluid ratio of input &ris different from the formula ratio, &ewill always swallow the material without producing the product &r"]
+			description: ["If the input ratio &bfluid &ris different from the formula ratio, &ewill always swallow the material and will not produce the product &r"]
 			icon_scale: 1.3d
 			id: "58CCDA50B0673DB3"
 			rewards: [{

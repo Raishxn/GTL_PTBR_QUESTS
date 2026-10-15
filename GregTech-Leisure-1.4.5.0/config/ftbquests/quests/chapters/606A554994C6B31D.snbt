@@ -27,17 +27,7 @@
 		{
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
-			description: [
-				"Use esta garrafa mágica para se esgueirar e clicar com o botão direito na máquina GT em funcionamento para acelerar o trabalho da máquina."
-				"É claro que usar um item tão poderoso consumirá sua barra de fome e a capacidade de aceleração enfraquecerá à medida que o nível da máquina aumentar."
-				"mecanismo:"
-				"Cada uso consome 1 número de usos e o número de usos é restaurado em 1 por segundo. O número máximo de utilizações armazenadas é 20."
-				"O nível da máquina a vapor para a máquina HV é o nível 0-3 e é inválido se for maior que o nível HV."
-				"Quando o tempo de execução da receita da máquina é superior a 20 segundos, o tempo é reduzido em (nível de 4 máquinas) x 2 segundos"
-				"Quando o tempo de execução da receita da máquina é superior a 10 segundos, o tempo é reduzido em (nível de 4 máquinas) segundos"
-				"Quando o tempo de execução da receita da máquina é superior a 2 segundos, o tempo é reduzido em (nível de 4 máquinas) x 0,5 segundos"
-				"O alto-forno terrestre foi corrigido e reduzido em 5 segundos."
-			]
+			description: ["Use esta garrafa mágica para se esgueirar e clicar com o botão direito na máquina GT em funcionamento para acelerar o trabalho da máquina.", "É claro que usar um item tão poderoso consumirá sua barra de fome e a capacidade de aceleração enfraquecerá à medida que o nível da máquina aumentar.", "mecanismo:", "Cada uso consome 1 número de usos e o número de usos é restaurado em 1 por segundo. O número máximo de utilizações armazenadas é 20.", "O nível da máquina a vapor para a máquina HV é o nível 0-3 e é inválido se for maior que o nível HV.", "Quando o tempo de execução da receita da máquina é superior a 20 segundos, o tempo é reduzido em (nível de 4 máquinas) x 2 segundos", "Quando o tempo de execução da receita da máquina é superior a 10 segundos, o tempo é reduzido em (nível de 4 máquinas) segundos", "Quando uma receita leva mais de 2 segundos, sua duração é reduzida em (4-nível da máquina)x0.5 segundos.", "O alto-forno terrestre foi corrigido e reduzido em 5 segundos."]
 			icon: {
 				Count: 1
 				id: "kubejs:time_twister"
@@ -103,7 +93,7 @@
 					type: "item"
 				}
 			]
-			title: "A Espada do Domínio do Mundo"
+			title: "A Espada do Domínio do Universo"
 			x: -4.5d
 			y: -7.0d
 		}
@@ -305,13 +295,13 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"Mineração em alta velocidade, o padrão é pressionar &bJ&rpara ajustar a velocidade. Stealth acelera a velocidade de ajuste. Se exceder 1000, será redefinido para o valor inicial."
+				"Mineração de alta velocidade, por padrão pressione &bJ &rpara ajustar a velocidade. Stealth acelera a velocidade de ajuste. Se exceder 1000, será redefinido para o valor inicial."
 				""
 				"O botão esquerdo do Sneak pode ligar e desligar a atração magnética"
 				""
 				"Como ferramenta GT, o Vajra tem as funções de chave inglesa e alicate."
 				""
-				"Não consome durabilidade ou energia"
+				"Não consome durabilidade e potência"
 			]
 			icon: {
 				Count: 1

@@ -216,7 +216,7 @@
 		{
 			dependencies: ["5E223597F71DB81D"]
 			description: [
-				"Supercondutor &aUEV&r"
+				"Supercondutor &aUEV &r"
 				""
 				"Você pode fazer o armazém de manutenção ultralimpo por gravidade configurável &6&r"
 			]
@@ -287,7 +287,7 @@
 			description: [
 				"Converta sucata em orbes de matéria ou fluidos amplificadores UU"
 				""
-				"Recomenda-se a utilização de mármore ou granito vermelho (obtido através de um grande britador de pedras) para fazer sobras"
+				"Recomenda-se o uso de granito vermelho (obtido no grande britador de rocha) para confeccionar restos"
 				""
 				"Em relação aos grandes trituradores de rocha: são necessários dois recipientes/conjuntos de entrada para fornecer água e lava, respectivamente."
 			]
@@ -459,7 +459,7 @@
 			description: [
 				"Requer fotorresiste e poder de computação para gravação a laser de juntas de precisão"
 				""
-				"Modo de gravação a laser de precisão &cO número de paralelos é fixado em 1&r"
+				"O número paralelo &cdo modo de gravação a laser de precisão é fixado em 1 &r"
 				""
 				"A moldagem multibloco requer apenas blocos mecânicos de filtro &b&l"
 			]
@@ -547,23 +547,7 @@
 				"2DA05E5BAEAFB88E"
 				"4059A907154E2865"
 			]
-			description: [
-				"É também uma linha de montagem, uma versão a laser da linha de montagem de circuitos, com múltiplo demorado de 0,4 e overclock sem perdas (o módulo de extensão &cnão possui overclock sem perdas&r)"
-				""
-				"&c&lObserve que você deve se conectar ao banco de dados independentemente de precisar pesquisar!!!&r&r&r"
-				"A moldagem multibloco requer apenas blocos mecânicos de filtro &b&l"
-				"O host do módulo de expansão reconhecerá apenas os 8 blocos funcionais ao seu redor"
-				""
-				"Nota: Se você usar o modo de linha de montagem de circuito, deverá limpar o cache de receita ao substituir o robô enquanto estiver usando a montagem de amostra (retirar a amostra e colocá-la de volta, desenterrar a montagem da amostra e colocá-la de volta, etc.), caso contrário, haverá um problema de que a montagem do modelo não reconhece o novo robô após a substituição e não pode ser sintetizada."
-				""
-				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos&r"
-				""
-				"Você pode ver o diagrama de instalação detalhado na próxima página."
-				"{@pagebreak}"
-				"{image:ftbquests:textures/picture/008.png width:350 height:200 align:center}"
-				"O diagrama de instalação do módulo de expansão é o seguinte:"
-				"{image:ftbquests:textures/picture/007.png width:350 height:200 align:center}"
-			]
+			description: ["Também funciona como linha de montagem e como versão a laser da linha de montagem de circuitos, com multiplicador de duração 0.4 e overclock sem perdas. Os módulos de expansão &cnão possuem&r overclock sem perdas.", "", "&c &l Observe que você deve se conectar ao banco de dados independentemente de precisar pesquisar! ! ! &r &r &r", "A moldagem multibloco requer apenas blocos mecânicos de filtro &b&l", "O host do módulo de expansão reconhecerá apenas os 8 blocos funcionais ao seu redor", "", "Nota: Se você usar o modo de linha de montagem de circuito, deverá limpar o cache de receita ao substituir o robô enquanto estiver usando a montagem de amostra (retirar a amostra e colocá-la de volta, desenterrar a montagem da amostra e colocá-la de volta, etc.), caso contrário, haverá um problema de que a montagem do modelo não reconhece o novo robô após a substituição e não pode ser sintetizada.", "", "Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos &r", "", "Você pode ver o diagrama de instalação detalhado na próxima página.", "{@pagebreak}", "{image:ftbquests:textures/picture/008.png width:350 height:200 align:center}", "O diagrama de instalação do módulo de expansão é o seguinte:", "{image:ftbquests:textures/picture/007.png width:350 height:200 align:center}"]
 			icon_scale: 2.0d
 			id: "72B80ADFE77198DD"
 			min_width: 360
@@ -589,7 +573,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -597,19 +581,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: [
-				"&c&lObserve que você deve se conectar ao banco de dados independentemente de precisar pesquisar!!!"
-				"&c&lObserve que você deve se conectar ao banco de dados independentemente de precisar pesquisar!!!"
-				"&c&lObserve que você deve se conectar ao banco de dados independentemente de precisar pesquisar!!!"
-				""
-				"&rA versão a laser da fábrica de gravação a laser possui overclock sem perdas e usa um mecanismo paralelo de temperatura. Cada vez que a temperatura aumenta em 900K, o número de paralelos x 2"
-				""
-				"Algumas das receitas que precisam ser pesquisadas exigem que você primeiro use a fábrica de gravação a laser &b&rpara fazer uma para a digitalização &d&r"
-				""
-				"À medida que o número de paralelismo aumenta, o requisito de poder de computação também aumentará (se houver). A fórmula de cálculo específica é: o requisito mínimo de potência de computação multiplicado pelo número de paralelismo"
-				""
-				"Quando o poder de computação &6não é suficiente para consumir todos os materiais de entrada&rde uma só vez &ca máquina não funcionará&r"
-			]
+			description: ["&c &l Observe que você deve se conectar ao banco de dados independentemente de precisar pesquisar! ! !", "&c &l Observe que você deve se conectar ao banco de dados independentemente de precisar pesquisar! ! !", "&c &l Observe que você deve se conectar ao banco de dados independentemente de precisar pesquisar! ! !", "", "&ré a versão a laser da fábrica de gravação a laser. Possui overclock sem perdas e usa um mecanismo paralelo de temperatura. Cada vez que a temperatura aumenta 900K, o número de paralelos é ×2.", "", "Algumas receitas que precisam ser pesquisadas precisam ser feitas primeiro com a fábrica de gravação a laser &b&rpara digitalização &d&r", "", "À medida que o número de paralelismo aumenta, o requisito de poder de computação também aumentará (se houver). A fórmula de cálculo específica é: o requisito mínimo de potência de computação multiplicado pelo número de paralelismo", "", "Se o poder computacional for &6insuficiente para consumir todos os materiais de entrada em uma operação&r, &ca máquina não funcionará&r."]
 			icon_scale: 2.0d
 			id: "1BDEBBAF5BA9854E"
 			shape: "rsquare"
@@ -710,8 +682,8 @@
 				item: "gtceu:mega_canner"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 8.5d
+			x: 11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -780,15 +752,12 @@
 				id: "2D83BC942ADF6D92"
 				type: "checkmark"
 			}]
-			title: "Fotorresiste"
+			title: "Fotorresistente"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"2711E6516920E825"
-				"23B418803D455368"
-			]
+			dependencies: ["783379F3A7557CEE"]
 			description: ["Versões a laser de máquinas de montagem, máquinas de montagem de circuitos e máquinas de montagem de precisão com overclocking sem perdas"]
 			icon_scale: 2.0d
 			id: "4130D8DCFAB9A2BD"
@@ -799,15 +768,15 @@
 				item: "gtceu:mage_assembler"
 				type: "item"
 			}]
-			x: 16.0d
-			y: -2.0d
+			x: 15.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["Versões a laser de autoclaves, máquinas de imersão química e plantas de lavagem mineral com overclocking sem perdas"]
+			description: ["Versões a laser de autoclaves e máquinas de imersão química com overclock sem perdas"]
 			icon_scale: 2.0d
 			id: "63C00AE12F936B4F"
 			shape: "rsquare"
@@ -844,7 +813,7 @@
 				"702EFE9BA62A8CDA"
 				"39380262677612A9"
 			]
-			description: ["Processamento eficiente de terras raras e a única fonte de &6para &dpromécio&r&r"]
+			description: ["Processamento eficiente de terras raras e a única fonte de &6para promécio &d&r&r"]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "4059A907154E2865"
@@ -904,7 +873,6 @@
 				"4F945AA31D61A74D"
 				"506E6C56FF4B5C0B"
 			]
-			description: ["Uma linha de produção um tanto complicada"]
 			id: "6158FD5813B18D3D"
 			tasks: [{
 				id: "523D6494786714F9"
@@ -957,7 +925,7 @@
 				"0936769874A5F740"
 				"7204F1B6BCC74F1C"
 			]
-			description: ["Versões a laser de magnetizadores de dois estágios, concentradores eletromagnéticos, eletrolisadores, processadores de raios e fornos elétricos a arco com overclock sem perdas"]
+			description: ["Versões a laser de magnetizadores de dois estágios, concentradores eletromagnéticos, eletrolisadores e processadores relâmpago com overclock sem perdas"]
 			icon_scale: 1.5d
 			id: "68FDC7A6BE158D5F"
 			shape: "rsquare"
@@ -991,7 +959,7 @@
 		{
 			dependencies: ["783379F3A7557CEE"]
 			description: [
-				"{\"text\":\"Conseguir chegar até aqui mostra que você já é um funcionário maduro.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"430303070695D7D3\"}}"
+				"{ \"text\": \"Poder chegar aqui significa que você já é um funcionário maduro\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"430303070695D7D3\" } }"
 				"As tarefas nos capítulos posteriores começarão a omitir cada vez mais conteúdo,"
 				"Deixe apenas as partes principais para que você conheça o tópico principal."
 			]

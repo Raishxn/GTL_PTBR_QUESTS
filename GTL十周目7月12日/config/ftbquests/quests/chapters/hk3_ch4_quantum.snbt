@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hk3_ch4_quantum"
-	group: ""
+	group: "55F6563FBB4902EC"
 	icon: "hk3gtl:quantum_1_processor"
 	id: "4A40000000000000"
-	order_index: 13
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -14,34 +14,26 @@
 			id: "4A40000000000100"
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "4A40000000000101"
-					title: "Entrando no estágio quântico"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4A40000000000101"
+				title: "Entrando no estágio quântico"
+				type: "checkmark"
+			}]
 			title: "§d§lMar Quântico"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4A40000000000100"]
-			description: [
-				"Computador de emaranhamento quântico - A conclusão aciona §dE-FB-012 §r, desbloqueia pesquisa quântica de linha completa e fornece §abônus de velocidade de pesquisa de 1,5× §rpara a matriz de pesquisa."
-				""
-				"Dica §e: §7É ao mesmo tempo um limite e um acelerador, a primeira prioridade no estágio quântico."
-			]
+			description: ["Computador de emaranhamento quântico: ao ser construído, aciona §dE-FB-012§r, desbloqueia toda a linha de pesquisas quânticas e fornece à matriz de pesquisa um bônus de §a1.5× na velocidade de pesquisa§r.", "", "Dica §e: §7É ao mesmo tempo um limite e um acelerador, a primeira prioridade no estágio quântico."]
 			id: "4A40000000000200"
 			size: 1.5d
 			subtitle: "E-FB-012·Portal para Pesquisa Quântica"
-			tasks: [
-				{
-					id: "4A40000000000201"
-					item: "hk3gtl:quantum_entanglement_computer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A40000000000201"
+				item: "hk3gtl:quantum_entanglement_computer"
+				type: "item"
+			}]
 			title: "§d§lComputador de emaranhamento quântico"
 			x: 2.5d
 			y: 0.0d
@@ -72,13 +64,11 @@
 			dependencies: ["4A40000000000300"]
 			description: ["Estação de Forjamento de Pensamento Quântico - o berço dos circuitos quânticos de quarta ordem.", "Fundindo o núcleo lógico de emaranhamento quântico §d§r, acionando o marco E-MS-007."]
 			id: "4A40000000000400"
-			rewards: [
-				{
-					id: "4A40000000000402"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-			]
+			rewards: [{
+				id: "4A40000000000402"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
 			subtitle: "E-MS-007 · Ignição de poder de computação quântica"
 			tasks: [
 				{
@@ -122,13 +112,11 @@
 			description: ["Honkai Wireless Transit Hub - o nó central da Honkai Wireless Network, transportando a linha de produção honkai_wireless_transit.", "Em conjunto com o armazém sem fio do Capítulo 2, o sistema Honkai Impact é totalmente sem fio."]
 			id: "4A40000000000600"
 			subtitle: "backbone de rede sem fio"
-			tasks: [
-				{
-					id: "4A40000000000601"
-					item: "hk3gtl:honkai_wireless_transit_hub"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A40000000000601"
+				item: "hk3gtl:honkai_wireless_transit_hub"
+				type: "item"
+			}]
 			title: "Hub de relé sem fio de impacto Honkai §d"
 			x: 10.0d
 			y: 0.0d
@@ -215,21 +203,17 @@
 				"A primeira participação de §dacionará o marco E-MS-009 §r."
 			]
 			id: "4A40000000000A00"
-			rewards: [
-				{
-					id: "4A40000000000A02"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
+			rewards: [{
+				id: "4A40000000000A02"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
 			subtitle: "E-MS-009 · Cimeira Quântica"
-			tasks: [
-				{
-					id: "4A40000000000A01"
-					item: "hk3gtl:quantum_4_processor_mainframe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A40000000000A01"
+				item: "hk3gtl:quantum_4_processor_mainframe"
+				type: "item"
+			}]
 			title: "Anfitrião de arbitragem quântica §6Quantum Four"
 			x: 15.0d
 			y: 0.0d
@@ -268,13 +252,11 @@
 			id: "4A40000000000C00"
 			shape: "diamond"
 			subtitle: "R-QT-012 · Bilhete Final"
-			tasks: [
-				{
-					id: "4A40000000000C01"
-					title: "Estudo completo de certificação de exportação quântica"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4A40000000000C01"
+				title: "Estudo completo de certificação de exportação quântica"
+				type: "checkmark"
+			}]
 			title: "Exportação Quântica §d"
 			x: 20.0d
 			y: 0.0d

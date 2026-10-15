@@ -20,8 +20,8 @@
 			linked_quest: "26607B94D873E07A"
 			shape: "gear"
 			size: 2.0d
-			x: 2.0d
-			y: 4.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			id: "19AA2337A0F120D6"
@@ -44,7 +44,7 @@
 				item: "kubejs:contained_high_density_protonic_matter"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: "gtceu:crystalmatrix_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -74,7 +74,7 @@
 				item: "gtceu:starmetal_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			title: "Bobina Estelar"
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -266,7 +266,7 @@
 				title: "próton livre"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -277,11 +277,12 @@
 				item: "kubejs:space_probe_mk2"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["41B4A5048EBCE287"]
+			description: [""]
 			icon: "gtceu:liquid_starlight_bucket"
 			id: "6FF53B92BA6D2370"
 			tasks: [{
@@ -289,7 +290,7 @@
 				title: "Líquido de Energia Estelar"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -301,7 +302,7 @@
 				item: "kubejs:resonating_gem"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -395,7 +396,7 @@
 				item: "kubejs:contained_exotic_matter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -453,9 +454,10 @@
 			]
 			description: [
 				"As seguintes linhas de produção também podem ser otimizadas (as cores representam estágios de tensão):"
-				"&epó de matriz de polímero de fulereno de água purificada grau 8/16 Taran&r"
-				"&1Fluido Espacial Expandido Lado X Gas&r"
+				"&epó de matriz de polímero de fulereno de água purificada de grau 8/16 Taran &r"
+				"&1Fluido Espacial Expandido Lado X Gas &r"
 			]
+			hide_dependency_lines: true
 			icon_scale: 1.3d
 			id: "2A29DA4239E6BA44"
 			shape: "hexagon"
@@ -466,8 +468,8 @@
 				item: "gtceu:qft"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -505,7 +507,6 @@
 				"76C086C1C346355A"
 				"44F9AF619F87974F"
 				"6F7D79B8EA4FBF46"
-				"5A61ABB6E4917C6C"
 			]
 			icon_scale: 2.0d
 			id: "30AC80FE245A38E0"
@@ -523,7 +524,7 @@
 				"1291AD37204E4960"
 				"38FFB6D2003C7EB4"
 			]
-			description: ["Este circuito é recomendado apenas para a Série Super Causal"]
+			description: ["A Série Super Causal recomenda apenas o uso deste circuito"]
 			icon_scale: 2.0d
 			id: "32186EFF7020D432"
 			rewards: [{
@@ -582,8 +583,8 @@
 				item: "kubejs:nuclear_clock"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -596,7 +597,7 @@
 				item: "kubejs:nuclear_star"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -620,7 +621,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -638,24 +639,21 @@
 				item: "avaritia:infinity_catalyst"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"01EE0F4156F0578B"
-				"74186877DB7DBE4D"
-			]
+			dependencies: ["01EE0F4156F0578B"]
 			description: ["Usará o recipiente de plasma de alta durabilidade &6, um tanto caro"]
-			hide_dependency_lines: true
 			id: "5A61ABB6E4917C6C"
+			subtitle: "Use também bombas cromodinâmicas quânticas"
 			tasks: [{
 				id: "3BDF193D7E2C7B39"
 				item: "gtceu:cosmicneutronium_ingot"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["02401278940CE1F3"]
@@ -667,8 +665,8 @@
 				item: "gtceu:periodicium_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A61ABB6E4917C6C"]
@@ -678,8 +676,8 @@
 				item: "kubejs:highly_dense_polymer_plate"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -714,7 +712,7 @@
 		}
 		{
 			dependencies: ["43CEF1808795ECAD"]
-			description: ["Supercondutor &1OpV&r"]
+			description: ["Supercondutor &1OpV &r"]
 			hide_dependency_lines: true
 			id: "375DD76CAEAD2CE1"
 			tasks: [{
@@ -737,12 +735,13 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
 			description: ["Pode ser usado para replicar elementos e isótopos escassos ou difíceis de produzir."]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "46C33CC4A1420A10"
 			optional: true
@@ -754,7 +753,7 @@
 				item: "gtceu:element_copying"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -773,7 +772,7 @@
 				item: "kubejs:space_drone_mk6"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -786,6 +785,7 @@
 				""
 				"Só pode usar blocos de bobina de aço Titan &e&r"
 			]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "6C84DCF091D31F16"
 			optional: true
@@ -801,7 +801,8 @@
 		}
 		{
 			dependencies: ["4C667361F07F4243"]
-			description: ["Para atualizar com base no nível 2, lembre-se de substituir o shell da linha de montagem &e&rpelo shell da linha de montagem avançada &b&r"]
+			description: ["Para atualizar com base no nível 2, lembre-se de substituir o shell de linha de montagem &e&rpelo shell de linha de montagem avançado &b&r"]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "6C1AB68CC57D8670"
@@ -812,28 +813,29 @@
 				item: "gtceu:nano_forge_3"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"6C1AB68CC57D8670"
 				"233C152024BACC4E"
-				"622395061792FB5E"
+				"375DD76CAEAD2CE1"
+				"3CE5E9F78C13E1CD"
 			]
-			description: ["Possui overclock sem perdas e multiplicador demorado de 0,05"]
+			description: ["Possui overclock sem perdas e multiplicador de duração 0.05."]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1E220C2F02E65FFC"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "maior, mais forte"
 			tasks: [{
 				id: "7AC30167CA6E2D12"
 				item: "gtceu:nano_core"
 				type: "item"
 			}]
-			x: 16.0d
+			x: -4.0d
 			y: 4.0d
 		}
 	]

@@ -20,7 +20,7 @@
 				"39F73A63746EE6E8"
 				"1C4D5D7786F64485"
 			]
-			description: ["It can charge up to 16 power slots and also features lossless overclocking"]
+			description: ["Can load up to 16 energy bins, and also has lossless overclocking"]
 			icon_scale: 2.0d
 			id: "67588B6F4C26CF4C"
 			shape: "rsquare"
@@ -85,7 +85,7 @@
 		}
 		{
 			dependencies: ["28E91E5A98E3A8DD"]
-			description: ["Perform calculations within the limits of the laws of physics."]
+			description: ["Perform calculations at the limits of the laws of physics."]
 			icon_scale: 2.0d
 			id: "596E4662227F4E38"
 			tasks: [{
@@ -118,7 +118,7 @@
 			]
 			icon_scale: 2.0d
 			id: "37C0845F870CC835"
-			subtitle: "Once this is done, the laser engraving factory can be dismantled."
+			subtitle: "Once this is done, the laser etching factory can be dismantled."
 			tasks: [{
 				id: "57129B74F6D1DE2E"
 				item: "kubejs:cosmic_computer"
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
-			description: ["A substance made up of simple particles that are easily separated"]
+			description: ["A substance composed of simple particles that are easily separated"]
 			icon: "gtceu:uu_matter_bucket"
 			id: "6640D51725374A8F"
 			tasks: [{
@@ -174,7 +174,7 @@
 			description: [
 				"Computing power requirements are large"
 				""
-				"The highest &eblack titanium alloy frame &rcannot be blocked by blocks, otherwise the machine will not work."
+				"The highest&eblack titanium alloy frame&rcannot be blocked by blocks, otherwise the machine will not work."
 			]
 			icon: "gtceu:space_probe_surface_reception"
 			icon_scale: 1.3d
@@ -203,7 +203,7 @@
 			id: "2F82F4BCC261723A"
 			tasks: [{
 				id: "57C4DF5E13A94315"
-				title: "More emphasis on parts than parts"
+				title: "More emphasis on pieces than on pieces"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -373,7 +373,7 @@
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
 			id: "5FC4E86486278172"
-			subtitle: "a little complicated"
+			subtitle: "a bit complicated"
 			tasks: [{
 				id: "54DD3B46DB85E738"
 				item: "kubejs:scintillator_crystal"
@@ -434,6 +434,7 @@
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
+			description: ["You have to use UEV energy tank"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
 				id: "57160CEA2FCA306C"
@@ -447,7 +448,7 @@
 			dependencies: ["27A9D4E765101CB9"]
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
-			subtitle: "seems complicated"
+			subtitle: "looks complicated"
 			tasks: [{
 				id: "4613BA0853F254C1"
 				title: "photopolymer solution"
@@ -474,12 +475,12 @@
 				"1C4D5D7786F64485"
 				"38B80C3DD1E55532"
 			]
-			description: ["seems complicated"]
+			description: ["looks complicated"]
 			icon: "gtceu:cosmic_superconductor_bucket"
 			id: "7C796A0CDAB038C9"
 			tasks: [{
 				id: "68D95C8EDB412DD5"
-				title: "Universal superconducting fluid"
+				title: "Universal superconducting liquid"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -487,7 +488,7 @@
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
-			description: ["There are also non-metals, rare gases, poor metals, metalloids, alkali metals, alkaline earth metals and actinide mixtures."]
+			description: ["There are also non-metals, rare gases, poor metals, metalloids, alkali metals, alkaline earth metals, and actinide mixtures"]
 			id: "02401278940CE1F3"
 			tasks: [
 				{
@@ -501,7 +502,7 @@
 					type: "item"
 				}
 			]
-			title: "Ingots of rare earth alloys and transition elements"
+			title: "Rare earth and transition element alloy ingots"
 			x: 14.0d
 			y: 2.0d
 		}
@@ -514,7 +515,7 @@
 			description: ["Parts not included in the table"]
 			hide_dependency_lines: true
 			id: "53AF03B663577CB0"
-			subtitle: "The weight here is just the difference in the size of the atomic number."
+			subtitle: "The weight here is just the difference in size of the atomic number."
 			tasks: [
 				{
 					id: "1686AE5912E983B9"
@@ -527,7 +528,7 @@
 					type: "item"
 				}
 			]
-			title: "Super Heavy Element Alloy Ingot"
+			title: "Super heavy element alloy ingot"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -547,9 +548,9 @@
 		{
 			dependencies: ["2F82F4BCC261723A"]
 			description: [
-				"Superconductor &eUXV &r"
+				"&eUXV&rsuperconductor"
 				""
-				"You can make the absolutely clean configurable maintenance compartment &6&rand the most advanced gravity configurable maintenance compartment &d&r."
+				"You can make&6absolutely clean configurable maintenance compartment&rand the most advanced&dconfigurable gravity absolute clean maintenance compartment &r."
 			]
 			hide_dependent_lines: true
 			id: "559836CC234447C0"
@@ -566,7 +567,6 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["Perhaps you could consider using giant structures to solve the problem of slow evaporation towers and plasma condensers"]
 			hide_dependent_lines: true
 			icon: "gtceu:grade_16_purified_water_bucket"
 			id: "6FE5409DB7A22427"
@@ -621,7 +621,7 @@
 				"17F6AFC430A15CDA"
 			]
 			id: "67673D8789AC1781"
-			subtitle: "Requires UXV power bay"
+			subtitle: "Requires UXV energy bin"
 			tasks: [{
 				id: "2268BE3EB165A96B"
 				item: "kubejs:proto_matter"
@@ -661,9 +661,9 @@
 				"26607B94D873E07A"
 			]
 			description: [
-				"Laser versions of culture vats, fermenters and breweries with lossless overclocking"
+				"Laser version of the culture tank with lossless overclocking"
 				""
-				"Use only the mechanical sterilizing filter block &e"
+				"Only use&esterilizing filter mechanical block"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -719,7 +719,7 @@
 				item: "gtlcore:fast_conversion_simulate_card"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 8.0d
 		}
 		{
@@ -731,7 +731,7 @@
 				id: "730606E2ADFAB845"
 				type: "checkmark"
 			}]
-			title: "High Density Free Alpha Particle Gaseous Gas"
+			title: "Gaseous high-density free alpha particle gas"
 			x: -6.0d
 			y: 6.0d
 		}

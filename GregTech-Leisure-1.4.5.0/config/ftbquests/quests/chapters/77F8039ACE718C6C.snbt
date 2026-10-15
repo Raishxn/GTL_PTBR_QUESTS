@@ -72,7 +72,7 @@
 			description: [
 				"Os diamantes são os mais resistentes à queima. Recomenda-se queimar diamantes."
 				""
-				"Quando água é adicionada à caldeira durante a queima a seco, ela explodirá &4&r"
+				"Quando a água é introduzida na caldeira durante a queima a seco, ela explodirá &4&r"
 				""
 				"Caldeiras de combustível líquido usam lava como combustível; as caldeiras solares aquecem naturalmente durante o dia e caem de temperatura à noite/quando à sombra"
 			]
@@ -133,7 +133,7 @@
 			description: [
 				"Você pode começar a fazer aço"
 				""
-				"Você também pode fazer diretamente &5, Ultra Dimension e outras forjas terrestres&r"
+				"Você também pode fazer diretamente &5 Hyper Dimension e outras forjas terrestres &r"
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			icon_scale: 2.0d
@@ -262,7 +262,7 @@
 			description: [
 				"Usado para fazer máquinas elétricas e armazéns"
 				""
-				"Ele pode até ser usado para &car&r&ema&r&aze&r&bnar&r energia e &3co&r&9nec&r&1tar&r à &5rede&r&dME&r!"
+				"Pode até ser usado para armazenar &c&r&epara armazenar energia &r&a&b&r&re &3para conectar &r&9a &r&1ME &r&5líquido &r&dlíquido &r!"
 			]
 			icon_scale: 1.3d
 			id: "7CB85061F0822830"
@@ -380,16 +380,7 @@
 		}
 		{
 			dependencies: ["3D65D9712DFB63D9"]
-			description: [
-				"Agora você pode usá-lo para viajar para mundos antigos"
-				""
-				"Em relação à estrutura: o núcleo é colocado no centro, os 4 quadrados adjacentes são blocos de aço e os 4 quadrados de canto são blocos de diamante, planos"
-				"Clique com o botão direito no núcleo para ir para o mundo antigo"
-				""
-				"Ao fazer o foguete de terceiro estágio em &5EV&r, você ainda precisará usá-lo para ir para o mundo inferior."
-				""
-				"O mundo antigo não gera estruturas de meteoritos. A bússola permite que você encontre estruturas no mundo principal."
-			]
+			description: ["Agora você pode usar isto para viajar ao Mundo Antigo.", "", "Estrutura: coloque o núcleo no centro, os 4 blocos adjacentes de aço e os 4 cantos de diamante, em uma camada horizontal.", "Clique com o botão direito no núcleo para viajar ao Mundo Antigo.", "", "Mesmo após fabricar um foguete de terceiro nível no &5EV&r, você ainda precisará disto para ir ao Nether."]
 			icon: "kubejs:reactor_core"
 			id: "00579BDA1FA1BEC6"
 			rewards: [
@@ -919,21 +910,7 @@
 		}
 		{
 			dependencies: ["553B2D61416792DC"]
-			description: [
-				"As grandes caldeiras a vapor foram aprimoradas ao nível épico e você não precisa pensar em usar vapor para gerar eletricidade para alta tensão (a alta tensão requer mais pilhas e caldeiras mais avançadas consomem combustível mais rapidamente)"
-				""
-				"Seguirão-se caldeiras a vapor de aço, titânio e aço de tungstênio em grande escala."
-				""
-				"Consumo de água = produção * eficiência de estrangulamento/32 mB/t"
-				""
-				"O armazém de manutenção requer manutenção manual na fase inicial."
-				""
-				"O compartimento de entrada/barramento/conjunto, o compartimento de manutenção e o compartimento do silenciador são colocados no piso inferior, e os compartimentos de saída são colocados no segundo ao quarto andares."
-				""
-				"Esta não é uma máquina a vapor e não pode usar o ônibus a vapor"
-				""
-				"Cuidado para não utilizar um conjunto de entrada gigante na caldeira, pois pode causar travamento do &4&r"
-			]
+			description: ["As grandes caldeiras a vapor receberam uma melhoria enorme. Você pode usar vapor com tranquilidade até HV. No HV, use várias caldeiras; as de nível superior consomem combustível mais rapidamente.", "", "Depois, também existem grandes caldeiras a vapor de aço, titânio e aço-tungstênio.", "", "A escotilha de manutenção exige manutenção manual no início do jogo.", "", "Coloque escotilhas, barramentos ou conjuntos de entrada, a escotilha de manutenção e o silenciador na camada inferior. As saídas ficam da segunda à quarta camada.", "", "Esta não é uma máquina a vapor e não pode usar barramentos de vapor.", "", "Não use conjuntos de entrada gigantes em caldeiras, pois isso pode causar um &4travamento&r."]
 			icon_scale: 2.0d
 			id: "328D5CF265FCCCA3"
 			rewards: [
@@ -983,15 +960,7 @@
 		}
 		{
 			dependencies: ["5CE50DDC960340D8"]
-			description: [
-				"Apenas a camada inferior de tijolos refratários pode ser substituída por barramentos de entrada e saída"
-				""
-				"Certifique-se de que o espaço do barramento de entrada e do barramento de saída seja suficiente para a forja operar"
-				""
-				"Esta não é uma máquina a vapor, &c&lnão precisa de um compartimento de entrada de vapor&r, &c&lnão pode usar o ônibus a vapor&r"
-				""
-				"Há muito barro na Caverna Exuberante; abaixo da área onde está o rododendro está a Lush Cave"
-			]
+			description: ["Somente os tijolos refratários da camada inferior podem ser substituídos por barramentos de entrada ou saída.", "", "Garanta espaço suficiente nos barramentos de entrada e saída para a forja funcionar.", "(&c&lNão pode usar barramentos de vapor&r&r)", "", "Esta não é uma máquina a vapor; &c&lnão precisa de escotilha de entrada de vapor.", "", "As cavernas verdejantes contêm muita argila e podem ser encontradas sob áreas com azaleias."]
 			icon_scale: 1.3d
 			id: "0662E205D1783D31"
 			rewards: [
@@ -1093,7 +1062,7 @@
 			description: [
 				"O vapor geralmente vem de água fervente"
 				""
-				"A relação de conversão entre vapor e eletricidade é de 1mB/t=2EU/t"
+				"A relação de conversão entre vapor e eletricidade é 2mb/t=1eu/t"
 			]
 			icon: "gtceu:steam_bucket"
 			id: "2B9D62FB6BF39201"
@@ -1175,11 +1144,11 @@
 		{
 			dependencies: ["12FE2B59FA86381C"]
 			description: [
-				"A crafting da logística do laser foi fortalecida (64 vezes a produção do vazio). Você pode usar este módulo para logística antes da EA."
+				"A síntese da logística do laser foi fortalecida (64 vezes a produção do vazio). Você pode usar este módulo para logística antes da EA."
 				""
 				"Clique com o botão direito do mouse para vincular um nó ou conector com uma chave inglesa, clique com o botão direito em outros nós ou conectores para estabelecer uma conexão e limpe as ligações clicando com o botão direito do mouse em blocos que não sejam de nós ou conectores e no ar."
 				""
-				"Conectores laser avançados podem conectar &bem latitudes&r"
+				"Conectores laser avançados podem conectar &b em latitudes &r"
 				""
 				"Os componentes de overclock da placa são instalados na placa laser, até 4 peças; componentes de overclock do nó são instalados no nó do laser, até 8 peças"
 				""
@@ -1258,7 +1227,7 @@
 				""
 				"Os modelos de impressão são obtidos quebrando blocos misteriosos"
 				""
-				"Posteriormente, a máquina de estampagem &6&rpode ser usada para substituir o estampador para tornar o processador mais eficiente."
+				"Posteriormente, você pode usar a máquina de estampagem &6 &r para substituir o carimbo e tornar o processador mais eficiente."
 			]
 			id: "664C46D5C12E7255"
 			rewards: [
@@ -1284,15 +1253,7 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
-			description: [
-				"O receptor de energia pode converter EU em AE/FE para uso pela rede ME"
-				""
-				"Usar fios GT para conectar o gerador e o receptor de energia pode facilmente queimar os fios. Recomenda-se conectar o gerador diretamente ao receptor de energia."
-				""
-				"Apenas a superfície inferior do CRG pode ser conectada à rede ME, e só pode haver uma em toda a rede (incluindo outras redes conectadas através de fibras de quartzo)."
-				""
-				"Terminal de artesanato expandido para executar receitas de cortador de pedra, mesa de forja e bigorna"
-			]
+			description: ["O receptor de energia converte EU em AE/FE para uso da rede ME.", "", "Ligar um gerador a um receptor de energia com fio GT pode queimar o fio. Recomenda-se colocar o gerador diretamente ao lado do receptor.", "", "O CRG só se conecta à rede ME pela face inferior. Só pode existir um em toda a rede, incluindo redes ligadas por fibra de quartzo."]
 			icon: "ae2:drive"
 			id: "007BBB3D4E349869"
 			optional: true
@@ -1491,11 +1452,7 @@
 		}
 		{
 			dependencies: ["08B7D8F835DFE214"]
-			description: [
-				"{\"text\":\"Para uso específico, consulte a tarefa <Coverboard>.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3A726EDBF7AC5E5B\"}}"
-				""
-				"Emparelhado com a interface ME, pode ser alcançada uma incrível eficiência de transmissão"
-			]
+			description: ["{\"text\":\"Consulte a missão <Coberturas> para ver como usar.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3A726EDBF7AC5E5B\"}}", "", "Emparelhado com a interface ME, pode ser alcançada uma incrível eficiência de transmissão"]
 			hide_dependency_lines: true
 			id: "205B11E482DDF464"
 			optional: true

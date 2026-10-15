@@ -109,7 +109,7 @@
 				"2CEEFDACE7B13D5A"
 				"2BEF03C52636E165"
 			]
-			description: ["The use of advanced superconducting cables can reduce the consumption of niobium-titanium alloy and Caijin"]
+			description: ["The use of advanced superconducting cables can reduce the consumption of niobium titanium alloy and Caijin"]
 			id: "5B01312E34A3AD60"
 			tasks: [{
 				id: "7A45FAD14DF53B00"
@@ -157,7 +157,7 @@
 		}
 		{
 			dependencies: ["118FDF6D9F868002"]
-			description: ["It is first obtained by solidifying liquid europium produced by fusion and can then be burned directly in an electric blast furnace."]
+			description: ["It is first obtained by solidifying the liquid europium produced by fusion, and can then be directly fired in an electric blast furnace."]
 			id: "52DF531AFB3A07CE"
 			tasks: [{
 				id: "102F17C54DB17FBD"
@@ -194,7 +194,7 @@
 				"4604207A60F04214"
 				"4E1A28AFF661CED0"
 			]
-			description: ["It uses extremely high direct energy flow to perform calculations similar to electronic circuits."]
+			description: ["Uses extremely high direct energy flow to perform calculations similar to electronic circuits."]
 			icon_scale: 2.0d
 			id: "5BB55AABB91EEF9D"
 			tasks: [{
@@ -339,7 +339,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			title: "Caijin Coil"
+			title: "Cajun Coil"
 			x: 8.0d
 			y: 8.0d
 		}
@@ -361,7 +361,7 @@
 		}
 		{
 			dependencies: ["23B23867F311BF51"]
-			description: ["Superconductor &cZPM &r"]
+			description: ["&cZPM&rsuperconductor"]
 			id: "0B89B3108EB4A01F"
 			tasks: [{
 				id: "7E7B15A8DCDA158C"
@@ -511,7 +511,7 @@
 			description: [
 				"You can do this with silica rock, which can improve efficiency."
 				""
-				"ExtendedAe's &csilicon block cannot do &r, use GregTech's &rsilicon block &9"
+				"ExtendedAe's silicon block&ccannot produce &r, please use&9GregTech's&rsilicon block"
 			]
 			hide_dependency_lines: true
 			id: "1C10383050657004"
@@ -791,7 +791,7 @@
 			icon_scale: 1.5d
 			id: "12F9033C4C2B29EB"
 			shape: "rsquare"
-			subtitle: "Wonderful technology"
+			subtitle: "Wonderful Technology"
 			tasks: [{
 				id: "3BC83ABCD0AD2F48"
 				item: "gtceu:wood_distillation"
@@ -805,7 +805,7 @@
 				"4BFA114E12BCB163"
 				"15580C25FF239402"
 			]
-			description: ["There are parallel chemical reactors and efficiency can be improved by upgrading the coils."]
+			description: ["There are parallel chemical reactors, and the efficiency can be improved by upgrading the coils."]
 			icon_scale: 1.5d
 			id: "4CDCF542F45205EB"
 			shape: "rsquare"
@@ -849,13 +849,13 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"Equivalent to the more powerful energy bins (target bins) and power bins (source bins), they can only be used on machines or generators with &ein the description that allow the use of &rlaser bins, and can also be used with double &bbins to enhance &r(if it is allowed to place two laser bins)"
+				"Equivalent to more powerful energy bins (target bins) and power bins (source bins), they can only be used on machines or generators with&ein the description that allow the use of laser bins &r, and can also be used with&bdouble bins to boost&r(if two laser bins are allowed to be placed)"
 				""
-				"Ordinary laser cabins need to be connected using ordinary laser tubes (no power loss), and the cable cannot be rotated. Please use an active transformer to be able to rotate the laser. After the wireless laser cabin is placed, it will directly interact with the wireless network without additional operations."
+				"Ordinary laser cabins need to be connected with ordinary laser cables (no energy loss). The cable cannot be turned. Please use an active transformer to achieve turning laser. After the wireless laser cabin is placed, it will directly interact with the wireless network without additional operations."
 				""
-				"The maximum power can reach 4194304A/bay voltage"
+				"The maximum power can reach 4194304A/compartment voltage"
 				""
-				"Note: Even though the machine description has the words &oallowing the use of the &rlaser housing, in most cases the &l&claser target housing still cannot replace the &r&r&rpower chamber in a multi-block structure (some special ones, such as deep chemical distortion instruments and nanoforges, can only use laser chambers. laser target and cannot use power compartments; while compression nuclear fusion reactors can use laser target compartments to replace power compartments. See JEI Multiblock Interface and Machine Host Description.)"
+				"Note: Even if the machine description has the words&oallowing the use of laser bin &r, in most cases the&l&claser target bin still cannot replace the energy bin&r&r&rin a multi-block structure (A few special ones, such as deep chemical distortion instruments and nano-forges, can only use laser target chambers and cannot use energy bins; while compression nuclear fusion reactors can use laser target bins to replace energy bins. Please refer to the multi-block JEI interface and machine host description.)"
 			]
 			icon: "gtmthings:iv_256a_wireless_laser_target_hatch"
 			icon_scale: 1.5d
@@ -887,13 +887,13 @@
 					type: "item"
 				}
 			]
-			title: "laser warehouse"
+			title: "Laser warehouse"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["233CA36D529EC3FB"]
-			description: ["Bigger and stronger, even if there is a petrochemical can not be thrown away"]
+			description: ["Bigger and stronger, even if there is a petrochemical plant, it cannot be thrown away"]
 			icon_scale: 2.0d
 			id: "01526A08D01458FA"
 			shape: "rsquare"
@@ -978,21 +978,7 @@
 				"2CEEFDACE7B13D5A"
 				"7F8C2ECC7CE2BF20"
 			]
-			description: [
-				"Large-capacity data storage using optical data warehouses to power multiple assembly lines"
-				""
-				"Databases can also be daisy chained (database can get data from other databases through target warehouse)"
-				""
-				"Optical data source/target bin &ccannot be shared by &r"
-				""
-				"Optical cables are used to transmit data between wired optical warehouses, and the &eoptical cable cannot be forked &r"
-				""
-				"Wireless optical warehouse uses &d&rflash memory for bonding"
-				""
-				"Each compartment (optical and access) continues to consume energy &e1,920 &rEU/t (0.9375A &5EV &r)"
-				"If the database is being written or read by other machines, the energy consumption of each warehouse increases to &e30,720 &rEU/t (0.9375A &dLuV &r)"
-				"&4If the power supply is insufficient, some warehouses will fail."
-			]
+			description: ["Large-capacity data storage, using optical data warehouses to feed multiple assembly lines", "", "Databases can also be connected in series (the database can obtain data from other databases through the target warehouse)", "", "Optical data target/source bin&ccannot be shared by &r", "", "Optical cables are used to transmit data between wired optical warehouses, and the optical cable&ecannot be bifurcated &r", "", "Wireless optical warehouse uses&dflash memory&rfor binding", "", "Each hatch, both optical and access, continuously consumes &e1,920&r EU/t (0.9A &bMV&r).", "If another machine is reading from or writing to the database, each hatch's power consumption rises to &e30,720&r EU/t (0.9A &5EV&r).", "&4 If the power supply is insufficient, some warehouses will fail."]
 			hide_dependent_lines: true
 			icon: "gtceu:data_bank"
 			icon_scale: 1.5d
@@ -1011,7 +997,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Essencial"
+			subtitle: "Essential"
 			tasks: [
 				{
 					id: "488C1A3FC0D7CCB6"

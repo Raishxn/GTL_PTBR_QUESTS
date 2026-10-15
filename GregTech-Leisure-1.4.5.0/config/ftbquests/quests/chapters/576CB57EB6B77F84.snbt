@@ -31,7 +31,7 @@
 			description: [
 				"Recomenda-se construir uma grande caldeira para produzir vapor sem fim"
 				""
-				"Quando a matriz de geração de energia &6&ré colocada, &bproduzirá água destilada&r, e a turbina a vapor multibloco &6&rtambém produzirá água destilada &b."
+				"Quando a matriz de geração de energia &6&ré colocada, &bproduzirá água destilada &r, turbina a vapor multibloco &6&rtambém produzirá água destilada &b"
 				""
 				"Entrada insuficiente, espaço de saída insuficiente e compartimento de energia insuficiente restringirão a geração de energia."
 				"{@pagebreak}"
@@ -66,7 +66,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\"text\":\"Embora exista este gerador, produzir combustível é difícil nesta fase\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2E401B78E52B9BBC\"}}"]
+			description: ["{ \"text\": \"Embora exista este gerador, é difícil produzir combustível nesta fase\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E401B78E52B9BBC\" } }"]
 			id: "11CBF5394DE28373"
 			tasks: [{
 				id: "64A4900F3622DCD3"
@@ -78,7 +78,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\"text\":\"O mesmo que combustão interna no mesmo estágio\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"351B9D097EC493C5\"}}"]
+			description: ["{ \"text\": \"Igual à combustão interna no mesmo estágio\", \"italic\": \"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"351B9D097EC493C5\" } }"]
 			id: "2103464D61DAF017"
 			tasks: [{
 				id: "1D2E4E5A4DEFD377"
@@ -198,11 +198,11 @@
 		{
 			dependencies: ["4C591AA4F1D907C1"]
 			description: [
-				"Rotor de turbina &l&c(com durabilidade)&r&ré usado em vez de rotor, preste atenção à diferença"
+				"Rotor de turbina &l&c(com durabilidade) &r&ré usado em vez do rotor, preste atenção à diferença"
 				""
-				"Observe que &bnão bloqueia o suporte do rotor&r(também será considerado bloqueado quando o suporte do rotor estiver orientado para cima ou para baixo)"
+				"Observe que &bnão bloqueia o suporte do rotor &r(também será considerado bloqueado quando o suporte do rotor estiver orientado para cima ou para baixo)"
 				""
-				"Não tente substituir o rotor diretamente no suporte do rotor quando a turbina estiver funcionando. Isso só tornará sua saúde pior. &mXXX mergulhou na turbina."
+				"Quando a turbina estiver funcionando, não tente substituir o rotor diretamente no suporte do rotor. Isso apenas reduzirá sua saúde. &mXXX mergulhou na turbina."
 				""
 				"Observe que o grau de suporte do rotor não pode ser inferior ao requisito mínimo na descrição da turbina, caso contrário a eficiência -1 será exibida."
 				""
@@ -274,9 +274,9 @@
 			description: [
 				"Geração de energia muito conveniente e estável que pode ser usada e interrompida a qualquer momento"
 				""
-				"Tenha cuidado para não bloquear o bloco mecânico de admissão de ar do motor &b"
+				"Tenha cuidado para não bloquear o bloco mecânico de entrada de ar do motor &b"
 				""
-				"O gerador do motor &cnão pode ser montado&r(ou seja, o motor principal não pode ser orientado para cima ou para baixo)"
+				"O gerador do motor &cnão pode ser montado &r(ou seja, o motor principal não pode ser orientado para cima ou para baixo)"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:large_combustion_engine"
@@ -316,7 +316,7 @@
 			description: [
 				"Turbinas extragrandes têm uma capacidade de geração de energia relativamente grande e até o vapor é muito potente."
 				""
-				"Observe que cada suporte do rotor não pode ser bloqueado e todos os &bdevem usar o mesmo tipo de rotor de turbina&r"
+				"Observe que cada suporte do rotor não pode ser bloqueado e todos os &bdevem usar o mesmo tipo de rotor de turbina &r"
 				""
 				"A caixa do rotor pode colocar automaticamente os rotores da turbina armazenados no suporte do rotor vazio; as posições disponíveis do silo estão localizadas acima, abaixo, esquerda e direita do motor principal da turbina; apenas turbinas extragrandes podem instalar a caixa do rotor"
 			]
@@ -427,7 +427,7 @@
 		}
 		{
 			dependencies: ["5460CFE78B89DC30"]
-			description: ["{\"text\":\"Ao chegar a Io, você pode começar a queimar sílica.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"36F5A40D3976E512\"}}"]
+			description: ["{ \"text\": \"Você pode começar a queimar sílica depois de chegar em Io\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36F5A40D3976E512\" } }"]
 			id: "48991235C17FB211"
 			tasks: [{
 				id: "5AF1CFBEC9280D1A"
@@ -562,7 +562,7 @@
 		{
 			dependencies: ["4B33F47839538D7B"]
 			description: [
-				"Comparado com a sílica grande, é mais eficiente em termos de combustível e tem uma potência máxima de 256A MAX."
+				"Comparado com a rocha de sílica grande, é mais eficiente em termos de combustível e tem uma potência máxima de 256A MAX."
 				""
 				"O efeito de fornecer plasma é semelhante ao prolongamento do tempo de receita, que pode ser entendido como X paralelo = X vezes geração de energia"
 			]
@@ -577,15 +577,7 @@
 		}
 		{
 			dependencies: ["19C7474792787EE9"]
-			description: [
-				"Saída máxima de até 10000A"
-				""
-				"Após a inicialização, &eserá forçado a bloquear&rna noite escura"
-				""
-				"O processo do módulo de lançamento e o processo de geração de energia &enão podem ser realizados ao mesmo tempo&r"
-				""
-				"&mPode ficar preso e não gerar eletricidade após disparar 10.000 módulos&r"
-			]
+			description: ["Saída máxima de até 10000A", "", "Após a inicialização, &eserá forçado a bloquear &rna noite escura", "", "O processo do módulo de transmissão e o processo de geração de energia &enão podem ser executados ao mesmo tempo &r", "", "&mPode travar e parar de gerar energia após lançar 10000 módulos.&r"]
 			id: "082BB082BE18C820"
 			subtitle: "Começa muito devagar"
 			tasks: [{
@@ -610,11 +602,7 @@
 		}
 		{
 			dependencies: ["19C7474792787EE9"]
-			description: [
-				"Saída até 16384A MAX"
-				""
-				"Observe que os dois plasmas na dica não correspondem ao combustível."
-			]
+			description: ["Saída até 16384A MAX"]
 			id: "25F672CF48091CEC"
 			subtitle: "Use e pare a qualquer momento"
 			tasks: [{
@@ -639,7 +627,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{\"text\":\"Queime um pouco de combustível simples\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1248D8F428A12A95\"}}"]
+			description: ["{ \"text\": \"Queime algum combustível simples\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1248D8F428A12A95\" } }"]
 			id: "6EF3C749D06C7262"
 			tasks: [{
 				id: "329F1BD301166219"
@@ -695,7 +683,7 @@
 				""
 				"O raio invocado pelo Thunder Trident também recarrega o gerador."
 				""
-				"{\"text\":\"você pode usá-lo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0F663054E006E97B\"}}"
+				"{ \"text\": \"Você pode usá-lo\", \"italic\": \"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F663054E006E97B\" } }"
 			]
 			id: "45656BC02DC740CE"
 			rewards: [{
@@ -804,10 +792,7 @@
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
-			description: [
-				"A avenida do vapor se manifesta aqui"
-				"Todos no mundo podem se tornar imortais através deste"
-			]
+			description: ["A avenida do vapor se manifesta aqui", "Todos no mundo podem se tornar imortais através deste"]
 			icon: "gtceu:steam_bucket"
 			id: "410D898F86927828"
 			subtitle: "muito poderoso"
@@ -1006,7 +991,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Existem mais cinco combustíveis para foguetes"
+			title: "Mais cinco combustíveis para foguetes"
 			x: -11.5d
 			y: 1.0d
 		}
@@ -1244,7 +1229,7 @@
 			description: [
 				"Até 67108864A saída MÁXIMA"
 				""
-				"O armazém pode e só pode substituir a carcaça da máquina de alta energia &b&l&r(além de ambos os lados da máquina principal, há também quatro cantos na base)"
+				"O armazém pode e só pode substituir o invólucro da máquina de alta energia &b&l&r(além de ambos os lados da unidade principal, há também quatro cantos na base)"
 			]
 			id: "5CA04083FCFD26A8"
 			size: 1.0d
@@ -1259,18 +1244,7 @@
 		}
 		{
 			dependencies: ["44F827B28C513D5B"]
-			description: [
-				"Saída até 1A MAX, muito poderosa"
-				""
-				"A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia"
-				""
-				"Também possui um mecanismo de overclock:"
-				"{\"text\":\"Para o mecanismo específico, consulte a definição de overclocking sem perdas.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"}}"
-				"Substitua &b4x velocidade de receita&rpor &60,25x tempo de receita&r(incluindo multiplicação de caixas de manutenção configuráveis), consumo de energia &b&rcom &6geração de energia&r, &bcusto total de energia&rcom &6A geração total de energia&ré o mecanismo de overclock do gerador"
-				"O gerador fará overclock automaticamente de&rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo."
-				""
-				"Geradores com as palavras &b&loverclocking não perderão eficiência energética e&rna descrição possuem mecanismos de overclock."
-			]
+			description: ["Saída até 1A MAX, muito poderosa", "", "A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia", "", "Também possui um mecanismo de overclock:", "{ \"text\": \"Para mecanismos específicos, consulte a definição de overclocking sem perdas\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }", "Troque &bvelocidade de receita 4x&r por &6duração de receita 0.25x&r (incluindo a multiplicação da escotilha de manutenção configurável), &bconsumo de energia&r por &6potência gerada&r e &bcusto energético total&r por &6energia total gerada&r para obter a mecânica de overclock dos geradores.", "O gerador fará overclock automaticamente &rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo.", "", "Geradores com as palavras &boverclocking &lnão perderão eficiência energética e &rna descrição possuem um mecanismo de overclock."]
 			id: "7BBBF338330F4793"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1715,7 +1689,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Nafta"
+			title: "nafta"
 			x: -14.5d
 			y: -2.0d
 		}

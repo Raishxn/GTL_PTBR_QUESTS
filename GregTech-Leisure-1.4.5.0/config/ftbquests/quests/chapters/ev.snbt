@@ -350,7 +350,6 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["Talvez considere a pasta de gemas para produzir algum tipo de recurso"]
 			id: "4FD556B867463D30"
 			rewards: [{
 				id: "1FF9DBDFDD2696F0"
@@ -417,10 +416,7 @@
 		}
 		{
 			dependencies: ["759F26B57097602E"]
-			description: [
-				"Se você perceber que este pó pode ser obtido a partir de minerais, por favor, não procure."
-				"Este mineral é posteriormente obtido através de grandes máquinas de mineração de vazios ou elevadores espaciais."
-			]
+			description: ["Se você perceber que este pó pode ser obtido a partir de minerais, por favor, não procure.", "Este mineral é posteriormente obtido através de grandes máquinas de mineração de vazios ou elevadores espaciais."]
 			id: "3A8A37094C997BF8"
 			rewards: [{
 				id: "32F4ACB50913382B"
@@ -860,9 +856,9 @@
 				"25F272243EB904D5"
 			]
 			description: [
-				"Crie o gás correspondente por meio de simulação de dados em vez de absorver o gás na dimensão"
+				"Crie gases correspondentes analisando dados em vez de absorver gases em dimensões"
 				""
-				"Você também pode colocar um freezer a vácuo no barramento/entrada para obter ar líquido diretamente"
+				"Também pode ser colocado em um freezer a vácuo para obter ar líquido diretamente"
 			]
 			icon: "gtceu:large_gas_collector"
 			icon_scale: 2.0d
@@ -1163,9 +1159,7 @@
 			description: [
 				"Recomenda-se empacotar vários circuitos comumente usados ​​em placas de circuito comuns para facilitar a modificação posterior do modelo."
 				""
-				"Ao escrever o modelo, &6dará prioridade a&re a placa de circuito geral &b&rserá gravada no modelo."
-				""
-				"Devido ao problema de reconhecimento NBT de AE, o modelo de crafting &a&r&4com placa de circuito universal &6&rno material de crafting não deve ativar o modo substituível&r, caso contrário, haverá um problema de crafting travada."
+				"Ao escrever o modelo, &6dará prioridade a &re a placa de circuito geral &b&rserá gravada no modelo."
 			]
 			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
@@ -1191,17 +1185,17 @@
 			description: [
 				"Simplificando, o armazém retira itens da rede ME para seu próprio armazenamento interno e, em seguida, permite que a máquina use seus itens de armazenamento interno (na verdade, a interface ME)."
 				""
-				"O limite de pull &6do barramento/bin de entrada ME&ré aprimorado para &b9.2E/P"
+				"O limite superior de extração &6 do barramento/bin de entrada ME &r é aprimorado para &b9.2E/P"
 				""
-				"Use a memória flash &d&rpara salvar a configuração do warehouse e clique com o botão direito para aplicar a configuração."
+				"Use &d memória flash &r para salvar a configuração do warehouse e clique com o botão direito para aplicar a configuração."
 				""
-				"Use o cortador de fio &d&rpara clicar com o botão direito no armazém ME para alternar o armazém ME entre rede frontal e rede de qualquer lado."
+				"Use &d cortador de cabo&r para clicar com o botão direito no armazém ME para alternar o armazém ME entre rede frontal e rede de qualquer lado."
 				""
-				"O intervalo de extração &6&rpode ser ajustado no canto inferior esquerdo da interface do armazém. A exibição padrão é 0tick, o que significa que o intervalo de pull não é alterado. O &bmínimo é 1tick&r(afeta a velocidade de extração da rede ME)"
+				"Você pode ajustar o intervalo de extração &6 &r no canto inferior esquerdo da interface do armazém. A exibição padrão é 0tick, o que significa que o intervalo de pull não é alterado. &b é pelo menos 1tick&r (afeta a velocidade de extração da rede ME)"
 				""
 				"Todos os três armazéns de saída ME têm capacidade de longo nível e grades ilimitadas (produção uma vez por segundo, e o limite superior da produção de uma única máquina é &bint&r)"
 				""
-				"O conjunto de saída ME foi otimizado para melhor desempenho e pode &6manualmente&rejetar itens/fluido presos no conjunto para a rede ME"
+				"O conjunto de saída ME foi otimizado para melhor desempenho e pode &6 manualmente &r ejetar itens/fluidos presos no conjunto para a rede ME"
 			]
 			icon_scale: 1.5d
 			id: "733741C26C6BF5C3"

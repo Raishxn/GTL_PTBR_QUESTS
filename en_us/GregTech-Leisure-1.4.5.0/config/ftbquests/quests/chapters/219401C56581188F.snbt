@@ -81,7 +81,7 @@
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
-			description: ["You need 64 choir flowers"]
+			description: ["You need 64 chorus flowers"]
 			hide_dependent_lines: true
 			id: "34D6F0DF329B1877"
 			tasks: [{
@@ -148,7 +148,7 @@
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
-			description: ["Coil bonuses for large crackers, pyrolysis furnaces and petrochemical plants are already at their maximum value at this time."]
+			description: ["The coil bonuses for large crackers, pyrolysis furnaces and petrochemical plants are already at their maximum value at this point."]
 			icon_scale: 2.0d
 			id: "1AA874C1351E4A0D"
 			rewards: [{
@@ -163,7 +163,7 @@
 				item: "kubejs:adamantine_coil_block"
 				type: "item"
 			}]
-			title: "Fine Gold Coil"
+			title: "Fine gold coil"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -232,7 +232,7 @@
 		}
 		{
 			dependencies: ["7523FB4AAB1F89C3"]
-			description: ["I need some stone dust as starting capital"]
+			description: ["I need some stone powder as start-up capital"]
 			id: "61F8C5AA6DEB30D6"
 			tasks: [{
 				id: "78A6560A02FCD3E9"
@@ -262,9 +262,9 @@
 				"1AA874C1351E4A0D"
 			]
 			description: [
-				"Remember to upgrade the MK4 power module!"
+				"Remember to upgrade the power module MK4!"
 				""
-				"You can also make Configurable Gravity Sterile Maintenance Warehouse &6&r"
+				"You can also make&6configurable gravity sterile maintenance warehouse &r"
 			]
 			id: "6BB5ED6ECC43E30C"
 			tasks: [{
@@ -297,9 +297,9 @@
 				"7523FB4AAB1F89C3"
 				"34D6F0DF329B1877"
 			]
-			description: ["Superconductor &2UIV &r"]
+			description: ["&2UIV&rsuperconductor"]
 			id: "2641CC6BC33F6A31"
-			subtitle: "Very difficult"
+			subtitle: "Very hard"
 			tasks: [{
 				id: "2F9E606799202DC9"
 				item: "gtceu:echoite_ingot"
@@ -406,7 +406,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["Laser version of the supercritical crafting machine, which can also be equipped with a parallel control chamber"]
+			description: ["Laser version of the supercritical synthesis machine, which can also be equipped with a parallel control chamber"]
 			icon_scale: 2.0d
 			id: "33390417E8A0AB88"
 			optional: true
@@ -429,7 +429,6 @@
 			description: ["You can use gold magic plasma to make it, or you can use a supercritical crafting machine to make it."]
 			hide_dependent_lines: true
 			id: "369DCD1E26334632"
-			subtitle: "Component materials UIV"
 			tasks: [{
 				id: "1758AC8CF4E9EC2B"
 				item: "gtceu:attuned_tengam_ingot"
@@ -445,7 +444,7 @@
 			]
 			hide_dependent_lines: true
 			id: "348787ECA57EA11C"
-			subtitle: "a little complicated"
+			subtitle: "a bit complicated"
 			tasks: [{
 				id: "1C064C1F74BB23C2"
 				item: "gtceu:fullerene_polymer_matrix_pulp_dust"
@@ -577,7 +576,7 @@
 			hide_dependency_lines: true
 			icon: "gtceu:euv_photoresist_bucket"
 			id: "606C81F449ABCE5B"
-			subtitle: "a little complicated"
+			subtitle: "a bit complicated"
 			tasks: [{
 				id: "011EBE67C0D8E442"
 				title: "EUV photoresist"
@@ -731,7 +730,7 @@
 			id: "3968C254B6AC9B9D"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Highly efficient production of rock powder"
+			subtitle: "Highly efficient production of bedrock powder"
 			tasks: [{
 				id: "0F05C8DA47EB7768"
 				item: "gtceu:bedrock_drilling_rig"
@@ -747,7 +746,7 @@
 			icon_scale: 1.5d
 			id: "1C4D5D7786F64485"
 			shape: "rsquare"
-			subtitle: "Need to place the neutron nanoparticle colony"
+			subtitle: "Need to put in the neutron nanoparticle colony"
 			tasks: [{
 				id: "2EA2C34D0708CF9A"
 				item: "gtceu:nano_forge_2"
@@ -873,7 +872,7 @@
 				item: "kubejs:naquadriatictaranium_coil_block"
 				type: "item"
 			}]
-			title: "Super Energy Silica-Talan Coil"
+			title: "Super energy silica-Talan coil"
 			x: 13.0d
 			y: 5.0d
 		}
@@ -882,11 +881,7 @@
 				"6BB5ED6ECC43E30C"
 				"369DCD1E26334632"
 			]
-			description: [
-				"The laser version of the small OP comes with &d2.1 billion parallel cross recipes &r, very powerful"
-				""
-				"Keep an eye on your distilled water reserves"
-			]
+			description: ["The laser version of the small OP, with &d21 × 100 million cross-recipe parallel operations&r built in. Extremely powerful.", "", "Keep an eye on your distilled water reserves"]
 			icon_scale: 2.0d
 			id: "0991031579C4CAA7"
 			optional: true
@@ -924,7 +919,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["The laser version of the fluid heater uses a parallel temperature mechanism. Each time the temperature increases by 900K, the number of parallels is ×2 and has cross-recipe parallelism."]
+			description: ["The laser version of the fluid heater uses a temperature parallel mechanism. Every time the temperature increases by 900K, the number of parallels is ×2, and it has cross-recipe parallelism."]
 			icon_scale: 2.0d
 			id: "3F99F904B7B94324"
 			optional: true
@@ -1008,26 +1003,6 @@
 			}]
 			x: 14.0d
 			y: 4.0d
-		}
-		{
-			id: "788621675279AC20"
-			optional: true
-			rewards: [{
-				command: "/locate structure minecraft:ancient_city"
-				elevate_perms: true
-				icon: "minecraft:warden_spawn_egg"
-				id: "38C944D8B95E71FE"
-				title: "Quickly locate ancient cities"
-				type: "command"
-			}]
-			size: 0.5d
-			tasks: [{
-				id: "6A524513170EB8B1"
-				type: "checkmark"
-			}]
-			title: "If you are too lazy to draw"
-			x: 10.5d
-			y: -3.5d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

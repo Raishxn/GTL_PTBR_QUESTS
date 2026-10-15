@@ -78,11 +78,11 @@
 		}
 		{
 			description: [
-				"O padrão é &6M&rpara abrir o mapa. Pressione &6T&rpara se teletransportar para o local apontado pelo mouse. Clique no ícone do globo no canto inferior esquerdo para alterar as dimensões."
+				"Padrão &6M &rAbra o mapa, pressione &6T &rpara se teletransportar para o local apontado pelo mouse, clique no ícone do globo no canto inferior esquerdo para mudar as dimensões"
 				""
-				"Você pode reivindicar e carregar blocos no canto superior esquerdo da interface (os blocos reivindicados podem ser à prova de explosão). Se você estiver em um servidor, defina o modo de carregamento forçado &6&rnas configurações do servidor (engrenagem roxa) do pedaço ftb para &bsempre&r, o que permite que o servidor carregue blocos carregados à força mesmo se ninguém estiver online."
+				"Você pode reivindicar e carregar blocos no canto superior esquerdo da interface (os blocos reivindicados podem ser à prova de explosão). Se você estiver em um servidor, defina o modo de carregamento forçado &6&rnas configurações do servidor (engrenagem roxa) do bloco ftb para &bsempre &r, o que permite que o servidor carregue blocos carregados à força mesmo se ninguém estiver online."
 				""
-				"Pressione e segure as teclas &6~&rpara ativar a cadeia"
+				"Pressione e segure as teclas &6~ &rpara ativar a cadeia"
 				""
 				"No canto superior direito da interface de tarefas, clique no terceiro botão de cima para baixo para visualizar as teclas de atalho na interface de tarefas."
 				""
@@ -94,7 +94,7 @@
 				""
 				"Se a versão GregTech não corresponder quando estiver online, certifique-se de que os arquivos de configuração no servidor e no cliente sejam consistentes."
 				""
-				"Mais dicas podem ser encontradas no grupo de capítulos Dicas e Truques do &d&r"
+				"Mais dicas podem ser encontradas no grupo de capítulos Dicas e Truques &d&r"
 			]
 			hide_dependent_lines: true
 			icon: "ftbquests:book"
@@ -122,7 +122,7 @@
 				""
 				"Você pode usar o teletransporte do mapa, ajustar as regras do jogo, etc., conforme achar necessário."
 				""
-				"{\"text\":\"O mais importante é que GregTech terá receitas muito complexas e você precisa primeiro ter proficiência no uso do JEI.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"575A2A1E4F56FF34\"}}"
+				"{ \"text\": \"Mais importante ainda, GregTech terá receitas muito complexas e você precisa primeiro ser proficiente no uso de JEI.\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"575A2A1E4F56FF34\" } }"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
@@ -145,22 +145,22 @@
 				"Um pacote de integração GregTech com foco no casual (casual é menos difícil do que outros pacotes Graytech)"
 				""
 				"Processo principal"
-				"Steam &8ULV&r: Colete recursos básicos, máquinas a vapor maiores e mais poderosas, siderurgia e forjas terrestres ultradimensionais."
-				"Baixa tensão &7LV&r: máquina elétrica básica, alto-forno elétrico."
-				"Média Tensão &bMV&r: Cristal de Silício, Processamento de Petróleo, Máquina Atualizada."
-				"Alta tensão &6HV&r: processador, grande reator químico, foguete de primeiro estágio para a lua, torre de destilação, titânio."
-				"Tensão ultra-alta &5EV&r: Nanoprocessador, máquina de mineração vazia, foguete de segundo, terceiro e quarto estágio, tungstênio, metais da série platina."
-				"Guia de pressão forte &9IV&r: Processador quântico, forno de fundição de liga, reator de fissão, foguete de quinto estágio, máquina grande, linha de montagem, banco de dados."
-				"Pressão diferencial dramática &dLuV&r: processador de cristal, sílica, foguete de sexto estágio, fusão nuclear MK1, computador."
-				"Pressão de ponto zero &cZPM&r: processador wetware, fusão nuclear MK2, foguete de sétimo estágio."
-				"Pressão Extrema &3UV&r: Processador biologicamente ativo, fusão nuclear MK3, twister químico profundo, linha de montagem de circuito, elevador espacial."
-				"Pressão extremamente alta &4UHV&r: processador óptico, fusão nuclear MK4, forja estelar, super bomba de sílica, super reator."
-				"Sobrepressão Extrema &aUEV&r: Processador Estranho, Fusion MK5, Síntese Supercrítica, Processamento de Bedrock, Adamantita."
-				"Pressão extrema &2UIV&r: Processador universal, detecção cósmica, gerador de massa, quarks, elementos superpesados."
-				"Pressão extremamente alta &eUXV&r: Processador super causal, dragão, neutrônio cósmico, infinito, forja de plasma ultradimensional, Lado X."
-				"Tensão de sobrecarga &1OpV&r: Circuito hiper-tempo e espaço, simulação de universo, tempo e espaço, singularidade, eternidade."
-				"Pressão limite superior &cMAX&r: Criar crafting de item."
-				"Pergunta adicional &cM&r&aA&r&9X&r&e+&r: O peixe é grande."
+				"Steam &8ULV &r: Colete recursos básicos, máquinas a vapor maiores e mais poderosas, siderurgia e forjas terrestres extradimensionais."
+				"Baixa tensão &7LV &r: máquina elétrica básica, alto-forno elétrico."
+				"Média Tensão &bMV &r: Cristal de Silício, Processamento de Petróleo, Máquina Atualizada."
+				"Alta tensão &6HV &r: processador, grande reator químico, foguete de primeiro estágio para a lua, torre de destilação, titânio."
+				"Tensão ultra-alta &5EV &r: nanoprocessador, máquina de mineração vazia, foguete de segundo, terceiro e quarto estágio, tungstênio, metais da série platina."
+				"Guia de pressão forte &9IV &r: Processador quântico, forno de fundição de liga, reator de fissão, foguete de quinto estágio, máquina grande, linha de montagem, banco de dados."
+				"Pressão diferencial dramática &dLuV &r: processador de cristal, sílica, foguete de sexto estágio, fusão nuclear MK1, computador."
+				"Pressão de ponto zero &cZPM &r: processador wetware, fusão nuclear MK2, foguete de sétimo estágio."
+				"Pressão Extrema &3UV &r: Processador Bioativo, Fusão Nuclear MK3, Twister Químico Profundo, Linha de Montagem de Circuito, Elevador Espacial."
+				"Tensão ultra-alta &4UHV &r: processador óptico, fusão nuclear MK4, forja estelar, super bomba de sílica, super reator."
+				"Sobrepressão Extrema &aUEV &r: Processador Estranho, Fusion MK5, Síntese Supercrítica, Processamento de Bedrock, Adamantita."
+				"Pressão Extrema &2UIV &r: Processador universal, detecção cósmica, gerador de massa, quarks, elementos superpesados."
+				"Pressão Extrema &eUXV &r: Processador Super Causal, Dragão, Neutrônio Cósmico, Infinito, Forja de Plasma Ultradimensional, Lado X."
+				"Tensão de sobrecarga &1OpV &r: Circuito hiper-tempo e espaço, simulação de universo, tempo e espaço, singularidade, eternidade."
+				"Pressão limite superior &cMAX &r: Criar síntese de item."
+				"Pergunta adicional &cM &r&aA &r&9X &r&e+ &r: Peixe grande."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:structure_void"
@@ -277,32 +277,19 @@
 			}
 			id: "525ED642C7A365D1"
 			optional: true
-			rewards: [
-				{
-					command: "/effect give @p minecraft:night_vision infinite 0 true"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					icon: {
-						Count: 1
-						id: "gtceu:nightvision_goggles"
-						tag: { }
-					}
-					id: "08BEFC60D3DA3529"
-					title: "veja através da escuridão"
-					type: "command"
+			rewards: [{
+				command: "/effect give @p minecraft:night_vision infinite 0 true"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "gtceu:nightvision_goggles"
+					tag: { }
 				}
-				{
-					auto: "invisible"
-					command: "/effect clear @p minecraft:night_vision"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					icon: "gtceu:milk_bucket"
-					id: "53A6BC3530F811BE"
-					silent: true
-					title: "Limpe automaticamente o efeito de visão noturna original para evitar bugs, apenas ignore-o"
-					type: "command"
-				}
-			]
+				id: "08BEFC60D3DA3529"
+				title: "veja através da escuridão"
+				type: "command"
+			}]
 			tasks: [{
 				id: "0F388023136A8A7C"
 				title: "Obtenha visão noturna"
@@ -314,7 +301,7 @@
 		{
 			dependencies: ["77DF4A561164B530"]
 			description: [
-				"Clicar com o botão direito em Obsidian com as mãos nuas pode ir para o mundo vazio. Chorar Obsidian pode ir para o mundo superplano. As coordenadas X e Z são transferidas para as coordenadas mundiais principais x100."
+				"Clicar com o botão direito em Obsidian com as mãos nuas pode ir para o mundo vazio. Chorar Obsidian pode ir para o mundo superplano. As coordenadas X e Z são transferidas para a coordenada mundial principal x100."
 				"(Alguns fenômenos de distância estranhos ocorrerão se você estiver muito longe de (0, ~, 0). Recomenda-se evitar esta situação)"
 				""
 				"Os mundos Void e Super Flat estão bloqueados no tempo, não gerarão monstros e não choverão (mas ainda serão afetados pelo clima no mundo principal, como os mundos Void e Super Flat ficarão nublados quando chover no mundo principal), com um limite de altura de 511"
@@ -513,25 +500,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "134DA9B09434EE22"
-					item: {
-						Count: 1
-						id: "gtceu:polybenzimidazole_plunger"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								Enchantability: 10
-								MaxDamage: 1023
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
 			]
 			tasks: [
 				{
@@ -631,19 +599,11 @@
 			dependencies: ["133BC85B5D3EF1CB"]
 			description: ["Principais materiais da era do vapor"]
 			id: "4B6F43302E963F5E"
-			rewards: [
-				{
-					id: "45521EDF902431C8"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "72E40163E169A592"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "45521EDF902431C8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57C6A23ADA9034AA"
 				item: "gtceu:bronze_ingot"
@@ -731,7 +691,7 @@
 			description: [
 				"Moedas de ouro antigas podem ser trocadas por tesouros no pequeno mercado"
 				""
-				"O diamante é o rei da resistência à queima e é recomendado para caldeiras"
+				"O diamante é o rei da resistência à queima e é recomendado para uso em caldeiras"
 			]
 			id: "2E6B876A85B30554"
 			rewards: [{
@@ -775,19 +735,12 @@
 			description: ["Use uma bigorna para atualizar"]
 			id: "0A047A198C30D7FD"
 			optional: true
-			rewards: [
-				{
-					count: 7
-					id: "0E8E94B52A21BFCA"
-					item: "toolbelt:pouch"
-					type: "item"
-				}
-				{
-					id: "6BB7B6C2BB52BAC1"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-			]
+			rewards: [{
+				count: 7
+				id: "0E8E94B52A21BFCA"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A23943381FB2DC4"
 				item: "toolbelt:belt"
@@ -1398,12 +1351,12 @@
 		{
 			description: [
 				"Mova o mouse para um item! (Mochila, barra de pesquisa à direita, em jei)"
-				"Pressione &6R&rpara ver a crafting &b&r!!!"
-				"Pressione &6U&rpara ver &busa&r!!!"
+				"Pressione &6R &rpara ver a síntese &b&r!!!"
+				"Pressione &6U &rpara visualizar o uso de &b&r!!!"
 				""
 				"Depois de abrir a interface, há duas linhas com setas."
-				"A primeira linha e o ícone superior podem alternar as ferramentas de crafting (clique no texto nesta linha para visualizar todas as tabelas de crafting desta forma)"
-				"A segunda linha pode ser girada (muitos itens possuem um grande número de métodos de crafting, navegue com atenção)"
+				"A primeira linha e o ícone superior podem alternar as ferramentas de síntese (clique no texto nesta linha para visualizar todas as tabelas de síntese desta forma)"
+				"A segunda linha pode ser girada (muitos itens possuem um grande número de métodos de síntese, navegue com atenção)"
 			]
 			hide_dependent_lines: true
 			icon: "kubejs:rotating_transparent_surface"
@@ -1480,7 +1433,6 @@
 				"O número de estruturas repetidas é adequado para estruturas multibloco que podem ser empilhadas em múltiplas camadas, como torres de destilação. Simplificando, quanto maior o número, mais longa será a estrutura."
 			]
 			id: "1A124E85453923DF"
-			optional: true
 			rewards: [{
 				id: "17FC55AEB50BEEE0"
 				item: "gtceu:cupronickel_credit"
@@ -1499,16 +1451,16 @@
 				"Esta é uma má notícia, você veio para um mundo fragmentado,"
 				"Este mundo não está completo, tornou-se em fragmentos."
 				"Mas deixei algumas guloseimas para você que o ajudarão a continuar sua jornada."
-				"Salve-os, &l&d&oSão todos necessários!!!&r&r&r"
+				"Salve-os, &l&d&oTodos são necessários!!! &r&r&r"
 				""
 				"Dicas necessárias:"
 				"O que é isso! Modo ilha do céu!"
-				"Somente se você selecionou &bSky Island&rao criar o mundo"
+				"Somente se você selecionou &bSky Island &rao criar o mundo"
 				"Esta tarefa pode ser realizada"
 				"Você precisa clicar no módulo &b&rna interface do menu do jogo."
-				"Pesquise &bgtlcore&r, clique em &bpara configurar&r,"
-				"Altere a configuração do modo ilha &b&rde &bfalso&rpara &bverdadeiro&r"
-				"Após concluir as etapas acima, &6reinicie o jogo&r. O conteúdo da configuração não suporta recarregamento a quente."
+				"Pesquise &bgtlcore &r, clique em &bpara configurar &r,"
+				"Altere a configuração do modo ilha &b&rde &bfalso &rpara &bverdadeiro &r"
+				"Depois de concluir as etapas acima, &6reinicie o jogo &r. O conteúdo da configuração não suporta recarregamento a quente."
 				"É assim que você realmente entra no modo ilha. Se você quiser experimentar o modo normal, basta voltar ao modo e criar um novo arquivo salvo."
 				"Veja a próxima página para o processo de configuração do servidor da versão sky island."
 				""
@@ -1666,9 +1618,9 @@
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
 			description: [
-				"Você pode clicar com o botão direito do mouse no ponto de acesso sem fio &6&rda AE para vincular a rede ME (você também pode colocá-lo diretamente nela), chamando diretamente os itens de inventário da rede ME"
+				"Você pode clicar com o botão direito do mouse no ponto de acesso sem fio &6da AE &rpara vincular a rede ME (você também pode colocá-lo diretamente nela), chamando diretamente os itens de inventário da rede ME"
 				""
-				"Ao utilizar a ferramenta de cisalhamento, tente não girar &cou&r, caso contrário parte do bloco será perdida."
+				"Ao usar a ferramenta de cisalhamento, tente não girar &cou &r, caso contrário parte do bloco será perdida."
 				""
 				"Armazéns de energia/energia/laser sem fio colocados/copiados diretamente usando essas ferramentas precisam ser vinculados manualmente à rede sem fio clicando com o botão direito na memória flash, caso contrário, esses armazéns não interagirão com a rede sem fio (ou seja, sem energia ou totalmente carregados)"
 			]
@@ -1786,11 +1738,7 @@
 		}
 		{
 			dependencies: ["4AB25C15F0B05AA0"]
-			description: [
-				"{\"text\":\"Você já deve saber como usá-lo\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"262671AC71B36736\"}}"
-				"{@pagebreak}"
-				"Pode causar acidente"
-			]
+			description: ["{ \"text\": \"Você já deve saber como usá-lo\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }", "", "Clique com o botão direito em um bloco diferente do controlador multibloco para alternar entre os modos espelhado e normal. &mA dica do item está incorreta.", "{@pagebreak}", "Clique com o botão direito nos blocos que não sejam o host da estrutura multibloco para alternar entre o modo de espelhamento e o modo normal. As informações na dica de ferramenta &mestão erradas."]
 			id: "1D93602C5835593F"
 			optional: true
 			rewards: [{
@@ -1809,9 +1757,9 @@
 		}
 		{
 			description: [
-				"&6Isolamento de barramento&rno conjunto de entrada &bitens de isolamento&r, aberto no bloco principal multibloco GUI &6isolamento total&rhabilita &bisolamento de fluido&r"
+				"Isolamento de barramento &6&rno conjunto de entrada Itens de isolamento &bSomente &r, aberto no bloco principal multibloco GUI &6isolamento completo &rhabilitar isolamento de fluido &b&r"
 				""
-				"Nota: Quando o isolamento total estiver habilitado, &dcobrirá o isolamento&rde todos os conjuntos, ou seja, cada conjunto está em um estado de isolamento de item e fluido."
+				"Nota: Quando o isolamento completo estiver habilitado, &dcobrirá o isolamento &rde todas as montagens, ou seja, cada montagem está em um estado de isolamento de item e fluido."
 				"{@pagebreak}"
 				"Se você atualizou de uma versão antiga, remova todos os assemblies de entrada e coloque-os novamente, caso contrário o isolamento poderá falhar."
 			]
@@ -1897,7 +1845,7 @@
 		}
 		{
 			dependencies: ["1D93602C5835593F"]
-			description: ["{\"text\":\"Você já deve saber como usá-lo\",\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"516564DCEA7FA80B\"}}"]
+			description: ["{ \"text\": \"Você já deve saber como usá-lo\", \"underlined\": \"true\", \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"516564DCEA7FA80B\" } }"]
 			id: "13371F3E8D27310F"
 			optional: true
 			rewards: [{
@@ -1916,7 +1864,7 @@
 		{
 			dependencies: [
 				"1A124E85453923DF"
-				"027197A71E630966"
+				"40C39645B1DE2488"
 			]
 			description: [
 				"Com base no terminal avançado, &bé compatível com a substituição da bobina&r, módulo de potência do elevador espacial, invólucro da linha de montagem de componentes e contêiner térmico estelar (clique no texto \"Bloco de nível\" com o mouse para abrir a interface de seleção do bloco de nível)"
@@ -1928,12 +1876,10 @@
 				"Ele também suporta a desmontagem com um clique da estrutura multibloco &d&r(ativar o modo AE retornará diretamente à rede ME. Ao não ligá-lo, é recomendável carregar uma mochila e outros recipientes; somente o modo AE pode reciclar fluido)"
 			]
 			id: "3F8DDC1B589F52AC"
-			optional: true
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "59FDA77962C18357"
-				table_id: 6225023274141477362L
-				type: "random"
+				id: "7878F01FAAB84253"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
 			}]
 			shape: "pentagon"
 			tasks: [{

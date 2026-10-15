@@ -55,9 +55,9 @@
 		{
 			dependencies: ["58CA7CA601F675BA"]
 			description: [
-				"Epoxy resin is a polymeric compound with structural characteristics of an epoxy group (-O-). It is generally a high-performance thermosetting plastic formed by the reaction of epoxy monomer and curing agent. Epoxy resin has good mechanical properties, electrical insulation properties, chemical stability and bonding properties, and is widely used in coatings, adhesives, electronic packaging, construction reinforcement, composite materials and other fields."
+				"Epoxy resin is a polymer compound with the structural characteristics of an epoxy group (-O-). It is usually a high-performance thermosetting plastic formed by the reaction of epoxy monomer and curing agent. Epoxy resin has good mechanical properties, electrical insulation properties, chemical stability and bonding properties, and is widely used in coatings, adhesives, electronic packaging, building reinforcement, composite materials and other fields."
 				""
-				"Steam cracking of naphtha to obtain propylene is recommended (of course it would be better if your petrochemical production line was fully built)"
+				"It is recommended to steam crack naphtha to obtain propylene (of course it would be best if your petrochemical production line is completely built)"
 			]
 			id: "10CD26CBAC242280"
 			rewards: [{
@@ -195,7 +195,7 @@
 				"5F11D5C61F8897B9"
 				"3461BF0D74E5E8DF"
 			]
-			description: ["Can be connected to the general assembly plant (this can be enhanced by double warehouses)"]
+			description: ["It can be plugged into the general assembly plant (this one can be boosted by dual warehouses)"]
 			id: "413B25F5BA2BA39D"
 			rewards: [{
 				id: "00E2A12C21199267"
@@ -350,7 +350,6 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["Maybe consider the gem folder to produce some kind of resource"]
 			id: "4FD556B867463D30"
 			rewards: [{
 				id: "1FF9DBDFDD2696F0"
@@ -417,10 +416,7 @@
 		}
 		{
 			dependencies: ["759F26B57097602E"]
-			description: [
-				"If you notice that this powder can be obtained from minerals, please don't look for it."
-				"This mineral is later obtained through large void mining machines or space elevators."
-			]
+			description: ["If you see that this powder can be obtained from minerals, please don’t look for it", "This mineral is later obtained through large void mining machines or space elevators."]
 			id: "3A8A37094C997BF8"
 			rewards: [{
 				id: "32F4ACB50913382B"
@@ -590,7 +586,7 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			title: "Ruthenium Molybdenum Tungsten Alloy Coil"
+			title: "Ruthenium tungsten molybdenum alloy coil"
 			x: 16.0d
 			y: 4.0d
 		}
@@ -912,7 +908,7 @@
 		}
 		{
 			dependencies: ["4C43D30FD9B89965"]
-			description: ["You can start making 64A energy warehouse"]
+			description: ["You can start making the 64A energy warehouse"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "31C3D49708342998"
@@ -988,7 +984,7 @@
 			id: "7DD918C8416C6C63"
 			tasks: [{
 				id: "58D4A11DCEC97B63"
-				title: "no serious condition"
+				title: "no gravity condition"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1161,11 +1157,9 @@
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: [
-				"It is recommended to package several commonly used circuits on common circuit boards to facilitate later model modification."
+				"It is recommended to package various commonly used circuits into common circuit boards to facilitate later modification of the template."
 				""
-				"When writing the model, &6will give priority to &r, and the general circuit board &b&rwill be written to the model."
-				""
-				"Due to the NBT recognition problem of AE, the crafting model &a&r&4with universal circuit board &6&rin the crafting material must not activate the replaceable mode &r, otherwise there will be a stuck crafting problem."
+				"When writing the template,&6will give priority to&rand&bgeneral circuit board&rwill be written into the template."
 			]
 			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
@@ -1253,7 +1247,7 @@
 			id: "42CEF4F4DFBEAA3D"
 			optional: true
 			shape: "rsquare"
-			subtitle: "Integrated simulated sunlight"
+			subtitle: "Built-in simulated sunlight"
 			tasks: [{
 				id: "6CD8E0DD0FCF56B5"
 				item: "gtceu:large_greenhouse"

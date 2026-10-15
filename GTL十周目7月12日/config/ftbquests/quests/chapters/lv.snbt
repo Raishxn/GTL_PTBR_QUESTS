@@ -67,16 +67,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7CB85061F0822830", "553B2D61416792DC"]
-			description: [
-				"Recomenda-se a leitura dos dois capítulos “Eletricidade” e “Máquina” ao jogar pela primeira vez."
-				""
-				"&lGerar eletricidade é muito simples neste modpack."
-				""
-				"&b• Do estágio LV ao ZPM, o absorvedor de energia mágica é sua melhor escolha."
-				"&b• Transição constante para o estágio do reator de sílica e mais alguns."
-				"&b• Continuar a transição para super reatores, para estrelas artificiais e, finalmente, para o coração do universo."
+			dependencies: [
+				"7CB85061F0822830"
+				"553B2D61416792DC"
 			]
+			description: ["&l &a Recomenda-se navegar pelos dois capítulos \"Eletricidade\" e \"Máquina\" pela primeira vez jogando.", "", "&lGerar eletricidade é muito simples neste modpack.", "", "&b • Do estágio LV ao ZPM, o absorvedor de energia mágica é sua melhor escolha.", "&b • Transição constante para o estágio do reator de sílica e mais alguns.", "&b • Continuar a transição para super reatores, para estrelas artificiais e, finalmente, para o coração do universo."]
 			icon: "kubejs:lv_universal_circuit"
 			id: "51B9A72C19F84F0E"
 			rewards: [
@@ -93,13 +88,11 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "13DADE13289E59D0"
-					title: "Baixa tensão BT"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "13DADE13289E59D0"
+				title: "Baixa tensão BT"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -4.0d
 		}
@@ -124,13 +117,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "588BCA87500214EF"
-					item: "gtceu:lv_wiremill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "588BCA87500214EF"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -155,13 +146,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "137AFD6CB3927548"
-					item: "gtceu:lv_bender"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "137AFD6CB3927548"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 0.0d
 		}
@@ -185,13 +174,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "57EDE3A779842162"
-					item: "gtceu:lv_lathe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57EDE3A779842162"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -216,13 +203,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "3DA43E9650F117DD"
-					item: "gtceu:lv_polarizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DA43E9650F117DD"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -232,13 +217,7 @@
 				"198ED0A20800F3ED"
 				"20F6BF1EDC6EBDC1"
 			]
-			description: [
-				"Você precisa colocar dois compartimentos de energia &7LV &rno alto-forno para impulsionar o alto-forno para &bMV &rpara que ele possa executar &o&6&bMV &r&o&6's receita &r(Um exemplo de conversão de energia a relação entre as tensões é a seguinte: 4A LV = 1A MV e assim por diante)"
-				""
-				"Além da tensão, o funcionamento da receita não depende muito da bobina, mas da capacidade térmica / temperatura do alto-forno elétrico!"
-				""
-				"&l· &fusa o armazém de manutenção configurável &aRipper 2.0 da linha de produção &fcom o armazém de energia da rede elétrica de alta segurança &a&f, que pode satisfazer totalmente a compensação paralela e obter efeitos paralelos em lote."
-			]
+			description: ["&l · &f Coloque dois compartimentos de energia &7 LV &f no alto-forno elétrico para aumentar a tensão para &b MV &f, executando assim a fórmula &b MV &f (relação de conversão de tensão: 4A LV = 1A MV e assim por diante)", "", "&l·&fA possibilidade de executar a receita depende da &6capacidade térmica/temperatura&f do alto-forno elétrico, e não das bobinas.", "", "&l · &f usa o rasgador de linha de produção &a 2.0 com armazém de manutenção configurável &f e &a armazém de energia de rede elétrica de alta segurança &f, que pode receber compensação paralela completa e obter efeitos paralelos de lote"]
 			icon_scale: 1.3d
 			id: "07D0D7005DA4F446"
 			rewards: [
@@ -261,18 +240,19 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0BAFA129FC209B2A"
-					item: "gtceu:electric_blast_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BAFA129FC209B2A"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3117BF8E4782DB2A", "553B2D61416792DC"]
+			dependencies: [
+				"3117BF8E4782DB2A"
+				"553B2D61416792DC"
+			]
 			description: ["Este é o bloco que alimenta a estrutura multibloco"]
 			icon_scale: 1.3d
 			id: "32CE144D9A9F0943"
@@ -291,13 +271,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "66CE417A92BDA931"
-					item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66CE417A92BDA931"
+				item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.0d
 		}
@@ -343,12 +321,10 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "55818A0E7052B32C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "55818A0E7052B32C"
+				type: "checkmark"
+			}]
 			title: "alguns armazéns"
 			x: 4.0d
 			y: 2.0d
@@ -381,17 +357,12 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "seu primeiro conjunto de bobinas"
-			tasks: [
-				{
-					count: 16L
-					id: "022D8EB7519F65E1"
-					item: {
-						Count: 16
-						id: "gtceu:cupronickel_coil_block"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "022D8EB7519F65E1"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
 			title: "bobina de cobre branco"
 			x: -2.0d
 			y: 4.0d
@@ -422,13 +393,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Não consigo montar o circuito"
-			tasks: [
-				{
-					id: "0A32B247C01822D2"
-					item: "gtceu:lv_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A32B247C01822D2"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -490,13 +459,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1B0AD5C6137AEFCE"
-					item: "gtceu:cupronickel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B0AD5C6137AEFCE"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 6.0d
 		}
@@ -518,15 +485,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:tin_alloy"
-					id: "3781D8803CEA425B"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:tin_alloy"
+				id: "3781D8803CEA425B"
+				type: "fluid"
+			}]
 			title: "liga líquida de estanho-ferro"
 			x: -4.0d
 			y: 2.0d
@@ -555,18 +520,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1CB9DD3F4D92C8FD"
-					item: "gtceu:invar_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CB9DD3F4D92C8FD"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0CF19CAFB3355075", "7CC28185463F24C2"]
+			dependencies: [
+				"0CF19CAFB3355075"
+				"7CC28185463F24C2"
+			]
 			id: "7F9F473B8C508676"
 			rewards: [
 				{
@@ -581,13 +547,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "75A397E09A1E76A7"
-					item: "gtceu:cupronickel_double_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75A397E09A1E76A7"
+				item: "gtceu:cupronickel_double_wire"
+				type: "item"
+			}]
 			title: "Fio de cobre branco"
 			x: -2.0d
 			y: 6.0d
@@ -608,13 +572,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1CC54740C4BEE22C"
-					item: "gtceu:bronze_foil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CC54740C4BEE22C"
+				item: "gtceu:bronze_foil"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -639,13 +601,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2FE273B543714BD1"
-					item: "gtceu:lv_electrolyzer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FE273B543714BD1"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -2.0d
 		}
@@ -667,18 +627,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2E83C5426C90F1A6"
-					item: "gtceu:aluminium_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E83C5426C90F1A6"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["73EFFB71A1A827D6", "3F38CC8C8D650202"]
+			dependencies: [
+				"73EFFB71A1A827D6"
+				"3F38CC8C8D650202"
+			]
 			id: "11B60450D7F3C188"
 			rewards: [
 				{
@@ -695,18 +656,19 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "298A039260B352D6"
-					item: "gtceu:aluminium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "298A039260B352D6"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["0877362A9EE36FB3", "006BBE4D312A2E2E"]
+			dependencies: [
+				"0877362A9EE36FB3"
+				"006BBE4D312A2E2E"
+			]
 			id: "7D399E31506924A0"
 			rewards: [
 				{
@@ -724,13 +686,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Seu primeiro circuito MT"
-			tasks: [
-				{
-					id: "0F9DE31D5976C043"
-					item: "gtceu:good_electronic_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0F9DE31D5976C043"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -738,23 +698,19 @@
 			dependencies: ["7D399E31506924A0"]
 			description: ["Este é um circuito MV barato"]
 			id: "40C39645B1DE2488"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "25C6770E1DDF86CC"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25C6770E1DDF86CC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "348825C79AD479CA"
-					item: "kubejs:elite_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "348825C79AD479CA"
+				item: "kubejs:elite_control_circuit"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -776,18 +732,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "395F73DF4EA428B0"
-					item: "gtceu:phenolic_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "395F73DF4EA428B0"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["3A97E85643D2F8AC", "1BF78ABAD1FF993F"]
+			dependencies: [
+				"3A97E85643D2F8AC"
+				"1BF78ABAD1FF993F"
+			]
 			description: ["Você pode usar a reação química posteriormente para torná-la mais eficiente."]
 			id: "006BBE4D312A2E2E"
 			rewards: [
@@ -803,13 +760,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4E8A56A18EA1888B"
-					item: "gtceu:phenolic_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4E8A56A18EA1888B"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -829,18 +784,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5D16B78D90582E29"
-					item: "gtceu:silver_single_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D16B78D90582E29"
+				item: "gtceu:silver_single_wire"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["6D63FB02A50F8249", "06F767F4EFFD5DC6"]
+			dependencies: [
+				"6D63FB02A50F8249"
+				"06F767F4EFFD5DC6"
+			]
 			description: ["Pode ser feito de pastilhas de silício e polietileno posteriormente"]
 			id: "0877362A9EE36FB3"
 			rewards: [
@@ -856,19 +812,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "632999DA643003E5"
-					item: "gtceu:diode"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "632999DA643003E5"
+				item: "gtceu:diode"
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["075D368E91231337"]
-			description: ["{ \"text\": \"A fonte inicial do pó de gálio era a esfalerita térmica\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }", ""]
+			description: ["&lUma fonte inicial de pó de gálio é a &desfalerita bruta&9 (centrífuga com circuito 3).", "&lUma fonte inicial de pó de arsênio é o &6realgar bruto&9 (centrífuga com circuito 3)."]
 			id: "6D63FB02A50F8249"
 			rewards: [
 				{
@@ -883,13 +837,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3DBD74652FB4B8BF"
-					item: "gtceu:gallium_arsenide_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DBD74652FB4B8BF"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -4.0d
 		}
@@ -920,13 +872,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "4F2FF11089D97406"
-					item: "gtceu:lv_arc_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F2FF11089D97406"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -4.0d
 		}
@@ -947,13 +897,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "06EC3C1BF7D124CB"
-					item: "gtceu:magnetic_steel_rod"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "06EC3C1BF7D124CB"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.0d
 		}
@@ -980,19 +928,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0C8DEF275C16A96E"
-					item: "gtceu:annealed_copper_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0C8DEF275C16A96E"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			can_repeat: false
-			dependencies: ["54034055F57DDAA5", "49ABB341017BAE85"]
+			dependencies: [
+				"54034055F57DDAA5"
+				"49ABB341017BAE85"
+			]
 			icon_scale: 1.3d
 			id: "388E5C1034C54D19"
 			rewards: [
@@ -1010,13 +959,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "08CFFDE3C82C9FCF"
-					item: "gtceu:mv_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "08CFFDE3C82C9FCF"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
@@ -1037,13 +984,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4B0294376308A36D"
-					item: "gtceu:copper_single_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B0294376308A36D"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.0d
 		}
@@ -1063,27 +1008,20 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "20A2D5C286E8A31E"
-					item: "gtceu:aluminium_plate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20A2D5C286E8A31E"
+				item: "gtceu:aluminium_plate"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["27A9D4E765101CB9", "5D4ADE3F2E57635C"]
-			description: [
-				"Use pó de enxofre e pó de borracha bruta para reagir em um reator químico. Você também pode usar um forno de fundição a vapor para fazer tiras de borracha e depois extraí-las."
-				""
-				"O balde de baleias no oceano pode ser utilizado como uma unidade fluida com 2,1 MB por slot e slots quase ilimitados (pode consumir toda a energia da rede ME ao interagir com a rede ME); clique com o botão direito no ar para trocar fluidos"
-				""
-				"&l· &bO barril de baleias engolindo o oceano &f"
-				"&l&f- A capacidade de slot de cada grade é &62,1 MB &f. O número de slots é extremamente grande e pode ser considerado como uma unidade fluida infinita."
-				"&l&f- Clique com o botão direito no ar para alternar entre diferentes fluidos"
+			dependencies: [
+				"27A9D4E765101CB9"
+				"5D4ADE3F2E57635C"
 			]
+			description: ["&l · &f Existem duas maneiras de fazer tiras de borracha:", "&l &f - Use pó de enxofre &6 &f e pó de borracha bruta &6 &f para reagir no reator químico &b &f", "&l &f - Extraia usando a tira de borracha &b &f ou a tira de borracha &b &f", "", "&l · &b O barril de baleias engolindo o oceano &f", "&l &f - A capacidade de slot de cada grade é &6 2.1MB &f. O número de slots é extremamente grande e pode ser considerado como uma unidade fluida infinita.", "&l &f - Clique com o botão direito no ar para alternar entre diferentes fluidos"]
 			id: "35F31D71CC8B67CF"
 			rewards: [
 				{
@@ -1098,15 +1036,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:rubber"
-					id: "6F04BF9EE3A2DA93"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:rubber"
+				id: "6F04BF9EE3A2DA93"
+				type: "fluid"
+			}]
 			title: "borracha líquida"
 			x: 6.0d
 			y: 6.0d
@@ -1131,18 +1067,16 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "708FD829786614CE"
-					item: "gtceu:lv_chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "708FD829786614CE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
 		{
-			description: ["{ \"text\": \"O enxofre vem do mundo antigo\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }", ""]
+			description: ["&lO enxofre vem do Mundo Antigo.", "&lO pó de borracha bruta é obtido centrifugando resina pegajosa."]
 			id: "5D4ADE3F2E57635C"
 			rewards: [
 				{
@@ -1190,24 +1124,17 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5A00FC384A33FB54"
-					item: "gtceu:lv_voltage_coil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A00FC384A33FB54"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["07D0D7005DA4F446"]
-			description: [
-				"Supercondutor sério &8LV &r"
-				""
-				"{ \"text\": \"Veja aqui a fonte do fósforo\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
-				""
-			]
+			description: ["Supercondutor sério &8LV&r", "", "&lO manganês vem da &3pirolusita bruta&9 (centrífuga com circuito 3).", "&lO fósforo vem da &3apatita bruta&9 (centrífuga com circuito 3)."]
 			id: "4EBCDD1E943F7350"
 			rewards: [
 				{
@@ -1229,44 +1156,34 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2A0E245BCDBBC3D3"
-					item: "gtceu:manganese_phosphide_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2A0E245BCDBBC3D3"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4EBCDD1E943F7350"]
 			id: "0BBC0C3FB2E8C800"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "03540CC51A7C2D1E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "193D5046F8A8CD47"
-					item: "gtceu:lv_field_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03540CC51A7C2D1E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "193D5046F8A8CD47"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0BBC0C3FB2E8C800"]
-			description: [
-				"{ \"text\": \"Veja a saída específica aqui\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
-				""
-				"Não tente entrar no matadouro, você sofrerá dano de morte instantâneo de /kill a cada segundo"
-			]
+			description: ["&l·&fO matadouro causa um impacto considerável no desempenho.", "&l &f Especialmente no modo entidade e ambiente de servidor, quando um grande número de jogadores o usa ao mesmo tempo, tem um grande impacto no &6 TPS &f", "&l · &f Portanto, doe diretamente &6 pacote de componentes ilimitado &f"]
 			icon_scale: 1.3d
 			id: "62B5D5669A535245"
 			rewards: [
@@ -1283,8 +1200,7 @@
 						id: "ae2:portable_item_cell_16k"
 						tag: {
 							RepairCost: 0
-							amts: [
-								L;
+							amts: [L;
 								1L
 								1L
 								1L
@@ -1554,13 +1470,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Torre elétrica de desova de monstros"
-			tasks: [
-				{
-					id: "41EE54C0336928F8"
-					item: "gtceu:slaughterhouse"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41EE54C0336928F8"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -1597,15 +1511,13 @@
 				}
 			]
 			subtitle: "sua primeira linha de produção"
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:polyethylene"
-					id: "494EC2D9C0052E24"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:polyethylene"
+				id: "494EC2D9C0052E24"
+				type: "fluid"
+			}]
 			title: "polietileno líquido"
 			x: 4.0d
 			y: 4.0d
@@ -1615,30 +1527,29 @@
 			hide_dependency_lines: true
 			icon: "gtceu:glass_bucket"
 			id: "06F767F4EFFD5DC6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "074BF98A028E48B8"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:glass"
-					id: "7F8B174919D3CF04"
-					type: "fluid"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074BF98A028E48B8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:glass"
+				id: "7F8B174919D3CF04"
+				type: "fluid"
+			}]
 			title: "vidro líquido"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["66DC685BEC00E4A6", "4357DF535061C2E5"]
-			description: ["Instalado em máquinas pequenas para que as máquinas obtenham energia diretamente da rede sem fio"]
+			dependencies: [
+				"66DC685BEC00E4A6"
+				"4357DF535061C2E5"
+			]
+			description: ["&l·&fReceptor de energia sem fio: &7instale em uma máquina de um bloco para que ela receba energia diretamente da rede sem fio."]
 			id: "1FA24513965B09A8"
 			rewards: [
 				{
@@ -1654,13 +1565,11 @@
 				}
 			]
 			subtitle: "O poder do rádio"
-			tasks: [
-				{
-					id: "36AFB28F70862E5B"
-					item: "gtmthings:lv_wireless_energy_receive_cover"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36AFB28F70862E5B"
+				item: "gtmthings:lv_wireless_energy_receive_cover"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -6.0d
 		}
@@ -1727,13 +1636,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2A8461478B2B66CC"
-					title: "pérola final"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2A8461478B2B66CC"
+				title: "pérola final"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: -6.0d
 		}
@@ -1757,13 +1664,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "68056D9427DD774E"
-					item: "gtceu:lv_lightning_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68056D9427DD774E"
+				item: "gtceu:lv_lightning_processor"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -6.0d
 		}

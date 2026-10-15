@@ -60,13 +60,11 @@
 				}
 			]
 			size: 1.5d
-			tasks: [
-				{
-					id: "20A638BEB859B6BC"
-					title: "começar"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "20A638BEB859B6BC"
+				title: "começar"
+				type: "checkmark"
+			}]
 			x: -6.5d
 			y: -2.5d
 		}
@@ -80,20 +78,16 @@
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
 			id: "25A6B2F421327892"
-			rewards: [
-				{
-					id: "16F2F040644DAC8F"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "767FB3AAC7684750"
-					title: "Antes de jogar"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "16F2F040644DAC8F"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767FB3AAC7684750"
+				title: "Antes de jogar"
+				type: "checkmark"
+			}]
 			x: -9.5d
 			y: -2.0d
 		}
@@ -123,34 +117,31 @@
 			icon: "minecraft:structure_void"
 			id: "4536535E8DA71D5B"
 			min_width: 350
-			rewards: [
-				{
-					id: "646CA29C41AD06C1"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "653FC7E3CCCA0A5E"
-					title: "Sobre o conteúdo"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "646CA29C41AD06C1"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "653FC7E3CCCA0A5E"
+				title: "Sobre o conteúdo"
+				type: "checkmark"
+			}]
 			x: -9.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["075D368E91231337", "096E10631D12B7D4"]
+			dependencies: [
+				"075D368E91231337"
+				"096E10631D12B7D4"
+			]
 			description: ["Nem é preciso dizer como conseguir isso."]
 			id: "77DF4A561164B530"
-			tasks: [
-				{
-					id: "4FF3F7FDB78E5053"
-					item: "minecraft:crafting_table"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4FF3F7FDB78E5053"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
 			x: -3.0d
 			y: -2.5d
 		}
@@ -159,43 +150,30 @@
 			description: ["Idade da Pedra"]
 			icon: "minecraft:cobblestone"
 			id: "2DC6C5D7DDA578F7"
-			rewards: [
-				{
-					id: "0AD34EEC27E458CA"
-					item: {
-						Count: 1
-						id: "ae2:fluix_pickaxe"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-						}
+			rewards: [{
+				id: "0AD34EEC27E458CA"
+				item: {
+					Count: 1
+					id: "ae2:fluix_pickaxe"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "426437E5876CC96A"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "426437E5876CC96A"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			title: "Obtenha paralelepípedos"
 			x: 0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
-			description: [
-				"&l · &b Forno &f Todas as receitas da versão privada queimam instantaneamente"
-				""
-				"&l·&bME barramento de saída de tag &f pode ajudá-lo a construir uma pequena linha de montagem no estágio inicial"
-				"&l &f O forno só aceita entrada de &f acima de &a e aceita saída de &f abaixo de &a"
-				""
-				"&l·&fCarta curinga mineral de minério bruto: &e\\\" forja:raw_materials\\\""
-				"&l · &f Curinga mineral de minério bruto: &e \\\" forge:ores \\\""
-				"&l·&fOs diamantes são o lendário rei da resistência ao fogo, e os blocos de diamante comprimidos são ainda mais."
-			]
+			description: ["&l · &b Forno &f Todas as receitas da versão privada queimam instantaneamente", "", "&l · &b O barramento de saída de tag ME &f pode ajudá-lo a construir uma pequena linha de montagem no estágio inicial", "&l &f forno apenas &a acima de &f aceita entrada, &a abaixo de &f aceita saída", "", "&l·&fTag de minérios brutos: &e“  forge:raw_materials  ”", "&l · &f Curinga mineral bruto: &e “forge:ores”", "&l·&fOs diamantes são o lendário rei da resistência ao fogo, e os blocos de diamante comprimidos são ainda mais."]
 			id: "0EA3AAE338C0FE7A"
 			rewards: [
 				{
@@ -216,13 +194,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "04BF77BE023E656F"
-					item: "minecraft:furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "04BF77BE023E656F"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -1.0d
 		}
@@ -269,12 +245,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2FB6F5ECEC5CFC30"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2FB6F5ECEC5CFC30"
+				type: "checkmark"
+			}]
 			title: "Você pode ir para o mundo vazio para construir uma base"
 			x: -3.0d
 			y: -1.0d
@@ -350,145 +324,140 @@
 				}
 			}
 			id: "6A7BE998C2EC882D"
-			rewards: [
-				{
-					id: "13029760711551D0"
-					item: {
-						Count: 1
-						id: "ae2:portable_item_cell_16k"
-						tag: {
-							RepairCost: 0
-							amts: [
-								L;
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-							]
-							display: {
-								Name: "{\\\"text\\\":\\\"脆弱工具元件包\\\"}"
-							}
-							ic: 10L
-							internalCurrentPower: 20000.0d
-							keys: [
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_file"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_hammer"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_mallet"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_wrench"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_wire_cutter"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_crowbar"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_saw"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_screwdriver"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_knife"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "fragile_tool:fragile_mortar"
-										}
-									}
-								}
-							]
+			rewards: [{
+				id: "13029760711551D0"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"脆弱工具元件包\"}"
 						}
+						ic: 10L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_file"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_hammer"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_mallet"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_wrench"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_wire_cutter"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_crowbar"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_saw"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_screwdriver"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_knife"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "fragile_tool:fragile_mortar"
+									}
+								}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "5C6D35E55DFD3CB0"
-					type: "checkmark"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C6D35E55DFD3CB0"
+				type: "checkmark"
+			}]
 			title: "Faça ferramentas"
 			x: 4.5d
 			y: -2.5d
@@ -498,13 +467,11 @@
 			dependency_requirement: "all_started"
 			description: ["Moa até virar pó com um pilão e misture com as mãos"]
 			id: "133BC85B5D3EF1CB"
-			rewards: [
-				{
-					id: "0DA275C860355A9D"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0DA275C860355A9D"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "327FF4C13FFEC8B6"
@@ -537,13 +504,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "57C6A23ADA9034AA"
-					item: "gtceu:bronze_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57C6A23ADA9034AA"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -2.5d
 		}
@@ -584,38 +549,34 @@
 			}
 			id: "4AB25C15F0B05AA0"
 			min_width: 350
-			rewards: [
-				{
-					id: "2D35A1F9C610B7F2"
-					item: {
-						Count: 1
-						id: "gtlcore:ultimate_terminal"
-						tag: {
-							AEMode: 0b
-							BoundAE: {
-								X: 18
-								Y: 88
-								Z: 26
-								dim: "minecraft:overworld"
-							}
-							DismantleMode: 0b
-							NoHatchMode: 1b
-							RepeatCount: 0
-							ReplaceMode: 1b
-							Tier: 16
-							blocks: "coil"
+			rewards: [{
+				id: "2D35A1F9C610B7F2"
+				item: {
+					Count: 1
+					id: "gtlcore:ultimate_terminal"
+					tag: {
+						AEMode: 0b
+						BoundAE: {
+							X: 18
+							Y: 88
+							Z: 26
+							dim: "minecraft:overworld"
 						}
+						DismantleMode: 0b
+						NoHatchMode: 1b
+						RepeatCount: 0
+						ReplaceMode: 1b
+						Tier: 16
+						blocks: "coil"
 					}
-					type: "item"
 				}
-			]
-			tasks: [
-				{
-					id: "45C33C0157520B13"
-					title: "terminal"
-					type: "checkmark"
-				}
-			]
+				type: "item"
+			}]
+			tasks: [{
+				id: "45C33C0157520B13"
+				title: "terminal"
+				type: "checkmark"
+			}]
 			x: 4.5d
 			y: -1.0d
 		}
@@ -625,21 +586,17 @@
 			icon: "kubejs:warped_ender_pearl"
 			id: "72AFAC66A9EC5F1A"
 			optional: true
-			rewards: [
-				{
-					id: "16D977A5C13DD6A2"
-					item: "kubejs:warped_ender_pearl"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "16D977A5C13DD6A2"
+				item: "kubejs:warped_ender_pearl"
+				type: "item"
+			}]
 			subtitle: "Se você não gosta de usar comandos ou do minimapa"
-			tasks: [
-				{
-					id: "26A4AD36BD56873A"
-					title: "transmissor"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "26A4AD36BD56873A"
+				title: "transmissor"
+				type: "checkmark"
+			}]
 			x: 6.0d
 			y: -1.0d
 		}
@@ -651,13 +608,11 @@
 				"O diamante é o rei da resistência à queima e é recomendado para uso em caldeiras"
 			]
 			id: "2E6B876A85B30554"
-			rewards: [
-				{
-					id: "4C4D7911A44B42C2"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4C4D7911A44B42C2"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4CD84934E0B48CD4"
@@ -694,21 +649,17 @@
 			description: ["Use uma bigorna para atualizar"]
 			id: "0A047A198C30D7FD"
 			optional: true
-			rewards: [
-				{
-					count: 7
-					id: "0E8E94B52A21BFCA"
-					item: "toolbelt:pouch"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "7A23943381FB2DC4"
-					item: "toolbelt:belt"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 7
+				id: "0E8E94B52A21BFCA"
+				item: "toolbelt:pouch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A23943381FB2DC4"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
 			x: 3.0d
 			y: -4.0d
 		}
@@ -717,22 +668,18 @@
 			description: ["Com o bronze, você pode começar a criar várias máquinas movidas a vapor"]
 			icon: "gtceu:lp_steam_alloy_smelter"
 			id: "46F82A0A3D57C225"
-			rewards: [
-				{
-					id: "07408B5DAB665BC8"
-					item: "gtceu:copper_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "07408B5DAB665BC8"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "529B5BE92883F9CE"
-					title: "era do vapor"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "529B5BE92883F9CE"
+				title: "era do vapor"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
@@ -748,19 +695,15 @@
 			icon: "usclb:clipboard"
 			id: "0FA161E6D70D211E"
 			optional: true
-			rewards: [
-				{
-					id: "4B16101838A6524C"
-					item: "usclb:clipboard"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "62B126388869ACC4"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "4B16101838A6524C"
+				item: "usclb:clipboard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B126388869ACC4"
+				type: "checkmark"
+			}]
 			title: "faça anotações"
 			x: 7.5d
 			y: -4.0d
@@ -802,12 +745,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0391B87B11C80FAA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0391B87B11C80FAA"
+				type: "checkmark"
+			}]
 			title: "Série requintada"
 			x: -3.0d
 			y: -4.0d
@@ -884,12 +825,10 @@
 				}
 			]
 			subtitle: "Essas ferramentas são muito úteis"
-			tasks: [
-				{
-					id: "325132BE2D401942"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "325132BE2D401942"
+				type: "checkmark"
+			}]
 			title: "Ajudante de construção"
 			x: 8.5d
 			y: -4.0d
@@ -899,21 +838,17 @@
 			description: ["&l·&fClique com o botão direito nos blocos, exceto no host da estrutura multibloco, para alternar entre o modo espelhado e o modo normal", "&l &cNão use com frequência, a menos que seja necessário, pois pode causar o travamento do jogo."]
 			id: "1D93602C5835593F"
 			optional: true
-			rewards: [
-				{
-					id: "0ECF96D85FE8AB8F"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0ECF96D85FE8AB8F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			size: 1.0d
-			tasks: [
-				{
-					id: "7AB796D165A6C084"
-					item: "gtlcore:structure_detect"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7AB796D165A6C084"
+				item: "gtlcore:structure_detect"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 0.5d
 		}
@@ -935,19 +870,15 @@
 				tag: { }
 			}
 			id: "516564DCEA7FA80B"
-			rewards: [
-				{
-					id: "0CBA8C238306FA5A"
-					item: "gtceu:performance_monitor"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "0716704AAA0124C9"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "0CBA8C238306FA5A"
+				item: "gtceu:performance_monitor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0716704AAA0124C9"
+				type: "checkmark"
+			}]
 			title: "Se você se sentir preso"
 			x: -9.5d
 			y: -4.0d
@@ -1197,12 +1128,10 @@
 				}
 			]
 			subtitle: "Dê a você um conjunto"
-			tasks: [
-				{
-					id: "6C2749E3467F421C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "6C2749E3467F421C"
+				type: "checkmark"
+			}]
 			title: "Se você preferir a ferramenta original"
 			x: 4.5d
 			y: -4.0d
@@ -1231,12 +1160,10 @@
 			]
 			icon: "kubejs:annihilation_constrainer"
 			id: "338B78A9B370B1C1"
-			tasks: [
-				{
-					id: "375B37A687ADE758"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "375B37A687ADE758"
+				type: "checkmark"
+			}]
 			title: "escolha do destino"
 			x: -2.0d
 			y: -9.0d
@@ -1248,15 +1175,16 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:rad_away_pill"
 			id: "38D7837BE9480F5E"
-			incompatible: ["33111A35EDDAB7A0", "3A6BC3AF5296E6DF"]
+			incompatible: [
+				"33111A35EDDAB7A0"
+				"3A6BC3AF5296E6DF"
+			]
 			optional: true
 			shape: "gear"
-			tasks: [
-				{
-					id: "153ED1BD4D94D17A"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "153ED1BD4D94D17A"
+				type: "checkmark"
+			}]
 			title: "pílula roxa"
 			x: -2.5d
 			y: -8.0d
@@ -1278,7 +1206,10 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:rad_away_pill"
 			id: "52F4BB406C323852"
-			incompatible: ["33111A35EDDAB7A0", "3A6BC3AF5296E6DF"]
+			incompatible: [
+				"33111A35EDDAB7A0"
+				"3A6BC3AF5296E6DF"
+			]
 			optional: true
 			rewards: [
 				{
@@ -1322,12 +1253,10 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "5CDE84DCD9F13ECC"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5CDE84DCD9F13ECC"
+				type: "checkmark"
+			}]
 			title: "recompensa pílula roxa"
 			x: -2.5d
 			y: -7.0d
@@ -1339,15 +1268,16 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:paracetamol_pill"
 			id: "33111A35EDDAB7A0"
-			incompatible: ["38D7837BE9480F5E", "52F4BB406C323852"]
+			incompatible: [
+				"38D7837BE9480F5E"
+				"52F4BB406C323852"
+			]
 			optional: true
 			shape: "gear"
-			tasks: [
-				{
-					id: "4FFCC4526002C959"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4FFCC4526002C959"
+				type: "checkmark"
+			}]
 			title: "pílula amarela"
 			x: -1.5d
 			y: -8.0d
@@ -1366,7 +1296,10 @@
 			hide_until_deps_visible: true
 			icon: "gtceu:paracetamol_pill"
 			id: "3A6BC3AF5296E6DF"
-			incompatible: ["38D7837BE9480F5E", "52F4BB406C323852"]
+			incompatible: [
+				"38D7837BE9480F5E"
+				"52F4BB406C323852"
+			]
 			optional: true
 			rewards: [
 				{
@@ -1399,12 +1332,10 @@
 				}
 			]
 			shape: "gear"
-			tasks: [
-				{
-					id: "55AACA948447C227"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "55AACA948447C227"
+				type: "checkmark"
+			}]
 			title: "recompensa pílula amarela"
 			x: -1.5d
 			y: -7.0d
@@ -1438,22 +1369,18 @@
 			icon: "minecraft:writable_book"
 			id: "65BFE4FC9735A317"
 			min_width: 250
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6771503E8EF84F6F"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					elapsedTime: 120L
-					id: "254FC0D42FCC1A5A"
-					title: "Por favor, leia com atenção. Isto é muito importante."
-					type: "questsadditions:time"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6771503E8EF84F6F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				elapsedTime: 120L
+				id: "254FC0D42FCC1A5A"
+				title: "Por favor, leia com atenção. Isto é muito importante."
+				type: "questsadditions:time"
+			}]
 			x: -8.5d
 			y: -1.5d
 		}
@@ -1476,32 +1403,31 @@
 			hide_until_deps_complete: true
 			icon: "minecraft:nether_star"
 			id: "48448F256F0614B3"
-			incompatible: ["33111A35EDDAB7A0", "3A6BC3AF5296E6DF"]
-			rewards: [
-				{
-					command: "/say 已开启超级商店"
-					elevate_perms: true
-					icon: {
-						Count: 1
-						id: "avaritia:singularity"
-						tag: {
-							Id: "avaritia:spacetime"
-						}
+			incompatible: [
+				"33111A35EDDAB7A0"
+				"3A6BC3AF5296E6DF"
+			]
+			rewards: [{
+				command: "/say 已开启超级商店"
+				elevate_perms: true
+				icon: {
+					Count: 1
+					id: "avaritia:singularity"
+					tag: {
+						Id: "avaritia:spacetime"
 					}
-					id: "142BC4D770EF4B2E"
-					title: "&4Abrir Super Loja"
-					type: "command"
 				}
-			]
-			tasks: [
-				{
-					consume_items: true
-					count: 128L
-					id: "5C7954097BC9EC72"
-					item: "gtceu:iv_parallel_hatch"
-					type: "item"
-				}
-			]
+				id: "142BC4D770EF4B2E"
+				title: "&4Abrir Super Loja"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "5C7954097BC9EC72"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
 			title: "superloja"
 			x: 11.0d
 			y: -2.5d
@@ -1520,13 +1446,11 @@
 			]
 			icon: "extendedae_plus:wireless_transceiver"
 			id: "435CFED3A9190C8A"
-			tasks: [
-				{
-					id: "622FD0182D269781"
-					title: "Mudanças no mapeamento EAEP"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "622FD0182D269781"
+				title: "Mudanças no mapeamento EAEP"
+				type: "checkmark"
+			}]
 			x: -9.5d
 			y: -1.0d
 		}
@@ -1562,13 +1486,11 @@
 					type: "command"
 				}
 			]
-			tasks: [
-				{
-					id: "287CE358FA260F77"
-					title: "Configuração de versão privada relacionada"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "287CE358FA260F77"
+				title: "Configuração de versão privada relacionada"
+				type: "checkmark"
+			}]
 			x: -8.5d
 			y: -3.0d
 		}
@@ -1583,20 +1505,16 @@
 			]
 			icon: "ae2_ftbquest_detector:me_quests_detector"
 			id: "3F38A56BBD3D0F9E"
-			rewards: [
-				{
-					id: "496BB1E0D95184DB"
-					item: "ae2_ftbquest_detector:me_quests_detector"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "496BB1E0D95184DB"
+				item: "ae2_ftbquest_detector:me_quests_detector"
+				type: "item"
+			}]
 			subtitle: "Envie itens de tarefas com mais eficiência"
-			tasks: [
-				{
-					id: "169E6283F7FFC3D3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "169E6283F7FFC3D3"
+				type: "checkmark"
+			}]
 			title: "Ferramenta de detecção de tarefas ME"
 			x: 9.5d
 			y: -2.5d
@@ -1631,7 +1549,7 @@
 						id: "expatternprovider:infinity_cell"
 						tag: {
 							record: {
-								#c: "ae2:i"
+								"#c": "ae2:i"
 								id: "minecraft:cobblestone"
 							}
 						}
@@ -1748,13 +1666,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "42300AE23C66B60A"
-					title: "Pacote de presente de mudas"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "42300AE23C66B60A"
+				title: "Pacote de presente de mudas"
+				type: "checkmark"
+			}]
 			x: -4.5d
 			y: -4.0d
 		}
@@ -1766,219 +1682,214 @@
 				id: "expatternprovider:infinity_cell"
 				tag: {
 					record: {
-						#c: "ae2:f"
+						"#c": "ae2:f"
 						id: "minecraft:water"
 					}
 				}
 			}
 			id: "62EC7CE2D95D7E45"
 			optional: true
-			rewards: [
-				{
-					id: "259B5B5101AFDD05"
-					item: {
-						Count: 1
-						id: "ae2:portable_item_cell_16k"
-						tag: {
-							RepairCost: 0
-							amts: [
-								L;
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-								1L
-							]
-							display: {
-								Name: "{\\\"text\\\":\\\"无限混凝土元件包\\\",\\\"italic\\\":false}"
-							}
-							ic: 16L
-							internalCurrentPower: 20000.0d
-							keys: [
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:white_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:orange_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:magenta_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:light_blue_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:yellow_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:lime_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:pink_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:gray_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:light_gray_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:cyan_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:purple_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:blue_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:brown_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:green_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:red_concrete"
-										}
-									}
-								}
-								{
-									#c: "ae2:i"
-									id: "expatternprovider:infinity_cell"
-									tag: {
-										record: {
-											#c: "ae2:i"
-											id: "minecraft:black_concrete"
-										}
-									}
-								}
-							]
+			rewards: [{
+				id: "259B5B5101AFDD05"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_16k"
+					tag: {
+						RepairCost: 0
+						amts: [L;
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+							1L
+						]
+						display: {
+							Name: "{\"text\":\"无限混凝土元件包\",\"italic\":false}"
 						}
+						ic: 16L
+						internalCurrentPower: 20000.0d
+						keys: [
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:white_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:orange_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:magenta_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:light_blue_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:yellow_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:lime_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:pink_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:gray_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:light_gray_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:cyan_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:purple_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:blue_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:brown_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:green_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:red_concrete"
+									}
+								}
+							}
+							{
+								"#c": "ae2:i"
+								id: "expatternprovider:infinity_cell"
+								tag: {
+									record: {
+										"#c": "ae2:i"
+										id: "minecraft:black_concrete"
+									}
+								}
+							}
+						]
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "Tenha alguns elementos concretos infinitos"
-			tasks: [
-				{
-					id: "12E0BAD076A806BA"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "12E0BAD076A806BA"
+				type: "checkmark"
+			}]
 			title: "materiais de construção gratuitos"
 			x: -4.5d
 			y: -1.0d
@@ -2005,29 +1916,25 @@
 			]
 			icon: "industrial_platform:industrial_platform"
 			id: "3EED8F13FFEC140F"
-			rewards: [
-				{
-					id: "23C63958ED9106F9"
-					item: {
-						Count: 1
-						id: "expatternprovider:infinity_cell"
-						tag: {
-							record: {
-								#c: "ae2:i"
-								id: "industrial_platform:industrial_platform"
-							}
+			rewards: [{
+				id: "23C63958ED9106F9"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "industrial_platform:industrial_platform"
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "Ardósia escura parece melhor"
-			tasks: [
-				{
-					id: "19CCF32610DADBE8"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "19CCF32610DADBE8"
+				type: "checkmark"
+			}]
 			title: "Plataforma industrial"
 			x: -3.0d
 			y: 0.5d
@@ -2043,24 +1950,20 @@
 			icon: "gtceu:steam_bucket"
 			id: "113FC98BF64872F0"
 			invisible: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5667B6128479F286"
-					table_id: 6225023274141477362L
-					type: "all_table"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5667B6128479F286"
+				table_id: 6225023274141477362L
+				type: "all_table"
+			}]
 			subtitle: "Gerar eletricidade? O que gera eletricidade?"
-			tasks: [
-				{
-					amount: 1000000000L
-					consume_fluid: "FALSE"
-					fluid: "gtceu:steam"
-					id: "06127C993F064039"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000000000L
+				consume_fluid: "FALSE"
+				fluid: "gtceu:steam"
+				id: "06127C993F064039"
+				type: "fluid"
+			}]
 			title: "VaporMania"
 			x: 11.0d
 			y: 0.0d
@@ -2076,13 +1979,11 @@
 			hide_until_deps_complete: true
 			id: "2E2E6E35E8CE9315"
 			invisible: true
-			tasks: [
-				{
-					id: "1B19698EDE48A5C1"
-					item: "gtceu:creative_computation_provider"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B19698EDE48A5C1"
+				item: "gtceu:creative_computation_provider"
+				type: "item"
+			}]
 			x: -2.5d
 			y: -6.0d
 		}
@@ -2094,12 +1995,10 @@
 			]
 			icon: "gtceu:steel_ingot"
 			id: "517AFE9DCCC8D18B"
-			tasks: [
-				{
-					id: "5AFF78E92D3A68C4"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5AFF78E92D3A68C4"
+				type: "checkmark"
+			}]
 			title: "vontade de ferro"
 			x: -1.5d
 			y: -4.0d
@@ -2112,26 +2011,22 @@
 			icon: "gtceu:wrought_iron_ingot"
 			id: "71A79CC3C94E4126"
 			optional: true
-			rewards: [
-				{
-					auto: "no_toast"
-					id: "076351F83ABF8F14"
-					item: "gtceu:wrought_iron_ingot"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					disable_toast: true
-					icon: "minecraft:iron_block"
-					id: "348A903030EE2DA1"
-					observe_type: 0
-					timer: 5L
-					title: "olhos penetrantes"
-					to_observe: "minecraft:iron_block"
-					type: "observation"
-				}
-			]
+			rewards: [{
+				auto: "no_toast"
+				id: "076351F83ABF8F14"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:iron_block"
+				id: "348A903030EE2DA1"
+				observe_type: 0
+				timer: 5L
+				title: "olhos penetrantes"
+				to_observe: "minecraft:iron_block"
+				type: "observation"
+			}]
 			title: "olhos penetrantes"
 			x: 2.5d
 			y: -1.0d
@@ -2139,25 +2034,21 @@
 		{
 			dependencies: ["075D368E91231337"]
 			id: "096E10631D12B7D4"
-			rewards: [
-				{
-					count: 512
-					id: "6F79B4E9205BDCFD"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					block: "minecraft:logs"
-					block_type: 1
-					checkItem: false
-					id: "1D9C4870C2C06AE2"
-					title: "Para ficar rico, primeiro__"
-					type: "questsadditions:break"
-					value: 1L
-				}
-			]
+			rewards: [{
+				count: 512
+				id: "6F79B4E9205BDCFD"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				block: "minecraft:logs"
+				block_type: 1
+				checkItem: false
+				id: "1D9C4870C2C06AE2"
+				title: "Para ficar rico, primeiro__"
+				type: "questsadditions:break"
+				value: 1L
+			}]
 			title: "Obter registros"
 			x: -4.5d
 			y: -2.5d

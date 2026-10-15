@@ -20,8 +20,8 @@
 			linked_quest: "26607B94D873E07A"
 			shape: "gear"
 			size: 2.0d
-			x: 2.0d
-			y: 4.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			id: "19AA2337A0F120D6"
@@ -44,7 +44,7 @@
 				item: "kubejs:contained_high_density_protonic_matter"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: "gtceu:crystalmatrix_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -66,7 +66,7 @@
 				"55458BD1EFC248C8"
 				"687FA1A8A6443436"
 			]
-			description: ["It is first obtained by condensing the glow of the forge's plasma star, and can later be fired directly into an electric blast furnace."]
+			description: ["It is first obtained by condensing the plasma star glow from the forge, and can be directly fired using an electric blast furnace later."]
 			id: "7B46E8DE77D0BE8F"
 			subtitle: "star power"
 			tasks: [{
@@ -74,7 +74,7 @@
 				item: "gtceu:starmetal_ingot"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -82,7 +82,7 @@
 				"7B46E8DE77D0BE8F"
 				"49ED5C32664DDF6C"
 			]
-			description: ["The number of conventional parallel coils is equivalent to the &bMAX parallel control compartment"]
+			description: ["The number of conventional coil parallels is equivalent to&bMAX parallel control bin"]
 			icon_scale: 2.0d
 			id: "6E3F07B3E9AB5882"
 			rewards: [{
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			title: "Star Coil"
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -107,9 +107,9 @@
 				"4A1F4AAAABC1DE23"
 				"1C4D5D7786F64485"
 			]
-			description: ["Dragon blood can circulate"]
+			description: ["Dragon blood can be circulated"]
 			id: "6A1F7D407BE033A9"
-			subtitle: "High Purity Lonsu"
+			subtitle: "High purity lonsu"
 			tasks: [{
 				id: "65FF8A6173E91F9E"
 				item: "gtceu:draconium_dust"
@@ -123,7 +123,7 @@
 				"6A1F7D407BE033A9"
 				"6E3F07B3E9AB5882"
 			]
-			description: ["Requires gasoline/high cetane/high octane as shielding gas"]
+			description: ["Requires gasoline/high cetane/high octane as protective gas"]
 			id: "108792B10FDEC848"
 			subtitle: "dragon power"
 			tasks: [{
@@ -229,7 +229,7 @@
 				"7843B0B9DF3F6FB3"
 				"1BA07BC3DBFFF3E6"
 			]
-			description: ["Use wormholes to start calculations exactly at the moment a question is asked, so you can get the answer when the question is asked."]
+			description: ["Use wormholes to start calculations at exactly the moment a question is asked, so you can get the answer when the question is asked."]
 			icon_scale: 2.0d
 			id: "2895FBB66750C0DF"
 			tasks: [{
@@ -266,7 +266,7 @@
 				title: "free proton"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -277,31 +277,32 @@
 				item: "kubejs:space_probe_mk2"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["41B4A5048EBCE287"]
+			description: [""]
 			icon: "gtceu:liquid_starlight_bucket"
 			id: "6FF53B92BA6D2370"
 			tasks: [{
 				id: "3A5F5C774EE47FD2"
-				title: "Stellar Energy Liquid"
+				title: "Star Energy Liquid"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6FF53B92BA6D2370"]
-			description: ["I need a lot of ice"]
+			description: ["need a lot of ice"]
 			id: "687FA1A8A6443436"
 			tasks: [{
 				id: "0FCC5549E1E17DF9"
 				item: "kubejs:resonating_gem"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -395,7 +396,7 @@
 				item: "kubejs:contained_exotic_matter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -436,7 +437,7 @@
 			]
 			icon: "gtceu:radox_bucket"
 			id: "437E5E4108228333"
-			subtitle: "a little confused"
+			subtitle: "a bit confusing"
 			tasks: [{
 				id: "60C93B3E6EDB5E0B"
 				title: "LadoX"
@@ -452,10 +453,11 @@
 				"43CEF1808795ECAD"
 			]
 			description: [
-				"The following production lines can also be optimized (colors represent stress stages):"
-				"&epurified water fullerene polymer matrix powder grade 8/16 Taran &r"
-				"&1Expanded Space Fluid X Side Gas &r"
+				"The following production lines can also be optimized (the colors represent voltage stages):"
+				"&e8/16 grade purified water fullerene polymer matrix powder Taran &r"
+				"&1Expanded Space Fluid Lado X Gas &r"
 			]
+			hide_dependency_lines: true
 			icon_scale: 1.3d
 			id: "2A29DA4239E6BA44"
 			shape: "hexagon"
@@ -466,8 +468,8 @@
 				item: "gtceu:qft"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -505,7 +507,6 @@
 				"76C086C1C346355A"
 				"44F9AF619F87974F"
 				"6F7D79B8EA4FBF46"
-				"5A61ABB6E4917C6C"
 			]
 			icon_scale: 2.0d
 			id: "30AC80FE245A38E0"
@@ -523,7 +524,7 @@
 				"1291AD37204E4960"
 				"38FFB6D2003C7EB4"
 			]
-			description: ["This circuit is only recommended for the Super Causal Series"]
+			description: ["The Super Causal Series only recommends using this circuit"]
 			icon_scale: 2.0d
 			id: "32186EFF7020D432"
 			rewards: [{
@@ -534,7 +535,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "vertex of the circuit"
+			subtitle: "vertex of circuit"
 			tasks: [{
 				id: "27BE9064DAF5CCF3"
 				item: "kubejs:supracausal_mainframe"
@@ -582,8 +583,8 @@
 				item: "kubejs:nuclear_clock"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -596,7 +597,7 @@
 				item: "kubejs:nuclear_star"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
@@ -604,11 +605,7 @@
 				"5A61ABB6E4917C6C"
 				"49ED5C32664DDF6C"
 			]
-			description: [
-				"Don't look at the Ultimate Workbench recipe, you won't be able to use it"
-				""
-				"&cM &r&aA &r&9"
-			]
+			description: ["Don't look at the Ultimate Workbench recipe, you won't be able to use it", "", "&cM&r&aA&r&9X&r&eovertake&r&5guide&r&bbody&r"]
 			hide_dependency_lines: true
 			id: "00A227F06D7F109E"
 			shape: "gear"
@@ -620,7 +617,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -629,33 +626,30 @@
 				"06795792E774476F"
 				"2880531AF7540B24"
 			]
-			description: ["Remember to optimize the formulas for cosmic neutrons, crystalline matrix and dense neutrons"]
+			description: ["Remember to optimize the formulas of cosmic neutrons, crystal matrix, and dense neutrons"]
 			icon_scale: 2.0d
 			id: "77A53FAAC098F859"
-			subtitle: "See the Hyperdimensional Plasma Forge recipe"
+			subtitle: "See the recipe for the Hyperdimensional Plasma Forge"
 			tasks: [{
 				id: "4ED6698376CC0B5A"
 				item: "avaritia:infinity_catalyst"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"01EE0F4156F0578B"
-				"74186877DB7DBE4D"
-			]
-			description: ["Will use the somewhat expensive &6high durability plasma vessel"]
-			hide_dependency_lines: true
+			dependencies: ["01EE0F4156F0578B"]
+			description: ["Will use the somewhat expensive&6high-durability plasma container"]
 			id: "5A61ABB6E4917C6C"
+			subtitle: "Also use quantum chromodynamic bombs"
 			tasks: [{
 				id: "3BDF193D7E2C7B39"
 				item: "gtceu:cosmicneutronium_ingot"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["02401278940CE1F3"]
@@ -667,8 +661,8 @@
 				item: "gtceu:periodicium_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5A61ABB6E4917C6C"]
@@ -678,8 +672,8 @@
 				item: "kubejs:highly_dense_polymer_plate"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 3.0d
+			x: 16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -687,7 +681,7 @@
 				"17F6AFC430A15CDA"
 				"6C1AB68CC57D8670"
 			]
-			description: ["Need rubber sheet &b&r, I hope you haven't dismantled the previous rubber production line"]
+			description: ["Need&brubber sheet &r, I hope you have not dismantled the previous rubber production line"]
 			id: "38FFB6D2003C7EB4"
 			tasks: [{
 				id: "0B788414AD9CB8B4"
@@ -714,7 +708,7 @@
 		}
 		{
 			dependencies: ["43CEF1808795ECAD"]
-			description: ["Superconductor &1OpV &r"]
+			description: ["&1OpV&rsuperconductor"]
 			hide_dependency_lines: true
 			id: "375DD76CAEAD2CE1"
 			tasks: [{
@@ -737,24 +731,25 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
-			description: ["It can be used to replicate elements and isotopes that are scarce or difficult to produce."]
+			description: ["Can be used to replicate elements and isotopes that are scarce or difficult to produce."]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "46C33CC4A1420A10"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Copy the entire periodic table and fragments of the world"
+			subtitle: "Copy the entire periodic table and world fragments"
 			tasks: [{
 				id: "3B815CD546D80CF0"
 				item: "gtceu:element_copying"
 				type: "item"
 			}]
-			x: 4.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -773,7 +768,7 @@
 				item: "kubejs:space_drone_mk6"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -784,8 +779,9 @@
 			description: [
 				"Laser version of the mass generator"
 				""
-				"Can only use Titan &e&rsteel coil blocks"
+				"Can only use&eTitan Steel Coil Blocks &r"
 			]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "6C84DCF091D31F16"
 			optional: true
@@ -801,39 +797,41 @@
 		}
 		{
 			dependencies: ["4C667361F07F4243"]
-			description: ["To upgrade based on level 2, remember to replace the assembly line shell &e&rwith the advanced assembly line shell &b&r"]
+			description: ["To upgrade based on level 2, remember to replace&eassembly line shell&rwith&badvanced assembly line shell &r"]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "6C1AB68CC57D8670"
 			shape: "rsquare"
-			subtitle: "Requires placement of nano dragon swarm"
+			subtitle: "Requires placing dragon nano swarm"
 			tasks: [{
 				id: "37C6A37E62975D44"
 				item: "gtceu:nano_forge_3"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"6C1AB68CC57D8670"
 				"233C152024BACC4E"
-				"622395061792FB5E"
+				"375DD76CAEAD2CE1"
+				"3CE5E9F78C13E1CD"
 			]
-			description: ["It has lossless overclocking and a time-consuming multiplier of 0.05"]
+			description: ["Has lossless overclocking, time-consuming multiplier 0.05"]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1E220C2F02E65FFC"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "bigger, stronger"
 			tasks: [{
 				id: "7AC30167CA6E2D12"
 				item: "gtceu:nano_core"
 				type: "item"
 			}]
-			x: 16.0d
+			x: -4.0d
 			y: 4.0d
 		}
 	]

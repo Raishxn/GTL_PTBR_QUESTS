@@ -17,6 +17,7 @@
 	quests: [
 		{
 			dependencies: ["516AA655EF6CBBF0"]
+			description: [""]
 			hide_until_deps_visible: false
 			id: "0F04364907145AF1"
 			optional: true
@@ -58,7 +59,7 @@
 			description: [
 				"Solar panels only work in the overworld"
 				""
-				"The working voltage of the fragmented world collector is &7&lULV &r, which means that if the solar panel is not used for power supply, a &6&rtransformer is needed to reduce the current to ULV"
+				"The working voltage of the fragmented world collector is &7&lULV &r, which means that if the solar panel is not used for power supply, a transformer &6&ris needed to reduce the current to ULV"
 				""
 				"Note that the integrated fluid outlet space of the fragmented world collector is &b&l32B &r. If the single fluid output is greater than this value, the machine will not work."
 			]
@@ -111,7 +112,7 @@
 		{
 			dependencies: ["1B664763E9558755"]
 			description: [
-				"Special machine for Sky Island. Overclocking cannot exceed 1A of power ZPM."
+				"Air Island special machine cannot be overclocked"
 				""
 				"Can be produced in post-production &5EV &r"
 			]
@@ -124,7 +125,7 @@
 				table_id: 6225023274141477362L
 				type: "random"
 			}]
-			subtitle: "Maximum power 1A ZPM"
+			subtitle: "Maximum 1A ZPM power"
 			tasks: [{
 				id: "3FF19BC6685E0941"
 				item: "gtceu:large_fragment_world_collection_machine"
@@ -140,7 +141,7 @@
 			optional: true
 			rewards: [{
 				id: "3DF6CF1997E498F4"
-				item: "gtlcore:world_fragments_overworld"
+				item: "gtlcore:world_fragments_reactor"
 				type: "item"
 			}]
 			subtitle: "You don't need to go to other dimensions to dig for minerals."
@@ -155,6 +156,7 @@
 		}
 		{
 			dependencies: ["7F78340CB4A8EC59"]
+			description: [""]
 			hide_until_deps_visible: false
 			id: "7C24D5FD2C008BD4"
 			optional: true
@@ -298,7 +300,7 @@
 			description: [
 				"No need to go to the space station"
 				""
-				"The gravity determination of the multi-block structure only depends on the position of the host &m(so it only fits in the large culture tank) &r"
+				"Determining the severity of the multiblock structure depends only on the location of the host &m(so it can fit in a large culture tank) &r"
 			]
 			hide_until_deps_visible: false
 			icon: {
@@ -476,11 +478,11 @@
 				""
 				"The terrain at the beginning has grass blocks. If there are no grass blocks, you can dig them in the super flat area."
 				""
-				"Only nether fortresses will generate in the Nether, and only the main island will remain at the end. Land in other dimensions will still generate normally. &mis not as stated in the initial mission."
+				"The Nether is similar to the main world, except that the fortresses in the Nether are all empty and terrain in other dimensions still generates normally. &mis not as stated in the initial mission."
 				"&r"
-				"Obtain watermelon/pumpkin/beet and cactus seeds from wandering traders &m. You can also buy them at the small market &r."
+				"Watermelon/pumpkin/beet seeds and cacti can be obtained from street traders &mor you can buy them from the small market &r"
 				""
-				"Cows will be renewed into grass blocks and can also be found in the slaughterhouse in Circuit No. 1 physical mode. &mYou can also go to Frostfield Star to find Frostfield Sheep. &r"
+				"Cows will be cooled off on grass blocks and can also be found in the slaughterhouse in physical mode of Circuit No. 1 &mYou can also go to Frostfield Star to find Frostfield Sheep &r"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:nan_certificate"

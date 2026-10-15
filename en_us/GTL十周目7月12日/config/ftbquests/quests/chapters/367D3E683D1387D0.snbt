@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "367D3E683D1387D0"
-	group: ""
+	group: "742018A032D152FC"
 	icon: "gtceu:lv_bender"
 	id: "367D3E683D1387D0"
-	order_index: 17
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -20,20 +20,16 @@
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "498CB29FA7447C46"
-			rewards: [
-				{
-					id: "6F0F202CEF4CCFD7"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "44CA2F43F475CFD9"
-					title: "Reason for not working"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "6F0F202CEF4CCFD7"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CA2F43F475CFD9"
+				title: "Reason for not working"
+				type: "checkmark"
+			}]
 			x: 7.5d
 			y: -2.5d
 		}
@@ -45,20 +41,16 @@
 			]
 			icon: "kubejs:uruium_coil_block"
 			id: "2205C5F410B9C4DB"
-			rewards: [
-				{
-					id: "67F6BBF7159FD130"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "50F636D9BF4F6025"
-					title: "Coil"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "67F6BBF7159FD130"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50F636D9BF4F6025"
+				title: "Coil"
+				type: "checkmark"
+			}]
 			x: 3.5d
 			y: -2.5d
 		}
@@ -73,20 +65,16 @@
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "0BADECF30AC0BAC4"
-			rewards: [
-				{
-					id: "74229AAB3C2222DD"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "23E71635D04A5A77"
-					title: "powered by"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "74229AAB3C2222DD"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E71635D04A5A77"
+				title: "powered by"
+				type: "checkmark"
+			}]
 			x: -0.5d
 			y: -2.5d
 		}
@@ -98,96 +86,50 @@
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "5DB8BE71B3733C36"
-			rewards: [
-				{
-					id: "7B4ECA8505F078B1"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "35761A42191E549C"
-					title: "bus/bin"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "7B4ECA8505F078B1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35761A42191E549C"
+				title: "bus/bin"
+				type: "checkmark"
+			}]
 			x: 1.5d
 			y: -2.5d
 		}
 		{
-			description: [
-				"When 16 LV machines are run simultaneously, the power is equal to that of one HV machine, but the speed is four times that of one HV machine. This is because the 16 LV machines did not suffer losses caused by lossy overclocking. causing it to do it faster at a lower speed."
-				""
-				"The parallelism of multi-block structures is a similar concept. Simply put, parallelism is an alternative form of lossless overclocking."
-				"{@pagebreak}"
-				"Sub-tick parallelism (1toc) is a mechanism that is triggered when some multi-block structures take less than 1 game tick to process a single recipe."
-				""
-				"All single block machines and cross-recipe parallel machines will not trigger 1toc."
-				""
-				"Example 1: When a multi-block machine with voltage levelLuVtakes exactly 1 game tick to process recipes with voltage level IV, the machine will process 2 recipes per game tick. If the voltage level of the machine is one level higher (reachingZPMlevel), it will process 4 recipes per game tick; if the machine has a lossless overclocking mechanism (such as a large chemical reactor), it will process 4 recipes per game tick respectively atLuVand LuV.ZPMlevel processes 4 and 16 recipes in parallel."
-				""
-				"Example 2: For a recipe that takes 3 game ticks and the recipe is lossless overclocking (the time taken for each overclocking level is reduced to 1/4 of the original, and the total energy consumption remains unchanged), after one level of overclocking, 4 recipes will be processed at the same time, but the time is still 3 game ticks."
-				""
-				"In fact, there is a difference between \"lossy 1toc\" and \"lossless 1toc\". The above example is only for reference."
-				"{@pagebreak}"
-				"Cross-recipe parallelism is a mechanism exclusive to some multi-block machines, which allows the machine to execute multiple different recipes in the same machine mode at the same time."
-				""
-				"Correspondingly, the lower limit of recipe time for all machines with cross-recipe parallelism is 1 second."
-				""
-				"Example: The Holy Separator can make silver rods and iron rods at the same time, but cannot centrifuge air and make iron rods at the same time."
-				""
-				"\"Threads\" is a unique attribute of machines with cross-recipe parallelism (all have 64 threads). The total parallel number of a cross-recipe parallel machine is the number of threads multiplied by the parallel number of the machine itself. The number of threads represents the maximum number of recipes that the total parallel number can be allocated to. Note: The cross-recipe parallel machine will try its best to allocate all total parallelism to a recipe."
-				"{@pagebreak}"
-				"If there is a material that is probabilistically consumed in the recipe, 100% consumption of the material will be used as the basis for calculation in parallel calculations."
-			]
+			description: ["When 16 LV machines are run simultaneously, the power is equal to that of one HV machine, but the speed is four times that of one HV machine. This is because the 16 LV machines did not suffer losses caused by lossy overclocking. causing it to do it faster at a lower speed.", "", "The parallelism of multi-block structures is a similar concept. Simply put, parallelism is an alternative form of lossless overclocking.", "{@pagebreak}", "Sub-tick parallelism (1toc) is a mechanism that is triggered when some multi-block structures take less than 1 game tick to process a single recipe.", "", "All single block machines and cross-recipe parallel machines will not trigger 1toc.", "", "Example 1: When a multi-block machine with LuV voltage level takes exactly 1 game tick to process recipes with IV voltage level, the machine will process 2 recipes per game tick. If the machine voltage level is one level higher (reaching ZPM level), it will process 4 recipes per game tick; if the machine has a lossless overclocking mechanism (such as a large chemical reactor), it will process 4 recipes per game tick respectively on LuV and LuV. ZPM levels process 4 and 16 recipes in parallel.", "", "Example 2: For a recipe that takes 3 game ticks and the recipe is lossless overclocking (the time taken for each overclocking level is reduced to 1/4 of the original, and the total energy consumption remains unchanged), after one level of overclocking, 4 recipes will be processed at the same time, but the time is still 3 game ticks.", "", "In fact, there is a difference between \"lossy 1toc\" and \"lossless 1toc\". The above example is only for reference.", "{@pagebreak}", "Cross-recipe parallelism is a mechanism exclusive to some multi-block machines, which allows the machine to execute multiple different recipes in the same machine mode at the same time.", "", "Correspondingly, the lower limit of recipe time for all machines with cross-recipe parallelism is 1 second.", "", "Example: The Holy Separator can make silver rods and iron rods at the same time, but cannot centrifuge air and make iron rods at the same time.", "", "\"Threads\" is a unique attribute of machines with cross-recipe parallelism (all have 64 threads). The total parallel number of a cross-recipe parallel machine is the number of threads multiplied by the parallel number of the machine itself. The number of threads represents the maximum number of recipes that the total parallel number can be allocated to. Note: The cross-recipe parallel machine will try its best to allocate all total parallelism to a recipe.", "{@pagebreak}", "If there is a material that is probabilistically consumed in the recipe, 100% consumption of the material will be used as the basis for calculation in parallel calculations."]
 			icon: "gtceu:iv_parallel_hatch"
 			id: "6F503441C24ABD5B"
-			rewards: [
-				{
-					id: "749E6E378FFF375B"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6B1CC517916931AB"
-					title: "parallel"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "749E6E378FFF375B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B1CC517916931AB"
+				title: "parallel"
+				type: "checkmark"
+			}]
 			x: 9.5d
 			y: -2.5d
 		}
 		{
-			description: [
-				"&7front side&rshould be obvious,&9output side&ris the side with the dots or holes, by default this is the back side when you place the machine."
-				""
-				"Machines can perform&aautomatic output via their output surfaces. To enable automatic output, click the corresponding button in the GUI. The automatic output of fluids and items is toggled separately. The automatic output can be further controlled through the&doverlay plate &r."
-				""
-				"Use the&5wrench&rto right-click the machine to change the output side, and shift-right-click to change the front."
-				""
-				"By default, items and fluids cannot be inserted through the output side, but this can be switched using the&5screwdriver &r, by right-clicking directly on the output side, or shift-right-clicking on the mesh corresponding to the output side."
-				""
-				"There are some unique machines that do not handle recipes, such as&3pump &r,&3mining machine &r,&3fishing machine &r,&3item collector &r, etc., these machines will output&ron their&7front (still marked as points)."
-			]
+			description: ["&7 front side &r should be obvious, &9 output side &r is the side with the dots or holes, by default this is the back side when you place the machine.", "", "Machines can &aautomatically output&r through their output face. Enable this with the corresponding GUI button. Automatic item and fluid output are toggled separately; &dcovers&r provide further control.", "", "Use the&5wrench&rto right-click the machine to change the output side, and shift-right-click to change the front.", "", "By default, items and fluids cannot be inserted through the output side, but this can be switched using the&5screwdriver &r, by right-clicking directly on the output side, or shift-right-clicking on the mesh corresponding to the output side.", "", "There are some unique machines that do not handle recipes, such as&3pump &r,&3mining machine &r,&3fishing machine &r,&3item collector &r, etc., these machines will output&ron their&7front (still marked as points)."]
 			icon: "minecraft:hopper"
 			id: "2B1992E2158E63A2"
-			rewards: [
-				{
-					id: "0908FF95BE82979B"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "3A68620AD827B0E5"
-					title: "Machine logistics"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "0908FF95BE82979B"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A68620AD827B0E5"
+				title: "Machine logistics"
+				type: "checkmark"
+			}]
 			x: 5.5d
 			y: -2.5d
 		}
@@ -207,20 +149,16 @@
 			]
 			icon: "gtceu:large_assembler"
 			id: "662FE1772CF9B5ED"
-			rewards: [
-				{
-					id: "0697DFBA0B8FB11C"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "4807FB6A36F025EC"
-					title: "other"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				id: "0697DFBA0B8FB11C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4807FB6A36F025EC"
+				title: "other"
+				type: "checkmark"
+			}]
 			x: 11.5d
 			y: -2.5d
 		}

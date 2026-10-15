@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["O limite superior da quantidade solicitada é aumentado para &d15 dígitos&r"]
+			description: ["O limite superior da quantidade solicitada foi aumentado para &d15 dígitos &r"]
 			icon: "merequester:requester"
 			id: "225FC6F6F3626C53"
 			rewards: [{
@@ -27,9 +27,9 @@
 		}
 		{
 			description: [
-				"O padrão aqui é &dcanal ilimitado&r, por motivos de desempenho &eremoveu a receita de crafting do controlador ME&r"
+				"O padrão aqui é &dcanal ilimitado &r, por razões de desempenho &eremoveu a receita de síntese do controlador ME &r"
 				"{@pagebreak}"
-				"&mNa verdade, a Fish Making Conference lhe dará um controlador&r"
+				"&mNa verdade, a Fish Making Conference lhe dará um controlador &r"
 			]
 			icon: "ae2:fluix_glass_cable"
 			id: "0259EEEAE6F3C3CB"
@@ -48,7 +48,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["A velocidade de transmissão básica é aprimorada para &b64*int nível&r"]
+			description: ["A velocidade de transmissão básica é aprimorada para &b64*int nível &r"]
 			icon: "expatternprovider:ex_io_port"
 			id: "4E1E59DD41AEEC17"
 			rewards: [{
@@ -66,11 +66,11 @@
 		}
 		{
 			description: [
-				"&8ULV de médio prazo&rdesbloqueia armazenamento e logística AE"
-				"&bMV primeiro&rdesbloqueia pedido e cartão de atualização (básico)"
-				"&bFim do MV&rDesbloqueio (avançado) da placa de atualização"
-				"&6HV final&rdesbloquear AE sem fio"
-				"&dEV Início&rDesbloqueia a criação de componentes de energia e matriz de montagem"
+				"&8ULV de médio prazo &rdesbloqueia armazenamento e logística AE"
+				"&bMV inicial &rdesbloqueia pedido e cartão de atualização (básico)"
+				"&bMV End &rCartão de atualização desbloqueado (avançado)"
+				"&6HV final &rDesbloquear AE sem fio"
+				"&dEV inicial &rdesbloqueia a criação de componentes de energia e matriz de montagem"
 			]
 			icon: "ae2:controller"
 			id: "5AB25B6A1A96FFF1"
@@ -89,7 +89,7 @@
 		}
 		{
 			description: [
-				"Capacidade infinita de componentes de água/paralelepípedos aumentada para &d9.22P/E&r"
+				"Capacidade infinita de componentes de água/paralelepípedos aumentada para &d9.22P/E &r"
 				"{@pagebreak}"
 				"A criação de discos também foi aprimorada"
 			]
@@ -119,7 +119,7 @@
 		}
 		{
 			description: [
-				"O tipo de armazenamento é o padrão &d4 vezes&r, que pode ser ajustado no arquivo de configuração do gltcore"
+				"O tipo de armazenamento é o padrão &d4 vezes &r, que pode ser ajustado no arquivo de configuração do gltcore"
 				""
 				"Ao mesmo tempo, o intervalo de atualização do inventário do AE pode ser ajustado no arquivo de configuração gtlcore."
 			]
@@ -143,7 +143,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["O número de slots do provedor de modelo estendido &b&rpode ser ajustado no arquivo de configuração gtlcore &6&r"]
+			description: ["O número de slots &rpara o provedor de modelo estendido &bpode ser ajustado no arquivo de configuração gtlcore &6&r"]
 			icon: "expatternprovider:ex_pattern_provider"
 			id: "6B5FD34433F96957"
 			rewards: [{
@@ -160,7 +160,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["A capacidade básica de cada rede é aumentada para &bno nível interno&r"]
+			description: ["A capacidade básica de cada rede é aprimorada para o nível interno &b&r"]
 			icon: "ae2:interface"
 			id: "3D2E392FD1C7A858"
 			rewards: [{
@@ -177,15 +177,7 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"Agora você pode duplicá-lo diretamente durante a codificação (somente ao processar modelos)"
-				""
-				"Ao codificar, o limite superior de entrada é ajustado para &b2^31-1&r, e a função de duplicação pode ser usada para atingir um máximo de &b9.22E/P"
-				""
-				"Quando o modelo em branco se esgotar, &6chamará automaticamente&rpara preencher o modelo em branco na rede ME."
-				""
-				"Ao escrever um modelo com uma estrutura multibloco, você pode &bfiltrar automaticamente certos blocos&r(especificamente visualizá-lo e modificá-lo na configuração do gtlcore e determinar se deseja filtrar com base se o ID do bloco contém a string na lista). Após fazer o pedido, a &6cancelará automaticamente o pedido específico do&r(ou seja, o pedido onde o produto é &d&r)"
-			]
+			description: ["Pode ser duplicado diretamente durante a codificação (apenas para processamento de modelos)", "", "O limite de entrada durante a codificação foi ajustado para &b2^31-1&r; com a função de duplicação, pode chegar a &b9.22E/P.", "", "Quando o modelo em branco acabar, &6chamará automaticamente &rpara preencher o modelo em branco na rede ME.", "", "Ao escrever um modelo com uma estrutura multibloco, você pode &bfiltrar automaticamente certos blocos &r(especificamente visualizá-lo e modificá-lo na configuração do gtlcore e determinar se deseja filtrar com base se o ID do bloco contém a string na lista). Após fazer o pedido, &6cancelará automaticamente o pedido específico &r(ou seja, o pedido onde o produto é &d&r)"]
 			icon: "ae2:pattern_encoding_terminal"
 			id: "5BF2FF86A30EF30C"
 			rewards: [{
@@ -203,11 +195,11 @@
 		}
 		{
 			description: [
-				"O cálculo sintético é habilitado por padrão no modo &6Ultra FAST&r, que pode ser ajustado no arquivo de configuração gtlcore"
+				"O cálculo sintético é habilitado por padrão no modo &6UlTRA FAST &r, que pode ser ajustado no arquivo de configuração gtlcore"
 				""
-				"Ao mesmo tempo, o intervalo de atualização de crafting do AE pode ser ajustado no arquivo de configuração gtlcore."
+				"Ao mesmo tempo, o intervalo de atualização de síntese do AE pode ser ajustado no arquivo de configuração gtlcore."
 				""
-				"A interface de confirmação de crafting adiciona o número de rodadas de crafting (número de distribuições) e a porcentagem de itens usados ​​no inventário."
+				"A interface de confirmação de síntese adiciona o número de rodadas de síntese (número de distribuições) e a porcentagem de itens usados ​​no inventário."
 			]
 			icon: "ae2:1k_crafting_storage"
 			id: "60D25FEE107A7A63"

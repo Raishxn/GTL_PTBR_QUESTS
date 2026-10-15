@@ -22,13 +22,7 @@
 				"32186EFF7020D432"
 				"06795792E774476F"
 			]
-			description: [
-				"The average power consumption without overclocking is 1024A MAX and the operating cycle is 120s."
-				"The corresponding operating cycles for overclocking one, two and three times are 60, 30 and 15s respectively."
-				"The corresponding average power consumption is 16384, 262144, 4194304A MAX"
-				""
-				"The time consumption in JEI is the result of overclocking once."
-			]
+			description: ["Without overclocking, average power consumption is 1024A MAX and the operating cycle is 120s.", "The corresponding operating cycles for overclocking one, two and three times are 60, 30 and 15s respectively.", "The corresponding average power consumption is 16384, 262144, 4194304A MAX", "", "The time consumption in JEI is the result of overclocking once."]
 			icon_scale: 1.3d
 			id: "3E5EBC2B23A503C1"
 			shape: "hexagon"
@@ -44,7 +38,7 @@
 		}
 		{
 			dependencies: ["3E5EBC2B23A503C1"]
-			description: ["The main source of subsequent time and space is ultra-dimensional plasma forging (don't expect the Eye of Grandmeng to produce a lot of time and space)"]
+			description: ["The main source of subsequent time and space is the ultra-dimensional plasma forge (don’t expect the Eye of Grandmeng to produce a lot of time and space)"]
 			icon: "gtceu:spacetime_bucket"
 			id: "365548266DF60F91"
 			subtitle: "Your first bucket of time and space"
@@ -61,7 +55,7 @@
 				"365548266DF60F91"
 				"77A53FAAC098F859"
 			]
-			description: ["Don't forget to optimize infinite recipes"]
+			description: ["Don’t forget to optimize endless recipes"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "45C3486A3F0EE7FB"
@@ -110,7 +104,6 @@
 				"5A61ABB6E4917C6C"
 				"6477FF81781A9FC7"
 			]
-			description: ["The second hypercube recipe involves the hypercube-tachyon metal cycle and the hypercube tachyon-rich expanded time/space cycle. Use at your discretion."]
 			icon_scale: 2.0d
 			id: "11A7CCFCEAB722F3"
 			tasks: [{
@@ -127,7 +120,7 @@
 				"17F6AFC430A15CDA"
 				"6C1AB68CC57D8670"
 			]
-			description: ["This appearance has less resistance and can store a large amount of energy inside, and can be designed like this without the need for a solar sail."]
+			description: ["This appearance has less resistance and can store a large amount of energy inside, so it can be designed like this without the need for a solar sail."]
 			id: "77CADF4536151255"
 			tasks: [{
 				id: "53C4E2DE954FFFFC"
@@ -157,7 +150,7 @@
 				"771080AF846271E3"
 				"6AC9C2DEDE46A99D"
 			]
-			description: ["It is recommended to replace the UXV and subsequent circuits only when done for the first time."]
+			description: ["It is recommended to only replace the UXV and later circuits when they are first made."]
 			icon_scale: 2.0d
 			id: "414F9C645C799FAE"
 			subtitle: "Can be mass produced"
@@ -186,6 +179,7 @@
 				"0A6C5B3C148A5743"
 				"34609EBF66099F47"
 			]
+			description: ["The final and strongest &cM&r&aA&r&9X&r&eSuper&r&5conduc&r&btor&r."]
 			id: "04420B8E0278D7AD"
 			tasks: [{
 				id: "3E9CC39D122292BB"
@@ -199,7 +193,7 @@
 			dependencies: ["04420B8E0278D7AD"]
 			icon_scale: 2.0d
 			id: "2AFCDC0CA3205903"
-			subtitle: "Remember to optimize recipes for Liquid Eternity and Eternal Singularity"
+			subtitle: "Remember to optimize the recipes for Liquid Eternity and Eternal Singularity"
 			tasks: [{
 				id: "470C4F62160DE7DA"
 				item: "kubejs:eternity_catalyst"
@@ -214,7 +208,7 @@
 				"437E5E4108228333"
 				"06795792E774476F"
 			]
-			description: ["The parallelism of conventional coils reaches &d2147483647 &r, and the parallel number of more advanced coils is also the same."]
+			description: ["The parallel number of conventional coils reaches&d2147483647 &r, and the parallel number of more advanced coils is also the same."]
 			icon_scale: 2.0d
 			id: "622395061792FB5E"
 			rewards: [{
@@ -236,7 +230,7 @@
 		}
 		{
 			dependencies: ["414F9C645C799FAE"]
-			description: ["Do you still have these consoles?"]
+			description: ["Do you still have those consoles?"]
 			icon_scale: 2.0d
 			id: "2C3C46AC660CC54E"
 			tasks: [{
@@ -244,8 +238,8 @@
 				item: "kubejs:suprachronal_mainframe_complex"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -3.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -272,14 +266,14 @@
 			description: [
 				"Up to 67108864A MAX output"
 				""
-				"The warehouse can and can only replace the high-energy machine shell &b&l&r(in addition to both sides of the main machine, there are also four corners on the base)"
+				"The warehouse can and can only replace&b&lhigh-energy machine casing&r(in addition to both sides of the main unit, there are also four corners on the base)"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
 			id: "0610CD9378D8B0AD"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Can fill your highest level laser box"
+			subtitle: "Can fill up your highest level laser bin"
 			tasks: [{
 				id: "50D76B27937DC429"
 				item: "gtceu:annihilate_generator"
@@ -294,11 +288,11 @@
 				"3F2335911E21E042"
 			]
 			description: [
-				"Power consumption is fixed at 4A MAX"
+				"Energy consumption is fixed at 4A MAX"
 				""
-				"It can only work correctly if it is located in the main world and the recipe takes &6&la second &r"
+				"It can only work properly if it is located in the main world and the recipe takes&6&lone second &r"
 				""
-				"Requires &bto use the input bus for input circuit #1 &r"
+				"Requires&bto use the input bus to input circuit No. 1 &r"
 			]
 			icon: "gtceu:door_of_create"
 			icon_scale: 1.3d
@@ -315,19 +309,18 @@
 		}
 		{
 			dependencies: [
-				"04420B8E0278D7AD"
-				"72B80ADFE77198DD"
+				"414F9C645C799FAE"
+				"32186EFF7020D432"
 			]
-			description: ["Need all world accelerators"]
-			hide_dependency_lines: true
+			dependency_requirement: "one_completed"
 			id: "3F2335911E21E042"
 			tasks: [{
 				id: "331D93B6C432E57A"
 				item: "kubejs:dimension_creation_casing"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -365,7 +358,7 @@
 			id: "6EEB0B79543E2948"
 			tasks: [{
 				id: "35F42293D17D0715"
-				title: "cosmogene"
+				title: "cosmogen"
 				type: "checkmark"
 			}]
 			x: -11.0d
@@ -421,7 +414,7 @@
 		}
 		{
 			dependencies: ["63998161D9D731E7"]
-			description: ["Hyper Jane is also a &cM &r&aA &r&9"]
+			description: ["Hypergen is also a &cM&r&aA&r&9X&r&eSuper&r&5conduc&r&btor&r."]
 			icon_scale: 2.0d
 			id: "3CE5E9F78C13E1CD"
 			rewards: [{
@@ -438,7 +431,7 @@
 				item: "kubejs:hypogen_coil_block"
 				type: "item"
 			}]
-			title: "Hypergenic Coil"
+			title: "Hypergene Coil"
 			x: -5.0d
 			y: -3.0d
 		}
@@ -460,7 +453,7 @@
 				item: "kubejs:eternity_coil_block"
 				type: "item"
 			}]
-			title: "coil of eternity"
+			title: "eternity coil"
 			x: 1.0d
 			y: -7.0d
 		}
@@ -468,6 +461,7 @@
 			dependencies: ["30AEBB08CE6C88BA"]
 			icon_scale: 2.0d
 			id: "1A37218D0F8BE570"
+			subtitle: "You have to use an electric arc furnace"
 			tasks: [
 				{
 					id: "39E4F5145C784E3D"
@@ -480,7 +474,7 @@
 					type: "item"
 				}
 			]
-			title: "The golden dust of the tuning source and the uniqueness of the universe"
+			title: "The golden powder of the tuning source and the singularity of the universe"
 			x: 5.0d
 			y: -9.0d
 		}
@@ -505,26 +499,19 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"3FBFE193579C28E3"
-				"3A89C534A7AE9E33"
-			]
+			dependencies: ["3FBFE193579C28E3"]
 			icon: "gtceu:exciteddtsc_bucket"
 			id: "53598E77317EAEB6"
-			subtitle: "In addition to plasma, there is also concentrated mixed superfuel"
 			tasks: [{
 				id: "3AC5007EE51C1247"
 				type: "checkmark"
 			}]
-			title: "Animated Stellar Extradimensional Catalyst"
+			title: "Excited Stellar Extradimensional Catalyst"
 			x: -2.0d
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"63EE8AA3FC07B820"
-				"72B80ADFE77198DD"
-			]
+			dependencies: ["63EE8AA3FC07B820"]
 			id: "697D33BB516A0785"
 			tasks: [{
 				id: "0580E4A94F454C6E"
@@ -546,7 +533,7 @@
 				id: "4B6BEEAAADADE3E4"
 				type: "checkmark"
 			}]
-			title: "Animated Alien Extradimensional Catalyst"
+			title: "Excited alien extradimensional catalyst"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -556,7 +543,7 @@
 				"63998161D9D731E7"
 				"32186EFF7020D432"
 			]
-			description: ["The space-time thread is also &cM &r&aA &r&9"]
+			description: ["Space-time wire is also a &cM&r&aA&r&9X&r&eSuper&r&5conductor&r."]
 			hide_dependency_lines: true
 			id: "6AC9C2DEDE46A99D"
 			subtitle: "Recommended passive automated production"
@@ -571,12 +558,12 @@
 		{
 			dependencies: ["6477FF81781A9FC7"]
 			description: [
-				"Dragon Nano Swarm &4not Catalyst &r"
+				"Dragon Nano Swarm&4not&rCatalyst"
 				""
 				"Quantum anomalies can be used to activate the cycle formula between hyperspace metal and hypercube, saving some excited alien hyperdimensional catalysts"
 			]
 			id: "39A97D124B756814"
-			subtitle: "Remember to optimize the recipe to expand space fluids"
+			subtitle: "Remember to optimize the recipe for expanding space fluids"
 			tasks: [{
 				id: "35D892D8BCDC5ECC"
 				item: "kubejs:quantum_anomaly"
@@ -645,9 +632,9 @@
 		{
 			dependencies: ["32186EFF7020D432"]
 			description: [
-				"The laser version of the space probe's ground receiver unit can be installed with a parallel control cabinet, requiring less computing power per product unit"
+				"The laser version of the space probe ground receiving unit can be installed with a parallel control chamber, requiring less computing power per unit product"
 				""
-				"The highest &evibranium structure &rcannot be blocked by blocks, otherwise the machine will not work."
+				"The highest&evibranium frame&rcannot be blocked by blocks, otherwise the machine will not work."
 			]
 			icon_scale: 1.5d
 			id: "63D47FFCCD8CE12E"
@@ -683,7 +670,7 @@
 				"0BF48314F3323108"
 				"32186EFF7020D432"
 			]
-			description: ["The best common energy store"]
+			description: ["The ultimate ordinary energy warehouse"]
 			id: "1DA72A668D70950E"
 			tasks: [{
 				id: "5E1B0842C979799E"

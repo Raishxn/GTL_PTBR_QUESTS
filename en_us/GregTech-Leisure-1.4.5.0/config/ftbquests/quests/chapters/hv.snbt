@@ -28,7 +28,7 @@
 				title: "HV"
 				type: "checkmark"
 			}]
-			title: "High voltage high voltage"
+			title: "High voltage HV"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -52,15 +52,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1C320B245EAC8D14"]
+			dependencies: ["4DDF10E2B541BCBF"]
 			description: ["The last circuit in this series"]
 			icon_scale: 2.0d
 			id: "7940CFD732610594"
-			rewards: [{
-				id: "1F569A837DBC3D5A"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -70,6 +65,22 @@
 			}]
 			x: 10.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			id: "4DDF10E2B541BCBF"
+			rewards: [{
+				id: "3815B8B981E6F460"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "054FD71E04CD34FC"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4302F67F2B0B22D0"]
@@ -91,7 +102,7 @@
 					type: "item"
 				}
 			]
-			title: "High voltage sensors and transmitters"
+			title: "HV sensors and transmitters"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -151,9 +162,9 @@
 			dependencies: ["0243CEA5EE705EB0"]
 			dependency_requirement: "one_started"
 			description: [
-				"Processors from the micro to wetware series (in the strict sense) can be produced efficiently using SoC chips with simplified formulas, called SOC circuits."
+				"Processors (in a narrow sense) ranging from micro to wetware series can be efficiently produced using SoC chips with simplified formulas, referred to as SOC circuits."
 				""
-				"There are also NAND chips ( ULV ) and microchip processors ( LV ) in the SoC series."
+				"The SoC series also includes NAND chips (ULV) and microchip processors (LV)"
 			]
 			icon_scale: 2.0d
 			id: "3FCF807491579B94"
@@ -192,7 +203,7 @@
 				"18CA398800CC2E1B"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["If there is no clean room, it is necessary to place the circuit assembly machine in the general assembler &6&r, and then install the ultra-clean maintenance warehouse &b&rin the general assembler."]
+			description: ["If there is no clean room, you have to put the circuit assembly machine in the&6general assembly factory &r, and then install the&bclean maintenance warehouse&rin the general assembly factory."]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [{
@@ -236,7 +247,7 @@
 				"314E6600CD806FA0"
 				"26FA6E064EF9FF5B"
 			]
-			description: ["Put it in a multi-block structure to make the multi-blocks achieve clean room environment &d&r"]
+			description: ["Put it in a multi-block structure to make the multi-blocks obtain&dclean room environment &r"]
 			icon_scale: 2.0d
 			id: "5E9EA7E22BE663AF"
 			rewards: [{
@@ -387,14 +398,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: [
-				"When it comes to EV, you need a lot of strange chemical raw materials. If you don't set up a joint petrochemical and biochemical production line now, EV will be very stuck later."
-				""
-				"Except for the bottom layer of the distillation tower, each &o&6can only and should &rplace a small outlet compartment &b&r. Each output tray corresponds to one product (can be stacked alone, without any additional height bonus)"
-				"There are and only the bottom layer &6&rcan use the output set &b&r, which can reduce the height. If you use the &dME &routput set, you can even build just three layers."
-				""
-				"The upper limit of the pyrolysis furnace speed bonus is &a500% &r, and the lower limit of the cracking machine power consumption bonus is &a10% &r"
-			]
+			description: ["At EV, you need large amounts of assorted chemical materials. Build a combined petrochemical and biochemical production line now, or the rest of EV will be much harder.", "", "Each layer of the distillation tower, except the bottom layer &o&6, can and should only &rplace one small outlet compartment &b&r. Each outbox corresponds to one product (can be stacked alone, without any additional height bonus)", "If there is &6and only bottom layer &r, you can use the output set &b&r, which can reduce the height. If you use the &dME &routput set, you can even build just three layers."]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
 			rewards: [{
@@ -447,7 +451,7 @@
 		}
 		{
 			dependencies: ["027197A71E630966"]
-			description: ["Helium and argon can be obtained from liquid air and are protective gases for burning high-grade metals"]
+			description: ["Helium and argon can be obtained from liquid air and are protective gases for firing higher-grade metals"]
 			id: "2610283E00EC04E4"
 			rewards: [{
 				id: "31410A08F07C9CC3"
@@ -523,7 +527,7 @@
 				"0A8178183C888BE0"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["If there is no clean room, you should place the cutting machine in the general processing plant &6&r, and then install the clean maintenance warehouse &bfor the general processing plant."]
+			description: ["If there is no clean room, you have to put the cutting machine into the&6general processing plant &r, and then install the&bclean maintenance warehouse for the general processing plant."]
 			id: "676D1982102F4E79"
 			rewards: [{
 				id: "73D294571F48A5E9"
@@ -623,7 +627,7 @@
 					type: "item"
 				}
 			]
-			title: "correction"
+			title: "patch"
 			x: -2.0d
 			y: 8.0d
 		}
@@ -633,7 +637,7 @@
 				"01F143E991488E7C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Polytetrafluoroethylene, or PTFE, is a unique plastic material with excellent chemical stability, heat resistance, low coefficient of friction and non-stick surface, used as parts for chemical processing equipment, electronic insulation and seals for pumps and valves."]
+			description: ["Polytetrafluoroethylene, or PTFE for short, is a unique plastic material with excellent chemical stability, heat resistance, low coefficient of friction and non-stick surface, used as parts for chemical processing equipment, electronic insulation, and seals for pumps and valves."]
 			id: "11186961491B1773"
 			rewards: [{
 				id: "50D9BD8E2FED65CF"
@@ -651,9 +655,9 @@
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"It features &b&rlossless overclocking and has &6's exclusive advanced formula &r(magic circuit No. 24), which is more powerful than the general mixing factory"
+				"In fact, it has&blossless overclocking &r, and has&6exclusive advanced formula&r(magical No. 24 circuit), which is more powerful than the general mixing factory"
 				""
-				"Only &ewhite copper coils can be used"
+				"Only&ewhite copper coils can be used"
 			]
 			icon_scale: 1.3d
 			id: "29450DC426C4E2D6"
@@ -705,7 +709,7 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			title: "Nichrome Coil"
+			title: "Nichrome coil"
 			x: 12.0d
 			y: 8.0d
 		}
@@ -731,7 +735,6 @@
 			description: ["{\"text\":\"You can also get titanium tetrachloride without going to heaven\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"605B973142727552\"}}"]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
-			subtitle: "Can also be used to increase plastic production"
 			tasks: [{
 				id: "2B5DDF34950566F1"
 				type: "checkmark"
@@ -745,10 +748,7 @@
 				"1AC5A3B5522F78D9"
 				"027197A71E630966"
 			]
-			description: [
-				"If you notice that this powder can be obtained from minerals, please don't look for it."
-				"This mineral is later obtained through large void mining machines or space elevators."
-			]
+			description: ["If you see that this powder can be obtained from minerals, please don’t look for it", "This mineral is later obtained through large void mining machines or space elevators."]
 			id: "74D9136DE32F9129"
 			rewards: [{
 				id: "11EC0893B4B00754"
@@ -775,7 +775,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "Finally, milling by-products can be obtained"
+			subtitle: "Finally the by-products of grinding can be obtained"
 			tasks: [{
 				id: "68B4BAC1D648029B"
 				item: "gtceu:hv_macerator"
@@ -791,6 +791,7 @@
 				""
 				"The serious superconductor of HV is mercury, barium, calcium and copper oxide"
 			]
+			hide_dependency_lines: true
 			id: "46BFDB71190C1F49"
 			rewards: [{
 				id: "21D42C7B4D0E84C3"
@@ -803,12 +804,12 @@
 				item: "gtceu:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["In fact, it can instantly fill the giant low voltage headbox (2.1 MB/t)"]
+			description: ["It can actually fill an LV giant input hatch instantly (2.1MB/t)."]
 			id: "05360F828860DB6F"
 			rewards: [{
 				id: "700022A87BC01B7D"
@@ -860,18 +861,19 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["Use only Kantal alloy coil &e&r"]
+			description: ["Only use&eKantal alloy coil &r", "", "It may be your first cross-recipe parallel machine (this can only be reflected with the parallel control bin)", "", "{\"text\":\"It could also be the Advanced Furnace.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5549BBB07626B52C\"}}"]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "0752A7F2C67CDF76"
+			optional: true
 			shape: "rsquare"
-			subtitle: "One-step desulfurization"
 			tasks: [{
 				id: "44035FCFBB02978D"
 				item: "gtceu:desulfurizer"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]

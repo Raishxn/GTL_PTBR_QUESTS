@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hk3_ch5_finality"
-	group: ""
+	group: "55F6563FBB4902EC"
 	icon: "hk3gtl:finality_1_processor"
 	id: "4A50000000000000"
-	order_index: 16
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,13 +19,11 @@
 			id: "4A50000000000100"
 			shape: "gear"
 			size: 1.5d
-			tasks: [
-				{
-					id: "4A50000000000101"
-					title: "Entrando na fase terminal"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000101"
+				title: "Entrando na fase terminal"
+				type: "checkmark"
+			}]
 			title: "Era Final §d§l"
 			x: 0.0d
 			y: 0.0d
@@ -55,21 +53,17 @@
 			dependencies: ["4A50000000000200"]
 			description: ["Elenco §d, núcleo de determinação de sequência final §r, acionando o marco E-MS-010."]
 			id: "4A50000000000300"
-			rewards: [
-				{
-					id: "4A50000000000302"
-					type: "xp_levels"
-					xp_levels: 20
-				}
-			]
+			rewards: [{
+				id: "4A50000000000302"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
 			subtitle: "E-MS-010 · A melhor ignição em poder de computação"
-			tasks: [
-				{
-					id: "4A50000000000301"
-					item: "hk3gtl:finality_1_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000301"
+				item: "hk3gtl:finality_1_processor"
+				type: "item"
+			}]
 			title: "§6Núcleo de determinação de sequência final"
 			x: 5.0d
 			y: 0.0d
@@ -80,28 +74,18 @@
 			id: "4A50000000000400"
 			size: 1.5d
 			subtitle: "E-MS-011 / E-FB-015 · Nau capitânia zarpa"
-			tasks: [
-				{
-					id: "4A50000000000401"
-					item: "hk3gtl:hyperion_flagship"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000401"
+				item: "hk3gtl:hyperion_flagship"
+				type: "item"
+			}]
 			title: "§d§lHipérion"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4A50000000000400"]
-			description: [
-				"Quatro módulos principais de bordo:"
-				"§7· Cabine de observação do terminal embarcado: velocidade de pesquisa §a2,0× §7(o bônus mais alto do jogo)"
-				"§7· Convés do reator de energia dupla a bordo: Fleet Energy"
-				"§7· Sala de Coordenação de Civilização a Bordo: Colaboração de Civilização"
-				"§7· Santuário Chave de Deus a bordo: A Consagração Chave de Deus"
-				""
-				"Dicas §e: §7Existem ovos de páscoa escondidos após coletar todos os quatro módulos."
-			]
+			description: ["Quatro módulos principais de bordo:", "§7· Câmara de observação do fim a bordo: velocidade de pesquisa §a2.0×§7, o maior bônus disponível.", "§7· Convés do reator de energia dupla a bordo: Fleet Energy", "§7· Sala de Coordenação de Civilização a Bordo: Colaboração de Civilização", "§7· Santuário Chave de Deus a bordo: A Consagração Chave de Deus", "", "Dicas §e: §7Existem ovos de páscoa escondidos após coletar todos os quatro módulos."]
 			id: "4A50000000000500"
 			subtitle: "A nau capitânia está fortemente armada"
 			tasks: [
@@ -176,21 +160,17 @@
 			dependencies: ["4A50000000000600"]
 			description: ["§dFinal Four Judgment Host §r- o circuito de ordem mais alta do módulo completo, acionando o marco E-MS-013."]
 			id: "4A50000000000800"
-			rewards: [
-				{
-					id: "4A50000000000802"
-					type: "xp_levels"
-					xp_levels: 30
-				}
-			]
+			rewards: [{
+				id: "4A50000000000802"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			subtitle: "E-MS-013 · O fim do poder computacional"
-			tasks: [
-				{
-					id: "4A50000000000801"
-					item: "hk3gtl:finality_4_processor_mainframe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000801"
+				item: "hk3gtl:finality_4_processor_mainframe"
+				type: "item"
+			}]
 			title: "§6§lAnfitrião do Julgamento Final Four"
 			x: 15.0d
 			y: 0.0d
@@ -205,13 +185,11 @@
 			id: "4A50000000000900"
 			size: 1.5d
 			subtitle: "E-MS-014 / E-FB-016 · Em revisão"
-			tasks: [
-				{
-					id: "4A50000000000901"
-					item: "hk3gtl:civilization_validation_matrix"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4A50000000000901"
+				item: "hk3gtl:civilization_validation_matrix"
+				type: "item"
+			}]
 			title: "Matriz de Verificação de Civilização §d§l"
 			x: 17.5d
 			y: 0.0d

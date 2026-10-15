@@ -18,13 +18,13 @@
 			description: [
 				"The last three parts can also be used as overlays"
 				"{@pagebreak}"
-				"An electric motor is a device that converts electrical energy into mechanical energy. Its operating principle is based on electromagnetic induction. When current passes through the motor coil, a force is generated in the magnetic field. This force causes the motor rotor to rotate, thus driving the load to work. Electric motors are widely used in a variety of industrial, commercial and domestic appliances."
+				"An electric motor is a device that converts electrical energy into mechanical energy. Its working principle is based on electromagnetic induction. When current passes through the coil of the motor, a force is generated in the magnetic field. This force causes the rotor of the motor to rotate, thereby driving the load to work. Electric motors are widely used in a variety of industrial, commercial and household appliances."
 				"{@pagebreak}"
-				"An electric piston is an electrically driven reciprocating device that converts the rotational motion of an electric motor into linear reciprocating motion. Such devices can be used in various applications, such as compressors, pneumatic actuators, robotic arms, etc."
+				"An electric piston is an electrically driven reciprocating device that converts the rotational motion of an electric motor into linear reciprocating motion. Such devices can be used in various applications such as compressors, pneumatic actuators, robotic arms, etc."
 				"{@pagebreak}"
-				"A robotic arm is a mechanical device that mimics the functions of a human arm, usually consisting of a series of links and joints, capable of performing a series of complex movements, including rotation, flexion and extension. Robotic arms can be programmed or controlled remotely to perform a variety of tasks such as handling, assembly, welding, spray painting, measuring and exploration."
+				"A robotic arm is a mechanical device that mimics the functions of a human arm. It is usually composed of a series of links and joints and is capable of performing a range of complex movements, including rotation, bending and extension. Robotic arms can be programmed or remotely controlled to perform a variety of tasks such as handling, assembly, welding, spray painting, measurement, and exploration."
 				"{@pagebreak}"
-				"A conveyor belt is a type of transportation machinery used to move materials or products from one location to another. It consists of one or more continuous belt-like structures rotating around two rollers that serve as drive and support points. The conveyor belt can run horizontally, inclined or vertically to meet different handling needs."
+				"A conveyor belt is a type of transportation machinery used to move materials or products from one location to another. It consists of one or more continuous belt-like structures rotating around two rollers that serve as drive and support points. The conveyor belt can run horizontally, tilted or vertically to suit different handling needs."
 			]
 			id: "2D6BB32B642AE8BA"
 			rewards: [{
@@ -75,7 +75,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "13DADE13289E59D0"
-				title: "BT low voltage"
+				title: "Low voltage LV"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -83,7 +83,7 @@
 		}
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["Allows you to obtain fine threads and threads more efficiently"]
+			description: ["Allows you to obtain wires and thin wires more efficiently"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "0CF19CAFB3355075"
@@ -103,7 +103,7 @@
 		}
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["Allows you to obtain boards and sheets more efficiently. One ingot can produce one plate and one ingot can produce four sheets."]
+			description: ["Allows you to obtain boards and foils more efficiently. One ingot can produce one board, and one ingot can produce four foils."]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "3DC0B933936357B3"
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["Allows you to obtain rods and screws more efficiently: an ingot produces two rods, a screw produces one screw"]
+			description: ["Allows you to obtain rods and screws more efficiently: one ingot produces two rods, one bolt produces one screw"]
 			icon_scale: 2.0d
 			id: "048455FFC9BDC82A"
 			rewards: [{
@@ -218,7 +218,7 @@
 			description: [
 				"This is the warehouse the blast furnace needs"
 				""
-				"&4maintenance warehouse cannot be shared by &rmulti-block structures"
+				"Maintenance warehouse &4cannot be shared by multiple &rblock structures"
 				""
 				"Hold the ribbon and right-click the maintenance compartment to quickly maintain it."
 				""
@@ -296,9 +296,9 @@
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
 			description: [
-				"&l&c&nAn assembly machine is an assembly machine, and a circuit assembly machine is a circuit assembly machine. Don't get it wrong!!!"
-				"&l&c&nAn assembly machine is an assembly machine, and a circuit assembly machine is a circuit assembly machine. Don't get it wrong!!!"
-				"&l&c&nAn assembly machine is an assembly machine, and a circuit assembly machine is a circuit assembly machine. Don't get it wrong!!!"
+				"&l&c&nThe assembly machine is an assembly machine, and the circuit assembly machine is a circuit assembly machine. Don’t get it wrong!!!"
+				"&l&c&nThe assembly machine is an assembly machine, and the circuit assembly machine is a circuit assembly machine. Don’t get it wrong!!!"
+				"&l&c&nThe assembly machine is an assembly machine, and the circuit assembly machine is a circuit assembly machine. Don’t get it wrong!!!"
 			]
 			icon_scale: 2.0d
 			id: "3E50EE376968519F"
@@ -309,7 +309,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "I can't assemble the circuit"
+			subtitle: "Can't assemble the circuit"
 			tasks: [{
 				id: "0A32B247C01822D2"
 				item: "gtceu:lv_assembler"
@@ -428,7 +428,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["Obtain electrolyte mineral powder materials"]
+			description: ["Obtain materials from electrolytic mineral powder"]
 			hide_dependency_lines: true
 			id: "6E3B42BCBA6064F5"
 			rewards: [{
@@ -495,7 +495,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			subtitle: "Your first MT circuit"
+			subtitle: "Your first MV circuit"
 			tasks: [{
 				id: "0F9DE31D5976C043"
 				item: "gtceu:good_electronic_circuit"
@@ -545,7 +545,7 @@
 				"3A97E85643D2F8AC"
 				"1BF78ABAD1FF993F"
 			]
-			description: ["You can use the chemical reaction later to make it more efficient."]
+			description: ["You can use chemical reaction later to make it more efficient."]
 			id: "006BBE4D312A2E2E"
 			rewards: [{
 				id: "556A75455225A1FC"
@@ -581,7 +581,7 @@
 				"6D63FB02A50F8249"
 				"06F767F4EFFD5DC6"
 			]
-			description: ["Can be made from silicon and polyethylene wafers later"]
+			description: ["It can be made from silicon wafers and polyethylene later"]
 			id: "0877362A9EE36FB3"
 			rewards: [{
 				id: "13E6DA5EABE53D58"
@@ -772,7 +772,7 @@
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
-			description: ["{\"text\":\"You need to use an assembly machine to do this\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E50EE376968519F\"}}"]
+			description: ["{ \"text\": \"You need to use an assembly machine to do it\", \"italic\": \"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
 			id: "49ABB341017BAE85"
 			rewards: [{
 				id: "3694138B038CCF53"
@@ -808,11 +808,7 @@
 				"27A9D4E765101CB9"
 				"5D4ADE3F2E57635C"
 			]
-			description: [
-				"Use sulfur powder and raw rubber powder to react in a chemical reactor. You can also use a steam casting furnace to make rubber strips and then extract them."
-				""
-				"The bucket of whales in the ocean can be used as a fluid unit with 2.1 MB per slot and almost unlimited slots (it can consume all the power of the ME network when interacting with the ME network); right click in air to change fluids"
-			]
+			description: ["Use sulfur powder and raw rubber powder to react in a chemical reactor. You can also use a steam casting furnace to make rubber strips and then extract them.", "", "The Abyssal Whale Barrel works like a fluid cell with 2.1MB per slot and effectively unlimited slots. Interacting with the ME network may drain its energy completely. Right-click the air to switch fluids."]
 			id: "35F31D71CC8B67CF"
 			rewards: [{
 				id: "40AA3B1525E39A70"
@@ -870,7 +866,7 @@
 					type: "item"
 				}
 			]
-			title: "Powdered sulfur and raw rubber"
+			title: "Sulfur powder and raw rubber"
 			x: 10.0d
 			y: 6.0d
 		}
@@ -988,7 +984,7 @@
 			icon_scale: 2.0d
 			id: "62B5D5669A535245"
 			shape: "rsquare"
-			subtitle: "Monster spawning electrical tower"
+			subtitle: "Electric monster spawning tower"
 			tasks: [{
 				id: "41EE54C0336928F8"
 				item: "gtceu:slaughterhouse"
@@ -1058,7 +1054,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "Your first production line"
+			subtitle: "your first production line"
 			tasks: [{
 				id: "41803FDFF0B25EBC"
 				item: "gtceu:polyethylene_bucket"
@@ -1127,7 +1123,7 @@
 			]
 			tasks: [{
 				id: "69E2A810A09B2B6A"
-				title: "cover plate"
+				title: "covering board"
 				type: "checkmark"
 			}]
 			x: -4.0d
@@ -1157,17 +1153,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: [
-				"Giant Input Bus/Input &cThe warehouse's own circuit settings cannot be modified via external input programming circuits."
-				""
-				"The forming judgment of the giant input set is both the input bus and the input bin. The common input set judgment is just the input bus. Pay attention to the distinction."
-				""
-				"Items cannot be manually placed on the giant I/O bus and need to be interacted with via storage containers (chests, me interfaces, template providers, etc.)"
-				""
-				"In addition to the increased capacity, the Giant Input Bus also has 4 Item Catalyst slots &b&r, while the Giant Input Pool has 9 Item Catalyst slots and 9 Fluid Catalyst slots &b&r."
-				""
-				"Shift + right click on the giant input bus will place the item in the catalyst slot"
-			]
+			description: ["You &ccannot change the built-in circuit setting of a giant input bus or assembly by inserting programmed circuits externally.", "", "Giant input buses or assemblies actually have &cone fewer&r usable item slot than stated in the tooltip.", "", "The giant input assembly counts as both an input bus and an input hatch when validating a structure. A normal input assembly counts only as an input bus; keep this distinction in mind.", "", "Items cannot be inserted manually into giant input buses or assemblies. Interact through storage containers such as chests, ME interfaces or pattern providers.", "", "Besides the increased capacity, the giant input bus has 4 &bitem catalyst&r slots. The giant input assembly has 9 item catalyst slots and 9 &bfluid catalyst&r slots.", "", "Shift-right-click a giant input bus or assembly to place items in the catalyst slots."]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"
 			rewards: [
@@ -1277,7 +1263,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["It can also be used to make a lightning processor to obtain liquid ender pearls steadily."]
+			description: ["It can also be used to make a lightning processor to steadily obtain liquid ender pearls."]
 			id: "4357DF535061C2E5"
 			rewards: [{
 				id: "32B350A25034F919"
@@ -1296,7 +1282,7 @@
 					type: "item"
 				}
 			]
-			title: "Low voltage sensors and transmitters"
+			title: "LV sensors and transmitters"
 			x: 2.0d
 			y: -4.0d
 		}
@@ -1334,9 +1320,9 @@
 		{
 			dependencies: ["075D368E91231337"]
 			description: [
-				"It is recommended to use the Slaughterhouse to get it first, or you can use the Lightning Processor to get it."
+				"It is recommended to use the Slaughterhouse to obtain it first, or you can use the Lightning Processor to obtain it."
 				""
-				"Extract ender pearl powder, then solidify liquid ender pearls into blocks, then disassemble ender pearl blocks (hammer forging or molecular assembly) to get &l&bwithout damage &r&rto get pearls"
+				"Extract the ender pearl powder, then solidify the liquid ender pearl into blocks, and then dismantle the ender pearl block (forging hammer or molecular assembly) to obtain&l&blosslessly&r&rpearls"
 				""
 				"Can also use implosion compressor (lossy)"
 			]
@@ -1425,7 +1411,7 @@
 		}
 		{
 			dependencies: ["4357DF535061C2E5"]
-			description: ["Convert common materials into more useful materials by simulating high-energy rays, such as Fruit Crystal, Charged Seth Quartz, Ender Pearl Dust, Brilliant Stone Dust, etc."]
+			description: ["Convert ordinary materials into more useful materials by simulating high-energy lightning, such as Fruit Crystal, Charged Seth Quartz, Ender Pearl Powder, Glowstone Powder, etc."]
 			id: "5C831396310E6546"
 			rewards: [{
 				id: "314AAA3E7631AAA5"

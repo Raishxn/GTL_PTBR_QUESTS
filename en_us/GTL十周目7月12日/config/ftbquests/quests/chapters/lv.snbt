@@ -67,7 +67,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["7CB85061F0822830", "553B2D61416792DC"]
+			dependencies: [
+				"7CB85061F0822830"
+				"553B2D61416792DC"
+			]
 			description: [
 				"&l&aIt is recommended to browse the two chapters \"Electricity\" and \"Machine\" for the first time playing."
 				""
@@ -93,13 +96,11 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "13DADE13289E59D0"
-					title: "Low voltage LV"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "13DADE13289E59D0"
+				title: "Low voltage LV"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -4.0d
 		}
@@ -124,13 +125,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "588BCA87500214EF"
-					item: "gtceu:lv_wiremill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "588BCA87500214EF"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -155,13 +154,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "137AFD6CB3927548"
-					item: "gtceu:lv_bender"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "137AFD6CB3927548"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 0.0d
 		}
@@ -185,13 +182,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "57EDE3A779842162"
-					item: "gtceu:lv_lathe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "57EDE3A779842162"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
@@ -216,13 +211,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "3DA43E9650F117DD"
-					item: "gtceu:lv_polarizer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DA43E9650F117DD"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -232,13 +225,7 @@
 				"198ED0A20800F3ED"
 				"20F6BF1EDC6EBDC1"
 			]
-			description: [
-				"&l·&fPlace two&7LV&fenergy bins on the electric blast furnace to increase the voltage to&bMV&fto run the&bMV&fformula (voltage conversion relationship: 4ALV= 1AMV, and so on)"
-				""
-				"Whether the&l·&frecipe can actually run depends on the&6heat capacity/temperature&fof the electric blast furnace, not the coil"
-				""
-				"&l·&fuses&aProduction Line Ripper 2.0 configurable maintenance warehouse&fwith&ahigh-security power grid energy warehouse &f, which can fully satisfy the parallel compensation and achieve batch parallel effects."
-			]
+			description: ["&l · &f Place two &7 LV &f energy bins on the electric blast furnace to increase the voltage to &b MV &f, thereby running the &b MV &f formula (voltage conversion relationship: 4A LV = 1A MV, and so on)", "", "Whether the&l·&frecipe can actually run depends on the&6heat capacity/temperature&fof the electric blast furnace, not the coil", "", "&l · &f uses &a production line tearer 2.0 with configurable maintenance warehouse &f and &a high-security power grid energy warehouse &f, which can take full parallel compensation and achieve batch parallel effects"]
 			icon_scale: 1.3d
 			id: "07D0D7005DA4F446"
 			rewards: [
@@ -261,18 +248,19 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0BAFA129FC209B2A"
-					item: "gtceu:electric_blast_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BAFA129FC209B2A"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3117BF8E4782DB2A", "553B2D61416792DC"]
+			dependencies: [
+				"3117BF8E4782DB2A"
+				"553B2D61416792DC"
+			]
 			description: ["This is the block that powers the multi-block structure"]
 			icon_scale: 1.3d
 			id: "32CE144D9A9F0943"
@@ -291,13 +279,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "66CE417A92BDA931"
-					item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66CE417A92BDA931"
+				item: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 2.0d
 		}
@@ -343,12 +329,10 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "55818A0E7052B32C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "55818A0E7052B32C"
+				type: "checkmark"
+			}]
 			title: "some warehouses"
 			x: 4.0d
 			y: 2.0d
@@ -381,17 +365,12 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "your first set of coils"
-			tasks: [
-				{
-					count: 16L
-					id: "022D8EB7519F65E1"
-					item: {
-						Count: 16
-						id: "gtceu:cupronickel_coil_block"
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 16L
+				id: "022D8EB7519F65E1"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
 			title: "white copper coil"
 			x: -2.0d
 			y: 4.0d
@@ -422,13 +401,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Can't assemble the circuit"
-			tasks: [
-				{
-					id: "0A32B247C01822D2"
-					item: "gtceu:lv_assembler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A32B247C01822D2"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -490,13 +467,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1B0AD5C6137AEFCE"
-					item: "gtceu:cupronickel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1B0AD5C6137AEFCE"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 6.0d
 		}
@@ -518,15 +493,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:tin_alloy"
-					id: "3781D8803CEA425B"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:tin_alloy"
+				id: "3781D8803CEA425B"
+				type: "fluid"
+			}]
 			title: "liquid tin-iron alloy"
 			x: -4.0d
 			y: 2.0d
@@ -555,18 +528,19 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "1CB9DD3F4D92C8FD"
-					item: "gtceu:invar_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CB9DD3F4D92C8FD"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0CF19CAFB3355075", "7CC28185463F24C2"]
+			dependencies: [
+				"0CF19CAFB3355075"
+				"7CC28185463F24C2"
+			]
 			id: "7F9F473B8C508676"
 			rewards: [
 				{
@@ -581,13 +555,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "75A397E09A1E76A7"
-					item: "gtceu:cupronickel_double_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "75A397E09A1E76A7"
+				item: "gtceu:cupronickel_double_wire"
+				type: "item"
+			}]
 			title: "White copper wire"
 			x: -2.0d
 			y: 6.0d
@@ -608,13 +580,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "1CC54740C4BEE22C"
-					item: "gtceu:bronze_foil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "1CC54740C4BEE22C"
+				item: "gtceu:bronze_foil"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -639,13 +609,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "2FE273B543714BD1"
-					item: "gtceu:lv_electrolyzer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2FE273B543714BD1"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -2.0d
 		}
@@ -667,18 +635,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2E83C5426C90F1A6"
-					item: "gtceu:aluminium_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E83C5426C90F1A6"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["73EFFB71A1A827D6", "3F38CC8C8D650202"]
+			dependencies: [
+				"73EFFB71A1A827D6"
+				"3F38CC8C8D650202"
+			]
 			id: "11B60450D7F3C188"
 			rewards: [
 				{
@@ -695,18 +664,19 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "298A039260B352D6"
-					item: "gtceu:aluminium_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "298A039260B352D6"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["0877362A9EE36FB3", "006BBE4D312A2E2E"]
+			dependencies: [
+				"0877362A9EE36FB3"
+				"006BBE4D312A2E2E"
+			]
 			id: "7D399E31506924A0"
 			rewards: [
 				{
@@ -724,13 +694,11 @@
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "Your first MV circuit"
-			tasks: [
-				{
-					id: "0F9DE31D5976C043"
-					item: "gtceu:good_electronic_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0F9DE31D5976C043"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -738,23 +706,19 @@
 			dependencies: ["7D399E31506924A0"]
 			description: ["This is a cheap MV circuit"]
 			id: "40C39645B1DE2488"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "25C6770E1DDF86CC"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25C6770E1DDF86CC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "348825C79AD479CA"
-					item: "kubejs:elite_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "348825C79AD479CA"
+				item: "kubejs:elite_control_circuit"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -776,18 +740,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "395F73DF4EA428B0"
-					item: "gtceu:phenolic_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "395F73DF4EA428B0"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["3A97E85643D2F8AC", "1BF78ABAD1FF993F"]
+			dependencies: [
+				"3A97E85643D2F8AC"
+				"1BF78ABAD1FF993F"
+			]
 			description: ["You can use chemical reaction later to make it more efficient."]
 			id: "006BBE4D312A2E2E"
 			rewards: [
@@ -803,13 +768,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4E8A56A18EA1888B"
-					item: "gtceu:phenolic_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4E8A56A18EA1888B"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -829,18 +792,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5D16B78D90582E29"
-					item: "gtceu:silver_single_wire"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5D16B78D90582E29"
+				item: "gtceu:silver_single_wire"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["6D63FB02A50F8249", "06F767F4EFFD5DC6"]
+			dependencies: [
+				"6D63FB02A50F8249"
+				"06F767F4EFFD5DC6"
+			]
 			description: ["It can be made from silicon wafers and polyethylene later"]
 			id: "0877362A9EE36FB3"
 			rewards: [
@@ -856,13 +820,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "632999DA643003E5"
-					item: "gtceu:diode"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "632999DA643003E5"
+				item: "gtceu:diode"
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.0d
 		}
@@ -883,13 +845,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "3DBD74652FB4B8BF"
-					item: "gtceu:gallium_arsenide_dust"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3DBD74652FB4B8BF"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
 			x: 8.0d
 			y: -4.0d
 		}
@@ -920,13 +880,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "4F2FF11089D97406"
-					item: "gtceu:lv_arc_furnace"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4F2FF11089D97406"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -4.0d
 		}
@@ -947,13 +905,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "06EC3C1BF7D124CB"
-					item: "gtceu:magnetic_steel_rod"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "06EC3C1BF7D124CB"
+				item: "gtceu:magnetic_steel_rod"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -2.0d
 		}
@@ -980,19 +936,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0C8DEF275C16A96E"
-					item: "gtceu:annealed_copper_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0C8DEF275C16A96E"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
 			x: -4.0d
 			y: -4.0d
 		}
 		{
 			can_repeat: false
-			dependencies: ["54034055F57DDAA5", "49ABB341017BAE85"]
+			dependencies: [
+				"54034055F57DDAA5"
+				"49ABB341017BAE85"
+			]
 			icon_scale: 1.3d
 			id: "388E5C1034C54D19"
 			rewards: [
@@ -1010,13 +967,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "08CFFDE3C82C9FCF"
-					item: "gtceu:mv_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "08CFFDE3C82C9FCF"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 4.0d
 		}
@@ -1037,13 +992,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "4B0294376308A36D"
-					item: "gtceu:copper_single_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4B0294376308A36D"
+				item: "gtceu:copper_single_cable"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 4.0d
 		}
@@ -1063,18 +1016,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "20A2D5C286E8A31E"
-					item: "gtceu:aluminium_plate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "20A2D5C286E8A31E"
+				item: "gtceu:aluminium_plate"
+				type: "item"
+			}]
 			x: 8.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["27A9D4E765101CB9", "5D4ADE3F2E57635C"]
+			dependencies: [
+				"27A9D4E765101CB9"
+				"5D4ADE3F2E57635C"
+			]
 			description: [
 				"&l·&fThere are two ways to make rubber strips:"
 				"&l&f- Use&6sulfur powder&fand&6raw rubber powder&fto react in&bchemical reactor &f"
@@ -1098,15 +1052,13 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:rubber"
-					id: "6F04BF9EE3A2DA93"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:rubber"
+				id: "6F04BF9EE3A2DA93"
+				type: "fluid"
+			}]
 			title: "liquid rubber"
 			x: 6.0d
 			y: 6.0d
@@ -1131,13 +1083,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "708FD829786614CE"
-					item: "gtceu:lv_chemical_reactor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "708FD829786614CE"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 6.0d
 		}
@@ -1190,13 +1140,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "5A00FC384A33FB54"
-					item: "gtceu:lv_voltage_coil"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5A00FC384A33FB54"
+				item: "gtceu:lv_voltage_coil"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 2.0d
 		}
@@ -1229,34 +1177,28 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2A0E245BCDBBC3D3"
-					item: "gtceu:manganese_phosphide_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2A0E245BCDBBC3D3"
+				item: "gtceu:manganese_phosphide_ingot"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4EBCDD1E943F7350"]
 			id: "0BBC0C3FB2E8C800"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "03540CC51A7C2D1E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "193D5046F8A8CD47"
-					item: "gtceu:lv_field_generator"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03540CC51A7C2D1E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "193D5046F8A8CD47"
+				item: "gtceu:lv_field_generator"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
@@ -1283,8 +1225,7 @@
 						id: "ae2:portable_item_cell_16k"
 						tag: {
 							RepairCost: 0
-							amts: [
-								L;
+							amts: [L;
 								1L
 								1L
 								1L
@@ -1554,13 +1495,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Electric monster spawning tower"
-			tasks: [
-				{
-					id: "41EE54C0336928F8"
-					item: "gtceu:slaughterhouse"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41EE54C0336928F8"
+				item: "gtceu:slaughterhouse"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
@@ -1597,15 +1536,13 @@
 				}
 			]
 			subtitle: "your first production line"
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:polyethylene"
-					id: "494EC2D9C0052E24"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:polyethylene"
+				id: "494EC2D9C0052E24"
+				type: "fluid"
+			}]
 			title: "liquid polyethylene"
 			x: 4.0d
 			y: 4.0d
@@ -1615,29 +1552,28 @@
 			hide_dependency_lines: true
 			icon: "gtceu:glass_bucket"
 			id: "06F767F4EFFD5DC6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "074BF98A028E48B8"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "DEFAULT"
-					fluid: "gtceu:glass"
-					id: "7F8B174919D3CF04"
-					type: "fluid"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074BF98A028E48B8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "DEFAULT"
+				fluid: "gtceu:glass"
+				id: "7F8B174919D3CF04"
+				type: "fluid"
+			}]
 			title: "liquid glass"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["66DC685BEC00E4A6", "4357DF535061C2E5"]
+			dependencies: [
+				"66DC685BEC00E4A6"
+				"4357DF535061C2E5"
+			]
 			description: ["&l·&fWireless Energy Receiver&7is installed on a small machine, allowing the machine to obtain energy directly from the wireless network"]
 			id: "1FA24513965B09A8"
 			rewards: [
@@ -1654,13 +1590,11 @@
 				}
 			]
 			subtitle: "The power of radio"
-			tasks: [
-				{
-					id: "36AFB28F70862E5B"
-					item: "gtmthings:lv_wireless_energy_receive_cover"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "36AFB28F70862E5B"
+				item: "gtmthings:lv_wireless_energy_receive_cover"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -6.0d
 		}
@@ -1727,13 +1661,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "2A8461478B2B66CC"
-					title: "ender pearl"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2A8461478B2B66CC"
+				title: "ender pearl"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: -6.0d
 		}
@@ -1757,13 +1689,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "68056D9427DD774E"
-					item: "gtceu:lv_lightning_processor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "68056D9427DD774E"
+				item: "gtceu:lv_lightning_processor"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -6.0d
 		}

@@ -58,19 +58,13 @@
 					type: "item"
 				}
 			]
-			title: "Vários lingotes"
+			title: "vários lingotes"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4058D1416D94BABB"]
-			description: [
-				"O forno de fundição de liga produzirá fluido (o produto correspondente pode ser produzido através do alto-forno misturador-elétrico ou dissulfeto de carbono) e fluido fundido. O fluido fundido precisa ser resfriado usando um freezer a vácuo"
-				""
-				"Não se deixe levar pelo longo tempo de fundição, isso é resultado da integração da receita do liquidificador diretamente na receita de fundição e, na verdade, consome menos tempo do que misturar e depois fundir o pó em um alto-forno (como aço inoxidável)."
-				""
-				"Quase todos os materiais de liga podem ser produzidos nesta máquina, então se você tiver problemas para encontrar a receita da liga, procure &b&lFluido Fundido&r!"
-			]
+			description: ["O forno de fundição de liga produzirá fluido (o produto correspondente pode ser produzido através do alto-forno misturador-elétrico ou dissulfeto de carbono) e fluido fundido. O fluido fundido precisa ser resfriado usando um freezer a vácuo", "", "Não se deixe levar pelo longo tempo de fundição, isso é resultado da integração da receita do liquidificador diretamente na receita de fundição e, na verdade, consome menos tempo do que misturar e depois fundir o pó em um alto-forno (como aço inoxidável).", "", "Quase todas as ligas podem ser produzidas nesta máquina. Se estiver com dificuldade para encontrar uma receita de liga, procure o &b&lfluido fundido&r!"]
 			icon: "gtceu:alloy_blast_smelter"
 			icon_scale: 1.3d
 			id: "1F0956C3BD4745A1"
@@ -93,10 +87,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"1F0956C3BD4745A1"
-				"27BA6EBA81622516"
-			]
+			dependencies: ["1F0956C3BD4745A1"]
 			description: [
 				"Agora é possível fazer versões maiores de máquinas monobloco, com melhor boost e overclock, e maior paralelismo"
 				""
@@ -126,8 +117,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
@@ -285,7 +276,7 @@
 				item: "gtceu:polybenzimidazole_plate"
 				type: "item"
 			}]
-			title: "novo plástico"
+			title: "plástico novo"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -448,7 +439,7 @@
 		}
 		{
 			dependencies: ["027B25761BD830C8"]
-			description: ["&cnão pode&raumentar o dobro do armazém"]
+			description: ["&cnão pode &raumentar o dobro do armazém"]
 			icon_scale: 2.0d
 			id: "30A0D221474FB44A"
 			rewards: [{
@@ -506,7 +497,7 @@
 				"0526B4AC0CAF99A5"
 				"3ECA33037D940EAB"
 			]
-			description: ["Supercondutor &9IV&r"]
+			description: ["Supercondutor &9IV &r"]
 			id: "02D426BE0947F123"
 			tasks: [{
 				id: "4FD9779EEB7F7F57"
@@ -716,28 +707,28 @@
 				item: "gtceu:fission_reactor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
 				"Simplificando, é deixar a máquina pegar itens diretamente da rede ME e utilizá-los."
 				""
-				"Use a memória flash &d&rpara salvar a configuração do warehouse e clique com o botão direito para aplicar a configuração."
+				"Use &d memória flash &r para salvar a configuração do warehouse e clique com o botão direito para aplicar a configuração."
 				""
-				"O modo de extração automática &6&rpode ser ativado para extrair automaticamente itens/fluidos de estoque na rede (o barramento de tags &bpode definir o modo de classificação pull&r)"
+				"Você pode ativar o modo de extração automática &6 &r para extrair automaticamente itens/fluidos de inventário na rede (o barramento de tags &b pode definir o modo de classificação pull &r)"
 				""
-				"Use o cortador de fio &d&rpara clicar com o botão direito no armazém ME para alternar o armazém ME entre rede frontal e rede de qualquer lado."
+				"Use &d cortador de cabo&r para clicar com o botão direito no armazém ME para alternar o armazém ME entre rede frontal e rede de qualquer lado."
 				""
-				"O intervalo de extração &6&rpode ser ajustado no canto inferior esquerdo da interface do armazém. A exibição padrão é 0tick, o que significa que o intervalo de pull não é alterado. O &bmínimo é 1tick&r(afeta a velocidade de extração da rede ME)"
+				"Você pode ajustar o intervalo de extração &6 &r no canto inferior esquerdo da interface do armazém. A exibição padrão é 0tick, o que significa que o intervalo de pull não é alterado. &b é pelo menos 1tick&r (afeta a velocidade de extração da rede ME)"
 				""
-				"O modo de pull extremo &d&rpode ser ativado no arquivo de configuração gtlcore, de modo que o pull&rdo conjunto de entrada de inventário &6ME não será mais atrasado (afetando a computação paralela), mas pode ter um certo impacto no TPS"
+				"Você pode ativar o modo de pull extremo &d &r no arquivo de configuração gtlcore, para que não haja atraso na extração do conjunto de entrada de inventário &6ME &r (afetando a computação paralela), mas pode ter um certo impacto no TPS"
 				""
 				"O barramento de inventário de tags é usado da mesma maneira que o barramento de armazenamento de tags"
 				""
 				"Nota: Como o AE precisa se reconectar à rede ao entrar no arquivo, o armazém de estoque será desconectado por um curto período de tempo."
-				"Vários compartimentos/barramentos de entrada de estoque na mesma estrutura multibloco não podem ter o mesmo conteúdo marcado"
+				"Vários compartimentos/ônibus de estoque na mesma estrutura multibloco não podem ter o mesmo conteúdo marcado"
 			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
@@ -793,7 +784,7 @@
 				"0526B4AC0CAF99A5"
 				"3CB16B36A5AA2A10"
 			]
-			description: ["Infelizmente, esta liga não pode ser fabricada diretamente usando o Forno de Fundição de Liga."]
+			description: ["Essa liga só tem receita de liquidificador"]
 			id: "7D8241E627194099"
 			tasks: [{
 				id: "21095623F1E9DBD4"
@@ -852,7 +843,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "01068F963A96E633"
-				title: "Pressão condutora forte IV"
+				title: "Pressão forte IV"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -860,11 +851,7 @@
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
-			description: [
-				"64 congelador a vácuo paralelo"
-				""
-				"&mEu sei que gelo líquido parece ridículo, mas foi isso que registrei&r"
-			]
+			description: ["Congelador a vácuo com 64 operações paralelas"]
 			icon_scale: 1.3d
 			id: "4C4081C79D227D1F"
 			rewards: [{
@@ -929,8 +916,6 @@
 				"A liga supercrítica de sódio-potássio também pode ser usada para obter vapor supercrítico, que pode ser usado para gerar eletricidade para turbinas a vapor supercríticas."
 				""
 				"Além da fórmula da liga térmica de sódio-potássio, o trocador de calor não é afetado pelo compartimento de manutenção configurável."
-				""
-				"As ligas quentes de sódio-potássio vêm de reatores de fissão de baixa temperatura (≤825K), e as ligas supercríticas de sódio-potássio vêm de reatores de fissão de alta temperatura (>825K)."
 			]
 			icon_scale: 2.0d
 			id: "24CE67689DD540B7"
@@ -951,13 +936,7 @@
 				"65FDECC0F69ECD2A"
 				"15580C25FF239402"
 			]
-			description: [
-				"0,2x é usado para acelerar a máquina, 1,2x é usado para economizar combustível. Em alguns casos, o gerador pode obter tempos de overclock adicionais para aumentar a geração de energia."
-				""
-				"{\"text\":\"Configure a ferramenta de cópia para copiar e colar configurações demoradas\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3740DE62D42A4D0D\"}}"
-				""
-				"Você também pode fazer o armazém de manutenção ultralimpo configurável &6&r"
-			]
+			description: ["0.2x acelera as máquinas; 1.2x economiza combustível. Em alguns casos, isso permite overclocks adicionais nos geradores, aumentando a potência gerada.", "", "{ \"text\": \"Configure a ferramenta de cópia para copiar e colar configurações demoradas de processamento\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }", "", "Você também pode tornar &6armazém de manutenção ultralimpo configurável &r"]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"
 			rewards: [{

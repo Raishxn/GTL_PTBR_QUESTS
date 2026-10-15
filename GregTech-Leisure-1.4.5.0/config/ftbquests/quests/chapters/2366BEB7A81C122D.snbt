@@ -205,7 +205,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["Supercondutor &4UHV&r"]
+			description: ["Supercondutor &4UHV &r"]
 			id: "1DFC7DC123A3D830"
 			tasks: [{
 				id: "396FE1151A63CF4A"
@@ -336,12 +336,7 @@
 				"7A7C73D046390488"
 				"53DEE1A65051E06F"
 			]
-			description: [
-				"Múltiplo demorado: 0,8 ^ (nível de tensão do corpo do elevador -8)"
-				"Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)"
-				""
-				"Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação"
-			]
+			description: ["Multiplicador de duração: 0.8^(nível de tensão do elevador-8).", "Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)", "", "Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação."]
 			icon_scale: 2.0d
 			id: "31EDE3D976DE5A33"
 			shape: "rsquare"
@@ -359,14 +354,7 @@
 				"7A7C73D046390488"
 				"53DEE1A65051E06F"
 			]
-			description: [
-				"Múltiplo demorado: 0,8 ^ (nível de tensão do corpo do elevador -8)"
-				"Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)"
-				""
-				"Com o desbloqueio de drones avançados, você pode pular várias linhas de produção e obter recursos diretamente."
-				""
-				"Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação"
-			]
+			description: ["Multiplicador de duração: 0.8^(nível de tensão do elevador-8).", "Número máximo de paralelos: 4 ^ (nível do módulo de potência do corpo do elevador -1)", "", "Com o desbloqueio de drones avançados, você pode pular várias linhas de produção e obter recursos diretamente.", "", "Certifique-se de que a base do módulo do elevador espacial &6&re o conector do módulo do elevador espacial &6&rdo módulo se sobrepõem completamente com aqueles que vêm com o elevador espacial para completar a instalação."]
 			icon_scale: 2.0d
 			id: "7ADB50ACF5AE1D13"
 			shape: "rsquare"
@@ -482,16 +470,16 @@
 				"2A0269009ABF1414"
 			]
 			description: [
-				"Este é o foguete T8, desbloqueie Barnard C, clique em &ena GUI do host para iniciar&r(você também pode ir para outros planetas)"
+				"Este é o foguete T8. Desbloqueie Barnard C. Clique em &ena GUI do host para partir e ir para &r(você também pode ir para outros planetas)"
 				""
-				"&bé necessário para inserir o circuito nº 1&rusando o barramento de entrada e fornece continuamente 128 de potência de computação. Quando o elevador estiver funcionando normalmente, o tempo de funcionamento será &6, que irá circular entre 6~13s."
-				"Portanto, &c&l&oNão utilize o compartimento de manutenção configurável para modificar a receita. É demorado."
+				"&bé necessário para inserir o circuito nº 1 &rusando o barramento de entrada e fornece continuamente 128 de potência de computação. Quando o elevador estiver funcionando normalmente, o tempo de operação será &6, que irá circular entre 6~13s."
+				"Portanto, &c&l&onão usa o compartimento de manutenção configurável para modificar a receita, o que é demorado"
 				""
 				"Somente quando o corpo principal do elevador espacial estiver funcionando normalmente (ou seja, o módulo de potência e o motor principal estiverem acesos) o módulo de expansão mostrará que está conectado e funcionando normalmente?"
 				""
 				"Quanto maior a tensão do corpo principal do elevador espacial, maior será a redução demorada do módulo de expansão; quanto maior o nível do módulo de potência, maior o número de módulos de expansão paralelos"
 				""
-				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos&r"
+				"Clique em \"M\" na interface de visualização da estrutura multibloco em jei para visualizar a estrutura multibloco após &einstalar todos os módulos &r"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.3d
@@ -731,18 +719,7 @@
 				"035C470213E8B4DB"
 				"0A2D46609F5C3CAB"
 			]
-			description: [
-				"Saída até 1A MAX, muito poderosa"
-				""
-				"A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia"
-				""
-				"Também possui um mecanismo de overclock:"
-				"{\"text\":\"Para o mecanismo específico, consulte a definição de overclocking sem perdas.\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"}}"
-				"Substitua &b4x velocidade de receita&rpor &60,25x tempo de receita&r(incluindo multiplicação de caixas de manutenção configuráveis), consumo de energia &b&rcom &6geração de energia&r, &bcusto total de energia&rcom &6A geração total de energia&ré o mecanismo de overclock do gerador"
-				"O gerador fará overclock automaticamente de&rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo."
-				""
-				"Geradores com as palavras &b&loverclocking não perderão eficiência energética e&rna descrição possuem mecanismos de overclock."
-			]
+			description: ["Saída até 1A MAX, muito poderosa", "", "A partir do Big Silica, todos os geradores podem usar caixas de fonte de laser &l&c&r&rpara produzir energia", "", "Também possui um mecanismo de overclock:", "{ \"text\": \"Para mecanismos específicos, consulte a definição de overclocking sem perdas\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }", "Troque &bvelocidade de receita 4x&r por &6duração de receita 0.25x&r (incluindo a multiplicação da escotilha de manutenção configurável), &bconsumo de energia&r por &6potência gerada&r e &bcusto energético total&r por &6energia total gerada&r para obter a mecânica de overclock dos geradores.", "O gerador fará overclock automaticamente &rde acordo com o tamanho do compartimento de energia/fonte de laser &d&r&eaté o limite superior de overclock, e o tempo de execução será reduzido para 1 ~ 3 ticks no mínimo.", "", "Geradores com as palavras &boverclocking &lnão perderão eficiência energética e &rna descrição possuem um mecanismo de overclock."]
 			icon_scale: 2.0d
 			id: "09E013C97E05C052"
 			rewards: [{
@@ -763,11 +740,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: [
-				"{\"text\":\"Consulte aqui os cuidados para a construção de uma torre de evaporação.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"
-				""
-				"A purificação das linhas de água é na verdade muito linear e fácil de fazer, as únicas coisas a serem observadas são o nitrogênio (carvão ativado) e a velocidade da torre de evaporação"
-			]
+			description: ["{\"text\":\"Consulte aqui as instruções de construção da torre de evaporação.\",\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"}}"]
 			hide_dependency_lines: true
 			icon: "gtceu:grade_8_purified_water_bucket"
 			id: "4EA64DC5DA2F0F8C"
@@ -873,7 +846,7 @@
 				"0A2D46609F5C3CAB"
 			]
 			description: [
-				"Primeiro use &dpara atualizar&re clique com o botão direito na montagem do modelo e, em seguida, clique com o botão direito na imagem para vincular a imagem à montagem do modelo anterior."
+				"Primeiro use &d memória flash &r para clicar com o botão direito na montagem do modelo e, em seguida, clique com o botão direito na imagem para vincular a imagem à montagem do modelo anterior."
 				""
 				"O espelho mostrará as coordenadas da montagem do modelo vinculado"
 				""
@@ -911,17 +884,7 @@
 				"035C470213E8B4DB"
 				"5F0A175D6704A8D0"
 			]
-			description: [
-				"Uma caixa de controle paralela mais longa e rápida pode ser instalada, e o conjunto de entrada gigante &b&rou mesmo o conjunto de amostra &b&rpode ser usado!"
-				""
-				"O compartimento de entrada pode ser substituído pelo conjunto de entrada gigante e pelo conjunto do modelo, mas o barramento de entrada não pode ser substituído"
-				""
-				"O local disponível para o compartimento paralelo é próximo ao barramento de entrada"
-				""
-				"Os dados só podem ser fornecidos usando o armazém de destino de dados ópticos &e(sem fio)&r"
-				""
-				"O comprimento máximo é de 65 grades e o multiplicador de tempo mínimo pode chegar a 0,35."
-			]
+			description: ["Uma caixa de controle paralela mais longa e rápida pode ser instalada, e o conjunto de entrada gigante &b&rou mesmo o conjunto de amostra &b&rpode ser usado!", "", "O compartimento de entrada pode ser substituído pelo conjunto de entrada gigante e pelo conjunto do modelo, mas o barramento de entrada não pode ser substituído", "", "O local disponível para o compartimento paralelo é próximo ao barramento de entrada", "", "Os dados só podem ser fornecidos usando o armazém de destino de dados ópticos &e(sem fio)&r", "", "Comprimento máximo de 65 blocos, com multiplicador mínimo de duração de 0.35."]
 			icon_scale: 2.0d
 			id: "172FC2F2B20CD187"
 			rewards: [{
@@ -1013,22 +976,14 @@
 				"24585C3114095227"
 				"4F87B7DA47087F97"
 			]
-			description: [
-				"A versão GT da sala de montagem supermolecular não requer consumo da UE, possui paralelismo entre receitas e interage com a rede ME através da porta matriz."
-				""
-				"&6Cinco núcleos de velocidade&rpodem atingir o consumo mínimo de tempo (1 tick)"
-				""
-				"O núcleo só pode substituir o bloco de maquinaria molecular &bna estrutura central."
-				"&r"
-				"A porta Matrix &cnão pode ser sintetizada usando o conjunto de modelo&r"
-			]
+			description: ["A versão GT da sala de montagem supermolecular não requer consumo da UE, possui paralelismo entre receitas e interage com a rede ME através da porta matriz.", "", "&6 Cinco núcleos de velocidade &r podem atingir o consumo mínimo de tempo (1tick)", "", "O núcleo pode e só pode substituir o bloco de maquinaria molecular &b na estrutura central.", "&r", "A porta Matrix &c não pode ser sintetizada &r usando o assembly do modelo"]
 			hide_dependency_lines: true
 			icon: "gtceu:molecular_assembler_matrix"
 			icon_scale: 1.5d
 			id: "47A332D8C189A51B"
 			optional: true
 			shape: "rsquare"
-			subtitle: "A melhor sala de montagem molecular"
+			subtitle: "Sala de montagem molecular versão pluspromax"
 			tasks: [
 				{
 					id: "412C806531848D9A"

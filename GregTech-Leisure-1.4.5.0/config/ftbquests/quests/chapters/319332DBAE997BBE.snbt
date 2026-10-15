@@ -339,7 +339,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			title: "Bobina Caijin"
+			title: "Bobina Cajun"
 			x: 8.0d
 			y: 8.0d
 		}
@@ -361,7 +361,7 @@
 		}
 		{
 			dependencies: ["23B23867F311BF51"]
-			description: ["Supercondutor &cZPM&r"]
+			description: ["Supercondutor &cZPM &r"]
 			id: "0B89B3108EB4A01F"
 			tasks: [{
 				id: "7E7B15A8DCDA158C"
@@ -511,7 +511,7 @@
 			description: [
 				"Você pode fazer isso com rocha de sílica, o que pode melhorar a eficiência."
 				""
-				"O bloco de silício &cda ExtendedAe não pode fazer&r, use o bloco de silício&rda GregTech &9"
+				"O bloco de silício &cda ExtendedAe não pode produzir &r, use o bloco de silício &9GregTech &r"
 			]
 			hide_dependency_lines: true
 			id: "1C10383050657004"
@@ -849,13 +849,13 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"Equivalentes aos bins de energia (bins alvo) e bins de potência (bins fonte) mais potentes, só podem ser usados ​​em máquinas ou geradores com &ena descrição que permitem o uso de bins laser&r, podendo também ser usados ​​com bins duplos &bpara potencializar&r(se for permitido colocar dois bins laser)"
+				"Equivalentes aos bins de energia (bins de destino) e bins de potência (bins de origem) mais potentes, só podem ser usados ​​em máquinas ou geradores com &ena descrição que permitem o uso de bins de laser &r, podendo também ser usados ​​com bins duplos &bpara impulsionar &r(se for permitido colocar dois bins de laser)"
 				""
-				"As cabines de laser comuns precisam ser conectadas usando tubos de laser comuns (sem perda de energia) e o cabo não pode ser girado. Por favor, use um transformador ativo para conseguir girar o laser. Depois que a cabine do laser sem fio for colocada, ela interagirá diretamente com a rede sem fio sem operações adicionais."
+				"Cabines de laser comuns precisam ser conectadas com cabos de laser comuns (sem perda de energia). O cabo não pode ser virado. Por favor, use um transformador ativo para conseguir girar o laser. Depois que a cabine do laser sem fio for colocada, ela interagirá diretamente com a rede sem fio sem operações adicionais."
 				""
 				"A potência máxima pode atingir 4194304A/tensão do compartimento"
 				""
-				"Nota: Mesmo que a descrição da máquina tenha as palavras &opermitindo o uso do compartimento de laser&r, na maioria dos casos o compartimento de alvo de laser &l&cainda não pode substituir o compartimento de energia&r&r&rem uma estrutura multibloco (alguns especiais, como instrumentos de distorção química profunda e nanoforjas, só podem usar câmaras de alvo de laser e não podem usar compartimentos de energia; enquanto os reatores de fusão nuclear de compressão podem usar compartimentos de alvo de laser para substitua os compartimentos de energia. Consulte a interface JEI multibloco e a descrição do host da máquina.)"
+				"Nota: Mesmo que a descrição da máquina tenha as palavras &opermitindo o uso do compartimento de laser &r, na maioria dos casos o compartimento de alvo de laser &l&cainda não pode substituir o compartimento de energia &r&r&rem uma estrutura multibloco (alguns especiais, como instrumentos de distorção química profunda e nano-forjas, só podem usar câmaras de alvo de laser e não podem usar compartimentos de energia; enquanto os reatores de fusão nuclear de compressão podem usar caixas de alvo de laser para substituir caixas de energia. Consulte a interface JEI multibloco e a descrição do host da máquina.)"
 			]
 			icon: "gtmthings:iv_256a_wireless_laser_target_hatch"
 			icon_scale: 1.5d
@@ -978,21 +978,7 @@
 				"2CEEFDACE7B13D5A"
 				"7F8C2ECC7CE2BF20"
 			]
-			description: [
-				"Armazenamento de dados de grande capacidade, usando data warehouses ópticos para alimentar diversas linhas de montagem"
-				""
-				"Os bancos de dados também podem ser conectados em série (o banco de dados pode obter dados de outros bancos de dados através do armazém de destino)"
-				""
-				"O compartimento de origem/alvo de dados ópticos &cnão pode ser compartilhado por&r"
-				""
-				"Os cabos ópticos são usados ​​para transmitir dados entre armazéns ópticos com fio, e o cabo óptico &enão pode ser bifurcado&r"
-				""
-				"Armazém óptico sem fio usa memória flash &d&rpara ligação"
-				""
-				"Cada compartimento (óptico e de acesso) continua consumindo energia &e1.920&rEU/t (0,9375A &5EV&r)"
-				"Caso a base de dados esteja sendo escrita ou lida por outras máquinas, o consumo de energia de cada armazém aumenta para &e30.720&rEU/t (0,9375A &dLuV&r)"
-				"&4Se a fonte de alimentação for insuficiente, alguns armazéns irão falhar."
-			]
+			description: ["Armazenamento de dados de grande capacidade, usando data warehouses ópticos para alimentar múltiplas linhas de montagem", "", "Os bancos de dados também podem ser conectados em série (o banco de dados pode obter dados de outros bancos de dados através do armazém de destino)", "", "O compartimento de destino/fonte de dados ópticos &cnão pode ser compartilhado por &r", "", "Os cabos ópticos são usados ​​para transmitir dados entre armazéns ópticos com fio, e o cabo óptico &enão pode ser bifurcado &r", "", "Armazém óptico sem fio usa memória flash &d&rpara ligação", "", "Cada escotilha, tanto óptica quanto de acesso, consome continuamente &e1,920&r EU/t (0.9A &bMV&r).", "Se outra máquina estiver lendo ou gravando no banco de dados, o consumo de cada escotilha aumenta para &e30,720&r EU/t (0.9A &5EV&r).", "&4 Se a fonte de alimentação for insuficiente, alguns armazéns irão falhar."]
 			hide_dependent_lines: true
 			icon: "gtceu:data_bank"
 			icon_scale: 1.5d

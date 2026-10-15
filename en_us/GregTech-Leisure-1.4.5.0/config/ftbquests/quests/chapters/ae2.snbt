@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The upper limit of the requested quantity is increased to &d15 digits &r"]
+			description: ["The upper limit of request quantity is enhanced to&d15 digits &r"]
 			icon: "merequester:requester"
 			id: "225FC6F6F3626C53"
 			rewards: [{
@@ -19,7 +19,7 @@
 			}]
 			tasks: [{
 				id: "0C01B0FEAADE8281"
-				title: "requester of me"
+				title: "ME requester"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -27,9 +27,9 @@
 		}
 		{
 			description: [
-				"The default here is &dunlimited channel &r, for performance reasons &eremoved the crafting recipe from the ME controller &r"
+				"The default here is&dunlimited channel &r, for performance reasons&ehas removed the synthesis recipe of the ME controller &r"
 				"{@pagebreak}"
-				"&mIn fact, the Fish Making Conference will give you a &rcontroller"
+				"&mActually, the Fish Making Conference will give you a controller &r"
 			]
 			icon: "ae2:fluix_glass_cable"
 			id: "0259EEEAE6F3C3CB"
@@ -41,14 +41,14 @@
 			subtitle: "Why can't the ME controller be synthesized?"
 			tasks: [{
 				id: "777CFBC4F54FBCE9"
-				title: "canal"
+				title: "channel"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: -1.5d
 		}
 		{
-			description: ["Basic transmission speed is improved to &b64*int level &r"]
+			description: ["The basic transmission speed is enhanced to&b64*int level &r"]
 			icon: "expatternprovider:ex_io_port"
 			id: "4E1E59DD41AEEC17"
 			rewards: [{
@@ -58,7 +58,7 @@
 			}]
 			tasks: [{
 				id: "2CF437FD2CAA4A4C"
-				title: "IO expansion port"
+				title: "Expansion IO port"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -66,11 +66,11 @@
 		}
 		{
 			description: [
-				"&8Mid-Term ULV &rUnlocks AE Warehousing and Logistics"
-				"&bMV first &runlock order and upgrade card (basic)"
-				"&bEnd of MV &rUpgrade Card (Advanced) Unlock"
-				"&6HV Ultimate &rUnlock AE Wireless"
-				"&dEV Home &rUnlocks creation of power components and assembly matrix"
+				"&8ULV mid-term&runlocks AE storage and logistics"
+				"&bMV initial&runlocks order and (basic) upgrade card"
+				"&bMV End&rUnlocked (Advanced) Upgrade Card"
+				"&6HV end&rUnlock wireless AE"
+				"&dEV initial&runlocks the creation of energy components and assembly matrix"
 			]
 			icon: "ae2:controller"
 			id: "5AB25B6A1A96FFF1"
@@ -81,7 +81,7 @@
 			}]
 			tasks: [{
 				id: "50E327F3A46D8F21"
-				title: "About the corresponding internship"
+				title: "About the corresponding stage"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -89,9 +89,9 @@
 		}
 		{
 			description: [
-				"Infinite water/cobblestone component capacity increased for &d9.22P/E &r"
+				"Infinite water/cobblestone component capacity increased to&d9.22P/E &r"
 				"{@pagebreak}"
-				"Disc creation has also been improved"
+				"Creating disks has also been enhanced"
 			]
 			icon: {
 				Count: 1
@@ -119,9 +119,9 @@
 		}
 		{
 			description: [
-				"The storage type is the default &d4 times &r, which can be adjusted in the gltcore configuration file"
+				"The storage type is the default&d4 times &r, which can be adjusted in the configuration file of gltcore"
 				""
-				"At the same time, the AE inventory update interval can be adjusted in the gtlcore configuration file."
+				"At the same time, the inventory update interval of AE can be adjusted in the gtlcore configuration file."
 			]
 			icon: {
 				Count: 1
@@ -136,14 +136,14 @@
 			}]
 			tasks: [{
 				id: "550042261D7CDFD8"
-				title: "disco"
+				title: "disk"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 0.5d
 		}
 		{
-			description: ["The number of slots of the extended model provider &b&rcan be adjusted in the gtlcore configuration file &6&r"]
+			description: ["The number of slots&rfor the&bextended template provider can be adjusted in the&6gtlcore configuration file &r"]
 			icon: "expatternprovider:ex_pattern_provider"
 			id: "6B5FD34433F96957"
 			rewards: [{
@@ -153,14 +153,14 @@
 			}]
 			tasks: [{
 				id: "5E27D16F8CFDACB4"
-				title: "Extended Model Provider"
+				title: "Extended template provider"
 				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 0.5d
 		}
 		{
-			description: ["The basic capacity of each network is increased to &bat the internal level &r"]
+			description: ["The basic capacity of each grid is enhanced to&bint level &r"]
 			icon: "ae2:interface"
 			id: "3D2E392FD1C7A858"
 			rewards: [{
@@ -170,7 +170,7 @@
 			}]
 			tasks: [{
 				id: "042A7D3DB05154B7"
-				title: "EU Interface"
+				title: "ME interface"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -178,13 +178,13 @@
 		}
 		{
 			description: [
-				"Now you can duplicate it directly during coding (only when processing models)"
+				"Can be doubled directly during coding (only for processing templates)"
 				""
-				"When encoding, the input upper limit is set to &b2^31-1 &r, and the doubling function can be used to achieve a maximum of &b9.22E/P"
+				"When encoding, the upper limit of input is adjusted to&b2^31-1 &r. Using the doubling function, the maximum input limit can be&b9.22E/P."
 				""
-				"When the blank model runs out, &6will automatically call &rto fill the blank model on the ME network."
+				"When the blank template is exhausted,&6will automatically call&rto fill the blank template in the ME network."
 				""
-				"When writing a model with a multi-block structure, you can &bautomatically filter certain &rblocks (specifically view and modify it in the gtlcore configuration and determine whether to filter based on whether the block ID contains the string in the list). After placing the order, &6will automatically cancel the specific order of &r(that is, the order where the product is &d&r)"
+				"When writing a template with a multi-block structure, you can&bautomatically filter certain blocks&r(specifically view and modify it in the configuration of gtlcore, and determine whether to filter based on whether the block id contains the string in the list). After placing the order,&6will automatically cancel the&rspecific order (that is, the order where the product is&d&r)"
 			]
 			icon: "ae2:pattern_encoding_terminal"
 			id: "5BF2FF86A30EF30C"
@@ -197,17 +197,17 @@
 				id: "11AFFE5DA6C9DF13"
 				type: "checkmark"
 			}]
-			title: "Related standard encoding"
+			title: "Boilerplate coding related"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
 			description: [
-				"Synthetic calculation is enabled by default in &6Ultra FAST &rmode, which can be adjusted in the gtlcore configuration file"
+				"Synthetic calculation is enabled by default&6UlTRA FAST mode &r, which can be adjusted in the gtlcore configuration file"
 				""
-				"At the same time, the AE crafting refresh interval can be adjusted in the gtlcore configuration file."
+				"At the same time, the synthesis update interval of AE can be adjusted in the gtlcore configuration file."
 				""
-				"The crafting confirmation interface adds the number of crafting rounds (number of distributions) and the percentage of items used in the inventory."
+				"The synthesis confirmation interface adds the number of synthesis rounds (number of distributions) and the percentage of used items in the inventory."
 			]
 			icon: "ae2:1k_crafting_storage"
 			id: "60D25FEE107A7A63"
@@ -220,7 +220,7 @@
 				id: "0E2E7DAA9A528870"
 				type: "checkmark"
 			}]
-			title: "Related order overview"
+			title: "Order synthesis related"
 			x: 3.0d
 			y: 0.5d
 		}

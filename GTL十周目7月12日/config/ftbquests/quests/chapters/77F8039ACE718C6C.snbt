@@ -9,18 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Pegue o lingote de bronze e você poderá começar a era do vapor"
-				"Tenha a coragem de entrar no primeiro Voltage da GregTech!"
-				""
-				"&lNa versão pirata, a fase de vapor passa muito rapidamente."
-				"&lSeu objetivo principal é:"
-				"&a• Alcançando o mundo antigo"
-				"&a• Obter pacote AE"
-				"&a• Com componentes de ferramenta frágeis e matriz de montagem"
-				"&a• Uso adequado de motores a vapor universais"
-				"&a• Use modelos de ferramentas para fazer a transição rápida para o estágio MV"
-			]
+			description: ["&lCom lingotes de bronze em mãos, você já pode começar a era do vapor!", "&lTome coragem e avance para o primeiro nível de tensão do GregTech!", "", "&lNa versão pirata, a fase de vapor passa muito rapidamente.", "&lSeu objetivo principal é:", "&a • Alcançando o mundo antigo", "&a • Obter pacote AE", "&a • Combinado com componentes de ferramentas frágeis e matriz de montagem", "&a • Uso adequado de motores a vapor universais", "&a • Use modelos de ferramentas para fazer a transição rápida para o estágio MV"]
 			id: "5F5F348E3A34827E"
 			rewards: [
 				{
@@ -47,13 +36,11 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "47D6C464DF34C115"
-					item: "gtceu:bronze_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
 			title: "Era do Vapor ULV"
 			x: 0.0d
 			y: -2.0d
@@ -69,23 +56,19 @@
 			]
 			icon_scale: 1.3d
 			id: "4BFC342697BDE75A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6FF8DAA6E2A87E42"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FF8DAA6E2A87E42"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "70DE0442DB10C914"
-					item: "gtceu:lp_steam_solid_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
 			title: "caldeira de baixa pressão"
 			x: -2.0d
 			y: 0.0d
@@ -152,13 +135,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "0A519A3A397BBD45"
-					item: "gtceu:rubber_plate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
 			title: "seu primeiro pedaço de borracha"
 			x: -2.0d
 			y: 2.0d
@@ -180,13 +161,11 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "5ADD8EEFE40F5663"
-					item: "gtceu:steel_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
 			title: "Seu primeiro lingote de aço"
 			x: 4.0d
 			y: 2.0d
@@ -216,13 +195,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Você definitivamente precisa de muita imaginação para usá-lo"
-			tasks: [
-				{
-					id: "6500863B6A64DE2F"
-					item: "gtceu:lv_machine_hull"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
 			x: -2.0d
 			y: 6.0d
 		}
@@ -247,19 +224,17 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "7D7E7EBAB75A2F8D"
-					item: "gtceu:lp_steam_alloy_smelter"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7D7E7EBAB75A2F8D"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
-			description: ["Ele pode martelar três fusos em duas placas, o que tem uma taxa de utilização maior do que a fricção manual."]
+			description: [""]
 			icon: "gtceu:lp_steam_forge_hammer"
 			icon_scale: 1.3d
 			id: "6525C9DE2A276238"
@@ -308,13 +283,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "6B8D0D8D101E1641"
-					item: "gtceu:tin_single_cable"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
 			title: "cabo de estanho"
 			x: -2.0d
 			y: 4.0d
@@ -346,18 +319,19 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "18D90ADC7E5AC578"
-					title: "tubo de vidro"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "18D90ADC7E5AC578"
+				title: "tubo de vidro"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["707E5114B7979898", "388BD32463FA905D"]
+			dependencies: [
+				"707E5114B7979898"
+				"388BD32463FA905D"
+			]
 			description: ["Seu primeiro circuito ULV, você precisa usá-lo para ajudar a fazer circuitos mais baratos, basta fazer alguns"]
 			id: "5CD26DECB937FC71"
 			rewards: [
@@ -375,13 +349,11 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "16EA9C62F6D609A0"
-					item: "gtceu:vacuum_tube"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -409,18 +381,16 @@
 				}
 			]
 			size: 1.0d
-			tasks: [
-				{
-					id: "15717008A6B7F20E"
-					item: "gtceu:red_alloy_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -2.0d
 		}
 		{
-			description: ["Os povos primitivos também tiveram que montar circuitos", "&l· &fPor favor, escreva o conjunto do circuito &6na caixa de nomenclatura do conjunto da superamostra"]
+			description: ["&l·&fO nome de mapeamento do montador de circuitos é &6电路组装 (Montagem de circuitos)&f, para diferenciá-lo do montador e facilitar o envio de padrões.", "&l· &fPor favor, escreva o conjunto do circuito &6电路组装 (na caixa de nomenclatura do conjunto da superamostra)"]
 			icon: "gtceu:large_steam_circuit_assembler"
 			icon_scale: 1.3d
 			id: "34FCFA114E75D770"
@@ -473,30 +443,29 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "72CA64283A8A3E34"
-					item: "kubejs:precision_steam_mechanism"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["5276CA8FA5262C9B", "38CC43F7A6A39BB4"]
+			dependencies: [
+				"5276CA8FA5262C9B"
+				"38CC43F7A6A39BB4"
+			]
 			description: ["Não se esqueça de colocar a bandeja de saída"]
 			icon: "gtceu:large_steam_centrifuge"
 			icon_scale: 1.3d
 			id: "2585418910B6798A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "13DE643DF97234BC"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DE643DF97234BC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [
@@ -515,13 +484,7 @@
 		}
 		{
 			dependencies: ["7CB85061F0822830"]
-			description: [
-				"Pode ser compartilhado"
-				""
-				"Na verdade, exceto algumas máquinas, todas as máquinas multibloco que requerem uma câmara de silenciador podem usar câmaras de silenciador de baixa tensão. As câmaras de silenciador avançadas são de pouca utilidade."
-				""
-				"Mesmo que a câmara do silenciador esteja cheia de cinzas, isso não afetará o funcionamento da máquina."
-			]
+			description: ["&l · &b pode ser compartilhado", "", "&l·&fCom poucas exceções, os multiblocos que exigem silenciadores podem usar &6silenciadores LV&f; silenciadores superiores não oferecem benefício prático.", "", "&l·&fMesmo &6cheia de cinzas&f, a escotilha de silenciador &anão impede o funcionamento da máquina&f."]
 			icon_scale: 1.3d
 			id: "38CC43F7A6A39BB4"
 			rewards: [
@@ -540,13 +503,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Não bloqueie a saída de fumaça"
-			tasks: [
-				{
-					id: "6FF18125E551DB42"
-					item: "gtceu:lv_muffler_hatch"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
@@ -580,19 +541,17 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "011218464BCA60AC"
-					item: "gtceu:basic_electronic_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
 			title: "seu primeiro circuito"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
-			description: ["Existem muitas fórmulas para resistores e fios finos são mais econômicos"]
+			description: [""]
 			id: "6D729450ED86BDAF"
 			rewards: [
 				{
@@ -607,13 +566,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "72F7066EE104AACE"
-					item: "gtceu:resistor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
 			x: 4.0d
 			y: -4.0d
 		}
@@ -632,13 +589,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "2B8641531625E4B7"
-					item: "gtceu:resin_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 2.0d
 		}
@@ -658,13 +613,11 @@
 					type: "random"
 				}
 			]
-			tasks: [
-				{
-					id: "6354CE91F0CF6378"
-					item: "gtceu:resin_printed_circuit_board"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
 			x: 6.0d
 			y: 0.0d
 		}
@@ -672,73 +625,67 @@
 			dependencies: ["2585418910B6798A"]
 			description: ["Resina pegajosa para centrífuga"]
 			id: "06285BE2396AB639"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4F2800910E1DC81B"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					amount: 1000L
-					consume_fluid: "FALSE"
-					fluid: "gtceu:glue"
-					id: "25861EAAFDCFE2E9"
-					type: "fluid"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2800910E1DC81B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				amount: 1000L
+				consume_fluid: "FALSE"
+				fluid: "gtceu:glue"
+				id: "25861EAAFDCFE2E9"
+				type: "fluid"
+			}]
 			title: "cola"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["34FCFA114E75D770", "06285BE2396AB639"]
+			dependencies: [
+				"34FCFA114E75D770"
+				"06285BE2396AB639"
+			]
 			description: ["Circuitos muito baratos, esta série vai até circuitos EV"]
 			hide_dependent_lines: true
 			id: "08B7D8F835DFE214"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "57D0B48E418B55D9"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D0B48E418B55D9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "344BB3250C20E4FB"
-					item: "kubejs:basic_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["08B7D8F835DFE214", "5065BEDC95AE564E"]
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
 			description: ["Este é um circuito LV barato"]
 			id: "553B2D61416792DC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "367782BB7B641C95"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367782BB7B641C95"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 2.0d
-			tasks: [
-				{
-					id: "41CA550B62F920A6"
-					item: "kubejs:advanced_control_circuit"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
 			x: 6.0d
 			y: -4.0d
 		}
@@ -751,21 +698,17 @@
 			]
 			icon: "gtceu:steam_bucket"
 			id: "2B9D62FB6BF39201"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4E74C063CD33F40E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
-			tasks: [
-				{
-					id: "61D5BA33A860F807"
-					title: "fonte de vapor"
-					type: "checkmark"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E74C063CD33F40E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61D5BA33A860F807"
+				title: "fonte de vapor"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -774,55 +717,42 @@
 			icon: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
 			icon_scale: 1.3d
 			id: "0077892401F923A5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "00287780E0DF68D8"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00287780E0DF68D8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0B62AB0FBC941286"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0B62AB0FBC941286"
+				type: "checkmark"
+			}]
 			title: "Armazém de energia sem fio/armazém de energia de rede"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
-			description: [
-				"&l·&fColoque a máquina em&6Sky Island World&fe insira&aSteam&fpara produzir todos os minerais do mundo principal"
-				"&l·&fTaxa de produção de minério&620 grupos por segundo &f, o que pode economizar muitas pequenas minerações no estágio inicial"
-				""
-				"&l·Esta é uma máquina de estrutura multibloco"
-			]
+			description: ["&l·&fColoque a máquina em&6Sky Island World&fe insira&aSteam&fpara produzir todos os minerais do mundo principal", "&l · Taxa de produção mineral &f &6 1 segundos Grupo 20 &f, que pode economizar muitas pequenas minerações no estágio inicial", "", "&l·Esta é uma máquina de estrutura multibloco"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon_scale: 1.3d
 			id: "1AB29FA99478121D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0FCD9A7610F1FC71"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FCD9A7610F1FC71"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "461B67A32B06A68B"
-					item: "gtceu:primitive_void_ore"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "461B67A32B06A68B"
+				item: "gtceu:primitive_void_ore"
+				type: "item"
+			}]
 			x: -4.0d
 			y: 0.0d
 		}
@@ -838,23 +768,19 @@
 			icon: "gtceu:silicone_rubber_ingot"
 			id: "790B1D35140D65FA"
 			optional: true
-			rewards: [
-				{
-					command: "/attribute @p forge:block_reach base set 15"
-					elevate_perms: true
-					id: "4C346EFC41A1CE2A"
-					title: "Modifique o alcance para 15"
-					type: "command"
-				}
-			]
+			rewards: [{
+				command: "/attribute @p forge:block_reach base set 15"
+				elevate_perms: true
+				id: "4C346EFC41A1CE2A"
+				title: "Modifique o alcance para 15"
+				type: "command"
+			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					id: "25424C78793974AF"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "25424C78793974AF"
+				type: "checkmark"
+			}]
 			title: "homem de borracha"
 			x: -4.0d
 			y: -4.0d
@@ -863,23 +789,19 @@
 			dependencies: ["5C936EF307594737"]
 			icon_scale: 1.3d
 			id: "12EFFF2247F9891F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3F92AC6FCFDDEB77"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F92AC6FCFDDEB77"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "0BF1442F1B798AD1"
-					item: "gtceu:steam_pressor"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0BF1442F1B798AD1"
+				item: "gtceu:steam_pressor"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -887,23 +809,19 @@
 			dependencies: ["6525C9DE2A276238"]
 			icon_scale: 1.3d
 			id: "1CD854E9940E14EF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A0B37E6328FBF38"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A0B37E6328FBF38"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "5946D26DE367E3BC"
-					item: "gtceu:steam_piston_hammer"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5946D26DE367E3BC"
+				item: "gtceu:steam_piston_hammer"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -4.0d
 		}
@@ -911,23 +829,19 @@
 			dependencies: ["4BFC342697BDE75A"]
 			icon_scale: 1.3d
 			id: "58A3407E6F0CE4F9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "37303319FD42EB64"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37303319FD42EB64"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "6C66F56E8E525670"
-					item: "gtceu:bronze_large_boiler"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6C66F56E8E525670"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -935,23 +849,19 @@
 			dependencies: ["30F031CD02425ED7"]
 			icon_scale: 1.3d
 			id: "3C0F39E0AB9F37B9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "58B0B56D0ED27A9E"
-					table_id: 6225023274141477362L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58B0B56D0ED27A9E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [
-				{
-					id: "6E5B62356C6B43AC"
-					item: "gtceu:steam_foundry"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "6E5B62356C6B43AC"
+				item: "gtceu:steam_foundry"
+				type: "item"
+			}]
 			x: 2.0d
 			y: -4.0d
 		}
@@ -998,13 +908,11 @@
 			shape: "hexagon"
 			size: 2.0d
 			subtitle: "Agregador de materiais = lata de lixo"
-			tasks: [
-				{
-					id: "25C59619016CE73C"
-					title: "lata de lixo"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "25C59619016CE73C"
+				title: "lata de lixo"
+				type: "checkmark"
+			}]
 			x: -4.0d
 			y: 2.0d
 		}

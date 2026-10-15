@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Can be found in jungle temples or caught in fishing areas"]
+			description: ["Can be found in jungle temples or caught in fishing grounds"]
 			id: "369BA1002418F097"
 			tasks: [{
 				consume_items: false
@@ -103,7 +103,7 @@
 					type: "item"
 				}
 			]
-			title: "The Sword of World Domination"
+			title: "The Sword of Dominance of the Universe"
 			x: -4.5d
 			y: -7.0d
 		}
@@ -263,7 +263,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0BB44C475666B862"]
-			description: ["Tapping the enchanted book on the tool will give the tool the Travel Scepter right-click teleportation function (will conflict with other tools with right-click functions)"]
+			description: ["Tapping the enchanted book on the tool will give the tool the right-click teleport function of the Travel Scepter (will conflict with other tools with right-click functions)"]
 			disable_toast: true
 			icon: "travelanchors:travel_staff"
 			id: "0A5739F8E482B47E"
@@ -305,13 +305,13 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"High speed mining, the default is to press &bJ &rto adjust the speed. Stealth accelerates the adjustment speed. If it exceeds 1000, it will be reset to the initial value."
+				"High-speed mining, by default press&bJ&rto adjust the speed. Stealth speeds up the adjustment speed. If it exceeds 1000, it will be reset to the initial value."
 				""
-				"The left Sneak button can turn the magnetic attraction on and off"
+				"The left button of Sneak can switch magnetic attraction on and off"
 				""
-				"As a GT tool, the Vajra has the functions of a wrench and pliers."
+				"As a GT tool, the Vajra has the functions of a wrench and wire cutters."
 				""
-				"Does not consume durability or energy"
+				"Does not consume durability and power"
 			]
 			icon: {
 				Count: 1
@@ -457,7 +457,7 @@
 					type: "item"
 				}
 			]
-			title: "steam engine block"
+			title: "steam machinery block"
 			x: 0.0d
 			y: -5.5d
 		}
@@ -480,7 +480,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "aproveitador"
+			title: "profiteer"
 			x: -4.5d
 			y: -2.5d
 		}
@@ -504,7 +504,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "Black hearted boss"
+			title: "Black-hearted boss"
 			x: -3.0d
 			y: -2.5d
 		}
@@ -528,7 +528,7 @@
 				item: { Count: 100, id: "gtceu:ancient_gold_coin" }
 				type: "item"
 			}]
-			title: "capitalista"
+			title: "capitalist"
 			x: -1.5d
 			y: -2.5d
 		}
@@ -618,7 +618,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			title: "Wireless Gift Pack"
+			title: "Wireless gift package"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -642,7 +642,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "EA Cable"
+			title: "AE cable"
 			x: -1.5d
 			y: -5.5d
 		}
@@ -746,7 +746,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["Can be sent quickly with destination display"]
+			description: ["Can be submitted quickly with the target display"]
 			disable_toast: true
 			icon: "gtceu:portable_debug_scanner"
 			id: "3D3257C9F9C151F1"
@@ -818,7 +818,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "loteria"
+			title: "lottery"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -1268,7 +1268,7 @@
 					type: "item"
 				}
 			]
-			title: "Colored lens"
+			title: "Colorful lens"
 			x: -7.5d
 			y: -4.0d
 		}
@@ -1487,7 +1487,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			title: "loteria"
+			title: "lottery"
 			x: 1.5d
 			y: -2.5d
 		}
