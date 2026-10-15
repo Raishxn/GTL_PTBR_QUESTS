@@ -20,7 +20,8 @@ Escolha **um arquivo de idioma** da versão desejada. Os pacotes incluem as ques
 1. Baixe o arquivo do idioma desejado na tabela acima.
 2. No **Prism Launcher**, use **Adicionar instância → Importar** e selecione o `.mrpack` ou `.zip` baixado, sem extrair.
 3. Aguarde o launcher baixar os mods e concluir a instalação.
-4. Inicie a instância. As quests e a opção de idioma do Minecraft já estarão configuradas para a variante escolhida.
+4. Para o **GTL 11th, selecione Java 21** nas configurações de Java da instância. Alguns mods incluídos nessa versão exigem Java 21.
+5. Inicie a instância. As quests e a opção de idioma do Minecraft já estarão configuradas para a variante escolhida.
 
 Também é possível usar outro launcher compatível com o formato do pacote. As versões `.mrpack` usam o formato Modrinth; os arquivos `.zip` da versão 1.4.5.0 usam o formato CurseForge. A instalação exige acesso à internet para baixar as dependências.
 
