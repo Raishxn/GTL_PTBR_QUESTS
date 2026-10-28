@@ -1,0 +1,1585 @@
+{
+	autofocus_id: "5F5F348E3A34827E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "396EC5E3BC3FE314"
+	group: "68CBF1606D696C68"
+	icon: "gtlcore:primitive_robot_arm"
+	id: "396EC5E3BC3FE314"
+	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46F82A0A3D57C225"]
+			description: [
+		"&6&l» 进入蒸汽时代"
+		"&f- Get the bronze ingot and you can start the age of steam!"
+		"&f- Take courage and step towards the first voltage of GregTech!"
+		""
+		"&6&l» Enhanced version process guide"
+		"&f- In the enhanced version, the steam phase passes very quickly."
+		"&f- Your primary goal is:"
+		""
+		"&a- &freaches the ancient world"
+		"&a- &freceive AE package"
+		"&a- &fwith fragile tool assembly and assembly matrix"
+		"&a- &fUse tool templates to quickly transition to the MV stage"
+		""
+		"&e&l※ Tips"
+		"&e- The steam era is short, please make good use of the resources at hand and quickly move to the next voltage."
+	]
+			id: "5F5F348E3A34827E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7956D911A9298668"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "736A4BA06E606D06"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "47D6C464DF34C115"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "Steam Age ULV"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+		"&6&l» Main source of steam"
+		""
+		"&a&l» Fuel"
+		"&f- Diamonds are the most resistant to burning. It is recommended to burn diamonds directly."
+		""
+		"&4&l» Warning"
+		"&c- The boiler will explode if water is introduced during dry heating!"
+	]
+			id: "4BFC342697BDE75A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FF8DAA6E2A87E42"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "70DE0442DB10C914"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "low pressure boiler"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4BFC342697BDE75A"
+				"5276CA8FA5262C9B"
+			]
+			description: [
+		"&6&l» Top products in the steam age"
+		"&f- This is the most advanced machine you can get at the steam stage, with multiple recipe modes."
+		"&f- Proper use can greatly improve the gaming experience."
+		"&f- The machine enclosure level determines both the &eparallel processing number &fand the &evoltage level &f."
+		""
+		"&4&l» NOTE"
+		"&c- If it prompts \"The voltage level does not meet the recipe requirements\", please upgrade the machine casing."
+	]
+			icon_scale: 2.0d
+			id: "19A588E594BEF4E9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F2A7D5D886D0AFD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D6EEDB7B9C4FF24"
+					table_id: 6270211456353923990L
+					title: "General purpose steam engine"
+					type: "all_table"
+				}
+				{
+					count: 10
+					id: "706CB639E9D053C0"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "268FFCC8455A5F72"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1DB4A0C2B6C565A4"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Thirteen in one, boy!"
+			tasks: [{
+				id: "68D5D3BD001BAE94"
+				item: "gtl_enhancedcore:industrial_steam_platform"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19A588E594BEF4E9"]
+			description: [ "&f- It is recommended to use a compressor directly in the early stage" ]
+			hide_dependency_lines: false
+			id: "79E81CC078F246C0"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73B9E147546EBC29"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "3A9C5F77B9311BE8"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:sticky_resin"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A519A3A397BBD45"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			title: "your first piece of rubber"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79E81CC078F246C0"]
+			id: "43DE0784E5D32B46"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "61C758028D9C9DB9"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F8D0C292AFF4ADD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B8D0D8D101E1641"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			title: "tin cable"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"02375F5D54E5F347"
+				"43DE0784E5D32B46"
+			]
+			description: [
+		"&f- Used to make electric machines and warehouses"
+		""
+		"&f- can even be used to store &c&r&eto store &r&apower &b&r&rand &3to connect &r&9to &r&1ME &r&5NET &r&dNET &r!"
+	]
+			icon_scale: 1.3d
+			id: "7CB85061F0822830"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "0D14C938E01BD29D"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A0E8901C57DEF7D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "You definitely need a wild imagination to use it"
+			tasks: [{
+				id: "6500863B6A64DE2F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19A588E594BEF4E9"]
+			description: [ "&f- The superconducting material of ULV, but now we use it to make ancient reactor cores" ]
+			id: "3D65D9712DFB63D9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E67BCCD0BD6E7DE"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DE17D3F21E3C195"
+				item: "gtceu:pulsating_alloy_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D65D9712DFB63D9"]
+			description: [
+		"&a- In the enhanced version, you don't need to mine manually at all!"
+		"&a- Every time you unlock a new world, give priority to viewing the fragment recipes of the corresponding world."
+		"&a- Use the fragment collector to collect ore."
+	]
+			icon: "kubejs:reactor_core"
+			id: "00579BDA1FA1BEC6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45B5A926290BB6CA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "56F493267DC5C509"
+					item: "gtlcore:world_fragments_reactor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C71CBD9FE0DC224"
+				item: "kubejs:reactor_core"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00579BDA1FA1BEC6"]
+			description: [
+		"&f- If the block name of a certain dimension is displayed in the lower right corner of the JEI recipe, it means that the recipe &bcan only be produced in the corresponding dimension &f"
+		"&f- Example: Damascus Steel Powder can only be crafted in the Ancient World"
+	]
+			icon: "kubejs:reactor_core"
+			icon_scale: 2.0d
+			id: "335ED39019FC62E7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "120C3F2CEC94168B"
+					item: {
+						Count: 1
+						id: "gtceu:nanomuscle_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1436494559DCBE1B"
+					item: {
+						Count: 1
+						id: "gtceu:avanced_nanomuscle_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "542A36C70B6D39A1"
+					item: "gtceu:nanomuscle_leggings"
+					type: "item"
+				}
+				{
+					id: "4A5E920CBD312AF2"
+					item: "gtceu:nanomuscle_boots"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0BD8635BD90C8E04"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07FB696437048D7B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "66A3FE9FC45449C6"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:damascus_steel_dust"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5570EF3E7801BFD4"
+				type: "checkmark"
+			}]
+			title: "ancient world"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			description: [""]
+			id: "12FE2B59FA86381C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70D50893D4ABD079"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			subtitle: "This is much more efficient than the parent rock"
+			tasks: [
+				{
+					id: "456D397A52A6D291"
+					item: "gtceu:certus_quartz_gem"
+					type: "item"
+				}
+				{
+					id: "5E645191AA6CD3ED"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Mines from the ancient world"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: [ "&f- \"About the incident where my AE sister forced me to turn on automation before I could rub my hands enough in the first ten minutes\"" ]
+			icon: "ae2:guide"
+			id: "6E69F45AEA66D5ED"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "1DFA26133A6F203D"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8E2E60E44FFD5F"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "1BA5B1AAEAC0F23D"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "AE2"
+			tasks: [{
+				id: "76E9DDCCC307F224"
+				title: "Applied Energy 2"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+		"&f- In the enhanced version, the parallel processing unit is not of much use"
+		"&f- Too high parallelism will affect TPS, so it is not recommended to create high parallelism."
+		"&f- EAEP comes with doubled intelligence, and the super model assembly also comes with doubled intelligence"
+		"&f- The 64-bit parallelism provided can be used until graduation."
+	]
+			icon: "ae2:drive"
+			id: "007BBB3D4E349869"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "497174F8C3C0CDB1"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:blank_pattern"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2684F3F75F3C1E13"
+					item: "gtlcore:max_storage"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6195835370390CC3"
+					item: "extendedae_plus:64x_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "4EF9A311FA5F4919"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "34FA7A3FDCEEFF9C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "good deal"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["007BBB3D4E349869"]
+			description: [
+		"&5▌ Very cost-effective"
+		""
+		"&f- Receipt tips:"
+		"&7• Please ensure that the backpack has at least &e34 empty spaces when receiving it."
+		"&7• When there is insufficient space in the backpack, please stand in a safe position before picking up to avoid losing structural items."
+		""
+		"&f- GT version super molecule assembly room:"
+		"&a- • No need to consume EU"
+		"&a- • Supports cross-recipe parallelism"
+		"&a- • Interaction with ME network via matrix port"
+		""
+		"&6Five speed cores &rcan achieve the minimum time consumption (1 tick)."
+		""
+		"&f- Notes:"
+		"&b• Cores can only replace molecular machinery blocks within the central structure."
+		"&c• Matrix ports cannot be synthesized using the template assembly."
+	]
+			icon: "gtceu:molecular_assembler_matrix"
+			id: "077EBB4D37275000"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56737670E3E5411F"
+				table_id: 6918560632641624041L
+				title: "molecular operator"
+				type: "all_table"
+			}]
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				id: "127C16CA33BB94AE"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "Automatic synthesis package"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["077EBB4D37275000"]
+			description: [
+		"&6&lME Placement Tool 「 Wonderful Tool 」"
+		"&9is a set of convenient placement tools specially designed for ME systems, covering ordinary placement, batch placement and cable laying."
+		""
+		"&7▌ Function:"
+		"&f- \"&6ME Placement Tool &f\": After binding the wireless access node, right-click to open the GUI and fill in the items. Press the G key to switch the placed items. The items will be automatically extracted from AE and placed."
+		""
+		"&f- \"&6ME multi-block placement tool &f\": The function is the same as above, but it supports the selection of the placement quantity, and has batch placement similar to construction canes."
+		""
+		"&f- \"&6ME Cable Placement Tool &f\": supports point-to-point selection of starting point and end point, and automatically lays specified AE cables"
+	]
+			icon: "meplacementtool:me_placement_tool"
+			id: "761EBFF727E3354F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "6AE4AC72559A0092"
+					item: {
+						Count: 1
+						id: "meplacementtool:me_placement_tool"
+						tag: {
+							internalCurrentPower: 9.0E10d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BFD0B81A1E47C3A"
+					item: {
+						Count: 1
+						id: "meplacementtool:multiblock_placement_tool"
+						tag: {
+							internalCurrentPower: 9.0E10d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7978F223F4C28E3F"
+					item: {
+						Count: 1
+						id: "meplacementtool:me_cable_placement_tool"
+						tag: {
+							internalCurrentPower: 9.0E10d
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "63AAFBD60D0B1B80"
+				title: "ME tools"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["077EBB4D37275000"]
+			description: [
+		"&6&l» Wireless ME network core"
+		"&f- After connecting the core to the ME network, all &dME warehouses &rwill &bwirelessly connect &rto the network."
+		"&f- Connect with cable &afacing the connection point of the &fcore."
+		""
+		"&6&l» Wireless ME Network Collection"
+		"&f- First right-click the collector to bind to a network, then &bsneaks in and places &din the ME warehouse &rto automatically connect to the network."
+		"&f- The collector does not need to be connected to any ME network, &acan be placed separately &f."
+		""
+		"&cNote &f: The automatic connection function is only effective for GT's &dME warehouse &r, and cannot be used for AE's supplier and ME interface."
+	]
+			icon: "gtlcore:wireless_network_core"
+			id: "6EEC81A045D3E304"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "3F39D0A07E2A7BFF"
+					item: "gtlcore:wireless_network_core"
+					type: "item"
+				}
+				{
+					id: "452F0E5C22B8C5E2"
+					item: "gtlcore:wireless_network_bookmark"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "07944A191F4A2337"
+				title: "ME tools"
+				type: "checkmark"
+			}]
+			title: "Wireless ME network"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19A588E594BEF4E9"]
+			description: [ "&f- Grind the powder directly with a mortar and then synthesize it directly" ]
+			icon: "gtceu:fireclay_dust"
+			id: "36A49197309D1F09"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "566CD2FC2F908A82"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "35AB6D0569B73FB7"
+					item: "gtceu:brick_dust"
+					type: "item"
+				}
+				{
+					id: "3F0F3F0437100ADB"
+					item: "gtceu:clay_dust"
+					type: "item"
+				}
+				{
+					id: "3AC2D6A0AAB107FA"
+					item: "gtceu:fireclay_dust"
+					type: "item"
+				}
+				{
+					id: "481E70A78F7B9C57"
+					type: "checkmark"
+				}
+			]
+			title: "refractory clay powder"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36A49197309D1F09"]
+			description: [
+		"&f- You can start making steel"
+		""
+		"&f- You can also directly make &5, Ultra Dimension and other earth forges &r"
+	]
+			icon: "gtceu:primitive_blast_furnace"
+			icon_scale: 2.0d
+			id: "5CE50DDC960340D8"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "2D8761085E458691"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6BF8F26BE81E1228"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A97BAAD30D2E0A2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6649B915F2C7704F"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "42BD89429E9AAD22"
+					item: { Count: 12, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "384B35545A351C2B"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			description: [
+		"&f- Has and only the underlying &6refractory bricks &fcan be replaced with the &binput/output bus"
+		"&f- Please ensure that the input bus and output bus space are sufficient for &bForge &foperation"
+		""
+		"&f- &c&lNOTE: Steam bus &r&fis not available"
+		"&f- This machine is not a steam machine, &c&ldoes not require a steam input bin"
+		""
+		"&l· &4This machine is not a furnace, it is only used to burn steel ingots"
+	]
+			icon: "gtceu:dimensionally_transcendent_dirt_forge"
+			icon_scale: 1.3d
+			id: "0662E205D1783D31"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 2126
+					id: "739BBFD8B3216A13"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 1212
+					id: "2898894E21E5801A"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					count: 176
+					id: "735592AAED794AFC"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					count: 2121
+					id: "48CB78AB3C31FE7E"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Let you get steel ingots faster"
+			tasks: [
+				{
+					id: "2BE6A835D6EF790C"
+					item: "gtceu:dimensionally_transcendent_dirt_forge"
+					type: "item"
+				}
+				{
+					id: "583D4BC856FAE465"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CE50DDC960340D8"]
+			id: "388BD32463FA905D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B0A65994D146D91"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "6DCFAFBFE0D4B757"
+					item: "gtceu:steel_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ADD8EEFE40F5663"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Your first steel ingot"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["388BD32463FA905D"]
+			description: [""]
+			id: "02375F5D54E5F347"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "1A0B2145C6BEAD5B"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5312492FE3F23C80"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "78729EFD5CE8CD48"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CB85061F0822830"]
+			description: [
+		"&l· &bcan be shared"
+		""
+		"&f- Except for a few machines, all multi-block machines that require a silencer chamber can use &6LV silencer chamber &f, the advanced silencer chamber has no practical use"
+		""
+		"&f- Even if the silencer chamber is full of ashes &f, it will not affect the work of the machine."
+	]
+			hide_dependent_lines: true
+			id: "38CC43F7A6A39BB4"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "3354D072C3B1F387"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71C979CBB926FAC2"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Do not block the smoke outlet"
+			tasks: [{
+				id: "6FF18125E551DB42"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			description: [ "&a- It’s really difficult for you to press the mold in the early stage." ]
+			icon: "gtceu:glass_tube"
+			id: "707E5114B7979898"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "616256D1A595C948"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "gtceu:glass_tube"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78475953D7E8AEA4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "18D90ADC7E5AC578"
+				title: "glass tube"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["707E5114B7979898"]
+			description: ["&f- 你的第一颗ULV电路，你需要用它帮忙做更便宜的，做几个就够了"]
+			icon_scale: 2.0d
+			id: "5CD26DECB937FC71"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "107280FF73093BBC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16EA9C62F6D609A0"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["02375F5D54E5F347"]
+			description: [
+		"&f- In the enhanced version, all molds and die heads have been changed into circuits"
+		"&f- These mold heads are all you can use in this pack"
+	]
+			icon: "gtceu:plate_casting_mold"
+			id: "34C5683D7C379895"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 64
+					id: "6A473A4611660FE8"
+					item: "gtceu:plate_extruder_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3058C1D0501A4A86"
+					item: "gtceu:cell_extruder_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1184181687A9CA9B"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "01E379305E6908EF"
+					item: "gtceu:credit_casting_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5DE6E17DCC4B09E2"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0DF9991CF20CD32D"
+					item: "gtceu:nugget_casting_mold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63ED1CB3856C3A78"
+				title: "Abrasives gift pack"
+				type: "checkmark"
+			}]
+			title: "Mold gift package"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			hide_dependency_lines: true
+			icon: "ae2:fluix_crystal"
+			id: "3C4577BA6C01FD37"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "4D53D6781FE064EF"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "3ECB4C0EB5E8F595"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "If you find it troublesome, you can buy some 1"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			hide_dependency_lines: true
+			icon: "ae2:logic_processor"
+			id: "54A70F547E4F87C2"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "15293996D8FA5F0C"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "29ED502848D5ECAA"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "If you find it troublesome, you can buy some 2"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			hide_dependency_lines: true
+			icon: "ae2:calculation_processor"
+			id: "3D4B2ED043BAF8E4"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "25D2B5A2963C5701"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "52F04A057F457538"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "If you find it troublesome, you can buy some 3"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			hide_dependency_lines: true
+			icon: "ae2:engineering_processor"
+			id: "49265178B29A2A51"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "no_toast"
+				count: 1600
+				id: "6887FB040E263E04"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "7734AD7C5393BBC4"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "If you find it troublesome, you can buy some 4"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [ "&a- No need to produce singularities and matter balls anymore" ]
+			hide_dependency_lines: true
+			id: "144AC3BC2AA25E63"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "444EBA7ECA750712"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:matter_ball"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35E585102D58A7FC"
+					item: {
+						Count: 1
+						id: "expatternprovider:infinity_cell"
+						tag: {
+							record: {
+								"#c": "ae2:i"
+								id: "ae2:singularity"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B96A6086AA50B17"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3450B32B0DB406C7"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "This is a trash can"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"06285BE2396AB639"
+				"5CD26DECB937FC71"
+			]
+			description: [ "&f- Very cheap circuit, this series goes all the way to EV" ]
+			icon_scale: 2.0d
+			id: "08B7D8F835DFE214"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D0B48E418B55D9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "344BB3250C20E4FB"
+				item: "kubejs:basic_control_circuit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19A588E594BEF4E9"]
+			description: [ "&f- Centrifugal Viscous Resin" ]
+			hide_dependency_lines: true
+			icon: "gtceu:glue_bucket"
+			id: "06285BE2396AB639"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2800910E1DC81B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "789C5AC6547D48F0"
+					item: "gtceu:glue_bucket"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:glue"
+					id: "351F1109F22ED72D"
+					type: "fluid"
+				}
+			]
+			title: "glue"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19A588E594BEF4E9"]
+			description: [ "This alloy is the raw material needed for many subsequent electronic components." ]
+			id: "3C91E284A9A03B1B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "454981C19DE25FBF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "15717008A6B7F20E"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [ "&f- Rely on this to create a super strong steam multi-block structure" ]
+			id: "5276CA8FA5262C9B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "7A6E4F26CB4EC8FB"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "504DE9ABBF7BD631"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "72CA64283A8A3E34"
+				item: "kubejs:precision_steam_mechanism"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5CD26DECB937FC71"
+				"740C2D1F3F420480"
+				"6D729450ED86BDAF"
+				"3C91E284A9A03B1B"
+			]
+			dependency_requirement: "one_completed"
+			description: [ "&f- You don’t need to do a lot, just do a few." ]
+			icon_scale: 2.0d
+			id: "5065BEDC95AE564E"
+			min_required_dependencies: 2
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5821FAA626B0AB58"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "011218464BCA60AC"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			title: "your first circuit"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "77A1011F608079C9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A1990C9DFDA6D5E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36895A43C9C125F4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77A1011F608079C9"]
+			description: [""]
+			id: "6D729450ED86BDAF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78E273F99859FCA4"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72F7066EE104AACE"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "051710FFC9907807"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63D20DACDBBDE514"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B8641531625E4B7"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["051710FFC9907807"]
+			id: "740C2D1F3F420480"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "743C2B6AB06C2606"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6354CE91F0CF6378"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"08B7D8F835DFE214"
+				"5065BEDC95AE564E"
+			]
+			description: [ "&f- This is a cheap LV circuit" ]
+			icon_scale: 2.0d
+			id: "553B2D61416792DC"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "367782BB7B641C95"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "41CA550B62F920A6"
+				item: "kubejs:advanced_control_circuit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["553B2D61416792DC"]
+			description: [
+		"&f- The large steam boiler has been greatly strengthened, and the amount of steam produced has been greatly increased."
+		""
+		"&f- bottom placement &binput bin/input bus/input assembly &f, &bmaintenance bin &f, &bsilencer bin &f"
+		""
+		"&f- &boutput bin &fplaced on the second to fourth floors"
+		""
+		"&l· &cNote &f: Do not use a giant input assembly in the boiler, as it may cause a crash"
+	]
+			icon_scale: 2.0d
+			id: "328D5CF265FCCCA3"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AA6A149721C29DF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "5D6907A2849A8704"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "31B3E7B10BBA0EDD"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+		"&f- This command increases your reach"
+		"&f- The default setting is 15 if it feels too low or too high"
+		""
+		"&f- can be modified using the following command"
+		"&l&b/attribute @p forge:block_reach base set 15"
+	]
+			icon: "gtceu:silicone_rubber_ingot"
+			id: "790B1D35140D65FA"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				command: "/attribute @p forge:block_reach base set 15"
+				elevate_perms: true
+				id: "4C346EFC41A1CE2A"
+				title: "Modify reach to 15"
+				type: "command"
+			}]
+			tasks: [{
+				id: "25424C78793974AF"
+				type: "checkmark"
+			}]
+			title: "rubber man"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+		"&l· &bSteam machine &fneeds to be equipped with &eexhaust port &f. It needs to be exhausted after one operation. The exhaust port must face the air, otherwise the machine cannot work."
+		"&f- Use the &6wrench &fto right click to set the exhaust port"
+		"&f- Expelled gases can cause damage"
+	]
+			icon: "gtceu:lp_steam_rock_crusher"
+			id: "7736F74AEBCB914E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35E6BB4F9E076CF2"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1FF020A8688728E6"
+				title: "Why does my steam machine stop after running once?"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5F5F348E3A34827E"]
+			description: [
+		"&6&l» Logistics pipelines from Pipez"
+		"&f- Better to use than Gray's original pipeline, but heavy use will cause &cTPS to decrease"
+		""
+		"&a&l» Advantages"
+		"&f- Far superior to Gray's original pipe in terms of ease of operation and functionality."
+		""
+		"&e&l» Usage suggestions"
+		"&f- It is recommended to use &fsparingly only in the early game &6as a transitional solution."
+	]
+			hide_dependent_lines: true
+			icon: "pipez:universal_pipe"
+			id: "781417A4FA36101D"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 128
+					id: "0CC24CDF61843D22"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "71FEA40CC3737EBA"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+				{
+					id: "562272FF5946D384"
+					item: "pipez:wrench"
+					only_one: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02A2DDC03475574B"
+				title: "Give you some pipes"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08B7D8F835DFE214"]
+			description: [ "&f- Used with ME interface to achieve amazing transmission efficiency" ]
+			id: "205B11E482DDF464"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "5C0BF363979378F9"
+					item: "gtceu:gold_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D84B9A72F35FF10"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "Primitive technology, shocking"
+			tasks: [
+				{
+					id: "08A0A7ABDCC61BFB"
+					item: "gtlcore:primitive_robot_arm"
+					type: "item"
+				}
+				{
+					id: "31170C895B9A9E5C"
+					item: "gtlcore:primitive_fluid_regulator"
+					type: "item"
+				}
+			]
+			title: "original two piece set"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			description: [
+		"&f- In this pack, ordinary energy bins can be directly crafted into &dwireless version &for &6grid version &f"
+		"&f- Strongly recommended to synthesize into &6grid energy warehouse version"
+	]
+			icon: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
+			id: "0077892401F923A5"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "0B62AB0FBC941286"
+				type: "checkmark"
+			}]
+			title: "Wireless energy warehouse/grid energy warehouse"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			description: [
+		"&f- Place the machine in &6Sky Island World &fand input &aSteam &fto produce all minerals in the main world"
+		"&f- Ore production rate &620 groups per second &f, which can save a lot of small mining in the early stage"
+		""
+		"&f- This is a multi-block structure machine"
+	]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1AB29FA99478121D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "461B67A32B06A68B"
+				item: "gtceu:primitive_void_ore"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Tier0.5-ULV"]
+	title: "Steam Age ULV"
+}

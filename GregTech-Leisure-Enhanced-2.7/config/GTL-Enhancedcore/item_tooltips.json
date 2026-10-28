@@ -1,0 +1,2508 @@
+{
+  "schema": 1,
+  "items": {
+    "gtl_enhancedcore:assembling_plus": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] é uma linha de montagem de MV independente, eliminando a necessidade de instalar máquinas pequenas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] LV paralelo [白色] 16 [白色], duplicado para cada nível superior, IV e acima são fixados em [白色] 256 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Máquina de montagem Máquina de montagem de circuito"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:basic_ore_processing_plant": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] planta completa de processamento de minério"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] benchmark MV paralelo [白色] 64 [白色]; a tensão do compartimento de energia aumenta em [白色] 100 [白色] para cada nível superior ao MV."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Linha de referência [白色] MV [白色] 1 [白色]; a tensão do compartimento de energia aumenta em [白色] 2 [白色] para cada nível superior ao MV."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não suporta compartimentos de controle paralelo; não oferece suporte a caixas de manutenção."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O armazém [白色] pode ser instalado em blocos de máquinas a vapor e em carcaças de máquinas de bronze."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Processamento Integrado de Minério"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:causality_terminal": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] Causa e efeito na frente dele é apenas um fio que pode ser facilmente amarrado"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Use modelos autoconstruídos para mapear qualquer entrada para qualquer saída"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Quando [白色] está em execução, ele é continuamente alimentado por [白色] MAX 163840A [白色]. Se a energia for cortada, a rodada atual será cancelada imediatamente."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] tem um consumo de tempo fixo de [白色] 100 segundos [白色], que não é afetado por equipamentos de aceleração e configuração demorada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Cada rodada de [白色] consome 1 amostra [白色] e 1000 amostras [白色] de Yuda [白色]; somente quando ambos baterem juntos o trabalho começará, e a falha consumirá a mesma quantidade."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "A taxa de sucesso de [白色] é de 0,1% para [白色] e [白色]. Se falhar, não haverá produto; o material não será devolvido quando a energia for desligada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] produz itens de destino [白色] 1 [白色] quando bem-sucedido e nenhum produto quando falha."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] recebe energia apenas do armazém de alvos laser e não pode instalar um armazém de energia."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Reconstrução Causal"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:circuit_encoder_hatch": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] fornece simultaneamente vários circuitos de programação sem consumo"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Clique para alternar [白色] 0–32 Circuito [白色], todos são selecionados por padrão."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] fornece apenas circuito de programação, matérias-primas gerais ainda precisam ser inseridas no barramento."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:claim_replacement_terminal": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Substituição em lote de blocos especificados no território"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] processa apenas os blocos de carregamento fortes reivindicados pela equipe; consome os materiais nas mãos do jogador operacional."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não copia o bloco NBT."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:creative_computation_receiver_hatch": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Um data warehouse com poder de computação ilimitado, fornecendo de forma estável [白色] 2.100.000.000 [深青] CWU/t"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] pode ser instalado diretamente em estruturas multibloco que requerem poder computacional"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:dragon_field_proliferation_core": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] As brasas do dragão circulam indefinidamente no campo de contenção e substâncias estranhas continuam a se multiplicar aqui."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] multiplica substâncias heterogêneas e produz pó de dragão"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] suporta compartimentos de controle paralelo; O sopro do dragão pode ser inserido através do recipiente de fluido ou da montagem do modelo."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta caixa de alvo a laser"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "Quando [白色] está conectado ao armazém de alvos de laser, pelo menos [白色] 1 [白色] armazém de energia ainda é necessário."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Proliferação de Substâncias Xenogênicas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:ev_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 131072 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:extreme_reactor": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] Queime o combustível até a última gota e use a reação extrema interna para trocar por eletricidade"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] [金色] UXV [白色] Gerador de estágio"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Geração de energia [白色] 5.000.000.000.000 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Cada entrada [白色] 1 [白色] mB [金色] Super combustível misto concentrado II [白色], sustentável [白色] 200 [白色] tick."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "A eletricidade [白色] é depositada diretamente na rede elétrica do placer."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] aceita apenas armazéns de manutenção, armazéns de entrada de itens e armazéns de entrada de fluidos, e não suporta armazéns de energia, armazéns de saída, armazéns de controle paralelo e armazéns de alvo de laser."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Reação extrema"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:hadron_catalytic_refinery": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta paralelismo entre tipos de receita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Centro de Processamento Químico e de Fluidos [深青]"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] O armazém de entrada/saída original habilita o modo de máquina original, e a montagem de superamostra habilita o modo paralelo do tipo receita cruzada"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Threads de receita cruzada aumentam com a tensão: IV [白色] 1 [白色], LuV [白色] 5 [白色], ZPM [白色] 9 [白色], UV [白色] 13 [白色], UHV + [白色] 17 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta compartimentos de controle paralelo; quando não instalado, é corrigido para rodar em paralelo como [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não aceita a demorada redução do armazém de manutenção"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O estoque no armazém compartilhado fornece apenas catalisadores não consumíveis; os itens compartilhados não serão devolvidos quando a tarefa for cancelada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O cancelamento [白色] encerrará imediatamente o processamento; as matérias-primas não utilizadas serão devolvidas como estão, e as matérias-primas que foram investidas neste lote não podem ser recicladas."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O fechamento de pedidos em [白色] não afetará os pedidos feitos; após devolver os materiais, a tarefa de síntese original precisa ser cancelada em [金色] AE [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Para destruir a montagem do superprotótipo, você precisa manter pressionado [白色] Shift [白色]; as matérias-primas, produtos e tarefas nele armazenados serão destruídos juntos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Liquidificador Evaporação Autoclave Extrator Câmara de fermentação Tanque de fermentação Câmara de destilação Coluna de destilação Aquecedor de fluido Solidificador de fluido Máquina de conservas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:high_flux_breeder_reactor": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[深紫] transforma cada fissão em combustível às custas do núcleo do reator sempre funcionando próximo à linha crítica"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] suporta paralelismo entre receitas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] possui 512 threads de receita cruzada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] permite que a máquina processe múltiplas receitas idênticas através de caixas de controle paralelas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receita disponíveis: Reator de fusão"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "Armazém de laser de suporte"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:hv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 32768 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:hyperstructural_chemical_distorter": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] Dobra reações de múltiplas etapas em uma única forma, onde a química perde estados intermediários"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] comprime reações químicas de várias etapas em um único processamento"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] requer o mesmo tipo de bobina com temperatura de três titânio ou superior, e a temperatura da bobina deve atender aos requisitos da fórmula."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] suporta compartimentos de controle paralelos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta motor [金色] Ω [白色]; cada canal só pode processar a mesma fórmula."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta caixa de alvo a laser"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "Quando [白色] está conectado ao armazém de alvos de laser, pelo menos [白色] 1 [白色] armazém de energia ainda é necessário."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receita disponíveis: Deep Chemical Twister"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:industrial_steam_platform": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Plataforma [深青] Steam compatível com múltiplas receitas de processamento"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Cada lote de [白色] iniciado com sucesso consome [白色] 1 [白色] barris de vapor; lotes que não foram iniciados não consomem vapor."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Fixo [白色] 64 [白色] Paralelo; alterar o nível do shell apenas aumentará a tensão, mas não o paralelismo."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "A tensão operacional de [白色] é o grau de casca mais o grau [白色] 1 [白色], até [白色] HV [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] é alimentado apenas por vapor, que é injetado no buffer interno através do compartimento de entrada de fluido (um total de [白色] 100 barris [白色]), e nenhum compartimento de energia está instalado."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:infinity_singularity_compressor": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] Pressione um veio mineral inteiro na ponta da agulha e, em seguida, despeje um universo inteiro a partir da ponta da agulha"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] comprime o material na configuração em uma singularidade infinita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] é continuamente alimentado por [白色] UIV 2650A [白色] durante a execução."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] tem um consumo de tempo fixo de [白色] 1200 segundos [白色] e não é afetado por overclock e paralelismo."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta caixa de alvo a laser"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Compressão ilimitada"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:iv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 524288 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:large_furnace": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Fábrica de fundição multithread [深青]"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Benchmark LV paralelo [白色] 64 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Linha de referência [白色] LV [白色] 2 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta processamento simultâneo de múltiplas receitas."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Cada vez que a tensão é superior a LV, o paralelismo de referência e os threads são duplicados."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta compartimentos de controle paralelos, até [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] pode instalar o mecanismo de divergência Ω-celeste [金色] [白色], adicionando threads adicionais."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Fogão elétrico"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:luv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 2097152 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:lv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] geração de energia [白色] 512 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:lv_wireless_charger": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] alimenta máquinas GT de bloco único próximas sem fio"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] cobre pedaços [白色] 11×11 [白色] centrados no pedaço nativo, envolvendo apenas pedaços carregados."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O consumo de energia da cobertura [白色] é [白色] LV × 1A [白色] por bloco; a potência real carregada é calculada separadamente."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Nenhuma energia é fornecida quando a tensão nominal da máquina alvo é maior que a desta máquina."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: carregamento sem fio"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:max_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 137438953472 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:me_drive": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] possui [白色] 630 slots de componentes [深青] ME, um total de [白色] 10 páginas [深青]"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] suporta reabastecimento automático de barramento de armazenamento"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:mixing_plus": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] é uma linha de produção híbrida MV independente, eliminando a necessidade de instalar máquinas pequenas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] LV paralelo [白色] 16 [白色], duplicado para cada nível superior, IV e acima são fixados em [白色] 256 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de fórmulas disponíveis: reator químico, misturador, máquina de imersão química, planta de lavagem de minério"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:mv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 8192 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:mv_wireless_charger": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] alimenta máquinas GT de bloco único próximas sem fio"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] cobre pedaços [白色] 11×11 [白色] centrados no pedaço nativo, envolvendo apenas pedaços carregados."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O consumo de energia da cobertura [白色] é [白色] MV × 1A [白色] por bloco; a potência real carregada é calculada separadamente."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Nenhuma energia é fornecida quando a tensão nominal da máquina alvo é maior que a desta máquina."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: carregamento sem fio"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:neutron_control_factory": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] faz com que a fórmula não espere mais por nêutrons e a energia cinética seja reabastecida por si mesma"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] fornece automaticamente energia cinética de nêutrons para a receita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "A receita [白色] requer energia cinética de nêutrons de ponto [白色] 1 [白色], que consome [白色] 2000 [白色] EU."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "O silenciador [白色] ZPM deve ser instalado."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] fixo [白色] 4096 [白色] paralelo, compartimentos de controle paralelo não são aceitos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Ativação de nêutrons"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:opv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 34359738368 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:pattern_generator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Clique com o botão direito para abrir a interface e arraste-a para a máquina do JEI ou da mochila."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Selecione o tipo de receita e circuito e filtre os materiais conforme necessário."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] é gerado gratuitamente após verificar a receita na visualização; cai no chão quando a mochila não cabe."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Ao preencher um armazém, clique primeiro no botão e, a seguir, clique com o botão direito no armazém de destino."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "As predefinições [白色] podem ser salvas localmente ou arquivos compartilhados por outras pessoas podem ser importados."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:plasma_machine_tool": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta paralelismo entre tipos de receita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Formação e processamento de metal em um só lugar"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] O armazém de entrada/saída original habilita o modo de máquina original, e a montagem de superamostra habilita o modo paralelo do tipo receita cruzada"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Threads de receita cruzada aumentam com a tensão: IV [白色] 1 [白色], LuV [白色] 5 [白色], ZPM [白色] 9 [白色], UV [白色] 13 [白色], UHV + [白色] 17 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta compartimentos de controle paralelo; quando não instalado, é corrigido para rodar em paralelo como [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não aceita a demorada redução do armazém de manutenção"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O estoque no armazém compartilhado fornece apenas catalisadores não consumíveis; os itens compartilhados não serão devolvidos quando a tarefa for cancelada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O cancelamento [白色] encerrará imediatamente o processamento; as matérias-primas não utilizadas serão devolvidas como estão, e as matérias-primas que foram investidas neste lote não podem ser recicladas."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O fechamento de pedidos em [白色] não afetará os pedidos feitos; após devolver os materiais, a tarefa de síntese original precisa ser cancelada em [金色] AE [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Para destruir a montagem do superprotótipo, você precisa manter pressionado [白色] Shift [白色]; as matérias-primas, produtos e tarefas nele armazenados serão destruídos juntos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de fórmulas disponíveis: torno, laminadora de placas, compressor, martelo de forjamento, máquina de corte, máquina-ferramenta de estampagem, laminador de fio-máquina, prensa de molde, máquina de magnetização bipolar"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:platinum_refining_matrix": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] completa a lixiviação, extração e refino de metais de platina em uma máquina"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] suporta compartimentos de controle paralelo; quando não instalado, é corrigido para rodar em paralelo como [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Caixas de alvo de laser não são aceitas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de fórmulas disponíveis: Refino da série Platinum"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:processing_plus": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] é uma linha de produção de processamento MV independente, sem necessidade de instalar máquinas pequenas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] LV paralelo [白色] 16 [白色], duplicado para cada nível superior, IV e acima são fixados em [白色] 256 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Máquina laminadora de placas Compressor Martelo de forjamento Máquina de corte Prensa Torno Moinho de fio-máquina Máquina de estampagem Máquina de magnetização de dois polos Máquina de gravação a laser Solidificador de fluido"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:quantum_data_access_hatch": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "O [白色] pode ler diretamente dados de pesquisa de memória flash, esferas de dados e módulos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] possui [白色] 810 slots de dados [白色], um total de [白色] 10 páginas [白色] e nenhum banco de dados é necessário."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] não pode ser compartilhado por múltiplas máquinas multibloco."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Itens de dados em branco podem ser armazenados, mas a receita não será desbloqueada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:quantum_mass_spectrum_array": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta paralelismo entre tipos de receita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Separação mineral e gravação a laser"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] O armazém de entrada/saída original habilita o modo de máquina original, e a montagem de superamostra habilita o modo paralelo do tipo receita cruzada"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Threads de receita cruzada aumentam com a tensão: IV [白色] 1 [白色], LuV [白色] 5 [白色], ZPM [白色] 9 [白色], UV [白色] 13 [白色], UHV + [白色] 17 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta compartimentos de controle paralelo; quando não instalado, é corrigido para rodar em paralelo como [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não aceita a demorada redução do armazém de manutenção"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O estoque no armazém compartilhado fornece apenas catalisadores não consumíveis; os itens compartilhados não serão devolvidos quando a tarefa for cancelada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O cancelamento [白色] encerrará imediatamente o processamento; as matérias-primas não utilizadas serão devolvidas como estão, e as matérias-primas que foram investidas neste lote não podem ser recicladas."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O fechamento de pedidos em [白色] não afetará os pedidos feitos; após devolver os materiais, a tarefa de síntese original precisa ser cancelada em [金色] AE [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Para destruir a montagem do superprotótipo, você precisa manter pressionado [白色] Shift [白色]; as matérias-primas, produtos e tarefas nele armazenados serão destruídos juntos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de fórmulas disponíveis: triturador de rocha, planta de lavagem, centrífuga, eletrolisador, máquina de peneiramento, moedor, desidratador, centrífuga térmica, separador eletromagnético, máquina de lixiviação química, máquina de gravação a laser"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:separating_plus": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] é uma linha de produção de separação de MV independente, sem necessidade de instalar máquinas pequenas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] LV paralelo [白色] 16 [白色], duplicado para cada nível superior, IV e acima são fixados em [白色] 256 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de fórmulas disponíveis: centrífuga, centrífuga térmica, eletrolisador, peneiradora, moedor, extrator, desidratador"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:star_core_stripper": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] Os fragmentos do planeta são desmontados camada por camada aqui até que apenas o próprio elemento permaneça"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta paralelismo entre receitas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Extrai elementos de fragmentos de planetas para produzir minérios e fluidos"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] possui [白色] 128 threads de receita cruzada [白色]; o número de paralelismo é definido pelo compartimento de controle paralelo."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] pode instalar no máximo caixas de energia [白色] 2 [白色] e caixas de alvo de laser [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] segue a taxa de ampliação do coletor de fragmentos grandes: consumo de energia × [白色] 256 [白色], consumo de tempo × [白色] 0,25 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Shard World Collection"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:stellar_confinement_fusion_reactor": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] possui paralelismo ilimitado e threads ilimitados"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "A energia [白色] é obtida diretamente da rede elétrica"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receita disponíveis: Reator de fusão"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:superconducting_fusion_assembler": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta paralelismo entre tipos de receita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Fusão, montagem e montagem de precisão"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] O armazém de entrada/saída original habilita o modo de máquina original, e a montagem de superamostra habilita o modo paralelo do tipo receita cruzada"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Threads de receita cruzada aumentam com a tensão: IV [白色] 1 [白色], LuV [白色] 5 [白色], ZPM [白色] 9 [白色], UV [白色] 13 [白色], UHV + [白色] 17 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta compartimentos de controle paralelo; quando não instalado, é corrigido para rodar em paralelo como [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não aceita a demorada redução do armazém de manutenção"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O estoque no armazém compartilhado fornece apenas catalisadores não consumíveis; os itens compartilhados não serão devolvidos quando a tarefa for cancelada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O cancelamento [白色] encerrará imediatamente o processamento; as matérias-primas não utilizadas serão devolvidas como estão, e as matérias-primas que foram investidas neste lote não podem ser recicladas."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O fechamento de pedidos em [白色] não afetará os pedidos feitos; após devolver os materiais, a tarefa de síntese original precisa ser cancelada em [金色] AE [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Para destruir a montagem do superprotótipo, você precisa manter pressionado [白色] Shift [白色]; as matérias-primas, produtos e tarefas nele armazenados serão destruídos juntos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receita disponíveis: Forno elétrico a arco Processamento de relâmpagos Máquina de montagem Montagem de precisão Máquina de montagem de circuito"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:uev_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 536870912 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:uhv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 134217728 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:uiv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 2147483648 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:universal_joint_factory": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta paralelismo entre tipos de receita"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] integra múltiplas linhas de processamento na mesma máquina"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] O armazém de entrada/saída original habilita o modo de máquina original, e a montagem de superamostra habilita o modo paralelo do tipo receita cruzada"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] possui threads [白色] 10 [白色] no modo assembly e o paralelismo total é [白色] 640 [白色]; no modo normal, o paralelismo é fixado em [白色] 64 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] não aceita caixas de controle paralelas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O estoque no armazém compartilhado fornece apenas catalisadores não consumíveis; os itens compartilhados não serão devolvidos quando a tarefa for cancelada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O cancelamento [白色] encerrará imediatamente o processamento; as matérias-primas não utilizadas serão devolvidas como estão, e as matérias-primas que foram investidas neste lote não podem ser recicladas."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "O fechamento de pedidos em [白色] não afetará os pedidos feitos; após devolver os materiais, a tarefa de síntese original precisa ser cancelada em [金色] AE [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Para destruir a montagem do superprotótipo, você precisa manter pressionado [白色] Shift [白色]; as matérias-primas, produtos e tarefas nele armazenados serão destruídos juntos."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receitas disponíveis: Máquina dobradeira de placas Compressor Martelo de forjamento Máquina de corte Torno Moinho de fio-máquina Máquina de estampagem Máquina de magnetização de dois pólos Máquina de gravação a laser Solidificador de fluido Máquina de montagem Máquina de montagem de circuito Centrífuga Centrífuga térmica Eletrolisador Máquina de triagem Máquina de moagem Extrator Desidratador Reator químico Misturador Máquina de imersão química Planta de lavagem de minério"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:uv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 33554432 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:uxv_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 8589934592 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:void_constrained_mining_field": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Use essência de veia mineral ou fluido de perfuração para extrair do vazio, com dois modos: preciso e aleatório."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] suporta compartimentos de controle paralelo; quando não instalado, é corrigido para rodar em paralelo como [白色] 1 [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Existem muitos tipos de produtos no modo de minério aleatório, portanto, é necessário reservar espaço de saída suficiente."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] Ambos os modos consomem fluido de perfuração; o modo de precisão também requer essência de veia mineral."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "yellow",
+            "text": "[白色] Caixas de alvo de laser não são aceitas"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de receita disponíveis: modo de minério preciso, modo de minério aleatório"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:weather_anchor": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "gray",
+            "text": "[浅紫] Enquanto ainda estiver funcionando, você terá a palavra final pela manhã, anoitecer e nebulosidade deste mundo."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[深青] Bloqueie a hora ou o clima do mundo principal"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] continua a ser alimentado por [白色] ZPM 4A [白色] durante o período de ancoragem (ZPM 4A = [白色] 524288 [白色] EU/t), e a âncora será liberada imediatamente quando a energia for cortada."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] requer pelo menos tensão ZPM e a entrada total não é inferior a [白色] 4A [白色]."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "green",
+            "text": "[白色] suporta caixa de alvo a laser"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "aqua",
+            "text": "[白色] Tipos de fórmulas disponíveis: ancoragem diurna, ancoragem noturna, ancoragem em dias ensolarados, ancoragem em dias chuvosos, ancoragem em tempestades"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    },
+    "gtl_enhancedcore:zpm_crystal_resonator": {
+      "mode": "replace",
+      "lines": [
+        {
+          "component": {
+            "color": "aqua",
+            "text": "Gerador sem fio [深青] alimentado por cristais ender"
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "Geração de energia [白色] [白色] 8388608 [白色] EU/t."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] O cristal final precisa ser colocado no espaço diretamente acima dele e o cristal não será consumido."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "color": "gray",
+            "text": "[白色] liga automaticamente o placer e o armazena sem fio na rede elétrica à qual pertence."
+          },
+          "visibility": "always",
+          "rainbow": false
+        },
+        {
+          "component": {
+            "text": "[动态彩虹] adicionado por GTL-Enhancedcore"
+          },
+          "visibility": "always",
+          "rainbow": false
+        }
+      ]
+    }
+  }
+}

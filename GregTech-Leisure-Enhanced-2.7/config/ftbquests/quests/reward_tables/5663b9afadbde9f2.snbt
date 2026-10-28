@@ -1,0 +1,26 @@
+{
+	icon: "gtceu:doge_coin"
+	id: "5663B9AFADBDE9F2"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "ae2:creative_energy_cell", weight: 10.0f }
+		{ item: "gtceu:ulv_fragment_world_collection_machine" }
+		{ count: 64, item: "minecraft:nether_star", weight: 10.0f }
+		{ count: 10, item: "expatternprovider:ex_interface", weight: 10.0f }
+		{ count: 5, item: "gtladditions:me_super_pattern_buffer", weight: 12.0f }
+		{ count: 10, item: "expatternprovider:ex_pattern_provider", weight: 10.0f }
+		{ count: 10, item: "gtceu:me_dual_hatch_stock_part_machine", weight: 10.0f }
+		{ count: 10, item: "gtceu:tag_filter_me_stock_bus_part_machine", weight: 10.0f }
+		{ count: 10, item: "gtceu:ulv_solar_panel" }
+		{ item: "gtceu:naquadah_credit", weight: 0.3f }
+		{ item: "gtladditions:astral_array", weight: 0.03f }
+		{ count: 3, item: "gtmadvancedhatch:adaptive_net_energy_input_hatch", weight: 3.0f }
+		{ count: 3, item: "gtmadvancedhatch:adaptive_net_laser_target_hatch", weight: 3.0f }
+		{ count: 10, item: "gtmthings:me_export_buffer", weight: 10.0f }
+		{ item: "gtlcore:treasures_crystal", weight: 0.3f }
+		{ item: "gtladditions:super_parallel_hatch", weight: 0.01f }
+		{ count: 16, item: "minecraft:ender_pearl" }
+	]
+	title: "loteria"
+}
