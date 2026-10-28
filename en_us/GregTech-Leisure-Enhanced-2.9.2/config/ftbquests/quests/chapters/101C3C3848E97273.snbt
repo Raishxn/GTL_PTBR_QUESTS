@@ -1,0 +1,1037 @@
+{
+	autofocus_id: "1E7344C133C99565"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "101C3C3848E97273"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:ev_electric_motor"
+	id: "101C3C3848E97273"
+	order_index: 4
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1EC6366E9611F2AD"
+				"7940CFD732610594"
+				"75DAAFAD21F1451C"
+			]
+			icon: "kubejs:ev_universal_circuit"
+			id: "1E7344C133C99565"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "592433A65AD8E059"
+				item: "gtceu:gravity_hatch"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "0FE962C1CB148B15"
+				title: "Ultra high voltage EV"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			icon_scale: 1.5d
+			id: "5CE474BD971D9A4B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "3CCB97D519A02BFA"
+					item: {
+						Count: 1
+						id: "avaritia:infinity_pickaxe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5C5FB443F085F525"
+					item: "gtlcore:world_fragments_mars"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "37F1A09D5A9029ED"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7C8C2A0E5791E884"
+				"5CE474BD971D9A4B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+		"You can get it by reacting uranium-238 with plutonium-239"
+		""
+		"You can also use Mars debris to collect"
+	]
+			icon: "gtceu:radon_bucket"
+			id: "2CAC63F25BAF50B3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4A84D4958CB1471E"
+				type: "checkmark"
+			}]
+			title: "Gaseous radon"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "7C8C2A0E5791E884"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6B5BBC55BCEFE146"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			subtitle: "You dug it on the moon, remember?"
+			tasks: [{
+				id: "74CC5D9E1BD475A8"
+				item: "gtceu:plutonium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"0931ECBAAD9252C7"
+				"5CE474BD971D9A4B"
+			]
+			description: [
+		"&6&l» Description of gravity conditions"
+		"&f- From now on, some equipment requires gravity-free conditions, which can be set through the maintenance compartment."
+		""
+		"&e&l» Value range"
+		"&f- &a0 &f: No gravity"
+		"&f- &a1~99 &f: Normal gravity"
+		"&f- &a100 &f: strong gravity"
+	]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DD918C8416C6C63"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "66F77E8BE91E2651"
+				item: "gtceu:gravity_hatch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58D4A11DCEC97B63"
+				title: "no gravity condition"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2CAC63F25BAF50B3"
+				"7DD918C8416C6C63"
+			]
+			id: "4DDFAAF4A8E0622A"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3155DA55DF30A8F6"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "330AF88DBC8438B7"
+				item: "gtceu:quantum_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			description: [
+		"&mYou must not have turned everything into fans, right?"
+		"Now it can be used if processed into powder"
+	]
+			icon: "gtceu:raw_cooperite"
+			id: "1D247D35BFB55469"
+			quest_enhance_disable_scroll_paging: false
+			subtitle: "Not used to make platinum and palladium"
+			tasks: [
+				{
+					id: "2516A6D15A1040C4"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "4AC20884A08A352C"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+			]
+			title: "Platinum group metal processing raw ore"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4DDFAAF4A8E0622A"
+				"04FD2A25CAC86CAB"
+			]
+			id: "5F11D5C61F8897B9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3AC7FE180A495EAF"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "636B36914936E6C0"
+					item: "gtceu:ev_emitter"
+					type: "item"
+				}
+				{
+					id: "203510BB9519CB94"
+					item: "gtceu:ev_sensor"
+					type: "item"
+				}
+			]
+			title: "EV sensors and transmitters"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			description: [ "These two elements have corresponding elemental ores and do not require additional processing." ]
+			id: "04FD2A25CAC86CAB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "29A595C203E1C556"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DF3D481E9C34BA9"
+					item: "gtceu:platinum_ingot"
+					type: "item"
+				}
+				{
+					id: "6C4C0A26FB276390"
+					item: "gtceu:palladium_ingot"
+					type: "item"
+				}
+			]
+			title: "Platinum and Palladium"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: [
+		"This thing must be acrylic"
+		"You have to go back to work on your petrochemical production line."
+	]
+			id: "10CD26CBAC242280"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "4972B8DA5FCD6499"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E6027F658F05393"
+					item: "gtmthings:ev_wireless_energy_receive_cover"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28291FD78E676C6E"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2712564DCCFD49B7"
+				"47E43471E5E79714"
+				"157A951DA379C259"
+			]
+			icon_scale: 2.0d
+			id: "56F6FC6F9E106A2F"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "7BC9A3DB6303A906"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C8EE662094AB2C0"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0037D6BA6A4ABB72"]
+			description: [
+		"You need an autoclave"
+		""
+		"The higher the grade of plastic used, the more efficient it will be"
+		"The source of neodymium powder is monazite. I hope you haven’t forgotten the basic ore processing plant."
+	]
+			id: "1D96227373B962A2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "5D54D4EA65D60C8F"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D8F5CCC1E6D6900"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10CD26CBAC242280"]
+			icon_scale: 2.0d
+			id: "2712564DCCFD49B7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "34B5A2CF18571DAA"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48C2953073A1862C"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D96227373B962A2"]
+			id: "47E43471E5E79714"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "7DA7AF7E7EE8F558"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54946020B9728E09"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56F6FC6F9E106A2F"]
+			icon_scale: 2.0d
+			id: "17F141D39F0AFD77"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "43FC825F07EA8DD0"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A3BC4FC52F1FADA"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5000DCB028460D47"]
+			icon_scale: 2.0d
+			id: "25F272243EB904D5"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "40925897A5C74B62"
+				item: "gtceu:naquadah_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04673B16EBC35BA5"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"17F141D39F0AFD77"
+				"7DE362B6EF9C3800"
+			]
+			icon_scale: 2.0d
+			id: "5000DCB028460D47"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2CB7CF9A6E16C95A"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "13452B1A4ADEC0C0"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5CE474BD971D9A4B"]
+			description: [ "Mars Debris 2 circuit collection" ]
+			icon: "gtceu:raw_scheelite"
+			id: "7DEEB07D0598019A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "4A25A688CC27F15F"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+				{
+					id: "5CCAA1F4ECAD2C50"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+			]
+			title: "Tungsten ore"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DEEB07D0598019A"]
+			icon: "gtceu:tungstic_acid_dust"
+			id: "128C3126D5B5DCF3"
+			quest_enhance_disable_scroll_paging: false
+			subtitle: "Electrolysis of chloride to recover chlorine gas"
+			tasks: [{
+				id: "2E65F7BAF19E2FB1"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["759F26B57097602E"]
+			description: [
+		"&6&l» Tips"
+		"&f- If you see a powder in a recipe that can be obtained through a mineral, don't look for the corresponding mineral."
+		"&f- This mineral can only be obtained later through a large void mining machine or space elevator."
+		""
+		"&f- 目前唯一获取渠道：在化学反应釜中反应三氧化钨粉。"
+	]
+			id: "3A8A37094C997BF8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "32F4ACB50913382B"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "245282DDDEF735E7"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3A8A37094C997BF8"]
+			id: "101EBAF218B980A1"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "59D8861D0338EEC4"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6936718EAE7C6669"
+				item: "gtceu:tungsten_steel_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["128C3126D5B5DCF3"]
+			description: [ "Dehydrator recipe" ]
+			icon: "gtceu:tungsten_trioxide_dust"
+			id: "759F26B57097602E"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2C889814346AC9A0"
+				item: "gtceu:tungsten_trioxide_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"101EBAF218B980A1"
+				"42E88FC72902FC0B"
+			]
+			id: "5B65662B72C369E7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "552799C641212C2F"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4788048543923466"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5B65662B72C369E7"
+				"11186961491B1773"
+			]
+			icon_scale: 1.3d
+			id: "42129A63D97DDF28"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "318C5EA24BC6F21D"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5999E5B6C7681080"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["506DFA831FEBD175"]
+			id: "7DE362B6EF9C3800"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "73EA0D5311505816"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DFA20F7635647A6"
+				item: "gtceu:nor_memory_chip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B65662B72C369E7"]
+			id: "4CFA7C2E9E272741"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2D8893150287FA6C"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EBB46733AD7811E"
+				item: "gtceu:ev_voltage_coil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"65D09ACC43B7AF20"
+				"4CFA7C2E9E272741"
+				"7940CFD732610594"
+			]
+			description: [""]
+			icon_scale: 1.3d
+			id: "4C43D30FD9B89965"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "492C6A47DC96FE4E"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "070B9F71E727217E"
+				item: "gtmadvancedhatch:ev_2a_net_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "65D09ACC43B7AF20"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "5593C5C5687CB119"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3493076AF127B678"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C43D30FD9B89965"]
+			description: [ "You can start making the 64A energy warehouse" ]
+			icon_scale: 2.0d
+			id: "31C3D49708342998"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6A762837D30479F9"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "higher power"
+			tasks: [{
+				id: "149DD4976B28F863"
+				item: "gtmadvancedhatch:ev_64a_net_energy_input_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25F272243EB904D5"]
+			description: [ "This machine is not a necessity now. You can use it again when you need it." ]
+			icon_scale: 2.0d
+			id: "42CEF4F4DFBEAA3D"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "rsquare"
+			subtitle: "Built-in simulated sunlight"
+			tasks: [{
+				id: "6CD8E0DD0FCF56B5"
+				item: "gtceu:large_greenhouse"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "54ECD518FCACE649"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "62272FE4D7AD9C46"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A48271C145C99C3"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54ECD518FCACE649"]
+			icon_scale: 1.3d
+			id: "1EA6BA3CBF4BE5DB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "49F4342C238A2FD9"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2BCD06157F405040"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			title: "Ruthenium tungsten molybdenum alloy coil"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1EA6BA3CBF4BE5DB"]
+			description: [
+		"&5EV &rsuperconductor"
+		"The source of uranium is depleted uranium hexafluoride"
+	]
+			id: "7852E4465B3CAF80"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "379C58C619F20529"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77EDD867889A3EA6"
+				item: "gtceu:uranium_triplatinum_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7852E4465B3CAF80"
+				"631707E722744406"
+			]
+			id: "0375D068023B13D7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "7A3B69AFC8217DF8"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14874859671EC41A"
+				item: "gtceu:ev_field_generator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			description: [
+		"In the early stage, you can already get a lot of this through lottery."
+		"But in the later stage, Nether Star was used a lot"
+		"You still have to rely mainly on lightning-explosion"
+	]
+			icon_scale: 2.0d
+			id: "631707E722744406"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "65A57FAD7BE7A18C"
+				item: "avaritia:endless_cake"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F92475B90FE1AF2"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"0375D068023B13D7"
+				"25F272243EB904D5"
+			]
+			description: [
+		"Create the corresponding gas through data simulation instead of absorbing the gas in the dimension"
+		""
+		"You can also put a vacuum freezer into the input bus/input to directly obtain liquid air"
+	]
+			icon: "gtceu:large_gas_collector"
+			icon_scale: 1.3d
+			id: "650980AB3D2A6AF6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "050878F15584D3FF"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "bigger, stronger"
+			tasks: [{
+				id: "7D1205F365E0C204"
+				item: "gtceu:large_gas_collector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5B65662B72C369E7"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			icon_scale: 1.5d
+			id: "14D60DF010FF0396"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "1DEBD71F9A11431E"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					id: "67C9DAE3CF98F5B2"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DD41A0F6742868D"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1640AD7BFBEAFDC9"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC4127EC709534C"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "335B3E8B57F2A30C"
+					item: "gtlcore:world_fragments_venus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "442692E61BDFE2F3"
+					item: "gtlcore:world_fragments_mercury"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "25CCA8E753E0DB6D"
+					item: "gtlcore:world_fragments_nether"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "00ACD41B8ABD498C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "third stage rocket"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D60DF010FF0396"]
+			description: [ "Venus Fragments Circuit 3 Collection" ]
+			id: "7AEC0D308494C0F8"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "079C2ECD4F827B41"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50CF22DC1B6C3E56"
+				item: "gtceu:raw_desh"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"7AEC0D308494C0F8"
+				"0375D068023B13D7"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_4_rocket"
+				tag: { }
+			}
+			icon_scale: 1.5d
+			id: "0889DB18E2C68D67"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "48113BC2479CE3D9"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "24D57279CBAA138B"
+					item: "gtlcore:world_fragments_ceres"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "65C057BCA5809552"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "fourth stage rocket"
+			x: -3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0375D068023B13D7"]
+			description: ["终于不用忍受小碎采了"]
+			icon_scale: 1.3d
+			id: "1EA774CF3D03C009"
+			quest_enhance_disable_scroll_paging: false
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1191C48E6988215D"
+				item: "gtceu:large_fragment_world_collection_machine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5000DCB028460D47"]
+			description: [ "Efficiently complete one-stop platinum treatment" ]
+			icon_scale: 2.0d
+			id: "57079E571BBB7F1D"
+			quest_enhance_disable_scroll_paging: false
+			shape: "rsquare"
+			tasks: [{
+				id: "6B607917A2AAE2EB"
+				item: "gtl_enhancedcore:platinum_refining_matrix"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D247D35BFB55469"]
+			id: "3BC99742ED594D1D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 128
+					id: "3FED350D1ED53885"
+					item: "gtceu:platinum_dust"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "2F634EF4C15FECF9"
+					item: "gtceu:palladium_dust"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "21EE88D7CD5A3F44"
+					item: "gtceu:ruthenium_dust"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "73FE3E6CA51374A2"
+					item: "gtceu:osmium_dust"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "285F34F67806AF59"
+					item: "gtceu:iridium_dust"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "3A4B26D56195FD71"
+					item: "gtceu:rhodium_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "444EFBD0C1D093AA"
+				title: "Give you some start-up capital"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Tier4-EV"]
+	title: "Ultra high voltage EV"
+}

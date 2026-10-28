@@ -1,0 +1,1026 @@
+{
+	autofocus_id: "2D863FE0CCAA0BFC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5BC229BEA6EC2A7A"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:luv_electric_motor"
+	id: "5BC229BEA6EC2A7A"
+	order_index: 6
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [{
+		id: "2D863FE0CCAA0BFC"
+		linked_quest: "4BFA114E12BCB163"
+		shape: "gear"
+		size: 2.0d
+		x: -3.5d
+		y: 1.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+			]
+			description: [
+		"There are 3 recipes in total, all of which require wood."
+		"You need a large greenhouse now"
+		"This machine supports cross-recipe parallelism. You don’t need to do 3 machines."
+	]
+			icon_scale: 1.5d
+			id: "12F9033C4C2B29EB"
+			quest_enhance_disable_scroll_paging: false
+			shape: "rsquare"
+			subtitle: "Wonderful Technology"
+			tasks: [{
+				id: "3BC83ABCD0AD2F48"
+				item: "gtceu:wood_distillation"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+			]
+			description: [ "There are parallel chemical reactors, and the efficiency can be improved by upgrading the coils." ]
+			icon_scale: 1.5d
+			id: "4CDCF542F45205EB"
+			quest_enhance_disable_scroll_paging: false
+			shape: "rsquare"
+			tasks: [{
+				id: "29BFCB27C5CDC79E"
+				item: "gtceu:chemical_plant"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: [
+		"&6&l» Laser Chamber"
+		"&f- The laser target bin is equivalent to the more powerful &benergy bin &r&f, and the laser source bin is equivalent to the more powerful &bpower bin &r&f."
+		"&f- May only be used on machines or generators marked &ein the description \"Laser Compartment Allowed\" &r&f."
+		"&f- If the machine allows two laser chambers to be placed, &bdouble chamber boosting &r&fcan also be performed."
+		""
+		"&4&l» Important restrictions"
+		"&c- Even if the machine description has the words &e\"Allows use of laser bins\" &r&c, in most cases the laser target bin cannot replace the normal energy bin in a multi-block structure."
+		"&c- a few special cases:"
+		"&a• &fDeep chemical distortion meter, nano-forge, etc.: Only the laser target chamber can be used, and the energy chamber cannot be used."
+		"&a• &fCompression Fusion Reactor: Can replace the energy chamber with a laser target chamber."
+		"&f- Please refer to the multi-block JEI interface and machine host description."
+	]
+			icon: "gtmthings:iv_256a_wireless_laser_target_hatch"
+			icon_scale: 1.5d
+			id: "0E3F70831E273595"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "42469597B63926E2"
+					item: "gtmadvancedhatch:iv_65536a_net_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "1B7475317549B28D"
+					item: "gtmadvancedhatch:iv_65536a_net_laser_source_hatch"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "higher power"
+			tasks: [
+				{
+					id: "3B3E93B980B75406"
+					item: "gtmadvancedhatch:iv_256a_net_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "42CFF2261F20BBF7"
+					item: "gtmadvancedhatch:iv_256a_net_laser_source_hatch"
+					type: "item"
+				}
+			]
+			title: "Laser warehouse"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [ "Io Debris 2 Circuit" ]
+			id: "7F92A8EE58AD5BA2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7247977F19E25C6A"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7F92A8EE58AD5BA2"
+				"7DCA0B7C9F3C3ACF"
+			]
+			id: "09F132EE8A88C872"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "62E375AC37B369C7"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"09F132EE8A88C872"
+				"15580C25FF239402"
+			]
+			description: [
+		"Mercury Acquisition Circuit 1"
+		"Later it will be used to make netherite ingots."
+	]
+			id: "66AE53E13E3C3C19"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "41F85AC3AB132C38"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"09F132EE8A88C872"
+				"15580C25FF239402"
+			]
+			icon_scale: 2.0d
+			id: "13BBF0FF3267BFDB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D0AB27F4F0D223"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "78E1EA0D0D683394"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			title: "silica coil"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			dependency_requirement: "one_completed"
+			description: [ "By-product of silica minerals" ]
+			id: "0507FDF7BECE29AF"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "39855610E9E80307"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"13BBF0FF3267BFDB"
+				"766D051A40AB5324"
+			]
+			description: [
+		"has been greatly simplified"
+		"Sulfide Caijin powder formula"
+		"Sulfide Caijin powder chemical reactor formula"
+	]
+			id: "2BEF03C52636E165"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0B22F2ABE0FBC895"
+				item: "gtceu:trinium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			description: [ "Main materials in ZPM stage" ]
+			id: "0485D45408234C99"
+			quest_enhance_disable_scroll_paging: false
+			size: 1.0d
+			tasks: [{
+				id: "373808445A507E87"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"66AE53E13E3C3C19"
+				"0485D45408234C99"
+				"0507FDF7BECE29AF"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_6_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 0L
+							Fluid: "minecraft:empty"
+						}]
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "67784DEB22D18308"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "6798C71A84FECE4E"
+					item: "avaritia:infinity_axe"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1A64FB9BBCA5112B"
+					item: "gtlcore:world_fragments_enceladus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "77890D1E655E3E52"
+					item: "gtlcore:world_fragments_pluto"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3030E67756088C30"
+					item: "gtlcore:world_fragments_titan"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E16CAAFFDBB1523"
+					item: "gtlcore:world_fragments_end"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1382D199FDBDEBF5"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 0L
+								Fluid: "minecraft:empty"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1F0956C3BD4745A1"]
+			id: "2AA63D77B0E86D2E"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "74F83E0CD43D15C7"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			subtitle: "Man！"
+			tasks: [{
+				id: "07D2F38F2B6D6996"
+				item: "gtceu:fall_king_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AA63D77B0E86D2E"]
+			description: [
+		"&6&l» Core Mechanism"
+		"&f- Neutron kinetic energy is consumed to run the recipe."
+		"&f- The neutron kinetic energy must exactly match the limited range of the recipe. It will not work if it is too high or too low."
+		"&f- Different formulas require different neutron kinetic energy ranges, so multiple units need to be prepared and configured separately."
+		""
+		"&6&l» Control method"
+		"&f- Use the &bmachine control overlay &fto control the energy input to regulate neutron kinetic energy."
+		"&f- Use the &bneutron sensor &fto output a redstone signal to assist in monitoring the neutron kinetic energy range."
+		""
+		"&6&l» Configuration example"
+		"&f- If the recipe requires neutron kinetic energy 220~230:"
+		"&a- Sets the sensor's lowest value to &e222 &fand its highest value to &e228 &f."
+		"&a- This ensures that the kinetic energy requirements of the formula are always met."
+		""
+		"&e&l» Warm reminder"
+		"&e- Since the range required for each formula is different, it is recommended to prepare separate machines for different formulas."
+	]
+			hide_dependent_lines: true
+			icon: "gtceu:neutron_activator"
+			icon_scale: 2.0d
+			id: "766D051A40AB5324"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 10
+					id: "1E9B88A5F885A30E"
+					item: "gtceu:machine_controller_cover"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "005BD2A65BFE2CC1"
+					item: "gtmthings:luv_wireless_energy_receive_cover"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2033E704723D1C29"
+					item: "gtceu:neutron_activator"
+					type: "item"
+				}
+				{
+					id: "55AD9887A8EA7B50"
+					item: "gtceu:neutron_sensor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3E52C3BE6650094A"
+					item: { Count: 2, id: "gtceu:luv_neutron_accelerator" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["13BBF0FF3267BFDB"]
+			description: [ "&dLuV &rsuperconductor" ]
+			id: "2CEEFDACE7B13D5A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4EA57D5B0BBC42FB"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2CEEFDACE7B13D5A"
+				"2BEF03C52636E165"
+			]
+			description: [ "The use of advanced superconducting cables can reduce the consumption of niobium titanium alloy and Caijin" ]
+			id: "5B01312E34A3AD60"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7A45FAD14DF53B00"
+				item: "gtceu:superconducting_coil"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"2CEEFDACE7B13D5A"
+				"7F8C2ECC7CE2BF20"
+			]
+			description: [
+		"Large-capacity data storage, using optical data warehouses to feed multiple assembly lines"
+		""
+		"Databases can also be connected in series (the database can obtain data from other databases through the target warehouse)"
+		""
+		"Optical data target/source bin &ccannot be shared by &r"
+		""
+		"Optical cables are used to transmit data between wired optical warehouses, and the optical cable &ecannot be bifurcated &r"
+		""
+		"The wireless optical warehouse uses &dflash memory &rfor binding"
+		""
+		"Each bin (optical and access) will continue to consume energy &e1,920 &rEU/t (0.9375A &5EV &r)"
+		"If the database is being written or read by other machines, the energy consumption of each warehouse is increased to &e30,720 &rEU/t (0.9375A &dLuV &r)"
+		"&4If the power supply is insufficient, some warehouses will fail."
+	]
+			hide_dependent_lines: true
+			icon: "gtceu:data_bank"
+			icon_scale: 1.5d
+			id: "5F0A175D6704A8D0"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					id: "30BB79C8EC292E07"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "388BB64700A5AD98"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Essential"
+			tasks: [
+				{
+					id: "488C1A3FC0D7CCB6"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					id: "04C16CC58A3C2785"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "2133DF3F29F434FF"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "5044E6156B99035B"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "4A6554439E0DB561"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2BEF03C52636E165"]
+			icon_scale: 2.0d
+			id: "23B23867F311BF51"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547BB487C427E24E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3CDD2D97C975A389"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			title: "Caijin Coil"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["23B23867F311BF51"]
+			description: [
+		"Later you can also use Fusion III to do it"
+		"You can only use the sulfuric acid super silica powder formula now"
+	]
+			id: "4A058FA1859A00D1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "20E616EF8F63C870"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23B23867F311BF51"]
+			description: [ "&cZPM &rsuperconductor" ]
+			id: "0B89B3108EB4A01F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7E7B15A8DCDA158C"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4ECACC2A6159D332"
+				"0B89B3108EB4A01F"
+				"4E1A28AFF661CED0"
+			]
+			description: [
+		"Provide computing power for equipment operation. More computing power requires upgrading components or using switches to combine the computing power of multiple computers."
+		""
+		"Optical cables are used to transmit computing power between wired computing power warehouses, and the optical cable &ecannot be bifurcated &r"
+		""
+		"The coolant required for active cooling of the components is supplied via the input tank"
+		""
+		"If the HPCA overheats, random components will be damaged (turn into corresponding shells) and then stop working."
+		""
+		"&eInsufficient power input &ror &eNo computing power required &rHPCA will not work"
+		""
+		"&4&lPlease note the distinction between the computing data warehouse (transmitting computing power) and the optical data warehouse (transmitting data)"
+		""
+		"The computing power data target/source warehouse &ccannot be shared by &r"
+	]
+			icon: "gtceu:high_performance_computation_array"
+			icon_scale: 2.0d
+			id: "50FFFB0EBEDAE50B"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "00B45CE41F6F9DE1"
+				item: "gtceu:hpca_active_cooler_component"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1E7BE63B3A0D93A8"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "47DB4BF1F015DA2B"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "54575D8670C83558"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "23B8685F9D8A0C1C"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+				{
+					id: "06AB74F84583FBAA"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					id: "486BA41B749013B0"
+					item: "gtceu:normal_optical_pipe"
+					type: "item"
+				}
+				{
+					id: "0123126D84155562"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2CEEFDACE7B13D5A"]
+			hide_dependency_lines: true
+			id: "4ECACC2A6159D332"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "66F78A994427739B"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			description: [ "It can make you more comfortable when placing an order. You don’t have to remove non-consumable items every time." ]
+			icon_scale: 1.5d
+			id: "3F92E771528DFE50"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "28963B62583C973A"
+				item: "gtlcore:virtual_ingredient"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4236EE0695D7D142"
+				item: "gtceu:virtual_ingredient_supply_machine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			description: [ "You can do this with silica rock, which can improve efficiency." ]
+			id: "1C10383050657004"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "78A1A23B153BDD1E"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4058D1416D94BABB"]
+			id: "4172820CE8E15F90"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "452A699C8A8C2AF5"
+				item: "gtceu:neutron_reflector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4172820CE8E15F90"]
+			description: [ "Slightly cheaper than mechanical blocks and can be used to fill structures" ]
+			id: "14396D30F281CE72"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "277BB227A11F67EC"
+				item: "gtceu:fusion_glass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5B01312E34A3AD60"
+				"4172820CE8E15F90"
+			]
+			id: "79D48E5CA0E21A07"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1716B0692F1C0249"
+				item: "gtceu:fusion_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7F8C2ECC7CE2BF20"
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+				"25F272243EB904D5"
+			]
+			description: [""]
+			icon: "gtmadvancedhatch:luv_2a_net_energy_input_hatch"
+			id: "00B9091E4824D78C"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "20C4C63653ED3480"
+					item: "gtmadvancedhatch:luv_2a_net_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "25FA3105A81C58D4"
+					item: "gtmadvancedhatch:luv_16a_net_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2B245C36BF40880C"
+					item: "gtmadvancedhatch:luv_64a_net_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "426D2908B6A48DD3"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["09F132EE8A88C872"]
+			hide_dependency_lines: true
+			id: "4381BC8012E94E0A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "74011E6BE9AA8BDE"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"79D48E5CA0E21A07"
+				"00B9091E4824D78C"
+				"0F22A8CE63F369CA"
+				"4381BC8012E94E0A"
+				"4BFA114E12BCB163"
+				"14396D30F281CE72"
+			]
+			description: [
+		"Ordinary fusion reactor &6runs the host corresponding level recipe &r. &ccannot be overclocked &r. When running a recipe lower than the host corresponding level, for each host level higher than the recipe level, 2x recipe speed, 2x power consumption, and 1x total energy cost."
+		""
+		"The upper limit of the energy cache of the fusion reactor depends on the number of energy bins &b&rrather than the energy bin &clevel &r, so remember to place 16 energy bins!"
+		""
+		"&bNote: Please place an ordinary wireless energy bin. This machine does not recognize the adaptive energy bin."
+		""
+		"In jei's multi-block interface, press P to switch to the fusion reactor version using fusion glass."
+		""
+		"Regarding molding, just place 2 sample assemblies in the structural position under the main block."
+		""
+		"&4This thing runs extremely slow!!!!!!!!"
+		"&bThe first time you make this, you should make a compressed version."
+	]
+			icon_scale: 1.3d
+			id: "118FDF6D9F868002"
+			min_width: 210
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4219810155501659"
+				item: "avaritia:infinity_ring"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Donut"
+			tasks: [{
+				id: "30F5A61CE755449F"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			description: [""]
+			id: "6A59FA11D10C648A"
+			quest_enhance_disable_scroll_paging: false
+			subtitle: "kenyou tablets"
+			tasks: [{
+				id: "4C1F30305CB157EA"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["118FDF6D9F868002"]
+			description: [
+		"It is first obtained by solidifying the liquid europium produced by fusion, and can then be directly fired in an electric blast furnace."
+		""
+		"After you have this, I suggest you do the &5neutron control factory immediately"
+	]
+			id: "52DF531AFB3A07CE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "102F17C54DB17FBD"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52DF531AFB3A07CE"]
+			description: [ "Exposure to the recycling production line too early is easy to discourage" ]
+			icon: "gtceu:raw_crystal_chip"
+			id: "4068B8F601B041D9"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "5DE792A4FCE03857"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "gtceu:raw_crystal_chip"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05ED873DE0B0FA89"
+				type: "checkmark"
+			}]
+			title: "Crystal chip raw materials"
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4068B8F601B041D9"]
+			icon_scale: 2.0d
+			id: "7F649184083236E1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "0471E640C4427300"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["52DF531AFB3A07CE"]
+			description: [
+		"Each fusion reactor has a corresponding compressed version, which not only can be overclocked (equivalent to lossless!), but also has parallelism, and can even use &b&llaser bin &r!"
+		""
+		"Regarding the location of parallel bins and input and output bins:"
+		"{image:ftbquests:textures/picture/004.png width:200 height:100 align:center}"
+		"The illustration is for location reference only. Actual parallel bins cannot be superimposed. The positions of input and output bins also apply to other surfaces."
+		"Regarding the location of the energy/laser bin (the picture shows the inside of the press, looking outward):"
+		"{image:ftbquests:textures/picture/005.png width:200 height:100 align:center}"
+	]
+			hide_dependency_lines: true
+			id: "43A83C00715285B5"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "big donut"
+			tasks: [{
+				id: "379AB770F78942DD"
+				item: "gtceu:luv_compressed_fusion_reactor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04FD2A25CAC86CAB"]
+			id: "1F0C8D37619111BE"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "733C183D65E9CA06"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"7F649184083236E1"
+				"1F0C8D37619111BE"
+				"4604207A60F04214"
+				"4E1A28AFF661CED0"
+			]
+			description: [ "Use extremely high direct energy flow to perform calculations similar to electronic circuits." ]
+			icon_scale: 2.0d
+			id: "5BB55AABB91EEF9D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3BB71E30BB01BF1F"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BB55AABB91EEF9D"]
+			icon_scale: 2.0d
+			id: "3DCB5E7F69CE5F7F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "042B52D3F408E0DA"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3DCB5E7F69CE5F7F"]
+			icon_scale: 2.0d
+			id: "09856E59E52AEE7D"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58C7573B898D7C58"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "3864B056087A7894"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"09856E59E52AEE7D"
+				"298369255C8130F7"
+			]
+			hide_dependency_lines: false
+			icon_scale: 2.0d
+			id: "233CA36D529EC3FB"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "759A5D82CB0503F0"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BB959FA3D648151"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"50FFFB0EBEDAE50B"
+				"52DF531AFB3A07CE"
+			]
+			description: [
+		"It requires the computing power provided by the computer for research. When doing research, you need to put research items and data storage items into the &bitem holder."
+		""
+		"The multi-block structure of the research station contains air. The air in the 4*3*3 area where the item holder is located cannot be replaced by other blocks, otherwise the research station will not take shape."
+		""
+		"Research station &cand &rcannot run the scanner recipe"
+	]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "gtceu:research_station"
+			icon_scale: 1.3d
+			id: "298369255C8130F7"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "223832A139BBC896"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					id: "0CB4B11AEBE2BB78"
+					item: "gtceu:object_holder"
+					type: "item"
+				}
+				{
+					id: "45A34B6D9B45AFDF"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["233CA36D529EC3FB"]
+			description: [ "Bigger and stronger, even if there is a petrochemical plant, it cannot be thrown away" ]
+			icon_scale: 1.3d
+			id: "01526A08D01458FA"
+			quest_enhance_disable_scroll_paging: false
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1ADE7259443AA0A3"
+				item: "gtceu:large_cracker"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+	]
+	subtitle: ["Tier6-LuV"]
+	title: "Drama differential pressure LUV"
+}

@@ -1,0 +1,1425 @@
+{
+	autofocus_id: "1A48D2DB936FF632"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65B7D8575F62632F"
+	group: "68CBF1606D696C68"
+	icon: "gtceu:hv_electric_motor"
+	id: "65B7D8575F62632F"
+	order_index: 3
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2C75EB0628CB491A"
+				"242AFA510EC14878"
+			]
+			icon: "kubejs:hv_universal_circuit"
+			id: "1A48D2DB936FF632"
+			quest_enhance_disable_scroll_paging: false
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2F52039C169285CF"
+				title: "HV"
+				type: "checkmark"
+			}]
+			title: "Alta tensão de alta tensão"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: [
+		"Pode transformar pó de gema em gemas"
+		""
+		"Você se sente assustador? Clique com o botão direito do mouse no martelo de forjamento &b&rpara silenciá-lo"
+		""
+		"Compactar a caixa causará problemas estranhos de reconhecimento de NBT, use com cuidado"
+	]
+			icon_scale: 1.5d
+			id: "58936CEB6176A18B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1E0838EEE472F554"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "456C48E25C1F5649"
+				item: "gtceu:implosion_compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "5EECD56BF0EC1539"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "57F8326FBE7A9BD0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5009E0AA80514313"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: [
+		"De volta do nanoprocessador? Eu sabia"
+		"A fonte do pó de casamento é a bauxita grossa. Espero que você já tenha construído uma planta básica de processamento de minério."
+		""
+		"&bDica: Você pode pressionar \"A\" diretamente no JEI/missões para favoritar itens na barra de marcadores"
+	]
+			id: "157A951DA379C259"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "22590F01A2B5B20C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "mais eficiente"
+			tasks: [
+				{
+					id: "00D5736963F13047"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "444F63C98C574053"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "7CAE6607D1EA81D0"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "4DDE442739B2FDC1"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+				{
+					id: "0CDB1B3E7BB73C38"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+			]
+			title: "correção"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			dependency_requirement: "one_completed"
+			description: [ "O politetrafluoroetileno, ou PTFE, é um material plástico exclusivo com excelente estabilidade química, resistência ao calor, baixo coeficiente de atrito e superfície antiaderente, usado como peças para equipamentos de processamento químico, isolamento eletrônico e vedações para bombas e válvulas." ]
+			id: "11186961491B1773"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "50D9BD8E2FED65CF"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E80F0C58C4A3699"
+				item: "gtceu:polytetrafluoroethylene_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11186961491B1773"]
+			description: [
+		"Possui overclock sem perdas &b&re possui fórmula avançada exclusiva &6&r(circuito mágico nº 24), que é mais poderoso do que a fábrica de mixagem geral"
+		""
+		"Somente bobinas de cobre branco &epodem ser usadas"
+	]
+			icon_scale: 1.3d
+			id: "29450DC426C4E2D6"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "50F14222E01C7EAC"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "42EC7CCD50B1D828"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			id: "4302F67F2B0B22D0"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "775860DEC4147D06"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "009EE8D1C5AC4CBD"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E9EA7E22BE663AF"]
+			id: "0BE334D9B0575DCD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4987CEA2B2050E6C"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4394414AFDD8E56B"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4302F67F2B0B22D0"]
+			id: "26FA6E064EF9FF5B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "16C2721F050EF032"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1A199FD6643AADF7"
+					item: "gtceu:hv_emitter"
+					type: "item"
+				}
+				{
+					id: "49F6D41F68C1CA45"
+					item: "gtceu:hv_sensor"
+					type: "item"
+				}
+			]
+			title: "Sensores e transmissores de alta tensão"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26FA6E064EF9FF5B"]
+			description: [ "Coloque-o em uma estrutura multibloco para fazer com que os multiblocos obtenham ambiente de sala limpa &d&r" ]
+			icon_scale: 1.3d
+			id: "5E9EA7E22BE663AF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "3AAB5D8903AA730D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Também pode ser mantido automaticamente"
+			tasks: [{
+				id: "0106634910539280"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E9EA7E22BE663AF"]
+			description: [ "Se não houver sala limpa, você deverá colocar a máquina de corte na fábrica conjunta geral &6&re, em seguida, instalar o armazém de manutenção ultralimpo &bpara a fábrica conjunta geral." ]
+			id: "676D1982102F4E79"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "73D294571F48A5E9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B2D53D953086706"
+				item: "gtceu:lpic_chip"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"676D1982102F4E79"
+				"242AFA510EC14878"
+			]
+			icon_scale: 1.3d
+			id: "75DAAFAD21F1451C"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4BA99C2D7D2D3D75"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "14FEB5E23CFFB069"
+				item: "gtmadvancedhatch:hv_2a_net_energy_input_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5EECD56BF0EC1539"]
+			icon_scale: 2.0d
+			id: "0243CEA5EE705EB0"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "147065FBB37624B6"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0843D22E4B02D63E"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0243CEA5EE705EB0"]
+			dependency_requirement: "one_started"
+			description: [
+		"Processadores (em sentido estrito) que variam de séries micro a wetware podem ser produzidos com eficiência usando chips SoC com fórmulas simplificadas, chamados de circuitos SOC."
+		""
+		"A série SoC também inclui chips NAND (ULV) e processadores microchip (LV)"
+	]
+			icon_scale: 2.0d
+			id: "3FCF807491579B94"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "62693CFE4D386654"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1259CD7048B5DE84"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FCF807491579B94"]
+			icon_scale: 2.0d
+			id: "18CA398800CC2E1B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "68D0EF3FC6EEA6B9"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C8B079C13E74751"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"18CA398800CC2E1B"
+				"5E9EA7E22BE663AF"
+			]
+			description: [ "Se não houver sala limpa, você deverá colocar a máquina de montagem de circuito na fábrica conjunta geral &6&re, em seguida, instalar o armazém de manutenção ultralimpo &b&rna fábrica conjunta geral." ]
+			icon_scale: 2.0d
+			id: "1C320B245EAC8D14"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6B1C840CF7158D92"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "759C0F5C1FCC6D04"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1C320B245EAC8D14"
+				"31B5C9A6F8FB0BA2"
+			]
+			icon_scale: 1.3d
+			id: "3461BF0D74E5E8DF"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4785F0739BD9FEF4"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Deve fazer"
+			tasks: [{
+				id: "4C4E9514C39EE1F0"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1C320B245EAC8D14"]
+			description: [ "O último circuito desta série" ]
+			icon_scale: 1.3d
+			id: "7940CFD732610594"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "1F569A837DBC3D5A"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6DF561795A593EDB"
+				item: "kubejs:ultima_control_circuit"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [ "Você pode obter alguns recursos úteis nos pesqueiros, não se esqueça de construí-los" ]
+			icon_scale: 1.5d
+			id: "6F85AB2294DA3310"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "02DA5E6725FF070A"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0E4B176D3DF3D8F5"
+				item: "gtceu:fishing_ground"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [ "Somente bobinas de liga Kantal &e&rpodem ser usadas" ]
+			icon_scale: 1.5d
+			id: "0752A7F2C67CDF76"
+			quest_enhance_disable_scroll_paging: false
+			shape: "rsquare"
+			subtitle: "Dessulfurização em uma etapa"
+			tasks: [{
+				id: "44035FCFBB02978D"
+				item: "gtceu:desulfurizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [
+		"Quando se trata de veículos elétricos, você precisa de muitas matérias-primas químicas estranhas. Se você não montar uma linha de produção conjunta petroquímica e bioquímica agora, os VEs ficarão muito presos mais tarde."
+		""
+		"Cada camada da torre de destilação, exceto a camada inferior &o&6, só pode e deve ser &rpara colocar um pequeno compartimento de saída &b&r. Cada caixa de saída corresponde a um produto (pode ser empilhado sozinho, sem nenhum bônus adicional de altura)"
+		"Existem e apenas a camada inferior &6&rpode usar o conjunto de saída &b&r, o que pode reduzir a altura. Se você usar o conjunto de saída &dME &r, poderá até construir apenas três camadas."
+		""
+		"O limite superior do bônus de velocidade do forno de pirólise é &a500% &r, e o limite inferior do bônus de consumo de energia da máquina de craqueamento é &a10% &r"
+	]
+			icon_scale: 1.5d
+			id: "2EAAF5A6510D0EFE"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "5BAC2973956359FC"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1A9ABA22BF878A3D"
+					item: "gtceu:distillation_tower"
+					type: "item"
+				}
+				{
+					id: "466980CCE6FBFDF7"
+					item: "gtceu:cracker"
+					type: "item"
+				}
+				{
+					id: "44B80ADCCEE1ECE4"
+					item: "gtceu:pyrolyse_oven"
+					type: "item"
+				}
+			]
+			title: "Linha de produção petroquímica e bioquímica"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [ "Os fusos quentes na parte traseira precisam ser resfriados por esta máquina e a máquina de imersão química não pode ser usada." ]
+			icon_scale: 1.3d
+			id: "027197A71E630966"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "32C398A7D50E0057"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "67020EF8AE962E62"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: [
+		"Você pode não precisar do último desta série."
+		""
+		"O supercondutor sério de HV é o óxido de mercúrio, bário, cálcio e cobre"
+	]
+			id: "46BFDB71190C1F49"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "21D42C7B4D0E84C3"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			subtitle: "Supercondutor barato para HV"
+			tasks: [{
+				id: "7DDB9B944116C1C1"
+				item: "gtceu:vibrant_alloy_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: [ "O hélio e o argônio podem ser obtidos do ar líquido e são gases protetores para queimar metais de alto grau." ]
+			icon: "gtceu:liquid_air_bucket"
+			id: "2610283E00EC04E4"
+			min_required_tasks: 1
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "31410A08F07C9CC3"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					amount: 1000L
+					consume_fluid: "DEFAULT"
+					fluid: "gtceu:liquid_air"
+					id: "4AF3EAA0AB1BC1AA"
+					type: "fluid"
+				}
+				{
+					id: "0135636FD4A429AA"
+					item: "gtceu:liquid_air_bucket"
+					type: "item"
+				}
+			]
+			title: "ar líquido"
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["027197A71E630966"]
+			description: [ "Esta liga tem excelente resistência à corrosão, resistência a altas temperaturas e propriedades mecânicas, e é frequentemente usada para fabricar equipamentos e componentes resistentes ao calor e à corrosão." ]
+			id: "6843AB3573F42310"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "4521C94E7C8BF69B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07F31D51E577D06C"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6843AB3573F42310"]
+			icon_scale: 2.0d
+			id: "42E88FC72902FC0B"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "6C2BC13971660863"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "25491710B97DE83B"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "Bobina de nicromo"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74D9136DE32F9129"]
+			icon_scale: 1.3d
+			id: "1EC6366E9611F2AD"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "797DDD6D591D0FFA"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0B078D6B5E8ADED5"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7940CFD732610594"]
+			description: [ "Na versão aprimorada, não há necessidade de ir para outros mundos, portanto os fragmentos correspondentes são fornecidos diretamente." ]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			icon_scale: 2.0d
+			id: "0931ECBAAD9252C7"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 64
+				id: "31586B20B8D96BB5"
+				item: "gtlcore:world_fragments_moon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A00D926C53F953B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0931ECBAAD9252C7"]
+			description: [""]
+			id: "360787FE602FBF66"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "2E4680FA75010FFB"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE53B164E07E8FA"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"027197A71E630966"
+				"360787FE602FBF66"
+			]
+			description: [ "Agora você só pode fabricar lingotes de titânio com tetracloreto de titânio" ]
+			id: "74D9136DE32F9129"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "11EC0893B4B00754"
+				item: "gtceu:nano_saber"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "18D78F45AECF373E"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1A48D2DB936FF632"]
+			description: [
+		"&7▌ Função:"
+		"&f- Custo inicial muito baixo, adequado para grandes quantidades"
+		"&f- Gera eletricidade sem qualquer combustível ou manutenção"
+		""
+		"&7▌ Sugestões:"
+		"&l&6Basta colocar o cristal final na máquina"
+	]
+			id: "33B057D830449C50"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 16
+				id: "2B82484BABA9D124"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C26202B6950F6F0"
+				item: "gtl_enhancedcore:hv_crystal_resonator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26FA6E064EF9FF5B"]
+			description: [
+		"&6&l» Armazenamento de energia adaptável"
+		"&f- Você está cansado de ter que substituir os reservatórios de energia em todas as etapas? Advanced Warehouse traz para você a solução."
+		""
+		"&6&l» Visão geral da função"
+		"&f- Usar memória flash de configuração de rede &6Clique com o botão esquerdo &fClique no terminal do sistema de rede de distribuição adaptativa para concluir a ligação."
+		"&f- Ao colocar 64 compartimentos de energia da rede do mesmo nível no terminal, os níveis de tensão e amperes de todos os compartimentos de energia adaptativa na base podem ser sincronizados."
+		""
+		"&a&l» Etapas de operação"
+		"&a- 0. &fAbra o terminal do sistema de rede de distribuição adaptativa, clique em controle de permissão e insira sua impressão digital."
+		"&a- 1. &fAjuste a frequência para &e1&f。"
+		"&a- 2. &fUsar flash de configuração de rede &aClique com o botão esquerdo &fClique no terminal para concluir a ligação."
+		"&abotão esquerdo &f&abotão esquerdo &f&abotão esquerdo &f&abotão esquerdo &f&abotão esquerdo &f&abotão esquerdo &f&abotão esquerdo &f&aBotão esquerdo &f"
+		"&a- 3. &fColoque 64 armazéns de energia da rede &e&fdo mesmo nível no terminal."
+		"&a- 4. &fA tensão e a amperagem de todos os compartimentos de energia adaptativa serão sincronizadas automaticamente, eliminando a necessidade de substituição manual."
+	]
+			icon: "gtmadvancedhatch:adaptive_net_energy_terminal"
+			id: "54B19A2CBD34CB97"
+			min_width: 250
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "27C3E734EA055094"
+				item: {
+					Count: 1
+					id: "gtmadvancedhatch:net_data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72640FE79F149B44"
+				item: "gtmadvancedhatch:adaptive_net_energy_terminal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"75DAAFAD21F1451C"
+				"42E88FC72902FC0B"
+			]
+			description: [
+		"&6&l» Armazenamento de energia adaptável"
+		"&f- Usado com o terminal do sistema de rede de distribuição adaptativa, pode substituir diretamente os armazéns de energia comuns."
+		"&f- Sincroniza automaticamente os níveis de tensão, sem necessidade de substituição manual."
+		""
+		"&a&l» Recurso de vinculação automática"
+		"&f- Se houver uma memória flash de configuração de rede vinculada na mochila, ela será automaticamente vinculada à banda de frequência correspondente após ser colocada no armazém."
+	]
+			icon_scale: 1.3d
+			id: "3249900DD92CA69E"
+			quest_enhance_disable_scroll_paging: false
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "38ECCC9007867CC5"
+				item: "gtmadvancedhatch:adaptive_net_energy_input_hatch"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E9EA7E22BE663AF"]
+			description: [
+		"&6&l※ Você consegue usar o armazém de manutenção com habilidade?"
+		""
+		"&7Escolha o nível correto do armazém de manutenção e a correspondência de função com base no seu entendimento:"
+		"&7Existem 4 questões de múltipla escolha no total. Se você responder todas corretamente, obterá o armazém de manutenção mais avançado."
+		"&4Se você responder a pergunta incorretamente, a recompensa será cancelada e você nunca mais poderá responder à pergunta."
+		""
+		"&a– O jeito de um cavalheiro. Por favor, não ative o modo de edição."
+	]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_cleaning_gravity_configuration_maintenance_hatch"
+			id: "6C41B053B31153E2"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				id: "464526990AD89B1A"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"准考证\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "115B22C9B397E881"
+				item: { Count: 16, id: "gtceu:cleaning_maintenance_hatch" }
+				type: "item"
+			}]
+			title: "Jogos de quebra-cabeça"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06D09E8BC43510E8"]
+			description: [ "&e- A) Armazém de manutenção estéril" ]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:cleaning_configuration_maintenance_hatch"
+			id: "1D20243A62E68499"
+			incompatible: [
+				"7FF1F735FF45A608"
+				"0B34ACA2402A0058"
+				"4D2D733A89405697"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "436D0FD40631FDA5"
+				title: "A"
+				type: "checkmark"
+			}]
+			title: "Pergunta 1A"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06D09E8BC43510E8"]
+			description: [ "&e- B) Armazém de manutenção ultralimpo" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:law_configuration_cleaning_maintenance_hatch"
+			id: "7FF1F735FF45A608"
+			incompatible: [
+				"1D20243A62E68499"
+				"0B34ACA2402A0058"
+				"4D2D733A89405697"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "1B2ECC522EACA2A8"
+				title: "B"
+				type: "checkmark"
+			}]
+			title: "Pergunta 1B"
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["41DF2F11B50D215C"]
+			description: [
+		"&a- &l✓"
+		""
+		"&a- Parece que você está bastante familiarizado com o uso de armazéns de manutenção."
+		"&6Esta é a sua recompensa."
+		""
+		"&a- Se você descobrir que não pode receber a recompensa, então o tempo limite deve ter expirado."
+	]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
+			icon_scale: 1.3d
+			id: "4E5AA22F3C3B4A51"
+			incompatible: [
+				"3C4A8E129BB1855D"
+				"228C153CC7079886"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [
+				{
+					count: 128
+					id: "38CB8B04F0BB7363"
+					item: "gtceu:law_cleaning_gravity_configuration_maintenance_hatch"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "16A49F8E64B23BFC"
+					item: "gtl_enhancedcore:adaptive_maintenance_hatch"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "57D69B2AC51AEFF8"
+				title: "prêmio"
+				type: "checkmark"
+			}]
+			title: "Recompensa: Correto"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06D09E8BC43510E8"]
+			description: [ "&e- C) Armazém de manutenção com gravidade zero" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:auto_configuration_maintenance_hatch"
+			id: "0B34ACA2402A0058"
+			incompatible: [
+				"1D20243A62E68499"
+				"7FF1F735FF45A608"
+				"4D2D733A89405697"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "6EAA7B5889C14A4B"
+				title: "C"
+				type: "checkmark"
+			}]
+			title: "Pergunta 1C"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06D09E8BC43510E8"]
+			description: [ "&e- D) Armazém de manutenção por gravidade forte" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_cleaning_maintenance_hatch"
+			id: "4D2D733A89405697"
+			incompatible: [
+				"1D20243A62E68499"
+				"7FF1F735FF45A608"
+				"0B34ACA2402A0058"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "5F775603DFC59C2C"
+				title: "D"
+				type: "checkmark"
+			}]
+			title: "Pergunta 1D"
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0B34ACA2402A0058"
+				"7FF1F735FF45A608"
+				"4D2D733A89405697"
+				"7FCCB498E4C0FD04"
+				"7F954101EBB387D4"
+				"4B50C879B044D374"
+				"6628385026F4B686"
+				"1FB02DDE8D7FF6D4"
+				"62B500DFE9BD61F7"
+				"02806A301FD57BC4"
+				"2636E56373D232F3"
+				"5DD9242438F6E9AA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+		"&4&l❌"
+		""
+		"&7Parece que sua compreensão do armazém de manutenção não é profunda o suficiente."
+		"&6Mas não importa, aceite essas recompensas e continue aprendendo e explorando!"
+	]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:cleaning_maintenance_hatch"
+			icon_scale: 1.3d
+			id: "3C4A8E129BB1855D"
+			incompatible: ["4E5AA22F3C3B4A51"]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 128
+				id: "16257AE7B6006EE0"
+				item: "gtceu:cleaning_maintenance_hatch"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "04D6BD5714F306E9"
+				title: "prêmio"
+				type: "checkmark"
+			}]
+			title: "Recompensa: Erro"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A7F74D29E912B5E"]
+			description: [ "&e- A) Compartimento de manutenção configurável" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:law_configuration_cleaning_maintenance_hatch"
+			id: "7FCCB498E4C0FD04"
+			incompatible: [
+				"7F954101EBB387D4"
+				"768283F86ADDF8E8"
+				"4B50C879B044D374"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "37C72A4B9C55530B"
+				title: "A"
+				type: "checkmark"
+			}]
+			title: "Pergunta 2A"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A7F74D29E912B5E"]
+			description: [ "&e- B) Armazém de manutenção automática configurável" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:law_configuration_cleaning_maintenance_hatch"
+			id: "7F954101EBB387D4"
+			incompatible: [
+				"7FCCB498E4C0FD04"
+				"768283F86ADDF8E8"
+				"4B50C879B044D374"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "5CF99E7DE3ABEF8A"
+				title: "B"
+				type: "checkmark"
+			}]
+			title: "Pergunta 2B"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A7F74D29E912B5E"]
+			description: [ "&e- C) Armazém de manutenção por gravidade" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:law_configuration_cleaning_maintenance_hatch"
+			id: "768283F86ADDF8E8"
+			incompatible: [
+				"7FCCB498E4C0FD04"
+				"7F954101EBB387D4"
+				"4B50C879B044D374"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "7ECB579F0B71009A"
+				title: "C"
+				type: "checkmark"
+			}]
+			title: "Pergunta 2C"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A7F74D29E912B5E"]
+			description: [ "&e- D) Armazém de manutenção ultralimpo" ]
+			hide_until_deps_complete: true
+			icon: "gtceu:law_configuration_cleaning_maintenance_hatch"
+			id: "4B50C879B044D374"
+			incompatible: [
+				"7FCCB498E4C0FD04"
+				"7F954101EBB387D4"
+				"768283F86ADDF8E8"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "43541281BDC5AA70"
+				title: "D"
+				type: "checkmark"
+			}]
+			title: "Pergunta 2D"
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C620702BAD41178"]
+			description: [ "&eA) Armazém de manutenção estéril" ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_cleaning_gravity_configuration_maintenance_hatch"
+			id: "6628385026F4B686"
+			incompatible: [
+				"49888F4FF504A796"
+				"1FB02DDE8D7FF6D4"
+				"62B500DFE9BD61F7"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "07A97DD978FF1405"
+				title: "A"
+				type: "checkmark"
+			}]
+			title: "Pergunta 3A"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C620702BAD41178"]
+			description: [ "&eB) Armazém de manutenção absolutamente limpo" ]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_cleaning_gravity_configuration_maintenance_hatch"
+			id: "49888F4FF504A796"
+			incompatible: [
+				"6628385026F4B686"
+				"1FB02DDE8D7FF6D4"
+				"62B500DFE9BD61F7"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "613560704EFE96A4"
+				title: "B"
+				type: "checkmark"
+			}]
+			title: "Pergunta 3B"
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C620702BAD41178"]
+			description: [ "&eC) Armazém de manutenção por gravidade forte" ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_cleaning_gravity_configuration_maintenance_hatch"
+			id: "1FB02DDE8D7FF6D4"
+			incompatible: [
+				"6628385026F4B686"
+				"49888F4FF504A796"
+				"62B500DFE9BD61F7"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "22EE672C93C1DA35"
+				title: "C"
+				type: "checkmark"
+			}]
+			title: "Pergunta 3C"
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C620702BAD41178"]
+			description: [ "&eD) Armazém de manutenção ultralimpo" ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_cleaning_gravity_configuration_maintenance_hatch"
+			id: "62B500DFE9BD61F7"
+			incompatible: [
+				"6628385026F4B686"
+				"49888F4FF504A796"
+				"1FB02DDE8D7FF6D4"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "55DE56C82084EA46"
+				title: "D"
+				type: "checkmark"
+			}]
+			title: "Pergunta 3D"
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BC7FCCE9104490D"]
+			description: [ "&eA) o quê? Vá para o inferno" ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_configuration_cleaning_maintenance_hatch"
+			id: "02806A301FD57BC4"
+			incompatible: [
+				"2636E56373D232F3"
+				"5DD9242438F6E9AA"
+				"41DF2F11B50D215C"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "76D01D49A0E50FDE"
+				title: "A"
+				type: "checkmark"
+			}]
+			title: "Pergunta 4A"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BC7FCCE9104490D"]
+			description: [ "&eB) Instale 2 câmaras de controle de gravidade ao mesmo tempo e ajuste-as para gravidade zero e gravidade forte" ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_configuration_cleaning_maintenance_hatch"
+			id: "2636E56373D232F3"
+			incompatible: [
+				"02806A301FD57BC4"
+				"5DD9242438F6E9AA"
+				"41DF2F11B50D215C"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "335400B91BEC03FE"
+				title: "B"
+				type: "checkmark"
+			}]
+			title: "Pergunta 4B"
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BC7FCCE9104490D"]
+			description: [ "&eC) Isso geralmente significa que a receita precisa ser processada em etapas, primeiro ajustando para gravidade zero usando o compartimento de controle de gravidade e depois mudando para gravidade forte no meio da receita." ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_configuration_cleaning_maintenance_hatch"
+			id: "5DD9242438F6E9AA"
+			incompatible: [
+				"02806A301FD57BC4"
+				"2636E56373D232F3"
+				"41DF2F11B50D215C"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "03AFDCD9A2178F04"
+				title: "C"
+				type: "checkmark"
+			}]
+			title: "Pergunta 4C"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6BC7FCCE9104490D"]
+			description: [ "&eD) Você pode ir ao espaço para construir máquinas e usar a cabine de controle de gravidade para se ajustar a um ambiente de forte gravidade." ]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "gtceu:sterile_configuration_cleaning_maintenance_hatch"
+			id: "41DF2F11B50D215C"
+			incompatible: [
+				"02806A301FD57BC4"
+				"2636E56373D232F3"
+				"5DD9242438F6E9AA"
+			]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "5D154A64D50B488E"
+				title: "D"
+				type: "checkmark"
+			}]
+			title: "Pergunta 4D"
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C41B053B31153E2"]
+			description: [ "&a- 1. Qual dos seguintes armazéns de manutenção é o equipamento chave para desbloquear a linha de bioprodução e é usado principalmente para processar materiais de biolinha?" ]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_hanging_sign"
+			id: "06D09E8BC43510E8"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [
+				{
+					id: "4162AAD6D450A82F"
+					title: "Pergunta 1"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					id: "0294DF2CEA23BB07"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"准考证\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D20243A62E68499"]
+			description: [ "&a- 2. Que tipo de armazém de manutenção é caracterizado por \"o ambiente gravitacional dentro dele pode ser configurado manualmente\"?" ]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_hanging_sign"
+			id: "2A7F74D29E912B5E"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "05E351121E513ABE"
+				title: "Pergunta 2"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["768283F86ADDF8E8"]
+			description: [ "&a- 3. Quando for necessário preparar o ambiente para a síntese da “Série Echo” na etapa UEV, qual armazém de manutenção deve ser utilizado?" ]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_hanging_sign"
+			id: "7C620702BAD41178"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "18925EF144CC4BCE"
+				title: "Pergunta 3"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49888F4FF504A796"]
+			description: [ "&a- 4. Se você achar que uma receita requer tanto \"sem gravidade\" quanto \"gravidade forte\", como você implementa essa situação?" ]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:oak_hanging_sign"
+			id: "6BC7FCCE9104490D"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "square"
+			tasks: [{
+				id: "421D16CDB0C183A6"
+				title: "Pergunta 4"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06D09E8BC43510E8"]
+			description: [
+		"&f– O tempo total para responder a esta pergunta é de 3 minutos"
+		"&f- Após o tempo ser ultrapassado, você não poderá receber a recompensa mesmo que termine de responder às perguntas."
+		"&f- Este cronômetro começa quando você começa a selecionar a resposta"
+		""
+		"&a- Ainda assistindo? Ver isso conta como tempo"
+	]
+			hide_until_deps_complete: true
+			id: "0360318478BF8B97"
+			incompatible: ["4E5AA22F3C3B4A51"]
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			shape: "gear"
+			tasks: [{
+				elapsedTime: 180L
+				id: "228C153CC7079886"
+				type: "questsadditions:time"
+			}]
+			title: "tempo restante"
+			x: 10.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Tier3-HV"]
+	title: "Alta tensão HV"
+}

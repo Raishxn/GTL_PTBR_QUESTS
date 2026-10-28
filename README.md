@@ -8,6 +8,7 @@ Escolha **um arquivo de idioma** da versão desejada. Os pacotes incluem as ques
 
 | Versão | Português do Brasil | English | Chinês original | Detalhes |
 | --- | --- | --- | --- | --- |
+| GregTech Leisure 增强版 2.9.2 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.9.2/GregTech-Leisure-Enhanced-2.9.2-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.9.2/GregTech-Leisure-Enhanced-2.9.2-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.9.2/GregTech-Leisure-Enhanced-2.9.2-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-enhanced-2.9.2) |
 | GregTech Leisure 增强版 2.7 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.7/GregTech-Leisure-Enhanced-2.7-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.7/GregTech-Leisure-Enhanced-2.7-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.7/GregTech-Leisure-Enhanced-2.7-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-enhanced-2.7) |
 | GTL 11th | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-11th/GTL-11TH-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-11th/GTL-11TH-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-11th/GTL-11TH-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-11th) |
 | GTL 10th — 12/07 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-10th-2026-07-12/GTL-10TH-2026-07-12-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-10th-2026-07-12/GTL-10TH-2026-07-12-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-10th-2026-07-12/GTL-10TH-2026-07-12-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-10th-2026-07-12) |
@@ -44,6 +45,7 @@ Para quem já tem uma instância e deseja aplicar a tradução manualmente, os a
 
 | Versão | Português do Brasil | English |
 | --- | --- | --- |
+| GregTech Leisure 增强版 2.9.2 | [PT-BR](GregTech-Leisure-Enhanced-2.9.2/) | [English](en_us/GregTech-Leisure-Enhanced-2.9.2/) |
 | GregTech Leisure 增强版 2.7 | [PT-BR](GregTech-Leisure-Enhanced-2.7/) | [English](en_us/GregTech-Leisure-Enhanced-2.7/) |
 | GTL 11th | [PT-BR](GTL-11TH/) | [English](en_us/GTL-11TH/) |
 | GTL 10th — 12/07 | [PT-BR](GTL十周目7月12日/) | [English](en_us/GTL十周目7月12日/) |
