@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "version": "2.9.2",
+  "title": "GregTech Leisure-增强版: 2.9.2",
+  "sections": [
+    {
+      "heading": "Correções de Problemas",
+      "lines": [
+        "Corrigido o problema em que algumas máquinas conectadas à Estação Espacial Star Spiral exibiam energia de entrada insuficiente após terem threads e paralelismo infinitos"
+      ]
+    },
+    {
+      "heading": "Alterações de Mecânicas",
+      "lines": [
+        "Otimizado o desempenho em baixas taxas de quadros (low FPS)",
+        "Aprimorado o nível de personalização da Dimensão Pessoal",
+        "Alterada a mecânica do Barramento de Padrões Avançado para entradas acima do limite de long; agora as entradas são enviadas em lotes",
+        "Adicionadas mais informações para máquinas com espaço de saída insuficiente",
+        "A Garrafa do Tempo agora mantém a aceleração contínua com um único clique, até ser clicada novamente",
+        "O Terminal de Gerenciamento de Padrões agora oculta espaços vazios",
+        "Agora, nos detalhes da missão, você pode pressionar 'A' diretamente para favoritar itens",
+        "Agora máquinas paralelas de múltiplos tipos de receita podem ser aceleradas com a Garrafa do Tempo"
+      ]
+    },
+    {
+      "heading": "Atenção",
+      "lines": [
+        "Devido a alterações na lógica do Terminal de Entrada da Rede Elétrica Infinita, mundos/saves antigos podem precisar que o bloco seja quebrado e colocado novamente"
+      ]
+    }
+  ]
+}

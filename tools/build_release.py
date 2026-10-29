@@ -91,6 +91,15 @@ def build(args):
             changed_fields = 0
             if lang != 'zh_cn':
                 base = ROOT / args.version if lang == 'pt_br' else ROOT / 'en_us' / args.version
+                if base.is_dir():
+                    for target in base.rglob('*'):
+                        if not target.is_file():
+                            continue
+                        rel = target.relative_to(base).as_posix()
+                        if rel.startswith('config/ftbquests/quests/'):
+                            continue
+                        name = prefix + rel
+                        changes[name] = target.read_bytes()
                 for name in quests:
                     target = base / 'config/ftbquests/quests' / name[len(quest_prefix):]
                     if not target.is_file():
@@ -113,6 +122,7 @@ def build(args):
                     'source_preparation': recovery}
             changes[prefix + 'gtl-release.json'] = json.dumps(info, ensure_ascii=False, indent=2).encode()
             target = out / f'{args.slug}-{lang}{extension}'
+            expected_overlays = set(changes.keys())
             with ZipFile(target, 'w', compression=ZIP_DEFLATED, compresslevel=6) as result:
                 for entry in original.infolist():
                     if Path(entry.filename).name in RUNTIME_FILES:
@@ -140,6 +150,8 @@ def build(args):
                         else:
                             assert mechanics(fields(before.decode())[0]) == mechanics(fields(after.decode())[0]), name
                         verified_quests += 1
+                    elif name in expected_overlays:
+                        pass
                     elif name not in (manifest_name, option_path):
                         assert before == after, name
                         unchanged += 1

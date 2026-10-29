@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "version": "2.9.2",
+  "title": "GregTech Leisure-Enhanced: 2.9.2",
+  "sections": [
+    {
+      "heading": "Bug Fixes",
+      "lines": [
+        "Fixed an issue where some machines connected to the Star Spiral space station showed insufficient power input after having infinite threads and parallelism"
+      ]
+    },
+    {
+      "heading": "Mechanic Changes",
+      "lines": [
+        "Optimized low-FPS performance",
+        "Enhanced customization options for Personal Dimensions",
+        "Changed the Super Pattern Bus mechanism for inputs exceeding the long limit; inputs are now processed in batches",
+        "Added more information for machines with insufficient output space",
+        "Time in a Bottle now maintains continuous acceleration on click until clicked again",
+        "Pattern Management Terminal now hides empty slots",
+        "You can now press 'A' directly in quest details to bookmark items",
+        "Cross-recipe-type parallel machines can now be accelerated with Time in a Bottle"
+      ]
+    },
+    {
+      "heading": "Notice",
+      "lines": [
+        "Due to logic changes in the Infinite Power Grid Input Terminal, older saves may require breaking and replacing the block"
+      ]
+    }
+  ]
+}
