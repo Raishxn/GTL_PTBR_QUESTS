@@ -1,0 +1,39 @@
+{
+  "enabled": true,
+  "version": "3.1",
+  "title": "GregTech Leisure-Enhanced: 3.1",
+  "sections": [
+    {
+      "heading": "Bug Fixes",
+      "lines": [
+        "Fixed issue where JEI and certain GUI interfaces were too small",
+        "Fixed FTB permission issue with Cloud Pattern Repository",
+        "Fixed issue where cross-recipe type parallel machines did not support multiple pattern providers",
+        "Fixed flickering preview when paging through multiblock structures"
+      ]
+    },
+    {
+      "heading": "Mechanic Changes",
+      "lines": [
+        "Optimized private dimension 'Natural Forest Lake Park'",
+        "Optimized Central Teleporter performance and interaction",
+        "Added search functionality to Central Teleporter"
+      ]
+    },
+    {
+      "heading": "Quests",
+      "lines": [
+        "Central Pattern Repository changed to free reward at ULV stage"
+      ]
+    },
+    {
+      "heading": "Notice",
+      "lines": [
+        "Players who created the Natural Forest Lake Park preset dimension in version 3.0",
+        "have permanently lost Central Teleporter functionality (cannot be fixed in existing save), using Teleport Anchor is recommended",
+        "New worlds created in 3.1 are unaffected. As compensation, Central Pattern Repository has been moved to ULV gift",
+        "After all, it is all central..."
+      ]
+    }
+  ]
+}
