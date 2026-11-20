@@ -3,8 +3,8 @@
   "id": "4B515114941CD050",
   "title": "Pressão de coerência QCV",
   "subtitle": [
-    "Tier20-QCV"
-  ],
+        "Tier20-QCV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 21,
   "icon": "hk3gtl:voltage_machine_casing_qcv",
@@ -14,10 +14,10 @@
       "id": "4B5A4EE36C5768ED",
       "title": "Continuar do workshop QSV",
       "subtitle": "QSV → QCV",
-      "description": "[
-        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos QCV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos QCV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B531C5843C8CA9D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B5F27DFD542861F",
       "title": "Filme de roteamento de caminho óptico de interferência",
       "subtitle": "Organize caminhos ópticos de comprimento igual e janelas de alinhamento",
-      "description": "[
-        \"Prepare uma grade de caminho óptico na interface front-end e deixe uma janela alinhável. Os sinais de referência e de trabalho entram no módulo de decodificação subsequente a partir de seus respectivos caminhos ópticos.\"
-      ]",
+      "description": [
+        "\"Prepare uma grade de caminho óptico na interface front-end e deixe uma janela alinhável. Os sinais de referência e de trabalho entram no módulo de decodificação subsequente a partir de seus respectivos caminhos ópticos.\""
+      ],
       "dependencies": [
         "4B5CF6430127290A",
         "4B54610F11B937EC",
@@ -65,9 +65,9 @@
       "id": "4B560E71B07461A1",
       "title": "Módulo de decodificação de diferença de fase",
       "subtitle": "Leia a diferença do caminho óptico e desdobre a mudança de fase",
-      "description": "[
-        \"Conecte o chip de roteamento aos componentes locais de computação, armazenamento e temporização e sele-o em um módulo de decodificação de diferença de fase. Os circuitos subsequentes e os componentes de execução podem ler as mudanças de fase de acordo.\"
-      ]",
+      "description": [
+        "\"Conecte o chip de roteamento aos componentes locais de computação, armazenamento e temporização e sele-o em um módulo de decodificação de diferença de fase. Os circuitos subsequentes e os componentes de execução podem ler as mudanças de fase de acordo.\""
+      ],
       "dependencies": [
         "4B5F27DFD542861F",
         "4B5BC89DB94CBBA1",
@@ -91,9 +91,9 @@
       "id": "4B51D710544E9513",
       "title": "Pacote de driver de malha fechada de grade",
       "subtitle": "Deixe as leituras raster participarem do posicionamento",
-      "description": "[
-        \"Adicione codificação de grade e componentes de execução de loop fechado ao suporte front-end para criar um pacote de driver instalável de forma independente.\"
-      ]",
+      "description": [
+        "\"Adicione codificação de grade e componentes de execução de loop fechado ao suporte front-end para criar um pacote de driver instalável de forma independente.\""
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B52A38ECBBC7D1B",
@@ -117,9 +117,9 @@
       "id": "4B578111155CA2B0",
       "title": "Coletor de isolamento de retorno a vácuo",
       "subtitle": "Isolar o refluxo e manter a temperatura uniforme e hermética",
-      "description": "[
-        \"Adicione um ramal de retorno independente e uma partição à tubulação frontal. Sele a interface hermética e forneça caminhos de controle de temperatura correspondentes para o circuito e o atuador.\"
-      ]",
+      "description": [
+        "\"Adicione um ramal de retorno independente e uma partição à tubulação frontal. Sele a interface hermética e forneça caminhos de controle de temperatura correspondentes para o circuito e o atuador.\""
+      ],
       "dependencies": [
         "4B5BC89DB94CBBA1",
         "4B5CF6430127290A",
@@ -143,9 +143,9 @@
       "id": "4B5193E0D06811F7",
       "title": "Host do processador de ressonância de energia de colapso QCV",
       "subtitle": "Roteamento de caminho óptico, decodificação de diferença de fase e refluxo independente",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um host de processador de ressonância de energia de colapso. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um host de processador de ressonância de energia de colapso. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -170,9 +170,9 @@
       "id": "4B5FD77A9DD44CF7",
       "title": "Supercomputador de ponte quântica QCV",
       "subtitle": "Roteamento de caminho óptico, decodificação de diferença de fase e refluxo independente",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador de ponte quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador de ponte quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -197,9 +197,9 @@
       "id": "4B512C65CEF4309B",
       "title": "Conjunto de processador de coerência quântica QCV",
       "subtitle": "Roteamento de caminho óptico, decodificação de diferença de fase e refluxo independente",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador quântico coerente. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador quântico coerente. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -223,9 +223,9 @@
       "id": "4B520FFA3A70A471",
       "title": "Processador de interferência quântica QCV",
       "subtitle": "Roteamento de caminho óptico, decodificação de diferença de fase e refluxo independente",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador de interferência quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador de interferência quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -249,9 +249,9 @@
       "id": "4B510190BA9A5D97",
       "title": "Motor elétrico QCV",
       "subtitle": "Fornece acionamento rotacional independente",
-      "description": "[
-        \"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B51D710544E9513",
         "4B512C65CEF4309B",
@@ -275,9 +275,9 @@
       "id": "4B55A44A3D4741F4",
       "title": "Pistão elétrico QCV",
       "subtitle": "Converta o acionamento em movimento linear controlado",
-      "description": "[
-        \"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B56A2D62637B307"
@@ -300,9 +300,9 @@
       "id": "4B57494A173A8C55",
       "title": "Bomba elétrica QCV",
       "subtitle": "Fornece potência de transporte para caminhos de fluxo independentes",
-      "description": "[
-        \"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B540D45EA680892"
@@ -325,9 +325,9 @@
       "id": "4B510E092A9EA041",
       "title": "Módulo transportador QCV",
       "subtitle": "Transferência contínua de materiais em linhas de produção existentes",
-      "description": "[
-        \"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B55D47F3B4611E4"
@@ -350,9 +350,9 @@
       "id": "4B50C62B53949BDD",
       "title": "Braço robótico QCV",
       "subtitle": "Conecte posicionamento e execução ao mesmo componente",
-      "description": "[
-        “Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento.”
-      ]",
+      "description": [
+        "Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento."
+      ],
       "dependencies": [
         "4B55A44A3D4741F4",
         "4B5A4C311E407536"
@@ -375,9 +375,9 @@
       "id": "4B5934F5CF3D7D6B",
       "title": "Sensor de CVQ",
       "subtitle": "Envie os resultados da medição para o nível atual de controle",
-      "description": "[
-        \"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\"
-      ]",
+      "description": [
+        "\"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\""
+      ],
       "dependencies": [
         "4B512C65CEF4309B",
         "4B5DBB54FFD6AAAB"
@@ -400,9 +400,9 @@
       "id": "4B5CE40EEEBE5CBD",
       "title": "Transmissor QCV",
       "subtitle": "Prepare componentes de lançamento para este nível de equipamento",
-      "description": "[
-        \"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\"
-      ]",
+      "description": [
+        "\"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\""
+      ],
       "dependencies": [
         "4B512C65CEF4309B",
         "4B59BB6EDF618991"
@@ -425,9 +425,9 @@
       "id": "4B54A60A7117D269",
       "title": "Gerador de campo de força QCV",
       "subtitle": "Prepare componentes de campo de força para este nível de equipamento",
-      "description": "[
-        “Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente.”
-      ]",
+      "description": [
+        "Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente."
+      ],
       "dependencies": [
         "4B5934F5CF3D7D6B",
         "4B5CE40EEEBE5CBD",
@@ -451,9 +451,9 @@
       "id": "4B5E91E8EB7C1BE8",
       "title": "Espaçador de microrrede de correspondência de fase",
       "subtitle": "Primeiro corrija o espaçamento entre guias adjacentes",
-      "description": "[
-        “Um espaçador independente é feito de material frontal. Ele será consumido junto com o processo do material principal e é utilizado para fixar a distância entre as microrredes.”
-      ]",
+      "description": [
+        "Um espaçador independente é feito de material frontal. Ele será consumido junto com o processo do material principal e é utilizado para fixar a distância entre as microrredes."
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC",
@@ -477,9 +477,9 @@
       "id": "4B5CA675A5D88771",
       "title": "Fluido de infiltração microgate de baixa temperatura",
       "subtitle": "Prepare novo fluido para micropoços e revestimento de mídia",
-      "description": "[
-        “Prepare o líquido de infiltração com novos materiais para uso no processo de interface da microrrede. Conecte o fornecimento de líquido e a drenagem respectivamente e, em seguida, inicie o revestimento contínuo.”
-      ]",
+      "description": [
+        "Prepare o líquido de infiltração com novos materiais para uso no processo de interface da microrrede. Conecte o fornecimento de líquido e a drenagem respectivamente e, em seguida, inicie o revestimento contínuo."
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC"
@@ -503,9 +503,9 @@
       "id": "4B58F3AE0A156170",
       "title": "Microrrede condutora coerente",
       "subtitle": "Organize condutores independentes no substrato laminado",
-      "description": "[
-        \"Use a base laminada QSV completa para suportar a carga, organize e ligue os cabos um por um. Os espaçadores fixam o espaçamento e depois processam a camada dielétrica de baixa temperatura.\"
-      ]",
+      "description": [
+        "\"Use a base laminada QSV completa para suportar a carga, organize e ligue os cabos um por um. Os espaçadores fixam o espaçamento e depois processam a camada dielétrica de baixa temperatura.\""
+      ],
       "dependencies": [
         "4B5E91E8EB7C1BE8"
       ],
@@ -527,9 +527,9 @@
       "id": "4B52D241D26A10D2",
       "title": "Placa de revestimento dielétrico de baixa temperatura",
       "subtitle": "Primeiro molhe os microporos e depois aplique a película isolante",
-      "description": "[
-        \"Processe os microporos na microrrede e complete o revestimento dielétrico e a colagem do filme. Colete o gás descarregado, processe o líquido residual e o líquido transportador da interface residual, respectivamente.\"
-      ]",
+      "description": [
+        "\"Processe os microporos na microrrede e complete o revestimento dielétrico e a colagem do filme. Colete o gás descarregado, processe o líquido residual e o líquido transportador da interface residual, respectivamente.\""
+      ],
       "dependencies": [
         "4B5CA675A5D88771",
         "4B58F3AE0A156170"
@@ -552,9 +552,9 @@
       "id": "4B5EA01A941CA282",
       "title": "Grade do pacote de isolamento em branco",
       "subtitle": "Cada partição mantém a sua própria através da conexão",
-      "description": "[
-        \"Conecte a matriz de penetração independente e a blindagem da partição e encapsule as microrredes dos condutores. Cada condutor é mantido separado após o encapsulamento e, em seguida, o resfriamento lento e o dimensionamento são concluídos.\"
-      ]",
+      "description": [
+        "\"Conecte a matriz de penetração independente e a blindagem da partição e encapsule as microrredes dos condutores. Cada condutor é mantido separado após o encapsulamento e, em seguida, o resfriamento lento e o dimensionamento são concluídos.\""
+      ],
       "dependencies": [
         "4B52D241D26A10D2"
       ],
@@ -576,9 +576,9 @@
       "id": "4B506BABD8501C6F",
       "title": "Padrão de material de grade de interconexão coerente em branco",
       "subtitle": "Verifique o final, conclua o resfriamento lento e determine o comprimento",
-      "description": "[
-        \"A placa da grade é resfriada lentamente e as extremidades de comprimento fixo são reforçadas e seladas. A placa padrão é então processada em seis formatos de engenharia e o refrigerante quente é devolvido para processamento.\"
-      ]",
+      "description": [
+        "\"A placa da grade é resfriada lentamente e as extremidades de comprimento fixo são reforçadas e seladas. A placa padrão é então processada em seis formatos de engenharia e o refrigerante quente é devolvido para processamento.\""
+      ],
       "dependencies": [
         "4B5EA01A941CA282"
       ],
@@ -600,9 +600,9 @@
       "id": "4B5C19467E9C025E",
       "title": "Painéis de grade de interconexão coerente",
       "subtitle": "Microrredes lado a lado que retêm a superfície do painel",
-      "description": "[
-        “Lamine o blank padrão, conecte o suporte e os contatos independentes. Mantenha guias paralelas na placa para utilização pelo revestimento e estrutura da plataforma.”
-      ]",
+      "description": [
+        "Lamine o blank padrão, conecte o suporte e os contatos independentes. Mantenha guias paralelas na placa para utilização pelo revestimento e estrutura da plataforma."
+      ],
       "dependencies": [
         "4B506BABD8501C6F"
       ],
@@ -624,9 +624,9 @@
       "id": "4B50A4D83DED0382",
       "title": "Hastes de grade coerentemente interconectadas",
       "subtitle": "Passe pelas guias ao longo do núcleo da haste",
-      "description": "[
-        \"Componha a peça bruta padrão com a haste frontal, organize as microrredes ao longo da direção axial e isole a camada externa. As molduras, anéis e fios finos subsequentes continuam a ser processados.\"
-      ]",
+      "description": [
+        "\"Componha a peça bruta padrão com a haste frontal, organize as microrredes ao longo da direção axial e isole a camada externa. As molduras, anéis e fios finos subsequentes continuam a ser processados.\""
+      ],
       "dependencies": [
         "4B506BABD8501C6F",
         "4B55AA0198FA5388"
@@ -649,9 +649,9 @@
       "id": "4B52A38ECBBC7D1B",
       "title": "Estrutura de madeira em grade coerentemente interconectada",
       "subtitle": "As juntas de canto também devem ter penetrações independentes",
-      "description": "[
-        \"Conecte as hastes à estrutura frontal e configure as juntas de canto com matrizes de penetração. Permita que a estrutura completa suporte a carga, mantendo suas respectivas guias.\"
-      ]",
+      "description": [
+        "\"Conecte as hastes à estrutura frontal e configure as juntas de canto com matrizes de penetração. Permita que a estrutura completa suporte a carga, mantendo suas respectivas guias.\""
+      ],
       "dependencies": [
         "4B50A4D83DED0382",
         "4B55E5EFF3DE4A90"
@@ -674,9 +674,9 @@
       "id": "4B5BC89DB94CBBA1",
       "title": "Anel de material de grade coerentemente interconectado",
       "subtitle": "Anéis separados por espaçamento radial",
-      "description": "[
-        “Os loops condutores independentes são distribuídos ao longo do anel de interface e separados da camada dielétrica por lacunas. Após a conclusão dos contatos, eles são enviados ao chassi para montagem final.”
-      ]",
+      "description": [
+        "Os loops condutores independentes são distribuídos ao longo do anel de interface e separados da camada dielétrica por lacunas. Após a conclusão dos contatos, eles são enviados ao chassi para montagem final."
+      ],
       "dependencies": [
         "4B50A4D83DED0382",
         "4B5451646EFDB638"
@@ -699,9 +699,9 @@
       "id": "4B5CF6430127290A",
       "title": "Folha de grade de interconexão coerente",
       "subtitle": "Deixe a janela de conexão aberta após a laminação",
-      "description": "[
-        “O filme isolante e o microgate são laminados e afinados, deixando a janela de conexão no local desejado. A folha fina continua participando do empacotamento e da interligação.”
-      ]",
+      "description": [
+        "O filme isolante e o microgate são laminados e afinados, deixando a janela de conexão no local desejado. A folha fina continua participando do empacotamento e da interligação."
+      ],
       "dependencies": [
         "4B5C19467E9C025E",
         "4B59C3326165143C"
@@ -724,9 +724,9 @@
       "id": "4B54610F11B937EC",
       "title": "Fios finos compostos de grade coerentemente interconectados",
       "subtitle": "Fornece isolamento de derivação em torno do núcleo metálico",
-      "description": "[
-        \"Retenha o condutor metálico contínuo, adicione uma fina camada de microrredes e isolamento independente. O resultado é um fio fino composto adequado para montagem posterior de componentes.\"
-      ]",
+      "description": [
+        "\"Retenha o condutor metálico contínuo, adicione uma fina camada de microrredes e isolamento independente. O resultado é um fio fino composto adequado para montagem posterior de componentes.\""
+      ],
       "dependencies": [
         "4B50A4D83DED0382",
         "4B599500704705FB"
@@ -749,9 +749,9 @@
       "id": "4B5216D08D96321D",
       "title": "O primeiro lote de cubos mecânicos QCV",
       "subtitle": "Coloque a estrutura da microrrede no chassi QSV completo",
-      "description": "[
-        “Reúna as placas, molduras e anéis deste nível e conecte-os ao bloco mecânico QSV completo. Sele as guias e interfaces de baixa temperatura para obter o primeiro lote de carcaças QCV.”
-      ]",
+      "description": [
+        "Reúna as placas, molduras e anéis deste nível e conecte-os ao bloco mecânico QSV completo. Sele as guias e interfaces de baixa temperatura para obter o primeiro lote de carcaças QCV."
+      ],
       "dependencies": [
         "4B5C19467E9C025E",
         "4B52A38ECBBC7D1B",
@@ -776,9 +776,9 @@
       "id": "4B55EA59B981CD84",
       "title": "Desmontagem em camadas do revestimento QCV",
       "subtitle": "Recupere o núcleo do pré-amplificador e parte da camada externa",
-      "description": "[
-        “Retirar todo o núcleo do QSV e reciclar as placas, molduras e anéis deste nível que possam ser utilizados diretamente. O restante do corpo principal é convertido em resíduo classificado e enviado para separação quantitativa.”
-      ]",
+      "description": [
+        "Retirar todo o núcleo do QSV e reciclar as placas, molduras e anéis deste nível que possam ser utilizados diretamente. O restante do corpo principal é convertido em resíduo classificado e enviado para separação quantitativa."
+      ],
       "dependencies": [
         "4B5216D08D96321D"
       ],
@@ -804,9 +804,9 @@
       "id": "4B5E9A5DC86C96FB",
       "title": "Separação de resíduos de classificação QCV",
       "subtitle": "Elute os anexos e separe o corpo principal utilizável",
-      "description": "[
-        “Os resíduos classificados são tratados em solvente de processo e depois centrifugados para separar os componentes reciclados e os rejeitos não recicláveis. Os dois tipos de produtos entram na reconstrução e na solidificação respectivamente.”
-      ]",
+      "description": [
+        "Os resíduos classificados são tratados em solvente de processo e depois centrifugados para separar os componentes reciclados e os rejeitos não recicláveis. Os dois tipos de produtos entram na reconstrução e na solidificação respectivamente."
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC"
@@ -833,9 +833,9 @@
       "id": "4B5DA535DF89269D",
       "title": "Reconstrução em lote alimentado do componente de recuperação QCV",
       "subtitle": "Reprocessamento de microrredes condutoras",
-      "description": "[
-        \"Misture o corpo principal reciclado com matriz frontal nova, reinsira espaçadores, guias e outros materiais auxiliares funcionais. Reconstrua a microrrede condutora e, em seguida, conecte-a novamente ao revestimento, embalagem e dimensionamento.\"
-      ]",
+      "description": [
+        "\"Misture o corpo principal reciclado com matriz frontal nova, reinsira espaçadores, guias e outros materiais auxiliares funcionais. Reconstrua a microrrede condutora e, em seguida, conecte-a novamente ao revestimento, embalagem e dimensionamento.\""
+      ],
       "dependencies": [
         "4B5E91E8EB7C1BE8"
       ],
@@ -861,9 +861,9 @@
       "id": "4B56218873596DA3",
       "title": "Solidificação da cauda QCV",
       "subtitle": "Acabar com o processamento de materiais não recicláveis",
-      "description": "[
-        “Selar os rejeitos em resíduos inertes, remover as cinzas e concluir o tratamento final desta parte do material da grade.”
-      ]",
+      "description": [
+        "Selar os rejeitos em resíduos inertes, remover as cinzas e concluir o tratamento final desta parte do material da grade."
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC"
@@ -890,9 +890,9 @@
       "id": "4B5F972343DAAF05",
       "title": "Tubo principal de isolamento de pressão diferencial de baixa temperatura",
       "subtitle": "Separe os ramos quentes e frios da diferença de pressão de mudança de fase",
-      "description": "[
-        “Primeiro faça um tubo principal de isolamento no equipamento existente e configure as interfaces de bypass e medição. O equipamento de liberação de energia de mudança de fase subsequente obterá tubulações especiais a partir daqui.”
-      ]",
+      "description": [
+        "Primeiro faça um tubo principal de isolamento no equipamento existente e configure as interfaces de bypass e medição. O equipamento de liberação de energia de mudança de fase subsequente obterá tubulações especiais a partir daqui."
+      ],
       "dependencies": [
         "4B5B95EB3F6F296A",
         "4B540D45EA680892",
@@ -916,9 +916,9 @@
       "id": "4B5E7CF4C392AABC",
       "title": "Colapso da máquina de liberação de energia de mudança de fase de energia",
       "subtitle": "Conecte condições de mudança de fase a equipamentos independentes",
-      "description": "[
-        “Conclua a pesquisa de engenharia de mudança de fase e monte o controlador da máquina de liberação de energia. Use o tubo principal de isolamento para gerenciar a diferença de pressão e o caminho do fluxo na mudança de fase gás-sólida.”
-      ]",
+      "description": [
+        "Conclua a pesquisa de engenharia de mudança de fase e monte o controlador da máquina de liberação de energia. Use o tubo principal de isolamento para gerenciar a diferença de pressão e o caminho do fluxo na mudança de fase gás-sólida."
+      ],
       "dependencies": [
         "4B50866329B1DB0E",
         "4B5F972343DAAF05",
@@ -943,9 +943,9 @@
       "id": "4B5B36362C6BF5DA",
       "title": "Réplica do Centro de Assembléia Chave de Deus",
       "subtitle": "Preparando equipamentos de montagem para réplicas de componentes de núcleo e soulsteel",
-      "description": "[
-        “Depois de concluir a pesquisa correspondente, prepare o tubo principal dedicado e os componentes de engenharia front-end, fabrique e monte o controlador central e continue a montagem de precisão da Chave de Deus.”
-      ]",
+      "description": [
+        "Depois de concluir a pesquisa correspondente, prepare o tubo principal dedicado e os componentes de engenharia front-end, fabrique e monte o controlador central e continue a montagem de precisão da Chave de Deus."
+      ],
       "dependencies": [
         "4B5F116FA97D7110",
         "4B5F972343DAAF05",
@@ -970,9 +970,9 @@
       "id": "4B57D65F2C2B4B06",
       "title": "Imitação dos Mil Reinos Yiyang·Beacon",
       "subtitle": "Configure beacons independentes para sincronização de coordenadas",
-      "description": "[
-        “Depois de concluir a pesquisa relacionada ao Thousand Worlds One Multiply, fabrique o controlador de farol e conecte os componentes de engenharia necessários para a sincronização de coordenadas.”
-      ]",
+      "description": [
+        "Depois de concluir a pesquisa relacionada ao Thousand Worlds One Multiply, fabrique o controlador de farol e conecte os componentes de engenharia necessários para a sincronização de coordenadas."
+      ],
       "dependencies": [
         "4B535AC10CB8CB3B"
       ],
@@ -994,9 +994,9 @@
       "id": "4B5A3E4A2B3E1509",
       "title": "Réplica do trem de uma viagem dos Mil Mundos",
       "subtitle": "Conecte a conexão espacial e retorne o posicionamento",
-      "description": "[
-        “Fabricar o controlador do trem estacionário, completar a conexão espacial e retornar os componentes de posicionamento e continuar a preparar as instalações de engenharia para mil mundos e uma viagem.”
-      ]",
+      "description": [
+        "Fabricar o controlador do trem estacionário, completar a conexão espacial e retornar os componentes de posicionamento e continuar a preparar as instalações de engenharia para mil mundos e uma viagem."
+      ],
       "dependencies": [
         "4B535AC10CB8CB3B"
       ],
@@ -1018,9 +1018,9 @@
       "id": "4B5814457AA6BFBC",
       "title": "Detector de energia de colapso de gás de terceira ordem",
       "subtitle": "Continue a atualizar os recursos de amostragem da detecção de estado sólido",
-      "description": "[
-        “Use o detector completo do estágio frontal e esta seção de componentes para fazer um detector de gás. Conclua o detector primeiro e depois monte a torre de coleta do terceiro estágio.”
-      ]",
+      "description": [
+        "Use o detector completo do estágio frontal e esta seção de componentes para fazer um detector de gás. Conclua o detector primeiro e depois monte a torre de coleta do terceiro estágio."
+      ],
       "dependencies": [
         "4B5D74C9ED85BF0E",
         "4B5B95EB3F6F296A",
@@ -1046,9 +1046,9 @@
       "id": "4B5351CD3A7AF772",
       "title": "Torre de coleta de energia Honkai nível 3",
       "subtitle": "Estabelecer uma linha de produção independente para coleta de gases",
-      "description": "[
-        \"Instale o detector gasoso completo no controlador da torre de coleta de terceiro estágio para continuar a coleta de energia de colapso gasoso.\"
-      ]",
+      "description": [
+        "\"Instale o detector gasoso completo no controlador da torre de coleta de terceiro estágio para continuar a coleta de energia de colapso gasoso.\""
+      ],
       "dependencies": [
         "4B5814457AA6BFBC",
         "4B5F972343DAAF05",
@@ -1072,12 +1072,12 @@
       "id": "4B59EE579EB6CE9A",
       "title": "Núcleo de inflamação de imitação",
       "subtitle": "RN-FCA · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. O cristal de teste forma um recibo de detecção repetível sob entrada de calor controlada;
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de imitação de fogo e as aplicações especiais de aquecimento de metal são desbloqueados.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. O cristal de teste forma um recibo de detecção repetível sob entrada de calor controlada;",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de imitação de fogo e as aplicações especiais de aquecimento de metal são desbloqueados."
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E"
       ],
@@ -1100,12 +1100,12 @@
       "id": "4B528AA97B0DF3A7",
       "title": "Purificação heterogênea de gás de processo",
       "subtitle": "RN-GPR · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: elemento de filtro de gás de processo com falha × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento de nossa equipe no Honkai Energy Sample Spectral Analysis Array. Compare as amostras reais de gás de entrada e saída e os resíduos do filtro e correlacione os lotes de gases de exaustão gerados; o gás fresco é usado para iniciar a condição de trabalho; a quantidade original do objeto testado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
-        \"O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a torre de regeneração de meio estável é desbloqueada e dividida em purificação de gás e condições de trabalho de reutilização de meio filtrante; e a regeneração de meio líquido é formulada separadamente.\"
-      ]",
+      "description": [
+        "\"Objeto testado: elemento de filtro de gás de processo com falha × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento de nossa equipe no Honkai Energy Sample Spectral Analysis Array. Compare as amostras reais de gás de entrada e saída e os resíduos do filtro e correlacione os lotes de gases de exaustão gerados; o gás fresco é usado para iniciar a condição de trabalho; a quantidade original do objeto testado é devolvida e o experimento está sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "\"O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a torre de regeneração de meio estável é desbloqueada e dividida em purificação de gás e condições de trabalho de reutilização de meio filtrante; e a regeneração de meio líquido é formulada separadamente.\""
+      ],
       "dependencies": [
         "4B5D74C9ED85BF0E"
       ],
@@ -1128,12 +1128,12 @@
       "id": "4B5D74C9ED85BF0E",
       "title": "Coleta de energia de colapso gasoso",
       "subtitle": "RN-GSC · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
-        \"Conclua o experimento de nossa equipe no Collapse Energy Sample Spectral Analysis Array. Conclua o registro líquido-sólido real e compare-o com a resposta de campo fechado da amostra; o teste não produz Energia de Colapso gasosa utilizável; a quantidade original do objeto testado é retornada e o experimento está sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie a torre de terceira ordem e o detector de gás correspondente.”
-      ]",
+      "description": [
+        "\"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento de nossa equipe no Collapse Energy Sample Spectral Analysis Array. Conclua o registro líquido-sólido real e compare-o com a resposta de campo fechado da amostra; o teste não produz Energia de Colapso gasosa utilizável; a quantidade original do objeto testado é retornada e o experimento está sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie a torre de terceira ordem e o detector de gás correspondente."
+      ],
       "dependencies": [
         "4B544DD9CC0A571D"
       ],
@@ -1156,12 +1156,12 @@
       "id": "4B54533414333ADC",
       "title": "imitação de núcleo de gelo",
       "subtitle": "RN-ICA · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. As respostas de resfriamento e reaquecimento são realmente registradas, e o equilíbrio do meio de resfriamento corresponde ao lote de cristal de teste; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de gelo de imitação e as aplicações especiais de resfriamento de metal serão desbloqueados.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. As respostas de resfriamento e reaquecimento são realmente registradas, e o equilíbrio do meio de resfriamento corresponde ao lote de cristal de teste; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de gelo de imitação e as aplicações especiais de resfriamento de metal serão desbloqueados."
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E"
       ],
@@ -1184,12 +1184,12 @@
       "id": "4B50866329B1DB0E",
       "title": "Engenharia de liberação de energia de mudança de fase",
       "subtitle": "RN-PCE · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: elemento de filtro de gás de processo × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. A amostra gasosa encapsulada completa a mudança de fase controlada e a medição da perda de energia, e nenhuma energia de teste não quantificada é devolvida à rede elétrica; a quantidade original do objeto testado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, a conversão gás-sólido e a medição de perda da máquina de liberação de mudança de fase de energia de colapso serão desbloqueadas.”
-      ]",
+      "description": [
+        "\"Objeto testado: elemento de filtro de gás de processo × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. A amostra gasosa encapsulada completa a mudança de fase controlada e a medição da perda de energia, e nenhuma energia de teste não quantificada é devolvida à rede elétrica; a quantidade original do objeto testado é devolvida e o experimento está sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, a conversão gás-sólido e a medição de perda da máquina de liberação de mudança de fase de energia de colapso serão desbloqueadas."
+      ],
       "dependencies": [
         "4B5D74C9ED85BF0E"
       ],
@@ -1212,12 +1212,12 @@
       "id": "4B524978C39A250C",
       "title": "Imitação do meu núcleo",
       "subtitle": "RN-TCA · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Conclua as medições de resposta de entrada e saída de pulso definidas verdadeiramente, e a energia de entrada será consumida normalmente; a quantidade original do sujeito será devolvida e o experimento estará sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o núcleo da mina de imitação e o módulo de processo eletromagnético.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Conclua as medições de resposta de entrada e saída de pulso definidas verdadeiramente, e a energia de entrada será consumida normalmente; a quantidade original do sujeito será devolvida e o experimento estará sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o núcleo da mina de imitação e o módulo de processo eletromagnético."
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E",
         "4B5407261AA82797"
@@ -1241,12 +1241,12 @@
       "id": "4B55C2FACF1A9B92",
       "title": "Núcleo de estilo de imitação",
       "subtitle": "RN-WCA · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. O meio de teste é realmente consumido e a diferença de pressão/resposta de fluxo é registrada; a parte de recuperação e a perda são registradas separadamente; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, desbloqueie o núcleo de imitação de vento e os módulos de tecnologia de fluido ideal.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. O meio de teste é realmente consumido e a diferença de pressão/resposta de fluxo é registrada; a parte de recuperação e a perda são registradas separadamente; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, desbloqueie o núcleo de imitação de vento e os módulos de tecnologia de fluido ideal."
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E",
         "4B5D74C9ED85BF0E"

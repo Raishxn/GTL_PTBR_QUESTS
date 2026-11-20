@@ -14,22 +14,22 @@
 		{
 			dependencies: ["46F82A0A3D57C225"]
 			description: [
-		"&6&l» Entrando na Era do Vapor"
-		"&f- Pegue o lingote de bronze e você poderá começar a era do vapor!"
-		"&f- Tenha coragem e dê um passo em direção à primeira voltagem da GregTech!"
-		""
-		"&6&l» Guia de processo de versão aprimorada"
-		"&f- Na versão aprimorada, a fase de vapor passa muito rapidamente."
-		"&f- Seu objetivo principal é:"
-		""
-		"&a- &fchega ao mundo antigo"
-		"&a- &frecebe pacote AE"
-		"&a- &fcom montagem de ferramenta frágil e matriz de montagem"
-		"&a- &fUse modelos de ferramentas para fazer a transição rápida para o estágio MV"
-		""
-		"&e&l※ Dicas"
-		"&e- A era do vapor é curta, faça bom uso dos recursos disponíveis e passe rapidamente para a próxima tensão."
-	]
+				"&6&l» Entrando na Era do Vapor"
+				"&f- Pegue o lingote de bronze e você poderá começar a era do vapor!"
+				"&f- Tenha coragem e dê um passo em direção à primeira voltagem da GregTech!"
+				""
+				"&6&l» Guia de processo de versão aprimorada"
+				"&f- Na versão aprimorada, a fase de vapor passa muito rapidamente."
+				"&f- Seu objetivo principal é:"
+				""
+				"&a- &fchega ao mundo antigo"
+				"&a- &frecebe pacote AE"
+				"&a- &fcom montagem de ferramenta frágil e matriz de montagem"
+				"&a- &fUse modelos de ferramentas para fazer a transição rápida para o estágio MV"
+				""
+				"&e&l※ Dicas"
+				"&e- A era do vapor é curta, faça bom uso dos recursos disponíveis e passe rapidamente para a próxima tensão."
+			]
 			id: "5F5F348E3A34827E"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -60,14 +60,14 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&6&l» Fonte principal de vapor"
-		""
-		"&a&l» Combustível"
-		"&f– Os diamantes são os mais resistentes à queima. Recomenda-se queimar diamantes diretamente."
-		""
-		"&4&l» Aviso"
-		"&c- A caldeira explodirá se for introduzida água durante o aquecimento a seco!"
-	]
+				"&6&l» Fonte principal de vapor"
+				""
+				"&a&l» Combustível"
+				"&f– Os diamantes são os mais resistentes à queima. Recomenda-se queimar diamantes diretamente."
+				""
+				"&4&l» Aviso"
+				"&c- A caldeira explodirá se for introduzida água durante o aquecimento a seco!"
+			]
 			id: "4BFC342697BDE75A"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -91,14 +91,14 @@
 				"5276CA8FA5262C9B"
 			]
 			description: [
-		"&6&l» Principais produtos na era do vapor"
-		"&f– Esta é a máquina mais avançada que você pode obter na fase de vapor, com vários modos de receita."
-		"&f– O uso adequado pode melhorar muito a experiência de jogo."
-		"&f- O nível do gabinete da máquina determina o número de processamento paralelo &e&fe o nível de tensão &e&f."
-		""
-		"&4&l» NOTA"
-		"&c- Se aparecer \"O nível de tensão não atende aos requisitos da receita\", atualize a carcaça da máquina."
-	]
+				"&6&l» Principais produtos na era do vapor"
+				"&f– Esta é a máquina mais avançada que você pode obter na fase de vapor, com vários modos de receita."
+				"&f– O uso adequado pode melhorar muito a experiência de jogo."
+				"&f- O nível do gabinete da máquina determina o número de processamento paralelo &e&fe o nível de tensão &e&f."
+				""
+				"&4&l» NOTA"
+				"&c- Se aparecer \"O nível de tensão não atende aos requisitos da receita\", atualize a carcaça da máquina."
+			]
 			icon_scale: 2.0d
 			id: "19A588E594BEF4E9"
 			quest_enhance_disable_scroll_paging: false
@@ -148,7 +148,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- Recomenda-se usar um compressor diretamente na fase inicial" ]
+			description: [
+				"&f- Recomenda-se usar um compressor diretamente na fase inicial"
+			]
 			hide_dependency_lines: false
 			id: "79E81CC078F246C0"
 			quest_enhance_disable_scroll_paging: false
@@ -215,10 +217,10 @@
 				"43DE0784E5D32B46"
 			]
 			description: [
-		"&f- Usado para fazer máquinas elétricas e armazéns"
-		""
-		"&f- pode até ser usado para armazenar &c&r&epara armazenar energia &r&a&b&r&re &3para conectar &r&9a &r&1ME &r&5REDE &r&dREDE &r!"
-	]
+				"&f- Usado para fazer máquinas elétricas e armazéns"
+				""
+				"&f- pode até ser usado para armazenar &c&r&epara armazenar energia &r&a&b&r&re &3para conectar &r&9a &r&1ME &r&5REDE &r&dREDE &r!"
+			]
 			icon_scale: 1.3d
 			id: "7CB85061F0822830"
 			quest_enhance_disable_scroll_paging: false
@@ -248,7 +250,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f– O material supercondutor do ULV, mas agora o usamos para fazer núcleos de reatores antigos" ]
+			description: [
+				"&f– O material supercondutor do ULV, mas agora o usamos para fazer núcleos de reatores antigos"
+			]
 			id: "3D65D9712DFB63D9"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -268,10 +272,10 @@
 		{
 			dependencies: ["3D65D9712DFB63D9"]
 			description: [
-		"&a- Na versão aprimorada, você não precisa minerar manualmente!"
-		"&a- Cada vez que você desbloquear um novo mundo, dê prioridade à visualização das receitas de fragmentos do mundo correspondente."
-		"&a– Use o coletor de fragmentos para coletar minério."
-	]
+				"&a- Na versão aprimorada, você não precisa minerar manualmente!"
+				"&a- Cada vez que você desbloquear um novo mundo, dê prioridade à visualização das receitas de fragmentos do mundo correspondente."
+				"&a– Use o coletor de fragmentos para coletar minério."
+			]
 			icon: "kubejs:reactor_core"
 			id: "00579BDA1FA1BEC6"
 			quest_enhance_disable_scroll_paging: false
@@ -300,9 +304,9 @@
 		{
 			dependencies: ["00579BDA1FA1BEC6"]
 			description: [
-		"&f- Se o nome do bloco de uma determinada dimensão for exibido no canto inferior direito da receita JEI, significa que a receita &bsó poderá ser produzida na dimensão correspondente &f"
-		"&f– Exemplo: Pó de Aço de Damasco só pode ser fabricado no Mundo Antigo"
-	]
+				"&f- Se o nome do bloco de uma determinada dimensão for exibido no canto inferior direito da receita JEI, significa que a receita &bsó poderá ser produzida na dimensão correspondente &f"
+				"&f– Exemplo: Pó de Aço de Damasco só pode ser fabricado no Mundo Antigo"
+			]
 			icon: "kubejs:reactor_core"
 			icon_scale: 2.0d
 			id: "335ED39019FC62E7"
@@ -373,7 +377,9 @@
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
-			description: [""]
+			description: [
+				""
+			]
 			id: "12FE2B59FA86381C"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -401,7 +407,9 @@
 		}
 		{
 			dependencies: ["12FE2B59FA86381C"]
-			description: [ "&f- \"Sobre o incidente em que minha irmã AE me forçou a ligar a automação antes que eu pudesse esfregar as mãos o suficiente nos primeiros dez minutos\"" ]
+			description: [
+				"&f- \"Sobre o incidente em que minha irmã AE me forçou a ligar a automação antes que eu pudesse esfregar as mãos o suficiente nos primeiros dez minutos\""
+			]
 			icon: "ae2:guide"
 			id: "6E69F45AEA66D5ED"
 			quest_enhance_disable_scroll_paging: false
@@ -445,11 +453,11 @@
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
 			description: [
-		"&f– Na versão aprimorada, a unidade de processamento paralelo não é muito útil"
-		"&f- Paralelismo muito alto afetará o TPS, portanto não é recomendado criar paralelismo alto."
-		"&f- EAEP vem com inteligência duplicada, e a montagem do supermodelo também vem com inteligência duplicada"
-		"&f- O paralelismo de 64 bits fornecido pode ser usado até a formatura."
-	]
+				"&f– Na versão aprimorada, a unidade de processamento paralelo não é muito útil"
+				"&f- Paralelismo muito alto afetará o TPS, portanto não é recomendado criar paralelismo alto."
+				"&f- EAEP vem com inteligência duplicada, e a montagem do supermodelo também vem com inteligência duplicada"
+				"&f- O paralelismo de 64 bits fornecido pode ser usado até a formatura."
+			]
 			icon: "ae2:drive"
 			id: "007BBB3D4E349869"
 			optional: true
@@ -501,23 +509,23 @@
 		{
 			dependencies: ["007BBB3D4E349869"]
 			description: [
-		"&5▌ Muito econômico"
-		""
-		"&f- Dicas de recebimento:"
-		"&7• Certifique-se de que a mochila tenha pelo menos &e34 espaços vazios ao recebê-la."
-		"&7• Quando não houver espaço suficiente na mochila, fique em uma posição segura antes de pegá-la para evitar a perda de itens estruturais."
-		""
-		"&f- Sala de montagem de supermoléculas versão GT:"
-		"&a- • Não há necessidade de consumir UE"
-		"&a- • Suporta paralelismo entre receitas"
-		"&a- • Interação com rede ME via porta matriz"
-		""
-		"&6Cinco núcleos de velocidade &rpodem atingir o consumo mínimo de tempo (1 tick)."
-		""
-		"&f- Notas:"
-		"&b• Os núcleos só podem substituir blocos de maquinaria molecular dentro da estrutura central."
-		"&c• As portas Matrix não podem ser sintetizadas usando a montagem do modelo."
-	]
+				"&5▌ Muito econômico"
+				""
+				"&f- Dicas de recebimento:"
+				"&7• Certifique-se de que a mochila tenha pelo menos &e34 espaços vazios ao recebê-la."
+				"&7• Quando não houver espaço suficiente na mochila, fique em uma posição segura antes de pegá-la para evitar a perda de itens estruturais."
+				""
+				"&f- Sala de montagem de supermoléculas versão GT:"
+				"&a- • Não há necessidade de consumir UE"
+				"&a- • Suporta paralelismo entre receitas"
+				"&a- • Interação com rede ME via porta matriz"
+				""
+				"&6Cinco núcleos de velocidade &rpodem atingir o consumo mínimo de tempo (1 tick)."
+				""
+				"&f- Notas:"
+				"&b• Os núcleos só podem substituir blocos de maquinaria molecular dentro da estrutura central."
+				"&c• As portas Matrix não podem ser sintetizadas usando a montagem do modelo."
+			]
 			icon: "gtceu:molecular_assembler_matrix"
 			id: "077EBB4D37275000"
 			quest_enhance_disable_scroll_paging: false
@@ -542,16 +550,16 @@
 		{
 			dependencies: ["077EBB4D37275000"]
 			description: [
-		"&6&lME Ferramenta de posicionamento 「Ferramenta maravilhosa」"
-		"&9é um conjunto de ferramentas de posicionamento convenientes especialmente projetadas para sistemas ME, abrangendo posicionamento comum, posicionamento em lote e assentamento de cabos."
-		""
-		"&7▌ Função:"
-		"&f- \"&6ME Placement Tool &f\": Após vincular o nó de acesso sem fio, clique com o botão direito para abrir a GUI e preencher os itens. Pressione a tecla G para trocar os itens colocados. Os itens serão automaticamente extraídos do AE e colocados."
-		""
-		"&f- \"&6ME ferramenta de colocação multibloco &f\": A função é a mesma acima, mas suporta a seleção da quantidade de colocação e possui colocação em lote semelhante às bengalas de construção."
-		""
-		"&f- \"&6ME Cable Placement Tool &f\": suporta a seleção ponto a ponto do ponto inicial e final e coloca automaticamente cabos AE especificados"
-	]
+				"&6&lME Ferramenta de posicionamento 「Ferramenta maravilhosa」"
+				"&9é um conjunto de ferramentas de posicionamento convenientes especialmente projetadas para sistemas ME, abrangendo posicionamento comum, posicionamento em lote e assentamento de cabos."
+				""
+				"&7▌ Função:"
+				"&f- \"&6ME Placement Tool &f\": Após vincular o nó de acesso sem fio, clique com o botão direito para abrir a GUI e preencher os itens. Pressione a tecla G para trocar os itens colocados. Os itens serão automaticamente extraídos do AE e colocados."
+				""
+				"&f- \"&6ME ferramenta de colocação multibloco &f\": A função é a mesma acima, mas suporta a seleção da quantidade de colocação e possui colocação em lote semelhante às bengalas de construção."
+				""
+				"&f- \"&6ME Cable Placement Tool &f\": suporta a seleção ponto a ponto do ponto inicial e final e coloca automaticamente cabos AE especificados"
+			]
 			icon: "meplacementtool:me_placement_tool"
 			id: "761EBFF727E3354F"
 			quest_enhance_disable_scroll_paging: false
@@ -601,13 +609,13 @@
 		}
 		{
 			dependencies: ["077EBB4D37275000"]
-			description: "[
-				\"&6&l» Núcleo da rede ME sem fio\"
-				\"&f- Depois de conectar o núcleo à rede ME, todos os &darmazéns ME&r irão &bconectar-se sem fio&r à rede.\"
-				\"&f- Ao conectar, o cabo &a precisa estar voltado para o ponto de conexão do núcleo &f.\"
-				\"\"
-				\"&cNota&f: A função de conexão automática só é eficaz para o &darmazém ME&r da GT e não pode ser usada para o fornecedor da AE e a interface ME.\"
-			]"
+			description: [
+				"\"&6&l» Núcleo da rede ME sem fio\""
+				"\"&f- Depois de conectar o núcleo à rede ME, todos os &darmazéns ME&r irão &bconectar-se sem fio&r à rede.\""
+				"\"&f- Ao conectar, o cabo &a precisa estar voltado para o ponto de conexão do núcleo &f.\""
+				""
+				"\"&cNota&f: A função de conexão automática só é eficaz para o &darmazém ME&r da GT e não pode ser usada para o fornecedor da AE e a interface ME.\""
+			]
 			icon: "gtlcore:wireless_network_core"
 			id: "6EEC81A045D3E304"
 			quest_enhance_disable_scroll_paging: false
@@ -635,7 +643,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- Moa o pó diretamente com um almofariz e depois sintetize-o diretamente" ]
+			description: [
+				"&f- Moa o pó diretamente com um almofariz e depois sintetize-o diretamente"
+			]
 			icon: "gtceu:fireclay_dust"
 			id: "36A49197309D1F09"
 			min_required_tasks: 1
@@ -674,10 +684,10 @@
 		{
 			dependencies: ["36A49197309D1F09"]
 			description: [
-		"&f– Você pode começar a fabricar aço"
-		""
-		"&f- Você também pode fazer diretamente &5, Ultra Dimension e outras forjas terrestres &r"
-	]
+				"&f– Você pode começar a fabricar aço"
+				""
+				"&f- Você também pode fazer diretamente &5, Ultra Dimension e outras forjas terrestres &r"
+			]
 			icon: "gtceu:primitive_blast_furnace"
 			icon_scale: 2.0d
 			id: "5CE50DDC960340D8"
@@ -726,14 +736,14 @@
 		{
 			dependencies: ["5CE50DDC960340D8"]
 			description: [
-		"&f- Possui e apenas os tijolos refratários &6subjacentes &fpodem ser substituídos pelo barramento de entrada/saída &b"
-		"&f- Certifique-se de que o espaço do barramento de entrada e do barramento de saída seja suficiente para a operação do &bForge &f"
-		""
-		"&f- &c&lNOTA: O ônibus a vapor &r&fnão está disponível"
-		"&f- Esta máquina não é uma máquina a vapor, &c&lnão requer um reservatório de entrada de vapor"
-		""
-		"&l· &4Esta máquina não é uma fornalha, só é usada para queimar lingotes de aço"
-	]
+				"&f- Possui e apenas os tijolos refratários &6subjacentes &fpodem ser substituídos pelo barramento de entrada/saída &b"
+				"&f- Certifique-se de que o espaço do barramento de entrada e do barramento de saída seja suficiente para a operação do &bForge &f"
+				""
+				"&f- &c&lNOTA: O ônibus a vapor &r&fnão está disponível"
+				"&f- Esta máquina não é uma máquina a vapor, &c&lnão requer um reservatório de entrada de vapor"
+				""
+				"&l· &4Esta máquina não é uma fornalha, só é usada para queimar lingotes de aço"
+			]
 			icon: "gtceu:dimensionally_transcendent_dirt_forge"
 			icon_scale: 1.3d
 			id: "0662E205D1783D31"
@@ -811,7 +821,9 @@
 		}
 		{
 			dependencies: ["388BD32463FA905D"]
-			description: [""]
+			description: [
+				""
+			]
 			id: "02375F5D54E5F347"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -838,12 +850,12 @@
 		{
 			dependencies: ["7CB85061F0822830"]
 			description: [
-		"&l· &bpode ser compartilhado"
-		""
-		"&f- Exceto algumas máquinas, todas as máquinas multibloco que requerem uma câmara silenciadora podem usar a câmara silenciadora &6LV &f, a câmara silenciadora avançada não tem uso prático"
-		""
-		"&f- Mesmo que a câmara do silenciador esteja cheia de cinzas &f, isso não afetará o funcionamento da máquina."
-	]
+				"&l· &bpode ser compartilhado"
+				""
+				"&f- Exceto algumas máquinas, todas as máquinas multibloco que requerem uma câmara silenciadora podem usar a câmara silenciadora &6LV &f, a câmara silenciadora avançada não tem uso prático"
+				""
+				"&f- Mesmo que a câmara do silenciador esteja cheia de cinzas &f, isso não afetará o funcionamento da máquina."
+			]
 			hide_dependent_lines: true
 			id: "38CC43F7A6A39BB4"
 			quest_enhance_disable_scroll_paging: false
@@ -870,7 +882,9 @@
 			y: 3.0d
 		}
 		{
-			description: [ "&a- É muito difícil pressionar o molde no estágio inicial." ]
+			description: [
+				"&a- É muito difícil pressionar o molde no estágio inicial."
+			]
 			icon: "gtceu:glass_tube"
 			id: "707E5114B7979898"
 			quest_enhance_disable_scroll_paging: false
@@ -906,7 +920,9 @@
 		}
 		{
 			dependencies: ["707E5114B7979898"]
-			description: [ "&f- Seu primeiro circuito ULV; você precisará dele para fabricar circuitos mais baratos, fazer apenas alguns já é suficiente" ]
+			description: [
+				"&f- Seu primeiro circuito ULV; você precisará dele para fabricar circuitos mais baratos, fazer apenas alguns já é suficiente"
+			]
 			icon_scale: 2.0d
 			id: "5CD26DECB937FC71"
 			quest_enhance_disable_scroll_paging: false
@@ -1034,7 +1050,9 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
-			description: [ "&a- Não há mais necessidade de produzir singularidades e bolas de matéria" ]
+			description: [
+				"&a- Não há mais necessidade de produzir singularidades e bolas de matéria"
+			]
 			hide_dependency_lines: true
 			id: "144AC3BC2AA25E63"
 			optional: true
@@ -1089,7 +1107,9 @@
 				"06285BE2396AB639"
 				"5CD26DECB937FC71"
 			]
-			description: [ "&f– Circuito muito barato, essa série vai até EV" ]
+			description: [
+				"&f– Circuito muito barato, essa série vai até EV"
+			]
 			icon_scale: 2.0d
 			id: "08B7D8F835DFE214"
 			quest_enhance_disable_scroll_paging: false
@@ -1110,7 +1130,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- Resina Viscosa Centrífuga" ]
+			description: [
+				"&f- Resina Viscosa Centrífuga"
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:glue_bucket"
 			id: "06285BE2396AB639"
@@ -1142,7 +1164,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "Esta liga é a matéria-prima necessária para muitos componentes eletrônicos subsequentes." ]
+			description: [
+				"Esta liga é a matéria-prima necessária para muitos componentes eletrônicos subsequentes."
+			]
 			id: "3C91E284A9A03B1B"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1161,7 +1185,9 @@
 		}
 		{
 			dependencies: ["5F5F348E3A34827E"]
-			description: [ "&f- Confie nisso para criar uma estrutura multibloco de vapor super forte" ]
+			description: [
+				"&f- Confie nisso para criar uma estrutura multibloco de vapor super forte"
+			]
 			id: "5276CA8FA5262C9B"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -1193,7 +1219,9 @@
 				"3C91E284A9A03B1B"
 			]
 			dependency_requirement: "one_completed"
-			description: [ "&f- Você não precisa fazer muito, apenas faça alguns." ]
+			description: [
+				"&f- Você não precisa fazer muito, apenas faça alguns."
+			]
 			icon_scale: 2.0d
 			id: "5065BEDC95AE564E"
 			min_required_dependencies: 2
@@ -1214,7 +1242,9 @@
 			y: 5.0d
 		}
 		{
-			description: [""]
+			description: [
+				""
+			]
 			id: "77A1011F608079C9"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1233,7 +1263,9 @@
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
-			description: [""]
+			description: [
+				""
+			]
 			id: "6D729450ED86BDAF"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1291,7 +1323,9 @@
 				"08B7D8F835DFE214"
 				"5065BEDC95AE564E"
 			]
-			description: [ "&f– Este é um circuito LV barato" ]
+			description: [
+				"&f– Este é um circuito LV barato"
+			]
 			icon_scale: 2.0d
 			id: "553B2D61416792DC"
 			quest_enhance_disable_scroll_paging: false
@@ -1314,14 +1348,14 @@
 		{
 			dependencies: ["553B2D61416792DC"]
 			description: [
-		"&f- A grande caldeira a vapor foi bastante reforçada e a quantidade de vapor produzida aumentou bastante."
-		""
-		"&f- posicionamento inferior &bcompartimento de entrada/barramento de entrada/conjunto de entrada &f, compartimento de manutenção &b&f, compartimento de silenciador &b&f"
-		""
-		"&f- Bandeja de saída &b&fcolocada do segundo ao quarto andares"
-		""
-		"&l· &cNota &f: Não utilize conjunto de entrada gigante na caldeira, pois pode causar travamento"
-	]
+				"&f- A grande caldeira a vapor foi bastante reforçada e a quantidade de vapor produzida aumentou bastante."
+				""
+				"&f- posicionamento inferior &bcompartimento de entrada/barramento de entrada/conjunto de entrada &f, compartimento de manutenção &b&f, compartimento de silenciador &b&f"
+				""
+				"&f- Bandeja de saída &b&fcolocada do segundo ao quarto andares"
+				""
+				"&l· &cNota &f: Não utilize conjunto de entrada gigante na caldeira, pois pode causar travamento"
+			]
 			icon_scale: 2.0d
 			id: "328D5CF265FCCCA3"
 			quest_enhance_disable_scroll_paging: false
@@ -1353,12 +1387,12 @@
 			can_repeat: true
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&f– Este comando aumenta seu alcance"
-		"&f- A configuração padrão é 15 se parecer muito baixo ou muito alto"
-		""
-		"&f- pode ser modificado usando o seguinte comando"
-		"&l&b/attribute @p forge:block_reach base set 15"
-	]
+				"&f– Este comando aumenta seu alcance"
+				"&f- A configuração padrão é 15 se parecer muito baixo ou muito alto"
+				""
+				"&f- pode ser modificado usando o seguinte comando"
+				"&l&b/attribute @p forge:block_reach base set 15"
+			]
 			icon: "gtceu:silicone_rubber_ingot"
 			id: "790B1D35140D65FA"
 			optional: true
@@ -1382,15 +1416,15 @@
 			can_repeat: true
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&6&l» Pipelines logísticos da Pipez"
-		"&f- Melhor usar do que o pipeline original de Gray, mas o uso intenso fará com que o TPS de &cdiminua"
-		""
-		"&a&l» Vantagens"
-		"&f- Muito superior ao tubo original da Gray em termos de facilidade de operação e funcionalidade."
-		""
-		"&e&l» Sugestões de uso"
-		"&f- Recomenda-se usar &fcom moderação apenas no início do jogo &6como uma solução de transição."
-	]
+				"&6&l» Pipelines logísticos da Pipez"
+				"&f- Melhor usar do que o pipeline original de Gray, mas o uso intenso fará com que o TPS de &cdiminua"
+				""
+				"&a&l» Vantagens"
+				"&f- Muito superior ao tubo original da Gray em termos de facilidade de operação e funcionalidade."
+				""
+				"&e&l» Sugestões de uso"
+				"&f- Recomenda-se usar &fcom moderação apenas no início do jogo &6como uma solução de transição."
+			]
 			hide_dependent_lines: true
 			icon: "pipez:universal_pipe"
 			id: "781417A4FA36101D"
@@ -1426,7 +1460,9 @@
 		}
 		{
 			dependencies: ["08B7D8F835DFE214"]
-			description: [ "&f- Usado com interface ME para obter incrível eficiência de transmissão" ]
+			description: [
+				"&f- Usado com interface ME para obter incrível eficiência de transmissão"
+			]
 			id: "205B11E482DDF464"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
@@ -1463,9 +1499,9 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&f- Neste pacote, caixas de energia comuns podem ser criadas diretamente na versão sem fio &d&fou na versão de grade &6&f"
-		"&f- Fortemente recomendado para sintetizar na versão do armazém de energia da rede &6"
-	]
+				"&f- Neste pacote, caixas de energia comuns podem ser criadas diretamente na versão sem fio &d&fou na versão de grade &6&f"
+				"&f- Fortemente recomendado para sintetizar na versão do armazém de energia da rede &6"
+			]
 			icon: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
 			id: "0077892401F923A5"
 			quest_enhance_disable_scroll_paging: false
@@ -1481,11 +1517,11 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&f- Coloque a máquina em &6Sky Island World &fe insira &aSteam &fpara produzir todos os minerais no mundo principal"
-		"&f- Taxa de produção de minério &620 grupos por segundo &f, o que pode economizar muitas pequenas minerações no estágio inicial"
-		""
-		"&f- Esta é uma máquina de estrutura multibloco"
-	]
+				"&f- Coloque a máquina em &6Sky Island World &fe insira &aSteam &fpara produzir todos os minerais no mundo principal"
+				"&f- Taxa de produção de minério &620 grupos por segundo &f, o que pode economizar muitas pequenas minerações no estágio inicial"
+				""
+				"&f- Esta é uma máquina de estrutura multibloco"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1AB29FA99478121D"
@@ -1522,6 +1558,8 @@
 			y: -3.0d
 		}
 	]
-	subtitle: [ "Tier0.5-ULV" ]
+	subtitle: [
+				"Tier0.5-ULV"
+			]
 	title: "Era do Vapor ULV"
 }

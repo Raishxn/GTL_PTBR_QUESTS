@@ -3,8 +3,8 @@
   "id": "4B5379E2B2734D84",
   "title": "Coupling voltage ICV",
   "subtitle": [
-    "Tier24-ICV"
-  ],
+        "Tier24-ICV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 25,
   "icon": "hk3gtl:voltage_machine_casing_icv",
@@ -14,10 +14,10 @@
       "id": "4B5BB0BBF3239167",
       "title": "Continue from IMV workshop",
       "subtitle": "IMV → ICV",
-      "description": "[
-        \"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to manufacture the first batch of ICV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to manufacture the first batch of ICV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B5B197DD2CD1C96"
       ],
@@ -39,9 +39,9 @@
       "id": "4B55FA9B6755D3AE",
       "title": "Directional energy band interposer",
       "subtitle": "Arrange independent interfaces along the conduction energy band",
-      "description": "[
-        \"Connect the current-level energy guide plate, foil and thin wires to the imaginary phase interface chip. The interposer provides directional interconnection and reverse isolation for each branch for ICV circuit final assembly.\"
-      ]",
+      "description": [
+        "\"Connect the current-level energy guide plate, foil and thin wires to the imaginary phase interface chip. The interposer provides directional interconnection and reverse isolation for each branch for ICV circuit final assembly.\""
+      ],
       "dependencies": [
         "4B5CDD530DF0530D",
         "4B5E95308F894527",
@@ -65,9 +65,9 @@
       "id": "4B501A170CE69C4C",
       "title": "Causal order scheduling core",
       "subtitle": "Keep status updates in a clear order",
-      "description": "[
-        \"Connect the phase transfer protocol core to the new intermediary layer and encapsulate the local CPU, RAM and clock. The scheduling core saves the job sequence and status confirmation results.\"
-      ]",
+      "description": [
+        "\"Connect the phase transfer protocol core to the new intermediary layer and encapsulate the local CPU, RAM and clock. The scheduling core saves the job sequence and status confirmation results.\""
+      ],
       "dependencies": [
         "4B55FA9B6755D3AE",
         "4B5DE43995DE47BB",
@@ -91,9 +91,9 @@
       "id": "4B5D8F353CB429BB",
       "title": "Energy directing isolation servo block",
       "subtitle": "Fix the energy-directing branch to the isolation support",
-      "description": "[
-        \"Retain the support of the original phase isolation shell, and add energy guide rods, rings and dispatching cores. The servo block is responsible for the positioning and electrical isolation of the new branch.\"
-      ]",
+      "description": [
+        "\"Retain the support of the original phase isolation shell, and add energy guide rods, rings and dispatching cores. The servo block is responsible for the positioning and electrical isolation of the new branch.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B54BDB7E73E5568",
@@ -117,9 +117,9 @@
       "id": "4B5516FD206DEE91",
       "title": "Counterflow isolation cold plate",
       "subtitle": "Separate the heat exchange direction from the signal channel",
-      "description": "[
-        \"Expand the front-stage heat return cold block, add energy-conducting strip pipelines and partitions. The cold plate remains independent for return flow, and additional signal isolation is provided at the joints.\"
-      ]",
+      "description": [
+        "\"Expand the front-stage heat return cold block, add energy-conducting strip pipelines and partitions. The cold plate remains independent for return flow, and additional signal isolation is provided at the joints.\""
+      ],
       "dependencies": [
         "4B5DE43995DE47BB",
         "4B5CDD530DF0530D",
@@ -143,9 +143,9 @@
       "id": "4B5FF4F0C65CED8B",
       "title": "Entanglement anchor processor host",
       "subtitle": "Set up the anchor computer as a standalone host",
-      "description": "[
-        \"Two entanglement-anchored supercomputers serve as computing units and are connected to the directional intermediary layer, scheduling core and counterflow cold plate. Each interface updates the status in the order of confirmation.\"
-      ]",
+      "description": [
+        "\"Two entanglement-anchored supercomputers serve as computing units and are connected to the directional intermediary layer, scheduling core and counterflow cold plate. Each interface updates the status in the order of confirmation.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -170,9 +170,9 @@
       "id": "4B53A7CC1286325B",
       "title": "Imaginary numbers anchor supercomputers",
       "subtitle": "Extended imaginary anchored shared computation",
-      "description": "[
-        \"Connect the complete front-end assembly into a supercomputer, plus the energy-directing interconnect and shared RAM of this level. The core management interface is scheduled, and the front-end computing unit continues to execute the workload.\"
-      ]",
+      "description": [
+        "\"Connect the complete front-end assembly into a supercomputer, plus the energy-directing interconnect and shared RAM of this level. The core management interface is scheduled, and the front-end computing unit continues to execute the workload.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -197,9 +197,9 @@
       "id": "4B504A00AE9D3080",
       "title": "Imaginary number reconstruction processor assembly",
       "subtitle": "Assembling computing units with directed energy-conducting interfaces",
-      "description": "[
-        \"A directional interposer and a counterflow cold plate are installed outside the complete pre-processor. The energy guide frame connects the units, and the assembly continues to be used by the ICV execution components.\"
-      ]",
+      "description": [
+        "\"A directional interposer and a counterflow cold plate are installed outside the complete pre-processor. The energy guide frame connects the units, and the assembly continues to be used by the ICV execution components.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -223,9 +223,9 @@
       "id": "4B52BA4C892CF039",
       "title": "causal reconstruction processor",
       "subtitle": "Let multi-interface calculations be executed sequentially",
-      "description": "[
-        \"Combine the front-end processor with the current-level readout, scheduling and shared storage to form a causal reconstruction processor. After the input status is confirmed, it is handed over to the next stage for calculation and processing.\"
-      ]",
+      "description": [
+        "\"Combine the front-end processor with the current-level readout, scheduling and shared storage to form a causal reconstruction processor. After the input status is confirmed, it is handed over to the next stage for calculation and processing.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -249,9 +249,9 @@
       "id": "4B5ADBC654FD075A",
       "title": "ICV electric motor",
       "subtitle": "Let the drive power enter along an independent branch",
-      "description": "[
-        \"Connect the IMV motor to the energy-guiding isolation servo block and add the causal sequence scheduling core. The new branch and the front-end drive together form the ICV motor.\"
-      ]",
+      "description": [
+        "\"Connect the IMV motor to the energy-guiding isolation servo block and add the causal sequence scheduling core. The new branch and the front-end drive together form the ICV motor.\""
+      ],
       "dependencies": [
         "4B5D8F353CB429BB",
         "4B504A00AE9D3080",
@@ -275,9 +275,9 @@
       "id": "4B5BA315DA657B47",
       "title": "ICV electric piston",
       "subtitle": "Sequentially driven linear actuators",
-      "description": "[
-        \"Use a complete IMV piston and ICV motor, and install it into an isolated servo block. The scheduling core coordinates drive and position confirmation, and the joints retain their own energy-guiding paths.\"
-      ]",
+      "description": [
+        "\"Use a complete IMV piston and ICV motor, and install it into an isolated servo block. The scheduling core coordinates drive and position confirmation, and the joints retain their own energy-guiding paths.\""
+      ],
       "dependencies": [
         "4B5ADBC654FD075A",
         "4B53243A2A319FF7"
@@ -300,9 +300,9 @@
       "id": "4B5D193DE5C2E2BD",
       "title": "ICV electric pump",
       "subtitle": "Separate the conveying medium from the energy supply branch",
-      "description": "[
-        \"The backing pump continues to serve as the delivery mechanism, and the ICV motor and counterflow cold plate provide new drive and temperature control. The independent fluid and energy supply interfaces are connected during assembly.\"
-      ]",
+      "description": [
+        "\"The backing pump continues to serve as the delivery mechanism, and the ICV motor and counterflow cold plate provide new drive and temperature control. The independent fluid and energy supply interfaces are connected during assembly.\""
+      ],
       "dependencies": [
         "4B5ADBC654FD075A",
         "4B5D969F4892DC6A"
@@ -325,9 +325,9 @@
       "id": "4B50E9A4DA5B625B",
       "title": "ICV conveyor module",
       "subtitle": "Provide energy supply with clear direction for each conveyor section",
-      "description": "[
-        \"Combine the front-end transmission module, ICV motor and isolation servo block. The intermediary layer and dispatching core connect the transportation action to the control circuit of this level.\"
-      ]",
+      "description": [
+        "\"Combine the front-end transmission module, ICV motor and isolation servo block. The intermediary layer and dispatching core connect the transportation action to the control circuit of this level.\""
+      ],
       "dependencies": [
         "4B5ADBC654FD075A",
         "4B5C7D9B868E9219"
@@ -350,9 +350,9 @@
       "id": "4B53BF5C8FB823E3",
       "title": "ICV robotic arm",
       "subtitle": "Arrange joint movements in order",
-      "description": "[
-        \"Assemble the ICV motor, piston and front-end robotic arm, and add an isolation positioning structure. The status of each joint is confirmed by the same scheduling core and then passed to the next action.\"
-      ]",
+      "description": [
+        "\"Assemble the ICV motor, piston and front-end robotic arm, and add an isolation positioning structure. The status of each joint is confirmed by the same scheduling core and then passed to the next action.\""
+      ],
       "dependencies": [
         "4B5BA315DA657B47",
         "4B5A9A6838F5C653"
@@ -375,9 +375,9 @@
       "id": "4B5ABFDF19A0A33D",
       "title": "ICV sensor",
       "subtitle": "Confirm the interface status after sampling",
-      "description": "[
-        \"Connect the front-end sensor to the directional energy-conducting intermediary layer and add the scheduling and temperature control modules. The new sensor is used for ICV field control and multi-interface equipment.\"
-      ]",
+      "description": [
+        "\"Connect the front-end sensor to the directional energy-conducting intermediary layer and add the scheduling and temperature control modules. The new sensor is used for ICV field control and multi-interface equipment.\""
+      ],
       "dependencies": [
         "4B504A00AE9D3080",
         "4B5BAD20ECD3657C"
@@ -400,9 +400,9 @@
       "id": "4B5DFDB2A827F525",
       "title": "ICV transmitter",
       "subtitle": "Reserve reverse isolation for the transmit leg",
-      "description": "[
-        \"Add current-level energy-guiding interconnection and status scheduling to the front-stage transmitter. The launch action and interface status are jointly confirmed to complete the current-level launch component.\"
-      ]",
+      "description": [
+        "\"Add current-level energy-guiding interconnection and status scheduling to the front-stage transmitter. The launch action and interface status are jointly confirmed to complete the current-level launch component.\""
+      ],
       "dependencies": [
         "4B504A00AE9D3080",
         "4B5397FCABDA9FE8"
@@ -425,9 +425,9 @@
       "id": "4B5F472E0F24ECF5",
       "title": "ICV force field generator",
       "subtitle": "Connect transmitting and sampling into a field control loop",
-      "description": "[
-        \"Use ICV transmitters, sensors and complete front-end force field devices, and connect directional power supply and cooling. Each branch confirms the status through the dispatch core.\"
-      ]",
+      "description": [
+        "\"Use ICV transmitters, sensors and complete front-end force field devices, and connect directional power supply and cooling. Each branch confirms the status through the dispatch core.\""
+      ],
       "dependencies": [
         "4B5ABFDF19A0A33D",
         "4B5DFDB2A827F525",
@@ -451,9 +451,9 @@
       "id": "4B59F1515A7F1C7E",
       "title": "Impedance graded coupling strip",
       "subtitle": "Let the continuous conductor smoothly connect to the ceramic interface",
-      "description": "[
-        \"The front-end ceramic plate and continuous metal thin wires are installed into a gradient coupling strip. It is responsible for the impedance transition of the subsequent main material joints and is actually consumed along with the processing.\"
-      ]",
+      "description": [
+        "\"The front-end ceramic plate and continuous metal thin wires are installed into a gradient coupling strip. It is responsible for the impedance transition of the subsequent main material joints and is actually consumed along with the processing.\""
+      ],
       "dependencies": [
         "4B5B0B519F2E3201"
       ],
@@ -475,9 +475,9 @@
       "id": "4B53DABD20AC907D",
       "title": "Impedance matching coupling gel",
       "subtitle": "Fresh gel is available for first batch production",
-      "description": "[
-        \"Use a new carrier liquid to prepare an impedance matching gel, and then add conductive and ceramic dispersion components. The gel is used for interface impregnation and subsequent morphology processing.\"
-      ]",
+      "description": [
+        "\"Use a new carrier liquid to prepare an impedance matching gel, and then add conductive and ceramic dispersion components. The gel is used for interface impregnation and subsequent morphology processing.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B54533414333ADC"
@@ -501,9 +501,9 @@
       "id": "4B5FEEEA13A1DA50",
       "title": "Highly conductive baseband",
       "subtitle": "Crimp the conductor to the ceramic backing",
-      "description": "[
-        \"The pre-stage ceramic blank is cut as a backing, and the continuous metal core and the gradient tape are crimped into a high-conductivity base tape. The conductor remains continuous in the tape.\"
-      ]",
+      "description": [
+        "\"The pre-stage ceramic blank is cut as a backing, and the continuous metal core and the gradient tape are crimped into a high-conductivity base tape. The conductor remains continuous in the tape.\""
+      ],
       "dependencies": [
         "4B59F1515A7F1C7E"
       ],
@@ -525,9 +525,9 @@
       "id": "4B567969DB9D02CE",
       "title": "Multi-interface ceramic impregnated tape",
       "subtitle": "Joining metals and ceramics in layers",
-      "description": "[
-        \"Impregnating the base tape with a coupling gel creates a graded interface between the metallic conductor and the ceramic thin layer. The treated joint disperses the heat generated at the joint.\"
-      ]",
+      "description": [
+        "\"Impregnating the base tape with a coupling gel creates a graded interface between the metallic conductor and the ceramic thin layer. The treated joint disperses the heat generated at the joint.\""
+      ],
       "dependencies": [
         "4B53DABD20AC907D",
         "4B5FEEEA13A1DA50",
@@ -551,9 +551,9 @@
       "id": "4B5EDED160AC4051",
       "title": "Low temperature isolation packaging tape",
       "subtitle": "Low-temperature packaging parallel energy-conducting channels",
-      "description": "[
-        \"A dielectric film and encapsulation layer are applied to the impregnated tape, which is then cryogenically processed. The continuous conductor remains inside, and adjacent channels are separated by an insulating layer.\"
-      ]",
+      "description": [
+        "\"A dielectric film and encapsulation layer are applied to the impregnated tape, which is then cryogenically processed. The continuous conductor remains inside, and adjacent channels are separated by an insulating layer.\""
+      ],
       "dependencies": [
         "4B567969DB9D02CE"
       ],
@@ -575,9 +575,9 @@
       "id": "4B57B96C2D71AE48",
       "title": "Imaginary number coupled guided energy band standard blank",
       "subtitle": "Separate treatment of equalizing surfaces of joints",
-      "description": "[
-        \"The packaging tape is cut to length, and the gradient coupling tape and metal contact layer are added. The standard blank obtains a complete continuous guide and connector surface from here.\"
-      ]",
+      "description": [
+        "\"The packaging tape is cut to length, and the gradient coupling tape and metal contact layer are added. The standard blank obtains a complete continuous guide and connector surface from here.\""
+      ],
       "dependencies": [
         "4B5EDED160AC4051"
       ],
@@ -599,9 +599,9 @@
       "id": "4B59F40187D45DFA",
       "title": "Imaginary coupled energy band plate",
       "subtitle": "Matching energy director plate contact surfaces layer by layer",
-      "description": "[
-        \"Combine the energy-conducting body with the front-end backplane to keep the internal conductor continuous, and then use a gradient layer to connect the surface interface. The finished product is for ICV casings and electronic modules.\"
-      ]",
+      "description": [
+        "\"Combine the energy-conducting body with the front-end backplane to keep the internal conductor continuous, and then use a gradient layer to connect the surface interface. The finished product is for ICV casings and electronic modules.\""
+      ],
       "dependencies": [
         "4B57B96C2D71AE48"
       ],
@@ -623,9 +623,9 @@
       "id": "4B556778AEBFB12D",
       "title": "Imaginary coupling conductor band rod",
       "subtitle": "Let the core wire of the energy guide rod pass through the connector",
-      "description": "[
-        \"A continuous conductor is laid out along the front rod core, and a graduated shunt tape and isolation film are added to the outer layer. The rod serves as the preprocessing material for the frame, rings and thin wires.\"
-      ]",
+      "description": [
+        "\"A continuous conductor is laid out along the front rod core, and a graduated shunt tape and isolation film are added to the outer layer. The rod serves as the preprocessing material for the frame, rings and thin wires.\""
+      ],
       "dependencies": [
         "4B57B96C2D71AE48",
         "4B551135A9953520"
@@ -648,9 +648,9 @@
       "id": "4B54BDB7E73E5568",
       "title": "Imaginary coupled energy band framework components",
       "subtitle": "Handle current sharing at frame corner joints",
-      "description": "[
-        \"Connect the energy guide rods to the front-stage frame, lead out each beam separately, and then meet at a dedicated corner joint. The resulting frame is used for the ICV casing and circuit load-bearing structure.\"
-      ]",
+      "description": [
+        "\"Connect the energy guide rods to the front-stage frame, lead out each beam separately, and then meet at a dedicated corner joint. The resulting frame is used for the ICV casing and circuit load-bearing structure.\""
+      ],
       "dependencies": [
         "4B556778AEBFB12D",
         "4B510189BD9FF3DE"
@@ -673,9 +673,9 @@
       "id": "4B5DE43995DE47BB",
       "title": "Imaginary coupling band loop",
       "subtitle": "Make a gradient overlap for a closed loop",
-      "description": "[
-        \"Enclose the energy guide rod, connect the ring port with a gradient port and encapsulate it. The energy guide ring provides a continuous circumferential path for the equipment connector and the chassis.\"
-      ]",
+      "description": [
+        "\"Enclose the energy guide rod, connect the ring port with a gradient port and encapsulate it. The energy guide ring provides a continuous circumferential path for the equipment connector and the chassis.\""
+      ],
       "dependencies": [
         "4B556778AEBFB12D",
         "4B53DA1823327C30"
@@ -698,9 +698,9 @@
       "id": "4B5CDD530DF0530D",
       "title": "Imaginary coupled energy band foil",
       "subtitle": "Leave conductive and insulating areas on thin foil",
-      "description": "[
-        \"Lay the gradient conductive tape to the front-end thin foil, leaving conductive windows according to the interface location. The finished foil is used for electronic packaging and low-temperature interfaces.\"
-      ]",
+      "description": [
+        "\"Lay the gradient conductive tape to the front-end thin foil, leaving conductive windows according to the interface location. The finished foil is used for electronic packaging and low-temperature interfaces.\""
+      ],
       "dependencies": [
         "4B59F40187D45DFA"
       ],
@@ -722,9 +722,9 @@
       "id": "4B5E95308F894527",
       "title": "Imaginary coupling conduction band composite thin line",
       "subtitle": "Keep thin conductors continuous",
-      "description": "[
-        \"A gradient tape and a thin ceramic insulation layer are laid along the original metal wire core. The continuous core carries the current, and the outer layer is responsible for the interface transition and branch isolation.\"
-      ]",
+      "description": [
+        "\"A gradient tape and a thin ceramic insulation layer are laid along the original metal wire core. The continuous core carries the current, and the outer layer is responsible for the interface transition and branch isolation.\""
+      ],
       "dependencies": [
         "4B556778AEBFB12D",
         "4B5E86444626FE39"
@@ -747,9 +747,9 @@
       "id": "4B56262CD0FE0662",
       "title": "ICV mechanical block",
       "subtitle": "Install the energy conducting contacts of the ICV casing",
-      "description": "[
-        \"Install this level of plate, frame and ring on the complete IMV mechanical block, complete with ports, shielding and sealing. The first batch of casings are manufactured along the step-by-step route of the continuous energy conductor strip.\"
-      ]",
+      "description": [
+        "\"Install this level of plate, frame and ring on the complete IMV mechanical block, complete with ports, shielding and sealing. The first batch of casings are manufactured along the step-by-step route of the continuous energy conductor strip.\""
+      ],
       "dependencies": [
         "4B59F40187D45DFA",
         "4B54BDB7E73E5568",
@@ -774,9 +774,9 @@
       "id": "4B5BC3A92825FB02",
       "title": "ICV casing layered disassembly",
       "subtitle": "Recycling of complete parts of decommissioned ICV casings",
-      "description": "[
-        \"The IMV core and some complete energy guide plates, frames, and rings are removed, and the rest of the main body is classified as waste. Special ports and thin layers are consumed in the disassembly.\"
-      ]",
+      "description": [
+        "\"The IMV core and some complete energy guide plates, frames, and rings are removed, and the rest of the main body is classified as waste. Special ports and thin layers are consumed in the disassembly.\""
+      ],
       "dependencies": [
         "4B56262CD0FE0662"
       ],
@@ -802,9 +802,9 @@
       "id": "4B5EE51F503A4F6B",
       "title": "Imaginary coupling energy band recovery component",
       "subtitle": "Separation of reconstructable conductor components from classified materials",
-      "description": "[
-        \"First elute the attachments, and then centrifuge to separate three-quarters of the main body and one-quarter of the tail. The recovered components are sent back to the high-conductivity base tape for preparation.\"
-      ]",
+      "description": [
+        "\"First elute the attachments, and then centrifuge to separate three-quarters of the main body and one-quarter of the tail. The recovered components are sent back to the high-conductivity base tape for preparation.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B54533414333ADC"
@@ -831,9 +831,9 @@
       "id": "4B591435EBAD80F6",
       "title": "ICV recycled material remade",
       "subtitle": "Re-crimp the base tape using recycled components",
-      "description": "[
-        \"Let the recycled components bear half of the main investment, and the remaining new materials and functional auxiliary materials will be added as usual. The remade base tape will continue to go through dipping, low-temperature packaging and joint sizing.\"
-      ]",
+      "description": [
+        "\"Let the recycled components bear half of the main investment, and the remaining new materials and functional auxiliary materials will be added as usual. The remade base tape will continue to go through dipping, low-temperature packaging and joint sizing.\""
+      ],
       "dependencies": [
         "4B59F1515A7F1C7E"
       ],
@@ -859,9 +859,9 @@
       "id": "4B55598C6C1A9970",
       "title": "ICV tail solidification",
       "subtitle": "The failed tail material of the solidified energy conducting band",
-      "description": "[
-        \"Sealing the irrecoverable tailings into concrete residue ends the recycling of this part of the material. The finished product retains the general use of the ash.\"
-      ]",
+      "description": [
+        "\"Sealing the irrecoverable tailings into concrete residue ends the recycling of this part of the material. The finished product retains the general use of the ash.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B54533414333ADC"
@@ -888,9 +888,9 @@
       "id": "4B5C9B61E9F3F834",
       "title": "Seed World Lattice Box",
       "subtitle": "First make the seed holder and isolation box",
-      "description": "[
-        \"Assemble the front-end main material and the physical seed bracket into a lattice box, and connect the isolation interface. The box is used for the world's material seeds and simulation construction facilities.\"
-      ]",
+      "description": [
+        "\"Assemble the front-end main material and the physical seed bracket into a lattice box, and connect the isolation interface. The box is used for the world's material seeds and simulation construction facilities.\""
+      ],
       "dependencies": [
         "4B59F20F03D7B54A",
         "4B5D969F4892DC6A",
@@ -918,9 +918,9 @@
       "id": "4B5CB701BE9957C3",
       "title": "Simulated World Bubble Building Machine",
       "subtitle": "Packing a good build controller for the first simulated world",
-      "description": "[
-        \"Assemble the controller with a physical seed box and initial boundary components. Subsequent construction uses independently manufactured material seeds, starting with new materials.\"
-      ]",
+      "description": [
+        "\"Assemble the controller with a physical seed box and initial boundary components. Subsequent construction uses independently manufactured material seeds, starting with new materials.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8",
         "4B59F20F03D7B54A",
@@ -951,9 +951,9 @@
       "id": "4B50C16AC50F4768",
       "title": "Simulated World Bubble Stability Controller",
       "subtitle": "Connect constraints and supplies to the simulation bubble",
-      "description": "[
-        \"Install the containment, supply and heat exchange interfaces of the simulation stability controller. After the construction machine generates the initial simulation state, the stabilization process continues from here.\"
-      ]",
+      "description": [
+        "\"Install the containment, supply and heat exchange interfaces of the simulation stability controller. After the construction machine generates the initial simulation state, the stabilization process continues from here.\""
+      ],
       "dependencies": [
         "4B5E2A17490F6E44"
       ],
@@ -979,9 +979,9 @@
       "id": "4B5318E2082C834E",
       "title": "Simulated World Bubble Termination Recycling Machine",
       "subtitle": "Connect simulation termination and residual flow processing",
-      "description": "[
-        \"The final assembly of the simulated termination recovery machine's termination device, seed recovery and isolation interface. The simulated bubbles are recorded along their own recycling ledger, and the real world bubble records are kept separately.\"
-      ]",
+      "description": [
+        "\"The final assembly of the simulated termination recovery machine's termination device, seed recovery and isolation interface. The simulated bubbles are recorded along their own recycling ledger, and the real world bubble records are kept separately.\""
+      ],
       "dependencies": [
         "4B59EB10C899A33B"
       ],
@@ -1007,9 +1007,9 @@
       "id": "4B55DE40DABD7BDD",
       "title": "Unmanned cross-border route relay station",
       "subtitle": "Receive unmanned missions from multiple targets to the relay station",
-      "description": "[
-        \"Assemble a multi-target route and an unmanned mission relay controller. The pre-order single-target device is already able to perform the mission, and the relay station is responsible for subsequent multi-target organization.\"
-      ]",
+      "description": [
+        "\"Assemble a multi-target route and an unmanned mission relay controller. The pre-order single-target device is already able to perform the mission, and the relay station is responsible for subsequent multi-target organization.\""
+      ],
       "dependencies": [
         "4B5AC8840C9BC9EB"
       ],
@@ -1035,9 +1035,9 @@
       "id": "4B5F0E90DB9EEA8C",
       "title": "world material seed",
       "subtitle": "Use fresh substrate to create the first material seed",
-      "description": "[
-        \"Assemble the lattice box, Honkai crystal and front-level structural components into world material seeds. The first seed is made from independent material lines and then sent to the simulated world bubble construction machine.\"
-      ]",
+      "description": [
+        "\"Assemble the lattice box, Honkai crystal and front-level structural components into world material seeds. The first seed is made from independent material lines and then sent to the simulated world bubble construction machine.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8",
         "4B59F20F03D7B54A",
@@ -1067,9 +1067,9 @@
       "id": "4B52E449306ED7FC",
       "title": "Finite number of steps calculation",
       "subtitle": "Perform four thousand and ninety-six steps of calculations from real acquisition batches",
-      "description": "[
-        \"Refer to the source batch that has completed the liquid collection and perform a fixed step calculation in the reverse laboratory. Save the seeds, steps, results and stop status, and then submit the results to the independent verification working condition.\"
-      ]",
+      "description": [
+        "\"Refer to the source batch that has completed the liquid collection and perform a fixed step calculation in the reverse laboratory. Save the seeds, steps, results and stop status, and then submit the results to the independent verification working condition.\""
+      ],
       "dependencies": [
         "4B5B5795A0A0443D",
         "4B5CA50A7DDB3C98"
@@ -1096,12 +1096,12 @@
       "id": "4B5B5795A0A0443D",
       "title": "Imitation erosion core",
       "subtitle": "RN-ECA · Experimental and Formal Research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai energy sample spectrum analysis array. Complete the fixed test input, result verification and stop command truly; record the power consumption and output, exceptions are not considered successful; the original amount of the tested object will be returned, and the experiment will be subject to the actual settlement of the machine\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the imitation erosion core will be unlocked. For research and machine acceleration effects, see the corresponding equipment description.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai energy sample spectrum analysis array. Complete the fixed test input, result verification and stop command truly; record the power consumption and output, exceptions are not considered successful; the original amount of the tested object will be returned, and the experiment will be subject to the actual settlement of the machine\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the imitation erosion core will be unlocked. For research and machine acceleration effects, see the corresponding equipment description.\""
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E",
         "4B5407261AA82797"
@@ -1125,12 +1125,12 @@
       "id": "4B5BE09A16080469",
       "title": "Controlled algorithm optimization",
       "subtitle": "RN-ERM · Experimental and Formal Research",
-      "description": "[
-        \"ECA can already create erosion cores, CPT control loops, the same fixed calculation task, and existing general research results\",
-        \"Complete the team's experiment at the Institute of Material Reconstruction. Compare the real results, time consumption and stop boundaries of ordinary and core auxiliary calculations; by only recording the experiment, the research points will not be returned\",
-        \"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, enable the erosion research acceleration module; do not confuse research output and research speed as the same indicator.\"
-      ]",
+      "description": [
+        "\"ECA can already create erosion cores, CPT control loops, the same fixed calculation task, and existing general research results\"",
+        "\"Complete the team's experiment at the Institute of Material Reconstruction. Compare the real results, time consumption and stop boundaries of ordinary and core auxiliary calculations; by only recording the experiment, the research points will not be returned\"",
+        "\"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, enable the erosion research acceleration module; do not confuse research output and research speed as the same indicator.\""
+      ],
       "dependencies": [
         "4B5B5795A0A0443D"
       ],

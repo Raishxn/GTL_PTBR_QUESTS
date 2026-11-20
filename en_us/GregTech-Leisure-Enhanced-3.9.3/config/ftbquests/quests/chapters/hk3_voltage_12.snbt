@@ -3,8 +3,8 @@
   "id": "4B543F89AF0A5106",
   "title": "interweaving pressure IWV",
   "subtitle": [
-    "Tier26-IWV"
-  ],
+        "Tier26-IWV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 27,
   "icon": "hk3gtl:voltage_machine_casing_iwv",
@@ -14,10 +14,10 @@
       "id": "4B550793D401AB93",
       "title": "Continue from IRV workshop",
       "subtitle": "IRV → IWV",
-      "description": "[
-        \"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of IWV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of IWV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B5047CFCF54095D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B554BB5535995AC",
       "title": "Multi-axis fabric back panel",
       "subtitle": "Connect multi-axis interconnects to the same backplane",
-      "description": "[
-        \"Assemble the reconfiguration mapping chip with the weaving board, foil, and wires into a backplane. Each execution domain is independently derived from the backplane, and isolation between signals is retained.\"
-      ]",
+      "description": [
+        "\"Assemble the reconfiguration mapping chip with the weaving board, foil, and wires into a backplane. Each execution domain is independently derived from the backplane, and isolation between signals is retained.\""
+      ],
       "dependencies": [
         "4B5A107779BBFE70",
         "4B5D72A8038355BA",
@@ -65,9 +65,9 @@
       "id": "4B5AA85D77721DC8",
       "title": "Four-domain consensus monitoring core",
       "subtitle": "Let the four execution domains jointly confirm the status",
-      "description": "[
-        \"A multi-axis backplane and local computing storage are added to the topology scheduler, and a four-domain monitoring core is encapsulated. The status and difference records of each domain are centrally checked by this core.\"
-      ]",
+      "description": [
+        "\"A multi-axis backplane and local computing storage are added to the topology scheduler, and a four-domain monitoring core is encapsulated. The status and difference records of each domain are centrally checked by this core.\""
+      ],
       "dependencies": [
         "4B5D33359A605FEA",
         "4B554BB5535995AC",
@@ -91,9 +91,9 @@
       "id": "4B56CBBB9B1BB35A",
       "title": "Fiber bundle tension equalization actuator",
       "subtitle": "Set independent actuator for fiber bundle tension",
-      "description": "[
-        \"The positioning structure of the remanufactured joint is used, and the weaving rod ring and four-domain monitoring are added. The actuator is used for the main-level drive and fabric equipment to adjust the fiber bundle tension.\"
-      ]",
+      "description": [
+        "\"The positioning structure of the remanufactured joint is used, and the weaving rod ring and four-domain monitoring are added. The actuator is used for the main-level drive and fabric equipment to adjust the fiber bundle tension.\""
+      ],
       "dependencies": [
         "4B51D732F51F5539",
         "4B5AA85D77721DC8",
@@ -117,9 +117,9 @@
       "id": "4B5093F6E877F42E",
       "title": "Repair cooling jacket in sections",
       "subtitle": "Make maintenance isolation in the cooling section",
-      "description": "[
-        \"Expand the segmented flow paths and isolation joints on the mass fractionation heat exchange block and install them as cooling jackets. Each segment is provided with return flow, so that the weaving equipment can be arranged for segmented maintenance.\"
-      ]",
+      "description": [
+        "\"Expand the segmented flow paths and isolation joints on the mass fractionation heat exchange block and install them as cooling jackets. Each segment is provided with return flow, so that the weaving equipment can be arranged for segmented maintenance.\""
+      ],
       "dependencies": [
         "4B5ACE2380A763DC",
         "4B58EE1A2B76080E",
@@ -143,9 +143,9 @@
       "id": "4B5BFA5F02EE43B5",
       "title": "Imaginary number reconstruction processor host",
       "subtitle": "Let the reconstructed host access the four-domain state",
-      "description": "[
-        \"The two front-end supercomputers are connected to the multi-axis backplane and the four-domain monitoring core, and segmented cooling is added. The host continues to perform calculations, and each execution domain feeds back the status.\"
-      ]",
+      "description": [
+        "\"The two front-end supercomputers are connected to the multi-axis backplane and the four-domain monitoring core, and segmented cooling is added. The host continues to perform calculations, and each execution domain feeds back the status.\""
+      ],
       "dependencies": [
         "4B5AA85D77721DC8",
         "4B5093F6E877F42E",
@@ -169,9 +169,9 @@
       "id": "4B54209CEAB87ACB",
       "title": "Causal reconstruction supercomputer",
       "subtitle": "Extending causal reconstruction computation into a shared system",
-      "description": "[
-        \"Two front-end assemblies are used as computing units to connect shared storage, four-domain monitoring and cooling at this level. Status is exchanged between each domain through a multi-axis backplane.\"
-      ]",
+      "description": [
+        "\"Two front-end assemblies are used as computing units to connect shared storage, four-domain monitoring and cooling at this level. Status is exchanged between each domain through a multi-axis backplane.\""
+      ],
       "dependencies": [
         "4B585ADA0A40EFE7",
         "4B5AA85D77721DC8",
@@ -196,9 +196,9 @@
       "id": "4B589A4490F6D4F2",
       "title": "World Texture Processor Assembly",
       "subtitle": "Assembling world texture calculations into complete components",
-      "description": "[
-        \"Combining the front-end processor, this stage's multi-axis interconnect and segmented cooling completes the processor assembly. The weaving execution unit obtains the control circuitry from here.\"
-      ]",
+      "description": [
+        "\"Combining the front-end processor, this stage's multi-axis interconnect and segmented cooling completes the processor assembly. The weaving execution unit obtains the control circuitry from here.\""
+      ],
       "dependencies": [
         "4B5D9240452A2528",
         "4B5AA85D77721DC8",
@@ -223,9 +223,9 @@
       "id": "4B57E56EA35B69F4",
       "title": "final sequence processor",
       "subtitle": "Consolidate the computational status of four execution domains",
-      "description": "[
-        \"Connect the complete front-end computing unit with the current-level CPU, shared RAM and four-domain monitoring. The final sequence calculation processor is used by subsequent boundary construction equipment.\"
-      ]",
+      "description": [
+        "\"Connect the complete front-end computing unit with the current-level CPU, shared RAM and four-domain monitoring. The final sequence calculation processor is used by subsequent boundary construction equipment.\""
+      ],
       "dependencies": [
         "4B5AA85D77721DC8",
         "4B5093F6E877F42E",
@@ -249,9 +249,9 @@
       "id": "4B55F78A22E09C20",
       "title": "IWV electric motor",
       "subtitle": "Let drivers take into account fiber bundle tension synchronously",
-      "description": "[
-        \"Connect the front-end motor to the tension equalization actuator and four-domain monitoring, and then install segmented cooling. The IWV motor works together with independent drive units.\"
-      ]",
+      "description": [
+        "\"Connect the front-end motor to the tension equalization actuator and four-domain monitoring, and then install segmented cooling. The IWV motor works together with independent drive units.\""
+      ],
       "dependencies": [
         "4B56F24FD29A2397",
         "4B56CBBB9B1BB35A",
@@ -275,9 +275,9 @@
       "id": "4B5FC703B88F932F",
       "title": "IWV electric piston",
       "subtitle": "Integrate telescopic action into tension adjustment",
-      "description": "[
-        \"Combine the front-stage piston, IWV motor and tension actuator to fix the new weaving support structure. The action status is sent back to the four-domain monitoring core for confirmation.\"
-      ]",
+      "description": [
+        "\"Combine the front-stage piston, IWV motor and tension actuator to fix the new weaving support structure. The action status is sent back to the four-domain monitoring core for confirmation.\""
+      ],
       "dependencies": [
         "4B561F9B4DFFF5FE",
         "4B55F78A22E09C20"
@@ -300,9 +300,9 @@
       "id": "4B53368AA813BE19",
       "title": "IWV electric pump",
       "subtitle": "Arrange independent transport for sectional cooling",
-      "description": "[
-        \"Connect the IWV motor and maintenance cooling jacket to the complete foreline pump. Each section of the flow path retains an independent interface for the weaving facility to transport media in sections.\"
-      ]",
+      "description": [
+        "\"Connect the IWV motor and maintenance cooling jacket to the complete foreline pump. Each section of the flow path retains an independent interface for the weaving facility to transport media in sections.\""
+      ],
       "dependencies": [
         "4B5C0479AE802EA5",
         "4B55F78A22E09C20"
@@ -325,9 +325,9 @@
       "id": "4B585480E9BCC91D",
       "title": "IWV conveyor module",
       "subtitle": "Allow multi-stage transportation to maintain consistent stress on fiber bundles",
-      "description": "[
-        \"The final assembly is completed with the front-end transmission module, IWV motor and tension balance actuator. Four-domain monitoring checks the status of each section and then coordinates the transportation.\"
-      ]",
+      "description": [
+        "\"The final assembly is completed with the front-end transmission module, IWV motor and tension balance actuator. Four-domain monitoring checks the status of each section and then coordinates the transportation.\""
+      ],
       "dependencies": [
         "4B562188ED56D095",
         "4B55F78A22E09C20"
@@ -350,9 +350,9 @@
       "id": "4B5944B034A510E0",
       "title": "IWV robotic arm",
       "subtitle": "Combined positioning, telescoping and tensioning execution",
-      "description": "[
-        \"Connect the IWV motor and piston with the front-end robotic arm, install the tension actuator and multi-axis readout. The new weaving frame is responsible for the cross-joint connection.\"
-      ]",
+      "description": [
+        "\"Connect the IWV motor and piston with the front-end robotic arm, install the tension actuator and multi-axis readout. The new weaving frame is responsible for the cross-joint connection.\""
+      ],
       "dependencies": [
         "4B5EEF4595E0877B",
         "4B5FC703B88F932F"
@@ -375,9 +375,9 @@
       "id": "4B51FCD36701F330",
       "title": "IWV sensor",
       "subtitle": "Provide independent sampling for four-domain monitoring",
-      "description": "[
-        \"Connect the front-end sensor to the multi-axis backplane and the four-domain monitoring core to complete the packaging and temperature control at this level. The finished product can be used by the IWV field control and execution system to read the status.\"
-      ]",
+      "description": [
+        "\"Connect the front-end sensor to the multi-axis backplane and the four-domain monitoring core to complete the packaging and temperature control at this level. The finished product can be used by the IWV field control and execution system to read the status.\""
+      ],
       "dependencies": [
         "4B5B4ED784F8069B",
         "4B5BFA5F02EE43B5"
@@ -400,9 +400,9 @@
       "id": "4B5147A08FF8EE4D",
       "title": "IWV transmitter",
       "subtitle": "Let the transmit branch participate in four-domain confirmation",
-      "description": "[
-        \"A multi-axis interface, four-domain monitoring and segmented cooling are installed outside the front-stage transmitter. The launch status is connected to the synchronous record of the execution domain of this stage.\"
-      ]",
+      "description": [
+        "\"A multi-axis interface, four-domain monitoring and segmented cooling are installed outside the front-stage transmitter. The launch status is connected to the synchronous record of the execution domain of this stage.\""
+      ],
       "dependencies": [
         "4B5F8F94848446F8",
         "4B5BFA5F02EE43B5"
@@ -425,9 +425,9 @@
       "id": "4B58094B09D418D5",
       "title": "IWV force field generator",
       "subtitle": "Connect the four-domain monitoring to the field control device",
-      "description": "[
-        \"Combine the IWV transmitter, sensor and complete front-end force field generator. After the weaving support and segmented cooling are completed, each field control branch will feedback the status respectively.\"
-      ]",
+      "description": [
+        "\"Combine the IWV transmitter, sensor and complete front-end force field generator. After the weaving support and segmented cooling are completed, each field control branch will feedback the status respectively.\""
+      ],
       "dependencies": [
         "4B536F4EABD4A6C1",
         "4B51FCD36701F330",
@@ -451,9 +451,9 @@
       "id": "4B57CCE972637222",
       "title": "Multiaxial suture Z-direction bundle",
       "subtitle": "First weave the connecting bundles in the thickness direction",
-      "description": "[
-        \"The Z-direction suture bundle is made from the front-end material to connect the four types of functional layers in the thickness direction when they are combined. The suture bundle is actually consumed with the co-curing process.\"
-      ]",
+      "description": [
+        "\"The Z-direction suture bundle is made from the front-end material to connect the four types of functional layers in the thickness direction when they are combined. The suture bundle is actually consumed with the co-curing process.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8",
         "4B5C28B4D0219CF4"
@@ -476,9 +476,9 @@
       "id": "4B512AFF5875857B",
       "title": "Multi-axis co-cure infusion resin",
       "subtitle": "Preparing new resin for multi-axis layup",
-      "description": "[
-        \"The co-cured infusion resin is prepared with fresh carrier fluid and dispersion components. The first batch of fabric boundary materials is obtained from here, and four types of reinforcement layers are prepared respectively.\"
-      ]",
+      "description": [
+        "\"The co-cured infusion resin is prepared with fresh carrier fluid and dispersion components. The first batch of fabric boundary materials is obtained from here, and four types of reinforcement layers are prepared respectively.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8"
       ],
@@ -501,9 +501,9 @@
       "id": "4B5BFCA81D26404E",
       "title": "Ceramic reinforcement layer",
       "subtitle": "Separate manufacturing of ceramic reinforcement layers",
-      "description": "[
-        \"Use one part of the IRV body to carry the ceramic layer to complete the insulating and corrosion-resistant surface. Once made, it remains as a separate layer and merges with the conductor, load-bearing and repair layers during co-curing.\"
-      ]",
+      "description": [
+        "\"Use one part of the IRV body to carry the ceramic layer to complete the insulating and corrosion-resistant surface. Once made, it remains as a separate layer and merges with the conductor, load-bearing and repair layers during co-curing.\""
+      ],
       "dependencies": [
         "4B57CCE972637222",
         "4B512AFF5875857B"
@@ -526,9 +526,9 @@
       "id": "4B540CA081FC544D",
       "title": "conductor reinforcement layer",
       "subtitle": "First arrange the continuous conductors into layers",
-      "description": "[
-        \"Conductors are arranged on another independent body, leaving insulation between joints. The conductor layer provides continuous electrical connection and is subsequently merged with the other three layers.\"
-      ]",
+      "description": [
+        "\"Conductors are arranged on another independent body, leaving insulation between joints. The conductor layer provides continuous electrical connection and is subsequently merged with the other three layers.\""
+      ],
       "dependencies": [
         "4B5E95308F894527",
         "4B57CCE972637222",
@@ -552,9 +552,9 @@
       "id": "4B567BDAB7A4B467",
       "title": "load-bearing reinforcement layer",
       "subtitle": "Arrange the inner yarn and the Z-direction bundle together",
-      "description": "[
-        \"Use an independent body to prepare the load-bearing layer, allowing the inner yarn and suture bundles to bear the same load. The existing anchor rods retain continuous support across the nodes.\"
-      ]",
+      "description": [
+        "\"Use an independent body to prepare the load-bearing layer, allowing the inner yarn and suture bundles to bear the same load. The existing anchor rods retain continuous support across the nodes.\""
+      ],
       "dependencies": [
         "4B57CCE972637222",
         "4B512AFF5875857B"
@@ -577,9 +577,9 @@
       "id": "4B511F679FAD37B4",
       "title": "Repair enhancement layer",
       "subtitle": "Leave a channel for subsequent feeding",
-      "description": "[
-        \"The repair layer is prepared using the fourth main body, the controlled nanogroup and the combined thin layer. A feeding channel is reserved in the layer, and actual materials still need to be invested in subsequent repairs.\"
-      ]",
+      "description": [
+        "\"The repair layer is prepared using the fourth main body, the controlled nanogroup and the combined thin layer. A feeding channel is reserved in the layer, and actual materials still need to be invested in subsequent repairs.\""
+      ],
       "dependencies": [
         "4B57CCE972637222",
         "4B512AFF5875857B"
@@ -602,9 +602,9 @@
       "id": "4B5E808E92ED10E1",
       "title": "Four-layer multi-axis co-cured blank",
       "subtitle": "The four functional layers are merged here",
-      "description": "[
-        \"The independent ceramics, conductors, load-bearing and repair layers are laid together, and Z-direction beams are used to penetrate the thickness direction and then are impregnated and co-cured. The four branches together form the main body of the complete weave.\"
-      ]",
+      "description": [
+        "\"The independent ceramics, conductors, load-bearing and repair layers are laid together, and Z-direction beams are used to penetrate the thickness direction and then are impregnated and co-cured. The four branches together form the main body of the complete weave.\""
+      ],
       "dependencies": [
         "4B5BFCA81D26404E",
         "4B540CA081FC544D",
@@ -629,9 +629,9 @@
       "id": "4B5E237BE9D5295C",
       "title": "Weijie multiaxial composite material standard billet",
       "subtitle": "Seal the fiber bundle ends after trimming",
-      "description": "[
-        \"The co-solidified billet is cut to length, and then the end face and exposed Z-direction beam are protected. The standard billet retains four types of functional layers for subsequent processing of six shapes.\"
-      ]",
+      "description": [
+        "\"The co-solidified billet is cut to length, and then the end face and exposed Z-direction beam are protected. The standard billet retains four types of functional layers for subsequent processing of six shapes.\""
+      ],
       "dependencies": [
         "4B5E808E92ED10E1"
       ],
@@ -653,9 +653,9 @@
       "id": "4B5E9D884F080FAF",
       "title": "Zhijie multi-axis composite panels",
       "subtitle": "Keep thickness direction seams inside the board",
-      "description": "[
-        \"Combine the weaving blank with the front-end plate, and add the multi-axial connection layer. The flat layup and Z-direction bundles jointly fix each layer, and the finished product is used for IWV casings and back plates.\"
-      ]",
+      "description": [
+        "\"Combine the weaving blank with the front-end plate, and add the multi-axial connection layer. The flat layup and Z-direction bundles jointly fix each layer, and the finished product is used for IWV casings and back plates.\""
+      ],
       "dependencies": [
         "4B5E237BE9D5295C"
       ],
@@ -677,9 +677,9 @@
       "id": "4B5DA11954D384B6",
       "title": "Weaver multi-axis composite rod",
       "subtitle": "Multi-directional braiding around a continuous rod core",
-      "description": "[
-        \"The load-bearing bundles and conductor bundles are interwoven along the rod core of the front stage, and isolation is added at the intersection. The composite rods are used for the frame, ring and thin wires of this stage to continue processing.\"
-      ]",
+      "description": [
+        "\"The load-bearing bundles and conductor bundles are interwoven along the rod core of the front stage, and isolation is added at the intersection. The composite rods are used for the frame, ring and thin wires of this stage to continue processing.\""
+      ],
       "dependencies": [
         "4B5C227BCE87D1A0",
         "4B5E237BE9D5295C"
@@ -702,9 +702,9 @@
       "id": "4B51F1C40ADC27D6",
       "title": "Zhijie Multi-Axis Composite Frame Components",
       "subtitle": "Connect frame nodes with Z-direction beams",
-      "description": "[
-        \"Connect the multi-axis beam to the front-end frame, and sew four types of functional structures at the nodes. The complete frame provides load-bearing capacity for the chassis, circuits and field control devices.\"
-      ]",
+      "description": [
+        "\"Connect the multi-axis beam to the front-end frame, and sew four types of functional structures at the nodes. The complete frame provides load-bearing capacity for the chassis, circuits and field control devices.\""
+      ],
       "dependencies": [
         "4B53A74264E8AA6F",
         "4B5DA11954D384B6"
@@ -727,9 +727,9 @@
       "id": "4B58EE1A2B76080E",
       "title": "Woven Multi-Axis Composite Ring",
       "subtitle": "Let the circumferential and diagonal yarn bundles cross and enclose",
-      "description": "[
-        \"Assemble the weaving rod with the preamp ring, space the cross conductors and sew the ring. The finished ring provides a continuous connection to the chassis and executive interface.\"
-      ]",
+      "description": [
+        "\"Assemble the weaving rod with the preamp ring, space the cross conductors and sew the ring. The finished ring provides a continuous connection to the chassis and executive interface.\""
+      ],
       "dependencies": [
         "4B5C12D4075281D2",
         "4B5DA11954D384B6"
@@ -752,9 +752,9 @@
       "id": "4B5D72A8038355BA",
       "title": "Weaving World Multiaxial Composite Foil",
       "subtitle": "Refine seam connections to thin foil",
-      "description": "[
-        \"Connecting thin layers with fine Z-direction beams while retaining the flexibility of the front-end foil. Woven foil continues to supply electronic packaging and multi-axis backplanes.\"
-      ]",
+      "description": [
+        "\"Connecting thin layers with fine Z-direction beams while retaining the flexibility of the front-end foil. Woven foil continues to supply electronic packaging and multi-axis backplanes.\""
+      ],
       "dependencies": [
         "4B51AB271C65658D",
         "4B5E9D884F080FAF"
@@ -777,9 +777,9 @@
       "id": "4B583341EE7E3E10",
       "title": "Wojie multi-axis composite composite thin wire",
       "subtitle": "Multi-axis micro-beams wrapped around the wire core",
-      "description": "[
-        \"The continuous wire core is retained, covered with conductors and load-bearing micro-bundles, and partially insulated at the cross-connections. Thin wires are used for wiring of IWV electronics and executive components.\"
-      ]",
+      "description": [
+        "\"The continuous wire core is retained, covered with conductors and load-bearing micro-bundles, and partially insulated at the cross-connections. Thin wires are used for wiring of IWV electronics and executive components.\""
+      ],
       "dependencies": [
         "4B5858E0D29AF645",
         "4B5DA11954D384B6"
@@ -802,9 +802,9 @@
       "id": "4B50F2B1C6384AFB",
       "title": "IWV mechanical block",
       "subtitle": "Assemble four layers of fabric material into the casing",
-      "description": "[
-        \"Install the weaving board, frame, ring and special interface on the complete IRV mechanical block. After the four types of reinforcement layers are produced by the front-end equipment, the first batch of IWV casings can be completed.\"
-      ]",
+      "description": [
+        "\"Install the weaving board, frame, ring and special interface on the complete IRV mechanical block. After the four types of reinforcement layers are produced by the front-end equipment, the first batch of IWV casings can be completed.\""
+      ],
       "dependencies": [
         "4B5047CFCF54095D",
         "4B5E9D884F080FAF",
@@ -829,9 +829,9 @@
       "id": "4B5F389F4A583D51",
       "title": "IWV case layered disassembly",
       "subtitle": "Remove the complete chassis parts in layers",
-      "description": "[
-        \"The IRV core and part of the complete weaving form were retrieved from the decommissioned IWV casing. The remaining body became sorted material, and the damaged ports, thin layers and seals were consumed with disassembly.\"
-      ]",
+      "description": [
+        "\"The IRV core and part of the complete weaving form were retrieved from the decommissioned IWV casing. The remaining body became sorted material, and the damaged ports, thin layers and seals were consumed with disassembly.\""
+      ],
       "dependencies": [
         "4B50F2B1C6384AFB"
       ],
@@ -857,9 +857,9 @@
       "id": "4B599A9B720C1F77",
       "title": "Textured Multiaxial Composites Recycled Components",
       "subtitle": "Separate weaving waste into rebuildable parts",
-      "description": "[
-        \"Use a solvent to elute the attachments, and then centrifuge to obtain the main body of recovery and the non-recoverable tailings. The main body of recovery accounts for three-quarters, and enters the four-layer reconstruction process.\"
-      ]",
+      "description": [
+        "\"Use a solvent to elute the attachments, and then centrifuge to obtain the main body of recovery and the non-recoverable tailings. The main body of recovery accounts for three-quarters, and enters the four-layer reconstruction process.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8"
       ],
@@ -885,9 +885,9 @@
       "id": "4B5E289AA63CCF1B",
       "title": "IWV recycled material remade",
       "subtitle": "The four types of functional layers are replenished separately.",
-      "description": "[
-        \"The recycled main body is evenly divided into four branches of ceramics, conductors, load-bearing and repair, and the same amount of new main body and complete auxiliary materials are added to each branch. After the independent layers are reconstructed, they return to the original co-curing process to merge.\"
-      ]",
+      "description": [
+        "\"The recycled main body is evenly divided into four branches of ceramics, conductors, load-bearing and repair, and the same amount of new main body and complete auxiliary materials are added to each branch. After the independent layers are reconstructed, they return to the original co-curing process to merge.\""
+      ],
       "dependencies": [
         "4B5E95308F894527",
         "4B57CCE972637222",
@@ -915,9 +915,9 @@
       "id": "4B5D344F2EE1A485",
       "title": "IWV tailing solidification",
       "subtitle": "Seal the expired weaving tailings",
-      "description": "[
-        \"The tissue components that cannot be reconstructed are solidified with concrete to form an inert residue. This part of the main body ends up being recycled in this level and subsequent main materials.\"
-      ]",
+      "description": [
+        "\"The tissue components that cannot be reconstructed are solidified with concrete to form an inert residue. This part of the main body ends up being recycled in this level and subsequent main materials.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8"
       ],
@@ -943,9 +943,9 @@
       "id": "4B56FADB5DACAA9F",
       "title": "Segmented rectifier switch stack",
       "subtitle": "Leave an independent shutdown channel for reverse power flow",
-      "description": "[
-        \"The segmented rectifier switch stacks are assembled so that each segment has separate rectification and shutdown connections. The complete switch stack then enters the energy rectification and dispatch facility.\"
-      ]",
+      "description": [
+        "\"The segmented rectifier switch stacks are assembled so that each segment has separate rectification and shutdown connections. The complete switch stack then enters the energy rectification and dispatch facility.\""
+      ],
       "dependencies": [
         "4B5ED1C5745F2E12",
         "4B5C0479AE802EA5",
@@ -973,9 +973,9 @@
       "id": "4B5E623A97B45459",
       "title": "Imaginary energy rectification center",
       "subtitle": "Connect rectifier, reverse blocking and waste heat exhaust outlet",
-      "description": "[
-        \"Install the segmented rectification components into the imaginary energy rectification central controller. After completion, connect the corresponding energy flow and waste heat channels, and then run the unlocked rectification condition.\"
-      ]",
+      "description": [
+        "\"Install the segmented rectification components into the imaginary energy rectification central controller. After completion, connect the corresponding energy flow and waste heat channels, and then run the unlocked rectification condition.\""
+      ],
       "dependencies": [
         "4B57F2B27363DE28",
         "4B5ED1C5745F2E12",
@@ -1006,9 +1006,9 @@
       "id": "4B5CDCC7C5310141",
       "title": "Civilized energy dispatch center",
       "subtitle": "Separate switching and metering settings for multiple loads",
-      "description": "[
-        \"The civilized energy dispatch central controller is assembled and connected to independent load switches and energy flow metering components. The energy supply of the facility is organized according to authorized personal accounts.\"
-      ]",
+      "description": [
+        "\"The civilized energy dispatch central controller is assembled and connected to independent load switches and energy flow metering components. The energy supply of the facility is organized according to authorized personal accounts.\""
+      ],
       "dependencies": [
         "4B5E3DA7F13B68CF"
       ],
@@ -1034,9 +1034,9 @@
       "id": "4B537F2A387BAC7A",
       "title": "Fourth-order energy state collapse energy detector",
       "subtitle": "Retain the sampling and differential components of the first three orders",
-      "description": "[
-        \"Upgrade the complete front-end detector and add the isolation, sampling and differential components required for energy state measurement. After the detector is completed, the corresponding fourth-stage collection tower will be manufactured.\"
-      ]",
+      "description": [
+        "\"Upgrade the complete front-end detector and add the isolation, sampling and differential components required for energy state measurement. After the detector is completed, the corresponding fourth-stage collection tower will be manufactured.\""
+      ],
       "dependencies": [
         "4B57F2B27363DE28",
         "4B5ED1C5745F2E12",
@@ -1066,9 +1066,9 @@
       "id": "4B53803FCB6ED34E",
       "title": "Level 4 Honkai Energy Collection Tower",
       "subtitle": "Build a separate tower for energy state collection",
-      "description": "[
-        \"Assemble the fourth-stage detector and tower control components into a new controller. The existing collection tower will continue to be retained, and collection and output lines will be arranged for each phase.\"
-      ]",
+      "description": [
+        "\"Assemble the fourth-stage detector and tower control components into a new controller. The existing collection tower will continue to be retained, and collection and output lines will be arranged for each phase.\""
+      ],
       "dependencies": [
         "4B57F2B27363DE28",
         "4B5ED1C5745F2E12",
@@ -1098,9 +1098,9 @@
       "id": "4B59E838F2B595FA",
       "title": "Gaseous collapse energy rectification",
       "subtitle": "Arrange filter elements and cooling outlets for gaseous media",
-      "description": "[
-        \"Gaseous collapse energy is processed in the rectifier equipment, and the rectifier switch stack tooling is retained. The failed filter elements, soul steel hot exhaust gas and hot coolant are collected separately to save the actual energy flow conditions.\"
-      ]",
+      "description": [
+        "\"Gaseous collapse energy is processed in the rectifier equipment, and the rectifier switch stack tooling is retained. The failed filter elements, soul steel hot exhaust gas and hot coolant are collected separately to save the actual energy flow conditions.\""
+      ],
       "dependencies": [
         "4B56104221CAD9C4",
         "4B5E623A97B45459"
@@ -1127,9 +1127,9 @@
       "id": "4B555AA9979ADAFC",
       "title": "Compression core rectification",
       "subtitle": "Process the solid core and separate the residue",
-      "description": "[
-        \"Put the compression collapse core and separation filter element into rectification conditions to supply industrial coolant. Collect deactivated fuel residue, separation residue and hot coolant respectively, and keep actual operating records.\"
-      ]",
+      "description": [
+        "\"Put the compression collapse core and separation filter element into rectification conditions to supply industrial coolant. Collect deactivated fuel residue, separation residue and hot coolant respectively, and keep actual operating records.\""
+      ],
       "dependencies": [
         "4B56104221CAD9C4",
         "4B5E623A97B45459"
@@ -1156,12 +1156,12 @@
       "id": "4B5E3DA7F13B68CF",
       "title": "Civilized energy dispatch",
       "subtitle": "RN-CED · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment in the legacy technology reverse laboratory. The actual load deduction corresponds to the production capacity receipt, the payment account, effective operating volume, and unauthorized operations are rejected; balance screenshots are not considered evidence; the original quantity of the inspected object is returned, and the experiment is based on the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 4680 research points or IRV circuit × 8, neutron plate × 112 to pay the base fee; an additional 31,200 ticks and 8,444,249,301,319,680 EU/t are required. The current material pressure correction is based on the advanced level.\",
-        \"The institute deducts power based on the total power of the effective energy ports. After completion, load management of the civilized energy dispatch center is unlocked; settlement is based on individual accounts, with no manual distance/capacity/throughput upper limit.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment in the legacy technology reverse laboratory. The actual load deduction corresponds to the production capacity receipt, the payment account, effective operating volume, and unauthorized operations are rejected; balance screenshots are not considered evidence; the original quantity of the inspected object is returned, and the experiment is based on the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 4680 research points or IRV circuit × 8, neutron plate × 112 to pay the base fee; an additional 31,200 ticks and 8,444,249,301,319,680 EU/t are required. The current material pressure correction is based on the advanced level.\"",
+        "\"The institute deducts power based on the total power of the effective energy ports. After completion, load management of the civilized energy dispatch center is unlocked; settlement is based on individual accounts, with no manual distance/capacity/throughput upper limit.\""
+      ],
       "dependencies": [
         "4B555AA9979ADAFC"
       ],
@@ -1184,12 +1184,12 @@
       "id": "4B5A778130252AF5",
       "title": "Energy load coordination",
       "subtitle": "RN-ELC · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment in the legacy technology reverse laboratory. Actual operation and manual start and stop generate a verifiable multi-device timeline. Verification will not continue if unauthorized/insufficient balance; do not enable the automatic priority to be unlocked first; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 5380 research points or IWV circuit × 8, neutron plate × 120 to pay the base fee; an additional 33,600 ticks and 33,776,997,205,278,720 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The institute withholds power based on the total power of the effective energy ports. After completion, the load sorting and alarm strategy will be unlocked without increasing the HKE manual capacity or distance limit.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment in the legacy technology reverse laboratory. Actual operation and manual start and stop generate a verifiable multi-device timeline. Verification will not continue if unauthorized/insufficient balance; do not enable the automatic priority to be unlocked first; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 5380 research points or IWV circuit × 8, neutron plate × 120 to pay the base fee; an additional 33,600 ticks and 33,776,997,205,278,720 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The institute withholds power based on the total power of the effective energy ports. After completion, the load sorting and alarm strategy will be unlocked without increasing the HKE manual capacity or distance limit.\""
+      ],
       "dependencies": [
         "4B5B07B90B75E8EC"
       ],
@@ -1212,12 +1212,12 @@
       "id": "4B57F2B27363DE28",
       "title": "Energy state collapse energy collection",
       "subtitle": "RN-ESC · Experimental and formal research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment in the imitation God's Key assembly center. Complete the actual comparison of the first three states and the imaginary number connection, and record the field response; the test does not produce usable energy states or free HW; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 4680 research points or IRV circuit × 8, neutron plate × 112 to pay the base fee; an additional 31,200 ticks and 8,444,249,301,319,680 EU/t are required. The current material pressure correction is based on the advanced level.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, unlock the fourth-level collection tower and the corresponding energy state detector.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment in the imitation God's Key assembly center. Complete the actual comparison of the first three states and the imaginary number connection, and record the field response; the test does not produce usable energy states or free HW; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 4680 research points or IRV circuit × 8, neutron plate × 112 to pay the base fee; an additional 31,200 ticks and 8,444,249,301,319,680 EU/t are required. The current material pressure correction is based on the advanced level.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, unlock the fourth-level collection tower and the corresponding energy state detector.\""
+      ],
       "dependencies": [
         "4B5F5CC41DB9BC86"
       ],
@@ -1240,12 +1240,12 @@
       "id": "4B56104221CAD9C4",
       "title": "Imaginary energy rectification",
       "subtitle": "RN-HER · Experimental and formal research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment in the imitation God's Key assembly center. Enter the real consumption test and measure the energy flow/loss to complete the safety isolation; no arbitrary recharge to personal accounts during the test; the original amount of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 4680 research points or IRV circuit × 8, neutron plate × 112 to pay the base fee; an additional 31,200 ticks and 8,444,249,301,319,680 EU/t are required. The current material pressure correction is based on the advanced level.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the imaginary energy rectification center rectification and legal HKE output will be unlocked, and no free balance will be granted.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment in the imitation God's Key assembly center. Enter the real consumption test and measure the energy flow/loss to complete the safety isolation; no arbitrary recharge to personal accounts during the test; the original amount of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 4680 research points or IRV circuit × 8, neutron plate × 112 to pay the base fee; an additional 31,200 ticks and 8,444,249,301,319,680 EU/t are required. The current material pressure correction is based on the advanced level.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the imaginary energy rectification center rectification and legal HKE output will be unlocked, and no free balance will be granted.\""
+      ],
       "dependencies": [
         "4B57F2B27363DE28"
       ],
@@ -1268,12 +1268,12 @@
       "id": "4B5B07B90B75E8EC",
       "title": "World Sustainability Experiment",
       "subtitle": "RN-WME · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Soul Steel Anchor Component × 1; Paper 2 is used for inspection records, and the reference sample is recycled\",
-        \"The team's experiment was completed in the imitation God's Key assembly center. Local disturbance response, stop and recovery verification were truly completed and associated input/energy flow records; the test was limited to devices and samples; the original quantity of the inspected object was returned, and the experiment was subject to the actual settlement of the machine\",
-        \"After the experiment is completed, choose 5380 research points or IWV circuit × 8, neutron plate × 120 to pay the base fee; an additional 33,600 ticks and 33,776,997,205,278,720 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The institute withholds power based on the total power of the effective energy port. Upon completion, the world sustainment test platform sustainment prototype and verifiable records will be unlocked.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Anchor Component × 1; Paper 2 is used for inspection records, and the reference sample is recycled\"",
+        "\"The team's experiment was completed in the imitation God's Key assembly center. Local disturbance response, stop and recovery verification were truly completed and associated input/energy flow records; the test was limited to devices and samples; the original quantity of the inspected object was returned, and the experiment was subject to the actual settlement of the machine\"",
+        "\"After the experiment is completed, choose 5380 research points or IWV circuit × 8, neutron plate × 120 to pay the base fee; an additional 33,600 ticks and 33,776,997,205,278,720 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The institute withholds power based on the total power of the effective energy port. Upon completion, the world sustainment test platform sustainment prototype and verifiable records will be unlocked.\""
+      ],
       "dependencies": [
         "4B5E3DA7F13B68CF"
       ],

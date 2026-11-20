@@ -3,8 +3,8 @@
   "id": "4B5379E2B2734D84",
   "title": "Tensão de acoplamento ICV",
   "subtitle": [
-    "Tier24-ICV"
-  ],
+        "Tier24-ICV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 25,
   "icon": "hk3gtl:voltage_machine_casing_icv",
@@ -14,10 +14,10 @@
       "id": "4B5BB0BBF3239167",
       "title": "Continuar do workshop IMV",
       "subtitle": "IMV → ICV",
-      "description": "[
-        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos ICV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos ICV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B5B197DD2CD1C96"
       ],
@@ -39,9 +39,9 @@
       "id": "4B55FA9B6755D3AE",
       "title": "Interpositor de banda de energia direcional",
       "subtitle": "Organize interfaces independentes ao longo da banda de energia de condução",
-      "description": "[
-        \"Conecte a placa guia de energia de nível de corrente, a folha e os fios finos ao chip de interface de fase imaginária. O intermediário fornece interconexão direcional e isolamento reverso para cada ramificação para a montagem final do circuito ICV.\"
-      ]",
+      "description": [
+        "\"Conecte a placa guia de energia de nível de corrente, a folha e os fios finos ao chip de interface de fase imaginária. O intermediário fornece interconexão direcional e isolamento reverso para cada ramificação para a montagem final do circuito ICV.\""
+      ],
       "dependencies": [
         "4B5CDD530DF0530D",
         "4B5E95308F894527",
@@ -65,9 +65,9 @@
       "id": "4B501A170CE69C4C",
       "title": "Núcleo de agendamento de ordem causal",
       "subtitle": "Mantenha as atualizações de status em uma ordem clara",
-      "description": "[
-        \"Conecte o núcleo do protocolo de transferência de fase à nova camada intermediária e encapsule a CPU local, RAM e relógio. O núcleo de agendamento salva a sequência de trabalho e os resultados de confirmação de status.\"
-      ]",
+      "description": [
+        "\"Conecte o núcleo do protocolo de transferência de fase à nova camada intermediária e encapsule a CPU local, RAM e relógio. O núcleo de agendamento salva a sequência de trabalho e os resultados de confirmação de status.\""
+      ],
       "dependencies": [
         "4B55FA9B6755D3AE",
         "4B5DE43995DE47BB",
@@ -91,9 +91,9 @@
       "id": "4B5D8F353CB429BB",
       "title": "Servobloco de isolamento de direção de energia",
       "subtitle": "Fixe o ramal direcionador de energia ao suporte de isolamento",
-      "description": "[
-        “Mantenha o suporte do invólucro de isolamento de fase original e adicione hastes guia de energia, anéis e núcleos de despacho. O servobloco é responsável pelo posicionamento e isolamento elétrico do novo ramal.”
-      ]",
+      "description": [
+        "Mantenha o suporte do invólucro de isolamento de fase original e adicione hastes guia de energia, anéis e núcleos de despacho. O servobloco é responsável pelo posicionamento e isolamento elétrico do novo ramal."
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B54BDB7E73E5568",
@@ -117,9 +117,9 @@
       "id": "4B5516FD206DEE91",
       "title": "Placa fria de isolamento de contrafluxo",
       "subtitle": "Separe a direção da troca de calor do canal de sinal",
-      "description": "[
-        \"Expanda o bloco frio de retorno de calor do estágio frontal, adicione tubulações e divisórias de tiras condutoras de energia. A placa fria permanece independente para o fluxo de retorno e isolamento de sinal adicional é fornecido nas juntas.\"
-      ]",
+      "description": [
+        "\"Expanda o bloco frio de retorno de calor do estágio frontal, adicione tubulações e divisórias de tiras condutoras de energia. A placa fria permanece independente para o fluxo de retorno e isolamento de sinal adicional é fornecido nas juntas.\""
+      ],
       "dependencies": [
         "4B5DE43995DE47BB",
         "4B5CDD530DF0530D",
@@ -143,9 +143,9 @@
       "id": "4B5FF4F0C65CED8B",
       "title": "Host do processador de âncora de emaranhamento",
       "subtitle": "Configure o computador âncora como um host independente",
-      "description": "[
-        \"Dois supercomputadores ancorados em emaranhado servem como unidades de computação e estão conectados à camada intermediária direcional, núcleo de agendamento e placa fria de contrafluxo. Cada interface atualiza o status na ordem de confirmação.\"
-      ]",
+      "description": [
+        "\"Dois supercomputadores ancorados em emaranhado servem como unidades de computação e estão conectados à camada intermediária direcional, núcleo de agendamento e placa fria de contrafluxo. Cada interface atualiza o status na ordem de confirmação.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -170,9 +170,9 @@
       "id": "4B53A7CC1286325B",
       "title": "Números imaginários ancoram supercomputadores",
       "subtitle": "Computação compartilhada ancorada imaginária estendida",
-      "description": "[
-        \"Conecte o conjunto front-end completo em um supercomputador, além da interconexão de direcionamento de energia e RAM compartilhada desse nível. A interface de gerenciamento central é agendada e a unidade de computação front-end continua a executar a carga de trabalho.\"
-      ]",
+      "description": [
+        "\"Conecte o conjunto front-end completo em um supercomputador, além da interconexão de direcionamento de energia e RAM compartilhada desse nível. A interface de gerenciamento central é agendada e a unidade de computação front-end continua a executar a carga de trabalho.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -197,9 +197,9 @@
       "id": "4B504A00AE9D3080",
       "title": "Conjunto de processador de reconstrução de número imaginário",
       "subtitle": "Montagem de unidades de computação com interfaces condutoras de energia direcionadas",
-      "description": "[
-        “Um intermediário direcional e uma placa fria de contrafluxo são instalados fora do pré-processador completo. A estrutura guia de energia conecta as unidades, e o conjunto continua a ser utilizado pelos componentes de execução do ICV.”
-      ]",
+      "description": [
+        "Um intermediário direcional e uma placa fria de contrafluxo são instalados fora do pré-processador completo. A estrutura guia de energia conecta as unidades, e o conjunto continua a ser utilizado pelos componentes de execução do ICV."
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -223,9 +223,9 @@
       "id": "4B52BA4C892CF039",
       "title": "processador de reconstrução causal",
       "subtitle": "Deixe os cálculos multi-interface serem executados sequencialmente",
-      "description": "[
-        \"Combine o processador front-end com a leitura de nível atual, agendamento e armazenamento compartilhado para formar um processador de reconstrução causal. Após a confirmação do status de entrada, ele é transferido para o próximo estágio para cálculo e processamento.\"
-      ]",
+      "description": [
+        "\"Combine o processador front-end com a leitura de nível atual, agendamento e armazenamento compartilhado para formar um processador de reconstrução causal. Após a confirmação do status de entrada, ele é transferido para o próximo estágio para cálculo e processamento.\""
+      ],
       "dependencies": [
         "4B501A170CE69C4C",
         "4B5516FD206DEE91",
@@ -249,9 +249,9 @@
       "id": "4B5ADBC654FD075A",
       "title": "Motor elétrico ICV",
       "subtitle": "Deixe a potência motriz entrar ao longo de um ramo independente",
-      "description": "[
-        “Conecte o motor IMV ao servobloco de isolamento orientador de energia e adicione o núcleo de programação de sequência causal. A nova ramificação e o acionamento frontal juntos formam o motor ICV.”
-      ]",
+      "description": [
+        "Conecte o motor IMV ao servobloco de isolamento orientador de energia e adicione o núcleo de programação de sequência causal. A nova ramificação e o acionamento frontal juntos formam o motor ICV."
+      ],
       "dependencies": [
         "4B5D8F353CB429BB",
         "4B504A00AE9D3080",
@@ -275,9 +275,9 @@
       "id": "4B5BA315DA657B47",
       "title": "Pistão elétrico ICV",
       "subtitle": "Atuadores lineares acionados sequencialmente",
-      "description": "[
-        \"Use um pistão IMV completo e um motor ICV e instale-o em um servobloco isolado. O núcleo de programação coordena o acionamento e a confirmação de posição, e as juntas mantêm seus próprios caminhos de orientação de energia.\"
-      ]",
+      "description": [
+        "\"Use um pistão IMV completo e um motor ICV e instale-o em um servobloco isolado. O núcleo de programação coordena o acionamento e a confirmação de posição, e as juntas mantêm seus próprios caminhos de orientação de energia.\""
+      ],
       "dependencies": [
         "4B5ADBC654FD075A",
         "4B53243A2A319FF7"
@@ -300,9 +300,9 @@
       "id": "4B5D193DE5C2E2BD",
       "title": "Bomba elétrica ICV",
       "subtitle": "Separe o meio de transporte do ramal de fornecimento de energia",
-      "description": "[
-        \"A bomba de apoio continua a servir como mecanismo de entrega, e o motor ICV e a placa fria de contrafluxo fornecem novo acionamento e controle de temperatura. As interfaces independentes de fornecimento de fluido e energia são conectadas durante a montagem.\"
-      ]",
+      "description": [
+        "\"A bomba de apoio continua a servir como mecanismo de entrega, e o motor ICV e a placa fria de contrafluxo fornecem novo acionamento e controle de temperatura. As interfaces independentes de fornecimento de fluido e energia são conectadas durante a montagem.\""
+      ],
       "dependencies": [
         "4B5ADBC654FD075A",
         "4B5D969F4892DC6A"
@@ -325,9 +325,9 @@
       "id": "4B50E9A4DA5B625B",
       "title": "Módulo transportador ICV",
       "subtitle": "Fornecer fornecimento de energia com direção clara para cada seção do transportador",
-      "description": "[
-        “Combine o módulo de transmissão frontal, o motor ICV e o servobloco de isolamento. A camada intermediária e o núcleo de despacho conectam a ação de transporte ao circuito de controle deste nível.”
-      ]",
+      "description": [
+        "Combine o módulo de transmissão frontal, o motor ICV e o servobloco de isolamento. A camada intermediária e o núcleo de despacho conectam a ação de transporte ao circuito de controle deste nível."
+      ],
       "dependencies": [
         "4B5ADBC654FD075A",
         "4B5C7D9B868E9219"
@@ -350,9 +350,9 @@
       "id": "4B53BF5C8FB823E3",
       "title": "Braço robótico ICV",
       "subtitle": "Organize os movimentos articulares em ordem",
-      "description": "[
-        “Monte o motor ICV, o pistão e o braço robótico frontal e adicione uma estrutura de posicionamento de isolamento. O status de cada junta é confirmado pelo mesmo núcleo de programação e depois passado para a próxima ação.”
-      ]",
+      "description": [
+        "Monte o motor ICV, o pistão e o braço robótico frontal e adicione uma estrutura de posicionamento de isolamento. O status de cada junta é confirmado pelo mesmo núcleo de programação e depois passado para a próxima ação."
+      ],
       "dependencies": [
         "4B5BA315DA657B47",
         "4B5A9A6838F5C653"
@@ -375,9 +375,9 @@
       "id": "4B5ABFDF19A0A33D",
       "title": "Sensor ICV",
       "subtitle": "Confirme o status da interface após a amostragem",
-      "description": "[
-        \"Conecte o sensor frontal à camada intermediária condutora de energia direcional e adicione os módulos de programação e controle de temperatura. O novo sensor é usado para controle de campo ICV e equipamentos multi-interface.\"
-      ]",
+      "description": [
+        "\"Conecte o sensor frontal à camada intermediária condutora de energia direcional e adicione os módulos de programação e controle de temperatura. O novo sensor é usado para controle de campo ICV e equipamentos multi-interface.\""
+      ],
       "dependencies": [
         "4B504A00AE9D3080",
         "4B5BAD20ECD3657C"
@@ -400,9 +400,9 @@
       "id": "4B5DFDB2A827F525",
       "title": "Transmissor ICV",
       "subtitle": "Reserve isolamento reverso para a perna de transmissão",
-      "description": "[
-        \"Adicione interconexão de orientação de energia de nível atual e programação de status ao transmissor do estágio frontal. A ação de lançamento e o status da interface são confirmados em conjunto para completar o componente de lançamento de nível atual.\"
-      ]",
+      "description": [
+        "\"Adicione interconexão de orientação de energia de nível atual e programação de status ao transmissor do estágio frontal. A ação de lançamento e o status da interface são confirmados em conjunto para completar o componente de lançamento de nível atual.\""
+      ],
       "dependencies": [
         "4B504A00AE9D3080",
         "4B5397FCABDA9FE8"
@@ -425,9 +425,9 @@
       "id": "4B5F472E0F24ECF5",
       "title": "Gerador de campo de força ICV",
       "subtitle": "Conecte a transmissão e a amostragem em um circuito de controle de campo",
-      "description": "[
-        \"Use transmissores ICV, sensores e dispositivos de campo de força front-end completos e conecte a fonte de alimentação direcional e o resfriamento. Cada filial confirma o status por meio do núcleo de despacho.\"
-      ]",
+      "description": [
+        "\"Use transmissores ICV, sensores e dispositivos de campo de força front-end completos e conecte a fonte de alimentação direcional e o resfriamento. Cada filial confirma o status por meio do núcleo de despacho.\""
+      ],
       "dependencies": [
         "4B5ABFDF19A0A33D",
         "4B5DFDB2A827F525",
@@ -451,9 +451,9 @@
       "id": "4B59F1515A7F1C7E",
       "title": "Tira de acoplamento com classificação de impedância",
       "subtitle": "Deixe o condutor contínuo conectar-se suavemente à interface cerâmica",
-      "description": "[
-        \"A placa cerâmica frontal e os fios finos de metal contínuos são instalados em uma tira de acoplamento gradiente. Ela é responsável pela transição de impedância das juntas subsequentes do material principal e é realmente consumida junto com o processamento.\"
-      ]",
+      "description": [
+        "\"A placa cerâmica frontal e os fios finos de metal contínuos são instalados em uma tira de acoplamento gradiente. Ela é responsável pela transição de impedância das juntas subsequentes do material principal e é realmente consumida junto com o processamento.\""
+      ],
       "dependencies": [
         "4B5B0B519F2E3201"
       ],
@@ -475,9 +475,9 @@
       "id": "4B53DABD20AC907D",
       "title": "Gel de acoplamento de correspondência de impedância",
       "subtitle": "Gel fresco está disponível para produção do primeiro lote",
-      "description": "[
-        \"Use um novo líquido transportador para preparar um gel de correspondência de impedância e, em seguida, adicione componentes de dispersão condutivos e cerâmicos. O gel é usado para impregnação de interface e subsequente processamento morfológico.\"
-      ]",
+      "description": [
+        "\"Use um novo líquido transportador para preparar um gel de correspondência de impedância e, em seguida, adicione componentes de dispersão condutivos e cerâmicos. O gel é usado para impregnação de interface e subsequente processamento morfológico.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B54533414333ADC"
@@ -501,9 +501,9 @@
       "id": "4B5FEEEA13A1DA50",
       "title": "Banda base altamente condutiva",
       "subtitle": "Prenda o condutor no suporte de cerâmica",
-      "description": "[
-        \"A placa de cerâmica pré-estágio é cortada como suporte, e o núcleo de metal contínuo e a fita gradiente são frisados em uma fita base de alta condutividade. O condutor permanece contínuo na fita.\"
-      ]",
+      "description": [
+        "\"A placa de cerâmica pré-estágio é cortada como suporte, e o núcleo de metal contínuo e a fita gradiente são frisados em uma fita base de alta condutividade. O condutor permanece contínuo na fita.\""
+      ],
       "dependencies": [
         "4B59F1515A7F1C7E"
       ],
@@ -525,9 +525,9 @@
       "id": "4B567969DB9D02CE",
       "title": "Fita impregnada de cerâmica multi-interface",
       "subtitle": "Unindo metais e cerâmicas em camadas",
-      "description": "[
-        \"Impregnar a fita base com um gel de acoplamento cria uma interface graduada entre o condutor metálico e a fina camada de cerâmica. A junta tratada dispersa o calor gerado na junta.\"
-      ]",
+      "description": [
+        "\"Impregnar a fita base com um gel de acoplamento cria uma interface graduada entre o condutor metálico e a fina camada de cerâmica. A junta tratada dispersa o calor gerado na junta.\""
+      ],
       "dependencies": [
         "4B53DABD20AC907D",
         "4B5FEEEA13A1DA50",
@@ -551,9 +551,9 @@
       "id": "4B5EDED160AC4051",
       "title": "Fita de embalagem com isolamento de baixa temperatura",
       "subtitle": "Canais condutores de energia paralelos de embalagem de baixa temperatura",
-      "description": "[
-        \"Um filme dielétrico e uma camada de encapsulamento são aplicados à fita impregnada, que é então processada criogenicamente. O condutor contínuo permanece no interior e os canais adjacentes são separados por uma camada isolante.\"
-      ]",
+      "description": [
+        "\"Um filme dielétrico e uma camada de encapsulamento são aplicados à fita impregnada, que é então processada criogenicamente. O condutor contínuo permanece no interior e os canais adjacentes são separados por uma camada isolante.\""
+      ],
       "dependencies": [
         "4B567969DB9D02CE"
       ],
@@ -575,9 +575,9 @@
       "id": "4B57B96C2D71AE48",
       "title": "Número imaginário acoplado banda de energia guiada padrão em branco",
       "subtitle": "Tratamento separado de superfícies de equalização de juntas",
-      "description": "[
-        \"A fita de embalagem é cortada no comprimento certo e a fita de acoplamento gradiente e a camada de contato de metal são adicionadas. A placa padrão obtém uma guia contínua completa e uma superfície de conector a partir daqui.\"
-      ]",
+      "description": [
+        "\"A fita de embalagem é cortada no comprimento certo e a fita de acoplamento gradiente e a camada de contato de metal são adicionadas. A placa padrão obtém uma guia contínua completa e uma superfície de conector a partir daqui.\""
+      ],
       "dependencies": [
         "4B5EDED160AC4051"
       ],
@@ -599,9 +599,9 @@
       "id": "4B59F40187D45DFA",
       "title": "Placa de banda de energia acoplada imaginária",
       "subtitle": "Superfícies de contato da placa diretora de energia correspondentes, camada por camada",
-      "description": "[
-        \"Combine o corpo condutor de energia com o backplane frontal para manter o condutor interno contínuo e, em seguida, use uma camada de gradiente para conectar a interface de superfície. O produto final é para invólucros ICV e módulos eletrônicos.\"
-      ]",
+      "description": [
+        "\"Combine o corpo condutor de energia com o backplane frontal para manter o condutor interno contínuo e, em seguida, use uma camada de gradiente para conectar a interface de superfície. O produto final é para invólucros ICV e módulos eletrônicos.\""
+      ],
       "dependencies": [
         "4B57B96C2D71AE48"
       ],
@@ -623,9 +623,9 @@
       "id": "4B556778AEBFB12D",
       "title": "Haste de banda condutora de acoplamento imaginário",
       "subtitle": "Deixe o fio central da haste guia de energia passar pelo conector",
-      "description": "[
-        \"Um condutor contínuo é colocado ao longo do núcleo da haste frontal, e uma fita de derivação graduada e um filme de isolamento são adicionados à camada externa. A haste serve como material de pré-processamento para a estrutura, anéis e fios finos.\"
-      ]",
+      "description": [
+        "\"Um condutor contínuo é colocado ao longo do núcleo da haste frontal, e uma fita de derivação graduada e um filme de isolamento são adicionados à camada externa. A haste serve como material de pré-processamento para a estrutura, anéis e fios finos.\""
+      ],
       "dependencies": [
         "4B57B96C2D71AE48",
         "4B551135A9953520"
@@ -648,9 +648,9 @@
       "id": "4B54BDB7E73E5568",
       "title": "Componentes imaginários da estrutura da banda de energia acoplada",
       "subtitle": "Lidar com o compartilhamento atual nas juntas dos cantos do quadro",
-      "description": "[
-        \"Conecte as hastes guia de energia à estrutura do palco frontal, conduza cada viga separadamente e, em seguida, encontre-as em uma junta de canto dedicada. A estrutura resultante é usada para o invólucro do ICV e a estrutura de suporte de carga do circuito.\"
-      ]",
+      "description": [
+        "\"Conecte as hastes guia de energia à estrutura do palco frontal, conduza cada viga separadamente e, em seguida, encontre-as em uma junta de canto dedicada. A estrutura resultante é usada para o invólucro do ICV e a estrutura de suporte de carga do circuito.\""
+      ],
       "dependencies": [
         "4B556778AEBFB12D",
         "4B510189BD9FF3DE"
@@ -673,9 +673,9 @@
       "id": "4B5DE43995DE47BB",
       "title": "Loop de banda de acoplamento imaginário",
       "subtitle": "Faça uma sobreposição de gradiente para um loop fechado",
-      "description": "[
-        \"Inclua a haste guia de energia, conecte a porta do anel com uma porta gradiente e encapsule-a. O anel guia de energia fornece um caminho circunferencial contínuo para o conector do equipamento e o chassi.\"
-      ]",
+      "description": [
+        "\"Inclua a haste guia de energia, conecte a porta do anel com uma porta gradiente e encapsule-a. O anel guia de energia fornece um caminho circunferencial contínuo para o conector do equipamento e o chassi.\""
+      ],
       "dependencies": [
         "4B556778AEBFB12D",
         "4B53DA1823327C30"
@@ -698,9 +698,9 @@
       "id": "4B5CDD530DF0530D",
       "title": "Folha de banda de energia acoplada imaginária",
       "subtitle": "Deixe áreas condutoras e isolantes em uma folha fina",
-      "description": "[
-        \"Coloque a fita condutora gradiente na folha fina frontal, deixando janelas condutoras de acordo com a localização da interface. A folha acabada é usada para embalagens eletrônicas e interfaces de baixa temperatura.\"
-      ]",
+      "description": [
+        "\"Coloque a fita condutora gradiente na folha fina frontal, deixando janelas condutoras de acordo com a localização da interface. A folha acabada é usada para embalagens eletrônicas e interfaces de baixa temperatura.\""
+      ],
       "dependencies": [
         "4B59F40187D45DFA"
       ],
@@ -722,9 +722,9 @@
       "id": "4B5E95308F894527",
       "title": "Linha fina composta de banda de condução de acoplamento imaginário",
       "subtitle": "Mantenha condutores finos contínuos",
-      "description": "[
-        \"Uma fita gradiente e uma fina camada de isolamento cerâmico são colocadas ao longo do núcleo do fio metálico original. O núcleo contínuo transporta a corrente, e a camada externa é responsável pela transição da interface e isolamento do ramo.\"
-      ]",
+      "description": [
+        "\"Uma fita gradiente e uma fina camada de isolamento cerâmico são colocadas ao longo do núcleo do fio metálico original. O núcleo contínuo transporta a corrente, e a camada externa é responsável pela transição da interface e isolamento do ramo.\""
+      ],
       "dependencies": [
         "4B556778AEBFB12D",
         "4B5E86444626FE39"
@@ -747,9 +747,9 @@
       "id": "4B56262CD0FE0662",
       "title": "Bloco mecânico ICV",
       "subtitle": "Instale os contatos condutores de energia da caixa do ICV",
-      "description": "[
-        “Instale este nível de placa, moldura e anel no bloco mecânico IMV completo, completo com portas, blindagem e vedação. O primeiro lote de invólucros é fabricado seguindo o passo a passo da faixa condutora de energia contínua.”
-      ]",
+      "description": [
+        "Instale este nível de placa, moldura e anel no bloco mecânico IMV completo, completo com portas, blindagem e vedação. O primeiro lote de invólucros é fabricado seguindo o passo a passo da faixa condutora de energia contínua."
+      ],
       "dependencies": [
         "4B59F40187D45DFA",
         "4B54BDB7E73E5568",
@@ -774,9 +774,9 @@
       "id": "4B5BC3A92825FB02",
       "title": "Desmontagem em camadas do invólucro ICV",
       "subtitle": "Reciclagem de peças completas de carcaças de ICV desativadas",
-      "description": "[
-        “O núcleo do IMV e algumas placas, estruturas e anéis guia de energia completos são removidos, e o restante do corpo principal é classificado como resíduo. Portas especiais e camadas finas são consumidas na desmontagem.”
-      ]",
+      "description": [
+        "O núcleo do IMV e algumas placas, estruturas e anéis guia de energia completos são removidos, e o restante do corpo principal é classificado como resíduo. Portas especiais e camadas finas são consumidas na desmontagem."
+      ],
       "dependencies": [
         "4B56262CD0FE0662"
       ],
@@ -802,9 +802,9 @@
       "id": "4B5EE51F503A4F6B",
       "title": "Componente de recuperação de banda de energia de acoplamento imaginário",
       "subtitle": "Separação de componentes condutores reconstruíveis de materiais classificados",
-      "description": "[
-        \"Primeiro elua os acessórios e depois centrifugue para separar três quartos do corpo principal e um quarto da cauda. Os componentes recuperados são enviados de volta à fita base de alta condutividade para preparação.\"
-      ]",
+      "description": [
+        "\"Primeiro elua os acessórios e depois centrifugue para separar três quartos do corpo principal e um quarto da cauda. Os componentes recuperados são enviados de volta à fita base de alta condutividade para preparação.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B54533414333ADC"
@@ -831,9 +831,9 @@
       "id": "4B591435EBAD80F6",
       "title": "Material reciclado ICV refeito",
       "subtitle": "Crimpagem novamente da fita base usando componentes reciclados",
-      "description": "[
-        “Deixe que os componentes reciclados suportem metade do investimento principal, e os restantes novos materiais e materiais auxiliares funcionais serão adicionados como de costume. A fita base refeita continuará a passar por imersão, embalagem em baixa temperatura e dimensionamento de juntas.”
-      ]",
+      "description": [
+        "Deixe que os componentes reciclados suportem metade do investimento principal, e os restantes novos materiais e materiais auxiliares funcionais serão adicionados como de costume. A fita base refeita continuará a passar por imersão, embalagem em baixa temperatura e dimensionamento de juntas."
+      ],
       "dependencies": [
         "4B59F1515A7F1C7E"
       ],
@@ -859,9 +859,9 @@
       "id": "4B55598C6C1A9970",
       "title": "Solidificação da cauda ICV",
       "subtitle": "O material da cauda com falha da banda condutora de energia solidificada",
-      "description": "[
-        “A selagem do rejeito irrecuperável em resíduo de concreto acaba com a reciclagem dessa parte do material. O produto acabado retém o aproveitamento geral da cinza.”
-      ]",
+      "description": [
+        "A selagem do rejeito irrecuperável em resíduo de concreto acaba com a reciclagem dessa parte do material. O produto acabado retém o aproveitamento geral da cinza."
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B54533414333ADC"
@@ -888,9 +888,9 @@
       "id": "4B5C9B61E9F3F834",
       "title": "Caixa de Malha Mundial de Sementes",
       "subtitle": "Primeiro faça o porta-sementes e a caixa de isolamento",
-      "description": "[
-        “Monte o material principal frontal e o suporte de sementes físico em uma caixa de treliça e conecte a interface de isolamento. A caixa é usada para sementes de materiais em todo o mundo e instalações de construção de simulação.”
-      ]",
+      "description": [
+        "Monte o material principal frontal e o suporte de sementes físico em uma caixa de treliça e conecte a interface de isolamento. A caixa é usada para sementes de materiais em todo o mundo e instalações de construção de simulação."
+      ],
       "dependencies": [
         "4B59F20F03D7B54A",
         "4B5D969F4892DC6A",
@@ -918,9 +918,9 @@
       "id": "4B5CB701BE9957C3",
       "title": "Máquina simulada de construção de bolhas mundiais",
       "subtitle": "Embalando um bom controlador de construção para o primeiro mundo simulado",
-      "description": "[
-        \"Monte o controlador com uma caixa de sementes física e componentes de limite iniciais. A construção subsequente utiliza sementes de materiais fabricados de forma independente, começando com novos materiais.\"
-      ]",
+      "description": [
+        "\"Monte o controlador com uma caixa de sementes física e componentes de limite iniciais. A construção subsequente utiliza sementes de materiais fabricados de forma independente, começando com novos materiais.\""
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8",
         "4B59F20F03D7B54A",
@@ -951,9 +951,9 @@
       "id": "4B50C16AC50F4768",
       "title": "Controlador de estabilidade de bolha mundial simulado",
       "subtitle": "Conecte restrições e suprimentos à bolha de simulação",
-      "description": "[
-        “Instale as interfaces de contenção, fornecimento e troca de calor do controlador de estabilidade de simulação. Depois que a máquina de construção gera o estado inicial de simulação, o processo de estabilização continua a partir daqui.”
-      ]",
+      "description": [
+        "Instale as interfaces de contenção, fornecimento e troca de calor do controlador de estabilidade de simulação. Depois que a máquina de construção gera o estado inicial de simulação, o processo de estabilização continua a partir daqui."
+      ],
       "dependencies": [
         "4B5E2A17490F6E44"
       ],
@@ -979,9 +979,9 @@
       "id": "4B5318E2082C834E",
       "title": "Máquina de reciclagem de terminação de bolha mundial simulada",
       "subtitle": "Conecte a terminação da simulação e o processamento do fluxo residual",
-      "description": "[
-        \"A montagem final do dispositivo de terminação da máquina de recuperação de terminação simulada, recuperação de sementes e interface de isolamento. As bolhas simuladas são registradas em seu próprio livro de reciclagem, e os registros de bolhas do mundo real são mantidos separadamente.\"
-      ]",
+      "description": [
+        "\"A montagem final do dispositivo de terminação da máquina de recuperação de terminação simulada, recuperação de sementes e interface de isolamento. As bolhas simuladas são registradas em seu próprio livro de reciclagem, e os registros de bolhas do mundo real são mantidos separadamente.\""
+      ],
       "dependencies": [
         "4B59EB10C899A33B"
       ],
@@ -1007,9 +1007,9 @@
       "id": "4B55DE40DABD7BDD",
       "title": "Estação retransmissora de rota transfronteiriça não tripulada",
       "subtitle": "Receba missões não tripuladas de vários alvos para a estação retransmissora",
-      "description": "[
-        “Montar uma rota multi-alvo e um controlador de retransmissão de missão não tripulado. O dispositivo de alvo único pré-encomendado já é capaz de realizar a missão, e a estação retransmissora é responsável pela subsequente organização multi-alvo.”
-      ]",
+      "description": [
+        "Montar uma rota multi-alvo e um controlador de retransmissão de missão não tripulado. O dispositivo de alvo único pré-encomendado já é capaz de realizar a missão, e a estação retransmissora é responsável pela subsequente organização multi-alvo."
+      ],
       "dependencies": [
         "4B5AC8840C9BC9EB"
       ],
@@ -1035,9 +1035,9 @@
       "id": "4B5F0E90DB9EEA8C",
       "title": "semente material mundial",
       "subtitle": "Use substrato fresco para criar a primeira semente material",
-      "description": "[
-        “Monte a caixa de treliça, o cristal Honkai e os componentes estruturais de nível frontal em sementes de materiais mundiais. A primeira semente é feita de linhas de materiais independentes e depois enviada para a máquina simulada de construção de bolhas mundiais.”
-      ]",
+      "description": [
+        "Monte a caixa de treliça, o cristal Honkai e os componentes estruturais de nível frontal em sementes de materiais mundiais. A primeira semente é feita de linhas de materiais independentes e depois enviada para a máquina simulada de construção de bolhas mundiais."
+      ],
       "dependencies": [
         "4B5C62FF4A7DBDB8",
         "4B59F20F03D7B54A",
@@ -1067,9 +1067,9 @@
       "id": "4B52E449306ED7FC",
       "title": "Cálculo de número finito de etapas",
       "subtitle": "Execute quatro mil e noventa e seis etapas de cálculos a partir de lotes reais de aquisição",
-      "description": "[
-        “Consulte o lote de origem que completou a coleta de líquido e execute um cálculo de etapa fixa no laboratório reverso. Salve as sementes, etapas, resultados e status de parada e, em seguida, envie os resultados para a condição de trabalho de verificação independente.”
-      ]",
+      "description": [
+        "Consulte o lote de origem que completou a coleta de líquido e execute um cálculo de etapa fixa no laboratório reverso. Salve as sementes, etapas, resultados e status de parada e, em seguida, envie os resultados para a condição de trabalho de verificação independente."
+      ],
       "dependencies": [
         "4B5B5795A0A0443D",
         "4B5CA50A7DDB3C98"
@@ -1096,12 +1096,12 @@
       "id": "4B5B5795A0A0443D",
       "title": "Núcleo de imitação de erosão",
       "subtitle": "RN-ECA · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe na matriz de análise de espectro de amostra de energia Honkai. Conclua a entrada de teste fixa, a verificação do resultado e o comando de parada verdadeiramente; registre o consumo de energia e a saída, as exceções não são consideradas bem-sucedidas;
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de imitação de erosão será desbloqueado. Para efeitos de pesquisa e aceleração da máquina, consulte a descrição do equipamento correspondente.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe na matriz de análise de espectro de amostra de energia Honkai. Conclua a entrada de teste fixa, a verificação do resultado e o comando de parada verdadeiramente; registre o consumo de energia e a saída, as exceções não são consideradas bem-sucedidas;",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de imitação de erosão será desbloqueado. Para efeitos de pesquisa e aceleração da máquina, consulte a descrição do equipamento correspondente."
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E",
         "4B5407261AA82797"
@@ -1125,12 +1125,12 @@
       "id": "4B5BE09A16080469",
       "title": "Otimização de algoritmo controlado",
       "subtitle": "RN-ERM · Pesquisa Experimental e Formal",
-      "description": "[
-        \"A ECA já pode criar núcleos de erosão, malhas de controle CPT, a mesma tarefa fixa de cálculo e resultados de pesquisas gerais existentes\",
-        “Conclua o experimento da equipe no Instituto de Reconstrução de Materiais. Compare os resultados reais, o consumo de tempo e os limites de parada dos cálculos auxiliares comuns e básicos;
-        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
-        \"O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, habilite o módulo de aceleração da pesquisa de erosão; não confunda a produção da pesquisa e a velocidade da pesquisa como o mesmo indicador.\"
-      ]",
+      "description": [
+        "\"A ECA já pode criar núcleos de erosão, malhas de controle CPT, a mesma tarefa fixa de cálculo e resultados de pesquisas gerais existentes\"",
+        "“Conclua o experimento da equipe no Instituto de Reconstrução de Materiais. Compare os resultados reais, o consumo de tempo e os limites de parada dos cálculos auxiliares comuns e básicos;",
+        "\"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "\"O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, habilite o módulo de aceleração da pesquisa de erosão; não confunda a produção da pesquisa e a velocidade da pesquisa como o mesmo indicador.\""
+      ],
       "dependencies": [
         "4B5B5795A0A0443D"
       ],

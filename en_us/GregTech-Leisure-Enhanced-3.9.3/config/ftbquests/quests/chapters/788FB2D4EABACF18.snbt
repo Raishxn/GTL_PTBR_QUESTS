@@ -38,17 +38,17 @@
 	quests: [
 		{
 			description: [
-		"&6&l» Welcome to GTL-Enhanced"
-		""
-		"&f- This is a pure technology integration package that takes you through the complete process of climbing the technology tree."
-		"&f- You will witness the spectacular multi-block giant machine, experience the ultimate efficiency of magic modification, and enjoy the super refreshing fun of stacking."
-		""
-		"&4此版本非GregTech Leisure官方版本，请注意辨别。"
-		"&4If you want to play the official version of GregTech Leisure, please go to the official channel to get it."
-		""
-		"&e&l» Now, let me ask you a question:"
-		"&e- Is this your first time playing GTL?"
-	]
+				"&6&l» Welcome to GTL-Enhanced"
+				""
+				"&f- This is a pure technology integration package that takes you through the complete process of climbing the technology tree."
+				"&f- You will witness the spectacular multi-block giant machine, experience the ultimate efficiency of magic modification, and enjoy the super refreshing fun of stacking."
+				""
+				"&4此版本非GregTech Leisure官方版本，请注意辨别。"
+				"&4If you want to play the official version of GregTech Leisure, please go to the official channel to get it."
+				""
+				"&e&l» Now, let me ask you a question:"
+				"&e- Is this your first time playing GTL?"
+			]
 			icon: "minecraft:player_head"
 			id: "338B78A9B370B1C1"
 			quest_enhance_disable_scroll_paging: false
@@ -64,7 +64,9 @@
 		}
 		{
 			dependencies: ["338B78A9B370B1C1"]
-			description: [""]
+			description: [
+				""
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "gtceu:nan_certificate"
@@ -87,11 +89,11 @@
 		{
 			dependencies: ["38D7837BE9480F5E"]
 			description: [
-		"&6&l» Welcome back"
-		""
-		"&f- Now that you have been through a week or even weeks of practice, many of the basic guidelines can be skipped."
-		"&f- Bring these supplies and enjoy the new version!"
-	]
+				"&6&l» Welcome back"
+				""
+				"&f- Now that you have been through a week or even weeks of practice, many of the basic guidelines can be skipped."
+				"&f- Bring these supplies and enjoy the new version!"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "gtceu:creative_chest"
@@ -228,7 +230,9 @@
 		}
 		{
 			dependencies: ["338B78A9B370B1C1"]
-			description: [""]
+			description: [
+				""
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:basic_control_circuit"
@@ -251,12 +255,12 @@
 		{
 			dependencies: ["33111A35EDDAB7A0"]
 			description: [
-		"&6&l» Welcome"
-		""
-		"&f- New player? This is rare! Don't worry, there will be detailed task instructions to guide you step by step."
-		"&f- If you encounter something you don’t understand, you are welcome to communicate in the group at any time."
-		"&f- Take these initial supplies and start your new journey!"
-	]
+				"&6&l» Welcome"
+				""
+				"&f- New player? This is rare! Don't worry, there will be detailed task instructions to guide you step by step."
+				"&f- If you encounter something you don’t understand, you are welcome to communicate in the group at any time."
+				"&f- Take these initial supplies and start your new journey!"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "ae2:chest"
@@ -313,25 +317,25 @@
 		{
 			dependencies: ["338B78A9B370B1C1"]
 			description: [
-		"&6&l\"Enhanced version description\""
-		""
-		"&5▌ Overview"
-		"&f- This integration package is based on the original modification of \"GregTech: Leisure\", and the copyright belongs to the original production team."
-		"&f- Based on the original version, the modules have been added and removed and the task content has been adjusted."
-		""
-		"&5▌ Main changes"
-		"&f- Added a large number of KJS scripts and adjusted some recipes and game mechanics."
-		"&f- Added some exclusive machines and items."
-		"&f- The mission system has been rearranged to adapt to the enhanced content."
-		""
-		"&5▌ Precautions"
-		"&f- Some content is still being adjusted, and there may be recipe changes or balance issues."
-		"&f- If you have any questions, please report them in the corresponding communication group."
-		""
-		"&5▌ Warning"
-		"&f- Please do not disclose any screenshots and recipes of this version in the official group chat."
-		"&f- This is for your consideration."
-	]
+				"&6&l\"Enhanced version description\""
+				""
+				"&5▌ Overview"
+				"&f- This integration package is based on the original modification of \"GregTech: Leisure\", and the copyright belongs to the original production team."
+				"&f- Based on the original version, the modules have been added and removed and the task content has been adjusted."
+				""
+				"&5▌ Main changes"
+				"&f- Added a large number of KJS scripts and adjusted some recipes and game mechanics."
+				"&f- Added some exclusive machines and items."
+				"&f- The mission system has been rearranged to adapt to the enhanced content."
+				""
+				"&5▌ Precautions"
+				"&f- Some content is still being adjusted, and there may be recipe changes or balance issues."
+				"&f- If you have any questions, please report them in the corresponding communication group."
+				""
+				"&5▌ Warning"
+				"&f- Please do not disclose any screenshots and recipes of this version in the official group chat."
+				"&f- This is for your consideration."
+			]
 			hide_dependency_lines: true
 			icon: "minecraft:writable_book"
 			id: "65BFE4FC9735A317"
@@ -355,19 +359,19 @@
 		{
 			dependencies: ["338B78A9B370B1C1"]
 			description: [
-		"&6&l» Basic settings"
-		"&f- This integration package enables &eisland mode &fby default."
-		""
-		"&6&l» Main parameters"
-		"&f- Machine processing speed: &e0.2 &f(i.e. 5 times faster)"
-		"&f- 原始虚空采矿机：&a开启"
-		"&f- Mineral processing magnification: &e3 times"
-		""
-		"&4&l» Important reminder: GTL Additions super sample assembly"
-		"&c- This item has been preset to &eand the maximum number of cells is &c. Please do not change this configuration."
-		"&c- If you need to migrate the archive, be sure to copy the configuration file &cof &eGTL Additions as well."
-		"&c- Otherwise, all internal &4templates will be lost and &cwill be lost."
-	]
+				"&6&l» Basic settings"
+				"&f- This integration package enables &eisland mode &fby default."
+				""
+				"&6&l» Main parameters"
+				"&f- Machine processing speed: &e0.2 &f(i.e. 5 times faster)"
+				"&f- 原始虚空采矿机：&a开启"
+				"&f- Mineral processing magnification: &e3 times"
+				""
+				"&4&l» Important reminder: GTL Additions super sample assembly"
+				"&c- This item has been preset to &eand the maximum number of cells is &c. Please do not change this configuration."
+				"&c- If you need to migrate the archive, be sure to copy the configuration file &cof &eGTL Additions as well."
+				"&c- Otherwise, all internal &4templates will be lost and &cwill be lost."
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:aluminium_gear"
 			id: "6C46E5641ADF7F11"
@@ -387,11 +391,11 @@
 				"6C46E5641ADF7F11"
 			]
 			description: [
-		"&6&l» Enhanced Edition Feedback"
-		"&f- If you encounter any bugs, please contact the author."
-		"&f- Please do not ask questions about this edition in official base pack groups."
-		"&b- Enhanced Edition Discussion Group: 810854777"
-	]
+				"&6&l» Enhanced Edition Feedback"
+				"&f- If you encounter any bugs, please contact the author."
+				"&f- Please do not ask questions about this edition in official base pack groups."
+				"&b- Enhanced Edition Discussion Group: 810854777"
+			]
 			icon: "minecraft:grass_block"
 			icon_scale: 2.0d
 			id: "075D368E91231337"
@@ -444,7 +448,9 @@
 		}
 		{
 			dependencies: ["4A96F99E9B466799"]
-			description: [ "&f- Stone Age" ]
+			description: [
+				"&f- Stone Age"
+			]
 			icon: "minecraft:cobblestone"
 			id: "2DC6C5D7DDA578F7"
 			quest_enhance_disable_scroll_paging: false
@@ -472,10 +478,10 @@
 		{
 			dependencies: ["2205BD26091810A7"]
 			description: [
-		"&b- Solar panels could work in a superflat world"
-		""
-		"&f- The fragmented world collector comes with a fluid output space of &b&l32B &f. The machine will not work when the single fluid output exceeds this value."
-	]
+				"&b- Solar panels could work in a superflat world"
+				""
+				"&f- The fragmented world collector comes with a fluid output space of &b&l32B &f. The machine will not work when the single fluid output exceeds this value."
+			]
 			icon: "minecraft:diamond_ore"
 			id: "4A96F99E9B466799"
 			optional: true
@@ -546,7 +552,9 @@
 		}
 		{
 			dependencies: ["4A96F99E9B466799"]
-			description: [ "&f- Materials with multi-block structure can be placed in the backpack and should not be placed in the accessories slot. They will be automatically retrieved when molding using the terminal." ]
+			description: [
+				"&f- Materials with multi-block structure can be placed in the backpack and should not be placed in the accessories slot. They will be automatically retrieved when molding using the terminal."
+			]
 			icon: {
 				Count: 1
 				id: "sophisticatedbackpacks:backpack"
@@ -661,10 +669,10 @@
 		{
 			dependencies: ["2205BD26091810A7"]
 			description: [
-		"&f- Every time you restore &91 heart of health &f, you will automatically get 1 steel ingot, which is the crystallization of your will."
-		""
-		"&f- It is said that when you restore a certain number of hearts, something magical will happen."
-	]
+				"&f- Every time you restore &91 heart of health &f, you will automatically get 1 steel ingot, which is the crystallization of your will."
+				""
+				"&f- It is said that when you restore a certain number of hearts, something magical will happen."
+			]
 			icon: "gtceu:steel_ingot"
 			id: "517AFE9DCCC8D18B"
 			quest_enhance_disable_scroll_paging: false
@@ -679,13 +687,13 @@
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
 			description: [
-		"In the enhanced version, the smelting speed has been magically modified and all items burn instantly."
-		""
-		"&6&l» Mineral Label Wildcard"
-		"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:ores \"},\"text\":\"Click to copy raw ore wildcard\"}"
-		""
-		"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:raw_materials \"},\"text\":\"Click to copy coarse ore wildcard\"}"
-	]
+				"In the enhanced version, the smelting speed has been magically modified and all items burn instantly."
+				""
+				"&6&l» Mineral Label Wildcard"
+				"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:ores \"},\"text\":\"Click to copy raw ore wildcard\"}"
+				""
+				"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:raw_materials \"},\"text\":\"Click to copy coarse ore wildcard\"}"
+			]
 			id: "44729EFC60A3D662"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -728,15 +736,15 @@
 		{
 			dependencies: ["2205BD26091810A7"]
 			description: [
-		"&6&l» World Teleport"
-		"&f- Right click &8Obsidian &fto go to &7Void World &f, right click &5Crying Obsidian &fto go to &7Super Flat World &f."
-		"&f- The &6X, Z &fcoordinates of the teleported location are &610 times &fof the main world coordinates."
-		"&c- Note: Coordinate abnormalities may occur if the distance is too far from the origin, and it is recommended to avoid this."
-		""
-		"&6&l» World characteristics"
-		"&f- The void world and the super-flat world are time-locked, and creatures will not be refreshed, nor will it rain."
-		"&f- But it is still affected by the weather in the main world: when it rains in the main world, the two worlds turn to cloudy."
-	]
+				"&6&l» World Teleport"
+				"&f- Right click &8Obsidian &fto go to &7Void World &f, right click &5Crying Obsidian &fto go to &7Super Flat World &f."
+				"&f- The &6X, Z &fcoordinates of the teleported location are &610 times &fof the main world coordinates."
+				"&c- Note: Coordinate abnormalities may occur if the distance is too far from the origin, and it is recommended to avoid this."
+				""
+				"&6&l» World characteristics"
+				"&f- The void world and the super-flat world are time-locked, and creatures will not be refreshed, nor will it rain."
+				"&f- But it is still affected by the weather in the main world: when it rains in the main world, the two worlds turn to cloudy."
+			]
 			icon: "minecraft:obsidian"
 			id: "07AC1B02299EF734"
 			optional: true
@@ -991,22 +999,22 @@
 		{
 			dependencies: ["62EC7CE2D95D7E45"]
 			description: [
-		"&6&l» Island expansion tool"
-		"&f- It can automatically identify and fill blocks of &a1×1 &for &a3×3 &f. It is a very useful helper for island expansion."
-		""
-		"&6&l» How to operate"
-		"&f- Use &estick &for &ewrench &fto adjust the pattern."
-		"&f- Hold the controller close to the platform block to display the expanded preview."
-		"&f- Right-click on the platform block while standing to switch platform types."
-		"&f- Right-click the platform block while sneaking to switch whether to fill it up and down."
-		"&f- Right-click the platform block with any stone in hand to expand the platform according to the current settings."
-		""
-		"&4&l» Important warning"
-		"&c- Before unfolding the platform, please be sure to confirm the filling direction!"
-		"&c- When filled, it directly destroys and replaces all blocks in that direction."
-		"&c- It is recommended to sneak right-click with a wrench or wooden stick to switch the mode to:"
-		"&a- \"The blocks above the platform will remain\" &cfor safety reasons."
-	]
+				"&6&l» Island expansion tool"
+				"&f- It can automatically identify and fill blocks of &a1×1 &for &a3×3 &f. It is a very useful helper for island expansion."
+				""
+				"&6&l» How to operate"
+				"&f- Use &estick &for &ewrench &fto adjust the pattern."
+				"&f- Hold the controller close to the platform block to display the expanded preview."
+				"&f- Right-click on the platform block while standing to switch platform types."
+				"&f- Right-click the platform block while sneaking to switch whether to fill it up and down."
+				"&f- Right-click the platform block with any stone in hand to expand the platform according to the current settings."
+				""
+				"&4&l» Important warning"
+				"&c- Before unfolding the platform, please be sure to confirm the filling direction!"
+				"&c- When filled, it directly destroys and replaces all blocks in that direction."
+				"&c- It is recommended to sneak right-click with a wrench or wooden stick to switch the mode to:"
+				"&a- \"The blocks above the platform will remain\" &cfor safety reasons."
+			]
 			icon: "industrial_platform:industrial_platform"
 			id: "3EED8F13FFEC140F"
 			quest_enhance_disable_scroll_paging: false
@@ -1039,9 +1047,9 @@
 			dependencies: ["2C6F506ADD78F277"]
 			dependency_requirement: "one_started"
 			description: [
-		"&9Burn the iron with your fiery gaze &fto get a wrought iron ingot"
-		"&f- Your main source of wrought iron ingots will be the &6electric arc furnace"
-	]
+				"&9Burn the iron with your fiery gaze &fto get a wrought iron ingot"
+				"&f- Your main source of wrought iron ingots will be the &6electric arc furnace"
+			]
 			disable_toast: true
 			icon: "gtceu:wrought_iron_ingot"
 			id: "71A79CC3C94E4126"
@@ -1069,7 +1077,9 @@
 		}
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
-			description: [ "&f- Entering the Iron Age" ]
+			description: [
+				"&f- Entering the Iron Age"
+			]
 			id: "2C6F506ADD78F277"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1101,12 +1111,12 @@
 		{
 			dependencies: ["2C6F506ADD78F277"]
 			description: [
-		"&6&l» Vulnerable tools"
-		"&f- Thanks to G Suroden's fragile tool components, it can be used directly when writing templates without the need to prepare conventional tools."
-		""
-		"&e- &l※ Characteristics"
-		"&e- Fragile tools can be regarded as tool sets with only 1 point of durability and will be automatically destroyed after synthesis."
-	]
+				"&6&l» Vulnerable tools"
+				"&f- Thanks to G Suroden's fragile tool components, it can be used directly when writing templates without the need to prepare conventional tools."
+				""
+				"&e- &l※ Characteristics"
+				"&e- Fragile tools can be regarded as tool sets with only 1 point of durability and will be automatically destroyed after synthesis."
+			]
 			icon: {
 				Count: 1
 				id: "gtceu:iron_hammer"
@@ -1266,7 +1276,9 @@
 		{
 			dependencies: ["6A7BE998C2EC882D"]
 			dependency_requirement: "all_started"
-			description: [ "&f- Grind into powder using a mortar and mix with bare hands" ]
+			description: [
+				"&f- Grind into powder using a mortar and mix with bare hands"
+			]
 			id: "133BC85B5D3EF1CB"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1292,25 +1304,25 @@
 		}
 		{
 			dependencies: ["6A7BE998C2EC882D"]
-			description: "[
-				\"&f- Handheld terminal &6 sneak right click &f multi-block host: &a automatically builds &f structure.\"
-				\"&f-&dRight-click with bare hands&fMulti-block host: &aShow preview&f.\"
-				\"&f- The terminal can recognize the &f blocks in the &b exquisite backpack (the backpack cannot be placed in the accessory slot).\"
-				\"\"
-				\"&6&l» Building suggestions\"
-				\"&c- There are a few problems with automatic construction. It is recommended to put only the structural blocks in the backpack first, and then automatically place the functional warehouse after the main body is automatically built.\"
-				\"&f- &b The warehouse-less mode &f is very useful, but you need to right-click to open the GUI every time you enter the archive before it will take effect.\"
-				\"\"
-				\"&6&l» Repeating structure\"
-				\"&f-Set &e the number of repeated structures &f, suitable for multi-block structures that can be stacked in multiple layers, such as distillation towers. The larger the value, the longer the structure.\"
-				\"\"
-				\"&6&l» Advanced terminal extension\"
-				\"&f - Supports &b replacement of &f coils, space elevator power modules, component assembly line shells and stellar thermal vessels (click the \"level square\" text to open the selection interface).\"
-				\"&f-Supports &b mirror placement &f of multi-block structures. At this time, the warehouse-free mode continues to take effect.\"
-				\"\"
-				\"&6&l» Practical Tips\"
-				\"&f- &6Shift+right-click&f has unlimited access to nodes, which can directly extract items and fluids from the AE network during construction. It is especially useful for multi-block structures that require water.\"
-			]"
+			description: [
+				"\"&f- Handheld terminal &6 sneak right click &f multi-block host: &a automatically builds &f structure.\""
+				"\"&f-&dRight-click with bare hands&fMulti-block host: &aShow preview&f.\""
+				"\"&f- The terminal can recognize the &f blocks in the &b exquisite backpack (the backpack cannot be placed in the accessory slot).\""
+				""
+				"\"&6&l» Building suggestions\""
+				"\"&c- There are a few problems with automatic construction. It is recommended to put only the structural blocks in the backpack first, and then automatically place the functional warehouse after the main body is automatically built.\""
+				"\"&f- &b The warehouse-less mode &f is very useful, but you need to right-click to open the GUI every time you enter the archive before it will take effect.\""
+				""
+				"\"&6&l» Repeating structure\""
+				"\"&f-Set &e the number of repeated structures &f, suitable for multi-block structures that can be stacked in multiple layers, such as distillation towers. The larger the value, the longer the structure.\""
+				""
+				"\"&6&l» Advanced terminal extension\""
+				"\"&f - Supports &b replacement of &f coils, space elevator power modules, component assembly line shells and stellar thermal vessels (click the \"level square\" text to open the selection interface).\""
+				"\"&f-Supports &b mirror placement &f of multi-block structures. At this time, the warehouse-free mode continues to take effect.\""
+				""
+				"\"&6&l» Practical Tips\""
+				"\"&f- &6Shift+right-click&f has unlimited access to nodes, which can directly extract items and fluids from the AE network during construction. It is especially useful for multi-block structures that require water.\""
+			]
 			icon: {
 				Count: 1
 				id: "gtlcore:ultimate_terminal"
@@ -1366,7 +1378,9 @@
 		}
 		{
 			dependencies: ["133BC85B5D3EF1CB"]
-			description: [ "&f- Main Materials of the Steam Age" ]
+			description: [
+				"&f- Main Materials of the Steam Age"
+			]
 			id: "4B6F43302E963F5E"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -1391,7 +1405,9 @@
 		}
 		{
 			dependencies: ["4B6F43302E963F5E"]
-			description: [ "Connect this item to your ME network. The items and fluids in AE will automatically complete your current task. There is no need to manually take it out and submit it." ]
+			description: [
+				"Connect this item to your ME network. The items and fluids in AE will automatically complete your current task. There is no need to manually take it out and submit it."
+			]
 			icon: "ae2:controller"
 			id: "3F38A56BBD3D0F9E"
 			quest_enhance_disable_scroll_paging: false
@@ -1411,7 +1427,9 @@
 		}
 		{
 			dependencies: ["4B6F43302E963F5E"]
-			description: [ "&f- With bronze, you can start crafting various steam-powered machines" ]
+			description: [
+				"&f- With bronze, you can start crafting various steam-powered machines"
+			]
 			icon: "gtceu:lp_steam_alloy_smelter"
 			id: "46F82A0A3D57C225"
 			quest_enhance_disable_scroll_paging: false
@@ -1432,13 +1450,13 @@
 		}
 		{
 			description: [
-		"&6&l» Hidden Achievements"
-		"&f- This pack contains multiple hidden achievements."
-		"&f- This may be the first one you find."
-		""
-		"&e- &l※ Keep up the good work"
-		"&e- Keep exploring, there may be more surprises waiting to be discovered."
-	]
+				"&6&l» Hidden Achievements"
+				"&f- This pack contains multiple hidden achievements."
+				"&f- This may be the first one you find."
+				""
+				"&e- &l※ Keep up the good work"
+				"&e- Keep exploring, there may be more surprises waiting to be discovered."
+			]
 			hide_until_deps_complete: true
 			icon: "gtceu:steam_bucket"
 			id: "113FC98BF64872F0"
@@ -1465,16 +1483,16 @@
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
 			description: [
-		"&6&l» Wireless access"
-		"&f- &6Sneak right click &fThe wireless access point can be bound to the ME network (you can also directly put it into the access point interface). After binding, you can directly call items in the network."
-		""
-		"&4&l» Cutting tool"
-		"&c- When using the shear tool, try not to rotate, otherwise some NBT data of the block may be lost."
-		""
-		"&6&l» 无线仓室"
-		"&f- The wireless energy warehouse, wireless power warehouse, and wireless laser warehouse placed or copied using the above tools need to be manually bound to the wireless network by right-clicking the &dflash memory &f."
-		"&c- If not bound, the warehouse will be unable to interact with the wireless network, resulting in no power or output."
-	]
+				"&6&l» Wireless access"
+				"&f- &6Sneak right click &fThe wireless access point can be bound to the ME network (you can also directly put it into the access point interface). After binding, you can directly call items in the network."
+				""
+				"&4&l» Cutting tool"
+				"&c- When using the shear tool, try not to rotate, otherwise some NBT data of the block may be lost."
+				""
+				"&6&l» 无线仓室"
+				"&f- The wireless energy warehouse, wireless power warehouse, and wireless laser warehouse placed or copied using the above tools need to be manually bound to the wireless network by right-clicking the &dflash memory &f."
+				"&c- If not bound, the warehouse will be unable to interact with the wireless network, resulting in no power or output."
+			]
 			hide_dependency_lines: true
 			icon: "buildinggadgets2:gadget_building"
 			id: "4B7B7EA38B836F96"
@@ -1550,11 +1568,11 @@
 		{
 			dependencies: ["4A96F99E9B466799"]
 			description: [
-		"&6&l» FTB enclosure and strong loading"
-		"&f- When selecting a block, a new &arectangular selection &fmode is now added in the upper right corner."
-		"&f- The default is &arectangular selection &fmode, click the icon to switch"
-		"&f- You can directly drag the mouse to select a large number of blocks in batches, &awithout clicking &fone by one."
-	]
+				"&6&l» FTB enclosure and strong loading"
+				"&f- When selecting a block, a new &arectangular selection &fmode is now added in the upper right corner."
+				"&f- The default is &arectangular selection &fmode, click the icon to switch"
+				"&f- You can directly drag the mouse to select a large number of blocks in batches, &awithout clicking &fone by one."
+			]
 			icon: "ftbquests:screen_1"
 			id: "4A12CB790A0E56F3"
 			quest_enhance_disable_scroll_paging: false
@@ -1569,9 +1587,9 @@
 		{
 			dependencies: ["71A79CC3C94E4126"]
 			description: [
-		"Don't click on this mission. This mission is just to prevent you from triggering the achievement \"The Eyes Are Like a Torch\" in the future."
-		"如果你感觉没必要 想完成全部任务 可以点这个任务"
-	]
+				"Don't click on this mission. This mission is just to prevent you from triggering the achievement \"The Eyes Are Like a Torch\" in the future."
+				"如果你感觉没必要 想完成全部任务 可以点这个任务"
+			]
 			id: "7EC485E306E518CA"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [
@@ -1591,11 +1609,11 @@
 		{
 			dependencies: ["096E10631D12B7D4"]
 			description: [
-		"You can completely customize your world"
-		"This world is a super-flat world. The world type is the main world."
-		"This world is an independent world, not with other players"
-		"&bCustom functions are disabled in the server"
-	]
+				"You can completely customize your world"
+				"This world is a super-flat world. The world type is the main world."
+				"This world is an independent world, not with other players"
+				"&bCustom functions are disabled in the server"
+			]
 			icon: "gtl_enhancedcore:plot_world_controller"
 			id: "2205BD26091810A7"
 			quest_enhance_disable_scroll_paging: false
@@ -1630,6 +1648,8 @@
 			y: 2.0d
 		}
 	]
-	subtitle: [ "Tier0-Stone Age" ]
+	subtitle: [
+				"Tier0-Stone Age"
+			]
 	title: "start from here"
 }

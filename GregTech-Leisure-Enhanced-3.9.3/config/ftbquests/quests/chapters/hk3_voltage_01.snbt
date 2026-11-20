@@ -3,8 +3,8 @@
   "id": "4B512CCEA32E6B1B",
   "title": "Colapso de pressão de energia HBV",
   "subtitle": [
-    "Tier15-HBV"
-  ],
+        "Tier15-HBV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 16,
   "icon": "hk3gtl:voltage_machine_casing_hbv",
@@ -14,10 +14,10 @@
       "id": "4B5599133D72B718",
       "title": "Depois do MÁXIMO",
       "subtitle": "Encontre a anomalia primeiro",
-      "description": "[
-        “A fábrica MAX ainda está operando, mas há uma leitura adicional nos dados de observação aérea enviados por Otto que não pode ser explicada.”,
-        “Primeiro faça o equipamento de amostragem e medição. Depois de obter a amostra real, você pode usar experimentos e pesquisas para descobrir passo a passo.”
-      ]",
+      "description": [
+        "A fábrica MAX ainda está operando, mas há uma leitura adicional nos dados de observação aérea enviados por Otto que não pode ser explicada.",
+        "Primeiro faça o equipamento de amostragem e medição. Depois de obter a amostra real, você pode usar experimentos e pesquisas para descobrir passo a passo."
+      ],
       "tasks": [
         {
           "id": "4B53D67DB22F6091",
@@ -99,9 +99,9 @@
       "id": "4B51A5DD7757E7FA",
       "title": "Componentes de amostragem e medição",
       "subtitle": "Faça o instrumento primeiro",
-      "description": "[
-        “Primeiro faça a câmara de amostragem de baixa temperatura e o componente de medição diferencial. A câmara de amostragem é responsável por reter as amostras, e o componente de medição diferencial é responsável por comparar as leituras.
-      ]",
+      "description": [
+        "“Primeiro faça a câmara de amostragem de baixa temperatura e o componente de medição diferencial. A câmara de amostragem é responsável por reter as amostras, e o componente de medição diferencial é responsável por comparar as leituras."
+      ],
       "tasks": [
         {
           "id": "4B5C8A6C4E508531",
@@ -129,9 +129,9 @@
       "id": "4B5146F8FCC2CB66",
       "title": "Protótipo de detector de energia de colapso",
       "subtitle": "Comece com aquela leitura anormal",
-      "description": "[
-        \"Instale a cavidade de amostragem e os componentes de medição diferencial no detector. Os dados de observação enviados por Otto nos dão uma orientação. Em seguida, temos que confiar em nossos próprios instrumentos para encontrá-los.\"
-      ]",
+      "description": [
+        "\"Instale a cavidade de amostragem e os componentes de medição diferencial no detector. Os dados de observação enviados por Otto nos dão uma orientação. Em seguida, temos que confiar em nossos próprios instrumentos para encontrá-los.\""
+      ],
       "tasks": [
         {
           "id": "4B5DA6B439B42E27",
@@ -152,9 +152,9 @@
       "id": "4B5D3AE78A2F4B44",
       "title": "Controlador de torre de coleta de energia Honkai",
       "subtitle": "Deixe o ar líquido passar por aqui",
-      "description": "[
-        \"Primeiro construa o controlador da torre de coleta e, em seguida, conecte a estrutura, a interface do fluido e a fonte de alimentação MAX. O detector de teste permanecerá na torre e continuará a ser usado durante a amostragem.\"
-      ]",
+      "description": [
+        "\"Primeiro construa o controlador da torre de coleta e, em seguida, conecte a estrutura, a interface do fluido e a fonte de alimentação MAX. O detector de teste permanecerá na torre e continuará a ser usado durante a amostragem.\""
+      ],
       "tasks": [
         {
           "id": "4B527F35045CA57E",
@@ -175,10 +175,10 @@
       "id": "4B52B08CFC461F2C",
       "title": "Reconhecimento Honkai",
       "subtitle": "Resta um pouco em um milhão de barris",
-      "description": "[
-        \"Cada lote da torre de coleta consome 1.000.000 mB de ar líquido e extrai 100 mB de energia de colapso líquido. Você pode começar lendo os dados de observação de Otto. Cabe a você decidir se aceita a cooperação.\",
-        “Depois que o primeiro lote de amostras reais for lançado, vá ao instituto de pesquisa para concluir a identificação de energia Honkai. O detector será retido durante este processo.”
-      ]",
+      "description": [
+        "\"Cada lote da torre de coleta consome 1.000.000 mB de ar líquido e extrai 100 mB de energia de colapso líquido. Você pode começar lendo os dados de observação de Otto. Cabe a você decidir se aceita a cooperação.\"",
+        "Depois que o primeiro lote de amostras reais for lançado, vá ao instituto de pesquisa para concluir a identificação de energia Honkai. O detector será retido durante este processo."
+      ],
       "tasks": [
         {
           "id": "4B546F275EF1842E",
@@ -202,9 +202,9 @@
       "id": "4B5225A9FF2B7BE2",
       "title": "Ampolas espectrais reutilizáveis",
       "subtitle": "Deixe um recipiente limpo para a amostra",
-      "description": "[
-        “Prepare a ampola primeiro. Ela contém energia de colapso líquido quando a amostra é selada. Ela será devolvida em sua forma original após a conclusão do experimento de espectro e pode ser usada no próximo lote.”
-      ]",
+      "description": [
+        "Prepare a ampola primeiro. Ela contém energia de colapso líquido quando a amostra é selada. Ela será devolvida em sua forma original após a conclusão do experimento de espectro e pode ser usada no próximo lote."
+      ],
       "tasks": [
         {
           "id": "4B5C868A741A6871",
@@ -223,9 +223,9 @@
       "id": "4B5427A9682A52A5",
       "title": "Colapso do filme de calibração do espectro de energia",
       "subtitle": "Calibrar antes da análise",
-      "description": "[
-        \"Faça um lote de filmes de calibração espectral. Um experimento de espectro inicial consome quatro folhas e salve-as primeiro para a matriz de análise.\"
-      ]",
+      "description": [
+        "\"Faça um lote de filmes de calibração espectral. Um experimento de espectro inicial consome quatro folhas e salve-as primeiro para a matriz de análise.\""
+      ],
       "tasks": [
         {
           "id": "4B577098367A7BC7",
@@ -244,9 +244,9 @@
       "id": "4B5972DD84BD42B0",
       "title": "Exemplo de controlador de matriz espectral",
       "subtitle": "Veja o que há na amostra",
-      "description": "[
-        \"Use componentes de medição diferencial para criar um controlador de matriz espectral. Depois de configurar a matriz, conecte a amostra e o filme de calibração aos terminais de entrada, respectivamente.\"
-      ]",
+      "description": [
+        "\"Use componentes de medição diferencial para criar um controlador de matriz espectral. Depois de configurar a matriz, conecte a amostra e o filme de calibração aos terminais de entrada, respectivamente.\""
+      ],
       "tasks": [
         {
           "id": "4B542370B6ACA72F",
@@ -267,9 +267,9 @@
       "id": "4B538C8A0EA657E0",
       "title": "Arquivando amostras espectrais",
       "subtitle": "Embale a primeira amostra",
-      "description": "[
-        \"A energia do colapso do líquido é carregada em ampolas reutilizáveis usando uma máquina de enlatamento. As amostras seladas são então enviadas para o conjunto espectroscópico.\"
-      ]",
+      "description": [
+        "\"A energia do colapso do líquido é carregada em ampolas reutilizáveis usando uma máquina de enlatamento. As amostras seladas são então enviadas para o conjunto espectroscópico.\""
+      ],
       "tasks": [
         {
           "id": "4B5E002492E3F2F3",
@@ -291,10 +291,10 @@
       "id": "4B5CF2EB987405D1",
       "title": "Análise espectral de amostra",
       "subtitle": "Conclua esta medição primeiro",
-      "description": "[
-        \"Conclua o experimento inicial no arranjo espectral e obtenha a amostra de análise. O sensor MAX fica retido como ferramental e a ampola será devolvida junto com o produto.\",
-        “Traga os registros experimentais reais da equipe para o instituto de pesquisa para completar a análise do espectro da amostra. Em seguida, podemos construir um centro de separação.”
-      ]",
+      "description": [
+        "\"Conclua o experimento inicial no arranjo espectral e obtenha a amostra de análise. O sensor MAX fica retido como ferramental e a ampola será devolvida junto com o produto.\"",
+        "Traga os registros experimentais reais da equipe para o instituto de pesquisa para completar a análise do espectro da amostra. Em seguida, podemos construir um centro de separação."
+      ],
       "tasks": [
         {
           "id": "4B5169BE3F15D266",
@@ -318,9 +318,9 @@
       "id": "4B5C2AB0B83916A9",
       "title": "Controlador do Centro de Separação de Energia Honkai",
       "subtitle": "Deixe uma saída para cada licor bruto, licor-mãe e rejeitos",
-      "description": "[
-        “Após a conclusão do estudo espectral, é fabricado o controlador do centro de separação. Ele é responsável pelo fracionamento primário, purificação do licor mãe e diversos processos de recuperação.
-      ]",
+      "description": [
+        "“Após a conclusão do estudo espectral, é fabricado o controlador do centro de separação. Ele é responsável pelo fracionamento primário, purificação do licor mãe e diversos processos de recuperação."
+      ],
       "tasks": [
         {
           "id": "4B5BD17C909DBA36",
@@ -341,9 +341,9 @@
       "id": "4B5A8BA1982E056E",
       "title": "Elemento de filtro de separação e matriz de cristal",
       "subtitle": "Prepare suprimentos frescos primeiro",
-      "description": "[
-        \"Tanto o elemento filtrante quanto a matriz de cristalização orientada podem começar com materiais MAX. A separação e a estabilização continuarão a consumi-los, portanto, deixe espaço para ambos os lados primeiro.\"
-      ]",
+      "description": [
+        "\"Tanto o elemento filtrante quanto a matriz de cristalização orientada podem começar com materiais MAX. A separação e a estabilização continuarão a consumi-los, portanto, deixe espaço para ambos os lados primeiro.\""
+      ],
       "tasks": [
         {
           "id": "4B51C11D7EE37538",
@@ -369,9 +369,9 @@
       "id": "4B5EFBBF652DADD7",
       "title": "Extrato Seletivo Fresco",
       "subtitle": "O primeiro lote não precisa esperar pela fila de reciclagem",
-      "description": "[
-        “O extrato fresco é produzido na central de separação. Ele é enviado para fracionamento primário e os resíduos do processo que o acompanham são coletados separadamente.”
-      ]",
+      "description": [
+        "O extrato fresco é produzido na central de separação. Ele é enviado para fracionamento primário e os resíduos do processo que o acompanham são coletados separadamente."
+      ],
       "tasks": [
         {
           "id": "4B5CA2E4D4CBB2DD",
@@ -393,10 +393,10 @@
       "id": "4B5932E463E1338F",
       "title": "Processo de separação de líquidos",
       "subtitle": "Conecte todas as tomadas",
-      "description": "[
-        \"Deixe o líquido de extração inicial, o líquido de extração e os consumíveis completarem um fracionamento primário. O líquido bruto, o licor-mãe, os reagentes analíticos e as impurezas sólidas são todos usados para uso subsequente, e o líquido de extração residual também é armazenado primeiro.\",
-        “Depois que nossa equipe receber esse lote de produtos na íntegra, iremos ao instituto de pesquisa para concluir o processo de separação do líquido”.
-      ]",
+      "description": [
+        "\"Deixe o líquido de extração inicial, o líquido de extração e os consumíveis completarem um fracionamento primário. O líquido bruto, o licor-mãe, os reagentes analíticos e as impurezas sólidas são todos usados para uso subsequente, e o líquido de extração residual também é armazenado primeiro.\"",
+        "“Depois que nossa equipe receber esse lote de produtos na íntegra, iremos ao instituto de pesquisa para concluir o processo de separação do líquido”."
+      ],
       "tasks": [
         {
           "id": "4B5FF1B1CEED8B2B",
@@ -419,9 +419,9 @@
       "id": "4B5613CC20ED2AED",
       "title": "Purificação de licor-mãe e separação de partículas",
       "subtitle": "O meio para a próxima etapa vem do licor-mãe.",
-      "description": "[
-        \"Continuar a processar o licor-mãe, analisar reagentes e impurezas sólidas e separar o meio de separação Honkai Impact e as partículas originais. Deixe saídas separadas para reagentes residuais, licor-mãe clarificado e líquido residual do processo.\"
-      ]",
+      "description": [
+        "\"Continuar a processar o licor-mãe, analisar reagentes e impurezas sólidas e separar o meio de separação Honkai Impact e as partículas originais. Deixe saídas separadas para reagentes residuais, licor-mãe clarificado e líquido residual do processo.\""
+      ],
       "tasks": [
         {
           "id": "4B5AC2EE0A4C0444",
@@ -442,9 +442,9 @@
       "id": "4B5333987B6B5A43",
       "title": "Recolher Semente",
       "subtitle": "Dê à cristalização um ponto de partida primeiro",
-      "description": "[
-        \"Crie cristais-semente a partir de partículas originais e meios de separação. A torre estabilizadora consome cristais-semente, então conecte este suprimento primeiro.\"
-      ]",
+      "description": [
+        "\"Crie cristais-semente a partir de partículas originais e meios de separação. A torre estabilizadora consome cristais-semente, então conecte este suprimento primeiro.\""
+      ],
       "tasks": [
         {
           "id": "4B53A338E00C194F",
@@ -465,9 +465,9 @@
       "id": "4B50E15FA6696E03",
       "title": "meio estável fresco",
       "subtitle": "Este balde é preparado primeiro com novos ingredientes",
-      "description": "[
-        “Misture o meio de separação com os novos materiais da fórmula para obter um meio estável. O meio residual pode ser reciclado posteriormente, e o primeiro lote de estabilização tem um suprimento fresco independente.”
-      ]",
+      "description": [
+        "Misture o meio de separação com os novos materiais da fórmula para obter um meio estável. O meio residual pode ser reciclado posteriormente, e o primeiro lote de estabilização tem um suprimento fresco independente."
+      ],
       "tasks": [
         {
           "id": "4B5FF7EDB65419F2",
@@ -489,9 +489,9 @@
       "id": "4B55EB47DE47E9B6",
       "title": "Líquido refrigerante industrial Honkai",
       "subtitle": "O calor também precisa de um caminho a seguir",
-      "description": "[
-        \"Use um misturador para preparar refrigerante industrial novo e forneça-o primeiro à torre de estabilização. O refrigerante quente usado é recuperado separadamente ou armazenado temporariamente.\"
-      ]",
+      "description": [
+        "\"Use um misturador para preparar refrigerante industrial novo e forneça-o primeiro à torre de estabilização. O refrigerante quente usado é recuperado separadamente ou armazenado temporariamente.\""
+      ],
       "tasks": [
         {
           "id": "4B544F79877EE0D7",
@@ -511,9 +511,9 @@
       "id": "4B54265A0F8156B7",
       "title": "Controlador de torre de estabilização de energia de colapso líquido",
       "subtitle": "O líquido bruto está pronto para entrar no próximo processo",
-      "description": "[
-        “Após a conclusão da pesquisa de separação de líquidos, o controlador da torre estabilizadora é fabricado. Conecte o líquido bruto, o meio estabilizador e o líquido de resfriamento e, em seguida, prepare o cristal semente e a matriz de cristalização.”
-      ]",
+      "description": [
+        "Após a conclusão da pesquisa de separação de líquidos, o controlador da torre estabilizadora é fabricado. Conecte o líquido bruto, o meio estabilizador e o líquido de resfriamento e, em seguida, prepare o cristal semente e a matriz de cristalização."
+      ],
       "tasks": [
         {
           "id": "4B5C34EEF1D35D26",
@@ -534,10 +534,10 @@
       "id": "4B5BE03D48DB244E",
       "title": "Estabilização de energia de colapso líquido",
       "subtitle": "Deixe este lote de amostras entrar na oficina de materiais",
-      "description": "[
-        “O primeiro lote de estabilização é concluído na torre de estabilização, deixando o líquido estabilizante e a cristalização. Após o uso, o meio, o líquido residual da cristalização, o líquido refrigerante quente e os resíduos também devem ser retirados.”,
-        “Vá ao instituto de pesquisa para concluir o projeto de estabilização e, em seguida, impregne o aço alma com a solução estabilizadora.”
-      ]",
+      "description": [
+        "O primeiro lote de estabilização é concluído na torre de estabilização, deixando o líquido estabilizante e a cristalização. Após o uso, o meio, o líquido residual da cristalização, o líquido refrigerante quente e os resíduos também devem ser retirados.",
+        "Vá ao instituto de pesquisa para concluir o projeto de estabilização e, em seguida, impregne o aço alma com a solução estabilizadora."
+      ],
       "tasks": [
         {
           "id": "4B5158267B22C05A",
@@ -562,9 +562,9 @@
       "id": "4B517CFE24713919",
       "title": "Base Soul Steel e pacote de folha de interface",
       "subtitle": "O esqueleto de suporte e os materiais de interface são preparados separadamente.",
-      "description": "[
-        \"Primeiro, use materiais MAX para extrusar as peças pré-fabricadas da matriz de suporte de carga e os pacotes de folhas de interface gradiente. Eles entrarão no SPS juntos como o esqueleto físico do primeiro lote de aço alma.\"
-      ]",
+      "description": [
+        "\"Primeiro, use materiais MAX para extrusar as peças pré-fabricadas da matriz de suporte de carga e os pacotes de folhas de interface gradiente. Eles entrarão no SPS juntos como o esqueleto físico do primeiro lote de aço alma.\""
+      ],
       "tasks": [
         {
           "id": "4B56C03C1B7C31C0",
@@ -590,9 +590,9 @@
       "id": "4B58076AAAF76C4C",
       "title": "Aço alma impregnado com abismo · blank misto primário",
       "subtitle": "Faça a base primeiro",
-      "description": "[
-        “As pré-formas, embalagens metálicas e outros materiais são alimentados no SPS, que cria uma pré-mistura. A produção do fluido estabilizador pode ser realizada ao mesmo tempo, e será utilizado posteriormente no processo de impregnação.”
-      ]",
+      "description": [
+        "As pré-formas, embalagens metálicas e outros materiais são alimentados no SPS, que cria uma pré-mistura. A produção do fluido estabilizador pode ser realizada ao mesmo tempo, e será utilizado posteriormente no processo de impregnação."
+      ],
       "tasks": [
         {
           "id": "4B50C64BC1D04FC3",
@@ -613,9 +613,9 @@
       "id": "4B515A66100DA19B",
       "title": "Aço alma impregnado Haiyuan · placa impregnada",
       "subtitle": "Use fluido estabilizador e meio espacial no material",
-      "description": "[
-        \"A mistura primária e o fluido estabilizador se encontram aqui. Continue a completar a impregnação SPS e incorpore o meio espacial neste lote de materiais.\"
-      ]",
+      "description": [
+        "\"A mistura primária e o fluido estabilizador se encontram aqui. Continue a completar a impregnação SPS e incorpore o meio espacial neste lote de materiais.\""
+      ],
       "tasks": [
         {
           "id": "4B5D1B668871D773",
@@ -637,9 +637,9 @@
       "id": "4B5445E64EC79ED6",
       "title": "Boleto padrão de aço alma impregnado Haiyuan",
       "subtitle": "Sob atmosfera protetora, faça outro tratamento térmico",
-      "description": "[
-        “Concluir o tratamento de estabilização térmica dos blanks impregnados e obter o primeiro lote de blanks padrão. As placas, hastes e molduras subsequentes são desviadas daqui.”
-      ]",
+      "description": [
+        "Concluir o tratamento de estabilização térmica dos blanks impregnados e obter o primeiro lote de blanks padrão. As placas, hastes e molduras subsequentes são desviadas daqui."
+      ],
       "tasks": [
         {
           "id": "4B5A083186C5464F",
@@ -660,9 +660,9 @@
       "id": "4B5F92439E437695",
       "title": "Placa de aço Soul impregnada de abismo",
       "subtitle": "Deixe uma cópia para o caso primeiro",
-      "description": "[
-        \"Use o processo de primeira produção MAX para prensar a peça bruta padrão em uma placa. Os cubos mecânicos HBV requerem dezesseis peças, não use todas elas em outras montagens.\"
-      ]",
+      "description": [
+        "\"Use o processo de primeira produção MAX para prensar a peça bruta padrão em uma placa. Os cubos mecânicos HBV requerem dezesseis peças, não use todas elas em outras montagens.\""
+      ],
       "tasks": [
         {
           "id": "4B5E51C2EBFCA87B",
@@ -683,9 +683,9 @@
       "id": "4B5FF5437A48B597",
       "title": "Haste de aço alma impregnada de abismo",
       "subtitle": "Outro lote de tarugos padrão é usado para fazer hastes de suporte de carga",
-      "description": "[
-        \"As hastes de suporte de carga compostas são usinadas a partir de peças brutas padrão. Elas vão para a montagem da estrutura e, junto com os painéis, formam o novo revestimento.\"
-      ]",
+      "description": [
+        "\"As hastes de suporte de carga compostas são usinadas a partir de peças brutas padrão. Elas vão para a montagem da estrutura e, junto com os painéis, formam o novo revestimento.\""
+      ],
       "tasks": [
         {
           "id": "4B5EAB6B9FD2105F",
@@ -706,9 +706,9 @@
       "id": "4B5F1B1509FB936A",
       "title": "Componentes da estrutura de aço Soul",
       "subtitle": "Conecte a estrutura de suporte",
-      "description": "[
-        “Use hastes de aço alma para montar os componentes da estrutura. Cada cubo mecânico HBV requer duas estruturas, e esta linha de montagem é organizada de acordo com a saída da caixa.”
-      ]",
+      "description": [
+        "Use hastes de aço alma para montar os componentes da estrutura. Cada cubo mecânico HBV requer duas estruturas, e esta linha de montagem é organizada de acordo com a saída da caixa."
+      ],
       "tasks": [
         {
           "id": "4B5CAF21C3F6F136",
@@ -729,10 +729,10 @@
       "id": "4B5CE12B258170FA",
       "title": "Bloco mecânico de pressão de energia de colapso HBV",
       "subtitle": "O primeiro lote de carcaças de prensas energéticas colapsáveis",
-      "description": "[
-        \"A placa e a estrutura de aço alma foram montadas. Juntamente com a placa do caos, antigos materiais industriais e poliimida, foi instalado o primeiro cubo mecânico HBV.\",
-        “Este primeiro processo de fabricação ainda utiliza energia MAX. Os equipamentos subsequentes e a fonte de alimentação HBV continuarão a ser preparados de acordo com suas respectivas condições reais.”
-      ]",
+      "description": [
+        "\"A placa e a estrutura de aço alma foram montadas. Juntamente com a placa do caos, antigos materiais industriais e poliimida, foi instalado o primeiro cubo mecânico HBV.\"",
+        "Este primeiro processo de fabricação ainda utiliza energia MAX. Os equipamentos subsequentes e a fonte de alimentação HBV continuarão a ser preparados de acordo com suas respectivas condições reais."
+      ],
       "tasks": [
         {
           "id": "4B5C4562571D7B19",
@@ -754,9 +754,9 @@
       "id": "4B55BDE780E69245",
       "title": "Três conjuntos de componentes para telefones celulares",
       "subtitle": "Display, comunicação e fonte de alimentação isolada",
-      "description": "[
-        \"O painel óptico de toque, o módulo de interconexão de comunicação duplex e o módulo de fonte de alimentação com isolamento de baixa tensão são feitos separadamente. Os três conjuntos de componentes são todos feitos de MAX original e materiais anteriores.\"
-      ]",
+      "description": [
+        "\"O painel óptico de toque, o módulo de interconexão de comunicação duplex e o módulo de fonte de alimentação com isolamento de baixa tensão são feitos separadamente. Os três conjuntos de componentes são todos feitos de MAX original e materiais anteriores.\""
+      ],
       "tasks": [
         {
           "id": "4B5B2E71FF105FEE",
@@ -789,9 +789,9 @@
       "id": "4B513DF0FBF2683B",
       "title": "Telefone celular HK3GTL",
       "subtitle": "Monte três módulos em um terminal",
-      "description": "[
-        “A montagem final do celular está concluída. O terminal sem fio e os dispositivos MAX ainda são colocados de acordo com a fórmula completa, e os componentes da montagem também mantêm seus respectivos usos.”
-      ]",
+      "description": [
+        "A montagem final do celular está concluída. O terminal sem fio e os dispositivos MAX ainda são colocados de acordo com a fórmula completa, e os componentes da montagem também mantêm seus respectivos usos."
+      ],
       "tasks": [
         {
           "id": "4B5DF92470253E7E",
@@ -812,10 +812,10 @@
       "id": "4B54B1712D2ED530",
       "title": "Instituto de Pesquisa e Chassi Industrial",
       "subtitle": "Encontre um local para experimentos e pesquisas primeiro",
-      "description": "[
-        \"Faça um controlador para o Instituto do Fenômeno do Colapso e, em seguida, use os cubos mecânicos MAX para modificar o invólucro industrial. Depois que o controlador e o invólucro estiverem prontos, construa a instalação de acordo com a estrutura real.\",
-        “Os quatro projetos iniciais foram todos concluídos no instituto, e experimentos reais, materiais de pesquisa, pontos e eletricidade foram resolvidos de acordo com os requisitos do projeto.”
-      ]",
+      "description": [
+        "\"Faça um controlador para o Instituto do Fenômeno do Colapso e, em seguida, use os cubos mecânicos MAX para modificar o invólucro industrial. Depois que o controlador e o invólucro estiverem prontos, construa a instalação de acordo com a estrutura real.\"",
+        "Os quatro projetos iniciais foram todos concluídos no instituto, e experimentos reais, materiais de pesquisa, pontos e eletricidade foram resolvidos de acordo com os requisitos do projeto."
+      ],
       "tasks": [
         {
           "id": "4B5A0B2E755FA7F7",
@@ -843,9 +843,9 @@
       "id": "4B5D6484B5CE7D14",
       "title": "Refluxo de licor-mãe clarificado",
       "subtitle": "Mantenha um pote de licor mãe primeiro",
-      "description": "[
-        “Envie o licor-mãe purificado e clarificado de volta ao processo de separação para obter outro lote de líquido bruto e subprodutos. Esta linha de retorno é conectada após o primeiro lote de separação.”
-      ]",
+      "description": [
+        "Envie o licor-mãe purificado e clarificado de volta ao processo de separação para obter outro lote de líquido bruto e subprodutos. Esta linha de retorno é conectada após o primeiro lote de separação."
+      ],
       "tasks": [
         {
           "id": "4B5780F09B8ACEDC",
@@ -867,9 +867,9 @@
       "id": "4B55059A70EA0AD8",
       "title": "Regeneração de mídia estabilizadora gasta",
       "subtitle": "Componentes recicláveis ​​podem ser reutilizados",
-      "description": "[
-        \"Processar os meios residuais deixados pela estabilização e reciclar parte dos meios de estabilização. O restante líquido residual do processo continua a ser coletado separadamente.\"
-      ]",
+      "description": [
+        "\"Processar os meios residuais deixados pela estabilização e reciclar parte dos meios de estabilização. O restante líquido residual do processo continua a ser coletado separadamente.\""
+      ],
       "tasks": [
         {
           "id": "4B5B2D5373A5D7D6",
@@ -891,9 +891,9 @@
       "id": "4B50B00190928E93",
       "title": "Recondicionamento de refrigerante quente",
       "subtitle": "Conecte o tubo de calor de volta também",
-      "description": "[
-        \"Processe refrigerante industrial quente e recupere uma parte do refrigerante que pode ser reutilizada. As perdas de recuperação são compensadas por fornecimento novo.\"
-      ]",
+      "description": [
+        "\"Processe refrigerante industrial quente e recupere uma parte do refrigerante que pode ser reutilizada. As perdas de recuperação são compensadas por fornecimento novo.\""
+      ],
       "tasks": [
         {
           "id": "4B59932140F0060F",
@@ -915,9 +915,9 @@
       "id": "4B59A15358465868",
       "title": "Recuperação de resíduos de cristalização",
       "subtitle": "Divida um pouco mais de meio do líquido restante",
-      "description": "[
-        \"Envie o líquido residual da cristalização de volta ao centro de separação e recupere o meio de separação. O líquido residual do processo ainda tem saída própria.\"
-      ]",
+      "description": [
+        "\"Envie o líquido residual da cristalização de volta ao centro de separação e recupere o meio de separação. O líquido residual do processo ainda tem saída própria.\""
+      ],
       "tasks": [
         {
           "id": "4B5777C8779B0729",
@@ -939,9 +939,9 @@
       "id": "4B5335F3E77C71D6",
       "title": "Regeneração seletiva de extrato",
       "subtitle": "Dê um circuito ao extrato usado",
-      "description": "[
-        \"Regenere o extrato gasto e envie a parte utilizável de volta para o fracionamento primário. O extrato fresco continua a compensar as perdas.\"
-      ]",
+      "description": [
+        "\"Regenere o extrato gasto e envie a parte utilizável de volta para o fracionamento primário. O extrato fresco continua a compensar as perdas.\""
+      ],
       "tasks": [
         {
           "id": "4B5845310EDA8506",
@@ -963,9 +963,9 @@
       "id": "4B50BBFB748CDEBA",
       "title": "Solidificação do líquido residual do processo",
       "subtitle": "Você pode se livrar disso primeiro",
-      "description": "[
-        “O líquido residual do processo é solidificado em um resíduo inerte de acordo com a fórmula para abrir espaço para o tanque de armazenamento. Há outro material residual a ser processado na separação subsequente.”
-      ]",
+      "description": [
+        "O líquido residual do processo é solidificado em um resíduo inerte de acordo com a fórmula para abrir espaço para o tanque de armazenamento. Há outro material residual a ser processado na separação subsequente."
+      ],
       "tasks": [
         {
           "id": "4B5E2EBAD60BFF93",
@@ -990,9 +990,9 @@
       "id": "4B523278A94C800E",
       "title": "Separação de resíduos inertes",
       "subtitle": "Cinzas, água e resíduos líquidos restantes são coletados separadamente",
-      "description": "[
-        \"Continue a separar o resíduo inerte, deixando cinzas e água, e processe o líquido residual do processo restante separadamente.\"
-      ]",
+      "description": [
+        "\"Continue a separar o resíduo inerte, deixando cinzas e água, e processe o líquido residual do processo restante separadamente.\""
+      ],
       "tasks": [
         {
           "id": "4B5E74B07F696579",
@@ -1017,10 +1017,10 @@
       "id": "4B51A65E81ECCCC7",
       "title": "Impregnação contínua HBV e estabilização térmica",
       "subtitle": "Após a atualização da fonte de alimentação, esses dois processos serão mesclados.",
-      "description": "[
-        \"Com a fonte de alimentação HBV, o tarugo misto preliminar pode ser processado diretamente em um tarugo padrão. Ele utiliza líquido estabilizador e meio espacial, eliminando a necessidade de transportar o tarugo impregnado separadamente.\",
-        \"Esta é a rota de aceleração de acompanhamento. O primeiro revestimento HBV ainda pode ser concluído pela primeira rota de produção do MAX.\"
-      ]",
+      "description": [
+        "\"Com a fonte de alimentação HBV, o tarugo misto preliminar pode ser processado diretamente em um tarugo padrão. Ele utiliza líquido estabilizador e meio espacial, eliminando a necessidade de transportar o tarugo impregnado separadamente.\"",
+        "\"Esta é a rota de aceleração de acompanhamento. O primeiro revestimento HBV ainda pode ser concluído pela primeira rota de produção do MAX.\""
+      ],
       "tasks": [
         {
           "id": "4B5539C80950DB3D",
@@ -1046,9 +1046,9 @@
       "id": "4B54AC90FFB725D4",
       "title": "Moldagem contínua de componente composto HBV",
       "subtitle": "Deixe a linha da placa acompanhar a nova eletricidade",
-      "description": "[
-        \"Depois que a fonte de alimentação HBV estiver disponível, o processo de conformação contínua é usado para processar a placa de aço alma. Depois de conectado ao fornecimento de blanks padrão, a primeira rota de produção original do MAX também é mantida.\"
-      ]",
+      "description": [
+        "\"Depois que a fonte de alimentação HBV estiver disponível, o processo de conformação contínua é usado para processar a placa de aço alma. Depois de conectado ao fornecimento de blanks padrão, a primeira rota de produção original do MAX também é mantida.\""
+      ],
       "tasks": [
         {
           "id": "4B564986C2441E61",
@@ -1073,10 +1073,10 @@
       "id": "4B5FB7AE702E80CA",
       "title": "O primeiro lote de carcaças de prensas energéticas colapsáveis",
       "subtitle": "Novos materiais entregues pela oficina MAX",
-      "description": "[
-        “Desde a tênue anomalia no ar até o invólucro de aço da alma que pode ser instalado na estrutura, esta rota já teve seu primeiro lote de objetos físicos.”,
-        \"Conecte firmemente a fonte existente e deixe espaço para circuitos e equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "Desde a tênue anomalia no ar até o invólucro de aço da alma que pode ser instalado na estrutura, esta rota já teve seu primeiro lote de objetos físicos.",
+        "\"Conecte firmemente a fonte existente e deixe espaço para circuitos e equipamentos subsequentes.\""
+      ],
       "tasks": [
         {
           "id": "4B5B440858270FF7",

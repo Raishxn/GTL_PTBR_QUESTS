@@ -20,10 +20,10 @@
 		{
 			dependencies: ["296DE95F3BE7DC54"]
 			description: [
-		"Obtained by throwing a blue framed magma block into the particle effect of a functioning Gate of Creation."
-		""
-		"The magnetic substance block is to throw 64 magnetic substance ingots &m. Although the magnetic substance block is useless &r"
-	]
+				"Obtained by throwing a blue framed magma block into the particle effect of a functioning Gate of Creation."
+				""
+				"The magnetic substance block is to throw 64 magnetic substance ingots &m. Although the magnetic substance block is useless &r"
+			]
 			icon_scale: 2.0d
 			id: "470DDCCD8E017A4F"
 			quest_enhance_disable_scroll_paging: false
@@ -72,7 +72,9 @@
 				"470DDCCD8E017A4F"
 				"1EB9F1815EB656B0"
 			]
-			description: [ "Also available in synthetic materials are&btwo-way foil &r" ]
+			description: [
+				"Also available in synthetic materials are&btwo-way foil &r"
+			]
 			id: "48925ECBCC5D268D"
 			quest_enhance_disable_scroll_paging: false
 			subtitle: "Items obtained by breaking command blocks"
@@ -104,7 +106,9 @@
 				"5AFEAD001EDA612D"
 				"65C38365E20B7F16"
 			]
-			description: [""]
+			description: [
+				""
+			]
 			icon_scale: 2.0d
 			id: "7C4AD33299386B47"
 			quest_enhance_disable_scroll_paging: false
@@ -134,14 +138,14 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
-		"At least MAX level voltage needs to be input"
-		""
-		"If accessing a network switch, make sure the network switch only has input from the creating computer, otherwise the network switch will not work"
-		""
-		"Tip: The wireless computing power warehouse cannot transmit computing power across dimensions."
-		""
-		"&mIs there anyone who still doesn’t know that the molecular assembly room can run the forging table recipe? &r"
-	]
+				"At least MAX level voltage needs to be input"
+				""
+				"If accessing a network switch, make sure the network switch only has input from the creating computer, otherwise the network switch will not work"
+				""
+				"Tip: The wireless computing power warehouse cannot transmit computing power across dimensions."
+				""
+				"&mIs there anyone who still doesn’t know that the molecular assembly room can run the forging table recipe? &r"
+			]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
 			quest_enhance_disable_scroll_paging: false
@@ -172,7 +176,9 @@
 				"429AEBE4BF55B1FF"
 				"30907D7231913ACB"
 			]
-			description: [ "No need to build it, just make 64 units and then follow the gravity explosion formula" ]
+			description: [
+				"No need to build it, just make 64 units and then follow the gravity explosion formula"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon_scale: 2.0d
@@ -260,7 +266,9 @@
 		}
 		{
 			dependencies: ["75CE99CD1614FB64"]
-			description: [ "Put into database to get all study data" ]
+			description: [
+				"Put into database to get all study data"
+			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "31B4B834D5DD87DB"
@@ -282,14 +290,14 @@
 				"2D1F2793A396B322"
 			]
 			description: [
-		"{ \"text\": \"Both creative power sources can be put into active transformers to allow unlimited power to wireless networks\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
-		""
-		"You can also put the creative power supply into the machine, so that the machine can obtain power far beyond 4194304A MAX, up to&cM&r&aA&r&9X&r&e+&r&c16 &r"
-		""
-		"Default selection when creating power placement&cM&r&aA&r&9X&r&e+&r&c16 &r"
-		""
-		"Creation power cannot be shared between multiple multi-block structures"
-	]
+				"{ \"text\": \"Both creative power sources can be put into active transformers to allow unlimited power to wireless networks\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
+				""
+				"You can also put the creative power supply into the machine, so that the machine can obtain power far beyond 4194304A MAX, up to&cM&r&aA&r&9X&r&e+&r&c16 &r"
+				""
+				"Default selection when creating power placement&cM&r&aA&r&9X&r&e+&r&c16 &r"
+				""
+				"Creation power cannot be shared between multiple multi-block structures"
+			]
 			icon_scale: 2.0d
 			id: "5F145D9019C4BC48"
 			quest_enhance_disable_scroll_paging: false
@@ -318,12 +326,12 @@
 				"31B4B834D5DD87DB"
 			]
 			description: [
-		"When you look at it, you seem to see the bearded doll that was on the shelf in the Pan-Galaxy GregTech sales department many galactic years ago."
-		""
-		"&a &l If you still plan to challenge the later star gates, you have to pay attention to the various infinite components in JEI. There are also various component packages. Some machines only need to be made. For example, the black hole does not need to be built. Just replace the black hole component package."
-		""
-		"&l &b In the process of making the star gate, you may encounter a situation where the calculated but unable to place an order shows missing materials but does not show what materials are missing. This is caused by the special optimization algorithm of gtlcore. At this time, you need to place separate orders for the materials. For example, if material A requires 1 2 3 4 5, you can place the order separately. 1 2 3 4 5 Every time you order 1000000, you will know what materials you are missing."
-	]
+				"When you look at it, you seem to see the bearded doll that was on the shelf in the Pan-Galaxy GregTech sales department many galactic years ago."
+				""
+				"&a &l If you still plan to challenge the later star gates, you have to pay attention to the various infinite components in JEI. There are also various component packages. Some machines only need to be made. For example, the black hole does not need to be built. Just replace the black hole component package."
+				""
+				"&l &b In the process of making the star gate, you may encounter a situation where the calculated but unable to place an order shows missing materials but does not show what materials are missing. This is caused by the special optimization algorithm of gtlcore. At this time, you need to place separate orders for the materials. For example, if material A requires 1 2 3 4 5, you can place the order separately. 1 2 3 4 5 Every time you order 1000000, you will know what materials you are missing."
+			]
 			id: "516498830339A0A9"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -346,14 +354,14 @@
 		{
 			dependencies: ["516498830339A0A9"]
 			description: [
-		"Congratulations on completing the game and thank you for playing."
-		""
-		"It is said that very few people actually reach here."
-		"{@pagebreak}"
-		"In fact, there are other ways to obtain tea and marshmallows, which are also related to the fish."
-		"{@pagebreak}"
-		"There are rumors that Creation Tanks and Creation Chests are made by fish after they have had enough to eat and drink."
-	]
+				"Congratulations on completing the game and thank you for playing."
+				""
+				"It is said that very few people actually reach here."
+				"{@pagebreak}"
+				"In fact, there are other ways to obtain tea and marshmallows, which are also related to the fish."
+				"{@pagebreak}"
+				"There are rumors that Creation Tanks and Creation Chests are made by fish after they have had enough to eat and drink."
+			]
 			hide_dependency_lines: true
 			icon: "gtlcore:ultimate_tea"
 			id: "503A37C31E60684B"
@@ -411,22 +419,22 @@
 		}
 		{
 			dependencies: ["503A37C31E60684B"]
-			description: "[
-				\"&6&l» Code and Instructions\"
-				\"\"
-				\"&f-Part of the code of the core module is provided: &bOgawa&f, &b Shanhai\"
-				\"&f- KJS provides some codes: &b Hormone Laoden &f, &b Sisyphus &f, &b Complete cerebellum underdevelopment &f, &b Gray Sister, &b Xiaochuan\"
-				\"&f-Technical guidance: &bOgawa, &b Shanhai\"
-				\"&f- Suggested guidance: &b This kind of watermelon, &b Changzui No. 1 &f, &b Qiuye &f, &bxingmot&f, &bOgawa\"
-				\"\"
-				\"&6&l» Special thanks\"
-				\"\"
-				\"&f- GregTech Leisure Production Team\"
-				\"&f-GregTech Leisure Maintenance Team\"
-				\"&f-GTLAdditions-Dragons\"
-				\"&f- Extendedae-Plus-Pressure Cooker\"
-				\"&f- Extendedae-Plus-iava\"
-			]"
+			description: [
+				"\"&6&l» Code and Instructions\""
+				""
+				"\"&f-Part of the code of the core module is provided: &bOgawa&f, &b Shanhai\""
+				"\"&f- KJS provides some codes: &b Hormone Laoden &f, &b Sisyphus &f, &b Complete cerebellum underdevelopment &f, &b Gray Sister, &b Xiaochuan\""
+				"\"&f-Technical guidance: &bOgawa, &b Shanhai\""
+				"\"&f- Suggested guidance: &b This kind of watermelon, &b Changzui No. 1 &f, &b Qiuye &f, &bxingmot&f, &bOgawa\""
+				""
+				"\"&6&l» Special thanks\""
+				""
+				"\"&f- GregTech Leisure Production Team\""
+				"\"&f-GregTech Leisure Maintenance Team\""
+				"\"&f-GTLAdditions-Dragons\""
+				"\"&f- Extendedae-Plus-Pressure Cooker\""
+				"\"&f- Extendedae-Plus-iava\""
+			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: "gtlcore:compressed_pufferfish"
@@ -448,14 +456,14 @@
 		{
 			dependencies: ["30907D7231913ACB"]
 			description: [
-		"&6&lGTLAdditions「Dimensional Focus Endless Synthetic Array」"
-		""
-		"&7▌ Function:"
-		"&lcan be installed as a module to the&6molecular manipulator &7, unlocking the endless synthesis mode with&cinfinite parallel&7and the recipe time is fixed at&e1t"
-		""
-		"&7▌ Suggestions:"
-		"&l&6How to build: Place it in the middle of the frame opposite the main block of the Molecular Manipulator"
-	]
+				"&6&lGTLAdditions「Dimensional Focus Endless Synthetic Array」"
+				""
+				"&7▌ Function:"
+				"&lcan be installed as a module to the&6molecular manipulator &7, unlocking the endless synthesis mode with&cinfinite parallel&7and the recipe time is fixed at&e1t"
+				""
+				"&7▌ Suggestions:"
+				"&l&6How to build: Place it in the middle of the frame opposite the main block of the Molecular Manipulator"
+			]
 			icon_scale: 2.0d
 			id: "626F62880AFC2843"
 			optional: true
@@ -478,18 +486,18 @@
 		{
 			dependencies: ["30907D7231913ACB"]
 			description: [
-		"&6&lGTLAdditions「Heart of the Universe」"
-		""
-		"&7▌ Function:"
-		"&lArtificial Star Super Enhanced Edition"
-		"&lcan install the celestial sphere divergence engine"
-		""
-		"&7▌ Suggestions:"
-		"&l&6must use&6wireless network output terminal&6to fully output the power it generates"
-		"&7&oSome people say that when you pick up a hundred thousand stars and walk all the extra miles,"
-		"&7&oYou might as well stop in front of the sun for a minute."
-		"&7&oIt will burn for you, and it will also be silent for you."
-	]
+				"&6&lGTLAdditions「Heart of the Universe」"
+				""
+				"&7▌ Function:"
+				"&lArtificial Star Super Enhanced Edition"
+				"&lcan install the celestial sphere divergence engine"
+				""
+				"&7▌ Suggestions:"
+				"&l&6must use&6wireless network output terminal&6to fully output the power it generates"
+				"&7&oSome people say that when you pick up a hundred thousand stars and walk all the extra miles,"
+				"&7&oYou might as well stop in front of the sun for a minute."
+				"&7&oIt will burn for you, and it will also be silent for you."
+			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "1810AFD6C41A4BF6"
@@ -514,14 +522,14 @@
 		{
 			dependencies: ["30907D7231913ACB"]
 			description: [
-		"&6&lGTLAdditions「Arcane Star Map」"
-		""
-		"&7▌ Function:"
-		"&lEnhanced version of Huawei Eye"
-		""
-		"&7▌ Suggestions:"
-		"&l&6Star array is recommended to plug at least 2000"
-	]
+				"&6&lGTLAdditions「Arcane Star Map」"
+				""
+				"&7▌ Function:"
+				"&lEnhanced version of Huawei Eye"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Star array is recommended to plug at least 2000"
+			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "31FEB14219D6C305"
@@ -546,15 +554,15 @@
 		{
 			dependencies: ["5AFEAD001EDA612D"]
 			description: [
-		"&6&lGTLAdditions \"Sphere Divergence Engine\""
-		""
-		"&7▌ Function:"
-		"&lis installed on supported machines and can significantly increase the number of parallel"
-		"&lcan be filled with 64 star arrays&einside"
-		""
-		"&7▌ Suggestions:"
-		"&l&6Remember to install all machines that support the installation of celestial sphere divergence engines and insert 64 star arrays"
-	]
+				"&6&lGTLAdditions \"Sphere Divergence Engine\""
+				""
+				"&7▌ Function:"
+				"&lis installed on supported machines and can significantly increase the number of parallel"
+				"&lcan be filled with 64 star arrays&einside"
+				""
+				"&7▌ Suggestions:"
+				"&l&6Remember to install all machines that support the installation of celestial sphere divergence engines and insert 64 star arrays"
+			]
 			id: "5A80894A5942204F"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
@@ -576,14 +584,14 @@
 		{
 			dependencies: ["5A80894A5942204F"]
 			description: [
-		"&6&lGTLAdditions「Tianji Endless Integrated Ore Treatment Plant」"
-		""
-		"&7▌ Function:"
-		"&lhas &cunlimited parallel &7and &cunlimited thread &7processing capabilities"
-		""
-		"&7▌ Suggestions:"
-		"&l&6If you want to make a star gate in the later stage, this thing is necessary"
-	]
+				"&6&lGTLAdditions「Tianji Endless Integrated Ore Treatment Plant」"
+				""
+				"&7▌ Function:"
+				"&lhas &cunlimited parallel &7and &cunlimited thread &7processing capabilities"
+				""
+				"&7▌ Suggestions:"
+				"&l&6If you want to make a star gate in the later stage, this thing is necessary"
+			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "6DA9600EFDDD9758"
@@ -624,18 +632,18 @@
 		{
 			dependencies: ["5F145D9019C4BC48"]
 			description: [
-		"&6&lGTLAdditions \"Forge of the False God\" / Stellar Forging Array"
-		""
-		"&7▌ Function:"
-		"The&lhost can provide up to 15 times the formula output of&e&7, while enjoying 1/5 of the EU consumption of&a&7reduction"
-		"&lhas a \"hyperdimensional operation\" mode, which requires continuous running of&efor 4 hours in the real world and&7to complete the process."
-		"&lcan perform&6ultra-dimensional smelting &7,&6stellar thermal energy smelting &7,&6ultimate material forging&7three types of formulas"
-		"&lcan be installed with&6stellar jet melting core &7,&astellar thermal energy plasma manufacturing machine &7,&cstellar flame energy furnace &7,&4stellar fusion mutator &7,&3stellar phase dragon vein crystallizer&7and other modules"
-		""
-		"&7&oSome people say that when you exhaust all the materials in the world and light up that beam of light that spans the ages,"
-		"&7&oYou might as well go and stand for a while in front of the furnace that can burn the history of the stars."
-		"&7&oGive it a minute. It will burn out for you and it will stay for you."
-	]
+				"&6&lGTLAdditions \"Forge of the False God\" / Stellar Forging Array"
+				""
+				"&7▌ Function:"
+				"The&lhost can provide up to 15 times the formula output of&e&7, while enjoying 1/5 of the EU consumption of&a&7reduction"
+				"&lhas a \"hyperdimensional operation\" mode, which requires continuous running of&efor 4 hours in the real world and&7to complete the process."
+				"&lcan perform&6ultra-dimensional smelting &7,&6stellar thermal energy smelting &7,&6ultimate material forging&7three types of formulas"
+				"&lcan be installed with&6stellar jet melting core &7,&astellar thermal energy plasma manufacturing machine &7,&cstellar flame energy furnace &7,&4stellar fusion mutator &7,&3stellar phase dragon vein crystallizer&7and other modules"
+				""
+				"&7&oSome people say that when you exhaust all the materials in the world and light up that beam of light that spans the ages,"
+				"&7&oYou might as well go and stand for a while in front of the furnace that can burn the history of the stars."
+				"&7&oGive it a minute. It will burn out for you and it will stay for you."
+			]
 			hide_dependency_lines: true
 			icon: "gtladditions:forge_of_the_antichrist"
 			icon_scale: 2.0d
@@ -725,10 +733,10 @@
 		{
 			dependencies: ["5F145D9019C4BC48"]
 			description: [
-		"&7▌ Functions:"
-		"&f- Fixes output chance to &a100%&7, and reduces chance input consumption to &c1/10"
-		"&f- Can process multiple recipe types simultaneously"
-	]
+				"&7▌ Functions:"
+				"&f- Fixes output chance to &a100%&7, and reduces chance input consumption to &c1/10"
+				"&f- Can process multiple recipe types simultaneously"
+			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "61C6933B9D9AA813"
@@ -754,9 +762,9 @@
 			can_repeat: true
 			dependencies: ["64E09D0CDAE08AB7"]
 			description: [
-		"If you don't want to wait 4 hours, you can use this pre-made pseudo-god"
-		"Already running for 4 hours. Ready to install."
-	]
+				"If you don't want to wait 4 hours, you can use this pre-made pseudo-god"
+				"Already running for 4 hours. Ready to install."
+			]
 			id: "63808E4CF9A59DA6"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -863,24 +871,24 @@
 		{
 			dependencies: ["61C6933B9D9AA813"]
 			description: [
-		"&9&lGTLAdditions「Time Warper」"
-		""
-		"&7▌ Function:"
-		"&lIt is the binding gain machine of the final zigzag quantum wave matrix."
-		"&lFirst use the hyperspace data module to right-click the Final Zigzag Quantum Wave Matrix to record the data, and then right-click the space-time warper to complete the binding."
-		"&lThe time and space warper itself needs to run the No. 1 circuit idling recipe, which consumesOpVenergy and takes 30 seconds."
-		"After the&lFinal Zigzag Quantum Fluctuation Matrix completes the current round of actual parallel consumption, it will count the total number of successfully processed parallels and try to consume gain resources from the bound space-time warper. All resources are first inspected as a whole and then deducted after passing them."
-		"After the&lgain resource is successfully consumed, only the recipe output of this round will be amplified, and the probability input, probability output or parallel calculation method will not be changed."
-		""
-		"&lcausal distortion level (output multiplier and additional consumption):"
-		""
-		"&l• Level 1: Multiplier 1.3 times, additional consumption of Liquid Endless, quantity = total parallel ÷ 17"
-		"&l• Level 2: Multiply 1.7 times, consume additional liquid Hypergen on the basis of level 1, quantity = total parallel ÷ 28"
-		"&l• Level 3: Multiply 2.6 times, consume additional liquid space-time based on level 2, quantity = total parallelism ÷ 44"
-		"&l• Level 4: 3.2x multiplier, additional consumption of Quantum Anomalies (Number = Total Parallelism ÷ 730) and Hypercubes (Number = Total Parallelism ÷ 873) over Level 3"
-		""
-		"&lquantity calculation uses integer division, and this item is not consumed when the result is 0."
-	]
+				"&9&lGTLAdditions「Time Warper」"
+				""
+				"&7▌ Function:"
+				"&lIt is the binding gain machine of the final zigzag quantum wave matrix."
+				"&lFirst use the hyperspace data module to right-click the Final Zigzag Quantum Wave Matrix to record the data, and then right-click the space-time warper to complete the binding."
+				"&lThe time and space warper itself needs to run the No. 1 circuit idling recipe, which consumesOpVenergy and takes 30 seconds."
+				"After the&lFinal Zigzag Quantum Fluctuation Matrix completes the current round of actual parallel consumption, it will count the total number of successfully processed parallels and try to consume gain resources from the bound space-time warper. All resources are first inspected as a whole and then deducted after passing them."
+				"After the&lgain resource is successfully consumed, only the recipe output of this round will be amplified, and the probability input, probability output or parallel calculation method will not be changed."
+				""
+				"&lcausal distortion level (output multiplier and additional consumption):"
+				""
+				"&l• Level 1: Multiplier 1.3 times, additional consumption of Liquid Endless, quantity = total parallel ÷ 17"
+				"&l• Level 2: Multiply 1.7 times, consume additional liquid Hypergen on the basis of level 1, quantity = total parallel ÷ 28"
+				"&l• Level 3: Multiply 2.6 times, consume additional liquid space-time based on level 2, quantity = total parallelism ÷ 44"
+				"&l• Level 4: 3.2x multiplier, additional consumption of Quantum Anomalies (Number = Total Parallelism ÷ 730) and Hypercubes (Number = Total Parallelism ÷ 873) over Level 3"
+				""
+				"&lquantity calculation uses integer division, and this item is not consumed when the result is 0."
+			]
 			icon_scale: 2.0d
 			id: "5CC48478C1A067FF"
 			quest_enhance_disable_scroll_paging: false
@@ -897,27 +905,27 @@
 		{
 			dependencies: ["64E09D0CDAE08AB7"]
 			description: [
-		"&9&lGTLAdditions「Recursive inversion array」"
-		""
-		"&7▌ Function:"
-		"&lIt is not an independent production machine, but is bound to a formed furnace of false gods. It reads the status of its own formed modules and provides gains for the bound host."
-		""
-		"&luses the overtime data module for binding:"
-		"&l• First right-click on the formed Furnace of False Gods and record the binding source."
-		"&l• Right-click the formed recursive inversion array in the same dimension to establish binding."
-		"&l• The new binding will overwrite the old binding on both machines."
-		"&l• In survival mode, the data module will be consumed after successful binding; in creative mode, only the record will be cleared."
-		"&l• Right-click on Sneak to clear the saved records."
-		"&l• Cross-dimensional bindings will be rejected."
-		""
-		"&lRecursive Inversion Gain Pack Requirements: The False God's Forge is formed, the array is formed, and the connected Chrono Boost Engine is running and not overheating. Then make a probability judgment based on the perfect space-time boost parameters:"
-		"&l• When the temperature is 93000K–97000K, the parameter is 1.0, and the gain package must take effect."
-		"&l• When the temperature is outside this range and the parameter is less than 1.0, the gain package takes effect based on probability."
-		""
-		"&lWhen the gain probability determination fails, the output/EU gain of the catalytic selection array, the magnetic current convergence core focus, the space-time stasis device, and the hyperspace boost engine EU reduction will not take effect. The basic output multiplier and EU reduction based on running time of the bound host itself still take effect normally. The Star Ceremony entrance is separate from this probability determination: it strictly requires that the booster engines are running, not overheated, and at 93000K–97000K."
-		""
-		"&lEach module must be installed in the array module location or connected in parallel to the array. The module interrupts its own operation when not connected."
-	]
+				"&9&lGTLAdditions「Recursive inversion array」"
+				""
+				"&7▌ Function:"
+				"&lIt is not an independent production machine, but is bound to a formed furnace of false gods. It reads the status of its own formed modules and provides gains for the bound host."
+				""
+				"&luses the overtime data module for binding:"
+				"&l• First right-click on the formed Furnace of False Gods and record the binding source."
+				"&l• Right-click the formed recursive inversion array in the same dimension to establish binding."
+				"&l• The new binding will overwrite the old binding on both machines."
+				"&l• In survival mode, the data module will be consumed after successful binding; in creative mode, only the record will be cleared."
+				"&l• Right-click on Sneak to clear the saved records."
+				"&l• Cross-dimensional bindings will be rejected."
+				""
+				"&lRecursive Inversion Gain Pack Requirements: The False God's Forge is formed, the array is formed, and the connected Chrono Boost Engine is running and not overheating. Then make a probability judgment based on the perfect space-time boost parameters:"
+				"&l• When the temperature is 93000K–97000K, the parameter is 1.0, and the gain package must take effect."
+				"&l• When the temperature is outside this range and the parameter is less than 1.0, the gain package takes effect based on probability."
+				""
+				"&lWhen the gain probability determination fails, the output/EU gain of the catalytic selection array, the magnetic current convergence core focus, the space-time stasis device, and the hyperspace boost engine EU reduction will not take effect. The basic output multiplier and EU reduction based on running time of the bound host itself still take effect normally. The Star Ceremony entrance is separate from this probability determination: it strictly requires that the booster engines are running, not overheated, and at 93000K–97000K."
+				""
+				"&lEach module must be installed in the array module location or connected in parallel to the array. The module interrupts its own operation when not connected."
+			]
 			icon_scale: 2.0d
 			id: "427A52E59B47DC55"
 			min_width: 250
@@ -934,37 +942,37 @@
 		{
 			dependencies: ["427A52E59B47DC55"]
 			description: [
-		"&9&lrecursive inversion array · module"
-		""
-		"&7▌ Function:"
-		"&lFirst form the Forge of the False God and the recursive inversion array, and bind them with the hyperspace data module (same dimension, survival mode consumes modules). The array needs to connect all modules to take effect."
-		""
-		"&7▌ Catalytic selection array"
-		"&l• There is a cycle every 32 seconds, and the redstone signal (1-15) is output at 0 seconds to tell you which catalyst is needed for this round (1-3 crude, 4-6 ordinary, 7-9 radiant, 10-12 alien, 13-15 stellar)."
-		"&l• Check the LV giant fluid input bin every second starting from the 7th second, and the correct catalyst consumption is 40B/s → output magnification × 2, EU magnification + 0.15."
-		"&l• Wrong input or no catalyst → Lost output gain (EU gain may remain partially)."
-		""
-		"&7▌ Magnetic flow convergence core"
-		"&l• Only focus on the fluid output, merge multiple outputs into the first one, and then multiply the magnification (less than 2 outputs will be invalid)."
-		"&l• 12-second fuel cycle, randomly select 2 types of item requirements (super-solid super-energy silica blackbody/quantum anomaly/super-stable self-healing adhesive, 1-16384 each) and 1 fluid requirement."
-		"&l• Activation conditions: Accurately input items through 2 ULV giant item buses, input fluid into 1 LV giant fluid tank, and continuously supply 2 magnetic material blocks/second. If satisfied, focus is enabled."
-		""
-		"&7▌ Space-time stasis device"
-		"&l• 0pV continuous operation, consuming 70B/s liquid space-time."
-		"&l• Running by itself + public gain gate on → the running time will not be lost when the bound host is idle (no active increase, just a minimum)."
-		""
-		"&7▌ Hypertime boost engine"
-		"&l• UXV runs continuously and is a necessary module for common gain gating."
-		"&l• Temperature control: initial 48000K, optimal range 93000K-97000K, overheating threshold 105000K."
-		"&l• +1300K/s when working and -900K/s when idle. Temperature control fluid 100B/s: heating (lava +2500, liquid flame +4600, primitive star mixture +14000); cooling (liquid ice -1900, liquid ammonia -3400, extreme cold ice -6700)."
-		"&l• Stops providing gate control after overheating, and the cooling rate becomes -7125K/s until it returns to 48000K."
-		"&l• Installing the Vientiane Transcription node can output the redstone value corresponding to the current temperature."
-		""
-		"&7▌ Note:"
-		"&l• Validity judgment of recursive inversion gain package: When the temperature is 93000K-97000K, the perfect parameter is 1.0, which will definitely take effect; outside the interval, it will take effect according to the parameter probability. If the probability fails, all recursive inversion module gains (catalytic output/EU, magnetic flow focusing, stagnation, engine EU reduction) will be invalid, but the basic multiplier of the host itself will still be there."
-		"&l• The Star Ceremony entrance does not rely on this probability, it requires the engine to be running, not overheated, and at 93000-97000K."
-		"&l• Each module must be installed at the module position of the array or connected in parallel. The module interrupts operation when not connected."
-	]
+				"&9&lrecursive inversion array · module"
+				""
+				"&7▌ Function:"
+				"&lFirst form the Forge of the False God and the recursive inversion array, and bind them with the hyperspace data module (same dimension, survival mode consumes modules). The array needs to connect all modules to take effect."
+				""
+				"&7▌ Catalytic selection array"
+				"&l• There is a cycle every 32 seconds, and the redstone signal (1-15) is output at 0 seconds to tell you which catalyst is needed for this round (1-3 crude, 4-6 ordinary, 7-9 radiant, 10-12 alien, 13-15 stellar)."
+				"&l• Check the LV giant fluid input bin every second starting from the 7th second, and the correct catalyst consumption is 40B/s → output magnification × 2, EU magnification + 0.15."
+				"&l• Wrong input or no catalyst → Lost output gain (EU gain may remain partially)."
+				""
+				"&7▌ Magnetic flow convergence core"
+				"&l• Only focus on the fluid output, merge multiple outputs into the first one, and then multiply the magnification (less than 2 outputs will be invalid)."
+				"&l• 12-second fuel cycle, randomly select 2 types of item requirements (super-solid super-energy silica blackbody/quantum anomaly/super-stable self-healing adhesive, 1-16384 each) and 1 fluid requirement."
+				"&l• Activation conditions: Accurately input items through 2 ULV giant item buses, input fluid into 1 LV giant fluid tank, and continuously supply 2 magnetic material blocks/second. If satisfied, focus is enabled."
+				""
+				"&7▌ Space-time stasis device"
+				"&l• 0pV continuous operation, consuming 70B/s liquid space-time."
+				"&l• Running by itself + public gain gate on → the running time will not be lost when the bound host is idle (no active increase, just a minimum)."
+				""
+				"&7▌ Hypertime boost engine"
+				"&l• UXV runs continuously and is a necessary module for common gain gating."
+				"&l• Temperature control: initial 48000K, optimal range 93000K-97000K, overheating threshold 105000K."
+				"&l• +1300K/s when working and -900K/s when idle. Temperature control fluid 100B/s: heating (lava +2500, liquid flame +4600, primitive star mixture +14000); cooling (liquid ice -1900, liquid ammonia -3400, extreme cold ice -6700)."
+				"&l• Stops providing gate control after overheating, and the cooling rate becomes -7125K/s until it returns to 48000K."
+				"&l• Installing the Vientiane Transcription node can output the redstone value corresponding to the current temperature."
+				""
+				"&7▌ Note:"
+				"&l• Validity judgment of recursive inversion gain package: When the temperature is 93000K-97000K, the perfect parameter is 1.0, which will definitely take effect; outside the interval, it will take effect according to the parameter probability. If the probability fails, all recursive inversion module gains (catalytic output/EU, magnetic flow focusing, stagnation, engine EU reduction) will be invalid, but the basic multiplier of the host itself will still be there."
+				"&l• The Star Ceremony entrance does not rely on this probability, it requires the engine to be running, not overheated, and at 93000-97000K."
+				"&l• Each module must be installed at the module position of the array or connected in parallel. The module interrupts operation when not connected."
+			]
 			id: "4857E964B8A33634"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [
@@ -996,14 +1004,14 @@
 		{
 			dependencies: ["296DE95F3BE7DC54"]
 			description: [
-		"&6&l» Wireless network input terminal"
-		"&f- The most advanced energy warehouse/laser target warehouse."
-		"&f- It can input unlimited power from the power grid to the machine to maximize the machine power."
-		""
-		"&6&l» Wireless network output terminal"
-		"&f- The most advanced chamber of the power chamber/laser source chamber."
-		"&f- can instantly transfer all the power generated by the generator to the grid."
-	]
+				"&6&l» Wireless network input terminal"
+				"&f- The most advanced energy warehouse/laser target warehouse."
+				"&f- It can input unlimited power from the power grid to the machine to maximize the machine power."
+				""
+				"&6&l» Wireless network output terminal"
+				"&f- The most advanced chamber of the power chamber/laser source chamber."
+				"&f- can instantly transfer all the power generated by the generator to the grid."
+			]
 			id: "29613026188103C9"
 			min_required_tasks: 1
 			quest_enhance_disable_scroll_paging: false
@@ -1025,64 +1033,64 @@
 		{
 			dependencies: ["3357CBC609FE6B79"]
 			description: [
-		"Thank you all for supporting GTL Enhanced Edition"
-		"The list below is ordered chronologically by sponsorship:"
-		""
-		"长醉一号"
-		"空之律者-西琳大人"
-		"不知名热心群众"
-		"涯无"
-		"瑞"
-		"可燃水"
-		"禱（桃)么叽~"
-		"纪念"
-		"一只屑痴白"
-		"林深见鹿"
-		"玄阳"
-		"忆"
-		"晓白"
-		""
-		"凉"
-		"Nye"
-		"ZHCOOL"
-		"谁敢动朕的呆毛"
-		"苦命酒狐"
-		"Pupil_Only"
-		"yyeekk"
-		"爱发电用户_g6sH"
-		"爱发电用户_11e93"
-		"cool520"
-		"爱发电用户_HVsa"
-		"爱发电用户_hTAQ"
-		"爱发电用户_cr43"
-		"爱发电用户_cr43"
-		"爱发电用户_f1d33"
-		"爱发电用户_4d55d"
-		"爱发电用户_TjWn"
-		"爱发电用户_AyGF"
-		"爱发电用户_f82a9"
-		"拾贰"
-		"爱发电用户_0f67a"
-		"爱发电用户_6yPj"
-		"纪念"
-		" "
-		"无涯"
-		"爱发电用户_wsge"
-		"YogShothoth"
-		"LLLLLL"
-		"12112"
-		"璀梦逐萤"
-		"Sherl"
-		"专门去哪"
-		"Xbox"
-		"爱发电用户_Gdaf"
-		"辰护"
-		"爱发电用户_de2de"
-		"Calamity"
-		""
-		"If any supporter was omitted, please contact me."
-		"Sponsorship is purely voluntary and does not affect gameplay content."
-	]
+				"Thank you all for supporting GTL Enhanced Edition"
+				"The list below is ordered chronologically by sponsorship:"
+				""
+				"长醉一号"
+				"空之律者-西琳大人"
+				"不知名热心群众"
+				"涯无"
+				"瑞"
+				"可燃水"
+				"禱（桃)么叽~"
+				"纪念"
+				"一只屑痴白"
+				"林深见鹿"
+				"玄阳"
+				"忆"
+				"晓白"
+				""
+				"凉"
+				"Nye"
+				"ZHCOOL"
+				"谁敢动朕的呆毛"
+				"苦命酒狐"
+				"Pupil_Only"
+				"yyeekk"
+				"爱发电用户_g6sH"
+				"爱发电用户_11e93"
+				"cool520"
+				"爱发电用户_HVsa"
+				"爱发电用户_hTAQ"
+				"爱发电用户_cr43"
+				"爱发电用户_cr43"
+				"爱发电用户_f1d33"
+				"爱发电用户_4d55d"
+				"爱发电用户_TjWn"
+				"爱发电用户_AyGF"
+				"爱发电用户_f82a9"
+				"拾贰"
+				"爱发电用户_0f67a"
+				"爱发电用户_6yPj"
+				"纪念"
+				" "
+				"无涯"
+				"爱发电用户_wsge"
+				"YogShothoth"
+				"LLLLLL"
+				"12112"
+				"璀梦逐萤"
+				"Sherl"
+				"专门去哪"
+				"Xbox"
+				"爱发电用户_Gdaf"
+				"辰护"
+				"爱发电用户_de2de"
+				"Calamity"
+				""
+				"If any supporter was omitted, please contact me."
+				"Sponsorship is purely voluntary and does not affect gameplay content."
+			]
 			icon: "kubejs:heartofthesmogus"
 			id: "3AED622F17D7A32B"
 			quest_enhance_disable_scroll_paging: false
@@ -1096,7 +1104,9 @@
 		}
 		{
 			dependencies: ["516498830339A0A9"]
-			description: [ "Impressive! Getting here in just a single day. The subsequent Stargates shouldn't be much of a problem for you" ]
+			description: [
+				"Impressive! Getting here in just a single day. The subsequent Stargates shouldn't be much of a problem for you"
+			]
 			hide_until_deps_complete: true
 			id: "573049EF45A42676"
 			incompatible: ["7BE4C64EE74C8A69"]
@@ -1129,6 +1139,8 @@
 			y: 5.5d
 		}
 	]
-	subtitle: [ "Tier14-MAX" ]
+	subtitle: [
+				"Tier14-MAX"
+			]
 	title: "upper limit pressure"
 }

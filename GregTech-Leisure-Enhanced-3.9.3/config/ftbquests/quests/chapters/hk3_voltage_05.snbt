@@ -3,8 +3,8 @@
   "id": "4B5B07085C1D7A33",
   "title": "tensão de estado de pilha QSV",
   "subtitle": [
-    "Tier19-QSV"
-  ],
+        "Tier19-QSV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 20,
   "icon": "hk3gtl:voltage_machine_casing_qsv",
@@ -14,10 +14,10 @@
       "id": "4B5E19060E663CF3",
       "title": "Continuação do workshop HDV",
       "subtitle": "HDV → QSV",
-      "description": "[
-        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos QSV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos QSV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B5FD3C3095F875E"
       ],
@@ -39,9 +39,9 @@
       "id": "4B5AE1A786912BB0",
       "title": "Matriz de contato de aço alma compensada por tensão",
       "subtitle": "Deixe os dedos de toque flexíveis absorverem as diferenças de expansão térmica",
-      "description": "[
-        \"Os contatos de folha fina são moldados primeiro e depois combinados com o backplane que suporta pressão. Os contatos flexíveis conectam o chip ao pacote espesso, permitindo o movimento necessário durante a expansão térmica.\"
-      ]",
+      "description": [
+        "\"Os contatos de folha fina são moldados primeiro e depois combinados com o backplane que suporta pressão. Os contatos flexíveis conectam o chip ao pacote espesso, permitindo o movimento necessário durante a expansão térmica.\""
+      ],
       "dependencies": [
         "4B5A12474D1E5596"
       ],
@@ -63,9 +63,9 @@
       "id": "4B5607208A268718",
       "title": "Barramento óptico diferencial hermético",
       "subtitle": "Use caminhos ópticos duplos para conectar módulos diferentes",
-      "description": "[
-        \"Encapsulando caminhos ópticos duplos e extremidades de conversão fotoelétrica, mantendo interconexões elétricas de comprimento igual. A comunicação entre módulos é realizada por caminhos ópticos e ambas as extremidades são eletricamente isoladas.\"
-      ]",
+      "description": [
+        "\"Encapsulando caminhos ópticos duplos e extremidades de conversão fotoelétrica, mantendo interconexões elétricas de comprimento igual. A comunicação entre módulos é realizada por caminhos ópticos e ambas as extremidades são eletricamente isoladas.\""
+      ],
       "dependencies": [
         "4B59A30068C58620",
         "4B5151BB1D92DDC7",
@@ -90,9 +90,9 @@
       "id": "4B53F12ABED75633",
       "title": "Soquete quântico blindado a vácuo",
       "subtitle": "Preparando a montagem para o processador Quantum Bridge",
-      "description": "[
-        \"Monte o isolamento a vácuo, a blindagem de restrição, a extremidade fria e os cabos flexíveis em soquetes físicos. Depois de conectar os soquetes, monte o processador correspondente.\"
-      ]",
+      "description": [
+        "\"Monte o isolamento a vácuo, a blindagem de restrição, a extremidade fria e os cabos flexíveis em soquetes físicos. Depois de conectar os soquetes, monte o processador correspondente.\""
+      ],
       "dependencies": [
         "4B50C8565E0A1B4E",
         "4B5E991A148AC249",
@@ -116,9 +116,9 @@
       "id": "4B58003BA8443879",
       "title": "Unidade de feedback de carga ressonante",
       "subtitle": "Aplique carga e salve a leitura de compensação",
-      "description": "[
-        \"Carregado com uma ferramenta de referência de pressão, os ramos de trabalho e de referência são lidos simultaneamente pelo sensor HRV. A tabela de compensação é salva para fornecer feedback para a servoválvula, pistão e ferramenta de posicionamento de sequência.\"
-      ]",
+      "description": [
+        "\"Carregado com uma ferramenta de referência de pressão, os ramos de trabalho e de referência são lidos simultaneamente pelo sensor HRV. A tabela de compensação é salva para fornecer feedback para a servoválvula, pistão e ferramenta de posicionamento de sequência.\""
+      ],
       "dependencies": [
         "4B59A30068C58620",
         "4B5E991A148AC249",
@@ -143,9 +143,9 @@
       "id": "4B5073B91DAA0A35",
       "title": "Acoplamento flexível de desacoplamento torcional",
       "subtitle": "Transmite torque enquanto permite uma pequena faixa de deflexão",
-      "description": "[
-        \"Processe a área flexível do diafragma para liberar a tensão de ligação e, em seguida, complete a pré-carga coaxial. Instale o acoplamento no atuador e nas ferramentas sequenciais para coordenar a transmissão e o posicionamento.\"
-      ]",
+      "description": [
+        "\"Processe a área flexível do diafragma para liberar a tensão de ligação e, em seguida, complete a pré-carga coaxial. Instale o acoplamento no atuador e nas ferramentas sequenciais para coordenar a transmissão e o posicionamento.\""
+      ],
       "dependencies": [
         "4B5E991A148AC249",
         "4B5A12474D1E5596"
@@ -168,9 +168,9 @@
       "id": "4B5F58E6DA96A1B5",
       "title": "Módulo de servoacionamento de quatro quadrantes",
       "subtitle": "Transforme a condução e a frenagem bidirecionais em módulos independentes",
-      "description": "[
-        \"A corrente bidirecional e o ramo de frenagem são instalados e conectados aos componentes de computação existentes. A partir daqui, o atuador HDV obtém seu servo acionamento instalável de forma independente.\"
-      ]",
+      "description": [
+        "\"A corrente bidirecional e o ramo de frenagem são instalados e conectados aos componentes de computação existentes. A partir daqui, o atuador HDV obtém seu servo acionamento instalável de forma independente.\""
+      ],
       "dependencies": [
         "4B577686A332F134",
         "4B5783CCFC1B8D2D",
@@ -194,9 +194,9 @@
       "id": "4B5786FC3EEB8ACA",
       "title": "Conjunto do núcleo da servoválvula eletro-hidráulica",
       "subtitle": "Ajuste ativamente a taxa de fluxo de acordo com a diferença de pressão de feedback",
-      "description": "[
-        \"Conecte o núcleo da válvula ao módulo de feedback e acionamento e ajuste o shunt de acordo com a diferença de pressão. A válvula tampão existente continua a lidar com a pulsação e a servoválvula é responsável pelo ajuste ativo.\"
-      ]",
+      "description": [
+        "\"Conecte o núcleo da válvula ao módulo de feedback e acionamento e ajuste o shunt de acordo com a diferença de pressão. A válvula tampão existente continua a lidar com a pulsação e a servoválvula é responsável pelo ajuste ativo.\""
+      ],
       "dependencies": [
         "4B54CE973A2C82F9",
         "4B58003BA8443879",
@@ -220,9 +220,9 @@
       "id": "4B580BC98CE4BCC7",
       "title": "Host do processador de treliça HDV Soulsteel",
       "subtitle": "Embalagem contendo pressão, barramentos ópticos e soquetes quânticos",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para tornar o host do processador de treliça de aço alma. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para tornar o host do processador de treliça de aço alma. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5607208A268718",
         "4B53F12ABED75633"
@@ -245,9 +245,9 @@
       "id": "4B589CECF1F7F4F2",
       "title": "Supercomputador de acoplamento de ritmo HDV",
       "subtitle": "Embalagem contendo pressão, barramentos ópticos e soquetes quânticos",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador de acoplamento de ritmo. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador de acoplamento de ritmo. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B577686A332F134",
         "4B50C8565E0A1B4E",
@@ -272,9 +272,9 @@
       "id": "4B548015C598929D",
       "title": "Conjunto de processador de ressonância de colapso HDV",
       "subtitle": "Embalagem contendo pressão, barramentos ópticos e soquetes quânticos",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador de ressonância dobrável. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador de ressonância dobrável. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5E81E604C4DFC4",
         "4B50C8565E0A1B4E",
@@ -298,9 +298,9 @@
       "id": "4B5A5BCCF8B2233C",
       "title": "Processador de ponte quântica HDV",
       "subtitle": "Embalagem contendo pressão, barramentos ópticos e soquetes quânticos",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador de ponte quântica. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador de ponte quântica. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5607208A268718",
         "4B53F12ABED75633"
@@ -323,9 +323,9 @@
       "id": "4B5581A471AF8770",
       "title": "Motor elétrico HDV",
       "subtitle": "Fornece acionamento rotacional independente",
-      "description": "[
-        \"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B529A3F20959D18",
         "4B5073B91DAA0A35",
@@ -350,9 +350,9 @@
       "id": "4B5826E04A2AEC8D",
       "title": "Pistão elétrico HDV",
       "subtitle": "Converta o acionamento em movimento linear controlado",
-      "description": "[
-        \"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B5C3D8FE272F427",
         "4B5786FC3EEB8ACA",
@@ -376,9 +376,9 @@
       "id": "4B56E43CD5646D21",
       "title": "Bomba elétrica HDV",
       "subtitle": "Fornece potência de transporte para caminhos de fluxo independentes",
-      "description": "[
-        \"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B5786FC3EEB8ACA",
         "4B5581A471AF8770"
@@ -401,9 +401,9 @@
       "id": "4B521803CFDA2528",
       "title": "Módulo transportador HDV",
       "subtitle": "Transferência contínua de materiais em linhas de produção existentes",
-      "description": "[
-        \"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B5E82E7D09B0BC6",
         "4B5581A471AF8770"
@@ -426,9 +426,9 @@
       "id": "4B5BF2B664146748",
       "title": "Braço robótico HDV",
       "subtitle": "Conecte posicionamento e execução ao mesmo componente",
-      "description": "[
-        “Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento.”
-      ]",
+      "description": [
+        "Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento."
+      ],
       "dependencies": [
         "4B53882AB0A61FC3",
         "4B5826E04A2AEC8D"
@@ -451,9 +451,9 @@
       "id": "4B5F799023731291",
       "title": "Sensor HDV",
       "subtitle": "Envie os resultados da medição para o nível atual de controle",
-      "description": "[
-        \"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\"
-      ]",
+      "description": [
+        "\"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\""
+      ],
       "dependencies": [
         "4B58003BA8443879",
         "4B580BC98CE4BCC7"
@@ -476,9 +476,9 @@
       "id": "4B5448B56EC161A9",
       "title": "Transmissor HDV",
       "subtitle": "Prepare componentes de lançamento para este nível de equipamento",
-      "description": "[
-        \"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\"
-      ]",
+      "description": [
+        "\"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\""
+      ],
       "dependencies": [
         "4B580BC98CE4BCC7"
       ],
@@ -500,9 +500,9 @@
       "id": "4B527B01CFCEA646",
       "title": "Gerador de campo de força HDV",
       "subtitle": "Prepare componentes de campo de força para este nível de equipamento",
-      "description": "[
-        “Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente.”
-      ]",
+      "description": [
+        "Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente."
+      ],
       "dependencies": [
         "4B58ACB0B3D42869",
         "4B5F799023731291",
@@ -526,11 +526,11 @@
       "id": "4B50CFC15772EED2",
       "title": "Gravação de circuito multicamadas",
       "subtitle": "Verifique a conectividade e o isolamento das camadas existentes",
-      "description": "[
-        “Depois de obter os registros de crescimento do substrato e processamento do aço alma, o substrato existente e a camada de gravação foram enviados para inspeção. A quantidade original do objeto inspecionado foi devolvida e, em seguida, o projeto de gravação do circuito multicamadas foi concluído no instituto de pesquisa.”,
-        \"Após a conclusão do experimento, escolha 210 pontos de pesquisa ou circuito MAX × 2, placa de aço × 48 para pagar a taxa básica; são necessários 3.000 ticks adicionais e 128.849.018.880 EU/t. A pressão atual do material é corrigida para avançada.\",
-        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, a condição de trabalho de gravação do circuito multicamadas do Centro de Usinagem de Precisão Soul Steel será desbloqueada; a embalagem inicial pode usar o processo GTL de front-end, e não há necessidade de concluir primeiro a pesquisa de empacotamento do circuito e teste de condição de trabalho.\"
-      ]",
+      "description": [
+        "Depois de obter os registros de crescimento do substrato e processamento do aço alma, o substrato existente e a camada de gravação foram enviados para inspeção. A quantidade original do objeto inspecionado foi devolvida e, em seguida, o projeto de gravação do circuito multicamadas foi concluído no instituto de pesquisa.",
+        "\"Após a conclusão do experimento, escolha 210 pontos de pesquisa ou circuito MAX × 2, placa de aço × 48 para pagar a taxa básica; são necessários 3.000 ticks adicionais e 128.849.018.880 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "\"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, a condição de trabalho de gravação do circuito multicamadas do Centro de Usinagem de Precisão Soul Steel será desbloqueada; a embalagem inicial pode usar o processo GTL de front-end, e não há necessidade de concluir primeiro a pesquisa de empacotamento do circuito e teste de condição de trabalho.\""
+      ],
       "dependencies": [
         "4B52023452A874DC",
         "4B54B1712D2ED530",
@@ -559,11 +559,11 @@
       "id": "4B5DF2FDA879723E",
       "title": "Engenharia do Instituto de Pesquisa de Materiais Avançados",
       "subtitle": "Concluiu testes reais de carga e interface no Collapse Phenomenon Research Institute",
-      "description": "[
-        “Coloque a camada gravada, a placa de aço alma, o fio fino de aço alma e o sensor HRV no Collapse Phenomenon Research Institute e conduza um teste de limite de carga de restrição. Depois que a fonte de alimentação contínua for concluída e o teste for concluído, as quantidades originais dos quatro tipos de amostras serão devolvidas;
-        \"Após a conclusão do experimento, escolha 210 pontos de pesquisa ou circuito MAX × 2, placa de aço × 48 para pagar a taxa básica; são necessários 3.000 ticks adicionais e 128.849.018.880 EU/t. A pressão atual do material é corrigida para avançada.\",
-        \"O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o instituto de pesquisa de segundo nível é desbloqueado; o Instituto de Pesquisa de Reconstrução de Materiais não é obrigado a pesquisar primeiro seus próprios materiais de construção.\"
-      ]",
+      "description": [
+        "“Coloque a camada gravada, a placa de aço alma, o fio fino de aço alma e o sensor HRV no Collapse Phenomenon Research Institute e conduza um teste de limite de carga de restrição. Depois que a fonte de alimentação contínua for concluída e o teste for concluído, as quantidades originais dos quatro tipos de amostras serão devolvidas;",
+        "\"Após a conclusão do experimento, escolha 210 pontos de pesquisa ou circuito MAX × 2, placa de aço × 48 para pagar a taxa básica; são necessários 3.000 ticks adicionais e 128.849.018.880 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "\"O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o instituto de pesquisa de segundo nível é desbloqueado; o Instituto de Pesquisa de Reconstrução de Materiais não é obrigado a pesquisar primeiro seus próprios materiais de construção.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B59A30068C58620"
@@ -587,9 +587,9 @@
       "id": "4B5FDF3E5109ECC9",
       "title": "Atualizar o Instituto de Reconstrução de Materiais",
       "subtitle": "O Honkai Phenomenon Research Institute continua a expandir as capacidades de pesquisa",
-      "description": "[
-        \"Use os controladores existentes do Collapse Phenomenon Research Institute, componentes eletrônicos e materiais de suporte de pressão para atualizar o Material Reconstruction Research Institute. Após a conclusão, o Matter Reconstruction Research Institute continuará a realizar pesquisas de acompanhamento.\"
-      ]",
+      "description": [
+        "\"Use os controladores existentes do Collapse Phenomenon Research Institute, componentes eletrônicos e materiais de suporte de pressão para atualizar o Material Reconstruction Research Institute. Após a conclusão, o Matter Reconstruction Research Institute continuará a realizar pesquisas de acompanhamento.\""
+      ],
       "dependencies": [
         "4B5DF2FDA879723E",
         "4B5151BB1D92DDC7",
@@ -614,11 +614,11 @@
       "id": "4B5DA9B39AA3192A",
       "title": "Controle de qualidade do Soul Steel",
       "subtitle": "Alinhar registros de agregação, reconstrução e acabamento",
-      "description": "[
-        \"Depois de completar os três tipos correspondentes de condições reais de trabalho, o substrato de dados do aço alma, o branco bruto e o branco estável são inspecionados. A amostra original é devolvida e, em seguida, o Instituto de Pesquisa de Reconstrução de Materiais conclui o projeto formal e, em seguida, fabrica o material principal laminado empilhado.\",
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto de pesquisa deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, a melhoria da qualidade do aço alma sob condições de trabalho específicas será desbloqueada e a superposição de rendimento não infinito será alcançada.”
-      ]",
+      "description": [
+        "\"Depois de completar os três tipos correspondentes de condições reais de trabalho, o substrato de dados do aço alma, o branco bruto e o branco estável são inspecionados. A amostra original é devolvida e, em seguida, o Instituto de Pesquisa de Reconstrução de Materiais conclui o projeto formal e, em seguida, fabrica o material principal laminado empilhado.\"",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto de pesquisa deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, a melhoria da qualidade do aço alma sob condições de trabalho específicas será desbloqueada e a superposição de rendimento não infinito será alcançada."
+      ],
       "dependencies": [
         "4B5FDF3E5109ECC9"
       ],
@@ -641,9 +641,9 @@
       "id": "4B53B6D07EDB738A",
       "title": "Quadro condutor destacável",
       "subtitle": "Prenda a malha de alumínio primeiro e, em seguida, retire-a após pressioná-la.",
-      "description": "[
-        “A estrutura condutora é feita de novos materiais e é usada para manter a tensão da rede de folhas condutoras. A estrutura é pressionada junto com a camada condutora e é enviada para reparo após ser destacada do produto.”
-      ]",
+      "description": [
+        "A estrutura condutora é feita de novos materiais e é usada para manter a tensão da rede de folhas condutoras. A estrutura é pressionada junto com a camada condutora e é enviada para reparo após ser destacada do produto."
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5D1F7A868BD402"
@@ -666,9 +666,9 @@
       "id": "4B56A77C2A4F4732",
       "title": "Borda dielétrica",
       "subtitle": "Sele as bordas laminadas seção por seção",
-      "description": "[
-        \"A faixa de borda independente composta separa a rede de folha condutora da estrutura externa. A ligação de grande superfície é realizada pela camada pré-impregnada, e as costuras da borda são retiradas daqui.\"
-      ]",
+      "description": [
+        "\"A faixa de borda independente composta separa a rede de folha condutora da estrutura externa. A ligação de grande superfície é realizada pela camada pré-impregnada, e as costuras da borda são retiradas daqui.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5A12474D1E5596"
@@ -691,9 +691,9 @@
       "id": "4B54CF51446B10A0",
       "title": "Resina de laminação de baixa volatilidade",
       "subtitle": "Prepare materiais adesivos para umedecimento, laminação e vedação de bordas",
-      "description": "[
-        “Preparar resina laminada com novos materiais para uso em dois ramais, condutor e dielétrico. A resina usada descarregada do tanque de revestimento é coletada separadamente, sendo posteriormente filtrada e reabastecida.”
-      ]",
+      "description": [
+        "Preparar resina laminada com novos materiais para uso em dois ramais, condutor e dielétrico. A resina usada descarregada do tanque de revestimento é coletada separadamente, sendo posteriormente filtrada e reabastecida."
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B523989720A35A7"
@@ -717,9 +717,9 @@
       "id": "4B56640615ADD916",
       "title": "Ferramentas de posicionamento de sequência de camadas",
       "subtitle": "Use materiais frontais para fixar a sequência de camadas e a força de fixação",
-      "description": "[
-        \"Instale a unidade de feedback e o acoplamento flexível para fazer uma ferramenta de posicionamento em camadas. Use-a para posicionar e controlar a força de fixação durante a laminação. Guarde a ferramenta após o uso.\"
-      ]",
+      "description": [
+        "\"Instale a unidade de feedback e o acoplamento flexível para fazer uma ferramenta de posicionamento em camadas. Use-a para posicionar e controlar a força de fixação durante a laminação. Guarde a ferramenta após o uso.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B529A3F20959D18",
@@ -745,9 +745,9 @@
       "id": "4B5426DBB770D474",
       "title": "Camada de malha de folha condutora",
       "subtitle": "Deixe o condutor manter a tensão na estrutura",
-      "description": "[
-        \"Fixe a malha da folha condutora na estrutura destacável para completar a ancoragem e a infiltração. A camada condutora é primeiro preparada de forma independente e depois encontra a camada dielétrica isolante.\"
-      ]",
+      "description": [
+        "\"Fixe a malha da folha condutora na estrutura destacável para completar a ancoragem e a infiltração. A camada condutora é primeiro preparada de forma independente e depois encontra a camada dielétrica isolante.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A",
         "4B53B6D07EDB738A",
@@ -771,9 +771,9 @@
       "id": "4B5CAA0B105283A1",
       "title": "Camada dielétrica isolante",
       "subtitle": "e os ramos condutores são fabricados separadamente",
-      "description": "[
-        “Deixe a cerâmica, o filme isolante e as faixas de borda formarem uma camada dielétrica independente para controlar o isolamento entre a grande superfície e as bordas. Colete a resina usada descarregada do tanque e, em seguida, envie a camada dielétrica para laminação.
-      ]",
+      "description": [
+        "“Deixe a cerâmica, o filme isolante e as faixas de borda formarem uma camada dielétrica independente para controlar o isolamento entre a grande superfície e as bordas. Colete a resina usada descarregada do tanque e, em seguida, envie a camada dielétrica para laminação."
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A",
         "4B56A77C2A4F4732",
@@ -798,9 +798,9 @@
       "id": "4B547C102F039B93",
       "title": "sequência de camadas alternadas pressionada em branco",
       "subtitle": "Maestro e médium se encontram aqui",
-      "description": "[
-        “Coloque alternadamente a camada condutora e a camada dielétrica em sequência de camadas, alinhe-as com as ferramentas de posicionamento e pressione-as juntas. Retraia a estrutura que está separada do produto e continue a enviar o blank prensado para solidificação.”
-      ]",
+      "description": [
+        "Coloque alternadamente a camada condutora e a camada dielétrica em sequência de camadas, alinhe-as com as ferramentas de posicionamento e pressione-as juntas. Retraia a estrutura que está separada do produto e continue a enviar o blank prensado para solidificação."
+      ],
       "dependencies": [
         "4B5426DBB770D474",
         "4B5CAA0B105283A1"
@@ -823,9 +823,9 @@
       "id": "4B54A8CE765D81C1",
       "title": "Material de base laminado em branco padrão",
       "subtitle": "Resfrie lentamente e solidifique, depois sele a borda do comprimento fixo.",
-      "description": "[
-        “O resfriamento lento controlado e a solidificação são concluídos, e a borda atrás da régua fornecida é preenchida com uma vedação isolante. O material principal entra em seis formas de engenharia a partir daqui, e o refrigerante quente e a resina usada são reciclados separadamente.”
-      ]",
+      "description": [
+        "O resfriamento lento controlado e a solidificação são concluídos, e a borda atrás da régua fornecida é preenchida com uma vedação isolante. O material principal entra em seis formas de engenharia a partir daqui, e o refrigerante quente e a resina usada são reciclados separadamente."
+      ],
       "dependencies": [
         "4B547C102F039B93"
       ],
@@ -847,9 +847,9 @@
       "id": "4B5012D169BAEF41",
       "title": "Placa de material de base laminada",
       "subtitle": "Preservar a camada de ligação e vedação da grande superfície",
-      "description": "[
-        \"Reprima o molde padrão, adicione um suporte de pressão e uma camada de pré-impregnado e, em seguida, processe as bordas da placa. As placas são usadas para a parede do chassi e a camada inferior estrutural da plataforma subsequente.\"
-      ]",
+      "description": [
+        "\"Reprima o molde padrão, adicione um suporte de pressão e uma camada de pré-impregnado e, em seguida, processe as bordas da placa. As placas são usadas para a parede do chassi e a camada inferior estrutural da plataforma subsequente.\""
+      ],
       "dependencies": [
         "4B54A8CE765D81C1"
       ],
@@ -871,9 +871,9 @@
       "id": "4B55AA0198FA5388",
       "title": "Haste de material base laminado",
       "subtitle": "Organize a direção do suporte de carga ao longo do eixo da haste",
-      "description": "[
-        “O núcleo axial é processado e o envolvimento circunferencial é concluído, mantendo a direção principal do material compósito. A estrutura, o anel de interface e o fio fino composto continuam a ser retirados deste lote de hastes.”
-      ]",
+      "description": [
+        "O núcleo axial é processado e o envolvimento circunferencial é concluído, mantendo a direção principal do material compósito. A estrutura, o anel de interface e o fio fino composto continuam a ser retirados deste lote de hastes."
+      ],
       "dependencies": [
         "4B54A8CE765D81C1"
       ],
@@ -895,9 +895,9 @@
       "id": "4B55E5EFF3DE4A90",
       "title": "Estrutura de material base laminado",
       "subtitle": "Deixe os nós suportarem a força e deixe a faixa de borda ser isolada.",
-      "description": "[
-        \"As hastes compostas são conectadas com nós de metal utilizáveis para separar a malha condutora da estrutura externa. Depois que os nós são apertados, toda a estrutura continua a participar da montagem do invólucro.\"
-      ]",
+      "description": [
+        "\"As hastes compostas são conectadas com nós de metal utilizáveis para separar a malha condutora da estrutura externa. Depois que os nós são apertados, toda a estrutura continua a participar da montagem do invólucro.\""
+      ],
       "dependencies": [
         "4B55AA0198FA5388"
       ],
@@ -919,9 +919,9 @@
       "id": "4B5451646EFDB638",
       "title": "Anel de metal base laminado",
       "subtitle": "Preparando costuras de isolamento após laminação",
-      "description": "[
-        \"Enrole a haste em um anel de interface, deixe a ruptura do isolamento e, em seguida, remende a vedação elástica e o cabo de vedação. O anel é usado para conchas em camadas e interfaces fluidas.\"
-      ]",
+      "description": [
+        "\"Enrole a haste em um anel de interface, deixe a ruptura do isolamento e, em seguida, remende a vedação elástica e o cabo de vedação. O anel é usado para conchas em camadas e interfaces fluidas.\""
+      ],
       "dependencies": [
         "4B55AA0198FA5388"
       ],
@@ -943,9 +943,9 @@
       "id": "4B59C3326165143C",
       "title": "Folha de metal base laminada",
       "subtitle": "Preservar a sequência alternada ao desbastar",
-      "description": "[
-        \"Expanda a folha finamente ao longo da sequência de camadas, adicione uma camada protetora flexível e processe as bordas. Deixe o condutor e o meio continuarem a manter suas respectivas relações de conexão e isolamento.\"
-      ]",
+      "description": [
+        "\"Expanda a folha finamente ao longo da sequência de camadas, adicione uma camada protetora flexível e processe as bordas. Deixe o condutor e o meio continuarem a manter suas respectivas relações de conexão e isolamento.\""
+      ],
       "dependencies": [
         "4B5012D169BAEF41"
       ],
@@ -967,9 +967,9 @@
       "id": "4B599500704705FB",
       "title": "Fio fino composto de material de base laminado",
       "subtitle": "Núcleo de metal condutor, laminado dielétrico coberto",
-      "description": "[
-        \"Núcleos metálicos independentes, fios de suporte de carga e meios laminados são combinados em fios finos. Cada camada é responsável pelas funções condutoras, de suporte de carga e de cobertura.\"
-      ]",
+      "description": [
+        "\"Núcleos metálicos independentes, fios de suporte de carga e meios laminados são combinados em fios finos. Cada camada é responsável pelas funções condutoras, de suporte de carga e de cobertura.\""
+      ],
       "dependencies": [
         "4B55AA0198FA5388"
       ],
@@ -991,9 +991,9 @@
       "id": "4B531C5843C8CA9D",
       "title": "O primeiro lote de cubos mecânicos QSV",
       "subtitle": "Enrole o núcleo HDV com uma estrutura laminada",
-      "description": "[
-        \"Monte o bloco mecânico HDV completo com esta placa de nível, estrutura e anel. Conecte o feedback da carga de fixação, sele as bordas dos condutores laminados e obtenha o primeiro lote de invólucros QSV.\"
-      ]",
+      "description": [
+        "\"Monte o bloco mecânico HDV completo com esta placa de nível, estrutura e anel. Conecte o feedback da carga de fixação, sele as bordas dos condutores laminados e obtenha o primeiro lote de invólucros QSV.\""
+      ],
       "dependencies": [
         "4B5FD3C3095F875E",
         "4B5012D169BAEF41",
@@ -1018,9 +1018,9 @@
       "id": "4B5DEE87B3588CA4",
       "title": "Inspeção e desmontagem do casco QSV",
       "subtitle": "O núcleo frontal e os materiais da camada externa são reciclados separadamente.",
-      "description": "[
-        “Desmonte o invólucro em camadas e retenha o núcleo HDV completo. As placas, molduras e anéis podem ser reciclados diretamente, e os resíduos classificados continuam a entrar na separação em camadas.”
-      ]",
+      "description": [
+        "Desmonte o invólucro em camadas e retenha o núcleo HDV completo. As placas, molduras e anéis podem ser reciclados diretamente, e os resíduos classificados continuam a entrar na separação em camadas."
+      ],
       "dependencies": [
         "4B531C5843C8CA9D"
       ],
@@ -1046,9 +1046,9 @@
       "id": "4B5239DF93F013EF",
       "title": "Classificação QSV separação de resíduos",
       "subtitle": "Remova condutores disponíveis e fragmentos dielétricos",
-      "description": "[
-        \"Separe e classifique os resíduos e colete os componentes reciclados e os materiais residuais, respectivamente. Os componentes reciclados são reabastecidos para reconstruir os ramais condutores e dielétricos, e os materiais residuais são inertizados separadamente.\"
-      ]",
+      "description": [
+        "\"Separe e classifique os resíduos e colete os componentes reciclados e os materiais residuais, respectivamente. Os componentes reciclados são reabastecidos para reconstruir os ramais condutores e dielétricos, e os materiais residuais são inertizados separadamente.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1074,9 +1074,9 @@
       "id": "4B553F7D85CD763F",
       "title": "QSV reciclando reposição e reconstrução de camadas quebradas",
       "subtitle": "Os dois ramais são preparados novamente e depois pressionados juntos",
-      "description": "[
-        “Adicione componentes reciclados e novos materiais aos condutores e ramos dielétricos respectivamente, e reconstrua os dois tipos de camadas sólidas. Depois disso, continue realizando a laminação, cura e dimensionamento originais.”
-      ]",
+      "description": [
+        "Adicione componentes reciclados e novos materiais aos condutores e ramos dielétricos respectivamente, e reconstrua os dois tipos de camadas sólidas. Depois disso, continue realizando a laminação, cura e dimensionamento originais."
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A",
         "4B53B6D07EDB738A",
@@ -1106,9 +1106,9 @@
       "id": "4B51741762CFFB5C",
       "title": "Reparo de estrutura condutora descascada",
       "subtitle": "Repare as bordas usadas reais de volta a um estado utilizável",
-      "description": "[
-        “Verifique a moldura que foi removida após a laminação e repare o metal danificado e a camada de soldagem. Algumas molduras foram retiradas de uso durante o reparo e novas linhas continuaram a repor as primeiras peças e perdas.”
-      ]",
+      "description": [
+        "Verifique a moldura que foi removida após a laminação e repare o metal danificado e a camada de soldagem. Algumas molduras foram retiradas de uso durante o reparo e novas linhas continuaram a repor as primeiras peças e perdas."
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5D1F7A868BD402"
@@ -1135,9 +1135,9 @@
       "id": "4B5798995F334AC7",
       "title": "Recarga de resina laminadora após uso",
       "subtitle": "Filtre o líquido residual não curado descarregado do tanque de revestimento",
-      "description": "[
-        \"A resina usada descarregada é processada e os ingredientes de trabalho são reabastecidos após a filtração. A resina reciclada é enviada de volta ao processo de laminação e o líquido transportador da interface residual é retirado separadamente.\"
-      ]",
+      "description": [
+        "\"A resina usada descarregada é processada e os ingredientes de trabalho são reabastecidos após a filtração. A resina reciclada é enviada de volta ao processo de laminação e o líquido transportador da interface residual é retirado separadamente.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5A8BA1982E056E",
@@ -1162,9 +1162,9 @@
       "id": "4B548CC965ACFCE8",
       "title": "Processando lotes antigos de rejeição de QSV",
       "subtitle": "Lidar com materiais rejeitados no estoque",
-      "description": "[
-        “Os lotes rejeitados em estoque são divididos em resíduos classificados e rejeitos, que são enviados para processamento posterior, respectivamente. Novos materiais continuam a ser prensados em tarugos padrão por dois ramais independentes.”
-      ]",
+      "description": [
+        "Os lotes rejeitados em estoque são divididos em resíduos classificados e rejeitos, que são enviados para processamento posterior, respectivamente. Novos materiais continuam a ser prensados em tarugos padrão por dois ramais independentes."
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1190,9 +1190,9 @@
       "id": "4B58A8456F326C13",
       "title": "Processamento integrado de prensagem e cura QSV",
       "subtitle": "Prazo de entrega reduzido após o primeiro lote de tripas",
-      "description": "[
-        “Após obter o cubo mecânico QSV e a fonte de alimentação, combine a laminação sequencial, cura e dimensionamento. Mantenha todos os insumos originais e drene a estrutura, use resina e refrigerante quente separadamente, como de costume.”
-      ]",
+      "description": [
+        "Após obter o cubo mecânico QSV e a fonte de alimentação, combine a laminação sequencial, cura e dimensionamento. Mantenha todos os insumos originais e drene a estrutura, use resina e refrigerante quente separadamente, como de costume."
+      ],
       "dependencies": [
         "4B531C5843C8CA9D"
       ],
@@ -1218,9 +1218,9 @@
       "id": "4B5BC918DBFA2C25",
       "title": "Inertização de rejeitos QSV",
       "subtitle": "Lidando com fases de ligação falhadas e finos contaminados",
-      "description": "[
-        “Os rejeitos não recicláveis são inertizados em cinzas para completar o tratamento terminal dessa parte do material laminado.”
-      ]",
+      "description": [
+        "Os rejeitos não recicláveis são inertizados em cinzas para completar o tratamento terminal dessa parte do material laminado."
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1246,9 +1246,9 @@
       "id": "4B52DDB7DCD9D9D9",
       "title": "Filme de isolamento dielétrico coerente quântico",
       "subtitle": "Adicione uma camada separada de isolamento à nova superfície de trabalho",
-      "description": "[
-        \"O filme da plataforma anterior é usado como camada inferior, composto pelo novo material principal e revestimento dielétrico. Os ramos de referência e de trabalho são separados para que o novo substrato da plataforma continue a laminação.\"
-      ]",
+      "description": [
+        "\"O filme da plataforma anterior é usado como camada inferior, composto pelo novo material principal e revestimento dielétrico. Os ramos de referência e de trabalho são separados para que o novo substrato da plataforma continue a laminação.\""
+      ],
       "dependencies": [
         "4B59C3326165143C"
       ],
@@ -1270,9 +1270,9 @@
       "id": "4B521951BBDA3CB5",
       "title": "Rede de interconexão direcional coerente quântica",
       "subtitle": "Mantenha conexões antigas e crie novas ramificações",
-      "description": "[
-        \"Adicione condutores independentes e estruturas de isolamento à rede de interconexão existente. Organize dois conjuntos de referência e caminhos de conexão funcionais para a nova plataforma.\"
-      ]",
+      "description": [
+        "\"Adicione condutores independentes e estruturas de isolamento à rede de interconexão existente. Organize dois conjuntos de referência e caminhos de conexão funcionais para a nova plataforma.\""
+      ],
       "dependencies": [
         "4B52DDB7DCD9D9D9",
         "4B599500704705FB"
@@ -1295,9 +1295,9 @@
       "id": "4B5843D53E11662C",
       "title": "Substrato de circuito coerente quântico",
       "subtitle": "A base estrutural é mantida junto com as antigas ligações",
-      "description": "[
-        \"Lamine o substrato da plataforma frontal, a placa impressa e a camada de isolamento de nível de corrente em um novo substrato. Em seguida, desenvolva o circuito de nível de corrente para completar uma placa de circuito impresso independente.\"
-      ]",
+      "description": [
+        "\"Lamine o substrato da plataforma frontal, a placa impressa e a camada de isolamento de nível de corrente em um novo substrato. Em seguida, desenvolva o circuito de nível de corrente para completar uma placa de circuito impresso independente.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1319,9 +1319,9 @@
       "id": "4B58448C233249F4",
       "title": "Substrato de circuito impresso coerente quântico",
       "subtitle": "Desenvolva o circuito após a conclusão da laminação",
-      "description": "[
-        “Desenvolva o circuito para o novo substrato e conclua a limpeza. Colete o líquido residual de gravação gerado e, em seguida, entregue a placa impressa para a embalagem do módulo e montagem do circuito.”
-      ]",
+      "description": [
+        "Desenvolva o circuito para o novo substrato e conclua a limpeza. Colete o líquido residual de gravação gerado e, em seguida, entregue a placa impressa para a embalagem do módulo e montagem do circuito."
+      ],
       "dependencies": [
         "4B5843D53E11662C"
       ],
@@ -1343,9 +1343,9 @@
       "id": "4B5F442313D9F492",
       "title": "Wafer de epitaxia coerente quântica",
       "subtitle": "Expanda um novo espaço de trabalho em uma ilha de leitura existente",
-      "description": "[
-        \"Mantenha a estrutura de leitura assumida pela matriz lógica da plataforma anterior e prepare wafers epitaxiais neste nível. As ramificações lógica e de armazenamento subsequentes usarão esses wafers, respectivamente.\"
-      ]",
+      "description": [
+        "\"Mantenha a estrutura de leitura assumida pela matriz lógica da plataforma anterior e prepare wafers epitaxiais neste nível. As ramificações lógica e de armazenamento subsequentes usarão esses wafers, respectivamente.\""
+      ],
       "dependencies": [
         "4B52DDB7DCD9D9D9"
       ],
@@ -1367,9 +1367,9 @@
       "id": "4B50EB2C5866DA41",
       "title": "Wafer de lógica coerente quântica",
       "subtitle": "Use máscaras para escrever gráficos lógicos neste nível",
-      "description": "[
-        \"Use uma máscara reutilizável para expor o wafer epitaxial e obter um wafer lógico completo. A máscara é retida e o wafer é enviado para fatiamento.\"
-      ]",
+      "description": [
+        "\"Use uma máscara reutilizável para expor o wafer epitaxial e obter um wafer lógico completo. A máscara é retida e o wafer é enviado para fatiamento.\""
+      ],
       "dependencies": [
         "4B5F442313D9F492"
       ],
@@ -1391,9 +1391,9 @@
       "id": "4B5B98B637012C23",
       "title": "Matriz lógica coerente quântica",
       "subtitle": "Oito dados são cortados de um wafer lógico",
-      "description": "[
-        \"O wafer lógico é aberto, deixando a matriz completa para o empacotamento da CPU. O refrigerante quente é direcionado de volta para as linhas de resfriamento e recondicionamento existentes.\"
-      ]",
+      "description": [
+        "\"O wafer lógico é aberto, deixando a matriz completa para o empacotamento da CPU. O refrigerante quente é direcionado de volta para as linhas de resfriamento e recondicionamento existentes.\""
+      ],
       "dependencies": [
         "4B50EB2C5866DA41"
       ],
@@ -1415,9 +1415,9 @@
       "id": "4B546E5F57A89AF1",
       "title": "Wafer de RAM coerente quântica",
       "subtitle": "Matriz de armazenamento existente conectada à nova estrutura de leitura",
-      "description": "[
-        \"Lamine a matriz de armazenamento da plataforma frontal com a estrutura epitaxial deste nível para formar um novo wafer de RAM. O armazenamento e a leitura têm camadas físicas correspondentes.\"
-      ]",
+      "description": [
+        "\"Lamine a matriz de armazenamento da plataforma frontal com a estrutura epitaxial deste nível para formar um novo wafer de RAM. O armazenamento e a leitura têm camadas físicas correspondentes.\""
+      ],
       "dependencies": [
         "4B5F442313D9F492"
       ],
@@ -1439,9 +1439,9 @@
       "id": "4B5629C1A06C85A8",
       "title": "Chip de RAM coerente quântica",
       "subtitle": "Prepare fatias para módulos e armazenamento compartilhado",
-      "description": "[
-        \"O wafer de RAM é cortado em wafers individuais. O armazenamento compartilhado do módulo de leitura local e do circuito formal consome os wafers correspondentes, respectivamente.\"
-      ]",
+      "description": [
+        "\"O wafer de RAM é cortado em wafers individuais. O armazenamento compartilhado do módulo de leitura local e do circuito formal consome os wafers correspondentes, respectivamente.\""
+      ],
       "dependencies": [
         "4B546E5F57A89AF1"
       ],
@@ -1463,9 +1463,9 @@
       "id": "4B55CE93B7ECE052",
       "title": "Capacitor de chip coerente quântico",
       "subtitle": "Armazenamento de energia para fornecimento de energia local neste nível",
-      "description": "[
-        “Mantenha a estrutura elétrica do capacitor do estágio frontal e adicione a interface e a camada funcional deste nível. O capacitor completo continua a ser combinado com os outros quatro tipos de dispositivos de chip.”
-      ]",
+      "description": [
+        "Mantenha a estrutura elétrica do capacitor do estágio frontal e adicione a interface e a camada funcional deste nível. O capacitor completo continua a ser combinado com os outros quatro tipos de dispositivos de chip."
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1487,9 +1487,9 @@
       "id": "4B5F7AEC9BBCFCEC",
       "title": "Diodo de chip coerente quântico",
       "subtitle": "Integre o tráfego unidirecional em novas plataformas",
-      "description": "[
-        \"A estrutura de trabalho original do diodo encapsulado e esta camada de interface de nível fornecem dispositivos de condução unidirecional para o conjunto funcional.\"
-      ]",
+      "description": [
+        "\"A estrutura de trabalho original do diodo encapsulado e esta camada de interface de nível fornecem dispositivos de condução unidirecional para o conjunto funcional.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1511,9 +1511,9 @@
       "id": "4B512EA74DA29FBC",
       "title": "Resistor de chip coerente quântico",
       "subtitle": "Organize limitação e polarização de corrente para esta matriz de nível",
-      "description": "[
-        “Insira o resistor frontal na interface e na camada funcional deste nível para fazer um resistor de chip que pode ser usado para montagem de array.”
-      ]",
+      "description": [
+        "Insira o resistor frontal na interface e na camada funcional deste nível para fazer um resistor de chip que pode ser usado para montagem de array."
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1535,9 +1535,9 @@
       "id": "4B5F624842572297",
       "title": "Transistor de chip coerente quântico",
       "subtitle": "Conecte interruptores e componentes do amplificador",
-      "description": "[
-        “Mantenha a estrutura funcional do transistor e adicione este nível de interface de empacotamento. Deixe a matriz funcional obter dispositivos ativos independentes.”
-      ]",
+      "description": [
+        "Mantenha a estrutura funcional do transistor e adicione este nível de interface de empacotamento. Deixe a matriz funcional obter dispositivos ativos independentes."
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1559,9 +1559,9 @@
       "id": "4B59AE91C7D1308E",
       "title": "Indutor de chip coerente quântico",
       "subtitle": "Preparando componentes indutivos para circuitos locais",
-      "description": "[
-        \"A estrutura de trabalho do indutor é combinada com as camadas de isolamento e interface deste nível para matrizes subsequentes para completar a filtragem e montagem da fonte de alimentação local.\"
-      ]",
+      "description": [
+        "\"A estrutura de trabalho do indutor é combinada com as camadas de isolamento e interface deste nível para matrizes subsequentes para completar a filtragem e montagem da fonte de alimentação local.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1583,9 +1583,9 @@
       "id": "4B5DDF0A75C1462D",
       "title": "Matriz funcional de patch coerente quântica",
       "subtitle": "Cinco tipos de dispositivos executam suas próprias funções no mesmo conjunto",
-      "description": "[
-        \"Combine capacitores, diodos, resistores, transistores e indutores em uma matriz funcional. Todos os tipos de dispositivos são totalmente inseridos e a matriz é então usada para empacotamento de módulos e CPU.\"
-      ]",
+      "description": [
+        "\"Combine capacitores, diodos, resistores, transistores e indutores em uma matriz funcional. Todos os tipos de dispositivos são totalmente inseridos e a matriz é então usada para empacotamento de módulos e CPU.\""
+      ],
       "dependencies": [
         "4B58448C233249F4",
         "4B55CE93B7ECE052",
@@ -1612,9 +1612,9 @@
       "id": "4B51D216A73E0342",
       "title": "CPU Coerente Quântica",
       "subtitle": "Sele a matriz lógica em núcleos de computação independentes",
-      "description": "[
-        \"Empacotando a matriz lógica e seu cache interno e dispositivos de fonte de alimentação local. A montagem final subsequente configurará a RAM compartilhada entre matrizes e a matriz de funções da placa transportadora.\"
-      ]",
+      "description": [
+        "\"Empacotando a matriz lógica e seu cache interno e dispositivos de fonte de alimentação local. A montagem final subsequente configurará a RAM compartilhada entre matrizes e a matriz de funções da placa transportadora.\""
+      ],
       "dependencies": [
         "4B5B98B637012C23",
         "4B5629C1A06C85A8",
@@ -1638,9 +1638,9 @@
       "id": "4B59AFFCBEEBAFF8",
       "title": "Interpositor de isolamento coerente",
       "subtitle": "Conduza campos de entrada dupla para filiais de trabalho independentes",
-      "description": "[
-        \"Combine a interface frontal, a placa impressa da plataforma e o filme de isolamento para formar um intermediário de dupla face. Conecte as ramificações de referência e de trabalho antes de prosseguir com a leitura e a montagem final.\"
-      ]",
+      "description": [
+        "\"Combine a interface frontal, a placa impressa da plataforma e o filme de isolamento para formar um intermediário de dupla face. Conecte as ramificações de referência e de trabalho antes de prosseguir com a leitura e a montagem final.\""
+      ],
       "dependencies": [
         "4B58448C233249F4",
         "4B53F12ABED75633"
@@ -1663,9 +1663,9 @@
       "id": "4B5B3D133C93EF51",
       "title": "Leitura de coerência balanceada",
       "subtitle": "Empacote amostragem pareada e diferença de fundo em módulos",
-      "description": "[
-        “Encapsular a CPU local, RAM e relógio e comparar os resultados da amostragem emparelhada. O chip de leitura é responsável pela interface e pelo status, e o circuito formal continua a realizar a principal tarefa de computação.”
-      ]",
+      "description": [
+        "Encapsular a CPU local, RAM e relógio e comparar os resultados da amostragem emparelhada. O chip de leitura é responsável pela interface e pelo status, e o circuito formal continua a realizar a principal tarefa de computação."
+      ],
       "dependencies": [
         "4B51D216A73E0342",
         "4B59AFFCBEEBAFF8",
@@ -1690,9 +1690,9 @@
       "id": "4B5A550E2AF96DEE",
       "title": "Cilindro de suporte ativo de baixo ruído",
       "subtitle": "Instale um suporte de feedback independente no atuador",
-      "description": "[
-        \"Mantenha a estrutura de suporte do estágio frontal e adicione o ramo de trabalho atual e feedback. O cilindro de suporte completo é instalado no componente de execução QSV.\"
-      ]",
+      "description": [
+        "\"Mantenha a estrutura de suporte do estágio frontal e adicione o ramo de trabalho atual e feedback. O cilindro de suporte completo é instalado no componente de execução QSV.\""
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B55E5EFF3DE4A90"
@@ -1715,9 +1715,9 @@
       "id": "4B545B327CB61E76",
       "title": "Coletor de equalização de fase shunt",
       "subtitle": "A entrada e o retorno de líquido ocorrem em ramificações independentes.",
-      "description": "[
-        “Insira a seção estendida do tubo e a divisória no coletor, separe o líquido de retorno e mantenha a temperatura uniforme. Após coletar o refrigerante quente, o coletor continua participando da montagem final dos circuitos e atuadores.”
-      ]",
+      "description": [
+        "Insira a seção estendida do tubo e a divisória no coletor, separe o líquido de retorno e mantenha a temperatura uniforme. Após coletar o refrigerante quente, o coletor continua participando da montagem final dos circuitos e atuadores."
+      ],
       "dependencies": [
         "4B5786FC3EEB8ACA",
         "4B5451646EFDB638",
@@ -1741,9 +1741,9 @@
       "id": "4B5B95EB3F6F296A",
       "title": "Host do processador de acoplamento de ritmo QSV",
       "subtitle": "Isole ramificações duplas para obter uma leitura coerente e equilibrada",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um host de processador de acoplamento de ritmo. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um host de processador de acoplamento de ritmo. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1768,9 +1768,9 @@
       "id": "4B50F0CCA9C3439A",
       "title": "Supercomputador de ressonância dobrável QSV",
       "subtitle": "Isole ramificações duplas para obter uma leitura coerente e equilibrada",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador de ressonância de energia de colapso. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador de ressonância de energia de colapso. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1795,9 +1795,9 @@
       "id": "4B5448698C68C1AF",
       "title": "Conjunto de processador QSV Quantum Bridge",
       "subtitle": "Isole ramificações duplas para obter uma leitura coerente e equilibrada",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer uma montagem de processador de ponte quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer uma montagem de processador de ponte quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1822,9 +1822,9 @@
       "id": "4B5FB4B284823B4C",
       "title": "Processador de coerência quântica QSV",
       "subtitle": "Isole ramificações duplas para obter uma leitura coerente e equilibrada",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador quântico coerente. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador quântico coerente. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1848,9 +1848,9 @@
       "id": "4B540596FFF57D7E",
       "title": "Motor elétrico QSV",
       "subtitle": "Fornece acionamento rotacional independente",
-      "description": "[
-        \"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B5A550E2AF96DEE",
         "4B5FB4B284823B4C",
@@ -1874,9 +1874,9 @@
       "id": "4B56A2D62637B307",
       "title": "Pistão elétrico QSV",
       "subtitle": "Converta o acionamento em movimento linear controlado",
-      "description": "[
-        \"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B540596FFF57D7E",
         "4B5826E04A2AEC8D"
@@ -1899,9 +1899,9 @@
       "id": "4B540D45EA680892",
       "title": "Bomba elétrica QSV",
       "subtitle": "Fornece potência de transporte para caminhos de fluxo independentes",
-      "description": "[
-        \"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B540596FFF57D7E",
         "4B56E43CD5646D21"
@@ -1924,9 +1924,9 @@
       "id": "4B55D47F3B4611E4",
       "title": "Módulo transportador QSV",
       "subtitle": "Transferência contínua de materiais em linhas de produção existentes",
-      "description": "[
-        \"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B540596FFF57D7E",
         "4B521803CFDA2528"
@@ -1949,9 +1949,9 @@
       "id": "4B5A4C311E407536",
       "title": "Braço robótico QSV",
       "subtitle": "Conecte posicionamento e execução ao mesmo componente",
-      "description": "[
-        “Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento.”
-      ]",
+      "description": [
+        "Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento."
+      ],
       "dependencies": [
         "4B56A2D62637B307",
         "4B5BF2B664146748"
@@ -1974,9 +1974,9 @@
       "id": "4B5DBB54FFD6AAAB",
       "title": "Sensor QSV",
       "subtitle": "Envie os resultados da medição para o nível atual de controle",
-      "description": "[
-        \"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\"
-      ]",
+      "description": [
+        "\"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\""
+      ],
       "dependencies": [
         "4B5FB4B284823B4C",
         "4B5F799023731291"
@@ -1999,9 +1999,9 @@
       "id": "4B59BB6EDF618991",
       "title": "Transmissor QSV",
       "subtitle": "Prepare componentes de lançamento para este nível de equipamento",
-      "description": "[
-        \"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\"
-      ]",
+      "description": [
+        "\"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\""
+      ],
       "dependencies": [
         "4B5FB4B284823B4C",
         "4B5448B56EC161A9"
@@ -2024,9 +2024,9 @@
       "id": "4B51555675FC5DC0",
       "title": "Gerador de campo de força QSV",
       "subtitle": "Prepare componentes de campo de força para este nível de equipamento",
-      "description": "[
-        “Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente.”
-      ]",
+      "description": [
+        "Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente."
+      ],
       "dependencies": [
         "4B5DBB54FFD6AAAB",
         "4B59BB6EDF618991",
@@ -2050,9 +2050,9 @@
       "id": "4B524A7EBD920FBD",
       "title": "Distribuidor de controle de instrumento de reator zoneado",
       "subtitle": "Leia a zona quente, a posição da haste e os sinais de vazamento separadamente",
-      "description": "[
-        “Monte os canais de medição e controle de cada área em coletores independentes. Primeiro, prepare o equipamento de fabricação existente e, em seguida, monte o controlador do reator de médio porte.”
-      ]",
+      "description": [
+        "Monte os canais de medição e controle de cada área em coletores independentes. Primeiro, prepare o equipamento de fabricação existente e, em seguida, monte o controlador do reator de médio porte."
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B56E43CD5646D21",
@@ -2076,9 +2076,9 @@
       "id": "4B5F95C3A9ADC01B",
       "title": "Reator de energia Honkai de médio porte",
       "subtitle": "Divida o canal de combustível e o circuito de controle de temperatura",
-      "description": "[
-        “Após a conclusão da pesquisa correspondente, será fabricado um controlador de reator de médio porte. O coletor de controle do instrumento é conectado a cada partição e gerencia o canal de combustível com controle independente de temperatura.”
-      ]",
+      "description": [
+        "Após a conclusão da pesquisa correspondente, será fabricado um controlador de reator de médio porte. O coletor de controle do instrumento é conectado a cada partição e gerencia o canal de combustível com controle independente de temperatura."
+      ],
       "dependencies": [
         "4B544DD9CC0A571D",
         "4B5FD3C3095F875E",
@@ -2103,9 +2103,9 @@
       "id": "4B5FE143B2CE31BD",
       "title": "Âncora da Realidade do Impacto Honkai",
       "subtitle": "Conecte feedback multiponto a equipamentos de estabilização reais",
-      "description": "[
-        \"Prepare todos os componentes de controle de instrumentos e de engenharia front-end para criar um controlador de âncora estável e realista. As condições de trabalho estáveis subsequentes são executadas por meio de feedback multiponto do equipamento.\"
-      ]",
+      "description": [
+        "\"Prepare todos os componentes de controle de instrumentos e de engenharia front-end para criar um controlador de âncora estável e realista. As condições de trabalho estáveis subsequentes são executadas por meio de feedback multiponto do equipamento.\""
+      ],
       "dependencies": [
         "4B5E4351A34E6E51",
         "4B5FD3C3095F875E",
@@ -2130,9 +2130,9 @@
       "id": "4B56099C65254689",
       "title": "Detector de energia de colapso de estado sólido de segunda ordem",
       "subtitle": "Atualização completa do detector frontal",
-      "description": "[
-        “Combine o detector frontal com os componentes de amostragem, diferencial e isolamento desta seção para fazer um detector de estado sólido e, em seguida, conecte-o à torre de coleta correspondente.”
-      ]",
+      "description": [
+        "Combine o detector frontal com os componentes de amostragem, diferencial e isolamento desta seção para fazer um detector de estado sólido e, em seguida, conecte-o à torre de coleta correspondente."
+      ],
       "dependencies": [
         "4B5BD9A686D81920",
         "4B56E43CD5646D21",
@@ -2156,9 +2156,9 @@
       "id": "4B5407FE468C06F4",
       "title": "Torre de coleta de energia Honkai de segundo nível",
       "subtitle": "Construa linhas separadas para aquisição de estado sólido",
-      "description": "[
-        “Use o detector de estado sólido já fabricado para montar a torre de aquisição do segundo estágio. Cada linha de aquisição de estado de fase pode ser reservada separadamente para fornecer continuamente diferentes processos.”
-      ]",
+      "description": [
+        "Use o detector de estado sólido já fabricado para montar a torre de aquisição do segundo estágio. Cada linha de aquisição de estado de fase pode ser reservada separadamente para fornecer continuamente diferentes processos."
+      ],
       "dependencies": [
         "4B5FD3C3095F875E",
         "4B56099C65254689",
@@ -2182,9 +2182,9 @@
       "id": "4B5BAE40F5AFC07D",
       "title": "Conjunto de ferramentas com suporte de pressão de combustível supercrítico",
       "subtitle": "Ferramentas de ativação · Condições de trabalho HDV",
-      "description": "[
-        “Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente.”
-      ]",
+      "description": [
+        "Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente."
+      ],
       "dependencies": [
         "4B544DD9CC0A571D"
       ],
@@ -2210,9 +2210,9 @@
       "id": "4B5F99569660B4DB",
       "title": "Nova preparação de combustível de colapso supercrítico",
       "subtitle": "Combustível energético · Condições de operação do HDV",
-      "description": "[
-        “Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido.”
-      ]",
+      "description": [
+        "Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido."
+      ],
       "dependencies": [
         "4B5BAE40F5AFC07D"
       ],
@@ -2235,10 +2235,10 @@
       "id": "4B540C3CD6E1C789",
       "title": "Reator de energia Honkai de tamanho médio·Barras de combustível Honkai",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira as barras de combustível Honkai no reator de energia Honkai de tamanho médio e reabasteça o combustível supercrítico Honkai de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras possui registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira as barras de combustível Honkai no reator de energia Honkai de tamanho médio e reabasteça o combustível supercrítico Honkai de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras possui registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2262,10 +2262,10 @@
       "id": "4B58A5775A7230DA",
       "title": "Reator de energia Honkai de tamanho médio·Barras de combustível Honkai concentradas",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira barras de combustível Honkai concentradas no reator de energia Honkai de tamanho médio e reabasteça o combustível Honkai supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carga fixa 2 grupos, especificação 1 empresa, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Combustível concentrado de longo período, com a maior carga térmica. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira barras de combustível Honkai concentradas no reator de energia Honkai de tamanho médio e reabasteça o combustível Honkai supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carga fixa 2 grupos, especificação 1 empresa, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Combustível concentrado de longo período, com a maior carga térmica. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2289,10 +2289,10 @@
       "id": "4B5BB623214E3C62",
       "title": "Reator de energia Honkai de tamanho médio·Cartucho de combustível de colapso do núcleo de carbono adsorvido",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa 2 grupos, especificação 1 empresa, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa 2 grupos, especificação 1 empresa, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2316,10 +2316,10 @@
       "id": "4B57AB116142B3B6",
       "title": "Reator de energia de colapso de tamanho médio·Hastes direcionais de transporte de energia de peneira molecular",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira as hastes direcionais de transporte de energia da peneira molecular no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Transportador de adsorção, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira as hastes direcionais de transporte de energia da peneira molecular no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Transportador de adsorção, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2343,10 +2343,10 @@
       "id": "4B58F179C19823AE",
       "title": "Reator de energia Honkai de tamanho médio · Partículas de combustível Honkai solidificadas em gel de sílica",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Encha o reator de energia Honkai de tamanho médio com partículas de combustível Honkai solidificadas em sílica gel e reabasteça o combustível Honkai supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. O gel é disperso uniformemente, operação de longo prazo. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Encha o reator de energia Honkai de tamanho médio com partículas de combustível Honkai solidificadas em sílica gel e reabasteça o combustível Honkai supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. O gel é disperso uniformemente, operação de longo prazo. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2370,10 +2370,10 @@
       "id": "4B588E0EF334DB23",
       "title": "Reator de energia de colapso de tamanho médio · Varetas de combustível cerâmicas porosas de carboneto de silício",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira barras de combustível de cerâmica porosa de carboneto de silício no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 link, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira barras de combustível de cerâmica porosa de carboneto de silício no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 link, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2397,10 +2397,10 @@
       "id": "4B59F2737629294D",
       "title": "Reator de energia de colapso de tamanho médio · Cartucho de combustível de partículas gradientes de carboneto de boro",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de partícula gradiente de carboneto de boro no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa 2 grupos, especificação 1 empresa, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de partícula gradiente de carboneto de boro no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa 2 grupos, especificação 1 empresa, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2424,10 +2424,10 @@
       "id": "4B5DBAA8EF6B7BDC",
       "title": "Reator de energia de colapso de tamanho médio · Grânulos de combustível cerâmicos com gradiente de óxido de zircônio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira contas de combustível cerâmico gradiente de óxido de zircônio no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Transportador estável em alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira contas de combustível cerâmico gradiente de óxido de zircônio no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Transportador estável em alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2451,10 +2451,10 @@
       "id": "4B5CF9B3E6C83416",
       "title": "Reator de energia Honkai de tamanho médio·Núcleo de combustível Honkai com esqueleto de cobre e diamante",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o núcleo de combustível de colapso do esqueleto de cobre-diamante no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes com base no inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o núcleo de combustível de colapso do esqueleto de cobre-diamante no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes com base no inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2478,10 +2478,10 @@
       "id": "4B5C875F0F840506",
       "title": "Reator de energia de colapso de tamanho médio · Folha de combustível de colapso intercalar de grafeno",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira folhas de combustível de colapso intercalar de grafeno no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Microrrede térmica, levando em consideração geração de energia e HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira folhas de combustível de colapso intercalar de grafeno no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Microrrede térmica, levando em consideração geração de energia e HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2505,10 +2505,10 @@
       "id": "4B5F816F94FE7BFE",
       "title": "Reator de energia de colapso de tamanho médio · Bloco de combustível de cermet de carboneto de titânio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira blocos de combustível de cermet de carboneto de titânio no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira blocos de combustível de cermet de carboneto de titânio no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2532,10 +2532,10 @@
       "id": "4B5B82EECA40B5BD",
       "title": "Reator de energia de colapso de tamanho médio·Cama de combustível de microesferas isolada de alumina",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira um leito de combustível de microesferas isolantes de alumina em um reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carga fixa 2 grupos, especificação 1 link, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Cerâmica de alto rendimento, ciclo operacional mais longo. O resfriamento é realizado por um circuito independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira um leito de combustível de microesferas isolantes de alumina em um reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carga fixa 2 grupos, especificação 1 link, um total de 2 hastes físicas; consome 4mB de combustível de colapso supercrítico. Cerâmica de alto rendimento, ciclo operacional mais longo. O resfriamento é realizado por um circuito independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2559,10 +2559,10 @@
       "id": "4B51A7449D9CEBE5",
       "title": "Reator de energia de colapso de tamanho médio · Cartucho de combustível de colapso de microcanais de tungstênio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira um cartucho de combustível de colapso de microcanais de tungstênio em um reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Esqueleto metálico de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira um cartucho de combustível de colapso de microcanais de tungstênio em um reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, um total de 2 hastes físicas; consumo de combustível de colapso supercrítico de 4mB. Esqueleto metálico de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2586,10 +2586,10 @@
       "id": "4B5E3495D5B76DBB",
       "title": "Reator de energia dobrável de tamanho médio · Cartucho de combustível de membrana de extremidade fria de PTFE",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira um cartucho de combustível de membrana de extremidade fria de PTFE em um reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa 2 grupos, especificação 1 empresa, 2 hastes físicas no total; consome 4mB de combustível de colapso supercrítico. Baixo suporte de filme térmico, voltado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira um cartucho de combustível de membrana de extremidade fria de PTFE em um reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa 2 grupos, especificação 1 empresa, 2 hastes físicas no total; consome 4mB de combustível de colapso supercrítico. Baixo suporte de filme térmico, voltado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2613,10 +2613,10 @@
       "id": "4B5CEE063BAA2B6B",
       "title": "Reator de energia de colapso de tamanho médio · Partículas de combustível de microcápsula de extremidade fria PBI",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 2 grupos, especificação de 1 empresa, 2 hastes físicas no total; consumo de combustível de colapso supercrítico de 4mB. Porta-microcápsulas de alto HW, ciclo operacional mais longo. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso de tamanho médio e reabasteça o combustível de colapso supercrítico de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 2 grupos, especificação de 1 empresa, 2 hastes físicas no total; consumo de combustível de colapso supercrítico de 4mB. Porta-microcápsulas de alto HW, ciclo operacional mais longo. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2640,12 +2640,12 @@
       "id": "4B5F2FBB98E65C9E",
       "title": "imitação de cristal de núcleo",
       "subtitle": "RN-CCE · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. A amostra cristalizada real foi testada quanto à composição e estrutura para formar um recibo válido;
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o cristal básico da câmara de reação de cristal de núcleo de imitação será desbloqueado e, em seguida, diferentes funções serão definidas por vários tópicos principais.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. A amostra cristalizada real foi testada quanto à composição e estrutura para formar um recibo válido;",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o cristal básico da câmara de reação de cristal de núcleo de imitação será desbloqueado e, em seguida, diferentes funções serão definidas por vários tópicos principais."
+      ],
       "dependencies": [
         "4B5BD9A686D81920"
       ],
@@ -2668,12 +2668,12 @@
       "id": "4B5BC3C3E40F76B6",
       "title": "Varetas de combustível avançadas e refino de combustível enriquecido",
       "subtitle": "RN-CFR · Pesquisa Experimental e Formal",
-      "description": "[
-        “Combustível líquido e consumíveis concentrados existentes podem ser obtidos após HFB”,
-        \"O experimento da equipe foi concluído na refinaria de combustível energético enriquecido de Honkai. O resultado real da fórmula de enriquecimento existente foi submetido com sucesso; as evidências podem ser registradas com antecedência, e o estudo formal ainda verifica SSC, HFB e FRP\",
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o enriquecimento inicial líquido pode ser operado após a pesquisa de preparação de combustível; após a conclusão deste tópico, serão abertas as rotas para barras de combustível enriquecidas e núcleos de combustível de sete materiais de alta qualidade.
-      ]",
+      "description": [
+        "Combustível líquido e consumíveis concentrados existentes podem ser obtidos após HFB",
+        "\"O experimento da equipe foi concluído na refinaria de combustível energético enriquecido de Honkai. O resultado real da fórmula de enriquecimento existente foi submetido com sucesso; as evidências podem ser registradas com antecedência, e o estudo formal ainda verifica SSC, HFB e FRP\"",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "“O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o enriquecimento inicial líquido pode ser operado após a pesquisa de preparação de combustível; após a conclusão deste tópico, serão abertas as rotas para barras de combustível enriquecidas e núcleos de combustível de sete materiais de alta qualidade."
+      ],
       "dependencies": [
         "4B5BD9A686D81920"
       ],
@@ -2696,12 +2696,12 @@
       "id": "4B5407261AA82797",
       "title": "Embalagem de circuito e teste de condições de trabalho",
       "subtitle": "RN-CPT · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto de teste: camada de circuito gravada × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. A peça de teste embalada concluiu os testes de condução, isolamento e ciclo térmico;
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o empacotamento de precisão e as condições de inspeção elétrica final do Centro de Usinagem de Precisão Soul Steel são desbloqueados. Cada etapa é formulada separadamente; o primeiro conjunto de condições usa o circuito frontal.\"
-      ]",
+      "description": [
+        "\"Objeto de teste: camada de circuito gravada × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. A peça de teste embalada concluiu os testes de condução, isolamento e ciclo térmico;",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "\"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o empacotamento de precisão e as condições de inspeção elétrica final do Centro de Usinagem de Precisão Soul Steel são desbloqueados. Cada etapa é formulada separadamente; o primeiro conjunto de condições usa o circuito frontal.\""
+      ],
       "dependencies": [
         "4B5BD9A686D81920"
       ],
@@ -2724,12 +2724,12 @@
       "id": "4B54FB191FF02254",
       "title": "imitação de núcleo de rock",
       "subtitle": "RN-GCA · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Detecte a diferença de resposta da amostra sob condições de campo/linha de base para formar um lote rastreável; a quantidade original do objeto inspecionado será devolvida e o experimento estará sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de imitação de rocha e a teoria da compressão gravitacional serão desbloqueados.”
-      ]",
+      "description": [
+        "\"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Detecte a diferença de resposta da amostra sob condições de campo/linha de base para formar um lote rastreável; a quantidade original do objeto inspecionado será devolvida e o experimento estará sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, o núcleo de imitação de rocha e a teoria da compressão gravitacional serão desbloqueados."
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E"
       ],
@@ -2752,12 +2752,12 @@
       "id": "4B544DD9CC0A571D",
       "title": "Engenharia de Reatores Médios",
       "subtitle": "RN-MRE · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Componente de embalagem de combustível × 1; papel × 2; ferramentas não são consumidas.\",
-        “Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. A peça de teste realmente completou a resposta térmica controlada e o teste de vedação; foi verificado que havia geração de energia, troca de calor e lotes de pós-processamento;
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso de médio porte serão desbloqueadas.”
-      ]",
+      "description": [
+        "\"Componente de embalagem de combustível × 1; papel × 2; ferramentas não são consumidas.\"",
+        "“Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. A peça de teste realmente completou a resposta térmica controlada e o teste de vedação; foi verificado que havia geração de energia, troca de calor e lotes de pós-processamento;",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso de médio porte serão desbloqueadas."
+      ],
       "dependencies": [
         "4B5BC3C3E40F76B6",
         "4B5FCABEEB611F12"
@@ -2781,12 +2781,12 @@
       "id": "4B5E4351A34E6E51",
       "title": "princípio da âncora da realidade",
       "subtitle": "RN-RAT · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto de teste: amostra padrão de energia Honkai × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. As leituras pré e pós-interferência da mesma amostra formam um recibo de inspeção válido; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
-        \"Após a conclusão do experimento, escolha 90 pontos de pesquisa ou circuito MAX × 2, placa de aço × 32 para pagar a taxa básica; são necessários 1.800 ticks adicionais e 8.053.063.680 EU/t. Os avançados são corrigidos de acordo com a pressão atual do material.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a fabricação básica e o uso do Estabilizador de Realidade Energética Honkai serão desbloqueados.”
-      ]",
+      "description": [
+        "\"Objeto de teste: amostra padrão de energia Honkai × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. As leituras pré e pós-interferência da mesma amostra formam um recibo de inspeção válido; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 90 pontos de pesquisa ou circuito MAX × 2, placa de aço × 32 para pagar a taxa básica; são necessários 1.800 ticks adicionais e 8.053.063.680 EU/t. Os avançados são corrigidos de acordo com a pressão atual do material.\"",
+        "O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a fabricação básica e o uso do Estabilizador de Realidade Energética Honkai serão desbloqueados."
+      ],
       "dependencies": [
         "4B5BE03D48DB244E"
       ],
@@ -2809,12 +2809,12 @@
       "id": "4B5BD9A686D81920",
       "title": "Coleta de energia em colapso de estado sólido",
       "subtitle": "RN-SSC · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Conclua realmente a detecção de resposta da amostra líquida e da amostra restrita e associe a coleta original e o lote de preparação da amostra;
-        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
-        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie a torre de segunda ordem e o detector de estado sólido correspondente;
-      ]",
+      "description": [
+        "\"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Conclua realmente a detecção de resposta da amostra líquida e da amostra restrita e associe a coleta original e o lote de preparação da amostra;",
+        "\"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "“O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie a torre de segunda ordem e o detector de estado sólido correspondente;"
+      ],
       "dependencies": [
         "4B5AFD2871AE846D",
         "4B5FDF3E5109ECC9"

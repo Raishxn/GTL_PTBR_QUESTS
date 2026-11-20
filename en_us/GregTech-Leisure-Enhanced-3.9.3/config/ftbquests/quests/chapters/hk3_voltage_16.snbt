@@ -3,8 +3,8 @@
   "id": "4B552A261EEC6A8F",
   "title": "Constant voltage CEV",
   "subtitle": [
-    "Tier30-CEV"
-  ],
+        "Tier30-CEV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 31,
   "icon": "hk3gtl:voltage_machine_casing_cev",
@@ -14,9 +14,9 @@
       "id": "4B517FCB2C3DA737",
       "title": "Review of differences in three areas",
       "subtitle": "Compare facilities, recipes and revenue from existing sources",
-      "description": "[
-        \"Review the true sources in the three fields in the reverse laboratory and compare facilities, formulas, inputs and outputs. Keep original records in each field to form discrepancy review receipts and standard samples.\"
-      ]",
+      "description": [
+        "\"Review the true sources in the three fields in the reverse laboratory and compare facilities, formulas, inputs and outputs. Keep original records in each field to form discrepancy review receipts and standard samples.\""
+      ],
       "dependencies": [
         "4B50C907A3CC0D16"
       ],
@@ -42,10 +42,10 @@
       "id": "4B512A71D8CE5C05",
       "title": "Continue from CIV workshop",
       "subtitle": "CIV → CEV",
-      "description": "[
-        \"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of CEV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of CEV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B5C0187E115F91B"
       ],
@@ -67,9 +67,9 @@
       "id": "4B54AFA93EB2FAFB",
       "title": "Replaceable service interposer",
       "subtitle": "Preserves positioning and interfaces for replacement parts",
-      "description": "[
-        \"Insert the front-end interoperability interface into the replaceable service intermediary layer, and complete the plug positioning and service identification. Subsequent circuits and execution components directly use this layer of components.\"
-      ]",
+      "description": [
+        "\"Insert the front-end interoperability interface into the replaceable service intermediary layer, and complete the plug positioning and service identification. Subsequent circuits and execution components directly use this layer of components.\""
+      ],
       "dependencies": [
         "4B5D96B2EA3C959C",
         "4B50E11E02DBF988",
@@ -93,9 +93,9 @@
       "id": "4B5CF24BD1B7382A",
       "title": "Continuous Handover Checkpoint Core",
       "subtitle": "Handover of operating status before and after component replacement",
-      "description": "[
-        \"Encapsulates the computing, storage, and clock components required for state handover into a persistent handover checkpoint core. It provides checkpoints for state recovery after component replacement.\"
-      ]",
+      "description": [
+        "\"Encapsulates the computing, storage, and clock components required for state handover into a persistent handover checkpoint core. It provides checkpoints for state recovery after component replacement.\""
+      ],
       "dependencies": [
         "4B54AFA93EB2FAFB",
         "4B5000890F24860A",
@@ -119,9 +119,9 @@
       "id": "4B5FC7F892A19701",
       "title": "Serviceable actuator barrel",
       "subtitle": "Leave space for disassembly and assembly of the actuator",
-      "description": "[
-        \"Retain the front-stage support and install the new actuator into the maintainable cylinder. The positioning and disassembly interfaces are made together with the finished product, and then the moving parts of this level are put in.\"
-      ]",
+      "description": [
+        "\"Retain the front-stage support and install the new actuator into the maintainable cylinder. The positioning and disassembly interfaces are made together with the finished product, and then the moving parts of this level are put in.\""
+      ],
       "dependencies": [
         "4B5CF24BD1B7382A",
         "4B542D8FCF4F68D5",
@@ -145,9 +145,9 @@
       "id": "4B5AA35FEA9ACA0D",
       "title": "Drainable maintenance circuit jacket",
       "subtitle": "Allows maintenance circuits to be isolated and drained",
-      "description": "[
-        \"Assemble the front-end channel with the new jacket and isolation valve circuit, and connect the independent supply circuit required for maintenance. Complete the air-tight process and collect the heat exhaust fluid.\"
-      ]",
+      "description": [
+        "\"Assemble the front-end channel with the new jacket and isolation valve circuit, and connect the independent supply circuit required for maintenance. Complete the air-tight process and collect the heat exhaust fluid.\""
+      ],
       "dependencies": [
         "4B5000890F24860A",
         "4B5D96B2EA3C959C",
@@ -171,9 +171,9 @@
       "id": "4B537E66D4F8E7F4",
       "title": "Civilization Sustainability Processor Host",
       "subtitle": "Arrange status handover and maintenance interfaces for the entire host",
-      "description": "[
-        \"Insert the two Civilization Persistent supercomputers into the Persistent Service composite structure, connect the replaceable interposer, handover checkpoint core and drainable maintenance jacket to complete the mainframe assembly.\"
-      ]",
+      "description": [
+        "\"Insert the two Civilization Persistent supercomputers into the Persistent Service composite structure, connect the replaceable interposer, handover checkpoint core and drainable maintenance jacket to complete the mainframe assembly.\""
+      ],
       "dependencies": [
         "4B5CF24BD1B7382A",
         "4B5AA35FEA9ACA0D",
@@ -197,9 +197,9 @@
       "id": "4B529CC1F658CB71",
       "title": "CEV electric motor",
       "subtitle": "Combine the old driver with the current execution component",
-      "description": "[
-        \"Based on two CIV electric motors, a maintainable actuator barrel, a continuous handover checkpoint core and a drainable maintenance circuit jacket are added, and then connected to the processing circuit of this level to make a CEV electric motor.\"
-      ]",
+      "description": [
+        "\"Based on two CIV electric motors, a maintainable actuator barrel, a continuous handover checkpoint core and a drainable maintenance circuit jacket are added, and then connected to the processing circuit of this level to make a CEV electric motor.\""
+      ],
       "dependencies": [
         "4B5FC7F892A19701",
         "4B537E66D4F8E7F4",
@@ -223,9 +223,9 @@
       "id": "4B52F08DCBE97DD2",
       "title": "CEV electric piston",
       "subtitle": "First have the motor of this level, and then assemble the linear actuator",
-      "description": "[
-        \"Assemble this level of motor with two pieces of CIV electric pistons, and connect to the maintainable actuator barrel and drainable maintenance circuit jacket to complete this level of piston.\"
-      ]",
+      "description": [
+        "\"Assemble this level of motor with two pieces of CIV electric pistons, and connect to the maintainable actuator barrel and drainable maintenance circuit jacket to complete this level of piston.\""
+      ],
       "dependencies": [
         "4B529CC1F658CB71",
         "4B5D45371582EB09"
@@ -248,9 +248,9 @@
       "id": "4B5B7398D82CE19F",
       "title": "CEV electric pump",
       "subtitle": "Assembling the drive, media loop, and status components together",
-      "description": "[
-        \"Based on two pieces of CIV electric pumps, the current-level motor, drainable maintenance circuit jacket, serviceable actuator barrel and continuous handover checkpoint core are installed to complete the current-level pump.\"
-      ]",
+      "description": [
+        "\"Based on two pieces of CIV electric pumps, the current-level motor, drainable maintenance circuit jacket, serviceable actuator barrel and continuous handover checkpoint core are installed to complete the current-level pump.\""
+      ],
       "dependencies": [
         "4B529CC1F658CB71",
         "4B5681A8C14DB9E0"
@@ -273,9 +273,9 @@
       "id": "4B5278D164DEB2C9",
       "title": "CEV conveyor module",
       "subtitle": "Connect the conveyor driver to the dispatching interface of this level",
-      "description": "[
-        \"Assemble two CIV conveyor belt modules and two pieces of this level motor, connect the replaceable service intermediary layer, the continuous handover checkpoint core and the execution component to make a new conveyor module.\"
-      ]",
+      "description": [
+        "\"Assemble two CIV conveyor belt modules and two pieces of this level motor, connect the replaceable service intermediary layer, the continuous handover checkpoint core and the execution component to make a new conveyor module.\""
+      ],
       "dependencies": [
         "4B529CC1F658CB71",
         "4B5686CEF885ED13"
@@ -298,9 +298,9 @@
       "id": "4B5D5D2C42CBA0AA",
       "title": "CEV robotic arm",
       "subtitle": "Install rotary drive and linear actuator in the same frame",
-      "description": "[
-        \"Prepare two pieces of this class motor and one piece of this class piston, assemble them together with two pieces of CIV robotic arms, and then connect the replaceable service intermediary layer and the continuous handover checkpoint core.\"
-      ]",
+      "description": [
+        "\"Prepare two pieces of this class motor and one piece of this class piston, assemble them together with two pieces of CIV robotic arms, and then connect the replaceable service intermediary layer and the continuous handover checkpoint core.\""
+      ],
       "dependencies": [
         "4B52F08DCBE97DD2",
         "4B5AA2239404F68C"
@@ -323,9 +323,9 @@
       "id": "4B51AD9D2688F3DD",
       "title": "CEV sensor",
       "subtitle": "Receive status readings through this level interface",
-      "description": "[
-        \"Assemble two CIV sensors with a replaceable service interposer, a continuous handover checkpoint core and a drainable maintenance loop jacket, and connect the circuits and structural parts of this level to make a new sensor.\"
-      ]",
+      "description": [
+        "\"Assemble two CIV sensors with a replaceable service interposer, a continuous handover checkpoint core and a drainable maintenance loop jacket, and connect the circuits and structural parts of this level to make a new sensor.\""
+      ],
       "dependencies": [
         "4B537E66D4F8E7F4",
         "4B5EBFF8A38C06F2"
@@ -348,9 +348,9 @@
       "id": "4B571F1CEF57B60B",
       "title": "CEV transmitter",
       "subtitle": "Connect the transmitting component to this level of control and loop",
-      "description": "[
-        \"On the basis of two CIV transmitters, a replaceable service interposer, a continuous handover checkpoint core, a drainable maintenance loop jacket and an ultra-short pulse laser are added to complete the new transmitter.\"
-      ]",
+      "description": [
+        "\"On the basis of two CIV transmitters, a replaceable service interposer, a continuous handover checkpoint core, a drainable maintenance loop jacket and an ultra-short pulse laser are added to complete the new transmitter.\""
+      ],
       "dependencies": [
         "4B537E66D4F8E7F4",
         "4B502D8896D1E3DC"
@@ -373,9 +373,9 @@
       "id": "4B5F6FE9D2F04DCA",
       "title": "CEV force field generator",
       "subtitle": "Integrate launch and measurement components into field controls",
-      "description": "[
-        \"First prepare four pieces of this level of transmitters and two pieces of this level of sensors, and then assemble them together with two pieces of CIV force field generators, this level of circuits and interface components.\"
-      ]",
+      "description": [
+        "\"First prepare four pieces of this level of transmitters and two pieces of this level of sensors, and then assemble them together with two pieces of CIV force field generators, this level of circuits and interface components.\""
+      ],
       "dependencies": [
         "4B51AD9D2688F3DD",
         "4B571F1CEF57B60B",
@@ -399,9 +399,9 @@
       "id": "4B50B186C0A5AE9C",
       "title": "Replaceable service interface piece",
       "subtitle": "Leave an interface layer for the fixed side and the maintenance side.",
-      "description": "[
-        \"Using the Civilization IV system to integrate the base material, diffusion bonding thin layer and edge sealing material to create a replaceable service interface sheet to prepare the interface for subsequent controlled disassembly and replenishment repair.\"
-      ]",
+      "description": [
+        "\"Using the Civilization IV system to integrate the base material, diffusion bonding thin layer and edge sealing material to create a replaceable service interface sheet to prepare the interface for subsequent controlled disassembly and replenishment repair.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA",
         "4B56648313820E90"
@@ -424,9 +424,9 @@
       "id": "4B5F4C2DA483A40E",
       "title": "Dissociable service bonding media",
       "subtitle": "Preparation of repair-side dissociable bonding media",
-      "description": "[
-        \"Use a new carrier liquid and solid auxiliary materials to prepare the bonding medium and send it to the functional layer laying, load-bearing layer compounding, repair and re-solidification processes.\"
-      ]",
+      "description": [
+        "\"Use a new carrier liquid and solid auxiliary materials to prepare the bonding medium and send it to the functional layer laying, load-bearing layer compounding, repair and re-solidification processes.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA"
       ],
@@ -449,9 +449,9 @@
       "id": "4B5D753E6B0EA2B6",
       "title": "Repairable functional layer",
       "subtitle": "Separately lay the permanent fixed side and maintenance side",
-      "description": "[
-        \"Start laying the layers with a new CIV standard blank and interface sheet, and put materials into the permanently fixed side and the openable repair side respectively to obtain a repairable functional layer.\"
-      ]",
+      "description": [
+        "\"Start laying the layers with a new CIV standard blank and interface sheet, and put materials into the permanently fixed side and the openable repair side respectively to obtain a repairable functional layer.\""
+      ],
       "dependencies": [
         "4B50B186C0A5AE9C",
         "4B5F4C2DA483A40E"
@@ -474,9 +474,9 @@
       "id": "4B504BF8313B8490",
       "title": "Maintenance layer composite blank",
       "subtitle": "Connect the maintenance function layer to the main bearing layer",
-      "description": "[
-        \"Compound the repairable functional layer with another batch of CIV standard blanks, and connect them with Z-direction beams and anti-expansion interlayers. The main load-bearing layer and the repair layer each consume the main material.\"
-      ]",
+      "description": [
+        "\"Compound the repairable functional layer with another batch of CIV standard blanks, and connect them with Z-direction beams and anti-expansion interlayers. The main load-bearing layer and the repair layer each consume the main material.\""
+      ],
       "dependencies": [
         "4B5D753E6B0EA2B6"
       ],
@@ -498,9 +498,9 @@
       "id": "4B5DA55AF8039DA0",
       "title": "Artificial aging service parts",
       "subtitle": "Send the composite billet into service conditions for conditioning",
-      "description": "[
-        \"Carry out artificial aging and stress conditioning on the repair layer composite blank. Take away the hot coolant and waste conditioning fluid, and obtain the service parts for the next step of disassembly and inspection.\"
-      ]",
+      "description": [
+        "\"Carry out artificial aging and stress conditioning on the repair layer composite blank. Take away the hot coolant and waste conditioning fluid, and obtain the service parts for the next step of disassembly and inspection.\""
+      ],
       "dependencies": [
         "4B504BF8313B8490"
       ],
@@ -522,9 +522,9 @@
       "id": "4B5E9B0A6F4BFEDF",
       "title": "Disassembly and inspection of service parts",
       "subtitle": "Disassemble the aged parts and separate the damaged layer",
-      "description": "[
-        \"32 pieces of artificially aged service parts were dissociated, and 28 pieces were separated into repairable and dismantled parts and non-recyclable tail materials. The repairable parts were sent to be replenished, and the tail materials were separately sealed for processing.\"
-      ]",
+      "description": [
+        "\"32 pieces of artificially aged service parts were dissociated, and 28 pieces were separated into repairable and dismantled parts and non-recyclable tail materials. The repairable parts were sent to be replenished, and the tail materials were separately sealed for processing.\""
+      ],
       "dependencies": [
         "4B5DA55AF8039DA0"
       ],
@@ -546,9 +546,9 @@
       "id": "4B547478A13BB8B9",
       "title": "Feed repair review status",
       "subtitle": "Use the new entity to make up for the losses caused by disassembly and inspection",
-      "description": "[
-        \"28 repairable and disassembled pieces were combined with 4 CIV standard blanks, and new interface sheets, bonding layers and edge sealing materials were replaced. After solidification, 32 pieces were obtained in repair and review status with supplementary materials.\"
-      ]",
+      "description": [
+        "\"28 repairable and disassembled pieces were combined with 4 CIV standard blanks, and new interface sheets, bonding layers and edge sealing materials were replaced. After solidification, 32 pieces were obtained in repair and review status with supplementary materials.\""
+      ],
       "dependencies": [
         "4B5E9B0A6F4BFEDF"
       ],
@@ -570,9 +570,9 @@
       "id": "4B5BEBA39F5F2638",
       "title": "Constant service composite base metal standard billet",
       "subtitle": "After the repair and review is completed, the package will be finalized.",
-      "description": "[
-        \"Re-encapsulate the ports and sheaths for the repaired materials, and complete the length determination after cooling. The obtained standard blanks are then processed into cost-level structural parts.\"
-      ]",
+      "description": [
+        "\"Re-encapsulate the ports and sheaths for the repaired materials, and complete the length determination after cooling. The obtained standard blanks are then processed into cost-level structural parts.\""
+      ],
       "dependencies": [
         "4B547478A13BB8B9"
       ],
@@ -594,9 +594,9 @@
       "id": "4B5C675D38FDE274",
       "title": "Replaceable face protection plate",
       "subtitle": "Fixed board core, retaining replaceable protective cover",
-      "description": "[
-        \"Fix the permanent side to the board core and allow the detachable side to carry the replaceable protective surface to create a continuous service composite base material board.\"
-      ]",
+      "description": [
+        "\"Fix the permanent side to the board core and allow the detachable side to carry the replaceable protective surface to create a continuous service composite base material board.\""
+      ],
       "dependencies": [
         "4B5BEBA39F5F2638"
       ],
@@ -618,9 +618,9 @@
       "id": "4B54F6817D14D815",
       "title": "Interchangeable port continuity stick",
       "subtitle": "Keep the rod core and arrange a replacement interface at the end",
-      "description": "[
-        \"Retain the continuous rod core, add a removable interface sheet to the end, and then complete the packaging to make a continuous rod.\"
-      ]",
+      "description": [
+        "\"Retain the continuous rod core, add a removable interface sheet to the end, and then complete the packaging to make a continuous rod.\""
+      ],
       "dependencies": [
         "4B5BEBA39F5F2638",
         "4B5169DF2F36CDFE"
@@ -643,9 +643,9 @@
       "id": "4B542D8FCF4F68D5",
       "title": "Serviceable Joint Continuous Frame",
       "subtitle": "Arrange the inspection location at the four-corner joint",
-      "description": "[
-        \"Retain the frame beam body, and set up repairable connections and crack-stopping edges at the four corners to create a continuous frame.\"
-      ]",
+      "description": [
+        "\"Retain the frame beam body, and set up repairable connections and crack-stopping edges at the four corners to create a continuous frame.\""
+      ],
       "dependencies": [
         "4B54F6817D14D815",
         "4B510892DE6F743E"
@@ -668,9 +668,9 @@
       "id": "4B5000890F24860A",
       "title": "Removable end continuous ring",
       "subtitle": "Keep the continuous ring body and replace the worn end face separately",
-      "description": "[
-        \"Arrange the dissociable interface on the end face of the ring, retain the continuous load-bearing ring body, and make a continuous ring.\"
-      ]",
+      "description": [
+        "\"Arrange the dissociable interface on the end face of the ring, retain the continuous load-bearing ring body, and make a continuous ring.\""
+      ],
       "dependencies": [
         "4B54F6817D14D815",
         "4B54D6847FD5957F"
@@ -693,9 +693,9 @@
       "id": "4B5D96B2EA3C959C",
       "title": "Detachable protective layer continuous foil",
       "subtitle": "Let the sheathing and permanent sides be joined separately",
-      "description": "[
-        \"A thin interface of polytetrafluoroethylene is used to prepare the dissociable side, and the permanent side is bonded separately to create a continuous foil.\"
-      ]",
+      "description": [
+        "\"A thin interface of polytetrafluoroethylene is used to prepare the dissociable side, and the permanent side is bonded separately to create a continuous foil.\""
+      ],
       "dependencies": [
         "4B5C675D38FDE274",
         "4B5DCD37A1A4F6E4"
@@ -718,9 +718,9 @@
       "id": "4B50E11E02DBF988",
       "title": "Replaceable terminated continuous thin wire",
       "subtitle": "Make the terminations individually removable",
-      "description": "[
-        \"The continuous core and replaceable termination are made separately, and a thin interface is used to isolate the maintenance area at the termination to make a continuous composite thin wire.\"
-      ]",
+      "description": [
+        "\"The continuous core and replaceable termination are made separately, and a thin interface is used to isolate the maintenance area at the termination to make a continuous composite thin wire.\""
+      ],
       "dependencies": [
         "4B54F6817D14D815",
         "4B52C7B2C8A73F92"
@@ -743,9 +743,9 @@
       "id": "4B53D2C97ECE3811",
       "title": "CEV mechanical cube",
       "subtitle": "Assembling maintainable materials into a final shell",
-      "description": "[
-        \"Using the CIV mechanical cube as the core, adding continuous plates, frames, rings and independent interfaces, and then completing the packaging, the first batch of CEV mechanical cubes are made. The first production working condition is CIV.\"
-      ]",
+      "description": [
+        "\"Using the CIV mechanical cube as the core, adding continuous plates, frames, rings and independent interfaces, and then completing the packaging, the first batch of CEV mechanical cubes are made. The first production working condition is CIV.\""
+      ],
       "dependencies": [
         "4B5C675D38FDE274",
         "4B542D8FCF4F68D5",
@@ -770,9 +770,9 @@
       "id": "4B594BFC1472C1F8",
       "title": "Dismantling the CEV mechanical block",
       "subtitle": "Leaving reusable shells and complete structural parts",
-      "description": "[
-        \"Disassemble the CEV mechanical block in layers, and retrieve the CIV core shell and half of the complete plates, frames, and rings. The remaining main body is divided into classified waste, and special functional parts and packaging materials are consumed along with the disassembly.\"
-      ]",
+      "description": [
+        "\"Disassemble the CEV mechanical block in layers, and retrieve the CIV core shell and half of the complete plates, frames, and rings. The remaining main body is divided into classified waste, and special functional parts and packaging materials are consumed along with the disassembly.\""
+      ],
       "dependencies": [
         "4B53D2C97ECE3811"
       ],
@@ -798,9 +798,9 @@
       "id": "4B59361147764D33",
       "title": "Separation of composite parent material waste in continuous service",
       "subtitle": "Separately collect rebuildable components and tailings",
-      "description": "[
-        \"Use Soul Steel process solvent to elute the attachments of the classified waste, and then perform centrifugal separation. The main body is separated into 75% recycled components and 25% non-recyclable tailings, and the waste solvent is picked up separately.\"
-      ]",
+      "description": [
+        "\"Use Soul Steel process solvent to elute the attachments of the classified waste, and then perform centrifugal separation. The main body is separated into 75% recycled components and 25% non-recyclable tailings, and the waste solvent is picked up separately.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA"
       ],
@@ -826,9 +826,9 @@
       "id": "4B524AB0A1CADE88",
       "title": "Rebuild serviceable functional layer",
       "subtitle": "Renew the main body and re-invest in functional excipients",
-      "description": "[
-        \"Match the recycled components with the fresh main body according to the formula, and re-invest all functional auxiliary materials to make a repairable functional layer. Then continue manufacturing from the original intermediate process.\"
-      ]",
+      "description": [
+        "\"Match the recycled components with the fresh main body according to the formula, and re-invest all functional auxiliary materials to make a repairable functional layer. Then continue manufacturing from the original intermediate process.\""
+      ],
       "dependencies": [
         "4B50B186C0A5AE9C",
         "4B5F4C2DA483A40E"
@@ -855,9 +855,9 @@
       "id": "4B5C758B92F11F79",
       "title": "Storage of composite parent material tailings for continuous service",
       "subtitle": "Solidifies damaged material into an inert residue",
-      "description": "[
-        \"The non-recyclable tailings are solidified into ash and sent to general dust use. The reconstructable components are sent back to the filling process from another outlet.\"
-      ]",
+      "description": [
+        "\"The non-recyclable tailings are solidified into ash and sent to general dust use. The reconstructable components are sent back to the filling process from another outlet.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA"
       ],
@@ -883,9 +883,9 @@
       "id": "4B50F2613657A6F7",
       "title": "Interchangeable service interface module",
       "subtitle": "Install the vulnerable sealing layer and sampling interface into an independent cabin",
-      "description": "[
-        \"The vulnerable sealing layer, status sampling and replacement interfaces are formed into an independent cabin, which is first manufactured in existing equipment and then installed in subsequent facilities.\"
-      ]",
+      "description": [
+        "\"The vulnerable sealing layer, status sampling and replacement interfaces are formed into an independent cabin, which is first manufactured in existing equipment and then installed in subsequent facilities.\""
+      ],
       "dependencies": [
         "4B59451C718B1F9B",
         "4B5681A8C14DB9E0",
@@ -909,9 +909,9 @@
       "id": "4B500FF210FA8348",
       "title": "Herrscher of Knowledge·Vientiane·Civilization Consensus Matrix Master",
       "subtitle": "Creating the Civilization Consensus Matrix Master in the Forge",
-      "description": "[
-        \"Complete the research on RN-SFF and RN-CKV, and create the Herrscher of Knowledge, Vientiane, and Civilization Consensus Matrix master control in the Herrscher of Fire, Tribulation Flame, and Stellar Forge. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete the research on RN-SFF and RN-CKV, and create the Herrscher of Knowledge, Vientiane, and Civilization Consensus Matrix master control in the Herrscher of Fire, Tribulation Flame, and Stellar Forge. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B522E39065BAE09",
         "4B50F2613657A6F7",
@@ -937,9 +937,9 @@
       "id": "4B529183EBE8C67D",
       "title": "The Herrscher of Dominance·Qianlu·Distributed Industrial Dominance Array Master Control",
       "subtitle": "Continuing Distributed Industrial Engineering at Gravity Casting Well",
-      "description": "[
-        \"Complete the research on RN-GSF and RN-DIO, and manufacture the Herrscher of Domination, Thousand Laws, and Distributed Industrial Control Array master control in the Herrscher of Rocks, Falling Stars, and Gravitational Singularity Casting Well. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete the research on RN-GSF and RN-DIO, and manufacture the Herrscher of Domination, Thousand Laws, and Distributed Industrial Control Array master control in the Herrscher of Rocks, Falling Stars, and Gravitational Singularity Casting Well. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B53A013546F4FF4",
         "4B55CCA4D601F13B"
@@ -962,9 +962,9 @@
       "id": "4B51E9867D106612",
       "title": "Herrscher of Erosion·Erosion World·Self-Calculation Research Mother Machine Master Control",
       "subtitle": "Continuing self-calculation research from energy constraint engineering",
-      "description": "[
-        \"Complete the RN-ECB and RN-ASR research, and create the Herrscher of Erosion, Eclipse World, and Self-Calculation Research mother machine master control on the Herrscher of Restraint, Discipline, and Global Energy Confinement Wall. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete the RN-ECB and RN-ASR research, and create the Herrscher of Erosion, Eclipse World, and Self-Calculation Research mother machine master control on the Herrscher of Restraint, Discipline, and Global Energy Confinement Wall. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B5F75BA5DA29F9C",
         "4B59A48A5F3C2FD2"
@@ -987,9 +987,9 @@
       "id": "4B5255658774BFB7",
       "title": "The Herrscher of the End·The Final Sequence·World Bubble Reincarnation Engine Master Controller",
       "subtitle": "Researching the main control of the mother machine and manufacturing the reincarnation engine in the world",
-      "description": "[
-        \"Complete the research on RN-ASR and RN-WCE, and use the Herrscher of Erosion, World of Eclipse, and Self-Calculation research base machines to create the Herrscher of the End, Final Sequence, and World Bubble Reincarnation Engine master control. After obtaining the master control, continue to build the complete structure according to the wonder blueprint.\"
-      ]",
+      "description": [
+        "\"Complete the research on RN-ASR and RN-WCE, and use the Herrscher of Erosion, World of Eclipse, and Self-Calculation research base machines to create the Herrscher of the End, Final Sequence, and World Bubble Reincarnation Engine master control. After obtaining the master control, continue to build the complete structure according to the wonder blueprint.\""
+      ],
       "dependencies": [
         "4B5024CC6F0E23DA",
         "4B51E9867D106612"
@@ -1016,9 +1016,9 @@
       "id": "4B5918482D84D530",
       "title": "■■■·Lingxiao·Shuhai Pilgrimage to the Holy See Controller",
       "subtitle": "Making the Sea of ​​Trees and Pilgrimage to the Holy See Master in the Reincarnation Engine",
-      "description": "[
-        \"Complete the research on RN-WCE and RN-TAA, and make the reincarnation engine manufacturing in Herrscher of the End, Ending, World Bubble, Lingxiao, Sea of Trees, and go to the Holy See for master control. After obtaining the master control, continue to build the complete structure according to the blueprint of the wonder.\"
-      ]",
+      "description": [
+        "\"Complete the research on RN-WCE and RN-TAA, and make the reincarnation engine manufacturing in Herrscher of the End, Ending, World Bubble, Lingxiao, Sea of Trees, and go to the Holy See for master control. After obtaining the master control, continue to build the complete structure according to the blueprint of the wonder.\""
+      ],
       "dependencies": [
         "4B57B4694173EAAF",
         "4B5255658774BFB7"
@@ -1045,12 +1045,12 @@
       "id": "4B5F75BA5DA29F9C",
       "title": "Eclipse world self-calculation research machine",
       "subtitle": "RN-ASR · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Imitation Herrscher Core of Corrosion x 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. The actual energy consumption is limited to the benchmark calculation, and the results can be repeatedly checked and verified. It can be stopped; no rewards for completed projects will be re-awarded without accelerating the project first; the original amount of the inspected object will be returned, and the experiment will be based on the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the Herrscher of Corrosion, Eclipse World, and Self-Calculation Research Machine will be unlocked; the Herrscher of Corrosion, Eclipse World, and Self-Calculation Research Machine can not be used to accelerate it as a prerequisite for developing the Herrscher of Corrosion, Eclipse World, and Self-Calculation Research Machine itself.\"
-      ]",
+      "description": [
+        "\"Tested object: Imitation Herrscher Core of Corrosion x 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. The actual energy consumption is limited to the benchmark calculation, and the results can be repeatedly checked and verified. It can be stopped; no rewards for completed projects will be re-awarded without accelerating the project first; the original amount of the inspected object will be returned, and the experiment will be based on the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the Herrscher of Corrosion, Eclipse World, and Self-Calculation Research Machine will be unlocked; the Herrscher of Corrosion, Eclipse World, and Self-Calculation Research Machine can not be used to accelerate it as a prerequisite for developing the Herrscher of Corrosion, Eclipse World, and Self-Calculation Research Machine itself.\""
+      ],
       "dependencies": [
         "4B51C820096302E2",
         "4B591448503FE870"
@@ -1074,12 +1074,12 @@
       "id": "4B50C907A3CC0D16",
       "title": "Cross-validation of civilizational achievements",
       "subtitle": "RN-CAV · Experimental and formal research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Submit the operation records and engineering files of each of the four equipment, and check the source and results; each record is only counted once. The original quantity of the inspected object is returned, and the results are recorded after the experiment is completed.\",
-        \"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, a subsequent readable verification report of the total qualification summary will be formed; it will not be automatically upgraded to final approval.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Submit the operation records and engineering files of each of the four equipment, and check the source and results; each record is only counted once. The original quantity of the inspected object is returned, and the results are recorded after the experiment is completed.\"",
+        "\"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, a subsequent readable verification report of the total qualification summary will be formed; it will not be automatically upgraded to final approval.\""
+      ],
       "dependencies": [
         "4B5F75BA5DA29F9C",
         "4B522E39065BAE09",
@@ -1105,12 +1105,12 @@
       "id": "4B5744A886919F5B",
       "title": "Cross-domain working condition verification",
       "subtitle": "RN-DVC · Experimental and Formal Research",
-      "description": "[
-        \"Test object: world model carrier × 1; paper 2 is used for inspection records, and the reference sample is recycled\",
-        \"Complete the team's experiment in the legacy technology reverse laboratory. Actual comparison of the differences between Honkai, quantum and imaginary working conditions under their respective conditions can trace back the original experiment; different results cannot be deleted uniformly or three copies of the data are used to make up the number; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\",
-        \"The institute deducts power based on the total power of the effective energy port. Upon completion, the cross-domain process diagnostic/verification data will be unlocked; the authority of the Shuhai owner will not be granted.\"
-      ]",
+      "description": [
+        "\"Test object: world model carrier × 1; paper 2 is used for inspection records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment in the legacy technology reverse laboratory. Actual comparison of the differences between Honkai, quantum and imaginary working conditions under their respective conditions can trace back the original experiment; different results cannot be deleted uniformly or three copies of the data are used to make up the number; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\"",
+        "\"The institute deducts power based on the total power of the effective energy port. Upon completion, the cross-domain process diagnostic/verification data will be unlocked; the authority of the Shuhai owner will not be granted.\""
+      ],
       "dependencies": [
         "4B517FCB2C3DA737"
       ],
@@ -1133,12 +1133,12 @@
       "id": "4B57B4694173EAAF",
       "title": "Pilgrimage to the Holy Seat among the trees and sea of ​​trees",
       "subtitle": "RN-TAA · Experimental and formal research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify the real results and ship records of 14 different wonders by type, and do not replace them with 14 machines of the same type or 14 controllers; successful pre-inspection will only give TAA research evidence; the original quantity of the inspected object will be returned, and the experiment will be based on the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\",
-        \"The research institute withholds power based on the total power of the effective energy port. After completion, the construction and qualification summary of the Holy See of Lingxiao and Shuhai will be unlocked; final conditions such as full scrolls and second trial will be determined according to the respective systems.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify the real results and ship records of 14 different wonders by type, and do not replace them with 14 machines of the same type or 14 controllers; successful pre-inspection will only give TAA research evidence; the original quantity of the inspected object will be returned, and the experiment will be based on the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\"",
+        "\"The research institute withholds power based on the total power of the effective energy port. After completion, the construction and qualification summary of the Holy See of Lingxiao and Shuhai will be unlocked; final conditions such as full scrolls and second trial will be determined according to the respective systems.\""
+      ],
       "dependencies": [
         "4B50C907A3CC0D16",
         "4B5BCAEEE0929B4A",
@@ -1169,12 +1169,12 @@
       "id": "4B5024CC6F0E23DA",
       "title": "Final World Bubble Reincarnation Engine",
       "subtitle": "RN-WCE · Experimental and Formal Research",
-      "description": "[
-        \"Test object: world model carrier × 1; paper 2 is used for inspection records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. The actual material consumption, energy consumption, stability and termination of the same batch are successful and settled only once; sealing or suspending is not considered completed, and different batches are not spliced; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine\",
-        \"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the Herrscher of the End, Final Sequence, and World Bubble Reincarnation Engine advanced simulation project will be unlocked. It will not replace the early simulation equipment.\"
-      ]",
+      "description": [
+        "\"Test object: world model carrier × 1; paper 2 is used for inspection records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. The actual material consumption, energy consumption, stability and termination of the same batch are successful and settled only once; sealing or suspending is not considered completed, and different batches are not spliced; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine\"",
+        "\"After the experiment is completed, choose 9690 research points or CIV circuit × 10, tri-titanium plate × 144 to pay the base fee; an additional 51,000 ticks and 2,161,727,821,137,838,080 EU/t are required. The current material pressure is corrected for advanced ones.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the Herrscher of the End, Final Sequence, and World Bubble Reincarnation Engine advanced simulation project will be unlocked. It will not replace the early simulation equipment.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA"
       ],

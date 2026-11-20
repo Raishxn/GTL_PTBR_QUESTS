@@ -3,8 +3,8 @@
   "id": "4B5F2B889F6CCDEA",
   "title": "Stable boundary voltage WSV",
   "subtitle": [
-    "Tier28-WSV"
-  ],
+        "Tier28-WSV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 29,
   "icon": "hk3gtl:voltage_machine_casing_wsv",
@@ -14,9 +14,9 @@
       "id": "4B591448503FE870",
       "title": "Limited step result verification",
       "subtitle": "Independently check calculation results and stop status",
-      "description": "[
-        \"Read the previous calculation receipt in the engineering test equipment, and use independent formulas to check the number of steps, stop status and total amount. Save the calculation records that have passed the verification for subsequent engineering research.\"
-      ]",
+      "description": [
+        "\"Read the previous calculation receipt in the engineering test equipment, and use independent formulas to check the number of steps, stop status and total amount. Save the calculation records that have passed the verification for subsequent engineering research.\""
+      ],
       "dependencies": [
         "4B52E449306ED7FC",
         "4B5137DC6ACD7AAC"
@@ -43,9 +43,9 @@
       "id": "4B5132710E761772",
       "title": "Sampling sources of contradictions",
       "subtitle": "Let both bitwidths read the same finite sample",
-      "description": "[
-        \"Obtain the same set of inputs from three existing sources, using 32-bit and 64-bit channel accumulation respectively. Keep the two original reports and the same sample definitions, and then perform independent revalidation.\"
-      ]",
+      "description": [
+        "\"Obtain the same set of inputs from three existing sources, using 32-bit and 64-bit channel accumulation respectively. Keep the two original reports and the same sample definitions, and then perform independent revalidation.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA",
         "4B5802E842FF9314"
@@ -72,9 +72,9 @@
       "id": "4B5446D7FAF60899",
       "title": "Independent retesting of conflicting samples",
       "subtitle": "Recalculate using arbitrary precision integers in reverse order",
-      "description": "[
-        \"Read the same sample retained in the previous working condition in the reverse laboratory, and accumulate it in reverse order with an arbitrary precision integer. Save the complete results and two original reports, and then give them to the engineering equipment for review.\"
-      ]",
+      "description": [
+        "\"Read the same sample retained in the previous working condition in the reverse laboratory, and accumulate it in reverse order with an arbitrary precision integer. Save the complete results and two original reports, and then give them to the engineering equipment for review.\""
+      ],
       "dependencies": [
         "4B5132710E761772"
       ],
@@ -100,9 +100,9 @@
       "id": "4B5FED87D8CDDF57",
       "title": "Cross-machine scheduling sequence verification",
       "subtitle": "Verify the actual material handover between two authorized machines",
-      "description": "[
-        \"First, I clearly create a work order, let the two authorized machines actually produce and hand over materials in sequence, and then verify the handover and manual dispatch receipt in the engineering test equipment. Save complete cross-machine work order records.\"
-      ]",
+      "description": [
+        "\"First, I clearly create a work order, let the two authorized machines actually produce and hand over materials in sequence, and then verify the handover and manual dispatch receipt in the engineering test equipment. Save complete cross-machine work order records.\""
+      ],
       "dependencies": [
         "4B5D9AB5C693811A",
         "4B55EF1E9B3DACDA"
@@ -129,10 +129,10 @@
       "id": "4B5E768E561F880E",
       "title": "Continue from WFV workshop",
       "subtitle": "WFV → WSV",
-      "description": "[
-        \"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of WSV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of WSV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B580FDD510DA71E"
       ],
@@ -154,9 +154,9 @@
       "id": "4B58558AF88A1976",
       "title": "constrained boundary bus",
       "subtitle": "Connect independent constraint domains to the same bus",
-      "description": "[
-        \"The independent constraint boundary is connected to the interface of the boundary topology routing piece to form a constraint boundary bus. The new printing board, membrane and main material have been installed into the assembly, and will be put into production as a finished bus.\"
-      ]",
+      "description": [
+        "\"The independent constraint boundary is connected to the interface of the boundary topology routing piece to form a constraint boundary bus. The new printing board, membrane and main material have been installed into the assembly, and will be put into production as a finished bus.\""
+      ],
       "dependencies": [
         "4B531BD31DF7D0DE",
         "4B50212A69B5E25E",
@@ -180,9 +180,9 @@
       "id": "4B5DA9F231445ED9",
       "title": "Fault Isolation Voter",
       "subtitle": "Check fault status and switching results",
-      "description": "[
-        \"The local CPU, RAM and clock are encapsulated into a fault isolation voter, which is used for status checking, isolation and switching confirmation of the constraint domain.\"
-      ]",
+      "description": [
+        "\"The local CPU, RAM and clock are encapsulated into a fault isolation voter, which is used for status checking, isolation and switching confirmation of the constraint domain.\""
+      ],
       "dependencies": [
         "4B51716ACB713DCE",
         "4B58558AF88A1976",
@@ -206,9 +206,9 @@
       "id": "4B525BAF22D76495",
       "title": "Redundant Boundary Servo Group",
       "subtitle": "Add redundant support for boundary operations",
-      "description": "[
-        \"A boundary servo mechanism is added to the front-stage execution component. It is responsible for the boundary operation and mismatch stop of this stage, and the front-stage support is retained with the finished product.\"
-      ]",
+      "description": [
+        "\"A boundary servo mechanism is added to the front-stage execution component. It is responsible for the boundary operation and mismatch stop of this stage, and the front-stage support is retained with the finished product.\""
+      ],
       "dependencies": [
         "4B556E81648CE5E5",
         "4B5DA9F231445ED9",
@@ -232,9 +232,9 @@
       "id": "4B5EAB5D0766FEF5",
       "title": "Independent service circuit block",
       "subtitle": "Connect the supply loop and bypass respectively",
-      "description": "[
-        \"Retain the front-end channel, and then assemble the independent supply loop and zone bypass. After completing the air-tight process, return the heat exhaust fluid to the coolant treatment line.\"
-      ]",
+      "description": [
+        "\"Retain the front-end channel, and then assemble the independent supply loop and zone bypass. After completing the air-tight process, return the heat exhaust fluid to the coolant treatment line.\""
+      ],
       "dependencies": [
         "4B5E6B8B68D9B5DA",
         "4B56216F4E2D7726",
@@ -258,9 +258,9 @@
       "id": "4B5D8D141FECC519",
       "title": "World Texture Processor Host",
       "subtitle": "Integrate texture calculations into constraint boundaries",
-      "description": "[
-        \"Using two world fabric supercomputers as the computing body, connected to the constrained boundary bus, fault isolation voting unit and independent service loop block, complete the host assembly.\"
-      ]",
+      "description": [
+        "\"Using two world fabric supercomputers as the computing body, connected to the constrained boundary bus, fault isolation voting unit and independent service loop block, complete the host assembly.\""
+      ],
       "dependencies": [
         "4B56F3B0A5BF4A8C",
         "4B5DA9F231445ED9",
@@ -285,9 +285,9 @@
       "id": "4B5F2E4515DC981D",
       "title": "Final sequence calculus supercomputer",
       "subtitle": "Loading calculation components into an isolation structure",
-      "description": "[
-        \"Using two final sequence processor assemblies as the main body, adding a stable constraint shell frame, shared RAM and independent circuits, the final sequence supercomputer is assembled.\"
-      ]",
+      "description": [
+        "\"Using two final sequence processor assemblies as the main body, adding a stable constraint shell frame, shared RAM and independent circuits, the final sequence supercomputer is assembled.\""
+      ],
       "dependencies": [
         "4B59DB139B2F5210",
         "4B5DA9F231445ED9",
@@ -312,9 +312,9 @@
       "id": "4B5949A42E56A093",
       "title": "Civilization Sustainability Processor Assembly",
       "subtitle": "Let state logging work with boundary switching",
-      "description": "[
-        \"Connect two Civilization Persistent processors to the constraint bus of this level, add the fault isolation voting device, shared RAM and load-bearing structure to complete the processor assembly.\"
-      ]",
+      "description": [
+        "\"Connect two Civilization Persistent processors to the constraint bus of this level, add the fault isolation voting device, shared RAM and load-bearing structure to complete the processor assembly.\""
+      ],
       "dependencies": [
         "4B5DA9F231445ED9",
         "4B5EAB5D0766FEF5",
@@ -338,9 +338,9 @@
       "id": "4B55C1E63A21B3A4",
       "title": "WSV electric motor",
       "subtitle": "Combine the old driver with the current execution component",
-      "description": "[
-        \"Based on two WFV electric motors, redundant boundary servo groups, fault isolation voters and independent service loop blocks are added, and then connected to the processing circuit of this level to make a WSV electric motor.\"
-      ]",
+      "description": [
+        "\"Based on two WFV electric motors, redundant boundary servo groups, fault isolation voters and independent service loop blocks are added, and then connected to the processing circuit of this level to make a WSV electric motor.\""
+      ],
       "dependencies": [
         "4B588D52C7941E89",
         "4B525BAF22D76495",
@@ -364,9 +364,9 @@
       "id": "4B55FCCCC9EE2F63",
       "title": "WSV electric piston",
       "subtitle": "First have the motor of this level, and then assemble the linear actuator",
-      "description": "[
-        \"Assemble this level of motor with two pieces of WFV electric pistons, and connect them to the redundant boundary servo group and independent service circuit block to complete this level of piston.\"
-      ]",
+      "description": [
+        "\"Assemble this level of motor with two pieces of WFV electric pistons, and connect them to the redundant boundary servo group and independent service circuit block to complete this level of piston.\""
+      ],
       "dependencies": [
         "4B5A4E71F28E7D7B",
         "4B55C1E63A21B3A4"
@@ -389,9 +389,9 @@
       "id": "4B5A9C26C12082CA",
       "title": "WSV electric pump",
       "subtitle": "Assembling the drive, media loop, and status components together",
-      "description": "[
-        \"Based on two WFV electric pumps, the current-level motor, independent service circuit block, redundant boundary servo group and fault isolation voter are installed to complete the current-level pump.\"
-      ]",
+      "description": [
+        "\"Based on two WFV electric pumps, the current-level motor, independent service circuit block, redundant boundary servo group and fault isolation voter are installed to complete the current-level pump.\""
+      ],
       "dependencies": [
         "4B549F522A6157BB",
         "4B55C1E63A21B3A4"
@@ -414,9 +414,9 @@
       "id": "4B5564A4DB90FCDB",
       "title": "WSV Conveyor Module",
       "subtitle": "Connect the conveyor driver to the dispatching interface of this level",
-      "description": "[
-        \"Assemble two WFV conveyor belt modules and two current-level motors, and connect the constraint boundary bus, fault isolation voter and execution component to make a new conveyor module.\"
-      ]",
+      "description": [
+        "\"Assemble two WFV conveyor belt modules and two current-level motors, and connect the constraint boundary bus, fault isolation voter and execution component to make a new conveyor module.\""
+      ],
       "dependencies": [
         "4B5E9F7D1509AD77",
         "4B55C1E63A21B3A4"
@@ -439,9 +439,9 @@
       "id": "4B5FC954E717BFB4",
       "title": "WSV robotic arm",
       "subtitle": "Install rotary drive and linear actuator in the same frame",
-      "description": "[
-        \"Prepare two pieces of this-level motor and one piece of this-level piston, assemble them together with two pieces of WFV robotic arms, and then connect the constraint boundary bus and fault isolation voting device.\"
-      ]",
+      "description": [
+        "\"Prepare two pieces of this-level motor and one piece of this-level piston, assemble them together with two pieces of WFV robotic arms, and then connect the constraint boundary bus and fault isolation voting device.\""
+      ],
       "dependencies": [
         "4B5E853D08F25D97",
         "4B55FCCCC9EE2F63"
@@ -464,9 +464,9 @@
       "id": "4B59AE764DF3481F",
       "title": "WSV sensor",
       "subtitle": "Receive status readings through this level interface",
-      "description": "[
-        \"Assemble the two WFV sensors with the constraint boundary bus, fault isolation voting device and independent service loop block, and connect the circuits and structural parts of this level to make a new sensor.\"
-      ]",
+      "description": [
+        "\"Assemble the two WFV sensors with the constraint boundary bus, fault isolation voting device and independent service loop block, and connect the circuits and structural parts of this level to make a new sensor.\""
+      ],
       "dependencies": [
         "4B56743739F941C6",
         "4B5949A42E56A093"
@@ -489,9 +489,9 @@
       "id": "4B558B1BB8FB35FA",
       "title": "WSV transmitter",
       "subtitle": "Connect the transmitting component to this level of control and loop",
-      "description": "[
-        \"Based on the two WFV transmitters, a constrained boundary bus, fault isolation voting device, independent service loop block and ultra-short pulse laser are added to complete the new transmitter.\"
-      ]",
+      "description": [
+        "\"Based on the two WFV transmitters, a constrained boundary bus, fault isolation voting device, independent service loop block and ultra-short pulse laser are added to complete the new transmitter.\""
+      ],
       "dependencies": [
         "4B5C9068264A5507",
         "4B5949A42E56A093"
@@ -514,9 +514,9 @@
       "id": "4B5DD049049F9406",
       "title": "WSV force field generator",
       "subtitle": "Integrate launch and measurement components into field controls",
-      "description": "[
-        \"First prepare four pieces of this-level transmitters and two pieces of this-level sensors, and then assemble them together with two pieces of WFV force field generators, this-level circuits and interface components.\"
-      ]",
+      "description": [
+        "\"First prepare four pieces of this-level transmitters and two pieces of this-level sensors, and then assemble them together with two pieces of WFV force field generators, this-level circuits and interface components.\""
+      ],
       "dependencies": [
         "4B5189A9A37FFDAE",
         "4B59AE764DF3481F",
@@ -540,9 +540,9 @@
       "id": "4B52AF5EC4088E88",
       "title": "Crack propagation isolation interlayer",
       "subtitle": "Confining cracks to local layers",
-      "description": "[
-        \"A sandwich is made of structurally gradient fiber materials and flexible isolation materials to prepare the connecting layer for subsequent isolation, staggered seam lamination and fatigue treatment.\"
-      ]",
+      "description": [
+        "\"A sandwich is made of structurally gradient fiber materials and flexible isolation materials to prepare the connecting layer for subsequent isolation, staggered seam lamination and fatigue treatment.\""
+      ],
       "dependencies": [
         "4B52DF9964ED8F7C"
       ],
@@ -564,9 +564,9 @@
       "id": "4B543CAC364A7E4B",
       "title": "Fatigue Isolation Encapsulation Fluid",
       "subtitle": "Prepare new liquid for the first batch of sealing materials",
-      "description": "[
-        \"Use fresh carrier liquid and solid auxiliary materials to prepare a fatigue isolation encapsulation liquid to supply the precursor coating, staggered seam lamination and end sealing processes.\"
-      ]",
+      "description": [
+        "\"Use fresh carrier liquid and solid auxiliary materials to prepare a fatigue isolation encapsulation liquid to supply the precursor coating, staggered seam lamination and end sealing processes.\""
+      ],
       "dependencies": [
         "4B5793B57FF95411"
       ],
@@ -589,9 +589,9 @@
       "id": "4B527F8490E54262",
       "title": "constrained isolation precursor",
       "subtitle": "First make segmented isolation and anti-expansion interfaces",
-      "description": "[
-        \"Lay an isolation interlayer on the structural gradient fiber material to form a segmented isolation precursor. Collect the waste interface carrier liquid discharged in this step.\"
-      ]",
+      "description": [
+        "\"Lay an isolation interlayer on the structural gradient fiber material to form a segmented isolation precursor. Collect the waste interface carrier liquid discharged in this step.\""
+      ],
       "dependencies": [
         "4B52AF5EC4088E88",
         "4B543CAC364A7E4B"
@@ -614,9 +614,9 @@
       "id": "4B5A907B4ED6B2ED",
       "title": "Fiber isolation multi-layer blank",
       "subtitle": "Let the hard pieces be sewn staggered and the flexible layers connect the layers.",
-      "description": "[
-        \"The isolation precursor and the front-stage foil are staggered and pressed together, and flexible layers and Z-direction bundles are used to connect the layers to form a multi-layer isolation blank.\"
-      ]",
+      "description": [
+        "\"The isolation precursor and the front-stage foil are staggered and pressed together, and flexible layers and Z-direction bundles are used to connect the layers to form a multi-layer isolation blank.\""
+      ],
       "dependencies": [
         "4B5E50CE2001967B",
         "4B527F8490E54262"
@@ -639,9 +639,9 @@
       "id": "4B5AE55938FFA23C",
       "title": "Multilayer shell fatigue pretreatment",
       "subtitle": "Complete thermal cycle conditioning before capping",
-      "description": "[
-        \"Perform thermal cycle pretreatment on the multi-layer billet to release interface stress. Collect hot coolant and waste stress conditioning fluid respectively, and then send the fatigue aging review billet for re-sealing.\"
-      ]",
+      "description": [
+        "\"Perform thermal cycle pretreatment on the multi-layer billet to release interface stress. Collect hot coolant and waste stress conditioning fluid respectively, and then send the fatigue aging review billet for re-sealing.\""
+      ],
       "dependencies": [
         "4B5A907B4ED6B2ED"
       ],
@@ -663,9 +663,9 @@
       "id": "4B5A94746622AD6F",
       "title": "Stable boundary constrained shell material standard blank",
       "subtitle": "After thermal cycle, re-seal the end surface",
-      "description": "[
-        \"Add an isolation interlayer and edge-sealing material to the end face after fatigue treatment to seal the boundaries between layers, and obtain a standard blank of stable boundary-constrained shell material.\"
-      ]",
+      "description": [
+        "\"Add an isolation interlayer and edge-sealing material to the end face after fatigue treatment to seal the boundaries between layers, and obtain a standard blank of stable boundary-constrained shell material.\""
+      ],
       "dependencies": [
         "4B5AE55938FFA23C"
       ],
@@ -687,9 +687,9 @@
       "id": "4B5BBBF746435F75",
       "title": "Staggered seam crack restraint plate",
       "subtitle": "Let the crack change its path as it passes through each layer",
-      "description": "[
-        \"The isolation interlayer is laid into the board at staggered seams, and the front load-bearing backing is retained to make a stable bounded shell board.\"
-      ]",
+      "description": [
+        "\"The isolation interlayer is laid into the board at staggered seams, and the front load-bearing backing is retained to make a stable bounded shell board.\""
+      ],
       "dependencies": [
         "4B5A94746622AD6F"
       ],
@@ -711,9 +711,9 @@
       "id": "4B57C2F795B813DC",
       "title": "Segmented crack arrest restraint rod",
       "subtitle": "Keep the continuous rod core and lay the interlayer in sections",
-      "description": "[
-        \"Lay segmented isolation interlayers outside the continuous rod core, and then complete the packaging to make a crack arresting restraint rod.\"
-      ]",
+      "description": [
+        "\"Lay segmented isolation interlayers outside the continuous rod core, and then complete the packaging to make a crack arresting restraint rod.\""
+      ],
       "dependencies": [
         "4B5AF78C0F07FAC8",
         "4B5A94746622AD6F"
@@ -736,9 +736,9 @@
       "id": "4B508B22870E1F24",
       "title": "Flexible node constraint framework",
       "subtitle": "Add a flexible buffer layer between nodes",
-      "description": "[
-        \"Add flexible interlayers to the frame nodes to retain buffer interfaces between each beam section to create a constrained frame.\"
-      ]",
+      "description": [
+        "\"Add flexible interlayers to the frame nodes to retain buffer interfaces between each beam section to create a constrained frame.\""
+      ],
       "dependencies": [
         "4B558B4335018F20",
         "4B57C2F795B813DC"
@@ -761,9 +761,9 @@
       "id": "4B56216F4E2D7726",
       "title": "split valve isolation ring",
       "subtitle": "Enclosed by staggered seams of split partitions",
-      "description": "[
-        \"Staggered seams enclose each isolation layer, while retaining a continuous outer ring to bear the circumferential load to create a crack-stop isolation ring.\"
-      ]",
+      "description": [
+        "\"Staggered seams enclose each isolation layer, while retaining a continuous outer ring to bear the circumferential load to create a crack-stop isolation ring.\""
+      ],
       "dependencies": [
         "4B58EE50644340CB",
         "4B57C2F795B813DC"
@@ -786,9 +786,9 @@
       "id": "4B50212A69B5E25E",
       "title": "Flexible Barrier Crack Stop Foil",
       "subtitle": "Preserve tough interlayer within thin foil",
-      "description": "[
-        \"Compound the thin interlayer with the tough base foil, complete the edge sealing, and make a crack-stop foil for inter-layer isolation.\"
-      ]",
+      "description": [
+        "\"Compound the thin interlayer with the tough base foil, complete the edge sealing, and make a crack-stop foil for inter-layer isolation.\""
+      ],
       "dependencies": [
         "4B5BBBF746435F75"
       ],
@@ -810,9 +810,9 @@
       "id": "4B588F9018481E6F",
       "title": "Isolating thin layers to constrain thin lines",
       "subtitle": "Laying a flexible barrier outside the continuous core",
-      "description": "[
-        \"Retain the continuous wire core, prepare a flexible isolation thin layer on the outside and encapsulate it to make a constrained thin wire.\"
-      ]",
+      "description": [
+        "\"Retain the continuous wire core, prepare a flexible isolation thin layer on the outside and encapsulate it to make a constrained thin wire.\""
+      ],
       "dependencies": [
         "4B583DDDF7D38C97",
         "4B57C2F795B813DC"
@@ -835,9 +835,9 @@
       "id": "4B586D17875499F0",
       "title": "WSV mechanical block",
       "subtitle": "Install the crack arresting isolation structure into the new shell",
-      "description": "[
-        \"Using the WFV mechanical cube as the core, adding stable constraint shell plates, frames and connecting rings, and then completing the ports and packaging, the first batch of WSV mechanical cubes are made. The first production condition is WFV.\"
-      ]",
+      "description": [
+        "\"Using the WFV mechanical cube as the core, adding stable constraint shell plates, frames and connecting rings, and then completing the ports and packaging, the first batch of WSV mechanical cubes are made. The first production condition is WFV.\""
+      ],
       "dependencies": [
         "4B580FDD510DA71E",
         "4B5BBBF746435F75",
@@ -862,9 +862,9 @@
       "id": "4B542CCF25B0473F",
       "title": "Disassembling the WSV mechanical block",
       "subtitle": "Leaving reusable shells and complete structural parts",
-      "description": "[
-        \"Disassemble the WSV mechanical block in layers, and retrieve the WFV core shell and half of the complete plates, frames, and rings. The remaining main body is divided into classified waste, and special functional parts and packaging materials are consumed along with the disassembly.\"
-      ]",
+      "description": [
+        "\"Disassemble the WSV mechanical block in layers, and retrieve the WFV core shell and half of the complete plates, frames, and rings. The remaining main body is divided into classified waste, and special functional parts and packaging materials are consumed along with the disassembly.\""
+      ],
       "dependencies": [
         "4B586D17875499F0"
       ],
@@ -890,9 +890,9 @@
       "id": "4B527B071B7AF4C7",
       "title": "Stable boundary constraint shell material waste separation",
       "subtitle": "Separately collect rebuildable components and tailings",
-      "description": "[
-        \"Use Soul Steel process solvent to elute the attachments of the classified waste, and then perform centrifugal separation. The main body is separated into 75% recycled components and 25% non-recyclable tailings, and the waste solvent is picked up separately.\"
-      ]",
+      "description": [
+        "\"Use Soul Steel process solvent to elute the attachments of the classified waste, and then perform centrifugal separation. The main body is separated into 75% recycled components and 25% non-recyclable tailings, and the waste solvent is picked up separately.\""
+      ],
       "dependencies": [
         "4B5793B57FF95411"
       ],
@@ -918,9 +918,9 @@
       "id": "4B5855ED5B444920",
       "title": "Reconstruct the constrained isolation precursor",
       "subtitle": "Renew the main body and re-invest in functional excipients",
-      "description": "[
-        \"Match the recycled components with the fresh main body according to the formula, and re-invest all functional auxiliary materials to make the constrained isolation precursor. Then continue manufacturing from the original intermediate process.\"
-      ]",
+      "description": [
+        "\"Match the recycled components with the fresh main body according to the formula, and re-invest all functional auxiliary materials to make the constrained isolation precursor. Then continue manufacturing from the original intermediate process.\""
+      ],
       "dependencies": [
         "4B52AF5EC4088E88",
         "4B543CAC364A7E4B"
@@ -947,9 +947,9 @@
       "id": "4B576A45F4448EA3",
       "title": "Stable boundary confinement shell material tailings storage",
       "subtitle": "Solidifies damaged material into an inert residue",
-      "description": "[
-        \"The non-recyclable tailings are solidified into ash and sent to general dust use. The reconstructable components are sent back to the filling process from another outlet.\"
-      ]",
+      "description": [
+        "\"The non-recyclable tailings are solidified into ash and sent to general dust use. The reconstructable components are sent back to the filling process from another outlet.\""
+      ],
       "dependencies": [
         "4B5793B57FF95411"
       ],
@@ -975,9 +975,9 @@
       "id": "4B53CEEEDE2C55DA",
       "title": "Zoned Thermal Stress Isolation Assembly",
       "subtitle": "Separately transfer thermal expansion, pressure difference and electrical isolation loads",
-      "description": "[
-        \"Thermal expansion, pressure difference and electrical isolation interfaces are installed into the partition assembly for use by the main control of the subsequent reactors and engineering facilities.\"
-      ]",
+      "description": [
+        "\"Thermal expansion, pressure difference and electrical isolation interfaces are installed into the partition assembly for use by the main control of the subsequent reactors and engineering facilities.\""
+      ],
       "dependencies": [
         "4B59E2A5B60BA9E8",
         "4B549F522A6157BB",
@@ -1001,9 +1001,9 @@
       "id": "4B55100945DBD11C",
       "title": "Ultimate Honkai Impact Reactor Controller",
       "subtitle": "Connect multi-zone thermal loads and emergency isolation interfaces",
-      "description": "[
-        \"Complete the RN-URE study and assemble the reactor controller using the pre-made isolation assembly and components. Subsequent power generation operations will be carried out according to the actual fuel and operating process of the reactor.\"
-      ]",
+      "description": [
+        "\"Complete the RN-URE study and assemble the reactor controller using the pre-made isolation assembly and components. Subsequent power generation operations will be carried out according to the actual fuel and operating process of the reactor.\""
+      ],
       "dependencies": [
         "4B5C00437CD0C5D8",
         "4B5E853D08F25D97",
@@ -1028,9 +1028,9 @@
       "id": "4B5137DC6ACD7AAC",
       "title": "Civilization Project Acceptance Center Controller",
       "subtitle": "Sampling materials, energy flows and engineering records separately",
-      "description": "[
-        \"After completing the RN-CEE study, assemble the Civilization Engineering Acceptance Center controller and connect materials, energy flow and record sampling to their respective interfaces.\"
-      ]",
+      "description": [
+        "\"After completing the RN-CEE study, assemble the Civilization Engineering Acceptance Center controller and connect materials, energy flow and record sampling to their respective interfaces.\""
+      ],
       "dependencies": [
         "4B5D42853DBE1968",
         "4B5E853D08F25D97",
@@ -1055,9 +1055,9 @@
       "id": "4B5F14AA951C38A6",
       "title": "Siyuan·Stars Concert Court Master Controller",
       "subtitle": "Building the first wonder master in a precast factory",
-      "description": "[
-        \"Complete the RN-HCCO research and manufacture the Master Controller of the Origin Concerto of the Stars in the wonder component prefabrication factory. After obtaining the master control, continue to build the complete structure according to the wonder blueprint.\"
-      ]",
+      "description": [
+        "\"Complete the RN-HCCO research and manufacture the Master Controller of the Origin Concerto of the Stars in the wonder component prefabrication factory. After obtaining the master control, continue to build the complete structure according to the wonder blueprint.\""
+      ],
       "dependencies": [
         "4B543D9716760D00"
       ],
@@ -1079,9 +1079,9 @@
       "id": "4B54661355BC87B1",
       "title": "The Lawyer of Reason·Vientiane·Autonomous Industrial Matrix Master Control",
       "subtitle": "Continuing the wonder-making chain in the Concert Hall of the Stars",
-      "description": "[
-        \"Complete the research on RN-HCCO and RN-AIM, and create the Herrscher of Reason, Vientiane, and Autonomous Industrial Matrix master control in the Origin Concert Court of Stars. After obtaining the master control, continue to build the complete structure according to the miracle blueprint.\"
-      ]",
+      "description": [
+        "\"Complete the research on RN-HCCO and RN-AIM, and create the Herrscher of Reason, Vientiane, and Autonomous Industrial Matrix master control in the Origin Concert Court of Stars. After obtaining the master control, continue to build the complete structure according to the miracle blueprint.\""
+      ],
       "dependencies": [
         "4B5D9AB5C693811A",
         "4B5F14AA951C38A6"
@@ -1108,9 +1108,9 @@
       "id": "4B5ACDE76D49906A",
       "title": "Herrscher of the Sky·Sky Realm·Imaginary Number Anchor Ring Master Control",
       "subtitle": "Connect the imaginary number anchor project from the autonomous industrial matrix",
-      "description": "[
-        \"Complete the research on RN-AIM and RN-IAR, and create the Herrscher of Space, Sky Realm, and Imaginary Number Anchor Ring master control in the Herrscher of Reason, Vientiane, and Autonomous Industrial Matrix. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete the research on RN-AIM and RN-IAR, and create the Herrscher of Space, Sky Realm, and Imaginary Number Anchor Ring master control in the Herrscher of Reason, Vientiane, and Autonomous Industrial Matrix. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B5802E842FF9314",
         "4B59DD5C06C14D59",
@@ -1140,9 +1140,9 @@
       "id": "4B5CAF3D1BC26045",
       "title": "Herrscher of Thunder·Ming Ting·Superconducting Electromagnetic Tianshu Master Control",
       "subtitle": "Creating the electromagnetic Tianshu master control in the imaginary anchor ring",
-      "description": "[
-        \"Complete the RN-IAR and RN-SEM research, and create the Herrscher of Thunder, Ting Ting, and Superconducting Electromagnetic Tianshu master control in the Herrscher of Sky, Sky Realm, and Imaginary Number Anchor Ring. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete the RN-IAR and RN-SEM research, and create the Herrscher of Thunder, Ting Ting, and Superconducting Electromagnetic Tianshu master control in the Herrscher of Sky, Sky Realm, and Imaginary Number Anchor Ring. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B58AF9401EC1386",
         "4B5ACDE76D49906A"
@@ -1169,9 +1169,9 @@
       "id": "4B5FCAEF25658770",
       "title": "Herrscher of Wind·Changfeng·Ideal Fluid Circulation Array Master Controller",
       "subtitle": "Fluid circulation engineering continues from electromagnetic engineering",
-      "description": "[
-        \"Complete RN-SEM and RN-IFF research, and create the main control of the Herrscher of Wind, Changfeng, and Ideal Fluid Circulation Array in the Herrsher of Thunder, Ming Ting, and Superconducting Electromagnetic Tianshu. After obtaining the main control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete RN-SEM and RN-IFF research, and create the main control of the Herrscher of Wind, Changfeng, and Ideal Fluid Circulation Array in the Herrsher of Thunder, Ming Ting, and Superconducting Electromagnetic Tianshu. After obtaining the main control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B513376AFB211D3",
         "4B5CAF3D1BC26045"
@@ -1198,9 +1198,9 @@
       "id": "4B594D940B461D0C",
       "title": "Herrscher of Ice·Eternal Frost·Extremely Low Temperature Condensation Factory Master Controller",
       "subtitle": "Master control in the circulation array manufacturing ultra-low temperature factory",
-      "description": "[
-        \"Complete the RN-IFF and RN-CCF research, and create the Ice Herrscher, Everfrost, and Ultra-Cryogenic Condensation Factory master control in the Herrscher of Wind, Changfeng, and Ideal Fluid Circulation Array. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\"
-      ]",
+      "description": [
+        "\"Complete the RN-IFF and RN-CCF research, and create the Ice Herrscher, Everfrost, and Ultra-Cryogenic Condensation Factory master control in the Herrscher of Wind, Changfeng, and Ideal Fluid Circulation Array. After obtaining the master control, continue to build the complete structure according to the blueprint of this wonder.\""
+      ],
       "dependencies": [
         "4B5BCAEEE0929B4A",
         "4B5FCAEF25658770"
@@ -1227,9 +1227,9 @@
       "id": "4B5F2667B34BBF42",
       "title": "Sustained fuel constraint tool assembly",
       "subtitle": "Activation tooling · WFV working conditions",
-      "description": "[
-        \"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\"
-      ]",
+      "description": [
+        "\"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\""
+      ],
       "dependencies": [
         "4B5C00437CD0C5D8"
       ],
@@ -1255,9 +1255,9 @@
       "id": "4B5780CFA496A087",
       "title": "Fresh preparation of persistent constrained collapse fuel",
       "subtitle": "Energetic fuel · WFV operating conditions",
-      "description": "[
-        \"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\"
-      ]",
+      "description": [
+        "\"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\""
+      ],
       "dependencies": [
         "4B5F2667B34BBF42"
       ],
@@ -1280,10 +1280,10 @@
       "id": "4B5674771C836BBE",
       "title": "Ultimate Honkai Energy Reactor·Honkai Fuel Rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the Honkai fuel rods into the Ultimate Honkai energy reactor, and replenish the Constant Constraint Honkai fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\",
-        \"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Common first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the Honkai fuel rods into the Ultimate Honkai energy reactor, and replenish the Constant Constraint Honkai fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\"",
+        "\"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Common first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1307,10 +1307,10 @@
       "id": "4B5EF80CFD842FDA",
       "title": "Ultimate Honkai Energy Reactor · Concentrated Honkai Fuel Rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert concentrated Honkai fuel rods into the Ultimate Honkai Energy reactor, and replenish the Constant Constraint Honkai Impact fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\",
-        \"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of continuous constraint collapse fuel. Concentrated long-period fuel, with the highest heat load. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert concentrated Honkai fuel rods into the Ultimate Honkai Energy reactor, and replenish the Constant Constraint Honkai Impact fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\"",
+        "\"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of continuous constraint collapse fuel. Concentrated long-period fuel, with the highest heat load. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1334,10 +1334,10 @@
       "id": "4B54A1AF2237F26E",
       "title": "Ultimate Honkai Energy Reactor·Adsorbed Carbon Core Collapse Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the adsorbed carbon core collapse fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, choose any one to complete a batch.\",
-        \"Fixed charge of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by independent loop according to heat inventory. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the adsorbed carbon core collapse fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, choose any one to complete a batch.\"",
+        "\"Fixed charge of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by independent loop according to heat inventory. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1361,10 +1361,10 @@
       "id": "4B53417463EEAAA2",
       "title": "Ultimate collapse energy reactor · Molecular sieve directional energy-carrying rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert molecular sieve directional energy-carrying rods into the ultimate collapse energy reactor, and replenish the constant constraint collapse fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\",
-        \"There are 8 fixed charging groups, 1 link specification, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Adsorb carriers, sacrificing power for stable energy release. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert molecular sieve directional energy-carrying rods into the ultimate collapse energy reactor, and replenish the constant constraint collapse fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\"",
+        "\"There are 8 fixed charging groups, 1 link specification, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Adsorb carriers, sacrificing power for stable energy release. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1388,10 +1388,10 @@
       "id": "4B50F49CE18E4E19",
       "title": "Ultimate Honkai Energy Reactor · Silica gel solidified Honkai fuel particles",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert silica gel solidified collapse fuel particles into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. The gel is evenly dispersed and runs for a long period. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert silica gel solidified collapse fuel particles into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. The gel is evenly dispersed and runs for a long period. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1415,10 +1415,10 @@
       "id": "4B5B39F50C5753C1",
       "title": "Ultimate Collapse Energy Reactor · Silicon Carbide Porous Ceramic Fuel Rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert silicon carbide porous ceramic fuel rods into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert silicon carbide porous ceramic fuel rods into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1442,10 +1442,10 @@
       "id": "4B54BA4BFE6514E8",
       "title": "Ultimate Collapse Energy Reactor · Boron Carbide Gradient Particle Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the boron carbide gradient particle fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\",
-        \"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of continuous constraint collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by independent loops according to heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the boron carbide gradient particle fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has a complete operating record. Choose any one to complete a batch.\"",
+        "\"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of continuous constraint collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by independent loops according to heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1469,10 +1469,10 @@
       "id": "4B5DCED2196296A4",
       "title": "Ultimate Collapse Energy Reactor·Zirconium Oxide Gradient Ceramic Fuel Beads",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert zirconium oxide gradient ceramic fuel beads into the ultimate collapse energy reactor, and supplement the constant constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High temperature stable carrier, cooling needs to be improved. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert zirconium oxide gradient ceramic fuel beads into the ultimate collapse energy reactor, and supplement the constant constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High temperature stable carrier, cooling needs to be improved. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1496,10 +1496,10 @@
       "id": "4B5951675108E6DE",
       "title": "Ultimate Honkai Energy Reactor·Diamond Copper Skeleton Honkai Fuel Core",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the diamond-copper skeleton collapse fuel core into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, choose any one to complete a batch.\",
-        \"Fixed charging of 8 groups, specification of 1 chain, 8 physical rods in total; consumes 64mB of continuous constraint collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the diamond-copper skeleton collapse fuel core into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, choose any one to complete a batch.\"",
+        "\"Fixed charging of 8 groups, specification of 1 chain, 8 physical rods in total; consumes 64mB of continuous constraint collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1523,10 +1523,10 @@
       "id": "4B51503E4708C13C",
       "title": "Ultimate Collapse Energy Reactor · Graphene Interlayer Collapse Fuel Sheet",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert graphene interlayer collapse fuel sheets into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"There are 8 fixed charging groups, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Thermal microgrid, taking into account power generation and HW. Cooling is performed by an independent loop according to the heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert graphene interlayer collapse fuel sheets into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"There are 8 fixed charging groups, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Thermal microgrid, taking into account power generation and HW. Cooling is performed by an independent loop according to the heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1550,10 +1550,10 @@
       "id": "4B532DEE8B706E28",
       "title": "Ultimate Collapse Energy Reactor·Titanium Carbide Cermet Fuel Block",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert titanium carbide cermet fuel blocks into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, choose any one to complete a batch.\",
-        \"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert titanium carbide cermet fuel blocks into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, choose any one to complete a batch.\"",
+        "\"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1577,10 +1577,10 @@
       "id": "4B5DFD1BB3C8DBFE",
       "title": "Ultimate Collapse Energy Reactor · Alumina Insulated Microbead Fuel Bed",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert an alumina insulating microbead fuel bed into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High-output ceramics, long operating cycle. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert an alumina insulating microbead fuel bed into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge of 8 groups, specification of 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High-output ceramics, long operating cycle. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1604,10 +1604,10 @@
       "id": "4B57F8D4FBEA7A34",
       "title": "Ultimate Honkai Energy Reactor · Tungsten Microchannel Collapse Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the tungsten microchannel collapse fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 8 groups, specification of 1 chain, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the tungsten microchannel collapse fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 8 groups, specification of 1 chain, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1631,10 +1631,10 @@
       "id": "4B5BA96687894518",
       "title": "Ultimate Collapse Energy Reactor · PTFE Cold End Diaphragm Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the PTFE cold-end membrane fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous restraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Low thermal film carrier, biased toward HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the PTFE cold-end membrane fuel cartridge into the ultimate collapse energy reactor, and replenish the continuous restraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"8 groups of fixed charge, 1 chain of specifications, a total of 8 physical rods; consumes 64mB of constant constraint collapse fuel. Low thermal film carrier, biased toward HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1658,10 +1658,10 @@
       "id": "4B5D282233023236",
       "title": "Ultimate Collapse Energy Reactor · PBI Cold End Microcapsule Fuel Particles",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert PBI cold-end microcapsule fuel particles into the ultimate collapse energy reactor, and supplement the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 8 groups, specification 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High HW microcapsule carrier, longest operating cycle. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert PBI cold-end microcapsule fuel particles into the ultimate collapse energy reactor, and supplement the continuous constraint collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 8 groups, specification 1 link, 8 physical rods in total; consumes 64mB of constant constraint collapse fuel. High HW microcapsule carrier, longest operating cycle. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1685,9 +1685,9 @@
       "id": "4B5511DDFAFAE31B",
       "title": "Fourth-level research institute interface joint debugging",
       "subtitle": "Check research operations with data from three areas",
-      "description": "[
-        \"First obtain the record of the actual completion of the project by the fourth-level research institute, and then jointly debug the interface and three-field data in the engineering test equipment. Process the standard samples, substrates and paper to form a real interface joint debugging receipt to continue the research on the Civilized Cognition Dome.\"
-      ]",
+      "description": [
+        "\"First obtain the record of the actual completion of the project by the fourth-level research institute, and then jointly debug the interface and three-field data in the engineering test equipment. Process the standard samples, substrates and paper to form a real interface joint debugging receipt to continue the research on the Civilized Cognition Dome.\""
+      ],
       "dependencies": [
         "4B543D9716760D00",
         "4B5BBAC5EA88F163"
@@ -1714,12 +1714,12 @@
       "id": "4B5D9AB5C693811A",
       "title": "Vientiane Autonomous Industrial Matrix",
       "subtitle": "RN-AIM · Experimental and Formal Research",
-      "description": "[
-        \"Test object: etched circuit layer × 1; paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify the actual input and output, batch source and continuous working conditions, and exclude duplicate reports and unmastered circuits; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The research institute withholds power based on the total power of the effective energy ports. After completion, the Herrscher of Reason, Vientiane, and Autonomous Industrial Matrix construction will be unlocked, and the results of industrial expansion will be provided after operation.\"
-      ]",
+      "description": [
+        "\"Test object: etched circuit layer × 1; paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify the actual input and output, batch source and continuous working conditions, and exclude duplicate reports and unmastered circuits; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The research institute withholds power based on the total power of the effective energy ports. After completion, the Herrscher of Reason, Vientiane, and Autonomous Industrial Matrix construction will be unlocked, and the results of industrial expansion will be provided after operation.\""
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1742,12 +1742,12 @@
       "id": "4B5BCAEEE0929B4A",
       "title": "Everfrost extremely low temperature condensation state",
       "subtitle": "RN-CCF · Experimental and formal research",
-      "description": "[
-        \"Tested object: Cryogenic condensation material × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Complete the low-temperature treatment and check the media and energy consumption. The source of the sample corresponds to the temperature control record; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the construction of the Herrscher of Ice, Everfrost, and Ultra-low Temperature Condensation Factory construction and acceptance of low-temperature conditions will be unlocked.\"
-      ]",
+      "description": [
+        "\"Tested object: Cryogenic condensation material × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Complete the low-temperature treatment and check the media and energy consumption. The source of the sample corresponds to the temperature control record; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the construction of the Herrscher of Ice, Everfrost, and Ultra-low Temperature Condensation Factory construction and acceptance of low-temperature conditions will be unlocked.\""
+      ],
       "dependencies": [
         "4B538067A289069C",
         "4B5137DC6ACD7AAC"
@@ -1771,12 +1771,12 @@
       "id": "4B55EF1E9B3DACDA",
       "title": "Civilized Cognition Dome Project",
       "subtitle": "RN-CLE · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Complete the joint debugging with the interface test pieces and real data that can be provided by the existing World Sustainment Research Institute. Only the engineering evidence will be output, and then the normal payment and research will be done at the World Sustainment Research Institute; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6920 research points or WSV circuit × 8, neutron plate × 136 to pay the base fee; an additional 38,400 ticks and 540,431,955,284,459,520 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the fifth-level research institute will be unlocked, providing 16 parallel project slots.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Complete the joint debugging with the interface test pieces and real data that can be provided by the existing World Sustainment Research Institute. Only the engineering evidence will be output, and then the normal payment and research will be done at the World Sustainment Research Institute; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6920 research points or WSV circuit × 8, neutron plate × 136 to pay the base fee; an additional 38,400 ticks and 540,431,955,284,459,520 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the fifth-level research institute will be unlocked, providing 16 parallel project slots.\""
+      ],
       "dependencies": [
         "4B5511DDFAFAE31B"
       ],
@@ -1799,12 +1799,12 @@
       "id": "4B543D9716760D00",
       "title": "Siyuan Stars Concerto Project",
       "subtitle": "RN-HCCO · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify that the research and communication events have indeed occurred, associate the data source and complete the project verification; independent or reject the cooperation route can provide communication records that meet the established conditions; the original quantity of the inspected object will be returned, and the experiment will be based on the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The research institute withholds power based on the total power of the effective energy port. After completion, unlock the Origin Star Concert Hall construction and collaboration file acceptance method.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify that the research and communication events have indeed occurred, associate the data source and complete the project verification; independent or reject the cooperation route can provide communication records that meet the established conditions; the original quantity of the inspected object will be returned, and the experiment will be based on the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The research institute withholds power based on the total power of the effective energy port. After completion, unlock the Origin Star Concert Hall construction and collaboration file acceptance method.\""
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1827,12 +1827,12 @@
       "id": "4B5802E842FF9314",
       "title": "Imaginary number anchor ring in the sky",
       "subtitle": "RN-IAR · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: Soul Steel Anchor Component × 1; Paper 2 is used for inspection records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify the actual working conditions and local disturbance response of the existing anchoring equipment, and do not run the civilization-level anchoring ring in advance; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6920 research points or WSV circuit × 8, neutron plate × 136 to pay the base fee; an additional 38,400 ticks and 540,431,955,284,459,520 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the Herrscher of the Sky, Sky Realm, and Imaginary Number Anchor Ring construction and large-scale anchor acceptance will be unlocked.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Anchor Component × 1; Paper 2 is used for inspection records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. Verify the actual working conditions and local disturbance response of the existing anchoring equipment, and do not run the civilization-level anchoring ring in advance; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6920 research points or WSV circuit × 8, neutron plate × 136 to pay the base fee; an additional 38,400 ticks and 540,431,955,284,459,520 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the Herrscher of the Sky, Sky Realm, and Imaginary Number Anchor Ring construction and large-scale anchor acceptance will be unlocked.\""
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1855,12 +1855,12 @@
       "id": "4B513376AFB211D3",
       "title": "Changfeng ideal fluid circulation",
       "subtitle": "RN-IFF · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: process gas filter element × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Civilization Engineering Acceptance Center. The real input and output, circulating fluid replenishment and heat exchange results can be traced, losses are clarified, and the source is not inferred based on inventory differences; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The institute deducts power based on the total power of the effective energy port. After completion, unlock the Wind Herrscher Changfeng Ideal Fluid Circulation Array fluid transport and heat exchange acceptance.\"
-      ]",
+      "description": [
+        "\"Tested object: process gas filter element × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Civilization Engineering Acceptance Center. The real input and output, circulating fluid replenishment and heat exchange results can be traced, losses are clarified, and the source is not inferred based on inventory differences; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The institute deducts power based on the total power of the effective energy port. After completion, unlock the Wind Herrscher Changfeng Ideal Fluid Circulation Array fluid transport and heat exchange acceptance.\""
+      ],
       "dependencies": [
         "4B528AA97B0DF3A7",
         "4B582C794236C289",
@@ -1885,12 +1885,12 @@
       "id": "4B58AF9401EC1386",
       "title": "Ming Ting Superconducting Electromagnetic Tianshu",
       "subtitle": "RN-SEM · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: polarized electromagnetic material × 1; paper 2 is used for testing records, and the reference sample is recycled\",
-        \"The team's experiment was completed at the Civilization Engineering Acceptance Center. The actual electromagnetic response and energy supply/cooling receipt passed the test. The test piece does not serve as mass production material for the Herrscher of Thunder, Ming Ting, and Superconducting Electromagnetic Tianshu; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, unlock the Herrscher of Thunder, Ming Ting, Superconducting Electromagnetic Tianshu and its electromagnetic working conditions for acceptance.\"
-      ]",
+      "description": [
+        "\"Tested object: polarized electromagnetic material × 1; paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"The team's experiment was completed at the Civilization Engineering Acceptance Center. The actual electromagnetic response and energy supply/cooling receipt passed the test. The test piece does not serve as mass production material for the Herrscher of Thunder, Ming Ting, and Superconducting Electromagnetic Tianshu; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, unlock the Herrscher of Thunder, Ming Ting, Superconducting Electromagnetic Tianshu and its electromagnetic working conditions for acceptance.\""
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1913,12 +1913,12 @@
       "id": "4B5C00437CD0C5D8",
       "title": "Ultimate Reactor Engineering",
       "subtitle": "RN-URE · Experimental and Formal Research",
-      "description": "[
-        \"Extreme casting material × 1; paper × 2; tooling is not consumed.\",
-        \"Complete the team's experiments in the legacy technology reverse laboratory. Real high-load batches are related to material safety inspections, and actual consumables consume electricity; they do not rely on the ultimate collapse energy reactor to be opened; the original quantities of the inspected objects are returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the construction and energy supply conditions of the ultimate collapse energy reactor will be unlocked.\"
-      ]",
+      "description": [
+        "\"Extreme casting material × 1; paper × 2; tooling is not consumed.\"",
+        "\"Complete the team's experiments in the legacy technology reverse laboratory. Real high-load batches are related to material safety inspections, and actual consumables consume electricity; they do not rely on the ultimate collapse energy reactor to be opened; the original quantities of the inspected objects are returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 6120 research points or WFV circuit × 8, neutron plate × 128 to pay the base fee; an additional 36,000 ticks and 135,107,988,821,114,880 EU/t are required. The current material pressure correction is required for advanced ones.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the construction and energy supply conditions of the ultimate collapse energy reactor will be unlocked.\""
+      ],
       "dependencies": [
         "4B5D8B4510122249",
         "4B5C61FAC45F68A8"

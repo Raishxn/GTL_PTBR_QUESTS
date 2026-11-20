@@ -3,8 +3,8 @@
   "id": "4B5E36C9041AEDD0",
   "title": "Pressão numérica imaginária IMV",
   "subtitle": [
-    "Tier23-IMV"
-  ],
+        "Tier23-IMV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 24,
   "icon": "hk3gtl:voltage_machine_casing_imv",
@@ -14,10 +14,10 @@
       "id": "4B5B68B8C11CA404",
       "title": "Continuar do workshop QAV",
       "subtitle": "QAV → IMV",
-      "description": "[
-        \"O chassi frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos IMV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos IMV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B5792CC8C53B87D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B5487FC42B1F9B4",
       "title": "Filme de isolamento dielétrico de topologia imaginária",
       "subtitle": "Separe primeiro o limite da fase cerâmica",
-      "description": "[
-        \"Uma nova folha de cerâmica é aplicada a um filme dielétrico quântico coerente, seguido por um revestimento dielétrico de nível de corrente. O filme acabado é responsável pelo isolamento entre as áreas de trabalho do circuito de topologia imaginária.\"
-      ]",
+      "description": [
+        "\"Uma nova folha de cerâmica é aplicada a um filme dielétrico quântico coerente, seguido por um revestimento dielétrico de nível de corrente. O filme acabado é responsável pelo isolamento entre as áreas de trabalho do circuito de topologia imaginária.\""
+      ],
       "dependencies": [
         "4B54804DF6CCFEB5",
         "4B5313D7F4421690"
@@ -64,9 +64,9 @@
       "id": "4B50716301E829FE",
       "title": "Rede de interconexão dirigida por topologia imaginária",
       "subtitle": "Conecte cada área de trabalho individualmente",
-      "description": "[
-        “A unidade de conexão da rede de interconexão da plataforma frontal é usada, e ramais independentes são conectados com fios finos de compósito cerâmico. O filme dielétrico é deixado entre cada ramal para posterior uso do substrato e da matriz funcional.
-      ]",
+      "description": [
+        "“A unidade de conexão da rede de interconexão da plataforma frontal é usada, e ramais independentes são conectados com fios finos de compósito cerâmico. O filme dielétrico é deixado entre cada ramal para posterior uso do substrato e da matriz funcional."
+      ],
       "dependencies": [
         "4B5487FC42B1F9B4",
         "4B5E86444626FE39"
@@ -89,9 +89,9 @@
       "id": "4B5D8A011ADB9399",
       "title": "Substrato de circuito de topologia de número imaginário",
       "subtitle": "Pressione o novo circuito no substrato físico",
-      "description": "[
-        “O substrato da plataforma frontal serve de base, e a placa impressa retém a interface antiga. O novo filme, a rede de interconexão e a camada de gravação são laminados juntos para obter o substrato transportador para o circuito de topologia imaginária.
-      ]",
+      "description": [
+        "“O substrato da plataforma frontal serve de base, e a placa impressa retém a interface antiga. O novo filme, a rede de interconexão e a camada de gravação são laminados juntos para obter o substrato transportador para o circuito de topologia imaginária."
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -113,9 +113,9 @@
       "id": "4B51E08379C2635B",
       "title": "Placa de circuito impresso de topologia imaginária",
       "subtitle": "O desenvolvimento da linha é feito separadamente",
-      "description": "[
-        \"Envie o substrato laminado para uma máquina de imersão química para desenvolvimento e retire a saída da solução de gravação residual. Após a conclusão do circuito impresso, instale o conjunto de patches e o chip de interface de fase.\"
-      ]",
+      "description": [
+        "\"Envie o substrato laminado para uma máquina de imersão química para desenvolvimento e retire a saída da solução de gravação residual. Após a conclusão do circuito impresso, instale o conjunto de patches e o chip de interface de fase.\""
+      ],
       "dependencies": [
         "4B5D8A011ADB9399"
       ],
@@ -137,9 +137,9 @@
       "id": "4B57CA656C981438",
       "title": "Wafer epitaxial de topologia imaginária",
       "subtitle": "Deixe uma superfície estendida para o novo espaço de trabalho",
-      "description": "[
-        \"Uma fina camada de cerâmica e filme dielétrico é colocada no wafer, com a matriz lógica da plataforma frontal reservada para leitura. O wafer epitaxial é então ramificado para exposição lógica e impressão de memória.\"
-      ]",
+      "description": [
+        "\"Uma fina camada de cerâmica e filme dielétrico é colocada no wafer, com a matriz lógica da plataforma frontal reservada para leitura. O wafer epitaxial é então ramificado para exposição lógica e impressão de memória.\""
+      ],
       "dependencies": [
         "4B5487FC42B1F9B4"
       ],
@@ -161,9 +161,9 @@
       "id": "4B5E081B12D3C1D7",
       "title": "Wafer lógico de topologia imaginária",
       "subtitle": "Use máscaras para determinar formas lógicas",
-      "description": "[
-        “Exponha o wafer epitaxial para formar um wafer lógico de topologia imaginário. A máscara de fotolitografia é deixada como ferramenta e o produto acabado continua a ser enviado para corte.”
-      ]",
+      "description": [
+        "Exponha o wafer epitaxial para formar um wafer lógico de topologia imaginário. A máscara de fotolitografia é deixada como ferramenta e o produto acabado continua a ser enviado para corte."
+      ],
       "dependencies": [
         "4B57CA656C981438"
       ],
@@ -185,9 +185,9 @@
       "id": "4B542D6818BF47CD",
       "title": "A lógica da topologia imaginária morre",
       "subtitle": "Oito dados são cortados de cada wafer",
-      "description": "[
-        \"Corte o wafer lógico na matriz e direcione o refrigerante quente de volta para a linha de condicionamento do refrigerante existente. A matriz irá para este nível de embalagem da CPU.\"
-      ]",
+      "description": [
+        "\"Corte o wafer lógico na matriz e direcione o refrigerante quente de volta para a linha de condicionamento do refrigerante existente. A matriz irá para este nível de embalagem da CPU.\""
+      ],
       "dependencies": [
         "4B5E081B12D3C1D7"
       ],
@@ -209,9 +209,9 @@
       "id": "4B54C8E8C74E7748",
       "title": "Wafer RAM de topologia imaginária",
       "subtitle": "A matriz de armazenamento é impressa com a camada de leitura",
-      "description": "[
-        “Retenha a matriz de memória no wafer de RAM da plataforma frontal, adicione este wafer epitaxial de nível e filme de isolamento para formar um wafer de RAM com uma estrutura de leitura independente.”
-      ]",
+      "description": [
+        "Retenha a matriz de memória no wafer de RAM da plataforma frontal, adicione este wafer epitaxial de nível e filme de isolamento para formar um wafer de RAM com uma estrutura de leitura independente."
+      ],
       "dependencies": [
         "4B57CA656C981438"
       ],
@@ -233,9 +233,9 @@
       "id": "4B54B54E955AD203",
       "title": "Chip RAM de topologia imaginária",
       "subtitle": "Cortando wafers de RAM empacotáveis",
-      "description": "[
-        “O wafer de armazenamento é cortado em dezesseis chips de RAM. O refluxo de resfriamento é coletado separadamente e os chips são usados ​​para o cache local da CPU e para o armazenamento compartilhado do circuito formal.”
-      ]",
+      "description": [
+        "O wafer de armazenamento é cortado em dezesseis chips de RAM. O refluxo de resfriamento é coletado separadamente e os chips são usados ​​para o cache local da CPU e para o armazenamento compartilhado do circuito formal."
+      ],
       "dependencies": [
         "4B54C8E8C74E7748"
       ],
@@ -257,9 +257,9 @@
       "id": "4B5EE5748DB3B293",
       "title": "Capacitor de chip de topologia imaginária",
       "subtitle": "Prepare capacitores para fonte de alimentação local",
-      "description": "[
-        \"Conecte o capacitor quântico coerente com a rede de interconexão de mesmo nível e o filme de isolamento e, em seguida, encapsule a superfície de trabalho de cerâmica. Esses capacitores são usados ​​para armazenamento de energia e filtragem da matriz de funções de topologia imaginária.\"
-      ]",
+      "description": [
+        "\"Conecte o capacitor quântico coerente com a rede de interconexão de mesmo nível e o filme de isolamento e, em seguida, encapsule a superfície de trabalho de cerâmica. Esses capacitores são usados ​​para armazenamento de energia e filtragem da matriz de funções de topologia imaginária.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -281,9 +281,9 @@
       "id": "4B51694864DF470A",
       "title": "Diodo de chip de topologia imaginária",
       "subtitle": "Preservar a funcionalidade unidirecional",
-      "description": "[
-        “Instale o diodo frontal no isolamento de nível de corrente e na estrutura de interconexão. A parte de condução unidirecional usa o dispositivo original, e o novo pacote é responsável por acessar a linha de topologia imaginária.
-      ]",
+      "description": [
+        "“Instale o diodo frontal no isolamento de nível de corrente e na estrutura de interconexão. A parte de condução unidirecional usa o dispositivo original, e o novo pacote é responsável por acessar a linha de topologia imaginária."
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -305,9 +305,9 @@
       "id": "4B5C90DF614F4FA0",
       "title": "Resistor de chip de topologia imaginária",
       "subtitle": "Definir resistores para corrente e sinais",
-      "description": "[
-        \"O resistor frontal e o material do resistor de grafeno são embalados juntos para completar a camada de saída e isolamento da nova plataforma. Ele formará um conjunto de patches junto com outros quatro tipos de dispositivos.\"
-      ]",
+      "description": [
+        "\"O resistor frontal e o material do resistor de grafeno são embalados juntos para completar a camada de saída e isolamento da nova plataforma. Ele formará um conjunto de patches junto com outros quatro tipos de dispositivos.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -329,9 +329,9 @@
       "id": "4B56CABECA569D7B",
       "title": "Transistor de chip de topologia imaginária",
       "subtitle": "Conecte a unidade de comutação à nova interface",
-      "description": "[
-        \"Mantenha a parte de comutação do transistor frontal e adicione isolamento dielétrico e embalagem cerâmica neste nível. Após a conclusão, continuaremos a fornecer matrizes funcionais e fabricação de CPU.\"
-      ]",
+      "description": [
+        "\"Mantenha a parte de comutação do transistor frontal e adicione isolamento dielétrico e embalagem cerâmica neste nível. Após a conclusão, continuaremos a fornecer matrizes funcionais e fabricação de CPU.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -353,9 +353,9 @@
       "id": "4B5BCC04774B2217",
       "title": "Indutor de chip de topologia imaginária",
       "subtitle": "Instale indutores para circuitos locais",
-      "description": "[
-        “O indutor de pré-estágio, o anel do elemento de nêutrons e a nova estrutura de interconexão estão incluídos. O indutor é responsável pelo armazenamento de energia magnética do circuito, e o capacitor é responsável por suas respectivas funções elétricas.”
-      ]",
+      "description": [
+        "O indutor de pré-estágio, o anel do elemento de nêutrons e a nova estrutura de interconexão estão incluídos. O indutor é responsável pelo armazenamento de energia magnética do circuito, e o capacitor é responsável por suas respectivas funções elétricas."
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -377,9 +377,9 @@
       "id": "4B5AB7BD5FC938EE",
       "title": "Matriz de funções de patch de topologia imaginária",
       "subtitle": "Cinco tipos de patches se encontram aqui",
-      "description": "[
-        \"Capacitores, diodos, resistores, transistores e indutores são fabricados separadamente e depois montados em uma matriz em uma placa impressa. Cada tipo de dispositivo é consumido junto com a matriz.\"
-      ]",
+      "description": [
+        "\"Capacitores, diodos, resistores, transistores e indutores são fabricados separadamente e depois montados em uma matriz em uma placa impressa. Cada tipo de dispositivo é consumido junto com a matriz.\""
+      ],
       "dependencies": [
         "4B51E08379C2635B",
         "4B5EE5748DB3B293",
@@ -406,9 +406,9 @@
       "id": "4B588700D5979D78",
       "title": "CPU de topologia imaginária",
       "subtitle": "Encapsulando cálculos de CPU e cache local",
-      "description": "[
-        \"Instale a matriz lógica, o chip de RAM e a matriz de funções na CPU da plataforma frontal. O cache interno é empacotado com a CPU e o armazenamento compartilhado adicional será conectado durante a montagem formal do circuito.\"
-      ]",
+      "description": [
+        "\"Instale a matriz lógica, o chip de RAM e a matriz de funções na CPU da plataforma frontal. O cache interno é empacotado com a CPU e o armazenamento compartilhado adicional será conectado durante a montagem formal do circuito.\""
+      ],
       "dependencies": [
         "4B542D6818BF47CD",
         "4B54B54E955AD203",
@@ -432,9 +432,9 @@
       "id": "4B53C6CE36D51EBD",
       "title": "Chip de interface de fase imaginária",
       "subtitle": "Deixe uma janela condutora na barreira cerâmica",
-      "description": "[
-        “Conecte a camada intermediária de ancoragem triaxial a este nível de substrato cerâmico para completar o chip de interface de fase. A placa impressa e o filme de isolamento no chip são integrados ao pacote e o conjunto completo pode ser usado diretamente posteriormente.
-      ]",
+      "description": [
+        "“Conecte a camada intermediária de ancoragem triaxial a este nível de substrato cerâmico para completar o chip de interface de fase. A placa impressa e o filme de isolamento no chip são integrados ao pacote e o conjunto completo pode ser usado diretamente posteriormente."
+      ],
       "dependencies": [
         "4B51E08379C2635B",
         "4B51516BB43A2C92"
@@ -457,9 +457,9 @@
       "id": "4B52202C1C9DFE9D",
       "title": "Núcleo do protocolo de transferência de fase",
       "subtitle": "Primeiro defina a sequência de transferência e o estado de parada",
-      "description": "[
-        \"Conecte o chip de interface de fase ao núcleo do protocolo e use a CPU e a RAM para salvar o estado local. Os circuitos subsequentes monitoram a interface e controlam a sequência de transferência de fase através deste núcleo.\"
-      ]",
+      "description": [
+        "\"Conecte o chip de interface de fase ao núcleo do protocolo e use a CPU e a RAM para salvar o estado local. Os circuitos subsequentes monitoram a interface e controlam a sequência de transferência de fase através deste núcleo.\""
+      ],
       "dependencies": [
         "4B588700D5979D78",
         "4B53C6CE36D51EBD",
@@ -484,9 +484,9 @@
       "id": "4B526888442D8B32",
       "title": "Carcaça do atuador com isolamento de fase",
       "subtitle": "Instalar suportes executivos em áreas de trabalho isoladas",
-      "description": "[
-        “Uma haste de cerâmica, um anel e uma estrutura são adicionados ao atuador de posicionamento existente para formar um invólucro isolado. O invólucro assume o atuador deste nível, e o antigo suporte continua a assumir a responsabilidade de posicionamento.”
-      ]",
+      "description": [
+        "Uma haste de cerâmica, um anel e uma estrutura são adicionados ao atuador de posicionamento existente para formar um invólucro isolado. O invólucro assume o atuador deste nível, e o antigo suporte continua a assumir a responsabilidade de posicionamento."
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B510189BD9FF3DE",
@@ -510,9 +510,9 @@
       "id": "4B5271D0B2788189",
       "title": "Bloco frio de têmpera e revenido",
       "subtitle": "O refluxo de extinção e o resfriamento do circuito são separados",
-      "description": "[
-        \"Estenda o canal hermético original, adicione seções de tubo, paredes divisórias e revestimentos isolantes e instale-o em uma recuperação de calor e bloco frio. O refrigerante quente é conduzido separadamente para equipamento de transferência de fase e controle de temperatura do circuito.\"
-      ]",
+      "description": [
+        "\"Estenda o canal hermético original, adicione seções de tubo, paredes divisórias e revestimentos isolantes e instale-o em uma recuperação de calor e bloco frio. O refrigerante quente é conduzido separadamente para equipamento de transferência de fase e controle de temperatura do circuito.\""
+      ],
       "dependencies": [
         "4B54804DF6CCFEB5",
         "4B53DA1823327C30",
@@ -537,9 +537,9 @@
       "id": "4B59F20F03D7B54A",
       "title": "Host do processador de interferência quântica",
       "subtitle": "Deixe dois conjuntos de computadores front-end formarem o computador host",
-      "description": "[
-        \"As partes computacionais completas dos dois supercomputadores de interferência quântica são retidas, conectadas ao chip de interface de fase, núcleo do protocolo e recuperação de calor e bloco frio para completar a montagem final do host.\"
-      ]",
+      "description": [
+        "\"As partes computacionais completas dos dois supercomputadores de interferência quântica são retidas, conectadas ao chip de interface de fase, núcleo do protocolo e recuperação de calor e bloco frio para completar a montagem final do host.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -564,9 +564,9 @@
       "id": "4B5880F608778EC5",
       "title": "Supercomputadores ancorados em emaranhamento",
       "subtitle": "Adicionando armazenamento compartilhado a cálculos ancorados em emaranhamento",
-      "description": "[
-        \"Dois conjuntos de processadores ancorados em emaranhamento são montados em um supercomputador. O núcleo do protocolo gerencia o estado da interface e a RAM externa é responsável pelo armazenamento compartilhado entre unidades de computação.\"
-      ]",
+      "description": [
+        "\"Dois conjuntos de processadores ancorados em emaranhamento são montados em um supercomputador. O núcleo do protocolo gerencia o estado da interface e a RAM externa é responsável pelo armazenamento compartilhado entre unidades de computação.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -591,9 +591,9 @@
       "id": "4B5F0E553E48D54F",
       "title": "Conjunto de processador de âncora imaginária",
       "subtitle": "Agrupar processadores âncora imaginários",
-      "description": "[
-        \"Usando um processador front-end completo como unidade de computação, além desta leitura de interface de fase de nível, resfriamento e estrutura de suporte de carga de cerâmica. O conjunto pode ser usado para atualizações subsequentes do circuito ICV.\"
-      ]",
+      "description": [
+        "\"Usando um processador front-end completo como unidade de computação, além desta leitura de interface de fase de nível, resfriamento e estrutura de suporte de carga de cerâmica. O conjunto pode ser usado para atualizações subsequentes do circuito ICV.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -618,9 +618,9 @@
       "id": "4B56A2A62D5DD2F1",
       "title": "Processador de reconstrução de números imaginários",
       "subtitle": "Complete o dispositivo de computação básico do IMV",
-      "description": "[
-        \"Conecte o host do processador front-end com a CPU de nível atual, núcleo de protocolo e armazenamento compartilhado para criar um processador de reconstrução de número imaginário. Os oito componentes principais do IMV obtêm o circuito de controle a partir daqui.\"
-      ]",
+      "description": [
+        "\"Conecte o host do processador front-end com a CPU de nível atual, núcleo de protocolo e armazenamento compartilhado para criar um processador de reconstrução de número imaginário. Os oito componentes principais do IMV obtêm o circuito de controle a partir daqui.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -644,9 +644,9 @@
       "id": "4B508A428D36AFE9",
       "title": "Motor elétrico IMV",
       "subtitle": "Divida a parte do driver em espaços de trabalho independentes",
-      "description": "[
-        \"Conecte o motor QAV completo ao invólucro de isolamento de fase e, em seguida, instale o núcleo do protocolo e o bloco frio de recuperação de calor. A nova estrutura cerâmica é responsável por conectar as várias peças de acionamento.\"
-      ]",
+      "description": [
+        "\"Conecte o motor QAV completo ao invólucro de isolamento de fase e, em seguida, instale o núcleo do protocolo e o bloco frio de recuperação de calor. A nova estrutura cerâmica é responsável por conectar as várias peças de acionamento.\""
+      ],
       "dependencies": [
         "4B526888442D8B32",
         "4B56A2A62D5DD2F1",
@@ -670,9 +670,9 @@
       "id": "4B53243A2A319FF7",
       "title": "Pistão elétrico IMV",
       "subtitle": "Conecte o movimento linear a um novo motor",
-      "description": "[
-        \"Integre o pistão de pré-estágio, o motor IMV e o invólucro de isolamento de fase em um só corpo. A haste e o anel de cerâmica suportam o suporte da nova conexão, e o retorno de calor e o bloco frio se conectam ao circuito de controle de temperatura.\"
-      ]",
+      "description": [
+        "\"Integre o pistão de pré-estágio, o motor IMV e o invólucro de isolamento de fase em um só corpo. A haste e o anel de cerâmica suportam o suporte da nova conexão, e o retorno de calor e o bloco frio se conectam ao circuito de controle de temperatura.\""
+      ],
       "dependencies": [
         "4B508A428D36AFE9",
         "4B5A5529AE68733C"
@@ -695,9 +695,9 @@
       "id": "4B5D969F4892DC6A",
       "title": "Bomba elétrica IMV",
       "subtitle": "Prepare circuitos de bombas independentes para amostragem e fluxo de retorno",
-      "description": "[
-        “Use uma bomba de apoio completa e motor IMV, e instale o invólucro de isolamento de fase e o bloco frio de retorno de calor. A nova bomba é responsável pelo transporte de fluido deste estágio e é usada para conectar as interfaces de retorno respectivamente.”
-      ]",
+      "description": [
+        "Use uma bomba de apoio completa e motor IMV, e instale o invólucro de isolamento de fase e o bloco frio de retorno de calor. A nova bomba é responsável pelo transporte de fluido deste estágio e é usada para conectar as interfaces de retorno respectivamente."
+      ],
       "dependencies": [
         "4B508A428D36AFE9",
         "4B5BC3E4DF1E7FF5"
@@ -720,9 +720,9 @@
       "id": "4B5C7D9B868E9219",
       "title": "Módulo transportador IMV",
       "subtitle": "Deixe o transporte em vários estágios operar na mesma sequência",
-      "description": "[
-        \"Instale o driver IMV e a leitura da interface de fase no módulo de transmissão front-end. O núcleo do protocolo coordena as ações de cada seção, e a placa cerâmica e a folha separam a nova área de trabalho.\"
-      ]",
+      "description": [
+        "\"Instale o driver IMV e a leitura da interface de fase no módulo de transmissão front-end. O núcleo do protocolo coordena as ações de cada seção, e a placa cerâmica e a folha separam a nova área de trabalho.\""
+      ],
       "dependencies": [
         "4B508A428D36AFE9",
         "4B51ECAED0BBA537"
@@ -745,9 +745,9 @@
       "id": "4B5A9A6838F5C653",
       "title": "Braço robótico IMV",
       "subtitle": "Instale o mecanismo telescópico e de posicionamento em um braço robótico",
-      "description": "[
-        \"Combine o motor IMV, o pistão e o braço robótico frontal completo e, em seguida, conecte o chip de interface de fase. A estrutura e o invólucro de isolamento de fase fornecem suporte para cada junta.\"
-      ]",
+      "description": [
+        "\"Combine o motor IMV, o pistão e o braço robótico frontal completo e, em seguida, conecte o chip de interface de fase. A estrutura e o invólucro de isolamento de fase fornecem suporte para cada junta.\""
+      ],
       "dependencies": [
         "4B53243A2A319FF7",
         "4B563E5F7F702155"
@@ -770,9 +770,9 @@
       "id": "4B5BAD20ECD3657C",
       "title": "Sensor IMV",
       "subtitle": "Deixe as leituras de amostragem trazerem o status da interface",
-      "description": "[
-        \"Retenha o sensor frontal e, em seguida, conecte-o ao chip de interface de fase, ao núcleo do protocolo e à peça de controle de temperatura. O novo sensor é usado para medição IMV e equipamento de controle de campo para ler o status.\"
-      ]",
+      "description": [
+        "\"Retenha o sensor frontal e, em seguida, conecte-o ao chip de interface de fase, ao núcleo do protocolo e à peça de controle de temperatura. O novo sensor é usado para medição IMV e equipamento de controle de campo para ler o status.\""
+      ],
       "dependencies": [
         "4B56A2A62D5DD2F1",
         "4B5B1A1507CBB1F7"
@@ -795,9 +795,9 @@
       "id": "4B5397FCABDA9FE8",
       "title": "Transmissor IMV",
       "subtitle": "Incorporar o controle de emissões no protocolo de transferência de fase",
-      "description": "[
-        “Monte o transmissor do estágio frontal e a estrutura óptica e condutiva do estágio de corrente e conecte o chip de interface de fase e o bloco de reaquecimento e frio. O núcleo do protocolo é responsável pela sequência das ações de lançamento.”
-      ]",
+      "description": [
+        "Monte o transmissor do estágio frontal e a estrutura óptica e condutiva do estágio de corrente e conecte o chip de interface de fase e o bloco de reaquecimento e frio. O núcleo do protocolo é responsável pela sequência das ações de lançamento."
+      ],
       "dependencies": [
         "4B56A2A62D5DD2F1",
         "4B57663E413585E3"
@@ -820,9 +820,9 @@
       "id": "4B5B509C3E1D5776",
       "title": "Gerador de campo de força IMV",
       "subtitle": "Transmissão e medição convergem no mesmo dispositivo de controle de campo",
-      "description": "[
-        “Monte o transmissor IMV, o sensor e o gerador de campo de força frontal, conecte-os ao núcleo do protocolo e forneça resfriamento independente. Depois que o dispositivo de controle de campo for concluído, ele será usado por instalações deste nível.”
-      ]",
+      "description": [
+        "Monte o transmissor IMV, o sensor e o gerador de campo de força frontal, conecte-os ao núcleo do protocolo e forneça resfriamento independente. Depois que o dispositivo de controle de campo for concluído, ele será usado por instalações deste nível."
+      ],
       "dependencies": [
         "4B5BAD20ECD3657C",
         "4B5397FCABDA9FE8",
@@ -846,9 +846,9 @@
       "id": "4B51BD9AC12E0B48",
       "title": "Material de nucleação cerâmica de transferência de limite de fase",
       "subtitle": "Preparando materiais de nucleação para limites de fases cerâmicas",
-      "description": "[
-        “O material de nucleação necessário para a transferência do limite de fase é preparado na placa frontal. Ele será consumido durante o processo cerâmico e controlará a formação das fases cerâmicas subsequentes.”
-      ]",
+      "description": [
+        "O material de nucleação necessário para a transferência do limite de fase é preparado na placa frontal. Ele será consumido durante o processo cerâmico e controlará a formação das fases cerâmicas subsequentes."
+      ],
       "dependencies": [
         "4B5FE62607DF1612"
       ],
@@ -870,9 +870,9 @@
       "id": "4B58995F28EDFECA",
       "title": "Sol cerâmico de transferência de fase",
       "subtitle": "Primeiro use novos materiais para preparar o primeiro lote de sol",
-      "description": "[
-        \"O fluido transportador fresco e os componentes cerâmicos são formulados em um sol de transferência de fase. A primeira produção é alimentada a partir desta linha de formulação, e o fluido transportador residual é posteriormente considerado para descarte.\"
-      ]",
+      "description": [
+        "\"O fluido transportador fresco e os componentes cerâmicos são formulados em um sol de transferência de fase. A primeira produção é alimentada a partir desta linha de formulação, e o fluido transportador residual é posteriormente considerado para descarte.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -895,9 +895,9 @@
       "id": "4B5A36E170448DCB",
       "title": "Pasta precursora cerâmica",
       "subtitle": "Coloque a pasta cerâmica sobre o substrato sólido",
-      "description": "[
-        \"O substrato QAV é usado para suportar a pasta precursora de cerâmica, e os materiais de nucleação e interface são adicionados antes de serem enviados para transferência de fase. A camada protetora de resina é deixada para ser aplicada após a etapa de alta temperatura.\"
-      ]",
+      "description": [
+        "\"O substrato QAV é usado para suportar a pasta precursora de cerâmica, e os materiais de nucleação e interface são adicionados antes de serem enviados para transferência de fase. A camada protetora de resina é deixada para ser aplicada após a etapa de alta temperatura.\""
+      ],
       "dependencies": [
         "4B51BD9AC12E0B48",
         "4B58995F28EDFECA"
@@ -920,9 +920,9 @@
       "id": "4B5E5E1BDAE86CAB",
       "title": "Boleto de transferência de fase controlada",
       "subtitle": "A fase cerâmica é formada primeiro e depois a interface é transferida",
-      "description": "[
-        “A pasta precursora é processada em um sintetizador supercrítico e o material de nucleação é usado para formar uma estrutura cerâmica definida. O fluido espacial participa desse processo como meio de transferência.”
-      ]",
+      "description": [
+        "A pasta precursora é processada em um sintetizador supercrítico e o material de nucleação é usado para formar uma estrutura cerâmica definida. O fluido espacial participa desse processo como meio de transferência."
+      ],
       "dependencies": [
         "4B5A36E170448DCB"
       ],
@@ -944,9 +944,9 @@
       "id": "4B51EA4B4DF52A21",
       "title": "Blank cerâmico para têmpera e remoção de impurezas",
       "subtitle": "A têmpera e a remoção de impurezas úmidas são concluídas em conjunto",
-      "description": "[
-        \"A placa de transferência de fase é resfriada e, em seguida, as impurezas da superfície são removidas. O refrigerante quente e o líquido residual não reciclável são descarregados separadamente e a placa de cerâmica processada entra na vedação de baixa temperatura.\"
-      ]",
+      "description": [
+        "\"A placa de transferência de fase é resfriada e, em seguida, as impurezas da superfície são removidas. O refrigerante quente e o líquido residual não reciclável são descarregados separadamente e a placa de cerâmica processada entra na vedação de baixa temperatura.\""
+      ],
       "dependencies": [
         "4B5E5E1BDAE86CAB"
       ],
@@ -968,9 +968,9 @@
       "id": "4B52A27A5FFE5740",
       "title": "Placa padrão de material de base cerâmica de transferência de fase de número imaginário",
       "subtitle": "Aplique a camada protetora por último",
-      "description": "[
-        \"Após a conclusão da transferência de fase em alta temperatura, os poros cerâmicos são fechados com uma matriz de revestimento e uma camada protetora de polímero é adicionada. Após a determinação do comprimento final, é obtido um blank padrão deste nível.\"
-      ]",
+      "description": [
+        "\"Após a conclusão da transferência de fase em alta temperatura, os poros cerâmicos são fechados com uma matriz de revestimento e uma camada protetora de polímero é adicionada. Após a determinação do comprimento final, é obtido um blank padrão deste nível.\""
+      ],
       "dependencies": [
         "4B51EA4B4DF52A21"
       ],
@@ -992,9 +992,9 @@
       "id": "4B5B0B519F2E3201",
       "title": "Placa de material base de cerâmica de transferência de fase imaginária",
       "subtitle": "Fatias de cerâmica são fixadas na placa de suporte de carga",
-      "description": "[
-        \"A placa padrão é fatiada e depois combinada com a placa frontal e a camada de contato. A placa acabada é usada para revestimento IMV, chip de interface de fase e subsequente fabricação de banda guia de energia.\"
-      ]",
+      "description": [
+        "\"A placa padrão é fatiada e depois combinada com a placa frontal e a camada de contato. A placa acabada é usada para revestimento IMV, chip de interface de fase e subsequente fabricação de banda guia de energia.\""
+      ],
       "dependencies": [
         "4B52A27A5FFE5740"
       ],
@@ -1016,9 +1016,9 @@
       "id": "4B551135A9953520",
       "title": "Haste de material de base cerâmica de transferência de fase imaginária",
       "subtitle": "Núcleo de haste metálica com revestimento cerâmico",
-      "description": "[
-        \"O corpo cerâmico principal é usinado em tiras e coberto com um núcleo de haste de metal contínuo. O núcleo de metal é responsável pela resistência e suporte contínuo, e a camada externa de cerâmica fornece isolamento.\"
-      ]",
+      "description": [
+        "\"O corpo cerâmico principal é usinado em tiras e coberto com um núcleo de haste de metal contínuo. O núcleo de metal é responsável pela resistência e suporte contínuo, e a camada externa de cerâmica fornece isolamento.\""
+      ],
       "dependencies": [
         "4B52A27A5FFE5740",
         "4B5B0D8BECDD8667"
@@ -1041,9 +1041,9 @@
       "id": "4B510189BD9FF3DE",
       "title": "Componentes da estrutura de material de base cerâmica de transferência de fase imaginária",
       "subtitle": "Conexão de vigas isolantes de cerâmica com peças de canto",
-      "description": "[
-        \"Combine a viga de cerâmica e a estrutura frontal do palco e adicione conectores de metal e juntas flexíveis nas juntas de canto. A estrutura serve então como estrutura de suporte de carga para o chassi IMV e montagem do circuito.\"
-      ]",
+      "description": [
+        "\"Combine a viga de cerâmica e a estrutura frontal do palco e adicione conectores de metal e juntas flexíveis nas juntas de canto. A estrutura serve então como estrutura de suporte de carga para o chassi IMV e montagem do circuito.\""
+      ],
       "dependencies": [
         "4B551135A9953520",
         "4B5CE948D6826C57"
@@ -1066,9 +1066,9 @@
       "id": "4B53DA1823327C30",
       "title": "Anel de material base cerâmico de transferência de fase imaginária",
       "subtitle": "Permitir junta de expansão para anel cerâmico",
-      "description": "[
-        “Inclua as peças cerâmicas do setor no anel frontal e use juntas flexíveis para conectar cada segmento. O novo anel é usado para montar a interface hermética, o invólucro e o atuador.”
-      ]",
+      "description": [
+        "Inclua as peças cerâmicas do setor no anel frontal e use juntas flexíveis para conectar cada segmento. O novo anel é usado para montar a interface hermética, o invólucro e o atuador."
+      ],
       "dependencies": [
         "4B551135A9953520",
         "4B5D238ED26E8E21"
@@ -1091,9 +1091,9 @@
       "id": "4B5313D7F4421690",
       "title": "Folha de material de base cerâmica de transferência de fase imaginária",
       "subtitle": "Deposição de camada cerâmica em folha metálica fina",
-      "description": "[
-        \"Uma fina camada de cerâmica é formada primeiro e, em seguida, as bordas são seladas em baixa temperatura. A folha de suporte mantém a continuidade do material fino para filme dielétrico e embalagem de chips.\"
-      ]",
+      "description": [
+        "\"Uma fina camada de cerâmica é formada primeiro e, em seguida, as bordas são seladas em baixa temperatura. A folha de suporte mantém a continuidade do material fino para filme dielétrico e embalagem de chips.\""
+      ],
       "dependencies": [
         "4B5B0B519F2E3201",
         "4B5B35081715CDC4"
@@ -1116,9 +1116,9 @@
       "id": "4B5E86444626FE39",
       "title": "Fio fino composto de material de base cerâmica de transferência de fase de número imaginário",
       "subtitle": "Adicionando isolamento cerâmico a um núcleo metálico contínuo",
-      "description": "[
-        \"Cubra os fios de metal finos existentes com uma fina camada de cerâmica. A condução é fornecida pelo núcleo contínuo, e o revestimento externo é usado para interconexão e fiação de isolamento de baixa temperatura neste nível.\"
-      ]",
+      "description": [
+        "\"Cubra os fios de metal finos existentes com uma fina camada de cerâmica. A condução é fornecida pelo núcleo contínuo, e o revestimento externo é usado para interconexão e fiação de isolamento de baixa temperatura neste nível.\""
+      ],
       "dependencies": [
         "4B551135A9953520",
         "4B5DE9FBF4314D00"
@@ -1141,9 +1141,9 @@
       "id": "4B5B197DD2CD1C96",
       "title": "Bloco mecânico IMV",
       "subtitle": "Instale a camada de trabalho cerâmica no invólucro IMV",
-      "description": "[
-        “Guarde o bloco mecânico QAV completo e instale a placa cerâmica, moldura, anel, portas e vedações. O material produzido pelo equipamento frontal é suficiente para completar o primeiro lote de carcaças.”
-      ]",
+      "description": [
+        "Guarde o bloco mecânico QAV completo e instale a placa cerâmica, moldura, anel, portas e vedações. O material produzido pelo equipamento frontal é suficiente para completar o primeiro lote de carcaças."
+      ],
       "dependencies": [
         "4B5B0B519F2E3201",
         "4B510189BD9FF3DE",
@@ -1168,9 +1168,9 @@
       "id": "4B532C29B77787DE",
       "title": "Desmontagem em camadas da caixa IMV",
       "subtitle": "Desmontando a caixa IMV aposentada",
-      "description": "[
-        “Após a desmontagem em camadas, o núcleo do QAV e parte da forma cerâmica completa são recuperados. O restante do corpo é convertido em resíduo classificado, e os terminais, solda e materiais de vedação são consumidos junto com a desmontagem.”
-      ]",
+      "description": [
+        "Após a desmontagem em camadas, o núcleo do QAV e parte da forma cerâmica completa são recuperados. O restante do corpo é convertido em resíduo classificado, e os terminais, solda e materiais de vedação são consumidos junto com a desmontagem."
+      ],
       "dependencies": [
         "4B5B197DD2CD1C96"
       ],
@@ -1196,9 +1196,9 @@
       "id": "4B5DAEB02D96FEF4",
       "title": "Componentes de reciclagem de materiais de base cerâmica de transferência de fase imaginária",
       "subtitle": "Separando os componentes cerâmicos reconstrutíveis",
-      "description": "[
-        \"Use o solvente de processo Soul Steel para lavar os acessórios e depois centrifugue para separar os componentes recuperados e os rejeitos. A parte reconstruível representa três quartos do corpo principal e é enviada separadamente para reabastecimento.\"
-      ]",
+      "description": [
+        "\"Use o solvente de processo Soul Steel para lavar os acessórios e depois centrifugue para separar os componentes recuperados e os rejeitos. A parte reconstruível representa três quartos do corpo principal e é enviada separadamente para reabastecimento.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1224,9 +1224,9 @@
       "id": "4B52B7D13D3FD0E0",
       "title": "IMV refeito com materiais reciclados",
       "subtitle": "Cerâmicas recicladas ainda são refeitas a partir de lama precursora",
-      "description": "[
-        \"Misture os componentes recuperados com o novo corpo e reinvista a nucleação e os materiais auxiliares de interface necessários para este lote. A pasta precursora resultante continua a passar por transferência de fase, têmpera e selagem.\"
-      ]",
+      "description": [
+        "\"Misture os componentes recuperados com o novo corpo e reinvista a nucleação e os materiais auxiliares de interface necessários para este lote. A pasta precursora resultante continua a passar por transferência de fase, têmpera e selagem.\""
+      ],
       "dependencies": [
         "4B51BD9AC12E0B48",
         "4B58995F28EDFECA"
@@ -1253,9 +1253,9 @@
       "id": "4B58594CCCCF2831",
       "title": "Solidificação da cauda IMV",
       "subtitle": "Sequestro de rejeitos cerâmicos falhados",
-      "description": "[
-        “O rejeito não reciclável após solidificação e separação com concreto é aproveitado para obtenção de resíduos inertes. Essa parte do material sai do processo de reciclagem cerâmica nesse nível.”
-      ]",
+      "description": [
+        "O rejeito não reciclável após solidificação e separação com concreto é aproveitado para obtenção de resíduos inertes. Essa parte do material sai do processo de reciclagem cerâmica nesse nível."
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1281,9 +1281,9 @@
       "id": "4B589702DC029F9A",
       "title": "Conjunto de revestimento de contenção de pressão diferencial",
       "subtitle": "Anexe monitoramento de pressão independente ao revestimento de contenção",
-      "description": "[
-        \"Montar o revestimento da nave espacial e a interface de monitoramento de pressão diferencial em um conjunto. Fabricado primeiro em um centro de usinagem de precisão existente e posteriormente usado em embarcações de contenção formais e instalações de captura.\"
-      ]",
+      "description": [
+        "\"Montar o revestimento da nave espacial e a interface de monitoramento de pressão diferencial em um conjunto. Fabricado primeiro em um centro de usinagem de precisão existente e posteriormente usado em embarcações de contenção formais e instalações de captura.\""
+      ],
       "dependencies": [
         "4B53AFBD8F5499DB",
         "4B5BC3E4DF1E7FF5",
@@ -1311,9 +1311,9 @@
       "id": "4B58B6FC383BF579",
       "title": "Grande Reator de Energia Honkai",
       "subtitle": "Conecte as posições segmentadas da haste e a interface de troca de calor de alta pressão",
-      "description": "[
-        \"Use o equipamento existente para fabricar um controlador de reator em grande escala e instale controle de posição de haste segmentada e componentes de troca de calor de alta pressão. Após a conclusão do controlador, as instalações serão construídas de acordo com a estrutura e as condições de fornecimento de energia do reator em grande escala.\"
-      ]",
+      "description": [
+        "\"Use o equipamento existente para fabricar um controlador de reator em grande escala e instale controle de posição de haste segmentada e componentes de troca de calor de alta pressão. Após a conclusão do controlador, as instalações serão construídas de acordo com a estrutura e as condições de fornecimento de energia do reator em grande escala.\""
+      ],
       "dependencies": [
         "4B52FD45022F2AFE",
         "4B5BC3E4DF1E7FF5",
@@ -1343,9 +1343,9 @@
       "id": "4B527B4505AD67DB",
       "title": "Matriz de captura geral da bolha mundial",
       "subtitle": "Conecte contêineres, locais de contenção e isolamento de vazamentos",
-      "description": "[
-        “Insira os componentes de contenção dedicados no controlador da matriz de captura. Somente depois que o contêiner vazio e as coordenadas do alvo utilizáveis ​​forem preparados, a matriz entra no processo de captura do mundo real.”
-      ]",
+      "description": [
+        "Insira os componentes de contenção dedicados no controlador da matriz de captura. Somente depois que o contêiner vazio e as coordenadas do alvo utilizáveis ​​forem preparados, a matriz entra no processo de captura do mundo real."
+      ],
       "dependencies": [
         "4B5BC0B208AF6B1C",
         "4B5BC3E4DF1E7FF5",
@@ -1375,9 +1375,9 @@
       "id": "4B5AE7672501970C",
       "title": "Máquina de reciclagem de terminação de bolhas do mundo real",
       "subtitle": "Deixe uma saída independente para a reciclagem de bolhas no mundo real",
-      "description": "[
-        \"Monte o controlador da máquina de recuperação de terminação e conecte o dispositivo de terminação, triagem de sucata e saída de fluido. Depois de concluído, ele será usado para processar bolhas do mundo real que foram legalmente seladas.\"
-      ]",
+      "description": [
+        "\"Monte o controlador da máquina de recuperação de terminação e conecte o dispositivo de terminação, triagem de sucata e saída de fluido. Depois de concluído, ele será usado para processar bolhas do mundo real que foram legalmente seladas.\""
+      ],
       "dependencies": [
         "4B5278C607A98950"
       ],
@@ -1403,9 +1403,9 @@
       "id": "4B50F95FD0FE0059",
       "title": "Recipiente vazio de contenção de bolhas mundiais",
       "subtitle": "Crie primeiro um contêiner vazio e depois prepare-se para capturá-lo",
-      "description": "[
-        “Monte o invólucro vazio, a interface de restrição e o revestimento de contenção no Centro de Assembléia Chave de Deus para concluir a calibração e vedação em campo. Depois que o recipiente vazio for obtido, ele será entregue ao processo de captura de bolhas no mundo real.”
-      ]",
+      "description": [
+        "Monte o invólucro vazio, a interface de restrição e o revestimento de contenção no Centro de Assembléia Chave de Deus para concluir a calibração e vedação em campo. Depois que o recipiente vazio for obtido, ele será entregue ao processo de captura de bolhas no mundo real."
+      ],
       "dependencies": [
         "4B53AFBD8F5499DB",
         "4B5BC3E4DF1E7FF5",
@@ -1434,9 +1434,9 @@
       "id": "4B5D57814FE4D3C3",
       "title": "Componente de terminação de bolha mundial",
       "subtitle": "Fornece fonte de fabricação independente para dispositivos de terminação",
-      "description": "[
-        “Montar os componentes estruturais e de calibração anteriormente disponíveis em peças terminais. Essas peças são realmente consumidas com a operação do terminal e são usadas pelos processos correspondentes nas bolhas do mundo real e simulado.”
-      ]",
+      "description": [
+        "Montar os componentes estruturais e de calibração anteriormente disponíveis em peças terminais. Essas peças são realmente consumidas com a operação do terminal e são usadas pelos processos correspondentes nas bolhas do mundo real e simulado."
+      ],
       "dependencies": [
         "4B5278C607A98950"
       ],
@@ -1462,9 +1462,9 @@
       "id": "4B5BA171379664CC",
       "title": "Conjunto imaginário de ferramenta de acoplamento de combustível",
       "subtitle": "Ferramentas de ativação · Condições de trabalho do QAV",
-      "description": "[
-        “Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente.”
-      ]",
+      "description": [
+        "Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente."
+      ],
       "dependencies": [
         "4B52FD45022F2AFE"
       ],
@@ -1490,9 +1490,9 @@
       "id": "4B5FFE2FA5B8C97F",
       "title": "Nova preparação de combustível de colapso de acoplamento imaginário",
       "subtitle": "Combustível energético · Condições de operação do QAV",
-      "description": "[
-        “Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido.”
-      ]",
+      "description": [
+        "Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido."
+      ],
       "dependencies": [
         "4B5BA171379664CC"
       ],
@@ -1515,10 +1515,10 @@
       "id": "4B5D8B4510122249",
       "title": "Grande Reator de Energia Honkai·Barras de Combustível Honkai",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira as barras de combustível Honkai no grande reator de energia Honkai e reabasteça o combustível Honkai acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira as barras de combustível Honkai no grande reator de energia Honkai e reabasteça o combustível Honkai acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1542,10 +1542,10 @@
       "id": "4B5AF9C193C1225E",
       "title": "Reator de energia Honkai em grande escala·Barras de combustível Honkai concentradas",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira barras de combustível Honkai concentradas em grandes reatores de energia Honkai e reabasteça o combustível Honkai de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
-        \"Carga fixa 4 grupos, especificação 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Combustível concentrado de longo período, a maior carga de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira barras de combustível Honkai concentradas em grandes reatores de energia Honkai e reabasteça o combustível Honkai de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\"",
+        "\"Carga fixa 4 grupos, especificação 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Combustível concentrado de longo período, a maior carga de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1569,10 +1569,10 @@
       "id": "4B5A512F4D2B08FF",
       "title": "Reator de energia Honkai em grande escala · Cartucho de combustível de colapso do núcleo de carbono adsorvido",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa de 4 grupos, especificação 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por loops independentes com base no inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa de 4 grupos, especificação 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por loops independentes com base no inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1596,10 +1596,10 @@
       "id": "4B59A5EA531887E6",
       "title": "Reator de energia de colapso em grande escala·Hastes direcionais de transporte de energia de peneira molecular",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira hastes direcionais de transporte de energia da peneira molecular em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso do acoplamento imaginário de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consumindo 16mB de combustível de colapso de acoplamento imaginário. Adsorvendo transportadores, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira hastes direcionais de transporte de energia da peneira molecular em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso do acoplamento imaginário de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consumindo 16mB de combustível de colapso de acoplamento imaginário. Adsorvendo transportadores, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1623,10 +1623,10 @@
       "id": "4B5B164EEDF57442",
       "title": "Reator de energia Honkai em grande escala · Partículas de combustível Honkai solidificadas em gel de sílica",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Carregue partículas de combustível Honkai solidificadas com sílica gel em um grande reator de energia Honkai e reabasteça o combustível Honkai de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. O gel é disperso uniformemente e funciona por um longo período. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Carregue partículas de combustível Honkai solidificadas com sílica gel em um grande reator de energia Honkai e reabasteça o combustível Honkai de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. O gel é disperso uniformemente e funciona por um longo período. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1650,10 +1650,10 @@
       "id": "4B52EC57B8BA6349",
       "title": "Reator de energia de colapso em grande escala · Varetas de combustível cerâmicas porosas de carboneto de silício",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira barras de combustível de cerâmica porosa de carboneto de silício em reatores de energia coloidal de grande escala e reabasteça o combustível em colapso acoplado imaginário de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira barras de combustível de cerâmica porosa de carboneto de silício em reatores de energia coloidal de grande escala e reabasteça o combustível em colapso acoplado imaginário de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1677,10 +1677,10 @@
       "id": "4B5E1C5E408060A6",
       "title": "Reator de energia de colapso em grande escala · Cartucho de combustível de partículas gradientes de carboneto de boro",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira cartuchos de combustível de partículas gradientes de carboneto de boro em reatores de energia coloidal de grande escala e reabasteça o combustível em colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa 4 grupos, especificação 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira cartuchos de combustível de partículas gradientes de carboneto de boro em reatores de energia coloidal de grande escala e reabasteça o combustível em colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa 4 grupos, especificação 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1704,10 +1704,10 @@
       "id": "4B594DF57FFFFA74",
       "title": "Grande reator de energia de colapso · Grânulos de combustível cerâmicos com gradiente de óxido de zircônio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Carregue esferas de combustível cerâmico gradiente de óxido de zircônio em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Transportador estável de alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por um loop independente de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Carregue esferas de combustível cerâmico gradiente de óxido de zircônio em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Transportador estável de alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por um loop independente de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1731,10 +1731,10 @@
       "id": "4B5A01890D5DA8E5",
       "title": "Reator de energia Honkai em grande escala·Núcleo de combustível Honkai com esqueleto de cobre e diamante",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o núcleo de combustível de colapso do esqueleto de diamante-cobre no reator de energia de colapso em grande escala e reabasteça o combustível de colapso do acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o núcleo de combustível de colapso do esqueleto de diamante-cobre no reator de energia de colapso em grande escala e reabasteça o combustível de colapso do acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1758,10 +1758,10 @@
       "id": "4B5163920A7A0E32",
       "title": "Grande reator de energia de colapso · Folha de combustível de colapso de camada intermediária de grafeno",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira folhas de combustível de colapso intercalar de grafeno em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, especificação de 1 link, um total de 4 hastes físicas; consumo de 16mB de combustível de colapso de acoplamento imaginário. Microrrede térmica, levando em consideração geração de energia e HW. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira folhas de combustível de colapso intercalar de grafeno em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, especificação de 1 link, um total de 4 hastes físicas; consumo de 16mB de combustível de colapso de acoplamento imaginário. Microrrede térmica, levando em consideração geração de energia e HW. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1785,10 +1785,10 @@
       "id": "4B58C9A8796A786A",
       "title": "Reator de energia de colapso em grande escala · Bloco de combustível de cermet de carboneto de titânio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira blocos de combustível de cermet de carboneto de titânio em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira blocos de combustível de cermet de carboneto de titânio em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1812,10 +1812,10 @@
       "id": "4B580B91DC7A6A67",
       "title": "Reator de energia de colapso em grande escala·Leito de combustível de microesferas isolado com alumina",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira um leito de combustível de microesferas isolantes de alumina em um reator de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"Carga fixa de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Cerâmica de alto rendimento, ciclo operacional mais longo. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira um leito de combustível de microesferas isolantes de alumina em um reator de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"Carga fixa de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Cerâmica de alto rendimento, ciclo operacional mais longo. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1839,10 +1839,10 @@
       "id": "4B5EDF98AEBC94D1",
       "title": "Reator de energia de colapso em grande escala · Cartucho de combustível de colapso de microcanais de tungstênio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de colapso de microcanais de tungstênio no reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Esqueleto metálico de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de colapso de microcanais de tungstênio no reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Esqueleto metálico de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1866,10 +1866,10 @@
       "id": "4B514DE6340A7812",
       "title": "Reator de energia de colapso em grande escala · Cartucho de combustível de membrana de extremidade fria de PTFE",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira um cartucho de combustível de membrana de extremidade fria de PTFE em um reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Baixo transportador de filme térmico, direcionado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira um cartucho de combustível de membrana de extremidade fria de PTFE em um reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Baixo transportador de filme térmico, direcionado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1893,10 +1893,10 @@
       "id": "4B50222A3B881CAF",
       "title": "Reator de energia de colapso em grande escala · Partículas de combustível de microcápsula de extremidade fria PBI",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Carregue partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso em grande escala e complemente o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Porta-microcápsulas de alto HW, o ciclo operacional mais longo. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Carregue partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso em grande escala e complemente o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Porta-microcápsulas de alto HW, o ciclo operacional mais longo. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1920,12 +1920,12 @@
       "id": "4B52FD45022F2AFE",
       "title": "Engenharia de grandes reatores",
       "subtitle": "RN-LRE · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Componente de embalagem de combustível × 1; papel × 2; ferramentas não são consumidas.\",
-        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. A operação de alta carga e os registros do orçamento de calor estão completos, incluindo equipamentos e consumo real; a quantidade original do objeto testado é devolvida e os resultados experimentais são registrados após a conclusão.\",
-        \"Após a conclusão do experimento, escolha 2.160 pontos de pesquisa ou circuito QAV × 6, placa de liga de sílica × 88 para pagar a taxa básica; são necessários 18.000 ticks adicionais e 131.941.395.333.120 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso em grande escala serão desbloqueadas.”
-      ]",
+      "description": [
+        "\"Componente de embalagem de combustível × 1; papel × 2; ferramentas não são consumidas.\"",
+        "\"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. A operação de alta carga e os registros do orçamento de calor estão completos, incluindo equipamentos e consumo real; a quantidade original do objeto testado é devolvida e os resultados experimentais são registrados após a conclusão.\"",
+        "\"Após a conclusão do experimento, escolha 2.160 pontos de pesquisa ou circuito QAV × 6, placa de liga de sílica × 88 para pagar a taxa básica; são necessários 18.000 ticks adicionais e 131.941.395.333.120 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso em grande escala serão desbloqueadas."
+      ],
       "dependencies": [
         "4B50866329B1DB0E",
         "4B540C3CD6E1C789",

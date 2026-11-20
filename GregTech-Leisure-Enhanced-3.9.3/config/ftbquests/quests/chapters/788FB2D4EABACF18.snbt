@@ -38,17 +38,17 @@
 	quests: [
 		{
 			description: [
-		"&6&l» Bem-vindo ao GTL aprimorado"
-		""
-		"&f- Este é um pacote de integração de tecnologia pura que conduz você através do processo completo de escalada na árvore tecnológica."
-		"&f- Você testemunhará a espetacular máquina gigante de vários blocos, experimentará a máxima eficiência da modificação mágica e desfrutará da diversão super refrescante de empilhar."
-		""
-		"&4Esta versão não é uma versão oficial do GregTech Leisure. Fique atento à distinção."
-		"&4Se você quiser jogar a versão oficial do GregTech Leisure, acesse o canal oficial para obtê-la."
-		""
-		"&e&l» Agora, deixe-me fazer uma pergunta:"
-		"&e- É a primeira vez que você joga GTL?"
-	]
+				"&6&l» Bem-vindo ao GTL aprimorado"
+				""
+				"&f- Este é um pacote de integração de tecnologia pura que conduz você através do processo completo de escalada na árvore tecnológica."
+				"&f- Você testemunhará a espetacular máquina gigante de vários blocos, experimentará a máxima eficiência da modificação mágica e desfrutará da diversão super refrescante de empilhar."
+				""
+				"&4Esta versão não é uma versão oficial do GregTech Leisure. Fique atento à distinção."
+				"&4Se você quiser jogar a versão oficial do GregTech Leisure, acesse o canal oficial para obtê-la."
+				""
+				"&e&l» Agora, deixe-me fazer uma pergunta:"
+				"&e- É a primeira vez que você joga GTL?"
+			]
 			icon: "minecraft:player_head"
 			id: "338B78A9B370B1C1"
 			quest_enhance_disable_scroll_paging: false
@@ -64,7 +64,9 @@
 		}
 		{
 			dependencies: ["338B78A9B370B1C1"]
-			description: [""]
+			description: [
+				""
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "gtceu:nan_certificate"
@@ -87,11 +89,11 @@
 		{
 			dependencies: ["38D7837BE9480F5E"]
 			description: [
-		"&6&l» Bem vindo de volta"
-		""
-		"&f- Agora que você já passou por uma semana ou até semanas de prática, muitas das orientações básicas podem ser ignoradas."
-		"&f- Traga esses suprimentos e aproveite a nova versão!"
-	]
+				"&6&l» Bem vindo de volta"
+				""
+				"&f- Agora que você já passou por uma semana ou até semanas de prática, muitas das orientações básicas podem ser ignoradas."
+				"&f- Traga esses suprimentos e aproveite a nova versão!"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "gtceu:creative_chest"
@@ -228,7 +230,9 @@
 		}
 		{
 			dependencies: ["338B78A9B370B1C1"]
-			description: [""]
+			description: [
+				""
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "kubejs:basic_control_circuit"
@@ -251,12 +255,12 @@
 		{
 			dependencies: ["33111A35EDDAB7A0"]
 			description: [
-		"&6&l» Bem vindo"
-		""
-		"&f– Novo jogador? Isso é raro! Não se preocupe, haverá instruções detalhadas de tarefas para guiá-lo passo a passo."
-		"&f- Se você encontrar algo que não entende, você pode se comunicar no grupo a qualquer momento."
-		"&f– Pegue esses suprimentos iniciais e comece sua nova jornada!"
-	]
+				"&6&l» Bem vindo"
+				""
+				"&f– Novo jogador? Isso é raro! Não se preocupe, haverá instruções detalhadas de tarefas para guiá-lo passo a passo."
+				"&f- Se você encontrar algo que não entende, você pode se comunicar no grupo a qualquer momento."
+				"&f– Pegue esses suprimentos iniciais e comece sua nova jornada!"
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "ae2:chest"
@@ -313,25 +317,25 @@
 		{
 			dependencies: ["338B78A9B370B1C1"]
 			description: [
-		"&6&l\"Descrição da versão aprimorada\""
-		""
-		"&5▌ Visão geral"
-		"&f- Este pacote de integração é baseado na modificação original de \"GregTech: Leisure\", e os direitos autorais pertencem à equipe de produção original."
-		"&f– Com base na versão original, os módulos foram adicionados e removidos e o conteúdo da tarefa foi ajustado."
-		""
-		"&5▌ Principais mudanças"
-		"&f- Adicionado um grande número de scripts KJS e ajustado algumas receitas e mecânicas de jogo."
-		"&f– Adicionadas algumas máquinas e itens exclusivos."
-		"&f– O sistema de missão foi reorganizado para se adaptar ao conteúdo aprimorado."
-		""
-		"&5▌ Precauções"
-		"&f- Parte do conteúdo ainda está sendo ajustada e pode haver alterações na receita ou problemas de balanceamento."
-		"&f- Se você tiver alguma dúvida, informe-a no grupo de comunicação correspondente."
-		""
-		"&5▌ Aviso"
-		"&f- Por favor, não divulgue nenhuma captura de tela e receita desta versão no chat oficial do grupo."
-		"&f– Isto é para sua consideração."
-	]
+				"&6&l\"Descrição da versão aprimorada\""
+				""
+				"&5▌ Visão geral"
+				"&f- Este pacote de integração é baseado na modificação original de \"GregTech: Leisure\", e os direitos autorais pertencem à equipe de produção original."
+				"&f– Com base na versão original, os módulos foram adicionados e removidos e o conteúdo da tarefa foi ajustado."
+				""
+				"&5▌ Principais mudanças"
+				"&f- Adicionado um grande número de scripts KJS e ajustado algumas receitas e mecânicas de jogo."
+				"&f– Adicionadas algumas máquinas e itens exclusivos."
+				"&f– O sistema de missão foi reorganizado para se adaptar ao conteúdo aprimorado."
+				""
+				"&5▌ Precauções"
+				"&f- Parte do conteúdo ainda está sendo ajustada e pode haver alterações na receita ou problemas de balanceamento."
+				"&f- Se você tiver alguma dúvida, informe-a no grupo de comunicação correspondente."
+				""
+				"&5▌ Aviso"
+				"&f- Por favor, não divulgue nenhuma captura de tela e receita desta versão no chat oficial do grupo."
+				"&f– Isto é para sua consideração."
+			]
 			hide_dependency_lines: true
 			icon: "minecraft:writable_book"
 			id: "65BFE4FC9735A317"
@@ -355,19 +359,19 @@
 		{
 			dependencies: ["338B78A9B370B1C1"]
 			description: [
-		"&6&l» Configurações básicas"
-		"&f– Este pacote de integração habilita o modo ilha &e&fpor padrão."
-		""
-		"&6&l» Parâmetros principais"
-		"&f- Velocidade de processamento da máquina: &e0,2 &f(ou seja, 5 vezes mais rápido)"
-		"&f- Minerador do Vazio Primitivo: &aAtivado"
-		"&f- Ampliação de processamento mineral: &e3 vezes"
-		""
-		"&4&l» Lembrete importante: montagem de super amostra GTL Additions"
-		"&c– Este item foi predefinido para &ee o número máximo de células é &c. Por favor, não altere esta configuração."
-		"&c- Se você precisar migrar o arquivo, certifique-se de copiar também o arquivo de configuração &cde &eGTL Additions."
-		"&c- Caso contrário, todos os modelos &4internos serão perdidos e &cserá perdido."
-	]
+				"&6&l» Configurações básicas"
+				"&f– Este pacote de integração habilita o modo ilha &e&fpor padrão."
+				""
+				"&6&l» Parâmetros principais"
+				"&f- Velocidade de processamento da máquina: &e0,2 &f(ou seja, 5 vezes mais rápido)"
+				"&f- Minerador do Vazio Primitivo: &aAtivado"
+				"&f- Ampliação de processamento mineral: &e3 vezes"
+				""
+				"&4&l» Lembrete importante: montagem de super amostra GTL Additions"
+				"&c– Este item foi predefinido para &ee o número máximo de células é &c. Por favor, não altere esta configuração."
+				"&c- Se você precisar migrar o arquivo, certifique-se de copiar também o arquivo de configuração &cde &eGTL Additions."
+				"&c- Caso contrário, todos os modelos &4internos serão perdidos e &cserá perdido."
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:aluminium_gear"
 			id: "6C46E5641ADF7F11"
@@ -387,11 +391,11 @@
 				"6C46E5641ADF7F11"
 			]
 			description: [
-		"&6&l» Feedback da Edição Aprimorada"
-		"&f- Se encontrar qualquer bug, entre em contato com o autor."
-		"&f- Por favor, não envie dúvidas desta versão nos grupos oficiais do modpack base."
-		"&b- Grupo de discussão da Edição Aprimorada: 810854777"
-	]
+				"&6&l» Feedback da Edição Aprimorada"
+				"&f- Se encontrar qualquer bug, entre em contato com o autor."
+				"&f- Por favor, não envie dúvidas desta versão nos grupos oficiais do modpack base."
+				"&b- Grupo de discussão da Edição Aprimorada: 810854777"
+			]
 			icon: "minecraft:grass_block"
 			icon_scale: 2.0d
 			id: "075D368E91231337"
@@ -444,7 +448,9 @@
 		}
 		{
 			dependencies: ["4A96F99E9B466799"]
-			description: [ "&f- Idade da Pedra" ]
+			description: [
+				"&f- Idade da Pedra"
+			]
 			icon: "minecraft:cobblestone"
 			id: "2DC6C5D7DDA578F7"
 			quest_enhance_disable_scroll_paging: false
@@ -472,10 +478,10 @@
 		{
 			dependencies: ["2205BD26091810A7"]
 			description: [
-		"&b- Painéis solares poderiam funcionar em um mundo superplano"
-		""
-		"&f- O coletor mundial fragmentado vem com um espaço de saída fluido de &b&l32B &f. A máquina não funcionará quando a saída de fluido único exceder este valor."
-	]
+				"&b- Painéis solares poderiam funcionar em um mundo superplano"
+				""
+				"&f- O coletor mundial fragmentado vem com um espaço de saída fluido de &b&l32B &f. A máquina não funcionará quando a saída de fluido único exceder este valor."
+			]
 			icon: "minecraft:diamond_ore"
 			id: "4A96F99E9B466799"
 			optional: true
@@ -546,7 +552,9 @@
 		}
 		{
 			dependencies: ["4A96F99E9B466799"]
-			description: [ "&f- Materiais com estrutura multibloco podem ser colocados na mochila e não devem ser colocados no slot de acessórios. Eles serão recuperados automaticamente durante a moldagem usando o terminal." ]
+			description: [
+				"&f- Materiais com estrutura multibloco podem ser colocados na mochila e não devem ser colocados no slot de acessórios. Eles serão recuperados automaticamente durante a moldagem usando o terminal."
+			]
 			icon: {
 				Count: 1
 				id: "sophisticatedbackpacks:backpack"
@@ -661,10 +669,10 @@
 		{
 			dependencies: ["2205BD26091810A7"]
 			description: [
-		"&f- Cada vez que você restaurar &91 coração de saúde &f, você receberá automaticamente 1 lingote de aço, que é a cristalização de sua vontade."
-		""
-		"&f– Diz-se que quando você restaura um certo número de corações, algo mágico acontecerá."
-	]
+				"&f- Cada vez que você restaurar &91 coração de saúde &f, você receberá automaticamente 1 lingote de aço, que é a cristalização de sua vontade."
+				""
+				"&f– Diz-se que quando você restaura um certo número de corações, algo mágico acontecerá."
+			]
 			icon: "gtceu:steel_ingot"
 			id: "517AFE9DCCC8D18B"
 			quest_enhance_disable_scroll_paging: false
@@ -679,13 +687,13 @@
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
 			description: [
-		"Na versão aprimorada, a velocidade de fundição foi modificada magicamente e todos os itens queimam instantaneamente."
-		""
-		"&6&l» Curinga de etiqueta mineral"
-		"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:ores \"},\"text\":\"Clique para copiar o curinga de minério bruto\"}"
-		""
-		"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:raw_materials \"},\"text\":\"Clique para copiar o curinga de minério grosso\"}"
-	]
+				"Na versão aprimorada, a velocidade de fundição foi modificada magicamente e todos os itens queimam instantaneamente."
+				""
+				"&6&l» Curinga de etiqueta mineral"
+				"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:ores \"},\"text\":\"Clique para copiar o curinga de minério bruto\"}"
+				""
+				"{\"underlined\":true,\"color\":\"aqua\",\"clickEvent\":{\"action\":\"copy_to_clipboard\",\"value\":\" forge:raw_materials \"},\"text\":\"Clique para copiar o curinga de minério grosso\"}"
+			]
 			id: "44729EFC60A3D662"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -728,15 +736,15 @@
 		{
 			dependencies: ["2205BD26091810A7"]
 			description: [
-		"&6&l» Teleporte Mundial"
-		"&f- Clique com o botão direito em &8Obsidian &fpara ir para &7Void World &f, clique com o botão direito em &5Crying Obsidian &fpara ir para &7Super Flat World &f."
-		"&f- As coordenadas &6X, Z &fdo local teletransportado são &610 vezes &fdas principais coordenadas do mundo."
-		"&c- Nota: Podem ocorrer anormalidades nas coordenadas se a distância for muito distante da origem e é recomendável evitar isso."
-		""
-		"&6&l» Características mundiais"
-		"&f- O mundo vazio e o mundo superplano estão bloqueados no tempo e as criaturas não serão renovadas, nem choverá."
-		"&f- Mas ainda é afetado pelo clima no mundo principal: quando chove no mundo principal, os dois mundos ficam nublados."
-	]
+				"&6&l» Teleporte Mundial"
+				"&f- Clique com o botão direito em &8Obsidian &fpara ir para &7Void World &f, clique com o botão direito em &5Crying Obsidian &fpara ir para &7Super Flat World &f."
+				"&f- As coordenadas &6X, Z &fdo local teletransportado são &610 vezes &fdas principais coordenadas do mundo."
+				"&c- Nota: Podem ocorrer anormalidades nas coordenadas se a distância for muito distante da origem e é recomendável evitar isso."
+				""
+				"&6&l» Características mundiais"
+				"&f- O mundo vazio e o mundo superplano estão bloqueados no tempo e as criaturas não serão renovadas, nem choverá."
+				"&f- Mas ainda é afetado pelo clima no mundo principal: quando chove no mundo principal, os dois mundos ficam nublados."
+			]
 			icon: "minecraft:obsidian"
 			id: "07AC1B02299EF734"
 			optional: true
@@ -991,22 +999,22 @@
 		{
 			dependencies: ["62EC7CE2D95D7E45"]
 			description: [
-		"&6&l» Ferramenta de expansão de ilha"
-		"&f- Pode identificar e preencher automaticamente blocos de &a1×1 &fou &a3×3 &f. É um ajudante muito útil para a expansão da ilha."
-		""
-		"&6&l» Como operar"
-		"&f- Use o bastão &e&fou a chave &e&fpara ajustar o padrão."
-		"&f– Segure o controlador próximo ao bloco da plataforma para exibir a visualização expandida."
-		"&f– Clique com o botão direito no bloco da plataforma em pé para alternar os tipos de plataforma."
-		"&f– Clique com o botão direito no bloco da plataforma enquanto se esgueira para alternar entre preenchê-lo ou não."
-		"&f– Clique com o botão direito no bloco da plataforma com qualquer pedra em mãos para expandir a plataforma de acordo com as configurações atuais."
-		""
-		"&4&l» Aviso importante"
-		"&c- Antes de desdobrar a plataforma, certifique-se de confirmar a direção de enchimento!"
-		"&c- Quando preenchido, destrói e substitui diretamente todos os blocos naquela direção."
-		"&c- Recomenda-se clicar com o botão direito do mouse com uma chave inglesa ou uma vara de madeira para mudar o modo para:"
-		"&a- “Os blocos acima da plataforma permanecerão” &cpor questões de segurança."
-	]
+				"&6&l» Ferramenta de expansão de ilha"
+				"&f- Pode identificar e preencher automaticamente blocos de &a1×1 &fou &a3×3 &f. É um ajudante muito útil para a expansão da ilha."
+				""
+				"&6&l» Como operar"
+				"&f- Use o bastão &e&fou a chave &e&fpara ajustar o padrão."
+				"&f– Segure o controlador próximo ao bloco da plataforma para exibir a visualização expandida."
+				"&f– Clique com o botão direito no bloco da plataforma em pé para alternar os tipos de plataforma."
+				"&f– Clique com o botão direito no bloco da plataforma enquanto se esgueira para alternar entre preenchê-lo ou não."
+				"&f– Clique com o botão direito no bloco da plataforma com qualquer pedra em mãos para expandir a plataforma de acordo com as configurações atuais."
+				""
+				"&4&l» Aviso importante"
+				"&c- Antes de desdobrar a plataforma, certifique-se de confirmar a direção de enchimento!"
+				"&c- Quando preenchido, destrói e substitui diretamente todos os blocos naquela direção."
+				"&c- Recomenda-se clicar com o botão direito do mouse com uma chave inglesa ou uma vara de madeira para mudar o modo para:"
+				"&a- “Os blocos acima da plataforma permanecerão” &cpor questões de segurança."
+			]
 			icon: "industrial_platform:industrial_platform"
 			id: "3EED8F13FFEC140F"
 			quest_enhance_disable_scroll_paging: false
@@ -1039,9 +1047,9 @@
 			dependencies: ["2C6F506ADD78F277"]
 			dependency_requirement: "one_started"
 			description: [
-		"&9Queime o ferro com seu olhar de fogo &fpara obter um lingote de ferro forjado"
-		"&f- Sua principal fonte de lingotes de ferro forjado será o forno elétrico a arco &6"
-	]
+				"&9Queime o ferro com seu olhar de fogo &fpara obter um lingote de ferro forjado"
+				"&f- Sua principal fonte de lingotes de ferro forjado será o forno elétrico a arco &6"
+			]
 			disable_toast: true
 			icon: "gtceu:wrought_iron_ingot"
 			id: "71A79CC3C94E4126"
@@ -1069,7 +1077,9 @@
 		}
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
-			description: [ "&f- Entrando na Idade do Ferro" ]
+			description: [
+				"&f- Entrando na Idade do Ferro"
+			]
 			id: "2C6F506ADD78F277"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1101,12 +1111,12 @@
 		{
 			dependencies: ["2C6F506ADD78F277"]
 			description: [
-		"&6&l» Ferramentas vulneráveis"
-		"&f- Graças aos frágeis componentes da ferramenta G Suroden, ele pode ser usado diretamente ao escrever modelos sem a necessidade de preparar ferramentas convencionais."
-		""
-		"&e- &l※ Características"
-		"&e- Ferramentas frágeis podem ser consideradas conjuntos de ferramentas com apenas 1 ponto de durabilidade e serão automaticamente destruídas após a síntese."
-	]
+				"&6&l» Ferramentas vulneráveis"
+				"&f- Graças aos frágeis componentes da ferramenta G Suroden, ele pode ser usado diretamente ao escrever modelos sem a necessidade de preparar ferramentas convencionais."
+				""
+				"&e- &l※ Características"
+				"&e- Ferramentas frágeis podem ser consideradas conjuntos de ferramentas com apenas 1 ponto de durabilidade e serão automaticamente destruídas após a síntese."
+			]
 			icon: {
 				Count: 1
 				id: "gtceu:iron_hammer"
@@ -1266,7 +1276,9 @@
 		{
 			dependencies: ["6A7BE998C2EC882D"]
 			dependency_requirement: "all_started"
-			description: [ "&f- Triturar até virar pó usando um almofariz e misturar com as mãos desprotegidas" ]
+			description: [
+				"&f- Triturar até virar pó usando um almofariz e misturar com as mãos desprotegidas"
+			]
 			id: "133BC85B5D3EF1CB"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1292,25 +1304,25 @@
 		}
 		{
 			dependencies: ["6A7BE998C2EC882D"]
-			description: "[
-				\"&f- Terminal portátil &6 clique com o botão direito &f host multibloco: &a cria automaticamente a estrutura &f.\"
-				\"&f-&dClique com o botão direito com as mãos nuas&fHost multibloco: &aMostrar visualização&f.\"
-				\"&f- O terminal pode reconhecer os &f blocos na mochila requintada &b (a mochila não pode ser colocada no slot de acessórios).\"
-				\"\"
-				\"&6&l» Sugestões de construção\"
-				\"&c- Existem alguns problemas com a construção automática. Recomenda-se colocar primeiro apenas os blocos estruturais na mochila e, em seguida, colocar automaticamente o armazém funcional após a construção automática do corpo principal.\"
-				\"&f- &b O modo sem armazém &f é muito útil, mas você precisa clicar com o botão direito para abrir a GUI toda vez que entrar no arquivo antes que ele entre em vigor.\"
-				\"\"
-				\"&6&l» Estrutura repetitiva\"
-				\"&f-Defina &e o número de estruturas repetidas &f, adequado para estruturas multibloco que podem ser empilhadas em múltiplas camadas, como torres de destilação. Quanto maior o valor, mais longa será a estrutura.\"
-				\"\"
-				\"&6&l» Extensão de terminal avançada\"
-				\"&f - Suporta &b substituição de &f bobinas, módulos de potência de elevador espacial, invólucros de linha de montagem de componentes e vasos térmicos estelares (clique no texto \"quadrado de nível\" para abrir a interface de seleção).\"
-				\"&f-Suporta &b posicionamento de espelho &f de estruturas multibloco. Neste momento, o modo livre de armazém continua em vigor.\"
-				\"\"
-				\"&6&l» Dicas Práticas\"
-				\"&f- &6Shift+clique com o botão direito&f tem acesso ilimitado aos nós, que podem extrair diretamente itens e fluidos da rede AE durante a construção. É especialmente útil para estruturas multibloco que requerem água.\"
-			]"
+			description: [
+				"\"&f- Terminal portátil &6 clique com o botão direito &f host multibloco: &a cria automaticamente a estrutura &f.\""
+				"\"&f-&dClique com o botão direito com as mãos nuas&fHost multibloco: &aMostrar visualização&f.\""
+				"\"&f- O terminal pode reconhecer os &f blocos na mochila requintada &b (a mochila não pode ser colocada no slot de acessórios).\""
+				""
+				"\"&6&l» Sugestões de construção\""
+				"\"&c- Existem alguns problemas com a construção automática. Recomenda-se colocar primeiro apenas os blocos estruturais na mochila e, em seguida, colocar automaticamente o armazém funcional após a construção automática do corpo principal.\""
+				"\"&f- &b O modo sem armazém &f é muito útil, mas você precisa clicar com o botão direito para abrir a GUI toda vez que entrar no arquivo antes que ele entre em vigor.\""
+				""
+				"\"&6&l» Estrutura repetitiva\""
+				"\"&f-Defina &e o número de estruturas repetidas &f, adequado para estruturas multibloco que podem ser empilhadas em múltiplas camadas, como torres de destilação. Quanto maior o valor, mais longa será a estrutura.\""
+				""
+				"\"&6&l» Extensão de terminal avançada\""
+				"\"&f - Suporta &b substituição de &f bobinas, módulos de potência de elevador espacial, invólucros de linha de montagem de componentes e vasos térmicos estelares (clique no texto \"quadrado de nível\" para abrir a interface de seleção).\""
+				"\"&f-Suporta &b posicionamento de espelho &f de estruturas multibloco. Neste momento, o modo livre de armazém continua em vigor.\""
+				""
+				"\"&6&l» Dicas Práticas\""
+				"\"&f- &6Shift+clique com o botão direito&f tem acesso ilimitado aos nós, que podem extrair diretamente itens e fluidos da rede AE durante a construção. É especialmente útil para estruturas multibloco que requerem água.\""
+			]
 			icon: {
 				Count: 1
 				id: "gtlcore:ultimate_terminal"
@@ -1366,7 +1378,9 @@
 		}
 		{
 			dependencies: ["133BC85B5D3EF1CB"]
-			description: [ "&f- Principais Materiais da Era do Vapor" ]
+			description: [
+				"&f- Principais Materiais da Era do Vapor"
+			]
 			id: "4B6F43302E963F5E"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -1391,7 +1405,9 @@
 		}
 		{
 			dependencies: ["4B6F43302E963F5E"]
-			description: [ "Conecte este item à sua rede ME. Os itens e fluidos em AE completarão automaticamente sua tarefa atual. Não há necessidade de retirá-lo e enviá-lo manualmente." ]
+			description: [
+				"Conecte este item à sua rede ME. Os itens e fluidos em AE completarão automaticamente sua tarefa atual. Não há necessidade de retirá-lo e enviá-lo manualmente."
+			]
 			icon: "ae2:controller"
 			id: "3F38A56BBD3D0F9E"
 			quest_enhance_disable_scroll_paging: false
@@ -1411,7 +1427,9 @@
 		}
 		{
 			dependencies: ["4B6F43302E963F5E"]
-			description: [ "&f– Com o bronze, você pode começar a fabricar várias máquinas movidas a vapor" ]
+			description: [
+				"&f– Com o bronze, você pode começar a fabricar várias máquinas movidas a vapor"
+			]
 			icon: "gtceu:lp_steam_alloy_smelter"
 			id: "46F82A0A3D57C225"
 			quest_enhance_disable_scroll_paging: false
@@ -1432,13 +1450,13 @@
 		}
 		{
 			description: [
-		"&6&l» Conquistas ocultas"
-		"&f– Este pacote contém várias conquistas ocultas."
-		"&f– Este pode ser o primeiro que você encontrará."
-		""
-		"&e- &l※ Continue com o bom trabalho"
-		"&e- Continue explorando, pode haver mais surpresas esperando para serem descobertas."
-	]
+				"&6&l» Conquistas ocultas"
+				"&f– Este pacote contém várias conquistas ocultas."
+				"&f– Este pode ser o primeiro que você encontrará."
+				""
+				"&e- &l※ Continue com o bom trabalho"
+				"&e- Continue explorando, pode haver mais surpresas esperando para serem descobertas."
+			]
 			hide_until_deps_complete: true
 			icon: "gtceu:steam_bucket"
 			id: "113FC98BF64872F0"
@@ -1465,16 +1483,16 @@
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
 			description: [
-		"&6&l» Acesso sem fio"
-		"&f- &6Clique com o botão direito &fO ponto de acesso sem fio pode ser vinculado à rede ME (você também pode colocá-lo diretamente na interface do ponto de acesso). Após a ligação, você pode chamar itens diretamente na rede."
-		""
-		"&4&l» Ferramenta de corte"
-		"&c- Ao utilizar a ferramenta de cisalhamento, tente não girar, caso contrário alguns dados NBT do bloco poderão ser perdidos."
-		""
-		"&6&l» Compartimentos Sem Fio"
-		"&f- O armazém de energia sem fio, o armazém de energia sem fio e o armazém de laser sem fio colocados ou copiados usando as ferramentas acima precisam ser vinculados manualmente à rede sem fio clicando com o botão direito na memória flash &d&f."
-		"&c- Se não estiver vinculado, o armazém não conseguirá interagir com a rede sem fio, resultando em falta de energia ou saída."
-	]
+				"&6&l» Acesso sem fio"
+				"&f- &6Clique com o botão direito &fO ponto de acesso sem fio pode ser vinculado à rede ME (você também pode colocá-lo diretamente na interface do ponto de acesso). Após a ligação, você pode chamar itens diretamente na rede."
+				""
+				"&4&l» Ferramenta de corte"
+				"&c- Ao utilizar a ferramenta de cisalhamento, tente não girar, caso contrário alguns dados NBT do bloco poderão ser perdidos."
+				""
+				"&6&l» Compartimentos Sem Fio"
+				"&f- O armazém de energia sem fio, o armazém de energia sem fio e o armazém de laser sem fio colocados ou copiados usando as ferramentas acima precisam ser vinculados manualmente à rede sem fio clicando com o botão direito na memória flash &d&f."
+				"&c- Se não estiver vinculado, o armazém não conseguirá interagir com a rede sem fio, resultando em falta de energia ou saída."
+			]
 			hide_dependency_lines: true
 			icon: "buildinggadgets2:gadget_building"
 			id: "4B7B7EA38B836F96"
@@ -1550,11 +1568,11 @@
 		{
 			dependencies: ["4A96F99E9B466799"]
 			description: [
-		"&6&l» Gabinete FTB e carga forte"
-		"&f- Ao selecionar um bloco, um novo modo de seleção retangular &a&fagora é adicionado no canto superior direito."
-		"&f- O padrão é o modo &ade seleção retangular &f, clique no ícone para alternar"
-		"&f- Você pode arrastar o mouse diretamente para selecionar um grande número de blocos em lotes, &asem clicar em &fum por um."
-	]
+				"&6&l» Gabinete FTB e carga forte"
+				"&f- Ao selecionar um bloco, um novo modo de seleção retangular &a&fagora é adicionado no canto superior direito."
+				"&f- O padrão é o modo &ade seleção retangular &f, clique no ícone para alternar"
+				"&f- Você pode arrastar o mouse diretamente para selecionar um grande número de blocos em lotes, &asem clicar em &fum por um."
+			]
 			icon: "ftbquests:screen_1"
 			id: "4A12CB790A0E56F3"
 			quest_enhance_disable_scroll_paging: false
@@ -1569,9 +1587,9 @@
 		{
 			dependencies: ["71A79CC3C94E4126"]
 			description: [
-		"Não clique nesta missão. Esta missão é apenas para evitar que você ative a conquista “Os olhos são como uma tocha” no futuro."
-		"Se você acha desnecessário e deseja concluir todas as missões, pode clicar nesta missão."
-	]
+				"Não clique nesta missão. Esta missão é apenas para evitar que você ative a conquista “Os olhos são como uma tocha” no futuro."
+				"Se você acha desnecessário e deseja concluir todas as missões, pode clicar nesta missão."
+			]
 			id: "7EC485E306E518CA"
 			quest_enhance_disable_scroll_paging: false
 			tasks: [
@@ -1591,11 +1609,11 @@
 		{
 			dependencies: ["096E10631D12B7D4"]
 			description: [
-		"Você pode personalizar completamente seu mundo"
-		"Este mundo é superplano. O tipo de mundo é Overworld"
-		"Este mundo é um mundo independente, não compartilhado com outros jogadores"
-		"&bEm servidores, as funções personalizadas ficam desativadas"
-	]
+				"Você pode personalizar completamente seu mundo"
+				"Este mundo é superplano. O tipo de mundo é Overworld"
+				"Este mundo é um mundo independente, não compartilhado com outros jogadores"
+				"&bEm servidores, as funções personalizadas ficam desativadas"
+			]
 			icon: "gtl_enhancedcore:plot_world_controller"
 			id: "2205BD26091810A7"
 			quest_enhance_disable_scroll_paging: false
@@ -1630,6 +1648,8 @@
 			y: 2.0d
 		}
 	]
-	subtitle: [ "Nível 0-Idade da Pedra" ]
+	subtitle: [
+				"Nível 0-Idade da Pedra"
+			]
 	title: "comece daqui"
 }

@@ -3,8 +3,8 @@
   "id": "4B5A7F0760EDDB2A",
   "title": "Pressão integrada CIV",
   "subtitle": [
-    "Tier29-CIV"
-  ],
+        "Tier29-CIV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 30,
   "icon": "hk3gtl:voltage_machine_casing_civ",
@@ -14,10 +14,10 @@
       "id": "4B5DC75B96526111",
       "title": "Continuação do workshop WSV",
       "subtitle": "WSV → CIV",
-      "description": "[
-        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos CIV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos CIV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B586D17875499F0"
       ],
@@ -39,9 +39,9 @@
       "id": "4B58A59D17904637",
       "title": "Backplane de interoperabilidade de quatro sistemas",
       "subtitle": "Reserve portas independentes para quatro sistemas",
-      "description": "[
-        \"Integre a interface front-end e o sistema Civilization IV em um backplane interconectado. Os quatro sistemas são conectados por meio de suas respectivas portas, e os circuitos subsequentes e componentes de execução são colocados em todo o backplane.\"
-      ]",
+      "description": [
+        "\"Integre a interface front-end e o sistema Civilization IV em um backplane interconectado. Os quatro sistemas são conectados por meio de suas respectivas portas, e os circuitos subsequentes e componentes de execução são colocados em todo o backplane.\""
+      ],
       "dependencies": [
         "4B5DCD37A1A4F6E4",
         "4B52C7B2C8A73F92",
@@ -65,9 +65,9 @@
       "id": "4B5191B649C767F6",
       "title": "Coordenador Estadual do Sistema Quad",
       "subtitle": "Alinhe os sinais de status e confirmação de cada sistema",
-      "description": "[
-        “A computação local, o armazenamento e o relógio são instalados em um coordenador estadual, que é responsável pelo alinhamento e confirmação do estado entre os quatro sistemas. Durante a montagem final, será investido um host responsável pelo cálculo da obra.”
-      ]",
+      "description": [
+        "A computação local, o armazenamento e o relógio são instalados em um coordenador estadual, que é responsável pelo alinhamento e confirmação do estado entre os quatro sistemas. Durante a montagem final, será investido um host responsável pelo cálculo da obra."
+      ],
       "dependencies": [
         "4B58A59D17904637",
         "4B54D6847FD5957F",
@@ -91,9 +91,9 @@
       "id": "4B5CCF2A903FF555",
       "title": "Núcleo de operação de intertravamento de domínio",
       "subtitle": "Conclua primeiro o intertravamento entre domínios e, em seguida, execute operações mecânicas",
-      "description": "[
-        \"Um mecanismo de intertravamento dividido é montado no suporte de nível frontal para conectar as condições operacionais dos quatro sistemas ao mesmo núcleo de execução. O produto acabado é então carregado nos componentes de movimento e transporte deste nível.\"
-      ]",
+      "description": [
+        "\"Um mecanismo de intertravamento dividido é montado no suporte de nível frontal para conectar as condições operacionais dos quatro sistemas ao mesmo núcleo de execução. O produto acabado é então carregado nos componentes de movimento e transporte deste nível.\""
+      ],
       "dependencies": [
         "4B5191B649C767F6",
         "4B510892DE6F743E",
@@ -117,9 +117,9 @@
       "id": "4B52162F5A7D0B45",
       "title": "Hub de troca de calor de quatro sistemas",
       "subtitle": "Levar a quatro circuitos de troca de calor, respectivamente",
-      "description": "[
-        \"Monte quatro interfaces independentes de troca de calor em um hub de troca de calor, mantendo os circuitos de alimentação de cada sistema. O refrigerante quente gerado pelo conjunto hermético é descarregado separadamente.\"
-      ]",
+      "description": [
+        "\"Monte quatro interfaces independentes de troca de calor em um hub de troca de calor, mantendo os circuitos de alimentação de cada sistema. O refrigerante quente gerado pelo conjunto hermético é descarregado separadamente.\""
+      ],
       "dependencies": [
         "4B54D6847FD5957F",
         "4B5DCD37A1A4F6E4",
@@ -143,9 +143,9 @@
       "id": "4B59451C718B1F9B",
       "title": "Host do processador de sequência final",
       "subtitle": "Conecte toda a máquina de cálculo às quatro interfaces do sistema",
-      "description": "[
-        \"Insira dois supercomputadores de cálculo de sequência final em uma estrutura de integração de quatro sistemas, conecte-se ao backplane interoperável, coordenador de status, hub de troca a quente e armazenamento compartilhado para completar o host.\"
-      ]",
+      "description": [
+        "\"Insira dois supercomputadores de cálculo de sequência final em uma estrutura de integração de quatro sistemas, conecte-se ao backplane interoperável, coordenador de status, hub de troca a quente e armazenamento compartilhado para completar o host.\""
+      ],
       "dependencies": [
         "4B5191B649C767F6",
         "4B52162F5A7D0B45",
@@ -170,9 +170,9 @@
       "id": "4B5A1B643F27B96F",
       "title": "Supercomputador de Sustentabilidade da Civilização",
       "subtitle": "Deixe quatro sistemas compartilharem o mesmo conjunto de cálculos de trabalho",
-      "description": "[
-        “Usando dois conjuntos de processadores Civilization Persistent para completar a montagem do supercomputador. O backplane de interconexão de quatro sistemas é responsável pela conexão, o coordenador de status verifica o status e os hubs de troca de calor conectam os circuitos de troca de calor, respectivamente.”
-      ]",
+      "description": [
+        "Usando dois conjuntos de processadores Civilization Persistent para completar a montagem do supercomputador. O backplane de interconexão de quatro sistemas é responsável pela conexão, o coordenador de status verifica o status e os hubs de troca de calor conectam os circuitos de troca de calor, respectivamente."
+      ],
       "dependencies": [
         "4B5191B649C767F6",
         "4B52162F5A7D0B45",
@@ -196,9 +196,9 @@
       "id": "4B55115F4A7426F9",
       "title": "Motor elétrico CIV",
       "subtitle": "Combine o driver antigo com o componente de execução atual",
-      "description": "[
-        \"Com base em dois motores elétricos WSV, um núcleo de operação de intertravamento de domínio, um coordenador de status de quatro sistemas e um hub de troca de calor de quatro sistemas são adicionados e, em seguida, conectados ao circuito de processamento de mesmo nível para formar um motor elétrico CIV.\"
-      ]",
+      "description": [
+        "\"Com base em dois motores elétricos WSV, um núcleo de operação de intertravamento de domínio, um coordenador de status de quatro sistemas e um hub de troca de calor de quatro sistemas são adicionados e, em seguida, conectados ao circuito de processamento de mesmo nível para formar um motor elétrico CIV.\""
+      ],
       "dependencies": [
         "4B5CCF2A903FF555",
         "4B5A1B643F27B96F",
@@ -222,9 +222,9 @@
       "id": "4B5D45371582EB09",
       "title": "Pistão elétrico CIV",
       "subtitle": "Primeiro tenha o motor deste nível e depois monte o atuador linear",
-      "description": "[
-        “O motor deste nível é montado com dois pistões elétricos WSV e conectado ao núcleo de operação de intertravamento regional e ao cubo de troca de calor de quatro sistemas para completar o pistão deste nível.”
-      ]",
+      "description": [
+        "O motor deste nível é montado com dois pistões elétricos WSV e conectado ao núcleo de operação de intertravamento regional e ao cubo de troca de calor de quatro sistemas para completar o pistão deste nível."
+      ],
       "dependencies": [
         "4B55115F4A7426F9",
         "4B55FCCCC9EE2F63"
@@ -247,9 +247,9 @@
       "id": "4B5681A8C14DB9E0",
       "title": "Bomba elétrica CIV",
       "subtitle": "Montando a unidade, o loop de mídia e os componentes de status juntos",
-      "description": "[
-        \"Com base em duas bombas elétricas WSV, o motor do mesmo nível, o hub de troca de calor de quatro sistemas, o núcleo de operação de intertravamento de domínio e o coordenador de status de quatro sistemas são instalados para completar este nível de bomba.\"
-      ]",
+      "description": [
+        "\"Com base em duas bombas elétricas WSV, o motor do mesmo nível, o hub de troca de calor de quatro sistemas, o núcleo de operação de intertravamento de domínio e o coordenador de status de quatro sistemas são instalados para completar este nível de bomba.\""
+      ],
       "dependencies": [
         "4B55115F4A7426F9",
         "4B5A9C26C12082CA"
@@ -272,9 +272,9 @@
       "id": "4B5686CEF885ED13",
       "title": "Módulo transportador CIV",
       "subtitle": "Conecte o driver do transportador à interface de despacho deste nível",
-      "description": "[
-        “Monte dois módulos de correia transportadora WSV e dois motores deste nível, conecte o backplane de interconexão de quatro sistemas, o coordenador de status de quatro sistemas e o componente de execução para fazer um novo módulo transportador.”
-      ]",
+      "description": [
+        "Monte dois módulos de correia transportadora WSV e dois motores deste nível, conecte o backplane de interconexão de quatro sistemas, o coordenador de status de quatro sistemas e o componente de execução para fazer um novo módulo transportador."
+      ],
       "dependencies": [
         "4B55115F4A7426F9",
         "4B5564A4DB90FCDB"
@@ -297,9 +297,9 @@
       "id": "4B5AA2239404F68C",
       "title": "Braço robótico CIV",
       "subtitle": "Instale o acionamento rotativo e o atuador linear na mesma estrutura",
-      "description": "[
-        “Prepare dois motores deste nível e um pistão deste nível, monte-os juntos com dois braços manipuladores WSV e, em seguida, conecte o backplane de interconexão de quatro sistemas e o coordenador de status de quatro sistemas.”
-      ]",
+      "description": [
+        "Prepare dois motores deste nível e um pistão deste nível, monte-os juntos com dois braços manipuladores WSV e, em seguida, conecte o backplane de interconexão de quatro sistemas e o coordenador de status de quatro sistemas."
+      ],
       "dependencies": [
         "4B5D45371582EB09",
         "4B5FC954E717BFB4"
@@ -322,9 +322,9 @@
       "id": "4B5EBFF8A38C06F2",
       "title": "Sensor CIV",
       "subtitle": "Receba leituras de status através desta interface de nível",
-      "description": "[
-        “Monte os dois sensores WSV com o backplane de interconexão de quatro sistemas, o coordenador de status de quatro sistemas e o hub de troca de calor de quatro sistemas e conecte os circuitos e peças estruturais neste nível para fazer um novo sensor.”
-      ]",
+      "description": [
+        "Monte os dois sensores WSV com o backplane de interconexão de quatro sistemas, o coordenador de status de quatro sistemas e o hub de troca de calor de quatro sistemas e conecte os circuitos e peças estruturais neste nível para fazer um novo sensor."
+      ],
       "dependencies": [
         "4B5A1B643F27B96F",
         "4B59AE764DF3481F"
@@ -347,9 +347,9 @@
       "id": "4B502D8896D1E3DC",
       "title": "Transmissor CIV",
       "subtitle": "Conecte o componente de transmissão a este nível de controle e loop",
-      "description": "[
-        \"Com base nos dois transmissores WSV, um backplane de interconexão de quatro sistemas, um coordenador de status de quatro sistemas, um hub de troca de calor de quatro sistemas e um laser de pulso ultracurto são adicionados para completar o novo transmissor.\"
-      ]",
+      "description": [
+        "\"Com base nos dois transmissores WSV, um backplane de interconexão de quatro sistemas, um coordenador de status de quatro sistemas, um hub de troca de calor de quatro sistemas e um laser de pulso ultracurto são adicionados para completar o novo transmissor.\""
+      ],
       "dependencies": [
         "4B5A1B643F27B96F",
         "4B558B1BB8FB35FA"
@@ -372,9 +372,9 @@
       "id": "4B56BA011C237249",
       "title": "Gerador de campo de força CIV",
       "subtitle": "Integre componentes de lançamento e medição em controles de campo",
-      "description": "[
-        “Primeiro prepare quatro peças deste nível de transmissores e duas peças deste nível de sensores e, em seguida, monte-as juntas com duas peças de geradores de campo de força WSV, este nível de circuitos e componentes de interface.”
-      ]",
+      "description": [
+        "Primeiro prepare quatro peças deste nível de transmissores e duas peças deste nível de sensores e, em seguida, monte-as juntas com duas peças de geradores de campo de força WSV, este nível de circuitos e componentes de interface."
+      ],
       "dependencies": [
         "4B5EBFF8A38C06F2",
         "4B502D8896D1E3DC",
@@ -398,9 +398,9 @@
       "id": "4B5A255D80872580",
       "title": "Backplane de isolamento de sistema quádruplo",
       "subtitle": "Deixe as funções de quatro vias serem conectadas às portas de saída, respectivamente",
-      "description": "[
-        \"Use material de casca de restrição de limite estável para fazer um backplane de isolamento, estabelecer interconexões e vedação de borda isolante. Os quatro ramos de orientação de energia, restrição, reconstrução e cognição usam este backplane, respectivamente.\"
-      ]",
+      "description": [
+        "\"Use material de casca de restrição de limite estável para fazer um backplane de isolamento, estabelecer interconexões e vedação de borda isolante. Os quatro ramos de orientação de energia, restrição, reconstrução e cognição usam este backplane, respectivamente.\""
+      ],
       "dependencies": [
         "4B5D42853DBE1968",
         "4B5BBBF746435F75"
@@ -423,9 +423,9 @@
       "id": "4B5E9B11E6FC3F4A",
       "title": "Agente de acoplamento de interface de quatro sistemas",
       "subtitle": "Preparar meio de ligação comum para módulos de quatro vias",
-      "description": "[
-        \"Use fonte de ajuste de ouro, energia de colapso de líquido estável e líquido transportador fresco para preparar o agente de acoplamento de interface e distribuí-lo para as estações de fabricação dos quatro módulos.\"
-      ]",
+      "description": [
+        "\"Use fonte de ajuste de ouro, energia de colapso de líquido estável e líquido transportador fresco para preparar o agente de acoplamento de interface e distribuí-lo para as estações de fabricação dos quatro módulos.\""
+      ],
       "dependencies": [
         "4B5D42853DBE1968"
       ],
@@ -448,9 +448,9 @@
       "id": "4B59702C72F8EA6A",
       "title": "Módulo de sistema de direcionamento de energia independente",
       "subtitle": "Conecte materiais condutores de energia a canais independentes",
-      "description": "[
-        \"Usando o material do invólucro de restrição de limite estável como corpo principal, as linhas finas da banda de condução de energia de acoplamento imaginário e a banda de acoplamento de gradiente de impedância são conectadas ao backplane de isolamento para formar um módulo de sistema de condução de energia independente.\"
-      ]",
+      "description": [
+        "\"Usando o material do invólucro de restrição de limite estável como corpo principal, as linhas finas da banda de condução de energia de acoplamento imaginário e a banda de acoplamento de gradiente de impedância são conectadas ao backplane de isolamento para formar um módulo de sistema de condução de energia independente.\""
+      ],
       "dependencies": [
         "4B5A255D80872580",
         "4B5E9B11E6FC3F4A"
@@ -473,9 +473,9 @@
       "id": "4B5C31D41A029BA9",
       "title": "Módulo de sistema de restrição independente",
       "subtitle": "Selar o limite da âncora e a camada de isolamento juntos",
-      "description": "[
-        \"Instale o anel de suporte de carga de ancoragem, a camada intermediária anti-expansão e o material de interface em uma placa traseira independente para formar um módulo do sistema de retenção.\"
-      ]",
+      "description": [
+        "\"Instale o anel de suporte de carga de ancoragem, a camada intermediária anti-expansão e o material de interface em uma placa traseira independente para formar um módulo do sistema de retenção.\""
+      ],
       "dependencies": [
         "4B5A255D80872580",
         "4B5E9B11E6FC3F4A"
@@ -498,9 +498,9 @@
       "id": "4B5E8E45E6A73A2C",
       "title": "Módulo de reconstrução independente",
       "subtitle": "Carregar materiais de fornecimento reais no ramo de refatoração",
-      "description": "[
-        \"Insira a liga mestre reconstruída imaginária, o material suplementar do componente reconstruído e o revestimento anticorrosivo no corpo principal do invólucro de restrição de limite estável e, em seguida, complete o empacotamento da área suplementar.\"
-      ]",
+      "description": [
+        "\"Insira a liga mestre reconstruída imaginária, o material suplementar do componente reconstruído e o revestimento anticorrosivo no corpo principal do invólucro de restrição de limite estável e, em seguida, complete o empacotamento da área suplementar.\""
+      ],
       "dependencies": [
         "4B5A255D80872580",
         "4B5E9B11E6FC3F4A"
@@ -523,9 +523,9 @@
       "id": "4B54DDB801CC10C5",
       "title": "Módulo cognitivo independente",
       "subtitle": "Deixe o status da partição ser lido em linhas independentes",
-      "description": "[
-        \"O substrato de dados soul steel, o processador de ponte quântica, o componente de recuperação de relógio e a ponte de medição diferencial são usados para formar um circuito de leitura particionado e, em seguida, empacotados em um módulo de sistema cognitivo.\"
-      ]",
+      "description": [
+        "\"O substrato de dados soul steel, o processador de ponte quântica, o componente de recuperação de relógio e a ponte de medição diferencial são usados para formar um circuito de leitura particionado e, em seguida, empacotados em um módulo de sistema cognitivo.\""
+      ],
       "dependencies": [
         "4B5A255D80872580",
         "4B5E9B11E6FC3F4A"
@@ -548,9 +548,9 @@
       "id": "4B57F0E902E7596D",
       "title": "Branco co-solidificado de quatro séries",
       "subtitle": "Depois que os quatro módulos estiverem prontos, eles poderão ser combinados",
-      "description": "[
-        \"Os módulos de orientação energética, restrição, reconstrução e cognitivos fabricados independentemente são colocados no processo de co-solidificação. Os quatro módulos devem ser preparados fisicamente e cada interface é conduzida para fora do backplane de isolamento.\"
-      ]",
+      "description": [
+        "\"Os módulos de orientação energética, restrição, reconstrução e cognitivos fabricados independentemente são colocados no processo de co-solidificação. Os quatro módulos devem ser preparados fisicamente e cada interface é conduzida para fora do backplane de isolamento.\""
+      ],
       "dependencies": [
         "4B59702C72F8EA6A",
         "4B5C31D41A029BA9",
@@ -575,9 +575,9 @@
       "id": "4B581957530663C4",
       "title": "Civilização quatro sistemas integrados material base padrão em branco",
       "subtitle": "Encapsule as portas de quatro vias e conclua o dimensionamento",
-      "description": "[
-        \"O espaço em branco co-solidificado é encapsulado com interfaces elétricas, térmicas, de material e de leitura, e o comprimento é concluído após o resfriamento. O produto acabado continua a fornecer seis formas deste nível e subsequentes materiais de serviço contínuo.\"
-      ]",
+      "description": [
+        "\"O espaço em branco co-solidificado é encapsulado com interfaces elétricas, térmicas, de material e de leitura, e o comprimento é concluído após o resfriamento. O produto acabado continua a fornecer seis formas deste nível e subsequentes materiais de serviço contínuo.\""
+      ],
       "dependencies": [
         "4B57F0E902E7596D"
       ],
@@ -599,9 +599,9 @@
       "id": "4B56648313820E90",
       "title": "Painel do sistema de partição de quatro sistemas",
       "subtitle": "Quatro interfaces são conduzidas para fora da placa",
-      "description": "[
-        \"Conecte as quatro áreas de orientação de energia, restrição, reconstrução e cognição ao backplane, respectivamente, para formar uma placa de sistema de partição de quatro sistemas.\"
-      ]",
+      "description": [
+        "\"Conecte as quatro áreas de orientação de energia, restrição, reconstrução e cognição ao backplane, respectivamente, para formar uma placa de sistema de partição de quatro sistemas.\""
+      ],
       "dependencies": [
         "4B581957530663C4"
       ],
@@ -623,9 +623,9 @@
       "id": "4B5169DF2F36CDFE",
       "title": "Haste integrada de isolamento de quatro vias",
       "subtitle": "Deixe os quatro canais na haste terminarem respectivamente",
-      "description": "[
-        “Reserve quatro canais de isolamento na haste, complete a terminação e a embalagem respectivamente e faça uma haste integrada.”
-      ]",
+      "description": [
+        "Reserve quatro canais de isolamento na haste, complete a terminação e a embalagem respectivamente e faça uma haste integrada."
+      ],
       "dependencies": [
         "4B581957530663C4",
         "4B57C2F795B813DC"
@@ -648,9 +648,9 @@
       "id": "4B510892DE6F743E",
       "title": "Estrutura de porta independente de quatro séries",
       "subtitle": "Conecte as quatro interfaces de canto aos quatro sistemas respectivamente",
-      "description": "[
-        \"As interfaces independentes de cada sistema são instaladas nos quatro cantos do quadro e as conexões são completadas com matrizes passantes para criar um quadro de portas independentes de quatro séries.\"
-      ]",
+      "description": [
+        "\"As interfaces independentes de cada sistema são instaladas nos quatro cantos do quadro e as conexões são completadas com matrizes passantes para criar um quadro de portas independentes de quatro séries.\""
+      ],
       "dependencies": [
         "4B5169DF2F36CDFE",
         "4B508B22870E1F24"
@@ -673,9 +673,9 @@
       "id": "4B54D6847FD5957F",
       "title": "Loop de integração de interface de quatro quadrantes",
       "subtitle": "Cada quadrante reserva um conjunto de portas do sistema",
-      "description": "[
-        “Disponha as interfaces e camadas de isolamento de acordo com os quatro quadrantes e, em seguida, forme um anel para reter as portas de cada um dos quatro sistemas.”
-      ]",
+      "description": [
+        "Disponha as interfaces e camadas de isolamento de acordo com os quatro quadrantes e, em seguida, forme um anel para reter as portas de cada um dos quatro sistemas."
+      ],
       "dependencies": [
         "4B5169DF2F36CDFE",
         "4B56216F4E2D7726"
@@ -698,9 +698,9 @@
       "id": "4B5DCD37A1A4F6E4",
       "title": "Folha de isolamento de janela de quatro séries",
       "subtitle": "Retire os contatos das seções finas respectivamente",
-      "description": "[
-        \"O backplane é processado em seções finas e depois em janelas e laminado, e os quatro contatos em série são conectados respectivamente para formar uma folha de isolamento em janelas.\"
-      ]",
+      "description": [
+        "\"O backplane é processado em seções finas e depois em janelas e laminado, e os quatro contatos em série são conectados respectivamente para formar uma folha de isolamento em janelas.\""
+      ],
       "dependencies": [
         "4B56648313820E90",
         "4B50212A69B5E25E"
@@ -723,9 +723,9 @@
       "id": "4B52C7B2C8A73F92",
       "title": "Quatro linhas finas compostas independentes",
       "subtitle": "Dezesseis linhas finas são divididas em quatro caminhos",
-      "description": "[
-        “Divida os fios finos em quatro canais, cada um com quatro fios, e depois encapsule-os separadamente com finas camadas de isolamento e materiais de blindagem para reter as conexões independentes de cada sistema.”
-      ]",
+      "description": [
+        "Divida os fios finos em quatro canais, cada um com quatro fios, e depois encapsule-os separadamente com finas camadas de isolamento e materiais de blindagem para reter as conexões independentes de cada sistema."
+      ],
       "dependencies": [
         "4B5169DF2F36CDFE",
         "4B588F9018481E6F"
@@ -748,9 +748,9 @@
       "id": "4B5C0187E115F91B",
       "title": "Cubo mecânico CIV",
       "subtitle": "Instale quatro materiais do sistema no núcleo do pré-amplificador",
-      "description": "[
-        \"Com o cubo mecânico WSV como núcleo, a placa de integração de quatro sistemas, estrutura, anel e porta são instalados em um novo invólucro para completar o primeiro lote de cubos mecânicos CIV. A primeira condição de produção é WSV.\"
-      ]",
+      "description": [
+        "\"Com o cubo mecânico WSV como núcleo, a placa de integração de quatro sistemas, estrutura, anel e porta são instalados em um novo invólucro para completar o primeiro lote de cubos mecânicos CIV. A primeira condição de produção é WSV.\""
+      ],
       "dependencies": [
         "4B56648313820E90",
         "4B510892DE6F743E",
@@ -775,9 +775,9 @@
       "id": "4B59EBCC9EE3BC68",
       "title": "Desmontando o bloco mecânico CIV",
       "subtitle": "Deixando cascas reutilizáveis ​​e peças estruturais completas",
-      "description": "[
-        “Desmonte o bloco mecânico CIV em camadas e recupere o núcleo WSV e metade das placas, molduras e anéis completos. O corpo principal restante é dividido em resíduos classificados, e peças funcionais especiais e materiais de embalagem são consumidos junto com a desmontagem.
-      ]",
+      "description": [
+        "“Desmonte o bloco mecânico CIV em camadas e recupere o núcleo WSV e metade das placas, molduras e anéis completos. O corpo principal restante é dividido em resíduos classificados, e peças funcionais especiais e materiais de embalagem são consumidos junto com a desmontagem."
+      ],
       "dependencies": [
         "4B5C0187E115F91B"
       ],
@@ -803,9 +803,9 @@
       "id": "4B51CC05798CB04F",
       "title": "Os quatro sistemas da civilização integram a separação de resíduos de materiais básicos",
       "subtitle": "Coletar separadamente componentes reconstruíveis e rejeitos",
-      "description": "[
-        \"Use o solvente de processo Soul Steel para eluir os anexos dos resíduos classificados e, em seguida, realize a separação centrífuga. O corpo principal é separado em 75% de componentes reciclados e 25% de rejeitos não recicláveis, e o solvente residual é coletado separadamente.\"
-      ]",
+      "description": [
+        "\"Use o solvente de processo Soul Steel para eluir os anexos dos resíduos classificados e, em seguida, realize a separação centrífuga. O corpo principal é separado em 75% de componentes reciclados e 25% de rejeitos não recicláveis, e o solvente residual é coletado separadamente.\""
+      ],
       "dependencies": [
         "4B5D42853DBE1968"
       ],
@@ -831,9 +831,9 @@
       "id": "4B5E901714948949",
       "title": "Reconstrua quatro módulos de sistema independentes",
       "subtitle": "Renovar o corpo principal e reinvestir em excipientes funcionais",
-      "description": "[
-        \"Os componentes reciclados são combinados com o corpo principal fresco de acordo com a fórmula, e todos os excipientes funcionais são reinvestidos para produzir quatro módulos de sistema independentes. Em seguida, a fabricação continua a partir do processo intermediário original.\"
-      ]",
+      "description": [
+        "\"Os componentes reciclados são combinados com o corpo principal fresco de acordo com a fórmula, e todos os excipientes funcionais são reinvestidos para produzir quatro módulos de sistema independentes. Em seguida, a fabricação continua a partir do processo intermediário original.\""
+      ],
       "dependencies": [
         "4B5A255D80872580",
         "4B5E9B11E6FC3F4A"
@@ -860,9 +860,9 @@
       "id": "4B53686EBA2472F9",
       "title": "Civilização quatro sistemas integrados de armazenamento de material de base de material de cauda",
       "subtitle": "Solidifica o material danificado em um resíduo inerte",
-      "description": "[
-        “Os rejeitos não recicláveis são solidificados em cinzas e encaminhados para uso geral em pó. Os componentes reconstruíveis são devolvidos ao processo de envase por outra saída.”
-      ]",
+      "description": [
+        "Os rejeitos não recicláveis são solidificados em cinzas e encaminhados para uso geral em pó. Os componentes reconstruíveis são devolvidos ao processo de envase por outra saída."
+      ],
       "dependencies": [
         "4B5D42853DBE1968"
       ],
@@ -888,9 +888,9 @@
       "id": "4B59DD5C06C14D59",
       "title": "Montagem de failover independente",
       "subtitle": "Deixe interfaces desconectadas para fluxo de potência, restrições e ramificações de controle.",
-      "description": "[
-        \"Montar as interfaces desconectadas de cada filial em um conjunto de failover independente para montagem do projeto de quatro sistemas e instalações subsequentes.\"
-      ]",
+      "description": [
+        "\"Montar as interfaces desconectadas de cada filial em um conjunto de failover independente para montagem do projeto de quatro sistemas e instalações subsequentes.\""
+      ],
       "dependencies": [
         "4B5D8D141FECC519",
         "4B5A9C26C12082CA",
@@ -914,9 +914,9 @@
       "id": "4B51C820096302E2",
       "title": "Controlador de cúpula de cognição civilizada",
       "subtitle": "Preparativos concluídos para a primeira construção do anterior instituto de pesquisa",
-      "description": "[
-        “Primeiro, conclua os experimentos do projeto Civilized Cognition Dome e a pesquisa formal do RN-CLE no instituto de pesquisa de nível anterior, depois fabrique o controlador Civilized Cognition Dome e continue a expandir as instalações de pesquisa.”
-      ]",
+      "description": [
+        "Primeiro, conclua os experimentos do projeto Civilized Cognition Dome e a pesquisa formal do RN-CLE no instituto de pesquisa de nível anterior, depois fabrique o controlador Civilized Cognition Dome e continue a expandir as instalações de pesquisa."
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA",
         "4B59DD5C06C14D59",
@@ -941,9 +941,9 @@
       "id": "4B5E0F6DC2D857F5",
       "title": "Herrscher da Morte · Licitação · Controle Mestre da Arca de Regeneração de Materiais",
       "subtitle": "Continuação do projeto de regeneração de materiais da fábrica de matéria condensada",
-      "description": "[
-        “Conclua a pesquisa RN-CCF e RN-MRA e crie o controle mestre da Arca de Regeneração da Morte, Vida e Matéria no Herrscher do Gelo, Geada Eterna e Fábrica de Condensação Ultracriogênica. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha.
-      ]",
+      "description": [
+        "“Conclua a pesquisa RN-CCF e RN-MRA e crie o controle mestre da Arca de Regeneração da Morte, Vida e Matéria no Herrscher do Gelo, Geada Eterna e Fábrica de Condensação Ultracriogênica. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha."
+      ],
       "dependencies": [
         "4B5DA22287EEF846",
         "4B594D940B461D0C"
@@ -966,9 +966,9 @@
       "id": "4B50C398C1A91D2B",
       "title": "Herrscher do Fogo·Chama da Calamidade·Controlador Mestre da Forja Estelar",
       "subtitle": "Crie o controlador mestre Stellar Forge em Reborn Ark",
-      "description": "[
-        \"Complete a pesquisa RN-MRA e RN-SFF e crie o Herrscher of Fire, Tribulation Flame e Stellar Forge Master Controller no Herrscher of Death, Breathing, and Matter Regeneration Ark. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha. \"
-      ]",
+      "description": [
+        "\"Complete a pesquisa RN-MRA e RN-SFF e crie o Herrscher of Fire, Tribulation Flame e Stellar Forge Master Controller no Herrscher of Death, Breathing, and Matter Regeneration Ark. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha. \""
+      ],
       "dependencies": [
         "4B59E02E7D6A402B",
         "4B5E0F6DC2D857F5"
@@ -995,9 +995,9 @@
       "id": "4B55CCA4D601F13B",
       "title": "Herrscher of Rock·Fallen Star·Singularidade Gravitacional Forging Well Master Controller",
       "subtitle": "Tornando a Fundição por Gravidade Mestre na Matriz de Consenso",
-      "description": "[
-        \"Conclua a pesquisa em RN-CKV e RN-GSF e crie o Herrscher of Rocks, Falling Stars e Gravity Singularity Casting Well Master Controller no Herrscher of Knowledge, Vientiane e Civilization Consensus Matrix. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha. \"
-      ]",
+      "description": [
+        "\"Conclua a pesquisa em RN-CKV e RN-GSF e crie o Herrscher of Rocks, Falling Stars e Gravity Singularity Casting Well Master Controller no Herrscher of Knowledge, Vientiane e Civilization Consensus Matrix. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha. \""
+      ],
       "dependencies": [
         "4B5049156571FB42",
         "4B500FF210FA8348"
@@ -1024,9 +1024,9 @@
       "id": "4B59A48A5F3C2FD2",
       "title": "O Herrscher da Restrição·Disciplina·Controle Mestre de Parede de Restrição de Energia Global",
       "subtitle": "Crie um mestre de parede de restrição global na matriz de dominação",
-      "description": "[
-        “Conclua a pesquisa em RN-DIO e RN-ECB e crie o controle mestre Herrscher de Restrição, Disciplina e Parede de Confinamento de Energia Global no Herrscher de Dominância, Mil Leis e Matriz de Controle Industrial Distribuído. Após obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha.
-      ]",
+      "description": [
+        "“Conclua a pesquisa em RN-DIO e RN-ECB e crie o controle mestre Herrscher de Restrição, Disciplina e Parede de Confinamento de Energia Global no Herrscher de Dominância, Mil Leis e Matriz de Controle Industrial Distribuído. Após obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha."
+      ],
       "dependencies": [
         "4B5DBCCB3FAC3E98",
         "4B529183EBE8C67D"
@@ -1053,9 +1053,9 @@
       "id": "4B55D60F52DF9C9F",
       "title": "Revisão do relatório de conflito",
       "subtitle": "Verifique relatórios originais, retestes independentes e resultados de fórmulas",
-      "description": "[
-        “Compare os dois relatórios originais, reinspeção de precisão arbitrária e resultados de fórmulas no equipamento de teste de engenharia. Distinga os fatos registrados, as inferências obtidas e as partes que não podem ser determinadas desta vez para formar um registro de reinspeção conflitante.”
-      ]",
+      "description": [
+        "Compare os dois relatórios originais, reinspeção de precisão arbitrária e resultados de fórmulas no equipamento de teste de engenharia. Distinga os fatos registrados, as inferências obtidas e as partes que não podem ser determinadas desta vez para formar um registro de reinspeção conflitante."
+      ],
       "dependencies": [
         "4B5446D7FAF60899"
       ],
@@ -1081,12 +1081,12 @@
       "id": "4B522E39065BAE09",
       "title": "Matriz de Consenso da Civilização de Vientiane",
       "subtitle": "RN-CKV · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto de teste: transportador de modelo mundial × 1; o papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
-        \"Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. O reexame real distingue entre fatos, inferências e itens indecidíveis e mantém o texto original e as fontes experimentais; a evidência não é obtida escolhendo uma posição predefinida; a quantidade original do objeto inspecionado é devolvida e o experimento é baseado no assentamento real da máquina.\"
-        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a Matriz de Consenso do Herrscher do Conhecimento, Vientiane e Civilização e seu processo de verificação de conhecimento serão desbloqueados.”
-      ]",
+      "description": [
+        "\"Objeto de teste: transportador de modelo mundial × 1; o papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\"",
+        "\"Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. O reexame real distingue entre fatos, inferências e itens indecidíveis e mantém o texto original e as fontes experimentais; a evidência não é obtida escolhendo uma posição predefinida; a quantidade original do objeto inspecionado é devolvida e o experimento é baseado no assentamento real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a Matriz de Consenso do Herrscher do Conhecimento, Vientiane e Civilização e seu processo de verificação de conhecimento serão desbloqueados."
+      ],
       "dependencies": [
         "4B51C820096302E2",
         "4B55D60F52DF9C9F"
@@ -1110,12 +1110,12 @@
       "id": "4B53A013546F4FF4",
       "title": "Controle industrial distribuído Qianlu",
       "subtitle": "RN-DIO · Pesquisa experimental e formal",
-      "description": "[
-        “Objeto a ser inspecionado: drone industrial × 1; papel 2 é usado para registros de inspeção e a amostra de referência é reciclada”,
-        \"Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Equipamentos diferentes completam o mesmo processo relacionado ao pedido, e a entrada, o produto e o recebimento da permissão correspondem; a entrega manual é possível antes do estudo, e o controle industrial distribuído Herrscher·Qianlu·Matriz controlada existente não precisa ser controlado automaticamente; a quantidade original do objeto inspecionado é devolvida e a liquidação real do experimento deve ser baseada na máquina\",
-        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
-        “O instituto de pesquisa retém energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o processo de coordenação Herrscher of Dominance, Qianlu e Distributed Industrial Control Array e obtenha o certificado de controle após executá-lo.
-      ]",
+      "description": [
+        "Objeto a ser inspecionado: drone industrial × 1; papel 2 é usado para registros de inspeção e a amostra de referência é reciclada",
+        "\"Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Equipamentos diferentes completam o mesmo processo relacionado ao pedido, e a entrada, o produto e o recebimento da permissão correspondem; a entrega manual é possível antes do estudo, e o controle industrial distribuído Herrscher·Qianlu·Matriz controlada existente não precisa ser controlado automaticamente; a quantidade original do objeto inspecionado é devolvida e a liquidação real do experimento deve ser baseada na máquina\"",
+        "\"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\"",
+        "“O instituto de pesquisa retém energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o processo de coordenação Herrscher of Dominance, Qianlu e Distributed Industrial Control Array e obtenha o certificado de controle após executá-lo."
+      ],
       "dependencies": [
         "4B51C820096302E2",
         "4B5FED87D8CDDF57"
@@ -1139,12 +1139,12 @@
       "id": "4B5DBCCB3FAC3E98",
       "title": "Parede de restrição de energia disciplinar",
       "subtitle": "RN-ECB · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto a ser inspecionado: núcleo de imitação de contenção Herrscher x 1; papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
-        “Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Conclusão real das restrições de ativação/desativação e medição de entrada e saída;
-        \"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o Herrscher de Restrições, Disciplina, Construção de Parede de Restrição de Energia Global e Aceitação de Barreira de Energia Controlada.”
-      ]",
+      "description": [
+        "\"Objeto a ser inspecionado: núcleo de imitação de contenção Herrscher x 1; papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\"",
+        "“Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Conclusão real das restrições de ativação/desativação e medição de entrada e saída;",
+        "\"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o Herrscher de Restrições, Disciplina, Construção de Parede de Restrição de Energia Global e Aceitação de Barreira de Energia Controlada."
+      ],
       "dependencies": [
         "4B572144C9B98E32",
         "4B5137DC6ACD7AAC"
@@ -1168,12 +1168,12 @@
       "id": "4B5049156571FB42",
       "title": "Fundição de singularidade gravitacional de estrela cadente",
       "subtitle": "RN-GSF · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
-        \"O experimento da equipe foi concluído no Centro de Aceitação de Engenharia de Civilização. A resposta de compressão foi realmente concluída e os registros simulados do processo de semente foram associados. O experimento não produziu uma singularidade de Engenharia de Civilização; a quantidade original do objeto inspecionado foi devolvida e o experimento foi sujeito ao assentamento real da máquina.\",
-        \"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o Herrscher of Rock, Falling Star, Gravity Singularity, construção de poço e aceitação de preparação de singularidade.”
-      ]",
+      "description": [
+        "\"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\"",
+        "\"O experimento da equipe foi concluído no Centro de Aceitação de Engenharia de Civilização. A resposta de compressão foi realmente concluída e os registros simulados do processo de semente foram associados. O experimento não produziu uma singularidade de Engenharia de Civilização; a quantidade original do objeto inspecionado foi devolvida e o experimento foi sujeito ao assentamento real da máquina.\"",
+        "\"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o Herrscher of Rock, Falling Star, Gravity Singularity, construção de poço e aceitação de preparação de singularidade."
+      ],
       "dependencies": [
         "4B574F1B6BD2B7AE",
         "4B5137DC6ACD7AAC"
@@ -1197,12 +1197,12 @@
       "id": "4B5DA22287EEF846",
       "title": "Arca de regeneração de matéria viva",
       "subtitle": "RN-MRA · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: material de invólucro de combustível reciclado × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verificar a entrada real, reciclagem e resíduos não recicláveis, e excluir estatísticas repetidas do mesmo lote;
-        \"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o projeto de regeneração de material Herrscher da Arca da Morte, Respiração e Regeneração de Materiais para reciclar a energia livre líquida sem criá-la.
-      ]",
+      "description": [
+        "\"Objeto testado: material de invólucro de combustível reciclado × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verificar a entrada real, reciclagem e resíduos não recicláveis, e excluir estatísticas repetidas do mesmo lote;",
+        "\"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "“O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o projeto de regeneração de material Herrscher da Arca da Morte, Respiração e Regeneração de Materiais para reciclar a energia livre líquida sem criá-la."
+      ],
       "dependencies": [
         "4B528AA97B0DF3A7",
         "4B5137DC6ACD7AAC"
@@ -1226,12 +1226,12 @@
       "id": "4B59E02E7D6A402B",
       "title": "Forjado pela Estrela da Calamidade",
       "subtitle": "RN-SFF · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: material de fundição extremo × 1; papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
-        “O experimento da equipe foi concluído no Centro de Aceitação de Engenharia de Civilização. O processamento de alta temperatura, o resfriamento seguro e a verificação do recebimento do consumo de energia foram realmente concluídos. A peça de teste não é um produto oficial do Herrscher of Fire, Tribulation Flame e Stellar Casting Furnace;
-        \"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a construção do Herrscher of Fire, Tribulation Flame e Stellar Forging Furnace e a aceitação de condições extremas de calor serão desbloqueadas.”
-      ]",
+      "description": [
+        "\"Objeto testado: material de fundição extremo × 1; papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\"",
+        "“O experimento da equipe foi concluído no Centro de Aceitação de Engenharia de Civilização. O processamento de alta temperatura, o resfriamento seguro e a verificação do recebimento do consumo de energia foram realmente concluídos. A peça de teste não é um produto oficial do Herrscher of Fire, Tribulation Flame e Stellar Casting Furnace;",
+        "\"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a construção do Herrscher of Fire, Tribulation Flame e Stellar Forging Furnace e a aceitação de condições extremas de calor serão desbloqueadas."
+      ],
       "dependencies": [
         "4B5C00437CD0C5D8",
         "4B537DFEF740AACB",

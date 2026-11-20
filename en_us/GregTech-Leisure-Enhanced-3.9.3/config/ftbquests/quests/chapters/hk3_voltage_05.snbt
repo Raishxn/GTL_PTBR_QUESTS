@@ -3,8 +3,8 @@
   "id": "4B5B07085C1D7A33",
   "title": "stack state voltage QSV",
   "subtitle": [
-    "Tier19-QSV"
-  ],
+        "Tier19-QSV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 20,
   "icon": "hk3gtl:voltage_machine_casing_qsv",
@@ -14,10 +14,10 @@
       "id": "4B5E19060E663CF3",
       "title": "Continue from HDV workshop",
       "subtitle": "HDV → QSV",
-      "description": "[
-        \"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to manufacture the first batch of QSV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to manufacture the first batch of QSV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B5FD3C3095F875E"
       ],
@@ -39,9 +39,9 @@
       "id": "4B5AE1A786912BB0",
       "title": "Stress Compensated Soul Steel Contact Array",
       "subtitle": "Let flexible touch fingers absorb thermal expansion differences",
-      "description": "[
-        \"The thin foil contacts are shaped first and then combined with the pressure-bearing backplane. The flexible contacts connect the chip to the thick package, allowing for required movement during thermal expansion.\"
-      ]",
+      "description": [
+        "\"The thin foil contacts are shaped first and then combined with the pressure-bearing backplane. The flexible contacts connect the chip to the thick package, allowing for required movement during thermal expansion.\""
+      ],
       "dependencies": [
         "4B5A12474D1E5596"
       ],
@@ -63,9 +63,9 @@
       "id": "4B5607208A268718",
       "title": "Hermetic differential optical bus",
       "subtitle": "Use dual optical paths to connect different modules",
-      "description": "[
-        \"Encapsulating dual optical paths and photoelectric conversion ends, retaining equal-length electrical interconnections. Cross-module communication is undertaken by optical paths, and both ends are electrically isolated.\"
-      ]",
+      "description": [
+        "\"Encapsulating dual optical paths and photoelectric conversion ends, retaining equal-length electrical interconnections. Cross-module communication is undertaken by optical paths, and both ends are electrically isolated.\""
+      ],
       "dependencies": [
         "4B59A30068C58620",
         "4B5151BB1D92DDC7",
@@ -90,9 +90,9 @@
       "id": "4B53F12ABED75633",
       "title": "Vacuum Shielded Quantum Socket",
       "subtitle": "Preparing the Mount for the Quantum Bridge Processor",
-      "description": "[
-        \"Assemble the vacuum isolation, constraint shielding, cold end and flexible leads into physical sockets. After connecting the sockets, assemble the corresponding processor.\"
-      ]",
+      "description": [
+        "\"Assemble the vacuum isolation, constraint shielding, cold end and flexible leads into physical sockets. After connecting the sockets, assemble the corresponding processor.\""
+      ],
       "dependencies": [
         "4B50C8565E0A1B4E",
         "4B5E991A148AC249",
@@ -116,9 +116,9 @@
       "id": "4B58003BA8443879",
       "title": "Resonant load feedback unit",
       "subtitle": "Apply load and save compensation reading",
-      "description": "[
-        \"Loaded with a pressure reference tool, the working and reference branches are read simultaneously by the HRV sensor. The compensation table is saved to provide feedback for the servo valve, piston and sequence positioning tool.\"
-      ]",
+      "description": [
+        "\"Loaded with a pressure reference tool, the working and reference branches are read simultaneously by the HRV sensor. The compensation table is saved to provide feedback for the servo valve, piston and sequence positioning tool.\""
+      ],
       "dependencies": [
         "4B59A30068C58620",
         "4B5E991A148AC249",
@@ -143,9 +143,9 @@
       "id": "4B5073B91DAA0A35",
       "title": "Torsional decoupling flexible coupling",
       "subtitle": "Transmits torque while allowing a small range of deflection",
-      "description": "[
-        \"Process the flexible area of the diaphragm to release the bonding stress, and then complete the coaxial preload. Install the coupling into the actuator and sequential tooling to coordinate transmission and positioning.\"
-      ]",
+      "description": [
+        "\"Process the flexible area of the diaphragm to release the bonding stress, and then complete the coaxial preload. Install the coupling into the actuator and sequential tooling to coordinate transmission and positioning.\""
+      ],
       "dependencies": [
         "4B5E991A148AC249",
         "4B5A12474D1E5596"
@@ -168,9 +168,9 @@
       "id": "4B5F58E6DA96A1B5",
       "title": "Four-quadrant servo drive module",
       "subtitle": "Make bidirectional driving and braking into independent modules",
-      "description": "[
-        \"The bidirectional current and braking branch is installed and connected to the existing computing components. From here the HDV actuator gets its independently installable servo drive.\"
-      ]",
+      "description": [
+        "\"The bidirectional current and braking branch is installed and connected to the existing computing components. From here the HDV actuator gets its independently installable servo drive.\""
+      ],
       "dependencies": [
         "4B577686A332F134",
         "4B5783CCFC1B8D2D",
@@ -194,9 +194,9 @@
       "id": "4B5786FC3EEB8ACA",
       "title": "Electro-hydraulic servo valve core assembly",
       "subtitle": "Actively adjust flow rate according to feedback pressure difference",
-      "description": "[
-        \"Connect the valve core to the feedback and drive module, and adjust the shunt according to the pressure difference. The existing buffer valve continues to handle the pulsation, and the servo valve is responsible for active adjustment.\"
-      ]",
+      "description": [
+        "\"Connect the valve core to the feedback and drive module, and adjust the shunt according to the pressure difference. The existing buffer valve continues to handle the pulsation, and the servo valve is responsible for active adjustment.\""
+      ],
       "dependencies": [
         "4B54CE973A2C82F9",
         "4B58003BA8443879",
@@ -220,9 +220,9 @@
       "id": "4B580BC98CE4BCC7",
       "title": "HDV Soulsteel Lattice Processor Host",
       "subtitle": "Pressure-Containing Packaging, Optical Buses and Quantum Sockets",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make the soul steel lattice processor host. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make the soul steel lattice processor host. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5607208A268718",
         "4B53F12ABED75633"
@@ -245,9 +245,9 @@
       "id": "4B589CECF1F7F4F2",
       "title": "HDV Rhythm Coupling Supercomputer",
       "subtitle": "Pressure-Containing Packaging, Optical Buses and Quantum Sockets",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a rhythm coupling supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a rhythm coupling supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B577686A332F134",
         "4B50C8565E0A1B4E",
@@ -272,9 +272,9 @@
       "id": "4B548015C598929D",
       "title": "HDV Collapse Resonance Processor Assembly",
       "subtitle": "Pressure-Containing Packaging, Optical Buses and Quantum Sockets",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a collapsible resonance processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a collapsible resonance processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5E81E604C4DFC4",
         "4B50C8565E0A1B4E",
@@ -298,9 +298,9 @@
       "id": "4B5A5BCCF8B2233C",
       "title": "HDV Quantum Bridge Processor",
       "subtitle": "Pressure-Containing Packaging, Optical Buses and Quantum Sockets",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum bridge processor. Prepare computing components for subsequent execution components and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum bridge processor. Prepare computing components for subsequent execution components and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5607208A268718",
         "4B53F12ABED75633"
@@ -323,9 +323,9 @@
       "id": "4B5581A471AF8770",
       "title": "HDV electric motor",
       "subtitle": "Provides independent rotational drive",
-      "description": "[
-        \"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B529A3F20959D18",
         "4B5073B91DAA0A35",
@@ -350,9 +350,9 @@
       "id": "4B5826E04A2AEC8D",
       "title": "HDV electric piston",
       "subtitle": "Convert drive into controlled linear motion",
-      "description": "[
-        \"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B5C3D8FE272F427",
         "4B5786FC3EEB8ACA",
@@ -376,9 +376,9 @@
       "id": "4B56E43CD5646D21",
       "title": "HDV electric pump",
       "subtitle": "Provide conveying power for independent flow paths",
-      "description": "[
-        \"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B5786FC3EEB8ACA",
         "4B5581A471AF8770"
@@ -401,9 +401,9 @@
       "id": "4B521803CFDA2528",
       "title": "HDV conveyor module",
       "subtitle": "Continuous transfer of materials in existing production lines",
-      "description": "[
-        \"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B5E82E7D09B0BC6",
         "4B5581A471AF8770"
@@ -426,9 +426,9 @@
       "id": "4B5BF2B664146748",
       "title": "HDV robotic arm",
       "subtitle": "Connect positioning and execution to the same component",
-      "description": "[
-        \"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\""
+      ],
       "dependencies": [
         "4B53882AB0A61FC3",
         "4B5826E04A2AEC8D"
@@ -451,9 +451,9 @@
       "id": "4B5F799023731291",
       "title": "HDV sensor",
       "subtitle": "Send the measurement results to the current level of control",
-      "description": "[
-        \"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\"
-      ]",
+      "description": [
+        "\"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\""
+      ],
       "dependencies": [
         "4B58003BA8443879",
         "4B580BC98CE4BCC7"
@@ -476,9 +476,9 @@
       "id": "4B5448B56EC161A9",
       "title": "HDV transmitter",
       "subtitle": "Prepare launch components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\""
+      ],
       "dependencies": [
         "4B580BC98CE4BCC7"
       ],
@@ -500,9 +500,9 @@
       "id": "4B527B01CFCEA646",
       "title": "HDV force field generator",
       "subtitle": "Prepare force field components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B58ACB0B3D42869",
         "4B5F799023731291",
@@ -526,11 +526,11 @@
       "id": "4B50CFC15772EED2",
       "title": "Multilayer circuit etching",
       "subtitle": "Verify connectivity and insulation of existing layers",
-      "description": "[
-        \"After obtaining the substrate growth and soul steel processing records, the existing substrate and etching layer were sent for inspection. The original quantity of the inspected object was returned, and then the multi-layer circuit etching project was completed at the research institute.\",
-        \"After the experiment is completed, choose 210 research points or MAX circuit × 2, steel plate × 48 to pay the base fee; an additional 3,000 ticks and 128,849,018,880 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute withholds power based on the total power of the effective energy port. After completion, the multi-layer circuit etching working condition of the Soul Steel Precision Machining Center will be unlocked; the first-time packaging can use the front-end GTL process, and there is no need to complete the circuit packaging and working condition test research first.\"
-      ]",
+      "description": [
+        "\"After obtaining the substrate growth and soul steel processing records, the existing substrate and etching layer were sent for inspection. The original quantity of the inspected object was returned, and then the multi-layer circuit etching project was completed at the research institute.\"",
+        "\"After the experiment is completed, choose 210 research points or MAX circuit × 2, steel plate × 48 to pay the base fee; an additional 3,000 ticks and 128,849,018,880 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute withholds power based on the total power of the effective energy port. After completion, the multi-layer circuit etching working condition of the Soul Steel Precision Machining Center will be unlocked; the first-time packaging can use the front-end GTL process, and there is no need to complete the circuit packaging and working condition test research first.\""
+      ],
       "dependencies": [
         "4B52023452A874DC",
         "4B54B1712D2ED530",
@@ -559,11 +559,11 @@
       "id": "4B5DF2FDA879723E",
       "title": "Advanced Materials Research Institute Engineering",
       "subtitle": "Completed real load and interface testing at the Collapse Phenomenon Research Institute",
-      "description": "[
-        \"Put the etched layer, soul steel plate, soul steel thin wire and HRV sensor into the Collapse Phenomenon Research Institute and conduct a constraint load boundary test. After the continuous power supply is completed and the test is completed, the original quantities of the four types of samples will be returned; after completing the project, the Material Reconstruction Research Institute can be created.\",
-        \"After the experiment is completed, choose 210 research points or MAX circuit × 2, steel plate × 48 to pay the base fee; an additional 3,000 ticks and 128,849,018,880 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the second-level research institute is unlocked; the Material Reconstruction Research Institute is not required to research its own construction materials first.\"
-      ]",
+      "description": [
+        "\"Put the etched layer, soul steel plate, soul steel thin wire and HRV sensor into the Collapse Phenomenon Research Institute and conduct a constraint load boundary test. After the continuous power supply is completed and the test is completed, the original quantities of the four types of samples will be returned; after completing the project, the Material Reconstruction Research Institute can be created.\"",
+        "\"After the experiment is completed, choose 210 research points or MAX circuit × 2, steel plate × 48 to pay the base fee; an additional 3,000 ticks and 128,849,018,880 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the second-level research institute is unlocked; the Material Reconstruction Research Institute is not required to research its own construction materials first.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B59A30068C58620"
@@ -587,9 +587,9 @@
       "id": "4B5FDF3E5109ECC9",
       "title": "Upgrade the Institute of Material Reconstruction",
       "subtitle": "Honkai Phenomenon Research Institute continues to expand research capabilities",
-      "description": "[
-        \"Use the existing Collapse Phenomenon Research Institute controllers, electronic components and pressure-bearing materials to upgrade the Material Reconstruction Research Institute. After completion, the Matter Reconstruction Research Institute will continue to undertake follow-up research.\"
-      ]",
+      "description": [
+        "\"Use the existing Collapse Phenomenon Research Institute controllers, electronic components and pressure-bearing materials to upgrade the Material Reconstruction Research Institute. After completion, the Matter Reconstruction Research Institute will continue to undertake follow-up research.\""
+      ],
       "dependencies": [
         "4B5DF2FDA879723E",
         "4B5151BB1D92DDC7",
@@ -614,11 +614,11 @@
       "id": "4B5DA9B39AA3192A",
       "title": "Soul Steel Quality Control",
       "subtitle": "Align aggregation, reconstruction and finishing records",
-      "description": "[
-        \"After completing the corresponding three types of real working conditions, the soul steel data substrate, rough blank and stable blank are inspected. The original sample is returned, and then the Material Reconstruction Research Institute completes the formal project, and then manufactures the stacked laminated main material.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the quality improvement of the soul steel under specific working conditions will be unlocked, and the non-infinite yield superposition will be achieved.\"
-      ]",
+      "description": [
+        "\"After completing the corresponding three types of real working conditions, the soul steel data substrate, rough blank and stable blank are inspected. The original sample is returned, and then the Material Reconstruction Research Institute completes the formal project, and then manufactures the stacked laminated main material.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the quality improvement of the soul steel under specific working conditions will be unlocked, and the non-infinite yield superposition will be achieved.\""
+      ],
       "dependencies": [
         "4B5FDF3E5109ECC9"
       ],
@@ -641,9 +641,9 @@
       "id": "4B53B6D07EDB738A",
       "title": "Peelable conductive frame",
       "subtitle": "Clamp the foil mesh first, and then detach it after pressing.",
-      "description": "[
-        \"The conductive frame is made of new materials, and is used to maintain the tension of the conductor foil network. The frame is pressed together with the conductor layer, and is sent for repair after detaching from the product.\"
-      ]",
+      "description": [
+        "\"The conductive frame is made of new materials, and is used to maintain the tension of the conductor foil network. The frame is pressed together with the conductor layer, and is sent for repair after detaching from the product.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5D1F7A868BD402"
@@ -666,9 +666,9 @@
       "id": "4B56A77C2A4F4732",
       "title": "Dielectric edge banding",
       "subtitle": "Seal the laminated edges section by section",
-      "description": "[
-        \"The composite independent edge banding separates the conductive foil network from the external structure. The large-surface bonding is undertaken by the prepreg layer, and the edge seams are taken from here.\"
-      ]",
+      "description": [
+        "\"The composite independent edge banding separates the conductive foil network from the external structure. The large-surface bonding is undertaken by the prepreg layer, and the edge seams are taken from here.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5A12474D1E5596"
@@ -691,9 +691,9 @@
       "id": "4B54CF51446B10A0",
       "title": "Low volatility laminating resin",
       "subtitle": "Prepare adhesive materials for wetting, lamination and edge sealing",
-      "description": "[
-        \"Prepare laminated resin with new materials for use in two branch lines, conductor and dielectric. The used resin discharged from the coating tank is collected separately, and then filtered and replenished later.\"
-      ]",
+      "description": [
+        "\"Prepare laminated resin with new materials for use in two branch lines, conductor and dielectric. The used resin discharged from the coating tank is collected separately, and then filtered and replenished later.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B523989720A35A7"
@@ -717,9 +717,9 @@
       "id": "4B56640615ADD916",
       "title": "Layer sequence positioning tooling",
       "subtitle": "Use front-end materials to fix the layer sequence and clamping force",
-      "description": "[
-        \"Install the feedback unit and flexible coupling to make a layered positioning tool. Use it to position and control the clamping force during lamination. Keep the tool after use.\"
-      ]",
+      "description": [
+        "\"Install the feedback unit and flexible coupling to make a layered positioning tool. Use it to position and control the clamping force during lamination. Keep the tool after use.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B529A3F20959D18",
@@ -745,9 +745,9 @@
       "id": "4B5426DBB770D474",
       "title": "Conductor foil mesh layer",
       "subtitle": "Let the conductor maintain tension in the frame",
-      "description": "[
-        \"Fix the conductor foil mesh on the peelable frame to complete anchoring and infiltration. The conductor layer is first prepared independently and then meets the insulating dielectric layer.\"
-      ]",
+      "description": [
+        "\"Fix the conductor foil mesh on the peelable frame to complete anchoring and infiltration. The conductor layer is first prepared independently and then meets the insulating dielectric layer.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A",
         "4B53B6D07EDB738A",
@@ -771,9 +771,9 @@
       "id": "4B5CAA0B105283A1",
       "title": "Insulating dielectric layer",
       "subtitle": "and conductor branches are manufactured separately",
-      "description": "[
-        \"Let the ceramics, isolation film and edge banding form an independent dielectric layer to control the insulation between the large surface and the edges. Collect the used resin discharged from the tank, and then send the dielectric layer for lamination.\"
-      ]",
+      "description": [
+        "\"Let the ceramics, isolation film and edge banding form an independent dielectric layer to control the insulation between the large surface and the edges. Collect the used resin discharged from the tank, and then send the dielectric layer for lamination.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A",
         "4B56A77C2A4F4732",
@@ -798,9 +798,9 @@
       "id": "4B547C102F039B93",
       "title": "alternating layer sequence pressed blank",
       "subtitle": "Conductor and medium meet here",
-      "description": "[
-        \"Alternately place the conductor layer and dielectric layer in layer sequence, align them with positioning tools and then press them together. Retract the frame that is separated from the product, and continue to send the pressed blank for solidification.\"
-      ]",
+      "description": [
+        "\"Alternately place the conductor layer and dielectric layer in layer sequence, align them with positioning tools and then press them together. Retract the frame that is separated from the product, and continue to send the pressed blank for solidification.\""
+      ],
       "dependencies": [
         "4B5426DBB770D474",
         "4B5CAA0B105283A1"
@@ -823,9 +823,9 @@
       "id": "4B54A8CE765D81C1",
       "title": "Laminated base material standard blank",
       "subtitle": "Slowly cool and solidify, then seal the edge of the fixed length.",
-      "description": "[
-        \"Controlled slow cooling and solidification are completed, and the edge behind the given ruler is filled with an insulating seal. The main material enters six engineering forms from here, and the hot coolant and used resin are recycled separately.\"
-      ]",
+      "description": [
+        "\"Controlled slow cooling and solidification are completed, and the edge behind the given ruler is filled with an insulating seal. The main material enters six engineering forms from here, and the hot coolant and used resin are recycled separately.\""
+      ],
       "dependencies": [
         "4B547C102F039B93"
       ],
@@ -847,9 +847,9 @@
       "id": "4B5012D169BAEF41",
       "title": "Laminated base material board",
       "subtitle": "Preserve the bonding and sealing layer of the large surface",
-      "description": "[
-        \"Repress the standard blank, add a pressure-bearing backing and a prepreg layer, and then process the plate edges. The plates are used for the chassis wall and the structural bottom layer of the subsequent platform.\"
-      ]",
+      "description": [
+        "\"Repress the standard blank, add a pressure-bearing backing and a prepreg layer, and then process the plate edges. The plates are used for the chassis wall and the structural bottom layer of the subsequent platform.\""
+      ],
       "dependencies": [
         "4B54A8CE765D81C1"
       ],
@@ -871,9 +871,9 @@
       "id": "4B55AA0198FA5388",
       "title": "Laminated base material rod",
       "subtitle": "Arrange the load-bearing direction along the rod axis",
-      "description": "[
-        \"The axial core is processed and the circumferential wrapping is completed, retaining the main direction of the composite material. The frame, interface ring and composite thin wire continue to be taken from this batch of rods.\"
-      ]",
+      "description": [
+        "\"The axial core is processed and the circumferential wrapping is completed, retaining the main direction of the composite material. The frame, interface ring and composite thin wire continue to be taken from this batch of rods.\""
+      ],
       "dependencies": [
         "4B54A8CE765D81C1"
       ],
@@ -895,9 +895,9 @@
       "id": "4B55E5EFF3DE4A90",
       "title": "Laminated base material frame",
       "subtitle": "Let the nodes bear the force and let the edge banding be insulated.",
-      "description": "[
-        \"The composite rods are connected with serviceable metal nodes to separate the conductive foil mesh from the external frame. After the nodes are tightened, the entire frame continues to participate in the assembly of the casing.\"
-      ]",
+      "description": [
+        "\"The composite rods are connected with serviceable metal nodes to separate the conductive foil mesh from the external frame. After the nodes are tightened, the entire frame continues to participate in the assembly of the casing.\""
+      ],
       "dependencies": [
         "4B55AA0198FA5388"
       ],
@@ -919,9 +919,9 @@
       "id": "4B5451646EFDB638",
       "title": "Laminated base metal ring",
       "subtitle": "Preparing insulation seams after rolling",
-      "description": "[
-        \"Roll the rod into an interface ring, leave the insulation break, and then patch the elastic seal and seal lead. The ring is used for layered shells and fluid interfaces.\"
-      ]",
+      "description": [
+        "\"Roll the rod into an interface ring, leave the insulation break, and then patch the elastic seal and seal lead. The ring is used for layered shells and fluid interfaces.\""
+      ],
       "dependencies": [
         "4B55AA0198FA5388"
       ],
@@ -943,9 +943,9 @@
       "id": "4B59C3326165143C",
       "title": "Laminated base metal foil",
       "subtitle": "Preserve alternating sequence when thinning",
-      "description": "[
-        \"Expand the sheet thinly along the layer sequence, add a flexible protective layer and process the edges. Let the conductor and the medium continue to maintain their respective connection and insulation relationships.\"
-      ]",
+      "description": [
+        "\"Expand the sheet thinly along the layer sequence, add a flexible protective layer and process the edges. Let the conductor and the medium continue to maintain their respective connection and insulation relationships.\""
+      ],
       "dependencies": [
         "4B5012D169BAEF41"
       ],
@@ -967,9 +967,9 @@
       "id": "4B599500704705FB",
       "title": "Laminated base material composite thin wire",
       "subtitle": "Metal core conductive, laminate dielectric covered",
-      "description": "[
-        \"Independent metal cores, tensile load-bearing wires and laminated media are combined into thin wires. Each layer is responsible for conductive, load-bearing and covering functions.\"
-      ]",
+      "description": [
+        "\"Independent metal cores, tensile load-bearing wires and laminated media are combined into thin wires. Each layer is responsible for conductive, load-bearing and covering functions.\""
+      ],
       "dependencies": [
         "4B55AA0198FA5388"
       ],
@@ -991,9 +991,9 @@
       "id": "4B531C5843C8CA9D",
       "title": "The first batch of QSV mechanical cubes",
       "subtitle": "Wrap the HDV core with a laminate structure",
-      "description": "[
-        \"Assemble the complete HDV mechanical block with this level board, frame and ring. Connect the clamping load feedback, seal the edges of the laminated conductors, and obtain the first batch of QSV casings.\"
-      ]",
+      "description": [
+        "\"Assemble the complete HDV mechanical block with this level board, frame and ring. Connect the clamping load feedback, seal the edges of the laminated conductors, and obtain the first batch of QSV casings.\""
+      ],
       "dependencies": [
         "4B5FD3C3095F875E",
         "4B5012D169BAEF41",
@@ -1018,9 +1018,9 @@
       "id": "4B5DEE87B3588CA4",
       "title": "QSV shell inspection and disassembly",
       "subtitle": "The front-end core and outer layer materials are recycled separately.",
-      "description": "[
-        \"Disassemble the layered shell and retain the complete HDV core. The plates, frames and rings can be recycled directly, and the classified waste continues to enter the layered separation.\"
-      ]",
+      "description": [
+        "\"Disassemble the layered shell and retain the complete HDV core. The plates, frames and rings can be recycled directly, and the classified waste continues to enter the layered separation.\""
+      ],
       "dependencies": [
         "4B531C5843C8CA9D"
       ],
@@ -1046,9 +1046,9 @@
       "id": "4B5239DF93F013EF",
       "title": "QSV classification waste separation",
       "subtitle": "Remove available conductor and dielectric fragments",
-      "description": "[
-        \"Separate and classify the waste, and collect the recycled components and tail materials respectively. The recycled components are replenished to rebuild the conductor and dielectric branch lines, and the tail materials are separately inerted.\"
-      ]",
+      "description": [
+        "\"Separate and classify the waste, and collect the recycled components and tail materials respectively. The recycled components are replenished to rebuild the conductor and dielectric branch lines, and the tail materials are separately inerted.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1074,9 +1074,9 @@
       "id": "4B553F7D85CD763F",
       "title": "QSV recycling broken layer replenishment and reconstruction",
       "subtitle": "The two branch lines are re-prepared and then pressed together",
-      "description": "[
-        \"Add recycled components and new materials to the conductors and dielectric branches respectively, and rebuild the two types of solid layers. After that, continue to perform the original lamination, curing and sizing.\"
-      ]",
+      "description": [
+        "\"Add recycled components and new materials to the conductors and dielectric branches respectively, and rebuild the two types of solid layers. After that, continue to perform the original lamination, curing and sizing.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A",
         "4B53B6D07EDB738A",
@@ -1106,9 +1106,9 @@
       "id": "4B51741762CFFB5C",
       "title": "Stripped Conductive Frame Repair",
       "subtitle": "Repair the real used borders back to a usable state",
-      "description": "[
-        \"Check the frame that was peeled off after lamination, and repair the damaged metal and welding layer. Some frames were withdrawn from use during the repair, and new lines continued to replenish the first pieces and losses.\"
-      ]",
+      "description": [
+        "\"Check the frame that was peeled off after lamination, and repair the damaged metal and welding layer. Some frames were withdrawn from use during the repair, and new lines continued to replenish the first pieces and losses.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5D1F7A868BD402"
@@ -1135,9 +1135,9 @@
       "id": "4B5798995F334AC7",
       "title": "Laminating resin refill after use",
       "subtitle": "Filter the uncured residual liquid discharged from the coating tank",
-      "description": "[
-        \"The actual discharged used resin is processed, and the working ingredients are replenished after filtration. The recycled resin is sent back to the lamination process, and the waste interface carrier liquid is drawn out separately.\"
-      ]",
+      "description": [
+        "\"The actual discharged used resin is processed, and the working ingredients are replenished after filtration. The recycled resin is sent back to the lamination process, and the waste interface carrier liquid is drawn out separately.\""
+      ],
       "dependencies": [
         "4B50CFC15772EED2",
         "4B5A8BA1982E056E",
@@ -1162,9 +1162,9 @@
       "id": "4B548CC965ACFCE8",
       "title": "Processing old QSV rejection batches",
       "subtitle": "Handle rejected materials in inventory",
-      "description": "[
-        \"The stock rejected batches are split into classified waste and tailings, which are sent to subsequent processing respectively. New materials continue to be pressed into standard billets by two independent branch lines.\"
-      ]",
+      "description": [
+        "\"The stock rejected batches are split into classified waste and tailings, which are sent to subsequent processing respectively. New materials continue to be pressed into standard billets by two independent branch lines.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1190,9 +1190,9 @@
       "id": "4B58A8456F326C13",
       "title": "QSV pressing and curing integrated processing",
       "subtitle": "Shortened turnaround after first batch of casings",
-      "description": "[
-        \"After obtaining the QSV mechanical cube and power supply, combine the sequential lamination, curing and sizing. Keep all the original inputs, and drain the frame, used resin and hot coolant separately as usual.\"
-      ]",
+      "description": [
+        "\"After obtaining the QSV mechanical cube and power supply, combine the sequential lamination, curing and sizing. Keep all the original inputs, and drain the frame, used resin and hot coolant separately as usual.\""
+      ],
       "dependencies": [
         "4B531C5843C8CA9D"
       ],
@@ -1218,9 +1218,9 @@
       "id": "4B5BC918DBFA2C25",
       "title": "QSV tailings inerting",
       "subtitle": "Dealing with failed bond phases and contaminated fines",
-      "description": "[
-        \"The non-recyclable tailings are inerted into ash to complete the terminal treatment of this part of the laminated material.\"
-      ]",
+      "description": [
+        "\"The non-recyclable tailings are inerted into ash to complete the terminal treatment of this part of the laminated material.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1246,9 +1246,9 @@
       "id": "4B52DDB7DCD9D9D9",
       "title": "Quantum Coherent Dielectric Isolation Film",
       "subtitle": "Add a separate layer of insulation to the new work surface",
-      "description": "[
-        \"The previous platform film is used as the bottom layer, compounded with the new main material and dielectric coating. The reference and working branches are separated for the new platform substrate to continue laminating.\"
-      ]",
+      "description": [
+        "\"The previous platform film is used as the bottom layer, compounded with the new main material and dielectric coating. The reference and working branches are separated for the new platform substrate to continue laminating.\""
+      ],
       "dependencies": [
         "4B59C3326165143C"
       ],
@@ -1270,9 +1270,9 @@
       "id": "4B521951BBDA3CB5",
       "title": "Quantum Coherent Directional Interconnection Network",
       "subtitle": "Keep old connections and lay out new branches",
-      "description": "[
-        \"Add independent conductors and isolation structures to the existing interconnection network. Arrange two sets of reference and working connection paths for the new platform.\"
-      ]",
+      "description": [
+        "\"Add independent conductors and isolation structures to the existing interconnection network. Arrange two sets of reference and working connection paths for the new platform.\""
+      ],
       "dependencies": [
         "4B52DDB7DCD9D9D9",
         "4B599500704705FB"
@@ -1295,9 +1295,9 @@
       "id": "4B5843D53E11662C",
       "title": "Quantum coherent circuit substrate",
       "subtitle": "The structural base is retained along with the old connections",
-      "description": "[
-        \"Laminate the front platform substrate, printed board and current-level isolation layer into a new substrate. Then develop the current-level circuit to complete an independent printed circuit board.\"
-      ]",
+      "description": [
+        "\"Laminate the front platform substrate, printed board and current-level isolation layer into a new substrate. Then develop the current-level circuit to complete an independent printed circuit board.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1319,9 +1319,9 @@
       "id": "4B58448C233249F4",
       "title": "Quantum Coherent Printed Circuit Substrate",
       "subtitle": "Develop the circuit after lamination is completed",
-      "description": "[
-        \"Develop the circuit for the new substrate and complete the cleaning. Collect the etching waste liquid generated, and then hand the printed board to the module packaging and circuit assembly.\"
-      ]",
+      "description": [
+        "\"Develop the circuit for the new substrate and complete the cleaning. Collect the etching waste liquid generated, and then hand the printed board to the module packaging and circuit assembly.\""
+      ],
       "dependencies": [
         "4B5843D53E11662C"
       ],
@@ -1343,9 +1343,9 @@
       "id": "4B5F442313D9F492",
       "title": "Quantum coherent epitaxy wafer",
       "subtitle": "Grow a new workspace on an existing readout island",
-      "description": "[
-        \"Retain the readout structure assumed by the logic die of the previous platform and prepare epitaxial wafers at this level. The subsequent logic and storage branches will use these wafers respectively.\"
-      ]",
+      "description": [
+        "\"Retain the readout structure assumed by the logic die of the previous platform and prepare epitaxial wafers at this level. The subsequent logic and storage branches will use these wafers respectively.\""
+      ],
       "dependencies": [
         "4B52DDB7DCD9D9D9"
       ],
@@ -1367,9 +1367,9 @@
       "id": "4B50EB2C5866DA41",
       "title": "Quantum Coherent Logic Wafer",
       "subtitle": "Use masks to write logical graphics at this level",
-      "description": "[
-        \"Use a reusable mask to expose the epitaxial wafer and obtain a complete logic wafer. The mask is retained and the wafer is sent for slicing.\"
-      ]",
+      "description": [
+        "\"Use a reusable mask to expose the epitaxial wafer and obtain a complete logic wafer. The mask is retained and the wafer is sent for slicing.\""
+      ],
       "dependencies": [
         "4B5F442313D9F492"
       ],
@@ -1391,9 +1391,9 @@
       "id": "4B5B98B637012C23",
       "title": "Quantum coherent logic die",
       "subtitle": "Eight die are cut out of a logic wafer",
-      "description": "[
-        \"The logic wafer is cut open, leaving the complete die for CPU packaging. The hot coolant is routed back to the existing cooling and reconditioning lines.\"
-      ]",
+      "description": [
+        "\"The logic wafer is cut open, leaving the complete die for CPU packaging. The hot coolant is routed back to the existing cooling and reconditioning lines.\""
+      ],
       "dependencies": [
         "4B50EB2C5866DA41"
       ],
@@ -1415,9 +1415,9 @@
       "id": "4B546E5F57A89AF1",
       "title": "Quantum coherent RAM wafer",
       "subtitle": "Existing storage array connected to new readout structure",
-      "description": "[
-        \"Laminate the front platform storage array with this level's epitaxial structure to form a new RAM wafer. Storage and reading have corresponding physical layers.\"
-      ]",
+      "description": [
+        "\"Laminate the front platform storage array with this level's epitaxial structure to form a new RAM wafer. Storage and reading have corresponding physical layers.\""
+      ],
       "dependencies": [
         "4B5F442313D9F492"
       ],
@@ -1439,9 +1439,9 @@
       "id": "4B5629C1A06C85A8",
       "title": "Quantum coherent RAM chip",
       "subtitle": "Prepare slices for modules and shared storage",
-      "description": "[
-        \"The RAM wafer is cut into individual wafers. The shared storage of the local readout module and the formal circuit consumes corresponding wafers respectively.\"
-      ]",
+      "description": [
+        "\"The RAM wafer is cut into individual wafers. The shared storage of the local readout module and the formal circuit consumes corresponding wafers respectively.\""
+      ],
       "dependencies": [
         "4B546E5F57A89AF1"
       ],
@@ -1463,9 +1463,9 @@
       "id": "4B55CE93B7ECE052",
       "title": "Quantum Coherent Chip Capacitor",
       "subtitle": "Energy storage for local power supply at this level",
-      "description": "[
-        \"Retain the electrical structure of the front-stage capacitor, and add the interface and functional layer of this level. The completed capacitor continues to be combined with the other four types of chip devices.\"
-      ]",
+      "description": [
+        "\"Retain the electrical structure of the front-stage capacitor, and add the interface and functional layer of this level. The completed capacitor continues to be combined with the other four types of chip devices.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1487,9 +1487,9 @@
       "id": "4B5F7AEC9BBCFCEC",
       "title": "Quantum Coherent Chip Diode",
       "subtitle": "Integrate one-way traffic into new platforms",
-      "description": "[
-        \"The original working structure of the encapsulated diode and this level interface layer provide one-way conduction devices for the functional array.\"
-      ]",
+      "description": [
+        "\"The original working structure of the encapsulated diode and this level interface layer provide one-way conduction devices for the functional array.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1511,9 +1511,9 @@
       "id": "4B512EA74DA29FBC",
       "title": "Quantum Coherent Chip Resistor",
       "subtitle": "Arrange current limiting and biasing for this level array",
-      "description": "[
-        \"Insert the front-end resistor into the interface and functional layer of this level to make a chip resistor that can be used for array assembly.\"
-      ]",
+      "description": [
+        "\"Insert the front-end resistor into the interface and functional layer of this level to make a chip resistor that can be used for array assembly.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1535,9 +1535,9 @@
       "id": "4B5F624842572297",
       "title": "Quantum coherent chip transistor",
       "subtitle": "Connect switches and amplifier components",
-      "description": "[
-        \"Retain the working structure of the transistor and add this level of packaging interface. Let the functional array obtain independent active devices.\"
-      ]",
+      "description": [
+        "\"Retain the working structure of the transistor and add this level of packaging interface. Let the functional array obtain independent active devices.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1559,9 +1559,9 @@
       "id": "4B59AE91C7D1308E",
       "title": "Quantum Coherent Chip Inductor",
       "subtitle": "Preparing inductive components for local circuits",
-      "description": "[
-        \"The inductor working structure is combined with the isolation and interface layers of this level for subsequent arrays to complete filtering and local power supply assembly.\"
-      ]",
+      "description": [
+        "\"The inductor working structure is combined with the isolation and interface layers of this level for subsequent arrays to complete filtering and local power supply assembly.\""
+      ],
       "dependencies": [
         "4B521951BBDA3CB5"
       ],
@@ -1583,9 +1583,9 @@
       "id": "4B5DDF0A75C1462D",
       "title": "Quantum coherent patch functional array",
       "subtitle": "Five types of devices perform their own duties in the same array",
-      "description": "[
-        \"Combine capacitors, diodes, resistors, transistors and inductors into a functional array. All types of devices are fully input, and the array is then used for module and CPU packaging.\"
-      ]",
+      "description": [
+        "\"Combine capacitors, diodes, resistors, transistors and inductors into a functional array. All types of devices are fully input, and the array is then used for module and CPU packaging.\""
+      ],
       "dependencies": [
         "4B58448C233249F4",
         "4B55CE93B7ECE052",
@@ -1612,9 +1612,9 @@
       "id": "4B51D216A73E0342",
       "title": "Quantum Coherent CPU",
       "subtitle": "Seal the logic die into independent computing cores",
-      "description": "[
-        \"Packaging the logic die and its internal cache and local power supply devices. Subsequent final assembly will configure the cross-die shared RAM and carrier board function array.\"
-      ]",
+      "description": [
+        "\"Packaging the logic die and its internal cache and local power supply devices. Subsequent final assembly will configure the cross-die shared RAM and carrier board function array.\""
+      ],
       "dependencies": [
         "4B5B98B637012C23",
         "4B5629C1A06C85A8",
@@ -1638,9 +1638,9 @@
       "id": "4B59AFFCBEEBAFF8",
       "title": "Coherent isolation interposer",
       "subtitle": "Lead dual input fields to independent working branches",
-      "description": "[
-        \"Combine the front-end interface, the platform's printed board and the isolation film to form a double-sided interposer. Connect the reference and working branches before proceeding to readout and final assembly.\"
-      ]",
+      "description": [
+        "\"Combine the front-end interface, the platform's printed board and the isolation film to form a double-sided interposer. Connect the reference and working branches before proceeding to readout and final assembly.\""
+      ],
       "dependencies": [
         "4B58448C233249F4",
         "4B53F12ABED75633"
@@ -1663,9 +1663,9 @@
       "id": "4B5B3D133C93EF51",
       "title": "Balanced coherence readout",
       "subtitle": "Pack paired sampling and background difference into modules",
-      "description": "[
-        \"Encapsulate the local CPU, RAM and clock, and compare the paired sampling results. The readout chip is responsible for the interface and status, and the formal circuit continues to undertake the main computing task.\"
-      ]",
+      "description": [
+        "\"Encapsulate the local CPU, RAM and clock, and compare the paired sampling results. The readout chip is responsible for the interface and status, and the formal circuit continues to undertake the main computing task.\""
+      ],
       "dependencies": [
         "4B51D216A73E0342",
         "4B59AFFCBEEBAFF8",
@@ -1690,9 +1690,9 @@
       "id": "4B5A550E2AF96DEE",
       "title": "Low noise active support cylinder",
       "subtitle": "Install an independent feedback support on the actuator",
-      "description": "[
-        \"Retain the front-stage support structure and add the current working branch and feedback. The completed support cylinder is installed into the QSV execution component.\"
-      ]",
+      "description": [
+        "\"Retain the front-stage support structure and add the current working branch and feedback. The completed support cylinder is installed into the QSV execution component.\""
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B55E5EFF3DE4A90"
@@ -1715,9 +1715,9 @@
       "id": "4B545B327CB61E76",
       "title": "Shunt phase equalization manifold",
       "subtitle": "Liquid inlet and liquid return take independent branches.",
-      "description": "[
-        \"Insert the extended pipe section and partition into the manifold, separate the return liquid and maintain uniform temperature. After collecting the hot coolant, the manifold continues to participate in the final assembly of circuits and actuators.\"
-      ]",
+      "description": [
+        "\"Insert the extended pipe section and partition into the manifold, separate the return liquid and maintain uniform temperature. After collecting the hot coolant, the manifold continues to participate in the final assembly of circuits and actuators.\""
+      ],
       "dependencies": [
         "4B5786FC3EEB8ACA",
         "4B5451646EFDB638",
@@ -1741,9 +1741,9 @@
       "id": "4B5B95EB3F6F296A",
       "title": "QSV Rhythm Coupling Processor Host",
       "subtitle": "Isolate dual branches to achieve balanced coherent readout",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a rhythm coupling processor host. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a rhythm coupling processor host. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1768,9 +1768,9 @@
       "id": "4B50F0CCA9C3439A",
       "title": "QSV collapsible resonance supercomputer",
       "subtitle": "Isolate dual branches to achieve balanced coherent readout",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a collapse energy resonance supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a collapse energy resonance supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1795,9 +1795,9 @@
       "id": "4B5448698C68C1AF",
       "title": "QSV Quantum Bridge Processor Assembly",
       "subtitle": "Isolate dual branches to achieve balanced coherent readout",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum bridge processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum bridge processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1822,9 +1822,9 @@
       "id": "4B5FB4B284823B4C",
       "title": "QSV Quantum Coherence Processor",
       "subtitle": "Isolate dual branches to achieve balanced coherent readout",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum coherent processor. Prepare computing components for subsequent execution components and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum coherent processor. Prepare computing components for subsequent execution components and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5B3D133C93EF51",
         "4B545B327CB61E76",
@@ -1848,9 +1848,9 @@
       "id": "4B540596FFF57D7E",
       "title": "QSV electric motor",
       "subtitle": "Provides independent rotational drive",
-      "description": "[
-        \"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B5A550E2AF96DEE",
         "4B5FB4B284823B4C",
@@ -1874,9 +1874,9 @@
       "id": "4B56A2D62637B307",
       "title": "QSV electric piston",
       "subtitle": "Convert drive into controlled linear motion",
-      "description": "[
-        \"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B540596FFF57D7E",
         "4B5826E04A2AEC8D"
@@ -1899,9 +1899,9 @@
       "id": "4B540D45EA680892",
       "title": "QSV electric pump",
       "subtitle": "Provide conveying power for independent flow paths",
-      "description": "[
-        \"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B540596FFF57D7E",
         "4B56E43CD5646D21"
@@ -1924,9 +1924,9 @@
       "id": "4B55D47F3B4611E4",
       "title": "QSV conveyor module",
       "subtitle": "Continuous transfer of materials in existing production lines",
-      "description": "[
-        \"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B540596FFF57D7E",
         "4B521803CFDA2528"
@@ -1949,9 +1949,9 @@
       "id": "4B5A4C311E407536",
       "title": "QSV robotic arm",
       "subtitle": "Connect positioning and execution to the same component",
-      "description": "[
-        \"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\""
+      ],
       "dependencies": [
         "4B56A2D62637B307",
         "4B5BF2B664146748"
@@ -1974,9 +1974,9 @@
       "id": "4B5DBB54FFD6AAAB",
       "title": "QSV sensor",
       "subtitle": "Send the measurement results to the current level of control",
-      "description": "[
-        \"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\"
-      ]",
+      "description": [
+        "\"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\""
+      ],
       "dependencies": [
         "4B5FB4B284823B4C",
         "4B5F799023731291"
@@ -1999,9 +1999,9 @@
       "id": "4B59BB6EDF618991",
       "title": "QSV transmitter",
       "subtitle": "Prepare launch components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\""
+      ],
       "dependencies": [
         "4B5FB4B284823B4C",
         "4B5448B56EC161A9"
@@ -2024,9 +2024,9 @@
       "id": "4B51555675FC5DC0",
       "title": "QSV force field generator",
       "subtitle": "Prepare force field components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B5DBB54FFD6AAAB",
         "4B59BB6EDF618991",
@@ -2050,9 +2050,9 @@
       "id": "4B524A7EBD920FBD",
       "title": "Zoned Reactor Instrument Control Manifold",
       "subtitle": "Read hot zone, rod position and leakage signals separately",
-      "description": "[
-        \"Assemble the measurement and control channels of each area into independent manifolds. First, prepare the existing manufacturing equipment, and then assemble the medium-sized reactor controller.\"
-      ]",
+      "description": [
+        "\"Assemble the measurement and control channels of each area into independent manifolds. First, prepare the existing manufacturing equipment, and then assemble the medium-sized reactor controller.\""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B56E43CD5646D21",
@@ -2076,9 +2076,9 @@
       "id": "4B5F95C3A9ADC01B",
       "title": "Medium sized Honkai energy reactor",
       "subtitle": "Partition the fuel channel and temperature control loop",
-      "description": "[
-        \"After completing the corresponding research, a medium-sized reactor controller will be manufactured. The instrument control manifold is connected to each partition and manages the fuel channel with independent temperature control.\"
-      ]",
+      "description": [
+        "\"After completing the corresponding research, a medium-sized reactor controller will be manufactured. The instrument control manifold is connected to each partition and manages the fuel channel with independent temperature control.\""
+      ],
       "dependencies": [
         "4B544DD9CC0A571D",
         "4B5FD3C3095F875E",
@@ -2103,9 +2103,9 @@
       "id": "4B5FE143B2CE31BD",
       "title": "Honkai Impact Reality Anchor",
       "subtitle": "Connect multi-point feedback into real-life stabilization equipment",
-      "description": "[
-        \"Prepare all instrument control and front-end engineering components to create a realistic stable anchor controller. Subsequent stable working conditions are run through multi-point feedback of the equipment.\"
-      ]",
+      "description": [
+        "\"Prepare all instrument control and front-end engineering components to create a realistic stable anchor controller. Subsequent stable working conditions are run through multi-point feedback of the equipment.\""
+      ],
       "dependencies": [
         "4B5E4351A34E6E51",
         "4B5FD3C3095F875E",
@@ -2130,9 +2130,9 @@
       "id": "4B56099C65254689",
       "title": "Second-order solid-state collapse energy detector",
       "subtitle": "Complete upgrade from front-stage detector",
-      "description": "[
-        \"Combine the front-end detector with the sampling, differential and isolation components of this section to make a solid-state detector, and then connect it to the corresponding collection tower.\"
-      ]",
+      "description": [
+        "\"Combine the front-end detector with the sampling, differential and isolation components of this section to make a solid-state detector, and then connect it to the corresponding collection tower.\""
+      ],
       "dependencies": [
         "4B5BD9A686D81920",
         "4B56E43CD5646D21",
@@ -2156,9 +2156,9 @@
       "id": "4B5407FE468C06F4",
       "title": "Second level Honkai energy collection tower",
       "subtitle": "Build separate lines for solid-state acquisition",
-      "description": "[
-        \"Use the already made solid-state detector to assemble the second-stage acquisition tower. Each phase state acquisition line can be reserved separately to continuously supply different processes.\"
-      ]",
+      "description": [
+        "\"Use the already made solid-state detector to assemble the second-stage acquisition tower. Each phase state acquisition line can be reserved separately to continuously supply different processes.\""
+      ],
       "dependencies": [
         "4B5FD3C3095F875E",
         "4B56099C65254689",
@@ -2182,9 +2182,9 @@
       "id": "4B5BAE40F5AFC07D",
       "title": "Supercritical fuel pressure-bearing tooling assembly",
       "subtitle": "Activation tooling · HDV working conditions",
-      "description": "[
-        \"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\"
-      ]",
+      "description": [
+        "\"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\""
+      ],
       "dependencies": [
         "4B544DD9CC0A571D"
       ],
@@ -2210,9 +2210,9 @@
       "id": "4B5F99569660B4DB",
       "title": "Fresh preparation of supercritical collapse fuel",
       "subtitle": "Energetic fuel · HDV operating conditions",
-      "description": "[
-        \"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\"
-      ]",
+      "description": [
+        "\"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\""
+      ],
       "dependencies": [
         "4B5BAE40F5AFC07D"
       ],
@@ -2235,10 +2235,10 @@
       "id": "4B540C3CD6E1C789",
       "title": "Medium-sized Honkai energy reactor·Honkai fuel rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert Honkai fuel rods into the medium-sized Honkai energy reactor, and replenish supercritical Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Common first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert Honkai fuel rods into the medium-sized Honkai energy reactor, and replenish supercritical Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Common first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2262,10 +2262,10 @@
       "id": "4B58A5775A7230DA",
       "title": "Medium-sized Honkai energy reactor·Concentrated Honkai fuel rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert concentrated Honkai fuel rods into the medium-sized Honkai energy reactor, and replenish supercritical Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charge 2 groups, specification 1 company, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. Concentrated long-period fuel, with the highest heat load. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert concentrated Honkai fuel rods into the medium-sized Honkai energy reactor, and replenish supercritical Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charge 2 groups, specification 1 company, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. Concentrated long-period fuel, with the highest heat load. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2289,10 +2289,10 @@
       "id": "4B5BB623214E3C62",
       "title": "Medium-sized Honkai Energy Reactor·Adsorbed Carbon Core Collapse Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the adsorbed carbon core collapse fuel cartridge into the medium-sized collapse energy reactor, and replenish the supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge 2 groups, specification 1 company, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the adsorbed carbon core collapse fuel cartridge into the medium-sized collapse energy reactor, and replenish the supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge 2 groups, specification 1 company, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2316,10 +2316,10 @@
       "id": "4B57AB116142B3B6",
       "title": "Medium-sized collapse energy reactor·Molecular sieve directional energy-carrying rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert molecular sieve directional energy-carrying rods into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Adsorption carrier, sacrificing power for stable energy release. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert molecular sieve directional energy-carrying rods into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Adsorption carrier, sacrificing power for stable energy release. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2343,10 +2343,10 @@
       "id": "4B58F179C19823AE",
       "title": "Medium-sized Honkai energy reactor · Silica gel solidified Honkai fuel particles",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Fill the medium-sized Honkai energy reactor with silica gel solidified Honkai fuel particles, and replenish supercritical Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Gel is evenly dispersed, long-term operation. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Fill the medium-sized Honkai energy reactor with silica gel solidified Honkai fuel particles, and replenish supercritical Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Gel is evenly dispersed, long-term operation. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2370,10 +2370,10 @@
       "id": "4B588E0EF334DB23",
       "title": "Medium-sized collapse energy reactor · Silicon carbide porous ceramic fuel rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert silicon carbide porous ceramic fuel rods into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 link, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert silicon carbide porous ceramic fuel rods into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 link, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2397,10 +2397,10 @@
       "id": "4B59F2737629294D",
       "title": "Medium-sized collapse energy reactor · Boron carbide gradient particle fuel cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the boron carbide gradient particle fuel cartridge into the medium-sized collapse energy reactor, and replenish the supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge 2 groups, specification 1 company, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by independent loops according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the boron carbide gradient particle fuel cartridge into the medium-sized collapse energy reactor, and replenish the supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge 2 groups, specification 1 company, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by independent loops according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2424,10 +2424,10 @@
       "id": "4B5DBAA8EF6B7BDC",
       "title": "Medium-sized collapse energy reactor·Zirconium oxide gradient ceramic fuel beads",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert zirconium oxide gradient ceramic fuel beads into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, total of 2 physical rods; consumption of 4mB supercritical collapse fuel. High temperature stable carrier, cooling needs to be improved. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert zirconium oxide gradient ceramic fuel beads into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, total of 2 physical rods; consumption of 4mB supercritical collapse fuel. High temperature stable carrier, cooling needs to be improved. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2451,10 +2451,10 @@
       "id": "4B5CF9B3E6C83416",
       "title": "Medium-sized Honkai Energy Reactor·Diamond Copper Skeleton Honkai Fuel Core",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the diamond-copper skeleton collapse fuel core into the medium-sized collapse energy reactor, and replenish the supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by independent loops based on heat inventory. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the diamond-copper skeleton collapse fuel core into the medium-sized collapse energy reactor, and replenish the supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by independent loops based on heat inventory. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2478,10 +2478,10 @@
       "id": "4B5C875F0F840506",
       "title": "Medium-sized collapse energy reactor · Graphene interlayer collapse fuel sheet",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert graphene interlayer collapse fuel sheets into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Thermal microgrid, taking into account power generation and HW. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert graphene interlayer collapse fuel sheets into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Thermal microgrid, taking into account power generation and HW. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2505,10 +2505,10 @@
       "id": "4B5F816F94FE7BFE",
       "title": "Medium-sized collapse energy reactor·Titanium carbide cermet fuel block",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert titanium carbide cermet fuel blocks into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert titanium carbide cermet fuel blocks into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, total of 2 physical rods; consumption of 4mB supercritical collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2532,10 +2532,10 @@
       "id": "4B5B82EECA40B5BD",
       "title": "Medium-sized collapse energy reactor·Alumina insulated microbead fuel bed",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert an alumina insulating microbead fuel bed into a medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charge 2 groups, specification 1 link, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. High-output ceramics, longer operating cycle. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert an alumina insulating microbead fuel bed into a medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charge 2 groups, specification 1 link, a total of 2 physical rods; consumes 4mB supercritical collapse fuel. High-output ceramics, longer operating cycle. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2559,10 +2559,10 @@
       "id": "4B51A7449D9CEBE5",
       "title": "Medium-sized Collapse Energy Reactor·Tungsten Microchannel Collapse Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert a tungsten microchannel collapse fuel cartridge into a medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert a tungsten microchannel collapse fuel cartridge into a medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, a total of 2 physical rods; consumption of 4mB supercritical collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2586,10 +2586,10 @@
       "id": "4B5E3495D5B76DBB",
       "title": "Medium-sized collapsible energy reactor · PTFE cold-end membrane fuel cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert a PTFE cold-end membrane fuel cartridge into a medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge 2 groups, specification 1 company, 2 physical rods in total; consumes 4mB supercritical collapse fuel. Low thermal film carrier, biased toward HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert a PTFE cold-end membrane fuel cartridge into a medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge 2 groups, specification 1 company, 2 physical rods in total; consumes 4mB supercritical collapse fuel. Low thermal film carrier, biased toward HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2613,10 +2613,10 @@
       "id": "4B5CEE063BAA2B6B",
       "title": "Medium-sized collapse energy reactor · PBI cold end microcapsule fuel particles",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert PBI cold-end microcapsule fuel particles into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed charging of 2 groups, specification of 1 company, 2 physical rods in total; consumption of 4mB supercritical collapse fuel. High HW microcapsule carrier, longest operating cycle. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert PBI cold-end microcapsule fuel particles into the medium-sized collapse energy reactor, and replenish supercritical collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed charging of 2 groups, specification of 1 company, 2 physical rods in total; consumption of 4mB supercritical collapse fuel. High HW microcapsule carrier, longest operating cycle. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5F99569660B4DB",
         "4B5F95C3A9ADC01B"
@@ -2640,12 +2640,12 @@
       "id": "4B5F2FBB98E65C9E",
       "title": "imitation core crystal",
       "subtitle": "RN-CCE · Experimental and Formal Research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The real crystallized sample has been tested for composition and lattice to form a valid receipt; the test crystal does not have core capabilities; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the basic crystal of the imitation core crystal reaction chamber will be unlocked, and then different functions will be defined by various core topics.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The real crystallized sample has been tested for composition and lattice to form a valid receipt; the test crystal does not have core capabilities; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the basic crystal of the imitation core crystal reaction chamber will be unlocked, and then different functions will be defined by various core topics.\""
+      ],
       "dependencies": [
         "4B5BD9A686D81920"
       ],
@@ -2668,12 +2668,12 @@
       "id": "4B5BC3C3E40F76B6",
       "title": "Advanced fuel rods and enriched fuel refining",
       "subtitle": "RN-CFR · Experimental and Formal Research",
-      "description": "[
-        \"Liquid fuel and existing concentrated consumables can be obtained after HFB\",
-        \"The team's experiment was completed at the enriched Honkai energy fuel refinery. The actual output of the existing enrichment formula was successfully submitted; the evidence can be recorded in advance, and the formal study still checks SSC, HFB and FRP\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute withholds power based on the total power of the effective energy port. After completion, the liquid initial enrichment can be operated after fuel preparation research; after completing this topic, the routes for enriched fuel rods and fuel cores of seven high-end materials will be opened.\"
-      ]",
+      "description": [
+        "\"Liquid fuel and existing concentrated consumables can be obtained after HFB\"",
+        "\"The team's experiment was completed at the enriched Honkai energy fuel refinery. The actual output of the existing enrichment formula was successfully submitted; the evidence can be recorded in advance, and the formal study still checks SSC, HFB and FRP\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute withholds power based on the total power of the effective energy port. After completion, the liquid initial enrichment can be operated after fuel preparation research; after completing this topic, the routes for enriched fuel rods and fuel cores of seven high-end materials will be opened.\""
+      ],
       "dependencies": [
         "4B5BD9A686D81920"
       ],
@@ -2696,12 +2696,12 @@
       "id": "4B5407261AA82797",
       "title": "Circuit packaging and working condition testing",
       "subtitle": "RN-CPT · Experimental and Formal Research",
-      "description": "[
-        \"Test object: etched circuit layer × 1; paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The packaged test piece completed conduction, insulation and thermal cycle testing; the test piece is not a new-level circuit that can be used to build the first machine; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute withholds power based on the total power of the effective energy port. After completion, the precision packaging and electrical final inspection conditions of the Soul Steel Precision Machining Center are unlocked. Each step is formulated separately; the first set of conditions uses the front-end circuit.\"
-      ]",
+      "description": [
+        "\"Test object: etched circuit layer × 1; paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The packaged test piece completed conduction, insulation and thermal cycle testing; the test piece is not a new-level circuit that can be used to build the first machine; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute withholds power based on the total power of the effective energy port. After completion, the precision packaging and electrical final inspection conditions of the Soul Steel Precision Machining Center are unlocked. Each step is formulated separately; the first set of conditions uses the front-end circuit.\""
+      ],
       "dependencies": [
         "4B5BD9A686D81920"
       ],
@@ -2724,12 +2724,12 @@
       "id": "4B54FB191FF02254",
       "title": "imitation rock core",
       "subtitle": "RN-GCA · Experimental and formal research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. Detect the response difference of the specimen under field/baseline conditions to form a traceable batch; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the imitation rock core and gravitational compression theory will be unlocked.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. Detect the response difference of the specimen under field/baseline conditions to form a traceable batch; the original quantity of the inspected object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the imitation rock core and gravitational compression theory will be unlocked.\""
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E"
       ],
@@ -2752,12 +2752,12 @@
       "id": "4B544DD9CC0A571D",
       "title": "Medium Reactor Engineering",
       "subtitle": "RN-MRE · Experimental and Formal Research",
-      "description": "[
-        \"Fuel packaging component × 1; paper × 2; tooling is not consumed.\",
-        \"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The test piece actually completed the controlled thermal response and sealing test; it was verified that there were power generation, heat exchange, and post-processing batches; the original quantity of the inspected object was returned, and the experiment was subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the construction and energy supply conditions of the medium-sized collapse energy reactor will be unlocked.\"
-      ]",
+      "description": [
+        "\"Fuel packaging component × 1; paper × 2; tooling is not consumed.\"",
+        "\"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The test piece actually completed the controlled thermal response and sealing test; it was verified that there were power generation, heat exchange, and post-processing batches; the original quantity of the inspected object was returned, and the experiment was subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the construction and energy supply conditions of the medium-sized collapse energy reactor will be unlocked.\""
+      ],
       "dependencies": [
         "4B5BC3C3E40F76B6",
         "4B5FCABEEB611F12"
@@ -2781,12 +2781,12 @@
       "id": "4B5E4351A34E6E51",
       "title": "reality anchor principle",
       "subtitle": "RN-RAT · Experimental and formal research",
-      "description": "[
-        \"Test object: Honkai energy standard sample × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The pre- and post-interference readings of the same specimen form a valid inspection receipt; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 90 research points or MAX circuit × 2, steel plate × 32 to pay the base fee; an additional 1,800 ticks and 8,053,063,680 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
-        \"The research institute deducts power according to the total power of the effective energy port. After completion, the basic manufacturing and use of the Honkai Energy Reality Stabilizer will be unlocked.\"
-      ]",
+      "description": [
+        "\"Test object: Honkai energy standard sample × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The pre- and post-interference readings of the same specimen form a valid inspection receipt; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 90 research points or MAX circuit × 2, steel plate × 32 to pay the base fee; an additional 1,800 ticks and 8,053,063,680 EU/t are required. Advanced ones are corrected according to the current material pressure.\"",
+        "\"The research institute deducts power according to the total power of the effective energy port. After completion, the basic manufacturing and use of the Honkai Energy Reality Stabilizer will be unlocked.\""
+      ],
       "dependencies": [
         "4B5BE03D48DB244E"
       ],
@@ -2809,12 +2809,12 @@
       "id": "4B5BD9A686D81920",
       "title": "Solid state collapse energy harvesting",
       "subtitle": "RN-SSC · Experimental and formal research",
-      "description": "[
-        \"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. Really complete the response detection of the liquid sample and the constrained specimen, and associate the original collection and sample preparation batch; the original amount of the tested object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, unlock the second-order tower and the corresponding solid-state detector; the first solid-state sample is not the front of the tower.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Data Baseboard × 1; Paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. Really complete the response detection of the liquid sample and the constrained specimen, and associate the original collection and sample preparation batch; the original amount of the tested object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, unlock the second-order tower and the corresponding solid-state detector; the first solid-state sample is not the front of the tower.\""
+      ],
       "dependencies": [
         "4B5AFD2871AE846D",
         "4B5FDF3E5109ECC9"

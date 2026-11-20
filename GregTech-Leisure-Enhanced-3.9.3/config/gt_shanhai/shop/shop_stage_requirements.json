@@ -1,0 +1,560 @@
+{
+  "杂货/正常/ulv": [
+    {
+      "id": "kubejs:precision_steam_mechanism",
+      "count": 128
+    },
+    {
+      "id": "gtceu:steam_machine_casing",
+      "count": 128
+    },
+    {
+      "id": "gtceu:lp_steam_solid_boiler",
+      "count": 32
+    }
+  ],
+  "杂货/正常/lv": [
+    {
+      "id": "kubejs:lv_universal_circuit",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:lv_field_generator",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:lv_fluid_regulator",
+      "count": 1000
+    }
+  ],
+  "杂货/正常/mv": [
+    {
+      "id": "kubejs:mv_universal_circuit",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:mv_field_generator",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:mv_electric_motor",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:mv_emitter",
+      "count": 1000
+    }
+  ],
+  "杂货/正常/hv": [
+    {
+      "id": "kubejs:hv_universal_circuit",
+      "count": 3000
+    },
+    {
+      "id": "gtceu:hv_electric_motor",
+      "count": 3000
+    },
+    {
+      "id": "gtceu:hv_field_generator",
+      "count": 3000
+    },
+    {
+      "id": "gtceu:hv_sensor",
+      "count": 3000
+    },
+    {
+      "id": "gtceu:hv_conveyor_module",
+      "count": 3000
+    }
+  ],
+  "杂货/正常/ev": [
+    {
+      "id": "kubejs:ev_universal_circuit",
+      "count": 5000
+    },
+    {
+      "id": "gtceu:ev_electric_motor",
+      "count": 5000
+    },
+    {
+      "id": "gtceu:ev_electric_pump",
+      "count": 5000
+    },
+    {
+      "id": "gtceu:ev_fluid_regulator",
+      "count": 5000
+    },
+    {
+      "id": "gtceu:ev_field_generator",
+      "count": 5000
+    },
+    {
+      "id": "gtceu:ev_emitter",
+      "count": 5000
+    }
+  ],
+  "杂货/正常/iv": [
+    {
+      "id": "kubejs:iv_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:iv_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:iv_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:iv_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:iv_sensor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:iv_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:iv_fluid_regulator",
+      "count": 10000
+    }
+  ],
+  "杂货/正常/luv": [
+    {
+      "id": "kubejs:luv_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:luv_field_generator",
+      "count": 10000
+    }
+  ],
+  "杂货/正常/zpm": [
+    {
+      "id": "kubejs:zpm_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:zpm_emitter",
+      "count": 10000
+    }
+  ],
+  "杂货/正常/uv": [
+    {
+      "id": "kubejs:uv_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uv_sensor",
+      "count": 10000
+    }
+  ],
+  "杂货/正常/uhv": [
+    {
+      "id": "kubejs:uhv_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uhv_sensor",
+      "count": 10000
+    },
+    {
+      "id": "gtmthings:uhv_wireless_energy_receive_cover",
+      "count": 100
+    }
+  ],
+  "杂货/正常/uev": [
+    {
+      "id": "kubejs:uev_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uev_sensor",
+      "count": 10000
+    },
+    {
+      "id": "gtmthings:uev_wireless_energy_receive_cover",
+      "count": 100
+    },
+    {
+      "id": "kubejs:uev_voltage_coil",
+      "count": 1000
+    }
+  ],
+  "杂货/正常/uxv": [
+    {
+      "id": "kubejs:uxv_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "kubejs:uxv_voltage_coil",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:uxv_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:uxv_sensor",
+      "count": 10000
+    },
+    {
+      "id": "gtmthings:uxv_wireless_energy_receive_cover",
+      "count": 100
+    }
+  ],
+  "杂货/正常/opv": [
+    {
+      "id": "kubejs:opv_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "kubejs:opv_voltage_coil",
+      "count": 1000
+    },
+    {
+      "id": "gtceu:opv_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtceu:opv_sensor",
+      "count": 10000
+    },
+    {
+      "id": "gtmthings:opv_wireless_energy_receive_cover",
+      "count": 100
+    }
+  ],
+  "杂货/正常/max+": [
+    {
+      "id": "dishanhai:dishanhai",
+      "count": 1
+    }
+  ],
+  "无限盘区/GTCEu全物品": [
+    {
+      "id": "dishanhai:dishanhai",
+      "count": 1
+    },
+    {
+      "id": "dishanhai:big_tear",
+      "count": 10
+    },
+    {
+      "id": "dishanhai:time_reversal_protocol",
+      "count": 10
+    }
+  ],
+  "杂货/正常/max": [
+    {
+      "id": "kubejs:max_universal_circuit",
+      "count": 10000
+    },
+    {
+      "id": "kubejs:suprachronal_max",
+      "count": 10000
+    },
+    {
+      "id": "kubejs:max_voltage_coil",
+      "count": 1000
+    },
+    {
+      "id": "gtmthings:max_wireless_energy_receive_cover",
+      "count": 1000
+    },
+    {
+      "id": "gtlcore:max_electric_motor",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_fluid_regulator",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_electric_pump",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_conveyor_module",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_robot_arm",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_electric_piston",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_field_generator",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_emitter",
+      "count": 10000
+    },
+    {
+      "id": "gtlcore:max_sensor",
+      "count": 10000
+    }
+  ],
+  "杂货/正常/uiv": [
+    {
+      "id": "kubejs:uiv_universal_circuit",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_electric_motor",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_electric_pump",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_fluid_regulator",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_conveyor_module",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_electric_piston",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_robot_arm",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_field_generator",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_emitter",
+      "count": 1000000
+    },
+    {
+      "id": "gtceu:uiv_sensor",
+      "count": 1000000
+    },
+    {
+      "id": "gtmthings:uiv_wireless_energy_receive_cover",
+      "count": 100
+    },
+    {
+      "id": "kubejs:uiv_voltage_coil",
+      "count": 10000
+    }
+  ]
+}

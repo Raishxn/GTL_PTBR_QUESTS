@@ -14,22 +14,22 @@
 		{
 			dependencies: ["46F82A0A3D57C225"]
 			description: [
-		"&6&l» 进入蒸汽时代"
-		"&f- Get the bronze ingot and you can start the age of steam!"
-		"&f- Take courage and step towards the first voltage of GregTech!"
-		""
-		"&6&l» Enhanced version process guide"
-		"&f- In the enhanced version, the steam phase passes very quickly."
-		"&f- Your primary goal is:"
-		""
-		"&a- &freaches the ancient world"
-		"&a- &freceive AE package"
-		"&a- &fwith fragile tool assembly and assembly matrix"
-		"&a- &fUse tool templates to quickly transition to the MV stage"
-		""
-		"&e&l※ Tips"
-		"&e- The steam era is short, please make good use of the resources at hand and quickly move to the next voltage."
-	]
+				"&6&l» 进入蒸汽时代"
+				"&f- Get the bronze ingot and you can start the age of steam!"
+				"&f- Take courage and step towards the first voltage of GregTech!"
+				""
+				"&6&l» Enhanced version process guide"
+				"&f- In the enhanced version, the steam phase passes very quickly."
+				"&f- Your primary goal is:"
+				""
+				"&a- &freaches the ancient world"
+				"&a- &freceive AE package"
+				"&a- &fwith fragile tool assembly and assembly matrix"
+				"&a- &fUse tool templates to quickly transition to the MV stage"
+				""
+				"&e&l※ Tips"
+				"&e- The steam era is short, please make good use of the resources at hand and quickly move to the next voltage."
+			]
 			id: "5F5F348E3A34827E"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -60,14 +60,14 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&6&l» Main source of steam"
-		""
-		"&a&l» Fuel"
-		"&f- Diamonds are the most resistant to burning. It is recommended to burn diamonds directly."
-		""
-		"&4&l» Warning"
-		"&c- The boiler will explode if water is introduced during dry heating!"
-	]
+				"&6&l» Main source of steam"
+				""
+				"&a&l» Fuel"
+				"&f- Diamonds are the most resistant to burning. It is recommended to burn diamonds directly."
+				""
+				"&4&l» Warning"
+				"&c- The boiler will explode if water is introduced during dry heating!"
+			]
 			id: "4BFC342697BDE75A"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -91,14 +91,14 @@
 				"5276CA8FA5262C9B"
 			]
 			description: [
-		"&6&l» Top products in the steam age"
-		"&f- This is the most advanced machine you can get at the steam stage, with multiple recipe modes."
-		"&f- Proper use can greatly improve the gaming experience."
-		"&f- The machine enclosure level determines both the &eparallel processing number &fand the &evoltage level &f."
-		""
-		"&4&l» NOTE"
-		"&c- If it prompts \"The voltage level does not meet the recipe requirements\", please upgrade the machine casing."
-	]
+				"&6&l» Top products in the steam age"
+				"&f- This is the most advanced machine you can get at the steam stage, with multiple recipe modes."
+				"&f- Proper use can greatly improve the gaming experience."
+				"&f- The machine enclosure level determines both the &eparallel processing number &fand the &evoltage level &f."
+				""
+				"&4&l» NOTE"
+				"&c- If it prompts \"The voltage level does not meet the recipe requirements\", please upgrade the machine casing."
+			]
 			icon_scale: 2.0d
 			id: "19A588E594BEF4E9"
 			quest_enhance_disable_scroll_paging: false
@@ -148,7 +148,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- It is recommended to use a compressor directly in the early stage" ]
+			description: [
+				"&f- It is recommended to use a compressor directly in the early stage"
+			]
 			hide_dependency_lines: false
 			id: "79E81CC078F246C0"
 			quest_enhance_disable_scroll_paging: false
@@ -215,10 +217,10 @@
 				"43DE0784E5D32B46"
 			]
 			description: [
-		"&f- Used to make electric machines and warehouses"
-		""
-		"&f- can even be used to store &c&r&eto store &r&apower &b&r&rand &3to connect &r&9to &r&1ME &r&5NET &r&dNET &r!"
-	]
+				"&f- Used to make electric machines and warehouses"
+				""
+				"&f- can even be used to store &c&r&eto store &r&apower &b&r&rand &3to connect &r&9to &r&1ME &r&5NET &r&dNET &r!"
+			]
 			icon_scale: 1.3d
 			id: "7CB85061F0822830"
 			quest_enhance_disable_scroll_paging: false
@@ -248,7 +250,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- The superconducting material of ULV, but now we use it to make ancient reactor cores" ]
+			description: [
+				"&f- The superconducting material of ULV, but now we use it to make ancient reactor cores"
+			]
 			id: "3D65D9712DFB63D9"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -268,10 +272,10 @@
 		{
 			dependencies: ["3D65D9712DFB63D9"]
 			description: [
-		"&a- In the enhanced version, you don't need to mine manually at all!"
-		"&a- Every time you unlock a new world, give priority to viewing the fragment recipes of the corresponding world."
-		"&a- Use the fragment collector to collect ore."
-	]
+				"&a- In the enhanced version, you don't need to mine manually at all!"
+				"&a- Every time you unlock a new world, give priority to viewing the fragment recipes of the corresponding world."
+				"&a- Use the fragment collector to collect ore."
+			]
 			icon: "kubejs:reactor_core"
 			id: "00579BDA1FA1BEC6"
 			quest_enhance_disable_scroll_paging: false
@@ -300,9 +304,9 @@
 		{
 			dependencies: ["00579BDA1FA1BEC6"]
 			description: [
-		"&f- If the block name of a certain dimension is displayed in the lower right corner of the JEI recipe, it means that the recipe &bcan only be produced in the corresponding dimension &f"
-		"&f- Example: Damascus Steel Powder can only be crafted in the Ancient World"
-	]
+				"&f- If the block name of a certain dimension is displayed in the lower right corner of the JEI recipe, it means that the recipe &bcan only be produced in the corresponding dimension &f"
+				"&f- Example: Damascus Steel Powder can only be crafted in the Ancient World"
+			]
 			icon: "kubejs:reactor_core"
 			icon_scale: 2.0d
 			id: "335ED39019FC62E7"
@@ -373,7 +377,9 @@
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
-			description: [""]
+			description: [
+				""
+			]
 			id: "12FE2B59FA86381C"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -401,7 +407,9 @@
 		}
 		{
 			dependencies: ["12FE2B59FA86381C"]
-			description: [ "&f- \"About the incident where my AE sister forced me to turn on automation before I could rub my hands enough in the first ten minutes\"" ]
+			description: [
+				"&f- \"About the incident where my AE sister forced me to turn on automation before I could rub my hands enough in the first ten minutes\""
+			]
 			icon: "ae2:guide"
 			id: "6E69F45AEA66D5ED"
 			quest_enhance_disable_scroll_paging: false
@@ -445,11 +453,11 @@
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
 			description: [
-		"&f- In the enhanced version, the parallel processing unit is not of much use"
-		"&f- Too high parallelism will affect TPS, so it is not recommended to create high parallelism."
-		"&f- EAEP comes with doubled intelligence, and the super model assembly also comes with doubled intelligence"
-		"&f- The 64-bit parallelism provided can be used until graduation."
-	]
+				"&f- In the enhanced version, the parallel processing unit is not of much use"
+				"&f- Too high parallelism will affect TPS, so it is not recommended to create high parallelism."
+				"&f- EAEP comes with doubled intelligence, and the super model assembly also comes with doubled intelligence"
+				"&f- The 64-bit parallelism provided can be used until graduation."
+			]
 			icon: "ae2:drive"
 			id: "007BBB3D4E349869"
 			optional: true
@@ -501,23 +509,23 @@
 		{
 			dependencies: ["007BBB3D4E349869"]
 			description: [
-		"&5▌ Very cost-effective"
-		""
-		"&f- Receipt tips:"
-		"&7• Please ensure that the backpack has at least &e34 empty spaces when receiving it."
-		"&7• When there is insufficient space in the backpack, please stand in a safe position before picking up to avoid losing structural items."
-		""
-		"&f- GT version super molecule assembly room:"
-		"&a- • No need to consume EU"
-		"&a- • Supports cross-recipe parallelism"
-		"&a- • Interaction with ME network via matrix port"
-		""
-		"&6Five speed cores &rcan achieve the minimum time consumption (1 tick)."
-		""
-		"&f- Notes:"
-		"&b• Cores can only replace molecular machinery blocks within the central structure."
-		"&c• Matrix ports cannot be synthesized using the template assembly."
-	]
+				"&5▌ Very cost-effective"
+				""
+				"&f- Receipt tips:"
+				"&7• Please ensure that the backpack has at least &e34 empty spaces when receiving it."
+				"&7• When there is insufficient space in the backpack, please stand in a safe position before picking up to avoid losing structural items."
+				""
+				"&f- GT version super molecule assembly room:"
+				"&a- • No need to consume EU"
+				"&a- • Supports cross-recipe parallelism"
+				"&a- • Interaction with ME network via matrix port"
+				""
+				"&6Five speed cores &rcan achieve the minimum time consumption (1 tick)."
+				""
+				"&f- Notes:"
+				"&b• Cores can only replace molecular machinery blocks within the central structure."
+				"&c• Matrix ports cannot be synthesized using the template assembly."
+			]
 			icon: "gtceu:molecular_assembler_matrix"
 			id: "077EBB4D37275000"
 			quest_enhance_disable_scroll_paging: false
@@ -542,16 +550,16 @@
 		{
 			dependencies: ["077EBB4D37275000"]
 			description: [
-		"&6&lME Placement Tool 「 Wonderful Tool 」"
-		"&9is a set of convenient placement tools specially designed for ME systems, covering ordinary placement, batch placement and cable laying."
-		""
-		"&7▌ Function:"
-		"&f- \"&6ME Placement Tool &f\": After binding the wireless access node, right-click to open the GUI and fill in the items. Press the G key to switch the placed items. The items will be automatically extracted from AE and placed."
-		""
-		"&f- \"&6ME multi-block placement tool &f\": The function is the same as above, but it supports the selection of the placement quantity, and has batch placement similar to construction canes."
-		""
-		"&f- \"&6ME Cable Placement Tool &f\": supports point-to-point selection of starting point and end point, and automatically lays specified AE cables"
-	]
+				"&6&lME Placement Tool 「 Wonderful Tool 」"
+				"&9is a set of convenient placement tools specially designed for ME systems, covering ordinary placement, batch placement and cable laying."
+				""
+				"&7▌ Function:"
+				"&f- \"&6ME Placement Tool &f\": After binding the wireless access node, right-click to open the GUI and fill in the items. Press the G key to switch the placed items. The items will be automatically extracted from AE and placed."
+				""
+				"&f- \"&6ME multi-block placement tool &f\": The function is the same as above, but it supports the selection of the placement quantity, and has batch placement similar to construction canes."
+				""
+				"&f- \"&6ME Cable Placement Tool &f\": supports point-to-point selection of starting point and end point, and automatically lays specified AE cables"
+			]
 			icon: "meplacementtool:me_placement_tool"
 			id: "761EBFF727E3354F"
 			quest_enhance_disable_scroll_paging: false
@@ -601,13 +609,13 @@
 		}
 		{
 			dependencies: ["077EBB4D37275000"]
-			description: "[
-				\"&6&l» Wireless ME Network Core\"
-				\"&f- After connecting the core to the ME network, all &dME warehouses&r will &bwirelessly connect&r to the network.\"
-				\"&f- When connecting, the cable &a needs to be facing the connection point of the &f core.\"
-				\"\"
-				\"&cNote&f: The automatic connection function is only effective for GT's &dME warehouse&r and cannot be used for AE's supplier and ME interface.\"
-			]"
+			description: [
+				"\"&6&l» Wireless ME Network Core\""
+				"\"&f- After connecting the core to the ME network, all &dME warehouses&r will &bwirelessly connect&r to the network.\""
+				"\"&f- When connecting, the cable &a needs to be facing the connection point of the &f core.\""
+				""
+				"\"&cNote&f: The automatic connection function is only effective for GT's &dME warehouse&r and cannot be used for AE's supplier and ME interface.\""
+			]
 			icon: "gtlcore:wireless_network_core"
 			id: "6EEC81A045D3E304"
 			quest_enhance_disable_scroll_paging: false
@@ -635,7 +643,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- Grind the powder directly with a mortar and then synthesize it directly" ]
+			description: [
+				"&f- Grind the powder directly with a mortar and then synthesize it directly"
+			]
 			icon: "gtceu:fireclay_dust"
 			id: "36A49197309D1F09"
 			min_required_tasks: 1
@@ -674,10 +684,10 @@
 		{
 			dependencies: ["36A49197309D1F09"]
 			description: [
-		"&f- You can start making steel"
-		""
-		"&f- You can also directly make &5, Ultra Dimension and other earth forges &r"
-	]
+				"&f- You can start making steel"
+				""
+				"&f- You can also directly make &5, Ultra Dimension and other earth forges &r"
+			]
 			icon: "gtceu:primitive_blast_furnace"
 			icon_scale: 2.0d
 			id: "5CE50DDC960340D8"
@@ -726,14 +736,14 @@
 		{
 			dependencies: ["5CE50DDC960340D8"]
 			description: [
-		"&f- Has and only the underlying &6refractory bricks &fcan be replaced with the &binput/output bus"
-		"&f- Please ensure that the input bus and output bus space are sufficient for &bForge &foperation"
-		""
-		"&f- &c&lNOTE: Steam bus &r&fis not available"
-		"&f- This machine is not a steam machine, &c&ldoes not require a steam input bin"
-		""
-		"&l· &4This machine is not a furnace, it is only used to burn steel ingots"
-	]
+				"&f- Has and only the underlying &6refractory bricks &fcan be replaced with the &binput/output bus"
+				"&f- Please ensure that the input bus and output bus space are sufficient for &bForge &foperation"
+				""
+				"&f- &c&lNOTE: Steam bus &r&fis not available"
+				"&f- This machine is not a steam machine, &c&ldoes not require a steam input bin"
+				""
+				"&l· &4This machine is not a furnace, it is only used to burn steel ingots"
+			]
 			icon: "gtceu:dimensionally_transcendent_dirt_forge"
 			icon_scale: 1.3d
 			id: "0662E205D1783D31"
@@ -811,7 +821,9 @@
 		}
 		{
 			dependencies: ["388BD32463FA905D"]
-			description: [""]
+			description: [
+				""
+			]
 			id: "02375F5D54E5F347"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -838,12 +850,12 @@
 		{
 			dependencies: ["7CB85061F0822830"]
 			description: [
-		"&l· &bcan be shared"
-		""
-		"&f- Except for a few machines, all multi-block machines that require a silencer chamber can use &6LV silencer chamber &f, the advanced silencer chamber has no practical use"
-		""
-		"&f- Even if the silencer chamber is full of ashes &f, it will not affect the work of the machine."
-	]
+				"&l· &bcan be shared"
+				""
+				"&f- Except for a few machines, all multi-block machines that require a silencer chamber can use &6LV silencer chamber &f, the advanced silencer chamber has no practical use"
+				""
+				"&f- Even if the silencer chamber is full of ashes &f, it will not affect the work of the machine."
+			]
 			hide_dependent_lines: true
 			id: "38CC43F7A6A39BB4"
 			quest_enhance_disable_scroll_paging: false
@@ -870,7 +882,9 @@
 			y: 3.0d
 		}
 		{
-			description: [ "&a- It’s really difficult for you to press the mold in the early stage." ]
+			description: [
+				"&a- It’s really difficult for you to press the mold in the early stage."
+			]
 			icon: "gtceu:glass_tube"
 			id: "707E5114B7979898"
 			quest_enhance_disable_scroll_paging: false
@@ -906,7 +920,9 @@
 		}
 		{
 			dependencies: ["707E5114B7979898"]
-			description: [ "&f- 你的第一颗ULV电路，你需要用它帮忙做更便宜的，做几个就够了" ]
+			description: [
+				"&f- 你的第一颗ULV电路，你需要用它帮忙做更便宜的，做几个就够了"
+			]
 			icon_scale: 2.0d
 			id: "5CD26DECB937FC71"
 			quest_enhance_disable_scroll_paging: false
@@ -1034,7 +1050,9 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
-			description: [ "&a- No need to produce singularities and matter balls anymore" ]
+			description: [
+				"&a- No need to produce singularities and matter balls anymore"
+			]
 			hide_dependency_lines: true
 			id: "144AC3BC2AA25E63"
 			optional: true
@@ -1089,7 +1107,9 @@
 				"06285BE2396AB639"
 				"5CD26DECB937FC71"
 			]
-			description: [ "&f- Very cheap circuit, this series goes all the way to EV" ]
+			description: [
+				"&f- Very cheap circuit, this series goes all the way to EV"
+			]
 			icon_scale: 2.0d
 			id: "08B7D8F835DFE214"
 			quest_enhance_disable_scroll_paging: false
@@ -1110,7 +1130,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "&f- Centrifugal Viscous Resin" ]
+			description: [
+				"&f- Centrifugal Viscous Resin"
+			]
 			hide_dependency_lines: true
 			icon: "gtceu:glue_bucket"
 			id: "06285BE2396AB639"
@@ -1142,7 +1164,9 @@
 		}
 		{
 			dependencies: ["19A588E594BEF4E9"]
-			description: [ "This alloy is the raw material needed for many subsequent electronic components." ]
+			description: [
+				"This alloy is the raw material needed for many subsequent electronic components."
+			]
 			id: "3C91E284A9A03B1B"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1161,7 +1185,9 @@
 		}
 		{
 			dependencies: ["5F5F348E3A34827E"]
-			description: [ "&f- Rely on this to create a super strong steam multi-block structure" ]
+			description: [
+				"&f- Rely on this to create a super strong steam multi-block structure"
+			]
 			id: "5276CA8FA5262C9B"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [
@@ -1193,7 +1219,9 @@
 				"3C91E284A9A03B1B"
 			]
 			dependency_requirement: "one_completed"
-			description: [ "&f- You don’t need to do a lot, just do a few." ]
+			description: [
+				"&f- You don’t need to do a lot, just do a few."
+			]
 			icon_scale: 2.0d
 			id: "5065BEDC95AE564E"
 			min_required_dependencies: 2
@@ -1214,7 +1242,9 @@
 			y: 5.0d
 		}
 		{
-			description: [""]
+			description: [
+				""
+			]
 			id: "77A1011F608079C9"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1233,7 +1263,9 @@
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
-			description: [""]
+			description: [
+				""
+			]
 			id: "6D729450ED86BDAF"
 			quest_enhance_disable_scroll_paging: false
 			rewards: [{
@@ -1291,7 +1323,9 @@
 				"08B7D8F835DFE214"
 				"5065BEDC95AE564E"
 			]
-			description: [ "&f- This is a cheap LV circuit" ]
+			description: [
+				"&f- This is a cheap LV circuit"
+			]
 			icon_scale: 2.0d
 			id: "553B2D61416792DC"
 			quest_enhance_disable_scroll_paging: false
@@ -1314,14 +1348,14 @@
 		{
 			dependencies: ["553B2D61416792DC"]
 			description: [
-		"&f- The large steam boiler has been greatly strengthened, and the amount of steam produced has been greatly increased."
-		""
-		"&f- bottom placement &binput bin/input bus/input assembly &f, &bmaintenance bin &f, &bsilencer bin &f"
-		""
-		"&f- &boutput bin &fplaced on the second to fourth floors"
-		""
-		"&l· &cNote &f: Do not use a giant input assembly in the boiler, as it may cause a crash"
-	]
+				"&f- The large steam boiler has been greatly strengthened, and the amount of steam produced has been greatly increased."
+				""
+				"&f- bottom placement &binput bin/input bus/input assembly &f, &bmaintenance bin &f, &bsilencer bin &f"
+				""
+				"&f- &boutput bin &fplaced on the second to fourth floors"
+				""
+				"&l· &cNote &f: Do not use a giant input assembly in the boiler, as it may cause a crash"
+			]
 			icon_scale: 2.0d
 			id: "328D5CF265FCCCA3"
 			quest_enhance_disable_scroll_paging: false
@@ -1353,12 +1387,12 @@
 			can_repeat: true
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&f- This command increases your reach"
-		"&f- The default setting is 15 if it feels too low or too high"
-		""
-		"&f- can be modified using the following command"
-		"&l&b/attribute @p forge:block_reach base set 15"
-	]
+				"&f- This command increases your reach"
+				"&f- The default setting is 15 if it feels too low or too high"
+				""
+				"&f- can be modified using the following command"
+				"&l&b/attribute @p forge:block_reach base set 15"
+			]
 			icon: "gtceu:silicone_rubber_ingot"
 			id: "790B1D35140D65FA"
 			optional: true
@@ -1382,15 +1416,15 @@
 			can_repeat: true
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&6&l» Logistics pipelines from Pipez"
-		"&f- Better to use than Gray's original pipeline, but heavy use will cause &cTPS to decrease"
-		""
-		"&a&l» Advantages"
-		"&f- Far superior to Gray's original pipe in terms of ease of operation and functionality."
-		""
-		"&e&l» Usage suggestions"
-		"&f- It is recommended to use &fsparingly only in the early game &6as a transitional solution."
-	]
+				"&6&l» Logistics pipelines from Pipez"
+				"&f- Better to use than Gray's original pipeline, but heavy use will cause &cTPS to decrease"
+				""
+				"&a&l» Advantages"
+				"&f- Far superior to Gray's original pipe in terms of ease of operation and functionality."
+				""
+				"&e&l» Usage suggestions"
+				"&f- It is recommended to use &fsparingly only in the early game &6as a transitional solution."
+			]
 			hide_dependent_lines: true
 			icon: "pipez:universal_pipe"
 			id: "781417A4FA36101D"
@@ -1426,7 +1460,9 @@
 		}
 		{
 			dependencies: ["08B7D8F835DFE214"]
-			description: [ "&f- Used with ME interface to achieve amazing transmission efficiency" ]
+			description: [
+				"&f- Used with ME interface to achieve amazing transmission efficiency"
+			]
 			id: "205B11E482DDF464"
 			optional: true
 			quest_enhance_disable_scroll_paging: false
@@ -1463,9 +1499,9 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&f- In this pack, ordinary energy bins can be directly crafted into &dwireless version &for &6grid version &f"
-		"&f- Strongly recommended to synthesize into &6grid energy warehouse version"
-	]
+				"&f- In this pack, ordinary energy bins can be directly crafted into &dwireless version &for &6grid version &f"
+				"&f- Strongly recommended to synthesize into &6grid energy warehouse version"
+			]
 			icon: "gtmadvancedhatch:lv_2a_net_energy_input_hatch"
 			id: "0077892401F923A5"
 			quest_enhance_disable_scroll_paging: false
@@ -1481,11 +1517,11 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-		"&f- Place the machine in &6Sky Island World &fand input &aSteam &fto produce all minerals in the main world"
-		"&f- Ore production rate &620 groups per second &f, which can save a lot of small mining in the early stage"
-		""
-		"&f- This is a multi-block structure machine"
-	]
+				"&f- Place the machine in &6Sky Island World &fand input &aSteam &fto produce all minerals in the main world"
+				"&f- Ore production rate &620 groups per second &f, which can save a lot of small mining in the early stage"
+				""
+				"&f- This is a multi-block structure machine"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "1AB29FA99478121D"
@@ -1522,6 +1558,8 @@
 			y: -3.0d
 		}
 	]
-	subtitle: [ "Tier0.5-ULV" ]
+	subtitle: [
+				"Tier0.5-ULV"
+			]
 	title: "Steam Age ULV"
 }

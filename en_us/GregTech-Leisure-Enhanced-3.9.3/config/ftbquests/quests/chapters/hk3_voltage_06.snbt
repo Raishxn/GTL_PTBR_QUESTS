@@ -3,8 +3,8 @@
   "id": "4B515114941CD050",
   "title": "Coherence pressure QCV",
   "subtitle": [
-    "Tier20-QCV"
-  ],
+        "Tier20-QCV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 21,
   "icon": "hk3gtl:voltage_machine_casing_qcv",
@@ -14,10 +14,10 @@
       "id": "4B5A4EE36C5768ED",
       "title": "Continue from QSV workshop",
       "subtitle": "QSV → QCV",
-      "description": "[
-        \"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to manufacture the first batch of QCV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to manufacture the first batch of QCV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B531C5843C8CA9D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B5F27DFD542861F",
       "title": "Interference optical path routing film",
       "subtitle": "Arrange equal length optical paths and alignment windows",
-      "description": "[
-        \"Prepare an optical path grid on the front-end interface and leave an alignable window. The reference and working signals enter the subsequent decoding module from their respective optical paths.\"
-      ]",
+      "description": [
+        "\"Prepare an optical path grid on the front-end interface and leave an alignable window. The reference and working signals enter the subsequent decoding module from their respective optical paths.\""
+      ],
       "dependencies": [
         "4B5CF6430127290A",
         "4B54610F11B937EC",
@@ -65,9 +65,9 @@
       "id": "4B560E71B07461A1",
       "title": "Phase difference decoding module",
       "subtitle": "Read the optical path difference and unfold the phase change",
-      "description": "[
-        \"Connect the routing chip to local computing, storage and timing components and seal it into a phase difference decoding module. Subsequent circuits and execution components can read the phase changes accordingly.\"
-      ]",
+      "description": [
+        "\"Connect the routing chip to local computing, storage and timing components and seal it into a phase difference decoding module. Subsequent circuits and execution components can read the phase changes accordingly.\""
+      ],
       "dependencies": [
         "4B5F27DFD542861F",
         "4B5BC89DB94CBBA1",
@@ -91,9 +91,9 @@
       "id": "4B51D710544E9513",
       "title": "Grating closed loop driver package",
       "subtitle": "Let raster readings participate in positioning",
-      "description": "[
-        \"Add grating encoding and closed-loop execution components to the front-end support to create an independently installable driver package.\"
-      ]",
+      "description": [
+        "\"Add grating encoding and closed-loop execution components to the front-end support to create an independently installable driver package.\""
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B52A38ECBBC7D1B",
@@ -117,9 +117,9 @@
       "id": "4B578111155CA2B0",
       "title": "Vacuum return isolation manifold",
       "subtitle": "Isolate reflux and maintain airtight uniform temperature",
-      "description": "[
-        \"Add an independent return branch and partition to the front-end pipeline. Seal the airtight interface and provide corresponding temperature control paths for the circuit and actuator.\"
-      ]",
+      "description": [
+        "\"Add an independent return branch and partition to the front-end pipeline. Seal the airtight interface and provide corresponding temperature control paths for the circuit and actuator.\""
+      ],
       "dependencies": [
         "4B5BC89DB94CBBA1",
         "4B5CF6430127290A",
@@ -143,9 +143,9 @@
       "id": "4B5193E0D06811F7",
       "title": "QCV Collapse Energy Resonance Processor Host",
       "subtitle": "Optical path routing, phase difference decoding and independent reflow",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a collapse energy resonance processor host. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a collapse energy resonance processor host. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -170,9 +170,9 @@
       "id": "4B5FD77A9DD44CF7",
       "title": "QCV Quantum Bridge Supercomputer",
       "subtitle": "Optical path routing, phase difference decoding and independent reflow",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a quantum bridge supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a quantum bridge supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -197,9 +197,9 @@
       "id": "4B512C65CEF4309B",
       "title": "QCV Quantum Coherence Processor Assembly",
       "subtitle": "Optical path routing, phase difference decoding and independent reflow",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum coherent processor assembly. Prepare computing components for subsequent execution components and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum coherent processor assembly. Prepare computing components for subsequent execution components and engineering equipment.\""
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -223,9 +223,9 @@
       "id": "4B520FFA3A70A471",
       "title": "QCV Quantum Interference Processor",
       "subtitle": "Optical path routing, phase difference decoding and independent reflow",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum interference processor. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum interference processor. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B560E71B07461A1",
         "4B578111155CA2B0",
@@ -249,9 +249,9 @@
       "id": "4B510190BA9A5D97",
       "title": "QCV electric motor",
       "subtitle": "Provides independent rotational drive",
-      "description": "[
-        \"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B51D710544E9513",
         "4B512C65CEF4309B",
@@ -275,9 +275,9 @@
       "id": "4B55A44A3D4741F4",
       "title": "QCV electric piston",
       "subtitle": "Convert drive into controlled linear motion",
-      "description": "[
-        \"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B56A2D62637B307"
@@ -300,9 +300,9 @@
       "id": "4B57494A173A8C55",
       "title": "QCV electric pump",
       "subtitle": "Provide conveying power for independent flow paths",
-      "description": "[
-        \"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B540D45EA680892"
@@ -325,9 +325,9 @@
       "id": "4B510E092A9EA041",
       "title": "QCV conveyor module",
       "subtitle": "Continuous transfer of materials in existing production lines",
-      "description": "[
-        \"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B55D47F3B4611E4"
@@ -350,9 +350,9 @@
       "id": "4B50C62B53949BDD",
       "title": "QCV robotic arm",
       "subtitle": "Connect positioning and execution to the same component",
-      "description": "[
-        \"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\""
+      ],
       "dependencies": [
         "4B55A44A3D4741F4",
         "4B5A4C311E407536"
@@ -375,9 +375,9 @@
       "id": "4B5934F5CF3D7D6B",
       "title": "QCV sensor",
       "subtitle": "Send the measurement results to the current level of control",
-      "description": "[
-        \"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\"
-      ]",
+      "description": [
+        "\"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\""
+      ],
       "dependencies": [
         "4B512C65CEF4309B",
         "4B5DBB54FFD6AAAB"
@@ -400,9 +400,9 @@
       "id": "4B5CE40EEEBE5CBD",
       "title": "QCV transmitter",
       "subtitle": "Prepare launch components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\""
+      ],
       "dependencies": [
         "4B512C65CEF4309B",
         "4B59BB6EDF618991"
@@ -425,9 +425,9 @@
       "id": "4B54A60A7117D269",
       "title": "QCV force field generator",
       "subtitle": "Prepare force field components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B5934F5CF3D7D6B",
         "4B5CE40EEEBE5CBD",
@@ -451,9 +451,9 @@
       "id": "4B5E91E8EB7C1BE8",
       "title": "Phase matching micro-grid spacer",
       "subtitle": "First fix the spacing between adjacent guides",
-      "description": "[
-        \"An independent spacer piece is made of front-end material. It will be consumed along with the main material process and is used to fix the distance between micro-grids.\"
-      ]",
+      "description": [
+        "\"An independent spacer piece is made of front-end material. It will be consumed along with the main material process and is used to fix the distance between micro-grids.\""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC",
@@ -477,9 +477,9 @@
       "id": "4B5CA675A5D88771",
       "title": "Low temperature microgate infiltration fluid",
       "subtitle": "Prepare new fluid for microwell and media coating",
-      "description": "[
-        \"Prepare the infiltration liquid with new materials for use in the micro-grid interface process. Connect the liquid supply and drainage respectively, and then start continuous coating.\"
-      ]",
+      "description": [
+        "\"Prepare the infiltration liquid with new materials for use in the micro-grid interface process. Connect the liquid supply and drainage respectively, and then start continuous coating.\""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC"
@@ -503,9 +503,9 @@
       "id": "4B58F3AE0A156170",
       "title": "Coherent conductor microgrid",
       "subtitle": "Arrange independent conductors on the laminate substrate",
-      "description": "[
-        \"Use the complete QSV laminated base to bear the load, arrange and bond the leads one by one. The spacers fix the spacing, and then process the low-temperature dielectric layer.\"
-      ]",
+      "description": [
+        "\"Use the complete QSV laminated base to bear the load, arrange and bond the leads one by one. The spacers fix the spacing, and then process the low-temperature dielectric layer.\""
+      ],
       "dependencies": [
         "4B5E91E8EB7C1BE8"
       ],
@@ -527,9 +527,9 @@
       "id": "4B52D241D26A10D2",
       "title": "Low temperature dielectric coating blank",
       "subtitle": "First soak the micropores and then apply the insulation film",
-      "description": "[
-        \"Process the micropores in the micro-grid and complete the dielectric coating and film sticking. Collect the discharged gas, process waste liquid and waste interface carrier liquid respectively.\"
-      ]",
+      "description": [
+        "\"Process the micropores in the micro-grid and complete the dielectric coating and film sticking. Collect the discharged gas, process waste liquid and waste interface carrier liquid respectively.\""
+      ],
       "dependencies": [
         "4B5CA675A5D88771",
         "4B58F3AE0A156170"
@@ -552,9 +552,9 @@
       "id": "4B5EA01A941CA282",
       "title": "Isolation package grid blank",
       "subtitle": "Each partition retains its own through connection",
-      "description": "[
-        \"Connect the independent penetration array and partition shielding, and encapsulate the conductor micro-grids. Each conductor is kept separated after encapsulation, and then the slow cooling and sizing are completed.\"
-      ]",
+      "description": [
+        "\"Connect the independent penetration array and partition shielding, and encapsulate the conductor micro-grids. Each conductor is kept separated after encapsulation, and then the slow cooling and sizing are completed.\""
+      ],
       "dependencies": [
         "4B52D241D26A10D2"
       ],
@@ -576,9 +576,9 @@
       "id": "4B506BABD8501C6F",
       "title": "Coherent interconnection grid material standard blank",
       "subtitle": "Check the end, complete slow cooling and length determination",
-      "description": "[
-        \"The grid blank is slowly cooled, and the fixed-length ends are reinforced and sealed. The standard blank is then processed into six engineering shapes, and the hot coolant is returned for processing.\"
-      ]",
+      "description": [
+        "\"The grid blank is slowly cooled, and the fixed-length ends are reinforced and sealed. The standard blank is then processed into six engineering shapes, and the hot coolant is returned for processing.\""
+      ],
       "dependencies": [
         "4B5EA01A941CA282"
       ],
@@ -600,9 +600,9 @@
       "id": "4B5C19467E9C025E",
       "title": "Coherent interconnect grid panels",
       "subtitle": "Side-by-side micro-grids that retain panel surface",
-      "description": "[
-        \"Laminate the standard blank, connect the backing and independent contacts. Maintain parallel guides on the board for use by the casing and platform structure.\"
-      ]",
+      "description": [
+        "\"Laminate the standard blank, connect the backing and independent contacts. Maintain parallel guides on the board for use by the casing and platform structure.\""
+      ],
       "dependencies": [
         "4B506BABD8501C6F"
       ],
@@ -624,9 +624,9 @@
       "id": "4B50A4D83DED0382",
       "title": "Coherently interconnected grid rods",
       "subtitle": "Keep through guides along the rod core",
-      "description": "[
-        \"Compound the standard blank with the front-end rod, arrange the micro-grids along the axial direction and insulate the outer layer. The subsequent frames, rings and thin wires continue to be processed.\"
-      ]",
+      "description": [
+        "\"Compound the standard blank with the front-end rod, arrange the micro-grids along the axial direction and insulate the outer layer. The subsequent frames, rings and thin wires continue to be processed.\""
+      ],
       "dependencies": [
         "4B506BABD8501C6F",
         "4B55AA0198FA5388"
@@ -649,9 +649,9 @@
       "id": "4B52A38ECBBC7D1B",
       "title": "Coherently interconnected grid timber frame",
       "subtitle": "Corner joints should also have independent penetrations",
-      "description": "[
-        \"Connect the rods to the front frame and configure the corner joints with penetration arrays. Allow the complete frame to bear the load while retaining their respective guides.\"
-      ]",
+      "description": [
+        "\"Connect the rods to the front frame and configure the corner joints with penetration arrays. Allow the complete frame to bear the load while retaining their respective guides.\""
+      ],
       "dependencies": [
         "4B50A4D83DED0382",
         "4B55E5EFF3DE4A90"
@@ -674,9 +674,9 @@
       "id": "4B5BC89DB94CBBA1",
       "title": "Coherently interconnected grid material ring",
       "subtitle": "Separate rings by radial spacing",
-      "description": "[
-        \"Independent conductive loops are distributed along the interface ring and are separated from the dielectric layer by gaps. After the contacts are completed, they are sent to the chassis for final assembly.\"
-      ]",
+      "description": [
+        "\"Independent conductive loops are distributed along the interface ring and are separated from the dielectric layer by gaps. After the contacts are completed, they are sent to the chassis for final assembly.\""
+      ],
       "dependencies": [
         "4B50A4D83DED0382",
         "4B5451646EFDB638"
@@ -699,9 +699,9 @@
       "id": "4B5CF6430127290A",
       "title": "Coherent interconnect grid foil",
       "subtitle": "Leave the connection window open after lamination",
-      "description": "[
-        \"The isolation film and the microgate are laminated and thinned, leaving the connection window at the desired location. The thin foil continues to participate in packaging and interconnection.\"
-      ]",
+      "description": [
+        "\"The isolation film and the microgate are laminated and thinned, leaving the connection window at the desired location. The thin foil continues to participate in packaging and interconnection.\""
+      ],
       "dependencies": [
         "4B5C19467E9C025E",
         "4B59C3326165143C"
@@ -724,9 +724,9 @@
       "id": "4B54610F11B937EC",
       "title": "Coherently interconnected grid composite thin wires",
       "subtitle": "Provide shunt insulation around metal core",
-      "description": "[
-        \"Retain the continuous metal conductor, add a thin layer of micro-grids and independent insulation. The result is a composite thin wire suitable for subsequent component assembly.\"
-      ]",
+      "description": [
+        "\"Retain the continuous metal conductor, add a thin layer of micro-grids and independent insulation. The result is a composite thin wire suitable for subsequent component assembly.\""
+      ],
       "dependencies": [
         "4B50A4D83DED0382",
         "4B599500704705FB"
@@ -749,9 +749,9 @@
       "id": "4B5216D08D96321D",
       "title": "The first batch of QCV mechanical cubes",
       "subtitle": "Put the micro-grid structure into the complete QSV chassis",
-      "description": "[
-        \"Gather the boards, frames and rings of this level and connect them to the complete QSV mechanical block. Seal the guides and low-temperature interfaces to obtain the first batch of QCV casings.\"
-      ]",
+      "description": [
+        "\"Gather the boards, frames and rings of this level and connect them to the complete QSV mechanical block. Seal the guides and low-temperature interfaces to obtain the first batch of QCV casings.\""
+      ],
       "dependencies": [
         "4B5C19467E9C025E",
         "4B52A38ECBBC7D1B",
@@ -776,9 +776,9 @@
       "id": "4B55EA59B981CD84",
       "title": "QCV casing layered disassembly",
       "subtitle": "Retrieve the preamp core and part of the outer layer",
-      "description": "[
-        \"Remove the complete QSV core and recycle the boards, frames and rings of this level that can be used directly. The remaining main body is converted into classified waste and sent for quantitative separation.\"
-      ]",
+      "description": [
+        "\"Remove the complete QSV core and recycle the boards, frames and rings of this level that can be used directly. The remaining main body is converted into classified waste and sent for quantitative separation.\""
+      ],
       "dependencies": [
         "4B5216D08D96321D"
       ],
@@ -804,9 +804,9 @@
       "id": "4B5E9A5DC86C96FB",
       "title": "QCV classification waste separation",
       "subtitle": "Elute the attachments and separate the usable main body",
-      "description": "[
-        \"The classified waste is treated in a process solvent, and then centrifuged to separate the recycled components and non-recyclable tailings. The two types of products enter reconstruction and solidification respectively.\"
-      ]",
+      "description": [
+        "\"The classified waste is treated in a process solvent, and then centrifuged to separate the recycled components and non-recyclable tailings. The two types of products enter reconstruction and solidification respectively.\""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC"
@@ -833,9 +833,9 @@
       "id": "4B5DA535DF89269D",
       "title": "QCV recovery component fed-batch reconstruction",
       "subtitle": "Reprocessing from conductor microgrids",
-      "description": "[
-        \"Mix the recycled main body with fresh front-end matrix, re-insert spacers, guides and other functional auxiliary materials. Rebuild the conductor micro-grid, and then connect it back to coating, packaging and sizing.\"
-      ]",
+      "description": [
+        "\"Mix the recycled main body with fresh front-end matrix, re-insert spacers, guides and other functional auxiliary materials. Rebuild the conductor micro-grid, and then connect it back to coating, packaging and sizing.\""
+      ],
       "dependencies": [
         "4B5E91E8EB7C1BE8"
       ],
@@ -861,9 +861,9 @@
       "id": "4B56218873596DA3",
       "title": "QCV tail solidification",
       "subtitle": "Ending the processing of non-recyclable materials",
-      "description": "[
-        \"Seal the tailings into inert residue, remove the ashes, and complete the end treatment of this part of the grid material.\"
-      ]",
+      "description": [
+        "\"Seal the tailings into inert residue, remove the ashes, and complete the end treatment of this part of the grid material.\""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B54533414333ADC"
@@ -890,9 +890,9 @@
       "id": "4B5F972343DAAF05",
       "title": "Low temperature differential pressure isolation main pipe",
       "subtitle": "Separate the hot and cold branches from the phase change pressure difference",
-      "description": "[
-        \"First make an isolation main pipe in the existing equipment, and configure the bypass and metering interfaces. The subsequent phase change energy release equipment will obtain special pipelines from here.\"
-      ]",
+      "description": [
+        "\"First make an isolation main pipe in the existing equipment, and configure the bypass and metering interfaces. The subsequent phase change energy release equipment will obtain special pipelines from here.\""
+      ],
       "dependencies": [
         "4B5B95EB3F6F296A",
         "4B540D45EA680892",
@@ -916,9 +916,9 @@
       "id": "4B5E7CF4C392AABC",
       "title": "Collapse energy phase change energy release machine",
       "subtitle": "Connect phase change conditions to independent equipment",
-      "description": "[
-        \"Complete the phase change engineering research and assemble the energy release machine controller. Use the isolation main pipe to manage the pressure difference and flow path in the gas-solid phase change.\"
-      ]",
+      "description": [
+        "\"Complete the phase change engineering research and assemble the energy release machine controller. Use the isolation main pipe to manage the pressure difference and flow path in the gas-solid phase change.\""
+      ],
       "dependencies": [
         "4B50866329B1DB0E",
         "4B5F972343DAAF05",
@@ -943,9 +943,9 @@
       "id": "4B5B36362C6BF5DA",
       "title": "Replica God's Key Assembly Center",
       "subtitle": "Preparing assembly equipment for replica core and soulsteel components",
-      "description": "[
-        \"After completing the corresponding research, prepare the dedicated main pipe and front-end engineering components, manufacture and assemble the central controller, and continue the precision assembly of the God's Key.\"
-      ]",
+      "description": [
+        "\"After completing the corresponding research, prepare the dedicated main pipe and front-end engineering components, manufacture and assemble the central controller, and continue the precision assembly of the God's Key.\""
+      ],
       "dependencies": [
         "4B5F116FA97D7110",
         "4B5F972343DAAF05",
@@ -970,9 +970,9 @@
       "id": "4B57D65F2C2B4B06",
       "title": "Imitation of Thousand Realms Yiyang·Beacon",
       "subtitle": "Set up independent beacons for coordinate synchronization",
-      "description": "[
-        \"After completing the research related to the Thousand Worlds One Multiply, manufacture the beacon controller and connect the engineering components required for coordinate synchronization.\"
-      ]",
+      "description": [
+        "\"After completing the research related to the Thousand Worlds One Multiply, manufacture the beacon controller and connect the engineering components required for coordinate synchronization.\""
+      ],
       "dependencies": [
         "4B535AC10CB8CB3B"
       ],
@@ -994,9 +994,9 @@
       "id": "4B5A3E4A2B3E1509",
       "title": "Replica of Thousand Worlds One-ride Train",
       "subtitle": "Connect the space connection and return positioning",
-      "description": "[
-        \"Manufacture the stationary train controller, complete the space connection and return positioning components, and continue to prepare the engineering facilities for a thousand worlds and one ride.\"
-      ]",
+      "description": [
+        "\"Manufacture the stationary train controller, complete the space connection and return positioning components, and continue to prepare the engineering facilities for a thousand worlds and one ride.\""
+      ],
       "dependencies": [
         "4B535AC10CB8CB3B"
       ],
@@ -1018,9 +1018,9 @@
       "id": "4B5814457AA6BFBC",
       "title": "Third-order gas collapse energy detector",
       "subtitle": "Continue to upgrade sampling capabilities from solid-state detection",
-      "description": "[
-        \"Use the complete front-stage detector and this section of components to make a gas detector. Complete the detector first, and then assemble the third-stage collection tower.\"
-      ]",
+      "description": [
+        "\"Use the complete front-stage detector and this section of components to make a gas detector. Complete the detector first, and then assemble the third-stage collection tower.\""
+      ],
       "dependencies": [
         "4B5D74C9ED85BF0E",
         "4B5B95EB3F6F296A",
@@ -1046,9 +1046,9 @@
       "id": "4B5351CD3A7AF772",
       "title": "Level 3 Honkai Energy Collection Tower",
       "subtitle": "Establish an independent production line for gaseous collection",
-      "description": "[
-        \"Install the completed gaseous detector into the third-stage collection tower controller to continue the collection of gaseous collapse energy.\"
-      ]",
+      "description": [
+        "\"Install the completed gaseous detector into the third-stage collection tower controller to continue the collection of gaseous collapse energy.\""
+      ],
       "dependencies": [
         "4B5814457AA6BFBC",
         "4B5F972343DAAF05",
@@ -1072,12 +1072,12 @@
       "id": "4B59EE579EB6CE9A",
       "title": "Imitation inflammation core",
       "subtitle": "RN-FCA · Experimental and formal research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The test crystal forms a repeatable detection receipt under controlled heat input; the test crystal is consumed or sealed and cannot be directly delivered to the official core; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the imitation fire core and special metal heating applications are unlocked.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The test crystal forms a repeatable detection receipt under controlled heat input; the test crystal is consumed or sealed and cannot be directly delivered to the official core; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the imitation fire core and special metal heating applications are unlocked.\""
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E"
       ],
@@ -1100,12 +1100,12 @@
       "id": "4B528AA97B0DF3A7",
       "title": "Heterogeneous process gas purification",
       "subtitle": "RN-GPR · Experimental and formal research",
-      "description": "[
-        \"Tested object: failed process gas filter element × 1; paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete our team's experiment at the Honkai Energy Sample Spectral Analysis Array. Compare the real inlet and outlet gas samples and filter residues, and correlate the batches of generated exhaust gas; fresh gas is used to start the working condition; the original amount of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the stable media regeneration tower is unlocked and divided into gas purification and filter media reuse working conditions; and liquid media regeneration are formulated separately.\"
-      ]",
+      "description": [
+        "\"Tested object: failed process gas filter element × 1; paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete our team's experiment at the Honkai Energy Sample Spectral Analysis Array. Compare the real inlet and outlet gas samples and filter residues, and correlate the batches of generated exhaust gas; fresh gas is used to start the working condition; the original amount of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the stable media regeneration tower is unlocked and divided into gas purification and filter media reuse working conditions; and liquid media regeneration are formulated separately.\""
+      ],
       "dependencies": [
         "4B5D74C9ED85BF0E"
       ],
@@ -1128,12 +1128,12 @@
       "id": "4B5D74C9ED85BF0E",
       "title": "Gaseous collapse energy collection",
       "subtitle": "RN-GSC · Experimental and formal research",
-      "description": "[
-        \"Tested object: Soul Steel Anchor Component × 1; Paper 2 is used for inspection records, and the reference sample is recycled\",
-        \"Complete our team's experiment at the Collapse Energy Sample Spectral Analysis Array. Complete the actual liquid-solid recording and compare it with the closed field response of the specimen; the test does not produce usable gaseous Collapse Energy; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, unlock the third-order tower and the corresponding gas detector.\"
-      ]",
+      "description": [
+        "\"Tested object: Soul Steel Anchor Component × 1; Paper 2 is used for inspection records, and the reference sample is recycled\"",
+        "\"Complete our team's experiment at the Collapse Energy Sample Spectral Analysis Array. Complete the actual liquid-solid recording and compare it with the closed field response of the specimen; the test does not produce usable gaseous Collapse Energy; the original quantity of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, unlock the third-order tower and the corresponding gas detector.\""
+      ],
       "dependencies": [
         "4B544DD9CC0A571D"
       ],
@@ -1156,12 +1156,12 @@
       "id": "4B54533414333ADC",
       "title": "imitation ice core",
       "subtitle": "RN-ICA · Experimental and Formal Research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The cooling and reheating responses are actually recorded, and the cooling medium balance corresponds to the trial crystal batch; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the imitation ice core and special metal cooling applications will be unlocked.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The cooling and reheating responses are actually recorded, and the cooling medium balance corresponds to the trial crystal batch; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the imitation ice core and special metal cooling applications will be unlocked.\""
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E"
       ],
@@ -1184,12 +1184,12 @@
       "id": "4B50866329B1DB0E",
       "title": "Phase change energy release engineering",
       "subtitle": "RN-PCE · Experimental and Formal Research",
-      "description": "[
-        \"Tested object: process gas filter element × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The encapsulated gaseous sample completes the controlled phase change and energy loss measurement, and no unquantified test energy is returned to the power grid; the original amount of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power based on the total power of the effective energy port. After completion, the gas-solid conversion and loss measurement of the collapse energy phase change release machine will be unlocked.\"
-      ]",
+      "description": [
+        "\"Tested object: process gas filter element × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. The encapsulated gaseous sample completes the controlled phase change and energy loss measurement, and no unquantified test energy is returned to the power grid; the original amount of the tested object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power based on the total power of the effective energy port. After completion, the gas-solid conversion and loss measurement of the collapse energy phase change release machine will be unlocked.\""
+      ],
       "dependencies": [
         "4B5D74C9ED85BF0E"
       ],
@@ -1212,12 +1212,12 @@
       "id": "4B524978C39A250C",
       "title": "Imitation mine core",
       "subtitle": "RN-TCA · Experimental and formal research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. Complete the set pulse input and output response measurements truly, and the input power will be consumed as usual; the original amount of the subject will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, unlock the imitation mine core and electromagnetic process module.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. Complete the set pulse input and output response measurements truly, and the input power will be consumed as usual; the original amount of the subject will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 580 research points or HDV circuit × 4, tungsten steel plate × 56 to pay the base fee; an additional 7,200 ticks and 515,396,075,520 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, unlock the imitation mine core and electromagnetic process module.\""
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E",
         "4B5407261AA82797"
@@ -1241,12 +1241,12 @@
       "id": "4B55C2FACF1A9B92",
       "title": "Imitation style core",
       "subtitle": "RN-WCA · Experimental and Formal Research",
-      "description": "[
-        \"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The test medium is actually consumed and the pressure difference/flow response is recorded; the recovery part and the loss are recorded separately; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute deducts power based on the total power of the effective energy port. After completion, unlock the imitation wind core and ideal fluid technology modules.\"
-      ]",
+      "description": [
+        "\"Test object: Collapse crystal seed × 1; paper 2 is used for test records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. The test medium is actually consumed and the pressure difference/flow response is recorded; the recovery part and the loss are recorded separately; the original quantity of the inspected object is returned, and the experiment is subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute deducts power based on the total power of the effective energy port. After completion, unlock the imitation wind core and ideal fluid technology modules.\""
+      ],
       "dependencies": [
         "4B5F2FBB98E65C9E",
         "4B5D74C9ED85BF0E"

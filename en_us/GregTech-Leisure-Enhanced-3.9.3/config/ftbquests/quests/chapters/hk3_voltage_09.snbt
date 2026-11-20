@@ -3,8 +3,8 @@
   "id": "4B5E36C9041AEDD0",
   "title": "Imaginary number pressure IMV",
   "subtitle": [
-    "Tier23-IMV"
-  ],
+        "Tier23-IMV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 24,
   "icon": "hk3gtl:voltage_machine_casing_imv",
@@ -14,10 +14,10 @@
       "id": "4B5B68B8C11CA404",
       "title": "Continue from QAV workshop",
       "subtitle": "QAV → IMV",
-      "description": "[
-        \"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of IMV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of IMV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B5792CC8C53B87D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B5487FC42B1F9B4",
       "title": "Imaginary topology dielectric isolation film",
       "subtitle": "Separate the ceramic phase boundary first",
-      "description": "[
-        \"A new ceramic foil is applied to a quantum coherent dielectric film, followed by a current-level dielectric coating. The finished film is responsible for the insulation between the working areas of the imaginary topology circuit.\"
-      ]",
+      "description": [
+        "\"A new ceramic foil is applied to a quantum coherent dielectric film, followed by a current-level dielectric coating. The finished film is responsible for the insulation between the working areas of the imaginary topology circuit.\""
+      ],
       "dependencies": [
         "4B54804DF6CCFEB5",
         "4B5313D7F4421690"
@@ -64,9 +64,9 @@
       "id": "4B50716301E829FE",
       "title": "Imaginary topology directed interconnection network",
       "subtitle": "Wire each work area individually",
-      "description": "[
-        \"The connection unit of the front platform interconnection network is used, and independent branches are connected with ceramic composite thin wires. The dielectric film is left between each branch for subsequent substrate and functional array use.\"
-      ]",
+      "description": [
+        "\"The connection unit of the front platform interconnection network is used, and independent branches are connected with ceramic composite thin wires. The dielectric film is left between each branch for subsequent substrate and functional array use.\""
+      ],
       "dependencies": [
         "4B5487FC42B1F9B4",
         "4B5E86444626FE39"
@@ -89,9 +89,9 @@
       "id": "4B5D8A011ADB9399",
       "title": "Imaginary number topology circuit substrate",
       "subtitle": "Press the new circuit onto the physical substrate",
-      "description": "[
-        \"The front platform substrate serves as the base, and the printed board retains the old interface. The new film, interconnection network and etching layer are laminated together to obtain the carrier substrate for the imaginary topology circuit.\"
-      ]",
+      "description": [
+        "\"The front platform substrate serves as the base, and the printed board retains the old interface. The new film, interconnection network and etching layer are laminated together to obtain the carrier substrate for the imaginary topology circuit.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -113,9 +113,9 @@
       "id": "4B51E08379C2635B",
       "title": "Imaginary topology printed circuit board",
       "subtitle": "Line development is done separately",
-      "description": "[
-        \"Send the laminated substrate to a chemical dipping machine for development, and take out the waste etching solution outlet. After the printed circuit is completed, install the patch array and phase interface chip.\"
-      ]",
+      "description": [
+        "\"Send the laminated substrate to a chemical dipping machine for development, and take out the waste etching solution outlet. After the printed circuit is completed, install the patch array and phase interface chip.\""
+      ],
       "dependencies": [
         "4B5D8A011ADB9399"
       ],
@@ -137,9 +137,9 @@
       "id": "4B57CA656C981438",
       "title": "Imaginary topology epitaxial wafer",
       "subtitle": "Leave an extended surface for the new workspace",
-      "description": "[
-        \"A thin layer of ceramic and dielectric film are laid on the wafer, with the front platform logic die reserved for readout. The epitaxial wafer is then branched off to logic exposure and memory imprinting.\"
-      ]",
+      "description": [
+        "\"A thin layer of ceramic and dielectric film are laid on the wafer, with the front platform logic die reserved for readout. The epitaxial wafer is then branched off to logic exposure and memory imprinting.\""
+      ],
       "dependencies": [
         "4B5487FC42B1F9B4"
       ],
@@ -161,9 +161,9 @@
       "id": "4B5E081B12D3C1D7",
       "title": "Imaginary topology logic wafer",
       "subtitle": "Use masks to determine logical shapes",
-      "description": "[
-        \"Expose the epitaxial wafer to form an imaginary topology logic wafer. The photolithography mask is left as a tool, and the finished product continues to be sent for cutting.\"
-      ]",
+      "description": [
+        "\"Expose the epitaxial wafer to form an imaginary topology logic wafer. The photolithography mask is left as a tool, and the finished product continues to be sent for cutting.\""
+      ],
       "dependencies": [
         "4B57CA656C981438"
       ],
@@ -185,9 +185,9 @@
       "id": "4B542D6818BF47CD",
       "title": "Imaginary topology logic die",
       "subtitle": "Eight die are cut from each wafer",
-      "description": "[
-        \"Cut the logic wafer into die and route the hot coolant back to the existing coolant conditioning line. The die will go into this level of CPU packaging.\"
-      ]",
+      "description": [
+        "\"Cut the logic wafer into die and route the hot coolant back to the existing coolant conditioning line. The die will go into this level of CPU packaging.\""
+      ],
       "dependencies": [
         "4B5E081B12D3C1D7"
       ],
@@ -209,9 +209,9 @@
       "id": "4B54C8E8C74E7748",
       "title": "Imaginary topology RAM wafer",
       "subtitle": "The storage array is imprinted with the read layer",
-      "description": "[
-        \"Retain the memory array in the front platform RAM wafer, add this level epitaxial wafer and isolation film to form a RAM wafer with an independent read structure.\"
-      ]",
+      "description": [
+        "\"Retain the memory array in the front platform RAM wafer, add this level epitaxial wafer and isolation film to form a RAM wafer with an independent read structure.\""
+      ],
       "dependencies": [
         "4B57CA656C981438"
       ],
@@ -233,9 +233,9 @@
       "id": "4B54B54E955AD203",
       "title": "Imaginary topology RAM chip",
       "subtitle": "Cutting out packageable RAM wafers",
-      "description": "[
-        \"The storage wafer is cut into sixteen RAM chips. The cooling reflow is collected separately, and the chips are used for the local cache of the CPU and the shared storage of the formal circuit.\"
-      ]",
+      "description": [
+        "\"The storage wafer is cut into sixteen RAM chips. The cooling reflow is collected separately, and the chips are used for the local cache of the CPU and the shared storage of the formal circuit.\""
+      ],
       "dependencies": [
         "4B54C8E8C74E7748"
       ],
@@ -257,9 +257,9 @@
       "id": "4B5EE5748DB3B293",
       "title": "Imaginary topology chip capacitor",
       "subtitle": "Prepare capacitors for local power supply",
-      "description": "[
-        \"Connect the quantum coherent capacitor with the same-level interconnection network and isolation film, and then encapsulate the ceramic working surface. These capacitors are used for energy storage and filtering of the imaginary topology function array.\"
-      ]",
+      "description": [
+        "\"Connect the quantum coherent capacitor with the same-level interconnection network and isolation film, and then encapsulate the ceramic working surface. These capacitors are used for energy storage and filtering of the imaginary topology function array.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -281,9 +281,9 @@
       "id": "4B51694864DF470A",
       "title": "Imaginary topology chip diode",
       "subtitle": "Preserve one-way functionality",
-      "description": "[
-        \"Install the front-stage diode into the current-level insulation and interconnection structure. The one-way conduction part uses the original device, and the new package is responsible for accessing the imaginary topology line.\"
-      ]",
+      "description": [
+        "\"Install the front-stage diode into the current-level insulation and interconnection structure. The one-way conduction part uses the original device, and the new package is responsible for accessing the imaginary topology line.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -305,9 +305,9 @@
       "id": "4B5C90DF614F4FA0",
       "title": "Imaginary topology chip resistor",
       "subtitle": "Set resistors for current and signals",
-      "description": "[
-        \"The front-end resistor and the graphene resistor material are packaged together to complete the lead-out and isolation layer of the new platform. It will form a patch array together with four other types of devices.\"
-      ]",
+      "description": [
+        "\"The front-end resistor and the graphene resistor material are packaged together to complete the lead-out and isolation layer of the new platform. It will form a patch array together with four other types of devices.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -329,9 +329,9 @@
       "id": "4B56CABECA569D7B",
       "title": "Imaginary topology chip transistor",
       "subtitle": "Connect the switch unit to the new interface",
-      "description": "[
-        \"Retain the switching part of the front-end transistor, and add dielectric isolation and ceramic packaging at this level. After completion, we will continue to supply functional arrays and CPU manufacturing.\"
-      ]",
+      "description": [
+        "\"Retain the switching part of the front-end transistor, and add dielectric isolation and ceramic packaging at this level. After completion, we will continue to supply functional arrays and CPU manufacturing.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -353,9 +353,9 @@
       "id": "4B5BCC04774B2217",
       "title": "Imaginary topology chip inductor",
       "subtitle": "Install inductors for local circuits",
-      "description": "[
-        \"The pre-stage inductor, neutron element ring and new interconnection structure are packaged. The inductor is responsible for the magnetic energy storage of the loop, and the capacitor is responsible for their respective electrical functions.\"
-      ]",
+      "description": [
+        "\"The pre-stage inductor, neutron element ring and new interconnection structure are packaged. The inductor is responsible for the magnetic energy storage of the loop, and the capacitor is responsible for their respective electrical functions.\""
+      ],
       "dependencies": [
         "4B50716301E829FE"
       ],
@@ -377,9 +377,9 @@
       "id": "4B5AB7BD5FC938EE",
       "title": "Imaginary topology patch function array",
       "subtitle": "Five types of patches meet here",
-      "description": "[
-        \"Capacitors, diodes, resistors, transistors and inductors are manufactured separately and then assembled into an array on a printed board. Each type of device is actually consumed along with the array.\"
-      ]",
+      "description": [
+        "\"Capacitors, diodes, resistors, transistors and inductors are manufactured separately and then assembled into an array on a printed board. Each type of device is actually consumed along with the array.\""
+      ],
       "dependencies": [
         "4B51E08379C2635B",
         "4B5EE5748DB3B293",
@@ -406,9 +406,9 @@
       "id": "4B588700D5979D78",
       "title": "Imaginary topology CPU",
       "subtitle": "Encapsulating CPU calculations and local cache",
-      "description": "[
-        \"Install the logic die, RAM chip and function array onto the front platform CPU. The internal cache is packaged with the CPU, and additional shared storage will be connected during the formal circuit assembly.\"
-      ]",
+      "description": [
+        "\"Install the logic die, RAM chip and function array onto the front platform CPU. The internal cache is packaged with the CPU, and additional shared storage will be connected during the formal circuit assembly.\""
+      ],
       "dependencies": [
         "4B542D6818BF47CD",
         "4B54B54E955AD203",
@@ -432,9 +432,9 @@
       "id": "4B53C6CE36D51EBD",
       "title": "Imaginary phase interface chip",
       "subtitle": "Leave a conductive window in the ceramic barrier",
-      "description": "[
-        \"Connect the triaxial anchoring interlayer to this level of ceramic substrate to complete the phase interface chip. The printed board and isolation film in the chip are integrated with the package, and the complete assembly can be used directly later.\"
-      ]",
+      "description": [
+        "\"Connect the triaxial anchoring interlayer to this level of ceramic substrate to complete the phase interface chip. The printed board and isolation film in the chip are integrated with the package, and the complete assembly can be used directly later.\""
+      ],
       "dependencies": [
         "4B51E08379C2635B",
         "4B51516BB43A2C92"
@@ -457,9 +457,9 @@
       "id": "4B52202C1C9DFE9D",
       "title": "Phase transfer protocol core",
       "subtitle": "First define the transfer sequence and stop state",
-      "description": "[
-        \"Connect the phase interface chip to the protocol core, and use the CPU and RAM to save the local state. Subsequent circuits monitor the interface and control the phase transfer sequence through this core.\"
-      ]",
+      "description": [
+        "\"Connect the phase interface chip to the protocol core, and use the CPU and RAM to save the local state. Subsequent circuits monitor the interface and control the phase transfer sequence through this core.\""
+      ],
       "dependencies": [
         "4B588700D5979D78",
         "4B53C6CE36D51EBD",
@@ -484,9 +484,9 @@
       "id": "4B526888442D8B32",
       "title": "Phase Isolated Actuator Housing",
       "subtitle": "Install executive supports in isolated work areas",
-      "description": "[
-        \"A ceramic rod, ring and frame are added to the existing positioning actuator to form an isolated shell. The shell takes over the actuator of this level, and the old support continues to bear the positioning responsibility.\"
-      ]",
+      "description": [
+        "\"A ceramic rod, ring and frame are added to the existing positioning actuator to form an isolated shell. The shell takes over the actuator of this level, and the old support continues to bear the positioning responsibility.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B510189BD9FF3DE",
@@ -510,9 +510,9 @@
       "id": "4B5271D0B2788189",
       "title": "Quenching and tempering cold block",
       "subtitle": "Quenching reflow and circuit cooling are separated",
-      "description": "[
-        \"Extend the original airtight channel, add pipe sections, partition walls and insulating linings, and install it into a heat recovery and cold block. The hot coolant is led out separately for phase transfer equipment and circuit temperature control.\"
-      ]",
+      "description": [
+        "\"Extend the original airtight channel, add pipe sections, partition walls and insulating linings, and install it into a heat recovery and cold block. The hot coolant is led out separately for phase transfer equipment and circuit temperature control.\""
+      ],
       "dependencies": [
         "4B54804DF6CCFEB5",
         "4B53DA1823327C30",
@@ -537,9 +537,9 @@
       "id": "4B59F20F03D7B54A",
       "title": "Quantum interference processor host",
       "subtitle": "Let two sets of front-end computers form the host computer",
-      "description": "[
-        \"The complete computing parts of the two quantum interference supercomputers are retained, connected to the phase interface chip, protocol core and heat recovery and cold block to complete the final assembly of the host.\"
-      ]",
+      "description": [
+        "\"The complete computing parts of the two quantum interference supercomputers are retained, connected to the phase interface chip, protocol core and heat recovery and cold block to complete the final assembly of the host.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -564,9 +564,9 @@
       "id": "4B5880F608778EC5",
       "title": "Entanglement-anchored supercomputers",
       "subtitle": "Adding shared storage to entanglement-anchored computations",
-      "description": "[
-        \"Two entanglement-anchored processor assemblies are assembled into a supercomputer. The protocol core manages the interface state, and the external RAM is responsible for shared storage across computing units.\"
-      ]",
+      "description": [
+        "\"Two entanglement-anchored processor assemblies are assembled into a supercomputer. The protocol core manages the interface state, and the external RAM is responsible for shared storage across computing units.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -591,9 +591,9 @@
       "id": "4B5F0E553E48D54F",
       "title": "Imaginary anchor processor assembly",
       "subtitle": "Group imaginary anchor processors",
-      "description": "[
-        \"Using a complete front-end processor as the computing unit, plus this level phase interface readout, cooling and ceramic load-bearing structure. The assembly can be used for subsequent ICV circuit upgrades.\"
-      ]",
+      "description": [
+        "\"Using a complete front-end processor as the computing unit, plus this level phase interface readout, cooling and ceramic load-bearing structure. The assembly can be used for subsequent ICV circuit upgrades.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -618,9 +618,9 @@
       "id": "4B56A2A62D5DD2F1",
       "title": "Imaginary number reconstruction processor",
       "subtitle": "Complete the basic computing device of IMV",
-      "description": "[
-        \"Connect the front-end processor host with the current-level CPU, protocol core and shared storage to make an imaginary number reconstruction processor. The eight major components of IMV obtain the control circuit from here.\"
-      ]",
+      "description": [
+        "\"Connect the front-end processor host with the current-level CPU, protocol core and shared storage to make an imaginary number reconstruction processor. The eight major components of IMV obtain the control circuit from here.\""
+      ],
       "dependencies": [
         "4B52202C1C9DFE9D",
         "4B5271D0B2788189",
@@ -644,9 +644,9 @@
       "id": "4B508A428D36AFE9",
       "title": "IMV electric motor",
       "subtitle": "Divide the driver part into independent workspaces",
-      "description": "[
-        \"Connect the complete QAV motor into the phase isolation housing, and then install the protocol core and heat recovery cold block. The new ceramic structure is responsible for connecting the various driving parts.\"
-      ]",
+      "description": [
+        "\"Connect the complete QAV motor into the phase isolation housing, and then install the protocol core and heat recovery cold block. The new ceramic structure is responsible for connecting the various driving parts.\""
+      ],
       "dependencies": [
         "4B526888442D8B32",
         "4B56A2A62D5DD2F1",
@@ -670,9 +670,9 @@
       "id": "4B53243A2A319FF7",
       "title": "IMV electric piston",
       "subtitle": "Connect linear motion to a new motor",
-      "description": "[
-        \"Integrate the pre-stage piston, IMV motor and phase isolation shell into one body. The ceramic rod and ring bear the support of the new connection, and the heat return and cold block connects to the temperature control loop.\"
-      ]",
+      "description": [
+        "\"Integrate the pre-stage piston, IMV motor and phase isolation shell into one body. The ceramic rod and ring bear the support of the new connection, and the heat return and cold block connects to the temperature control loop.\""
+      ],
       "dependencies": [
         "4B508A428D36AFE9",
         "4B5A5529AE68733C"
@@ -695,9 +695,9 @@
       "id": "4B5D969F4892DC6A",
       "title": "IMV electric pump",
       "subtitle": "Prepare independent pump circuits for sampling and return flow",
-      "description": "[
-        \"Use a complete backing pump and IMV motor, and install the phase isolation shell and heat return cold block. The new pump is responsible for the fluid transport of this stage and is used for connecting the return interfaces respectively.\"
-      ]",
+      "description": [
+        "\"Use a complete backing pump and IMV motor, and install the phase isolation shell and heat return cold block. The new pump is responsible for the fluid transport of this stage and is used for connecting the return interfaces respectively.\""
+      ],
       "dependencies": [
         "4B508A428D36AFE9",
         "4B5BC3E4DF1E7FF5"
@@ -720,9 +720,9 @@
       "id": "4B5C7D9B868E9219",
       "title": "IMV conveyor module",
       "subtitle": "Let multi-stage conveying operate in the same sequence",
-      "description": "[
-        \"Install the IMV driver and phase interface readout on the front-end transmission module. The protocol core coordinates the actions of each section, and the ceramic plate and foil separate the new work area.\"
-      ]",
+      "description": [
+        "\"Install the IMV driver and phase interface readout on the front-end transmission module. The protocol core coordinates the actions of each section, and the ceramic plate and foil separate the new work area.\""
+      ],
       "dependencies": [
         "4B508A428D36AFE9",
         "4B51ECAED0BBA537"
@@ -745,9 +745,9 @@
       "id": "4B5A9A6838F5C653",
       "title": "IMV robotic arm",
       "subtitle": "Install the positioning and telescopic mechanism on a robotic arm",
-      "description": "[
-        \"Combine the IMV motor, piston and complete front-end robotic arm, and then connect the phase interface chip. The frame and phase isolation shell provide support for each joint.\"
-      ]",
+      "description": [
+        "\"Combine the IMV motor, piston and complete front-end robotic arm, and then connect the phase interface chip. The frame and phase isolation shell provide support for each joint.\""
+      ],
       "dependencies": [
         "4B53243A2A319FF7",
         "4B563E5F7F702155"
@@ -770,9 +770,9 @@
       "id": "4B5BAD20ECD3657C",
       "title": "IMV sensor",
       "subtitle": "Let the sampling readings bring the interface status",
-      "description": "[
-        \"Retain the front-end sensor, and then connect it to the phase interface chip, protocol core and temperature control part. The new sensor is used for IMV measurement and field control equipment to read the status.\"
-      ]",
+      "description": [
+        "\"Retain the front-end sensor, and then connect it to the phase interface chip, protocol core and temperature control part. The new sensor is used for IMV measurement and field control equipment to read the status.\""
+      ],
       "dependencies": [
         "4B56A2A62D5DD2F1",
         "4B5B1A1507CBB1F7"
@@ -795,9 +795,9 @@
       "id": "4B5397FCABDA9FE8",
       "title": "IMV transmitter",
       "subtitle": "Incorporate emission control into the phase transfer protocol",
-      "description": "[
-        \"Assemble the front-stage transmitter and the current-stage optical and conductive structure, and connect the phase interface chip and the reheating and cold block. The core of the protocol is responsible for the sequence of the launch actions.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmitter and the current-stage optical and conductive structure, and connect the phase interface chip and the reheating and cold block. The core of the protocol is responsible for the sequence of the launch actions.\""
+      ],
       "dependencies": [
         "4B56A2A62D5DD2F1",
         "4B57663E413585E3"
@@ -820,9 +820,9 @@
       "id": "4B5B509C3E1D5776",
       "title": "IMV force field generator",
       "subtitle": "Transmission and measurement converge in the same field control device",
-      "description": "[
-        \"Assemble the IMV transmitter, sensor and front-end force field generator, connect them to the protocol core and provide independent cooling. After the field control device is completed, it will be used by facilities at this level.\"
-      ]",
+      "description": [
+        "\"Assemble the IMV transmitter, sensor and front-end force field generator, connect them to the protocol core and provide independent cooling. After the field control device is completed, it will be used by facilities at this level.\""
+      ],
       "dependencies": [
         "4B5BAD20ECD3657C",
         "4B5397FCABDA9FE8",
@@ -846,9 +846,9 @@
       "id": "4B51BD9AC12E0B48",
       "title": "Phase boundary transfer ceramic nucleating material",
       "subtitle": "Preparing nucleating materials for ceramic phase boundaries",
-      "description": "[
-        \"The nucleating material required for phase boundary transfer is prepared on the front-end plate. It will be consumed during the ceramic process and control the formation of subsequent ceramic phases.\"
-      ]",
+      "description": [
+        "\"The nucleating material required for phase boundary transfer is prepared on the front-end plate. It will be consumed during the ceramic process and control the formation of subsequent ceramic phases.\""
+      ],
       "dependencies": [
         "4B5FE62607DF1612"
       ],
@@ -870,9 +870,9 @@
       "id": "4B58995F28EDFECA",
       "title": "Phase transfer ceramic sol",
       "subtitle": "First use new materials to prepare the first batch of sol",
-      "description": "[
-        \"Fresh carrier fluid and ceramic components are formulated into a phase transfer sol. First production is fed from this formulation line, and waste carrier fluid is later considered for disposal.\"
-      ]",
+      "description": [
+        "\"Fresh carrier fluid and ceramic components are formulated into a phase transfer sol. First production is fed from this formulation line, and waste carrier fluid is later considered for disposal.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -895,9 +895,9 @@
       "id": "4B5A36E170448DCB",
       "title": "Ceramic precursor slurry",
       "subtitle": "Place the ceramic slurry onto the solid substrate",
-      "description": "[
-        \"The QAV substrate is used to support the ceramic precursor slurry, and the nucleation and interface materials are added before being sent for phase transfer. The resin protective layer is left to be applied after the high-temperature step.\"
-      ]",
+      "description": [
+        "\"The QAV substrate is used to support the ceramic precursor slurry, and the nucleation and interface materials are added before being sent for phase transfer. The resin protective layer is left to be applied after the high-temperature step.\""
+      ],
       "dependencies": [
         "4B51BD9AC12E0B48",
         "4B58995F28EDFECA"
@@ -920,9 +920,9 @@
       "id": "4B5E5E1BDAE86CAB",
       "title": "Controlled phase transfer billet",
       "subtitle": "The ceramic phase is formed first and then the interface is transferred",
-      "description": "[
-        \"The precursor slurry is processed in a supercritical synthesizer and the nucleating material is used to form a defined ceramic structure. The space fluid participates in this process as a transfer medium.\"
-      ]",
+      "description": [
+        "\"The precursor slurry is processed in a supercritical synthesizer and the nucleating material is used to form a defined ceramic structure. The space fluid participates in this process as a transfer medium.\""
+      ],
       "dependencies": [
         "4B5A36E170448DCB"
       ],
@@ -944,9 +944,9 @@
       "id": "4B51EA4B4DF52A21",
       "title": "Quenching and impurity removal ceramic blank",
       "subtitle": "Quenching and wet impurity removal are completed together",
-      "description": "[
-        \"The phase-transfer blank is cooled, and then surface impurities are washed away. The hot coolant and non-recyclable waste liquid are discharged separately, and the processed ceramic blank enters low-temperature sealing.\"
-      ]",
+      "description": [
+        "\"The phase-transfer blank is cooled, and then surface impurities are washed away. The hot coolant and non-recyclable waste liquid are discharged separately, and the processed ceramic blank enters low-temperature sealing.\""
+      ],
       "dependencies": [
         "4B5E5E1BDAE86CAB"
       ],
@@ -968,9 +968,9 @@
       "id": "4B52A27A5FFE5740",
       "title": "Imaginary number phase transfer ceramic base material standard blank",
       "subtitle": "Apply the protective layer last",
-      "description": "[
-        \"After the high-temperature phase transfer is completed, the ceramic pores are closed with a coating array and a polymer protective layer is added. After the final length is determined, a standard blank of this level is obtained.\"
-      ]",
+      "description": [
+        "\"After the high-temperature phase transfer is completed, the ceramic pores are closed with a coating array and a polymer protective layer is added. After the final length is determined, a standard blank of this level is obtained.\""
+      ],
       "dependencies": [
         "4B51EA4B4DF52A21"
       ],
@@ -992,9 +992,9 @@
       "id": "4B5B0B519F2E3201",
       "title": "Imaginary phase transfer ceramic base material plate",
       "subtitle": "Ceramic slices are attached to the load-bearing backing plate",
-      "description": "[
-        \"The standard blank is sliced and then combined with the front-end plate and contact layer. The finished plate is used for IMV casing, phase interface chip and subsequent energy guide band manufacturing.\"
-      ]",
+      "description": [
+        "\"The standard blank is sliced and then combined with the front-end plate and contact layer. The finished plate is used for IMV casing, phase interface chip and subsequent energy guide band manufacturing.\""
+      ],
       "dependencies": [
         "4B52A27A5FFE5740"
       ],
@@ -1016,9 +1016,9 @@
       "id": "4B551135A9953520",
       "title": "Imaginary phase transfer ceramic base material rod",
       "subtitle": "Metal rod core carrying ceramic cladding",
-      "description": "[
-        \"The main ceramic body is machined into strips and covered with a continuous metal rod core. The metal core is responsible for toughness and continuous support, and the ceramic outer layer provides isolation.\"
-      ]",
+      "description": [
+        "\"The main ceramic body is machined into strips and covered with a continuous metal rod core. The metal core is responsible for toughness and continuous support, and the ceramic outer layer provides isolation.\""
+      ],
       "dependencies": [
         "4B52A27A5FFE5740",
         "4B5B0D8BECDD8667"
@@ -1041,9 +1041,9 @@
       "id": "4B510189BD9FF3DE",
       "title": "Imaginary phase transfer ceramic base material frame components",
       "subtitle": "Connecting ceramic insulating beams with corner pieces",
-      "description": "[
-        \"Combine the ceramic beam and front-stage frame, and add metal connectors and flexible joints at the corner joints. The frame then serves as the load-bearing structure for the IMV chassis and circuit assembly.\"
-      ]",
+      "description": [
+        "\"Combine the ceramic beam and front-stage frame, and add metal connectors and flexible joints at the corner joints. The frame then serves as the load-bearing structure for the IMV chassis and circuit assembly.\""
+      ],
       "dependencies": [
         "4B551135A9953520",
         "4B5CE948D6826C57"
@@ -1066,9 +1066,9 @@
       "id": "4B53DA1823327C30",
       "title": "Imaginary phase transfer ceramic base material ring",
       "subtitle": "Allow expansion joint for ceramic ring",
-      "description": "[
-        \"Enclose the sector ceramic pieces to the front-end ring, and use flexible joints to connect each segment. The new ring is used for assembling the airtight interface, casing and actuator.\"
-      ]",
+      "description": [
+        "\"Enclose the sector ceramic pieces to the front-end ring, and use flexible joints to connect each segment. The new ring is used for assembling the airtight interface, casing and actuator.\""
+      ],
       "dependencies": [
         "4B551135A9953520",
         "4B5D238ED26E8E21"
@@ -1091,9 +1091,9 @@
       "id": "4B5313D7F4421690",
       "title": "Imaginary phase transfer ceramic base material foil",
       "subtitle": "Deposition of ceramic layer on thin metal foil",
-      "description": "[
-        \"A thin ceramic layer is formed first, and then the edges are sealed at low temperature. The backing foil retains the continuity of the thin material for dielectric film and chip packaging.\"
-      ]",
+      "description": [
+        "\"A thin ceramic layer is formed first, and then the edges are sealed at low temperature. The backing foil retains the continuity of the thin material for dielectric film and chip packaging.\""
+      ],
       "dependencies": [
         "4B5B0B519F2E3201",
         "4B5B35081715CDC4"
@@ -1116,9 +1116,9 @@
       "id": "4B5E86444626FE39",
       "title": "Imaginary number phase transfer ceramic base material composite thin wire",
       "subtitle": "Adding ceramic insulation to a continuous metal core",
-      "description": "[
-        \"Cover existing thin metal wires with a thin layer of ceramic. The conduction is provided by the continuous core, and the outer casing is used for interconnection and low-temperature isolation wiring at this level.\"
-      ]",
+      "description": [
+        "\"Cover existing thin metal wires with a thin layer of ceramic. The conduction is provided by the continuous core, and the outer casing is used for interconnection and low-temperature isolation wiring at this level.\""
+      ],
       "dependencies": [
         "4B551135A9953520",
         "4B5DE9FBF4314D00"
@@ -1141,9 +1141,9 @@
       "id": "4B5B197DD2CD1C96",
       "title": "IMV mechanical block",
       "subtitle": "Install the ceramic working layer into the IMV casing",
-      "description": "[
-        \"Retain the complete QAV mechanical block and install the ceramic plate, frame, ring, ports and seals. The material produced by the front-end equipment is enough to complete the first batch of casings.\"
-      ]",
+      "description": [
+        "\"Retain the complete QAV mechanical block and install the ceramic plate, frame, ring, ports and seals. The material produced by the front-end equipment is enough to complete the first batch of casings.\""
+      ],
       "dependencies": [
         "4B5B0B519F2E3201",
         "4B510189BD9FF3DE",
@@ -1168,9 +1168,9 @@
       "id": "4B532C29B77787DE",
       "title": "IMV case layered disassembly",
       "subtitle": "Disassembling the retired IMV casing",
-      "description": "[
-        \"After layered disassembly, the QAV core and part of the complete ceramic form are recovered. The remaining body is converted into classified waste, and the terminals, solder and sealing materials are consumed along with the disassembly.\"
-      ]",
+      "description": [
+        "\"After layered disassembly, the QAV core and part of the complete ceramic form are recovered. The remaining body is converted into classified waste, and the terminals, solder and sealing materials are consumed along with the disassembly.\""
+      ],
       "dependencies": [
         "4B5B197DD2CD1C96"
       ],
@@ -1196,9 +1196,9 @@
       "id": "4B5DAEB02D96FEF4",
       "title": "Imaginary phase transfer ceramic base material recycling components",
       "subtitle": "Separating the Reconstructable Ceramic Components",
-      "description": "[
-        \"Use Soul Steel process solvent to wash away the attachments, and then centrifuge to separate the recovered components and tailings. The reconstructable part accounts for three-quarters of the main body and is sent separately for replenishment.\"
-      ]",
+      "description": [
+        "\"Use Soul Steel process solvent to wash away the attachments, and then centrifuge to separate the recovered components and tailings. The reconstructable part accounts for three-quarters of the main body and is sent separately for replenishment.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1224,9 +1224,9 @@
       "id": "4B52B7D13D3FD0E0",
       "title": "IMV remade from recycled materials",
       "subtitle": "Recycled ceramics are still remade from precursor slurry",
-      "description": "[
-        \"Mix the recovered components with the new body, and re-invest the nucleation and interface auxiliary materials required for this batch. The resulting precursor slurry continues to undergo phase transfer, quenching and sealing.\"
-      ]",
+      "description": [
+        "\"Mix the recovered components with the new body, and re-invest the nucleation and interface auxiliary materials required for this batch. The resulting precursor slurry continues to undergo phase transfer, quenching and sealing.\""
+      ],
       "dependencies": [
         "4B51BD9AC12E0B48",
         "4B58995F28EDFECA"
@@ -1253,9 +1253,9 @@
       "id": "4B58594CCCCF2831",
       "title": "IMV tail solidification",
       "subtitle": "Sequestering failed ceramic tailings",
-      "description": "[
-        \"The non-recyclable tailings after solidification and separation with concrete are used to obtain inert residues. This part of the material exits the ceramic recycling process at this level.\"
-      ]",
+      "description": [
+        "\"The non-recyclable tailings after solidification and separation with concrete are used to obtain inert residues. This part of the material exits the ceramic recycling process at this level.\""
+      ],
       "dependencies": [
         "4B5DA9B39AA3192A"
       ],
@@ -1281,9 +1281,9 @@
       "id": "4B589702DC029F9A",
       "title": "Differential pressure containment lining assembly",
       "subtitle": "Attach independent pressure monitoring to containment lining",
-      "description": "[
-        \"Assemble the space vessel lining and differential pressure monitoring interface into an assembly. First manufactured in an existing precision machining center and subsequently used in formal containment vessels and capture facilities.\"
-      ]",
+      "description": [
+        "\"Assemble the space vessel lining and differential pressure monitoring interface into an assembly. First manufactured in an existing precision machining center and subsequently used in formal containment vessels and capture facilities.\""
+      ],
       "dependencies": [
         "4B53AFBD8F5499DB",
         "4B5BC3E4DF1E7FF5",
@@ -1311,9 +1311,9 @@
       "id": "4B58B6FC383BF579",
       "title": "Large Honkai Energy Reactor",
       "subtitle": "Connect the segmented rod positions and high-pressure heat exchange interface",
-      "description": "[
-        \"Use existing equipment to manufacture a large-scale reactor controller, and install segmented rod position control and high-pressure heat exchange components. After the controller is completed, the facilities will be built according to the structure and energy supply conditions of the large-scale reactor.\"
-      ]",
+      "description": [
+        "\"Use existing equipment to manufacture a large-scale reactor controller, and install segmented rod position control and high-pressure heat exchange components. After the controller is completed, the facilities will be built according to the structure and energy supply conditions of the large-scale reactor.\""
+      ],
       "dependencies": [
         "4B52FD45022F2AFE",
         "4B5BC3E4DF1E7FF5",
@@ -1343,9 +1343,9 @@
       "id": "4B527B4505AD67DB",
       "title": "World Bubble Overall Capture Array",
       "subtitle": "Connect containers, containment sites and leak isolation",
-      "description": "[
-        \"Insert the dedicated containment components into the capture array controller. Only after the empty container and usable target coordinates are prepared, the array enters the real-world capture process.\"
-      ]",
+      "description": [
+        "\"Insert the dedicated containment components into the capture array controller. Only after the empty container and usable target coordinates are prepared, the array enters the real-world capture process.\""
+      ],
       "dependencies": [
         "4B5BC0B208AF6B1C",
         "4B5BC3E4DF1E7FF5",
@@ -1375,9 +1375,9 @@
       "id": "4B5AE7672501970C",
       "title": "Real world bubble termination recycling machine",
       "subtitle": "Leave an independent outlet for real-world bubble recycling",
-      "description": "[
-        \"Assemble the termination recovery machine controller and connect the termination device, scrap sorting and fluid outlet. Once completed, it will be used to process real-world bubbles that have been legally sealed.\"
-      ]",
+      "description": [
+        "\"Assemble the termination recovery machine controller and connect the termination device, scrap sorting and fluid outlet. Once completed, it will be used to process real-world bubbles that have been legally sealed.\""
+      ],
       "dependencies": [
         "4B5278C607A98950"
       ],
@@ -1403,9 +1403,9 @@
       "id": "4B50F95FD0FE0059",
       "title": "Empty World Bubble Containment Container",
       "subtitle": "Create an empty container first, then prepare to capture it",
-      "description": "[
-        \"Assemble the empty shell, constraint interface and containment liner at the God's Key Assembly Center to complete field calibration and sealing. After the empty container is obtained, it will be handed over to the real world bubble capture process.\"
-      ]",
+      "description": [
+        "\"Assemble the empty shell, constraint interface and containment liner at the God's Key Assembly Center to complete field calibration and sealing. After the empty container is obtained, it will be handed over to the real world bubble capture process.\""
+      ],
       "dependencies": [
         "4B53AFBD8F5499DB",
         "4B5BC3E4DF1E7FF5",
@@ -1434,9 +1434,9 @@
       "id": "4B5D57814FE4D3C3",
       "title": "World Bubble Termination Component",
       "subtitle": "Provide independent manufacturing source for termination devices",
-      "description": "[
-        \"Assembling the previously available calibration and structural components into terminal parts. These parts are actually consumed with the terminal operation and are used by the corresponding processes in the real and simulated world bubbles.\"
-      ]",
+      "description": [
+        "\"Assembling the previously available calibration and structural components into terminal parts. These parts are actually consumed with the terminal operation and are used by the corresponding processes in the real and simulated world bubbles.\""
+      ],
       "dependencies": [
         "4B5278C607A98950"
       ],
@@ -1462,9 +1462,9 @@
       "id": "4B5BA171379664CC",
       "title": "Imaginary fuel coupling tool assembly",
       "subtitle": "Activation tooling · QAV working conditions",
-      "description": "[
-        \"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\"
-      ]",
+      "description": [
+        "\"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\""
+      ],
       "dependencies": [
         "4B52FD45022F2AFE"
       ],
@@ -1490,9 +1490,9 @@
       "id": "4B5FFE2FA5B8C97F",
       "title": "Fresh preparation of imaginary coupling collapse fuel",
       "subtitle": "Energetic fuel · QAV operating conditions",
-      "description": "[
-        \"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\"
-      ]",
+      "description": [
+        "\"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\""
+      ],
       "dependencies": [
         "4B5BA171379664CC"
       ],
@@ -1515,10 +1515,10 @@
       "id": "4B5D8B4510122249",
       "title": "Large Honkai Energy Reactor·Honkai Fuel Rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the Honkai fuel rods into the large Honkai energy reactor, and replenish the imaginary coupled Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 4 groups, specification of 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Common first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the Honkai fuel rods into the large Honkai energy reactor, and replenish the imaginary coupled Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, specification of 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Common first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1542,10 +1542,10 @@
       "id": "4B5AF9C193C1225E",
       "title": "Large-scale Honkai energy reactor·Concentrated Honkai fuel rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert concentrated Honkai fuel rods into large Honkai energy reactors, and replenish imaginary coupling Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge 4 groups, specification 1 link, a total of 4 physical rods; consumes 16mB imaginary coupling collapse fuel. Concentrated long-period fuel, the highest heat load. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert concentrated Honkai fuel rods into large Honkai energy reactors, and replenish imaginary coupling Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge 4 groups, specification 1 link, a total of 4 physical rods; consumes 16mB imaginary coupling collapse fuel. Concentrated long-period fuel, the highest heat load. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1569,10 +1569,10 @@
       "id": "4B5A512F4D2B08FF",
       "title": "Large-scale Honkai Energy Reactor · Adsorbed Carbon Core Collapse Fuel Cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the adsorbed carbon core collapse fuel cartridge into the large-scale collapse energy reactor, and replenish the imaginary coupled collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge of 4 groups, specification 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by independent loops based on heat inventory. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the adsorbed carbon core collapse fuel cartridge into the large-scale collapse energy reactor, and replenish the imaginary coupled collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge of 4 groups, specification 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by independent loops based on heat inventory. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1596,10 +1596,10 @@
       "id": "4B59A5EA531887E6",
       "title": "Large-scale collapse energy reactor·Molecular sieve directional energy-carrying rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert molecular sieve directional energy-carrying rods into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consuming 16mB of imaginary coupling collapse fuel. Adsorbing carriers, sacrificing power for stable energy release. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert molecular sieve directional energy-carrying rods into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consuming 16mB of imaginary coupling collapse fuel. Adsorbing carriers, sacrificing power for stable energy release. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1623,10 +1623,10 @@
       "id": "4B5B164EEDF57442",
       "title": "Large-scale Honkai energy reactor · Silica gel solidified Honkai fuel particles",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Load silica gel solidified Honkai fuel particles into a large Honkai energy reactor, and replenish imaginary coupling Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed loading of 4 groups, specification of 1 link, 4 physical rods in total; consumes 16mB of imaginary coupling collapse fuel. The gel is evenly dispersed and runs for a long period. Cooling is performed by an independent loop according to the heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Load silica gel solidified Honkai fuel particles into a large Honkai energy reactor, and replenish imaginary coupling Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, specification of 1 link, 4 physical rods in total; consumes 16mB of imaginary coupling collapse fuel. The gel is evenly dispersed and runs for a long period. Cooling is performed by an independent loop according to the heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1650,10 +1650,10 @@
       "id": "4B52EC57B8BA6349",
       "title": "Large-scale collapse energy reactor · Silicon carbide porous ceramic fuel rods",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert silicon carbide porous ceramic fuel rods into large-scale colloidal energy reactors, and replenish imaginary coupled collapsing fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB imaginary coupling collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert silicon carbide porous ceramic fuel rods into large-scale colloidal energy reactors, and replenish imaginary coupled collapsing fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB imaginary coupling collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1677,10 +1677,10 @@
       "id": "4B5E1C5E408060A6",
       "title": "Large-scale collapse energy reactor · Boron carbide gradient particle fuel cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert boron carbide gradient particle fuel cartridges into large-scale colloidal energy reactors, and replenish imaginary coupled collapsing fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charge 4 groups, specification 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by independent loops according to heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert boron carbide gradient particle fuel cartridges into large-scale colloidal energy reactors, and replenish imaginary coupled collapsing fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charge 4 groups, specification 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by independent loops according to heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1704,10 +1704,10 @@
       "id": "4B594DF57FFFFA74",
       "title": "Large Collapse Energy Reactor·Zirconium Oxide Gradient Ceramic Fuel Beads",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Load zirconium oxide gradient ceramic fuel beads into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High temperature stable carrier, cooling needs to be improved. Cooling is performed by an independent loop according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Load zirconium oxide gradient ceramic fuel beads into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High temperature stable carrier, cooling needs to be improved. Cooling is performed by an independent loop according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1731,10 +1731,10 @@
       "id": "4B5A01890D5DA8E5",
       "title": "Large-scale Honkai energy reactor·Diamond copper skeleton Honkai fuel core",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the diamond-copper skeleton collapse fuel core into the large-scale collapse energy reactor, and replenish the imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB imaginary coupling collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the diamond-copper skeleton collapse fuel core into the large-scale collapse energy reactor, and replenish the imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB imaginary coupling collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by independent loops according to heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1758,10 +1758,10 @@
       "id": "4B5163920A7A0E32",
       "title": "Large Collapse Energy Reactor · Graphene Interlayer Collapse Fuel Sheet",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert graphene interlayer collapse fuel sheets into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charging of 4 groups, specification of 1 link, a total of 4 physical rods; consumption of 16mB imaginary coupling collapse fuel. Thermal micro-grid, taking into account power generation and HW. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert graphene interlayer collapse fuel sheets into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charging of 4 groups, specification of 1 link, a total of 4 physical rods; consumption of 16mB imaginary coupling collapse fuel. Thermal micro-grid, taking into account power generation and HW. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1785,10 +1785,10 @@
       "id": "4B58C9A8796A786A",
       "title": "Large-scale collapse energy reactor·Titanium carbide cermet fuel block",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert titanium carbide cermet fuel blocks into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed charging of 4 groups, specification of 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert titanium carbide cermet fuel blocks into large-scale collapse energy reactors, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed charging of 4 groups, specification of 1 link, 4 physical rods in total; consumes 16mB imaginary coupling collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1812,10 +1812,10 @@
       "id": "4B580B91DC7A6A67",
       "title": "Large-scale collapse energy reactor·Alumina insulated microbead fuel bed",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert an alumina insulating microbead fuel bed into a large-scale collapse energy reactor, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High-output ceramics, longer operating cycle. Cooling is performed by independent loops based on heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert an alumina insulating microbead fuel bed into a large-scale collapse energy reactor, and replenish imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High-output ceramics, longer operating cycle. Cooling is performed by independent loops based on heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1839,10 +1839,10 @@
       "id": "4B5EDF98AEBC94D1",
       "title": "Large-scale collapse energy reactor · Tungsten microchannel collapse fuel cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert the tungsten microchannel collapse fuel cartridge into the large-scale collapse energy reactor, and replenish the imaginary coupled collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert the tungsten microchannel collapse fuel cartridge into the large-scale collapse energy reactor, and replenish the imaginary coupled collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by independent loops based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1866,10 +1866,10 @@
       "id": "4B514DE6340A7812",
       "title": "Large-scale collapse energy reactor · PTFE cold-end membrane fuel cartridge",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Insert a PTFE cold-end membrane fuel cartridge into a large-scale collapse energy reactor, and replenish imaginary coupled collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. Low thermal film carrier, biased towards HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Insert a PTFE cold-end membrane fuel cartridge into a large-scale collapse energy reactor, and replenish imaginary coupled collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. Low thermal film carrier, biased towards HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1893,10 +1893,10 @@
       "id": "4B50222A3B881CAF",
       "title": "Large-scale collapse energy reactor · PBI cold end microcapsule fuel particles",
       "subtitle": "High energy release·Choose one of four rod set specifications",
-      "description": "[
-        \"Load PBI cold-end microcapsule fuel particles into the large-scale collapse energy reactor, and supplement the imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
-        \"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High HW microcapsule carrier, the longest operating cycle. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
-      ]",
+      "description": [
+        "\"Load PBI cold-end microcapsule fuel particles into the large-scale collapse energy reactor, and supplement the imaginary coupling collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\"",
+        "\"Fixed loading of 4 groups, 1 link, a total of 4 physical rods; consumes 16mB of imaginary coupling collapse fuel. High HW microcapsule carrier, the longest operating cycle. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\""
+      ],
       "dependencies": [
         "4B5FFE2FA5B8C97F",
         "4B58B6FC383BF579"
@@ -1920,12 +1920,12 @@
       "id": "4B52FD45022F2AFE",
       "title": "Large reactor engineering",
       "subtitle": "RN-LRE · Experimental and Formal Research",
-      "description": "[
-        \"Fuel packaging component × 1; paper × 2; tooling is not consumed.\",
-        \"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. High-load operation and heat budget records are complete, including equipment and actual consumption; the original quantity of the tested object is returned, and the experimental results are recorded after completion.\",
-        \"After the experiment is completed, choose 2160 research points or QAV circuit × 6, silica alloy plate × 88 to pay the base fee; an additional 18,000 ticks and 131,941,395,333,120 EU/t are required. The current material pressure is corrected according to the advanced level.\",
-        \"The institute deducts power according to the total power of the effective energy port. After completion, the construction and energy supply conditions of the large-scale collapse energy reactor will be unlocked.\"
-      ]",
+      "description": [
+        "\"Fuel packaging component × 1; paper × 2; tooling is not consumed.\"",
+        "\"Complete the team's experiment at the Honkai Energy Sample Spectral Analysis Array. High-load operation and heat budget records are complete, including equipment and actual consumption; the original quantity of the tested object is returned, and the experimental results are recorded after completion.\"",
+        "\"After the experiment is completed, choose 2160 research points or QAV circuit × 6, silica alloy plate × 88 to pay the base fee; an additional 18,000 ticks and 131,941,395,333,120 EU/t are required. The current material pressure is corrected according to the advanced level.\"",
+        "\"The institute deducts power according to the total power of the effective energy port. After completion, the construction and energy supply conditions of the large-scale collapse energy reactor will be unlocked.\""
+      ],
       "dependencies": [
         "4B50866329B1DB0E",
         "4B540C3CD6E1C789",

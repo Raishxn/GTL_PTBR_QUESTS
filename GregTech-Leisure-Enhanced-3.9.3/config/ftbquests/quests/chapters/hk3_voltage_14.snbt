@@ -3,8 +3,8 @@
   "id": "4B5F2B889F6CCDEA",
   "title": "Tensão limite estável WSV",
   "subtitle": [
-    "Tier28-WSV"
-  ],
+        "Tier28-WSV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 29,
   "icon": "hk3gtl:voltage_machine_casing_wsv",
@@ -14,9 +14,9 @@
       "id": "4B591448503FE870",
       "title": "Verificação de resultado de etapa limitada",
       "subtitle": "Verifique de forma independente os resultados dos cálculos e o status de parada",
-      "description": "[
-        “Leia o recibo de cálculo anterior no equipamento de teste de engenharia e use fórmulas independentes para verificar o número de etapas, status de parada e valor total. Salve os registros de cálculo que passaram na verificação para pesquisas de engenharia subsequentes.”
-      ]",
+      "description": [
+        "Leia o recibo de cálculo anterior no equipamento de teste de engenharia e use fórmulas independentes para verificar o número de etapas, status de parada e valor total. Salve os registros de cálculo que passaram na verificação para pesquisas de engenharia subsequentes."
+      ],
       "dependencies": [
         "4B52E449306ED7FC",
         "4B5137DC6ACD7AAC"
@@ -43,9 +43,9 @@
       "id": "4B5132710E761772",
       "title": "Amostragem de fontes de contradições",
       "subtitle": "Deixe ambas as larguras de bits lerem a mesma amostra finita",
-      "description": "[
-        \"Obtenha o mesmo conjunto de entradas de três fontes existentes, usando acumulação de canais de 32 e 64 bits, respectivamente. Mantenha os dois relatórios originais e as mesmas definições de amostra e, em seguida, execute a revalidação independente.\"
-      ]",
+      "description": [
+        "\"Obtenha o mesmo conjunto de entradas de três fontes existentes, usando acumulação de canais de 32 e 64 bits, respectivamente. Mantenha os dois relatórios originais e as mesmas definições de amostra e, em seguida, execute a revalidação independente.\""
+      ],
       "dependencies": [
         "4B55EF1E9B3DACDA",
         "4B5802E842FF9314"
@@ -72,9 +72,9 @@
       "id": "4B5446D7FAF60899",
       "title": "Novos testes independentes de amostras conflitantes",
       "subtitle": "Recalcular usando números inteiros de precisão arbitrários na ordem inversa",
-      "description": "[
-        “Leia a mesma amostra retida na condição de trabalho anterior no laboratório reverso e acumule-a na ordem inversa com um número inteiro de precisão arbitrária. Salve os resultados completos e dois relatórios originais e, em seguida, entregue-os ao equipamento de engenharia para revisão.
-      ]",
+      "description": [
+        "“Leia a mesma amostra retida na condição de trabalho anterior no laboratório reverso e acumule-a na ordem inversa com um número inteiro de precisão arbitrária. Salve os resultados completos e dois relatórios originais e, em seguida, entregue-os ao equipamento de engenharia para revisão."
+      ],
       "dependencies": [
         "4B5132710E761772"
       ],
@@ -100,9 +100,9 @@
       "id": "4B5FED87D8CDDF57",
       "title": "Verificação de sequência de agendamento entre máquinas",
       "subtitle": "Verifique a transferência real de material entre duas máquinas autorizadas",
-      "description": "[
-        \"Primeiro, eu crio claramente uma ordem de serviço, deixo as duas máquinas autorizadas realmente produzirem e entregarem os materiais em sequência e, em seguida, verifico a entrega e o recebimento de envio manual no equipamento de teste de engenharia. Salve os registros completos da ordem de serviço entre máquinas.\"
-      ]",
+      "description": [
+        "\"Primeiro, eu crio claramente uma ordem de serviço, deixo as duas máquinas autorizadas realmente produzirem e entregarem os materiais em sequência e, em seguida, verifico a entrega e o recebimento de envio manual no equipamento de teste de engenharia. Salve os registros completos da ordem de serviço entre máquinas.\""
+      ],
       "dependencies": [
         "4B5D9AB5C693811A",
         "4B55EF1E9B3DACDA"
@@ -129,10 +129,10 @@
       "id": "4B5E768E561F880E",
       "title": "Continuação do workshop da WFV",
       "subtitle": "WFV → WSV",
-      "description": "[
-        \"O chassi frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos WSV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos WSV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B580FDD510DA71E"
       ],
@@ -154,9 +154,9 @@
       "id": "4B58558AF88A1976",
       "title": "barramento de limite restrito",
       "subtitle": "Conecte domínios de restrição independentes ao mesmo barramento",
-      "description": "[
-        \"O limite de restrição independente é conectado à interface da peça de roteamento da topologia de limite para formar um barramento de limite de restrição. A nova placa de impressão, membrana e material principal foram instalados na montagem e serão colocados em produção como um barramento acabado.\"
-      ]",
+      "description": [
+        "\"O limite de restrição independente é conectado à interface da peça de roteamento da topologia de limite para formar um barramento de limite de restrição. A nova placa de impressão, membrana e material principal foram instalados na montagem e serão colocados em produção como um barramento acabado.\""
+      ],
       "dependencies": [
         "4B531BD31DF7D0DE",
         "4B50212A69B5E25E",
@@ -180,9 +180,9 @@
       "id": "4B5DA9F231445ED9",
       "title": "Eleitor de isolamento de falha",
       "subtitle": "Verifique o status da falha e os resultados da comutação",
-      "description": "[
-        \"A CPU local, RAM e relógio são encapsulados em um eleitor de isolamento de falhas, que é usado para verificação de status, isolamento e confirmação de comutação do domínio de restrição.\"
-      ]",
+      "description": [
+        "\"A CPU local, RAM e relógio são encapsulados em um eleitor de isolamento de falhas, que é usado para verificação de status, isolamento e confirmação de comutação do domínio de restrição.\""
+      ],
       "dependencies": [
         "4B51716ACB713DCE",
         "4B58558AF88A1976",
@@ -206,9 +206,9 @@
       "id": "4B525BAF22D76495",
       "title": "Grupo servo de limite redundante",
       "subtitle": "Adicione suporte redundante para operações de limite",
-      "description": "[
-        \"Um servomecanismo de limite é adicionado ao componente de execução do estágio frontal. Ele é responsável pela operação de limite e parada de incompatibilidade deste estágio, e o suporte do estágio frontal é retido com o produto acabado.\"
-      ]",
+      "description": [
+        "\"Um servomecanismo de limite é adicionado ao componente de execução do estágio frontal. Ele é responsável pela operação de limite e parada de incompatibilidade deste estágio, e o suporte do estágio frontal é retido com o produto acabado.\""
+      ],
       "dependencies": [
         "4B556E81648CE5E5",
         "4B5DA9F231445ED9",
@@ -232,9 +232,9 @@
       "id": "4B5EAB5D0766FEF5",
       "title": "Bloco de circuito de serviço independente",
       "subtitle": "Conecte o circuito de alimentação e o bypass respectivamente",
-      "description": "[
-        \"Retenha o canal frontal e, em seguida, monte o circuito de alimentação independente e o desvio da zona. Depois de concluir o processo hermético, retorne o fluido de exaustão de calor para a linha de tratamento do líquido refrigerante.\"
-      ]",
+      "description": [
+        "\"Retenha o canal frontal e, em seguida, monte o circuito de alimentação independente e o desvio da zona. Depois de concluir o processo hermético, retorne o fluido de exaustão de calor para a linha de tratamento do líquido refrigerante.\""
+      ],
       "dependencies": [
         "4B5E6B8B68D9B5DA",
         "4B56216F4E2D7726",
@@ -258,9 +258,9 @@
       "id": "4B5D8D141FECC519",
       "title": "Host do processador de textura mundial",
       "subtitle": "Integre cálculos de textura em limites de restrição",
-      "description": "[
-        \"Usando dois supercomputadores mundiais como corpo de computação, conectados ao barramento de limite restrito, unidade de votação de isolamento de falhas e bloco de loop de serviço independente, conclua a montagem do host.\"
-      ]",
+      "description": [
+        "\"Usando dois supercomputadores mundiais como corpo de computação, conectados ao barramento de limite restrito, unidade de votação de isolamento de falhas e bloco de loop de serviço independente, conclua a montagem do host.\""
+      ],
       "dependencies": [
         "4B56F3B0A5BF4A8C",
         "4B5DA9F231445ED9",
@@ -285,9 +285,9 @@
       "id": "4B5F2E4515DC981D",
       "title": "Supercomputador de cálculo de sequência final",
       "subtitle": "Carregando componentes de cálculo em uma estrutura de isolamento",
-      "description": "[
-        \"Usando dois conjuntos de processadores de sequência final como corpo principal, adicionando um quadro de shell de restrição estável, RAM compartilhada e circuitos independentes, o supercomputador de sequência final é montado.\"
-      ]",
+      "description": [
+        "\"Usando dois conjuntos de processadores de sequência final como corpo principal, adicionando um quadro de shell de restrição estável, RAM compartilhada e circuitos independentes, o supercomputador de sequência final é montado.\""
+      ],
       "dependencies": [
         "4B59DB139B2F5210",
         "4B5DA9F231445ED9",
@@ -312,9 +312,9 @@
       "id": "4B5949A42E56A093",
       "title": "Conjunto do Processador de Sustentabilidade da Civilização",
       "subtitle": "Deixe o registro de estado funcionar com a alternância de limites",
-      "description": "[
-        “Conecte dois processadores Civilization Persistent ao barramento de restrição deste nível, adicione o dispositivo de votação de isolamento de falhas, RAM compartilhada e estrutura de suporte de carga para completar a montagem do processador.”
-      ]",
+      "description": [
+        "Conecte dois processadores Civilization Persistent ao barramento de restrição deste nível, adicione o dispositivo de votação de isolamento de falhas, RAM compartilhada e estrutura de suporte de carga para completar a montagem do processador."
+      ],
       "dependencies": [
         "4B5DA9F231445ED9",
         "4B5EAB5D0766FEF5",
@@ -338,9 +338,9 @@
       "id": "4B55C1E63A21B3A4",
       "title": "Motor elétrico WSV",
       "subtitle": "Combine o driver antigo com o componente de execução atual",
-      "description": "[
-        \"Com base em dois motores elétricos WFV, grupos servo de limite redundantes, eleitores de isolamento de falhas e blocos de loop de serviço independentes são adicionados e, em seguida, conectados ao circuito de processamento deste nível para formar um motor elétrico WSV.\"
-      ]",
+      "description": [
+        "\"Com base em dois motores elétricos WFV, grupos servo de limite redundantes, eleitores de isolamento de falhas e blocos de loop de serviço independentes são adicionados e, em seguida, conectados ao circuito de processamento deste nível para formar um motor elétrico WSV.\""
+      ],
       "dependencies": [
         "4B588D52C7941E89",
         "4B525BAF22D76495",
@@ -364,9 +364,9 @@
       "id": "4B55FCCCC9EE2F63",
       "title": "Pistão elétrico WSV",
       "subtitle": "Primeiro tenha o motor deste nível e depois monte o atuador linear",
-      "description": "[
-        \"Monte este nível de motor com duas peças de pistões elétricos WFV e conecte-os ao grupo servo de limite redundante e ao bloco de circuito de serviço independente para completar este nível de pistão.\"
-      ]",
+      "description": [
+        "\"Monte este nível de motor com duas peças de pistões elétricos WFV e conecte-os ao grupo servo de limite redundante e ao bloco de circuito de serviço independente para completar este nível de pistão.\""
+      ],
       "dependencies": [
         "4B5A4E71F28E7D7B",
         "4B55C1E63A21B3A4"
@@ -389,9 +389,9 @@
       "id": "4B5A9C26C12082CA",
       "title": "Bomba elétrica WSV",
       "subtitle": "Montando a unidade, o loop de mídia e os componentes de status juntos",
-      "description": "[
-        \"Com base em duas bombas elétricas WFV, o motor de nível de corrente, o bloco de circuito de serviço independente, o grupo servo de limite redundante e o eleitor de isolamento de falhas são instalados para completar a bomba de nível de corrente.\"
-      ]",
+      "description": [
+        "\"Com base em duas bombas elétricas WFV, o motor de nível de corrente, o bloco de circuito de serviço independente, o grupo servo de limite redundante e o eleitor de isolamento de falhas são instalados para completar a bomba de nível de corrente.\""
+      ],
       "dependencies": [
         "4B549F522A6157BB",
         "4B55C1E63A21B3A4"
@@ -414,9 +414,9 @@
       "id": "4B5564A4DB90FCDB",
       "title": "Módulo Transportador WSV",
       "subtitle": "Conecte o driver do transportador à interface de despacho deste nível",
-      "description": "[
-        \"Monte dois módulos de correia transportadora WFV e dois motores de nível de corrente e conecte o barramento de limite de restrição, o eleitor de isolamento de falhas e o componente de execução para criar um novo módulo transportador.\"
-      ]",
+      "description": [
+        "\"Monte dois módulos de correia transportadora WFV e dois motores de nível de corrente e conecte o barramento de limite de restrição, o eleitor de isolamento de falhas e o componente de execução para criar um novo módulo transportador.\""
+      ],
       "dependencies": [
         "4B5E9F7D1509AD77",
         "4B55C1E63A21B3A4"
@@ -439,9 +439,9 @@
       "id": "4B5FC954E717BFB4",
       "title": "Braço robótico WSV",
       "subtitle": "Instale o acionamento rotativo e o atuador linear na mesma estrutura",
-      "description": "[
-        “Prepare duas peças do motor deste nível e uma peça do pistão deste nível, monte-as juntas com duas peças dos braços robóticos WFV e, em seguida, conecte o barramento de limite de restrição e o dispositivo de votação de isolamento de falhas.”
-      ]",
+      "description": [
+        "Prepare duas peças do motor deste nível e uma peça do pistão deste nível, monte-as juntas com duas peças dos braços robóticos WFV e, em seguida, conecte o barramento de limite de restrição e o dispositivo de votação de isolamento de falhas."
+      ],
       "dependencies": [
         "4B5E853D08F25D97",
         "4B55FCCCC9EE2F63"
@@ -464,9 +464,9 @@
       "id": "4B59AE764DF3481F",
       "title": "Sensor WSV",
       "subtitle": "Receba leituras de status através desta interface de nível",
-      "description": "[
-        “Monte os dois sensores WFV com o barramento de limite de restrição, dispositivo de votação de isolamento de falhas e bloco de loop de serviço independente e conecte os circuitos e partes estruturais deste nível para fazer um novo sensor.”
-      ]",
+      "description": [
+        "Monte os dois sensores WFV com o barramento de limite de restrição, dispositivo de votação de isolamento de falhas e bloco de loop de serviço independente e conecte os circuitos e partes estruturais deste nível para fazer um novo sensor."
+      ],
       "dependencies": [
         "4B56743739F941C6",
         "4B5949A42E56A093"
@@ -489,9 +489,9 @@
       "id": "4B558B1BB8FB35FA",
       "title": "Transmissor WSV",
       "subtitle": "Conecte o componente de transmissão a este nível de controle e loop",
-      "description": "[
-        \"Com base nos dois transmissores WFV, um barramento de limite restrito, dispositivo de votação para isolamento de falhas, bloco de circuito de serviço independente e laser de pulso ultracurto são adicionados para completar o novo transmissor.\"
-      ]",
+      "description": [
+        "\"Com base nos dois transmissores WFV, um barramento de limite restrito, dispositivo de votação para isolamento de falhas, bloco de circuito de serviço independente e laser de pulso ultracurto são adicionados para completar o novo transmissor.\""
+      ],
       "dependencies": [
         "4B5C9068264A5507",
         "4B5949A42E56A093"
@@ -514,9 +514,9 @@
       "id": "4B5DD049049F9406",
       "title": "Gerador de campo de força WSV",
       "subtitle": "Integre componentes de lançamento e medição em controles de campo",
-      "description": "[
-        “Primeiro prepare quatro peças de transmissores deste nível e duas peças de sensores deste nível e, em seguida, monte-os juntos com duas peças de geradores de campo de força WFV, circuitos deste nível e componentes de interface.”
-      ]",
+      "description": [
+        "Primeiro prepare quatro peças de transmissores deste nível e duas peças de sensores deste nível e, em seguida, monte-os juntos com duas peças de geradores de campo de força WFV, circuitos deste nível e componentes de interface."
+      ],
       "dependencies": [
         "4B5189A9A37FFDAE",
         "4B59AE764DF3481F",
@@ -540,9 +540,9 @@
       "id": "4B52AF5EC4088E88",
       "title": "Camada intermediária de isolamento de propagação de fissuras",
       "subtitle": "Confinando fissuras em camadas locais",
-      "description": "[
-        \"Um sanduíche é feito de materiais de fibra estruturalmente gradientes e materiais de isolamento flexíveis para preparar a camada de conexão para isolamento subsequente, laminação de costura escalonada e tratamento de fadiga.\"
-      ]",
+      "description": [
+        "\"Um sanduíche é feito de materiais de fibra estruturalmente gradientes e materiais de isolamento flexíveis para preparar a camada de conexão para isolamento subsequente, laminação de costura escalonada e tratamento de fadiga.\""
+      ],
       "dependencies": [
         "4B52DF9964ED8F7C"
       ],
@@ -564,9 +564,9 @@
       "id": "4B543CAC364A7E4B",
       "title": "Fluido de encapsulamento para isolamento de fadiga",
       "subtitle": "Prepare novo líquido para o primeiro lote de materiais de vedação",
-      "description": "[
-        \"Use líquido transportador fresco e materiais auxiliares sólidos para preparar um líquido de encapsulamento de isolamento de fadiga para fornecer o revestimento precursor, laminação de costura escalonada e processos de vedação final.\"
-      ]",
+      "description": [
+        "\"Use líquido transportador fresco e materiais auxiliares sólidos para preparar um líquido de encapsulamento de isolamento de fadiga para fornecer o revestimento precursor, laminação de costura escalonada e processos de vedação final.\""
+      ],
       "dependencies": [
         "4B5793B57FF95411"
       ],
@@ -589,9 +589,9 @@
       "id": "4B527F8490E54262",
       "title": "precursor de isolamento restrito",
       "subtitle": "Primeiro faça isolamento segmentado e interfaces anti-expansão",
-      "description": "[
-        \"Coloque uma camada intermediária de isolamento no material de fibra de gradiente estrutural para formar um precursor de isolamento segmentado. Colete o líquido transportador de interface residual descarregado nesta etapa.\"
-      ]",
+      "description": [
+        "\"Coloque uma camada intermediária de isolamento no material de fibra de gradiente estrutural para formar um precursor de isolamento segmentado. Colete o líquido transportador de interface residual descarregado nesta etapa.\""
+      ],
       "dependencies": [
         "4B52AF5EC4088E88",
         "4B543CAC364A7E4B"
@@ -614,9 +614,9 @@
       "id": "4B5A907B4ED6B2ED",
       "title": "Isolamento de fibra em branco multicamadas",
       "subtitle": "Deixe as peças duras serem costuradas escalonadas e as camadas flexíveis conectam as camadas.",
-      "description": "[
-        \"O precursor de isolamento e a folha frontal são escalonados e pressionados juntos, e camadas flexíveis e feixes de direção Z são usados para conectar as camadas para formar uma placa de isolamento multicamadas.\"
-      ]",
+      "description": [
+        "\"O precursor de isolamento e a folha frontal são escalonados e pressionados juntos, e camadas flexíveis e feixes de direção Z são usados para conectar as camadas para formar uma placa de isolamento multicamadas.\""
+      ],
       "dependencies": [
         "4B5E50CE2001967B",
         "4B527F8490E54262"
@@ -639,9 +639,9 @@
       "id": "4B5AE55938FFA23C",
       "title": "Pré-tratamento de fadiga de casca multicamadas",
       "subtitle": "Condicionamento completo do ciclo térmico antes da tampagem",
-      "description": "[
-        \"Realize o pré-tratamento do ciclo térmico no tarugo multicamadas para liberar o estresse da interface. Colete o líquido refrigerante quente e o fluido de condicionamento de estresse residual, respectivamente, e depois envie o tarugo de revisão do envelhecimento por fadiga para nova vedação.\"
-      ]",
+      "description": [
+        "\"Realize o pré-tratamento do ciclo térmico no tarugo multicamadas para liberar o estresse da interface. Colete o líquido refrigerante quente e o fluido de condicionamento de estresse residual, respectivamente, e depois envie o tarugo de revisão do envelhecimento por fadiga para nova vedação.\""
+      ],
       "dependencies": [
         "4B5A907B4ED6B2ED"
       ],
@@ -663,9 +663,9 @@
       "id": "4B5A94746622AD6F",
       "title": "Branco padrão de material de casca com limite estável e restrito",
       "subtitle": "Após o ciclo térmico, sele novamente a superfície final",
-      "description": "[
-        \"Adicione uma camada intermediária de isolamento e material de vedação de borda à face final após o tratamento de fadiga para vedar os limites entre as camadas e obter uma peça bruta padrão de material de casca estável com limites limitados.\"
-      ]",
+      "description": [
+        "\"Adicione uma camada intermediária de isolamento e material de vedação de borda à face final após o tratamento de fadiga para vedar os limites entre as camadas e obter uma peça bruta padrão de material de casca estável com limites limitados.\""
+      ],
       "dependencies": [
         "4B5AE55938FFA23C"
       ],
@@ -687,9 +687,9 @@
       "id": "4B5BBBF746435F75",
       "title": "Placa de restrição de fissuras de costura escalonada",
       "subtitle": "Deixe a rachadura mudar seu caminho à medida que passa por cada camada",
-      "description": "[
-        \"A camada intermediária de isolamento é colocada na placa em costuras escalonadas, e o suporte frontal de suporte de carga é retido para formar uma placa de revestimento estável e delimitada.\"
-      ]",
+      "description": [
+        "\"A camada intermediária de isolamento é colocada na placa em costuras escalonadas, e o suporte frontal de suporte de carga é retido para formar uma placa de revestimento estável e delimitada.\""
+      ],
       "dependencies": [
         "4B5A94746622AD6F"
       ],
@@ -711,9 +711,9 @@
       "id": "4B57C2F795B813DC",
       "title": "Haste de retenção segmentada para travamento de fissuras",
       "subtitle": "Mantenha o núcleo da haste contínua e coloque a camada intermediária em seções",
-      "description": "[
-        \"Coloque camadas intermediárias de isolamento segmentadas fora do núcleo da haste contínua e, em seguida, complete a embalagem para fazer uma haste de retenção contra rachaduras.\"
-      ]",
+      "description": [
+        "\"Coloque camadas intermediárias de isolamento segmentadas fora do núcleo da haste contínua e, em seguida, complete a embalagem para fazer uma haste de retenção contra rachaduras.\""
+      ],
       "dependencies": [
         "4B5AF78C0F07FAC8",
         "4B5A94746622AD6F"
@@ -736,9 +736,9 @@
       "id": "4B508B22870E1F24",
       "title": "Estrutura de restrição de nó flexível",
       "subtitle": "Adicione uma camada de buffer flexível entre nós",
-      "description": "[
-        \"Adicione camadas intermediárias flexíveis aos nós da estrutura para reter interfaces de buffer entre cada seção da viga para criar uma estrutura restrita.\"
-      ]",
+      "description": [
+        "\"Adicione camadas intermediárias flexíveis aos nós da estrutura para reter interfaces de buffer entre cada seção da viga para criar uma estrutura restrita.\""
+      ],
       "dependencies": [
         "4B558B4335018F20",
         "4B57C2F795B813DC"
@@ -761,9 +761,9 @@
       "id": "4B56216F4E2D7726",
       "title": "anel de isolamento de válvula dividida",
       "subtitle": "Cercado por costuras escalonadas de partições divididas",
-      "description": "[
-        \"As costuras escalonadas envolvem cada camada de isolamento, mantendo um anel externo contínuo para suportar a carga circunferencial e criar um anel de isolamento anti-rachaduras.\"
-      ]",
+      "description": [
+        "\"As costuras escalonadas envolvem cada camada de isolamento, mantendo um anel externo contínuo para suportar a carga circunferencial e criar um anel de isolamento anti-rachaduras.\""
+      ],
       "dependencies": [
         "4B58EE50644340CB",
         "4B57C2F795B813DC"
@@ -786,9 +786,9 @@
       "id": "4B50212A69B5E25E",
       "title": "Folha flexível de barreira contra rachaduras",
       "subtitle": "Preservar uma camada resistente dentro de uma folha fina",
-      "description": "[
-        \"Componha a camada intermediária fina com a folha de base resistente, complete a vedação da borda e faça uma folha anti-rachaduras para isolamento entre camadas.\"
-      ]",
+      "description": [
+        "\"Componha a camada intermediária fina com a folha de base resistente, complete a vedação da borda e faça uma folha anti-rachaduras para isolamento entre camadas.\""
+      ],
       "dependencies": [
         "4B5BBBF746435F75"
       ],
@@ -810,9 +810,9 @@
       "id": "4B588F9018481E6F",
       "title": "Isolando camadas finas para restringir linhas finas",
       "subtitle": "Colocar uma barreira flexível fora do núcleo contínuo",
-      "description": "[
-        \"Retenha o núcleo do fio contínuo, prepare uma camada fina de isolamento flexível na parte externa e encapsule-a para fazer um fio fino restrito.\"
-      ]",
+      "description": [
+        "\"Retenha o núcleo do fio contínuo, prepare uma camada fina de isolamento flexível na parte externa e encapsule-a para fazer um fio fino restrito.\""
+      ],
       "dependencies": [
         "4B583DDDF7D38C97",
         "4B57C2F795B813DC"
@@ -835,9 +835,9 @@
       "id": "4B586D17875499F0",
       "title": "Bloco mecânico WSV",
       "subtitle": "Instale a estrutura de isolamento anti-rachaduras no novo invólucro",
-      "description": "[
-        \"Usando o cubo mecânico WFV como núcleo, adicionando placas de casca de restrição estáveis, estruturas e anéis de conexão e, em seguida, completando as portas e embalagens, o primeiro lote de cubos mecânicos WSV é feito. A primeira condição de produção é WFV.\"
-      ]",
+      "description": [
+        "\"Usando o cubo mecânico WFV como núcleo, adicionando placas de casca de restrição estáveis, estruturas e anéis de conexão e, em seguida, completando as portas e embalagens, o primeiro lote de cubos mecânicos WSV é feito. A primeira condição de produção é WFV.\""
+      ],
       "dependencies": [
         "4B580FDD510DA71E",
         "4B5BBBF746435F75",
@@ -862,9 +862,9 @@
       "id": "4B542CCF25B0473F",
       "title": "Desmontando o bloco mecânico WSV",
       "subtitle": "Deixando cascas reutilizáveis ​​e peças estruturais completas",
-      "description": "[
-        “Desmonte o bloco mecânico WSV em camadas e recupere o núcleo do WFV e metade das placas, molduras e anéis completos. O corpo principal restante é dividido em resíduos classificados, e peças funcionais especiais e materiais de embalagem são consumidos junto com a desmontagem.
-      ]",
+      "description": [
+        "“Desmonte o bloco mecânico WSV em camadas e recupere o núcleo do WFV e metade das placas, molduras e anéis completos. O corpo principal restante é dividido em resíduos classificados, e peças funcionais especiais e materiais de embalagem são consumidos junto com a desmontagem."
+      ],
       "dependencies": [
         "4B586D17875499F0"
       ],
@@ -890,9 +890,9 @@
       "id": "4B527B071B7AF4C7",
       "title": "Restrição de limite estável separação de resíduos de material de casca",
       "subtitle": "Coletar separadamente componentes reconstruíveis e rejeitos",
-      "description": "[
-        \"Use o solvente de processo Soul Steel para eluir os anexos dos resíduos classificados e, em seguida, realize a separação centrífuga. O corpo principal é separado em 75% de componentes reciclados e 25% de rejeitos não recicláveis, e o solvente residual é coletado separadamente.\"
-      ]",
+      "description": [
+        "\"Use o solvente de processo Soul Steel para eluir os anexos dos resíduos classificados e, em seguida, realize a separação centrífuga. O corpo principal é separado em 75% de componentes reciclados e 25% de rejeitos não recicláveis, e o solvente residual é coletado separadamente.\""
+      ],
       "dependencies": [
         "4B5793B57FF95411"
       ],
@@ -918,9 +918,9 @@
       "id": "4B5855ED5B444920",
       "title": "Reconstrua o precursor de isolamento restrito",
       "subtitle": "Renovar o corpo principal e reinvestir em excipientes funcionais",
-      "description": "[
-        \"Combine os componentes reciclados com o corpo principal novo de acordo com a fórmula e reinvista todos os materiais auxiliares funcionais para fazer o precursor do isolamento restrito. Em seguida, continue a fabricação a partir do processo intermediário original.\"
-      ]",
+      "description": [
+        "\"Combine os componentes reciclados com o corpo principal novo de acordo com a fórmula e reinvista todos os materiais auxiliares funcionais para fazer o precursor do isolamento restrito. Em seguida, continue a fabricação a partir do processo intermediário original.\""
+      ],
       "dependencies": [
         "4B52AF5EC4088E88",
         "4B543CAC364A7E4B"
@@ -947,9 +947,9 @@
       "id": "4B576A45F4448EA3",
       "title": "Armazenamento de rejeitos de material de casca de confinamento de limite estável",
       "subtitle": "Solidifica o material danificado em um resíduo inerte",
-      "description": "[
-        “Os rejeitos não recicláveis são solidificados em cinzas e encaminhados para uso geral em pó. Os componentes reconstruíveis são devolvidos ao processo de envase por outra saída.”
-      ]",
+      "description": [
+        "Os rejeitos não recicláveis são solidificados em cinzas e encaminhados para uso geral em pó. Os componentes reconstruíveis são devolvidos ao processo de envase por outra saída."
+      ],
       "dependencies": [
         "4B5793B57FF95411"
       ],
@@ -975,9 +975,9 @@
       "id": "4B53CEEEDE2C55DA",
       "title": "Conjunto de isolamento de estresse térmico zoneado",
       "subtitle": "Transfira separadamente expansão térmica, diferença de pressão e cargas de isolamento elétrico",
-      "description": "[
-        \"Expansão térmica, diferença de pressão e interfaces de isolamento elétrico são instaladas no conjunto de partição para uso pelo controle principal dos reatores subsequentes e instalações de engenharia.\"
-      ]",
+      "description": [
+        "\"Expansão térmica, diferença de pressão e interfaces de isolamento elétrico são instaladas no conjunto de partição para uso pelo controle principal dos reatores subsequentes e instalações de engenharia.\""
+      ],
       "dependencies": [
         "4B59E2A5B60BA9E8",
         "4B549F522A6157BB",
@@ -1001,9 +1001,9 @@
       "id": "4B55100945DBD11C",
       "title": "Controlador final do reator de impacto Honkai",
       "subtitle": "Conecte cargas térmicas multizona e interfaces de isolamento de emergência",
-      "description": "[
-        \"Concluir o estudo RN-URE e montar o controlador do reator usando o conjunto de isolamento e componentes pré-fabricados. As operações subsequentes de geração de energia serão realizadas de acordo com o combustível real e o processo operacional do reator.\"
-      ]",
+      "description": [
+        "\"Concluir o estudo RN-URE e montar o controlador do reator usando o conjunto de isolamento e componentes pré-fabricados. As operações subsequentes de geração de energia serão realizadas de acordo com o combustível real e o processo operacional do reator.\""
+      ],
       "dependencies": [
         "4B5C00437CD0C5D8",
         "4B5E853D08F25D97",
@@ -1028,9 +1028,9 @@
       "id": "4B5137DC6ACD7AAC",
       "title": "Controlador do Centro de Aceitação de Projetos de Civilização",
       "subtitle": "Amostragem de materiais, fluxos de energia e registros de engenharia separadamente",
-      "description": "[
-        “Após concluir o estudo RN-CEE, monte o controlador do Centro de Aceitação de Engenharia Civil e conecte materiais, fluxo de energia e registro de amostragem às suas respectivas interfaces.”
-      ]",
+      "description": [
+        "Após concluir o estudo RN-CEE, monte o controlador do Centro de Aceitação de Engenharia Civil e conecte materiais, fluxo de energia e registro de amostragem às suas respectivas interfaces."
+      ],
       "dependencies": [
         "4B5D42853DBE1968",
         "4B5E853D08F25D97",
@@ -1055,9 +1055,9 @@
       "id": "4B5F14AA951C38A6",
       "title": "Siyuan·Stars Concert Court Master Controller",
       "subtitle": "Construindo o primeiro mestre maravilhoso em uma fábrica de pré-moldados",
-      "description": "[
-        “Concluir a pesquisa RN-HCCO e fabricar o Controlador Mestre do Concerto de Origem das Estrelas na fábrica de pré-fabricação de componentes maravilhosos. Após obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto maravilhoso.”
-      ]",
+      "description": [
+        "Concluir a pesquisa RN-HCCO e fabricar o Controlador Mestre do Concerto de Origem das Estrelas na fábrica de pré-fabricação de componentes maravilhosos. Após obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto maravilhoso."
+      ],
       "dependencies": [
         "4B543D9716760D00"
       ],
@@ -1079,9 +1079,9 @@
       "id": "4B54661355BC87B1",
       "title": "O Advogado da Razão·Vientiane·Controle Mestre de Matriz Industrial Autônoma",
       "subtitle": "Continuando a cadeia de criação de maravilhas na Sala de Concertos das Estrelas",
-      "description": "[
-        “Conclua a pesquisa em RN-HCCO e RN-AIM e crie o controle mestre Herrscher of Reason, Vientiane e Autonomous Industrial Matrix no Origin Concert Court of Stars. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto milagroso.
-      ]",
+      "description": [
+        "“Conclua a pesquisa em RN-HCCO e RN-AIM e crie o controle mestre Herrscher of Reason, Vientiane e Autonomous Industrial Matrix no Origin Concert Court of Stars. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto milagroso."
+      ],
       "dependencies": [
         "4B5D9AB5C693811A",
         "4B5F14AA951C38A6"
@@ -1108,9 +1108,9 @@
       "id": "4B5ACDE76D49906A",
       "title": "Herrscher do Céu·Reino do Céu·Controle Mestre do Anel de Âncora de Número Imaginário",
       "subtitle": "Conecte o projeto âncora do número imaginário da matriz industrial autônoma",
-      "description": "[
-        “Conclua a pesquisa em RN-AIM e RN-IAR e crie o controle mestre Herrscher of Space, Sky Realm e Imaginary Number Anchor Ring no Herrscher of Reason, Vientiane e Autonomous Industrial Matrix.
-      ]",
+      "description": [
+        "“Conclua a pesquisa em RN-AIM e RN-IAR e crie o controle mestre Herrscher of Space, Sky Realm e Imaginary Number Anchor Ring no Herrscher of Reason, Vientiane e Autonomous Industrial Matrix."
+      ],
       "dependencies": [
         "4B5802E842FF9314",
         "4B59DD5C06C14D59",
@@ -1140,9 +1140,9 @@
       "id": "4B5CAF3D1BC26045",
       "title": "Herrscher do Thunder·Ming Ting·Controle Mestre Eletromagnético Supercondutor Tianshu",
       "subtitle": "Criando o controle mestre eletromagnético Tianshu no anel de âncora imaginário",
-      "description": "[
-        “Conclua a pesquisa RN-IAR e RN-SEM e crie o controle mestre Herrscher of Thunder, Ting Ting e Superconducting Electromagnetic Tianshu no Herrscher of Sky, Sky Realm e Imaginary Number Anchor Ring.
-      ]",
+      "description": [
+        "“Conclua a pesquisa RN-IAR e RN-SEM e crie o controle mestre Herrscher of Thunder, Ting Ting e Superconducting Electromagnetic Tianshu no Herrscher of Sky, Sky Realm e Imaginary Number Anchor Ring."
+      ],
       "dependencies": [
         "4B58AF9401EC1386",
         "4B5ACDE76D49906A"
@@ -1169,9 +1169,9 @@
       "id": "4B5FCAEF25658770",
       "title": "Herrscher of Wind·Changfeng·Controlador mestre de matriz de circulação de fluido ideal",
       "subtitle": "A engenharia de circulação de fluidos continua a partir da engenharia eletromagnética",
-      "description": "[
-        “Conclua a pesquisa RN-SEM e RN-IFF e crie o controle principal do Herrscher of Wind, Changfeng e Ideal Fluid Circulation Array no Herrsher of Thunder, Ming Ting e Superconducting Electromagnetic Tianshu. Depois de obter o controle principal, continue a construir a estrutura completa de acordo com o projeto desta maravilha.
-      ]",
+      "description": [
+        "“Conclua a pesquisa RN-SEM e RN-IFF e crie o controle principal do Herrscher of Wind, Changfeng e Ideal Fluid Circulation Array no Herrsher of Thunder, Ming Ting e Superconducting Electromagnetic Tianshu. Depois de obter o controle principal, continue a construir a estrutura completa de acordo com o projeto desta maravilha."
+      ],
       "dependencies": [
         "4B513376AFB211D3",
         "4B5CAF3D1BC26045"
@@ -1198,9 +1198,9 @@
       "id": "4B594D940B461D0C",
       "title": "Herrscher of Ice·Eternal Frost·Controlador mestre de fábrica de condensação de temperatura extremamente baixa",
       "subtitle": "Controle mestre na fábrica de fabricação de matriz de circulação em temperatura ultrabaixa",
-      "description": "[
-        “Conclua a pesquisa RN-IFF e RN-CCF e crie o controle mestre Ice Herrscher, Everfrost e Ultra-Cryogenic Condensation Factory no Herrscher of Wind, Changfeng e Ideal Fluid Circulation Array.
-      ]",
+      "description": [
+        "“Conclua a pesquisa RN-IFF e RN-CCF e crie o controle mestre Ice Herrscher, Everfrost e Ultra-Cryogenic Condensation Factory no Herrscher of Wind, Changfeng e Ideal Fluid Circulation Array."
+      ],
       "dependencies": [
         "4B5BCAEEE0929B4A",
         "4B5FCAEF25658770"
@@ -1227,9 +1227,9 @@
       "id": "4B5F2667B34BBF42",
       "title": "Montagem sustentada de ferramenta de restrição de combustível",
       "subtitle": "Ferramentas de ativação · Condições de trabalho WFV",
-      "description": "[
-        “Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente.”
-      ]",
+      "description": [
+        "Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente."
+      ],
       "dependencies": [
         "4B5C00437CD0C5D8"
       ],
@@ -1255,9 +1255,9 @@
       "id": "4B5780CFA496A087",
       "title": "Preparação fresca de combustível de colapso persistente e restrito",
       "subtitle": "Combustível energético · Condições de operação do WFV",
-      "description": "[
-        “Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido.”
-      ]",
+      "description": [
+        "Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido."
+      ],
       "dependencies": [
         "4B5F2667B34BBF42"
       ],
@@ -1280,10 +1280,10 @@
       "id": "4B5674771C836BBE",
       "title": "Ultimate Honkai Energy Reactor·Honkai Fuel Rods",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira as barras de combustível Honkai no reator de energia Ultimate Honkai e reabasteça o combustível Constant Constraint Honkai de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem um registro operacional completo. Escolha qualquer uma para completar um lote.\",
-        \"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira as barras de combustível Honkai no reator de energia Ultimate Honkai e reabasteça o combustível Constant Constraint Honkai de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem um registro operacional completo. Escolha qualquer uma para completar um lote.\"",
+        "\"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1307,10 +1307,10 @@
       "id": "4B5EF80CFD842FDA",
       "title": "Reator de energia Honkai definitivo · Barras de combustível Honkai concentradas",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira barras de combustível Honkai concentradas no reator Ultimate Honkai Energy e reabasteça o combustível Constant Constraint Honkai Impact de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem um registro operacional completo. Escolha qualquer uma para completar um lote.\",
-        \"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição contínua. Combustível concentrado de longo período, com a maior carga de calor. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira barras de combustível Honkai concentradas no reator Ultimate Honkai Energy e reabasteça o combustível Constant Constraint Honkai Impact de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem um registro operacional completo. Escolha qualquer uma para completar um lote.\"",
+        "\"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição contínua. Combustível concentrado de longo período, com a maior carga de calor. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1334,10 +1334,10 @@
       "id": "4B54A1AF2237F26E",
       "title": "Ultimate Honkai Energy Reactor·Cartucho de combustível de colapso do núcleo de carbono adsorvido",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos, escolha qualquer um para completar um lote.\",
-        \"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por loop independente de acordo com o inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos, escolha qualquer um para completar um lote.\"",
+        "\"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por loop independente de acordo com o inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1361,10 +1361,10 @@
       "id": "4B53417463EEAAA2",
       "title": "Reator de energia de colapso final · Varetas direcionais de transporte de energia de peneira molecular",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira as hastes direcionais de transporte de energia da peneira molecular no reator de energia de colapso final e reabasteça o combustível de colapso de restrição constante de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem um registro operacional completo. Escolha qualquer um para completar um lote.\",
-        \"Existem 8 grupos de carregamento fixo, 1 especificação de link, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Adsorve transportadores, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira as hastes direcionais de transporte de energia da peneira molecular no reator de energia de colapso final e reabasteça o combustível de colapso de restrição constante de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem um registro operacional completo. Escolha qualquer um para completar um lote.\"",
+        "\"Existem 8 grupos de carregamento fixo, 1 especificação de link, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Adsorve transportadores, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1388,10 +1388,10 @@
       "id": "4B50F49CE18E4E19",
       "title": "Reator de energia Honkai definitivo · Partículas de combustível Honkai solidificadas em gel de sílica",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira partículas de combustível de colapso solidificado de sílica gel no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
-        \"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. O gel é disperso uniformemente e funciona por um longo período. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira partículas de combustível de colapso solidificado de sílica gel no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\"",
+        "\"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. O gel é disperso uniformemente e funciona por um longo período. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1415,10 +1415,10 @@
       "id": "4B5B39F50C5753C1",
       "title": "Reator de energia de colapso final · Combustível cerâmico poroso Rod de carboneto de silício",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira barras de combustível de cerâmica porosa de carboneto de silício no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira barras de combustível de cerâmica porosa de carboneto de silício no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1442,10 +1442,10 @@
       "id": "4B54BA4BFE6514E8",
       "title": "Reator de energia de colapso final · Cartucho de combustível de partículas gradientes de carboneto de boro",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de partícula gradiente de carboneto de boro no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem um registro operacional completo. Escolha qualquer um para completar um lote.\",
-        \"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição contínua. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de partícula gradiente de carboneto de boro no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem um registro operacional completo. Escolha qualquer um para completar um lote.\"",
+        "\"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição contínua. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1469,10 +1469,10 @@
       "id": "4B5DCED2196296A4",
       "title": "Reator de energia de colapso final · Grânulos de combustível cerâmicos com gradiente de óxido de zircônio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira contas de combustível cerâmico gradiente de óxido de zircônio no reator de energia de colapso final e complemente o combustível de colapso de restrição constante de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Transportadora estável em alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira contas de combustível cerâmico gradiente de óxido de zircônio no reator de energia de colapso final e complemente o combustível de colapso de restrição constante de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Transportadora estável em alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1496,10 +1496,10 @@
       "id": "4B5951675108E6DE",
       "title": "Reator de energia Honkai definitivo·Núcleo de combustível Honkai com esqueleto de cobre e diamante",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o núcleo de combustível de colapso do esqueleto de cobre-diamante no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos, escolha qualquer um para completar um lote.\",
-        \"Carregamento fixo de 8 grupos, especificação de 1 corrente, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição contínua. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o núcleo de combustível de colapso do esqueleto de cobre-diamante no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos, escolha qualquer um para completar um lote.\"",
+        "\"Carregamento fixo de 8 grupos, especificação de 1 corrente, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição contínua. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1523,10 +1523,10 @@
       "id": "4B51503E4708C13C",
       "title": "Reator de Energia de Colapso Final · Folha de Combustível de Colapso de Camada Intercalar de Grafeno",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira folhas de combustível de colapso intercalar de grafeno no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
-        \"Existem 8 grupos de carregamento fixo, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Microrrede térmica, levando em consideração a geração de energia e HW. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira folhas de combustível de colapso intercalar de grafeno no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\"",
+        "\"Existem 8 grupos de carregamento fixo, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Microrrede térmica, levando em consideração a geração de energia e HW. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1550,10 +1550,10 @@
       "id": "4B532DEE8B706E28",
       "title": "Reator de energia de colapso final · Bloco de combustível de cermet de carboneto de titânio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira blocos de combustível de cermet de carboneto de titânio no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos, escolha qualquer um para completar um lote.\",
-        \"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira blocos de combustível de cermet de carboneto de titânio no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos, escolha qualquer um para completar um lote.\"",
+        "\"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1577,10 +1577,10 @@
       "id": "4B5DFD1BB3C8DBFE",
       "title": "Reator de energia de colapso final · Leito de combustível de microesferas isolado com alumina",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira um leito de combustível de microesferas isolantes de alumina no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
-        \"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Cerâmica de alto rendimento, ciclo operacional longo. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira um leito de combustível de microesferas isolantes de alumina no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\"",
+        "\"Carga fixa de 8 grupos, especificação de 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Cerâmica de alto rendimento, ciclo operacional longo. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1604,10 +1604,10 @@
       "id": "4B57F8D4FBEA7A34",
       "title": "Reator de energia Honkai definitivo · Cartucho de combustível de colapso de microcanais de tungstênio",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de colapso de microcanais de tungstênio no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"Carregamento fixo de 8 grupos, especificação de 1 corrente, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Esqueleto de metal de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de colapso de microcanais de tungstênio no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"Carregamento fixo de 8 grupos, especificação de 1 corrente, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Esqueleto de metal de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1631,10 +1631,10 @@
       "id": "4B5BA96687894518",
       "title": "Reator de energia de colapso final · Cartucho de combustível de diafragma de extremidade fria de PTFE",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira o cartucho de combustível de membrana de extremidade fria PTFE no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
-        \"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Baixo suporte de filme térmico, voltado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira o cartucho de combustível de membrana de extremidade fria PTFE no reator de energia de colapso final e reabasteça o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\"",
+        "\"8 grupos de carga fixa, 1 cadeia de especificações, um total de 8 hastes físicas; consome 64mB de combustível de colapso de restrição constante. Baixo suporte de filme térmico, voltado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1658,10 +1658,10 @@
       "id": "4B5D282233023236",
       "title": "Reator de energia de colapso final · Partículas de combustível de microcápsula de extremidade fria PBI",
       "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
-      "description": "[
-        \"Insira partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso final e complemente o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
-        \"Carregamento fixo de 8 grupos, especificação 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Porta-microcápsulas de alto HW, ciclo operacional mais longo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
-      ]",
+      "description": [
+        "\"Insira partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso final e complemente o combustível de colapso de restrição contínua de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\"",
+        "\"Carregamento fixo de 8 grupos, especificação 1 link, 8 hastes físicas no total; consome 64mB de combustível de colapso de restrição constante. Porta-microcápsulas de alto HW, ciclo operacional mais longo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\""
+      ],
       "dependencies": [
         "4B5780CFA496A087",
         "4B55100945DBD11C"
@@ -1685,9 +1685,9 @@
       "id": "4B5511DDFAFAE31B",
       "title": "Depuração conjunta da interface do instituto de pesquisa de quarto nível",
       "subtitle": "Confira as operações de pesquisa com dados de três áreas",
-      "description": "[
-        “Primeiro, obtenha o registro da conclusão real do projeto pelo instituto de pesquisa de quarto nível e, em seguida, depure conjuntamente a interface e os dados de três campos no equipamento de teste de engenharia. Processe as amostras padrão, substratos e papel para formar um recibo de depuração conjunta de interface real para continuar a pesquisa no Domo de Cognição Civilizada.
-      ]",
+      "description": [
+        "“Primeiro, obtenha o registro da conclusão real do projeto pelo instituto de pesquisa de quarto nível e, em seguida, depure conjuntamente a interface e os dados de três campos no equipamento de teste de engenharia. Processe as amostras padrão, substratos e papel para formar um recibo de depuração conjunta de interface real para continuar a pesquisa no Domo de Cognição Civilizada."
+      ],
       "dependencies": [
         "4B543D9716760D00",
         "4B5BBAC5EA88F163"
@@ -1714,12 +1714,12 @@
       "id": "4B5D9AB5C693811A",
       "title": "Matriz Industrial Autônoma de Vienciana",
       "subtitle": "RN-AIM · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto de teste: camada de circuito gravada × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia da Civilização. Verifique a entrada e saída reais, a origem do lote e as condições de trabalho contínuas e exclua relatórios duplicados e circuitos não controlados;
-        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa retém energia com base na potência total dos portos de energia efetivos. Após a conclusão, a construção do Herrscher of Reason, Vientiane e da Matriz Industrial Autônoma será desbloqueada e os resultados da expansão industrial serão fornecidos após a operação.
-      ]",
+      "description": [
+        "\"Objeto de teste: camada de circuito gravada × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Centro de Aceitação de Engenharia da Civilização. Verifique a entrada e saída reais, a origem do lote e as condições de trabalho contínuas e exclua relatórios duplicados e circuitos não controlados;",
+        "\"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "“O instituto de pesquisa retém energia com base na potência total dos portos de energia efetivos. Após a conclusão, a construção do Herrscher of Reason, Vientiane e da Matriz Industrial Autônoma será desbloqueada e os resultados da expansão industrial serão fornecidos após a operação."
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1742,12 +1742,12 @@
       "id": "4B5BCAEEE0929B4A",
       "title": "Estado de condensação de temperatura extremamente baixa Everfrost",
       "subtitle": "RN-CCF · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: material de condensação criogênica × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Concluir o tratamento de baixa temperatura e verificar o meio e o consumo de energia. A origem da amostra corresponde ao registro de controle de temperatura;
-        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a construção da Fábrica de Condensação de Gelo, Everfrost e Temperatura Ultrabaixa Herrscher e a aceitação de condições de baixa temperatura serão desbloqueadas.
-      ]",
+      "description": [
+        "\"Objeto testado: material de condensação criogênica × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Concluir o tratamento de baixa temperatura e verificar o meio e o consumo de energia. A origem da amostra corresponde ao registro de controle de temperatura;",
+        "\"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "“O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a construção da Fábrica de Condensação de Gelo, Everfrost e Temperatura Ultrabaixa Herrscher e a aceitação de condições de baixa temperatura serão desbloqueadas."
+      ],
       "dependencies": [
         "4B538067A289069C",
         "4B5137DC6ACD7AAC"
@@ -1771,12 +1771,12 @@
       "id": "4B55EF1E9B3DACDA",
       "title": "Projeto Cúpula de Cognição Civilizada",
       "subtitle": "RN-CLE · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Conclua a depuração conjunta com as peças de teste de interface e dados reais que podem ser fornecidos pelo Instituto Mundial de Pesquisa de Sustentação existente.
-        \"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o instituto de pesquisa de quinto nível será desbloqueado, fornecendo 16 vagas de projetos paralelos.”
-      ]",
+      "description": [
+        "\"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Conclua a depuração conjunta com as peças de teste de interface e dados reais que podem ser fornecidos pelo Instituto Mundial de Pesquisa de Sustentação existente.",
+        "\"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o instituto de pesquisa de quinto nível será desbloqueado, fornecendo 16 vagas de projetos paralelos."
+      ],
       "dependencies": [
         "4B5511DDFAFAE31B"
       ],
@@ -1799,12 +1799,12 @@
       "id": "4B543D9716760D00",
       "title": "Projeto de concerto das estrelas de Siyuan",
       "subtitle": "RN-HCCO · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verificar se os eventos de pesquisa e comunicação realmente ocorreram, associar a fonte de dados e concluir a verificação do projeto; independente ou rejeitar a rota de cooperação pode fornecer registros de comunicação que atendam às condições estabelecidas;
-        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa retém energia com base na potência total da porta de energia efetiva. Após a conclusão, desbloqueie o método de aceitação de arquivo de colaboração e construção do Origin Star Concert Hall.”
-      ]",
+      "description": [
+        "\"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verificar se os eventos de pesquisa e comunicação realmente ocorreram, associar a fonte de dados e concluir a verificação do projeto; independente ou rejeitar a rota de cooperação pode fornecer registros de comunicação que atendam às condições estabelecidas;",
+        "\"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto de pesquisa retém energia com base na potência total da porta de energia efetiva. Após a conclusão, desbloqueie o método de aceitação de arquivo de colaboração e construção do Origin Star Concert Hall."
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1827,12 +1827,12 @@
       "id": "4B5802E842FF9314",
       "title": "Anel de âncora de número imaginário no céu",
       "subtitle": "RN-IAR · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verifique as condições reais de trabalho e a resposta às perturbações locais do equipamento de ancoragem existente e não execute o anel de ancoragem em nível de civilização com antecedência;
-        \"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a construção do Herrscher do Céu, do Reino do Céu e do Anel de Âncora de Número Imaginário e a aceitação da âncora em grande escala serão desbloqueadas.”
-      ]",
+      "description": [
+        "\"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verifique as condições reais de trabalho e a resposta às perturbações locais do equipamento de ancoragem existente e não execute o anel de ancoragem em nível de civilização com antecedência;",
+        "\"Após a conclusão do experimento, escolha 6.920 pontos de pesquisa ou circuito WSV × 8, placa de nêutrons × 136 para pagar a taxa básica; são necessários 38.400 ticks adicionais e 540.431.955.284.459.520 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a construção do Herrscher do Céu, do Reino do Céu e do Anel de Âncora de Número Imaginário e a aceitação da âncora em grande escala serão desbloqueadas."
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1855,12 +1855,12 @@
       "id": "4B513376AFB211D3",
       "title": "Circulação de fluido ideal Changfeng",
       "subtitle": "RN-IFF · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: elemento de filtro de gás de processo × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia da Civilização. A entrada e saída reais, a reposição de fluido circulante e os resultados da troca de calor podem ser rastreados, as perdas são esclarecidas e a fonte não é inferida com base nas diferenças de estoque;
-        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, desbloqueie o transporte de fluidos do Wind Herrscher Changfeng Ideal Fluid Circulation Array e a aceitação da troca de calor.”
-      ]",
+      "description": [
+        "\"Objeto testado: elemento de filtro de gás de processo × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Centro de Aceitação de Engenharia da Civilização. A entrada e saída reais, a reposição de fluido circulante e os resultados da troca de calor podem ser rastreados, as perdas são esclarecidas e a fonte não é inferida com base nas diferenças de estoque;",
+        "\"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, desbloqueie o transporte de fluidos do Wind Herrscher Changfeng Ideal Fluid Circulation Array e a aceitação da troca de calor."
+      ],
       "dependencies": [
         "4B528AA97B0DF3A7",
         "4B582C794236C289",
@@ -1885,12 +1885,12 @@
       "id": "4B58AF9401EC1386",
       "title": "Ming Ting Supercondutor Eletromagnético Tianshu",
       "subtitle": "RN-SEM · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Objeto testado: material eletromagnético polarizado × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        \"O experimento da equipe foi concluído no Centro de Aceitação de Engenharia de Civilização. A resposta eletromagnética real e o fornecimento de energia/resfriamento passaram no teste. A peça de teste não serve como material de produção em massa para o Herrscher of Thunder, Ming Ting e Superconducting Electromagnetic Tianshu; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina. \",
-        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o Herrscher of Thunder, Ming Ting, Superconducting Electromagnetic Tianshu e suas condições de trabalho eletromagnéticas para aceitação.
-      ]",
+      "description": [
+        "\"Objeto testado: material eletromagnético polarizado × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "\"O experimento da equipe foi concluído no Centro de Aceitação de Engenharia de Civilização. A resposta eletromagnética real e o fornecimento de energia/resfriamento passaram no teste. A peça de teste não serve como material de produção em massa para o Herrscher of Thunder, Ming Ting e Superconducting Electromagnetic Tianshu; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina. \"",
+        "\"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "“O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o Herrscher of Thunder, Ming Ting, Superconducting Electromagnetic Tianshu e suas condições de trabalho eletromagnéticas para aceitação."
+      ],
       "dependencies": [
         "4B5137DC6ACD7AAC"
       ],
@@ -1913,12 +1913,12 @@
       "id": "4B5C00437CD0C5D8",
       "title": "Engenharia de Reator Final",
       "subtitle": "RN-URE · Pesquisa Experimental e Formal",
-      "description": "[
-        \"Material de fundição extremo × 1; papel × 2; ferramentas não são consumidas.\",
-        “Conclua os experimentos da equipe no laboratório reverso de tecnologia legada. Lotes reais de alta carga estão relacionados a inspeções de segurança de materiais, e os consumíveis reais consomem eletricidade;
-        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
-        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso final serão desbloqueadas.”
-      ]",
+      "description": [
+        "\"Material de fundição extremo × 1; papel × 2; ferramentas não são consumidas.\"",
+        "“Conclua os experimentos da equipe no laboratório reverso de tecnologia legada. Lotes reais de alta carga estão relacionados a inspeções de segurança de materiais, e os consumíveis reais consomem eletricidade;",
+        "\"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\"",
+        "O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso final serão desbloqueadas."
+      ],
       "dependencies": [
         "4B5D8B4510122249",
         "4B5C61FAC45F68A8"

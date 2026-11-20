@@ -3,8 +3,8 @@
   "id": "4B59FF8F953BD7DF",
   "title": "Entanglement pressure QEV",
   "subtitle": [
-    "Tier21-QEV"
-  ],
+        "Tier21-QEV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 22,
   "icon": "hk3gtl:voltage_machine_casing_qev",
@@ -14,10 +14,10 @@
       "id": "4B588074C3C76BAA",
       "title": "Continue from QCV workshop",
       "subtitle": "QCV → QEV",
-      "description": "[
-        \"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of QEV mechanical cubes.\",
-        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
-      ]",
+      "description": [
+        "\"The front-stage chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of QEV mechanical cubes.\"",
+        "\"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\""
+      ],
       "dependencies": [
         "4B5216D08D96321D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B579EB8767AA2A4",
       "title": "Dual marking interface",
       "subtitle": "Let A and B ports access with pairing tags",
-      "description": "[
-        \"Add a dual port and a pairing mark to the front-end interface, and connect the current-level printed board and isolation layer. Subsequent decoding reads two signals from this set of clear interfaces.\"
-      ]",
+      "description": [
+        "\"Add a dual port and a pairing mark to the front-end interface, and connect the current-level printed board and isolation layer. Subsequent decoding reads two signals from this set of clear interfaces.\""
+      ],
       "dependencies": [
         "4B5F27DFD542861F",
         "4B5B808A4014F1E3",
@@ -65,9 +65,9 @@
       "id": "4B5FE0037EACB269",
       "title": "Pairing check decoding module",
       "subtitle": "Verify the two results together",
-      "description": "[
-        \"Encapsulates local computing, storage and timing components and checks the pairing status of the two inputs. When a mismatch is detected, the module gives a signal to stop execution.\"
-      ]",
+      "description": [
+        "\"Encapsulates local computing, storage and timing components and checks the pairing status of the two inputs. When a mismatch is detected, the module gives a signal to stop execution.\""
+      ],
       "dependencies": [
         "4B512C65CEF4309B",
         "4B579EB8767AA2A4",
@@ -91,9 +91,9 @@
       "id": "4B59CDF9DC283EED",
       "title": "Dual channel interlocking servo cylinder",
       "subtitle": "Execute after both paths are consistent",
-      "description": "[
-        \"Integrate pairing verification into servo interlocking, retain the front-end support, and add a dual-channel execution structure at this level.\"
-      ]",
+      "description": [
+        "\"Integrate pairing verification into servo interlocking, retain the front-end support, and add a dual-channel execution structure at this level.\""
+      ],
       "dependencies": [
         "4B51D710544E9513",
         "4B5FE0037EACB269",
@@ -117,9 +117,9 @@
       "id": "4B509AAFC7A4F423",
       "title": "Double branch thermal balance bridge",
       "subtitle": "Give the paired branches commensurate temperature conditions",
-      "description": "[
-        \"Install the two temperature control channels into the balance bridge, and reserve the supply circuit for each. Maintain the uniform temperature of the paired branches, and then connect the circuit and execution components.\"
-      ]",
+      "description": [
+        "\"Install the two temperature control channels into the balance bridge, and reserve the supply circuit for each. Maintain the uniform temperature of the paired branches, and then connect the circuit and execution components.\""
+      ],
       "dependencies": [
         "4B578111155CA2B0",
         "4B50B7179E3F37D8",
@@ -143,9 +143,9 @@
       "id": "4B54D2F9D45C6F00",
       "title": "QEV Quantum Bridge Processor Host",
       "subtitle": "Double-branch pairing verification and symmetrical temperature equalization",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum bridge processor host. Prepare computing components for subsequent execution components and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a quantum bridge processor host. Prepare computing components for subsequent execution components and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5FD77A9DD44CF7",
         "4B5FE0037EACB269",
@@ -170,9 +170,9 @@
       "id": "4B592BB2320D03D1",
       "title": "QEV Quantum Coherence Supercomputer",
       "subtitle": "Double-branch pairing verification and symmetrical temperature equalization",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a quantum coherent supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a quantum coherent supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5FE0037EACB269",
         "4B509AAFC7A4F423",
@@ -196,9 +196,9 @@
       "id": "4B5359A2298535A1",
       "title": "QEV Quantum Interference Processor Assembly",
       "subtitle": "Double-branch pairing verification and symmetrical temperature equalization",
-      "description": "[
-        \"Consume the complete circuit of the previous form, add this section of interconnection, readout and heat dissipation components to make a quantum interference processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, add this section of interconnection, readout and heat dissipation components to make a quantum interference processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\""
+      ],
       "dependencies": [
         "4B520FFA3A70A471",
         "4B5FE0037EACB269",
@@ -223,9 +223,9 @@
       "id": "4B56A3DE443E58AA",
       "title": "QEV entanglement anchor processor",
       "subtitle": "Double-branch pairing verification and symmetrical temperature equalization",
-      "description": "[
-        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make an entangled anchor processor. Prepare computing components for subsequent execution components and engineering equipment.\"
-      ]",
+      "description": [
+        "\"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make an entangled anchor processor. Prepare computing components for subsequent execution components and engineering equipment.\""
+      ],
       "dependencies": [
         "4B5FE0037EACB269",
         "4B509AAFC7A4F423",
@@ -249,9 +249,9 @@
       "id": "4B58815DF49B28EF",
       "title": "QEV electric motor",
       "subtitle": "Provides independent rotational drive",
-      "description": "[
-        \"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B59CDF9DC283EED",
@@ -275,9 +275,9 @@
       "id": "4B5B68E1E179BBC1",
       "title": "QEV electric piston",
       "subtitle": "Convert drive into controlled linear motion",
-      "description": "[
-        \"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B55A44A3D4741F4",
         "4B58815DF49B28EF"
@@ -300,9 +300,9 @@
       "id": "4B5C9BB775F30E7B",
       "title": "QEV electric pump",
       "subtitle": "Provide conveying power for independent flow paths",
-      "description": "[
-        \"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B57494A173A8C55",
         "4B58815DF49B28EF"
@@ -325,9 +325,9 @@
       "id": "4B5EAC0CC749BDEF",
       "title": "QEV conveyor module",
       "subtitle": "Continuous transfer of materials in existing production lines",
-      "description": "[
-        \"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\""
+      ],
       "dependencies": [
         "4B510E092A9EA041",
         "4B58815DF49B28EF"
@@ -350,9 +350,9 @@
       "id": "4B5953B3CED349F0",
       "title": "QEV robotic arm",
       "subtitle": "Connect positioning and execution to the same component",
-      "description": "[
-        \"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\""
+      ],
       "dependencies": [
         "4B50C62B53949BDD",
         "4B5B68E1E179BBC1"
@@ -375,9 +375,9 @@
       "id": "4B5528655154A3ED",
       "title": "QEV sensor",
       "subtitle": "Send the measurement results to the current level of control",
-      "description": "[
-        \"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\"
-      ]",
+      "description": [
+        "\"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\""
+      ],
       "dependencies": [
         "4B5934F5CF3D7D6B",
         "4B592BB2320D03D1"
@@ -400,9 +400,9 @@
       "id": "4B5983D18028736A",
       "title": "QEV transmitter",
       "subtitle": "Prepare launch components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\""
+      ],
       "dependencies": [
         "4B5CE40EEEBE5CBD",
         "4B592BB2320D03D1"
@@ -425,9 +425,9 @@
       "id": "4B5B09F891F81B91",
       "title": "QEV force field generator",
       "subtitle": "Prepare force field components for this level of equipment",
-      "description": "[
-        \"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\"
-      ]",
+      "description": [
+        "\"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\""
+      ],
       "dependencies": [
         "4B54A60A7117D269",
         "4B5528655154A3ED",
@@ -451,9 +451,9 @@
       "id": "4B5CC8A3BE040A5D",
       "title": "Conjugated seed crystal pairing clip",
       "subtitle": "First prepare the physical fixtures for fixing A and B seed crystals.",
-      "description": "[
-        \"The mating clip is made of front-end materials. It is actually consumed in the crystal seed growth, confluence and subsequent morphological processing, and is continuously supplied according to the production line demand.\"
-      ]",
+      "description": [
+        "\"The mating clip is made of front-end materials. It is actually consumed in the crystal seed growth, confluence and subsequent morphological processing, and is continuously supplied according to the production line demand.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3",
@@ -477,9 +477,9 @@
       "id": "4B54B484937513B1",
       "title": "Paired seed growth bath",
       "subtitle": "Feeds two independent growth lines",
-      "description": "[
-        \"Prepare the growth bath with new materials and supply branches A and B respectively. The two seed lines consume materials separately and prepare them separately before merging.\"
-      ]",
+      "description": [
+        "\"Prepare the growth bath with new materials and supply branches A and B respectively. The two seed lines consume materials separately and prepare them separately before merging.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3"
@@ -503,9 +503,9 @@
       "id": "4B5746D58AC44B7C",
       "title": "Independent A seed crystal blank",
       "subtitle": "Platinum contact interface",
-      "description": "[
-        \"Process A branch seed crystal in an independent growth equipment, retaining its platinum contact interface. Leave the finished product for assembly of the entire pair, and merge it with B branch on a one-to-one basis.\"
-      ]",
+      "description": [
+        "\"Process A branch seed crystal in an independent growth equipment, retaining its platinum contact interface. Leave the finished product for assembly of the entire pair, and merge it with B branch on a one-to-one basis.\""
+      ],
       "dependencies": [
         "4B5CC8A3BE040A5D",
         "4B54B484937513B1"
@@ -528,9 +528,9 @@
       "id": "4B5654050FCD385A",
       "title": "Independent B seed crystal blank",
       "subtitle": "One branch of palladium contact and grain boundary tuning",
-      "description": "[
-        \"The front-end matrix and functional auxiliary materials required for branch B are separately put in to complete the growth of conjugated crystal seeds. The two finished products are stored separately and then sent to the whole pair for assembly.\"
-      ]",
+      "description": [
+        "\"The front-end matrix and functional auxiliary materials required for branch B are separately put in to complete the growth of conjugated crystal seeds. The two finished products are stored separately and then sent to the whole pair for assembly.\""
+      ],
       "dependencies": [
         "4B5CC8A3BE040A5D",
         "4B54B484937513B1"
@@ -553,9 +553,9 @@
       "id": "4B57B57F7522FE98",
       "title": "Synchronous matching blanks",
       "subtitle": "Let A and B seed crystals meet one by one",
-      "description": "[
-        \"Put equal amounts of A and B seed crystals into the pairing clamp, and connect them to the synchronization components to complete the assembly. The combined materials will always continue to be processed as complete crystal pairs.\"
-      ]",
+      "description": [
+        "\"Put equal amounts of A and B seed crystals into the pairing clamp, and connect them to the synchronization components to complete the assembly. The combined materials will always continue to be processed as complete crystal pairs.\""
+      ],
       "dependencies": [
         "4B5746D58AC44B7C",
         "4B5654050FCD385A"
@@ -578,9 +578,9 @@
       "id": "4B5599240882CC52",
       "title": "A complete pair of aging blanks",
       "subtitle": "Complete grain boundary locking in pairs",
-      "description": "[
-        \"Age the complete crystal pair to fix the grain boundaries and stress state. Keep the pairing relationship between the two pairs, and then send them to end-capping and low-temperature review.\"
-      ]",
+      "description": [
+        "\"Age the complete crystal pair to fix the grain boundaries and stress state. Keep the pairing relationship between the two pairs, and then send them to end-capping and low-temperature review.\""
+      ],
       "dependencies": [
         "4B57B57F7522FE98"
       ],
@@ -602,9 +602,9 @@
       "id": "4B5A1C569C3F18E2",
       "title": "Entangled paired lattice material standard blank",
       "subtitle": "After sealing, continue to use according to the crystal pair",
-      "description": "[
-        \"The complete crystal pairs are sealed and the low-temperature review is completed. Every two pieces of standard billets are circulated in pairs, and this relationship is also retained during slicing and subsequent morphological processing.\"
-      ]",
+      "description": [
+        "\"The complete crystal pairs are sealed and the low-temperature review is completed. Every two pieces of standard billets are circulated in pairs, and this relationship is also retained during slicing and subsequent morphological processing.\""
+      ],
       "dependencies": [
         "4B5599240882CC52"
       ],
@@ -626,9 +626,9 @@
       "id": "4B54F7A441537AA1",
       "title": "Entangled paired lattice material panels",
       "subtitle": "Lay the complete crystal pairs into the slab",
-      "description": "[
-        \"Laminate the sheets with a complete paired lattice, and add the backing, contact layer and interface material. The two structures in the sheet go into subsequent assembly together.\"
-      ]",
+      "description": [
+        "\"Laminate the sheets with a complete paired lattice, and add the backing, contact layer and interface material. The two structures in the sheet go into subsequent assembly together.\""
+      ],
       "dependencies": [
         "4B517CFE24713919",
         "4B5A1C569C3F18E2"
@@ -651,9 +651,9 @@
       "id": "4B5385AC86625747",
       "title": "Entangled paired lattice rods",
       "subtitle": "Eight rods retain four pairs of lattice",
-      "description": "[
-        \"The composite rods are processed in even-numbered batches, retaining each pair of complementary lattices. The rods then feed the frame, interface rings and composite filaments.\"
-      ]",
+      "description": [
+        "\"The composite rods are processed in even-numbered batches, retaining each pair of complementary lattices. The rods then feed the frame, interface rings and composite filaments.\""
+      ],
       "dependencies": [
         "4B517CFE24713919",
         "4B50A4D83DED0382",
@@ -677,9 +677,9 @@
       "id": "4B5802FBE1CFDB67",
       "title": "Entangled Paired Lattice Material Frame",
       "subtitle": "Four pairs of beams are assembled into a frame",
-      "description": "[
-        \"The eight rods are positioned according to four pairs of beam groups and connected to the complete front-end frame. The complete paired structure is retained in the finished frame.\"
-      ]",
+      "description": [
+        "\"The eight rods are positioned according to four pairs of beam groups and connected to the complete front-end frame. The complete paired structure is retained in the finished frame.\""
+      ],
       "dependencies": [
         "4B52A38ECBBC7D1B",
         "4B5385AC86625747"
@@ -702,9 +702,9 @@
       "id": "4B50B7179E3F37D8",
       "title": "Entangled paired lattice material rings",
       "subtitle": "The interface ring is also manufactured as a complete crystal pair",
-      "description": "[
-        \"The rods are processed into rings according to the crystal pairs, and the positioning clips and contact layers are matched. The ring parts are supplied to the casing interface to maintain the corresponding relationship between the two rings.\"
-      ]",
+      "description": [
+        "\"The rods are processed into rings according to the crystal pairs, and the positioning clips and contact layers are matched. The ring parts are supplied to the casing interface to maintain the corresponding relationship between the two rings.\""
+      ],
       "dependencies": [
         "4B5BC89DB94CBBA1",
         "4B5385AC86625747"
@@ -727,9 +727,9 @@
       "id": "4B5B808A4014F1E3",
       "title": "Entangled paired lattice material foil",
       "subtitle": "Let the two complementary lattice solidify together",
-      "description": "[
-        \"The complete paired layer is co-cured with the previous base foil to make this thin foil. After thinning, the corresponding relationship between the two layers is still retained.\"
-      ]",
+      "description": [
+        "\"The complete paired layer is co-cured with the previous base foil to make this thin foil. After thinning, the corresponding relationship between the two layers is still retained.\""
+      ],
       "dependencies": [
         "4B5CF6430127290A",
         "4B54F7A441537AA1"
@@ -752,9 +752,9 @@
       "id": "4B5B5E09A6EE0493",
       "title": "Entangled paired lattice material composite thin wires",
       "subtitle": "Paired channels are positioned at the ends",
-      "description": "[
-        \"The composite thin wires are divided into corresponding channels and paired clamps secure the ends. An even number of channels are maintained in each batch to continue for subsequent interconnections.\"
-      ]",
+      "description": [
+        "\"The composite thin wires are divided into corresponding channels and paired clamps secure the ends. An even number of channels are maintained in each batch to continue for subsequent interconnections.\""
+      ],
       "dependencies": [
         "4B54610F11B937EC",
         "4B5385AC86625747"
@@ -777,9 +777,9 @@
       "id": "4B575076D5F34203",
       "title": "The first batch of QEV mechanical cubes",
       "subtitle": "Mount the entire pair of lattices outside the QCV core",
-      "description": "[
-        \"Connect this level of board, frame and ring to the complete QCV mechanical block. Pairing positioning, timing recovery and low-temperature packaging are completed together to obtain the first batch of QEV cases.\"
-      ]",
+      "description": [
+        "\"Connect this level of board, frame and ring to the complete QCV mechanical block. Pairing positioning, timing recovery and low-temperature packaging are completed together to obtain the first batch of QEV cases.\""
+      ],
       "dependencies": [
         "4B5216D08D96321D",
         "4B54F7A441537AA1",
@@ -804,9 +804,9 @@
       "id": "4B57BD3093906481",
       "title": "QEV case layered disassembly",
       "subtitle": "Retrieve the core and sort the outer lattice",
-      "description": "[
-        \"Remove the complete QCV core and recover some of the plates, frames and rings. The remaining main body is transferred to classified waste and continues elution and separation.\"
-      ]",
+      "description": [
+        "\"Remove the complete QCV core and recover some of the plates, frames and rings. The remaining main body is transferred to classified waste and continues elution and separation.\""
+      ],
       "dependencies": [
         "4B575076D5F34203"
       ],
@@ -832,9 +832,9 @@
       "id": "4B5DDF371174C139",
       "title": "QEV sorting waste separation",
       "subtitle": "Recycle the main components and separate the non-recoverable tailings",
-      "description": "[
-        \"Use the process solvent to elute the attachments, and then centrifuge to separate the main components. Recycle the components and refill the materials, and the tail materials are solidified separately.\"
-      ]",
+      "description": [
+        "\"Use the process solvent to elute the attachments, and then centrifuge to separate the main components. Recycle the components and refill the materials, and the tail materials are solidified separately.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3"
@@ -861,9 +861,9 @@
       "id": "4B558EFD1D3BCC1D",
       "title": "QEV recovered components to reconstruct dual branches",
       "subtitle": "Both seed lines A and B need to be re-established.",
-      "description": "[
-        \"Add the recycled main body and fresh matrix to the two branches respectively, and re-invest their respective contact layers, pairing clips and tuning materials. After obtaining independent A and B seed crystals, return to the original pair assembly route.\"
-      ]",
+      "description": [
+        "\"Add the recycled main body and fresh matrix to the two branches respectively, and re-invest their respective contact layers, pairing clips and tuning materials. After obtaining independent A and B seed crystals, return to the original pair assembly route.\""
+      ],
       "dependencies": [
         "4B5CC8A3BE040A5D",
         "4B54B484937513B1"
@@ -890,9 +890,9 @@
       "id": "4B5B58129091C610",
       "title": "QEV tailing solidification",
       "subtitle": "Seal the unrecoverable lattice body",
-      "description": "[
-        \"Mix the non-recyclable tailings with the solidified material, remove the inert ash, and end the recycling of this part of the lattice.\"
-      ]",
+      "description": [
+        "\"Mix the non-recyclable tailings with the solidified material, remove the inert ash, and end the recycling of this part of the lattice.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3"
@@ -919,9 +919,9 @@
       "id": "4B554B1F740B455A",
       "title": "Quadrature phase receiver components",
       "subtitle": "Separate demodulation of in-phase and quadrature observations",
-      "description": "[
-        \"The two types of observation channels are packaged into independent receiving components, and equipped with front-end measurement, shielding and connection components. Observation facilities and probes are obtained from here.\"
-      ]",
+      "description": [
+        "\"The two types of observation channels are packaged into independent receiving components, and equipped with front-end measurement, shielding and connection components. Observation facilities and probes are obtained from here.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5193E0D06811F7",
@@ -946,9 +946,9 @@
       "id": "4B5DF7A7F7C2A319",
       "title": "Quantum Anomaly Observation Array",
       "subtitle": "Combine the receiving components into observation equipment",
-      "description": "[
-        \"After completing the quantum anomaly observation research, manufacture the array controller. Connect the quadrature phase receiving component to the equipment and continue to establish the observation baseline.\"
-      ]",
+      "description": [
+        "\"After completing the quantum anomaly observation research, manufacture the array controller. Connect the quadrature phase receiving component to the equipment and continue to establish the observation baseline.\""
+      ],
       "dependencies": [
         "4B5CD71B4E04B8A3",
         "4B50C62B53949BDD",
@@ -973,9 +973,9 @@
       "id": "4B58488BA5061858",
       "title": "World bubble coordinate analysis center",
       "subtitle": "Convert multi-channel observations into available coordinates",
-      "description": "[
-        \"After completing the coordinate analysis research, manufacture the analysis center controller. Let the receiving component and calculation component take on the responsibility of coordinate solution and error registration.\"
-      ]",
+      "description": [
+        "\"After completing the coordinate analysis research, manufacture the analysis center controller. Let the receiving component and calculation component take on the responsibility of coordinate solution and error registration.\""
+      ],
       "dependencies": [
         "4B54804DF6CCFEB5"
       ],
@@ -997,9 +997,9 @@
       "id": "4B5DAE3681232992",
       "title": "Quantum Domain Research Institute",
       "subtitle": "Expand research capabilities into the quantum realm",
-      "description": "[
-        \"After completing the experiments and formal tasks undertaken by the previous research institute, we will manufacture the controller for the Quantum Domain Research Institute and continue the follow-up research.\"
-      ]",
+      "description": [
+        "\"After completing the experiments and formal tasks undertaken by the previous research institute, we will manufacture the controller for the Quantum Domain Research Institute and continue the follow-up research.\""
+      ],
       "dependencies": [
         "4B5488E425C5FF10"
       ],
@@ -1021,9 +1021,9 @@
       "id": "4B58834EE21DFE00",
       "title": "space observation probe",
       "subtitle": "Bring dual-channel measurement to the observation end",
-      "description": "[
-        \"Assemble the receiving component, direction calculation and front-end engineering components into a probe. The space probe will continue to be used for subsequent quantum observations and coordinate research.\"
-      ]",
+      "description": [
+        "\"Assemble the receiving component, direction calculation and front-end engineering components into a probe. The space probe will continue to be used for subsequent quantum observations and coordinate research.\""
+      ],
       "dependencies": [
         "4B5CD71B4E04B8A3",
         "4B50C62B53949BDD",
@@ -1047,12 +1047,12 @@
       "id": "4B512E947E431C10",
       "title": "Circuit condition expansion",
       "subtitle": "RN-CQS · Experimental and formal research",
-      "description": "[
-        \"Tested object: circuit packaging component × 1; paper 2 is used for testing records, and the reference sample is recycled\",
-        \"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. Complete the packaging working condition expansion test and record the sample performance; no high-voltage seeds that have not yet been manufactured will be consumed; the original quantity of the tested object will be returned, and the experiment will be subject to the actual settlement of the machine.\",
-        \"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\",
-        \"The institute withholds power according to the total power of the effective energy port. After completion, the high-level working conditions of etching and packaging of the nano self-organizing programming cabin substrate and Soul Steel Precision Machining Center will be unlocked; the step-by-step seed formula must still be manufacturable at the previous voltage.\"
-      ]",
+      "description": [
+        "\"Tested object: circuit packaging component × 1; paper 2 is used for testing records, and the reference sample is recycled\"",
+        "\"Complete the team's experiment at the Collapse Energy Sample Spectral Analysis Array. Complete the packaging working condition expansion test and record the sample performance; no high-voltage seeds that have not yet been manufactured will be consumed; the original quantity of the tested object will be returned, and the experiment will be subject to the actual settlement of the machine.\"",
+        "\"After the experiment is completed, choose 760 research points or QSV circuit × 4, tungsten steel plate × 64 to pay the base fee; an additional 8,400 ticks and 2,061,584,302,080 EU/t are required. The current material pressure is corrected for advanced.\"",
+        "\"The institute withholds power according to the total power of the effective energy port. After completion, the high-level working conditions of etching and packaging of the nano self-organizing programming cabin substrate and Soul Steel Precision Machining Center will be unlocked; the step-by-step seed formula must still be manufacturable at the previous voltage.\""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B5D74C9ED85BF0E"

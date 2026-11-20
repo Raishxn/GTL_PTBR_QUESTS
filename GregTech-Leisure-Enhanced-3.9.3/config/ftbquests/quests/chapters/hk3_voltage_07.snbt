@@ -3,8 +3,8 @@
   "id": "4B59FF8F953BD7DF",
   "title": "Pressão de emaranhamento QEV",
   "subtitle": [
-    "Tier21-QEV"
-  ],
+        "Tier21-QEV"
+      ],
   "group": "68CBF1606D696C68",
   "order_index": 22,
   "icon": "hk3gtl:voltage_machine_casing_qev",
@@ -14,10 +14,10 @@
       "id": "4B588074C3C76BAA",
       "title": "Continuação do workshop QCV",
       "subtitle": "QCV → QEV",
-      "description": "[
-        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos QEV.\",
-        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
-      ]",
+      "description": [
+        "\"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos QEV.\"",
+        "“Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho."
+      ],
       "dependencies": [
         "4B5216D08D96321D"
       ],
@@ -39,9 +39,9 @@
       "id": "4B579EB8767AA2A4",
       "title": "Interface de marcação dupla",
       "subtitle": "Deixe as portas A e B acessarem com tags de emparelhamento",
-      "description": "[
-        \"Adicione uma porta dupla e uma marca de emparelhamento à interface front-end e conecte a placa impressa de nível atual e a camada de isolamento. A decodificação subsequente lê dois sinais deste conjunto de interfaces claras.\"
-      ]",
+      "description": [
+        "\"Adicione uma porta dupla e uma marca de emparelhamento à interface front-end e conecte a placa impressa de nível atual e a camada de isolamento. A decodificação subsequente lê dois sinais deste conjunto de interfaces claras.\""
+      ],
       "dependencies": [
         "4B5F27DFD542861F",
         "4B5B808A4014F1E3",
@@ -65,9 +65,9 @@
       "id": "4B5FE0037EACB269",
       "title": "Módulo de decodificação de verificação de emparelhamento",
       "subtitle": "Verifique os dois resultados juntos",
-      "description": "[
-        \"Encapsula componentes locais de computação, armazenamento e temporização e verifica o status de emparelhamento das duas entradas. Quando uma incompatibilidade é detectada, o módulo emite um sinal para interromper a execução.\"
-      ]",
+      "description": [
+        "\"Encapsula componentes locais de computação, armazenamento e temporização e verifica o status de emparelhamento das duas entradas. Quando uma incompatibilidade é detectada, o módulo emite um sinal para interromper a execução.\""
+      ],
       "dependencies": [
         "4B512C65CEF4309B",
         "4B579EB8767AA2A4",
@@ -91,9 +91,9 @@
       "id": "4B59CDF9DC283EED",
       "title": "Servo cilindro de intertravamento de canal duplo",
       "subtitle": "Execute depois que ambos os caminhos forem consistentes",
-      "description": "[
-        \"Integre a verificação de emparelhamento ao intertravamento do servo, mantenha o suporte front-end e adicione uma estrutura de execução de canal duplo neste nível.\"
-      ]",
+      "description": [
+        "\"Integre a verificação de emparelhamento ao intertravamento do servo, mantenha o suporte front-end e adicione uma estrutura de execução de canal duplo neste nível.\""
+      ],
       "dependencies": [
         "4B51D710544E9513",
         "4B5FE0037EACB269",
@@ -117,9 +117,9 @@
       "id": "4B509AAFC7A4F423",
       "title": "Ponte de equilíbrio térmico de ramo duplo",
       "subtitle": "Dê aos ramos emparelhados condições de temperatura comensuráveis",
-      "description": "[
-        “Instale os dois canais de controle de temperatura na ponte de equilíbrio e reserve o circuito de alimentação para cada um. Mantenha a temperatura uniforme dos ramos emparelhados e, em seguida, conecte o circuito e os componentes de execução.”
-      ]",
+      "description": [
+        "Instale os dois canais de controle de temperatura na ponte de equilíbrio e reserve o circuito de alimentação para cada um. Mantenha a temperatura uniforme dos ramos emparelhados e, em seguida, conecte o circuito e os componentes de execução."
+      ],
       "dependencies": [
         "4B578111155CA2B0",
         "4B50B7179E3F37D8",
@@ -143,9 +143,9 @@
       "id": "4B54D2F9D45C6F00",
       "title": "Host do processador QEV Quantum Bridge",
       "subtitle": "Verificação de emparelhamento de ramificação dupla e equalização simétrica de temperatura",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um host de processador de ponte quântica. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um host de processador de ponte quântica. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5FD77A9DD44CF7",
         "4B5FE0037EACB269",
@@ -170,9 +170,9 @@
       "id": "4B592BB2320D03D1",
       "title": "Supercomputador de coerência quântica QEV",
       "subtitle": "Verificação de emparelhamento de ramificação dupla e equalização simétrica de temperatura",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador quântico coerente. Prepare componentes de computação para peças de execução e equipamentos de engenharia subsequentes.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um supercomputador quântico coerente. Prepare componentes de computação para peças de execução e equipamentos de engenharia subsequentes."
+      ],
       "dependencies": [
         "4B5FE0037EACB269",
         "4B509AAFC7A4F423",
@@ -196,9 +196,9 @@
       "id": "4B5359A2298535A1",
       "title": "Conjunto de processador de interferência quântica QEV",
       "subtitle": "Verificação de emparelhamento de ramificação dupla e equalização simétrica de temperatura",
-      "description": "[
-        “Consuma o circuito completo da forma anterior, adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador de interferência quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior, adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador de interferência quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B520FFA3A70A471",
         "4B5FE0037EACB269",
@@ -223,9 +223,9 @@
       "id": "4B56A3DE443E58AA",
       "title": "Processador de âncora de emaranhamento QEV",
       "subtitle": "Verificação de emparelhamento de ramificação dupla e equalização simétrica de temperatura",
-      "description": "[
-        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador âncora emaranhado. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
-      ]",
+      "description": [
+        "Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador âncora emaranhado. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia."
+      ],
       "dependencies": [
         "4B5FE0037EACB269",
         "4B509AAFC7A4F423",
@@ -249,9 +249,9 @@
       "id": "4B58815DF49B28EF",
       "title": "Motor elétrico QEV",
       "subtitle": "Fornece acionamento rotacional independente",
-      "description": "[
-        \"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B510190BA9A5D97",
         "4B59CDF9DC283EED",
@@ -275,9 +275,9 @@
       "id": "4B5B68E1E179BBC1",
       "title": "Pistão elétrico QEV",
       "subtitle": "Converta o acionamento em movimento linear controlado",
-      "description": "[
-        \"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B55A44A3D4741F4",
         "4B58815DF49B28EF"
@@ -300,9 +300,9 @@
       "id": "4B5C9BB775F30E7B",
       "title": "Bomba elétrica QEV",
       "subtitle": "Fornece potência de transporte para caminhos de fluxo independentes",
-      "description": "[
-        \"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\"
-      ]",
+      "description": [
+        "\"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\""
+      ],
       "dependencies": [
         "4B57494A173A8C55",
         "4B58815DF49B28EF"
@@ -325,9 +325,9 @@
       "id": "4B5EAC0CC749BDEF",
       "title": "Módulo transportador QEV",
       "subtitle": "Transferência contínua de materiais em linhas de produção existentes",
-      "description": "[
-        \"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\"
-      ]",
+      "description": [
+        "\"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\""
+      ],
       "dependencies": [
         "4B510E092A9EA041",
         "4B58815DF49B28EF"
@@ -350,9 +350,9 @@
       "id": "4B5953B3CED349F0",
       "title": "Braço robótico QEV",
       "subtitle": "Conecte posicionamento e execução ao mesmo componente",
-      "description": "[
-        “Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento.”
-      ]",
+      "description": [
+        "Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento."
+      ],
       "dependencies": [
         "4B50C62B53949BDD",
         "4B5B68E1E179BBC1"
@@ -375,9 +375,9 @@
       "id": "4B5528655154A3ED",
       "title": "Sensor QEV",
       "subtitle": "Envie os resultados da medição para o nível atual de controle",
-      "description": "[
-        \"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\"
-      ]",
+      "description": [
+        "\"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\""
+      ],
       "dependencies": [
         "4B5934F5CF3D7D6B",
         "4B592BB2320D03D1"
@@ -400,9 +400,9 @@
       "id": "4B5983D18028736A",
       "title": "Transmissor QEV",
       "subtitle": "Prepare componentes de lançamento para este nível de equipamento",
-      "description": "[
-        \"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\"
-      ]",
+      "description": [
+        "\"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\""
+      ],
       "dependencies": [
         "4B5CE40EEEBE5CBD",
         "4B592BB2320D03D1"
@@ -425,9 +425,9 @@
       "id": "4B5B09F891F81B91",
       "title": "Gerador de campo de força QEV",
       "subtitle": "Prepare componentes de campo de força para este nível de equipamento",
-      "description": "[
-        “Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente.”
-      ]",
+      "description": [
+        "Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente."
+      ],
       "dependencies": [
         "4B54A60A7117D269",
         "4B5528655154A3ED",
@@ -451,9 +451,9 @@
       "id": "4B5CC8A3BE040A5D",
       "title": "Clipe de emparelhamento de cristal de semente conjugada",
       "subtitle": "Primeiro prepare os acessórios físicos para fixar os cristais-semente A e B.",
-      "description": "[
-        “O clipe de acasalamento é feito de materiais frontais. Na verdade, é consumido no crescimento da semente de cristal, na confluência e no processamento morfológico subsequente, e é fornecido continuamente de acordo com a demanda da linha de produção.
-      ]",
+      "description": [
+        "“O clipe de acasalamento é feito de materiais frontais. Na verdade, é consumido no crescimento da semente de cristal, na confluência e no processamento morfológico subsequente, e é fornecido continuamente de acordo com a demanda da linha de produção."
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3",
@@ -477,9 +477,9 @@
       "id": "4B54B484937513B1",
       "title": "Banho de crescimento de sementes emparelhado",
       "subtitle": "Alimenta duas linhas de crescimento independentes",
-      "description": "[
-        “Prepare o banho de crescimento com novos materiais e forneça os ramos A e B respectivamente. As duas linhas de sementes consomem materiais separadamente e os preparam separadamente antes de se fundirem.”
-      ]",
+      "description": [
+        "Prepare o banho de crescimento com novos materiais e forneça os ramos A e B respectivamente. As duas linhas de sementes consomem materiais separadamente e os preparam separadamente antes de se fundirem."
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3"
@@ -503,9 +503,9 @@
       "id": "4B5746D58AC44B7C",
       "title": "Independente A semente de cristal em branco",
       "subtitle": "Interface de contato Platinum",
-      "description": "[
-        “Processe o cristal semente do ramo A em um equipamento de crescimento independente, mantendo sua interface de contato de platina. Deixe o produto acabado para montagem do par inteiro e mescle-o com o ramo B um a um.”
-      ]",
+      "description": [
+        "Processe o cristal semente do ramo A em um equipamento de crescimento independente, mantendo sua interface de contato de platina. Deixe o produto acabado para montagem do par inteiro e mescle-o com o ramo B um a um."
+      ],
       "dependencies": [
         "4B5CC8A3BE040A5D",
         "4B54B484937513B1"
@@ -528,9 +528,9 @@
       "id": "4B5654050FCD385A",
       "title": "Branco de cristal de semente B independente",
       "subtitle": "Um ramo de contato de paládio e ajuste de limite de grão",
-      "description": "[
-        “A matriz frontal e os materiais auxiliares funcionais necessários para o ramo B são colocados separadamente para completar o crescimento das sementes de cristal conjugadas. Os dois produtos acabados são armazenados separadamente e depois enviados para todo o par para montagem.”
-      ]",
+      "description": [
+        "A matriz frontal e os materiais auxiliares funcionais necessários para o ramo B são colocados separadamente para completar o crescimento das sementes de cristal conjugadas. Os dois produtos acabados são armazenados separadamente e depois enviados para todo o par para montagem."
+      ],
       "dependencies": [
         "4B5CC8A3BE040A5D",
         "4B54B484937513B1"
@@ -553,9 +553,9 @@
       "id": "4B57B57F7522FE98",
       "title": "Espaços em branco correspondentes síncronos",
       "subtitle": "Deixe os cristais-semente A e B se encontrarem um por um",
-      "description": "[
-        “Coloque quantidades iguais de cristais de sementes A e B no grampo de emparelhamento e conecte-os aos componentes de sincronização para completar a montagem. Os materiais combinados sempre continuarão a ser processados como pares de cristais completos.”
-      ]",
+      "description": [
+        "Coloque quantidades iguais de cristais de sementes A e B no grampo de emparelhamento e conecte-os aos componentes de sincronização para completar a montagem. Os materiais combinados sempre continuarão a ser processados como pares de cristais completos."
+      ],
       "dependencies": [
         "4B5746D58AC44B7C",
         "4B5654050FCD385A"
@@ -578,9 +578,9 @@
       "id": "4B5599240882CC52",
       "title": "Um par completo de espaços em branco envelhecidos",
       "subtitle": "Bloqueio completo do limite de grãos em pares",
-      "description": "[
-        \"Envelheça o par de cristais completo para fixar os limites dos grãos e o estado de tensão. Mantenha a relação de emparelhamento entre os dois pares e, em seguida, envie-os para a tampa final e revisão de baixa temperatura.\"
-      ]",
+      "description": [
+        "\"Envelheça o par de cristais completo para fixar os limites dos grãos e o estado de tensão. Mantenha a relação de emparelhamento entre os dois pares e, em seguida, envie-os para a tampa final e revisão de baixa temperatura.\""
+      ],
       "dependencies": [
         "4B57B57F7522FE98"
       ],
@@ -602,9 +602,9 @@
       "id": "4B5A1C569C3F18E2",
       "title": "Material de treliça emparelhada emaranhada em branco padrão",
       "subtitle": "Após a selagem, continue a usar de acordo com o par de cristais",
-      "description": "[
-        \"Os pares completos de cristais são selados e a revisão de baixa temperatura é concluída. Cada dois pedaços de tarugos padrão circulam em pares, e essa relação também é mantida durante o fatiamento e subsequente processamento morfológico.\"
-      ]",
+      "description": [
+        "\"Os pares completos de cristais são selados e a revisão de baixa temperatura é concluída. Cada dois pedaços de tarugos padrão circulam em pares, e essa relação também é mantida durante o fatiamento e subsequente processamento morfológico.\""
+      ],
       "dependencies": [
         "4B5599240882CC52"
       ],
@@ -626,9 +626,9 @@
       "id": "4B54F7A441537AA1",
       "title": "Painéis de material de treliça emparelhados emaranhados",
       "subtitle": "Coloque os pares completos de cristais na laje",
-      "description": "[
-        \"Lamine as folhas com uma treliça emparelhada completa e adicione o suporte, a camada de contato e o material de interface. As duas estruturas na folha vão para a montagem subsequente juntas.\"
-      ]",
+      "description": [
+        "\"Lamine as folhas com uma treliça emparelhada completa e adicione o suporte, a camada de contato e o material de interface. As duas estruturas na folha vão para a montagem subsequente juntas.\""
+      ],
       "dependencies": [
         "4B517CFE24713919",
         "4B5A1C569C3F18E2"
@@ -651,9 +651,9 @@
       "id": "4B5385AC86625747",
       "title": "Hastes de treliça emparelhadas emaranhadas",
       "subtitle": "Oito hastes retêm quatro pares de treliça",
-      "description": "[
-        \"As hastes compostas são processadas em lotes pares, retendo cada par de redes complementares. As hastes então alimentam a estrutura, os anéis de interface e os filamentos compostos.\"
-      ]",
+      "description": [
+        "\"As hastes compostas são processadas em lotes pares, retendo cada par de redes complementares. As hastes então alimentam a estrutura, os anéis de interface e os filamentos compostos.\""
+      ],
       "dependencies": [
         "4B517CFE24713919",
         "4B50A4D83DED0382",
@@ -677,9 +677,9 @@
       "id": "4B5802FBE1CFDB67",
       "title": "Estrutura de material de treliça emparelhada emaranhada",
       "subtitle": "Quatro pares de vigas são montados em uma estrutura",
-      "description": "[
-        \"As oito hastes são posicionadas de acordo com quatro pares de grupos de vigas e conectadas à estrutura frontal completa. A estrutura emparelhada completa é retida na estrutura acabada.\"
-      ]",
+      "description": [
+        "\"As oito hastes são posicionadas de acordo com quatro pares de grupos de vigas e conectadas à estrutura frontal completa. A estrutura emparelhada completa é retida na estrutura acabada.\""
+      ],
       "dependencies": [
         "4B52A38ECBBC7D1B",
         "4B5385AC86625747"
@@ -702,9 +702,9 @@
       "id": "4B50B7179E3F37D8",
       "title": "Anéis de material de treliça emparelhados emaranhados",
       "subtitle": "O anel de interface também é fabricado como um par de cristais completo",
-      "description": "[
-        \"As hastes são processadas em anéis de acordo com os pares de cristais, e os clipes de posicionamento e as camadas de contato são combinados. As partes do anel são fornecidas à interface do revestimento para manter a relação correspondente entre os dois anéis.\"
-      ]",
+      "description": [
+        "\"As hastes são processadas em anéis de acordo com os pares de cristais, e os clipes de posicionamento e as camadas de contato são combinados. As partes do anel são fornecidas à interface do revestimento para manter a relação correspondente entre os dois anéis.\""
+      ],
       "dependencies": [
         "4B5BC89DB94CBBA1",
         "4B5385AC86625747"
@@ -727,9 +727,9 @@
       "id": "4B5B808A4014F1E3",
       "title": "Folha de material de treliça emparelhada emaranhada",
       "subtitle": "Deixe as duas redes complementares se solidificarem juntas",
-      "description": "[
-        \"A camada emparelhada completa é co-curada com a folha de base anterior para fazer esta folha fina. Após o desbaste, a relação correspondente entre as duas camadas ainda é mantida.\"
-      ]",
+      "description": [
+        "\"A camada emparelhada completa é co-curada com a folha de base anterior para fazer esta folha fina. Após o desbaste, a relação correspondente entre as duas camadas ainda é mantida.\""
+      ],
       "dependencies": [
         "4B5CF6430127290A",
         "4B54F7A441537AA1"
@@ -752,9 +752,9 @@
       "id": "4B5B5E09A6EE0493",
       "title": "Fios finos compostos de material de treliça emparelhados emaranhados",
       "subtitle": "Canais emparelhados são posicionados nas extremidades",
-      "description": "[
-        \"Os fios finos compostos são divididos em canais correspondentes e grampos emparelhados fixam as extremidades. Um número par de canais é mantido em cada lote para continuar nas interconexões subsequentes.\"
-      ]",
+      "description": [
+        "\"Os fios finos compostos são divididos em canais correspondentes e grampos emparelhados fixam as extremidades. Um número par de canais é mantido em cada lote para continuar nas interconexões subsequentes.\""
+      ],
       "dependencies": [
         "4B54610F11B937EC",
         "4B5385AC86625747"
@@ -777,9 +777,9 @@
       "id": "4B575076D5F34203",
       "title": "O primeiro lote de cubos mecânicos QEV",
       "subtitle": "Monte todo o par de treliças fora do núcleo QCV",
-      "description": "[
-        \"Conecte este nível de placa, estrutura e anel ao bloco mecânico QCV completo. O posicionamento do emparelhamento, a recuperação do tempo e o empacotamento em baixa temperatura são concluídos juntos para obter o primeiro lote de caixas QEV.\"
-      ]",
+      "description": [
+        "\"Conecte este nível de placa, estrutura e anel ao bloco mecânico QCV completo. O posicionamento do emparelhamento, a recuperação do tempo e o empacotamento em baixa temperatura são concluídos juntos para obter o primeiro lote de caixas QEV.\""
+      ],
       "dependencies": [
         "4B5216D08D96321D",
         "4B54F7A441537AA1",
@@ -804,9 +804,9 @@
       "id": "4B57BD3093906481",
       "title": "Desmontagem em camadas da caixa QEV",
       "subtitle": "Recupere o núcleo e classifique a rede externa",
-      "description": "[
-        “Retire o núcleo QCV completo e recupere algumas das placas, molduras e anéis. O corpo principal restante é transferido para resíduos classificados e continua a eluição e separação.”
-      ]",
+      "description": [
+        "Retire o núcleo QCV completo e recupere algumas das placas, molduras e anéis. O corpo principal restante é transferido para resíduos classificados e continua a eluição e separação."
+      ],
       "dependencies": [
         "4B575076D5F34203"
       ],
@@ -832,9 +832,9 @@
       "id": "4B5DDF371174C139",
       "title": "QEV triagem separação de resíduos",
       "subtitle": "Reciclar os componentes principais e separar os rejeitos não recuperáveis",
-      "description": "[
-        \"Use o solvente do processo para eluir os acessórios e, em seguida, centrifugue para separar os componentes principais. Recicle os componentes e reabasteça os materiais, e os materiais restantes são solidificados separadamente.\"
-      ]",
+      "description": [
+        "\"Use o solvente do processo para eluir os acessórios e, em seguida, centrifugue para separar os componentes principais. Recicle os componentes e reabasteça os materiais, e os materiais restantes são solidificados separadamente.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3"
@@ -861,9 +861,9 @@
       "id": "4B558EFD1D3BCC1D",
       "title": "Componentes recuperados do QEV para reconstruir ramificações duplas",
       "subtitle": "Ambas as linhas de sementes A e B precisam ser restabelecidas.",
-      "description": "[
-        “Adicione o corpo principal reciclado e a matriz fresca aos dois ramos, respectivamente, e reinvista suas respectivas camadas de contato, emparelhando clipes e materiais de ajuste. Após obter cristais de semente A e B independentes, retorne à rota original de montagem do par.”
-      ]",
+      "description": [
+        "Adicione o corpo principal reciclado e a matriz fresca aos dois ramos, respectivamente, e reinvista suas respectivas camadas de contato, emparelhando clipes e materiais de ajuste. Após obter cristais de semente A e B independentes, retorne à rota original de montagem do par."
+      ],
       "dependencies": [
         "4B5CC8A3BE040A5D",
         "4B54B484937513B1"
@@ -890,9 +890,9 @@
       "id": "4B5B58129091C610",
       "title": "Solidificação de rejeitos QEV",
       "subtitle": "Sele o corpo de treliça irrecuperável",
-      "description": "[
-        “Misturar o rejeito não reciclável com o material solidificado, retirar a cinza inerte e acabar com a reciclagem dessa parte da treliça”.
-      ]",
+      "description": [
+        "“Misturar o rejeito não reciclável com o material solidificado, retirar a cinza inerte e acabar com a reciclagem dessa parte da treliça”."
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5CD71B4E04B8A3"
@@ -919,9 +919,9 @@
       "id": "4B554B1F740B455A",
       "title": "Componentes do receptor de fase de quadratura",
       "subtitle": "Demodulação separada de observações em fase e em quadratura",
-      "description": "[
-        \"Os dois tipos de canais de observação são empacotados em componentes de recepção independentes e equipados com componentes de medição, blindagem e conexão front-end. Instalações de observação e sondas são obtidas aqui.\"
-      ]",
+      "description": [
+        "\"Os dois tipos de canais de observação são empacotados em componentes de recepção independentes e equipados com componentes de medição, blindagem e conexão front-end. Instalações de observação e sondas são obtidas aqui.\""
+      ],
       "dependencies": [
         "4B512E947E431C10",
         "4B5193E0D06811F7",
@@ -946,9 +946,9 @@
       "id": "4B5DF7A7F7C2A319",
       "title": "Matriz de observação de anomalias quânticas",
       "subtitle": "Combine os componentes receptores em equipamentos de observação",
-      "description": "[
-        “Depois de concluir a pesquisa de observação de anomalias quânticas, fabrique o controlador de matriz. Conecte o componente receptor de fase de quadratura ao equipamento e continue a estabelecer a linha de base de observação.”
-      ]",
+      "description": [
+        "Depois de concluir a pesquisa de observação de anomalias quânticas, fabrique o controlador de matriz. Conecte o componente receptor de fase de quadratura ao equipamento e continue a estabelecer a linha de base de observação."
+      ],
       "dependencies": [
         "4B5CD71B4E04B8A3",
         "4B50C62B53949BDD",
@@ -973,9 +973,9 @@
       "id": "4B58488BA5061858",
       "title": "Centro mundial de análise de coordenadas de bolhas",
       "subtitle": "Converta observações multicanal em coordenadas disponíveis",
-      "description": "[
-        “Depois de concluir a pesquisa de análise de coordenadas, fabrique o controlador do centro de análise. Deixe que o componente receptor e o componente de cálculo assumam a responsabilidade pela solução das coordenadas e registro de erros.”
-      ]",
+      "description": [
+        "Depois de concluir a pesquisa de análise de coordenadas, fabrique o controlador do centro de análise. Deixe que o componente receptor e o componente de cálculo assumam a responsabilidade pela solução das coordenadas e registro de erros."
+      ],
       "dependencies": [
         "4B54804DF6CCFEB5"
       ],
@@ -997,9 +997,9 @@
       "id": "4B5DAE3681232992",
       "title": "Instituto de Pesquisa de Domínio Quântico",
       "subtitle": "Expandir as capacidades de pesquisa no domínio quântico",
-      "description": "[
-        \"Depois de concluir os experimentos e tarefas formais realizadas pelo instituto de pesquisa anterior, fabricaremos o controlador para o Instituto de Pesquisa de Domínios Quânticos e continuaremos a pesquisa de acompanhamento.\"
-      ]",
+      "description": [
+        "\"Depois de concluir os experimentos e tarefas formais realizadas pelo instituto de pesquisa anterior, fabricaremos o controlador para o Instituto de Pesquisa de Domínios Quânticos e continuaremos a pesquisa de acompanhamento.\""
+      ],
       "dependencies": [
         "4B5488E425C5FF10"
       ],
@@ -1021,9 +1021,9 @@
       "id": "4B58834EE21DFE00",
       "title": "sonda de observação espacial",
       "subtitle": "Traga a medição de canal duplo para o final da observação",
-      "description": "[
-        \"Montar o componente receptor, cálculo de direção e componentes de engenharia front-end em uma sonda. A sonda espacial continuará a ser usada para observações quânticas subsequentes e pesquisas coordenadas.\"
-      ]",
+      "description": [
+        "\"Montar o componente receptor, cálculo de direção e componentes de engenharia front-end em uma sonda. A sonda espacial continuará a ser usada para observações quânticas subsequentes e pesquisas coordenadas.\""
+      ],
       "dependencies": [
         "4B5CD71B4E04B8A3",
         "4B50C62B53949BDD",
@@ -1047,12 +1047,12 @@
       "id": "4B512E947E431C10",
       "title": "Expansão da condição do circuito",
       "subtitle": "RN-CQS · Pesquisa experimental e formal",
-      "description": "[
-        \"Objeto testado: componente de embalagem de circuito × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
-        “Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. Conclua o teste de expansão das condições de trabalho da embalagem e registre o desempenho da amostra; nenhuma semente de alta tensão que ainda não tenha sido fabricada será consumida;
-        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
-        \"O instituto retém energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de trabalho de alto nível de gravação e embalagem do substrato da cabine de programação nano auto-organizada e do Centro de Usinagem de Precisão Soul Steel serão desbloqueadas; a fórmula de semente passo a passo ainda deve ser fabricada na tensão anterior. \"
-      ]",
+      "description": [
+        "\"Objeto testado: componente de embalagem de circuito × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\"",
+        "“Conclua o experimento da equipe no Collapse Energy Sample Spectral Analysis Array. Conclua o teste de expansão das condições de trabalho da embalagem e registre o desempenho da amostra; nenhuma semente de alta tensão que ainda não tenha sido fabricada será consumida;",
+        "\"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\"",
+        "\"O instituto retém energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de trabalho de alto nível de gravação e embalagem do substrato da cabine de programação nano auto-organizada e do Centro de Usinagem de Precisão Soul Steel serão desbloqueadas; a fórmula de semente passo a passo ainda deve ser fabricada na tensão anterior. \""
+      ],
       "dependencies": [
         "4B5407261AA82797",
         "4B5D74C9ED85BF0E"

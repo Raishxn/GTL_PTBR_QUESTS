@@ -1,0 +1,90 @@
+{
+  "cardWidth": 70,
+  "cardHeight": 36,
+  "rewardPreview": "bar",
+  "rememberShopView": true,
+  "shopSearch": "",
+  "shopSelectedStableId": "e2cfc38f-1683-49e8-a971-7e0d80295979",
+  "reduceMotion": false,
+  "uiSounds": true,
+  "pickerSort": "default",
+  "pickerGroupByMod": false,
+  "shopTheme": "network",
+  "shopAppearance": {
+    "background": "antigravity",
+    "material": "slate",
+    "effects": {
+      "reveal": {
+        "maxRadius": 12.0,
+        "fullBlurUntil": 0.2,
+        "sharpFrom": 0.8
+      },
+      "electricLogo": {
+        "palette": {
+          "theme": "DARK"
+        }
+      },
+      "dotMatrix": {
+        "motion": {
+          "effect": "WAVE"
+        },
+        "gradient": {
+          "flow": "DOWN",
+          "stops": [
+            {
+              "position": 0.0,
+              "argb": -47253
+            },
+            {
+              "position": 0.14285715,
+              "argb": -25534
+            },
+            {
+              "position": 0.2857143,
+              "argb": -6285
+            },
+            {
+              "position": 0.42857143,
+              "argb": -11016819
+            },
+            {
+              "position": 0.5714286,
+              "argb": -12461579
+            },
+            {
+              "position": 0.71428573,
+              "argb": -10322945
+            },
+            {
+              "position": 0.85714287,
+              "argb": -3840001
+            }
+          ],
+          "periodMs": 5000
+        },
+        "palette": {
+          "glow": 1.0
+        },
+        "interaction": {
+          "pointerLens": {
+            "holdToZoom": true
+          }
+        },
+        "grid": {
+          "density": 0.79
+        }
+      },
+      "patternWaves": {
+        "wave": "SILK",
+        "fade": "CENTER",
+        "pattern": "PLUS"
+      },
+      "antigravity": {
+        "colorMode": "RANDOM",
+        "particleShape": "SPHERE"
+      }
+    }
+  },
+  "setupDone": true,
+  "shopDisabled": false
+}
