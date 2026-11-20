@@ -8,6 +8,7 @@ Escolha **um arquivo de idioma** da versão desejada. Os pacotes incluem as ques
 
 | Versão | Português do Brasil | English | Chinês original | Detalhes |
 | --- | --- | --- | --- | --- |
+| GregTech Leisure 增强版 3.8 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-3.8/GregTech-Leisure-Enhanced-3.8-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-3.8/GregTech-Leisure-Enhanced-3.8-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-3.8/GregTech-Leisure-Enhanced-3.8-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-enhanced-3.8) |
 | GregTech Leisure 增强版 3.1 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-3.1/GregTech-Leisure-Enhanced-3.1-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-3.1/GregTech-Leisure-Enhanced-3.1-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-3.1/GregTech-Leisure-Enhanced-3.1-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-enhanced-3.1) |
 | GregTech Leisure 增强版 2.9.2 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.9.2/GregTech-Leisure-Enhanced-2.9.2-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.9.2/GregTech-Leisure-Enhanced-2.9.2-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.9.2/GregTech-Leisure-Enhanced-2.9.2-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-enhanced-2.9.2) |
 | GregTech Leisure 增强版 2.7 | [PT-BR](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.7/GregTech-Leisure-Enhanced-2.7-pt_br.mrpack) | [English](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.7/GregTech-Leisure-Enhanced-2.7-en_us.mrpack) | [中文](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/download/gtl-enhanced-2.7/GregTech-Leisure-Enhanced-2.7-zh_cn.mrpack) | [Release](https://github.com/Raishxn/GTL_PTBR_QUESTS/releases/tag/gtl-enhanced-2.7) |
@@ -46,6 +47,7 @@ Para quem já tem uma instância e deseja aplicar a tradução manualmente, os a
 
 | Versão | Português do Brasil | English |
 | --- | --- | --- |
+| GregTech Leisure 增强版 3.8 | [PT-BR](GregTech-Leisure-Enhanced-3.8/) | [English](en_us/GregTech-Leisure-Enhanced-3.8/) |
 | GregTech Leisure 增强版 3.1 | [PT-BR](GregTech-Leisure-Enhanced-3.1/) | [English](en_us/GregTech-Leisure-Enhanced-3.1/) |
 | GregTech Leisure 增强版 2.9.2 | [PT-BR](GregTech-Leisure-Enhanced-2.9.2/) | [English](en_us/GregTech-Leisure-Enhanced-2.9.2/) |
 | GregTech Leisure 增强版 2.7 | [PT-BR](GregTech-Leisure-Enhanced-2.7/) | [English](en_us/GregTech-Leisure-Enhanced-2.7/) |
