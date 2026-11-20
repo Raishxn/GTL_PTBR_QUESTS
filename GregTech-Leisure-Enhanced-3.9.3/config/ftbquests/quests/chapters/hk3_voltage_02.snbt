@@ -1,0 +1,2536 @@
+{
+  "filename": "hk3_voltage_02",
+  "id": "4B537D3B302B7DCC",
+  "title": "Pressão de restrição HCV",
+  "subtitle": [
+    "Tier16-HCV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 17,
+  "icon": "hk3gtl:voltage_machine_casing_hcv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B554BD2F769695B",
+      "title": "Continuação do workshop HBV",
+      "subtitle": "Transforme a carcaça no ponto de partida da próxima indústria",
+      "description": "[
+        “O primeiro lote de invólucros HBV foi concluído. Em seguida, a adaptação do circuito é concluída e, em seguida, a eletrônica, o fornecimento de HW e a nanotecnologia são conectados um por um.”,
+        \"Esta seção vai para o primeiro lote de carcaças de HCV, e a potência necessária, a tensão real de produção e as contas de HW são estudadas e preparadas de acordo com as condições reais.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5641AD1425B927",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hbv",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5D21921711FF57",
+          "type": "custom",
+          "title": "Pesquisa concluída sobre estabilização de energia de colapso líquido",
+          "tags": [
+            "hk3gtl_quest_hcv_start"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:voltage_machine_casing_hbv",
+      "x": 0,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B56D9767054FD7F",
+      "title": "Formulário Eletrônico Soul Steel",
+      "subtitle": "Arames finos, folhas finas e anéis de vedação",
+      "description": "[
+        “Continue a processar as placas e hastes de aço alma da seção anterior em fios finos, folhas finas e anéis de vedação. Eles serão usados ​​em oficinas eletrônicas e montagem de circuitos hidráulicos.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5A572E5CB36F83",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_fine_wire",
+          "count": 128,
+          "consume_items": false
+        },
+        {
+          "id": "4B58CE19C90E1A4B",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_foil",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B50CE11DBC93410",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_ring",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_fine_wire",
+      "x": 4,
+      "y": -6,
+      "optional": false
+    },
+    {
+      "id": "4B5A3EEACCA48D02",
+      "title": "Meio de crescimento de circuito fresco",
+      "subtitle": "Deixe um fornecimento estável para a fabricação de eletrônicos",
+      "description": "[
+        “O meio de crescimento é preparado utilizando cristalização, materiais dopantes e líquidos estabilizantes. O primeiro lote é feito de novos materiais, e a reciclagem do meio residual é seguida posteriormente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5F36292738B7BE",
+          "type": "custom",
+          "title": "Conclusão real do meio de crescimento de circuito fresco",
+          "tags": [
+            "hk3gtl_quest_hcv_growth_medium"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:circuit_growth_medium_bucket",
+      "x": 4,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B527BA26FBBE1A4",
+      "title": "Gravador de circuito fresco",
+      "subtitle": "Deixe uma saída separada para o líquido usado",
+      "description": "[
+        \"Primeiro faça uma nova solução de gravação. Use-a tanto para a camada de adaptação quanto para o circuito impresso da rede e colete o líquido residual.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5F1FBA88CE1A92",
+          "type": "custom",
+          "title": "Conclusão real da solução de gravação de circuito recém-quebrado",
+          "tags": [
+            "hk3gtl_quest_hcv_etchant"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:honkai_circuit_etchant_bucket",
+      "x": 4,
+      "y": 10,
+      "optional": false
+    },
+    {
+      "id": "4B5BC659AE5A72B5",
+      "title": "Substrato de circuito adaptado à energia de colapso",
+      "subtitle": "Primeiro conecte o circuito existente ao novo material",
+      "description": "[
+        \"Monte a amostra de análise, a placa de aço alma, o material do circuito MAX original e o fluido estabilizador em um substrato adaptador. Deixe uma peça de lado para a matriz espectral para experimentos de compatibilidade.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B56E69E1C39AF15",
+          "type": "item",
+          "item": "hk3gtl:honkai_adapted_circuit_substrate",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:honkai_adapted_circuit_substrate",
+      "x": 8,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5040611BF12E64",
+      "title": "Amostra padrão de energia Honkai",
+      "subtitle": "Deixe uma referência para testes subsequentes",
+      "description": "[
+        \"Crie amostras padrão para comparação com matrizes espectrais e pesquisas subsequentes. Se cada receita consome amostras será determinado pela marca da ferramenta nos detalhes.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B581148A691ED9D",
+          "type": "item",
+          "item": "hk3gtl:honkai_reference_sample",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:honkai_reference_sample",
+      "x": 8,
+      "y": 10,
+      "optional": false
+    },
+    {
+      "id": "4B5042942BCE6960",
+      "title": "Adaptação do circuito de partida",
+      "subtitle": "Pegue um substrato real para testar",
+      "description": "[
+        “Conclua o experimento de compatibilidade no Spectral Array e o substrato será devolvido na quantidade original. Em seguida, vá ao instituto de pesquisa para concluir o projeto e a rede eletrônica de acompanhamento, o injetor e a fábrica inicial serão abertos.
+      ]",
+      "tasks": [
+        {
+          "id": "4B50BBA395373660",
+          "type": "custom",
+          "title": "Adaptação completa do circuito de partida",
+          "tags": [
+            "hk3gtl_quest_rn_bce"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5BC659AE5A72B5",
+        "4B5040611BF12E64"
+      ],
+      "icon": "hk3gtl:honkai_adapted_circuit_substrate",
+      "x": 12,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5EFEF2E69D12F9",
+      "title": "máscara de litografia de circuito",
+      "subtitle": "Ferramentas de precisão deixadas no equipamento",
+      "description": "[
+        \"Encapsule a óptica em uma máscara reutilizável. Tanto a exposição lógica quanto a impressão da RAM irão lê-la, e a máscara permanece entre os dois processos.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B55FD6126C54A70",
+          "type": "item",
+          "item": "hk3gtl:circuit_lithography_mask",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:circuit_lithography_mask",
+      "x": 24,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B598A27F82005CB",
+      "title": "Recolher camada de gravação de adaptação",
+      "subtitle": "Próximo processamento do substrato",
+      "description": "[
+        “Envie o substrato adaptado para a máquina de imersão química para obter a camada de ataque e retire uma quantidade igual de líquido de ataque residual.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B557E887571ECAF",
+          "type": "item",
+          "item": "hk3gtl:etched_circuit_layer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BC659AE5A72B5",
+        "4B527BA26FBBE1A4"
+      ],
+      "icon": "hk3gtl:etched_circuit_layer",
+      "x": 16,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B5F1D9A9FA58EF9",
+      "title": "Primer de interface resistente ao colapso",
+      "subtitle": "Primer para encapsulamento e laminação",
+      "description": "[
+        \"A solução de primer é ajustada primeiro. Os revestimentos das paredes laterais, as folhas laminadas pré-impregnadas e os reforços cerâmicos subsequentes são todos alimentados com esse novo suprimento.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5F5393AE728630",
+          "type": "custom",
+          "title": "Conclusão real do novo primer de interface resistente ao colapso",
+          "tags": [
+            "hk3gtl_quest_hcv_primer"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:honkai_interface_priming_liquid_bucket",
+      "x": 16,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5071F40A698799",
+      "title": "Revestimentos de encapsulamento e pré-impregnados laminados",
+      "subtitle": "Dois conjuntos de usos, prepare materiais separadamente",
+      "description": "[
+        \"O revestimento da parede lateral é usado para embalagem de circuito e o pré-impregnado é usado para laminação de substrato de treliça. O revestimento é concluído separadamente e o líquido transportador residual capturado é salvo separadamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B602ACA002283",
+          "type": "item",
+          "item": "hk3gtl:encapsulation_sidewall_insulation_liner",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B5AFFD7D466A601",
+          "type": "item",
+          "item": "hk3gtl:lattice_lamination_prepreg",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960",
+        "4B5F1D9A9FA58EF9"
+      ],
+      "icon": "hk3gtl:encapsulation_sidewall_insulation_liner",
+      "x": 20,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B51BA7AC8395B2D",
+      "title": "componentes de embalagem de circuito",
+      "subtitle": "Coloque o forro na embalagem",
+      "description": "[
+        \"Os componentes do pacote são construídos com estruturas de soulsteel, revestimentos isolantes e materiais de solda. Tanto a CPU quanto a laminação do substrato continuarão a consumi-los.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E13B76E52C7A2",
+          "type": "item",
+          "item": "hk3gtl:circuit_encapsulation_part",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5A3EEACCA48D02",
+        "4B5071F40A698799"
+      ],
+      "icon": "hk3gtl:circuit_encapsulation_part",
+      "x": 24,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B538E0ED0E2B585",
+      "title": "Colapso do filme de isolamento dielétrico de treliça",
+      "subtitle": "Prepare primeiro o isolamento intercalar",
+      "description": "[
+        \"Extrusão de um filme dielétrico usando uma folha fina de Soulsteel e um material isolante. É necessário para interconexões, wafers e dispositivos de chip.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B595A02D660C0A6",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_dielectric_film",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960",
+        "4B56D9767054FD7F"
+      ],
+      "icon": "hk3gtl:honkai_lattice_dielectric_film",
+      "x": 20,
+      "y": -4,
+      "optional": false
+    },
+    {
+      "id": "4B5CCB59FBAD78EA",
+      "title": "Molde mestre de eletroformação de interconexão de treliça",
+      "subtitle": "Uma peça de roupa de trabalho que é usada continuamente",
+      "description": "[
+        \"Um molde mestre eletroformado é criado para definir o padrão de interconexão durante o galvanização. Ele permanece no processo como uma ferramenta e é utilizado no próximo lote.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5590D309B48DB7",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_electroforming_mandrel",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960",
+        "4B56D9767054FD7F"
+      ],
+      "icon": "hk3gtl:honkai_lattice_electroforming_mandrel",
+      "x": 24,
+      "y": 2,
+      "optional": false
+    },
+    {
+      "id": "4B557F25660E295A",
+      "title": "Chapeamento direcional de interconexão de treliça",
+      "subtitle": "Deposite primeiro e depois pressione a quente",
+      "description": "[
+        \"Conclua o revestimento direcional no molde mestre para obter o branco de deposição de interconexão. O meio de crescimento de resíduos, o refrigerante quente e o líquido residual de limpeza são descarregados separadamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B573BC5397EC7B9",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_deposited_interconnect",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B538E0ED0E2B585",
+        "4B5A3EEACCA48D02",
+        "4B5CCB59FBAD78EA"
+      ],
+      "icon": "hk3gtl:honkai_lattice_deposited_interconnect",
+      "x": 28,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5AC50CDB402ACF",
+      "title": "Rede de interconexão orientada por treliça colapsada",
+      "subtitle": "Conecte linhas de deposição em uma rede",
+      "description": "[
+        \"A placa depositada é prensada a quente junto com o filme dielétrico e os suportes de fio fino para formar uma rede de interconexão. Os substratos e componentes funcionais subsequentes são todos retirados daqui.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5906514471E107",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_interconnect_mesh",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B557F25660E295A"
+      ],
+      "icon": "hk3gtl:honkai_lattice_interconnect_mesh",
+      "x": 32,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B524FCF976F85D2",
+      "title": "Substrato de circuito de treliça quebrada",
+      "subtitle": "Prepare todas as camadas antes da laminação",
+      "description": "[
+        \"A rede de interconexão, a camada de gravação, o pré-impregnado e os materiais de embalagem são laminados em um substrato de treliça, e a placa de circuito MAX original também é integrada a esse novo substrato.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5375B08A3E5A62",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_circuit_substrate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51BA7AC8395B2D",
+        "4B598A27F82005CB",
+        "4B5AC50CDB402ACF"
+      ],
+      "icon": "hk3gtl:honkai_lattice_circuit_substrate",
+      "x": 32,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B528827A6872511",
+      "title": "Colapso de circuitos impressos em rede",
+      "subtitle": "O substrato é desenvolvido",
+      "description": "[
+        “Concluir o desenvolvimento do substrato treliçado. Os produtos acabados continuam a ser utilizados em CPUs, processadores e componentes funcionais, e o líquido residual de gravação é enviado para reciclagem ou tanques de armazenamento temporário.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5DECBF0A6EB6FB",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_printed_circuit_board",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B524FCF976F85D2"
+      ],
+      "icon": "hk3gtl:honkai_lattice_printed_circuit_board",
+      "x": 36,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B54F26A38ED3857",
+      "title": "Wafer epitaxial de treliça colapsada",
+      "subtitle": "Lógica e armazenamento são desviados daqui",
+      "description": "[
+        \"Fabricar wafers epitaxiais compostos. Os wafers MAX RAM existentes fornecem referência de endereçamento e calibração aqui, e a lógica e o armazenamento subsequentes são processados separadamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D3F207A41351E",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_epitaxial_wafer",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B538E0ED0E2B585",
+        "4B5A3EEACCA48D02"
+      ],
+      "icon": "hk3gtl:honkai_lattice_epitaxial_wafer",
+      "x": 28,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B567BC85BF18577",
+      "title": "Exposição lógica e corte e vinco",
+      "subtitle": "Deixe uma amostra para cada um dos dois processos",
+      "description": "[
+        “Use uma máscara para expor o wafer lógico e, em seguida, corte-o em wafers vazios. Registre a tarefa ao mesmo tempo para o wafer e o wafer vazio e mantenha uma cópia de cada um ao organizar a produção.
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C4F9492F0E674",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_logic_wafer",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B59EA762F01838B",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_logic_die",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5EFEF2E69D12F9",
+        "4B54F26A38ED3857"
+      ],
+      "icon": "hk3gtl:honkai_lattice_logic_wafer",
+      "x": 32,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5EBF42101A9DA3",
+      "title": "Impressão de RAM e corte de wafer",
+      "subtitle": "A camada de trabalho de armazenamento é adicionada aqui",
+      "description": "[
+        “O wafer epitaxial é adicionado com uma camada de trabalho MAX RAM e, após a conclusão da impressão, é cortado em wafers de RAM. A tarefa é registrar os produtos desses dois processos ao mesmo tempo.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B53BBF87C747E21",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_ram_wafer",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5250E8DD58520F",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_ram_chip",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5EFEF2E69D12F9",
+        "4B54F26A38ED3857"
+      ],
+      "icon": "hk3gtl:honkai_lattice_ram_wafer",
+      "x": 36,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5236864A63B3EF",
+      "title": "Cinco tipos de dispositivos de chip de rede cristalina",
+      "subtitle": "Capacitores, diodos, resistores, transistores e indutores",
+      "description": "[
+        “Cinco tipos de dispositivos de chip são fabricados separadamente e depois enviados para a matriz funcional para montagem. O uso e a entrada de cada dispositivo são mantidos na receita correspondente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D92F2D8ACF5AE",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_smd_capacitor",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B591E183EDD299A",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_smd_diode",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B5630706F7442D4",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_smd_resistor",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B5A59D54470F6D5",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_smd_transistor",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B50727E29F8B778",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_smd_inductor",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51BA7AC8395B2D",
+        "4B5AC50CDB402ACF"
+      ],
+      "icon": "hk3gtl:honkai_lattice_smd_capacitor",
+      "x": 40,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B58881040887ECE",
+      "title": "Matriz de função de patch de rede",
+      "subtitle": "Cinco dispositivos se reúnem aqui",
+      "description": "[
+        \"Combine os componentes do chip e interconecte os materiais para formar um conjunto funcional completo. Reserve a saída para embalagens de CPU e processadores, respectivamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E066D71DBC891",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_smd_array",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B528827A6872511",
+        "4B5236864A63B3EF"
+      ],
+      "icon": "hk3gtl:honkai_lattice_smd_array",
+      "x": 40,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B59C85646A9AEBA",
+      "title": "CPU Honkai Malha",
+      "subtitle": "Encapsulando o primeiro lote de núcleos de computação",
+      "description": "[
+        \"Coloque a matriz lógica, RAM, circuitos impressos e matriz funcional no pacote. As primeiras CPUs serão usadas para o processador e componentes de detecção e controle de campo.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B55F65D52B8048B",
+          "type": "item",
+          "item": "hk3gtl:honkai_lattice_cpu",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B567BC85BF18577",
+        "4B5EBF42101A9DA3",
+        "4B58881040887ECE"
+      ],
+      "icon": "hk3gtl:honkai_lattice_cpu",
+      "x": 40,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B509E6CD485D385",
+      "title": "Processador de treliça HBV Soulsteel",
+      "subtitle": "Deixe todo o processo eletrônico entregar produtos acabados",
+      "description": "[
+        \"Conecte a CPU e os componentes eletrônicos necessários à linha de montagem do hiperespaço para completar o primeiro lote de processadores HBV. Ele será usado para componentes funcionais e nanocontrole.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B55BA05F9175C13",
+          "type": "item",
+          "item": "hk3gtl:hbv_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B59C85646A9AEBA"
+      ],
+      "icon": "hk3gtl:hbv_processor",
+      "x": 44,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B573A95D544C130",
+      "title": "Motor elétrico HBV",
+      "subtitle": "Preparando a unidade rotativa",
+      "description": "[
+        “Use o motor MAX e este material para montar o motor HBV. Ele continuará sendo necessário para pistões, bombas, correias transportadoras e braços robóticos.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E5AB589E6C664",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B509E6CD485D385"
+      ],
+      "icon": "hk3gtl:electric_motor_hbv",
+      "x": 48,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B575FC13126BDAC",
+      "title": "Pistão elétrico HBV",
+      "subtitle": "Conclua o acionamento linear",
+      "description": "[
+        “Usando motor HBV e pistão MAX para completar o pistão de novo nível e, em seguida, fornecer o conjunto do braço robótico.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5DA22832809328",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B573A95D544C130"
+      ],
+      "icon": "hk3gtl:electric_piston_hbv",
+      "x": 52,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5EA6C72230F5C0",
+      "title": "Bomba elétrica HBV",
+      "subtitle": "Fornecer peças sobressalentes para linhas de fluido subsequentes",
+      "description": "[
+        “Mantenha o precursor completo da bomba MAX e depois instale o material soul steel e o driver HBV. A dosagem de cada instalação é organizada de acordo com sua própria fórmula.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5065E6FED8707F",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B573A95D544C130"
+      ],
+      "icon": "hk3gtl:electric_pump_hbv",
+      "x": 52,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B5251F90D05E9D9",
+      "title": "Correia transportadora HBV",
+      "subtitle": "O transporte de materiais também aumentou.",
+      "description": "[
+        \"Carregue a correia transportadora HBV e armazene o equipamento subsequente de manuseio e montagem.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5EECD4C2DCCFAA",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B573A95D544C130"
+      ],
+      "icon": "hk3gtl:conveyor_module_hbv",
+      "x": 52,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B572F33396E5162",
+      "title": "Braço robótico HBV",
+      "subtitle": "Motor e pistão se encontram aqui",
+      "description": "[
+        \"Instale o motor HBV, o pistão, o processador e o braço robótico MAX em um braço robótico de novo nível, mantendo totalmente o custo dos componentes do estágio anterior.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B551C59531A906B",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B575FC13126BDAC"
+      ],
+      "icon": "hk3gtl:robot_arm_hbv",
+      "x": 56,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5FC1D9D41AB082",
+      "title": "Sensor HBV",
+      "subtitle": "Prepare as peças de medição",
+      "description": "[
+        \"Para fabricar o sensor HBV, as vedações de CPU, RAM e alma de aço necessárias são fornecidas pela oficina de eletrônicos e materiais da frente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5A7EBBB886D80A",
+          "type": "item",
+          "item": "hk3gtl:sensor_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B509E6CD485D385"
+      ],
+      "icon": "hk3gtl:sensor_hbv",
+      "x": 52,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B599F8F4E3CFEBF",
+      "title": "Transmissor HBV",
+      "subtitle": "Peças sobressalentes para saída de sinal",
+      "description": "[
+        \"Para fazer o transmissor HBV, a matriz lógica e a CPU assumem novas tarefas de processamento de sinal nesta montagem.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5EEAAB023CCB00",
+          "type": "item",
+          "item": "hk3gtl:emitter_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B509E6CD485D385"
+      ],
+      "icon": "hk3gtl:emitter_hbv",
+      "x": 56,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B54033589D40821",
+      "title": "Gerador de campo de força HBV",
+      "subtitle": "O último dos oito elementos funcionais",
+      "description": "[
+        “Complete o gerador de campo de força HBV. As oito partes principais podem ser produzidas separadamente de acordo com seus usos, e os precursores necessários são determinados por suas respectivas receitas.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B508092DDEE1232",
+          "type": "item",
+          "item": "hk3gtl:field_generator_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B509E6CD485D385"
+      ],
+      "icon": "hk3gtl:field_generator_hbv",
+      "x": 60,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5EB6B145EC9D9F",
+      "title": "Injetor de rede de impacto Honkai",
+      "subtitle": "Criar provisionamento para conta de HW sem fio",
+      "description": "[
+        \"Construa o injetor e vincule o runner. Depois de liquidado com sucesso, o HW será creditado na conta do jogador vinculado; o nanodispositivo também deve ser verificado no mesmo fichário.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B57478D23DFB77B",
+          "type": "item",
+          "item": "hk3gtl:honkai_network_injector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960"
+      ],
+      "icon": "hk3gtl:honkai_network_injector",
+      "x": 0,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5B96450FAE8C9D",
+      "title": "A primeira injeção HW de solução estabilizadora",
+      "subtitle": "64.000 HW por lote",
+      "description": "[
+        \"Primeiro complete uma injeção com fluido estabilizador e adicione 64.000 HW à conta do aglutinante para cada lote. Este processo MAX pode ser executado repetidamente para o início do primeiro lote de nanoprocessos.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B568C4704A81FDC",
+          "type": "custom",
+          "title": "Conclusão real da primeira injeção independente de HW da solução estabilizadora",
+          "tags": [
+            "hk3gtl_quest_hcv_bootstrap_hw"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5EB6B145EC9D9F"
+      ],
+      "icon": "hk3gtl:hot_honkai_coolant_bucket",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5FB26B051075D8",
+      "title": "Torre de regeneração de mídia estável",
+      "subtitle": "Pegue a mídia usada na seção anterior",
+      "description": "[
+        “Faça um controlador de torre de regeneração e assuma o meio usado. Após a conclusão do experimento básico de regeneração, vá ao instituto de pesquisa para confirmar o processo.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D294F63D71626",
+          "type": "item",
+          "item": "hk3gtl:stabilization_medium_regeneration_tower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960"
+      ],
+      "icon": "hk3gtl:stabilization_medium_regeneration_tower",
+      "x": 0,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5A130DF185C499",
+      "title": "Regeneração de mídia estável",
+      "subtitle": "Conclua primeiro um lote de reciclagem real",
+      "description": "[
+        “Use a torre de regeneração para concluir a recuperação básica e depois vá ao instituto de pesquisa para concluir o projeto. A mídia nova continua sendo fornecida para a primeira produção, e a linha de recuperação assume gradativamente a responsabilidade pelo tratamento da mídia pós-uso.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B529FC372589B36",
+          "type": "custom",
+          "title": "Regeneração de mídia estável concluída",
+          "tags": [
+            "hk3gtl_quest_rn_smr"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5FB26B051075D8"
+      ],
+      "icon": "hk3gtl:separation_filter",
+      "x": 4,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B524E58042A5458",
+      "title": "matriz de combustível porosa",
+      "subtitle": "Prepare o transportador para combustível líquido",
+      "description": "[
+        \"Fabricar a matriz de combustível e fornecê-la à planta de mistura junto com estabilizadores, cristais e amostras padrão.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5183DB5085A5AA",
+          "type": "item",
+          "item": "hk3gtl:fuel_matrix",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960"
+      ],
+      "icon": "hk3gtl:fuel_matrix",
+      "x": 4,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B59259088218EEE",
+      "title": "Planta de mistura de combustível Honkai",
+      "subtitle": "Receba o primeiro lote de combustível líquido",
+      "description": "[
+        “Construa o controlador da planta de mistura, conecte insumos como estabilizador e matriz e deixe saídas separadas para combustível, subprodutos e líquido residual.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5200E4C4872555",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_blending_plant",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960"
+      ],
+      "icon": "hk3gtl:honkai_fuel_blending_plant",
+      "x": 4,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B5DDDF726D08AE2",
+      "title": "Preparação de combustível Honkai",
+      "subtitle": "Obtenha o combustível primeiro e depois conclua o projeto",
+      "description": "[
+        \"O primeiro lote de combustível líquido é liquidado na planta de mistura e, em seguida, a tarefa de mistura de combustível é concluída no instituto de pesquisa. Os processos de barras de combustível e reatores são deixados no estágio de energia subsequente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58F21B0A280468",
+          "type": "custom",
+          "title": "Preparação de combustível Honkai concluída",
+          "tags": [
+            "hk3gtl_quest_rn_hfb"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B524E58042A5458",
+        "4B59259088218EEE"
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 8,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B52FA95AA4321A1",
+      "title": "Injeção contínua de HW de combustível líquido",
+      "subtitle": "240.000 HW por lote",
+      "description": "[
+        “Continuar a injetar o combustível líquido preparado e adicionar 240.000 HW à conta do ligante para cada lote. Após a estabilização do fornecimento, haverá uma fonte contínua de nanoequipamentos.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B50D86E3EDEA291",
+          "type": "custom",
+          "title": "Conclusão real da injeção contínua de HW de combustível líquido",
+          "tags": [
+            "hk3gtl_quest_hcv_continuous_hw"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5DDDF726D08AE2",
+        "4B5EB6B145EC9D9F"
+      ],
+      "icon": "hk3gtl:hot_honkai_coolant_bucket",
+      "x": 12,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B532B7ED17AFC40",
+      "title": "Modelo de microestrutura Soul Steel",
+      "subtitle": "Ferramentas para posicionamento de reação",
+      "description": "[
+        “Primeiro faça um modelo de microestrutura a partir de materiais existentes. Leia o líquido precursor quando ele for nucleado e, em seguida, leve-o para inspeção da microestrutura após a conclusão da produção.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B576822CCE647A3",
+          "type": "item",
+          "item": "hk3gtl:soulium_microstructure_template",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:soulium_microstructure_template",
+      "x": 12,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5E7D421070F130",
+      "title": "Solvente artesanal Soulsteel fresco",
+      "subtitle": "Primeiro conecte uma nova linha de material independente",
+      "description": "[
+        \"Crie novos solventes de processo para fornecer nucleação, dispersão e subsequente nanoprocessamento. Os solventes residuais são coletados separadamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5FE4AE081E28A0",
+          "type": "custom",
+          "title": "Conclusão real do Fresh Soulsteel Craft Solvent",
+          "tags": [
+            "hk3gtl_quest_hcv_solvent"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B554BD2F769695B"
+      ],
+      "icon": "hk3gtl:soulium_process_solvent_bucket",
+      "x": 16,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B508E8A7D8E0D07",
+      "title": "Pesquisa sobre o precursor do Soul Steel",
+      "subtitle": "Primeiro teste os cristais de sementes prontos",
+      "description": "[
+        “Já existem sementes de cristal para testes não destrutivos do arranjo espectral, e então a pesquisa estará concluída. A amostra do primeiro experimento vem da seção anterior, e a produção em massa do líquido precursor será aberta após a conclusão da pesquisa.
+      ]",
+      "tasks": [
+        {
+          "id": "4B564D8531EC52D1",
+          "type": "custom",
+          "title": "Concluída a pesquisa do precursor do aço da alma",
+          "tags": [
+            "hk3gtl_quest_rn_ssp"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5A130DF185C499"
+      ],
+      "icon": "hk3gtl:soulium_microstructure_template",
+      "x": 12,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B520A29F81D8F75",
+      "title": "Caldeirão de mistura do precursor Soulsteel",
+      "subtitle": "Disponibilizar equipamentos para nucleação e dispersão",
+      "description": "[
+        \"Fabrique o controlador da caldeira de mistura e conecte o invólucro HBV existente e os componentes MAX. Esta caldeira também precisa preparar partículas nucleadas, lama pré-dispersa e microesferas porosas.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B526E19F24C102C",
+          "type": "item",
+          "item": "hk3gtl:soulium_precursor_mixing_kettle",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B508E8A7D8E0D07"
+      ],
+      "icon": "hk3gtl:soulium_precursor_mixing_kettle",
+      "x": 16,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5C049EB14E8529",
+      "title": "Partículas Nucleadoras de Soul Steel",
+      "subtitle": "Os núcleos consumidos em cada lote",
+      "description": "[
+        \"As partículas nucleadas são primeiro preparadas de forma independente em uma caldeira de mistura. Elas entram na solução precursora e são consumidas com o lote, e o modelo de microestrutura permanece como uma ferramenta de posicionamento.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B50B429260ED126",
+          "type": "item",
+          "item": "hk3gtl:soulium_nucleation_granule",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B520A29F81D8F75",
+        "4B5E7D421070F130"
+      ],
+      "icon": "hk3gtl:soulium_nucleation_granule",
+      "x": 20,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B53F9D98D99C3DA",
+      "title": "Pasta pré-dispersa de nanocarbono",
+      "subtitle": "Primeiro disperse o material de carbono",
+      "description": "[
+        \"O solvente do processo é usado para completar a dispersão de umedecimento e cisalhamento e, em seguida, a pasta é devolvida ao processo de nucleação do líquido precursor.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5BD1C973EDE7DF",
+          "type": "custom",
+          "title": "Conclusão real da preparação de pasta pré-dispersa de nanocarbonos",
+          "tags": [
+            "hk3gtl_quest_hcv_slurry"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B520A29F81D8F75",
+        "4B5E7D421070F130"
+      ],
+      "icon": "hk3gtl:nanocarbon_predispersion_slurry_bucket",
+      "x": 20,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B56696487A9393E",
+      "title": "Microesferas de suporte de carga porosas de aço soul",
+      "subtitle": "Deixe um esqueleto para o material crescer",
+      "description": "[
+        \"Fabricar microesferas porosas de suporte de carga. Microesferas, partículas de nucleação e modelos realizam o trabalho de suporte de carga, nucleação e posicionamento, e são preparados separadamente de acordo com a fórmula.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5EF4CA1F90F3D2",
+          "type": "item",
+          "item": "hk3gtl:soulium_porous_carrier",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B520A29F81D8F75"
+      ],
+      "icon": "hk3gtl:soulium_porous_carrier",
+      "x": 20,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B57416F9F323919",
+      "title": "Coletor de distribuição de microcanais Soulsteel",
+      "subtitle": "Alimentando grupos de matrizes de montagem",
+      "description": "[
+        \"Fabricar um coletor de distribuição para fornecer matrizes de montagem de nanorrobôs subsequentes. Ele permite que cada conjunto de circuitos líquidos seja medido separadamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B66D52F4E20C1",
+          "type": "item",
+          "item": "hk3gtl:soulium_microchannel_manifold",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B508E8A7D8E0D07"
+      ],
+      "icon": "hk3gtl:soulium_microchannel_manifold",
+      "x": 16,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B58FB857BA8E864",
+      "title": "Precursor do Aço da Alma",
+      "subtitle": "Os primeiros produtos reais de nucleação",
+      "description": "[
+        “Conclua a produção do líquido precursor na caldeira de mistura e mantenha os registros reais de produção da equipe. Em seguida, o modelo será testado e a pesquisa sobre a síntese de nanounidades continuará.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5643EFD2343DF9",
+          "type": "custom",
+          "title": "Conclusão real da nucleação controlada do fluido precursor do aço alma",
+          "tags": [
+            "hk3gtl_quest_hcv_precursor"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B56696487A9393E",
+        "4B5C049EB14E8529",
+        "4B53F9D98D99C3DA",
+        "4B532B7ED17AFC40"
+      ],
+      "icon": "hk3gtl:soulium_precursor_fluid_bucket",
+      "x": 24,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5236D09B7CBB39",
+      "title": "Pesquisa sobre a síntese de nanounidades",
+      "subtitle": "Produza primeiro o líquido precursor e depois teste o modelo",
+      "description": "[
+        \"Após a conclusão da produção real do líquido precursor, o modelo é levado ao arranjo espectral para testes não destrutivos. O sintetizador de nanounidades será aberto somente após a conclusão da pesquisa.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B595E38111D2063",
+          "type": "custom",
+          "title": "Pesquisa completa de síntese de nanounidades",
+          "tags": [
+            "hk3gtl_quest_rn_nbs"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B58FB857BA8E864"
+      ],
+      "icon": "hk3gtl:nano_building_unit",
+      "x": 28,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5E2D8CAABE16C8",
+      "title": "Sintetizador nano-primitivo",
+      "subtitle": "Comece a fabricar precursores em nanoescala",
+      "description": "[
+        “Faça o controlador do sintetizador e conecte o fluido precursor e o solvente do processo. O suporte de deposição, o filme de isolamento e o fluido de passivação são todos fornecidos aqui.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B537E3280AB1D25",
+          "type": "item",
+          "item": "hk3gtl:nano_basic_unit_synthesizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5236D09B7CBB39"
+      ],
+      "icon": "hk3gtl:nano_basic_unit_synthesizer",
+      "x": 32,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5E8FA7554067BB",
+      "title": "Andaime de nanodeposição Soul Steel",
+      "subtitle": "Existe um andaime antes da síntese primitiva",
+      "description": "[
+        \"O modelo microestruturado é posteriormente processado em uma estrutura de deposição. A estrutura é consumida na síntese dos primitivos, e todo o precursor do modelo vai para o produto.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5ABCCB279EAE6B",
+          "type": "item",
+          "item": "hk3gtl:soulium_nano_deposition_scaffold",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5E2D8CAABE16C8"
+      ],
+      "icon": "hk3gtl:soulium_nano_deposition_scaffold",
+      "x": 32,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B54DBF3C3DE761D",
+      "title": "Unidade de construção Honkai Impact Nano",
+      "subtitle": "Cada lote requer outros 51.200 HW",
+      "description": "[
+        “Conclua a produção do primeiro lote de primitivos e o equipamento pagará continuamente 3.200 ticks a 16 HW/t. Deixe o injetor preparar HW para o mesmo ligante antes de iniciar este lote de processos.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B55363E0A8B9E23",
+          "type": "item",
+          "item": "hk3gtl:nano_building_unit",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5B96450FAE8C9D",
+        "4B5E8FA7554067BB"
+      ],
+      "icon": "hk3gtl:nano_building_unit",
+      "x": 36,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5A8D9F7E55D62B",
+      "title": "Soul Steel Nano Driver em branco",
+      "subtitle": "Prepare peças de acionamento para juntas de robôs",
+      "description": "[
+        “Continue a fabricar a peça bruta usando primitivos reais. O corpo principal e as juntas do robô de montagem posterior consomem, cada um, uma fonte de primitivos.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B588D68493B26A8",
+          "type": "item",
+          "item": "hk3gtl:soulium_nano_actuator_blank",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B54DBF3C3DE761D"
+      ],
+      "icon": "hk3gtl:soulium_nano_actuator_blank",
+      "x": 40,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B57CD3F28126769",
+      "title": "Filme de isolamento nano articular",
+      "subtitle": "O interior da junta e a interface do corpo são isolados separadamente.",
+      "description": "[
+        \"Fabricar filmes de isolamento de juntas, fornecer juntas de acionamento e montagem do corpo do robô, respectivamente. Os materiais de embalagem da casca ainda são investidos separadamente de acordo com a fórmula principal.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E9E0C5F1B3A6D",
+          "type": "item",
+          "item": "hk3gtl:nano_joint_isolation_membrane",
+          "count": 64,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5E2D8CAABE16C8"
+      ],
+      "icon": "hk3gtl:nano_joint_isolation_membrane",
+      "x": 32,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B587FE7B81DCDBB",
+      "title": "Solução fresca de passivação de nano superfície",
+      "subtitle": "O primeiro lote começa com precursor e solvente fresco",
+      "description": "[
+        \"Crie fluido de passivação novo no sintetizador para tratamento de superfície de juntas e robôs. Após o uso, o fluido de passivação é coletado centralmente e pode ser regenerado após danos.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B8CB24DFE9148",
+          "type": "custom",
+          "title": "Conclusão real do fluido de passivação de nano superfície fresco",
+          "tags": [
+            "hk3gtl_quest_hcv_passivation"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5E2D8CAABE16C8"
+      ],
+      "icon": "hk3gtl:nano_surface_passivation_liquid_bucket",
+      "x": 36,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B51F36779451456",
+      "title": "Pesquisa de montagem de nanorrobôs",
+      "subtitle": "Confirme se a primitiva pode ser iniciada e interrompida",
+      "description": "[
+        “Pegue um primitivo real para ser inspecionado pela matriz espectral e, em seguida, construa uma matriz de montagem de robôs após concluir a pesquisa. O primitivo inspecionado será retornado em sua quantidade original.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5DF414ECA936B1",
+          "type": "custom",
+          "title": "Pesquisa completa de montagem de nanorrobôs",
+          "tags": [
+            "hk3gtl_quest_rn_nra"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B54DBF3C3DE761D"
+      ],
+      "icon": "hk3gtl:unprogrammed_nanobot",
+      "x": 40,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5FB1B87CBA745B",
+      "title": "Matriz de montagem de nanorrobôs",
+      "subtitle": "Conecte linhas de fluido ao corpo e às articulações",
+      "description": "[
+        “Insira o coletor de distribuição no sistema de fornecimento de fluido exigido pelo controlador para completar a construção do conjunto. Construa primeiro a seção de acionamento e depois monte-a junto com a unidade principal no robô.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5672E6D0C7C164",
+          "type": "item",
+          "item": "hk3gtl:nanobot_assembly_array",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51F36779451456",
+        "4B57416F9F323919"
+      ],
+      "icon": "hk3gtl:nanobot_assembly_array",
+      "x": 44,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B511BED43A80249",
+      "title": "Festival NanoDrive da Soulsteel",
+      "subtitle": "Instale o módulo de acionamento na junta",
+      "description": "[
+        \"Use a unidade bruta, o filme de isolamento e o fluido de passivação para completar a seção da unidade. Um lote de primitivos e componentes de sinal da unidade também serão usados para a montagem subsequente da carroceria.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5237FF2AE4EE2A",
+          "type": "item",
+          "item": "hk3gtl:soulium_nano_actuator_joint",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5A8D9F7E55D62B",
+        "4B56D9767054FD7F",
+        "4B57CD3F28126769",
+        "4B5FB1B87CBA745B",
+        "4B587FE7B81DCDBB"
+      ],
+      "icon": "hk3gtl:soulium_nano_actuator_joint",
+      "x": 44,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5567DFAB854845",
+      "title": "Nanorrobôs não programados",
+      "subtitle": "Conclua a montagem do hardware primeiro",
+      "description": "[
+        “Montar o primeiro lote de robôs não programados e deixar um registro real de montagem da equipe. A detecção de início, execução e parada é então realizada separadamente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5A707D5E5AFDF4",
+          "type": "item",
+          "item": "hk3gtl:unprogrammed_nanobot",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B511BED43A80249"
+      ],
+      "icon": "hk3gtl:unprogrammed_nanobot",
+      "x": 48,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5DE0289470D651",
+      "title": "Pesquisa sobre programação nano auto-organizada",
+      "subtitle": "Verifique primeiro as instruções restritas",
+      "description": "[
+        \"Examine as respostas de inicialização, execução e parada de robôs não programados no Spectral Array antes de concluir o estudo, abra a câmara de programação e enxame controlado.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5303F2405038C3",
+          "type": "custom",
+          "title": "Pesquisa concluída sobre programação nano auto-organizada",
+          "tags": [
+            "hk3gtl_quest_rn_nsp"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5567DFAB854845"
+      ],
+      "icon": "hk3gtl:controlled_nano_swarm",
+      "x": 52,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B536B7DFF644D36",
+      "title": "Cabine de programação nano auto-organizável",
+      "subtitle": "Primeiro anote os limites de execução",
+      "description": "[
+        “Fabricação de um controlador de cabine de programação. As regras de controle de grupo são primeiro escritas no núcleo de forma independente e depois combinadas com robôs não programados para formar um grupo controlado.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B56C810C671C893",
+          "type": "item",
+          "item": "hk3gtl:nano_self_organizing_programming_chamber",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5DE0289470D651"
+      ],
+      "icon": "hk3gtl:nano_self_organizing_programming_chamber",
+      "x": 56,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B52036468877E9F",
+      "title": "Portador de regras de reconstrução",
+      "subtitle": "Salvar regras de execução restritas",
+      "description": "[
+        “Crie portadores de regras. Cada núcleo de controle de grupo consome dois portadores e prepare-os com antecedência para escrever regras.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B57079FA09CC060",
+          "type": "item",
+          "item": "hk3gtl:reconstruction_rule_carrier",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51F36779451456"
+      ],
+      "icon": "hk3gtl:reconstruction_rule_carrier",
+      "x": 48,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5E639C71578826",
+      "title": "Nó de sincronização de tempo Nanoswarm",
+      "subtitle": "Execução de partição e parada de leitura",
+      "description": "[
+        “Os nós de sincronização de tempo são fabricados na matriz de montagem e depois entregues à cabine de programação para escrever as regras. Os processadores e relógios necessários para o controle do grupo ainda são investidos separadamente de acordo com a receita mestre.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B59DD2CC6F295D5",
+          "type": "item",
+          "item": "hk3gtl:nano_swarm_timing_node",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5FB1B87CBA745B",
+        "4B509E6CD485D385"
+      ],
+      "icon": "hk3gtl:nano_swarm_timing_node",
+      "x": 52,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B546643501329CC",
+      "title": "Núcleo da regra de controle de grupo restrito",
+      "subtitle": "Escrever em um núcleo requer 28.800 HW",
+      "description": "[
+        “Com quatro nós de sincronização e dois portadores de regras gravados no núcleo, o equipamento funcionou a 16 HW/t por 1.800 ticks. Após a conclusão, ele foi enviado ao grupo controlado para montagem.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B57FEC96DC66643",
+          "type": "item",
+          "item": "hk3gtl:bounded_nano_control_core",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B536B7DFF644D36",
+        "4B52036468877E9F",
+        "4B5E639C71578826"
+      ],
+      "icon": "hk3gtl:bounded_nano_control_core",
+      "x": 56,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B5EBD0A1560BCD6",
+      "title": "Nanoenxames auto-organizados controlados",
+      "subtitle": "Esta máquina tem 115.200 HW por lote",
+      "description": "[
+        \"Deixe os robôs não programados e o núcleo de controle do grupo completarem este lote de processos e paguem 3.600 ticks adicionais a 32 HW/t. Todo o novo processo de HW do primeiro grupo totaliza 348.800 HW, e seis lotes de fluido estabilizador podem ser injetados para fornecer um fornecimento inicial de 384.000 HW.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5104F723EFE2D9",
+          "type": "item",
+          "item": "hk3gtl:controlled_nano_swarm",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B546643501329CC"
+      ],
+      "icon": "hk3gtl:controlled_nano_swarm",
+      "x": 60,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B555AB7503AC71A",
+      "title": "Pesquisa sobre revestimento resistente ao colapso",
+      "subtitle": "O mesmo grupo controlado é então testado",
+      "description": "[
+        \"Enxames reais controlados por produção são enviados ao Spectral Array para completar a detecção e pesquisa de interfaces resistentes. O mesmo enxame pode então ser usado como uma ferramenta na colocação de interfaces compostas de cerâmica.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58FDD070DB9004",
+          "type": "custom",
+          "title": "Pesquisa concluída sobre revestimento resistente ao colapso",
+          "tags": [
+            "hk3gtl_quest_rn_hrc"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5EBD0A1560BCD6"
+      ],
+      "icon": "hk3gtl:coated_nano_swarm",
+      "x": 60,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B564120901446E2",
+      "title": "Pó de pré-mistura cerâmica multifásica",
+      "subtitle": "Misture o pó primeiro, depois reaja e sintetize",
+      "description": "[
+        \"Seis tipos de pós são pré-misturados de acordo com a fórmula e depois enviados para a máquina de síntese supercrítica. A sinterização cerâmica é realizada antes da composição da resina.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B564ABFEE9E68CD",
+          "type": "item",
+          "item": "hk3gtl:constraint_ceramic_powder_blend",
+          "count": 64,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B555AB7503AC71A"
+      ],
+      "icon": "hk3gtl:constraint_ceramic_powder_blend",
+      "x": 60,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B523989720A35A7",
+      "title": "Colapso de nanocerâmicas funcionais",
+      "subtitle": "Concluído na embalagem original da máquina de síntese supercrítica",
+      "description": "[
+        “Deixe o pó pré-misturado, as partículas originais e outros insumos completarem a síntese da reação para obter a nanocerâmica nesta seção.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B553BE51BD696FB",
+          "type": "item",
+          "item": "hk3gtl:nano_ceramic",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B564120901446E2"
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 56,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B54CE87B24796F7",
+      "title": "Suspensão de fundição cerâmica",
+      "subtitle": "Dispersar pó cerâmico em líquido transportador",
+      "description": "[
+        \"O umedecimento e a dispersão por cisalhamento são concluídos no tanque de mistura do precursor para obter uma suspensão fundida. A impregnação subsequente irá capturar o líquido transportador volátil.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B52CCA0DB3BCB62",
+          "type": "custom",
+          "title": "Conclusão prática da suspensão de fundição cerâmica",
+          "tags": [
+            "hk3gtl_quest_hcv_suspension"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B523989720A35A7"
+      ],
+      "icon": "hk3gtl:constraint_ceramic_suspension_bucket",
+      "x": 52,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B534868CCA8F70A",
+      "title": "Folha de fibra reforçada com interface cerâmica",
+      "subtitle": "Primeiro, complete a fita de cobertura reforçada",
+      "description": "[
+        “Use um primer para fixar a zircônia e o carboneto de silício na superfície da placa de fibra de carbono e, em seguida, entregue-o à matriz Soul Steel para revestimento e impregnação.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B532B07280530A1",
+          "type": "item",
+          "item": "hk3gtl:ceramic_interface_reinforced_fiber_sheet",
+          "count": 128,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B555AB7503AC71A"
+      ],
+      "icon": "hk3gtl:ceramic_interface_reinforced_fiber_sheet",
+      "x": 56,
+      "y": 44,
+      "optional": false
+    },
+    {
+      "id": "4B534EFD6935EDAE",
+      "title": "Fluido de vedação nano de carboneto de zircônio",
+      "subtitle": "Preencha as costuras entre os painéis",
+      "description": "[
+        “O fluido de vedação é fabricado no nanossintetizador para colocar a camada de interface resistente à corrosão. A folha, o PBI e os nanogrupos de posicionamento ainda são preparados separadamente de acordo com a fórmula principal.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B509679D0824BAA",
+          "type": "custom",
+          "title": "Conclusão real do fluido de vedação de nanoporos de carboneto de zircônio",
+          "tags": [
+            "hk3gtl_quest_hcv_sealing_liquid"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5E2D8CAABE16C8"
+      ],
+      "icon": "hk3gtl:zirconium_carbide_nano_sealing_liquid_bucket",
+      "x": 50,
+      "y": 44,
+      "optional": false
+    },
+    {
+      "id": "4B536F99680175C9",
+      "title": "Fita cerâmica de matriz de aço soul",
+      "subtitle": "Comece a impregnação com um molde de chuveiro pronto",
+      "description": "[
+        \"Deixe a fita padrão de aço alma e a fita de cobertura reforçada entrarem na suspensão para completar a primeira camada do compósito. Após o uso, o líquido transportador cerâmico é conectado a uma saída independente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5FDFC009EA185F",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B534868CCA8F70A",
+        "4B54CE87B24796F7"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_stage_1",
+      "x": 48,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B518B670B74B672",
+      "title": "Camada de interface em branco resistente à corrosão",
+      "subtitle": "Nanoswarms controlados são responsáveis ​​pelo posicionamento",
+      "description": "[
+        \"A placa protetora e a folha funcional são colocadas em sequência, e o PBI e o fluido de vedação são usados ​​para solidificação em baixa temperatura. O nanogrupo controlado é retido como uma ferramenta.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D573CD0C22DF2",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B536F99680175C9",
+        "4B534EFD6935EDAE"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_stage_2",
+      "x": 44,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B536AD0311B2E36",
+      "title": "Malha de ancoragem de nanotubos de carbono",
+      "subtitle": "Prepare o esqueleto para conexões entre camadas",
+      "description": "[
+        “A película anti-rachadura e o esqueleto perfurado são transformados em uma malha de ancoragem, que depois é enviada para o processo de laminação gradiente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C25079990CC0A",
+          "type": "item",
+          "item": "hk3gtl:carbon_nanotube_anchoring_mesh",
+          "count": 128,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B555AB7503AC71A"
+      ],
+      "icon": "hk3gtl:carbon_nanotube_anchoring_mesh",
+      "x": 44,
+      "y": 44,
+      "optional": false
+    },
+    {
+      "id": "4B59BADC4D297415",
+      "title": "Camada de estresse gradiente em branco",
+      "subtitle": "Camadas laminadas de suporte de pressão e isolantes juntas",
+      "description": "[
+        \"A placa da camada de interface, a folha de aço alma, a folha de isolamento e a malha de ancoragem são laminadas e, em seguida, a vedação da superfície em baixa temperatura é realizada.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B59AFEA071A0BFB",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B536AD0311B2E36",
+        "4B518B670B74B672"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_stage_3",
+      "x": 40,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B5564743590D90C",
+      "title": "Branco padrão composto de gradiente restrito",
+      "subtitle": "Solidificação em baixa temperatura, mantendo a camada interna de resina",
+      "description": "[
+        \"Conclua a infiltração em baixa temperatura e a vedação da superfície e obtenha espaços em branco padrão qualificados. Placa, haste, anel e estrutura subsequente são separados daqui.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58200B6F8BF391",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B59BADC4D297415"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_billet",
+      "x": 36,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B583A42E98955E9",
+      "title": "Painéis compostos resistentes à corrosão e resistentes à pressão",
+      "subtitle": "Deixe isso para a montagem do chassi primeiro",
+      "description": "[
+        \"Usando peças brutas padrão e superfícies protetoras que suportam pressão para processar painéis compostos. Cada revestimento de HCV requer dezesseis peças, e a produção para outros usos será organizada separadamente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5A72C46D534697",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5564743590D90C"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_plate",
+      "x": 32,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B5E93BCCA4B1697",
+      "title": "Haste de rolamento revestida de cerâmica",
+      "subtitle": "Núcleo de metal contínuo carrega a carga",
+      "description": "[
+        \"Um revestimento composto de cerâmica é formado fora da parte metálica de suporte de carga. A estrutura e o anel de vedação continuam a ser desviados da haste.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5AB18D2DC142CD",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5564743590D90C"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_rod",
+      "x": 32,
+      "y": 44,
+      "optional": false
+    },
+    {
+      "id": "4B5476B570DC3DC6",
+      "title": "Componentes da estrutura espacial resistentes à corrosão",
+      "subtitle": "Configure o quadro primeiro",
+      "description": "[
+        \"Use hastes revestidas e a estrutura original e peças de conexão para montar uma estrutura espacial resistente à corrosão. Cada revestimento do HCV requer duas peças.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B52AB70295FB8D3",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5E93BCCA4B1697"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_frame",
+      "x": 28,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B51A997EC760B5C",
+      "title": "Anel composto de vedação de baixa tensão",
+      "subtitle": "Anel central de metal coberto com camada funcional",
+      "description": "[
+        \"Fazendo um anel compósito de vedação para montagem de revestimento de HCV. A fase cerâmica permanece no revestimento e o núcleo metálico contínuo assume a flexão.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B598887D52AA7A1",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5E93BCCA4B1697"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_ring",
+      "x": 28,
+      "y": 44,
+      "optional": false
+    },
+    {
+      "id": "4B533F8487401E97",
+      "title": "Camada fina composta HCV e fio fino",
+      "subtitle": "Deixe materiais para eletrônica e montagem subsequentes",
+      "description": "[
+        \"A camada fina composta flexível e o fio fino revestido são fabricados separadamente. Eles fornecem processos subsequentes, e o primeiro revestimento nesta seção é concluído ao longo das rotas da placa, estrutura e anel de vedação.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E5CE44B01E41C",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_foil",
+          "count": 16,
+          "consume_items": false
+        },
+        {
+          "id": "4B5F0DA77B9951FD",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B583A42E98955E9",
+        "4B5E93BCCA4B1697"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_foil",
+      "x": 24,
+      "y": 48,
+      "optional": false
+    },
+    {
+      "id": "4B517B796028B0E3",
+      "title": "Bloco mecânico da prensa de contenção HCV",
+      "subtitle": "Uma nova estrutura de suporte de pressão é instalada na carcaça do HBV",
+      "description": "[
+        \"Deixe os painéis compostos, molduras e anéis de vedação se encontrarem na fábrica de montagem para completar o primeiro bloco mecânico HCV. O primeiro processo de fabricação utiliza eletricidade HBV.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B50B0700C21DDF3",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5476B570DC3DC6",
+        "4B583A42E98955E9",
+        "4B51A997EC760B5C"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hcv",
+      "x": 24,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B53701A7D232201",
+      "title": "Regeneração com perdas de três meios de processo",
+      "subtitle": "600 mB de mídia válida para cada 1.000 mB de mídia residual",
+      "description": "[
+        \"Conecte a regeneração da solução de gravação de resíduos, meio de crescimento de resíduos e solvente de aço de alma residual, respectivamente. O fornecimento de produtos frescos continua a compensar as perdas e todos os líquidos residuais finais têm saídas independentes.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B57BAD1C5F22537",
+          "type": "custom",
+          "title": "Conclusão real da regeneração de danos líquidos de gravação de energia de resíduos Honkai",
+          "tags": [
+            "hk3gtl_quest_hcv_media_recovery",
+            "hk3gtl_quest_hcv_media_recovery_task_1"
+          ]
+        },
+        {
+          "id": "4B5331661EC551E5",
+          "type": "custom",
+          "title": "Conclusão real da regeneração com perdas do meio de crescimento do circuito de resíduos",
+          "tags": [
+            "hk3gtl_quest_hcv_media_recovery",
+            "hk3gtl_quest_hcv_media_recovery_task_2"
+          ]
+        },
+        {
+          "id": "4B5E1A706AF41A6A",
+          "type": "custom",
+          "title": "Conclusão real da regeneração danificada por solvente do processo de aço de alma residual",
+          "tags": [
+            "hk3gtl_quest_hcv_media_recovery",
+            "hk3gtl_quest_hcv_media_recovery_task_3"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5A130DF185C499"
+      ],
+      "icon": "hk3gtl:honkai_circuit_etchant_bucket",
+      "x": 0,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B58B599C65FBE9A",
+      "title": "Tratamento de nano rejeitos e resíduos de refino",
+      "subtitle": "Os quatro materiais recebidos entram no centro de separação respectivamente.",
+      "description": "[
+        “Processe o líquido da cauda da reação, a unidade de desativação, as sobras de montagem e o líquido residual do refino de combustível e recupere uma pequena quantidade de meio ou metal. Primeiro economize o suficiente para o lote correspondente e, em seguida, inicie cada máquina separadamente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B56FE42193BB865",
+          "type": "custom",
+          "title": "Conclusão real da separação do líquido da cauda da nano-reação",
+          "tags": [
+            "hk3gtl_quest_hcv_nano_recovery",
+            "hk3gtl_quest_hcv_nano_recovery_task_1"
+          ]
+        },
+        {
+          "id": "4B5E3E4E7B767798",
+          "type": "item",
+          "item": "gtceu:gold_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "4B55E9359A1B1804",
+          "type": "item",
+          "item": "gtceu:soldering_alloy_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "4B58E4F6F3198858",
+          "type": "custom",
+          "title": "Conclusão real da purificação de resíduos de refino de combustível",
+          "tags": [
+            "hk3gtl_quest_hcv_nano_recovery",
+            "hk3gtl_quest_hcv_nano_recovery_task_4"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5042942BCE6960"
+      ],
+      "icon": "hk3gtl:honkai_separation_medium_bucket",
+      "x": 4,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B51D85C822B1086",
+      "title": "Recuperação de nucleação de cristal de resíduo de polimerização",
+      "subtitle": "Recuperar um pequeno número de núcleos de cristal do resíduo real",
+      "description": "[
+        \"O resíduo de polimerização deixado na produção do líquido precursor é classificado e processado, uma pequena quantidade de partículas de nucleação é recuperada e o suprimento de nucleação original é reabastecido.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B52C0A9AC58DDB7",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hcv_nucleation_recovery"
+          ],
+          "item": "hk3gtl:soulium_nucleation_granule",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B508E8A7D8E0D07",
+        "4B5E7D421070F130"
+      ],
+      "icon": "hk3gtl:soulium_nucleation_granule",
+      "x": 0,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B50BDDBFC2DC169",
+      "title": "Fluido de passivação prejudica a regeneração",
+      "subtitle": "8.000 mB de líquido residual são retornados para 6.000 mB de líquido de passivação",
+      "description": "[
+        \"Descarte a solução de passivação usada e adicione os componentes ativos e solventes necessários. A solução de passivação nova ainda é uma fonte independente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B508F9C7E4F86CE",
+          "type": "custom",
+          "title": "Conclusão real da regeneração de danos líquidos de passivação de nano-superfície",
+          "tags": [
+            "hk3gtl_quest_hcv_passivation_recovery"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B51F36779451456"
+      ],
+      "icon": "hk3gtl:nano_surface_passivation_liquid_bucket",
+      "x": 4,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B56C24CD5AFC07B",
+      "title": "Purificação de líquido transportador de interface e re-preparação de primer",
+      "subtitle": "O líquido transportador é reutilizado e o material formador de filme é reabastecido normalmente.",
+      "description": "[
+        “Reutilize o fluido transportador capturado e reabasteça o silício, enchimento de háfnio, PVB e fluido estabilizador e, em seguida, prepare um primer. Os materiais que sobraram no produto acabado continuam a ser consumidos de acordo com a quantidade.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5527043D0FD2C5",
+          "type": "custom",
+          "title": "Conclusão real da purificação do líquido transportador de interface de resíduos e re-preparação do primer",
+          "tags": [
+            "hk3gtl_quest_hcv_primer_recovery"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5A130DF185C499"
+      ],
+      "icon": "hk3gtl:honkai_interface_priming_liquid_bucket",
+      "x": 8,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5F1FF3D6A563DE",
+      "title": "Classificação de resíduos compostos e reciclagem de reposição",
+      "subtitle": "Os componentes reciclados são combinados com peças novas para uso continuado.",
+      "description": "[
+        \"Os resíduos classificados são primeiro divididos em componentes reciclados e rejeitos finais e, em seguida, 14 blanks frescos e materiais auxiliares são usados para formar 16 blanks padrão. O primeiro lote de blanks padrão é fornecido por uma linha principal independente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B549E11798DAD1C",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hcv_composite_recovery",
+            "hk3gtl_quest_hcv_composite_recovery_task_1"
+          ],
+          "item": "hk3gtl:constraint_gradient_composite_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        },
+        {
+          "id": "4B564C6A7C1A2E84",
+          "type": "item",
+          "item": "hk3gtl:constraint_gradient_composite_billet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5564743590D90C"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_recovered_fraction",
+      "x": 8,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5FFEE440C35A2B",
+      "title": "Recuperação de fracionamento líquido transportador cerâmico",
+      "subtitle": "Recuperar 75% do volume do fluido transportador",
+      "description": "[
+        “O líquido transportador cerâmico utilizado é fracionado, o etanol e a acetona são recuperados, e o líquido transportador restante entra nos rejeitos junto com o resíduo de adsorção.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CAE4CCE95B430",
+          "type": "custom",
+          "title": "Conclusão real da recuperação do fracionamento líquido transportador cerâmico",
+          "tags": [
+            "hk3gtl_quest_hcv_vehicle_recovery"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B555AB7503AC71A"
+      ],
+      "icon": "gtceu:ethanol_bucket",
+      "x": 12,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5CE1843D3943FE",
+      "title": "Revisão e desmontagem de habitações de HCV",
+      "subtitle": "A caixa antiga e alguns componentes foram devolvidos separadamente",
+      "description": "[
+        \"Durante a manutenção, um invólucro do HCV foi removido e o invólucro do HBV e alguns componentes compostos foram devolvidos. Fluido de tratamento, fixadores e materiais de envasamento ainda são consumidos.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E40CB83CD0988",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hcv_casing_service"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_hbv",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B517B796028B0E3"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hbv",
+      "x": 12,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B51E1D0ABAA56F7",
+      "title": "Desintegração histórica do lote de rejeição",
+      "subtitle": "O que fazer com estoque antigo",
+      "description": "[
+        “Os lotes rejeitados no estoque podem ser classificados e processados ​​aqui. O primeiro lote de blanks padrão qualificados é produzido de acordo com o processo passo a passo anterior.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B7D11371B22DC",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hcv_legacy_reject"
+          ],
+          "item": "hk3gtl:constraint_gradient_composite_classified_scrap",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B555AB7503AC71A"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_classified_scrap",
+      "x": 16,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B52B7A57DA236D3",
+      "title": "Laminação HCV e integração de vedação de superfície",
+      "subtitle": "A rota de aceleração após a conclusão do centro de usinagem de precisão",
+      "description": "[
+        \"Depois de concluir a pesquisa de usinagem de precisão do aço alma e construir o centro de usinagem de precisão do aço alma, a laminação e a vedação de furos podem ser combinadas. Todo o investimento nos dois processos originais será mantido e o tempo básico será reduzido de 310 segundos para 75 segundos.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B579E1281D8D544",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hcv_continuous"
+          ],
+          "item": "hk3gtl:constraint_gradient_composite_billet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5C16BE079A2488"
+      ],
+      "icon": "hk3gtl:constraint_gradient_composite_billet",
+      "x": 20,
+      "y": 48,
+      "optional": true
+    },
+    {
+      "id": "4B5C16BE079A2488",
+      "title": "Condições subsequentes de processamento de precisão",
+      "subtitle": "RN-SPM e Soul Steel Precision Machining Center são processos de acompanhamento",
+      "description": "[
+        \"Depois que o revestimento do HCV for obtido, os equipamentos subsequentes do Soul Steel Precision Machining Research e do Soul Steel Precision Machining Center estarão prontos e, em seguida, a rota de processamento contínuo será usada. A pesquisa relevante e a cadeia completa de fabricação do controlador serão colocadas na seção subsequente.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B51579F5CB7198B",
+          "type": "custom",
+          "title": "Concluída pesquisa de processamento de precisão de aço alma",
+          "tags": [
+            "hk3gtl_quest_hcv_precision_prerequisite"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B517B796028B0E3"
+      ],
+      "icon": "hk3gtl:soulium_data_substrate",
+      "x": 20,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B579412BD231A64",
+      "title": "O primeiro lote de invólucros de imprensa contidos",
+      "subtitle": "A próxima oficina pode começar a trabalhar",
+      "description": "[
+        \"O primeiro invólucro da prensa de restrição foi instalado. Os processos eletrônicos, nano e cerâmicos anteriores também possuem suprimentos próprios que podem continuar a ser produzidos.\",
+        “Organize as exportações e o estoque da fábrica e, em seguida, passe a partir desses objetos físicos na próxima seção.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E9FDF147CFCF0",
+          "type": "checkmark",
+          "title": "Leia a conclusão deste parágrafo",
+          "tags": [
+            "hk3gtl_quest_hcv_foundation"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B517B796028B0E3"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hcv",
+      "x": 20,
+      "y": 40,
+      "optional": false
+    }
+  ]
+}

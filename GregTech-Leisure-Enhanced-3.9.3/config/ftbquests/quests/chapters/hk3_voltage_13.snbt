@@ -1,0 +1,1649 @@
+{
+  "filename": "hk3_voltage_13",
+  "id": "4B5878BF7B7C20E6",
+  "title": "Pressão limite da estrutura WFV",
+  "subtitle": [
+    "Tier27-WFV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 28,
+  "icon": "hk3gtl:voltage_machine_casing_wfv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B5A173AE878AE95",
+      "title": "Operação Protótipo Mundial de Sustentabilidade",
+      "subtitle": "Faça amostras de engenharia e mantenha registros de manutenção verdadeiros",
+      "description": "[
+        “Invista os componentes da âncora, o nanoswarm controlado e a placa de aço da alma na plataforma de teste de manutenção mundial e conclua a operação do protótipo. Obtenha a amostra do projeto de manutenção mundial e o recibo de manutenção real, continue a pesquisa sobre materiais maravilhosos da civilização e prepare-se para o segundo teste.
+      ]",
+      "dependencies": [
+        "4B58A95952974374"
+      ],
+      "tasks": [
+        {
+          "id": "4B54C2D13D82DA40",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_world_maintenance"
+          ],
+          "item": "hk3gtl:world_maintenance_specimen",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:world_maintenance_specimen",
+      "x": 30,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B52CD74565E718E",
+      "title": "Pré-fabricação de componentes maravilhosos",
+      "subtitle": "Montagem de quatro tipos de materiais compósitos em componentes pré-fabricados universais",
+      "description": "[
+        “Envie os quatro materiais compósitos de orientação energética, restrição, reconstrução e cognição para o equipamento pré-fabricado e encaixe-os no invólucro IRV. Colete os componentes pré-fabricados, sobras de materiais e refrigerante quente, salve o registro pré-fabricado real e continue a pesquisa sobre o método de aceitação do projeto.
+      ]",
+      "dependencies": [
+        "4B5750C272E75E18",
+        "4B5FC4B53A78C492",
+        "4B5266CE4AF9372D",
+        "4B563C2684E9ADDF"
+      ],
+      "tasks": [
+        {
+          "id": "4B596DD146B3BBAB",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_prefabrication"
+          ],
+          "item": "hk3gtl:wonder_prefabricated_component",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:wonder_prefabricated_component",
+      "x": 50,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5750C272E75E18",
+      "title": "Materiais compósitos condutores de energia de alta dimensão",
+      "subtitle": "Conecte a amostra de sustentação ao ramal condutor de energia",
+      "description": "[
+        \"Depois de concluir a pesquisa sobre a aplicação de materiais maravilhosos da civilização e núcleos de minas, o substrato de dados, a amostra de manutenção e o revestimento IRV são investidos. Materiais eletromagnéticos polarizados e nós de transmissão de força são usados como peças de trabalho para fazer materiais compósitos condutores de energia, e materiais restantes e meios de manutenção pós-uso são coletados.\"
+      ]",
+      "dependencies": [
+        "4B5BD6FAD33255FB",
+        "4B5D34D3CE84E89A"
+      ],
+      "tasks": [
+        {
+          "id": "4B57DAE19ED3A9DD",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_composite_conducting"
+          ],
+          "item": "hk3gtl:conducting_composite",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:conducting_composite",
+      "x": 34,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5FC4B53A78C492",
+      "title": "Materiais compósitos restritos de alta dimensão",
+      "subtitle": "Estabeleça linhas de derivação compostas independentes para fins de restrição",
+      "description": "[
+        \"Use o núcleo de restrição de imitação e o nó de transmissão de força como ferramentas para processar o substrato de dados, a amostra de manutenção e o revestimento IRV. Obtenha o material compósito de restrição, colete restos e meios de manutenção usados, respectivamente.\"
+      ]",
+      "dependencies": [
+        "4B5D34D3CE84E89A"
+      ],
+      "tasks": [
+        {
+          "id": "4B525D9D4BC63CF4",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_composite_confining"
+          ],
+          "item": "hk3gtl:confining_composite",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:confining_composite",
+      "x": 38,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5266CE4AF9372D",
+      "title": "Materiais compósitos de reconstrução de alta dimensão",
+      "subtitle": "Preparação de materiais compósitos especializados para fins de reconstrução",
+      "description": "[
+        \"Usando núcleos de processamento de imitação e nós de transmissão de força como ferramentas, o substrato de dados, as amostras de manutenção e o revestimento IRV são transformados em materiais compósitos reconstruídos. Salve o recibo real de produção de compósitos para continuar os projetos de pré-fabricação e acompanhamento.\"
+      ]",
+      "dependencies": [
+        "4B5DA6E64F338B10",
+        "4B5D34D3CE84E89A"
+      ],
+      "tasks": [
+        {
+          "id": "4B51AE64AB9066F1",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_composite_reconstructing"
+          ],
+          "item": "hk3gtl:reconstructing_composite",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:reconstructing_composite",
+      "x": 42,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5C61FAC45F68A8",
+      "title": "Compostos cognitivos de alta dimensão",
+      "subtitle": "Preparando materiais independentes para engenharia cognitiva",
+      "description": "[
+        \"Use núcleos de imitação de corrosão e nós de transmissão de força como ferramentas para preparar materiais compósitos cognitivos. Colete restos e mídia usada e prepare os quatro tipos de materiais compósitos antes de entrar na pré-fabricação geral.\"
+      ]",
+      "dependencies": [
+        "4B5B5795A0A0443D",
+        "4B5D34D3CE84E89A"
+      ],
+      "tasks": [
+        {
+          "id": "4B57CDAAA5272BB3",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_composite_cognitive"
+          ],
+          "item": "hk3gtl:cognitive_composite",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:cognitive_composite",
+      "x": 46,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B54648CE5DE4B8D",
+      "title": "Preparação do condutor para despacho de energia",
+      "subtitle": "Processar materiais compósitos condutores de energia em materiais eletromagnéticos polarizados",
+      "description": "[
+        \"Processar materiais compósitos condutores de energia, substratos de dados e fios finos de nióbio-titânio no equipamento de despacho de energia. O núcleo de imitação da mina e a pilha de interruptores retificadores são retidos como ferramentas para coletar materiais polarizados e refrigerante quente.\"
+      ]",
+      "dependencies": [
+        "4B5750C272E75E18",
+        "4B5CDCC7C5310141"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AD609E3354A91",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_dispatch_conductor"
+          ],
+          "item": "hk3gtl:polarized_electromagnetic_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:polarized_electromagnetic_material",
+      "x": 54,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B50F00E0E9881D7",
+      "title": "Continuação do workshop IWV",
+      "subtitle": "IWV → WFV",
+      "description": "[
+        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos WFV.\",
+        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
+      ]",
+      "dependencies": [
+        "4B50F2B1C6384AFB"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B59F15FF2C8B2",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_iwv",
+      "x": 0,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B591FF9F0BA958C",
+      "title": "Filme de isolamento dielétrico constante da civilização",
+      "subtitle": "Camada de isolamento em novas superfícies de trabalho",
+      "description": "[
+        \"Prepare um novo revestimento dielétrico no filme dielétrico da plataforma frontal e adicione material de fibra gradiente limite como material estrutural desta camada. Ele será usado nos substratos, wafers e componentes de interface subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B5E50CE2001967B"
+      ],
+      "tasks": [
+        {
+          "id": "4B505B0B3E8BBFE6",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_dielectric_film",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_dielectric_film",
+      "x": 30,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B528B3F652C9A4A",
+      "title": "Internet dirigida à sustentabilidade da civilização",
+      "subtitle": "Crie uma ramificação independente para o caminho de configuração",
+      "description": "[
+        “Retenha a unidade de conexão da rede de interconexão da plataforma frontal e use novos condutores para conectar o circuito ramificado desta plataforma. Envie-a para o substrato, matriz funcional e processo de empacotamento da CPU.”
+      ]",
+      "dependencies": [
+        "4B591FF9F0BA958C",
+        "4B583DDDF7D38C97"
+      ],
+      "tasks": [
+        {
+          "id": "4B539878BF28078F",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_interconnect_mesh",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_interconnect_mesh",
+      "x": 38,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5E704DD09737B9",
+      "title": "Substrato do Circuito de Sustentabilidade Civilizada",
+      "subtitle": "Base laminada com interface legada",
+      "description": "[
+        “O substrato da plataforma frontal é responsável pela base estrutural, e a placa impressa é responsável pela interface antiga. Eles são laminados juntamente com o filme dielétrico e a rede de interligação desta plataforma para obter o substrato necessário para o desenvolvimento posterior.”
+      ]",
+      "dependencies": [
+        "4B528B3F652C9A4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D63B6054F2176",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_circuit_substrate",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_circuit_substrate",
+      "x": 46,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B510BEB9E372C04",
+      "title": "Substrato de Circuito Impresso Constante da Civilização",
+      "subtitle": "Mostre as linhas na nova placa base",
+      "description": "[
+        \"O substrato laminado é enviado para o processo de lixiviação química para produzir um substrato de circuito impresso civilizado e sustentável. O líquido de gravação residual é enviado para o ramal de regeneração existente a partir de uma saída independente.\"
+      ]",
+      "dependencies": [
+        "4B5E704DD09737B9"
+      ],
+      "tasks": [
+        {
+          "id": "4B58A694CDAA04D9",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_printed_circuit_board",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_printed_circuit_board",
+      "x": 34,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B59601EAB9F4F32",
+      "title": "Wafer Epitaxial de Sustentabilidade da Civilização",
+      "subtitle": "Deixe a velha lógica morrer, leia o novo espaço de trabalho",
+      "description": "[
+        \"Usando a matriz lógica da topologia imaginária como parte de leitura, uma nova área de trabalho funcional é formada na superfície epitaxial. O wafer preparado é enviado para dois caminhos: exposição lógica e impressão de RAM.\"
+      ]",
+      "dependencies": [
+        "4B591FF9F0BA958C"
+      ],
+      "tasks": [
+        {
+          "id": "4B54F932645A182E",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_epitaxial_wafer",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_epitaxial_wafer",
+      "x": 42,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5B1D7C445D5D2E",
+      "title": "Wafer Lógico de Sustentabilidade da Civilização",
+      "subtitle": "Use máscaras para definir formas lógicas",
+      "description": "[
+        \"O wafer epitaxial é exposto com uma máscara de fotolitografia de circuito, e o wafer lógico é enviado para corte em cubos. A máscara permanece na ferramenta para lotes subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B59601EAB9F4F32"
+      ],
+      "tasks": [
+        {
+          "id": "4B518CE71B545CCE",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_logic_wafer",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_logic_wafer",
+      "x": 50,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B51F5B52E20A7A5",
+      "title": "Chip nu da lógica de sustentabilidade da civilização",
+      "subtitle": "Corte de wafers em moldes empacotáveis",
+      "description": "[
+        \"Corte o wafer lógico para obter a matriz lógica sustentável para a civilização. O calor gerado durante o corte destrói o refrigerante industrial e o conecta de volta à linha de condicionamento de refrigerante existente.\"
+      ]",
+      "dependencies": [
+        "4B5B1D7C445D5D2E"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AD0B0E3BB91C2",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_logic_die",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_logic_die",
+      "x": 30,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B554A2D53390BB3",
+      "title": "Wafer RAM de Sustentabilidade da Civilização",
+      "subtitle": "Preservar a matriz de armazenamento, refazer leituras e camada de isolamento",
+      "description": "[
+        “Lamine o wafer RAM de topologia imaginária com o wafer epitaxial contínuo da civilização. O conjunto de memória original continua a ser usado, e o novo wafer e filme dielétrico assumem a estrutura de leitura e isolamento desta plataforma.”
+      ]",
+      "dependencies": [
+        "4B59601EAB9F4F32"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DC145F9AB38BE",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_ram_wafer",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_ram_wafer",
+      "x": 54,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B515B42A5B15ED3",
+      "title": "Chip RAM de Sustentabilidade da Civilização",
+      "subtitle": "Forneça fatias separadas para CPU e armazenamento compartilhado",
+      "description": "[
+        \"Corte o wafer de RAM em wafers independentes, que são fornecidos respectivamente para embalagem da CPU e posterior montagem completa da máquina. Conecte a saída do fluido de exaustão de calor à estação de corte.\"
+      ]",
+      "dependencies": [
+        "4B554A2D53390BB3"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D978E968DE50A",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_ram_chip",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_ram_chip",
+      "x": 30,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5BB0371B42F85B",
+      "title": "Capacitor de chip constante da civilização",
+      "subtitle": "Armazenar cobrança para fornecimento de energia local",
+      "description": "[
+        \"A camada dielétrica e o material de conexão desta plataforma são adicionados ao capacitor frontal para formar um capacitor de chip civilizado e sustentável. Ele é então empacotado em uma matriz funcional junto com os outros quatro tipos de dispositivos.\"
+      ]",
+      "dependencies": [
+        "4B528B3F652C9A4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B57A37851E6A97C",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_smd_capacitor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_smd_capacitor",
+      "x": 54,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B50D9163D37EA1A",
+      "title": "Diodo SMD constante da civilização",
+      "subtitle": "Integre dispositivos condutores unidirecionais em novas plataformas",
+      "description": "[
+        \"Mantenha o desempenho elétrico do diodo frontal e instale-o com as camadas funcionais e materiais de conexão necessários para a plataforma de sustentabilidade da civilização. O produto final fornece uma matriz funcional de chip.\"
+      ]",
+      "dependencies": [
+        "4B528B3F652C9A4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B536A20FC93423B",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_smd_diode",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_smd_diode",
+      "x": 50,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B57E6802B71011C",
+      "title": "Resistor de chip constante da civilização",
+      "subtitle": "Fornece componentes resistivos para novos circuitos",
+      "description": "[
+        “Monte os resistores front-end junto com os principais materiais e camadas funcionais desta plataforma. Somente completando este lote de resistores o array funcional do chip poderá ter componentes completos de cinco categorias.”
+      ]",
+      "dependencies": [
+        "4B528B3F652C9A4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B410C33F95B92",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_smd_resistor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_smd_resistor",
+      "x": 46,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B53461957C95D2E",
+      "title": "Transistor SMD Constante da Civilização",
+      "subtitle": "Preparando componentes para circuitos de comutação e amplificadores",
+      "description": "[
+        “Conclua o empacotamento desta plataforma com base nos transistores de pré-estágio e envie-a para a linha de montagem do array de funções Civilization Constant SMD.”
+      ]",
+      "dependencies": [
+        "4B528B3F652C9A4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5527BC1A2D7ADE",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_smd_transistor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_smd_transistor",
+      "x": 42,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5D5EE113BA6278",
+      "title": "Indutor SMD constante da civilização",
+      "subtitle": "Prepare indutores para circuitos de potência e sinal",
+      "description": "[
+        “Retenha a parte funcional do indutor frontal e, em seguida, adicione os materiais de conexão e embalagem desta plataforma. Os cinco tipos de dispositivos de chip agora estão prontos e a matriz funcional pode continuar a ser embalada.”
+      ]",
+      "dependencies": [
+        "4B528B3F652C9A4A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B9C04E343C4D9",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_smd_inductor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_smd_inductor",
+      "x": 38,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B585951EDE64C1B",
+      "title": "Matriz de funções de patch de sustentabilidade da civilização",
+      "subtitle": "Instale dispositivos Categoria 5 na mesma placa portadora",
+      "description": "[
+        “Capacitores, diodos, resistores, transistores e indutores são montados em um substrato de circuito impresso de acordo com a receita e conectados a uma rede de interconexão direcional. A matriz funcional é responsável pelo circuito local próximo ao chip.”
+      ]",
+      "dependencies": [
+        "4B510BEB9E372C04",
+        "4B5BB0371B42F85B",
+        "4B50D9163D37EA1A",
+        "4B57E6802B71011C",
+        "4B53461957C95D2E",
+        "4B5D5EE113BA6278"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E24608F2CBE26",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_smd_array",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_smd_array",
+      "x": 34,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5C12E8A340718A",
+      "title": "CPU de persistência da civilização",
+      "subtitle": "Empacote a matriz, o cache e as fontes de alimentação locais juntos",
+      "description": "[
+        \"A CPU de topologia imaginária, a nova matriz lógica, o chip de RAM e a matriz de funções são empacotados em uma CPU contínua civilizada. A máquina inteira está equipada com RAM adicional para armazenamento compartilhado entre chips.\"
+      ]",
+      "dependencies": [
+        "4B51F5B52E20A7A5",
+        "4B515B42A5B15ED3",
+        "4B585951EDE64C1B"
+      ],
+      "tasks": [
+        {
+          "id": "4B5063E18201D401",
+          "type": "item",
+          "item": "hk3gtl:civilization_endurance_cpu",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_endurance_cpu",
+      "x": 42,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B531BD31DF7D0DE",
+      "title": "fatia de roteamento de topologia de limite",
+      "subtitle": "Organizar caminhos de conexão para trabalhos de configuração",
+      "description": "[
+        \"O backplane tecido multieixo, a placa de impressão contínua civilizada e o material de fibra gradiente são conectados em uma folha de roteamento. A interface front-end é reservada como dois campos de entrada, e os circuitos subsequentes e componentes de execução consomem diretamente a folha de roteamento finalizada.\"
+      ]",
+      "dependencies": [
+        "4B510BEB9E372C04"
+      ],
+      "tasks": [
+        {
+          "id": "4B52834405226331",
+          "type": "item",
+          "item": "hk3gtl:world_topology_routing_tile",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:world_topology_routing_tile",
+      "x": 38,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B57D01EDBC1C4E4",
+      "title": "Núcleo do Ponto de Verificação do Status da Civilização",
+      "subtitle": "Salvar o status do processo e os resultados da verificação",
+      "description": "[
+        “A CPU, RAM e clock são encapsulados em núcleos de checkpoint independentes para realizar a migração e recuperação do status do processo. O cálculo do trabalho do circuito formal ainda é realizado pelo núcleo computacional investido na montagem final.”
+      ]",
+      "dependencies": [
+        "4B5C12E8A340718A",
+        "4B531BD31DF7D0DE",
+        "4B58EE50644340CB"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E66CF703FED22",
+          "type": "item",
+          "item": "hk3gtl:civilization_state_checkpoint_core",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:civilization_state_checkpoint_core",
+      "x": 46,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B556E81648CE5E5",
+      "title": "Cabeça de execução de configuração de caminho gradiente",
+      "subtitle": "Posicione e trabalhe ao longo de caminhos especificados",
+      "description": "[
+        \"Adicione um mecanismo de configuração de caminho gradiente ao conjunto de suporte do estágio frontal. Faça primeiro a cabeça de execução e, em seguida, instale-a no motor do estágio atual, pistão, bomba, braço robótico e outros componentes.\"
+      ]",
+      "dependencies": [
+        "4B57D01EDBC1C4E4",
+        "4B558B4335018F20"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CA52FD8C3FD3D",
+          "type": "item",
+          "item": "hk3gtl:gradient_path_formation_head",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:gradient_path_formation_head",
+      "x": 50,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5E6B8B68D9B5DA",
+      "title": "Válvula graduada de isolamento de vazamento",
+      "subtitle": "Isole o circuito de alimentação em seções e reserve a drenagem",
+      "description": "[
+        \"Retenha o canal frontal e, em seguida, use novas seções de tubo e divisórias para conectar o circuito de isolamento graduado. Conclua a montagem hermética e colete o refrigerante industrial de colapso térmico produzido pelo teste.\"
+      ]",
+      "dependencies": [
+        "4B58EE50644340CB",
+        "4B5E50CE2001967B"
+      ],
+      "tasks": [
+        {
+          "id": "4B571B0B2731038A",
+          "type": "item",
+          "item": "hk3gtl:staged_leak_isolation_valve",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:staged_leak_isolation_valve",
+      "x": 34,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B59E2A5B60BA9E8",
+      "title": "Host do processador de reconfiguração causal",
+      "subtitle": "Conecte dois computadores antigos ao novo caminho",
+      "description": "[
+        \"Os dois supercomputadores de reconstrução causal são instalados na estrutura de suporte de carga de fibra gradiente e conectados à fatia de roteamento, núcleo do ponto de verificação e armazenamento compartilhado para completar o host do processador de reconstrução causal.\"
+      ]",
+      "dependencies": [
+        "4B54209CEAB87ACB",
+        "4B57D01EDBC1C4E4",
+        "4B5E6B8B68D9B5DA",
+        "4B558B4335018F20"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AEFA1DD154BD0",
+          "type": "item",
+          "item": "hk3gtl:causal_reconstruction_processor_mainframe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:causal_reconstruction_processor_mainframe",
+      "x": 54,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B56F3B0A5BF4A8C",
+      "title": "supercomputador de tecido mundial",
+      "subtitle": "Expanda o conjunto do processador em uma máquina completa",
+      "description": "[
+        \"Usando dois conjuntos de processadores de textura mundial como corpo principal de cálculo, conclua o roteamento, ponto de verificação, RAM compartilhada e chips de mapeamento de reconstrução para montar o supercomputador de textura mundial.\"
+      ]",
+      "dependencies": [
+        "4B589A4490F6D4F2",
+        "4B57D01EDBC1C4E4",
+        "4B5E6B8B68D9B5DA",
+        "4B558B4335018F20"
+      ],
+      "tasks": [
+        {
+          "id": "4B5ACD2C4E8EE8DB",
+          "type": "item",
+          "item": "hk3gtl:world_weaving_computer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:world_weaving_computer",
+      "x": 54,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B59DB139B2F5210",
+      "title": "Montagem do processador de sequência final",
+      "subtitle": "Conecte armazenamento externo e suporte ao processador",
+      "description": "[
+        \"Duas peças de processadores de sequência final são instaladas no novo quadro, conectando a fatia de roteamento, o núcleo do ponto de verificação e a RAM compartilhada. O backplane de malha multieixo transporta a conectividade de todo o conjunto de componentes.\"
+      ]",
+      "dependencies": [
+        "4B57E56EA35B69F4",
+        "4B57D01EDBC1C4E4",
+        "4B5E6B8B68D9B5DA",
+        "4B558B4335018F20"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EB8CEC9BCE706",
+          "type": "item",
+          "item": "hk3gtl:terminal_computation_assembly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:terminal_computation_assembly",
+      "x": 50,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B51716ACB713DCE",
+      "title": "Processador de Sustentabilidade da Civilização",
+      "subtitle": "Use pontos de verificação de entidade para herdar o status de execução",
+      "description": "[
+        \"Dois hosts de processador de reconstrução de números imaginários são combinados com a CPU Civilization Persistent, chips lógicos e RAM compartilhada. A fatia de roteamento organiza o caminho de conexão, e o núcleo do ponto de verificação é responsável pelo registro de status e confirmação de recuperação.\"
+      ]",
+      "dependencies": [
+        "4B57D01EDBC1C4E4",
+        "4B5E6B8B68D9B5DA",
+        "4B558B4335018F20"
+      ],
+      "tasks": [
+        {
+          "id": "4B557715F5575871",
+          "type": "item",
+          "item": "hk3gtl:wfv_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:wfv_processor",
+      "x": 46,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B588D52C7941E89",
+      "title": "Motor elétrico WFV",
+      "subtitle": "Combine o driver antigo com o componente de execução atual",
+      "description": "[
+        \"Com base em dois motores elétricos IWV, um cabeçote de execução de configuração de caminho gradiente, um núcleo de ponto de verificação de status civilizado e uma válvula de isolamento de vazamento graduada são adicionados e, em seguida, conectados ao circuito de processamento deste nível para formar um motor elétrico WFV.\"
+      ]",
+      "dependencies": [
+        "4B556E81648CE5E5",
+        "4B51716ACB713DCE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5208E39917BAEB",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_motor_wfv",
+      "x": 0,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5A4E71F28E7D7B",
+      "title": "Pistão elétrico WFV",
+      "subtitle": "Primeiro tenha o motor deste nível e depois monte o atuador linear",
+      "description": "[
+        “O motor deste nível é montado com dois pistões elétricos IWV e conectado ao cabeçote de execução da configuração do caminho gradiente e à válvula de isolamento de vazamento graduado para completar o pistão deste nível.”
+      ]",
+      "dependencies": [
+        "4B588D52C7941E89"
+      ],
+      "tasks": [
+        {
+          "id": "4B54A9CD0DA3B9B5",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_piston_wfv",
+      "x": 12,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B549F522A6157BB",
+      "title": "Bomba elétrica WFV",
+      "subtitle": "Montando a unidade, o loop de mídia e os componentes de status juntos",
+      "description": "[
+        \"Com base em duas bombas elétricas IWV, o motor de nível de corrente, a válvula de isolamento de vazamento graduada, o cabeçote de execução de configuração de caminho gradiente e o núcleo do ponto de verificação de status civilizado são instalados para completar a bomba de nível de corrente.\"
+      ]",
+      "dependencies": [
+        "4B588D52C7941E89"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B10190AEF5AF7",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_pump_wfv",
+      "x": 16,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5E9F7D1509AD77",
+      "title": "Módulo transportador WFV",
+      "subtitle": "Conecte o driver do transportador à interface de despacho deste nível",
+      "description": "[
+        \"Monte dois módulos de correia transportadora IWV e dois motores de nível de corrente, conecte a peça de roteamento da topologia de limite, o núcleo do ponto de verificação do status da civilização e os componentes de execução para criar um novo módulo transportador.\"
+      ]",
+      "dependencies": [
+        "4B585480E9BCC91D",
+        "4B588D52C7941E89"
+      ],
+      "tasks": [
+        {
+          "id": "4B54CAC5354C2DFC",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:conveyor_module_wfv",
+      "x": 20,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5E853D08F25D97",
+      "title": "Braço robótico WFV",
+      "subtitle": "Instale o acionamento rotativo e o atuador linear na mesma estrutura",
+      "description": "[
+        “Prepare duas peças deste motor de classe e uma peça deste pistão de classe, monte-as juntas com duas peças de braços robóticos IWV e, em seguida, conecte a peça de roteamento da topologia de limite e o núcleo do ponto de verificação do status da civilização.”
+      ]",
+      "dependencies": [
+        "4B5A4E71F28E7D7B"
+      ],
+      "tasks": [
+        {
+          "id": "4B51753CC7E4C5B6",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:robot_arm_wfv",
+      "x": 24,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B56743739F941C6",
+      "title": "Sensor WFV",
+      "subtitle": "Receba leituras de status através desta interface de nível",
+      "description": "[
+        “Monte os dois sensores IWV com o chip de roteamento de topologia de limite, núcleo de ponto de verificação de status civilizado e válvula de isolamento de vazamento graduada e, em seguida, conecte os circuitos e peças estruturais deste nível para fazer um novo sensor.”
+      ]",
+      "dependencies": [
+        "4B51716ACB713DCE"
+      ],
+      "tasks": [
+        {
+          "id": "4B51DBE455E6F34B",
+          "type": "item",
+          "item": "hk3gtl:sensor_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:sensor_wfv",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5C9068264A5507",
+      "title": "Transmissor WFV",
+      "subtitle": "Conecte o componente de transmissão a este nível de controle e loop",
+      "description": "[
+        \"Com base nos dois transmissores IWV, um chip de roteamento de topologia de limite, um núcleo de ponto de verificação de status de civilização, uma válvula de isolamento de vazamento graduado e um laser de pulso ultracurto são adicionados para completar o novo transmissor.\"
+      ]",
+      "dependencies": [
+        "4B51716ACB713DCE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5853ECFA749B45",
+          "type": "item",
+          "item": "hk3gtl:emitter_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:emitter_wfv",
+      "x": 8,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5189A9A37FFDAE",
+      "title": "Gerador de campo de força WFV",
+      "subtitle": "Integre componentes de lançamento e medição em controles de campo",
+      "description": "[
+        “Primeiro prepare quatro peças deste nível de transmissores e duas peças deste nível de sensores e, em seguida, monte-as juntas com duas peças de geradores de campo de força IWV, este nível de circuitos e componentes de interface.”
+      ]",
+      "dependencies": [
+        "4B56743739F941C6",
+        "4B5C9068264A5507"
+      ],
+      "tasks": [
+        {
+          "id": "4B50B6E50F6B3509",
+          "type": "item",
+          "item": "hk3gtl:field_generator_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:field_generator_wfv",
+      "x": 24,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5DB4D4BB321C46",
+      "title": "Manga distanciadora de fibra gradiente",
+      "subtitle": "Zonas de processamento para fibras contínuas",
+      "description": "[
+        \"As mangas espaçadoras são feitas de materiais compósitos multieixos tecidos. As fibras contínuas subsequentes são dimensionadas de acordo com esses intervalos, e as mangas espaçadoras também são consumidas com o material acabado.\"
+      ]",
+      "dependencies": [
+        "4B5793B57FF95411"
+      ],
+      "tasks": [
+        {
+          "id": "4B57770C2B1F35E1",
+          "type": "item",
+          "item": "hk3gtl:gradient_fiber_sizing_sleeve",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:gradient_fiber_sizing_sleeve",
+      "x": 30,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B523CE7A995B4FF",
+      "title": "Banho de dimensionamento de fibra gradiente",
+      "subtitle": "Prepare uma solução de tratamento fresca para o primeiro lote de fibra",
+      "description": "[
+        “Prepare um banho de dimensionamento com líquido transportador fresco e materiais auxiliares sólidos e envie-o para pultrusão de fibra, tratamento gradiente e processo de assentamento de configuração.”
+      ]",
+      "dependencies": [
+        "4B5793B57FF95411"
+      ],
+      "tasks": [
+        {
+          "id": "4B575B3BA508589B",
+          "type": "custom",
+          "title": "Conclusão real do banho de dimensionamento de fibra gradiente",
+          "tags": [
+            "hk3gtl_quest_wfv_n02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 34,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B54B15FA4260C5F",
+      "title": "fibra de reforço sólida",
+      "subtitle": "Primeiro retire o feixe de fibras contínuas",
+      "description": "[
+        \"O material de base multiaxial do tecido é transformado em um suporte, que é pultrudado em feixes junto com o núcleo de fibra contínua. Após a obtenção das fibras sólidas de reforço, é realizado o processamento gradiente.\"
+      ]",
+      "dependencies": [
+        "4B5DB4D4BB321C46",
+        "4B523CE7A995B4FF"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F1108DD6F1001",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_stage_1",
+      "x": 38,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B57DFA6F5D538B4",
+      "title": "Processamento de gradiente particionado",
+      "subtitle": "Dimensionamento graduado entre mangas espaçadoras",
+      "description": "[
+        \"A fibra contínua é processada de acordo com as seções desenhadas pela manga de distância fixa, e as partículas moduladoras do limite do grão e os materiais de interface são adicionados para obter a fibra tratada com gradiente medido.\"
+      ]",
+      "dependencies": [
+        "4B54B15FA4260C5F"
+      ],
+      "tasks": [
+        {
+          "id": "4B56BC18682EA6EB",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_stage_2",
+      "x": 42,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B55BC5B3A2076F1",
+      "title": "Colocação de configuração de fibra gradiente",
+      "subtitle": "Faça conexões de camadas em áreas de camadas",
+      "description": "[
+        \"Coloque as fibras processadas de acordo com a configuração, adicione feixes na direção Z para conectar diferentes camadas e, em seguida, use mangas distanciadoras para manter a distância para criar uma configuração em branco.\"
+      ]",
+      "dependencies": [
+        "4B57DFA6F5D538B4"
+      ],
+      "tasks": [
+        {
+          "id": "4B57EF3F8213F6F4",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_stage_3",
+      "x": 46,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B56476707608210",
+      "title": "Material de fibra gradiente estrutural em branco padrão",
+      "subtitle": "Sele a porta e mantenha a partição gradiente",
+      "description": "[
+        \"As portas e bordas do perfil são fechadas, depois resfriadas e dimensionadas. A peça bruta padrão resultante é posteriormente processada em placas, hastes, molduras, anéis, folhas e fios finos compostos.\"
+      ]",
+      "dependencies": [
+        "4B55BC5B3A2076F1"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F0CE534B43EEC",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_billet",
+      "x": 50,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B52DF9964ED8F7C",
+      "title": "Painel de fibra gradiente zoneado",
+      "subtitle": "Espalhe fibras gradientes na superfície da placa em seções",
+      "description": "[
+        \"Diferentes seções de superfície são dimensionadas separadamente e as fibras são colocadas em intervalos regulares para formar uma placa de fibra estruturalmente gradiente. O suporte do estágio frontal e o material de interface são deixados juntos no produto acabado.\"
+      ]",
+      "dependencies": [
+        "4B56476707608210"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AD4EFD637BC36",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_plate",
+      "x": 54,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B5AF78C0F07FAC8",
+      "title": "Haste de fibra gradiente de distância fixa",
+      "subtitle": "Organize as fibras gradientes ao longo do eixo da haste",
+      "description": "[
+        \"Deixe as fibras serem dispostas gradualmente ao longo do eixo da haste e, em seguida, use mangas de distância final para fixar os feixes de fibras para fazer hastes de fibra gradiente.\"
+      ]",
+      "dependencies": [
+        "4B56476707608210"
+      ],
+      "tasks": [
+        {
+          "id": "4B56B6528174A548",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_rod",
+      "x": 54,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B558B4335018F20",
+      "title": "Estrutura de fibra de nó gradiente",
+      "subtitle": "Transição camada por camada nos nós",
+      "description": "[
+        \"Retenha o núcleo do feixe contínuo e coloque camadas de transição gradiente nos nós da estrutura para criar uma estrutura de fibra gradiente.\"
+      ]",
+      "dependencies": [
+        "4B5AF78C0F07FAC8"
+      ],
+      "tasks": [
+        {
+          "id": "4B57E87B952ED07E",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_frame",
+      "x": 50,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B58EE50644340CB",
+      "title": "Anel gradiente enrolado direcionalmente",
+      "subtitle": "Dimensionamento ao longo de zonas circunferenciais",
+      "description": "[
+        \"Coloque as fibras na direção do arco e faça a transição camada por camada na interface para criar um anel gradiente para conexão.\"
+      ]",
+      "dependencies": [
+        "4B5AF78C0F07FAC8"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DE0500289FB59",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_ring",
+      "x": 46,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B5E50CE2001967B",
+      "title": "Folha gradiente de dimensionamento seccional",
+      "subtitle": "Coloque a fita de microfibra no comprimento certo",
+      "description": "[
+        \"Coloque o comprimento predeterminado da fita de microfibra em uma folha fina, mantendo o gradiente e a vedação das bordas de cada área para criar uma folha gradiente.\"
+      ]",
+      "dependencies": [
+        "4B52DF9964ED8F7C"
+      ],
+      "tasks": [
+        {
+          "id": "4B50AC143557ECF0",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_foil",
+      "x": 42,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B583DDDF7D38C97",
+      "title": "Fibra de distância fixa que coloca fio fino composto",
+      "subtitle": "Manter núcleo contínuo e extremidades seguras",
+      "description": "[
+        \"O dimensionamento é aplicado em seções ao longo do núcleo do fio, fibras contínuas são colocadas e, em seguida, a vedação das bordas e a fixação das extremidades são concluídas para formar um fio fino composto.\"
+      ]",
+      "dependencies": [
+        "4B5AF78C0F07FAC8"
+      ],
+      "tasks": [
+        {
+          "id": "4B53025B09A6C950",
+          "type": "item",
+          "item": "hk3gtl:worldforming_gradient_fiber_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_fine_wire",
+      "x": 38,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B580FDD510DA71E",
+      "title": "Cubo mecânico WFV",
+      "subtitle": "Instale o material gradiente no núcleo do pré-amplificador",
+      "description": "[
+        \"Insira os cubos mecânicos IWV na nova placa, estrutura e anel de conexão, complete as portas, blindagem e materiais de embalagem para completar o primeiro lote de cubos mecânicos WFV. O primeiro lote de materiais é fabricado de acordo com a tensão de trabalho do IWV.\"
+      ]",
+      "dependencies": [
+        "4B52DF9964ED8F7C",
+        "4B558B4335018F20",
+        "4B58EE50644340CB"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F1DF3D6C7D8E4",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_wfv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_wfv",
+      "x": 34,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B592BD1312EA808",
+      "title": "Desmontando o bloco mecânico WFV",
+      "subtitle": "Deixando cascas reutilizáveis ​​e peças estruturais completas",
+      "description": "[
+        “Desmonte o bloco mecânico WFV em camadas e recupere o núcleo do IWV e metade das placas, molduras e anéis completos. O corpo principal restante é dividido em resíduos classificados, e peças funcionais especiais e materiais de embalagem são consumidos junto com a desmontagem.
+      ]",
+      "dependencies": [
+        "4B580FDD510DA71E"
+      ],
+      "tasks": [
+        {
+          "id": "4B573554D6997260",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_wfv_n14"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_iwv",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_iwv",
+      "x": 0,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5146703249C567",
+      "title": "Separação de resíduos de material de fibra estruturalmente gradiente",
+      "subtitle": "Coletar separadamente componentes reconstruíveis e rejeitos",
+      "description": "[
+        \"Use o solvente de processo Soul Steel para eluir os anexos dos resíduos classificados e, em seguida, realize a separação centrífuga. O corpo principal é separado em 75% de componentes reciclados e 25% de rejeitos não recicláveis, e o solvente residual é coletado separadamente.\"
+      ]",
+      "dependencies": [
+        "4B5793B57FF95411"
+      ],
+      "tasks": [
+        {
+          "id": "4B57A52F9B381E2C",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_wfv_n15"
+          ],
+          "item": "hk3gtl:worldforming_gradient_fiber_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_recovered_fraction",
+      "x": 4,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5B9063E57084C5",
+      "title": "Reconstruir fibra de reforço sólida",
+      "subtitle": "Renovar o corpo principal e reinvestir em excipientes funcionais",
+      "description": "[
+        \"Combine os componentes reciclados com o corpo principal fresco de acordo com a fórmula e reinvista todos os materiais auxiliares funcionais para fazer fibras sólidas reforçadas. Em seguida, continue a fabricação a partir do processo intermediário original.\"
+      ]",
+      "dependencies": [
+        "4B5DB4D4BB321C46",
+        "4B523CE7A995B4FF"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E41BBC6DCA326",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_wfv_n16"
+          ],
+          "item": "hk3gtl:worldforming_gradient_fiber_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:worldforming_gradient_fiber_stage_1",
+      "x": 8,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5A3B7B349E75BF",
+      "title": "Armazenamento de rejeitos de material de fibra de gradiente estrutural",
+      "subtitle": "Solidifica o material danificado em um resíduo inerte",
+      "description": "[
+        “Os rejeitos não recicláveis são solidificados em cinzas e encaminhados para uso geral em pó. Os componentes reconstruíveis são devolvidos ao processo de envase por outra saída.”
+      ]",
+      "dependencies": [
+        "4B5793B57FF95411"
+      ],
+      "tasks": [
+        {
+          "id": "4B584C6D92028B4F",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_wfv_n17"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 12,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B56C50E895C73C6",
+      "title": "Nó de transferência de carga de estrutura gigante",
+      "subtitle": "Conecte vigas, âncoras e interfaces de substituição como nós de suporte de tensão",
+      "description": "[
+        \"Os nós de transferência de carga da estrutura gigante são montados nos equipamentos de fabricação existentes. As vigas, âncoras e interfaces de conexão substituíveis são primeiro conectadas aqui e, em seguida, colocadas na manutenção mundial e na fabricação de controle principal das instalações da estrutura gigante.\"
+      ]",
+      "dependencies": [
+        "4B53368AA813BE19",
+        "4B58094B09D418D5"
+      ],
+      "tasks": [
+        {
+          "id": "4B5615B0F3B75A2F",
+          "type": "item",
+          "item": "hk3gtl:structural_load_transfer_node",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:structural_load_transfer_node",
+      "x": 0,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B58A95952974374",
+      "title": "Controlador da Plataforma Mundial de Teste de Sustentação",
+      "subtitle": "Conecte a interface de carga e fluxo de energia que mantém a amostra.",
+      "description": "[
+        \"Após a conclusão do estudo RN-WME, o controlador da plataforma de teste de manutenção mundial é fabricado no equipamento de montagem existente. Componentes especiais são responsáveis pela conexão de carga e fluxo de energia da peça de teste, e o produto acabado é posteriormente usado para construir a plataforma.\"
+      ]",
+      "dependencies": [
+        "4B5B07B90B75E8EC",
+        "4B5944B034A510E0",
+        "4B50F2B1C6384AFB",
+        "4B56C50E895C73C6"
+      ],
+      "tasks": [
+        {
+          "id": "4B59C4248C38ED66",
+          "type": "item",
+          "item": "hk3gtl:i37_world_maintenance_trial_platform",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:i37_world_maintenance_trial_platform",
+      "x": 12,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5D34D3CE84E89A",
+      "title": "Controlador do Centro de Síntese de Materiais Maravilha da Civilização",
+      "subtitle": "Forneça separadamente materiais para quatro séries de materiais funcionais",
+      "description": "[
+        “Conclua a pesquisa RN-WMS, primeiro fabrique os componentes de alimentação especiais e, em seguida, monte o controlador do Centro de Síntese de Materiais Civilization Wonders. As interfaces de alimentação para as quatro séries de materiais são retidas separadamente.”
+      ]",
+      "dependencies": [
+        "4B5793B57FF95411"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F5EAB04531841",
+          "type": "item",
+          "item": "hk3gtl:i40_civilization_wonder_material_synthesis_center",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:i40_civilization_wonder_material_synthesis_center",
+      "x": 4,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B563C2684E9ADDF",
+      "title": "Controlador de fábrica pré-fabricado Wonder Components",
+      "subtitle": "Prepare interfaces de posicionamento e suporte de carga para peças pré-fabricadas gigantes",
+      "description": "[
+        “Depois de concluir a pesquisa RN-WPF, fabrique o controlador de fábrica pré-fabricado do componente maravilhoso. Após a conclusão da fábrica pré-fabricada, o controlador principal da primeira maravilha será fabricado aqui.”
+      ]",
+      "dependencies": [
+        "4B5418002D905162"
+      ],
+      "tasks": [
+        {
+          "id": "4B569981C02941EC",
+          "type": "item",
+          "item": "hk3gtl:i42_wonder_component_prefabrication_factory",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:i42_wonder_component_prefabrication_factory",
+      "x": 8,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5D42853DBE1968",
+      "title": "Método civilizado de aceitação de projetos",
+      "subtitle": "RN-CEE · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: amostra do Projeto Mundial de Sustentabilidade × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no laboratório reverso de tecnologia legada. Detecte realmente as peças de referência conhecidas e verifique se as regras de julgamento podem distinguir amostras qualificadas/não qualificadas;
+        \"Após a conclusão do experimento, escolha 6.120 pontos de pesquisa ou circuito WFV × 8, placa de nêutrons × 128 para pagar a taxa básica; são necessários 36.000 ticks adicionais e 135.107.988.821.114.880 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
+        “O instituto retém energia com base na potência total das portas de energia efetivas. Após a conclusão, o Centro de Aceitação do Projeto de Civilização será desbloqueado; a pesquisa sobre métodos de aceitação não equivale à obtenção de provas reais de operação de cada maravilha.”
+      ]",
+      "dependencies": [
+        "4B52CD74565E718E"
+      ],
+      "tasks": [
+        {
+          "id": "4B5244CE407F4FC8",
+          "type": "custom",
+          "title": "Conclusão de métodos civilizados de aceitação de projetos",
+          "tags": [
+            "hk3gtl_quest_rn_cee"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:world_maintenance_specimen",
+      "x": 0,
+      "y": 42,
+      "optional": false
+    },
+    {
+      "id": "4B5793B57FF95411",
+      "title": "Materiais maravilhosos da civilização",
+      "subtitle": "RN-WMS · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: amostra do Projeto Mundial de Sustentabilidade × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Concluir os experimentos da equipe no laboratório reverso de tecnologia legada. As peças de teste são realmente fabricadas e o teste de adaptação sob condições de manutenção é concluído. As peças de teste não podem ser usadas como materiais compósitos formais;
+        \"Após a conclusão do experimento, escolha 5.380 pontos de pesquisa ou circuito IWV × 8, placa de nêutrons × 120 para pagar a taxa básica; são necessários 33.600 ticks adicionais e 33.776.997.205.278.720 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie os materiais gigantes iniciais do Centro de Síntese de Materiais da Maravilha Civilizada para evitar o uso de materiais autoproduzidos da maravilha alvo para construir a primeira maravilha.
+      ]",
+      "dependencies": [
+        "4B5A173AE878AE95"
+      ],
+      "tasks": [
+        {
+          "id": "4B58A1F33D3C2C30",
+          "type": "custom",
+          "title": "Materiais completos de maravilhas da civilização",
+          "tags": [
+            "hk3gtl_quest_rn_wms"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:civilization_singularity",
+      "x": 4,
+      "y": 42,
+      "optional": false
+    },
+    {
+      "id": "4B5418002D905162",
+      "title": "Pré-fabricação de componentes maravilhosos",
+      "subtitle": "RN-WPF · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: material compósito condutor de energia de alta dimensão × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no laboratório reverso de tecnologia legada. A conclusão real do teste da peça de teste de interface, tolerância e suporte de carga está relacionada ao lote de produtos do Centro de Síntese de Materiais Maravilha Civilizada;
+        \"Após a conclusão do experimento, escolha 5.380 pontos de pesquisa ou circuito IWV × 8, placa de nêutrons × 120 para pagar a taxa básica; são necessários 33.600 ticks adicionais e 33.776.997.205.278.720 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
+        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie várias séries de componentes pré-fabricados na Wonder Component Prefabrication Factory.”
+      ]",
+      "dependencies": [
+        "4B5C61FAC45F68A8"
+      ],
+      "tasks": [
+        {
+          "id": "4B543BBCB8E79D3B",
+          "type": "custom",
+          "title": "Conclua a pré-fabricação de componentes maravilhosos",
+          "tags": [
+            "hk3gtl_quest_rn_wpf"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:extreme_casting_material",
+      "x": 8,
+      "y": 42,
+      "optional": false
+    }
+  ]
+}

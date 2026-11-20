@@ -1,0 +1,1950 @@
+{
+  "filename": "hk3_voltage_09",
+  "id": "4B5E36C9041AEDD0",
+  "title": "Pressão numérica imaginária IMV",
+  "subtitle": [
+    "Tier23-IMV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 24,
+  "icon": "hk3gtl:voltage_machine_casing_imv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B5B68B8C11CA404",
+      "title": "Continuar do workshop QAV",
+      "subtitle": "QAV → IMV",
+      "description": "[
+        \"O chassi frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos IMV.\",
+        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
+      ]",
+      "dependencies": [
+        "4B5792CC8C53B87D"
+      ],
+      "tasks": [
+        {
+          "id": "4B59960B27978125",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_qav",
+      "x": 0,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5487FC42B1F9B4",
+      "title": "Filme de isolamento dielétrico de topologia imaginária",
+      "subtitle": "Separe primeiro o limite da fase cerâmica",
+      "description": "[
+        \"Uma nova folha de cerâmica é aplicada a um filme dielétrico quântico coerente, seguido por um revestimento dielétrico de nível de corrente. O filme acabado é responsável pelo isolamento entre as áreas de trabalho do circuito de topologia imaginária.\"
+      ]",
+      "dependencies": [
+        "4B54804DF6CCFEB5",
+        "4B5313D7F4421690"
+      ],
+      "tasks": [
+        {
+          "id": "4B50F1BD2D822F94",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_dielectric_film",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_dielectric_film",
+      "x": 30,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B50716301E829FE",
+      "title": "Rede de interconexão dirigida por topologia imaginária",
+      "subtitle": "Conecte cada área de trabalho individualmente",
+      "description": "[
+        “A unidade de conexão da rede de interconexão da plataforma frontal é usada, e ramais independentes são conectados com fios finos de compósito cerâmico. O filme dielétrico é deixado entre cada ramal para posterior uso do substrato e da matriz funcional.
+      ]",
+      "dependencies": [
+        "4B5487FC42B1F9B4",
+        "4B5E86444626FE39"
+      ],
+      "tasks": [
+        {
+          "id": "4B504C1EBAB132A3",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_interconnect_mesh",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_interconnect_mesh",
+      "x": 38,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5D8A011ADB9399",
+      "title": "Substrato de circuito de topologia de número imaginário",
+      "subtitle": "Pressione o novo circuito no substrato físico",
+      "description": "[
+        “O substrato da plataforma frontal serve de base, e a placa impressa retém a interface antiga. O novo filme, a rede de interconexão e a camada de gravação são laminados juntos para obter o substrato transportador para o circuito de topologia imaginária.
+      ]",
+      "dependencies": [
+        "4B50716301E829FE"
+      ],
+      "tasks": [
+        {
+          "id": "4B596E767771C7D1",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_circuit_substrate",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_circuit_substrate",
+      "x": 46,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B51E08379C2635B",
+      "title": "Placa de circuito impresso de topologia imaginária",
+      "subtitle": "O desenvolvimento da linha é feito separadamente",
+      "description": "[
+        \"Envie o substrato laminado para uma máquina de imersão química para desenvolvimento e retire a saída da solução de gravação residual. Após a conclusão do circuito impresso, instale o conjunto de patches e o chip de interface de fase.\"
+      ]",
+      "dependencies": [
+        "4B5D8A011ADB9399"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F4991FD2C046D",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_printed_circuit_board",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_printed_circuit_board",
+      "x": 34,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B57CA656C981438",
+      "title": "Wafer epitaxial de topologia imaginária",
+      "subtitle": "Deixe uma superfície estendida para o novo espaço de trabalho",
+      "description": "[
+        \"Uma fina camada de cerâmica e filme dielétrico é colocada no wafer, com a matriz lógica da plataforma frontal reservada para leitura. O wafer epitaxial é então ramificado para exposição lógica e impressão de memória.\"
+      ]",
+      "dependencies": [
+        "4B5487FC42B1F9B4"
+      ],
+      "tasks": [
+        {
+          "id": "4B5BFD2809E8F55D",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_epitaxial_wafer",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_epitaxial_wafer",
+      "x": 42,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5E081B12D3C1D7",
+      "title": "Wafer lógico de topologia imaginária",
+      "subtitle": "Use máscaras para determinar formas lógicas",
+      "description": "[
+        “Exponha o wafer epitaxial para formar um wafer lógico de topologia imaginário. A máscara de fotolitografia é deixada como ferramenta e o produto acabado continua a ser enviado para corte.”
+      ]",
+      "dependencies": [
+        "4B57CA656C981438"
+      ],
+      "tasks": [
+        {
+          "id": "4B58FAB0A9D488B6",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_logic_wafer",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_logic_wafer",
+      "x": 50,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B542D6818BF47CD",
+      "title": "A lógica da topologia imaginária morre",
+      "subtitle": "Oito dados são cortados de cada wafer",
+      "description": "[
+        \"Corte o wafer lógico na matriz e direcione o refrigerante quente de volta para a linha de condicionamento do refrigerante existente. A matriz irá para este nível de embalagem da CPU.\"
+      ]",
+      "dependencies": [
+        "4B5E081B12D3C1D7"
+      ],
+      "tasks": [
+        {
+          "id": "4B579B4A6C23B50B",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_logic_die",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_logic_die",
+      "x": 30,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B54C8E8C74E7748",
+      "title": "Wafer RAM de topologia imaginária",
+      "subtitle": "A matriz de armazenamento é impressa com a camada de leitura",
+      "description": "[
+        “Retenha a matriz de memória no wafer de RAM da plataforma frontal, adicione este wafer epitaxial de nível e filme de isolamento para formar um wafer de RAM com uma estrutura de leitura independente.”
+      ]",
+      "dependencies": [
+        "4B57CA656C981438"
+      ],
+      "tasks": [
+        {
+          "id": "4B5521115E0ED31A",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_ram_wafer",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_ram_wafer",
+      "x": 54,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B54B54E955AD203",
+      "title": "Chip RAM de topologia imaginária",
+      "subtitle": "Cortando wafers de RAM empacotáveis",
+      "description": "[
+        “O wafer de armazenamento é cortado em dezesseis chips de RAM. O refluxo de resfriamento é coletado separadamente e os chips são usados ​​para o cache local da CPU e para o armazenamento compartilhado do circuito formal.”
+      ]",
+      "dependencies": [
+        "4B54C8E8C74E7748"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AD842DF808041",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_ram_chip",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_ram_chip",
+      "x": 30,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5EE5748DB3B293",
+      "title": "Capacitor de chip de topologia imaginária",
+      "subtitle": "Prepare capacitores para fonte de alimentação local",
+      "description": "[
+        \"Conecte o capacitor quântico coerente com a rede de interconexão de mesmo nível e o filme de isolamento e, em seguida, encapsule a superfície de trabalho de cerâmica. Esses capacitores são usados ​​para armazenamento de energia e filtragem da matriz de funções de topologia imaginária.\"
+      ]",
+      "dependencies": [
+        "4B50716301E829FE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5375D23ADB76A5",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_smd_capacitor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_smd_capacitor",
+      "x": 54,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B51694864DF470A",
+      "title": "Diodo de chip de topologia imaginária",
+      "subtitle": "Preservar a funcionalidade unidirecional",
+      "description": "[
+        “Instale o diodo frontal no isolamento de nível de corrente e na estrutura de interconexão. A parte de condução unidirecional usa o dispositivo original, e o novo pacote é responsável por acessar a linha de topologia imaginária.
+      ]",
+      "dependencies": [
+        "4B50716301E829FE"
+      ],
+      "tasks": [
+        {
+          "id": "4B55440325D26631",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_smd_diode",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_smd_diode",
+      "x": 50,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5C90DF614F4FA0",
+      "title": "Resistor de chip de topologia imaginária",
+      "subtitle": "Definir resistores para corrente e sinais",
+      "description": "[
+        \"O resistor frontal e o material do resistor de grafeno são embalados juntos para completar a camada de saída e isolamento da nova plataforma. Ele formará um conjunto de patches junto com outros quatro tipos de dispositivos.\"
+      ]",
+      "dependencies": [
+        "4B50716301E829FE"
+      ],
+      "tasks": [
+        {
+          "id": "4B511EBF4BFEFD87",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_smd_resistor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_smd_resistor",
+      "x": 46,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B56CABECA569D7B",
+      "title": "Transistor de chip de topologia imaginária",
+      "subtitle": "Conecte a unidade de comutação à nova interface",
+      "description": "[
+        \"Mantenha a parte de comutação do transistor frontal e adicione isolamento dielétrico e embalagem cerâmica neste nível. Após a conclusão, continuaremos a fornecer matrizes funcionais e fabricação de CPU.\"
+      ]",
+      "dependencies": [
+        "4B50716301E829FE"
+      ],
+      "tasks": [
+        {
+          "id": "4B58B96B63E99C84",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_smd_transistor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_smd_transistor",
+      "x": 42,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5BCC04774B2217",
+      "title": "Indutor de chip de topologia imaginária",
+      "subtitle": "Instale indutores para circuitos locais",
+      "description": "[
+        “O indutor de pré-estágio, o anel do elemento de nêutrons e a nova estrutura de interconexão estão incluídos. O indutor é responsável pelo armazenamento de energia magnética do circuito, e o capacitor é responsável por suas respectivas funções elétricas.”
+      ]",
+      "dependencies": [
+        "4B50716301E829FE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FEC31FDF7E98B",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_smd_inductor",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_smd_inductor",
+      "x": 38,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5AB7BD5FC938EE",
+      "title": "Matriz de funções de patch de topologia imaginária",
+      "subtitle": "Cinco tipos de patches se encontram aqui",
+      "description": "[
+        \"Capacitores, diodos, resistores, transistores e indutores são fabricados separadamente e depois montados em uma matriz em uma placa impressa. Cada tipo de dispositivo é consumido junto com a matriz.\"
+      ]",
+      "dependencies": [
+        "4B51E08379C2635B",
+        "4B5EE5748DB3B293",
+        "4B51694864DF470A",
+        "4B5C90DF614F4FA0",
+        "4B56CABECA569D7B",
+        "4B5BCC04774B2217"
+      ],
+      "tasks": [
+        {
+          "id": "4B591EC0F3CFFA19",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_smd_array",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_smd_array",
+      "x": 34,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B588700D5979D78",
+      "title": "CPU de topologia imaginária",
+      "subtitle": "Encapsulando cálculos de CPU e cache local",
+      "description": "[
+        \"Instale a matriz lógica, o chip de RAM e a matriz de funções na CPU da plataforma frontal. O cache interno é empacotado com a CPU e o armazenamento compartilhado adicional será conectado durante a montagem formal do circuito.\"
+      ]",
+      "dependencies": [
+        "4B542D6818BF47CD",
+        "4B54B54E955AD203",
+        "4B5AB7BD5FC938EE"
+      ],
+      "tasks": [
+        {
+          "id": "4B53330DB67AF695",
+          "type": "item",
+          "item": "hk3gtl:imaginary_topology_cpu",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_topology_cpu",
+      "x": 42,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B53C6CE36D51EBD",
+      "title": "Chip de interface de fase imaginária",
+      "subtitle": "Deixe uma janela condutora na barreira cerâmica",
+      "description": "[
+        “Conecte a camada intermediária de ancoragem triaxial a este nível de substrato cerâmico para completar o chip de interface de fase. A placa impressa e o filme de isolamento no chip são integrados ao pacote e o conjunto completo pode ser usado diretamente posteriormente.
+      ]",
+      "dependencies": [
+        "4B51E08379C2635B",
+        "4B51516BB43A2C92"
+      ],
+      "tasks": [
+        {
+          "id": "4B53BB465D5F82EE",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_boundary_die",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_boundary_die",
+      "x": 38,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B52202C1C9DFE9D",
+      "title": "Núcleo do protocolo de transferência de fase",
+      "subtitle": "Primeiro defina a sequência de transferência e o estado de parada",
+      "description": "[
+        \"Conecte o chip de interface de fase ao núcleo do protocolo e use a CPU e a RAM para salvar o estado local. Os circuitos subsequentes monitoram a interface e controlam a sequência de transferência de fase através deste núcleo.\"
+      ]",
+      "dependencies": [
+        "4B588700D5979D78",
+        "4B53C6CE36D51EBD",
+        "4B53DA1823327C30",
+        "4B5E9201BCC7CA0F"
+      ],
+      "tasks": [
+        {
+          "id": "4B54095E48B25CCE",
+          "type": "item",
+          "item": "hk3gtl:phase_transition_protocol_core",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:phase_transition_protocol_core",
+      "x": 46,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B526888442D8B32",
+      "title": "Carcaça do atuador com isolamento de fase",
+      "subtitle": "Instalar suportes executivos em áreas de trabalho isoladas",
+      "description": "[
+        “Uma haste de cerâmica, um anel e uma estrutura são adicionados ao atuador de posicionamento existente para formar um invólucro isolado. O invólucro assume o atuador deste nível, e o antigo suporte continua a assumir a responsabilidade de posicionamento.”
+      ]",
+      "dependencies": [
+        "4B52202C1C9DFE9D",
+        "4B510189BD9FF3DE",
+        "4B50D905A2FCF195"
+      ],
+      "tasks": [
+        {
+          "id": "4B5029EBA7A9D7DD",
+          "type": "item",
+          "item": "hk3gtl:phase_isolated_actuator_shell",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:phase_isolated_actuator_shell",
+      "x": 50,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5271D0B2788189",
+      "title": "Bloco frio de têmpera e revenido",
+      "subtitle": "O refluxo de extinção e o resfriamento do circuito são separados",
+      "description": "[
+        \"Estenda o canal hermético original, adicione seções de tubo, paredes divisórias e revestimentos isolantes e instale-o em uma recuperação de calor e bloco frio. O refrigerante quente é conduzido separadamente para equipamento de transferência de fase e controle de temperatura do circuito.\"
+      ]",
+      "dependencies": [
+        "4B54804DF6CCFEB5",
+        "4B53DA1823327C30",
+        "4B5313D7F4421690",
+        "4B5CD42AFC17A634"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CE2AFAD53CB8E",
+          "type": "item",
+          "item": "hk3gtl:quench_recovery_coldblock",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:quench_recovery_coldblock",
+      "x": 34,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B59F20F03D7B54A",
+      "title": "Host do processador de interferência quântica",
+      "subtitle": "Deixe dois conjuntos de computadores front-end formarem o computador host",
+      "description": "[
+        \"As partes computacionais completas dos dois supercomputadores de interferência quântica são retidas, conectadas ao chip de interface de fase, núcleo do protocolo e recuperação de calor e bloco frio para completar a montagem final do host.\"
+      ]",
+      "dependencies": [
+        "4B52202C1C9DFE9D",
+        "4B5271D0B2788189",
+        "4B510189BD9FF3DE",
+        "4B55250A84B8285D"
+      ],
+      "tasks": [
+        {
+          "id": "4B524854D008581B",
+          "type": "item",
+          "item": "hk3gtl:quantum_interference_processor_mainframe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:quantum_interference_processor_mainframe",
+      "x": 54,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5880F608778EC5",
+      "title": "Supercomputadores ancorados em emaranhamento",
+      "subtitle": "Adicionando armazenamento compartilhado a cálculos ancorados em emaranhamento",
+      "description": "[
+        \"Dois conjuntos de processadores ancorados em emaranhamento são montados em um supercomputador. O núcleo do protocolo gerencia o estado da interface e a RAM externa é responsável pelo armazenamento compartilhado entre unidades de computação.\"
+      ]",
+      "dependencies": [
+        "4B52202C1C9DFE9D",
+        "4B5271D0B2788189",
+        "4B510189BD9FF3DE",
+        "4B529EB0B03153EF"
+      ],
+      "tasks": [
+        {
+          "id": "4B573492C44912E9",
+          "type": "item",
+          "item": "hk3gtl:entanglement_anchor_computer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:entanglement_anchor_computer",
+      "x": 54,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5F0E553E48D54F",
+      "title": "Conjunto de processador de âncora imaginária",
+      "subtitle": "Agrupar processadores âncora imaginários",
+      "description": "[
+        \"Usando um processador front-end completo como unidade de computação, além desta leitura de interface de fase de nível, resfriamento e estrutura de suporte de carga de cerâmica. O conjunto pode ser usado para atualizações subsequentes do circuito ICV.\"
+      ]",
+      "dependencies": [
+        "4B52202C1C9DFE9D",
+        "4B5271D0B2788189",
+        "4B510189BD9FF3DE",
+        "4B5B6BFD76C82E31"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C95114BBD672E",
+          "type": "item",
+          "item": "hk3gtl:imaginary_anchoring_assembly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_anchoring_assembly",
+      "x": 50,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B56A2A62D5DD2F1",
+      "title": "Processador de reconstrução de números imaginários",
+      "subtitle": "Complete o dispositivo de computação básico do IMV",
+      "description": "[
+        \"Conecte o host do processador front-end com a CPU de nível atual, núcleo de protocolo e armazenamento compartilhado para criar um processador de reconstrução de número imaginário. Os oito componentes principais do IMV obtêm o circuito de controle a partir daqui.\"
+      ]",
+      "dependencies": [
+        "4B52202C1C9DFE9D",
+        "4B5271D0B2788189",
+        "4B510189BD9FF3DE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5836B4CBCF50FB",
+          "type": "item",
+          "item": "hk3gtl:imv_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imv_processor",
+      "x": 46,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B508A428D36AFE9",
+      "title": "Motor elétrico IMV",
+      "subtitle": "Divida a parte do driver em espaços de trabalho independentes",
+      "description": "[
+        \"Conecte o motor QAV completo ao invólucro de isolamento de fase e, em seguida, instale o núcleo do protocolo e o bloco frio de recuperação de calor. A nova estrutura cerâmica é responsável por conectar as várias peças de acionamento.\"
+      ]",
+      "dependencies": [
+        "4B526888442D8B32",
+        "4B56A2A62D5DD2F1",
+        "4B5240DAAA1DA7E0"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F5ED00125EAC4",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_motor_imv",
+      "x": 42,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B53243A2A319FF7",
+      "title": "Pistão elétrico IMV",
+      "subtitle": "Conecte o movimento linear a um novo motor",
+      "description": "[
+        \"Integre o pistão de pré-estágio, o motor IMV e o invólucro de isolamento de fase em um só corpo. A haste e o anel de cerâmica suportam o suporte da nova conexão, e o retorno de calor e o bloco frio se conectam ao circuito de controle de temperatura.\"
+      ]",
+      "dependencies": [
+        "4B508A428D36AFE9",
+        "4B5A5529AE68733C"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AD46058F68E8A",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_piston_imv",
+      "x": 30,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5D969F4892DC6A",
+      "title": "Bomba elétrica IMV",
+      "subtitle": "Prepare circuitos de bombas independentes para amostragem e fluxo de retorno",
+      "description": "[
+        “Use uma bomba de apoio completa e motor IMV, e instale o invólucro de isolamento de fase e o bloco frio de retorno de calor. A nova bomba é responsável pelo transporte de fluido deste estágio e é usada para conectar as interfaces de retorno respectivamente.”
+      ]",
+      "dependencies": [
+        "4B508A428D36AFE9",
+        "4B5BC3E4DF1E7FF5"
+      ],
+      "tasks": [
+        {
+          "id": "4B555113F909AE70",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_pump_imv",
+      "x": 30,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5C7D9B868E9219",
+      "title": "Módulo transportador IMV",
+      "subtitle": "Deixe o transporte em vários estágios operar na mesma sequência",
+      "description": "[
+        \"Instale o driver IMV e a leitura da interface de fase no módulo de transmissão front-end. O núcleo do protocolo coordena as ações de cada seção, e a placa cerâmica e a folha separam a nova área de trabalho.\"
+      ]",
+      "dependencies": [
+        "4B508A428D36AFE9",
+        "4B51ECAED0BBA537"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E0EAF633338A7",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:conveyor_module_imv",
+      "x": 34,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5A9A6838F5C653",
+      "title": "Braço robótico IMV",
+      "subtitle": "Instale o mecanismo telescópico e de posicionamento em um braço robótico",
+      "description": "[
+        \"Combine o motor IMV, o pistão e o braço robótico frontal completo e, em seguida, conecte o chip de interface de fase. A estrutura e o invólucro de isolamento de fase fornecem suporte para cada junta.\"
+      ]",
+      "dependencies": [
+        "4B53243A2A319FF7",
+        "4B563E5F7F702155"
+      ],
+      "tasks": [
+        {
+          "id": "4B591A04EC376C7B",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:robot_arm_imv",
+      "x": 42,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B5BAD20ECD3657C",
+      "title": "Sensor IMV",
+      "subtitle": "Deixe as leituras de amostragem trazerem o status da interface",
+      "description": "[
+        \"Retenha o sensor frontal e, em seguida, conecte-o ao chip de interface de fase, ao núcleo do protocolo e à peça de controle de temperatura. O novo sensor é usado para medição IMV e equipamento de controle de campo para ler o status.\"
+      ]",
+      "dependencies": [
+        "4B56A2A62D5DD2F1",
+        "4B5B1A1507CBB1F7"
+      ],
+      "tasks": [
+        {
+          "id": "4B50662F6BD7D2BF",
+          "type": "item",
+          "item": "hk3gtl:sensor_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:sensor_imv",
+      "x": 38,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5397FCABDA9FE8",
+      "title": "Transmissor IMV",
+      "subtitle": "Incorporar o controle de emissões no protocolo de transferência de fase",
+      "description": "[
+        “Monte o transmissor do estágio frontal e a estrutura óptica e condutiva do estágio de corrente e conecte o chip de interface de fase e o bloco de reaquecimento e frio. O núcleo do protocolo é responsável pela sequência das ações de lançamento.”
+      ]",
+      "dependencies": [
+        "4B56A2A62D5DD2F1",
+        "4B57663E413585E3"
+      ],
+      "tasks": [
+        {
+          "id": "4B5410A7438A547F",
+          "type": "item",
+          "item": "hk3gtl:emitter_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:emitter_imv",
+      "x": 34,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5B509C3E1D5776",
+      "title": "Gerador de campo de força IMV",
+      "subtitle": "Transmissão e medição convergem no mesmo dispositivo de controle de campo",
+      "description": "[
+        “Monte o transmissor IMV, o sensor e o gerador de campo de força frontal, conecte-os ao núcleo do protocolo e forneça resfriamento independente. Depois que o dispositivo de controle de campo for concluído, ele será usado por instalações deste nível.”
+      ]",
+      "dependencies": [
+        "4B5BAD20ECD3657C",
+        "4B5397FCABDA9FE8",
+        "4B524A0412C3A425"
+      ],
+      "tasks": [
+        {
+          "id": "4B58CA2E11B19CC4",
+          "type": "item",
+          "item": "hk3gtl:field_generator_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:field_generator_imv",
+      "x": 38,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B51BD9AC12E0B48",
+      "title": "Material de nucleação cerâmica de transferência de limite de fase",
+      "subtitle": "Preparando materiais de nucleação para limites de fases cerâmicas",
+      "description": "[
+        “O material de nucleação necessário para a transferência do limite de fase é preparado na placa frontal. Ele será consumido durante o processo cerâmico e controlará a formação das fases cerâmicas subsequentes.”
+      ]",
+      "dependencies": [
+        "4B5FE62607DF1612"
+      ],
+      "tasks": [
+        {
+          "id": "4B5BBD7A77DD0D72",
+          "type": "item",
+          "item": "hk3gtl:phase_boundary_ceramic_nucleant",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:phase_boundary_ceramic_nucleant",
+      "x": 0,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B58995F28EDFECA",
+      "title": "Sol cerâmico de transferência de fase",
+      "subtitle": "Primeiro use novos materiais para preparar o primeiro lote de sol",
+      "description": "[
+        \"O fluido transportador fresco e os componentes cerâmicos são formulados em um sol de transferência de fase. A primeira produção é alimentada a partir desta linha de formulação, e o fluido transportador residual é posteriormente considerado para descarte.\"
+      ]",
+      "dependencies": [
+        "4B5DA9B39AA3192A"
+      ],
+      "tasks": [
+        {
+          "id": "4B57F404242595FF",
+          "type": "custom",
+          "title": "Conclusão real do sol cerâmico de transferência de fase",
+          "tags": [
+            "hk3gtl_quest_imv_n02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5A36E170448DCB",
+      "title": "Pasta precursora cerâmica",
+      "subtitle": "Coloque a pasta cerâmica sobre o substrato sólido",
+      "description": "[
+        \"O substrato QAV é usado para suportar a pasta precursora de cerâmica, e os materiais de nucleação e interface são adicionados antes de serem enviados para transferência de fase. A camada protetora de resina é deixada para ser aplicada após a etapa de alta temperatura.\"
+      ]",
+      "dependencies": [
+        "4B51BD9AC12E0B48",
+        "4B58995F28EDFECA"
+      ],
+      "tasks": [
+        {
+          "id": "4B55C15E04903FDC",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_stage_1",
+      "x": 8,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5E5E1BDAE86CAB",
+      "title": "Boleto de transferência de fase controlada",
+      "subtitle": "A fase cerâmica é formada primeiro e depois a interface é transferida",
+      "description": "[
+        “A pasta precursora é processada em um sintetizador supercrítico e o material de nucleação é usado para formar uma estrutura cerâmica definida. O fluido espacial participa desse processo como meio de transferência.”
+      ]",
+      "dependencies": [
+        "4B5A36E170448DCB"
+      ],
+      "tasks": [
+        {
+          "id": "4B57914D81F76BA8",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_stage_2",
+      "x": 12,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B51EA4B4DF52A21",
+      "title": "Blank cerâmico para têmpera e remoção de impurezas",
+      "subtitle": "A têmpera e a remoção de impurezas úmidas são concluídas em conjunto",
+      "description": "[
+        \"A placa de transferência de fase é resfriada e, em seguida, as impurezas da superfície são removidas. O refrigerante quente e o líquido residual não reciclável são descarregados separadamente e a placa de cerâmica processada entra na vedação de baixa temperatura.\"
+      ]",
+      "dependencies": [
+        "4B5E5E1BDAE86CAB"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DCA7BFE4540B5",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_stage_3",
+      "x": 16,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B52A27A5FFE5740",
+      "title": "Placa padrão de material de base cerâmica de transferência de fase de número imaginário",
+      "subtitle": "Aplique a camada protetora por último",
+      "description": "[
+        \"Após a conclusão da transferência de fase em alta temperatura, os poros cerâmicos são fechados com uma matriz de revestimento e uma camada protetora de polímero é adicionada. Após a determinação do comprimento final, é obtido um blank padrão deste nível.\"
+      ]",
+      "dependencies": [
+        "4B51EA4B4DF52A21"
+      ],
+      "tasks": [
+        {
+          "id": "4B5409CD289CE6E7",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_billet",
+      "x": 20,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5B0B519F2E3201",
+      "title": "Placa de material base de cerâmica de transferência de fase imaginária",
+      "subtitle": "Fatias de cerâmica são fixadas na placa de suporte de carga",
+      "description": "[
+        \"A placa padrão é fatiada e depois combinada com a placa frontal e a camada de contato. A placa acabada é usada para revestimento IMV, chip de interface de fase e subsequente fabricação de banda guia de energia.\"
+      ]",
+      "dependencies": [
+        "4B52A27A5FFE5740"
+      ],
+      "tasks": [
+        {
+          "id": "4B50EC9E77FA2EA1",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_plate",
+      "x": 24,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B551135A9953520",
+      "title": "Haste de material de base cerâmica de transferência de fase imaginária",
+      "subtitle": "Núcleo de haste metálica com revestimento cerâmico",
+      "description": "[
+        \"O corpo cerâmico principal é usinado em tiras e coberto com um núcleo de haste de metal contínuo. O núcleo de metal é responsável pela resistência e suporte contínuo, e a camada externa de cerâmica fornece isolamento.\"
+      ]",
+      "dependencies": [
+        "4B52A27A5FFE5740",
+        "4B5B0D8BECDD8667"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E7FC954A24BD4",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_rod",
+      "x": 24,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B510189BD9FF3DE",
+      "title": "Componentes da estrutura de material de base cerâmica de transferência de fase imaginária",
+      "subtitle": "Conexão de vigas isolantes de cerâmica com peças de canto",
+      "description": "[
+        \"Combine a viga de cerâmica e a estrutura frontal do palco e adicione conectores de metal e juntas flexíveis nas juntas de canto. A estrutura serve então como estrutura de suporte de carga para o chassi IMV e montagem do circuito.\"
+      ]",
+      "dependencies": [
+        "4B551135A9953520",
+        "4B5CE948D6826C57"
+      ],
+      "tasks": [
+        {
+          "id": "4B52D4A5D6348BDE",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_frame",
+      "x": 20,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B53DA1823327C30",
+      "title": "Anel de material base cerâmico de transferência de fase imaginária",
+      "subtitle": "Permitir junta de expansão para anel cerâmico",
+      "description": "[
+        “Inclua as peças cerâmicas do setor no anel frontal e use juntas flexíveis para conectar cada segmento. O novo anel é usado para montar a interface hermética, o invólucro e o atuador.”
+      ]",
+      "dependencies": [
+        "4B551135A9953520",
+        "4B5D238ED26E8E21"
+      ],
+      "tasks": [
+        {
+          "id": "4B5102FDDC78A940",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_ring",
+      "x": 16,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5313D7F4421690",
+      "title": "Folha de material de base cerâmica de transferência de fase imaginária",
+      "subtitle": "Deposição de camada cerâmica em folha metálica fina",
+      "description": "[
+        \"Uma fina camada de cerâmica é formada primeiro e, em seguida, as bordas são seladas em baixa temperatura. A folha de suporte mantém a continuidade do material fino para filme dielétrico e embalagem de chips.\"
+      ]",
+      "dependencies": [
+        "4B5B0B519F2E3201",
+        "4B5B35081715CDC4"
+      ],
+      "tasks": [
+        {
+          "id": "4B50A4A97643A15E",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_foil",
+      "x": 12,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5E86444626FE39",
+      "title": "Fio fino composto de material de base cerâmica de transferência de fase de número imaginário",
+      "subtitle": "Adicionando isolamento cerâmico a um núcleo metálico contínuo",
+      "description": "[
+        \"Cubra os fios de metal finos existentes com uma fina camada de cerâmica. A condução é fornecida pelo núcleo contínuo, e o revestimento externo é usado para interconexão e fiação de isolamento de baixa temperatura neste nível.\"
+      ]",
+      "dependencies": [
+        "4B551135A9953520",
+        "4B5DE9FBF4314D00"
+      ],
+      "tasks": [
+        {
+          "id": "4B585BF6AD907B44",
+          "type": "item",
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_fine_wire",
+      "x": 8,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5B197DD2CD1C96",
+      "title": "Bloco mecânico IMV",
+      "subtitle": "Instale a camada de trabalho cerâmica no invólucro IMV",
+      "description": "[
+        “Guarde o bloco mecânico QAV completo e instale a placa cerâmica, moldura, anel, portas e vedações. O material produzido pelo equipamento frontal é suficiente para completar o primeiro lote de carcaças.”
+      ]",
+      "dependencies": [
+        "4B5B0B519F2E3201",
+        "4B510189BD9FF3DE",
+        "4B53DA1823327C30",
+        "4B5792CC8C53B87D"
+      ],
+      "tasks": [
+        {
+          "id": "4B55472AA8782F13",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_imv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_imv",
+      "x": 4,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B532C29B77787DE",
+      "title": "Desmontagem em camadas da caixa IMV",
+      "subtitle": "Desmontando a caixa IMV aposentada",
+      "description": "[
+        “Após a desmontagem em camadas, o núcleo do QAV e parte da forma cerâmica completa são recuperados. O restante do corpo é convertido em resíduo classificado, e os terminais, solda e materiais de vedação são consumidos junto com a desmontagem.”
+      ]",
+      "dependencies": [
+        "4B5B197DD2CD1C96"
+      ],
+      "tasks": [
+        {
+          "id": "4B530B2B9752F65F",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_n14"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_qav",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_qav",
+      "x": 30,
+      "y": 34,
+      "optional": true
+    },
+    {
+      "id": "4B5DAEB02D96FEF4",
+      "title": "Componentes de reciclagem de materiais de base cerâmica de transferência de fase imaginária",
+      "subtitle": "Separando os componentes cerâmicos reconstrutíveis",
+      "description": "[
+        \"Use o solvente de processo Soul Steel para lavar os acessórios e depois centrifugue para separar os componentes recuperados e os rejeitos. A parte reconstruível representa três quartos do corpo principal e é enviada separadamente para reabastecimento.\"
+      ]",
+      "dependencies": [
+        "4B5DA9B39AA3192A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5344F56374CA0A",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_n15"
+          ],
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_recovered_fraction",
+      "x": 34,
+      "y": 34,
+      "optional": true
+    },
+    {
+      "id": "4B52B7D13D3FD0E0",
+      "title": "IMV refeito com materiais reciclados",
+      "subtitle": "Cerâmicas recicladas ainda são refeitas a partir de lama precursora",
+      "description": "[
+        \"Misture os componentes recuperados com o novo corpo e reinvista a nucleação e os materiais auxiliares de interface necessários para este lote. A pasta precursora resultante continua a passar por transferência de fase, têmpera e selagem.\"
+      ]",
+      "dependencies": [
+        "4B51BD9AC12E0B48",
+        "4B58995F28EDFECA"
+      ],
+      "tasks": [
+        {
+          "id": "4B57713F11D0832D",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_n16"
+          ],
+          "item": "hk3gtl:imaginary_phase_transfer_ceramic_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_phase_transfer_ceramic_stage_1",
+      "x": 38,
+      "y": 34,
+      "optional": true
+    },
+    {
+      "id": "4B58594CCCCF2831",
+      "title": "Solidificação da cauda IMV",
+      "subtitle": "Sequestro de rejeitos cerâmicos falhados",
+      "description": "[
+        “O rejeito não reciclável após solidificação e separação com concreto é aproveitado para obtenção de resíduos inertes. Essa parte do material sai do processo de reciclagem cerâmica nesse nível.”
+      ]",
+      "dependencies": [
+        "4B5DA9B39AA3192A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EA6D9F6B49372",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_n17"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 42,
+      "y": 34,
+      "optional": true
+    },
+    {
+      "id": "4B589702DC029F9A",
+      "title": "Conjunto de revestimento de contenção de pressão diferencial",
+      "subtitle": "Anexe monitoramento de pressão independente ao revestimento de contenção",
+      "description": "[
+        \"Montar o revestimento da nave espacial e a interface de monitoramento de pressão diferencial em um conjunto. Fabricado primeiro em um centro de usinagem de precisão existente e posteriormente usado em embarcações de contenção formais e instalações de captura.\"
+      ]",
+      "dependencies": [
+        "4B53AFBD8F5499DB",
+        "4B5BC3E4DF1E7FF5",
+        "4B524A0412C3A425"
+      ],
+      "tasks": [
+        {
+          "id": "4B53FE64FCC43820",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_f01"
+          ],
+          "item": "hk3gtl:differential_containment_liner",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:differential_containment_liner",
+      "x": 0,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B58B6FC383BF579",
+      "title": "Grande Reator de Energia Honkai",
+      "subtitle": "Conecte as posições segmentadas da haste e a interface de troca de calor de alta pressão",
+      "description": "[
+        \"Use o equipamento existente para fabricar um controlador de reator em grande escala e instale controle de posição de haste segmentada e componentes de troca de calor de alta pressão. Após a conclusão do controlador, as instalações serão construídas de acordo com a estrutura e as condições de fornecimento de energia do reator em grande escala.\"
+      ]",
+      "dependencies": [
+        "4B52FD45022F2AFE",
+        "4B5BC3E4DF1E7FF5",
+        "4B563E5F7F702155",
+        "4B524A0412C3A425",
+        "4B5792CC8C53B87D"
+      ],
+      "tasks": [
+        {
+          "id": "4B51D6556AD7D9D4",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_k21"
+          ],
+          "item": "hk3gtl:i21_large_honkai_reactor",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:i21_large_honkai_reactor",
+      "x": 4,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B527B4505AD67DB",
+      "title": "Matriz de captura geral da bolha mundial",
+      "subtitle": "Conecte contêineres, locais de contenção e isolamento de vazamentos",
+      "description": "[
+        “Insira os componentes de contenção dedicados no controlador da matriz de captura. Somente depois que o contêiner vazio e as coordenadas do alvo utilizáveis ​​forem preparados, a matriz entra no processo de captura do mundo real.”
+      ]",
+      "dependencies": [
+        "4B5BC0B208AF6B1C",
+        "4B5BC3E4DF1E7FF5",
+        "4B563E5F7F702155",
+        "4B524A0412C3A425",
+        "4B5792CC8C53B87D"
+      ],
+      "tasks": [
+        {
+          "id": "4B52D945A28A8DBC",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_k27"
+          ],
+          "item": "hk3gtl:i27_world_bubble_capture_array",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:i27_world_bubble_capture_array",
+      "x": 8,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B5AE7672501970C",
+      "title": "Máquina de reciclagem de terminação de bolhas do mundo real",
+      "subtitle": "Deixe uma saída independente para a reciclagem de bolhas no mundo real",
+      "description": "[
+        \"Monte o controlador da máquina de recuperação de terminação e conecte o dispositivo de terminação, triagem de sucata e saída de fluido. Depois de concluído, ele será usado para processar bolhas do mundo real que foram legalmente seladas.\"
+      ]",
+      "dependencies": [
+        "4B5278C607A98950"
+      ],
+      "tasks": [
+        {
+          "id": "4B50C961B28A76E4",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_k28"
+          ],
+          "item": "hk3gtl:i28_world_bubble_termination_reclaimer",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:i28_world_bubble_termination_reclaimer",
+      "x": 12,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B50F95FD0FE0059",
+      "title": "Recipiente vazio de contenção de bolhas mundiais",
+      "subtitle": "Crie primeiro um contêiner vazio e depois prepare-se para capturá-lo",
+      "description": "[
+        “Monte o invólucro vazio, a interface de restrição e o revestimento de contenção no Centro de Assembléia Chave de Deus para concluir a calibração e vedação em campo. Depois que o recipiente vazio for obtido, ele será entregue ao processo de captura de bolhas no mundo real.”
+      ]",
+      "dependencies": [
+        "4B53AFBD8F5499DB",
+        "4B5BC3E4DF1E7FF5",
+        "4B563E5F7F702155",
+        "4B524A0412C3A425"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B68CD5220E7C6",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_g04"
+          ],
+          "item": "hk3gtl:empty_bubble_containment_vessel",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:empty_bubble_containment_vessel",
+      "x": 16,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B5D57814FE4D3C3",
+      "title": "Componente de terminação de bolha mundial",
+      "subtitle": "Fornece fonte de fabricação independente para dispositivos de terminação",
+      "description": "[
+        “Montar os componentes estruturais e de calibração anteriormente disponíveis em peças terminais. Essas peças são realmente consumidas com a operação do terminal e são usadas pelos processos correspondentes nas bolhas do mundo real e simulado.”
+      ]",
+      "dependencies": [
+        "4B5278C607A98950"
+      ],
+      "tasks": [
+        {
+          "id": "4B535716C01E7C80",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_imv_g06"
+          ],
+          "item": "hk3gtl:bubble_termination_charge",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:bubble_termination_charge",
+      "x": 20,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B5BA171379664CC",
+      "title": "Conjunto imaginário de ferramenta de acoplamento de combustível",
+      "subtitle": "Ferramentas de ativação · Condições de trabalho do QAV",
+      "description": "[
+        “Faça ferramentas duráveis ​​para preparar combustível energético e guarde-as após instalá-las no equipamento correspondente.”
+      ]",
+      "dependencies": [
+        "4B52FD45022F2AFE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FA383D72AC9DA",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_energy_t03"
+          ],
+          "item": "hk3gtl:imaginary_fuel_coupling_fixture",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_fuel_coupling_fixture",
+      "x": 30,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5FFE2FA5B8C97F",
+      "title": "Nova preparação de combustível de colapso de acoplamento imaginário",
+      "subtitle": "Combustível energético · Condições de operação do QAV",
+      "description": "[
+        “Prepare combustível energético novo para o reator correspondente. Continue a consumi-lo de acordo com o número real de hastes físicas. Primeiro, conecte o tanque de armazenamento e reabasteça o fluido.”
+      ]",
+      "dependencies": [
+        "4B5BA171379664CC"
+      ],
+      "tasks": [
+        {
+          "id": "4B517A9C0867E464",
+          "type": "custom",
+          "title": "Conclusão prática da nova preparação de combustível de colapso de acoplamento imaginário",
+          "tags": [
+            "hk3gtl_quest_energy_f03"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:fuel_matrix",
+      "x": 34,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5D8B4510122249",
+      "title": "Grande Reator de Energia Honkai·Barras de Combustível Honkai",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira as barras de combustível Honkai no grande reator de energia Honkai e reabasteça o combustível Honkai acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Primeira produção comum, inicialização de baixo custo. O resfriamento é realizado por um loop independente baseado no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B54E0188C577242",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia Honkai em grande escala e das barras de combustível Honkai",
+          "tags": [
+            "hk3gtl_quest_energy_i21_01"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_fuel_rod",
+      "x": 0,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5AF9C193C1225E",
+      "title": "Reator de energia Honkai em grande escala·Barras de combustível Honkai concentradas",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira barras de combustível Honkai concentradas em grandes reatores de energia Honkai e reabasteça o combustível Honkai de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
+        \"Carga fixa 4 grupos, especificação 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Combustível concentrado de longo período, a maior carga de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D12677A3E6BA8",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia Honkai em grande escala e das barras de combustível Honkai concentradas",
+          "tags": [
+            "hk3gtl_quest_energy_i21_02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_dense_honkai_fuel_rod",
+      "x": 4,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5A512F4D2B08FF",
+      "title": "Reator de energia Honkai em grande escala · Cartucho de combustível de colapso do núcleo de carbono adsorvido",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira o cartucho de combustível de colapso do núcleo de carbono adsorvido no reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carga fixa de 4 grupos, especificação 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Transportador de carbono poroso, menor carga de calor. O resfriamento é realizado por loops independentes com base no inventário de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B53D195F3D7B4E8",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia Honkai em grande escala e do cartucho de combustível Honkai com núcleo de carbono adsorvido",
+          "tags": [
+            "hk3gtl_quest_energy_i21_03"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_carbon_fuel",
+      "x": 8,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B59A5EA531887E6",
+      "title": "Reator de energia de colapso em grande escala·Hastes direcionais de transporte de energia de peneira molecular",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira hastes direcionais de transporte de energia da peneira molecular em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso do acoplamento imaginário de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consumindo 16mB de combustível de colapso de acoplamento imaginário. Adsorvendo transportadores, sacrificando energia para liberação de energia estável. O resfriamento é realizado por um loop independente baseado no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B57DE25ECE28C44",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala · Varetas direcionais de transporte de energia da peneira molecular",
+          "tags": [
+            "hk3gtl_quest_energy_i21_04"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_zeolite_fuel",
+      "x": 12,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5B164EEDF57442",
+      "title": "Reator de energia Honkai em grande escala · Partículas de combustível Honkai solidificadas em gel de sílica",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Carregue partículas de combustível Honkai solidificadas com sílica gel em um grande reator de energia Honkai e reabasteça o combustível Honkai de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carga fixa de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. O gel é disperso uniformemente e funciona por um longo período. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A2C0FA30EE7F9",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia Honkai em grande escala · Partículas de combustível Honkai solidificadas em gel de sílica",
+          "tags": [
+            "hk3gtl_quest_energy_i21_05"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_silica_gel_fuel",
+      "x": 16,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B52EC57B8BA6349",
+      "title": "Reator de energia de colapso em grande escala · Varetas de combustível cerâmicas porosas de carboneto de silício",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira barras de combustível de cerâmica porosa de carboneto de silício em reatores de energia coloidal de grande escala e reabasteça o combustível em colapso acoplado imaginário de acordo com a quantidade de carga. Cada uma das quatro especificações do grupo de barras tem registros operacionais completos e qualquer uma é selecionada para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Cerâmica resistente ao calor, potência balanceada e dissipação de calor. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E6C38A18EAAF3",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala·barras de combustível de cerâmica porosa de SiC",
+          "tags": [
+            "hk3gtl_quest_energy_i21_06"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_silicon_carbide_fuel",
+      "x": 20,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5E1C5E408060A6",
+      "title": "Reator de energia de colapso em grande escala · Cartucho de combustível de partículas gradientes de carboneto de boro",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira cartuchos de combustível de partículas gradientes de carboneto de boro em reatores de energia coloidal de grande escala e reabasteça o combustível em colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carga fixa 4 grupos, especificação 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Absorção e restrições locais, maior HW. O resfriamento é realizado por loops independentes de acordo com o estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B533005462E2551",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala e do cartucho de combustível de partículas gradientes de carboneto de boro",
+          "tags": [
+            "hk3gtl_quest_energy_i21_07"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_boron_carbide_fuel",
+      "x": 24,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B594DF57FFFFA74",
+      "title": "Grande reator de energia de colapso · Grânulos de combustível cerâmicos com gradiente de óxido de zircônio",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Carregue esferas de combustível cerâmico gradiente de óxido de zircônio em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Transportador estável de alta temperatura, o resfriamento precisa ser melhorado. O resfriamento é realizado por um loop independente de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A9595FD85FC7F",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala·Grânulos de combustível cerâmicos com gradiente de óxido de zircônio",
+          "tags": [
+            "hk3gtl_quest_energy_i21_08"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_zirconia_fuel",
+      "x": 24,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5A01890D5DA8E5",
+      "title": "Reator de energia Honkai em grande escala·Núcleo de combustível Honkai com esqueleto de cobre e diamante",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira o núcleo de combustível de colapso do esqueleto de diamante-cobre no reator de energia de colapso em grande escala e reabasteça o combustível de colapso do acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carga fixa de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Portadora de alta condutividade térmica, reduzindo o consumo de resfriamento. O resfriamento é realizado por loops independentes de acordo com o armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F7138DD09BE6C",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia Honkai em grande escala·Núcleo de combustível Honkai com esqueleto de cobre e diamante",
+          "tags": [
+            "hk3gtl_quest_energy_i21_09"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_diamond_copper_fuel",
+      "x": 20,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5163920A7A0E32",
+      "title": "Grande reator de energia de colapso · Folha de combustível de colapso de camada intermediária de grafeno",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira folhas de combustível de colapso intercalar de grafeno em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, especificação de 1 link, um total de 4 hastes físicas; consumo de 16mB de combustível de colapso de acoplamento imaginário. Microrrede térmica, levando em consideração geração de energia e HW. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B57C0A0AE369AC9",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia Honkai em grande escala · Folha de combustível Honkai de camada intermediária de grafeno",
+          "tags": [
+            "hk3gtl_quest_energy_i21_10"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_graphene_fuel",
+      "x": 16,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B58C9A8796A786A",
+      "title": "Reator de energia de colapso em grande escala · Bloco de combustível de cermet de carboneto de titânio",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira blocos de combustível de cermet de carboneto de titânio em reatores de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, especificação de 1 link, 4 hastes físicas no total; consome 16mB de combustível de colapso de acoplamento imaginário. Geração máxima de energia em curto período, maior rendimento de combustível e resfriamento. O resfriamento é realizado por loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D66927AEC200D",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala e do bloco de combustível cermet de carboneto de titânio",
+          "tags": [
+            "hk3gtl_quest_energy_i21_11"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_titanium_carbide_fuel",
+      "x": 12,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B580B91DC7A6A67",
+      "title": "Reator de energia de colapso em grande escala·Leito de combustível de microesferas isolado com alumina",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira um leito de combustível de microesferas isolantes de alumina em um reator de energia de colapso em grande escala e reabasteça o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um é selecionado para completar um lote.\",
+        \"Carga fixa de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Cerâmica de alto rendimento, ciclo operacional mais longo. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelismo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D56B65A4049D5",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala·Leito de combustível de microesferas isolado com alumina",
+          "tags": [
+            "hk3gtl_quest_energy_i21_12"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_alumina_fuel",
+      "x": 8,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5EDF98AEBC94D1",
+      "title": "Reator de energia de colapso em grande escala · Cartucho de combustível de colapso de microcanais de tungstênio",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira o cartucho de combustível de colapso de microcanais de tungstênio no reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Esqueleto metálico de alta potência, maior fornecimento de HW. O resfriamento é realizado por loops independentes baseados no armazenamento de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B59AEB3E4018975",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala e do cartucho de combustível de colapso de microcanais de tungstênio",
+          "tags": [
+            "hk3gtl_quest_energy_i21_13"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_tungsten_fuel",
+      "x": 4,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B514DE6340A7812",
+      "title": "Reator de energia de colapso em grande escala · Cartucho de combustível de membrana de extremidade fria de PTFE",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Insira um cartucho de combustível de membrana de extremidade fria de PTFE em um reator de energia de colapso em grande escala e reabasteça o combustível de colapso acoplado imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes possui registros operacionais completos e qualquer um pode ser selecionado para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Baixo transportador de filme térmico, direcionado para HW e menos consumíveis de resfriamento. O resfriamento é realizado por loops independentes com base no estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EA435227F1C58",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala · Cartucho de combustível de membrana de extremidade fria de PTFE",
+          "tags": [
+            "hk3gtl_quest_energy_i21_14"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_ptfe_membrane_fuel",
+      "x": 0,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B50222A3B881CAF",
+      "title": "Reator de energia de colapso em grande escala · Partículas de combustível de microcápsula de extremidade fria PBI",
+      "subtitle": "Liberação de alta energia · Escolha uma das quatro especificações do conjunto de hastes",
+      "description": "[
+        \"Carregue partículas de combustível de microcápsula de extremidade fria PBI no reator de energia de colapso em grande escala e complemente o combustível de colapso de acoplamento imaginário de acordo com a quantidade de carregamento. Cada uma das quatro especificações do grupo de hastes tem registros operacionais completos e qualquer uma pode ser selecionada para completar um lote.\",
+        \"Carregamento fixo de 4 grupos, 1 link, um total de 4 hastes físicas; consome 16mB de combustível de colapso de acoplamento imaginário. Porta-microcápsulas de alto HW, o ciclo operacional mais longo. O resfriamento é realizado por um loop independente de acordo com o estoque de calor. Paralelo único, sem overclocking comum. O resfriamento industrial e o processamento de hastes gastas continuam a usar canais independentes.\"
+      ]",
+      "dependencies": [
+        "4B5FFE2FA5B8C97F",
+        "4B58B6FC383BF579"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DDED7CCE3FFB4",
+          "type": "custom",
+          "title": "Conclusão real do reator de energia de colapso em grande escala · Partículas de combustível de microcápsula de extremidade fria PBI",
+          "tags": [
+            "hk3gtl_quest_energy_i21_15"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_pbi_microcapsule_fuel",
+      "x": 0,
+      "y": 60,
+      "optional": true
+    },
+    {
+      "id": "4B52FD45022F2AFE",
+      "title": "Engenharia de grandes reatores",
+      "subtitle": "RN-LRE · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Componente de embalagem de combustível × 1; papel × 2; ferramentas não são consumidas.\",
+        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. A operação de alta carga e os registros do orçamento de calor estão completos, incluindo equipamentos e consumo real; a quantidade original do objeto testado é devolvida e os resultados experimentais são registrados após a conclusão.\",
+        \"Após a conclusão do experimento, escolha 2.160 pontos de pesquisa ou circuito QAV × 6, placa de liga de sílica × 88 para pagar a taxa básica; são necessários 18.000 ticks adicionais e 131.941.395.333.120 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as condições de construção e fornecimento de energia do reator de energia de colapso em grande escala serão desbloqueadas.”
+      ]",
+      "dependencies": [
+        "4B50866329B1DB0E",
+        "4B540C3CD6E1C789",
+        "4B5DAE3681232992"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EC8B317D7A47D",
+          "type": "custom",
+          "title": "Projeto completo de reator em grande escala",
+          "tags": [
+            "hk3gtl_quest_rn_lre"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:reactor_stabilizer",
+      "x": 0,
+      "y": 32,
+      "optional": false
+    }
+  ]
+}

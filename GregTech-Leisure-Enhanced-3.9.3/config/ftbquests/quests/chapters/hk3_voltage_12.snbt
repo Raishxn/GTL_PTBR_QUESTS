@@ -1,0 +1,1296 @@
+{
+  "filename": "hk3_voltage_12",
+  "id": "4B543F89AF0A5106",
+  "title": "pressão entrelaçada IWV",
+  "subtitle": [
+    "Tier26-IWV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 27,
+  "icon": "hk3gtl:voltage_machine_casing_iwv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B550793D401AB93",
+      "title": "Continuar do workshop IRV",
+      "subtitle": "IRV → IWV",
+      "description": "[
+        \"O chassi frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos IWV.\",
+        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
+      ]",
+      "dependencies": [
+        "4B5047CFCF54095D"
+      ],
+      "tasks": [
+        {
+          "id": "4B512C34237CF11D",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_irv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_irv",
+      "x": 0,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B554BB5535995AC",
+      "title": "Painel traseiro em tecido multieixos",
+      "subtitle": "Conecte interconexões multieixos ao mesmo backplane",
+      "description": "[
+        \"Monte o chip de mapeamento de reconfiguração com a placa de tecelagem, folha e fios em um backplane. Cada domínio de execução é derivado independentemente do backplane e o isolamento entre os sinais é mantido.\"
+      ]",
+      "dependencies": [
+        "4B5A107779BBFE70",
+        "4B5D72A8038355BA",
+        "4B583341EE7E3E10"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FE8336857F40E",
+          "type": "item",
+          "item": "hk3gtl:multiaxial_worldweave_backplane",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:multiaxial_worldweave_backplane",
+      "x": 30,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5AA85D77721DC8",
+      "title": "Núcleo de monitoramento de consenso de quatro domínios",
+      "subtitle": "Deixe os quatro domínios de execução confirmarem conjuntamente o status",
+      "description": "[
+        \"Um backplane multieixo e armazenamento de computação local são adicionados ao agendador de topologia, e um núcleo de monitoramento de quatro domínios é encapsulado. O status e os registros de diferença de cada domínio são verificados centralmente por este núcleo.\"
+      ]",
+      "dependencies": [
+        "4B5D33359A605FEA",
+        "4B554BB5535995AC",
+        "4B58EE1A2B76080E"
+      ],
+      "tasks": [
+        {
+          "id": "4B51E80F49B00BE6",
+          "type": "item",
+          "item": "hk3gtl:four_domain_consensus_core",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:four_domain_consensus_core",
+      "x": 38,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B56CBBB9B1BB35A",
+      "title": "Atuador de equalização de tensão de feixe de fibras",
+      "subtitle": "Definir atuador independente para tensão do feixe de fibras",
+      "description": "[
+        \"A estrutura de posicionamento da junta remanufaturada é usada, e o anel da haste de tecelagem e o monitoramento de quatro domínios são adicionados. O atuador é usado para o acionamento de nível principal e equipamento de tecido para ajustar a tensão do feixe de fibras.\"
+      ]",
+      "dependencies": [
+        "4B51D732F51F5539",
+        "4B5AA85D77721DC8",
+        "4B51F1C40ADC27D6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E1B8BCC3C8B31",
+          "type": "item",
+          "item": "hk3gtl:tendon_balance_actuator",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:tendon_balance_actuator",
+      "x": 42,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5093F6E877F42E",
+      "title": "Reparar a camisa de resfriamento em seções",
+      "subtitle": "Faça isolamento de manutenção na seção de resfriamento",
+      "description": "[
+        \"Expanda os caminhos de fluxo segmentados e as juntas de isolamento no bloco de troca de calor de fracionamento de massa e instale-os como camisas de resfriamento. Cada segmento é fornecido com fluxo de retorno, para que o equipamento de tecelagem possa ser organizado para manutenção segmentada.\"
+      ]",
+      "dependencies": [
+        "4B5ACE2380A763DC",
+        "4B58EE1A2B76080E",
+        "4B5D72A8038355BA"
+      ],
+      "tasks": [
+        {
+          "id": "4B52359BF7319629",
+          "type": "item",
+          "item": "hk3gtl:segmented_repair_coolant_jacket",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:segmented_repair_coolant_jacket",
+      "x": 34,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5BFA5F02EE43B5",
+      "title": "Host do processador de reconstrução de número imaginário",
+      "subtitle": "Deixe o host reconstruído acessar o estado de quatro domínios",
+      "description": "[
+        \"Os dois supercomputadores front-end são conectados ao backplane multieixo e ao núcleo de monitoramento de quatro domínios, e o resfriamento segmentado é adicionado. O host continua a realizar cálculos e cada domínio de execução retorna o status.\"
+      ]",
+      "dependencies": [
+        "4B5AA85D77721DC8",
+        "4B5093F6E877F42E",
+        "4B51F1C40ADC27D6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D275B89773F18",
+          "type": "item",
+          "item": "hk3gtl:iwv_processor_mainframe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:iwv_processor_mainframe",
+      "x": 46,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B54209CEAB87ACB",
+      "title": "Supercomputador de reconstrução causal",
+      "subtitle": "Estendendo a computação de reconstrução causal em um sistema compartilhado",
+      "description": "[
+        \"Dois conjuntos front-end são usados como unidades de computação para conectar armazenamento compartilhado, monitoramento de quatro domínios e resfriamento neste nível. O status é trocado entre cada domínio por meio de um backplane multieixo.\"
+      ]",
+      "dependencies": [
+        "4B585ADA0A40EFE7",
+        "4B5AA85D77721DC8",
+        "4B5093F6E877F42E",
+        "4B51F1C40ADC27D6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5108D0D486299E",
+          "type": "item",
+          "item": "hk3gtl:causal_reconstruction_computer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:causal_reconstruction_computer",
+      "x": 50,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B589A4490F6D4F2",
+      "title": "Conjunto de processador de textura mundial",
+      "subtitle": "Montando cálculos de textura mundial em componentes completos",
+      "description": "[
+        \"Combinando o processador front-end, a interconexão de vários eixos e o resfriamento segmentado deste estágio completam a montagem do processador. A unidade de execução de tecelagem obtém o circuito de controle a partir daqui.\"
+      ]",
+      "dependencies": [
+        "4B5D9240452A2528",
+        "4B5AA85D77721DC8",
+        "4B5093F6E877F42E",
+        "4B51F1C40ADC27D6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5053ABB2260F09",
+          "type": "item",
+          "item": "hk3gtl:world_weaving_assembly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:world_weaving_assembly",
+      "x": 54,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B57E56EA35B69F4",
+      "title": "processador de sequência final",
+      "subtitle": "Consolidar o status computacional de quatro domínios de execução",
+      "description": "[
+        \"Conecte a unidade de computação front-end completa com a CPU de nível atual, RAM compartilhada e monitoramento de quatro domínios. O processador de cálculo de sequência final é usado pelos equipamentos de construção de limite subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B5AA85D77721DC8",
+        "4B5093F6E877F42E",
+        "4B51F1C40ADC27D6"
+      ],
+      "tasks": [
+        {
+          "id": "4B594D78255F52AA",
+          "type": "item",
+          "item": "hk3gtl:terminal_computation_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:terminal_computation_processor",
+      "x": 54,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B55F78A22E09C20",
+      "title": "Motor elétrico IWV",
+      "subtitle": "Deixe os drivers levarem em consideração a tensão do feixe de fibras de forma síncrona",
+      "description": "[
+        \"Conecte o motor frontal ao atuador de equalização de tensão e ao monitoramento de quatro domínios e, em seguida, instale o resfriamento segmentado. O motor IWV funciona em conjunto com unidades de acionamento independentes.\"
+      ]",
+      "dependencies": [
+        "4B56F24FD29A2397",
+        "4B56CBBB9B1BB35A",
+        "4B5BFA5F02EE43B5"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F1B8CDC2BC233",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_motor_iwv",
+      "x": 50,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5FC703B88F932F",
+      "title": "Pistão elétrico IWV",
+      "subtitle": "Integre a ação telescópica no ajuste de tensão",
+      "description": "[
+        “Combine o pistão frontal, o motor IWV e o atuador de tensão para fixar a nova estrutura de suporte de tecelagem. O status da ação é enviado de volta ao núcleo de monitoramento de quatro domínios para confirmação.”
+      ]",
+      "dependencies": [
+        "4B561F9B4DFFF5FE",
+        "4B55F78A22E09C20"
+      ],
+      "tasks": [
+        {
+          "id": "4B5070234B9DD2DE",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_piston_iwv",
+      "x": 38,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B53368AA813BE19",
+      "title": "Bomba elétrica IWV",
+      "subtitle": "Organize transporte independente para resfriamento seccional",
+      "description": "[
+        \"Conecte o motor IWV e a camisa de resfriamento de manutenção à bomba foreline completa. Cada seção do caminho de fluxo mantém uma interface independente para que a instalação de tecelagem transporte a mídia em seções.\"
+      ]",
+      "dependencies": [
+        "4B5C0479AE802EA5",
+        "4B55F78A22E09C20"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A3D9AC4ED9545",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_pump_iwv",
+      "x": 34,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B585480E9BCC91D",
+      "title": "Módulo transportador IWV",
+      "subtitle": "Permita o transporte em vários estágios para manter uma tensão consistente nos feixes de fibras",
+      "description": "[
+        \"A montagem final é concluída com o módulo de transmissão frontal, motor IWV e atuador de equilíbrio de tensão. O monitoramento de quatro domínios verifica o status de cada seção e depois coordena o transporte.\"
+      ]",
+      "dependencies": [
+        "4B562188ED56D095",
+        "4B55F78A22E09C20"
+      ],
+      "tasks": [
+        {
+          "id": "4B560604A0FA4A39",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:conveyor_module_iwv",
+      "x": 30,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5944B034A510E0",
+      "title": "Braço robótico IWV",
+      "subtitle": "Execução combinada de posicionamento, telescopagem e tensionamento",
+      "description": "[
+        \"Conecte o motor IWV e o pistão ao braço robótico frontal, instale o atuador de tensão e a leitura multieixo. A nova estrutura de tecelagem é responsável pela conexão da junta cruzada.\"
+      ]",
+      "dependencies": [
+        "4B5EEF4595E0877B",
+        "4B5FC703B88F932F"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CF6C0ACEE9C37",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:robot_arm_iwv",
+      "x": 34,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B51FCD36701F330",
+      "title": "Sensor IWV",
+      "subtitle": "Fornece amostragem independente para monitoramento de quatro domínios",
+      "description": "[
+        \"Conecte o sensor frontal ao backplane multieixo e ao núcleo de monitoramento de quatro domínios para completar o empacotamento e o controle de temperatura neste nível. O produto acabado pode ser usado pelo sistema de controle e execução de campo IWV para ler o status.\"
+      ]",
+      "dependencies": [
+        "4B5B4ED784F8069B",
+        "4B5BFA5F02EE43B5"
+      ],
+      "tasks": [
+        {
+          "id": "4B5BEEC97ECA2455",
+          "type": "item",
+          "item": "hk3gtl:sensor_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:sensor_iwv",
+      "x": 46,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5147A08FF8EE4D",
+      "title": "Transmissor IWV",
+      "subtitle": "Deixe a ramificação de transmissão participar da confirmação de quatro domínios",
+      "description": "[
+        \"Uma interface multieixo, monitoramento de quatro domínios e resfriamento segmentado são instalados fora do transmissor do estágio frontal. O status de lançamento está conectado ao registro síncrono do domínio de execução deste estágio.\"
+      ]",
+      "dependencies": [
+        "4B5F8F94848446F8",
+        "4B5BFA5F02EE43B5"
+      ],
+      "tasks": [
+        {
+          "id": "4B59BA7F63B3A85F",
+          "type": "item",
+          "item": "hk3gtl:emitter_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:emitter_iwv",
+      "x": 42,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B58094B09D418D5",
+      "title": "Gerador de campo de força IWV",
+      "subtitle": "Conecte o monitoramento de quatro domínios ao dispositivo de controle de campo",
+      "description": "[
+        \"Combine o transmissor IWV, o sensor e o gerador de campo de força frontal completo. Depois que o suporte de tecelagem e o resfriamento segmentado forem concluídos, cada ramo de controle de campo fornecerá feedback do status, respectivamente.\"
+      ]",
+      "dependencies": [
+        "4B536F4EABD4A6C1",
+        "4B51FCD36701F330",
+        "4B5147A08FF8EE4D"
+      ],
+      "tasks": [
+        {
+          "id": "4B5389A00F94294E",
+          "type": "item",
+          "item": "hk3gtl:field_generator_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:field_generator_iwv",
+      "x": 30,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B57CCE972637222",
+      "title": "Pacote de sutura multiaxial direção Z",
+      "subtitle": "Primeiro teça os feixes de conexão na direção da espessura",
+      "description": "[
+        \"O feixe de sutura na direção Z é feito do material frontal para conectar os quatro tipos de camadas funcionais na direção da espessura quando elas são combinadas. O feixe de sutura é realmente consumido com o processo de co-cura.\"
+      ]",
+      "dependencies": [
+        "4B5C62FF4A7DBDB8",
+        "4B5C28B4D0219CF4"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C54BD3666C44F",
+          "type": "item",
+          "item": "hk3gtl:stitched_multiaxial_z_binder",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:stitched_multiaxial_z_binder",
+      "x": 0,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B512AFF5875857B",
+      "title": "Resina de infusão de co-cura multieixo",
+      "subtitle": "Preparando nova resina para disposição multieixo",
+      "description": "[
+        \"A resina de infusão co-curada é preparada com fluido transportador fresco e componentes de dispersão. O primeiro lote de materiais de contorno de tecido é obtido a partir daqui, e quatro tipos de camadas de reforço são preparados respectivamente.\"
+      ]",
+      "dependencies": [
+        "4B5C62FF4A7DBDB8"
+      ],
+      "tasks": [
+        {
+          "id": "4B5325F19E5677D8",
+          "type": "custom",
+          "title": "Conclusão real da resina impregnada de cocura multieixo",
+          "tags": [
+            "hk3gtl_quest_iwv_n02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5BFCA81D26404E",
+      "title": "Camada de reforço cerâmico",
+      "subtitle": "Fabricação separada de camadas de reforço cerâmico",
+      "description": "[
+        \"Use uma parte do corpo do IRV para transportar a camada cerâmica para completar a superfície isolante e resistente à corrosão. Uma vez feita, ela permanece como uma camada separada e se funde com as camadas condutora, de suporte de carga e de reparo durante a co-cura.\"
+      ]",
+      "dependencies": [
+        "4B57CCE972637222",
+        "4B512AFF5875857B"
+      ],
+      "tasks": [
+        {
+          "id": "4B569B1240FC24BC",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_stage_1",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_stage_1",
+      "x": 8,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B540CA081FC544D",
+      "title": "camada de reforço do condutor",
+      "subtitle": "Primeiro organize os condutores contínuos em camadas",
+      "description": "[
+        “Os condutores são dispostos em outro corpo independente, deixando isolamento entre as juntas. A camada condutora fornece conexão elétrica contínua e é posteriormente fundida com as outras três camadas.”
+      ]",
+      "dependencies": [
+        "4B5E95308F894527",
+        "4B57CCE972637222",
+        "4B512AFF5875857B"
+      ],
+      "tasks": [
+        {
+          "id": "4B56BD71C915656C",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_stage_2",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_stage_2",
+      "x": 12,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B567BDAB7A4B467",
+      "title": "camada de reforço de suporte de carga",
+      "subtitle": "Organize o fio interno e o feixe na direção Z juntos",
+      "description": "[
+        \"Use um corpo independente para preparar a camada de suporte de carga, permitindo que o fio interno e os feixes de sutura suportem a mesma carga. As hastes de ancoragem existentes mantêm suporte contínuo entre os nós.\"
+      ]",
+      "dependencies": [
+        "4B57CCE972637222",
+        "4B512AFF5875857B"
+      ],
+      "tasks": [
+        {
+          "id": "4B5437354AFEF847",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_stage_3",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_stage_3",
+      "x": 16,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B511F679FAD37B4",
+      "title": "Camada de aprimoramento de reparo",
+      "subtitle": "Deixe um canal para alimentação posterior",
+      "description": "[
+        “A camada de reparo é preparada usando o quarto corpo principal, o nanogrupo controlado e a camada fina combinada. Um canal de alimentação é reservado na camada, e os materiais reais ainda precisam ser investidos em reparos subsequentes.”
+      ]",
+      "dependencies": [
+        "4B57CCE972637222",
+        "4B512AFF5875857B"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AE8FA9B665C85",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_stage_4",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_stage_4",
+      "x": 20,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5E808E92ED10E1",
+      "title": "Blank co-curado multieixo de quatro camadas",
+      "subtitle": "As quatro camadas funcionais são mescladas aqui",
+      "description": "[
+        \"As camadas independentes de cerâmica, condutores, suporte de carga e reparo são colocadas juntas, e feixes de direção Z são usados para penetrar na direção da espessura e depois são impregnados e co-curados. Os quatro ramos juntos formam o corpo principal da trama completa.\"
+      ]",
+      "dependencies": [
+        "4B5BFCA81D26404E",
+        "4B540CA081FC544D",
+        "4B567BDAB7A4B467",
+        "4B511F679FAD37B4"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F7AF16C8BDE5C",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_stage_5",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_stage_5",
+      "x": 24,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5E237BE9D5295C",
+      "title": "Boleto padrão de material compósito multiaxial Weijie",
+      "subtitle": "Sele as extremidades do feixe de fibras após o corte",
+      "description": "[
+        \"O tarugo co-solidificado é cortado no comprimento certo e, em seguida, a face final e o feixe exposto na direção Z são protegidos. O tarugo padrão retém quatro tipos de camadas funcionais para processamento subsequente de seis formatos.\"
+      ]",
+      "dependencies": [
+        "4B5E808E92ED10E1"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FB6C6BD9E2DAD",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_billet",
+      "x": 24,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5E9D884F080FAF",
+      "title": "Painéis compostos multieixos Zhijie",
+      "subtitle": "Mantenha as costuras na direção da espessura dentro da placa",
+      "description": "[
+        \"Combine a placa de tecelagem com a placa frontal e adicione a camada de conexão multiaxial. A disposição plana e os feixes de direção Z fixam conjuntamente cada camada, e o produto acabado é usado para invólucros e placas traseiras IWV.\"
+      ]",
+      "dependencies": [
+        "4B5E237BE9D5295C"
+      ],
+      "tasks": [
+        {
+          "id": "4B585E6AD0F6975B",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_plate",
+      "x": 20,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5DA11954D384B6",
+      "title": "Haste composta multieixo Weaver",
+      "subtitle": "Entrelaçamento multidirecional em torno de um núcleo de haste contínua",
+      "description": "[
+        “Os feixes de suporte de carga e os feixes condutores são entrelaçados ao longo do núcleo da haste do estágio frontal e o isolamento é adicionado na interseção. As hastes compostas são usadas para a estrutura, o anel e os fios finos deste estágio para continuar o processamento.
+      ]",
+      "dependencies": [
+        "4B5C227BCE87D1A0",
+        "4B5E237BE9D5295C"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DA34B10A35BE5",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_rod",
+      "x": 16,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B51F1C40ADC27D6",
+      "title": "Componentes da estrutura composta multieixos Zhijie",
+      "subtitle": "Conecte os nós da estrutura com vigas na direção Z",
+      "description": "[
+        \"Conecte a viga multieixo à estrutura frontal e costure quatro tipos de estruturas funcionais nos nós. A estrutura completa fornece capacidade de carga para o chassi, circuitos e dispositivos de controle de campo.\"
+      ]",
+      "dependencies": [
+        "4B53A74264E8AA6F",
+        "4B5DA11954D384B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B527B0F70FCEF66",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_frame",
+      "x": 12,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B58EE1A2B76080E",
+      "title": "Anel composto multieixo tecido",
+      "subtitle": "Deixe os feixes de fios circunferenciais e diagonais se cruzarem e envolverem",
+      "description": "[
+        \"Monte a haste de tecelagem com o anel pré-amplificador, espace os condutores cruzados e costure o anel. O anel acabado fornece uma conexão contínua ao chassi e à interface executiva.\"
+      ]",
+      "dependencies": [
+        "4B5C12D4075281D2",
+        "4B5DA11954D384B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5350D48852D728",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_ring",
+      "x": 8,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5D72A8038355BA",
+      "title": "Tecelagem de folha composta multiaxial mundial",
+      "subtitle": "Refine as conexões de costura em folha fina",
+      "description": "[
+        \"Conectando camadas finas com feixes finos na direção Z, mantendo a flexibilidade da folha frontal. A folha tecida continua a fornecer embalagens eletrônicas e backplanes multieixos.\"
+      ]",
+      "dependencies": [
+        "4B51AB271C65658D",
+        "4B5E9D884F080FAF"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FAE9BE50B8BB0",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_foil",
+      "x": 4,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B583341EE7E3E10",
+      "title": "Fio fino composto multieixo Wojie",
+      "subtitle": "Microfeixes multieixos enrolados no núcleo do fio",
+      "description": "[
+        \"O núcleo do fio contínuo é retido, coberto com condutores e microfeixes de suporte de carga e parcialmente isolado nas conexões cruzadas. Fios finos são usados para fiação de componentes eletrônicos e executivos IWV.\"
+      ]",
+      "dependencies": [
+        "4B5858E0D29AF645",
+        "4B5DA11954D384B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5300E5071CE5AC",
+          "type": "item",
+          "item": "hk3gtl:worldweave_multiaxial_composite_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_fine_wire",
+      "x": 0,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B50F2B1C6384AFB",
+      "title": "Bloco mecânico IWV",
+      "subtitle": "Monte quatro camadas de tecido no invólucro",
+      "description": "[
+        “Instale a placa de tecelagem, a estrutura, o anel e a interface especial no bloco mecânico IRV completo. Depois que os quatro tipos de camadas de reforço forem produzidos pelo equipamento frontal, o primeiro lote de invólucros IWV pode ser concluído.”
+      ]",
+      "dependencies": [
+        "4B5047CFCF54095D",
+        "4B5E9D884F080FAF",
+        "4B51F1C40ADC27D6",
+        "4B58EE1A2B76080E"
+      ],
+      "tasks": [
+        {
+          "id": "4B594CD6B6688030",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_iwv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_iwv",
+      "x": 0,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5F389F4A583D51",
+      "title": "Desmontagem em camadas da caixa IWV",
+      "subtitle": "Remova todas as peças do chassi em camadas",
+      "description": "[
+        \"O núcleo do IRV e parte da forma completa de tecelagem foram recuperados do invólucro do IWV desativado. O corpo restante tornou-se material classificado e as portas danificadas, camadas finas e selos foram consumidos com a desmontagem.\"
+      ]",
+      "dependencies": [
+        "4B50F2B1C6384AFB"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EEEF734399F60",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_n16"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_irv",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_irv",
+      "x": 0,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B599A9B720C1F77",
+      "title": "Componentes reciclados de compósitos multiaxiais texturizados",
+      "subtitle": "Separe os resíduos de tecelagem em peças reconstruíveis",
+      "description": "[
+        “Use um solvente para eluir os anexos e depois centrifugue para obter o corpo principal de recuperação e os rejeitos não recuperáveis. O corpo principal de recuperação é responsável por três quartos e entra no processo de reconstrução de quatro camadas.”
+      ]",
+      "dependencies": [
+        "4B5C62FF4A7DBDB8"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C3F1FDFA52A63",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_n17"
+          ],
+          "item": "hk3gtl:worldweave_multiaxial_composite_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_recovered_fraction",
+      "x": 4,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5E289AA63CCF1B",
+      "title": "Material reciclado IWV refeito",
+      "subtitle": "Os quatro tipos de camadas funcionais são reabastecidos separadamente.",
+      "description": "[
+        \"O corpo principal reciclado é dividido uniformemente em quatro ramos de cerâmica, condutores, suporte de carga e reparo, e a mesma quantidade de novo corpo principal e materiais auxiliares completos são adicionados a cada ramo. Após a reconstrução das camadas independentes, elas retornam ao processo de co-cura original para se fundirem.\"
+      ]",
+      "dependencies": [
+        "4B5E95308F894527",
+        "4B57CCE972637222",
+        "4B512AFF5875857B"
+      ],
+      "tasks": [
+        {
+          "id": "4B51613E0AAA7AE8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_n18"
+          ],
+          "item": "hk3gtl:worldweave_multiaxial_composite_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:worldweave_multiaxial_composite_stage_1",
+      "x": 8,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5D344F2EE1A485",
+      "title": "Solidificação de rejeitos IWV",
+      "subtitle": "Selar os rejeitos de tecelagem expirados",
+      "description": "[
+        “Os componentes do tecido que não podem ser reconstruídos são solidificados com concreto para formar um resíduo inerte. Essa parte do corpo principal acaba sendo reciclada neste nível e nos materiais principais subsequentes.”
+      ]",
+      "dependencies": [
+        "4B5C62FF4A7DBDB8"
+      ],
+      "tasks": [
+        {
+          "id": "4B5559A7EF8CE1F4",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_n19"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 12,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B56FADB5DACAA9F",
+      "title": "Pilha de interruptores retificadores segmentados",
+      "subtitle": "Deixe um canal de desligamento independente para fluxo de energia reverso",
+      "description": "[
+        \"As pilhas de chaves retificadoras segmentadas são montadas de modo que cada segmento tenha conexões separadas de retificação e desligamento. A pilha completa de chaves entra então na instalação de retificação e despacho de energia.\"
+      ]",
+      "dependencies": [
+        "4B5ED1C5745F2E12",
+        "4B5C0479AE802EA5",
+        "4B536F4EABD4A6C1"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CB4DE99C27086",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_f01"
+          ],
+          "item": "hk3gtl:rectifier_switching_stack",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:rectifier_switching_stack",
+      "x": 30,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5E623A97B45459",
+      "title": "Centro de retificação de energia imaginária",
+      "subtitle": "Conecte o retificador, o bloqueio reverso e a saída de exaustão de calor residual",
+      "description": "[
+        “Instale os componentes de retificação segmentados no controlador central de retificação de energia imaginária. Após a conclusão, conecte o fluxo de energia correspondente e os canais de calor residual e, em seguida, execute a condição de retificação desbloqueada.”
+      ]",
+      "dependencies": [
+        "4B57F2B27363DE28",
+        "4B5ED1C5745F2E12",
+        "4B5C0479AE802EA5",
+        "4B5EEF4595E0877B",
+        "4B536F4EABD4A6C1",
+        "4B5047CFCF54095D"
+      ],
+      "tasks": [
+        {
+          "id": "4B56F32BDD7728AC",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_k38"
+          ],
+          "item": "hk3gtl:i38_imaginary_energy_rectification_hub",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:i38_imaginary_energy_rectification_hub",
+      "x": 34,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5CDCC7C5310141",
+      "title": "Centro de despacho de energia civilizado",
+      "subtitle": "Configurações separadas de comutação e medição para múltiplas cargas",
+      "description": "[
+        “O controlador central de despacho de energia civilizado é montado e conectado a interruptores de carga independentes e componentes de medição de fluxo de energia. O fornecimento de energia da instalação é organizado de acordo com contas pessoais autorizadas.”
+      ]",
+      "dependencies": [
+        "4B5E3DA7F13B68CF"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D7A68C08A5FA0",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_k41"
+          ],
+          "item": "hk3gtl:i41_civilization_energy_dispatch_hub",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:i41_civilization_energy_dispatch_hub",
+      "x": 38,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B537F2A387BAC7A",
+      "title": "Detector de energia de colapso de estado de energia de quarta ordem",
+      "subtitle": "Reter a amostragem e os componentes diferenciais dos três primeiros pedidos",
+      "description": "[
+        \"Atualize o detector frontal completo e adicione os componentes de isolamento, amostragem e diferenciais necessários para a medição do estado de energia. Após a conclusão do detector, a torre de coleta do quarto estágio correspondente será fabricada.\"
+      ]",
+      "dependencies": [
+        "4B57F2B27363DE28",
+        "4B5ED1C5745F2E12",
+        "4B5C0479AE802EA5",
+        "4B536F4EABD4A6C1",
+        "4B5814457AA6BFBC"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E4E5DC2F61A97",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_d01"
+          ],
+          "item": "hk3gtl:energy_honkai_detector",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:energy_honkai_detector",
+      "x": 42,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B53803FCB6ED34E",
+      "title": "Torre de coleta de energia Honkai nível 4",
+      "subtitle": "Construa uma torre separada para coleta do estado energético",
+      "description": "[
+        \"Montar o detector do quarto estágio e os componentes de controle da torre em um novo controlador. A torre de coleta existente continuará a ser mantida e as linhas de coleta e saída serão organizadas para cada fase.\"
+      ]",
+      "dependencies": [
+        "4B57F2B27363DE28",
+        "4B5ED1C5745F2E12",
+        "4B5C0479AE802EA5",
+        "4B536F4EABD4A6C1",
+        "4B5047CFCF54095D"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CD248A39066AA",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_iwv_d02"
+          ],
+          "item": "hk3gtl:i01_4_honkai_collection_tower",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:i01_4_honkai_collection_tower",
+      "x": 46,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B59E838F2B595FA",
+      "title": "Retificação de energia de colapso gasoso",
+      "subtitle": "Organizar elementos filtrantes e saídas de resfriamento para meios gasosos",
+      "description": "[
+        \"A energia de colapso gasoso é processada no equipamento retificador e as ferramentas da pilha de interruptores retificadores são retidas. Os elementos do filtro com falha, os gases de exaustão quentes do aço alma e o refrigerante quente são coletados separadamente para salvar as condições reais de fluxo de energia.\"
+      ]",
+      "dependencies": [
+        "4B56104221CAD9C4",
+        "4B5E623A97B45459"
+      ],
+      "tasks": [
+        {
+          "id": "4B5178F9EDE2DCB7",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_energy_rectification_gas"
+          ],
+          "item": "hk3gtl:depleted_gas_filter",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:depleted_gas_filter",
+      "x": 0,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B555AA9979ADAFC",
+      "title": "Retificação do núcleo de compressão",
+      "subtitle": "Processe o núcleo sólido e separe o resíduo",
+      "description": "[
+        \"Coloque o núcleo de colapso de compressão e o elemento do filtro de separação em condições de retificação para fornecer refrigerante industrial. Colete resíduos de combustível desativado, resíduos de separação e refrigerante quente, respectivamente, e mantenha registros operacionais reais.\"
+      ]",
+      "dependencies": [
+        "4B56104221CAD9C4",
+        "4B5E623A97B45459"
+      ],
+      "tasks": [
+        {
+          "id": "4B59E3456F20CC7B",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_energy_rectification_core"
+          ],
+          "item": "hk3gtl:inactive_fuel_residue",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:inactive_fuel_residue",
+      "x": 4,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B5E3DA7F13B68CF",
+      "title": "Despacho de energia civilizada",
+      "subtitle": "RN-CED · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Concluir o experimento da equipe no laboratório reverso de tecnologia legada. A dedução real da carga corresponde ao recebimento da capacidade de produção, a conta de pagamento, o volume operacional efetivo e as operações não autorizadas são rejeitadas;
+        \"Após a conclusão do experimento, escolha 4.680 pontos de pesquisa ou circuito IRV × 8, placa de nêutrons × 112 para pagar a taxa básica; são necessários 31.200 ticks adicionais e 8.444.249.301.319.680 EU/t. A correção de pressão do material atual é baseada no nível avançado.\",
+        “O instituto deduz a energia com base na potência total das portas de energia efetivas. Após a conclusão, o gerenciamento de carga do centro de despacho de energia civilizado é desbloqueado; a liquidação é baseada em contas individuais, sem limite superior manual de distância/capacidade/rendimento.”
+      ]",
+      "dependencies": [
+        "4B555AA9979ADAFC"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D02BE6DEF6E9C",
+          "type": "custom",
+          "title": "Despacho completo de energia civilizada",
+          "tags": [
+            "hk3gtl_quest_rn_ced"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:conducting_composite",
+      "x": 30,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5A778130252AF5",
+      "title": "Coordenação de carga de energia",
+      "subtitle": "RN-ELC · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        \"Conclua o experimento da equipe no laboratório reverso de tecnologia legada. A operação real e a partida e parada manuais geram um cronograma verificável para vários dispositivos. A verificação não continuará se o saldo não for autorizado/insuficiente; não permita que a prioridade automática seja desbloqueada primeiro; a quantidade original do objeto inspecionado será devolvida e o experimento estará sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 5.380 pontos de pesquisa ou circuito IWV × 8, placa de nêutrons × 120 para pagar a taxa básica; são necessários 33.600 ticks adicionais e 33.776.997.205.278.720 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
+        “O instituto retém energia com base na potência total das portas de energia efetivas. Após a conclusão, a classificação de carga e a estratégia de alarme serão desbloqueadas sem aumentar a capacidade manual do HKE ou o limite de distância.”
+      ]",
+      "dependencies": [
+        "4B5B07B90B75E8EC"
+      ],
+      "tasks": [
+        {
+          "id": "4B5544C1C8919E9B",
+          "type": "custom",
+          "title": "Coordenação completa de carga de energia",
+          "tags": [
+            "hk3gtl_quest_rn_elc"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:conducting_composite",
+      "x": 46,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B57F2B27363DE28",
+      "title": "Coleta de energia em colapso do estado de energia",
+      "subtitle": "RN-ESC · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe na imitação do centro de montagem da Chave de Deus. Complete a comparação real dos três primeiros estados e a conexão do número imaginário e registre a resposta do campo;
+        \"Após a conclusão do experimento, escolha 4.680 pontos de pesquisa ou circuito IRV × 8, placa de nêutrons × 112 para pagar a taxa básica; são necessários 31.200 ticks adicionais e 8.444.249.301.319.680 EU/t. A correção de pressão do material atual é baseada no nível avançado.\",
+        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie a torre de coleta de quarto nível e o detector de estado de energia correspondente.”
+      ]",
+      "dependencies": [
+        "4B5F5CC41DB9BC86"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E715948D9EC09",
+          "type": "custom",
+          "title": "Coleta completa de energia Honkai do estado de energia",
+          "tags": [
+            "hk3gtl_quest_rn_esc"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:energy_honkai_detector",
+      "x": 34,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B56104221CAD9C4",
+      "title": "Retificação de energia imaginária",
+      "subtitle": "RN-HER · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no centro de montagem de imitação da Chave de Deus. Entre no teste de consumo real e meça o fluxo/perda de energia para completar o isolamento de segurança;
+        \"Após a conclusão do experimento, escolha 4.680 pontos de pesquisa ou circuito IRV × 8, placa de nêutrons × 112 para pagar a taxa básica; são necessários 31.200 ticks adicionais e 8.444.249.301.319.680 EU/t. A correção de pressão do material atual é baseada no nível avançado.\",
+        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, a retificação do centro de retificação de energia imaginária e a saída HKE legal serão desbloqueadas, e nenhum saldo livre será concedido.”
+      ]",
+      "dependencies": [
+        "4B57F2B27363DE28"
+      ],
+      "tasks": [
+        {
+          "id": "4B58EFE839586552",
+          "type": "custom",
+          "title": "Retificação completa de energia imaginária",
+          "tags": [
+            "hk3gtl_quest_rn_her"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:conducting_composite",
+      "x": 38,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5B07B90B75E8EC",
+      "title": "Experimento Mundial de Sustentabilidade",
+      "subtitle": "RN-WME · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
+        \"O experimento da equipe foi concluído no centro de montagem de imitação da Chave de Deus. A resposta a distúrbios locais, a verificação de parada e recuperação foram realmente concluídas e os registros de entrada/fluxo de energia associados; o teste foi limitado a dispositivos e amostras; a quantidade original do objeto inspecionado foi devolvida e o experimento foi sujeito ao assentamento real da máquina\",
+        \"Após a conclusão do experimento, escolha 5.380 pontos de pesquisa ou circuito IWV × 8, placa de nêutrons × 120 para pagar a taxa básica; são necessários 33.600 ticks adicionais e 33.776.997.205.278.720 EU/t. A correção de pressão do material atual é necessária para os avançados.\",
+        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o protótipo de sustentação da plataforma de teste de sustentação mundial e os registros verificáveis serão desbloqueados.\"
+      ]",
+      "dependencies": [
+        "4B5E3DA7F13B68CF"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C445C5C1DA4CB",
+          "type": "custom",
+          "title": "Conclua o Experimento Mundial de Sustentabilidade",
+          "tags": [
+            "hk3gtl_quest_rn_wme"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:world_maintenance_specimen",
+      "x": 42,
+      "y": 26,
+      "optional": false
+    }
+  ]
+}

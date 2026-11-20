@@ -1,0 +1,549 @@
+{
+  "filename": "hk3_stargate",
+  "id": "4B5149C83AB30E4A",
+  "title": "linha do portal estelar",
+  "subtitle": "[
+    \"MAX → Linha Stargate → HBV\"
+  ]",
+  "group": "68CBF1606D696C68",
+  "order_index": 15,
+  "icon": "sgjourney:classic_stargate_base_block",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B557312C16A1494",
+      "title": "espaço vazio no mapa estelar",
+      "subtitle": "Desta vez, vamos ver por nós mesmos",
+      "description": "[
+        “Yu Da espalhou vários registros de observação sobre a mesa e apontou para a mesma área no mapa estelar.”,
+        \"\"Todas essas leituras apontam para isso. \"\",
+        “A rota existente não pode chegar lá. Você move o mapa estelar ao lado das informações de pesquisa espacial e planeja encontrar um caminho até lá sozinho.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B502D5DF3D9133E",
+          "type": "checkmark",
+          "title": "Leia planos de viagem",
+          "tags": [
+            "hk3gtl_quest_stargate_start"
+          ]
+        }
+      ],
+      "dependencies": [
+        "516498830339A0A9"
+      ],
+      "x": 0,
+      "y": 8,
+      "icon": "minecraft:compass"
+    },
+    {
+      "id": "4B5F9880439C3AC6",
+      "title": "O barril de baleias engolindo o oceano",
+      "subtitle": "A linha de produção de chá irá consumi-lo",
+      "description": "[
+        \"Cada lote de receitas de chá consumirá 1.024 barris de baleias engolindo o oceano. Por favor, organize primeiro a origem dos barris.\",
+        \"Esta receita de linha de montagem também requer o uso do Ocean Whale Barrel como amostra de pesquisa.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E3351E10F6BFB",
+          "type": "item",
+          "item": "avaritia:infinity_bucket",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B557312C16A1494"
+      ],
+      "x": 4,
+      "y": 0,
+      "icon": "avaritia:infinity_bucket"
+    },
+    {
+      "id": "4B51F1163A2CEC66",
+      "title": "Coração de marshmallow",
+      "subtitle": "Cookies internos com corações de marshmallow torrados",
+      "description": "[
+        “Tanto a câmara de reação quanto o chá usarão corações de marshmallow torrados imprensados entre biscoitos fantasmas. Primeiro complete um lote de síntese supercrítica e depois reserve o uso para as duas linhas de produção.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C6268BFA73A45",
+          "type": "item",
+          "item": "kubejs:heartofthesmogus",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B557312C16A1494"
+      ],
+      "x": 4,
+      "y": 4,
+      "icon": "kubejs:heartofthesmogus"
+    },
+    {
+      "id": "4B5780A4766B61FA",
+      "title": "Painel de proteção contra radiação Stargate",
+      "subtitle": "Conectado à linha de montagem do hiperespaço",
+      "description": "[
+        \"A placa protetora é utilizada na câmara de reação, aldrava, base e Pegasus DHD. Será utilizada na montagem posterior.\",
+        “A pesquisa do guia do portal estelar cósmico também requer um pedaço de placa protetora como amostra. Vamos deixar um para a estação de pesquisa primeiro.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B55220FF0DFB2E4",
+          "type": "item",
+          "item": "gtladditions:stargate_shielding_foil",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B557312C16A1494"
+      ],
+      "x": 4,
+      "y": 8,
+      "icon": "gtladditions:stargate_shielding_foil"
+    },
+    {
+      "id": "4B5E655140C7461C",
+      "title": "Peças da estrutura do Stargate",
+      "subtitle": "Deixe o primeiro quadro sair primeiro",
+      "description": "[
+        \"A aldrava, a atualização do farol e o Pegasus DHD usam componentes de estrutura. Conclua primeiro o estudo da linha de montagem e depois inicie o processamento.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B54E41F4CBD19A8",
+          "type": "item",
+          "item": "gtladditions:stargate_frame_part",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B557312C16A1494"
+      ],
+      "x": 8,
+      "y": 12,
+      "icon": "gtladditions:stargate_frame_part"
+    },
+    {
+      "id": "4B59344AF2A873F5",
+      "title": "Pasta de Cristal Star Gate",
+      "subtitle": "Primeiro pegue um balde de amostras",
+      "description": "[
+        \"A pasta de cristal Stargate é preparada em um processo de mistura ultradimensional. A produção requer uma sala absolutamente ultralimpa e deve atender às condições de gravidade da fórmula.\",
+        “Primeiro injete uma amostra de 1000 mB na tela de tarefas vinculada a esta tarefa e, em seguida, providencie o fornecimento subsequente para a base de cristal. A amostra será consumida após o envio.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B590FB811D47C7C",
+          "type": "fluid",
+          "fluid": "gtladditions:star_gate_crystal_slurry",
+          "amount": 1000
+        }
+      ],
+      "dependencies": [
+        "4B557312C16A1494"
+      ],
+      "x": 4,
+      "y": 20,
+      "icon": "gtladditions:star_gate_crystal_slurry_bucket"
+    },
+    {
+      "id": "4B50ED48B36D1D80",
+      "title": "Chá",
+      "subtitle": "É usado tanto para o bloco guia quanto para a base",
+      "description": "[
+        \"Tanto o Bloco Guia quanto o Bloco Base precisam de chá. Dê a esta Linha de Montagem Chrono baldes e corações de marshmallow suficientes para aguardar a conclusão do primeiro lote.\",
+        “A estação de pesquisa usa peixes como amostras. Os parâmetros de pesquisa e materiais de produção podem ser visualizados no JEI.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B573C0427B914B5",
+          "type": "item",
+          "item": "gtlcore:ultimate_tea",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5F9880439C3AC6",
+        "4B51F1163A2CEC66"
+      ],
+      "x": 8,
+      "y": 0,
+      "icon": "gtlcore:ultimate_tea"
+    },
+    {
+      "id": "4B5F161707432FE4",
+      "title": "câmara de reação",
+      "subtitle": "A unidade de polimerização produz dois por lote",
+      "description": "[
+        \"Coloque os escudos e corações de marshmallow na unidade de polimerização. Cada lote produzirá duas câmaras de reação, que serão utilizadas pela aldrava, base e Pegasus DHD.\",
+        “O núcleo de estado estacionário do Dragon é colocado na entrada que não consome e será retido após a conclusão deste lote.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B50457DD32A9F63",
+          "type": "item",
+          "item": "sgjourney:reaction_chamber",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5780A4766B61FA",
+        "4B51F1163A2CEC66"
+      ],
+      "x": 8,
+      "y": 4,
+      "icon": "sgjourney:reaction_chamber"
+    },
+    {
+      "id": "4B57DAEB291B2CFC",
+      "title": "guia do portal estelar cósmico",
+      "subtitle": "Conclua a pesquisa com escudos primeiro",
+      "description": "[
+        “Primeiro use a placa de proteção contra radiação do portal estelar para concluir a pesquisa e, em seguida, prossiga para a linha de montagem para processar a marca guia do portal estelar cósmico.”,
+        “Ele será consumido por atualizações de aldravas e placas-guia, e as duas linhas de montagem restantes devem ser reservadas separadamente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B56C0140089D6AD",
+          "type": "item",
+          "item": "sgjourney:universe_stargate_chevron",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5780A4766B61FA"
+      ],
+      "x": 8,
+      "y": 8,
+      "icon": "sgjourney:universe_stargate_chevron"
+    },
+    {
+      "id": "4B552B1DE52CCB4F",
+      "title": "pedestal de cristal",
+      "subtitle": "Polpa enviada para processo de montagem espacial",
+      "description": "[
+        \"Envie a pasta de cristal do Stargate para o processo de montagem espacial para fazer uma base de cristal. Lembre-se de fornecer o módulo de energia MK5.\",
+        \"Você precisa de um para a base da porta e mais três para o Pegasus DHD.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5AD571CDD5AC52",
+          "type": "item",
+          "item": "sgjourney:crystal_base",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B59344AF2A873F5"
+      ],
+      "x": 16,
+      "y": 16,
+      "icon": "sgjourney:crystal_base"
+    },
+    {
+      "id": "4B5A1E80CA96AB40",
+      "title": "Atualização do guia Stargate",
+      "subtitle": "Quadro e guia cósmico se encontram aqui",
+      "description": "[
+        \"As peças da estrutura, o guia do portal estelar cósmico e as peças do MAX estão prontos, e a atualização do guia do portal estelar pode ser feita.\",
+        “Síntese infinita 9×9 e síntese de pesadelo usam o mesmo investimento, basta escolher um método de acordo com o equipamento existente.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B569461D2559F1B",
+          "type": "item",
+          "item": "gtladditions:stargate_chevron_upgrade",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5E655140C7461C",
+        "4B57DAEB291B2CFC"
+      ],
+      "x": 12,
+      "y": 8,
+      "icon": "gtladditions:stargate_chevron_upgrade"
+    },
+    {
+      "id": "4B5BA2384DBA1C28",
+      "title": "bloco de anel de portão estelar",
+      "subtitle": "Faça a aldrava primeiro",
+      "description": "[
+        \"Monte os componentes da estrutura, guia de espaço, placa de proteção e câmara de reação em uma aldrava. Consulte JEI para obter os materiais completos.\",
+        \"A aldrava será posteriormente processada em blocos-guia, deixando outros quatorze blocos para o movimento final da porta.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B55A0614AC08A90",
+          "type": "item",
+          "item": "sgjourney:classic_stargate_ring_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5F161707432FE4",
+        "4B5E655140C7461C",
+        "4B57DAEB291B2CFC"
+      ],
+      "x": 12,
+      "y": 4,
+      "icon": "sgjourney:classic_stargate_ring_block"
+    },
+    {
+      "id": "4B5FDBC63754F7AB",
+      "title": "Bloco guia Stargate",
+      "subtitle": "A aldrava continua processando",
+      "description": "[
+        \"Use uma aldrava com chá, atualizações de farol e outros materiais para fazer o primeiro bloco de farol.\",
+        “A base da porta consumirá primeiro oito blocos guia e restarão mais nove para a estrutura de colocação.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B53B9C16595C9C5",
+          "type": "item",
+          "item": "sgjourney:classic_stargate_chevron_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BA2384DBA1C28",
+        "4B50ED48B36D1D80",
+        "4B5A1E80CA96AB40"
+      ],
+      "x": 16,
+      "y": 4,
+      "icon": "sgjourney:classic_stargate_chevron_block"
+    },
+    {
+      "id": "4B53CE02986691A3",
+      "title": "Bloco base Stargate",
+      "subtitle": "A porta inteira é ativada a partir daqui",
+      "description": "[
+        \"Monte o bloco guia, a base de cristal e os materiais enviados de cada ramal na base do portal estelar.\",
+        “Quando estiver concluído, retire a aldrava reservada e o bloco guia e então você poderá sair da fábrica para construir a porta.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B57BDF9DC26DFE7",
+          "type": "item",
+          "item": "sgjourney:classic_stargate_base_block",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5FDBC63754F7AB",
+        "4B552B1DE52CCB4F"
+      ],
+      "x": 20,
+      "y": 8,
+      "icon": "sgjourney:classic_stargate_base_block"
+    },
+    {
+      "id": "4B552042CD67B9A1",
+      "title": "Pégaso DHD",
+      "subtitle": "Esta linha de montagem corre paralela ao corpo da porta",
+      "description": "[
+        \"Faça o Pegasus DHD usando a estrutura, atualização do farol, escudos, câmara de reação e pedestal de cristal, junto com os Chaos Blocks e as entradas restantes na receita.\",
+        “Deixe o console próximo ao portão estelar. Antes de sair, anote o endereço deste portão na base. Você precisará dele na viagem de volta.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B57E8FD05B8198F",
+          "type": "item",
+          "item": "sgjourney:pegasus_dhd",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5F161707432FE4",
+        "4B552B1DE52CCB4F",
+        "4B5A1E80CA96AB40"
+      ],
+      "x": 20,
+      "y": 12,
+      "icon": "sgjourney:pegasus_dhd"
+    },
+    {
+      "id": "4B50D2D3988313A8",
+      "title": "Prepare a porta",
+      "subtitle": "Quantidade para colocação: uma base, quatorze anéis, nove guias",
+      "description": "[
+        \"Prepare um bloco de base, quatorze blocos de aldrava e nove blocos de guia para exibição.\",
+        “Esses são os produtos acabados que sobraram para a estrutura. As aldravas e guias que foram utilizadas durante o processo produtivo estão registradas em suas respectivas receitas.”
+      ]",
+      "tasks": [
+        {
+          "id": "4B5F8EC7F3EA040C",
+          "type": "item",
+          "item": "sgjourney:classic_stargate_base_block",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5F5B565683A0F7",
+          "type": "item",
+          "item": "sgjourney:classic_stargate_ring_block",
+          "count": 14,
+          "consume_items": false
+        },
+        {
+          "id": "4B5C7DC783ED0A84",
+          "type": "item",
+          "item": "sgjourney:classic_stargate_chevron_block",
+          "count": 9,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B53CE02986691A3"
+      ],
+      "x": 24,
+      "y": 8,
+      "icon": "sgjourney:classic_stargate_base_block"
+    },
+    {
+      "id": "4B5ED88C534BA149",
+      "title": "levante a porta",
+      "subtitle": "O primeiro stargate clássico funcional",
+      "description": "[
+        \"Construa as peças em um portal estelar clássico completo e ative a base na parte inferior central.\",
+        “As peças que estavam originalmente empilhadas no armazém finalmente formaram um círculo fora da fábrica. Você deu alguns passos para trás para dar uma olhada e depois se aproximou para verificar a base.
+      ]",
+      "tasks": [
+        {
+          "id": "4B57BFB65232912B",
+          "type": "custom",
+          "title": "Ativação real de um portal estelar clássico completo",
+          "tags": [
+            "hk3gtl_candidate_stargate_activate",
+            "hk3gtl_quest_stargate_activate"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B50D2D3988313A8"
+      ],
+      "x": 28,
+      "y": 8,
+      "icon": "sgjourney:classic_stargate_base_block"
+    },
+    {
+      "id": "4B51AD5256FB6064",
+      "title": "Está conectado ali",
+      "subtitle": "Deixe o primeiro buraco de minhoca abrir de forma estável",
+      "description": "[
+        \"Adicione a energia necessária para discar, selecione o endereço e espere que o DHD relate o resultado da conexão.\",
+        “Quando o buraco de minhoca se desenrolou, você ligou para Yuda. Ele primeiro perguntou se você havia se lembrado do seu endereço e depois o lembrou de trazer seu celular.
+      ]",
+      "tasks": [
+        {
+          "id": "4B59D23DB73ED97B",
+          "type": "custom",
+          "title": "Estabeleceu com sucesso um buraco de minhoca de saída por meio de DHD",
+          "tags": [
+            "hk3gtl_candidate_stargate_dial",
+            "hk3gtl_quest_stargate_dial"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5ED88C534BA149",
+        "4B552042CD67B9A1"
+      ],
+      "x": 28,
+      "y": 12,
+      "icon": "sgjourney:pegasus_dhd"
+    },
+    {
+      "id": "4B5ADA51B3F91F12",
+      "title": "O primeiro passo fora da porta",
+      "subtitle": "Ferramentas, suprimentos e um telefone celular ligado",
+      "description": "[
+        \"O boneco do tamanho de um peixe ficou na base. Você caminhou até a câmera e acenou, depois caminhou em direção ao buraco de minhoca com ferramentas e suprimentos.\",
+        “Havia um vento forte lá fora. O telefone perguntou o que você viu. Quando você levantou a cabeça, percebeu que havia saído da fábrica familiar.
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CE2898DE5FFDC",
+          "type": "advancement",
+          "advancement": "sgjourney:adventure/use_stargate",
+          "criterion": ""
+        }
+      ],
+      "dependencies": [
+        "4B51AD5256FB6064"
+      ],
+      "x": 28,
+      "y": 16,
+      "icon": "minecraft:compass"
+    },
+    {
+      "id": "4B5A7AC59C392D25",
+      "title": "bem vindo de volta",
+      "subtitle": "Redisque o número do lado de fora da porta e volte para onde você começou.",
+      "description": "[
+        \"Traga os marcadores do caminho, algumas amostras e a foto onde metade do céu foi bloqueado pelo equipamento.\",
+        “Lembre-se do ponto de partida daquele final. Quando você vê as luzes na área da fábrica novamente, Yu Da já guardou os dados de observação das duas terras altas, esperando que você volte e preencha a parte que viu com seus próprios olhos.
+      ]",
+      "tasks": [
+        {
+          "id": "4B5FEF64E351F76C",
+          "type": "custom",
+          "title": "Parto pelo Star Gate e volto ao ponto de partida pelo Star Gate",
+          "tags": [
+            "hk3gtl_candidate_stargate_return",
+            "hk3gtl_quest_stargate_return"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5ADA51B3F91F12"
+      ],
+      "x": 28,
+      "y": 20,
+      "icon": "minecraft:recovery_compass"
+    },
+    {
+      "id": "4B5D2A33F0DB2367",
+      "title": "anote a rota",
+      "subtitle": "Esse ponto no mapa estelar agora tem o caminho que você seguiu.",
+      "description": "[
+        \"Você desenha as localizações das duas terras altas e adiciona a proveniência às amostras. Yu Da as coloca ao lado da observação antiga. O pequeno ponto original finalmente parece que pode ser observado com cuidado.\",
+        \"As fotos ruins também são mantidas. Quando você for novamente no futuro, provavelmente ainda se lembrará de estar ali pela primeira vez, segurando o equipamento para encontrar o ângulo.\",
+        “Guarde os registros esta noite. Amanhã a fábrica ainda estará em operação e há muitos lugares para ir do lado de fora.
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D3B313B6A4B66",
+          "type": "checkmark",
+          "title": "Leia o registro da viagem inaugural",
+          "tags": [
+            "hk3gtl_quest_stargate_archive"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5A7AC59C392D25"
+      ],
+      "x": 24,
+      "y": 20,
+      "icon": "minecraft:book"
+    }
+  ]
+}

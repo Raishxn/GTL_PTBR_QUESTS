@@ -1,0 +1,1799 @@
+{
+  "filename": "hk3_voltage_08",
+  "id": "4B54B990B6155A8C",
+  "title": "Pressão de âncora QAV",
+  "subtitle": [
+    "Tier22-QAV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 23,
+  "icon": "hk3gtl:voltage_machine_casing_qav",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B50E097E4620CD6",
+      "title": "Fabricação de módulo de calibração espacial",
+      "subtitle": "Calibrando interfaces espaciais com núcleos vazios falsos",
+      "description": "[
+        “O substrato de dados de aço alma e o núcleo oco de imitação são processados ​​no centro de montagem de imitação da Chave de Deus para fazer um módulo de calibração espacial. As ferramentas do tubo principal de isolamento de diferença de pressão de baixa temperatura são mantidas e o módulo continua a ser usado para observação, faróis e projetos espaciais subsequentes.
+      ]",
+      "dependencies": [
+        "4B5B36362C6BF5DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B03A6D23C5531",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_spatial_module"
+          ],
+          "item": "hk3gtl:spatial_calibration_module",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:spatial_calibration_module",
+      "x": 30,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5128436BF42BF8",
+      "title": "A Estrutura de Encapsulamento Chave de Deus",
+      "subtitle": "Primeiro complete a montagem de um componente God Key real",
+      "description": "[
+        “Monte o substrato de dados do aço da alma e os componentes da embalagem na estrutura da Chave de Deus. Os registros de montagem concluídos serão usados ​​para pesquisa e revisão subsequente da Chave de Deus, e a estrutura continuará a ser usada para produtos de imitação.”
+      ]",
+      "dependencies": [
+        "4B5B36362C6BF5DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5896E90C4A08F8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_key_housing"
+          ],
+          "item": "hk3gtl:divine_key_housing",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:divine_key_housing",
+      "x": 34,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5E53F8300CA9AF",
+      "title": "Réplica da Estrela do Éden",
+      "subtitle": "Embalagem completa do produto acabado para o núcleo de imitação de rocha",
+      "description": "[
+        \"Monte a estrutura da Chave de Deus e o núcleo de imitação de rocha em uma imitação da Estrela do Éden e prepare o produto acabado para projetos relacionados subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B533F2846778D65"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FD1840FDFBA4F",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_imitation_star_of_eden"
+          ],
+          "item": "hk3gtl:imitation_star_of_eden",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:imitation_star_of_eden",
+      "x": 38,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5BF1D51D97F209",
+      "title": "Copie o projeto Hyperion",
+      "subtitle": "Faça uma cópia depois de ter a imagem original",
+      "description": "[
+        “Use a cópia obtida da planta do Hyperion como desenho original e coloque na placa base, papel e reagentes analíticos para fazer uma cópia. O desenho original e o compartimento de carga são mantidos, e os reagentes residuais são coletados separadamente.
+      ]",
+      "dependencies": [
+        "4B5E49064FACFD59"
+      ],
+      "tasks": [
+        {
+          "id": "4B57A94BBCE313AD",
+          "type": "item",
+          "item": "hk3gtl:imitation_hyperion_blueprint",
+          "count": 2,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:imitation_hyperion_blueprint",
+      "x": 42,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B5427832AA9F882",
+      "title": "Fortalecer a observação do farol",
+      "subtitle": "Após autorização em primeira instância, registre o sinal de reforço real",
+      "description": "[
+        “Depois de obter a autorização da tecnologia casulo concedida pela reunião de primeira instância, a observação aprimorada foi concluída no farol Qianjie Yiyang. As quantidades originais dos três tipos de objetos inspecionados foram devolvidas e os registros reais de sinais aprimorados foram entregues à Pesquisa e Verificação de Coordenadas da Bolha Mundial.
+      ]",
+      "dependencies": [
+        "4B5488E425C5FF10",
+        "4B50E097E4620CD6"
+      ],
+      "tasks": [
+        {
+          "id": "4B57D3862CE029D5",
+          "type": "custom",
+          "title": "Conclusão real da observação aprimorada do farol",
+          "tags": [
+            "hk3gtl_quest_existing_enhanced_beacon_signal"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:spatial_calibration_module",
+      "x": 30,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5BD6FAD33255FB",
+      "title": "Condições de trabalho de resposta eletromagnética",
+      "subtitle": "Obtenha materiais polarizados de imitações de núcleos de minas",
+      "description": "[
+        “No centro de montagem, a imitação do núcleo do trovão é usada para processar o substrato de dados do aço da alma para produzir materiais eletromagnéticos polarizados. O refrigerante quente é coletado e o registro da resposta eletromagnética é retido para uso especial de pesquisa de Ming Ting.”
+      ]",
+      "dependencies": [
+        "4B524978C39A250C",
+        "4B5B36362C6BF5DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5827533612C0C8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_electromagnetic_worktest"
+          ],
+          "item": "hk3gtl:polarized_electromagnetic_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:polarized_electromagnetic_material",
+      "x": 46,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B538067A289069C",
+      "title": "Condições de trabalho de condensação criogênica",
+      "subtitle": "Preparação de amostras criogênicas e registro de controle de temperatura",
+      "description": "[
+        “Use o núcleo de gelo de imitação para processar o substrato de dados de aço alma para obter materiais de condensação criogênica. Salve de forma síncrona as condições reais de trabalho de baixa temperatura e receitas de resfriamento e continue a entregá-los a Yongshuang para pesquisa e verificação especial.
+      ]",
+      "dependencies": [
+        "4B54533414333ADC",
+        "4B5B36362C6BF5DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D41D5CE9B9482",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_cryogenic_worktest"
+          ],
+          "item": "hk3gtl:cryogenic_condensed_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:cryogenic_condensed_material",
+      "x": 50,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B537DFEF740AACB",
+      "title": "Condições extremas de fundição",
+      "subtitle": "Preparação de materiais precursores necessários para processamento extremamente quente",
+      "description": "[
+        “Use o núcleo de imitação de chama para processar o substrato de dados de aço alma para obter materiais de fundição extremos. Colete refrigerante quente e registros de condições de trabalho em alta temperatura para continuar a pesquisa em reatores e chamas de tribulação.”
+      ]",
+      "dependencies": [
+        "4B59EE579EB6CE9A",
+        "4B5B36362C6BF5DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B543E8C83FD9E54",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_flame_worktest"
+          ],
+          "item": "hk3gtl:extreme_casting_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:extreme_casting_material",
+      "x": 54,
+      "y": 36,
+      "optional": true
+    },
+    {
+      "id": "4B574F1B6BD2B7AE",
+      "title": "Condições de compressão gravitacional",
+      "subtitle": "Mantenha registros reais de compactação e liberação",
+      "description": "[
+        “Usando o núcleo de imitação de rocha como ferramenta, a condição de trabalho de compressão é concluída no centro de montagem. A quantidade original da placa de base de dados de aço alma é devolvida, e o registro de compressão real será usado para subsequente pesquisa especial e verificação de estrelas cadentes.
+      ]",
+      "dependencies": [
+        "4B533F2846778D65"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B8A1181104688",
+          "type": "custom",
+          "title": "Conclusão real da condição de trabalho de compressão gravitacional",
+          "tags": [
+            "hk3gtl_quest_existing_compression_worktest"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:soulium_data_substrate",
+      "x": 54,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B582C794236C289",
+      "title": "Condições de transporte de fluidos",
+      "subtitle": "Registre receitas e despesas reais de transporte e troca de calor",
+      "description": "[
+        “Use o núcleo de imitação de vento como uma ferramenta para verificar a condição do fluxo e coletar o refrigerante quente. A quantidade original do substrato é devolvida e o recibo do fluxo continua a ser fornecido à Changfeng para pesquisa e verificação especial.
+      ]",
+      "dependencies": [
+        "4B55C2FACF1A9B92",
+        "4B5B36362C6BF5DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EF3912EC2F10A",
+          "type": "custom",
+          "title": "Conclusão real das condições de transporte de fluidos",
+          "tags": [
+            "hk3gtl_quest_existing_flow_worktest"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:soulium_data_substrate",
+      "x": 50,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5A997BBB8B2A33",
+      "title": "Condições de trabalho do módulo de navegação de trem",
+      "subtitle": "Criando um Módulo de Navegação Hyperion em um Trem Estacionário",
+      "description": "[
+        “Envie o módulo de calibração espacial, o substrato de dados e o pacote para o trem Thousand Worlds One-Ride e conecte-se ao meio de transporte estável. Mantenha as ferramentas do tubo principal de isolamento de diferença de pressão de baixa temperatura e faça uma réplica do módulo de navegação Hyperion.
+      ]",
+      "dependencies": [
+        "4B54804DF6CCFEB5",
+        "4B5A3E4A2B3E1509"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A324A4A928572",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_train_navigation_module"
+          ],
+          "item": "hk3gtl:hyperion_navigation_module",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:hyperion_navigation_module",
+      "x": 46,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5B4A3512E04E63",
+      "title": "Solução formal de coordenadas de bolha mundial",
+      "subtitle": "Conecte as observações da sonda às coordenadas do alvo disponíveis",
+      "description": "[
+        “A sonda espacial e o substrato de dados são processados ​​no centro de análise de coordenadas, e o recibo oficial da solução é salvo. O transportador do modelo mundial e o componente receptor da fase ortogonal são retidos como ferramentas, e os registros resultantes continuam a ser usados ​​para pesquisas de mineração não tripuladas.
+      ]",
+      "dependencies": [
+        "4B58834EE21DFE00",
+        "4B58488BA5061858"
+      ],
+      "tasks": [
+        {
+          "id": "4B51E5C75C89902C",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_coordinate_solution"
+          ],
+          "item": "hk3gtl:spatial_calibration_module",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:spatial_calibration_module",
+      "x": 42,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5062E5553D873F",
+      "title": "Continuação do workshop QEV",
+      "subtitle": "QEV → QAV",
+      "description": "[
+        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para fabricar o primeiro lote de cubos mecânicos QAV.\",
+        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
+      ]",
+      "dependencies": [
+        "4B575076D5F34203"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AE2157B821EDE",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_qev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_qev",
+      "x": 0,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B51516BB43A2C92",
+      "title": "Interpositor de ancoragem triaxial",
+      "subtitle": "Conecte os campos de entrada duplos à referência de três eixos",
+      "description": "[
+        \"Combine a referência de três eixos e a camada de isolamento de domínio de trabalho na interface front-end e conecte a placa de impressão, o relógio e a estrutura de saída do nível atual.\"
+      ]",
+      "dependencies": [
+        "4B5B35081715CDC4",
+        "4B5DE9FBF4314D00",
+        "4B579EB8767AA2A4"
+      ],
+      "tasks": [
+        {
+          "id": "4B59BFBEF1588A80",
+          "type": "item",
+          "item": "hk3gtl:triaxial_anchor_interposer",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:triaxial_anchor_interposer",
+      "x": 30,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5324A618054C1B",
+      "title": "Decodificador ancorado em quadro de referência",
+      "subtitle": "Lendo alterações no quadro de referência e desvio do ponto de ancoragem",
+      "description": "[
+        \"Conecte o módulo de decodificação front-end ao interpositor de três eixos para encapsular cálculos locais, armazenamento e temporização. Fornece transformação do sistema de referência e leituras de desvio para componentes subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B51516BB43A2C92",
+        "4B5D238ED26E8E21",
+        "4B592BB2320D03D1"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A34289BF60F4A",
+          "type": "item",
+          "item": "hk3gtl:reference_frame_anchor_decoder",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:reference_frame_anchor_decoder",
+      "x": 38,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B50D905A2FCF195",
+      "title": "Atuador de posicionamento de folga de âncora",
+      "subtitle": "Localize ativamente lacunas de ancoragem em suportes existentes",
+      "description": "[
+        \"Mantenha o suporte de canal duplo do estágio frontal e adicione a estrutura de suporte de carga e o controle de decodificação deste estágio. Crie um atuador de posicionamento que possa ser instalado no atuador QAV.\"
+      ]",
+      "dependencies": [
+        "4B5324A618054C1B",
+        "4B5CE948D6826C57",
+        "4B59CDF9DC283EED"
+      ],
+      "tasks": [
+        {
+          "id": "4B53ACACDCC89F13",
+          "type": "item",
+          "item": "hk3gtl:anchor_gap_positioner",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchor_gap_positioner",
+      "x": 42,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5CD42AFC17A634",
+      "title": "Conjunto de saída hermética do pátio de ancoragem",
+      "subtitle": "Deixe a interface do campo de ancoragem e o circuito de alimentação serem conduzidos separadamente",
+      "description": "[
+        \"Expanda a estrutura de equilíbrio térmico do estágio frontal e adicione seções de tubos e divisórias independentes. Vede a interface de saída do campo de ancoragem e mantenha a estanqueidade ao ar e o isolamento do circuito correspondentes.\"
+      ]",
+      "dependencies": [
+        "4B5D238ED26E8E21",
+        "4B5B35081715CDC4",
+        "4B509AAFC7A4F423"
+      ],
+      "tasks": [
+        {
+          "id": "4B5184B5CA348C3C",
+          "type": "item",
+          "item": "hk3gtl:anchored_hermetic_feedthrough",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_hermetic_feedthrough",
+      "x": 34,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5E9201BCC7CA0F",
+      "title": "Host do processador de coerência quântica QAV",
+      "subtitle": "Referência de três eixos, decodificação de desvio e extração de campo de âncora",
+      "description": "[
+        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para criar um host de processador quântico coerente. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
+      ]",
+      "dependencies": [
+        "4B5324A618054C1B",
+        "4B5CD42AFC17A634",
+        "4B5CE948D6826C57"
+      ],
+      "tasks": [
+        {
+          "id": "4B577660E366234F",
+          "type": "item",
+          "item": "hk3gtl:qav_processor_mainframe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:qav_processor_mainframe",
+      "x": 46,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B55250A84B8285D",
+      "title": "Supercomputador de interferência quântica QAV",
+      "subtitle": "Referência de três eixos, decodificação de desvio e extração de campo de âncora",
+      "description": "[
+        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um supercomputador de interferência quântica. Prepare componentes de computação para peças de execução subsequentes e equipamentos de engenharia.”
+      ]",
+      "dependencies": [
+        "4B5324A618054C1B",
+        "4B5CD42AFC17A634",
+        "4B5CE948D6826C57",
+        "4B5359A2298535A1"
+      ],
+      "tasks": [
+        {
+          "id": "4B50C86974F9FAB6",
+          "type": "item",
+          "item": "hk3gtl:quantum_interference_computer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:quantum_interference_computer",
+      "x": 50,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B529EB0B03153EF",
+      "title": "Conjunto de processador de âncora de emaranhamento QAV",
+      "subtitle": "Referência de três eixos, decodificação de desvio e extração de campo de âncora",
+      "description": "[
+        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um conjunto de processador de âncora emaranhado. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
+      ]",
+      "dependencies": [
+        "4B5324A618054C1B",
+        "4B5CD42AFC17A634",
+        "4B5CE948D6826C57",
+        "4B56A3DE443E58AA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DDEBCC9CA5B8B",
+          "type": "item",
+          "item": "hk3gtl:entanglement_anchor_assembly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:entanglement_anchor_assembly",
+      "x": 54,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5B6BFD76C82E31",
+      "title": "Processador de âncora imaginária QAV",
+      "subtitle": "Referência de três eixos, decodificação de desvio e extração de campo de âncora",
+      "description": "[
+        “Consuma o circuito completo da forma anterior e adicione esta seção de componentes de interconexão, leitura e dissipação de calor para fazer um processador âncora imaginário. Prepare componentes de computação para componentes de execução subsequentes e equipamentos de engenharia.”
+      ]",
+      "dependencies": [
+        "4B5324A618054C1B",
+        "4B5CD42AFC17A634",
+        "4B5CE948D6826C57"
+      ],
+      "tasks": [
+        {
+          "id": "4B566E99F43FA103",
+          "type": "item",
+          "item": "hk3gtl:imaginary_anchoring_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:imaginary_anchoring_processor",
+      "x": 54,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5240DAAA1DA7E0",
+      "title": "Motor elétrico QAV",
+      "subtitle": "Fornece acionamento rotacional independente",
+      "description": "[
+        \"Monte o motor frontal e os componentes de suporte de força e feedback desta seção para preparar o acionamento de rotação para equipamentos subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B50D905A2FCF195",
+        "4B5E9201BCC7CA0F",
+        "4B58815DF49B28EF"
+      ],
+      "tasks": [
+        {
+          "id": "4B548ED6F37B46D1",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_motor_qav",
+      "x": 50,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5A5529AE68733C",
+      "title": "Pistão elétrico QAV",
+      "subtitle": "Converta o acionamento em movimento linear controlado",
+      "description": "[
+        \"Monte o pistão do estágio frontal com os componentes de posicionamento e feedback desta seção para empurrar e puxar controladamente o equipamento subsequente.\"
+      ]",
+      "dependencies": [
+        "4B5240DAAA1DA7E0",
+        "4B5B68E1E179BBC1"
+      ],
+      "tasks": [
+        {
+          "id": "4B50D68A7741F404",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_piston_qav",
+      "x": 38,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5BC3E4DF1E7FF5",
+      "title": "Bomba elétrica QAV",
+      "subtitle": "Fornece potência de transporte para caminhos de fluxo independentes",
+      "description": "[
+        \"Monte a bomba de apoio, esta seção do caminho do fluxo e os componentes de feedback para continuar o transporte de fluido do equipamento subsequente.\"
+      ]",
+      "dependencies": [
+        "4B5240DAAA1DA7E0",
+        "4B5C9BB775F30E7B"
+      ],
+      "tasks": [
+        {
+          "id": "4B50E64A0F68598B",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_pump_qav",
+      "x": 34,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B51ECAED0BBA537",
+      "title": "Módulo transportador QAV",
+      "subtitle": "Transferência contínua de materiais em linhas de produção existentes",
+      "description": "[
+        \"Monte os componentes de transmissão do estágio frontal com a estrutura de acionamento e leitura desta seção e prepare os componentes de transferência contínua para equipamentos subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B5240DAAA1DA7E0",
+        "4B5EAC0CC749BDEF"
+      ],
+      "tasks": [
+        {
+          "id": "4B57635B600737C5",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:conveyor_module_qav",
+      "x": 30,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B563E5F7F702155",
+      "title": "Braço robótico QAV",
+      "subtitle": "Conecte posicionamento e execução ao mesmo componente",
+      "description": "[
+        “Montar o braço robótico do estágio frontal e a estrutura de suporte de carga, posicionamento e feedback desta seção para posterior montagem e transferência do equipamento.”
+      ]",
+      "dependencies": [
+        "4B5A5529AE68733C",
+        "4B5953B3CED349F0"
+      ],
+      "tasks": [
+        {
+          "id": "4B5660402E12DB5B",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:robot_arm_qav",
+      "x": 34,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5B1A1507CBB1F7",
+      "title": "Sensor QAV",
+      "subtitle": "Envie os resultados da medição para o nível atual de controle",
+      "description": "[
+        \"Monte a interface entre o sensor frontal e esta seção e a estrutura de leitura, mantendo a amostragem independente e os componentes de feedback.\"
+      ]",
+      "dependencies": [
+        "4B5E9201BCC7CA0F",
+        "4B5528655154A3ED"
+      ],
+      "tasks": [
+        {
+          "id": "4B5609D485AB466C",
+          "type": "item",
+          "item": "hk3gtl:sensor_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:sensor_qav",
+      "x": 46,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B57663E413585E3",
+      "title": "Transmissor QAV",
+      "subtitle": "Prepare componentes de lançamento para este nível de equipamento",
+      "description": "[
+        \"Monte o transmissor do estágio frontal com a interface, estrutura de suporte e controle desta seção para posterior montagem do equipamento.\"
+      ]",
+      "dependencies": [
+        "4B5E9201BCC7CA0F",
+        "4B5983D18028736A"
+      ],
+      "tasks": [
+        {
+          "id": "4B56B0C321FC2618",
+          "type": "item",
+          "item": "hk3gtl:emitter_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:emitter_qav",
+      "x": 42,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B524A0412C3A425",
+      "title": "Gerador de campo de força QAV",
+      "subtitle": "Prepare componentes de campo de força para este nível de equipamento",
+      "description": "[
+        “Monte o gerador de campo de força do estágio frontal com a estrutura de controle e suporte desta seção e continue os requisitos dos componentes do campo de força do equipamento subsequente.”
+      ]",
+      "dependencies": [
+        "4B5B1A1507CBB1F7",
+        "4B57663E413585E3",
+        "4B5B09F891F81B91"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B4943DFDE0FFB",
+          "type": "item",
+          "item": "hk3gtl:field_generator_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:field_generator_qav",
+      "x": 30,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5BA4B1A961AD76",
+      "title": "Cabo de ancoragem pré-tensionado de três eixos",
+      "subtitle": "Primeiro faça o cabo de ancoragem de suporte de carga real",
+      "description": "[
+        \"O cabo de ancoragem é feito a partir da estrutura emparelhada do estágio frontal e dos componentes de suporte de carga. O tensionamento tridirecional subsequente, o revestimento da interface e o processamento de forma consomem esse lote de peças estruturais.\"
+      ]",
+      "dependencies": [
+        "4B54F7A441537AA1"
+      ],
+      "tasks": [
+        {
+          "id": "4B56DA1A67C5544E",
+          "type": "item",
+          "item": "hk3gtl:triaxial_anchor_tendon",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:triaxial_anchor_tendon",
+      "x": 0,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5113D26D467BBB",
+      "title": "Cimentação de transferência de tensão do cabo de ancoragem",
+      "subtitle": "Transfira a carga do cabo de ancoragem para o corpo do material",
+      "description": "[
+        “Preparar o rejuntamento com novos materiais, preparar infiltração de interface e meios de transmissão de força. Fornecer revestimento, montagem de tensionamento e subsequentes formas de engenharia.”
+      ]",
+      "dependencies": [
+        "4B5B96C20B5486BC",
+        "4B5DA9B39AA3192A"
+      ],
+      "tasks": [
+        {
+          "id": "4B54AA41B4E909BD",
+          "type": "custom",
+          "title": "Conclusão real do grauteamento de transferência de tensão do cabo de ancoragem",
+          "tags": [
+            "hk3gtl_quest_qav_n02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B54CF65DDCCCD2A",
+      "title": "Branco de revestimento com restrição direcional",
+      "subtitle": "Pré-incorpore a extremidade do cabo de ancoragem na matriz correspondente",
+      "description": "[
+        \"Revestir toda a matriz frontal com uma interface direcional, incorporar a extremidade do cabo de ancoragem e rejuntá-la. Quando o cabo de ancoragem é tensionado, a carga pode ser transmitida ao corpo principal através da interface.\"
+      ]",
+      "dependencies": [
+        "4B5BA4B1A961AD76",
+        "4B5113D26D467BBB"
+      ],
+      "tasks": [
+        {
+          "id": "4B59EDA760F3F9FB",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_stage_1",
+      "x": 8,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5AC2693129E448",
+      "title": "Rolamento de ancoragem de três eixos",
+      "subtitle": "Tensão em três direções e depois trava",
+      "description": "[
+        “Organize os cabos de ancoragem em três direções, pré-tensione-os e trave-os respectivamente. Coopere com a haste de suporte, os componentes de impulso e de suporte para transmitir a carga ao substrato de revestimento.”
+      ]",
+      "dependencies": [
+        "4B54CF65DDCCCD2A"
+      ],
+      "tasks": [
+        {
+          "id": "4B59C066A2270512",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_stage_2",
+      "x": 12,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5D68226259FC65",
+      "title": "Campo de âncora solidificado em branco",
+      "subtitle": "Após a conclusão do tensionamento físico, solidifique a interface",
+      "description": "[
+        \"Cure a interface de resposta da peça bruta de suporte de carga tensionada para uniformizar a carga no contato. Mantenha a estrutura de transmissão de força de três eixos e, em seguida, processe a face final.\"
+      ]",
+      "dependencies": [
+        "4B5AC2693129E448"
+      ],
+      "tasks": [
+        {
+          "id": "4B572FC46BC594E2",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_stage_3",
+      "x": 16,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B55F2097B59F62F",
+      "title": "Material de suporte de carga superrede ancorado em branco padrão",
+      "subtitle": "Vede as extremidades expostas do cabo de ancoragem depois que o comprimento for determinado.",
+      "description": "[
+        \"Processe a face final e sele o cabo de ancoragem exposto para manter a transmissão de carga em três direções. A peça bruta padrão entra em seis formas de engenharia a partir daqui.\"
+      ]",
+      "dependencies": [
+        "4B5D68226259FC65"
+      ],
+      "tasks": [
+        {
+          "id": "4B518F9D350AD360",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_billet",
+      "x": 20,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5FE62607DF1612",
+      "title": "Painéis de suporte de superrede ancorados",
+      "subtitle": "Lay-ups planos são carregados ao longo da direção da espessura",
+      "description": "[
+        “Componha o tarugo padrão com a placa de nível frontal, organize a laminação plana e conecte-a na direção da espessura. Após o rejuntamento e a combinação, é feita a placa de suporte.”
+      ]",
+      "dependencies": [
+        "4B55F2097B59F62F"
+      ],
+      "tasks": [
+        {
+          "id": "4B59460D13A3AD8F",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_plate",
+      "x": 24,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5B0D8BECDD8667",
+      "title": "Hastes de suporte de carga superrede ancoradas",
+      "subtitle": "Tensão ao longo do núcleo da haste, rejuntando a face final para transmitir força",
+      "description": "[
+        “Os cabos de ancoragem subdivididos são pré-tensionados na direção axial e a carga é transferida para o corpo da haste por meio do rejuntamento da face final. A haste continua a ser processada pela estrutura, anéis e linhas finas.”
+      ]",
+      "dependencies": [
+        "4B55F2097B59F62F",
+        "4B5385AC86625747"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CED751D0DB2E2",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_rod",
+      "x": 24,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5CE948D6826C57",
+      "title": "Estrutura de material de suporte de carga superrede ancorada",
+      "subtitle": "Deixe os cabos de ancoragem do ângulo do feixe transmitirem o momento fletor",
+      "description": "[
+        \"Combinando a barra com a estrutura frontal e organizando cabos de ancoragem e interfaces de transmissão de força nos cantos da viga. A estrutura completa suporta em conjunto a carga na conexão.\"
+      ]",
+      "dependencies": [
+        "4B5B0D8BECDD8667",
+        "4B5802FBE1CFDB67"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D07C270975AF9",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_frame",
+      "x": 20,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5D238ED26E8E21",
+      "title": "Anel de material de suporte de carga superrede ancorado",
+      "subtitle": "As fibras circunferenciais e a superfície de impulso suportam conjuntamente a força",
+      "description": "[
+        “Processar o anel de suporte e organizar o reforço circunferencial e a estrutura de impulso. Após o rejuntamento e fixação da interface, continuar a montagem final do invólucro.”
+      ]",
+      "dependencies": [
+        "4B5B0D8BECDD8667",
+        "4B50B7179E3F37D8"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EB5C508606A86",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_ring",
+      "x": 16,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5B35081715CDC4",
+      "title": "Folha de suporte de carga superrede ancorada",
+      "subtitle": "Reforce camadas finas com microcabos extensíveis",
+      "description": "[
+        \"Componha a placa com a folha fina frontal e coloque-a na camada de microcabo de nanotubo de carbono. Após o desbaste, a estrutura de suporte de carga para embalagem é mantida.\"
+      ]",
+      "dependencies": [
+        "4B5FE62607DF1612",
+        "4B5B808A4014F1E3"
+      ],
+      "tasks": [
+        {
+          "id": "4B54BA20B3C28518",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_foil",
+      "x": 12,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5DE9FBF4314D00",
+      "title": "Fio fino composto de material de suporte de carga superrede de âncora",
+      "subtitle": "Suporte elástico contínuo de micro-feixes, ancoragem final e retenção",
+      "description": "[
+        \"Um fio fino composto é feito combinando microfeixes contínuos, condutores metálicos e finas camadas de isolamento, com cabos de ancoragem segurando as extremidades.\"
+      ]",
+      "dependencies": [
+        "4B5B0D8BECDD8667",
+        "4B5B5E09A6EE0493"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E9981E66405A8",
+          "type": "item",
+          "item": "hk3gtl:anchored_superlattice_structure_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_fine_wire",
+      "x": 8,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5792CC8C53B87D",
+      "title": "O primeiro lote de cubos mecânicos QAV",
+      "subtitle": "Instale a estrutura de força de três rolamentos na carcaça completa do QEV",
+      "description": "[
+        “Recolha as placas, molduras e anéis deste nível e conecte-os ao bloco mecânico QEV completo. Conclua o tensionamento do cabo de ancoragem, a transmissão da força de rejuntamento e o empacotamento da interface e obtenha o primeiro lote de invólucros QAV.”
+      ]",
+      "dependencies": [
+        "4B5FE62607DF1612",
+        "4B5CE948D6826C57",
+        "4B5D238ED26E8E21",
+        "4B575076D5F34203"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E90920AEE95EA",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_qav",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_qav",
+      "x": 4,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B519447EE37117D",
+      "title": "Desmontagem em camadas do revestimento QAV",
+      "subtitle": "O núcleo do front-end é retido e a camada externa é classificada e reciclada.",
+      "description": "[
+        “O núcleo completo do QEV foi desmontado e algumas das placas de suporte, molduras e anéis foram recuperados. O restante do corpo principal foi convertido em lixo classificado e continuou a ser separado e processado.”
+      ]",
+      "dependencies": [
+        "4B5792CC8C53B87D"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E8631A9990096",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_qav_n14"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_qev",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_qev",
+      "x": 0,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B57FEAD1D60670D",
+      "title": "Separação de resíduos de classificação QAV",
+      "subtitle": "Componentes a granel recarregáveis ​​separados",
+      "description": "[
+        “Eluir os anexos da superfície dos resíduos e depois centrifugar para separar o corpo principal da reciclagem e os rejeitos não recicláveis. Eles são entregues aos processos de reconstrução e solidificação respectivamente.”
+      ]",
+      "dependencies": [
+        "4B5B96C20B5486BC",
+        "4B5DA9B39AA3192A"
+      ],
+      "tasks": [
+        {
+          "id": "4B581EFCA220D924",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_qav_n15"
+          ],
+          "item": "hk3gtl:anchored_superlattice_structure_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_recovered_fraction",
+      "x": 4,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B563815A9812551",
+      "title": "Reconstrução alimentação-alimentação do componente de recuperação QAV",
+      "subtitle": "Restabeleça a interface entre o revestimento e o cabo de ancoragem",
+      "description": "[
+        \"O corpo principal reciclado é misturado com matriz frontal fresca, e os cabos de ancoragem, fibras e argamassa são reinvestidos. O produto é devolvido à placa de revestimento de restrição direcional e, em seguida, o tensionamento, a cura e o dimensionamento de três eixos são concluídos.\"
+      ]",
+      "dependencies": [
+        "4B5BA4B1A961AD76",
+        "4B5113D26D467BBB"
+      ],
+      "tasks": [
+        {
+          "id": "4B55956EECFE6857",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_qav_n16"
+          ],
+          "item": "hk3gtl:anchored_superlattice_structure_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:anchored_superlattice_structure_stage_1",
+      "x": 8,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B577B0E20011BC1",
+      "title": "Solidificação da cauda QAV",
+      "subtitle": "Dando os retoques finais na vedação de materiais de suporte de carga irrecuperáveis",
+      "description": "[
+        “Selar os rejeitos não recicláveis em resíduos inertes, obter as cinzas e concluir a reciclagem dessa parte do material de ancoragem”.
+      ]",
+      "dependencies": [
+        "4B5B96C20B5486BC",
+        "4B5DA9B39AA3192A"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E0F91A7E8FA94",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_qav_n17"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 12,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B520DD98472FB32",
+      "title": "Compartimento de carga de mineração não tripulado",
+      "subtitle": "Embale amostras, trabalhos e armazenamento de devolução juntos",
+      "description": "[
+        \"Integre contêineres de amostragem, corte de cargas úteis e devolva componentes de armazenamento. Equipamentos de despacho, detectores de recursos e drones industriais precisam primeiro obter o compartimento de carga útil.\"
+      ]",
+      "dependencies": [
+        "4B500BE5B02F854A",
+        "4B54D2F9D45C6F00",
+        "4B5C9BB775F30E7B",
+        "4B5B09F891F81B91"
+      ],
+      "tasks": [
+        {
+          "id": "4B549D2518BDAACB",
+          "type": "item",
+          "item": "hk3gtl:prospecting_payload_cartridge",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:prospecting_payload_cartridge",
+      "x": 30,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B50A56F1F891F7F",
+      "title": "Estação de despacho de mineração não tripulada da bolha mundial",
+      "subtitle": "Gerencie o acesso e a carga útil para missões não tripuladas",
+      "description": "[
+        “Depois de concluir a pesquisa de mineração não tripulada, fabrique o controlador da estação de despacho. Conecte o acesso do dispositivo não tripulado e a interface de carga e continue a se preparar para a tarefa de mineração.”
+      ]",
+      "dependencies": [
+        "4B59A732020238B2",
+        "4B575076D5F34203"
+      ],
+      "tasks": [
+        {
+          "id": "4B515E981393FBA2",
+          "type": "item",
+          "item": "hk3gtl:i26_world_bubble_unmanned_mining_dispatch",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:i26_world_bubble_unmanned_mining_dispatch",
+      "x": 34,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5CA50A7DDB3C98",
+      "title": "Laboratório reverso de tecnologia legada",
+      "subtitle": "Preparar equipamentos de desmontagem e inspeção para as sobras trazidas de volta",
+      "description": "[
+        \"Depois de concluir a pesquisa sobre a tecnologia legada, fabrique o controlador reverso do laboratório. Conecte a carga de amostragem aos componentes de engenharia front-end e realize a desmontagem, inspeção e reprodução subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B56C2D92B2592ED"
+      ],
+      "tasks": [
+        {
+          "id": "4B56A45B166597CD",
+          "type": "item",
+          "item": "hk3gtl:i32_relic_technology_reverse_laboratory",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:i32_relic_technology_reverse_laboratory",
+      "x": 38,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5DF7A3DE7C0765",
+      "title": "detector de recursos não tripulados",
+      "subtitle": "Adicione amostragem e armazenamento de backhaul em sondas espaciais",
+      "description": "[
+        “Atualize a sonda de observação espacial e adicione um compartimento de carga e uma estrutura de isolamento de amostragem. Quando a fabricação for concluída, um registro real de montagem não tripulada será formado para pesquisa e verificação subsequentes.”
+      ]",
+      "dependencies": [
+        "4B520DD98472FB32",
+        "4B5953B3CED349F0",
+        "4B58834EE21DFE00"
+      ],
+      "tasks": [
+        {
+          "id": "4B585900D48A925A",
+          "type": "item",
+          "item": "hk3gtl:unmanned_resource_probe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:unmanned_resource_probe",
+      "x": 42,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B583CD45E971C47",
+      "title": "Drone industrial",
+      "subtitle": "Instale atuadores reais na plataforma de detecção",
+      "description": "[
+        \"Com base no detector de recursos não tripulado, adicione cargas operacionais e componentes de execução. A plataforma não tripulada pode ser expandida de amostragem para operações industriais, e os registros de fabricação correspondentes podem ser retidos.\"
+      ]",
+      "dependencies": [
+        "4B5DF7A3DE7C0765"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F60206F090C85",
+          "type": "item",
+          "item": "hk3gtl:industrial_work_drone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:industrial_work_drone",
+      "x": 46,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B587E7100C837E4",
+      "title": "Amostra de reprodução de engenharia reversa",
+      "subtitle": "Transforme dados legados de mineração reais em amostras de pesquisa",
+      "description": "[
+        \"Envie os dados legados, substratos e amostras padrão trazidas da mineração real para o laboratório reverso para fazer réplicas de amostras. Colete os reagentes analíticos usados e retenha a fonte deste lote de dados.\"
+      ]",
+      "dependencies": [
+        "4B5CA50A7DDB3C98"
+      ],
+      "tasks": [
+        {
+          "id": "4B5269111434FFF2",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_reverse_engineering_specimen"
+          ],
+          "item": "hk3gtl:reverse_engineering_specimen",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:reverse_engineering_specimen",
+      "x": 38,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B5CB334EBC7110A",
+      "title": "Ninguém está minerando no mundo real",
+      "subtitle": "Envie o dispositivo para o destino válido e liquide o retorno.",
+      "description": "[
+        \"Envie as bolhas, detectores e sondas espaciais do mundo real localizadas e não minadas para a estação de despacho. Cada lote consome uma bolha mundial e, após o sucesso, você receberá um pacote de recursos, e a bolha mundial não será devolvida. Para continuar a mineração, você deve investir em outro alvo não minado. A fabricação auxiliar não consome bolhas mundiais e nenhuma recompensa de mineração é emitida.\"
+      ]",
+      "dependencies": [
+        "4B50A56F1F891F7F"
+      ],
+      "tasks": [
+        {
+          "id": "4B594FB4E932FD43",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_unmanned_mining_dispatch"
+          ],
+          "item": "hk3gtl:worn_resource_probe",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:worn_resource_probe",
+      "x": 34,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B535AC10CB8CB3B",
+      "title": "Imitação dos Mil Reinos",
+      "subtitle": "RN-CJK · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: imitação do núcleo Herrscher of the Sky × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        \"Conclua o experimento da equipe no centro de montagem de imitação da Chave de Deus. Conclua a calibração estável das mesmas coordenadas de referência conhecidas e envie o recibo. A peça de teste não pode substituir o farol completo ou a estrutura do trem; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
+        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, as duas estruturas do farol e do trem estacionário são desbloqueadas; a dimensão final é eliminada e as condições de uso são executadas pelo multibloco moldado.
+      ]",
+      "dependencies": [
+        "4B5128436BF42BF8"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E3A961B2A4F29",
+          "type": "custom",
+          "title": "Complete a imitação dos Mil Reinos Ichiyuan",
+          "tags": [
+            "hk3gtl_quest_rn_cjk"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:i45_imitation_thousand_realms_train",
+      "x": 0,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5F116FA97D7110",
+      "title": "Assembleia das Peças Chave de Deus",
+      "subtitle": "RN-DKE · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: componente de embalagem de circuito × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        \"Conclua o experimento da equipe na matriz de análise de espectro de amostra de energia Honkai. A embalagem principal, a interface e a detecção de parada de segurança estão realmente concluídas; o conjunto de teste não pode ser usado como chave para o produto acabado; a quantidade original do objeto inspecionado é devolvida e o experimento está sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
+        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o centro de montagem imitação da Chave de Deus será desbloqueado;
+      ]",
+      "dependencies": [
+        "4B5407261AA82797",
+        "4B5FE5619D5A09F9"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E1D8FEFFC3D25",
+          "type": "custom",
+          "title": "Conclua a montagem dos componentes-chave de Deus",
+          "tags": [
+            "hk3gtl_quest_rn_dke"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:divine_key_housing",
+      "x": 4,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B5B96C20B5486BC",
+      "title": "Fortalecer a realidade e a estabilidade",
+      "subtitle": "RN-ERA · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: Componente Soul Steel Anchor × 1; O papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
+        \"Concluído o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. O desvio estável antes e depois do aprimoramento foi registrado para o mesmo benchmark. Os consumíveis reais foram executados com consumo de energia e o modo de aprimoramento a ser desbloqueado não foi habilitado. A quantidade original do objeto testado foi devolvida e o experimento foi sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
+        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o processo avançado de fabricação do meio de estabilização e do núcleo do Estabilizador de Realidade Energética Honkai será desbloqueado.\"
+      ]",
+      "dependencies": [
+        "4B5F2FBB98E65C9E",
+        "4B5E4351A34E6E51"
+      ],
+      "tasks": [
+        {
+          "id": "4B585D43462CF5DB",
+          "type": "custom",
+          "title": "Estabilização completa de realidade aumentada",
+          "tags": [
+            "hk3gtl_quest_rn_era"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:soulium_anchor_component",
+      "x": 4,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5E49064FACFD59",
+      "title": "Interpretação de desenhos de imitação do Hyperion",
+      "subtitle": "RN-HBD · Pesquisa experimental e formal",
+      "description": "[
+        \"Após a conclusão da pesquisa de engenharia reversa em tecnologia legada, os arquivos de engenharia naval da plataforma mundial de despacho de mineração não tripulada foram considerados qualificados para missões reais\",
+        \"Conclua os experimentos da equipe no Legacy Technology Reverse Laboratory. O Legacy Technology Reverse Laboratory realmente analisa os arquivos de origem, produz réplicas de projetos do Hyperion e obtém registros de pesquisa de projetos de navios; esta análise registra apenas uma descoberta e emite um item.\",
+        \"Após a conclusão do experimento, escolha 1.790 pontos de pesquisa ou circuito QEV × 6, placa de liga de sílica × 80 para pagar a taxa básica; são necessários 16.200 ticks adicionais e 32.985.348.833.280 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, as informações de engenharia da réplica do navio serão desbloqueadas.”
+      ]",
+      "dependencies": [
+        "4B5CA50A7DDB3C98"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E990386559768",
+          "type": "custom",
+          "title": "Interpretação concluída de desenhos de imitação do Hyperion",
+          "tags": [
+            "hk3gtl_quest_rn_hbd"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:imitation_hyperion_blueprint",
+      "x": 8,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B581DA378E5DC04",
+      "title": "Componentes de imitação de casco de navio",
+      "subtitle": "RN-HCC · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Concluir o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. Processamento e teste reais de conexões de quilha, interfaces de propulsão e outras peças de teste;
+        \"Após a conclusão do experimento, escolha 2.160 pontos de pesquisa ou circuito QAV × 6, placa de liga de sílica × 88 para pagar a taxa básica; são necessários 18.000 ticks adicionais e 131.941.395.333.120 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, a receita para as peças do casco do centro de usinagem de precisão do aço alma e o dispositivo de construção da matriz de montagem de nanorrobôs serão desbloqueados; nenhum material imaginário subsequente é necessário.\"
+      ]",
+      "dependencies": [
+        "4B5E49064FACFD59"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E9260570B61F6",
+          "type": "custom",
+          "title": "Conclusão de componentes de imitação de casco de navio",
+          "tags": [
+            "hk3gtl_quest_rn_hcc"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:hyperion_keel_segment",
+      "x": 16,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B50C826B7C24906",
+      "title": "Integração do sistema de navio de imitação",
+      "subtitle": "RN-HVI · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto de teste: imitação do módulo de navegação Huberiano × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no centro de montagem de imitação da Chave de Deus. As interfaces de fonte de alimentação, controle e navegação são depuradas conjuntamente no circuito de teste real e paradas com segurança;
+        \"Após a conclusão do experimento, escolha 2.160 pontos de pesquisa ou circuito QAV × 6, placa de liga de sílica × 88 para pagar a taxa básica; são necessários 18.000 ticks adicionais e 131.941.395.333.120 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        “O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, os métodos de aceitação de montagem e operação da imitação Hyperion serão abertos; a graduação ainda requer construção real.”
+      ]",
+      "dependencies": [
+        "4B581DA378E5DC04"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A8CF9B4FC6FD6",
+          "type": "custom",
+          "title": "Integração completa do sistema de imitação de navio",
+          "tags": [
+            "hk3gtl_quest_rn_hvi"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:hyperion_navigation_module",
+      "x": 0,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B56C2D92B2592ED",
+      "title": "Análise de tecnologia legada",
+      "subtitle": "RN-LTA · Pesquisa experimental e formal",
+      "description": "[
+        “Objeto testado: dados reais de sobras de mineração × 1; o papel 2 é usado para registros de inspeção e a amostra de referência é reciclada”,
+        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. O consumo real de consumíveis de detecção e a inspeção dos dados de retorno da missão verificarão a missão original bem-sucedida; ela não pode ser concedida apenas com itens de patrimônio antigo; a quantidade original do objeto inspecionado será devolvida e o experimento estará sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 1.790 pontos de pesquisa ou circuito QEV × 6, placa de liga de sílica × 80 para pagar a taxa básica; são necessários 16.200 ticks adicionais e 32.985.348.833.280 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, o laboratório reverso de tecnologia legada será desbloqueado para engenharia reversa física e verificação de registros técnicos.\"
+      ]",
+      "dependencies": [
+        "4B5CB334EBC7110A"
+      ],
+      "tasks": [
+        {
+          "id": "4B503D52DC07630C",
+          "type": "custom",
+          "title": "Análise completa de tecnologia legada",
+          "tags": [
+            "hk3gtl_quest_rn_lta"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:reverse_engineering_specimen",
+      "x": 12,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5488E425C5FF10",
+      "title": "Engenharia do Instituto Quantum",
+      "subtitle": "RN-QLE · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Registros originais e fontes de equipamentos da primeira observação quântica bem-sucedida do Quantum Anomaly Observation Array\",
+        \"Conclua o experimento da equipe no Quantum Anomaly Observation Array. A conclusão real da observação e o salvamento do recibo satisfarão a fonte do experimento; nenhuma observação repetida adicional ou amostras secundárias serão adicionadas.\",
+        \"Após a conclusão do experimento, escolha 960 pontos de pesquisa ou circuito QCV × 4, placa de aço de tungstênio × 72 para pagar a taxa básica; são necessários 9.600 ticks adicionais e 8.246.337.208.320 EU/t. A pressão atual do material é corrigida para avançada.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o instituto de pesquisa de terceiro nível será desbloqueado; a análise completa da bolha mundial começará no novo instituto.”
+      ]",
+      "dependencies": [
+        "4B5DF7A7F7C2A319"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F15D0D5E9EDB9",
+          "type": "custom",
+          "title": "Projeto concluído do Quantum Research Institute",
+          "tags": [
+            "hk3gtl_quest_rn_qle"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:spatial_probe",
+      "x": 16,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5CD71B4E04B8A3",
+      "title": "Uma primeira olhada nas anomalias quânticas",
+      "subtitle": "RN-QOM · Pesquisa experimental e formal",
+      "description": "[
+        \"Módulo de calibração espacial 1; reciclagem de amostra de referência de energia Honkai\",
+        \"Conclua o experimento da equipe na imitação de Qianjie Yiyun·Beacon. O valor original será devolvido após o módulo de calibração concluir a observação; o experimento de observação anormal será registrado após a saída ser liquidada. Não pode ser concedido apenas segurando o módulo ou abrindo a interface.\",
+        \"Após a conclusão do experimento, escolha 960 pontos de pesquisa ou circuito QCV × 4, placa de aço de tungstênio × 72 para pagar a taxa básica; são necessários 9.600 ticks adicionais e 8.246.337.208.320 EU/t. A pressão atual do material é corrigida para avançada.\",
+        “O instituto deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o primeiro método de observação da matriz de observação de anomalias quânticas será desbloqueado e o mar quântico será descoberto com um experimento de anomalia reproduzível.”
+      ]",
+      "dependencies": [
+        "4B57D65F2C2B4B06"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E70C662FA8E9A",
+          "type": "custom",
+          "title": "Conclua a primeira análise das anomalias quânticas",
+          "tags": [
+            "hk3gtl_quest_rn_qom"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:spatial_probe",
+      "x": 20,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B533F2846778D65",
+      "title": "Réplica da Estrela do Éden",
+      "subtitle": "RN-SEK · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: Núcleo Imitation Rock Herrscher × 1; papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “O experimento da equipe foi concluído no centro de montagem de imitação da Chave de Deus. O controle de compressão e liberação foi realmente concluído dentro de uma faixa segura;
+        \"Após a conclusão do experimento, escolha 760 pontos de pesquisa ou circuito QSV × 4, placa de aço de tungstênio × 64 para pagar a taxa básica; são necessários 8.400 ticks adicionais e 2.061.584.302.080 EU/t. A pressão atual do material é corrigida para avançada.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie a chave do Nono Deus, que suporta singularidade e bolhas mundiais simuladas; sem capacidade de aceleração do tempo.”
+      ]",
+      "dependencies": [
+        "4B54FB191FF02254",
+        "4B5128436BF42BF8"
+      ],
+      "tasks": [
+        {
+          "id": "4B57FE9050FFF2DE",
+          "type": "custom",
+          "title": "Complete a réplica da Estrela do Éden",
+          "tags": [
+            "hk3gtl_quest_rn_sek"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:imitation_star_of_eden",
+      "x": 24,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B500BE5B02F854A",
+      "title": "Montagem de equipamentos operacionais não tripulados",
+      "subtitle": "RN-UAA · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: nanorrobô não programado × 1; o papel 2 é usado para testar registros e a amostra de referência é reciclada\",
+        \"Conclua o experimento da equipe no Honkai Energy Sample Spectral Analysis Array. A peça de teste realmente completou o acionamento do atuador, a resposta do comando e a detecção de parada; nenhuma missão foi lançada e nenhum recurso de bolha mundial foi levado; a quantidade original do objeto testado foi devolvida e o experimento foi sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 1.790 pontos de pesquisa ou circuito QEV × 6, placa de liga de sílica × 80 para pagar a taxa básica; são necessários 16.200 ticks adicionais e 32.985.348.833.280 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        \"O instituto retém energia com base na potência total da porta de energia efetiva. Após a conclusão, a sonda de conjunto de nanorrobôs e as condições de montagem do dispositivo operacional não tripulado são desbloqueadas, e o Centro de Usinagem de Precisão Soul Steel fornece peças de precisão; os reparos são abertos separadamente pela UPR, e a execução da tarefa ainda pertence à estação de despacho de mineração não tripulada World Pao. \"
+      ]",
+      "dependencies": [
+        "4B54804DF6CCFEB5"
+      ],
+      "tasks": [
+        {
+          "id": "4B560E7AFD01E071",
+          "type": "custom",
+          "title": "Conclua a montagem do dispositivo operacional não tripulado",
+          "tags": [
+            "hk3gtl_quest_rn_uaa"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:industrial_work_drone",
+      "x": 12,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B59A732020238B2",
+      "title": "Mineração em um mundo desabitado",
+      "subtitle": "RN-UED · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto de teste: sonda de observação espacial × 1; o papel 2 é usado para registros de detecção e a amostra de referência é reciclada\",
+        \"Conclua o experimento da equipe na matriz de montagem de nanorrobôs. Conclua realmente a inspeção do banco de navegação, carga útil, comunicação e protocolo de retorno; verifique a identidade e o status válido do alvo e não execute a liquidação de mineração; o valor original do objeto inspecionado será devolvido e o experimento estará sujeito à liquidação real da máquina.\",
+        \"Após a conclusão do experimento, escolha 1.790 pontos de pesquisa ou circuito QEV × 6, placa de liga de sílica × 80 para pagar a taxa básica; são necessários 16.200 ticks adicionais e 32.985.348.833.280 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        \"O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, a tarefa da mesa de despacho de mineração não tripulada da bolha mundial é desbloqueada; cada bolha do mundo real posicionada só pode ser extraída uma vez e o recurso contém fluido.\"
+      ]",
+      "dependencies": [
+        "4B5B4A3512E04E63",
+        "4B5DF7A3DE7C0765"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C2015930B181B",
+          "type": "custom",
+          "title": "Mineração concluída no mundo desabitado",
+          "tags": [
+            "hk3gtl_quest_rn_ued"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:unmanned_resource_probe",
+      "x": 24,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B5FE5619D5A09F9",
+      "title": "Clonar núcleo vazio",
+      "subtitle": "RN-VCA · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto de teste: Colapso da semente de cristal × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe na matriz de análise de espectro de amostra da Honkai Energy. Conclua a medição do desvio de posicionamento espacial sob o mesmo benchmark, registre a fonte do ferramental, campo e cristal de teste;
+        \"Após a conclusão do experimento, escolha 580 pontos de pesquisa ou circuito HDV × 4, placa de aço de tungstênio × 56 para pagar a taxa básica; são necessários 7.200 ticks adicionais e 515.396.075.520 EU/t. A pressão atual do material é corrigida para avançada.\",
+        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, a teoria da imitação do núcleo oco e dos componentes espaciais será desbloqueada.”
+      ]",
+      "dependencies": [
+        "4B5B96C20B5486BC"
+      ],
+      "tasks": [
+        {
+          "id": "4B545B1407712981",
+          "type": "custom",
+          "title": "Complete o núcleo vazio clonado",
+          "tags": [
+            "hk3gtl_quest_rn_vca"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:imitation_void_core",
+      "x": 8,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B54804DF6CCFEB5",
+      "title": "Análise de coordenadas de bolha mundial",
+      "subtitle": "RN-WCP · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto de teste: sonda de observação espacial × 1; o papel 2 é usado para registros de detecção e a amostra de referência é reciclada\",
+        \"O experimento da equipe foi concluído no Quantum Anomaly Observation Array. A observação do alvo original e o ajuste do erro foram realmente concluídos; os registros da pesquisa foram produzidos e as coordenadas formais para uso pela Estação de Despacho de Mineração Não Tripulada da World Bubble não foram geradas antecipadamente; a quantidade original do objeto inspecionado foi devolvida e o experimento foi sujeito ao assentamento real da máquina.\",
+        \"Após a conclusão do experimento, escolha 1.440 pontos de pesquisa ou circuito QCV × 6, placa de liga de sílica × 72 para pagar a taxa básica; são necessários 14.400 ticks adicionais e 8.246.337.208.320 EU/t. A pressão atual do material é corrigida de acordo com o nível avançado.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, desbloqueie o centro de análise de coordenadas da bolha mundial e as coordenadas da bolha mundial que podem ser usadas por missões não tripuladas.”
+      ]",
+      "dependencies": [
+        "4B5427832AA9F882",
+        "4B5DAE3681232992"
+      ],
+      "tasks": [
+        {
+          "id": "4B5072E26AD74851",
+          "type": "custom",
+          "title": "Análise completa das coordenadas da bolha mundial",
+          "tags": [
+            "hk3gtl_quest_rn_wcp"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:spatial_calibration_module",
+      "x": 20,
+      "y": 36,
+      "optional": false
+    }
+  ]
+}

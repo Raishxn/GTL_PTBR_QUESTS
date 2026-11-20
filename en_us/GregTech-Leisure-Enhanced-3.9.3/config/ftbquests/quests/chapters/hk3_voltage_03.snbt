@@ -1,0 +1,1661 @@
+{
+  "filename": "hk3_voltage_03",
+  "id": "4B5ACE4E99B04D5C",
+  "title": "Resonance voltage HRV",
+  "subtitle": [
+    "Tier17-HRV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 18,
+  "icon": "hk3gtl:voltage_machine_casing_hrv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B51EEA9FC0829EF",
+      "title": "Continue from the restraint press workshop",
+      "subtitle": "Coating, polymerization, annealing, and then to resonant lattice",
+      "description": "[
+        \"The HCV casing and the front-end nanotechnology are ready. In this stage, the polymerization, annealing and precision processing of the soul steel will be integrated, and then the resonant lattice and the first batch of HRV casings will be manufactured.\",
+        \"There are injectors that continue to supply HW. The coating group has a batch of 192,000 HW, and the rough polymerization and annealing have 460,800 HW each. Before starting, prepare the account balance for those bound to the same controller.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B54BBF74370B91C",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hcv",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B553E01794C87A6",
+          "type": "custom",
+          "title": "Completed research on collapse resistance coating",
+          "tags": [
+            "hk3gtl_quest_hrv_start"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:voltage_machine_casing_hcv",
+      "x": 0,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5638D73E5A1265",
+      "title": "Ceramic through-hole disc",
+      "subtitle": "Open the via hole first and do the conductive layer later",
+      "description": "[
+        \"Process through holes into existing HCV ceramic composite panels. Send the hole plates for metallization and connect through conductors in the next process.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5961F6D5E2C36A",
+          "type": "item",
+          "item": "hk3gtl:ceramic_drilled_interposer",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51EEA9FC0829EF"
+      ],
+      "icon": "hk3gtl:ceramic_drilled_interposer",
+      "x": 4,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5DA21B24CF30E1",
+      "title": "ceramic through-interconnect array",
+      "subtitle": "Pass the line through the isolation layer",
+      "description": "[
+        \"Activate the hole wall, deposit the conductive layer, and then connect the core wires and surface interconnections. New circuits, detectors and HRV casings must be obtained from here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5176191F95E7A9",
+          "type": "item",
+          "item": "hk3gtl:ceramic_feedthrough_array",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5638D73E5A1265"
+      ],
+      "icon": "hk3gtl:ceramic_feedthrough_array",
+      "x": 8,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5E6A657C280B07",
+      "title": "Microchannel circuit cold plate",
+      "subtitle": "Connect high-energy circuits for cooling",
+      "description": "[
+        \"Microchannel manifolds, composite plates and small tubes are assembled into cold plates. The heat dissipation components required for processors and field control devices are continuously supplied by this line.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B536E106493761C",
+          "type": "item",
+          "item": "hk3gtl:microchannel_circuit_cold_plate",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5DA21B24CF30E1"
+      ],
+      "icon": "hk3gtl:microchannel_circuit_cold_plate",
+      "x": 8,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5ECB02D25F251F",
+      "title": "Constraint Compensation Clock Module",
+      "subtitle": "Align the beats of each work area",
+      "description": "[
+        \"The core clock gives the baseline, the CPU reads the feedback and compensation table, and the synchronization node coordinates each execution domain. After being installed into the module, it continues to supply the processor and measurement and control components.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B506E2896E47D3E",
+          "type": "item",
+          "item": "hk3gtl:constraint_compensated_clock_module",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5DA21B24CF30E1"
+      ],
+      "icon": "hk3gtl:constraint_compensated_clock_module",
+      "x": 12,
+      "y": 2,
+      "optional": false
+    },
+    {
+      "id": "4B52CFD71DFDD8B7",
+      "title": "Ceramic Isolated Magnetic Bearings",
+      "subtitle": "Provide good support for moving parts",
+      "description": "[
+        \"Use magnetic circuits and coils to support the shaft system, and then separate the high-voltage working area. Motors, conveyor belts and robotic arms will all consume this bearing.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B56AF3A63A6F874",
+          "type": "item",
+          "item": "hk3gtl:ceramic_magnetic_bearing",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51EEA9FC0829EF"
+      ],
+      "icon": "hk3gtl:ceramic_magnetic_bearing",
+      "x": 12,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B598D3600DC6623",
+      "title": "Ceramic Composite Corrugated Seals",
+      "subtitle": "Let the liquid path and the moving boundary be sealed together",
+      "description": "[
+        \"The metal load-bearing ring and polymer interlayer are used to bear the displacement, and the composite sheath is responsible for insulation and wear resistance. The piston and pump obtain seals from here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5704290F9D88F1",
+          "type": "item",
+          "item": "hk3gtl:ceramic_bellows_seal",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51EEA9FC0829EF"
+      ],
+      "icon": "hk3gtl:ceramic_bellows_seal",
+      "x": 16,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B56FA52585A498B",
+      "title": "HCV Soulsteel Lattice Processor Assembly",
+      "subtitle": "Install four HBV processors into submodules",
+      "description": "[
+        \"Retain four complete HBV processors, plus loading boards, caches, interconnects, cold plates and compensation clocks. The entire circuit can still be manufactured with HBV power.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5022BF903893CC",
+          "type": "item",
+          "item": "hk3gtl:hcv_assembly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5ECB02D25F251F",
+        "4B5E6A657C280B07"
+      ],
+      "icon": "hk3gtl:hcv_assembly",
+      "x": 16,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B59FADA795D826B",
+      "title": "HCV Rhythm Coupling Processor",
+      "subtitle": "Connecting stimulation, measurement and calculation",
+      "description": "[
+        \"Let the field source, emitter and sensor enter the feedback loop, and then connect to four complete HBV processors. It is manufactured separately from the processor assembly, and the specific equipment is used according to the recipe.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C6EA681D62F5A",
+          "type": "item",
+          "item": "hk3gtl:rhythmic_coupling_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5ECB02D25F251F",
+        "4B5E6A657C280B07"
+      ],
+      "icon": "hk3gtl:rhythmic_coupling_processor",
+      "x": 16,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5A7F42C3464580",
+      "title": "HCV electric motor",
+      "subtitle": "Prepare the rotary drive of this level first",
+      "description": "[
+        \"Assemble the two complete HBV motors with this level circuit and magnetic bearings. The pistons, conveyor belts and robotic arms at the back will continue to take materials from here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E29CF7AD53EE1",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B56FA52585A498B",
+        "4B52CFD71DFDD8B7"
+      ],
+      "icon": "hk3gtl:electric_motor_hcv",
+      "x": 20,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5455B5587935BF",
+      "title": "HCV electric piston",
+      "subtitle": "Connect linear drive and motion seal",
+      "description": "[
+        \"This level of motor is used to drive the telescopic mechanism, and the corrugated seals and magnetic bearings are responsible for sealing and guiding respectively. The two HBV pistons are completely assembled.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B573DCB436B6A60",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5A7F42C3464580",
+        "4B598D3600DC6623"
+      ],
+      "icon": "hk3gtl:electric_piston_hcv",
+      "x": 24,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B5B91EB2C5FA7BE",
+      "title": "HCV electric pump",
+      "subtitle": "Install the distribution, temperature control and pump body",
+      "description": "[
+        \"On the basis of two complete HBV pumps, manifolds, cold plates and corrugated seals are added. Subsequent production of pump parts is arranged according to the actual consumption of the equipment.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B53B7AE64005EBB",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5A7F42C3464580",
+        "4B598D3600DC6623"
+      ],
+      "icon": "hk3gtl:electric_pump_hcv",
+      "x": 24,
+      "y": 4,
+      "optional": false
+    },
+    {
+      "id": "4B5E62915BAC761F",
+      "title": "HCV conveyor belt",
+      "subtitle": "The roller support and partition drive are completed together",
+      "description": "[
+        \"The previous-stage belt body is completely inherited, and then the current-stage motor, magnetic bearings and seals are installed. Each section of the conveyor mechanism can be stocked separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C12EFE98B707D",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5A7F42C3464580",
+        "4B598D3600DC6623"
+      ],
+      "icon": "hk3gtl:conveyor_module_hcv",
+      "x": 24,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B57DD0F01E336D7",
+      "title": "HCV robotic arm",
+      "subtitle": "Let the joints work in the same rhythm",
+      "description": "[
+        \"Install the motor, piston, bearing and compensation clock of this stage into the mechanical arm, and keep the two sets of arm bodies and joints of the previous stage intact.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B52D1E5F9CA1460",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5455B5587935BF"
+      ],
+      "icon": "hk3gtl:robot_arm_hcv",
+      "x": 28,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B561776CF8C5AAC",
+      "title": "HCV sensor",
+      "subtitle": "Provide isolation and temperature control for the sampling work area",
+      "description": "[
+        \"Add through-interconnects, cold plates and clock modules to the complete HBV sensor to complete the assembly of synchronized readout components.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5152F0AD3EEEAE",
+          "type": "item",
+          "item": "hk3gtl:sensor_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B56FA52585A498B"
+      ],
+      "icon": "hk3gtl:sensor_hcv",
+      "x": 24,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5B4A431672AFA6",
+      "title": "HCV transmitter",
+      "subtitle": "Bring out high-energy signals",
+      "description": "[
+        \"Retain the pre-stage excitation source and modulation components, and add the isolation, cooling and synchronization modules of this stage. The field generator will continue to consume this transmitter.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B558E94C872503D",
+          "type": "item",
+          "item": "hk3gtl:emitter_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B56FA52585A498B"
+      ],
+      "icon": "hk3gtl:emitter_hcv",
+      "x": 28,
+      "y": 10,
+      "optional": false
+    },
+    {
+      "id": "4B523DAF3EE00C05",
+      "title": "HCV force field generator",
+      "subtitle": "Incentives and feedback meet here",
+      "description": "[
+        \"The transmitter, sensor and compensation clock of this level are connected to the field control. The eight components are produced according to their respective uses, and the entire electronic process is still made by HBV Electric Power.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E05080AD54A36",
+          "type": "item",
+          "item": "hk3gtl:field_generator_hcv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5B4A431672AFA6",
+        "4B561776CF8C5AAC"
+      ],
+      "icon": "hk3gtl:field_generator_hcv",
+      "x": 32,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B52023452A874DC",
+      "title": "Research on Nano-Growth on Adapter Substrates",
+      "subtitle": "First characterize existing controlled nanopopulations",
+      "description": "[
+        \"Take the existing controlled group to the spectral array for detection, return the original sample, and then go to the research institute to complete the project. The original adapted substrate route will continue to supply the first batch of substrates.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B521DE153D126EE",
+          "type": "custom",
+          "title": "Completed nano-growth research on adapted substrates",
+          "tags": [
+            "hk3gtl_quest_rn_cbs"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B51EEA9FC0829EF"
+      ],
+      "icon": "hk3gtl:honkai_adapted_circuit_substrate",
+      "x": 0,
+      "y": -8,
+      "optional": true
+    },
+    {
+      "id": "4B5DFFE8E43A3568",
+      "title": "Nanotemplate directional growth substrate",
+      "subtitle": "One batch requires 38,400 HW",
+      "description": "[
+        \"Let the controlled group and HBV processor participate in the growth as reusable tools. The structural and functional raw materials are input as usual, and the equipment runs at 32 HW/t for 1,200 ticks.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58FD1FA7AC60B8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_substrate_growth"
+          ],
+          "item": "hk3gtl:honkai_adapted_circuit_substrate",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B52023452A874DC"
+      ],
+      "icon": "hk3gtl:honkai_adapted_circuit_substrate",
+      "x": 4,
+      "y": -8,
+      "optional": true
+    },
+    {
+      "id": "4B57DC4F6BB9CE55",
+      "title": "First-order liquid collapse energy detector",
+      "subtitle": "Upgrading older instruments with new interconnects",
+      "description": "[
+        \"Keep the physical precursor of the old detector and install the through-interconnect and differential measurement components. Complete the existing RN-DMT research first before doing this upgrade.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58CED555EA9F9A",
+          "type": "item",
+          "item": "hk3gtl:liquid_honkai_detector",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5B7C947B5E5CF8",
+          "type": "custom",
+          "title": "Complete detector calibration study",
+          "tags": [
+            "hk3gtl_quest_hrv_detector"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5DA21B24CF30E1"
+      ],
+      "icon": "hk3gtl:liquid_honkai_detector",
+      "x": 8,
+      "y": -8,
+      "optional": true
+    },
+    {
+      "id": "4B5F6190B5873F19",
+      "title": "Collapse Resistance Cladding Array",
+      "subtitle": "First build the Honkai Resistance Coating Array",
+      "description": "[
+        \"Build a wrapped array controller using off-the-shelf HCV casings and front-end components. Once the device is ready, the controlled nanoswarm is then coated.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B51D586FE4D80F4",
+          "type": "item",
+          "item": "hk3gtl:i13_honkai_resistant_coating_array",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51EEA9FC0829EF"
+      ],
+      "icon": "hk3gtl:i13_honkai_resistant_coating_array",
+      "x": 4,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5DCCEEED3B64AC",
+      "title": "Nano-barrier ceramic dispersion",
+      "subtitle": "Connect fresh dispersion first",
+      "description": "[
+        \"The dispersion is prepared in the precursor formulation kettle for the resistant coating and subsequent resonant precursor. The first batch starts directly from new materials.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B57415AF5D1FC85",
+          "type": "custom",
+          "title": "Actual completion of nano-barrier ceramic dispersion",
+          "tags": [
+            "hk3gtl_quest_hrv_dispersion"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B51EEA9FC0829EF"
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 4,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B5E921AB4D9FB4C",
+      "title": "Fresh Collapse Resistant Paint",
+      "subtitle": "Independent supply of covered wire",
+      "description": "[
+        \"Mix the ceramic dispersion with the remaining film-forming materials to form a coating. The used coating is collected separately and regenerated later.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B53C191EA06BF30",
+          "type": "custom",
+          "title": "Practical Finish Fresh Collapse Resistant Paint",
+          "tags": [
+            "hk3gtl_quest_hrv_coating"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5DCCEEED3B64AC"
+      ],
+      "icon": "hk3gtl:coated_nano_swarm",
+      "x": 8,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B5BD8E2DAD676FC",
+      "title": "Anti-erosion coating nanoswarm",
+      "subtitle": "One batch requires 192,000 HW",
+      "description": "[
+        \"Send eight controlled groups into the cladding array to complete eight cladding groups. The equipment runs at 64 HW/t for 3,000 ticks, and then one is taken to test the suitability of the aggregation.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E9B5E3CAB2D65",
+          "type": "item",
+          "item": "hk3gtl:coated_nano_swarm",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5F6190B5873F19",
+        "4B5E921AB4D9FB4C"
+      ],
+      "icon": "hk3gtl:coated_nano_swarm",
+      "x": 8,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5D35B3254D971A",
+      "title": "Research on Soul Steel Polymer Die Casting",
+      "subtitle": "First detect the real coverage group",
+      "description": "[
+        \"Complete the polymerization suitability test at the Spectral Array, and then go to the research institute to complete the project. The same coating group will be returned, and the actual dosage will be prepared according to the formula for subsequent polymerization.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5889300E76E375",
+          "type": "custom",
+          "title": "Completed Soul Steel Polymer Die Casting Research",
+          "tags": [
+            "hk3gtl_quest_rn_spc"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5BD8E2DAD676FC"
+      ],
+      "icon": "hk3gtl:soulium_proto_mass",
+      "x": 12,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B50B01F95E6AD33",
+      "title": "Soul Steel Polymer Die Casting Machine",
+      "subtitle": "Construction of soul steel polymerization die-casting machine for the first batch of rough blanks",
+      "description": "[
+        \"Use the HCV casing and components that have been obtained in the previous stage to assemble the controller. The machine, mold and grain boundary particles can be prepared separately, and the first batch of polymerization can be started when they are all ready.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B589C3C51E0D973",
+          "type": "item",
+          "item": "hk3gtl:soulium_polymerization_die_caster",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5D35B3254D971A"
+      ],
+      "icon": "hk3gtl:soulium_polymerization_die_caster",
+      "x": 16,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B56BB6F4C8B7001",
+      "title": "Soul Steel Crystal Boundary Modulated Particles",
+      "subtitle": "Preparation of grain boundary components from fresh raw materials",
+      "description": "[
+        \"Create grain boundary particles in the preparation kettle for soul steel polymerization and resonance growth. The particles in the residue can be recycled later.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B56C42F51D02883",
+          "type": "item",
+          "item": "hk3gtl:soulium_grain_boundary_inoculant",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5D35B3254D971A"
+      ],
+      "icon": "hk3gtl:soulium_grain_boundary_inoculant",
+      "x": 16,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B5D6CA32492934D",
+      "title": "Soul Steel Polymer Mold",
+      "subtitle": "Prepare tooling before the first die casting",
+      "description": "[
+        \"Molds are made using ready-made HCV and MAX materials. After the die-casting is completed, the molds are retained and can be used in the next batch.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58118EA3C4DAFA",
+          "type": "item",
+          "item": "hk3gtl:soulium_casting_mold",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5D35B3254D971A"
+      ],
+      "icon": "hk3gtl:soulium_casting_mold",
+      "x": 16,
+      "y": 24,
+      "optional": false
+    },
+    {
+      "id": "4B514F6965902A9B",
+      "title": "Controlled Soul Steel Polymer Die Casting",
+      "subtitle": "One batch requires 460,800 HW",
+      "description": "[
+        \"The coating group, grain boundary particles and other matrix raw materials are fed into the die-casting machine, and the mold is retained as a tool. After running at 96 HW/t for 4,800 ticks, the first batch of rough steel billets is obtained.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5DC8770536C79A",
+          "type": "item",
+          "item": "hk3gtl:soulium_proto_mass",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B50B01F95E6AD33",
+        "4B56BB6F4C8B7001",
+        "4B5D6CA32492934D"
+      ],
+      "icon": "hk3gtl:soulium_proto_mass",
+      "x": 20,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5BC58B8D006F63",
+      "title": "Research on reconstruction annealing of soul steel",
+      "subtitle": "First measure the annealing window of the rough blank",
+      "description": "[
+        \"Take a portion of the rough steel billet for non-destructive testing, and then complete the research. The original quantity of the rough steel billet will be returned, and the annealing furnace will be opened later.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B541C230419FAD8",
+          "type": "custom",
+          "title": "Completed soul steel reconstruction annealing research",
+          "tags": [
+            "hk3gtl_quest_rn_sra"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B514F6965902A9B"
+      ],
+      "icon": "hk3gtl:stabilized_soulium_proto_mass",
+      "x": 24,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5D30E1AA5674F6",
+      "title": "Soul Steel Reconstruction Annealing Furnace",
+      "subtitle": "Connect the soul steel reconstruction annealing furnace to the rough blank outlet",
+      "description": "[
+        \"Use existing materials to make the annealing furnace controller, and connect the stabilizing medium, coolant and gas. Complete this heat treatment first, and then study the processing tolerances.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B285FD26E52EA",
+          "type": "item",
+          "item": "hk3gtl:soulium_reconstruction_annealing_furnace",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BC58B8D006F63"
+      ],
+      "icon": "hk3gtl:soulium_reconstruction_annealing_furnace",
+      "x": 28,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B54CA117091E5C1",
+      "title": "Soul Steel Reconstruction and Stress Annealing",
+      "subtitle": "One batch requires 460,800 HW",
+      "description": "[
+        \"Thirty-two rough billets are annealed into the same amount of stable billets. The equipment runs at 96 HW/t for 4,800 ticks, and the waste medium and hot coolant are discharged separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B55402732E49C27",
+          "type": "item",
+          "item": "hk3gtl:stabilized_soulium_proto_mass",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5D30E1AA5674F6"
+      ],
+      "icon": "hk3gtl:stabilized_soulium_proto_mass",
+      "x": 32,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B560A45C8B1AB68",
+      "title": "Research on Precision Machining of Soul Steel",
+      "subtitle": "First confirm the processing tolerance of the stable blank",
+      "description": "[
+        \"Send the stable blank to the spectrum array for inspection, and then complete the precision machining research. After the sample is returned, continue to prepare the machining center.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B58E80CB999F893",
+          "type": "custom",
+          "title": "Completed soul steel precision processing research",
+          "tags": [
+            "hk3gtl_quest_rn_spm"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B54CA117091E5C1"
+      ],
+      "icon": "hk3gtl:soulium_data_substrate",
+      "x": 36,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B500587A0E150CD",
+      "title": "Soul Steel Precision Machining Center",
+      "subtitle": "Soul Steel Precision Machining Center is built from existing materials",
+      "description": "[
+        \"Manufacture the machining center controller and connect the front-end material supply. The first machining center is made of existing HCV and MAX materials.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B4F75A20CA6A8",
+          "type": "item",
+          "item": "hk3gtl:soulium_precision_processing_center",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B560A45C8B1AB68",
+        "4B5B003300000001"
+      ],
+      "icon": "hk3gtl:soulium_precision_processing_center",
+      "x": 40,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5748036139BD2F",
+      "title": "Soul Steel Precision Cut-to-Length Ingot",
+      "subtitle": "The first batch of official soul steel ingots",
+      "description": "[
+        \"Complete the sizing and trimming of the outer cover of the stable blank, and obtained thirty-two soul steel ingots. A small amount of processing scraps are kept separately, and the plates and thin wires are continued to be processed from the official ingots.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B51733C6F3A9981",
+          "type": "item",
+          "item": "hk3gtl:soulium_ingot",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B500587A0E150CD"
+      ],
+      "icon": "hk3gtl:soulium_ingot",
+      "x": 44,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B51CE2915C66F8C",
+      "title": "Soul steel pressure-bearing functional board",
+      "subtitle": "The substrate, surface layer and prepreg are processed together",
+      "description": "[
+        \"Compound the soul steel ingot with the surface layer and reinforcement sheet to form a plate. The damping thin layer, seed crystal tooling and data substrate behind will all be taken from here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B51A8DB0E8F76DD",
+          "type": "item",
+          "item": "hk3gtl:soulium_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5748036139BD2F"
+      ],
+      "icon": "hk3gtl:soulium_plate",
+      "x": 44,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5A3460FEB6E1C7",
+      "title": "Soul steel insulated composite thin wire",
+      "subtitle": "Conductive core and insulating layer are available at the same time",
+      "description": "[
+        \"Process the soul steel ingots into thin wires, and complete the conductive and insulating layers. Continue to use the finished wire rods for the data substrate and subsequent assembly.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E84778EAF981A",
+          "type": "item",
+          "item": "hk3gtl:fine_soulium_wire",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5748036139BD2F"
+      ],
+      "icon": "hk3gtl:fine_soulium_wire",
+      "x": 48,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5CBD6067065B87",
+      "title": "Soul Steel Data Baseboard",
+      "subtitle": "One batch requires 102,400 HW",
+      "description": "[
+        \"Assemble the official soul steel plate, thin wire and HCV circuit into the data substrate. The equipment runs at 32 HW/t for 3,200 ticks. First check the HW balance of the same binder.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5642713A6CBDE3",
+          "type": "item",
+          "item": "hk3gtl:soulium_data_substrate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B56FA52585A498B",
+        "4B51CE2915C66F8C",
+        "4B5A3460FEB6E1C7"
+      ],
+      "icon": "hk3gtl:soulium_data_substrate",
+      "x": 48,
+      "y": 20,
+      "optional": false
+    },
+    {
+      "id": "4B5C3F0875E3F9DA",
+      "title": "Fresh resonant lattice growth solution",
+      "subtitle": "Lattice growth starts with new materials",
+      "description": "[
+        \"Adjust the growth liquid in the preparation kettle to provide a stable supply for directional growth. The used growth liquid is collected centrally, regenerated and then connected.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CD7570C3C6756",
+          "type": "custom",
+          "title": "Actual completion of fresh resonant lattice growth solution",
+          "tags": [
+            "hk3gtl_quest_hrv_growth_liquid"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B560A45C8B1AB68"
+      ],
+      "icon": "hk3gtl:soulium_grain_boundary_inoculant",
+      "x": 48,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5F5CD57F09E906",
+      "title": "Grain boundary resonance damping thin layer",
+      "subtitle": "Provide interlayer materials for growth zones and structural parts",
+      "description": "[
+        \"The formal soul steel plate and the front reinforcement sheet, prepreg sheet and anchoring net are processed into a thin damping layer. It will be used in shaping, engineering form and casing assembly.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5BC1685B79D946",
+          "type": "item",
+          "item": "hk3gtl:resonance_damping_interlayer",
+          "count": 64,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51CE2915C66F8C"
+      ],
+      "icon": "hk3gtl:resonance_damping_interlayer",
+      "x": 40,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B5C4F3D0D0BBA6B",
+      "title": "Resonant Orientation Seed Core",
+      "subtitle": "Reusable tooling for directional growth",
+      "description": "[
+        \"First use existing soul steel, HCV, and MAX materials to make a seed crystal core. Read the seed crystal for directional growth and keep it after complete settlement.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B57BB11EAD7A1C0",
+          "type": "item",
+          "item": "hk3gtl:resonance_texture_seed",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B56FA52585A498B",
+        "4B51CE2915C66F8C"
+      ],
+      "icon": "hk3gtl:resonance_texture_seed",
+      "x": 40,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B59CB1801437563",
+      "title": "Resonant lattice nanodispersed precursors",
+      "subtitle": "One batch requires 422,400 HW",
+      "description": "[
+        \"Nano dispersion was completed in the coating array, allowing thirty-two parts of the HCV host to enter the same amount of precursor. The equipment ran at 96 HW/t for 4,400 ticks.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5BFFC2B32747AA",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B560A45C8B1AB68"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_stage_1",
+      "x": 36,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B53A71BFCA14E34",
+      "title": "Seed-induced directional growth",
+      "subtitle": "One batch requires 665,600 HW",
+      "description": "[
+        \"Send the precursor into the annealing furnace, and use the seed core to define the growth direction. Run at 128 HW/t for 5,200 ticks to obtain a directional growth blank, and the waste growth liquid is connected to another outlet.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B547DABCBFAE621",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5F5CD57F09E906",
+        "4B5C3F0875E3F9DA",
+        "4B59CB1801437563",
+        "4B5C4F3D0D0BBA6B"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_stage_2",
+      "x": 32,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B524E28126D3E07",
+      "title": "Resonance Orientation and Precision Shaping",
+      "subtitle": "One batch requires 665,600 HW",
+      "description": "[
+        \"The orientation and grain boundary stress are controlled in the machining center, and the growth blank is processed into a shaped lattice blank. The equipment runs at 128 HW/t for 5,200 ticks.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B565053C51CD1D9",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B53A71BFCA14E34"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_stage_3",
+      "x": 28,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B556A1CCAFC2BA0",
+      "title": "Orientation lattice surface shaping",
+      "subtitle": "One batch requires 230,400 HW",
+      "description": "[
+        \"The shaped blanks are sent back to the coating array to complete the surface shaping, and thirty-two qualified standard blanks are obtained. After running at 64 HW/t for 3,600 ticks, plates, rods and other forms are diverted from here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5F7A3323B7FD4D",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B524E28126D3E07"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_billet",
+      "x": 24,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B55EC67D39B287C",
+      "title": "Oriented lattice pressure-bearing plate",
+      "subtitle": "The case costs sixteen yuan",
+      "description": "[
+        \"Process the standard blank and HCV backing into a pressure-bearing plate, leaving separate production capacity for the casing and functional foil.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B542E31462B5C69",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B556A1CCAFC2BA0"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_plate",
+      "x": 20,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5BD74AFAB9A072",
+      "title": "Oriented lattice bearing rod",
+      "subtitle": "The frame and sealing ring continue to branch from here",
+      "description": "[
+        \"The lattice matrix is filled with a load-bearing core and an insulating layer to create a rod. Frames, rings and composite thin wires continue to use it.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CB3AB43B74A9C",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B556A1CCAFC2BA0"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_rod",
+      "x": 20,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B51CBC2FE337110",
+      "title": "Resonant Isolation Frame Components",
+      "subtitle": "The case requires two pieces",
+      "description": "[
+        \"Assemble the eight rods with the complete HCV frame and the endless frame to obtain a vibration isolation frame. The connectors and damping layers are added separately according to the formula.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B503F02CBA4973F",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BD74AFAB9A072"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_frame",
+      "x": 16,
+      "y": 40,
+      "optional": false
+    },
+    {
+      "id": "4B5C0DA6D127F76C",
+      "title": "Resonance Isolation Seal Ring",
+      "subtitle": "The chassis requires sixteen pieces",
+      "description": "[
+        \"The rod is processed into a sealing ring and the sealing surface is added. After preparing the plates, frames and rings required for the casing, the final assembly can be completed.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5076867BAA270B",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BD74AFAB9A072"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_ring",
+      "x": 16,
+      "y": 44,
+      "optional": false
+    },
+    {
+      "id": "4B5AA557CF2AB776",
+      "title": "Oriented functional composite foil",
+      "subtitle": "The board continues to thin",
+      "description": "[
+        \"The pressure-bearing plate is stretched thin, and then the functional surface layer is composited. It and the thin wire continue to supply subsequent electronics and equipment manufacturing.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5894410743D750",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B55EC67D39B287C"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_foil",
+      "x": 16,
+      "y": 28,
+      "optional": false
+    },
+    {
+      "id": "4B549F63C308765B",
+      "title": "Resonant composite thin wire",
+      "subtitle": "Leave wires for subsequent work areas",
+      "description": "[
+        \"The composite thin wire is processed from the bar, and the front-end HCV wire is fully invested at the same time. The finished product is arranged in inventory according to subsequent equipment needs.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B56CDF63F8C28",
+          "type": "item",
+          "item": "hk3gtl:resonance_oriented_lattice_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BD74AFAB9A072"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_fine_wire",
+      "x": 20,
+      "y": 48,
+      "optional": false
+    },
+    {
+      "id": "4B537C1393006CC9",
+      "title": "HRV resonance pressure mechanical block",
+      "subtitle": "Complete the first block under HCV power",
+      "description": "[
+        \"Sixteen boards, two frames and sixteen sealing rings are installed on the HCV casing, and then shielding, interconnection, fastening and potting materials are completed. The first resonant pressure mechanical block is completed here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C1EDE568BCDDD",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51CBC2FE337110",
+        "4B55EC67D39B287C",
+        "4B5C0DA6D127F76C"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hrv",
+      "x": 12,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B56D20ECA8DE73E",
+      "title": "Soul steel processing chips replenished and repolymerized",
+      "subtitle": "Open this line after the processing chips come back",
+      "description": "[
+        \"Real machining chips are used to add the coating group, precursor fluid and other necessary components, and are recycled into rough steel billets. The recycled billets are then continued to be annealed and cut to length.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B53CB9128DC48BF",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_swarf_recovery"
+          ],
+          "item": "hk3gtl:soulium_proto_mass",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5748036139BD2F"
+      ],
+      "icon": "hk3gtl:soulium_proto_mass",
+      "x": 52,
+      "y": 54,
+      "optional": true
+    },
+    {
+      "id": "4B56B1DB58EA5FDA",
+      "title": "Collapse-resistant coatings impair regeneration",
+      "subtitle": "8,000 mB of waste paint will be returned to 4,000 mB of finished product",
+      "description": "[
+        \"The used paint is handed over to the regeneration tower to replenish the filter elements, solvents and film-forming materials. HBV electricity is used for regeneration, and fresh paint continues to make up for consumption.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B563AC44674A6D6",
+          "type": "custom",
+          "title": "Actual completion of lossy regeneration of collapse resistant paint",
+          "tags": [
+            "hk3gtl_quest_hrv_coating_recovery"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5BD8E2DAD676FC"
+      ],
+      "icon": "hk3gtl:coated_nano_swarm",
+      "x": 4,
+      "y": 54,
+      "optional": true
+    },
+    {
+      "id": "4B57D28E5420D095",
+      "title": "Nucleation sorting of polymerization residues",
+      "subtitle": "Particle recovery from real polymerization residues",
+      "description": "[
+        \"Use the preparation kettle to soak the polymerization residue, add titanium and conditioning source gold, and separate the available grain boundary particles. The inactivated nanocomponents and waste liquid will be discharged separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B52B1499313CDC0",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_inoculant_recovery"
+          ],
+          "item": "hk3gtl:soulium_grain_boundary_inoculant",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B514F6965902A9B"
+      ],
+      "icon": "hk3gtl:soulium_grain_boundary_inoculant",
+      "x": 40,
+      "y": 54,
+      "optional": true
+    },
+    {
+      "id": "4B5D7551240A5C4F",
+      "title": "HRV soul steel annealing and fixed length integration",
+      "subtitle": "Four hundred and twenty seconds reduced to one hundred and twenty seconds",
+      "description": "[
+        \"After obtaining the HRV casing and connecting the HRV power, annealing and sizing can be combined in the machining center. The physical and fluid inputs of the original two processes are retained, and this batch requires an additional 230,400 HW.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B52C4BF4995E953",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_anneal_continuous"
+          ],
+          "item": "hk3gtl:soulium_ingot",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B537C1393006CC9"
+      ],
+      "icon": "hk3gtl:soulium_ingot",
+      "x": 4,
+      "y": 40,
+      "optional": true
+    },
+    {
+      "id": "4B56E0A8546920BC",
+      "title": "HRV housing overhaul and disassembly",
+      "subtitle": "Recover the front stage casing and some components",
+      "description": "[
+        \"Disassemble an HRV casing and return the HCV casing, some lattice components and classified waste. Shielding, fastening, insulation and potting materials are consumed along with maintenance.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D4EEF0A4AD291",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_casing_service"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_hcv",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B537C1393006CC9"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hcv",
+      "x": 8,
+      "y": 48,
+      "optional": true
+    },
+    {
+      "id": "4B56811CD786020F",
+      "title": "HRV sorting waste with damaging separation",
+      "subtitle": "Recyclable phase separated from final tailings",
+      "description": "[
+        \"Send the classified waste into the centrifugal separation center to obtain the recycled components and final tailings. The recycled components are used to compound the precursors, and the tailings are inerted separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C902644A7FD17",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_scrap_separation"
+          ],
+          "item": "hk3gtl:resonance_oriented_lattice_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B556A1CCAFC2BA0"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_recovered_fraction",
+      "x": 28,
+      "y": 54,
+      "optional": true
+    },
+    {
+      "id": "4B583698911880B5",
+      "title": "HRV recovery component compound precursor",
+      "subtitle": "After completing the dispersion function, return to the growth process",
+      "description": "[
+        \"The recycled components are compounded with fresh HCV matrix, control group and necessary interface materials to form a precursor. The finished product continues to undergo directional growth, shaping and surface shaping.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B56B78A1062E670",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_precursor_recovery"
+          ],
+          "item": "hk3gtl:resonance_oriented_lattice_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B56811CD786020F"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_stage_1",
+      "x": 32,
+      "y": 58,
+      "optional": true
+    },
+    {
+      "id": "4B5B7C1BB8921667",
+      "title": "Resonant growth liquid fractionation regeneration",
+      "subtitle": "32,000 mB waste solution is returned to 24,000 mB growth solution",
+      "description": "[
+        \"The used growth liquid is processed in the centrifugal separation center, and then grain boundary particles, solvents and purification consumables are added, and part of the effective growth liquid is returned.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B537C13A7B9A85C",
+          "type": "custom",
+          "title": "Actual completion of resonant growth liquid fractionation regeneration",
+          "tags": [
+            "hk3gtl_quest_hrv_growth_liquid_recovery"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B53A71BFCA14E34"
+      ],
+      "icon": "hk3gtl:soulium_grain_boundary_inoculant",
+      "x": 40,
+      "y": 58,
+      "optional": true
+    },
+    {
+      "id": "4B5F63D8A588FAD1",
+      "title": "Disintegration of HRV historical rejection materials",
+      "subtitle": "Processing routes set aside for old inventory",
+      "description": "[
+        \"The rejected batches in inventory can be split into sorted scrap and tailings. The first batch of qualified standard blanks are produced along the previous step-by-step process.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CB83B314795D0",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_legacy_reject"
+          ],
+          "item": "hk3gtl:resonance_oriented_lattice_classified_scrap",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B560A45C8B1AB68"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_classified_scrap",
+      "x": 24,
+      "y": 58,
+      "optional": true
+    },
+    {
+      "id": "4B521EF6780A5406",
+      "title": "HRV lattice growth and shaping integration",
+      "subtitle": "Seven hundred seconds reduced to one hundred and eighty seconds",
+      "description": "[
+        \"After obtaining the HRV casing and HRV power, the growth, shaping and surface shaping are combined in the processing center. All solid and fluid inputs are retained, and 192 HW/t is run for 3,600 ticks, a total of 691,200 HW.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B533DAEC482E681",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_growth_continuous"
+          ],
+          "item": "hk3gtl:resonance_oriented_lattice_billet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B537C1393006CC9"
+      ],
+      "icon": "hk3gtl:resonance_oriented_lattice_billet",
+      "x": 4,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5AF7E3350B9CCD",
+      "title": "HRV final tailings inerting",
+      "subtitle": "Finish processing the last tailings",
+      "description": "[
+        \"The non-recyclable tailings are handed over to the centrifugal separation center for inerting, and the ash and corresponding wastes are discharged. There is also a good place for this final exit in the factory.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B586091281923",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hrv_tail"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B56811CD786020F"
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 24,
+      "y": 54,
+      "optional": true
+    },
+    {
+      "id": "4B51372F71E2A4E1",
+      "title": "The first batch of resonant compressor casings",
+      "subtitle": "Then arrange the next workshop",
+      "description": "[
+        \"The first resonant press shell has been installed. The step-by-step production of soul steel and resonant lattice can also continue to supply materials.\",
+        \"Connect all types of waste liquid and tail material outlets, and leave enough space for the inventory. The new casing should be put away first, and it will be used for subsequent equipment.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B538A2E499D9EA7",
+          "type": "checkmark",
+          "title": "Read the conclusion of this paragraph",
+          "tags": [
+            "hk3gtl_quest_hrv_foundation"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B537C1393006CC9"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hrv",
+      "x": 8,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B5B003300000001",
+      "title": "HDV case first formula",
+      "subtitle": "Prepare the machining center housing with a MAX assembly machine",
+      "description": "[
+        \"After completing the research on the stabilization of liquid collapse energy, you can first use the first-build formula to obtain the HRV casing in the MAX assembly machine.\",
+        \"Use two HRV casings, original industrial materials and No. 2 programming circuit to make an HDV casing. See JEI for complete investment. After the soul steel precision machining center is formed, use the regular formula of the HDV chapter.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B003300000002",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hdv",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5BE03D48DB244E"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hdv",
+      "x": 40,
+      "y": 16,
+      "optional": false
+    }
+  ]
+}

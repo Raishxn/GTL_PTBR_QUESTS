@@ -1,0 +1,1098 @@
+{
+  "filename": "hk3_voltage_01",
+  "id": "4B512CCEA32E6B1B",
+  "title": "Collapse energy pressure HBV",
+  "subtitle": [
+    "Tier15-HBV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 16,
+  "icon": "hk3gtl:voltage_machine_casing_hbv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B5599133D72B718",
+      "title": "After MAX",
+      "subtitle": "Find the anomaly first",
+      "description": "[
+        \"The MAX factory is still operating, but there is an additional reading in the air observation data sent by Otto that cannot be explained.\",
+        \"First make the sampling and measurement equipment. After getting the real sample, you can then use experiments and research to figure it out step by step.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B53D67DB22F6091",
+          "type": "checkmark",
+          "title": "Read getting started information",
+          "tags": [
+            "hk3gtl_quest_guide_start"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "icon": "minecraft:book",
+      "x": 0,
+      "y": 4,
+      "rewards": [
+        {
+          "id": "4B50496FDF16F000",
+          "type": "item",
+          "item": "hk3gtl:ae_nexus",
+          "count": 1
+        },
+        {
+          "id": "4B54FE1B9448E888",
+          "type": "item",
+          "item": "ae2:sky_stone_block",
+          "count": 2428
+        },
+        {
+          "id": "4B5F9E1F34E52511",
+          "type": "item",
+          "item": "minecraft:smooth_quartz",
+          "count": 1265
+        },
+        {
+          "id": "4B5C9D66055CC10B",
+          "type": "item",
+          "item": "ae2:fluix_block",
+          "count": 1214
+        },
+        {
+          "id": "4B5E34A856422894",
+          "type": "item",
+          "item": "gtceu:computer_casing",
+          "count": 606
+        },
+        {
+          "id": "4B5E12733C1450CA",
+          "type": "item",
+          "item": "gtceu:computer_heat_vent",
+          "count": 117
+        },
+        {
+          "id": "4B5DD4E0B34FEF34",
+          "type": "item",
+          "item": "hk3gtl:casing_colored_purple",
+          "count": 463
+        },
+        {
+          "id": "4B5093F5F9F7B95E",
+          "type": "item",
+          "item": "hk3gtl:casing_colored_cyan",
+          "count": 509
+        },
+        {
+          "id": "4B5C912B26BBD263",
+          "type": "item",
+          "item": "hk3gtl:glass_honkai_stabilized",
+          "count": 125
+        },
+        {
+          "id": "4B5A9D1B820B13DB",
+          "type": "item",
+          "item": "minecraft:sea_lantern",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "4B51A5DD7757E7FA",
+      "title": "Sampling and measurement components",
+      "subtitle": "Make the instrument first",
+      "description": "[
+        \"First make the low-temperature sampling chamber and the differential measurement component. The sampling chamber is responsible for retaining samples, and the differential measurement component is responsible for comparing readings. They are used by the detector and the first few facilities.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C8A6C4E508531",
+          "type": "item",
+          "item": "hk3gtl:cryogenic_sampling_chamber",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5092B0FBB50B21",
+          "type": "item",
+          "item": "hk3gtl:differential_measurement_component",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5599133D72B718"
+      ],
+      "icon": "hk3gtl:cryogenic_sampling_chamber",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "id": "4B5146F8FCC2CB66",
+      "title": "Prototype collapse energy detector",
+      "subtitle": "Start with that abnormal reading",
+      "description": "[
+        \"Install the sampling cavity and differential measurement components into the detector. The observation data sent by Otto gives us a direction. Next, we have to rely on our own instruments to find it.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5DA6B439B42E27",
+          "type": "item",
+          "item": "hk3gtl:prototype_honkai_detector",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51A5DD7757E7FA"
+      ],
+      "icon": "hk3gtl:prototype_honkai_detector",
+      "x": 8,
+      "y": 0
+    },
+    {
+      "id": "4B5D3AE78A2F4B44",
+      "title": "Honkai Energy Harvesting Tower Controller",
+      "subtitle": "Let the liquid air pass through here",
+      "description": "[
+        \"First build the collection tower controller, and then connect the structure, fluid interface and MAX power supply. The trial detector will remain in the tower and will continue to be used during sampling.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B527F35045CA57E",
+          "type": "item",
+          "item": "hk3gtl:i01_honkai_collection_tower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51A5DD7757E7FA"
+      ],
+      "icon": "hk3gtl:i01_honkai_collection_tower",
+      "x": 8,
+      "y": 4
+    },
+    {
+      "id": "4B52B08CFC461F2C",
+      "title": "Honkai recognition",
+      "subtitle": "A little bit left in a million barrels",
+      "description": "[
+        \"Each batch of the collection tower consumes 1,000,000 mB of liquid air and extracts 100 mB of liquid collapse energy. You can start by reading Otto's observation data. It is up to you to decide whether to accept cooperation.\",
+        \"After the first batch of real samples come out, go to the research institute to complete Honkai energy identification. The detector will be retained during this process.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B546F275EF1842E",
+          "type": "custom",
+          "title": "Honkai energy recognition completed",
+          "tags": [
+            "hk3gtl_quest_rn_hed"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5D3AE78A2F4B44",
+        "4B5146F8FCC2CB66",
+        "4B54B1712D2ED530"
+      ],
+      "icon": "hk3gtl:honkai_analysis_sample",
+      "x": 12,
+      "y": 4
+    },
+    {
+      "id": "4B5225A9FF2B7BE2",
+      "title": "Reusable spectral ampoules",
+      "subtitle": "Leave a clean container for the sample",
+      "description": "[
+        \"Prepare the ampoule first. It contains liquid collapse energy when the sample is sealed. It will be returned in its original form after the spectrum experiment is completed, and can be used in the next batch.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C868A741A6871",
+          "type": "item",
+          "item": "hk3gtl:reusable_honkai_optical_ampoule",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:reusable_honkai_optical_ampoule",
+      "x": 12,
+      "y": 0
+    },
+    {
+      "id": "4B5427A9682A52A5",
+      "title": "Collapse energy spectrum calibration film",
+      "subtitle": "Calibrate before analysis",
+      "description": "[
+        \"Make a batch of spectral calibration films. An initial spectrum experiment consumes four sheets, and save them for the analysis array first.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B577098367A7BC7",
+          "type": "item",
+          "item": "hk3gtl:honkai_spectral_calibration_film",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:honkai_spectral_calibration_film",
+      "x": 20,
+      "y": 0
+    },
+    {
+      "id": "4B5972DD84BD42B0",
+      "title": "Sample Spectral Array Controller",
+      "subtitle": "See what's in the sample",
+      "description": "[
+        \"Use differential measurement components to create a spectral array controller. After setting up the array, connect the sample and calibration film to the input terminals respectively.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B542370B6ACA72F",
+          "type": "item",
+          "item": "hk3gtl:i02_spectrum_analysis_array",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B51A5DD7757E7FA"
+      ],
+      "icon": "hk3gtl:i02_spectrum_analysis_array",
+      "x": 8,
+      "y": 8
+    },
+    {
+      "id": "4B538C8A0EA657E0",
+      "title": "Archiving spectral samples",
+      "subtitle": "Pack the first sample",
+      "description": "[
+        \"The liquid collapsing energy is loaded into reusable ampoules using a canning machine. The sealed samples are then sent to the spectroscopic array.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E002492E3F2F3",
+          "type": "item",
+          "item": "hk3gtl:honkai_analysis_sample",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B52B08CFC461F2C",
+        "4B5225A9FF2B7BE2"
+      ],
+      "icon": "hk3gtl:honkai_analysis_sample",
+      "x": 16,
+      "y": 4
+    },
+    {
+      "id": "4B5CF2EB987405D1",
+      "title": "Sample spectral analysis",
+      "subtitle": "Finish this measurement first",
+      "description": "[
+        \"Complete the initial experiment at the spectral array and obtain the analysis sample. The MAX sensor is retained as a tooling and the ampoule will be returned with the product.\",
+        \"Bring the team's real experimental records to the research institute to complete the sample spectrum analysis. Next, we can build a separation center.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5169BE3F15D266",
+          "type": "custom",
+          "title": "Complete sample spectrum analysis",
+          "tags": [
+            "hk3gtl_quest_rn_hsa"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5427A9682A52A5",
+        "4B538C8A0EA657E0",
+        "4B5972DD84BD42B0"
+      ],
+      "icon": "hk3gtl:analyzed_honkai_sample",
+      "x": 20,
+      "y": 4
+    },
+    {
+      "id": "4B5C2AB0B83916A9",
+      "title": "Honkai Energy Separation Center Controller",
+      "subtitle": "Leave an outlet each for crude liquor, mother liquor and tailings",
+      "description": "[
+        \"After the spectral study is completed, the separation center controller is manufactured. It is responsible for primary fractionation, mother liquor purification and several recovery processes. The fluid and solid outlets must be arranged in advance.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5BD17C909DBA36",
+          "type": "item",
+          "item": "hk3gtl:liquid_honkai_fractionation_center",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5CF2EB987405D1"
+      ],
+      "icon": "hk3gtl:liquid_honkai_fractionation_center",
+      "x": 24,
+      "y": 4
+    },
+    {
+      "id": "4B5A8BA1982E056E",
+      "title": "Separation filter element and crystal matrix",
+      "subtitle": "Prepare fresh supplies first",
+      "description": "[
+        \"Both the filter element and the oriented crystallization matrix can start from MAX materials. Separation and stabilization will continue to consume them, so leave space for both sides first.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B51C11D7EE37538",
+          "type": "item",
+          "item": "hk3gtl:separation_filter",
+          "count": 4,
+          "consume_items": false
+        },
+        {
+          "id": "4B50A86307A08F61",
+          "type": "item",
+          "item": "hk3gtl:directional_crystallization_matrix",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:separation_filter",
+      "x": 28,
+      "y": 0
+    },
+    {
+      "id": "4B5EFBBF652DADD7",
+      "title": "Fresh Selective Extract",
+      "subtitle": "The first batch does not need to wait for the recycling line",
+      "description": "[
+        \"Fresh extract is produced in the separation center. It is sent to primary fractionation, and the accompanying process waste is collected separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CA2E4D4CBB2DD",
+          "type": "custom",
+          "title": "Actual completion of a fresh selective extraction solution",
+          "tags": [
+            "hk3gtl_quest_hbv_extractant"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5C2AB0B83916A9"
+      ],
+      "icon": "hk3gtl:honkai_selective_extractant_bucket",
+      "x": 24,
+      "y": 8
+    },
+    {
+      "id": "4B5932E463E1338F",
+      "title": "Liquid separation process",
+      "subtitle": "Connect every outlet",
+      "description": "[
+        \"Let the initial extraction liquid, extraction liquid and consumables complete a primary fractionation. The crude liquid, mother liquor, analytical reagents and solid impurities are all used for subsequent use, and the waste extraction liquid is also stored first.\",
+        \"After our team receives this batch of products completely, we will go to the research institute to complete the liquid separation process.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5FF1B1CEED8B2B",
+          "type": "custom",
+          "title": "Complete liquid separation process",
+          "tags": [
+            "hk3gtl_quest_rn_lse"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5EFBBF652DADD7",
+        "4B5A8BA1982E056E"
+      ],
+      "icon": "hk3gtl:separation_filter",
+      "x": 28,
+      "y": 4
+    },
+    {
+      "id": "4B5613CC20ED2AED",
+      "title": "Mother liquor purification and particle separation",
+      "subtitle": "The medium for the next step comes from the mother liquor.",
+      "description": "[
+        \"Continue to process the mother liquor, analyze reagents and solid impurities, and separate the Honkai Impact separation medium and original particles. Leave separate outlets for waste reagents, clarified mother liquor and process waste liquid.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5AC2EE0A4C0444",
+          "type": "item",
+          "item": "hk3gtl:raw_honkai_particle",
+          "count": 320,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5932E463E1338F"
+      ],
+      "icon": "hk3gtl:raw_honkai_particle",
+      "x": 28,
+      "y": 8
+    },
+    {
+      "id": "4B5333987B6B5A43",
+      "title": "Collapse Seed",
+      "subtitle": "Give crystallization a starting point first",
+      "description": "[
+        \"Create seed crystals from original particles and separation media. The stabilizing tower consumes seed crystals, so connect this supply first.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B53A338E00C194F",
+          "type": "item",
+          "item": "hk3gtl:honkai_crystal_seed",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5613CC20ED2AED"
+      ],
+      "icon": "hk3gtl:honkai_crystal_seed",
+      "x": 32,
+      "y": 8
+    },
+    {
+      "id": "4B50E15FA6696E03",
+      "title": "fresh stable medium",
+      "subtitle": "This bucket is first prepared from new ingredients",
+      "description": "[
+        \"Mix the separation medium with the new materials in the formula to obtain a stable medium. The waste medium can be recycled later, and the first batch of stabilization has an independent fresh supply.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5FF7EDB65419F2",
+          "type": "custom",
+          "title": "Actual completion of fresh stable media",
+          "tags": [
+            "hk3gtl_quest_hbv_stabilization_medium"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5613CC20ED2AED"
+      ],
+      "icon": "hk3gtl:honkai_stabilization_medium_bucket",
+      "x": 32,
+      "y": 12
+    },
+    {
+      "id": "4B55EB47DE47E9B6",
+      "title": "Honkai industrial coolant",
+      "subtitle": "Heat needs a way to go too",
+      "description": "[
+        \"Use a mixer to prepare fresh industrial coolant and supply it to the stabilizing tower first. The used hot coolant is recovered separately or temporarily stored.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B544F79877EE0D7",
+          "type": "custom",
+          "title": "Actual completion of a collapse industrial coolant",
+          "tags": [
+            "hk3gtl_quest_hbv_coolant"
+          ]
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:honkai_coolant_bucket",
+      "x": 32,
+      "y": 20
+    },
+    {
+      "id": "4B54265A0F8156B7",
+      "title": "Liquid collapse energy stabilization tower controller",
+      "subtitle": "The crude liquid is ready to enter the next process",
+      "description": "[
+        \"After the liquid separation research is completed, the stabilizing tower controller is manufactured. Connect the crude liquid, stabilizing medium and cooling liquid, and then prepare the seed crystal and crystallization matrix.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C34EEF1D35D26",
+          "type": "item",
+          "item": "hk3gtl:liquid_honkai_stabilization_tower",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5932E463E1338F"
+      ],
+      "icon": "hk3gtl:liquid_honkai_stabilization_tower",
+      "x": 24,
+      "y": 12
+    },
+    {
+      "id": "4B5BE03D48DB244E",
+      "title": "Liquid collapse energy stabilization",
+      "subtitle": "Let this batch of samples enter the material workshop",
+      "description": "[
+        \"The first batch of stabilization is completed in the stabilization tower, leaving the stabilizing liquid and crystallization. After use, the medium, crystallization residual liquid, hot coolant and residue must also be taken away.\",
+        \"Go to the research institute to complete the stabilization project, and then impregnate the soul steel with the stabilizing solution.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5158267B22C05A",
+          "type": "custom",
+          "title": "Completion of liquid collapse energy stabilization",
+          "tags": [
+            "hk3gtl_quest_rn_les"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B55EB47DE47E9B6",
+        "4B5333987B6B5A43",
+        "4B54265A0F8156B7",
+        "4B50E15FA6696E03"
+      ],
+      "icon": "hk3gtl:honkai_energy_crystal",
+      "x": 28,
+      "y": 16
+    },
+    {
+      "id": "4B517CFE24713919",
+      "title": "Soul Steel Base and Interface Foil Pack",
+      "subtitle": "The load-bearing skeleton and interface materials are prepared separately.",
+      "description": "[
+        \"First use MAX materials to extrude the load-bearing matrix prefabricated parts and gradient interface foil packages. They will enter the SPS together as the physical skeleton of the first batch of soul steel.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B56C03C1B7C31C0",
+          "type": "item",
+          "item": "hk3gtl:soulium_structural_preform",
+          "count": 32,
+          "consume_items": false
+        },
+        {
+          "id": "4B5F34B2F63E60F7",
+          "type": "item",
+          "item": "hk3gtl:soulium_gradient_foil_pack",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:soulium_structural_preform",
+      "x": 16,
+      "y": 28
+    },
+    {
+      "id": "4B58076AAAF76C4C",
+      "title": "Abyss impregnated soul steel·primary mixed blank",
+      "subtitle": "Make the base first",
+      "description": "[
+        \"The preforms, foil packs and other materials are fed into the SPS, which creates a premix. The production of the stabilizing fluid can be carried out at the same time, and it will be used later in the impregnation process.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B50C64BC1D04FC3",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B517CFE24713919"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_stage_1",
+      "x": 20,
+      "y": 24
+    },
+    {
+      "id": "4B515A66100DA19B",
+      "title": "Haiyuan impregnated soul steel·impregnated blank",
+      "subtitle": "Use stabilizing fluid and space medium into the material",
+      "description": "[
+        \"The primary mix and the stabilizing fluid meet here. Continue to complete the SPS impregnation and incorporate the space medium into this batch of materials.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5D1B668871D773",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5BE03D48DB244E",
+        "4B58076AAAF76C4C"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_stage_2",
+      "x": 20,
+      "y": 16
+    },
+    {
+      "id": "4B5445E64EC79ED6",
+      "title": "Haiyuan Impregnated Soul Steel Standard Billet",
+      "subtitle": "Under protective atmosphere, do another heat treatment",
+      "description": "[
+        \"Complete the thermal stabilization treatment of the impregnated blanks and obtain the first batch of standard blanks. The subsequent plates, rods and frames are diverted from here.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5A083186C5464F",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B515A66100DA19B"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_billet",
+      "x": 16,
+      "y": 16
+    },
+    {
+      "id": "4B5F92439E437695",
+      "title": "Abyss Impregnated Soul Steel Plate",
+      "subtitle": "Leave a copy for the case first",
+      "description": "[
+        \"Use the MAX first-production process to press the standard blank into a plate. HBV mechanical cubes require sixteen pieces, don't use them all in other assemblies.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E51C2EBFCA87B",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_plate",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5445E64EC79ED6"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_plate",
+      "x": 12,
+      "y": 12
+    },
+    {
+      "id": "4B5FF5437A48B597",
+      "title": "Abyss impregnated soul steel rod",
+      "subtitle": "Another batch of standard billets are used to make load-bearing rods",
+      "description": "[
+        \"Composite load-bearing rods are machined from standard blanks. They go into the frame assembly and together with the panels form the new casing.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5EAB6B9FD2105F",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_rod",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5445E64EC79ED6"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_rod",
+      "x": 12,
+      "y": 20
+    },
+    {
+      "id": "4B5F1B1509FB936A",
+      "title": "Soul Steel Frame Components",
+      "subtitle": "Connect the load-bearing structure",
+      "description": "[
+        \"Use soul steel rods to assemble frame components. Each HBV mechanical cube requires two frames, and this assembly line is arranged according to the output of the casing.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5CAF21C3F6F136",
+          "type": "item",
+          "item": "hk3gtl:abyss_impregnated_soulium_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5FF5437A48B597"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_frame",
+      "x": 8,
+      "y": 20
+    },
+    {
+      "id": "4B5CE12B258170FA",
+      "title": "HBV Collapse Energy Pressure Mechanical Block",
+      "subtitle": "The first batch of collapse energy press casings",
+      "description": "[
+        \"The soul steel plate and frame have been assembled. Together with the chaos plate, old industrial materials and polyimide, the first HBV mechanical cube has been installed.\",
+        \"This first manufacturing process still uses MAX power. Subsequent equipment and HBV power supply will continue to be prepared according to their respective real conditions.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5C4562571D7B19",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hbv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5F1B1509FB936A",
+        "4B5F92439E437695"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hbv",
+      "x": 4,
+      "y": 16
+    },
+    {
+      "id": "4B55BDE780E69245",
+      "title": "Three sets of components for mobile phones",
+      "subtitle": "Display, communication and isolated power supply",
+      "description": "[
+        \"The touch optical panel, duplex communication interconnection module and low-voltage isolation power supply module are made separately. The three sets of components are all made of original MAX and previous materials.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B2E71FF105FEE",
+          "type": "item",
+          "item": "hk3gtl:phone_optical_touch_panel",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5380A55BB50CFE",
+          "type": "item",
+          "item": "hk3gtl:phone_duplex_interconnect_module",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B52362CECE0FCA6",
+          "type": "item",
+          "item": "hk3gtl:phone_isolated_lv_power_module",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [],
+      "icon": "hk3gtl:phone_optical_touch_panel",
+      "x": 0,
+      "y": 28
+    },
+    {
+      "id": "4B513DF0FBF2683B",
+      "title": "HK3GTL mobile phone",
+      "subtitle": "Assemble three modules into a terminal",
+      "description": "[
+        \"The final assembly of the mobile phone is completed. The wireless terminal and MAX devices are still put in according to the complete formula, and the components in the assembly also retain their respective uses.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5DF92470253E7E",
+          "type": "item",
+          "item": "hk3gtl:personal_phone",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B55BDE780E69245"
+      ],
+      "icon": "hk3gtl:personal_phone",
+      "x": 4,
+      "y": 28
+    },
+    {
+      "id": "4B54B1712D2ED530",
+      "title": "Research Institute and Industrial Chassis",
+      "subtitle": "Find a place for experiments and research first",
+      "description": "[
+        \"Make a controller for the Institute of Collapse Phenomenon, and then use MAX mechanical cubes to modify the industrial casing. After the controller and casing are ready, build the facility according to the real structure.\",
+        \"The four initial projects were all completed at the institute, and real experiments, research materials, points, and electricity were settled according to the project requirements.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5A0B2E755FA7F7",
+          "type": "item",
+          "item": "hk3gtl:abyss_research_analysis_matrix",
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "4B5D31020029F580",
+          "type": "item",
+          "item": "hk3gtl:industrial_port_casing",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "dependencies": [
+        "4B5599133D72B718"
+      ],
+      "icon": "hk3gtl:abyss_research_analysis_matrix",
+      "x": 4,
+      "y": 8
+    },
+    {
+      "id": "4B5D6484B5CE7D14",
+      "title": "Clarified mother liquor reflux",
+      "subtitle": "Keep a jar of mother liquor first",
+      "description": "[
+        \"Send the purified clarified mother liquor back to the separation process to obtain another batch of crude liquid and by-products. This return line is connected after the first batch of separation.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5780F09B8ACEDC",
+          "type": "custom",
+          "title": "Actual completion of a clarified mother liquor reflux",
+          "tags": [
+            "hk3gtl_quest_hbv_mother_reflux"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5613CC20ED2AED"
+      ],
+      "icon": "hk3gtl:crude_honkai_energy_bucket",
+      "x": 32,
+      "y": 4
+    },
+    {
+      "id": "4B55059A70EA0AD8",
+      "title": "Regeneration of spent stabilizing media",
+      "subtitle": "Recyclable components can be reused",
+      "description": "[
+        \"Process the waste media left behind by stabilization and recycle part of the stabilizing media. The remaining process waste liquid continues to be collected separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B2D5373A5D7D6",
+          "type": "custom",
+          "title": "Actual completion of a waste stabilizing media regeneration",
+          "tags": [
+            "hk3gtl_quest_hbv_medium_recycle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5BE03D48DB244E"
+      ],
+      "icon": "hk3gtl:honkai_stabilization_medium_bucket",
+      "x": 36,
+      "y": 12
+    },
+    {
+      "id": "4B50B00190928E93",
+      "title": "Hot coolant reconditioning",
+      "subtitle": "Connect the heat pipe back too",
+      "description": "[
+        \"Process hot industrial coolant and recover a portion of the coolant that can be reused. Recovery losses are made up by fresh supply.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B59932140F0060F",
+          "type": "custom",
+          "title": "Actual completion of a hot coolant reconditioning",
+          "tags": [
+            "hk3gtl_quest_hbv_coolant_recycle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5BE03D48DB244E"
+      ],
+      "icon": "hk3gtl:honkai_coolant_bucket",
+      "x": 36,
+      "y": 20
+    },
+    {
+      "id": "4B59A15358465868",
+      "title": "Crystallization residue recovery",
+      "subtitle": "Divide a little more medium from the remaining liquid",
+      "description": "[
+        \"Send the crystallization residual liquid back to the separation center and recover the separation medium. The process waste liquid still has its own outlet.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5777C8779B0729",
+          "type": "custom",
+          "title": "Actual completion of a crystallization residue recovery",
+          "tags": [
+            "hk3gtl_quest_hbv_residual_recycle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5BE03D48DB244E"
+      ],
+      "icon": "hk3gtl:honkai_separation_medium_bucket",
+      "x": 36,
+      "y": 16
+    },
+    {
+      "id": "4B5335F3E77C71D6",
+      "title": "Selective extract regeneration",
+      "subtitle": "Give the used extract a circuit",
+      "description": "[
+        \"Regenerate the spent extract and send the usable part back to primary fractionation. Fresh extract continues to make up for losses.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5845310EDA8506",
+          "type": "custom",
+          "title": "Actual completion of a selective extract regeneration",
+          "tags": [
+            "hk3gtl_quest_hbv_extractant_recycle"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5932E463E1338F"
+      ],
+      "icon": "hk3gtl:honkai_selective_extractant_bucket",
+      "x": 36,
+      "y": 8
+    },
+    {
+      "id": "4B50BBFB748CDEBA",
+      "title": "Solidification of process waste liquid",
+      "subtitle": "Get rid of this can first",
+      "description": "[
+        \"The process waste liquid is solidified into an inert residue according to the formula to make room for the storage tank. There is another tail material to be processed in the subsequent separation.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E2EBAD60BFF93",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hbv_effluent_solidification"
+          ],
+          "item": "hk3gtl:inactive_fuel_residue",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5932E463E1338F"
+      ],
+      "icon": "hk3gtl:inactive_fuel_residue",
+      "x": 32,
+      "y": 0
+    },
+    {
+      "id": "4B523278A94C800E",
+      "title": "Separation of inert residues",
+      "subtitle": "Ash, water and remaining waste liquid are collected separately",
+      "description": "[
+        \"Continue to separate the inert residue, leaving ash and water, and process the remaining process waste liquid separately.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5E74B07F696579",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hbv_residue_separation"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B50BBFB748CDEBA"
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 36,
+      "y": 0
+    },
+    {
+      "id": "4B51A65E81ECCCC7",
+      "title": "HBV continuous impregnation and thermal stabilization",
+      "subtitle": "After the power supply is upgraded, these two processes will be merged.",
+      "description": "[
+        \"With HBV power supply, the preliminary mixed billet can be directly processed into a standard billet. It uses stabilizing liquid and space medium, eliminating the need to transport the impregnated billet separately.\",
+        \"This is the follow-up speed-up route. The first HBV casing can still be completed by the MAX first-production route.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5539C80950DB3D",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hbv_continuous_soulium"
+          ],
+          "item": "hk3gtl:abyss_impregnated_soulium_billet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5BE03D48DB244E",
+        "4B58076AAAF76C4C"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_billet",
+      "x": 24,
+      "y": 24
+    },
+    {
+      "id": "4B54AC90FFB725D4",
+      "title": "HBV composite component continuous molding",
+      "subtitle": "Let the plate line keep up with the new electricity",
+      "description": "[
+        \"After the HBV power supply is available, the continuous forming process is used to process the soul steel plate. After it is connected to the supply of standard blanks, the original MAX first production route is also retained.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B564986C2441E61",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hbv_continuous_plate"
+          ],
+          "item": "hk3gtl:abyss_impregnated_soulium_plate",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "dependencies": [
+        "4B5445E64EC79ED6"
+      ],
+      "icon": "hk3gtl:abyss_impregnated_soulium_plate",
+      "x": 12,
+      "y": 24
+    },
+    {
+      "id": "4B5FB7AE702E80CA",
+      "title": "The first batch of collapse energy press casings",
+      "subtitle": "New materials handed over by MAX workshop",
+      "description": "[
+        \"From the faint anomaly in the air to the soul steel casing that can be installed into the structure, this route has already had its first batch of physical objects.\",
+        \"Connect the existing supply firmly and leave space for subsequent circuits and equipment.\"
+      ]",
+      "tasks": [
+        {
+          "id": "4B5B440858270FF7",
+          "type": "checkmark",
+          "title": "Read the conclusion of this paragraph",
+          "tags": [
+            "hk3gtl_quest_hbv_foundation"
+          ]
+        }
+      ],
+      "dependencies": [
+        "4B5CE12B258170FA"
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hbv",
+      "x": 0,
+      "y": 16
+    }
+  ]
+}

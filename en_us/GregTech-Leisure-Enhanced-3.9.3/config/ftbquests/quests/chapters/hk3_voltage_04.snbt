@@ -1,0 +1,2257 @@
+{
+  "filename": "hk3_voltage_04",
+  "id": "4B5984DF92C5F6CF",
+  "title": "Dense pressure HDV",
+  "subtitle": [
+    "Tier18-HDV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 19,
+  "icon": "hk3gtl:voltage_machine_casing_hdv",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B5BB686117E9636",
+      "title": "Continue from HRV workshop",
+      "subtitle": "HRV → HDV",
+      "description": "[
+        \"The front-end chassis is ready. This chapter continues to connect the main materials, electronics and facilities to create the first batch of HDV mechanical cubes.\",
+        \"First connect the main material production line, and then arrange the merging process after recycling and boosting. Please check JEI for materials, power and working conditions.\"
+      ]",
+      "dependencies": [
+        "4B537C1393006CC9"
+      ],
+      "tasks": [
+        {
+          "id": "4B552BF555D4D496",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hrv",
+      "x": 0,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B503EFA5225F3C4",
+      "title": "Piezoelectric resonant composite substrate",
+      "subtitle": "Quartz working layer and partition electrode",
+      "description": "[
+        \"The appropriate crystal orientation is selected from the quartz layer and then connected to the silver electrode. The resonant orientation foil is responsible for tuning, the backing supports the working layer, and then the acousto-optic window is processed.\"
+      ]",
+      "dependencies": [
+        "4B583A42E98955E9",
+        "4B5AA557CF2AB776"
+      ],
+      "tasks": [
+        {
+          "id": "4B5816E536DBBF91",
+          "type": "item",
+          "item": "hk3gtl:piezoelectric_resonator_blank",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:piezoelectric_resonator_blank",
+      "x": 30,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5052A9566B64E1",
+      "title": "Acousto-optical resonant tuning array",
+      "subtitle": "Bring the two substrates together",
+      "description": "[
+        \"Assemble the two resonant substrates and trim the acousto-optic window and electrode edges. The measurement bridge and phase recovery components both read changes from this array.\"
+      ]",
+      "dependencies": [
+        "4B503EFA5225F3C4"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C2DB0094A0441",
+          "type": "item",
+          "item": "hk3gtl:acousto_optic_tuning_array",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:acousto_optic_tuning_array",
+      "x": 42,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B58A7332BF4C5A6",
+      "title": "Symmetric multi-chip interconnect bridge",
+      "subtitle": "Give both sides of the chip the same length of path",
+      "description": "[
+        \"Fix the interconnect branches on both sides on the same backing. The equal-length connections are responsible for inter-chip communication, and the existing through array continues to be responsible for the upper and lower layer connections.\"
+      ]",
+      "dependencies": [
+        "4B51BA7AC8395B2D",
+        "4B5AC50CDB402ACF",
+        "4B549F63C308765B",
+        "4B55EC67D39B287C"
+      ],
+      "tasks": [
+        {
+          "id": "4B540A449A098A82",
+          "type": "item",
+          "item": "hk3gtl:symmetric_multichip_interconnect_bridge",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:symmetric_multichip_interconnect_bridge",
+      "x": 34,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5A28EDC18413DB",
+      "title": "Differential Resonant Measurement Bridge",
+      "subtitle": "Working readings are retained along with the reference readings",
+      "description": "[
+        \"A complete sensor, tuning array and compensation clock are assembled into a measurement bridge. Each joint board has two sets of complete readout units, which can be installed separately after being separated.\"
+      ]",
+      "dependencies": [
+        "4B5052A9566B64E1",
+        "4B5C0DA6D127F76C",
+        "4B561776CF8C5AAC"
+      ],
+      "tasks": [
+        {
+          "id": "4B517C1FB9A59328",
+          "type": "item",
+          "item": "hk3gtl:differential_resonance_bridge",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:differential_resonance_bridge",
+      "x": 46,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B56D75318E2AB67",
+      "title": "Pulsation buffer valve group",
+      "subtitle": "Allow buffer volume for fluid circuits",
+      "description": "[
+        \"Use corrugated seals and oriented films to separate the drive side from the process fluid. Make the valve group first, and use it to smooth out the pulsation of the subsequent pumps, pistons and pressure-bearing equipment.\"
+      ]",
+      "dependencies": [
+        "4B57416F9F323919",
+        "4B5AA557CF2AB776",
+        "4B5C0DA6D127F76C",
+        "4B598D3600DC6623"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A6A098FE0EDE8",
+          "type": "item",
+          "item": "hk3gtl:pulsation_buffer_valve_group",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:pulsation_buffer_valve_group",
+      "x": 38,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B50A24289FCFFB5",
+      "title": "Axial magnetic levitation thrust assembly",
+      "subtitle": "In addition to the radial support, it also receives the axial load",
+      "description": "[
+        \"The radial bearing supports the shaft, and the thrust core and load-bearing ring bear the axial load. Equip each component with an independent differential readout to continuously measure the support clearance.\"
+      ]",
+      "dependencies": [
+        "4B5A28EDC18413DB",
+        "4B52CFD71DFDD8B7"
+      ],
+      "tasks": [
+        {
+          "id": "4B58ECE323CCA69C",
+          "type": "item",
+          "item": "hk3gtl:axial_magnetic_thrust_assembly",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:axial_magnetic_thrust_assembly",
+      "x": 54,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5DED5BB1729D01",
+      "title": "Clock Phase Recovery Component",
+      "subtitle": "Realign scattered timings",
+      "description": "[
+        \"Use the compensation clock as a reference to compare the phase deviation read out by the acousto-optic array. Connect the independent reference input and recovery output for synchronization of multi-chip and multi-axis actions.\"
+      ]",
+      "dependencies": [
+        "4B5052A9566B64E1",
+        "4B58A7332BF4C5A6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CF9663D71D098",
+          "type": "item",
+          "item": "hk3gtl:clock_phase_recovery_module",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:clock_phase_recovery_module",
+      "x": 50,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B56E812A97E1A2B",
+      "title": "HRV Soulsteel Lattice Supercomputer",
+      "subtitle": "Equal-length interconnects, differential readout and phase recovery",
+      "description": "[
+        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to create a soul steel lattice supercomputer. Prepare computing components for subsequent execution parts and engineering equipment.\"
+      ]",
+      "dependencies": [
+        "4B5A28EDC18413DB",
+        "4B5DED5BB1729D01",
+        "4B51CBC2FE337110"
+      ],
+      "tasks": [
+        {
+          "id": "4B517DBD20AB2313",
+          "type": "item",
+          "item": "hk3gtl:hrv_computer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:hrv_computer",
+      "x": 54,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B577686A332F134",
+      "title": "HRV Rhythm Coupling Processor Assembly",
+      "subtitle": "Equal-length interconnects, differential readout and phase recovery",
+      "description": "[
+        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a rhythm coupling processor assembly. Prepare computing components for subsequent execution parts and engineering equipment.\"
+      ]",
+      "dependencies": [
+        "4B5DED5BB1729D01",
+        "4B59FADA795D826B",
+        "4B523DAF3EE00C05",
+        "4B51CBC2FE337110"
+      ],
+      "tasks": [
+        {
+          "id": "4B54F99C6D4D927F",
+          "type": "item",
+          "item": "hk3gtl:rhythmic_coupling_assembly",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:rhythmic_coupling_assembly",
+      "x": 50,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5E81E604C4DFC4",
+      "title": "HRV Collapse Resonance Processor",
+      "subtitle": "Equal-length interconnects, differential readout and phase recovery",
+      "description": "[
+        \"Consume the complete circuit of the previous form, and add this section of interconnection, readout and heat dissipation components to make a collapse energy resonance processor. Prepare computing components for subsequent execution parts and engineering equipment.\"
+      ]",
+      "dependencies": [
+        "4B5A28EDC18413DB",
+        "4B5DED5BB1729D01",
+        "4B51CBC2FE337110"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AF6C1A9A26170",
+          "type": "item",
+          "item": "hk3gtl:honkai_resonance_processor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_resonance_processor",
+      "x": 46,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B529A3F20959D18",
+      "title": "HRV electric motor",
+      "subtitle": "Provides independent rotational drive",
+      "description": "[
+        \"Assemble the front-end motor and the force-bearing and feedback components of this section to prepare the rotation drive for subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B50A24289FCFFB5",
+        "4B56E812A97E1A2B",
+        "4B5A7F42C3464580"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A4C13EAB58F5D",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_motor_hrv",
+      "x": 42,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5C3D8FE272F427",
+      "title": "HRV electric piston",
+      "subtitle": "Convert drive into controlled linear motion",
+      "description": "[
+        \"Assemble the front-stage piston with the positioning and feedback components of this section for controlled push and pull of subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B56D75318E2AB67",
+        "4B529A3F20959D18",
+        "4B5455B5587935BF"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E87D11A92DB09",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_piston_hrv",
+      "x": 30,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B54CE973A2C82F9",
+      "title": "HRV electric pump",
+      "subtitle": "Provide conveying power for independent flow paths",
+      "description": "[
+        \"Assemble the backing pump, this section of flow path, and feedback components to continue the fluid transportation of subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B56D75318E2AB67",
+        "4B529A3F20959D18",
+        "4B5B91EB2C5FA7BE"
+      ],
+      "tasks": [
+        {
+          "id": "4B51302FF013D64D",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_pump_hrv",
+      "x": 30,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B5E82E7D09B0BC6",
+      "title": "HRV conveyor module",
+      "subtitle": "Continuous transfer of materials in existing production lines",
+      "description": "[
+        \"Assemble the front-stage transmission components with the drive and readout structure of this section, and prepare continuous transfer components for subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B529A3F20959D18",
+        "4B5E62915BAC761F"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C1D779D6FD926",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:conveyor_module_hrv",
+      "x": 34,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B53882AB0A61FC3",
+      "title": "HRV robotic arm",
+      "subtitle": "Connect positioning and execution to the same component",
+      "description": "[
+        \"Assemble the front-stage robotic arm and the load-bearing, positioning and feedback structure of this section for subsequent assembly and transfer of equipment.\"
+      ]",
+      "dependencies": [
+        "4B5C3D8FE272F427",
+        "4B57DD0F01E336D7"
+      ],
+      "tasks": [
+        {
+          "id": "4B5145B7B165141C",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:robot_arm_hrv",
+      "x": 42,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B59A30068C58620",
+      "title": "HRV sensor",
+      "subtitle": "Send the measurement results to the current level of control",
+      "description": "[
+        \"Assemble the interface between the front-end sensor and this section and the readout structure, while retaining independent sampling and feedback components.\"
+      ]",
+      "dependencies": [
+        "4B56E812A97E1A2B"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FA4B6F80DD2C6",
+          "type": "item",
+          "item": "hk3gtl:sensor_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:sensor_hrv",
+      "x": 38,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B5151BB1D92DDC7",
+      "title": "HRV transmitter",
+      "subtitle": "Prepare launch components for this level of equipment",
+      "description": "[
+        \"Assemble the front-stage transmitter with the interface, load-bearing and control structure of this section for subsequent equipment assembly.\"
+      ]",
+      "dependencies": [
+        "4B56E812A97E1A2B",
+        "4B5B4A431672AFA6"
+      ],
+      "tasks": [
+        {
+          "id": "4B53DB33732057EB",
+          "type": "item",
+          "item": "hk3gtl:emitter_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:emitter_hrv",
+      "x": 34,
+      "y": 12,
+      "optional": false
+    },
+    {
+      "id": "4B58ACB0B3D42869",
+      "title": "HRV force field generator",
+      "subtitle": "Prepare force field components for this level of equipment",
+      "description": "[
+        \"Assemble the front-stage force field generator with the control and support structure of this section, and continue the force field component requirements of subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B59A30068C58620",
+        "4B5151BB1D92DDC7",
+        "4B523DAF3EE00C05"
+      ],
+      "tasks": [
+        {
+          "id": "4B52117D0A468B97",
+          "type": "item",
+          "item": "hk3gtl:field_generator_hrv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:field_generator_hrv",
+      "x": 38,
+      "y": 16,
+      "optional": false
+    },
+    {
+      "id": "4B539668270062C3",
+      "title": "Heat-resistant fuel rod housing",
+      "subtitle": "First make a stick shell that can be filled independently",
+      "description": "[
+        \"The shielding layer, insulation layer and fastening structure are packed into heat-resistant rod shells. The first batch of shells is made of new materials, and later recycled shell materials are used.\"
+      ]",
+      "dependencies": [
+        "4B5DDDF726D08AE2",
+        "4B583A42E98955E9",
+        "4B500587A0E150CD"
+      ],
+      "tasks": [
+        {
+          "id": "4B5ED15791B5658A",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod_casing",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod_casing",
+      "x": 0,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B54D07BC79BC82A",
+      "title": "Fuel end cap seal assembly",
+      "subtitle": "Seal the contact surface between the fuel and the outside world",
+      "description": "[
+        \"The corrosion-resistant sealing layer, insulation layer and fastening ring are made into independent packages. During filling, the rod shell and end cap are put in separately.\"
+      ]",
+      "dependencies": [
+        "4B5DDDF726D08AE2",
+        "4B583A42E98955E9"
+      ],
+      "tasks": [
+        {
+          "id": "4B560CC72A490B87",
+          "type": "item",
+          "item": "hk3gtl:fuel_encapsulation_part",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:fuel_encapsulation_part",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5553E4033D414B",
+      "title": "The first batch of ordinary Honkai fuel rods",
+      "subtitle": "Start by using the existing filling machine",
+      "description": "[
+        \"Put the liquid collapse fuel into a new rod shell, and then seal it with a packaging component. This batch of finished products will be subject to random inspection first. After the random inspection is returned, it can still be sent for power generation.\"
+      ]",
+      "dependencies": [
+        "4B539668270062C3",
+        "4B54D07BC79BC82A"
+      ],
+      "tasks": [
+        {
+          "id": "4B51CB1EB9D338C0",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 20,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B527E9BB472CF89",
+      "title": "Low level fuel rod packaging",
+      "subtitle": "Complete the formal project after non-destructive sampling inspection",
+      "description": "[
+        \"Send the filled ordinary fuel rods for sealing inspection. The original fuel rods under inspection will be returned; after the experimental records are complete, the low-level fuel rod packaging project will be completed at the research institute.\",
+        \"After the experiment is completed, choose 50 research points or MAX circuit × 2, steel plate × 24 to pay the base fee; an additional 1,200 ticks and 2,013,265,920 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
+        \"The institute deducts power based on the total power of the effective energy port. Upon completion, the open collapse energy fuel rod packaging array high-throughput packaging and six low-order material fuel routes; the first batch of qualified ordinary rods are retained and can be used for subsequent power generation.\"
+      ]",
+      "dependencies": [
+        "4B54B1712D2ED530",
+        "4B5972DD84BD42B0",
+        "4B5553E4033D414B"
+      ],
+      "tasks": [
+        {
+          "id": "4B50C0EBF2AFD393",
+          "type": "custom",
+          "title": "Complete low-level fuel rod packaging",
+          "tags": [
+            "hk3gtl_quest_rn_frp"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 0,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B59C3A9C4AB2D35",
+      "title": "reactor stabilizer",
+      "subtitle": "Bringing differential pressure, sensing and execution together",
+      "description": "[
+        \"Connect the differential resonance measurement bridge to the stabilizer, and equip it with shielding and execution components. It first participates in the cold interlocking test, and then is installed into the small reactor main control.\"
+      ]",
+      "dependencies": [
+        "4B527E9BB472CF89",
+        "4B5A28EDC18413DB",
+        "4B523DAF3EE00C05"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C402A19B82F09",
+          "type": "item",
+          "item": "hk3gtl:reactor_stabilizer",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:reactor_stabilizer",
+      "x": 8,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B50645A14FB0B24",
+      "title": "small reactor engineering",
+      "subtitle": "Do the cold interlock test first",
+      "description": "[
+        \"Take the rod shell, fuel rod and stabilizer to check the cold interlock of the small reactor. The original quantities of the three types of physical objects will be returned, and then the formal research will be completed and the controller manufacturing conditions will be obtained.\",
+        \"After the experiment is completed, choose 50 research points or MAX circuit × 2, steel plate × 24 to pay the base fee; an additional 1,200 ticks and 2,013,265,920 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
+        \"The institute withholds power based on the total power of the effective energy port. Upon completion, the construction of a small-scale collapse energy reactor and the first round of power generation will be unlocked; the operation records will be used for subsequent thermal research.\"
+      ]",
+      "dependencies": [
+        "4B59C3A9C4AB2D35"
+      ],
+      "tasks": [
+        {
+          "id": "4B560ECC7D8DB607",
+          "type": "custom",
+          "title": "Completion of small reactor project",
+          "tags": [
+            "hk3gtl_quest_rn_sre"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:reactor_stabilizer",
+      "x": 4,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5D6542097BD565",
+      "title": "small honkai reactor",
+      "subtitle": "Let the fuel work in a controlled circuit",
+      "description": "[
+        \"After completing the small reactor engineering study, the reactor controller is manufactured using HRV mechanical blocks, HCV electric pumps, HCV sensors and other components. The fuel, cooling and stabilizers are connected, and then the load record is obtained with actual power generation.\"
+      ]",
+      "dependencies": [
+        "4B50645A14FB0B24",
+        "4B537C1393006CC9",
+        "4B5B91EB2C5FA7BE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B3B34399DF627",
+          "type": "item",
+          "item": "hk3gtl:i19_small_honkai_reactor",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:i19_small_honkai_reactor",
+      "x": 12,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5C00B54E7BE600",
+      "title": "fuel rod packaging array",
+      "subtitle": "Prepare special equipment for continuous rod feeding",
+      "description": "[
+        \"Manufacture the packaging array controller and connect the sampling, transfer and buffer valve groups. The existing filling machine is responsible for the first batch of fuel, and the array will take over subsequent batch packaging.\"
+      ]",
+      "dependencies": [
+        "4B527E9BB472CF89",
+        "4B56D75318E2AB67",
+        "4B57DD0F01E336D7",
+        "4B537C1393006CC9",
+        "4B5B91EB2C5FA7BE",
+        "4B561776CF8C5AAC"
+      ],
+      "tasks": [
+        {
+          "id": "4B5CD35D50E20E78",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod_encapsulation_array",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod_encapsulation_array",
+      "x": 16,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B51ED153368538B",
+      "title": "Ordinary fuel rod batch packaging",
+      "subtitle": "Eight rods in parallel, manufacturing cooling and separate reflow",
+      "description": "[
+        \"A batch of ordinary fuel rods are packaged simultaneously in the packaging array. The hot coolant discharged from the process is collected, and the packaging line and reactor each manage their own cooling consumption.\"
+      ]",
+      "dependencies": [
+        "4B55EB47DE47E9B6",
+        "4B5C00B54E7BE600"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D3EA54A969761",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 16,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5AB6C0C56CB9EE",
+      "title": "4 regular fuel rods",
+      "subtitle": "Assemble four single rods into a set",
+      "description": "[
+        \"Combine four ordinary fuel rods. The rod group retains the corresponding total amount of fuel, and when used, the entire group is included in the power generation and cooling loads.\"
+      ]",
+      "dependencies": [
+        "4B527E9BB472CF89"
+      ],
+      "tasks": [
+        {
+          "id": "4B515006D1CE7F84",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod_4x",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod_4x",
+      "x": 20,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B536CB7B605B1C6",
+      "title": "8 consecutive ordinary fuel rods",
+      "subtitle": "Expand single group loading capacity",
+      "description": "[
+        \"Combine eight ordinary fuel rods. Check the heat exchange capacity of the reactor first, and then decide how many groups to load.\"
+      ]",
+      "dependencies": [
+        "4B527E9BB472CF89"
+      ],
+      "tasks": [
+        {
+          "id": "4B50525227B7E355",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod_8x",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod_8x",
+      "x": 24,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B57430DC207E5B6",
+      "title": "16 ordinary fuel rods",
+      "subtitle": "Group individual loads into a group",
+      "description": "[
+        \"Sixteen ordinary fuel rods are combined. Larger rod groups require corresponding cooling capacity, and the production line is still fed from the same single rod.\"
+      ]",
+      "dependencies": [
+        "4B527E9BB472CF89"
+      ],
+      "tasks": [
+        {
+          "id": "4B5200B2DE4BEBE7",
+          "type": "item",
+          "item": "hk3gtl:honkai_fuel_rod_16x",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod_16x",
+      "x": 24,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5DE0FCC1251CE1",
+      "title": "Disassemble 4 ordinary fuel rods",
+      "subtitle": "Restore independently mounted single stick",
+      "description": "[
+        \"Remove the 4 companies of ordinary fuel rods back to four single rods, and redistribute the loading according to the needs of subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B5AB6C0C56CB9EE"
+      ],
+      "tasks": [
+        {
+          "id": "4B51D12626AF5D26",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p13"
+          ],
+          "item": "hk3gtl:honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 0,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B5FEE30138C7AD8",
+      "title": "Disassemble 8 ordinary fuel rods",
+      "subtitle": "Adjust how existing rod sets are loaded",
+      "description": "[
+        \"Disassemble 8 consecutive ordinary fuel rods and retrieve the original single rod. If you need to disperse the rod supply, adjust it from here.\"
+      ]",
+      "dependencies": [
+        "4B536CB7B605B1C6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C814E29210D8A",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p14"
+          ],
+          "item": "hk3gtl:honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 4,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B5CD2F4B16A729F",
+      "title": "Disassemble 16 ordinary fuel rods",
+      "subtitle": "Re-split rods for different reactors",
+      "description": "[
+        \"Disassemble 16 regular fuel rods and distribute the existing fuel to smaller loads of equipment.\"
+      ]",
+      "dependencies": [
+        "4B57430DC207E5B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B506DFD8A3EC875",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p15"
+          ],
+          "item": "hk3gtl:honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod",
+      "x": 8,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B569369C14396CA",
+      "title": "Coolant heat exchange return",
+      "subtitle": "Check the hot loop with real load records",
+      "description": "[
+        \"Let the small reactor actually complete the power generation batch, and then send the thermal coolant and packaging components for inspection. The research will also check the load facts and samples. After completion, the heat exchange reflow and pressure-bearing main material processes will be connected.\",
+        \"After the experiment is completed, choose 90 research points or MAX circuit × 2, steel plate × 32 to pay the base fee; an additional 1,800 ticks and 8,053,063,680 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
+        \"The institute withholds power based on the total power of the effective energy port. After completion, the stable medium regeneration tower reactor thermal cycle and heat exchange working conditions will be unlocked; the original medium regeneration route will be retained.\"
+      ]",
+      "dependencies": [
+        "4B50BFC4F68E1880"
+      ],
+      "tasks": [
+        {
+          "id": "4B509E5D0C54E4CC",
+          "type": "custom",
+          "title": "Complete coolant heat exchange and return flow",
+          "tags": [
+            "hk3gtl_quest_rn_hlc"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:conducting_composite",
+      "x": 8,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5FCABEEB611F12",
+      "title": "Deactivated fuel aftertreatment",
+      "subtitle": "Detection of real used fuel rods",
+      "description": "[
+        \"Obtain the record of spent fuel produced by the reactor, and then perform non-destructive characterization of the spent fuel rods. Return the original sample and complete the formal project before entering into post-processing.\",
+        \"After the experiment is completed, choose 90 research points or MAX circuit × 2, steel plate × 32 to pay the base fee; an additional 1,800 ticks and 8,053,063,680 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
+        \"The institute withholds power based on the total power of the effective energy port. After completion, the stable medium regeneration tower will be unlocked to shield the disassembly, limited material recovery and residue disposal working conditions; the full energy of the original fuel will not be restored.\"
+      ]",
+      "dependencies": [
+        "4B50BFC4F68E1880"
+      ],
+      "tasks": [
+        {
+          "id": "4B52E786250589FA",
+          "type": "custom",
+          "title": "Complete deactivated fuel post-processing",
+          "tags": [
+            "hk3gtl_quest_rn_sfr"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:recovered_fuel_casing_material",
+      "x": 30,
+      "y": 44,
+      "optional": true
+    },
+    {
+      "id": "4B5A707C25895C91",
+      "title": "Disassemble 4 spent fuel rods",
+      "subtitle": "Send used rod sets to reprocessing",
+      "description": "[
+        \"Remove the spent fuel single rod from the 4-rod group, keep it in a spent state, and hand it over to the same reprocessing line.\"
+      ]",
+      "dependencies": [
+        "4B50645A14FB0B24"
+      ],
+      "tasks": [
+        {
+          "id": "4B57A968F885BAE8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p22"
+          ],
+          "item": "hk3gtl:depleted_honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_fuel_rod",
+      "x": 0,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B54CE53B5BC8A43",
+      "title": "Disassemble 8 consecutive spent fuel rods",
+      "subtitle": "Depletion single rod for finishing recycling line",
+      "description": "[
+        \"The 8th spent fuel rod company was dismantled into single rods and sent for centralized inspection and reprocessing.\"
+      ]",
+      "dependencies": [
+        "4B50645A14FB0B24"
+      ],
+      "tasks": [
+        {
+          "id": "4B509195EECF42AA",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p23"
+          ],
+          "item": "hk3gtl:depleted_honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_fuel_rod",
+      "x": 4,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B59BFF742C95222",
+      "title": "Dismantling 16 spent fuel rods",
+      "subtitle": "Split the stick group for post-processing",
+      "description": "[
+        \"Disassemble 16 spent fuel rods and send them to the reprocessing line in batches.\"
+      ]",
+      "dependencies": [
+        "4B50645A14FB0B24"
+      ],
+      "tasks": [
+        {
+          "id": "4B553ADA533F9BEA",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p24"
+          ],
+          "item": "hk3gtl:depleted_honkai_fuel_rod",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_fuel_rod",
+      "x": 8,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B517C8BFA0855D3",
+      "title": "Limited reprocessing of ordinary spent fuel",
+      "subtitle": "Separate shell materials, residues and treatment waste liquid",
+      "description": "[
+        \"Use analytical reagents to process the spent fuel rods and remove the shell materials that can be remanufactured. Collect the inert residue and waste liquid separately, and recover the shell materials to continue sending them to remanufacturing.\"
+      ]",
+      "dependencies": [
+        "4B5FCABEEB611F12"
+      ],
+      "tasks": [
+        {
+          "id": "4B550E7A43DAF2D0",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p25"
+          ],
+          "item": "hk3gtl:recovered_fuel_casing_material",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:recovered_fuel_casing_material",
+      "x": 12,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5EEB005FD1EB50",
+      "title": "Recycling rod shells and remanufacturing",
+      "subtitle": "After replenishing materials, the fillable rod shell is produced",
+      "description": "[
+        \"Recycled shell materials, carbon powder and analytical reagents are used to re-manufacture rod shells. For every two used single rod shell materials, at most one shell can be made back, and the packaging line still needs to continue to replenish new shells.\"
+      ]",
+      "dependencies": [
+        "4B5FCABEEB611F12"
+      ],
+      "tasks": [
+        {
+          "id": "4B5936E6EAF849EE",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p26"
+          ],
+          "item": "hk3gtl:honkai_fuel_rod_casing",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_fuel_rod_casing",
+      "x": 16,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5D69D7321224EA",
+      "title": "Spent fuel treatment waste liquid solidification",
+      "subtitle": "Leave a clear waste flow path for reprocessing",
+      "description": "[
+        \"Mix the treatment waste liquid with the solidified material, and separate the inert residue and non-recyclable waste liquid. Collect the two products separately to complete the end treatment of this recycling line.\"
+      ]",
+      "dependencies": [
+        "4B5FCABEEB611F12"
+      ],
+      "tasks": [
+        {
+          "id": "4B512CDF50A7D9DE",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_p27"
+          ],
+          "item": "hk3gtl:inactive_fuel_residue",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:inactive_fuel_residue",
+      "x": 20,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B59C9B0A2F56B98",
+      "title": "Soul Steel Diffusion Bonding Thin Layer",
+      "subtitle": "Let different materials combine at the interface",
+      "description": "[
+        \"Compound the soul steel, oriented thin layer and anti-diffusion metal into a thin layer. It will be consumed by hot pressing, annealing and pressure-bearing plates. First prepare a stable supply line.\"
+      ]",
+      "dependencies": [
+        "4B5F1D9A9FA58EF9",
+        "4B532B7ED17AFC40",
+        "4B5AA557CF2AB776"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AE0C2953542FA",
+          "type": "item",
+          "item": "hk3gtl:soulium_diffusion_bonding_interlayer",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:soulium_diffusion_bonding_interlayer",
+      "x": 30,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5E1A92B2095FEA",
+      "title": "Airtight hot press package",
+      "subtitle": "Loading envelopes for the first batch of hot presses",
+      "description": "[
+        \"Use new materials to make an airtight bag to separate the hot-pressed material from the external medium. One hot press will crush the bag, and then it can be sent for repair.\"
+      ]",
+      "dependencies": [
+        "4B55EC67D39B287C"
+      ],
+      "tasks": [
+        {
+          "id": "4B5BAA17C2672EA4",
+          "type": "item",
+          "item": "hk3gtl:hip_sealing_capsule",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:hip_sealing_capsule",
+      "x": 34,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5CCDAA2EF20651",
+      "title": "Isostatic pressure calibration tool",
+      "subtitle": "First use the front-end equipment to obtain the pressure reference",
+      "description": "[
+        \"Install the pressure difference reading, buffer valve and thrust assembly to make a pressure calibration tool. It is used for hot pressing and re-compaction of recycled materials. Keep the tool when in use.\"
+      ]",
+      "dependencies": [
+        "4B56D75318E2AB67",
+        "4B50A24289FCFFB5",
+        "4B56E812A97E1A2B"
+      ],
+      "tasks": [
+        {
+          "id": "4B50D5954BBE3CC9",
+          "type": "item",
+          "item": "hk3gtl:hip_pressure_reference_fixture",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:hip_pressure_reference_fixture",
+      "x": 38,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5959B17D970531",
+      "title": "Collapse Stress Conditioning Fluid",
+      "subtitle": "Prepare interface media for slow cooling and release",
+      "description": "[
+        \"The stress conditioning fluid is prepared with new materials. It is responsible for the interface lubrication and slow cooling environment during the stress release stage, and the bulk of the heat is taken over by another industrial coolant circuit.\"
+      ]",
+      "dependencies": [
+        "4B560A45C8B1AB68",
+        "4B50E15FA6696E03",
+        "4B520A29F81D8F75",
+        "4B5E7D421070F130"
+      ],
+      "tasks": [
+        {
+          "id": "4B5215FC36B3B773",
+          "type": "custom",
+          "title": "The actual completion of collapse stress conditioning fluid",
+          "tags": [
+            "hk3gtl_quest_hdv_m04"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hdv",
+      "x": 42,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5C9C6132848E52",
+      "title": "Hot isostatically pressed preform",
+      "subtitle": "Compact the charge, and the bag will collapse with the batch.",
+      "description": "[
+        \"Seal the front-stage standard billet, soul steel and bonding layer into the cladding, and perform multi-stage hot pressing. Put away the preform and crush cladding, continue to anneal the main material, and repair the cladding.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA",
+        "4B59C9B0A2F56B98",
+        "4B5E1A92B2095FEA",
+        "4B5CCDAA2EF20651"
+      ],
+      "tasks": [
+        {
+          "id": "4B59E23B6894862D",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_stage_1",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_stage_1",
+      "x": 46,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B5762F9CFF4308A",
+      "title": "Homogenized annealed billet",
+      "subtitle": "After hot pressing, the grain boundaries are sorted.",
+      "description": "[
+        \"In the previous chapter, the dense preform was heat-insulated and annealed in the soul steel reconstruction annealing furnace to make the grain boundaries and residual interfaces even. Then enter controlled release to deal with the stress left after compaction.\"
+      ]",
+      "dependencies": [
+        "4B5C9C6132848E52"
+      ],
+      "tasks": [
+        {
+          "id": "4B544B7F1D2C1886",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_stage_2",
+      "x": 50,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B586CBF683147A0",
+      "title": "stress relief pressure blank",
+      "subtitle": "Gradually release compaction stress and temperature difference stress",
+      "description": "[
+        \"Unload slowly, and supply industrial coolant and stress conditioning fluid respectively. The hot coolant and waste conditioning fluid are separately introduced, and then the pressure-bearing billet is sent for surface finishing.\"
+      ]",
+      "dependencies": [
+        "4B55EB47DE47E9B6",
+        "4B5959B17D970531",
+        "4B5762F9CFF4308A"
+      ],
+      "tasks": [
+        {
+          "id": "4B54CC989DB45BF9",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_stage_3",
+      "x": 54,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B59CDBAD5570CEB",
+      "title": "Ultra-dense pressure-bearing soul steel standard billet",
+      "subtitle": "Complete the sealing layer and obtain the fixed-length main materials",
+      "description": "[
+        \"In the Soul Steel Precision Machining Center in the previous chapter, the surface bonding and protective layers are added to the pressure-bearing billets after the pressure is released to complete the dimensional processing. This batch of standard billets is used for continued manufacturing of plates, rods and other engineering forms.\"
+      ]",
+      "dependencies": [
+        "4B586CBF683147A0"
+      ],
+      "tasks": [
+        {
+          "id": "4B5110CCAC0EE4FC",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_billet",
+      "x": 54,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B5D1F7A868BD402",
+      "title": "Ultra-dense pressure-bearing soul steel plate",
+      "subtitle": "Preparing the pressure-bearing layer for the shell wall",
+      "description": "[
+        \"The standard billet is rolled in multiple directions, and the backing and diffusion bonding layers are added. The made plate bears the shell wall pressure and surface stability.\"
+      ]",
+      "dependencies": [
+        "4B59CDBAD5570CEB"
+      ],
+      "tasks": [
+        {
+          "id": "4B52AB748A9F5659",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_plate",
+      "x": 50,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B585D568969A0FC",
+      "title": "Ultra-dense pressure-bearing soul steel rod",
+      "subtitle": "Reserve end transitions for slender load-bearing parts",
+      "description": "[
+        \"The load-bearing rod is graded and formed, and the core rod, outer layer and end lining are connected. The subsequent frame, ring and thin wire are taken from here.\"
+      ]",
+      "dependencies": [
+        "4B59CDBAD5570CEB"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FB7A3FE5221DB",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_rod",
+      "x": 46,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B50C8565E0A1B4E",
+      "title": "Ultra-dense pressure-bearing soul steel frame",
+      "subtitle": "Connect the load-bearing rods into a complete structure",
+      "description": "[
+        \"Use diffusion joints and thrust components to connect the load-bearing rods to transfer the load into the complete frame. The frame continues to be used for the casing and subsequent equipment.\"
+      ]",
+      "dependencies": [
+        "4B585D568969A0FC"
+      ],
+      "tasks": [
+        {
+          "id": "4B5020B74BC12E66",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_frame",
+      "x": 42,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B5E991A148AC249",
+      "title": "Ultra-dense pressure-bearing soul steel ring",
+      "subtitle": "Catching Pressure and Thermal Cycles at Interfaces",
+      "description": "[
+        \"The load-bearing rod is processed into an interface ring, and the transition layer, fiber and sealing lip are added. The metal cladding is pressure-bearing, and the fluid isolation is retained at the interface.\"
+      ]",
+      "dependencies": [
+        "4B585D568969A0FC"
+      ],
+      "tasks": [
+        {
+          "id": "4B5BEE22E673454E",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_ring",
+      "x": 38,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B5A12474D1E5596",
+      "title": "Ultra-dense pressure-bearing soul steel foil",
+      "subtitle": "Thin the pressure-bearing layer for packaging",
+      "description": "[
+        \"The board is sandwiched and thinned, and a flexible protective layer is added. The thin foil retains the pressure-bearing body for subsequent packaging while isolating bending stress.\"
+      ]",
+      "dependencies": [
+        "4B5D1F7A868BD402"
+      ],
+      "tasks": [
+        {
+          "id": "4B512FC496D7E9A8",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_foil",
+      "x": 34,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B5783CCFC1B8D2D",
+      "title": "Ultra-dense pressure-bearing soul steel composite thin wire",
+      "subtitle": "In addition to the conductor, a load-bearing sheath is added",
+      "description": "[
+        \"Retain the existing metal conductor and use ultra-dense pressure-bearing material to form an outer sheath. Let the thin wire have both a conductive path and a tensile structure.\"
+      ]",
+      "dependencies": [
+        "4B585D568969A0FC"
+      ],
+      "tasks": [
+        {
+          "id": "4B56509ADE56840B",
+          "type": "item",
+          "item": "hk3gtl:ultradense_loadbearing_soulium_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_fine_wire",
+      "x": 30,
+      "y": 30,
+      "optional": false
+    },
+    {
+      "id": "4B5FD3C3095F875E",
+      "title": "HDV mechanical cube conventional production line",
+      "subtitle": "Install the complete HRV casing into the pressure-bearing structure",
+      "description": "[
+        \"After completing the precision machining of soul steel and the research on coolant heat exchange and reflow, the ultra-dense pressure-bearing soul steel standard billet will be manufactured according to the hot pressing, annealing, pressure release, and length-setting sequence in this chapter, and then the plate, frame and ring will be processed.\",
+        \"Input HRV mechanical cubes, 32 ultra-dense pressure-bearing soul steel plates, 4 ultra-density pressure-bearing soul steel frame components, 32 ultra-dense pressure-bearing soul steel rings and other materials listed by JEI into the assembly machine, and use HRV power supply to make the first batch of HDV mechanical cubes.\"
+      ]",
+      "dependencies": [
+        "4B5D1F7A868BD402",
+        "4B50C8565E0A1B4E",
+        "4B5E991A148AC249"
+      ],
+      "tasks": [
+        {
+          "id": "4B5070BE943FB477",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_hdv",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hdv",
+      "x": 30,
+      "y": 34,
+      "optional": false
+    },
+    {
+      "id": "4B573B18A38E0020",
+      "title": "HDV shell overhaul and disassembly",
+      "subtitle": "Retain the front-end core and recycle the outer layers separately",
+      "description": "[
+        \"Disassemble the existing HDV casing and retrieve the HRV core and the plates, frames and rings that can be used directly. The classified waste continues to be separated, and the solvent waste liquid is collected separately.\"
+      ]",
+      "dependencies": [
+        "4B5FD3C3095F875E"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D81F1740B19F2",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m16"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_hrv",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_hrv",
+      "x": 24,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B588ED5E0AFC8A6",
+      "title": "HDV classification waste separation",
+      "subtitle": "Separate usable components from tailings",
+      "description": "[
+        \"Clean and separate the classified waste materials to obtain a fixed proportion of recycled components. Part of the supplementary materials can be re-compacted, and the tail materials are sent for inerting.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA"
+      ],
+      "tasks": [
+        {
+          "id": "4B56D0DB2484B777",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m17"
+          ],
+          "item": "hk3gtl:ultradense_loadbearing_soulium_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_recovered_fraction",
+      "x": 24,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5990878384C676",
+      "title": "Re-compaction of HDV recycled components",
+      "subtitle": "Reconnect the hot-pressed preform to the main line",
+      "description": "[
+        \"Mix the recycled components with fresh front-end main materials, reassemble and hot-press. The product is returned to the preform, and the same annealing, pressure relief and finishing are continued.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA",
+        "4B59C9B0A2F56B98",
+        "4B5E1A92B2095FEA",
+        "4B5CCDAA2EF20651"
+      ],
+      "tasks": [
+        {
+          "id": "4B5519ECFC545B9B",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m18"
+          ],
+          "item": "hk3gtl:ultradense_loadbearing_soulium_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_stage_1",
+      "x": 20,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5A25FFD65C962C",
+      "title": "Crushed hot press package repair",
+      "subtitle": "Repair seal and metal layer",
+      "description": "[
+        \"Repair the reusable envelope with a real crushed envelope, and replace the damaged metal and sealing layer. The repair will cause the loss of part of the envelope, and the first production line will continue to supply new parts.\"
+      ]",
+      "dependencies": [
+        "4B55EC67D39B287C"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D809DC71EB96C",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m19"
+          ],
+          "item": "hk3gtl:hip_sealing_capsule",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:hip_sealing_capsule",
+      "x": 16,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B58F8772CDFCA7C",
+      "title": "Stress Conditioning Fluid Regeneration",
+      "subtitle": "Dispose of waste conditioning fluid that has flowed out",
+      "description": "[
+        \"The waste conditioning fluid is filtered and separated, and then the working ingredients are added. The recovered conditioning fluid is sent back to the stress relief process, and the generated waste solvent is separately introduced.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA"
+      ],
+      "tasks": [
+        {
+          "id": "4B58742F0F140DF9",
+          "type": "custom",
+          "title": "Actual completion of stress conditioning fluid regeneration",
+          "tags": [
+            "hk3gtl_quest_hdv_m20"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:separation_filter",
+      "x": 12,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B59F84B3E747B9D",
+      "title": "Processing old HDV reject batches",
+      "subtitle": "For use by existing rejected inventory classifications",
+      "description": "[
+        \"Divide the rejected batches in inventory into classified waste and non-recyclable tail materials. Qualified standard billets continue to be produced according to the step-by-step process.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E148D34DA04EA",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m21"
+          ],
+          "item": "hk3gtl:ultradense_loadbearing_soulium_classified_scrap",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_classified_scrap",
+      "x": 12,
+      "y": 42,
+      "optional": true
+    },
+    {
+      "id": "4B50663507455303",
+      "title": "HDV annealing finishing integrated processing",
+      "subtitle": "After the first batch of casings, the processing time will be shortened",
+      "description": "[
+        \"With the HDV mechanical block and power supply, annealing, pressure relief and finishing are integrated into one process. The original materials and drainage are retained together, which shortens the processing time of subsequent standard blanks.\"
+      ]",
+      "dependencies": [
+        "4B5FD3C3095F875E"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D3DC4020637AE",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m22"
+          ],
+          "item": "hk3gtl:ultradense_loadbearing_soulium_billet",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:ultradense_loadbearing_soulium_billet",
+      "x": 30,
+      "y": 54,
+      "optional": true
+    },
+    {
+      "id": "4B547AFDF39AB15F",
+      "title": "HDV tailings inerting",
+      "subtitle": "Let the non-recyclable parts exit the main material line",
+      "description": "[
+        \"Process the non-recyclable tailings into inert ash, ending the recycling process of this part of the pressure-bearing material.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A86D387E5A0EC",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_hdv_m23"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 8,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B54C944F42D95D6",
+      "title": "Resonant fuel activation assembly assembly",
+      "subtitle": "Activation tooling · HBV working conditions",
+      "description": "[
+        \"Make durable tooling used to prepare energetic fuel, and keep it after installing it into the corresponding equipment.\"
+      ]",
+      "dependencies": [
+        "4B50645A14FB0B24"
+      ],
+      "tasks": [
+        {
+          "id": "4B51034D1AB446C9",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_energy_t01"
+          ],
+          "item": "hk3gtl:resonant_fuel_activation_fixture",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:resonant_fuel_activation_fixture",
+      "x": 30,
+      "y": 64,
+      "optional": true
+    },
+    {
+      "id": "4B5C18F6D27F90AE",
+      "title": "Fresh preparation of resonance activated collapse fuel",
+      "subtitle": "Energetic fuel · HBV operating condition",
+      "description": "[
+        \"Prepare fresh energetic fuel for the corresponding reactor. Continue to consume it according to the actual number of physical rods. First, connect the storage tank and replenishing fluid.\"
+      ]",
+      "dependencies": [
+        "4B54C944F42D95D6",
+        "4B50E15FA6696E03"
+      ],
+      "tasks": [
+        {
+          "id": "4B53B0E35E66A568",
+          "type": "custom",
+          "title": "Practical completion of fresh preparation of resonance activation collapse fuel",
+          "tags": [
+            "hk3gtl_quest_energy_f01"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:fuel_matrix",
+      "x": 34,
+      "y": 64,
+      "optional": true
+    },
+    {
+      "id": "4B5187F9CD1460D6",
+      "title": "Small reactor basic energy release",
+      "subtitle": "Choose from single rod, 4-barrel, 8-barrel, or 16-barrel specifications.",
+      "description": "[
+        \"First start up with ordinary collapsed fuel rods, and connect independent cooling to the small reactor. The basic operating conditions run slowly, and spent rods of the same specifications are recovered after complete exhaustion.\",
+        \"Power generation and HW are gradually settled according to the time of successful operation. Leave a good position for the power supply network and spent rod exports, and then receive the next batch of fuel.\"
+      ]",
+      "dependencies": [
+        "4B5D6542097BD565",
+        "4B5AB6C0C56CB9EE",
+        "4B536CB7B605B1C6",
+        "4B57430DC207E5B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B532AE3347724CD",
+          "type": "custom",
+          "title": "Actual completion of basic energy release of small reactors",
+          "tags": [
+            "hk3gtl_quest_energy_small_basic"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_fuel_rod",
+      "x": 0,
+      "y": 66,
+      "optional": true
+    },
+    {
+      "id": "4B50BFC4F68E1880",
+      "title": "Small Honkai Energy Reactor·Honkai Fuel Rods",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert the Honkai fuel rods into the small Honkai energy reactor, and replenish the resonance activated Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB of resonantly activated Honkai fuel. Ordinary first production, low-cost startup. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565",
+        "4B5AB6C0C56CB9EE",
+        "4B536CB7B605B1C6",
+        "4B57430DC207E5B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B55EC74249D2660",
+          "type": "custom",
+          "title": "Actual completion of small Honkai energy reactor and Honkai fuel rods",
+          "tags": [
+            "hk3gtl_quest_energy_i19_01"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_fuel_rod",
+      "x": 30,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B545F26B5C09A8A",
+      "title": "Small Honkai Energy Reactor · Concentrated Honkai Fuel Rods",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert concentrated Honkai fuel rods into the small Honkai energy reactor, and replenish resonance activated Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB of resonance activated collapse fuel. Concentrated long-period fuel, with the highest heat load. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B56BAF29BE0DD1D",
+          "type": "custom",
+          "title": "Actual completion of small Honkai energy reactor and concentrated Honkai fuel rods",
+          "tags": [
+            "hk3gtl_quest_energy_i19_02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_dense_honkai_fuel_rod",
+      "x": 34,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B5591CFD32CFFCA",
+      "title": "Small Honkai Energy Reactor · Adsorbed Carbon Core Collapse Fuel Cartridge",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert the adsorbed carbon core collapse fuel cartridge into the small collapse energy reactor, and replenish the resonance activation collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. Porous carbon carrier, lower heat load. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A4B700CC5E175",
+          "type": "custom",
+          "title": "Actual completion of small Honkai energy reactor and adsorbed carbon core Honkai fuel cartridge",
+          "tags": [
+            "hk3gtl_quest_energy_i19_03"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_carbon_fuel",
+      "x": 38,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B584CC63BEE32D2",
+      "title": "Small collapse energy reactor · Molecular sieve directional energy-carrying rods",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert molecular sieve directional energy-carrying rods into the small-scale masonry reactor, and replenish the resonance-activated masonry fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
+        \"Fixed charge: 1 group, 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. Adsorb carrier, sacrifice power for stable energy release. Cooling is performed by an independent circuit based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AC35D349233F4",
+          "type": "custom",
+          "title": "Actual completion of small-scale collapse energy reactor·Molecular sieve directional energy-carrying rods",
+          "tags": [
+            "hk3gtl_quest_energy_i19_04"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_zeolite_fuel",
+      "x": 42,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B5894E17B3132E5",
+      "title": "Small Honkai energy reactor · Silica gel solidified Honkai fuel particles",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Load silica gel solidified Honkai fuel particles into the small Honkai energy reactor, and replenish resonance activated Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. The gel is evenly dispersed and runs for a long period. Cooling is performed by an independent loop according to the heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565"
+      ],
+      "tasks": [
+        {
+          "id": "4B5961CE937D93C4",
+          "type": "custom",
+          "title": "Actual completion of small Honkai energy reactor · Silica gel solidified Honkai fuel particles",
+          "tags": [
+            "hk3gtl_quest_energy_i19_05"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_silica_gel_fuel",
+      "x": 46,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B556F27E11A55CE",
+      "title": "Small collapse energy reactor · Silicon carbide porous ceramic fuel rods",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert silicon carbide porous ceramic fuel rods into the small-scale Honkai energy reactor, and replenish the resonant activated Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. Heat-resistant ceramics, balanced power and heat dissipation. Cooling is performed by an independent circuit based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D40EE35D99BF0",
+          "type": "custom",
+          "title": "Actual completion of small-scale Honkai energy reactor·Silicon carbide porous ceramic fuel rods",
+          "tags": [
+            "hk3gtl_quest_energy_i19_06"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_silicon_carbide_fuel",
+      "x": 50,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B5774A9AAA75DF0",
+      "title": "Small Colony Reactor · Boron Carbide Gradient Particle Fuel Cartridge",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert the boron carbide gradient particle fuel cartridge into the small-scale colloidal energy reactor, and replenish the resonance-activated colloidal fuel according to the loading amount. Each of the four rod group specifications has complete operating records. Choose any one to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB resonance activation collapse fuel. Absorption and local constraints, higher HW. Cooling is performed by an independent loop based on heat stock. Single parallelism, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E65AA95EB926A",
+          "type": "custom",
+          "title": "Actual completion of small-scale collapse energy reactor and boron carbide gradient particle fuel cartridge",
+          "tags": [
+            "hk3gtl_quest_energy_i19_07"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_boron_carbide_fuel",
+      "x": 54,
+      "y": 74,
+      "optional": true
+    },
+    {
+      "id": "4B5DAE4D8FDA8DF5",
+      "title": "Small Collapse Energy Reactor·Zirconium Oxide Gradient Ceramic Fuel Beads",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert zirconium oxide gradient ceramic fuel beads into the small collapse energy reactor, and replenish the resonance activated collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. High-temperature stable carrier, cooling needs to be improved. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5C18F6D27F90AE",
+        "4B5D6542097BD565"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C37F663D79C14",
+          "type": "custom",
+          "title": "Actual completion of small-scale collapse energy reactor·Zirconium oxide gradient ceramic fuel beads",
+          "tags": [
+            "hk3gtl_quest_energy_i19_08"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_zirconia_fuel",
+      "x": 54,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B5E897EEE8833C4",
+      "title": "Small Honkai Energy Reactor·Diamond Copper Skeleton Honkai Impact Fuel Core",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert the diamond-copper skeleton collapse fuel core into the small-scale collapse energy reactor, and replenish the resonance activation collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB resonance activation collapse fuel. High thermal conductivity carrier, reducing cooling consumption. Cooling is performed by an independent loop based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D09F361C1E619",
+          "type": "custom",
+          "title": "Actual completion of small-scale Honkai energy reactor·Diamond copper skeleton Honkai fuel core",
+          "tags": [
+            "hk3gtl_quest_energy_i19_09"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_diamond_copper_fuel",
+      "x": 50,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B5295A3E70BEF3E",
+      "title": "Small Collapse Energy Reactor · Graphene Interlayer Collapse Fuel Sheet",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert graphene interlayer collapse fuel sheets into small-scale collapse energy reactors, and replenish resonance activation collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
+        \"Fixed charge: 1 group, 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. Thermal microgrid, taking into account both power generation and HW. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5825273D8A6D75",
+          "type": "custom",
+          "title": "Actual completion of small-scale Honkai energy reactor·Graphene interlayer Honkai fuel sheet",
+          "tags": [
+            "hk3gtl_quest_energy_i19_10"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_graphene_fuel",
+      "x": 46,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B547BEEA4B5A496",
+      "title": "Small collapse energy reactor·Titanium carbide cermet fuel block",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert titanium carbide cermet fuel blocks into the small-scale Honkai energy reactor, and replenish resonance-activated Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB resonance activation collapse fuel. Maximum power generation in short period, highest fuel and cooling throughput. Cooling is performed by independent loop according to heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D713217477E21",
+          "type": "custom",
+          "title": "Actual completion of small-scale Honkai energy reactor·Titanium carbide cermet fuel block",
+          "tags": [
+            "hk3gtl_quest_energy_i19_11"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_titanium_carbide_fuel",
+      "x": 42,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B5246374B53EDF2",
+      "title": "Small collapse energy reactor · Alumina insulated microbead fuel bed",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert an alumina insulating microbead fuel bed into a small-scale masonry energy reactor, and replenish resonance-activated masonry fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. High-output ceramics, longer operating cycle. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D6946395D7D86",
+          "type": "custom",
+          "title": "Actual completion of small-scale collapse energy reactor·Alumina insulated microbead fuel bed",
+          "tags": [
+            "hk3gtl_quest_energy_i19_12"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_alumina_fuel",
+      "x": 38,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B53E9CB87F9BFB9",
+      "title": "Small Collapse Energy Reactor·Tungsten Microchannel Collapse Fuel Cartridge",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert the tungsten microchannel collapse fuel cartridge into the small-scale collapse energy reactor, and replenish the resonance activation collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one can be selected to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. High-power metal skeleton, increased HW supply. Cooling is performed by an independent circuit based on heat storage. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B53D52141571DF2",
+          "type": "custom",
+          "title": "Actual completion of small-scale Honkai energy reactor and tungsten micro-channel Collapse fuel cartridge",
+          "tags": [
+            "hk3gtl_quest_energy_i19_13"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_tungsten_fuel",
+      "x": 34,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B5CE54F74539BA1",
+      "title": "Small collapsible energy reactor · PTFE cold-end membrane fuel cartridge",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Insert the PTFE cold-end membrane fuel cartridge into the small-scale collapse energy reactor, and replenish the resonance-activated collapse fuel according to the loading amount. Each of the four rod group specifications has complete operating records. Choose any one to complete a batch.\",
+        \"Fixed charge: 1 group, specification: 1 link, 1 physical rod in total; consumes 1mB resonance activation collapse fuel. Low thermal film carrier, biased toward HW and less cooling consumables. Cooling is performed by independent loops based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B54571483A65723",
+          "type": "custom",
+          "title": "Actual completion of small-scale collapse energy reactor · PTFE cold-end membrane fuel cartridge",
+          "tags": [
+            "hk3gtl_quest_energy_i19_14"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_ptfe_membrane_fuel",
+      "x": 30,
+      "y": 78,
+      "optional": true
+    },
+    {
+      "id": "4B5CF412D58F44F2",
+      "title": "Small collapse energy reactor · PBI cold end microcapsule fuel particles",
+      "subtitle": "High energy release·Choose one of four rod set specifications",
+      "description": "[
+        \"Load PBI cold-end microcapsule fuel particles into the small-scale Honkai energy reactor, and replenish the resonance-activated Honkai fuel according to the loading amount. Each of the four rod group specifications has complete operating records, and any one is selected to complete a batch.\",
+        \"Fixed charge: 1 group, 1 link, 1 physical rod in total; consumes 1mB of resonance activation collapse fuel. High HW microcapsule carrier, longest operating cycle. Cooling is performed by an independent loop based on heat stock. Single parallel, no ordinary overclocking. Industrial cooling and spent rod processing continue to use independent channels.\"
+      ]",
+      "dependencies": [
+        "4B5BC3C3E40F76B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B5648F0FBF08ACC",
+          "type": "custom",
+          "title": "Actual completion of small-scale Honkai energy reactor · PBI cold end microcapsule fuel particles",
+          "tags": [
+            "hk3gtl_quest_energy_i19_15"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:depleted_honkai_pbi_microcapsule_fuel",
+      "x": 30,
+      "y": 82,
+      "optional": true
+    },
+    {
+      "id": "4B5AFD2871AE846D",
+      "title": "Detector calibration",
+      "subtitle": "RN-DMT · Experimental and Formal Research",
+      "description": "[
+        \"Zeroth order detector, reference sample, analysis sample, paper and platinum foil\",
+        \"Complete the team's experiments on the detector precision calibration bench. Output the calibration report and return the original detector; not simply take away the detector\",
+        \"After the experiment is completed, choose 50 research points or MAX circuit × 2, steel plate × 24 to pay the base fee; an additional 1,200 ticks and 2,013,265,920 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
+        \"The institute deducts power according to the total power of the effective energy port. After completion, the manufacturing of first-order liquid detectors and efficient collection of HBV will be opened; liquefaction and extraction are integrated in the tower. 1,000,000mB ordinary air can obtain 2400mB liquid collapse energy. The detector, 4 reference samples and No. 4 programming circuit are not consumed. The detector consumption calibration report is officially produced.\"
+      ]",
+      "dependencies": [
+        "4B5042942BCE6960",
+        "4B5CF2EB987405D1"
+      ],
+      "tasks": [
+        {
+          "id": "4B55C052C4234D90",
+          "type": "custom",
+          "title": "Complete detector calibration",
+          "tags": [
+            "hk3gtl_quest_rn_dmt"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:liquid_honkai_detector",
+      "x": 12,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B5DE41A832D8754",
+      "title": "Dielectric loss optimization",
+      "subtitle": "RN-OPR · Experimental and Formal Research",
+      "description": "[
+        \"Real batch receipts for media recovery in stable media regeneration towers, thermal cycle heat exchange and spent fuel post-processing\",
+        \"Complete the team's experiment at the Honkai Phenomenon Research Institute. At least one valid successful batch of each, check the actual input, output and loss; the same batch is only counted once\",
+        \"After the experiment is completed, choose 90 research points or MAX circuit × 2, steel plate × 32 to pay the base fee; an additional 1,800 ticks and 8,053,063,680 EU/t are required. Advanced ones are corrected according to the current material pressure.\",
+        \"The institute withholds power based on the total power of the effective energy port. After completion, the improved working conditions of material-saving recovery, heat exchange and deactivated fuel rod post-processing of the stable medium regeneration tower will be unlocked.\"
+      ]",
+      "dependencies": [
+        "4B569369C14396CA",
+        "4B5FCABEEB611F12"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A60A224A3F151",
+          "type": "custom",
+          "title": "Complete dielectric loss optimization",
+          "tags": [
+            "hk3gtl_quest_rn_opr"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:separation_filter",
+      "x": 16,
+      "y": 32,
+      "optional": false
+    }
+  ]
+}

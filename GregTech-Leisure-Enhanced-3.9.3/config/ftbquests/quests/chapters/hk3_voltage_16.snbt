@@ -1,0 +1,1197 @@
+{
+  "filename": "hk3_voltage_16",
+  "id": "4B552A261EEC6A8F",
+  "title": "Tensão constante CEV",
+  "subtitle": [
+    "Tier30-CEV"
+  ],
+  "group": "68CBF1606D696C68",
+  "order_index": 31,
+  "icon": "hk3gtl:voltage_machine_casing_cev",
+  "default_quest_shape": "rsquare",
+  "quests": [
+    {
+      "id": "4B517FCB2C3DA737",
+      "title": "Revisão das diferenças em três áreas",
+      "subtitle": "Compare instalações, receitas e receitas de fontes existentes",
+      "description": "[
+        “Revise as fontes verdadeiras nos três campos no laboratório reverso e compare instalações, fórmulas, entradas e saídas. Mantenha registros originais em cada campo para formar recibos de revisão de discrepâncias e amostras padrão.”
+      ]",
+      "dependencies": [
+        "4B50C907A3CC0D16"
+      ],
+      "tasks": [
+        {
+          "id": "4B55F50D8D6C93A8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_existing_three_domain_difference"
+          ],
+          "item": "hk3gtl:honkai_reference_sample",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:honkai_reference_sample",
+      "x": 30,
+      "y": 46,
+      "optional": true
+    },
+    {
+      "id": "4B512A71D8CE5C05",
+      "title": "Continuar do workshop CIV",
+      "subtitle": "CIV → CEV",
+      "description": "[
+        \"O chassi do palco frontal está pronto. Este capítulo continua conectando os principais materiais, eletrônicos e instalações para criar o primeiro lote de cubos mecânicos CEV.\",
+        “Primeiro conecte a linha de produção de material principal e, em seguida, organize o processo de fusão após a reciclagem e o reforço. Verifique JEI quanto a materiais, energia e condições de trabalho.
+      ]",
+      "dependencies": [
+        "4B5C0187E115F91B"
+      ],
+      "tasks": [
+        {
+          "id": "4B5FEF52AD01F416",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_civ",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_civ",
+      "x": 0,
+      "y": 0,
+      "optional": false
+    },
+    {
+      "id": "4B54AFA93EB2FAFB",
+      "title": "Interpositor de serviço substituível",
+      "subtitle": "Preserva o posicionamento e as interfaces para peças de reposição",
+      "description": "[
+        \"Insira a interface de interoperabilidade front-end na camada intermediária de serviço substituível e conclua o posicionamento do plugue e a identificação do serviço. Os circuitos e componentes de execução subsequentes usam diretamente essa camada de componentes.\"
+      ]",
+      "dependencies": [
+        "4B5D96B2EA3C959C",
+        "4B50E11E02DBF988",
+        "4B58A59D17904637"
+      ],
+      "tasks": [
+        {
+          "id": "4B51B908BCE3EC1F",
+          "type": "item",
+          "item": "hk3gtl:replaceable_service_interposer",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:replaceable_service_interposer",
+      "x": 30,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5CF24BD1B7382A",
+      "title": "Núcleo do ponto de verificação de transferência contínua",
+      "subtitle": "Transferência do status operacional antes e depois da substituição de componentes",
+      "description": "[
+        \"Encapsula os componentes de computação, armazenamento e relógio necessários para a transferência de estado em um núcleo de ponto de verificação de transferência persistente. Ele fornece pontos de verificação para recuperação de estado após a substituição do componente.\"
+      ]",
+      "dependencies": [
+        "4B54AFA93EB2FAFB",
+        "4B5000890F24860A",
+        "4B5A1B643F27B96F"
+      ],
+      "tasks": [
+        {
+          "id": "4B544BF33FDA54C2",
+          "type": "item",
+          "item": "hk3gtl:perennial_handover_checkpoint_core",
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_handover_checkpoint_core",
+      "x": 38,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5FC7F892A19701",
+      "title": "Cilindro do atuador utilizável",
+      "subtitle": "Deixe espaço para desmontagem e montagem do atuador",
+      "description": "[
+        “Retenha o suporte do estágio frontal e instale o novo atuador no cilindro de manutenção. As interfaces de posicionamento e desmontagem são feitas junto com o produto acabado e, em seguida, as partes móveis deste nível são colocadas.”
+      ]",
+      "dependencies": [
+        "4B5CF24BD1B7382A",
+        "4B542D8FCF4F68D5",
+        "4B5CCF2A903FF555"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AB030FDB797C3",
+          "type": "item",
+          "item": "hk3gtl:maintainable_actuator_cartridge",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:maintainable_actuator_cartridge",
+      "x": 42,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B5AA35FEA9ACA0D",
+      "title": "Jaqueta de circuito de manutenção drenável",
+      "subtitle": "Permite que os circuitos de manutenção sejam isolados e drenados",
+      "description": "[
+        \"Monte o canal frontal com a nova camisa e circuito da válvula de isolamento e conecte o circuito de alimentação independente necessário para manutenção. Conclua o processo de hermeticidade e colete o fluido de exaustão de calor.\"
+      ]",
+      "dependencies": [
+        "4B5000890F24860A",
+        "4B5D96B2EA3C959C",
+        "4B52162F5A7D0B45"
+      ],
+      "tasks": [
+        {
+          "id": "4B5DC83E0FA8F593",
+          "type": "item",
+          "item": "hk3gtl:drainable_service_loop_jacket",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:drainable_service_loop_jacket",
+      "x": 34,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B537E66D4F8E7F4",
+      "title": "Anfitrião do Processador de Sustentabilidade da Civilização",
+      "subtitle": "Organize interfaces de transferência de status e manutenção para todo o host",
+      "description": "[
+        \"Insira os dois supercomputadores Civilization Persistent na estrutura composta do Persistent Service, conecte o intermediário substituível, o núcleo do ponto de verificação de transferência e a jaqueta de manutenção drenável para completar a montagem do mainframe.\"
+      ]",
+      "dependencies": [
+        "4B5CF24BD1B7382A",
+        "4B5AA35FEA9ACA0D",
+        "4B542D8FCF4F68D5"
+      ],
+      "tasks": [
+        {
+          "id": "4B577B699B89EE7E",
+          "type": "item",
+          "item": "hk3gtl:cev_processor_mainframe",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:cev_processor_mainframe",
+      "x": 46,
+      "y": 8,
+      "optional": false
+    },
+    {
+      "id": "4B529CC1F658CB71",
+      "title": "Motor elétrico CEV",
+      "subtitle": "Combine o driver antigo com o componente de execução atual",
+      "description": "[
+        \"Com base em dois motores elétricos CIV, um cilindro atuador sustentável, um núcleo de ponto de verificação de transferência contínua e uma jaqueta de circuito de manutenção drenável são adicionados e, em seguida, conectados ao circuito de processamento deste nível para formar um motor elétrico CEV.\"
+      ]",
+      "dependencies": [
+        "4B5FC7F892A19701",
+        "4B537E66D4F8E7F4",
+        "4B55115F4A7426F9"
+      ],
+      "tasks": [
+        {
+          "id": "4B57F313129483BF",
+          "type": "item",
+          "item": "hk3gtl:electric_motor_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_motor_cev",
+      "x": 0,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B52F08DCBE97DD2",
+      "title": "Pistão elétrico CEV",
+      "subtitle": "Primeiro tenha o motor deste nível e depois monte o atuador linear",
+      "description": "[
+        \"Monte este nível de motor com duas peças de pistões elétricos CIV e conecte-se ao cilindro do atuador de manutenção e à camisa do circuito de manutenção drenável para completar este nível de pistão.\"
+      ]",
+      "dependencies": [
+        "4B529CC1F658CB71",
+        "4B5D45371582EB09"
+      ],
+      "tasks": [
+        {
+          "id": "4B51BE2DBC18CF30",
+          "type": "item",
+          "item": "hk3gtl:electric_piston_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_piston_cev",
+      "x": 12,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5B7398D82CE19F",
+      "title": "Bomba elétrica CEV",
+      "subtitle": "Montando a unidade, o loop de mídia e os componentes de status juntos",
+      "description": "[
+        \"Com base em duas peças de bombas elétricas CIV, o motor de nível de corrente, a camisa do circuito de manutenção drenável, o cilindro do atuador utilizável e o núcleo do ponto de verificação de transferência contínua são instalados para completar a bomba de nível de corrente.\"
+      ]",
+      "dependencies": [
+        "4B529CC1F658CB71",
+        "4B5681A8C14DB9E0"
+      ],
+      "tasks": [
+        {
+          "id": "4B5F57A12E46D8A5",
+          "type": "item",
+          "item": "hk3gtl:electric_pump_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:electric_pump_cev",
+      "x": 16,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5278D164DEB2C9",
+      "title": "Módulo transportador CEV",
+      "subtitle": "Conecte o driver do transportador à interface de despacho deste nível",
+      "description": "[
+        “Monte dois módulos de correia transportadora CIV e duas peças deste motor de nível, conecte a camada intermediária de serviço substituível, o núcleo do ponto de verificação de transferência contínua e o componente de execução para fazer um novo módulo transportador.”
+      ]",
+      "dependencies": [
+        "4B529CC1F658CB71",
+        "4B5686CEF885ED13"
+      ],
+      "tasks": [
+        {
+          "id": "4B504C54871503F9",
+          "type": "item",
+          "item": "hk3gtl:conveyor_module_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:conveyor_module_cev",
+      "x": 20,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5D5D2C42CBA0AA",
+      "title": "Braço robótico CEV",
+      "subtitle": "Instale o acionamento rotativo e o atuador linear na mesma estrutura",
+      "description": "[
+        “Prepare duas peças deste motor de classe e uma peça deste pistão de classe, monte-as juntas com duas peças de braços robóticos CIV e, em seguida, conecte a camada intermediária de serviço substituível e o núcleo do ponto de verificação de transferência contínua.”
+      ]",
+      "dependencies": [
+        "4B52F08DCBE97DD2",
+        "4B5AA2239404F68C"
+      ],
+      "tasks": [
+        {
+          "id": "4B5D01502500296C",
+          "type": "item",
+          "item": "hk3gtl:robot_arm_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:robot_arm_cev",
+      "x": 24,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B51AD9D2688F3DD",
+      "title": "Sensor CEV",
+      "subtitle": "Receba leituras de status através desta interface de nível",
+      "description": "[
+        \"Monte dois sensores CIV com um intermediário de serviço substituível, um núcleo de ponto de verificação de transferência contínua e uma jaqueta de circuito de manutenção drenável e conecte os circuitos e peças estruturais deste nível para fazer um novo sensor.\"
+      ]",
+      "dependencies": [
+        "4B537E66D4F8E7F4",
+        "4B5EBFF8A38C06F2"
+      ],
+      "tasks": [
+        {
+          "id": "4B55E69AAB9E94F6",
+          "type": "item",
+          "item": "hk3gtl:sensor_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:sensor_cev",
+      "x": 4,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B571F1CEF57B60B",
+      "title": "Transmissor CEV",
+      "subtitle": "Conecte o componente de transmissão a este nível de controle e loop",
+      "description": "[
+        \"Com base em dois transmissores CIV, um intermediário de serviço substituível, um núcleo de ponto de verificação de transferência contínua, uma jaqueta de circuito de manutenção drenável e um laser de pulso ultracurto são adicionados para completar o novo transmissor.\"
+      ]",
+      "dependencies": [
+        "4B537E66D4F8E7F4",
+        "4B502D8896D1E3DC"
+      ],
+      "tasks": [
+        {
+          "id": "4B542FF1A20909FF",
+          "type": "item",
+          "item": "hk3gtl:emitter_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:emitter_cev",
+      "x": 8,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5F6FE9D2F04DCA",
+      "title": "Gerador de campo de força CEV",
+      "subtitle": "Integre componentes de lançamento e medição em controles de campo",
+      "description": "[
+        “Primeiro prepare quatro peças deste nível de transmissores e duas peças deste nível de sensores e, em seguida, monte-as juntas com duas peças de geradores de campo de força CIV, este nível de circuitos e componentes de interface.”
+      ]",
+      "dependencies": [
+        "4B51AD9D2688F3DD",
+        "4B571F1CEF57B60B",
+        "4B56BA011C237249"
+      ],
+      "tasks": [
+        {
+          "id": "4B58D095E455F9FA",
+          "type": "item",
+          "item": "hk3gtl:field_generator_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:field_generator_cev",
+      "x": 24,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B50B186C0A5AE9C",
+      "title": "Peça de interface de serviço substituível",
+      "subtitle": "Deixe uma camada de interface para o lado fixo e o lado de manutenção.",
+      "description": "[
+        \"Usando o sistema Civilization IV para integrar o material de base, camada fina de ligação por difusão e material de vedação de borda para criar uma folha de interface de serviço substituível para preparar a interface para posterior desmontagem controlada e reparo de reabastecimento.\"
+      ]",
+      "dependencies": [
+        "4B55EF1E9B3DACDA",
+        "4B56648313820E90"
+      ],
+      "tasks": [
+        {
+          "id": "4B5413ED560C2C7C",
+          "type": "item",
+          "item": "hk3gtl:replaceable_service_interface_tile",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:replaceable_service_interface_tile",
+      "x": 30,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5F4C2DA483A40E",
+      "title": "Meio de ligação de serviço dissociável",
+      "subtitle": "Preparação de meios de ligação dissociáveis ​​do lado do reparo",
+      "description": "[
+        \"Use um novo transportador líquido e materiais auxiliares sólidos para preparar o meio de ligação e enviá-lo para os processos de assentamento da camada funcional, composição da camada de suporte, reparo e ressolidificação.\"
+      ]",
+      "dependencies": [
+        "4B55EF1E9B3DACDA"
+      ],
+      "tasks": [
+        {
+          "id": "4B55D3239682F8CD",
+          "type": "custom",
+          "title": "Conclusão real da mídia de ligação de serviço dissociável",
+          "tags": [
+            "hk3gtl_quest_cev_n02"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:nano_ceramic",
+      "x": 34,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5D753E6B0EA2B6",
+      "title": "Camada funcional reparável",
+      "subtitle": "Coloque separadamente o lado fixo permanente e o lado de manutenção",
+      "description": "[
+        \"Comece a colocar as camadas com uma nova placa padrão CIV e uma folha de interface, e coloque os materiais no lado permanentemente fixo e no lado de reparo que pode ser aberto, respectivamente, para obter uma camada funcional reparável.\"
+      ]",
+      "dependencies": [
+        "4B50B186C0A5AE9C",
+        "4B5F4C2DA483A40E"
+      ],
+      "tasks": [
+        {
+          "id": "4B50DE7F0D72C9FF",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_stage_1",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_stage_1",
+      "x": 38,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B504BF8313B8490",
+      "title": "Espaço em branco composto da camada de manutenção",
+      "subtitle": "Conecte a camada de função de manutenção à camada de rolamento principal",
+      "description": "[
+        \"Componha a camada funcional reparável com outro lote de espaços em branco padrão CIV e conecte-os com vigas de direção Z e camadas intermediárias anti-expansão. A camada de suporte de carga principal e a camada de reparo consomem o material principal.\"
+      ]",
+      "dependencies": [
+        "4B5D753E6B0EA2B6"
+      ],
+      "tasks": [
+        {
+          "id": "4B510952B3A08F0E",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_stage_2",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_stage_2",
+      "x": 42,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5DA55AF8039DA0",
+      "title": "Peças de serviço com envelhecimento artificial",
+      "subtitle": "Envie o tarugo composto em condições de serviço para condicionamento",
+      "description": "[
+        \"Realize o envelhecimento artificial e o condicionamento de tensão na placa composta da camada de reparo. Retire o refrigerante quente e o fluido de condicionamento residual e obtenha as peças de serviço para a próxima etapa de desmontagem e inspeção.\"
+      ]",
+      "dependencies": [
+        "4B504BF8313B8490"
+      ],
+      "tasks": [
+        {
+          "id": "4B54F6A3D6F2949A",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_stage_3",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_stage_3",
+      "x": 46,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5E9B0A6F4BFEDF",
+      "title": "Desmontagem e inspeção de peças de serviço",
+      "subtitle": "Desmonte as peças envelhecidas e separe a camada danificada",
+      "description": "[
+        \"32 peças de peças de serviço envelhecidas artificialmente foram dissociadas e 28 peças foram separadas em peças reparáveis ​​e desmontadas e materiais residuais não recicláveis. As peças reparáveis ​​foram enviadas para reposição e os materiais residuais foram selados separadamente para processamento.\"
+      ]",
+      "dependencies": [
+        "4B5DA55AF8039DA0"
+      ],
+      "tasks": [
+        {
+          "id": "4B50735E50941723",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_stage_4",
+          "count": 28,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_stage_4",
+      "x": 50,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B547478A13BB8B9",
+      "title": "Status da revisão do reparo do feed",
+      "subtitle": "Utilizar a nova entidade para compensar as perdas causadas pela desmontagem e inspeção",
+      "description": "[
+        \"28 peças reparáveis e desmontadas foram combinadas com 4 blanks padrão CIV, e novas folhas de interface, camadas de colagem e materiais de vedação de borda foram substituídas. Após a solidificação, 32 peças foram obtidas em estado de reparo e revisão com materiais suplementares.\"
+      ]",
+      "dependencies": [
+        "4B5E9B0A6F4BFEDF"
+      ],
+      "tasks": [
+        {
+          "id": "4B52F21F66EC39D8",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_stage_5",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_stage_5",
+      "x": 54,
+      "y": 18,
+      "optional": false
+    },
+    {
+      "id": "4B5BEBA39F5F2638",
+      "title": "Boleto padrão de metal base composto de serviço constante",
+      "subtitle": "Após a conclusão do reparo e revisão, o pacote estará finalizado.",
+      "description": "[
+        \"Reencapsular as portas e bainhas para os materiais reparados e concluir a determinação do comprimento após o resfriamento. Os espaços em branco padrão obtidos são então processados em peças estruturais de nível de custo.\"
+      ]",
+      "dependencies": [
+        "4B547478A13BB8B9"
+      ],
+      "tasks": [
+        {
+          "id": "4B52DDBE33CA6413",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_billet",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_billet",
+      "x": 54,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5C675D38FDE274",
+      "title": "Placa de proteção facial substituível",
+      "subtitle": "Núcleo da placa fixa, mantendo a tampa protetora substituível",
+      "description": "[
+        \"Fixe o lado permanente ao núcleo da placa e permita que o lado destacável carregue a superfície protetora substituível para criar uma placa de material de base composta de serviço contínuo.\"
+      ]",
+      "dependencies": [
+        "4B5BEBA39F5F2638"
+      ],
+      "tasks": [
+        {
+          "id": "4B517C631F7EF1D4",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_plate",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_plate",
+      "x": 50,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B54F6817D14D815",
+      "title": "Stick de continuidade de porta intercambiável",
+      "subtitle": "Mantenha o núcleo da haste e organize uma interface de substituição na extremidade",
+      "description": "[
+        “Retenha o núcleo da haste contínua, adicione uma folha de interface removível na extremidade e, em seguida, complete a embalagem para fazer uma haste contínua.”
+      ]",
+      "dependencies": [
+        "4B5BEBA39F5F2638",
+        "4B5169DF2F36CDFE"
+      ],
+      "tasks": [
+        {
+          "id": "4B5317B23E517E2A",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_rod",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_rod",
+      "x": 46,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B542D8FCF4F68D5",
+      "title": "Estrutura Contínua de Junta Útil",
+      "subtitle": "Organize o local de inspeção na junta de quatro cantos",
+      "description": "[
+        \"Retenha o corpo da viga da estrutura e configure conexões reparáveis e bordas anti-rachaduras nos quatro cantos para criar uma estrutura contínua.\"
+      ]",
+      "dependencies": [
+        "4B54F6817D14D815",
+        "4B510892DE6F743E"
+      ],
+      "tasks": [
+        {
+          "id": "4B5B895AC9D9021C",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_frame",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_frame",
+      "x": 42,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5000890F24860A",
+      "title": "Anel contínuo de extremidade removível",
+      "subtitle": "Mantenha o corpo do anel contínuo e substitua a face final desgastada separadamente",
+      "description": "[
+        “Organize a interface dissociável na face final do anel, retenha o corpo do anel de suporte de carga contínuo e faça um anel contínuo.”
+      ]",
+      "dependencies": [
+        "4B54F6817D14D815",
+        "4B54D6847FD5957F"
+      ],
+      "tasks": [
+        {
+          "id": "4B551A6E7EA5495E",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_ring",
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_ring",
+      "x": 38,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B5D96B2EA3C959C",
+      "title": "Folha contínua de camada protetora destacável",
+      "subtitle": "Deixe o revestimento e os lados permanentes serem unidos separadamente",
+      "description": "[
+        \"Uma interface fina de politetrafluoroetileno é usada para preparar o lado dissociável, e o lado permanente é ligado separadamente para criar uma folha contínua.\"
+      ]",
+      "dependencies": [
+        "4B5C675D38FDE274",
+        "4B5DCD37A1A4F6E4"
+      ],
+      "tasks": [
+        {
+          "id": "4B519AFDF46DF4C7",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_foil",
+          "count": 32,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_foil",
+      "x": 34,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B50E11E02DBF988",
+      "title": "Fio fino contínuo com terminação substituível",
+      "subtitle": "Torne as terminações removíveis individualmente",
+      "description": "[
+        \"O núcleo contínuo e a terminação substituível são feitos separadamente, e uma interface fina é usada para isolar a área de manutenção na terminação para fazer um fio fino composto contínuo.\"
+      ]",
+      "dependencies": [
+        "4B54F6817D14D815",
+        "4B52C7B2C8A73F92"
+      ],
+      "tasks": [
+        {
+          "id": "4B59F3C824918EB3",
+          "type": "item",
+          "item": "hk3gtl:perennial_service_composite_fine_wire",
+          "count": 16,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_fine_wire",
+      "x": 30,
+      "y": 22,
+      "optional": false
+    },
+    {
+      "id": "4B53D2C97ECE3811",
+      "title": "Cubo mecânico CEV",
+      "subtitle": "Montagem de materiais sustentáveis ​​em um invólucro final",
+      "description": "[
+        “Usando o cubo mecânico CIV como núcleo, adicionando placas contínuas, molduras, anéis e interfaces independentes e completando a embalagem, é feito o primeiro lote de cubos mecânicos CEV.
+      ]",
+      "dependencies": [
+        "4B5C675D38FDE274",
+        "4B542D8FCF4F68D5",
+        "4B5000890F24860A",
+        "4B5C0187E115F91B"
+      ],
+      "tasks": [
+        {
+          "id": "4B51B7ABD89728F1",
+          "type": "item",
+          "item": "hk3gtl:voltage_machine_casing_cev",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_cev",
+      "x": 30,
+      "y": 26,
+      "optional": false
+    },
+    {
+      "id": "4B594BFC1472C1F8",
+      "title": "Desmontando o bloco mecânico CEV",
+      "subtitle": "Deixando cascas reutilizáveis ​​e peças estruturais completas",
+      "description": "[
+        “Desmonte o bloco mecânico CEV em camadas e recupere o núcleo do CIV e metade das placas, molduras e anéis completos. O restante do corpo principal é dividido em resíduos classificados, e peças funcionais especiais e materiais de embalagem são consumidos junto com a desmontagem.
+      ]",
+      "dependencies": [
+        "4B53D2C97ECE3811"
+      ],
+      "tasks": [
+        {
+          "id": "4B5AD2275D4A8314",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_cev_n16"
+          ],
+          "item": "hk3gtl:voltage_machine_casing_civ",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:voltage_machine_casing_civ",
+      "x": 0,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B59361147764D33",
+      "title": "Separação de resíduos de materiais originais compostos em serviço contínuo",
+      "subtitle": "Coletar separadamente componentes reconstruíveis e rejeitos",
+      "description": "[
+        \"Use o solvente de processo Soul Steel para eluir os anexos dos resíduos classificados e, em seguida, realize a separação centrífuga. O corpo principal é separado em 75% de componentes reciclados e 25% de rejeitos não recicláveis, e o solvente residual é coletado separadamente.\"
+      ]",
+      "dependencies": [
+        "4B55EF1E9B3DACDA"
+      ],
+      "tasks": [
+        {
+          "id": "4B57D3BDBC23A2B8",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_cev_n17"
+          ],
+          "item": "hk3gtl:perennial_service_composite_recovered_fraction",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_recovered_fraction",
+      "x": 4,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B524AB0A1CADE88",
+      "title": "Reconstruir camada funcional utilizável",
+      "subtitle": "Renovar o corpo principal e reinvestir em excipientes funcionais",
+      "description": "[
+        \"Combine os componentes reciclados com o corpo principal novo de acordo com a fórmula e reinvista todos os materiais auxiliares funcionais para fazer uma camada funcional reparável. Em seguida, continue a fabricação a partir do processo intermediário original.\"
+      ]",
+      "dependencies": [
+        "4B50B186C0A5AE9C",
+        "4B5F4C2DA483A40E"
+      ],
+      "tasks": [
+        {
+          "id": "4B50D3111C27FB45",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_cev_n18"
+          ],
+          "item": "hk3gtl:perennial_service_composite_stage_1",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:perennial_service_composite_stage_1",
+      "x": 8,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B5C758B92F11F79",
+      "title": "Armazenamento de rejeitos de material original composto para serviço contínuo",
+      "subtitle": "Solidifica o material danificado em um resíduo inerte",
+      "description": "[
+        “Os rejeitos não recicláveis são solidificados em cinzas e encaminhados para uso geral em pó. Os componentes reconstruíveis são devolvidos ao processo de envase por outra saída.”
+      ]",
+      "dependencies": [
+        "4B55EF1E9B3DACDA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5EB7051C6C5C71",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_cev_n19"
+          ],
+          "item": "gtceu:ash_dust",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "gtceu:ash_dust",
+      "x": 12,
+      "y": 52,
+      "optional": true
+    },
+    {
+      "id": "4B50F2613657A6F7",
+      "title": "Módulo de interface de serviço intercambiável",
+      "subtitle": "Instale a camada de vedação vulnerável e a interface de amostragem em uma cabine independente",
+      "description": "[
+        \"A camada de vedação vulnerável, a amostragem de status e as interfaces de substituição são formadas em uma cabine independente, que é primeiro fabricada em equipamentos existentes e depois instalada em instalações subsequentes.\"
+      ]",
+      "dependencies": [
+        "4B59451C718B1F9B",
+        "4B5681A8C14DB9E0",
+        "4B56BA011C237249"
+      ],
+      "tasks": [
+        {
+          "id": "4B53B2E049A7C3DA",
+          "type": "item",
+          "item": "hk3gtl:replaceable_service_bay",
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:replaceable_service_bay",
+      "x": 0,
+      "y": 32,
+      "optional": false
+    },
+    {
+      "id": "4B500FF210FA8348",
+      "title": "Herrscher do Conhecimento·Vientiane·Civilização Consensus Matrix Master",
+      "subtitle": "Criando a Matriz de Consenso da Civilização Mestre na Forja",
+      "description": "[
+        “Conclua a pesquisa em RN-SFF e RN-CKV e crie o controle mestre Herrscher of Knowledge, Vientiane e Civilization Consensus Matrix no Herrscher of Fire, Tribulation Flame e Stellar Forge. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha.
+      ]",
+      "dependencies": [
+        "4B522E39065BAE09",
+        "4B50F2613657A6F7",
+        "4B5AA2239404F68C",
+        "4B5C0187E115F91B",
+        "4B50C398C1A91D2B"
+      ],
+      "tasks": [
+        {
+          "id": "4B5A81BE46FBC4D7",
+          "type": "item",
+          "item": "hk3gtl:w09_civilization_consensus_matrix",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:w09_civilization_consensus_matrix",
+      "x": 30,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B529183EBE8C67D",
+      "title": "O Herrscher da Dominância·Qianlu·Controle Mestre de Matriz de Dominância Industrial Distribuída",
+      "subtitle": "Continuação da engenharia industrial distribuída em poço de fundição por gravidade",
+      "description": "[
+        “Conclua a pesquisa em RN-GSF e RN-DIO e fabrique o Herrscher of Domination, Thousand Laws e o controle mestre Distributed Industrial Control Array no Herrscher of Rocks, Falling Stars e Gravitational Singularity Casting Well.
+      ]",
+      "dependencies": [
+        "4B53A013546F4FF4",
+        "4B55CCA4D601F13B"
+      ],
+      "tasks": [
+        {
+          "id": "4B55603324641A5C",
+          "type": "item",
+          "item": "hk3gtl:w11_distributed_industrial_command",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:w11_distributed_industrial_command",
+      "x": 34,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B51E9867D106612",
+      "title": "Herrscher da Erosão · Mundo da Erosão · Pesquisa de Autocálculo Controle Mestre da Máquina Mãe",
+      "subtitle": "Pesquisa contínua de autocálculo da engenharia de restrição de energia",
+      "description": "[
+        \"Conclua a pesquisa RN-ECB e RN-ASR e crie o controle mestre da máquina-mãe Herrscher of Erosion, Eclipse World e Self-Calculation Research no Herrscher of Restraint, Discipline e Global Energy Confinement Wall. Depois de obter o controle mestre, continue a construir a estrutura completa de acordo com o projeto desta maravilha. \"
+      ]",
+      "dependencies": [
+        "4B5F75BA5DA29F9C",
+        "4B59A48A5F3C2FD2"
+      ],
+      "tasks": [
+        {
+          "id": "4B54D836228E6CBD",
+          "type": "item",
+          "item": "hk3gtl:w13_self_computing_research_mother",
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "icon": "hk3gtl:w13_self_computing_research_mother",
+      "x": 38,
+      "y": 36,
+      "optional": false
+    },
+    {
+      "id": "4B5255658774BFB7",
+      "title": "O Herrscher do Fim·A Sequência Final·Controlador Mestre do Motor de Reencarnação da Bolha Mundial",
+      "subtitle": "Pesquisando o controle principal da máquina mãe e fabricando o motor de reencarnação no mundo",
+      "description": "[
+        “Conclua a pesquisa em RN-ASR e RN-WCE e use o Herrscher of Erosion, World of Eclipse e máquinas básicas de pesquisa de autocálculo para criar o Herrscher of the End, Final Sequence e World Bubble Reincarnation Engine master control.
+      ]",
+      "dependencies": [
+        "4B5024CC6F0E23DA",
+        "4B51E9867D106612"
+      ],
+      "tasks": [
+        {
+          "id": "4B5C89C42EFD86E0",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_wonder_k14"
+          ],
+          "item": "hk3gtl:w14_world_bubble_recurrence_engine",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:w14_world_bubble_recurrence_engine",
+      "x": 30,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5918482D84D530",
+      "title": "■■■·Lingxiao·Shuhai Peregrinação ao Controlador da Santa Sé",
+      "subtitle": "Fazendo o Mar de Árvores e Peregrinação ao Mestre da Santa Sé no Motor de Reencarnação",
+      "description": "[
+        “Conclua a pesquisa em RN-WCE e RN-TAA, e faça a fabricação do motor de reencarnação em Herrscher of the End, Ending, World Bubble, Lingxiao, Sea of Trees, e vá para a Santa Sé para controle mestre.
+      ]",
+      "dependencies": [
+        "4B57B4694173EAAF",
+        "4B5255658774BFB7"
+      ],
+      "tasks": [
+        {
+          "id": "4B5ED33AA3218409",
+          "type": "item",
+          "tags": [
+            "hk3gtl_quest_wonder_k15"
+          ],
+          "item": "hk3gtl:w15_tree_sea_audience_throne",
+          "count": 1,
+          "consume_items": false,
+          "only_from_crafting": false
+        }
+      ],
+      "icon": "hk3gtl:w15_tree_sea_audience_throne",
+      "x": 34,
+      "y": 56,
+      "optional": true
+    },
+    {
+      "id": "4B5F75BA5DA29F9C",
+      "title": "Máquina de pesquisa de autocálculo mundial Eclipse",
+      "subtitle": "RN-ASR · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto testado: Imitação de Núcleo de Corrosão Herrscher x 1; Papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. O consumo real de energia é limitado ao cálculo de benchmark e os resultados podem ser verificados e verificados repetidamente.
+        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o Herrscher da Corrosão, o Mundo Eclipse e a Máquina de Pesquisa de Autocálculo serão desbloqueados;
+      ]",
+      "dependencies": [
+        "4B51C820096302E2",
+        "4B591448503FE870"
+      ],
+      "tasks": [
+        {
+          "id": "4B5201043FD06781",
+          "type": "custom",
+          "title": "Concluiu a máquina de pesquisa de autocálculo do mundo eclipse",
+          "tags": [
+            "hk3gtl_quest_rn_asr"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:research_point_computer",
+      "x": 0,
+      "y": 42,
+      "optional": false
+    },
+    {
+      "id": "4B50C907A3CC0D16",
+      "title": "Validação cruzada de conquistas civilizacionais",
+      "subtitle": "RN-CAV · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Envie os registros de operação e arquivos de engenharia de cada um dos quatro equipamentos e verifique a fonte e os resultados;
+        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
+        “O instituto deduz a potência de acordo com a potência total da porta de energia efetiva. Após a conclusão, será gerado um relatório de verificação legível subsequente do resumo total da qualificação;
+      ]",
+      "dependencies": [
+        "4B5F75BA5DA29F9C",
+        "4B522E39065BAE09",
+        "4B53A013546F4FF4",
+        "4B5024CC6F0E23DA"
+      ],
+      "tasks": [
+        {
+          "id": "4B5BA12CA508B968",
+          "type": "custom",
+          "title": "Validação cruzada completa das conquistas da civilização",
+          "tags": [
+            "hk3gtl_quest_rn_cav"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:world_maintenance_specimen",
+      "x": 12,
+      "y": 42,
+      "optional": false
+    },
+    {
+      "id": "4B5744A886919F5B",
+      "title": "Verificação da condição de trabalho entre domínios",
+      "subtitle": "RN-DVC · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto de teste: transportador de modelo mundial × 1; o papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no laboratório reverso de tecnologia legada. A comparação real das diferenças entre Honkai, condições de trabalho quânticas e imaginárias sob suas respectivas condições pode remontar ao experimento original;
+        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
+        \"O instituto deduz a energia com base na potência total da porta de energia efetiva. Após a conclusão, os dados de diagnóstico/verificação do processo entre domínios serão desbloqueados; a autoridade do proprietário do Shuhai não será concedida.\"
+      ]",
+      "dependencies": [
+        "4B517FCB2C3DA737"
+      ],
+      "tasks": [
+        {
+          "id": "4B5E5E6AE70BF9C9",
+          "type": "custom",
+          "title": "Verificação completa das condições de trabalho entre domínios",
+          "tags": [
+            "hk3gtl_quest_rn_dvc"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:cognitive_composite",
+      "x": 4,
+      "y": 42,
+      "optional": false
+    },
+    {
+      "id": "4B57B4694173EAAF",
+      "title": "Peregrinação ao Santo Assento entre as árvores e o mar de árvores",
+      "subtitle": "RN-TAA · Pesquisa experimental e formal",
+      "description": "[
+        \"Objeto testado: Soul Steel Data Baseboard × 1; o papel 2 é usado para registros de teste e a amostra de referência é reciclada\",
+        “Conclua o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. Verifique os resultados reais e envie os registros de 14 maravilhas diferentes por tipo, e não os substitua por 14 máquinas do mesmo tipo ou 14 controladores;
+        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
+        “O instituto de pesquisa retém energia com base na potência total do porto de energia efetivo. Após a conclusão, o resumo de construção e qualificação da Santa Sé de Lingxiao e Shuhai será desbloqueado;
+      ]",
+      "dependencies": [
+        "4B50C907A3CC0D16",
+        "4B5BCAEEE0929B4A",
+        "4B5DBCCB3FAC3E98",
+        "4B5049156571FB42",
+        "4B50C826B7C24906",
+        "4B513376AFB211D3",
+        "4B5DA22287EEF846",
+        "4B58AF9401EC1386",
+        "4B59E02E7D6A402B"
+      ],
+      "tasks": [
+        {
+          "id": "4B565F886D7A81DB",
+          "type": "custom",
+          "title": "Concluiu a peregrinação ao Santo Assento no Céu e no Mar de Árvores",
+          "tags": [
+            "hk3gtl_quest_rn_taa"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:civilization_singularity",
+      "x": 16,
+      "y": 42,
+      "optional": false
+    },
+    {
+      "id": "4B5024CC6F0E23DA",
+      "title": "Mecanismo de reencarnação da bolha mundial final",
+      "subtitle": "RN-WCE · Pesquisa Experimental e Formal",
+      "description": "[
+        \"Objeto de teste: transportador de modelo mundial × 1; o papel 2 é usado para registros de inspeção e a amostra de referência é reciclada\",
+        “Concluir o experimento da equipe no Centro de Aceitação de Engenharia de Civilização. O consumo real de material, consumo de energia, estabilidade e término do mesmo lote são bem-sucedidos e liquidados apenas uma vez;
+        \"Após a conclusão do experimento, escolha 9.690 pontos de pesquisa ou circuito CIV × 10, placa de trititânio × 144 para pagar a taxa básica; são necessários 51.000 ticks adicionais e 2.161.727.821.137.838.080 EU/t. A pressão atual do material é corrigida para os avançados.\",
+        “O instituto de pesquisa deduz a energia de acordo com a potência total da porta de energia efetiva. Após a conclusão, o projeto de simulação avançada Herrscher of the End, Final Sequence e World Bubble Reincarnation Engine será desbloqueado.
+      ]",
+      "dependencies": [
+        "4B55EF1E9B3DACDA"
+      ],
+      "tasks": [
+        {
+          "id": "4B537D8AFE1F512E",
+          "type": "custom",
+          "title": "Complete o mecanismo final de reencarnação da bolha mundial",
+          "tags": [
+            "hk3gtl_quest_rn_wce"
+          ]
+        }
+      ],
+      "icon": "hk3gtl:stable_simulated_world_bubble",
+      "x": 8,
+      "y": 42,
+      "optional": false
+    }
+  ]
+}
